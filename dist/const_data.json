@@ -1,1 +1,4035 @@
-{"attributeRelation":{"human":{"human":1000,"sky":1100,"earth":900,"star":1000,"beast":1000},"sky":{"human":900,"sky":1000,"earth":1100,"star":1000,"beast":1000},"earth":{"human":1100,"sky":900,"earth":1000,"star":1000,"beast":1000},"star":{"human":1000,"sky":1000,"earth":1000,"star":1000,"beast":1100},"beast":{"human":1000,"sky":1000,"earth":1000,"star":1100,"beast":1000}},"buffActions":{"commandAtk":{"limit":"normal","plusTypes":["upCommandatk","upCommandall"],"minusTypes":["downCommandatk","downCommandall"],"baseParam":1000,"baseValue":0,"isRec":true,"plusAction":0,"maxRate":[5000]},"commandDef":{"limit":"upper","plusTypes":["upDefencecommandall","upDefencecommanDamage"],"minusTypes":["downDefencecommandall","downDefencecommanDamage"],"baseParam":1000,"baseValue":0,"isRec":true,"plusAction":0,"maxRate":[5000]},"atk":{"limit":"normal","plusTypes":["upAtk"],"minusTypes":["downAtk"],"baseParam":1000,"baseValue":0,"isRec":true,"plusAction":0,"maxRate":[5000,10000]},"defence":{"limit":"lower","plusTypes":["upDefence"],"minusTypes":["downDefence"],"baseParam":1000,"baseValue":0,"isRec":true,"plusAction":0,"maxRate":[5000]},"defencePierce":{"limit":"lower","plusTypes":[],"minusTypes":["downDefence"],"baseParam":1000,"baseValue":0,"isRec":true,"plusAction":0,"maxRate":[5000]},"specialdefence":{"limit":"normal","plusTypes":["upSpecialdefence"],"minusTypes":["downSpecialdefence"],"baseParam":1000,"baseValue":1000,"isRec":true,"plusAction":0,"maxRate":[5000]},"damage":{"limit":"upper","plusTypes":["upDamage"],"minusTypes":["downDamage"],"baseParam":1000,"baseValue":1000,"isRec":true,"plusAction":0,"maxRate":[10000]},"damageIndividuality":{"limit":"upper","plusTypes":["upDamageIndividuality"],"minusTypes":["downDamageIndividuality"],"baseParam":1000,"baseValue":1000,"isRec":true,"plusAction":0,"maxRate":[]},"damageIndividualityActiveonly":{"limit":"upper","plusTypes":["upDamageIndividualityActiveonly"],"minusTypes":["downDamageIndividualityActiveonly"],"baseParam":1000,"baseValue":1000,"isRec":true,"plusAction":0,"maxRate":[10000]},"selfdamage":{"limit":"upper","plusTypes":["upSelfdamage"],"minusTypes":["downSelfdamage"],"baseParam":1000,"baseValue":1000,"isRec":true,"plusAction":0,"maxRate":[5000]},"criticalDamage":{"limit":"upper","plusTypes":["upCriticaldamage"],"minusTypes":["downCriticaldamage"],"baseParam":1000,"baseValue":1000,"isRec":true,"plusAction":0,"maxRate":[5000]},"npdamage":{"limit":"upper","plusTypes":["upNpdamage"],"minusTypes":["downNpdamage"],"baseParam":1000,"baseValue":1000,"isRec":true,"plusAction":0,"maxRate":[5000,30000]},"givenDamage":{"limit":"none","plusTypes":["addDamage"],"minusTypes":["subDamage"],"baseParam":0,"baseValue":0,"isRec":true,"plusAction":0,"maxRate":[0]},"receiveDamage":{"limit":"none","plusTypes":["addSelfdamage"],"minusTypes":["subSelfdamage"],"baseParam":0,"baseValue":0,"isRec":true,"plusAction":0,"maxRate":[0]},"pierceInvincible":{"limit":"none","plusTypes":["pierceInvincible"],"minusTypes":[],"baseParam":1000,"baseValue":0,"isRec":true,"plusAction":0,"maxRate":[0]},"invincible":{"limit":"none","plusTypes":["invincible"],"minusTypes":[],"baseParam":1000,"baseValue":0,"isRec":true,"plusAction":0,"maxRate":[0]},"breakAvoidance":{"limit":"none","plusTypes":["breakAvoidance"],"minusTypes":[],"baseParam":1000,"baseValue":0,"isRec":true,"plusAction":0,"maxRate":[0]},"avoidance":{"limit":"none","plusTypes":["avoidance"],"minusTypes":[],"baseParam":1000,"baseValue":0,"isRec":true,"plusAction":0,"maxRate":[0]},"overwriteBattleclass":{"limit":"none","plusTypes":["overwriteBattleclass"],"minusTypes":[],"baseParam":1000,"baseValue":0,"isRec":true,"plusAction":0,"maxRate":[0]},"overwriteClassrelatioAtk":{"limit":"none","plusTypes":["overwriteClassrelatioAtk"],"minusTypes":[],"baseParam":1000,"baseValue":0,"isRec":true,"plusAction":0,"maxRate":[]},"overwriteClassrelatioDef":{"limit":"none","plusTypes":["overwriteClassrelatioDef"],"minusTypes":[],"baseParam":1000,"baseValue":0,"isRec":true,"plusAction":0,"maxRate":[]},"commandNpAtk":{"limit":"normal","plusTypes":["upCommandnp","upCommandall"],"minusTypes":["downCommandnp","downCommandall"],"baseParam":1000,"baseValue":0,"isRec":true,"plusAction":0,"maxRate":[5000]},"commandNpDef":{"limit":"upper","plusTypes":["upDefencecommandall"],"minusTypes":["downDefencecommandall"],"baseParam":1000,"baseValue":0,"isRec":true,"plusAction":0,"maxRate":[5000]},"dropNp":{"limit":"normal","plusTypes":["upDropnp"],"minusTypes":["downDropnp"],"baseParam":1000,"baseValue":0,"isRec":true,"plusAction":0,"maxRate":[5000]},"dropNpDamage":{"limit":"normal","plusTypes":["upDamagedropnp"],"minusTypes":["downDamagedropnp"],"baseParam":1000,"baseValue":0,"isRec":true,"plusAction":0,"maxRate":[5000]},"commandStarAtk":{"limit":"normal","plusTypes":["upCommandstar","upCommandall"],"minusTypes":["downCommanstar","downCommandall"],"baseParam":1000,"baseValue":0,"isRec":true,"plusAction":0,"maxRate":[5000]},"commandStarDef":{"limit":"upper","plusTypes":["upDefencecommandall"],"minusTypes":["downDefencecommandall"],"baseParam":1000,"baseValue":0,"isRec":true,"plusAction":0,"maxRate":[5000]},"criticalPoint":{"limit":"normal","plusTypes":["upCriticalpoint"],"minusTypes":["downCriticalpoint"],"baseParam":1000,"baseValue":1000,"isRec":true,"plusAction":0,"maxRate":[5000]},"starweight":{"limit":"normal","plusTypes":["upStarweight"],"minusTypes":["downStarweight"],"baseParam":1000,"baseValue":0,"isRec":true,"plusAction":0,"maxRate":[500000,100000]},"turnendNp":{"limit":"none","plusTypes":["regainNp"],"minusTypes":["reduceNp"],"baseParam":0,"baseValue":0,"isRec":false,"plusAction":71,"maxRate":[0]},"turnendStar":{"limit":"none","plusTypes":["regainStar"],"minusTypes":[],"baseParam":0,"baseValue":0,"isRec":false,"plusAction":0,"maxRate":[0]},"turnendHpRegain":{"limit":"none","plusTypes":["regainHp"],"minusTypes":[],"baseParam":0,"baseValue":0,"isRec":false,"plusAction":0,"maxRate":[0]},"turnendHpReduce":{"limit":"none","plusTypes":["reduceHp"],"minusTypes":[],"baseParam":0,"baseValue":0,"isRec":false,"plusAction":72,"maxRate":[0]},"gainHp":{"limit":"normal","plusTypes":["upGainHp"],"minusTypes":["downGainHp"],"baseParam":1000,"baseValue":0,"isRec":true,"plusAction":0,"maxRate":[50000]},"turnvalNp":{"limit":"none","plusTypes":["upNpturnval"],"minusTypes":["downNpturnval"],"baseParam":0,"baseValue":0,"isRec":true,"plusAction":0,"maxRate":[0]},"grantState":{"limit":"normal","plusTypes":["upGrantstate"],"minusTypes":["downGrantstate"],"baseParam":1000,"baseValue":1000,"isRec":true,"plusAction":0,"maxRate":[5000]},"resistanceState":{"limit":"normal","plusTypes":["upTolerance"],"minusTypes":["downTolerance"],"baseParam":1000,"baseValue":1000,"isRec":true,"plusAction":0,"maxRate":[5000]},"avoidState":{"limit":"none","plusTypes":["avoidState"],"minusTypes":[],"baseParam":1000,"baseValue":0,"isRec":true,"plusAction":0,"maxRate":[0]},"donotAct":{"limit":"none","plusTypes":["donotAct"],"minusTypes":[],"baseParam":1000,"baseValue":0,"isRec":true,"plusAction":0,"maxRate":[0]},"donotSkill":{"limit":"none","plusTypes":["donotSkill"],"minusTypes":[],"baseParam":1000,"baseValue":0,"isRec":true,"plusAction":0,"maxRate":[0]},"donotNoble":{"limit":"none","plusTypes":["donotNoble"],"minusTypes":[],"baseParam":1000,"baseValue":0,"isRec":true,"plusAction":0,"maxRate":[0]},"donotRecovery":{"limit":"none","plusTypes":["donotRecovery"],"minusTypes":[],"baseParam":1000,"baseValue":0,"isRec":true,"plusAction":0,"maxRate":[0]},"individualityAdd":{"limit":"none","plusTypes":["addIndividuality"],"minusTypes":[],"baseParam":1000,"baseValue":0,"isRec":true,"plusAction":0,"maxRate":[0]},"individualitySub":{"limit":"none","plusTypes":["subIndividuality"],"minusTypes":[],"baseParam":1000,"baseValue":0,"isRec":true,"plusAction":0,"maxRate":[0]},"hate":{"limit":"none","plusTypes":["upHate"],"minusTypes":[],"baseParam":1000,"baseValue":0,"isRec":true,"plusAction":0,"maxRate":[50000]},"criticalRate":{"limit":"normal","plusTypes":["upCriticalrate"],"minusTypes":["downCriticalrate"],"baseParam":1000,"baseValue":1000,"isRec":true,"plusAction":0,"maxRate":[5000]},"avoidInstantdeath":{"limit":"normal","plusTypes":["avoidInstantdeath"],"minusTypes":[],"baseParam":1000,"baseValue":0,"isRec":true,"plusAction":0,"maxRate":[0]},"resistInstantdeath":{"limit":"normal","plusTypes":["upResistInstantdeath"],"minusTypes":[],"baseParam":1000,"baseValue":1000,"isRec":true,"plusAction":0,"maxRate":[5000]},"nonresistInstantdeath":{"limit":"normal","plusTypes":["upNonresistInstantdeath"],"minusTypes":[],"baseParam":1000,"baseValue":1000,"isRec":true,"plusAction":0,"maxRate":[5000]},"regainNpUsedNoble":{"limit":"none","plusTypes":["regainNpUsedNoble"],"minusTypes":[],"baseParam":1000,"baseValue":1000,"isRec":true,"plusAction":0,"maxRate":[50000]},"functionDead":{"limit":"none","plusTypes":["deadFunction"],"minusTypes":[],"baseParam":1000,"baseValue":0,"isRec":true,"plusAction":0,"maxRate":[0]},"maxhpRate":{"limit":"normal","plusTypes":["upMaxhp"],"minusTypes":["downMaxhp"],"baseParam":1000,"baseValue":1000,"isRec":true,"plusAction":0,"maxRate":[5000]},"maxhpValue":{"limit":"none","plusTypes":["addMaxhp"],"minusTypes":["subMaxhp"],"baseParam":0,"baseValue":0,"isRec":true,"plusAction":0,"maxRate":[50000]},"functionWavestart":{"limit":"none","plusTypes":["wavestartFunction"],"minusTypes":[],"baseParam":1000,"baseValue":0,"isRec":true,"plusAction":0,"maxRate":[0]},"functionSelfturnend":{"limit":"none","plusTypes":["selfturnendFunction"],"minusTypes":[],"baseParam":1000,"baseValue":0,"isRec":true,"plusAction":0,"maxRate":[0]},"giveGainHp":{"limit":"normal","plusTypes":["upGivegainHp"],"minusTypes":["downGivegainHp"],"baseParam":1000,"baseValue":0,"isRec":true,"plusAction":0,"maxRate":[50000]},"functionCommandattack":{"limit":"none","plusTypes":["commandattackFunction"],"minusTypes":[],"baseParam":1000,"baseValue":0,"isRec":true,"plusAction":0,"maxRate":[0]},"functionDeadattack":{"limit":"none","plusTypes":["deadattackFunction"],"minusTypes":[],"baseParam":1000,"baseValue":0,"isRec":true,"plusAction":0,"maxRate":[0]},"functionEntry":{"limit":"none","plusTypes":["entryFunction"],"minusTypes":[],"baseParam":1000,"baseValue":0,"isRec":true,"plusAction":0,"maxRate":[0]},"chagetd":{"limit":"none","plusTypes":["upChagetd"],"minusTypes":[],"baseParam":0,"baseValue":0,"isRec":true,"plusAction":0,"maxRate":[5]},"grantSubstate":{"limit":"normal","plusTypes":["upGrantSubstate"],"minusTypes":["downGrantSubstate"],"baseParam":1000,"baseValue":1000,"isRec":true,"plusAction":0,"maxRate":[5000]},"toleranceSubstate":{"limit":"normal","plusTypes":["upToleranceSubstate"],"minusTypes":["downToleranceSubstate"],"baseParam":1000,"baseValue":1000,"isRec":true,"plusAction":0,"maxRate":[5000]},"grantInstantdeath":{"limit":"normal","plusTypes":["upGrantInstantdeath"],"minusTypes":["downGrantInstantdeath"],"baseParam":1000,"baseValue":1000,"isRec":true,"plusAction":0,"maxRate":[5000]},"functionDamage":{"limit":"none","plusTypes":["damageFunction"],"minusTypes":[],"baseParam":1000,"baseValue":0,"isRec":true,"plusAction":0,"maxRate":[0]},"functionReflection":{"limit":"none","plusTypes":["reflectionFunction"],"minusTypes":[],"baseParam":1000,"baseValue":0,"isRec":true,"plusAction":0,"maxRate":[0]},"multiattack":{"limit":"none","plusTypes":["multiattack"],"minusTypes":[],"baseParam":1000,"baseValue":0,"isRec":true,"plusAction":0,"maxRate":[10]},"giveNp":{"limit":"upper","plusTypes":["upGiveNp"],"minusTypes":["downGiveNp"],"baseParam":1000,"baseValue":0,"isRec":true,"plusAction":0,"maxRate":[5000]},"resistanceDelayNpturn":{"limit":"none","plusTypes":["upResistanceDelayNpturn"],"minusTypes":["downResistanceDelayNpturn"],"baseParam":1000,"baseValue":1000,"isRec":true,"plusAction":0,"maxRate":[5000]},"pierceDefence":{"limit":"none","plusTypes":["pierceDefence"],"minusTypes":[],"baseParam":1000,"baseValue":0,"isRec":true,"plusAction":0,"maxRate":[0]},"gutsHp":{"limit":"none","plusTypes":["upGutsHp"],"minusTypes":["downGutsHp"],"baseParam":1000,"baseValue":0,"isRec":true,"plusAction":0,"maxRate":[]},"funcgainNp":{"limit":"none","plusTypes":["upFuncgainNp"],"minusTypes":["downFuncgainNp"],"baseParam":1000,"baseValue":0,"isRec":true,"plusAction":0,"maxRate":[1000]},"funcHpReduce":{"limit":"none","plusTypes":["upFuncHpReduce"],"minusTypes":["downFuncHpReduce"],"baseParam":1000,"baseValue":0,"isRec":true,"plusAction":0,"maxRate":[5000]},"functionNpattack":{"limit":"none","plusTypes":["npattackPrevBuff"],"minusTypes":[],"baseParam":1000,"baseValue":0,"isRec":true,"plusAction":0,"maxRate":[0]},"fixCommandcard":{"limit":"none","plusTypes":["fixCommandcard"],"minusTypes":[],"baseParam":1000,"baseValue":0,"isRec":true,"plusAction":0,"maxRate":[0]},"donotGainnp":{"limit":"none","plusTypes":["donotGainnp"],"minusTypes":[],"baseParam":1000,"baseValue":0,"isRec":true,"plusAction":0,"maxRate":[]},"fieldIndividuality":{"limit":"none","plusTypes":["fieldIndividuality"],"minusTypes":[],"baseParam":1000,"baseValue":0,"isRec":true,"plusAction":0,"maxRate":[0]},"donotActCommandtype":{"limit":"none","plusTypes":["donotActCommandtype"],"minusTypes":[],"baseParam":1000,"baseValue":0,"isRec":true,"plusAction":0,"maxRate":[0]},"damageEventPoint":{"limit":"upper","plusTypes":["upDamageEventPoint"],"minusTypes":[],"baseParam":1000,"baseValue":1000,"isRec":true,"plusAction":0,"maxRate":[10000]},"damageSpecial":{"limit":"upper","plusTypes":["upDamageSpecial"],"minusTypes":[],"baseParam":1000,"baseValue":1000,"isRec":true,"plusAction":0,"maxRate":[]},"functionAttack":{"limit":"none","plusTypes":["attackFunction"],"minusTypes":[],"baseParam":1000,"baseValue":0,"isRec":true,"plusAction":0,"maxRate":[0]},"functionCommandcodeattack":{"limit":"none","plusTypes":["commandcodeattackFunction"],"minusTypes":[],"baseParam":1000,"baseValue":0,"isRec":true,"plusAction":0,"maxRate":[0]},"donotNobleCondMismatch":{"limit":"none","plusTypes":["donotNobleCondMismatch"],"minusTypes":[],"baseParam":1000,"baseValue":0,"isRec":true,"plusAction":0,"maxRate":[0]},"donotSelectCommandcard":{"limit":"none","plusTypes":["donotSelectCommandcard"],"minusTypes":[],"baseParam":1000,"baseValue":0,"isRec":true,"plusAction":0,"maxRate":[0]},"donotReplace":{"limit":"none","plusTypes":["donotReplace"],"minusTypes":[],"baseParam":1000,"baseValue":0,"isRec":true,"plusAction":0,"maxRate":[0]},"shortenUserEquipSkill":{"limit":"none","plusTypes":["shortenUserEquipSkill"],"minusTypes":[],"baseParam":1000,"baseValue":0,"isRec":true,"plusAction":0,"maxRate":[0]},"tdTypeChange":{"limit":"none","plusTypes":["tdTypeChange","tdTypeChangeArts","tdTypeChangeBuster","tdTypeChangeQuick"],"minusTypes":[],"baseParam":-1,"baseValue":0,"isRec":true,"plusAction":0,"maxRate":[0]},"overwriteClassRelation":{"limit":"none","plusTypes":["overwriteClassRelation"],"minusTypes":[],"baseParam":1000,"baseValue":0,"isRec":true,"plusAction":0,"maxRate":[0]},"functionCommandattackBefore":{"limit":"none","plusTypes":["commandattackBeforeFunction"],"minusTypes":[],"baseParam":1000,"baseValue":0,"isRec":true,"plusAction":0,"maxRate":[0]},"functionGuts":{"limit":"none","plusTypes":["gutsFunction"],"minusTypes":[],"baseParam":1000,"baseValue":0,"isRec":true,"plusAction":0,"maxRate":[0]},"criticalRateDamageTaken":{"limit":"normal","plusTypes":["upCriticalRateDamageTaken"],"minusTypes":["downCriticalRateDamageTaken"],"baseParam":1000,"baseValue":1000,"isRec":true,"plusAction":0,"maxRate":[5000]},"criticalStarDamageTaken":{"limit":"normal","plusTypes":["upCriticalStarDamageTaken"],"minusTypes":["downCriticalStarDamageTaken"],"baseParam":1000,"baseValue":1000,"isRec":true,"plusAction":0,"maxRate":[5000]},"skillRankChange":{"limit":"normal","plusTypes":["skillRankUp"],"minusTypes":[],"baseParam":0,"baseValue":0,"isRec":true,"plusAction":0,"maxRate":[0]},"avoidanceIndividuality":{"limit":"normal","plusTypes":["avoidanceIndividuality"],"minusTypes":[],"baseParam":1000,"baseValue":0,"isRec":true,"plusAction":0,"maxRate":[0]},"changeCommandCardType":{"limit":"none","plusTypes":["changeCommandCardType"],"minusTypes":[],"baseParam":1000,"baseValue":0,"isRec":true,"plusAction":0,"maxRate":[0]},"specialInvincible":{"limit":"none","plusTypes":["specialInvincible"],"minusTypes":[],"baseParam":1000,"baseValue":0,"isRec":true,"plusAction":0,"maxRate":[0]},"preventDeathByDamage":{"limit":"none","plusTypes":["preventDeathByDamage"],"minusTypes":[],"baseParam":1000,"baseValue":0,"isRec":true,"plusAction":0,"maxRate":[0]},"functionCommandcodeattackAfter":{"limit":"none","plusTypes":["commandcodeattackAfterFunction"],"minusTypes":[],"baseParam":1000,"baseValue":0,"isRec":true,"plusAction":0,"maxRate":[0]},"functionAttackBefore":{"limit":"none","plusTypes":["attackBeforeFunction"],"minusTypes":[],"baseParam":1000,"baseValue":0,"isRec":true,"plusAction":0,"maxRate":[0]}},"cardInfo":{"arts":{"1":{"individuality":[{"id":4001},{"id":4008}],"adjustAtk":1000,"adjustTdGauge":3000,"adjustCritical":0,"addAtk":0,"addTdGauge":1000,"addCritical":0},"2":{"individuality":[{"id":4001},{"id":4008}],"adjustAtk":1200,"adjustTdGauge":4500,"adjustCritical":0,"addAtk":0,"addTdGauge":0,"addCritical":0},"3":{"individuality":[{"id":4001},{"id":4008}],"adjustAtk":1400,"adjustTdGauge":6000,"adjustCritical":0,"addAtk":0,"addTdGauge":0,"addCritical":0}},"buster":{"1":{"individuality":[{"id":4002},{"id":4008}],"adjustAtk":1500,"adjustTdGauge":0,"adjustCritical":100,"addAtk":500,"addTdGauge":0,"addCritical":0},"2":{"individuality":[{"id":4002},{"id":4008}],"adjustAtk":1800,"adjustTdGauge":0,"adjustCritical":150,"addAtk":0,"addTdGauge":0,"addCritical":0},"3":{"individuality":[{"id":4002},{"id":4008}],"adjustAtk":2100,"adjustTdGauge":0,"adjustCritical":200,"addAtk":0,"addTdGauge":0,"addCritical":0}},"quick":{"1":{"individuality":[{"id":4003},{"id":4008}],"adjustAtk":800,"adjustTdGauge":1000,"adjustCritical":800,"addAtk":0,"addTdGauge":0,"addCritical":200},"2":{"individuality":[{"id":4003},{"id":4008}],"adjustAtk":960,"adjustTdGauge":1500,"adjustCritical":1300,"addAtk":0,"addTdGauge":0,"addCritical":0},"3":{"individuality":[{"id":4003},{"id":4008}],"adjustAtk":1120,"adjustTdGauge":2000,"adjustCritical":1800,"addAtk":0,"addTdGauge":0,"addCritical":0}},"extra":{"1":{"individuality":[{"id":4004},{"id":4008}],"adjustAtk":1000,"adjustTdGauge":1000,"adjustCritical":1000,"addAtk":0,"addTdGauge":0,"addCritical":0},"4":{"individuality":[{"id":4004},{"id":4008}],"adjustAtk":1000,"adjustTdGauge":1000,"adjustCritical":1000,"addAtk":0,"addTdGauge":0,"addCritical":0}},"blank":{"0":{"individuality":[],"adjustAtk":0,"adjustTdGauge":0,"adjustCritical":0,"addAtk":0,"addTdGauge":0,"addCritical":0}},"weak":{"1":{"individuality":[{"id":4005}],"adjustAtk":1000,"adjustTdGauge":0,"adjustCritical":0,"addAtk":0,"addTdGauge":0,"addCritical":0},"2":{"individuality":[{"id":4005}],"adjustAtk":1000,"adjustTdGauge":0,"adjustCritical":0,"addAtk":0,"addTdGauge":0,"addCritical":0},"3":{"individuality":[{"id":4005}],"adjustAtk":1000,"adjustTdGauge":0,"adjustCritical":0,"addAtk":0,"addTdGauge":0,"addCritical":0},"4":{"individuality":[{"id":4005}],"adjustAtk":1000,"adjustTdGauge":0,"adjustCritical":0,"addAtk":0,"addTdGauge":0,"addCritical":0},"5":{"individuality":[{"id":4005}],"adjustAtk":1000,"adjustTdGauge":0,"adjustCritical":0,"addAtk":0,"addTdGauge":0,"addCritical":0}},"strength":{"1":{"individuality":[{"id":4006}],"adjustAtk":1000,"adjustTdGauge":0,"adjustCritical":0,"addAtk":0,"addTdGauge":0,"addCritical":0},"2":{"individuality":[{"id":4006}],"adjustAtk":1000,"adjustTdGauge":0,"adjustCritical":0,"addAtk":0,"addTdGauge":0,"addCritical":0},"3":{"individuality":[{"id":4006}],"adjustAtk":1000,"adjustTdGauge":0,"adjustCritical":0,"addAtk":0,"addTdGauge":0,"addCritical":0},"4":{"individuality":[{"id":4006}],"adjustAtk":1000,"adjustTdGauge":0,"adjustCritical":0,"addAtk":0,"addTdGauge":0,"addCritical":0},"5":{"individuality":[{"id":4006}],"adjustAtk":1000,"adjustTdGauge":0,"adjustCritical":0,"addAtk":0,"addTdGauge":0,"addCritical":0}}},"classAttackRate":{"saber":1000,"archer":950,"lancer":1050,"rider":1000,"caster":900,"assassin":900,"berserker":1100,"shielder":1000,"ruler":1100,"alterEgo":1000,"avenger":1100,"demonGodPillar":1000,"grandCaster":900,"beastII":1000,"ushiChaosTide":1000,"beastI":1000,"moonCancer":1000,"beastIIIR":1000,"foreigner":1000,"beastIIIL":1000,"beastUnknown":1000,"pretender":1000,"beastIV":1000,"unknown":1000,"agarthaPenth":1100,"cccFinaleEmiyaAlter":1000,"salemAbby":1000,"ALL":1000},"classRelation":{"saber":{"saber":1000,"archer":500,"lancer":2000,"rider":1000,"caster":1000,"assassin":1000,"berserker":2000,"shielder":1000,"ruler":500,"alterEgo":1000,"avenger":1000,"demonGodPillar":1000,"beastII":1000,"beastI":1000,"moonCancer":1000,"beastIIIR":1000,"foreigner":1000,"beastIIIL":1000,"beastUnknown":1000,"pretender":1000,"beastIV":1000,"cccFinaleEmiyaAlter":1000},"archer":{"saber":2000,"archer":1000,"lancer":500,"rider":1000,"caster":1000,"assassin":1000,"berserker":2000,"shielder":1000,"ruler":500,"alterEgo":1000,"avenger":1000,"demonGodPillar":1000,"beastII":1000,"beastI":1000,"moonCancer":1000,"beastIIIR":1000,"foreigner":1000,"beastIIIL":1000,"beastUnknown":1000,"pretender":1000,"beastIV":1000,"cccFinaleEmiyaAlter":1000},"lancer":{"saber":500,"archer":2000,"lancer":1000,"rider":1000,"caster":1000,"assassin":1000,"berserker":2000,"shielder":1000,"ruler":500,"alterEgo":1000,"avenger":1000,"demonGodPillar":1000,"beastII":1000,"beastI":1000,"moonCancer":1000,"beastIIIR":1000,"foreigner":1000,"beastIIIL":1000,"beastUnknown":1000,"pretender":1000,"beastIV":1000,"cccFinaleEmiyaAlter":1000},"rider":{"saber":1000,"archer":1000,"lancer":1000,"rider":1000,"caster":2000,"assassin":500,"berserker":2000,"shielder":1000,"ruler":500,"alterEgo":1000,"avenger":1000,"demonGodPillar":2000,"beastII":1000,"beastI":2000,"moonCancer":1000,"beastIIIR":1000,"foreigner":1000,"beastIIIL":1000,"beastUnknown":1000,"pretender":1000,"beastIV":1000,"cccFinaleEmiyaAlter":1000},"caster":{"saber":1000,"archer":1000,"lancer":1000,"rider":500,"caster":1000,"assassin":2000,"berserker":2000,"shielder":1000,"ruler":500,"alterEgo":1000,"avenger":1000,"demonGodPillar":2000,"beastII":1000,"beastI":2000,"moonCancer":1000,"beastIIIR":1000,"foreigner":1000,"beastIIIL":1000,"beastUnknown":1000,"pretender":1000,"beastIV":1000,"cccFinaleEmiyaAlter":1000},"assassin":{"saber":1000,"archer":1000,"lancer":1000,"rider":2000,"caster":500,"assassin":1000,"berserker":2000,"shielder":1000,"ruler":500,"alterEgo":1000,"avenger":1000,"demonGodPillar":2000,"beastII":1000,"beastI":2000,"moonCancer":1000,"beastIIIR":1000,"foreigner":1000,"beastIIIL":1000,"beastUnknown":1000,"pretender":1000,"beastIV":1000,"cccFinaleEmiyaAlter":1000},"berserker":{"saber":1500,"archer":1500,"lancer":1500,"rider":1500,"caster":1500,"assassin":1500,"berserker":1500,"shielder":1000,"ruler":1500,"alterEgo":1500,"avenger":1500,"demonGodPillar":1500,"beastII":1000,"beastI":1500,"moonCancer":1500,"beastIIIR":1000,"foreigner":500,"beastIIIL":1000,"beastUnknown":1000,"pretender":1500,"beastIV":1000,"cccFinaleEmiyaAlter":1000},"shielder":{"saber":1000,"archer":1000,"lancer":1000,"rider":1000,"caster":1000,"assassin":1000,"berserker":1000,"shielder":1000,"ruler":1000,"alterEgo":1000,"avenger":1000,"demonGodPillar":1000,"beastII":1000,"beastI":1000,"moonCancer":1000,"beastIIIR":1000,"foreigner":1000,"beastIIIL":1000,"beastUnknown":1000,"pretender":1000,"beastIV":1000,"cccFinaleEmiyaAlter":1000},"ruler":{"saber":1000,"archer":1000,"lancer":1000,"rider":1000,"caster":1000,"assassin":1000,"berserker":2000,"shielder":1000,"ruler":1000,"alterEgo":1000,"avenger":500,"demonGodPillar":1000,"beastII":1000,"beastI":1000,"moonCancer":2000,"beastIIIR":1000,"foreigner":1000,"beastIIIL":1000,"beastUnknown":1000,"pretender":1000,"beastIV":1000,"cccFinaleEmiyaAlter":1000},"alterEgo":{"saber":500,"archer":500,"lancer":500,"rider":1500,"caster":1500,"assassin":1500,"berserker":2000,"shielder":1000,"ruler":1000,"alterEgo":1000,"avenger":1000,"demonGodPillar":1000,"beastII":1000,"beastI":1000,"moonCancer":1000,"beastIIIR":1200,"foreigner":2000,"beastIIIL":1200,"beastUnknown":1000,"pretender":500,"beastIV":1000,"cccFinaleEmiyaAlter":1200},"avenger":{"saber":1000,"archer":1000,"lancer":1000,"rider":1000,"caster":1000,"assassin":1000,"berserker":2000,"shielder":1000,"ruler":2000,"alterEgo":1000,"avenger":1000,"demonGodPillar":1000,"beastII":1000,"beastI":1000,"moonCancer":500,"beastIIIR":1000,"foreigner":1000,"beastIIIL":1000,"beastUnknown":1000,"pretender":1000,"beastIV":1000,"cccFinaleEmiyaAlter":1000},"demonGodPillar":{"saber":2000,"archer":2000,"lancer":2000,"rider":1000,"caster":1000,"assassin":1000,"berserker":2000,"shielder":1000,"ruler":1000,"alterEgo":1000,"avenger":500,"demonGodPillar":1000,"beastII":1000,"beastI":1000,"moonCancer":1000,"beastIIIR":1000,"foreigner":1000,"beastIIIL":1000,"beastUnknown":1000,"pretender":1000,"beastIV":1000,"cccFinaleEmiyaAlter":1000},"beastII":{"saber":1000,"archer":1000,"lancer":1000,"rider":1000,"caster":1000,"assassin":1000,"berserker":1000,"shielder":1000,"ruler":1000,"alterEgo":1000,"avenger":1000,"demonGodPillar":1000,"beastII":1000,"beastI":1000,"moonCancer":1000,"beastIIIR":1000,"foreigner":1000,"beastIIIL":1000,"beastUnknown":1000,"pretender":1000,"beastIV":1000,"cccFinaleEmiyaAlter":1000},"beastI":{"saber":2000,"archer":2000,"lancer":2000,"rider":1000,"caster":1000,"assassin":1000,"berserker":2000,"shielder":1000,"ruler":1000,"alterEgo":1000,"avenger":500,"demonGodPillar":1000,"beastII":1000,"beastI":1000,"moonCancer":1000,"beastIIIR":1000,"foreigner":1000,"beastIIIL":1000,"beastUnknown":1000,"pretender":1000,"beastIV":1000,"cccFinaleEmiyaAlter":1000},"moonCancer":{"saber":1000,"archer":1000,"lancer":1000,"rider":1000,"caster":1000,"assassin":1000,"berserker":2000,"shielder":1000,"ruler":500,"alterEgo":1000,"avenger":2000,"demonGodPillar":1000,"beastII":1000,"beastI":1000,"moonCancer":1000,"beastIIIR":1200,"foreigner":1000,"beastIIIL":1000,"beastUnknown":1000,"pretender":1000,"beastIV":1000,"cccFinaleEmiyaAlter":1200},"beastIIIR":{"saber":1000,"archer":1000,"lancer":1000,"rider":1000,"caster":1000,"assassin":1000,"berserker":1000,"shielder":1000,"ruler":1000,"alterEgo":1000,"avenger":1000,"demonGodPillar":1000,"beastII":1000,"beastI":1000,"moonCancer":1000,"beastIIIR":1000,"foreigner":1000,"beastIIIL":1000,"beastUnknown":1000,"pretender":1000,"beastIV":1000,"cccFinaleEmiyaAlter":1000},"foreigner":{"saber":1000,"archer":1000,"lancer":1000,"rider":1000,"caster":1000,"assassin":1000,"berserker":2000,"shielder":1000,"ruler":1000,"alterEgo":500,"avenger":1000,"demonGodPillar":1000,"beastII":1000,"beastI":1000,"moonCancer":1000,"beastIIIR":1000,"foreigner":2000,"beastIIIL":1200,"beastUnknown":1000,"pretender":2000,"beastIV":1000,"cccFinaleEmiyaAlter":1000},"beastIIIL":{"saber":1000,"archer":1000,"lancer":1000,"rider":1000,"caster":1000,"assassin":1000,"berserker":1000,"shielder":1000,"ruler":1000,"alterEgo":1000,"avenger":1000,"demonGodPillar":1000,"beastII":1000,"beastI":1000,"moonCancer":1000,"beastIIIR":1000,"foreigner":1000,"beastIIIL":1000,"cccFinaleEmiyaAlter":1000},"beastUnknown":{"saber":1000,"archer":1000,"lancer":1000,"rider":1000,"caster":500,"assassin":1000,"berserker":1000,"shielder":1000,"ruler":1000,"alterEgo":1000,"avenger":1000,"demonGodPillar":1000,"beastII":1000,"beastI":1000,"moonCancer":1000,"beastIIIR":1000,"foreigner":1000,"beastUnknown":1000,"pretender":1000,"beastIV":1000,"cccFinaleEmiyaAlter":1000},"pretender":{"saber":1500,"archer":1500,"lancer":1500,"rider":500,"caster":500,"assassin":500,"berserker":2000,"shielder":1000,"ruler":1000,"alterEgo":2000,"avenger":1000,"demonGodPillar":1000,"beastII":1000,"beastI":1000,"moonCancer":1000,"beastIIIR":1000,"foreigner":500,"beastIIIL":1000,"beastUnknown":1000,"pretender":1000,"beastIV":1000,"cccFinaleEmiyaAlter":1000},"beastIV":{"saber":1000,"archer":1000,"lancer":1000,"rider":1000,"caster":500,"assassin":1000,"berserker":1000,"shielder":1000,"ruler":1000,"alterEgo":1000,"avenger":1000,"demonGodPillar":1000,"beastII":1000,"beastI":1000,"moonCancer":1000,"beastIIIR":1000,"foreigner":1000,"beastUnknown":1000,"pretender":1000,"beastIV":1000,"cccFinaleEmiyaAlter":1000},"cccFinaleEmiyaAlter":{"saber":1000,"archer":1000,"lancer":1000,"rider":1000,"caster":1000,"assassin":1000,"berserker":1000,"shielder":1000,"ruler":1000,"alterEgo":1000,"avenger":1000,"demonGodPillar":1000,"beastII":1000,"beastI":1000,"moonCancer":1000,"beastIIIR":1000,"foreigner":1000,"beastIIIL":1000,"beastUnknown":1000,"pretender":1000,"beastIV":1000}},"constants":{"ATTACK_RATE":230,"ATTACK_RATE_RANDOM_MAX":1100,"ATTACK_RATE_RANDOM_MIN":900,"BACKSIDE_CLASS_IMAGE_ID":102,"BACKSIDE_SVT_EQUIP_IMAGE_ID":103,"BACKSIDE_SVT_IMAGE_ID":101,"BATTLE_EFFECT_ID_AVOIDANCE":6216,"BATTLE_EFFECT_ID_AVOIDANCE_PIERCE":6217,"BATTLE_EFFECT_ID_INVINCIBLE":6214,"BATTLE_EFFECT_ID_INVINCIBLE_PIERCE":6215,"BATTLE_ITEM_DISP_COLUMN":7,"BP_EXPRESSION":1,"CHAINBONUS_ARTS_RATE":200,"CHAINBONUS_BUSTER_RATE":200,"CHAINBONUS_QUICK":10,"COMMAND_ARTS":4001,"COMMAND_BUSTER":4002,"COMMAND_CARD_PRM_UP_MAX":500,"COMMAND_CODE_DETACHING_ITEM_ID":5003,"COMMAND_QUICK":4003,"CRITICAL_ATTACK_RATE":2000,"CRITICAL_INDIVIDUALITY":4100,"CRITICAL_RATE_PER_STAR":100,"CRITICAL_STAR_RATE":200,"CRITICAL_TD_POINT_RATE":2000,"DECK_MAX":10,"ENEMY_ATTACK_RATE_ARTS":1000,"ENEMY_ATTACK_RATE_BUSTER":1500,"ENEMY_ATTACK_RATE_QUICK":800,"ENEMY_MAX_BATTLE_COUNT":5,"EXTRA_ATTACK_RATE_GRAND":3500,"EXTRA_ATTACK_RATE_SINGLE":2000,"EXTRA_CRITICAL_RATE":0,"FOLLOWER_LIST_EXPIRE_AT":3600,"FOLLOWER_REFRESH_RESET_TIME":10,"FOLLOW_FRIEND_POINT":50,"FRIEND_NUM":28,"FULL_TD_POINT":10000,"HEROINE_CHANGECARDVOICE":800104,"HYDE_SVT_ID":600710,"JEKYLL_SVT_ID":600700,"LARGE_SUCCESS_MULT_EXP":2000,"LARGE_SUCCESS_RATE":100,"MASHU_CHANGE_QUEST_ID":1000501,"MASHU_CHANGE_WAR_ID":105,"MASHU_SVT_ID1":800100,"MASHU_SVT_ID2":800101,"MAX_BLACK_LIST_NUM":50,"MAX_COMMAND_SPELL":3,"MAX_DROP_FACTOR":1000,"MAX_EVENT_POINT":999999999,"MAX_EXP_FACTOR":3000,"MAX_FRIENDPOINT":999999999,"MAX_FRIENDPOINT_BOOST_ITEM_DAILY_RECEIVE":100,"MAX_FRIENDPOINT_BOOST_ITEM_USE":3,"MAX_FRIENDSHIP_RANK":5,"MAX_FRIEND_CODE":999999999,"MAX_FRIEND_HISTORY_NUM":100,"MAX_FRIEND_SHIP_UP_RATIO":3000,"MAX_MANA":999999999,"MAX_NEAR_PRESENT_OFFSET_NUM":50,"MAX_PRESENT_BOX_HISTORY_NUM":0,"MAX_PRESENT_BOX_NUM":400,"MAX_PRESENT_RECEIVE_NUM":99,"MAX_QP":2000000000,"MAX_QP_DROP_UP_RATIO":3000,"MAX_QP_FACTOR":3000,"MAX_RARE_PRI":999999999,"MAX_RP":8,"MAX_STONE":999999999,"MAX_USER_COMMAND_CODE":350,"MAX_USER_EQUIP_EXP_UP_RATIO":3000,"MAX_USER_ITEM":999999999,"MAX_USER_LV":160,"MAX_USER_SVT":600,"MAX_USER_SVT_EQUIP":600,"MAX_USER_SVT_EQUIP_STORAGE":100,"MAX_USER_SVT_STORAGE":100,"MENU_CHANGE":1,"OVER_KILL_NP_RATE":1500,"OVER_KILL_STAR_ADD":300,"OVER_KILL_STAR_RATE":1000,"STAR_RATE_MAX":3000,"STATUS_UP_ADJUST_ATK":10,"STATUS_UP_ADJUST_HP":10,"STATUS_UP_BUFF":3004,"SUPER_SUCCESS_MULT_EXP":3000,"SUPER_SUCCESS_RATE":20,"SUPPORT_DECK_MAX":10,"SWIMSUIT_MELT_SVT_ID":304000,"TAMAMOCAT_STUN_BUFF_ID":178,"TAMAMOCAT_TREASURE_DEVICE_ID_1":701601,"TAMAMOCAT_TREASURE_DEVICE_ID_2":701602,"TEMPORARY_IGNORE_SLEEP_MODE_FOR_TREASURE_DEVICE_SVT_ID_1":500100,"TEMPORARY_IGNORE_SLEEP_MODE_FOR_TREASURE_DEVICE_SVT_ID_2":600900,"TREASUREDEVICE_ID_MASHU3":800104,"USER_ACT":20,"USER_COST":56},"svtGrailCost":{"0":{"1":{"qp":600000,"addLvMax":5,"frameType":"black"},"2":{"qp":800000,"addLvMax":10,"frameType":"black"},"3":{"qp":1000000,"addLvMax":15,"frameType":"black"},"4":{"qp":2000000,"addLvMax":20,"frameType":"black"},"5":{"qp":3000000,"addLvMax":25,"frameType":"black"},"6":{"qp":4000000,"addLvMax":27,"frameType":"black"},"7":{"qp":5000000,"addLvMax":29,"frameType":"black"},"8":{"qp":6000000,"addLvMax":31,"frameType":"black"},"9":{"qp":7000000,"addLvMax":33,"frameType":"black"},"10":{"qp":8000000,"addLvMax":35,"frameType":"black"},"11":{"qp":9000000,"addLvMax":37,"frameType":"frame0803"},"12":{"qp":9000000,"addLvMax":39,"frameType":"frame0803"},"13":{"qp":9000000,"addLvMax":41,"frameType":"frame0803"},"14":{"qp":9000000,"addLvMax":43,"frameType":"frame0803"},"15":{"qp":9000000,"addLvMax":45,"frameType":"frame0803"},"16":{"qp":9000000,"addLvMax":47,"frameType":"frame0803"},"17":{"qp":9000000,"addLvMax":49,"frameType":"frame0803"},"18":{"qp":9000000,"addLvMax":51,"frameType":"frame0803"},"19":{"qp":9000000,"addLvMax":53,"frameType":"frame0803"},"20":{"qp":9000000,"addLvMax":55,"frameType":"frame0803"}},"1":{"1":{"qp":400000,"addLvMax":10,"frameType":"silver"},"2":{"qp":600000,"addLvMax":15,"frameType":"silver"},"3":{"qp":800000,"addLvMax":20,"frameType":"gold"},"4":{"qp":1000000,"addLvMax":25,"frameType":"gold"},"5":{"qp":2000000,"addLvMax":30,"frameType":"gold"},"6":{"qp":3000000,"addLvMax":32,"frameType":"gold"},"7":{"qp":4000000,"addLvMax":34,"frameType":"gold"},"8":{"qp":5000000,"addLvMax":36,"frameType":"gold"},"9":{"qp":6000000,"addLvMax":38,"frameType":"gold"},"10":{"qp":7000000,"addLvMax":40,"frameType":"gold"},"11":{"qp":8000000,"addLvMax":42,"frameType":"frame0801"},"12":{"qp":8000000,"addLvMax":44,"frameType":"frame0801"},"13":{"qp":8000000,"addLvMax":46,"frameType":"frame0801"},"14":{"qp":8000000,"addLvMax":48,"frameType":"frame0801"},"15":{"qp":8000000,"addLvMax":50,"frameType":"frame0801"},"16":{"qp":8000000,"addLvMax":52,"frameType":"frame0801"},"17":{"qp":8000000,"addLvMax":54,"frameType":"frame0801"},"18":{"qp":8000000,"addLvMax":56,"frameType":"frame0801"},"19":{"qp":8000000,"addLvMax":58,"frameType":"frame0801"},"20":{"qp":8000000,"addLvMax":60,"frameType":"frame0801"}},"2":{"1":{"qp":600000,"addLvMax":5,"frameType":"silver"},"2":{"qp":800000,"addLvMax":10,"frameType":"silver"},"3":{"qp":1000000,"addLvMax":15,"frameType":"gold"},"4":{"qp":2000000,"addLvMax":20,"frameType":"gold"},"5":{"qp":3000000,"addLvMax":25,"frameType":"gold"},"6":{"qp":4000000,"addLvMax":27,"frameType":"gold"},"7":{"qp":5000000,"addLvMax":29,"frameType":"gold"},"8":{"qp":6000000,"addLvMax":31,"frameType":"gold"},"9":{"qp":7000000,"addLvMax":33,"frameType":"gold"},"10":{"qp":8000000,"addLvMax":35,"frameType":"gold"},"11":{"qp":9000000,"addLvMax":37,"frameType":"frame0801"},"12":{"qp":9000000,"addLvMax":39,"frameType":"frame0801"},"13":{"qp":9000000,"addLvMax":41,"frameType":"frame0801"},"14":{"qp":9000000,"addLvMax":43,"frameType":"frame0801"},"15":{"qp":9000000,"addLvMax":45,"frameType":"frame0801"},"16":{"qp":9000000,"addLvMax":47,"frameType":"frame0801"},"17":{"qp":9000000,"addLvMax":49,"frameType":"frame0801"},"18":{"qp":9000000,"addLvMax":51,"frameType":"frame0801"},"19":{"qp":9000000,"addLvMax":53,"frameType":"frame0801"},"20":{"qp":9000000,"addLvMax":55,"frameType":"frame0801"}},"3":{"1":{"qp":1000000,"addLvMax":5,"frameType":"silver"},"2":{"qp":2000000,"addLvMax":10,"frameType":"gold"},"3":{"qp":3000000,"addLvMax":15,"frameType":"gold"},"4":{"qp":4000000,"addLvMax":20,"frameType":"gold"},"5":{"qp":5000000,"addLvMax":22,"frameType":"gold"},"6":{"qp":6000000,"addLvMax":24,"frameType":"gold"},"7":{"qp":7000000,"addLvMax":26,"frameType":"gold"},"8":{"qp":8000000,"addLvMax":28,"frameType":"gold"},"9":{"qp":9000000,"addLvMax":30,"frameType":"gold"},"10":{"qp":10000000,"addLvMax":32,"frameType":"frame0801"},"11":{"qp":10000000,"addLvMax":34,"frameType":"frame0801"},"12":{"qp":10000000,"addLvMax":36,"frameType":"frame0801"},"13":{"qp":10000000,"addLvMax":38,"frameType":"frame0801"},"14":{"qp":10000000,"addLvMax":40,"frameType":"frame0801"},"15":{"qp":10000000,"addLvMax":42,"frameType":"frame0801"},"16":{"qp":10000000,"addLvMax":44,"frameType":"frame0801"},"17":{"qp":10000000,"addLvMax":46,"frameType":"frame0801"},"18":{"qp":10000000,"addLvMax":48,"frameType":"frame0801"},"19":{"qp":10000000,"addLvMax":50,"frameType":"frame0801"}},"4":{"1":{"qp":4000000,"addLvMax":5,"frameType":"gold"},"2":{"qp":5000000,"addLvMax":10,"frameType":"gold"},"3":{"qp":6000000,"addLvMax":12,"frameType":"gold"},"4":{"qp":7000000,"addLvMax":14,"frameType":"gold"},"5":{"qp":8000000,"addLvMax":16,"frameType":"gold"},"6":{"qp":9000000,"addLvMax":18,"frameType":"gold"},"7":{"qp":10000000,"addLvMax":20,"frameType":"gold"},"8":{"qp":12000000,"addLvMax":22,"frameType":"frame0801"},"9":{"qp":12000000,"addLvMax":24,"frameType":"frame0801"},"10":{"qp":12000000,"addLvMax":26,"frameType":"frame0801"},"11":{"qp":12000000,"addLvMax":28,"frameType":"frame0801"},"12":{"qp":12000000,"addLvMax":30,"frameType":"frame0801"},"13":{"qp":12000000,"addLvMax":32,"frameType":"frame0801"},"14":{"qp":12000000,"addLvMax":34,"frameType":"frame0801"},"15":{"qp":12000000,"addLvMax":36,"frameType":"frame0801"},"16":{"qp":12000000,"addLvMax":38,"frameType":"frame0801"},"17":{"qp":12000000,"addLvMax":40,"frameType":"frame0801"}},"5":{"1":{"qp":9000000,"addLvMax":2,"frameType":"gold"},"2":{"qp":10000000,"addLvMax":4,"frameType":"gold"},"3":{"qp":11000000,"addLvMax":6,"frameType":"gold"},"4":{"qp":12000000,"addLvMax":8,"frameType":"gold"},"5":{"qp":13000000,"addLvMax":10,"frameType":"gold"},"6":{"qp":15000000,"addLvMax":12,"frameType":"frame0801"},"7":{"qp":15000000,"addLvMax":14,"frameType":"frame0801"},"8":{"qp":15000000,"addLvMax":16,"frameType":"frame0801"},"9":{"qp":15000000,"addLvMax":18,"frameType":"frame0801"},"10":{"qp":15000000,"addLvMax":20,"frameType":"frame0801"},"11":{"qp":15000000,"addLvMax":22,"frameType":"frame0801"},"12":{"qp":15000000,"addLvMax":24,"frameType":"frame0801"},"13":{"qp":15000000,"addLvMax":26,"frameType":"frame0801"},"14":{"qp":15000000,"addLvMax":28,"frameType":"frame0801"},"15":{"qp":15000000,"addLvMax":30,"frameType":"frame0801"}}},"userLevel":{"1":{"requiredExp":0,"maxAp":20,"maxCost":56,"maxFriend":28},"2":{"requiredExp":31,"maxAp":21,"maxCost":56,"maxFriend":29},"3":{"requiredExp":63,"maxAp":22,"maxCost":57,"maxFriend":30},"4":{"requiredExp":122,"maxAp":23,"maxCost":57,"maxFriend":31},"5":{"requiredExp":209,"maxAp":24,"maxCost":58,"maxFriend":32},"6":{"requiredExp":496,"maxAp":25,"maxCost":58,"maxFriend":33},"7":{"requiredExp":915,"maxAp":26,"maxCost":59,"maxFriend":34},"8":{"requiredExp":1544,"maxAp":27,"maxCost":59,"maxFriend":35},"9":{"requiredExp":2373,"maxAp":28,"maxCost":60,"maxFriend":36},"10":{"requiredExp":3607,"maxAp":31,"maxCost":60,"maxFriend":37},"11":{"requiredExp":5241,"maxAp":32,"maxCost":61,"maxFriend":38},"12":{"requiredExp":7370,"maxAp":33,"maxCost":61,"maxFriend":39},"13":{"requiredExp":10039,"maxAp":34,"maxCost":62,"maxFriend":40},"14":{"requiredExp":13293,"maxAp":35,"maxCost":62,"maxFriend":41},"15":{"requiredExp":17177,"maxAp":38,"maxCost":63,"maxFriend":42},"16":{"requiredExp":21736,"maxAp":39,"maxCost":63,"maxFriend":43},"17":{"requiredExp":27015,"maxAp":40,"maxCost":64,"maxFriend":44},"18":{"requiredExp":32974,"maxAp":41,"maxCost":64,"maxFriend":45},"19":{"requiredExp":39653,"maxAp":42,"maxCost":65,"maxFriend":46},"20":{"requiredExp":47187,"maxAp":45,"maxCost":65,"maxFriend":47},"21":{"requiredExp":55621,"maxAp":46,"maxCost":66,"maxFriend":47},"22":{"requiredExp":65000,"maxAp":47,"maxCost":66,"maxFriend":48},"23":{"requiredExp":75369,"maxAp":48,"maxCost":67,"maxFriend":48},"24":{"requiredExp":86773,"maxAp":49,"maxCost":67,"maxFriend":49},"25":{"requiredExp":99257,"maxAp":50,"maxCost":68,"maxFriend":49},"26":{"requiredExp":112866,"maxAp":51,"maxCost":68,"maxFriend":50},"27":{"requiredExp":127645,"maxAp":52,"maxCost":69,"maxFriend":50},"28":{"requiredExp":143639,"maxAp":53,"maxCost":69,"maxFriend":51},"29":{"requiredExp":160893,"maxAp":54,"maxCost":70,"maxFriend":51},"30":{"requiredExp":179452,"maxAp":55,"maxCost":70,"maxFriend":52},"31":{"requiredExp":199361,"maxAp":56,"maxCost":71,"maxFriend":52},"32":{"requiredExp":220665,"maxAp":57,"maxCost":71,"maxFriend":53},"33":{"requiredExp":243409,"maxAp":58,"maxCost":72,"maxFriend":53},"34":{"requiredExp":267638,"maxAp":59,"maxCost":72,"maxFriend":54},"35":{"requiredExp":293397,"maxAp":60,"maxCost":73,"maxFriend":54},"36":{"requiredExp":320731,"maxAp":61,"maxCost":73,"maxFriend":55},"37":{"requiredExp":349685,"maxAp":62,"maxCost":74,"maxFriend":55},"38":{"requiredExp":380304,"maxAp":63,"maxCost":74,"maxFriend":56},"39":{"requiredExp":412633,"maxAp":64,"maxCost":75,"maxFriend":56},"40":{"requiredExp":446717,"maxAp":65,"maxCost":75,"maxFriend":57},"41":{"requiredExp":482601,"maxAp":66,"maxCost":76,"maxFriend":57},"42":{"requiredExp":520330,"maxAp":67,"maxCost":76,"maxFriend":58},"43":{"requiredExp":559949,"maxAp":68,"maxCost":77,"maxFriend":58},"44":{"requiredExp":601503,"maxAp":69,"maxCost":77,"maxFriend":59},"45":{"requiredExp":645037,"maxAp":70,"maxCost":78,"maxFriend":59},"46":{"requiredExp":690596,"maxAp":71,"maxCost":78,"maxFriend":60},"47":{"requiredExp":738225,"maxAp":72,"maxCost":79,"maxFriend":60},"48":{"requiredExp":787969,"maxAp":73,"maxCost":79,"maxFriend":61},"49":{"requiredExp":839873,"maxAp":74,"maxCost":80,"maxFriend":61},"50":{"requiredExp":893982,"maxAp":75,"maxCost":80,"maxFriend":62},"51":{"requiredExp":950341,"maxAp":76,"maxCost":81,"maxFriend":62},"52":{"requiredExp":1008995,"maxAp":77,"maxCost":81,"maxFriend":63},"53":{"requiredExp":1069989,"maxAp":78,"maxCost":82,"maxFriend":63},"54":{"requiredExp":1133368,"maxAp":79,"maxCost":82,"maxFriend":64},"55":{"requiredExp":1199177,"maxAp":80,"maxCost":83,"maxFriend":64},"56":{"requiredExp":1267461,"maxAp":81,"maxCost":83,"maxFriend":65},"57":{"requiredExp":1338265,"maxAp":82,"maxCost":84,"maxFriend":65},"58":{"requiredExp":1411634,"maxAp":83,"maxCost":84,"maxFriend":66},"59":{"requiredExp":1487613,"maxAp":84,"maxCost":85,"maxFriend":66},"60":{"requiredExp":1566247,"maxAp":85,"maxCost":85,"maxFriend":67},"61":{"requiredExp":1647581,"maxAp":86,"maxCost":86,"maxFriend":67},"62":{"requiredExp":1731660,"maxAp":87,"maxCost":86,"maxFriend":68},"63":{"requiredExp":1818529,"maxAp":88,"maxCost":87,"maxFriend":68},"64":{"requiredExp":1908233,"maxAp":89,"maxCost":87,"maxFriend":68},"65":{"requiredExp":2000817,"maxAp":90,"maxCost":88,"maxFriend":68},"66":{"requiredExp":2096326,"maxAp":91,"maxCost":88,"maxFriend":68},"67":{"requiredExp":2194805,"maxAp":92,"maxCost":89,"maxFriend":68},"68":{"requiredExp":2296299,"maxAp":93,"maxCost":89,"maxFriend":68},"69":{"requiredExp":2400853,"maxAp":94,"maxCost":90,"maxFriend":68},"70":{"requiredExp":2508512,"maxAp":95,"maxCost":90,"maxFriend":68},"71":{"requiredExp":2619321,"maxAp":96,"maxCost":91,"maxFriend":68},"72":{"requiredExp":2733325,"maxAp":97,"maxCost":91,"maxFriend":68},"73":{"requiredExp":2850569,"maxAp":98,"maxCost":92,"maxFriend":68},"74":{"requiredExp":2971098,"maxAp":99,"maxCost":92,"maxFriend":68},"75":{"requiredExp":3094957,"maxAp":100,"maxCost":93,"maxFriend":68},"76":{"requiredExp":3222191,"maxAp":101,"maxCost":93,"maxFriend":68},"77":{"requiredExp":3352845,"maxAp":102,"maxCost":94,"maxFriend":68},"78":{"requiredExp":3486964,"maxAp":103,"maxCost":94,"maxFriend":68},"79":{"requiredExp":3624593,"maxAp":104,"maxCost":95,"maxFriend":68},"80":{"requiredExp":3765777,"maxAp":105,"maxCost":95,"maxFriend":68},"81":{"requiredExp":3910561,"maxAp":106,"maxCost":96,"maxFriend":68},"82":{"requiredExp":4058990,"maxAp":107,"maxCost":96,"maxFriend":68},"83":{"requiredExp":4211109,"maxAp":108,"maxCost":97,"maxFriend":68},"84":{"requiredExp":4366963,"maxAp":109,"maxCost":97,"maxFriend":68},"85":{"requiredExp":4526597,"maxAp":110,"maxCost":98,"maxFriend":68},"86":{"requiredExp":4690056,"maxAp":111,"maxCost":98,"maxFriend":68},"87":{"requiredExp":4857385,"maxAp":112,"maxCost":99,"maxFriend":68},"88":{"requiredExp":5028629,"maxAp":113,"maxCost":99,"maxFriend":68},"89":{"requiredExp":5203833,"maxAp":114,"maxCost":100,"maxFriend":68},"90":{"requiredExp":5383042,"maxAp":115,"maxCost":100,"maxFriend":68},"91":{"requiredExp":5566301,"maxAp":116,"maxCost":100,"maxFriend":68},"92":{"requiredExp":5753655,"maxAp":117,"maxCost":101,"maxFriend":68},"93":{"requiredExp":5945149,"maxAp":118,"maxCost":101,"maxFriend":68},"94":{"requiredExp":6140828,"maxAp":119,"maxCost":101,"maxFriend":68},"95":{"requiredExp":6340737,"maxAp":120,"maxCost":102,"maxFriend":68},"96":{"requiredExp":6544921,"maxAp":121,"maxCost":102,"maxFriend":68},"97":{"requiredExp":6753425,"maxAp":122,"maxCost":102,"maxFriend":68},"98":{"requiredExp":6966294,"maxAp":123,"maxCost":103,"maxFriend":68},"99":{"requiredExp":7183573,"maxAp":124,"maxCost":103,"maxFriend":68},"100":{"requiredExp":7405307,"maxAp":125,"maxCost":103,"maxFriend":68},"101":{"requiredExp":7631541,"maxAp":126,"maxCost":104,"maxFriend":69},"102":{"requiredExp":8059775,"maxAp":126,"maxCost":104,"maxFriend":70},"103":{"requiredExp":8620609,"maxAp":127,"maxCost":104,"maxFriend":71},"104":{"requiredExp":9315343,"maxAp":127,"maxCost":105,"maxFriend":72},"105":{"requiredExp":10114077,"maxAp":128,"maxCost":105,"maxFriend":73},"106":{"requiredExp":11017811,"maxAp":128,"maxCost":105,"maxFriend":74},"107":{"requiredExp":12027545,"maxAp":129,"maxCost":106,"maxFriend":75},"108":{"requiredExp":13165679,"maxAp":129,"maxCost":106,"maxFriend":76},"109":{"requiredExp":14433413,"maxAp":130,"maxCost":106,"maxFriend":77},"110":{"requiredExp":15831947,"maxAp":130,"maxCost":106,"maxFriend":78},"111":{"requiredExp":17395481,"maxAp":131,"maxCost":107,"maxFriend":78},"112":{"requiredExp":19070015,"maxAp":131,"maxCost":107,"maxFriend":78},"113":{"requiredExp":20856549,"maxAp":132,"maxCost":107,"maxFriend":78},"114":{"requiredExp":22756083,"maxAp":132,"maxCost":107,"maxFriend":78},"115":{"requiredExp":24769617,"maxAp":133,"maxCost":108,"maxFriend":78},"116":{"requiredExp":26909651,"maxAp":133,"maxCost":108,"maxFriend":78},"117":{"requiredExp":29177285,"maxAp":134,"maxCost":108,"maxFriend":78},"118":{"requiredExp":31573619,"maxAp":134,"maxCost":108,"maxFriend":78},"119":{"requiredExp":34064353,"maxAp":135,"maxCost":109,"maxFriend":78},"120":{"requiredExp":36674087,"maxAp":135,"maxCost":109,"maxFriend":78},"121":{"requiredExp":39415821,"maxAp":136,"maxCost":109,"maxFriend":79},"122":{"requiredExp":42417705,"maxAp":136,"maxCost":109,"maxFriend":80},"123":{"requiredExp":45614789,"maxAp":136,"maxCost":110,"maxFriend":81},"124":{"requiredExp":49014823,"maxAp":136,"maxCost":110,"maxFriend":82},"125":{"requiredExp":52634957,"maxAp":137,"maxCost":110,"maxFriend":83},"126":{"requiredExp":56476966,"maxAp":137,"maxCost":110,"maxFriend":84},"127":{"requiredExp":60511125,"maxAp":137,"maxCost":111,"maxFriend":85},"128":{"requiredExp":64770709,"maxAp":137,"maxCost":111,"maxFriend":86},"129":{"requiredExp":69235093,"maxAp":138,"maxCost":111,"maxFriend":87},"130":{"requiredExp":73912327,"maxAp":138,"maxCost":111,"maxFriend":88},"131":{"requiredExp":78831642,"maxAp":138,"maxCost":111,"maxFriend":89,"gift":{"objectId":2,"num":1}},"132":{"requiredExp":84536957,"maxAp":138,"maxCost":111,"maxFriend":90},"133":{"requiredExp":91298272,"maxAp":139,"maxCost":111,"maxFriend":91},"134":{"requiredExp":99522587,"maxAp":139,"maxCost":111,"maxFriend":92},"135":{"requiredExp":108952902,"maxAp":139,"maxCost":111,"maxFriend":93,"gift":{"objectId":2,"num":1}},"136":{"requiredExp":119868217,"maxAp":139,"maxCost":111,"maxFriend":94},"137":{"requiredExp":132075532,"maxAp":140,"maxCost":111,"maxFriend":95},"138":{"requiredExp":145995347,"maxAp":140,"maxCost":111,"maxFriend":96},"139":{"requiredExp":161364162,"maxAp":140,"maxCost":111,"maxFriend":97},"140":{"requiredExp":178261977,"maxAp":140,"maxCost":112,"maxFriend":98},"141":{"requiredExp":197119792,"maxAp":140,"maxCost":112,"maxFriend":99,"gift":{"objectId":2,"num":1}},"142":{"requiredExp":215990297,"maxAp":140,"maxCost":112,"maxFriend":100},"143":{"requiredExp":234873582,"maxAp":141,"maxCost":112,"maxFriend":101},"144":{"requiredExp":253769737,"maxAp":141,"maxCost":112,"maxFriend":102},"145":{"requiredExp":272678852,"maxAp":141,"maxCost":112,"maxFriend":103,"gift":{"objectId":2,"num":1}},"146":{"requiredExp":291601017,"maxAp":141,"maxCost":112,"maxFriend":104},"147":{"requiredExp":310536322,"maxAp":142,"maxCost":112,"maxFriend":105},"148":{"requiredExp":329484857,"maxAp":142,"maxCost":112,"maxFriend":106},"149":{"requiredExp":348446712,"maxAp":142,"maxCost":112,"maxFriend":107},"150":{"requiredExp":367421977,"maxAp":142,"maxCost":113,"maxFriend":108},"151":{"requiredExp":386410742,"maxAp":142,"maxCost":113,"maxFriend":109,"gift":{"objectId":2,"num":1}},"152":{"requiredExp":405413097,"maxAp":142,"maxCost":113,"maxFriend":110},"153":{"requiredExp":424429132,"maxAp":143,"maxCost":113,"maxFriend":111},"154":{"requiredExp":443458937,"maxAp":143,"maxCost":113,"maxFriend":112},"155":{"requiredExp":462502602,"maxAp":143,"maxCost":113,"maxFriend":113,"gift":{"objectId":2,"num":1}},"156":{"requiredExp":481560217,"maxAp":143,"maxCost":113,"maxFriend":114},"157":{"requiredExp":500631872,"maxAp":144,"maxCost":113,"maxFriend":115},"158":{"requiredExp":519717657,"maxAp":144,"maxCost":113,"maxFriend":116},"159":{"requiredExp":538817662,"maxAp":144,"maxCost":113,"maxFriend":117},"160":{"requiredExp":557931977,"maxAp":144,"maxCost":114,"maxFriend":118}}}
+{
+  "attributeRelation": {
+    "human": {
+      "human": 1000,
+      "sky": 1100,
+      "earth": 900,
+      "star": 1000,
+      "beast": 1000
+    },
+    "sky": {
+      "human": 900,
+      "sky": 1000,
+      "earth": 1100,
+      "star": 1000,
+      "beast": 1000
+    },
+    "earth": {
+      "human": 1100,
+      "sky": 900,
+      "earth": 1000,
+      "star": 1000,
+      "beast": 1000
+    },
+    "star": {
+      "human": 1000,
+      "sky": 1000,
+      "earth": 1000,
+      "star": 1000,
+      "beast": 1100
+    },
+    "beast": {
+      "human": 1000,
+      "sky": 1000,
+      "earth": 1000,
+      "star": 1100,
+      "beast": 1000
+    }
+  },
+  "buffActions": {
+    "commandAtk": {
+      "limit": "normal",
+      "plusTypes": [
+        "upCommandatk",
+        "upCommandall"
+      ],
+      "minusTypes": [
+        "downCommandatk",
+        "downCommandall"
+      ],
+      "baseParam": 1000,
+      "baseValue": 0,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": [
+        5000
+      ]
+    },
+    "commandDef": {
+      "limit": "upper",
+      "plusTypes": [
+        "upDefencecommandall",
+        "upDefencecommanDamage"
+      ],
+      "minusTypes": [
+        "downDefencecommandall",
+        "downDefencecommanDamage"
+      ],
+      "baseParam": 1000,
+      "baseValue": 0,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": [
+        5000
+      ]
+    },
+    "atk": {
+      "limit": "normal",
+      "plusTypes": [
+        "upAtk"
+      ],
+      "minusTypes": [
+        "downAtk"
+      ],
+      "baseParam": 1000,
+      "baseValue": 0,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": [
+        5000,
+        10000
+      ]
+    },
+    "defence": {
+      "limit": "lower",
+      "plusTypes": [
+        "upDefence"
+      ],
+      "minusTypes": [
+        "downDefence"
+      ],
+      "baseParam": 1000,
+      "baseValue": 0,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": [
+        5000
+      ]
+    },
+    "defencePierce": {
+      "limit": "lower",
+      "plusTypes": [],
+      "minusTypes": [
+        "downDefence"
+      ],
+      "baseParam": 1000,
+      "baseValue": 0,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": [
+        5000
+      ]
+    },
+    "specialdefence": {
+      "limit": "normal",
+      "plusTypes": [
+        "upSpecialdefence"
+      ],
+      "minusTypes": [
+        "downSpecialdefence"
+      ],
+      "baseParam": 1000,
+      "baseValue": 1000,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": [
+        5000
+      ]
+    },
+    "damage": {
+      "limit": "upper",
+      "plusTypes": [
+        "upDamage"
+      ],
+      "minusTypes": [
+        "downDamage"
+      ],
+      "baseParam": 1000,
+      "baseValue": 1000,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": [
+        10000
+      ]
+    },
+    "damageIndividuality": {
+      "limit": "upper",
+      "plusTypes": [
+        "upDamageIndividuality"
+      ],
+      "minusTypes": [
+        "downDamageIndividuality"
+      ],
+      "baseParam": 1000,
+      "baseValue": 1000,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": []
+    },
+    "damageIndividualityActiveonly": {
+      "limit": "upper",
+      "plusTypes": [
+        "upDamageIndividualityActiveonly"
+      ],
+      "minusTypes": [
+        "downDamageIndividualityActiveonly"
+      ],
+      "baseParam": 1000,
+      "baseValue": 1000,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": [
+        10000
+      ]
+    },
+    "selfdamage": {
+      "limit": "upper",
+      "plusTypes": [
+        "upSelfdamage"
+      ],
+      "minusTypes": [
+        "downSelfdamage"
+      ],
+      "baseParam": 1000,
+      "baseValue": 1000,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": [
+        5000
+      ]
+    },
+    "criticalDamage": {
+      "limit": "upper",
+      "plusTypes": [
+        "upCriticaldamage"
+      ],
+      "minusTypes": [
+        "downCriticaldamage"
+      ],
+      "baseParam": 1000,
+      "baseValue": 1000,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": [
+        5000
+      ]
+    },
+    "npdamage": {
+      "limit": "upper",
+      "plusTypes": [
+        "upNpdamage"
+      ],
+      "minusTypes": [
+        "downNpdamage"
+      ],
+      "baseParam": 1000,
+      "baseValue": 1000,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": [
+        5000,
+        30000
+      ]
+    },
+    "givenDamage": {
+      "limit": "none",
+      "plusTypes": [
+        "addDamage"
+      ],
+      "minusTypes": [
+        "subDamage"
+      ],
+      "baseParam": 0,
+      "baseValue": 0,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": [
+        0
+      ]
+    },
+    "receiveDamage": {
+      "limit": "none",
+      "plusTypes": [
+        "addSelfdamage"
+      ],
+      "minusTypes": [
+        "subSelfdamage"
+      ],
+      "baseParam": 0,
+      "baseValue": 0,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": [
+        0
+      ]
+    },
+    "pierceInvincible": {
+      "limit": "none",
+      "plusTypes": [
+        "pierceInvincible"
+      ],
+      "minusTypes": [],
+      "baseParam": 1000,
+      "baseValue": 0,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": [
+        0
+      ]
+    },
+    "invincible": {
+      "limit": "none",
+      "plusTypes": [
+        "invincible"
+      ],
+      "minusTypes": [],
+      "baseParam": 1000,
+      "baseValue": 0,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": [
+        0
+      ]
+    },
+    "breakAvoidance": {
+      "limit": "none",
+      "plusTypes": [
+        "breakAvoidance"
+      ],
+      "minusTypes": [],
+      "baseParam": 1000,
+      "baseValue": 0,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": [
+        0
+      ]
+    },
+    "avoidance": {
+      "limit": "none",
+      "plusTypes": [
+        "avoidance"
+      ],
+      "minusTypes": [],
+      "baseParam": 1000,
+      "baseValue": 0,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": [
+        0
+      ]
+    },
+    "overwriteBattleclass": {
+      "limit": "none",
+      "plusTypes": [
+        "overwriteBattleclass"
+      ],
+      "minusTypes": [],
+      "baseParam": 1000,
+      "baseValue": 0,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": [
+        0
+      ]
+    },
+    "overwriteClassrelatioAtk": {
+      "limit": "none",
+      "plusTypes": [
+        "overwriteClassrelatioAtk"
+      ],
+      "minusTypes": [],
+      "baseParam": 1000,
+      "baseValue": 0,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": []
+    },
+    "overwriteClassrelatioDef": {
+      "limit": "none",
+      "plusTypes": [
+        "overwriteClassrelatioDef"
+      ],
+      "minusTypes": [],
+      "baseParam": 1000,
+      "baseValue": 0,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": []
+    },
+    "commandNpAtk": {
+      "limit": "normal",
+      "plusTypes": [
+        "upCommandnp",
+        "upCommandall"
+      ],
+      "minusTypes": [
+        "downCommandnp",
+        "downCommandall"
+      ],
+      "baseParam": 1000,
+      "baseValue": 0,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": [
+        5000
+      ]
+    },
+    "commandNpDef": {
+      "limit": "upper",
+      "plusTypes": [
+        "upDefencecommandall"
+      ],
+      "minusTypes": [
+        "downDefencecommandall"
+      ],
+      "baseParam": 1000,
+      "baseValue": 0,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": [
+        5000
+      ]
+    },
+    "dropNp": {
+      "limit": "normal",
+      "plusTypes": [
+        "upDropnp"
+      ],
+      "minusTypes": [
+        "downDropnp"
+      ],
+      "baseParam": 1000,
+      "baseValue": 0,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": [
+        5000
+      ]
+    },
+    "dropNpDamage": {
+      "limit": "normal",
+      "plusTypes": [
+        "upDamagedropnp"
+      ],
+      "minusTypes": [
+        "downDamagedropnp"
+      ],
+      "baseParam": 1000,
+      "baseValue": 0,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": [
+        5000
+      ]
+    },
+    "commandStarAtk": {
+      "limit": "normal",
+      "plusTypes": [
+        "upCommandstar",
+        "upCommandall"
+      ],
+      "minusTypes": [
+        "downCommanstar",
+        "downCommandall"
+      ],
+      "baseParam": 1000,
+      "baseValue": 0,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": [
+        5000
+      ]
+    },
+    "commandStarDef": {
+      "limit": "upper",
+      "plusTypes": [
+        "upDefencecommandall"
+      ],
+      "minusTypes": [
+        "downDefencecommandall"
+      ],
+      "baseParam": 1000,
+      "baseValue": 0,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": [
+        5000
+      ]
+    },
+    "criticalPoint": {
+      "limit": "normal",
+      "plusTypes": [
+        "upCriticalpoint"
+      ],
+      "minusTypes": [
+        "downCriticalpoint"
+      ],
+      "baseParam": 1000,
+      "baseValue": 1000,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": [
+        5000
+      ]
+    },
+    "starweight": {
+      "limit": "normal",
+      "plusTypes": [
+        "upStarweight"
+      ],
+      "minusTypes": [
+        "downStarweight"
+      ],
+      "baseParam": 1000,
+      "baseValue": 0,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": [
+        500000,
+        100000
+      ]
+    },
+    "turnendNp": {
+      "limit": "none",
+      "plusTypes": [
+        "regainNp"
+      ],
+      "minusTypes": [
+        "reduceNp"
+      ],
+      "baseParam": 0,
+      "baseValue": 0,
+      "isRec": false,
+      "plusAction": 71,
+      "maxRate": [
+        0
+      ]
+    },
+    "turnendStar": {
+      "limit": "none",
+      "plusTypes": [
+        "regainStar"
+      ],
+      "minusTypes": [],
+      "baseParam": 0,
+      "baseValue": 0,
+      "isRec": false,
+      "plusAction": 0,
+      "maxRate": [
+        0
+      ]
+    },
+    "turnendHpRegain": {
+      "limit": "none",
+      "plusTypes": [
+        "regainHp"
+      ],
+      "minusTypes": [],
+      "baseParam": 0,
+      "baseValue": 0,
+      "isRec": false,
+      "plusAction": 0,
+      "maxRate": [
+        0
+      ]
+    },
+    "turnendHpReduce": {
+      "limit": "none",
+      "plusTypes": [
+        "reduceHp"
+      ],
+      "minusTypes": [],
+      "baseParam": 0,
+      "baseValue": 0,
+      "isRec": false,
+      "plusAction": 72,
+      "maxRate": [
+        0
+      ]
+    },
+    "gainHp": {
+      "limit": "normal",
+      "plusTypes": [
+        "upGainHp"
+      ],
+      "minusTypes": [
+        "downGainHp"
+      ],
+      "baseParam": 1000,
+      "baseValue": 0,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": [
+        50000
+      ]
+    },
+    "turnvalNp": {
+      "limit": "none",
+      "plusTypes": [
+        "upNpturnval"
+      ],
+      "minusTypes": [
+        "downNpturnval"
+      ],
+      "baseParam": 0,
+      "baseValue": 0,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": [
+        0
+      ]
+    },
+    "grantState": {
+      "limit": "normal",
+      "plusTypes": [
+        "upGrantstate"
+      ],
+      "minusTypes": [
+        "downGrantstate"
+      ],
+      "baseParam": 1000,
+      "baseValue": 1000,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": [
+        5000
+      ]
+    },
+    "resistanceState": {
+      "limit": "normal",
+      "plusTypes": [
+        "upTolerance"
+      ],
+      "minusTypes": [
+        "downTolerance"
+      ],
+      "baseParam": 1000,
+      "baseValue": 1000,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": [
+        5000
+      ]
+    },
+    "avoidState": {
+      "limit": "none",
+      "plusTypes": [
+        "avoidState"
+      ],
+      "minusTypes": [],
+      "baseParam": 1000,
+      "baseValue": 0,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": [
+        0
+      ]
+    },
+    "donotAct": {
+      "limit": "none",
+      "plusTypes": [
+        "donotAct"
+      ],
+      "minusTypes": [],
+      "baseParam": 1000,
+      "baseValue": 0,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": [
+        0
+      ]
+    },
+    "donotSkill": {
+      "limit": "none",
+      "plusTypes": [
+        "donotSkill"
+      ],
+      "minusTypes": [],
+      "baseParam": 1000,
+      "baseValue": 0,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": [
+        0
+      ]
+    },
+    "donotNoble": {
+      "limit": "none",
+      "plusTypes": [
+        "donotNoble"
+      ],
+      "minusTypes": [],
+      "baseParam": 1000,
+      "baseValue": 0,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": [
+        0
+      ]
+    },
+    "donotRecovery": {
+      "limit": "none",
+      "plusTypes": [
+        "donotRecovery"
+      ],
+      "minusTypes": [],
+      "baseParam": 1000,
+      "baseValue": 0,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": [
+        0
+      ]
+    },
+    "individualityAdd": {
+      "limit": "none",
+      "plusTypes": [
+        "addIndividuality"
+      ],
+      "minusTypes": [],
+      "baseParam": 1000,
+      "baseValue": 0,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": [
+        0
+      ]
+    },
+    "individualitySub": {
+      "limit": "none",
+      "plusTypes": [
+        "subIndividuality"
+      ],
+      "minusTypes": [],
+      "baseParam": 1000,
+      "baseValue": 0,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": [
+        0
+      ]
+    },
+    "hate": {
+      "limit": "none",
+      "plusTypes": [
+        "upHate"
+      ],
+      "minusTypes": [],
+      "baseParam": 1000,
+      "baseValue": 0,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": [
+        50000
+      ]
+    },
+    "criticalRate": {
+      "limit": "normal",
+      "plusTypes": [
+        "upCriticalrate"
+      ],
+      "minusTypes": [
+        "downCriticalrate"
+      ],
+      "baseParam": 1000,
+      "baseValue": 1000,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": [
+        5000
+      ]
+    },
+    "avoidInstantdeath": {
+      "limit": "normal",
+      "plusTypes": [
+        "avoidInstantdeath"
+      ],
+      "minusTypes": [],
+      "baseParam": 1000,
+      "baseValue": 0,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": [
+        0
+      ]
+    },
+    "resistInstantdeath": {
+      "limit": "normal",
+      "plusTypes": [
+        "upResistInstantdeath"
+      ],
+      "minusTypes": [],
+      "baseParam": 1000,
+      "baseValue": 1000,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": [
+        5000
+      ]
+    },
+    "nonresistInstantdeath": {
+      "limit": "normal",
+      "plusTypes": [
+        "upNonresistInstantdeath"
+      ],
+      "minusTypes": [],
+      "baseParam": 1000,
+      "baseValue": 1000,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": [
+        5000
+      ]
+    },
+    "regainNpUsedNoble": {
+      "limit": "none",
+      "plusTypes": [
+        "regainNpUsedNoble"
+      ],
+      "minusTypes": [],
+      "baseParam": 1000,
+      "baseValue": 1000,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": [
+        50000
+      ]
+    },
+    "functionDead": {
+      "limit": "none",
+      "plusTypes": [
+        "deadFunction"
+      ],
+      "minusTypes": [],
+      "baseParam": 1000,
+      "baseValue": 0,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": [
+        0
+      ]
+    },
+    "maxhpRate": {
+      "limit": "normal",
+      "plusTypes": [
+        "upMaxhp"
+      ],
+      "minusTypes": [
+        "downMaxhp"
+      ],
+      "baseParam": 1000,
+      "baseValue": 1000,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": [
+        5000
+      ]
+    },
+    "maxhpValue": {
+      "limit": "none",
+      "plusTypes": [
+        "addMaxhp"
+      ],
+      "minusTypes": [
+        "subMaxhp"
+      ],
+      "baseParam": 0,
+      "baseValue": 0,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": [
+        50000
+      ]
+    },
+    "functionWavestart": {
+      "limit": "none",
+      "plusTypes": [
+        "wavestartFunction"
+      ],
+      "minusTypes": [],
+      "baseParam": 1000,
+      "baseValue": 0,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": [
+        0
+      ]
+    },
+    "functionSelfturnend": {
+      "limit": "none",
+      "plusTypes": [
+        "selfturnendFunction"
+      ],
+      "minusTypes": [],
+      "baseParam": 1000,
+      "baseValue": 0,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": [
+        0
+      ]
+    },
+    "giveGainHp": {
+      "limit": "normal",
+      "plusTypes": [
+        "upGivegainHp"
+      ],
+      "minusTypes": [
+        "downGivegainHp"
+      ],
+      "baseParam": 1000,
+      "baseValue": 0,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": [
+        50000
+      ]
+    },
+    "functionCommandattack": {
+      "limit": "none",
+      "plusTypes": [
+        "commandattackFunction"
+      ],
+      "minusTypes": [],
+      "baseParam": 1000,
+      "baseValue": 0,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": [
+        0
+      ]
+    },
+    "functionDeadattack": {
+      "limit": "none",
+      "plusTypes": [
+        "deadattackFunction"
+      ],
+      "minusTypes": [],
+      "baseParam": 1000,
+      "baseValue": 0,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": [
+        0
+      ]
+    },
+    "functionEntry": {
+      "limit": "none",
+      "plusTypes": [
+        "entryFunction"
+      ],
+      "minusTypes": [],
+      "baseParam": 1000,
+      "baseValue": 0,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": [
+        0
+      ]
+    },
+    "chagetd": {
+      "limit": "none",
+      "plusTypes": [
+        "upChagetd"
+      ],
+      "minusTypes": [],
+      "baseParam": 0,
+      "baseValue": 0,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": [
+        5
+      ]
+    },
+    "grantSubstate": {
+      "limit": "normal",
+      "plusTypes": [
+        "upGrantSubstate"
+      ],
+      "minusTypes": [
+        "downGrantSubstate"
+      ],
+      "baseParam": 1000,
+      "baseValue": 1000,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": [
+        5000
+      ]
+    },
+    "toleranceSubstate": {
+      "limit": "normal",
+      "plusTypes": [
+        "upToleranceSubstate"
+      ],
+      "minusTypes": [
+        "downToleranceSubstate"
+      ],
+      "baseParam": 1000,
+      "baseValue": 1000,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": [
+        5000
+      ]
+    },
+    "grantInstantdeath": {
+      "limit": "normal",
+      "plusTypes": [
+        "upGrantInstantdeath"
+      ],
+      "minusTypes": [
+        "downGrantInstantdeath"
+      ],
+      "baseParam": 1000,
+      "baseValue": 1000,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": [
+        5000
+      ]
+    },
+    "functionDamage": {
+      "limit": "none",
+      "plusTypes": [
+        "damageFunction"
+      ],
+      "minusTypes": [],
+      "baseParam": 1000,
+      "baseValue": 0,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": [
+        0
+      ]
+    },
+    "functionReflection": {
+      "limit": "none",
+      "plusTypes": [
+        "reflectionFunction"
+      ],
+      "minusTypes": [],
+      "baseParam": 1000,
+      "baseValue": 0,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": [
+        0
+      ]
+    },
+    "multiattack": {
+      "limit": "none",
+      "plusTypes": [
+        "multiattack"
+      ],
+      "minusTypes": [],
+      "baseParam": 1000,
+      "baseValue": 0,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": [
+        10
+      ]
+    },
+    "giveNp": {
+      "limit": "upper",
+      "plusTypes": [
+        "upGiveNp"
+      ],
+      "minusTypes": [
+        "downGiveNp"
+      ],
+      "baseParam": 1000,
+      "baseValue": 0,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": [
+        5000
+      ]
+    },
+    "resistanceDelayNpturn": {
+      "limit": "none",
+      "plusTypes": [
+        "upResistanceDelayNpturn"
+      ],
+      "minusTypes": [
+        "downResistanceDelayNpturn"
+      ],
+      "baseParam": 1000,
+      "baseValue": 1000,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": [
+        5000
+      ]
+    },
+    "pierceDefence": {
+      "limit": "none",
+      "plusTypes": [
+        "pierceDefence"
+      ],
+      "minusTypes": [],
+      "baseParam": 1000,
+      "baseValue": 0,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": [
+        0
+      ]
+    },
+    "gutsHp": {
+      "limit": "none",
+      "plusTypes": [
+        "upGutsHp"
+      ],
+      "minusTypes": [
+        "downGutsHp"
+      ],
+      "baseParam": 1000,
+      "baseValue": 0,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": []
+    },
+    "funcgainNp": {
+      "limit": "none",
+      "plusTypes": [
+        "upFuncgainNp"
+      ],
+      "minusTypes": [
+        "downFuncgainNp"
+      ],
+      "baseParam": 1000,
+      "baseValue": 0,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": [
+        1000
+      ]
+    },
+    "funcHpReduce": {
+      "limit": "none",
+      "plusTypes": [
+        "upFuncHpReduce"
+      ],
+      "minusTypes": [
+        "downFuncHpReduce"
+      ],
+      "baseParam": 1000,
+      "baseValue": 0,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": [
+        5000
+      ]
+    },
+    "functionNpattack": {
+      "limit": "none",
+      "plusTypes": [
+        "npattackPrevBuff"
+      ],
+      "minusTypes": [],
+      "baseParam": 1000,
+      "baseValue": 0,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": [
+        0
+      ]
+    },
+    "fixCommandcard": {
+      "limit": "none",
+      "plusTypes": [
+        "fixCommandcard"
+      ],
+      "minusTypes": [],
+      "baseParam": 1000,
+      "baseValue": 0,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": [
+        0
+      ]
+    },
+    "donotGainnp": {
+      "limit": "none",
+      "plusTypes": [
+        "donotGainnp"
+      ],
+      "minusTypes": [],
+      "baseParam": 1000,
+      "baseValue": 0,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": []
+    },
+    "fieldIndividuality": {
+      "limit": "none",
+      "plusTypes": [
+        "fieldIndividuality"
+      ],
+      "minusTypes": [],
+      "baseParam": 1000,
+      "baseValue": 0,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": [
+        0
+      ]
+    },
+    "donotActCommandtype": {
+      "limit": "none",
+      "plusTypes": [
+        "donotActCommandtype"
+      ],
+      "minusTypes": [],
+      "baseParam": 1000,
+      "baseValue": 0,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": [
+        0
+      ]
+    },
+    "damageEventPoint": {
+      "limit": "upper",
+      "plusTypes": [
+        "upDamageEventPoint"
+      ],
+      "minusTypes": [],
+      "baseParam": 1000,
+      "baseValue": 1000,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": [
+        10000
+      ]
+    },
+    "damageSpecial": {
+      "limit": "upper",
+      "plusTypes": [
+        "upDamageSpecial"
+      ],
+      "minusTypes": [],
+      "baseParam": 1000,
+      "baseValue": 1000,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": []
+    },
+    "functionAttack": {
+      "limit": "none",
+      "plusTypes": [
+        "attackFunction"
+      ],
+      "minusTypes": [],
+      "baseParam": 1000,
+      "baseValue": 0,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": [
+        0
+      ]
+    },
+    "functionCommandcodeattack": {
+      "limit": "none",
+      "plusTypes": [
+        "commandcodeattackFunction"
+      ],
+      "minusTypes": [],
+      "baseParam": 1000,
+      "baseValue": 0,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": [
+        0
+      ]
+    },
+    "donotNobleCondMismatch": {
+      "limit": "none",
+      "plusTypes": [
+        "donotNobleCondMismatch"
+      ],
+      "minusTypes": [],
+      "baseParam": 1000,
+      "baseValue": 0,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": [
+        0
+      ]
+    },
+    "donotSelectCommandcard": {
+      "limit": "none",
+      "plusTypes": [
+        "donotSelectCommandcard"
+      ],
+      "minusTypes": [],
+      "baseParam": 1000,
+      "baseValue": 0,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": [
+        0
+      ]
+    },
+    "donotReplace": {
+      "limit": "none",
+      "plusTypes": [
+        "donotReplace"
+      ],
+      "minusTypes": [],
+      "baseParam": 1000,
+      "baseValue": 0,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": [
+        0
+      ]
+    },
+    "shortenUserEquipSkill": {
+      "limit": "none",
+      "plusTypes": [
+        "shortenUserEquipSkill"
+      ],
+      "minusTypes": [],
+      "baseParam": 1000,
+      "baseValue": 0,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": [
+        0
+      ]
+    },
+    "tdTypeChange": {
+      "limit": "none",
+      "plusTypes": [
+        "tdTypeChange",
+        "tdTypeChangeArts",
+        "tdTypeChangeBuster",
+        "tdTypeChangeQuick"
+      ],
+      "minusTypes": [],
+      "baseParam": -1,
+      "baseValue": 0,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": [
+        0
+      ]
+    },
+    "overwriteClassRelation": {
+      "limit": "none",
+      "plusTypes": [
+        "overwriteClassRelation"
+      ],
+      "minusTypes": [],
+      "baseParam": 1000,
+      "baseValue": 0,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": [
+        0
+      ]
+    },
+    "functionCommandattackBefore": {
+      "limit": "none",
+      "plusTypes": [
+        "commandattackBeforeFunction"
+      ],
+      "minusTypes": [],
+      "baseParam": 1000,
+      "baseValue": 0,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": [
+        0
+      ]
+    },
+    "functionGuts": {
+      "limit": "none",
+      "plusTypes": [
+        "gutsFunction"
+      ],
+      "minusTypes": [],
+      "baseParam": 1000,
+      "baseValue": 0,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": [
+        0
+      ]
+    },
+    "criticalRateDamageTaken": {
+      "limit": "normal",
+      "plusTypes": [
+        "upCriticalRateDamageTaken"
+      ],
+      "minusTypes": [
+        "downCriticalRateDamageTaken"
+      ],
+      "baseParam": 1000,
+      "baseValue": 1000,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": [
+        5000
+      ]
+    },
+    "criticalStarDamageTaken": {
+      "limit": "normal",
+      "plusTypes": [
+        "upCriticalStarDamageTaken"
+      ],
+      "minusTypes": [
+        "downCriticalStarDamageTaken"
+      ],
+      "baseParam": 1000,
+      "baseValue": 1000,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": [
+        5000
+      ]
+    },
+    "skillRankChange": {
+      "limit": "normal",
+      "plusTypes": [
+        "skillRankUp"
+      ],
+      "minusTypes": [],
+      "baseParam": 0,
+      "baseValue": 0,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": [
+        0
+      ]
+    },
+    "avoidanceIndividuality": {
+      "limit": "normal",
+      "plusTypes": [
+        "avoidanceIndividuality"
+      ],
+      "minusTypes": [],
+      "baseParam": 1000,
+      "baseValue": 0,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": [
+        0
+      ]
+    },
+    "changeCommandCardType": {
+      "limit": "none",
+      "plusTypes": [
+        "changeCommandCardType"
+      ],
+      "minusTypes": [],
+      "baseParam": 1000,
+      "baseValue": 0,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": [
+        0
+      ]
+    },
+    "specialInvincible": {
+      "limit": "none",
+      "plusTypes": [
+        "specialInvincible"
+      ],
+      "minusTypes": [],
+      "baseParam": 1000,
+      "baseValue": 0,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": [
+        0
+      ]
+    },
+    "preventDeathByDamage": {
+      "limit": "none",
+      "plusTypes": [
+        "preventDeathByDamage"
+      ],
+      "minusTypes": [],
+      "baseParam": 1000,
+      "baseValue": 0,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": [
+        0
+      ]
+    },
+    "functionCommandcodeattackAfter": {
+      "limit": "none",
+      "plusTypes": [
+        "commandcodeattackAfterFunction"
+      ],
+      "minusTypes": [],
+      "baseParam": 1000,
+      "baseValue": 0,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": [
+        0
+      ]
+    },
+    "functionAttackBefore": {
+      "limit": "none",
+      "plusTypes": [
+        "attackBeforeFunction"
+      ],
+      "minusTypes": [],
+      "baseParam": 1000,
+      "baseValue": 0,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": [
+        0
+      ]
+    }
+  },
+  "cardInfo": {
+    "arts": {
+      "1": {
+        "individuality": [
+          {
+            "id": 4001
+          },
+          {
+            "id": 4008
+          }
+        ],
+        "adjustAtk": 1000,
+        "adjustTdGauge": 3000,
+        "adjustCritical": 0,
+        "addAtk": 0,
+        "addTdGauge": 1000,
+        "addCritical": 0
+      },
+      "2": {
+        "individuality": [
+          {
+            "id": 4001
+          },
+          {
+            "id": 4008
+          }
+        ],
+        "adjustAtk": 1200,
+        "adjustTdGauge": 4500,
+        "adjustCritical": 0,
+        "addAtk": 0,
+        "addTdGauge": 0,
+        "addCritical": 0
+      },
+      "3": {
+        "individuality": [
+          {
+            "id": 4001
+          },
+          {
+            "id": 4008
+          }
+        ],
+        "adjustAtk": 1400,
+        "adjustTdGauge": 6000,
+        "adjustCritical": 0,
+        "addAtk": 0,
+        "addTdGauge": 0,
+        "addCritical": 0
+      }
+    },
+    "buster": {
+      "1": {
+        "individuality": [
+          {
+            "id": 4002
+          },
+          {
+            "id": 4008
+          }
+        ],
+        "adjustAtk": 1500,
+        "adjustTdGauge": 0,
+        "adjustCritical": 100,
+        "addAtk": 500,
+        "addTdGauge": 0,
+        "addCritical": 0
+      },
+      "2": {
+        "individuality": [
+          {
+            "id": 4002
+          },
+          {
+            "id": 4008
+          }
+        ],
+        "adjustAtk": 1800,
+        "adjustTdGauge": 0,
+        "adjustCritical": 150,
+        "addAtk": 0,
+        "addTdGauge": 0,
+        "addCritical": 0
+      },
+      "3": {
+        "individuality": [
+          {
+            "id": 4002
+          },
+          {
+            "id": 4008
+          }
+        ],
+        "adjustAtk": 2100,
+        "adjustTdGauge": 0,
+        "adjustCritical": 200,
+        "addAtk": 0,
+        "addTdGauge": 0,
+        "addCritical": 0
+      }
+    },
+    "quick": {
+      "1": {
+        "individuality": [
+          {
+            "id": 4003
+          },
+          {
+            "id": 4008
+          }
+        ],
+        "adjustAtk": 800,
+        "adjustTdGauge": 1000,
+        "adjustCritical": 800,
+        "addAtk": 0,
+        "addTdGauge": 0,
+        "addCritical": 200
+      },
+      "2": {
+        "individuality": [
+          {
+            "id": 4003
+          },
+          {
+            "id": 4008
+          }
+        ],
+        "adjustAtk": 960,
+        "adjustTdGauge": 1500,
+        "adjustCritical": 1300,
+        "addAtk": 0,
+        "addTdGauge": 0,
+        "addCritical": 0
+      },
+      "3": {
+        "individuality": [
+          {
+            "id": 4003
+          },
+          {
+            "id": 4008
+          }
+        ],
+        "adjustAtk": 1120,
+        "adjustTdGauge": 2000,
+        "adjustCritical": 1800,
+        "addAtk": 0,
+        "addTdGauge": 0,
+        "addCritical": 0
+      }
+    },
+    "extra": {
+      "1": {
+        "individuality": [
+          {
+            "id": 4004
+          },
+          {
+            "id": 4008
+          }
+        ],
+        "adjustAtk": 1000,
+        "adjustTdGauge": 1000,
+        "adjustCritical": 1000,
+        "addAtk": 0,
+        "addTdGauge": 0,
+        "addCritical": 0
+      },
+      "4": {
+        "individuality": [
+          {
+            "id": 4004
+          },
+          {
+            "id": 4008
+          }
+        ],
+        "adjustAtk": 1000,
+        "adjustTdGauge": 1000,
+        "adjustCritical": 1000,
+        "addAtk": 0,
+        "addTdGauge": 0,
+        "addCritical": 0
+      }
+    },
+    "blank": {
+      "0": {
+        "individuality": [],
+        "adjustAtk": 0,
+        "adjustTdGauge": 0,
+        "adjustCritical": 0,
+        "addAtk": 0,
+        "addTdGauge": 0,
+        "addCritical": 0
+      }
+    },
+    "weak": {
+      "1": {
+        "individuality": [
+          {
+            "id": 4005
+          }
+        ],
+        "adjustAtk": 1000,
+        "adjustTdGauge": 0,
+        "adjustCritical": 0,
+        "addAtk": 0,
+        "addTdGauge": 0,
+        "addCritical": 0
+      },
+      "2": {
+        "individuality": [
+          {
+            "id": 4005
+          }
+        ],
+        "adjustAtk": 1000,
+        "adjustTdGauge": 0,
+        "adjustCritical": 0,
+        "addAtk": 0,
+        "addTdGauge": 0,
+        "addCritical": 0
+      },
+      "3": {
+        "individuality": [
+          {
+            "id": 4005
+          }
+        ],
+        "adjustAtk": 1000,
+        "adjustTdGauge": 0,
+        "adjustCritical": 0,
+        "addAtk": 0,
+        "addTdGauge": 0,
+        "addCritical": 0
+      },
+      "4": {
+        "individuality": [
+          {
+            "id": 4005
+          }
+        ],
+        "adjustAtk": 1000,
+        "adjustTdGauge": 0,
+        "adjustCritical": 0,
+        "addAtk": 0,
+        "addTdGauge": 0,
+        "addCritical": 0
+      },
+      "5": {
+        "individuality": [
+          {
+            "id": 4005
+          }
+        ],
+        "adjustAtk": 1000,
+        "adjustTdGauge": 0,
+        "adjustCritical": 0,
+        "addAtk": 0,
+        "addTdGauge": 0,
+        "addCritical": 0
+      }
+    },
+    "strength": {
+      "1": {
+        "individuality": [
+          {
+            "id": 4006
+          }
+        ],
+        "adjustAtk": 1000,
+        "adjustTdGauge": 0,
+        "adjustCritical": 0,
+        "addAtk": 0,
+        "addTdGauge": 0,
+        "addCritical": 0
+      },
+      "2": {
+        "individuality": [
+          {
+            "id": 4006
+          }
+        ],
+        "adjustAtk": 1000,
+        "adjustTdGauge": 0,
+        "adjustCritical": 0,
+        "addAtk": 0,
+        "addTdGauge": 0,
+        "addCritical": 0
+      },
+      "3": {
+        "individuality": [
+          {
+            "id": 4006
+          }
+        ],
+        "adjustAtk": 1000,
+        "adjustTdGauge": 0,
+        "adjustCritical": 0,
+        "addAtk": 0,
+        "addTdGauge": 0,
+        "addCritical": 0
+      },
+      "4": {
+        "individuality": [
+          {
+            "id": 4006
+          }
+        ],
+        "adjustAtk": 1000,
+        "adjustTdGauge": 0,
+        "adjustCritical": 0,
+        "addAtk": 0,
+        "addTdGauge": 0,
+        "addCritical": 0
+      },
+      "5": {
+        "individuality": [
+          {
+            "id": 4006
+          }
+        ],
+        "adjustAtk": 1000,
+        "adjustTdGauge": 0,
+        "adjustCritical": 0,
+        "addAtk": 0,
+        "addTdGauge": 0,
+        "addCritical": 0
+      }
+    }
+  },
+  "classAttackRate": {
+    "saber": 1000,
+    "archer": 950,
+    "lancer": 1050,
+    "rider": 1000,
+    "caster": 900,
+    "assassin": 900,
+    "berserker": 1100,
+    "shielder": 1000,
+    "ruler": 1100,
+    "alterEgo": 1000,
+    "avenger": 1100,
+    "demonGodPillar": 1000,
+    "grandCaster": 900,
+    "beastII": 1000,
+    "ushiChaosTide": 1000,
+    "beastI": 1000,
+    "moonCancer": 1000,
+    "beastIIIR": 1000,
+    "foreigner": 1000,
+    "beastIIIL": 1000,
+    "beastUnknown": 1000,
+    "pretender": 1000,
+    "beastIV": 1000,
+    "unknown": 1000,
+    "agarthaPenth": 1100,
+    "cccFinaleEmiyaAlter": 1000,
+    "salemAbby": 1000,
+    "ALL": 1000
+  },
+  "classRelation": {
+    "saber": {
+      "saber": 1000,
+      "archer": 500,
+      "lancer": 2000,
+      "rider": 1000,
+      "caster": 1000,
+      "assassin": 1000,
+      "berserker": 2000,
+      "shielder": 1000,
+      "ruler": 500,
+      "alterEgo": 1000,
+      "avenger": 1000,
+      "demonGodPillar": 1000,
+      "beastII": 1000,
+      "beastI": 1000,
+      "moonCancer": 1000,
+      "beastIIIR": 1000,
+      "foreigner": 1000,
+      "beastIIIL": 1000,
+      "beastUnknown": 1000,
+      "pretender": 1000,
+      "beastIV": 1000,
+      "cccFinaleEmiyaAlter": 1000
+    },
+    "archer": {
+      "saber": 2000,
+      "archer": 1000,
+      "lancer": 500,
+      "rider": 1000,
+      "caster": 1000,
+      "assassin": 1000,
+      "berserker": 2000,
+      "shielder": 1000,
+      "ruler": 500,
+      "alterEgo": 1000,
+      "avenger": 1000,
+      "demonGodPillar": 1000,
+      "beastII": 1000,
+      "beastI": 1000,
+      "moonCancer": 1000,
+      "beastIIIR": 1000,
+      "foreigner": 1000,
+      "beastIIIL": 1000,
+      "beastUnknown": 1000,
+      "pretender": 1000,
+      "beastIV": 1000,
+      "cccFinaleEmiyaAlter": 1000
+    },
+    "lancer": {
+      "saber": 500,
+      "archer": 2000,
+      "lancer": 1000,
+      "rider": 1000,
+      "caster": 1000,
+      "assassin": 1000,
+      "berserker": 2000,
+      "shielder": 1000,
+      "ruler": 500,
+      "alterEgo": 1000,
+      "avenger": 1000,
+      "demonGodPillar": 1000,
+      "beastII": 1000,
+      "beastI": 1000,
+      "moonCancer": 1000,
+      "beastIIIR": 1000,
+      "foreigner": 1000,
+      "beastIIIL": 1000,
+      "beastUnknown": 1000,
+      "pretender": 1000,
+      "beastIV": 1000,
+      "cccFinaleEmiyaAlter": 1000
+    },
+    "rider": {
+      "saber": 1000,
+      "archer": 1000,
+      "lancer": 1000,
+      "rider": 1000,
+      "caster": 2000,
+      "assassin": 500,
+      "berserker": 2000,
+      "shielder": 1000,
+      "ruler": 500,
+      "alterEgo": 1000,
+      "avenger": 1000,
+      "demonGodPillar": 2000,
+      "beastII": 1000,
+      "beastI": 2000,
+      "moonCancer": 1000,
+      "beastIIIR": 1000,
+      "foreigner": 1000,
+      "beastIIIL": 1000,
+      "beastUnknown": 1000,
+      "pretender": 1000,
+      "beastIV": 1000,
+      "cccFinaleEmiyaAlter": 1000
+    },
+    "caster": {
+      "saber": 1000,
+      "archer": 1000,
+      "lancer": 1000,
+      "rider": 500,
+      "caster": 1000,
+      "assassin": 2000,
+      "berserker": 2000,
+      "shielder": 1000,
+      "ruler": 500,
+      "alterEgo": 1000,
+      "avenger": 1000,
+      "demonGodPillar": 2000,
+      "beastII": 1000,
+      "beastI": 2000,
+      "moonCancer": 1000,
+      "beastIIIR": 1000,
+      "foreigner": 1000,
+      "beastIIIL": 1000,
+      "beastUnknown": 1000,
+      "pretender": 1000,
+      "beastIV": 1000,
+      "cccFinaleEmiyaAlter": 1000
+    },
+    "assassin": {
+      "saber": 1000,
+      "archer": 1000,
+      "lancer": 1000,
+      "rider": 2000,
+      "caster": 500,
+      "assassin": 1000,
+      "berserker": 2000,
+      "shielder": 1000,
+      "ruler": 500,
+      "alterEgo": 1000,
+      "avenger": 1000,
+      "demonGodPillar": 2000,
+      "beastII": 1000,
+      "beastI": 2000,
+      "moonCancer": 1000,
+      "beastIIIR": 1000,
+      "foreigner": 1000,
+      "beastIIIL": 1000,
+      "beastUnknown": 1000,
+      "pretender": 1000,
+      "beastIV": 1000,
+      "cccFinaleEmiyaAlter": 1000
+    },
+    "berserker": {
+      "saber": 1500,
+      "archer": 1500,
+      "lancer": 1500,
+      "rider": 1500,
+      "caster": 1500,
+      "assassin": 1500,
+      "berserker": 1500,
+      "shielder": 1000,
+      "ruler": 1500,
+      "alterEgo": 1500,
+      "avenger": 1500,
+      "demonGodPillar": 1500,
+      "beastII": 1000,
+      "beastI": 1500,
+      "moonCancer": 1500,
+      "beastIIIR": 1000,
+      "foreigner": 500,
+      "beastIIIL": 1000,
+      "beastUnknown": 1000,
+      "pretender": 1500,
+      "beastIV": 1000,
+      "cccFinaleEmiyaAlter": 1000
+    },
+    "shielder": {
+      "saber": 1000,
+      "archer": 1000,
+      "lancer": 1000,
+      "rider": 1000,
+      "caster": 1000,
+      "assassin": 1000,
+      "berserker": 1000,
+      "shielder": 1000,
+      "ruler": 1000,
+      "alterEgo": 1000,
+      "avenger": 1000,
+      "demonGodPillar": 1000,
+      "beastII": 1000,
+      "beastI": 1000,
+      "moonCancer": 1000,
+      "beastIIIR": 1000,
+      "foreigner": 1000,
+      "beastIIIL": 1000,
+      "beastUnknown": 1000,
+      "pretender": 1000,
+      "beastIV": 1000,
+      "cccFinaleEmiyaAlter": 1000
+    },
+    "ruler": {
+      "saber": 1000,
+      "archer": 1000,
+      "lancer": 1000,
+      "rider": 1000,
+      "caster": 1000,
+      "assassin": 1000,
+      "berserker": 2000,
+      "shielder": 1000,
+      "ruler": 1000,
+      "alterEgo": 1000,
+      "avenger": 500,
+      "demonGodPillar": 1000,
+      "beastII": 1000,
+      "beastI": 1000,
+      "moonCancer": 2000,
+      "beastIIIR": 1000,
+      "foreigner": 1000,
+      "beastIIIL": 1000,
+      "beastUnknown": 1000,
+      "pretender": 1000,
+      "beastIV": 1000,
+      "cccFinaleEmiyaAlter": 1000
+    },
+    "alterEgo": {
+      "saber": 500,
+      "archer": 500,
+      "lancer": 500,
+      "rider": 1500,
+      "caster": 1500,
+      "assassin": 1500,
+      "berserker": 2000,
+      "shielder": 1000,
+      "ruler": 1000,
+      "alterEgo": 1000,
+      "avenger": 1000,
+      "demonGodPillar": 1000,
+      "beastII": 1000,
+      "beastI": 1000,
+      "moonCancer": 1000,
+      "beastIIIR": 1200,
+      "foreigner": 2000,
+      "beastIIIL": 1200,
+      "beastUnknown": 1000,
+      "pretender": 500,
+      "beastIV": 1000,
+      "cccFinaleEmiyaAlter": 1200
+    },
+    "avenger": {
+      "saber": 1000,
+      "archer": 1000,
+      "lancer": 1000,
+      "rider": 1000,
+      "caster": 1000,
+      "assassin": 1000,
+      "berserker": 2000,
+      "shielder": 1000,
+      "ruler": 2000,
+      "alterEgo": 1000,
+      "avenger": 1000,
+      "demonGodPillar": 1000,
+      "beastII": 1000,
+      "beastI": 1000,
+      "moonCancer": 500,
+      "beastIIIR": 1000,
+      "foreigner": 1000,
+      "beastIIIL": 1000,
+      "beastUnknown": 1000,
+      "pretender": 1000,
+      "beastIV": 1000,
+      "cccFinaleEmiyaAlter": 1000
+    },
+    "demonGodPillar": {
+      "saber": 2000,
+      "archer": 2000,
+      "lancer": 2000,
+      "rider": 1000,
+      "caster": 1000,
+      "assassin": 1000,
+      "berserker": 2000,
+      "shielder": 1000,
+      "ruler": 1000,
+      "alterEgo": 1000,
+      "avenger": 500,
+      "demonGodPillar": 1000,
+      "beastII": 1000,
+      "beastI": 1000,
+      "moonCancer": 1000,
+      "beastIIIR": 1000,
+      "foreigner": 1000,
+      "beastIIIL": 1000,
+      "beastUnknown": 1000,
+      "pretender": 1000,
+      "beastIV": 1000,
+      "cccFinaleEmiyaAlter": 1000
+    },
+    "beastII": {
+      "saber": 1000,
+      "archer": 1000,
+      "lancer": 1000,
+      "rider": 1000,
+      "caster": 1000,
+      "assassin": 1000,
+      "berserker": 1000,
+      "shielder": 1000,
+      "ruler": 1000,
+      "alterEgo": 1000,
+      "avenger": 1000,
+      "demonGodPillar": 1000,
+      "beastII": 1000,
+      "beastI": 1000,
+      "moonCancer": 1000,
+      "beastIIIR": 1000,
+      "foreigner": 1000,
+      "beastIIIL": 1000,
+      "beastUnknown": 1000,
+      "pretender": 1000,
+      "beastIV": 1000,
+      "cccFinaleEmiyaAlter": 1000
+    },
+    "beastI": {
+      "saber": 2000,
+      "archer": 2000,
+      "lancer": 2000,
+      "rider": 1000,
+      "caster": 1000,
+      "assassin": 1000,
+      "berserker": 2000,
+      "shielder": 1000,
+      "ruler": 1000,
+      "alterEgo": 1000,
+      "avenger": 500,
+      "demonGodPillar": 1000,
+      "beastII": 1000,
+      "beastI": 1000,
+      "moonCancer": 1000,
+      "beastIIIR": 1000,
+      "foreigner": 1000,
+      "beastIIIL": 1000,
+      "beastUnknown": 1000,
+      "pretender": 1000,
+      "beastIV": 1000,
+      "cccFinaleEmiyaAlter": 1000
+    },
+    "moonCancer": {
+      "saber": 1000,
+      "archer": 1000,
+      "lancer": 1000,
+      "rider": 1000,
+      "caster": 1000,
+      "assassin": 1000,
+      "berserker": 2000,
+      "shielder": 1000,
+      "ruler": 500,
+      "alterEgo": 1000,
+      "avenger": 2000,
+      "demonGodPillar": 1000,
+      "beastII": 1000,
+      "beastI": 1000,
+      "moonCancer": 1000,
+      "beastIIIR": 1200,
+      "foreigner": 1000,
+      "beastIIIL": 1000,
+      "beastUnknown": 1000,
+      "pretender": 1000,
+      "beastIV": 1000,
+      "cccFinaleEmiyaAlter": 1200
+    },
+    "beastIIIR": {
+      "saber": 1000,
+      "archer": 1000,
+      "lancer": 1000,
+      "rider": 1000,
+      "caster": 1000,
+      "assassin": 1000,
+      "berserker": 1000,
+      "shielder": 1000,
+      "ruler": 1000,
+      "alterEgo": 1000,
+      "avenger": 1000,
+      "demonGodPillar": 1000,
+      "beastII": 1000,
+      "beastI": 1000,
+      "moonCancer": 1000,
+      "beastIIIR": 1000,
+      "foreigner": 1000,
+      "beastIIIL": 1000,
+      "beastUnknown": 1000,
+      "pretender": 1000,
+      "beastIV": 1000,
+      "cccFinaleEmiyaAlter": 1000
+    },
+    "foreigner": {
+      "saber": 1000,
+      "archer": 1000,
+      "lancer": 1000,
+      "rider": 1000,
+      "caster": 1000,
+      "assassin": 1000,
+      "berserker": 2000,
+      "shielder": 1000,
+      "ruler": 1000,
+      "alterEgo": 500,
+      "avenger": 1000,
+      "demonGodPillar": 1000,
+      "beastII": 1000,
+      "beastI": 1000,
+      "moonCancer": 1000,
+      "beastIIIR": 1000,
+      "foreigner": 2000,
+      "beastIIIL": 1200,
+      "beastUnknown": 1000,
+      "pretender": 2000,
+      "beastIV": 1000,
+      "cccFinaleEmiyaAlter": 1000
+    },
+    "beastIIIL": {
+      "saber": 1000,
+      "archer": 1000,
+      "lancer": 1000,
+      "rider": 1000,
+      "caster": 1000,
+      "assassin": 1000,
+      "berserker": 1000,
+      "shielder": 1000,
+      "ruler": 1000,
+      "alterEgo": 1000,
+      "avenger": 1000,
+      "demonGodPillar": 1000,
+      "beastII": 1000,
+      "beastI": 1000,
+      "moonCancer": 1000,
+      "beastIIIR": 1000,
+      "foreigner": 1000,
+      "beastIIIL": 1000,
+      "cccFinaleEmiyaAlter": 1000
+    },
+    "beastUnknown": {
+      "saber": 1000,
+      "archer": 1000,
+      "lancer": 1000,
+      "rider": 1000,
+      "caster": 500,
+      "assassin": 1000,
+      "berserker": 1000,
+      "shielder": 1000,
+      "ruler": 1000,
+      "alterEgo": 1000,
+      "avenger": 1000,
+      "demonGodPillar": 1000,
+      "beastII": 1000,
+      "beastI": 1000,
+      "moonCancer": 1000,
+      "beastIIIR": 1000,
+      "foreigner": 1000,
+      "beastUnknown": 1000,
+      "pretender": 1000,
+      "beastIV": 1000,
+      "cccFinaleEmiyaAlter": 1000
+    },
+    "pretender": {
+      "saber": 1500,
+      "archer": 1500,
+      "lancer": 1500,
+      "rider": 500,
+      "caster": 500,
+      "assassin": 500,
+      "berserker": 2000,
+      "shielder": 1000,
+      "ruler": 1000,
+      "alterEgo": 2000,
+      "avenger": 1000,
+      "demonGodPillar": 1000,
+      "beastII": 1000,
+      "beastI": 1000,
+      "moonCancer": 1000,
+      "beastIIIR": 1000,
+      "foreigner": 500,
+      "beastIIIL": 1000,
+      "beastUnknown": 1000,
+      "pretender": 1000,
+      "beastIV": 1000,
+      "cccFinaleEmiyaAlter": 1000
+    },
+    "beastIV": {
+      "saber": 1000,
+      "archer": 1000,
+      "lancer": 1000,
+      "rider": 1000,
+      "caster": 500,
+      "assassin": 1000,
+      "berserker": 1000,
+      "shielder": 1000,
+      "ruler": 1000,
+      "alterEgo": 1000,
+      "avenger": 1000,
+      "demonGodPillar": 1000,
+      "beastII": 1000,
+      "beastI": 1000,
+      "moonCancer": 1000,
+      "beastIIIR": 1000,
+      "foreigner": 1000,
+      "beastUnknown": 1000,
+      "pretender": 1000,
+      "beastIV": 1000,
+      "cccFinaleEmiyaAlter": 1000
+    },
+    "cccFinaleEmiyaAlter": {
+      "saber": 1000,
+      "archer": 1000,
+      "lancer": 1000,
+      "rider": 1000,
+      "caster": 1000,
+      "assassin": 1000,
+      "berserker": 1000,
+      "shielder": 1000,
+      "ruler": 1000,
+      "alterEgo": 1000,
+      "avenger": 1000,
+      "demonGodPillar": 1000,
+      "beastII": 1000,
+      "beastI": 1000,
+      "moonCancer": 1000,
+      "beastIIIR": 1000,
+      "foreigner": 1000,
+      "beastIIIL": 1000,
+      "beastUnknown": 1000,
+      "pretender": 1000,
+      "beastIV": 1000
+    }
+  },
+  "constants": {
+    "ATTACK_RATE": 230,
+    "ATTACK_RATE_RANDOM_MAX": 1100,
+    "ATTACK_RATE_RANDOM_MIN": 900,
+    "BACKSIDE_CLASS_IMAGE_ID": 102,
+    "BACKSIDE_SVT_EQUIP_IMAGE_ID": 103,
+    "BACKSIDE_SVT_IMAGE_ID": 101,
+    "BATTLE_EFFECT_ID_AVOIDANCE": 6216,
+    "BATTLE_EFFECT_ID_AVOIDANCE_PIERCE": 6217,
+    "BATTLE_EFFECT_ID_INVINCIBLE": 6214,
+    "BATTLE_EFFECT_ID_INVINCIBLE_PIERCE": 6215,
+    "BATTLE_ITEM_DISP_COLUMN": 7,
+    "BP_EXPRESSION": 1,
+    "CHAINBONUS_ARTS_RATE": 200,
+    "CHAINBONUS_BUSTER_RATE": 200,
+    "CHAINBONUS_QUICK": 10,
+    "COMMAND_ARTS": 4001,
+    "COMMAND_BUSTER": 4002,
+    "COMMAND_CARD_PRM_UP_MAX": 500,
+    "COMMAND_CODE_DETACHING_ITEM_ID": 5003,
+    "COMMAND_QUICK": 4003,
+    "CRITICAL_ATTACK_RATE": 2000,
+    "CRITICAL_INDIVIDUALITY": 4100,
+    "CRITICAL_RATE_PER_STAR": 100,
+    "CRITICAL_STAR_RATE": 200,
+    "CRITICAL_TD_POINT_RATE": 2000,
+    "DECK_MAX": 10,
+    "ENEMY_ATTACK_RATE_ARTS": 1000,
+    "ENEMY_ATTACK_RATE_BUSTER": 1500,
+    "ENEMY_ATTACK_RATE_QUICK": 800,
+    "ENEMY_MAX_BATTLE_COUNT": 5,
+    "EXTRA_ATTACK_RATE_GRAND": 3500,
+    "EXTRA_ATTACK_RATE_SINGLE": 2000,
+    "EXTRA_CRITICAL_RATE": 0,
+    "FOLLOWER_LIST_EXPIRE_AT": 3600,
+    "FOLLOWER_REFRESH_RESET_TIME": 10,
+    "FOLLOW_FRIEND_POINT": 50,
+    "FRIEND_NUM": 28,
+    "FULL_TD_POINT": 10000,
+    "HEROINE_CHANGECARDVOICE": 800104,
+    "HYDE_SVT_ID": 600710,
+    "JEKYLL_SVT_ID": 600700,
+    "LARGE_SUCCESS_MULT_EXP": 2000,
+    "LARGE_SUCCESS_RATE": 100,
+    "MASHU_CHANGE_QUEST_ID": 1000501,
+    "MASHU_CHANGE_WAR_ID": 105,
+    "MASHU_SVT_ID1": 800100,
+    "MASHU_SVT_ID2": 800101,
+    "MAX_BLACK_LIST_NUM": 50,
+    "MAX_COMMAND_SPELL": 3,
+    "MAX_DROP_FACTOR": 1000,
+    "MAX_EVENT_POINT": 999999999,
+    "MAX_EXP_FACTOR": 3000,
+    "MAX_FRIENDPOINT": 999999999,
+    "MAX_FRIENDPOINT_BOOST_ITEM_DAILY_RECEIVE": 100,
+    "MAX_FRIENDPOINT_BOOST_ITEM_USE": 3,
+    "MAX_FRIENDSHIP_RANK": 5,
+    "MAX_FRIEND_CODE": 999999999,
+    "MAX_FRIEND_HISTORY_NUM": 100,
+    "MAX_FRIEND_SHIP_UP_RATIO": 3000,
+    "MAX_MANA": 999999999,
+    "MAX_NEAR_PRESENT_OFFSET_NUM": 50,
+    "MAX_PRESENT_BOX_HISTORY_NUM": 0,
+    "MAX_PRESENT_BOX_NUM": 400,
+    "MAX_PRESENT_RECEIVE_NUM": 99,
+    "MAX_QP": 2000000000,
+    "MAX_QP_DROP_UP_RATIO": 3000,
+    "MAX_QP_FACTOR": 3000,
+    "MAX_RARE_PRI": 999999999,
+    "MAX_RP": 8,
+    "MAX_STONE": 999999999,
+    "MAX_USER_COMMAND_CODE": 350,
+    "MAX_USER_EQUIP_EXP_UP_RATIO": 3000,
+    "MAX_USER_ITEM": 999999999,
+    "MAX_USER_LV": 160,
+    "MAX_USER_SVT": 600,
+    "MAX_USER_SVT_EQUIP": 600,
+    "MAX_USER_SVT_EQUIP_STORAGE": 100,
+    "MAX_USER_SVT_STORAGE": 100,
+    "MENU_CHANGE": 1,
+    "OVER_KILL_NP_RATE": 1500,
+    "OVER_KILL_STAR_ADD": 300,
+    "OVER_KILL_STAR_RATE": 1000,
+    "STAR_RATE_MAX": 3000,
+    "STATUS_UP_ADJUST_ATK": 10,
+    "STATUS_UP_ADJUST_HP": 10,
+    "STATUS_UP_BUFF": 3004,
+    "SUPER_SUCCESS_MULT_EXP": 3000,
+    "SUPER_SUCCESS_RATE": 20,
+    "SUPPORT_DECK_MAX": 10,
+    "SWIMSUIT_MELT_SVT_ID": 304000,
+    "TAMAMOCAT_STUN_BUFF_ID": 178,
+    "TAMAMOCAT_TREASURE_DEVICE_ID_1": 701601,
+    "TAMAMOCAT_TREASURE_DEVICE_ID_2": 701602,
+    "TEMPORARY_IGNORE_SLEEP_MODE_FOR_TREASURE_DEVICE_SVT_ID_1": 500100,
+    "TEMPORARY_IGNORE_SLEEP_MODE_FOR_TREASURE_DEVICE_SVT_ID_2": 600900,
+    "TREASUREDEVICE_ID_MASHU3": 800104,
+    "USER_ACT": 20,
+    "USER_COST": 56
+  },
+  "svtGrailCost": {
+    "0": {
+      "1": {
+        "qp": 600000,
+        "addLvMax": 5,
+        "frameType": "black"
+      },
+      "2": {
+        "qp": 800000,
+        "addLvMax": 10,
+        "frameType": "black"
+      },
+      "3": {
+        "qp": 1000000,
+        "addLvMax": 15,
+        "frameType": "black"
+      },
+      "4": {
+        "qp": 2000000,
+        "addLvMax": 20,
+        "frameType": "black"
+      },
+      "5": {
+        "qp": 3000000,
+        "addLvMax": 25,
+        "frameType": "black"
+      },
+      "6": {
+        "qp": 4000000,
+        "addLvMax": 27,
+        "frameType": "black"
+      },
+      "7": {
+        "qp": 5000000,
+        "addLvMax": 29,
+        "frameType": "black"
+      },
+      "8": {
+        "qp": 6000000,
+        "addLvMax": 31,
+        "frameType": "black"
+      },
+      "9": {
+        "qp": 7000000,
+        "addLvMax": 33,
+        "frameType": "black"
+      },
+      "10": {
+        "qp": 8000000,
+        "addLvMax": 35,
+        "frameType": "black"
+      },
+      "11": {
+        "qp": 9000000,
+        "addLvMax": 37,
+        "frameType": "frame0803"
+      },
+      "12": {
+        "qp": 9000000,
+        "addLvMax": 39,
+        "frameType": "frame0803"
+      },
+      "13": {
+        "qp": 9000000,
+        "addLvMax": 41,
+        "frameType": "frame0803"
+      },
+      "14": {
+        "qp": 9000000,
+        "addLvMax": 43,
+        "frameType": "frame0803"
+      },
+      "15": {
+        "qp": 9000000,
+        "addLvMax": 45,
+        "frameType": "frame0803"
+      },
+      "16": {
+        "qp": 9000000,
+        "addLvMax": 47,
+        "frameType": "frame0803"
+      },
+      "17": {
+        "qp": 9000000,
+        "addLvMax": 49,
+        "frameType": "frame0803"
+      },
+      "18": {
+        "qp": 9000000,
+        "addLvMax": 51,
+        "frameType": "frame0803"
+      },
+      "19": {
+        "qp": 9000000,
+        "addLvMax": 53,
+        "frameType": "frame0803"
+      },
+      "20": {
+        "qp": 9000000,
+        "addLvMax": 55,
+        "frameType": "frame0803"
+      }
+    },
+    "1": {
+      "1": {
+        "qp": 400000,
+        "addLvMax": 10,
+        "frameType": "silver"
+      },
+      "2": {
+        "qp": 600000,
+        "addLvMax": 15,
+        "frameType": "silver"
+      },
+      "3": {
+        "qp": 800000,
+        "addLvMax": 20,
+        "frameType": "gold"
+      },
+      "4": {
+        "qp": 1000000,
+        "addLvMax": 25,
+        "frameType": "gold"
+      },
+      "5": {
+        "qp": 2000000,
+        "addLvMax": 30,
+        "frameType": "gold"
+      },
+      "6": {
+        "qp": 3000000,
+        "addLvMax": 32,
+        "frameType": "gold"
+      },
+      "7": {
+        "qp": 4000000,
+        "addLvMax": 34,
+        "frameType": "gold"
+      },
+      "8": {
+        "qp": 5000000,
+        "addLvMax": 36,
+        "frameType": "gold"
+      },
+      "9": {
+        "qp": 6000000,
+        "addLvMax": 38,
+        "frameType": "gold"
+      },
+      "10": {
+        "qp": 7000000,
+        "addLvMax": 40,
+        "frameType": "gold"
+      },
+      "11": {
+        "qp": 8000000,
+        "addLvMax": 42,
+        "frameType": "frame0801"
+      },
+      "12": {
+        "qp": 8000000,
+        "addLvMax": 44,
+        "frameType": "frame0801"
+      },
+      "13": {
+        "qp": 8000000,
+        "addLvMax": 46,
+        "frameType": "frame0801"
+      },
+      "14": {
+        "qp": 8000000,
+        "addLvMax": 48,
+        "frameType": "frame0801"
+      },
+      "15": {
+        "qp": 8000000,
+        "addLvMax": 50,
+        "frameType": "frame0801"
+      },
+      "16": {
+        "qp": 8000000,
+        "addLvMax": 52,
+        "frameType": "frame0801"
+      },
+      "17": {
+        "qp": 8000000,
+        "addLvMax": 54,
+        "frameType": "frame0801"
+      },
+      "18": {
+        "qp": 8000000,
+        "addLvMax": 56,
+        "frameType": "frame0801"
+      },
+      "19": {
+        "qp": 8000000,
+        "addLvMax": 58,
+        "frameType": "frame0801"
+      },
+      "20": {
+        "qp": 8000000,
+        "addLvMax": 60,
+        "frameType": "frame0801"
+      }
+    },
+    "2": {
+      "1": {
+        "qp": 600000,
+        "addLvMax": 5,
+        "frameType": "silver"
+      },
+      "2": {
+        "qp": 800000,
+        "addLvMax": 10,
+        "frameType": "silver"
+      },
+      "3": {
+        "qp": 1000000,
+        "addLvMax": 15,
+        "frameType": "gold"
+      },
+      "4": {
+        "qp": 2000000,
+        "addLvMax": 20,
+        "frameType": "gold"
+      },
+      "5": {
+        "qp": 3000000,
+        "addLvMax": 25,
+        "frameType": "gold"
+      },
+      "6": {
+        "qp": 4000000,
+        "addLvMax": 27,
+        "frameType": "gold"
+      },
+      "7": {
+        "qp": 5000000,
+        "addLvMax": 29,
+        "frameType": "gold"
+      },
+      "8": {
+        "qp": 6000000,
+        "addLvMax": 31,
+        "frameType": "gold"
+      },
+      "9": {
+        "qp": 7000000,
+        "addLvMax": 33,
+        "frameType": "gold"
+      },
+      "10": {
+        "qp": 8000000,
+        "addLvMax": 35,
+        "frameType": "gold"
+      },
+      "11": {
+        "qp": 9000000,
+        "addLvMax": 37,
+        "frameType": "frame0801"
+      },
+      "12": {
+        "qp": 9000000,
+        "addLvMax": 39,
+        "frameType": "frame0801"
+      },
+      "13": {
+        "qp": 9000000,
+        "addLvMax": 41,
+        "frameType": "frame0801"
+      },
+      "14": {
+        "qp": 9000000,
+        "addLvMax": 43,
+        "frameType": "frame0801"
+      },
+      "15": {
+        "qp": 9000000,
+        "addLvMax": 45,
+        "frameType": "frame0801"
+      },
+      "16": {
+        "qp": 9000000,
+        "addLvMax": 47,
+        "frameType": "frame0801"
+      },
+      "17": {
+        "qp": 9000000,
+        "addLvMax": 49,
+        "frameType": "frame0801"
+      },
+      "18": {
+        "qp": 9000000,
+        "addLvMax": 51,
+        "frameType": "frame0801"
+      },
+      "19": {
+        "qp": 9000000,
+        "addLvMax": 53,
+        "frameType": "frame0801"
+      },
+      "20": {
+        "qp": 9000000,
+        "addLvMax": 55,
+        "frameType": "frame0801"
+      }
+    },
+    "3": {
+      "1": {
+        "qp": 1000000,
+        "addLvMax": 5,
+        "frameType": "silver"
+      },
+      "2": {
+        "qp": 2000000,
+        "addLvMax": 10,
+        "frameType": "gold"
+      },
+      "3": {
+        "qp": 3000000,
+        "addLvMax": 15,
+        "frameType": "gold"
+      },
+      "4": {
+        "qp": 4000000,
+        "addLvMax": 20,
+        "frameType": "gold"
+      },
+      "5": {
+        "qp": 5000000,
+        "addLvMax": 22,
+        "frameType": "gold"
+      },
+      "6": {
+        "qp": 6000000,
+        "addLvMax": 24,
+        "frameType": "gold"
+      },
+      "7": {
+        "qp": 7000000,
+        "addLvMax": 26,
+        "frameType": "gold"
+      },
+      "8": {
+        "qp": 8000000,
+        "addLvMax": 28,
+        "frameType": "gold"
+      },
+      "9": {
+        "qp": 9000000,
+        "addLvMax": 30,
+        "frameType": "gold"
+      },
+      "10": {
+        "qp": 10000000,
+        "addLvMax": 32,
+        "frameType": "frame0801"
+      },
+      "11": {
+        "qp": 10000000,
+        "addLvMax": 34,
+        "frameType": "frame0801"
+      },
+      "12": {
+        "qp": 10000000,
+        "addLvMax": 36,
+        "frameType": "frame0801"
+      },
+      "13": {
+        "qp": 10000000,
+        "addLvMax": 38,
+        "frameType": "frame0801"
+      },
+      "14": {
+        "qp": 10000000,
+        "addLvMax": 40,
+        "frameType": "frame0801"
+      },
+      "15": {
+        "qp": 10000000,
+        "addLvMax": 42,
+        "frameType": "frame0801"
+      },
+      "16": {
+        "qp": 10000000,
+        "addLvMax": 44,
+        "frameType": "frame0801"
+      },
+      "17": {
+        "qp": 10000000,
+        "addLvMax": 46,
+        "frameType": "frame0801"
+      },
+      "18": {
+        "qp": 10000000,
+        "addLvMax": 48,
+        "frameType": "frame0801"
+      },
+      "19": {
+        "qp": 10000000,
+        "addLvMax": 50,
+        "frameType": "frame0801"
+      }
+    },
+    "4": {
+      "1": {
+        "qp": 4000000,
+        "addLvMax": 5,
+        "frameType": "gold"
+      },
+      "2": {
+        "qp": 5000000,
+        "addLvMax": 10,
+        "frameType": "gold"
+      },
+      "3": {
+        "qp": 6000000,
+        "addLvMax": 12,
+        "frameType": "gold"
+      },
+      "4": {
+        "qp": 7000000,
+        "addLvMax": 14,
+        "frameType": "gold"
+      },
+      "5": {
+        "qp": 8000000,
+        "addLvMax": 16,
+        "frameType": "gold"
+      },
+      "6": {
+        "qp": 9000000,
+        "addLvMax": 18,
+        "frameType": "gold"
+      },
+      "7": {
+        "qp": 10000000,
+        "addLvMax": 20,
+        "frameType": "gold"
+      },
+      "8": {
+        "qp": 12000000,
+        "addLvMax": 22,
+        "frameType": "frame0801"
+      },
+      "9": {
+        "qp": 12000000,
+        "addLvMax": 24,
+        "frameType": "frame0801"
+      },
+      "10": {
+        "qp": 12000000,
+        "addLvMax": 26,
+        "frameType": "frame0801"
+      },
+      "11": {
+        "qp": 12000000,
+        "addLvMax": 28,
+        "frameType": "frame0801"
+      },
+      "12": {
+        "qp": 12000000,
+        "addLvMax": 30,
+        "frameType": "frame0801"
+      },
+      "13": {
+        "qp": 12000000,
+        "addLvMax": 32,
+        "frameType": "frame0801"
+      },
+      "14": {
+        "qp": 12000000,
+        "addLvMax": 34,
+        "frameType": "frame0801"
+      },
+      "15": {
+        "qp": 12000000,
+        "addLvMax": 36,
+        "frameType": "frame0801"
+      },
+      "16": {
+        "qp": 12000000,
+        "addLvMax": 38,
+        "frameType": "frame0801"
+      },
+      "17": {
+        "qp": 12000000,
+        "addLvMax": 40,
+        "frameType": "frame0801"
+      }
+    },
+    "5": {
+      "1": {
+        "qp": 9000000,
+        "addLvMax": 2,
+        "frameType": "gold"
+      },
+      "2": {
+        "qp": 10000000,
+        "addLvMax": 4,
+        "frameType": "gold"
+      },
+      "3": {
+        "qp": 11000000,
+        "addLvMax": 6,
+        "frameType": "gold"
+      },
+      "4": {
+        "qp": 12000000,
+        "addLvMax": 8,
+        "frameType": "gold"
+      },
+      "5": {
+        "qp": 13000000,
+        "addLvMax": 10,
+        "frameType": "gold"
+      },
+      "6": {
+        "qp": 15000000,
+        "addLvMax": 12,
+        "frameType": "frame0801"
+      },
+      "7": {
+        "qp": 15000000,
+        "addLvMax": 14,
+        "frameType": "frame0801"
+      },
+      "8": {
+        "qp": 15000000,
+        "addLvMax": 16,
+        "frameType": "frame0801"
+      },
+      "9": {
+        "qp": 15000000,
+        "addLvMax": 18,
+        "frameType": "frame0801"
+      },
+      "10": {
+        "qp": 15000000,
+        "addLvMax": 20,
+        "frameType": "frame0801"
+      },
+      "11": {
+        "qp": 15000000,
+        "addLvMax": 22,
+        "frameType": "frame0801"
+      },
+      "12": {
+        "qp": 15000000,
+        "addLvMax": 24,
+        "frameType": "frame0801"
+      },
+      "13": {
+        "qp": 15000000,
+        "addLvMax": 26,
+        "frameType": "frame0801"
+      },
+      "14": {
+        "qp": 15000000,
+        "addLvMax": 28,
+        "frameType": "frame0801"
+      },
+      "15": {
+        "qp": 15000000,
+        "addLvMax": 30,
+        "frameType": "frame0801"
+      }
+    }
+  },
+  "userLevel": {
+    "1": {
+      "requiredExp": 0,
+      "maxAp": 20,
+      "maxCost": 56,
+      "maxFriend": 28
+    },
+    "2": {
+      "requiredExp": 31,
+      "maxAp": 21,
+      "maxCost": 56,
+      "maxFriend": 29
+    },
+    "3": {
+      "requiredExp": 63,
+      "maxAp": 22,
+      "maxCost": 57,
+      "maxFriend": 30
+    },
+    "4": {
+      "requiredExp": 122,
+      "maxAp": 23,
+      "maxCost": 57,
+      "maxFriend": 31
+    },
+    "5": {
+      "requiredExp": 209,
+      "maxAp": 24,
+      "maxCost": 58,
+      "maxFriend": 32
+    },
+    "6": {
+      "requiredExp": 496,
+      "maxAp": 25,
+      "maxCost": 58,
+      "maxFriend": 33
+    },
+    "7": {
+      "requiredExp": 915,
+      "maxAp": 26,
+      "maxCost": 59,
+      "maxFriend": 34
+    },
+    "8": {
+      "requiredExp": 1544,
+      "maxAp": 27,
+      "maxCost": 59,
+      "maxFriend": 35
+    },
+    "9": {
+      "requiredExp": 2373,
+      "maxAp": 28,
+      "maxCost": 60,
+      "maxFriend": 36
+    },
+    "10": {
+      "requiredExp": 3607,
+      "maxAp": 31,
+      "maxCost": 60,
+      "maxFriend": 37
+    },
+    "11": {
+      "requiredExp": 5241,
+      "maxAp": 32,
+      "maxCost": 61,
+      "maxFriend": 38
+    },
+    "12": {
+      "requiredExp": 7370,
+      "maxAp": 33,
+      "maxCost": 61,
+      "maxFriend": 39
+    },
+    "13": {
+      "requiredExp": 10039,
+      "maxAp": 34,
+      "maxCost": 62,
+      "maxFriend": 40
+    },
+    "14": {
+      "requiredExp": 13293,
+      "maxAp": 35,
+      "maxCost": 62,
+      "maxFriend": 41
+    },
+    "15": {
+      "requiredExp": 17177,
+      "maxAp": 38,
+      "maxCost": 63,
+      "maxFriend": 42
+    },
+    "16": {
+      "requiredExp": 21736,
+      "maxAp": 39,
+      "maxCost": 63,
+      "maxFriend": 43
+    },
+    "17": {
+      "requiredExp": 27015,
+      "maxAp": 40,
+      "maxCost": 64,
+      "maxFriend": 44
+    },
+    "18": {
+      "requiredExp": 32974,
+      "maxAp": 41,
+      "maxCost": 64,
+      "maxFriend": 45
+    },
+    "19": {
+      "requiredExp": 39653,
+      "maxAp": 42,
+      "maxCost": 65,
+      "maxFriend": 46
+    },
+    "20": {
+      "requiredExp": 47187,
+      "maxAp": 45,
+      "maxCost": 65,
+      "maxFriend": 47
+    },
+    "21": {
+      "requiredExp": 55621,
+      "maxAp": 46,
+      "maxCost": 66,
+      "maxFriend": 47
+    },
+    "22": {
+      "requiredExp": 65000,
+      "maxAp": 47,
+      "maxCost": 66,
+      "maxFriend": 48
+    },
+    "23": {
+      "requiredExp": 75369,
+      "maxAp": 48,
+      "maxCost": 67,
+      "maxFriend": 48
+    },
+    "24": {
+      "requiredExp": 86773,
+      "maxAp": 49,
+      "maxCost": 67,
+      "maxFriend": 49
+    },
+    "25": {
+      "requiredExp": 99257,
+      "maxAp": 50,
+      "maxCost": 68,
+      "maxFriend": 49
+    },
+    "26": {
+      "requiredExp": 112866,
+      "maxAp": 51,
+      "maxCost": 68,
+      "maxFriend": 50
+    },
+    "27": {
+      "requiredExp": 127645,
+      "maxAp": 52,
+      "maxCost": 69,
+      "maxFriend": 50
+    },
+    "28": {
+      "requiredExp": 143639,
+      "maxAp": 53,
+      "maxCost": 69,
+      "maxFriend": 51
+    },
+    "29": {
+      "requiredExp": 160893,
+      "maxAp": 54,
+      "maxCost": 70,
+      "maxFriend": 51
+    },
+    "30": {
+      "requiredExp": 179452,
+      "maxAp": 55,
+      "maxCost": 70,
+      "maxFriend": 52
+    },
+    "31": {
+      "requiredExp": 199361,
+      "maxAp": 56,
+      "maxCost": 71,
+      "maxFriend": 52
+    },
+    "32": {
+      "requiredExp": 220665,
+      "maxAp": 57,
+      "maxCost": 71,
+      "maxFriend": 53
+    },
+    "33": {
+      "requiredExp": 243409,
+      "maxAp": 58,
+      "maxCost": 72,
+      "maxFriend": 53
+    },
+    "34": {
+      "requiredExp": 267638,
+      "maxAp": 59,
+      "maxCost": 72,
+      "maxFriend": 54
+    },
+    "35": {
+      "requiredExp": 293397,
+      "maxAp": 60,
+      "maxCost": 73,
+      "maxFriend": 54
+    },
+    "36": {
+      "requiredExp": 320731,
+      "maxAp": 61,
+      "maxCost": 73,
+      "maxFriend": 55
+    },
+    "37": {
+      "requiredExp": 349685,
+      "maxAp": 62,
+      "maxCost": 74,
+      "maxFriend": 55
+    },
+    "38": {
+      "requiredExp": 380304,
+      "maxAp": 63,
+      "maxCost": 74,
+      "maxFriend": 56
+    },
+    "39": {
+      "requiredExp": 412633,
+      "maxAp": 64,
+      "maxCost": 75,
+      "maxFriend": 56
+    },
+    "40": {
+      "requiredExp": 446717,
+      "maxAp": 65,
+      "maxCost": 75,
+      "maxFriend": 57
+    },
+    "41": {
+      "requiredExp": 482601,
+      "maxAp": 66,
+      "maxCost": 76,
+      "maxFriend": 57
+    },
+    "42": {
+      "requiredExp": 520330,
+      "maxAp": 67,
+      "maxCost": 76,
+      "maxFriend": 58
+    },
+    "43": {
+      "requiredExp": 559949,
+      "maxAp": 68,
+      "maxCost": 77,
+      "maxFriend": 58
+    },
+    "44": {
+      "requiredExp": 601503,
+      "maxAp": 69,
+      "maxCost": 77,
+      "maxFriend": 59
+    },
+    "45": {
+      "requiredExp": 645037,
+      "maxAp": 70,
+      "maxCost": 78,
+      "maxFriend": 59
+    },
+    "46": {
+      "requiredExp": 690596,
+      "maxAp": 71,
+      "maxCost": 78,
+      "maxFriend": 60
+    },
+    "47": {
+      "requiredExp": 738225,
+      "maxAp": 72,
+      "maxCost": 79,
+      "maxFriend": 60
+    },
+    "48": {
+      "requiredExp": 787969,
+      "maxAp": 73,
+      "maxCost": 79,
+      "maxFriend": 61
+    },
+    "49": {
+      "requiredExp": 839873,
+      "maxAp": 74,
+      "maxCost": 80,
+      "maxFriend": 61
+    },
+    "50": {
+      "requiredExp": 893982,
+      "maxAp": 75,
+      "maxCost": 80,
+      "maxFriend": 62
+    },
+    "51": {
+      "requiredExp": 950341,
+      "maxAp": 76,
+      "maxCost": 81,
+      "maxFriend": 62
+    },
+    "52": {
+      "requiredExp": 1008995,
+      "maxAp": 77,
+      "maxCost": 81,
+      "maxFriend": 63
+    },
+    "53": {
+      "requiredExp": 1069989,
+      "maxAp": 78,
+      "maxCost": 82,
+      "maxFriend": 63
+    },
+    "54": {
+      "requiredExp": 1133368,
+      "maxAp": 79,
+      "maxCost": 82,
+      "maxFriend": 64
+    },
+    "55": {
+      "requiredExp": 1199177,
+      "maxAp": 80,
+      "maxCost": 83,
+      "maxFriend": 64
+    },
+    "56": {
+      "requiredExp": 1267461,
+      "maxAp": 81,
+      "maxCost": 83,
+      "maxFriend": 65
+    },
+    "57": {
+      "requiredExp": 1338265,
+      "maxAp": 82,
+      "maxCost": 84,
+      "maxFriend": 65
+    },
+    "58": {
+      "requiredExp": 1411634,
+      "maxAp": 83,
+      "maxCost": 84,
+      "maxFriend": 66
+    },
+    "59": {
+      "requiredExp": 1487613,
+      "maxAp": 84,
+      "maxCost": 85,
+      "maxFriend": 66
+    },
+    "60": {
+      "requiredExp": 1566247,
+      "maxAp": 85,
+      "maxCost": 85,
+      "maxFriend": 67
+    },
+    "61": {
+      "requiredExp": 1647581,
+      "maxAp": 86,
+      "maxCost": 86,
+      "maxFriend": 67
+    },
+    "62": {
+      "requiredExp": 1731660,
+      "maxAp": 87,
+      "maxCost": 86,
+      "maxFriend": 68
+    },
+    "63": {
+      "requiredExp": 1818529,
+      "maxAp": 88,
+      "maxCost": 87,
+      "maxFriend": 68
+    },
+    "64": {
+      "requiredExp": 1908233,
+      "maxAp": 89,
+      "maxCost": 87,
+      "maxFriend": 68
+    },
+    "65": {
+      "requiredExp": 2000817,
+      "maxAp": 90,
+      "maxCost": 88,
+      "maxFriend": 68
+    },
+    "66": {
+      "requiredExp": 2096326,
+      "maxAp": 91,
+      "maxCost": 88,
+      "maxFriend": 68
+    },
+    "67": {
+      "requiredExp": 2194805,
+      "maxAp": 92,
+      "maxCost": 89,
+      "maxFriend": 68
+    },
+    "68": {
+      "requiredExp": 2296299,
+      "maxAp": 93,
+      "maxCost": 89,
+      "maxFriend": 68
+    },
+    "69": {
+      "requiredExp": 2400853,
+      "maxAp": 94,
+      "maxCost": 90,
+      "maxFriend": 68
+    },
+    "70": {
+      "requiredExp": 2508512,
+      "maxAp": 95,
+      "maxCost": 90,
+      "maxFriend": 68
+    },
+    "71": {
+      "requiredExp": 2619321,
+      "maxAp": 96,
+      "maxCost": 91,
+      "maxFriend": 68
+    },
+    "72": {
+      "requiredExp": 2733325,
+      "maxAp": 97,
+      "maxCost": 91,
+      "maxFriend": 68
+    },
+    "73": {
+      "requiredExp": 2850569,
+      "maxAp": 98,
+      "maxCost": 92,
+      "maxFriend": 68
+    },
+    "74": {
+      "requiredExp": 2971098,
+      "maxAp": 99,
+      "maxCost": 92,
+      "maxFriend": 68
+    },
+    "75": {
+      "requiredExp": 3094957,
+      "maxAp": 100,
+      "maxCost": 93,
+      "maxFriend": 68
+    },
+    "76": {
+      "requiredExp": 3222191,
+      "maxAp": 101,
+      "maxCost": 93,
+      "maxFriend": 68
+    },
+    "77": {
+      "requiredExp": 3352845,
+      "maxAp": 102,
+      "maxCost": 94,
+      "maxFriend": 68
+    },
+    "78": {
+      "requiredExp": 3486964,
+      "maxAp": 103,
+      "maxCost": 94,
+      "maxFriend": 68
+    },
+    "79": {
+      "requiredExp": 3624593,
+      "maxAp": 104,
+      "maxCost": 95,
+      "maxFriend": 68
+    },
+    "80": {
+      "requiredExp": 3765777,
+      "maxAp": 105,
+      "maxCost": 95,
+      "maxFriend": 68
+    },
+    "81": {
+      "requiredExp": 3910561,
+      "maxAp": 106,
+      "maxCost": 96,
+      "maxFriend": 68
+    },
+    "82": {
+      "requiredExp": 4058990,
+      "maxAp": 107,
+      "maxCost": 96,
+      "maxFriend": 68
+    },
+    "83": {
+      "requiredExp": 4211109,
+      "maxAp": 108,
+      "maxCost": 97,
+      "maxFriend": 68
+    },
+    "84": {
+      "requiredExp": 4366963,
+      "maxAp": 109,
+      "maxCost": 97,
+      "maxFriend": 68
+    },
+    "85": {
+      "requiredExp": 4526597,
+      "maxAp": 110,
+      "maxCost": 98,
+      "maxFriend": 68
+    },
+    "86": {
+      "requiredExp": 4690056,
+      "maxAp": 111,
+      "maxCost": 98,
+      "maxFriend": 68
+    },
+    "87": {
+      "requiredExp": 4857385,
+      "maxAp": 112,
+      "maxCost": 99,
+      "maxFriend": 68
+    },
+    "88": {
+      "requiredExp": 5028629,
+      "maxAp": 113,
+      "maxCost": 99,
+      "maxFriend": 68
+    },
+    "89": {
+      "requiredExp": 5203833,
+      "maxAp": 114,
+      "maxCost": 100,
+      "maxFriend": 68
+    },
+    "90": {
+      "requiredExp": 5383042,
+      "maxAp": 115,
+      "maxCost": 100,
+      "maxFriend": 68
+    },
+    "91": {
+      "requiredExp": 5566301,
+      "maxAp": 116,
+      "maxCost": 100,
+      "maxFriend": 68
+    },
+    "92": {
+      "requiredExp": 5753655,
+      "maxAp": 117,
+      "maxCost": 101,
+      "maxFriend": 68
+    },
+    "93": {
+      "requiredExp": 5945149,
+      "maxAp": 118,
+      "maxCost": 101,
+      "maxFriend": 68
+    },
+    "94": {
+      "requiredExp": 6140828,
+      "maxAp": 119,
+      "maxCost": 101,
+      "maxFriend": 68
+    },
+    "95": {
+      "requiredExp": 6340737,
+      "maxAp": 120,
+      "maxCost": 102,
+      "maxFriend": 68
+    },
+    "96": {
+      "requiredExp": 6544921,
+      "maxAp": 121,
+      "maxCost": 102,
+      "maxFriend": 68
+    },
+    "97": {
+      "requiredExp": 6753425,
+      "maxAp": 122,
+      "maxCost": 102,
+      "maxFriend": 68
+    },
+    "98": {
+      "requiredExp": 6966294,
+      "maxAp": 123,
+      "maxCost": 103,
+      "maxFriend": 68
+    },
+    "99": {
+      "requiredExp": 7183573,
+      "maxAp": 124,
+      "maxCost": 103,
+      "maxFriend": 68
+    },
+    "100": {
+      "requiredExp": 7405307,
+      "maxAp": 125,
+      "maxCost": 103,
+      "maxFriend": 68
+    },
+    "101": {
+      "requiredExp": 7631541,
+      "maxAp": 126,
+      "maxCost": 104,
+      "maxFriend": 69
+    },
+    "102": {
+      "requiredExp": 8059775,
+      "maxAp": 126,
+      "maxCost": 104,
+      "maxFriend": 70
+    },
+    "103": {
+      "requiredExp": 8620609,
+      "maxAp": 127,
+      "maxCost": 104,
+      "maxFriend": 71
+    },
+    "104": {
+      "requiredExp": 9315343,
+      "maxAp": 127,
+      "maxCost": 105,
+      "maxFriend": 72
+    },
+    "105": {
+      "requiredExp": 10114077,
+      "maxAp": 128,
+      "maxCost": 105,
+      "maxFriend": 73
+    },
+    "106": {
+      "requiredExp": 11017811,
+      "maxAp": 128,
+      "maxCost": 105,
+      "maxFriend": 74
+    },
+    "107": {
+      "requiredExp": 12027545,
+      "maxAp": 129,
+      "maxCost": 106,
+      "maxFriend": 75
+    },
+    "108": {
+      "requiredExp": 13165679,
+      "maxAp": 129,
+      "maxCost": 106,
+      "maxFriend": 76
+    },
+    "109": {
+      "requiredExp": 14433413,
+      "maxAp": 130,
+      "maxCost": 106,
+      "maxFriend": 77
+    },
+    "110": {
+      "requiredExp": 15831947,
+      "maxAp": 130,
+      "maxCost": 106,
+      "maxFriend": 78
+    },
+    "111": {
+      "requiredExp": 17395481,
+      "maxAp": 131,
+      "maxCost": 107,
+      "maxFriend": 78
+    },
+    "112": {
+      "requiredExp": 19070015,
+      "maxAp": 131,
+      "maxCost": 107,
+      "maxFriend": 78
+    },
+    "113": {
+      "requiredExp": 20856549,
+      "maxAp": 132,
+      "maxCost": 107,
+      "maxFriend": 78
+    },
+    "114": {
+      "requiredExp": 22756083,
+      "maxAp": 132,
+      "maxCost": 107,
+      "maxFriend": 78
+    },
+    "115": {
+      "requiredExp": 24769617,
+      "maxAp": 133,
+      "maxCost": 108,
+      "maxFriend": 78
+    },
+    "116": {
+      "requiredExp": 26909651,
+      "maxAp": 133,
+      "maxCost": 108,
+      "maxFriend": 78
+    },
+    "117": {
+      "requiredExp": 29177285,
+      "maxAp": 134,
+      "maxCost": 108,
+      "maxFriend": 78
+    },
+    "118": {
+      "requiredExp": 31573619,
+      "maxAp": 134,
+      "maxCost": 108,
+      "maxFriend": 78
+    },
+    "119": {
+      "requiredExp": 34064353,
+      "maxAp": 135,
+      "maxCost": 109,
+      "maxFriend": 78
+    },
+    "120": {
+      "requiredExp": 36674087,
+      "maxAp": 135,
+      "maxCost": 109,
+      "maxFriend": 78
+    },
+    "121": {
+      "requiredExp": 39415821,
+      "maxAp": 136,
+      "maxCost": 109,
+      "maxFriend": 79
+    },
+    "122": {
+      "requiredExp": 42417705,
+      "maxAp": 136,
+      "maxCost": 109,
+      "maxFriend": 80
+    },
+    "123": {
+      "requiredExp": 45614789,
+      "maxAp": 136,
+      "maxCost": 110,
+      "maxFriend": 81
+    },
+    "124": {
+      "requiredExp": 49014823,
+      "maxAp": 136,
+      "maxCost": 110,
+      "maxFriend": 82
+    },
+    "125": {
+      "requiredExp": 52634957,
+      "maxAp": 137,
+      "maxCost": 110,
+      "maxFriend": 83
+    },
+    "126": {
+      "requiredExp": 56476966,
+      "maxAp": 137,
+      "maxCost": 110,
+      "maxFriend": 84
+    },
+    "127": {
+      "requiredExp": 60511125,
+      "maxAp": 137,
+      "maxCost": 111,
+      "maxFriend": 85
+    },
+    "128": {
+      "requiredExp": 64770709,
+      "maxAp": 137,
+      "maxCost": 111,
+      "maxFriend": 86
+    },
+    "129": {
+      "requiredExp": 69235093,
+      "maxAp": 138,
+      "maxCost": 111,
+      "maxFriend": 87
+    },
+    "130": {
+      "requiredExp": 73912327,
+      "maxAp": 138,
+      "maxCost": 111,
+      "maxFriend": 88
+    },
+    "131": {
+      "requiredExp": 78831642,
+      "maxAp": 138,
+      "maxCost": 111,
+      "maxFriend": 89,
+      "gift": {
+        "objectId": 2,
+        "num": 1
+      }
+    },
+    "132": {
+      "requiredExp": 84536957,
+      "maxAp": 138,
+      "maxCost": 111,
+      "maxFriend": 90
+    },
+    "133": {
+      "requiredExp": 91298272,
+      "maxAp": 139,
+      "maxCost": 111,
+      "maxFriend": 91
+    },
+    "134": {
+      "requiredExp": 99522587,
+      "maxAp": 139,
+      "maxCost": 111,
+      "maxFriend": 92
+    },
+    "135": {
+      "requiredExp": 108952902,
+      "maxAp": 139,
+      "maxCost": 111,
+      "maxFriend": 93,
+      "gift": {
+        "objectId": 2,
+        "num": 1
+      }
+    },
+    "136": {
+      "requiredExp": 119868217,
+      "maxAp": 139,
+      "maxCost": 111,
+      "maxFriend": 94
+    },
+    "137": {
+      "requiredExp": 132075532,
+      "maxAp": 140,
+      "maxCost": 111,
+      "maxFriend": 95
+    },
+    "138": {
+      "requiredExp": 145995347,
+      "maxAp": 140,
+      "maxCost": 111,
+      "maxFriend": 96
+    },
+    "139": {
+      "requiredExp": 161364162,
+      "maxAp": 140,
+      "maxCost": 111,
+      "maxFriend": 97
+    },
+    "140": {
+      "requiredExp": 178261977,
+      "maxAp": 140,
+      "maxCost": 112,
+      "maxFriend": 98
+    },
+    "141": {
+      "requiredExp": 197119792,
+      "maxAp": 140,
+      "maxCost": 112,
+      "maxFriend": 99,
+      "gift": {
+        "objectId": 2,
+        "num": 1
+      }
+    },
+    "142": {
+      "requiredExp": 215990297,
+      "maxAp": 140,
+      "maxCost": 112,
+      "maxFriend": 100
+    },
+    "143": {
+      "requiredExp": 234873582,
+      "maxAp": 141,
+      "maxCost": 112,
+      "maxFriend": 101
+    },
+    "144": {
+      "requiredExp": 253769737,
+      "maxAp": 141,
+      "maxCost": 112,
+      "maxFriend": 102
+    },
+    "145": {
+      "requiredExp": 272678852,
+      "maxAp": 141,
+      "maxCost": 112,
+      "maxFriend": 103,
+      "gift": {
+        "objectId": 2,
+        "num": 1
+      }
+    },
+    "146": {
+      "requiredExp": 291601017,
+      "maxAp": 141,
+      "maxCost": 112,
+      "maxFriend": 104
+    },
+    "147": {
+      "requiredExp": 310536322,
+      "maxAp": 142,
+      "maxCost": 112,
+      "maxFriend": 105
+    },
+    "148": {
+      "requiredExp": 329484857,
+      "maxAp": 142,
+      "maxCost": 112,
+      "maxFriend": 106
+    },
+    "149": {
+      "requiredExp": 348446712,
+      "maxAp": 142,
+      "maxCost": 112,
+      "maxFriend": 107
+    },
+    "150": {
+      "requiredExp": 367421977,
+      "maxAp": 142,
+      "maxCost": 113,
+      "maxFriend": 108
+    },
+    "151": {
+      "requiredExp": 386410742,
+      "maxAp": 142,
+      "maxCost": 113,
+      "maxFriend": 109,
+      "gift": {
+        "objectId": 2,
+        "num": 1
+      }
+    },
+    "152": {
+      "requiredExp": 405413097,
+      "maxAp": 142,
+      "maxCost": 113,
+      "maxFriend": 110
+    },
+    "153": {
+      "requiredExp": 424429132,
+      "maxAp": 143,
+      "maxCost": 113,
+      "maxFriend": 111
+    },
+    "154": {
+      "requiredExp": 443458937,
+      "maxAp": 143,
+      "maxCost": 113,
+      "maxFriend": 112
+    },
+    "155": {
+      "requiredExp": 462502602,
+      "maxAp": 143,
+      "maxCost": 113,
+      "maxFriend": 113,
+      "gift": {
+        "objectId": 2,
+        "num": 1
+      }
+    },
+    "156": {
+      "requiredExp": 481560217,
+      "maxAp": 143,
+      "maxCost": 113,
+      "maxFriend": 114
+    },
+    "157": {
+      "requiredExp": 500631872,
+      "maxAp": 144,
+      "maxCost": 113,
+      "maxFriend": 115
+    },
+    "158": {
+      "requiredExp": 519717657,
+      "maxAp": 144,
+      "maxCost": 113,
+      "maxFriend": 116
+    },
+    "159": {
+      "requiredExp": 538817662,
+      "maxAp": 144,
+      "maxCost": 113,
+      "maxFriend": 117
+    },
+    "160": {
+      "requiredExp": 557931977,
+      "maxAp": 144,
+      "maxCost": 114,
+      "maxFriend": 118
+    }
+  }
+}
