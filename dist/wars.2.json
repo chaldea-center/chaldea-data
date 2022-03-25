@@ -76701,7 +76701,7 @@
           },
           {
             "id": 94067602,
-            "name": "",
+            "name": "決勝リーグ ユナイト・ユニヴァース",
             "type": "main",
             "consume": 5,
             "afterClear": "close",
@@ -76718,6 +76718,10 @@
             ],
             "releaseConditions": [
               {
+                "type": "none",
+                "targetId": 0
+              },
+              {
                 "type": "questClear",
                 "targetId": 94067601
               },
@@ -76725,11 +76729,48 @@
                 "type": "date",
                 "targetId": 0,
                 "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "phasesWithEnemies": [
+              1
+            ],
+            "noticeAt": 1647421200,
+            "openedAt": 1648198800,
+            "closedAt": 1648612799
+          },
+          {
+            "id": 94067603,
+            "name": "決勝リーグ グランド・ローマ",
+            "type": "main",
+            "consume": 5,
+            "afterClear": "close",
+            "recommendLv": "80",
+            "spotId": 836801,
+            "spotName": "カルデアゲート",
+            "warId": 8368,
+            "warLongName": "バトル・イン・ニューヨーク2022 ～スペース・オデュッセウス対ニコラ・テスラ～",
+            "gifts": [
+              {
+                "objectId": 2,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "none",
+                "targetId": 0
               },
               {
-                "type": "forceFalse",
+                "type": "questClear",
+                "targetId": 94067601
+              },
+              {
+                "type": "date",
                 "targetId": 0,
-                "closedMessage": "データ更新後に開放"
+                "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
               }
             ],
             "phases": [
@@ -76740,12 +76781,15 @@
             "closedAt": 1648612799
           },
           {
-            "id": 94067603,
-            "name": "",
+            "id": 94067604,
+            "name": "Ｇ・Ｂ・Ｆ最終戦！",
             "type": "main",
-            "consume": 5,
+            "flags": [
+              "noBattle"
+            ],
+            "consume": 0,
             "afterClear": "close",
-            "recommendLv": "80",
+            "recommendLv": "1",
             "spotId": 836801,
             "spotName": "カルデアゲート",
             "warId": 8368,
@@ -76764,18 +76808,118 @@
               {
                 "type": "date",
                 "targetId": 0,
-                "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+                "closedMessage": "2つの決勝リーグクリアで開放"
               },
               {
-                "type": "forceFalse",
-                "targetId": 0,
-                "closedMessage": "データ更新後に開放"
+                "type": "questGroupClear",
+                "targetId": 8067602,
+                "value": 2,
+                "closedMessage": "2つの決勝リーグクリアで開放"
               }
             ],
             "phases": [
               1
             ],
-            "noticeAt": 1647421200,
+            "phasesNoBattle": [
+              1
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9406760410",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406760410.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1648198800,
+            "openedAt": 1648198800,
+            "closedAt": 1648612799
+          },
+          {
+            "id": 94067605,
+            "name": "最終戦 スペース・オデュッセウス",
+            "type": "main",
+            "consume": 5,
+            "afterClear": "close",
+            "recommendLv": "90",
+            "spotId": 836801,
+            "spotName": "カルデアゲート",
+            "warId": 8368,
+            "warLongName": "バトル・イン・ニューヨーク2022 ～スペース・オデュッセウス対ニコラ・テスラ～",
+            "gifts": [
+              {
+                "objectId": 2,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94067604
+              },
+              {
+                "type": "date",
+                "targetId": 0
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "noticeAt": 1648198800,
+            "openedAt": 1648198800,
+            "closedAt": 1648612799
+          },
+          {
+            "id": 94067606,
+            "name": "Ｇ・Ｂ・Ｆエピローグ",
+            "type": "main",
+            "flags": [
+              "noBattle"
+            ],
+            "consume": 0,
+            "afterClear": "close",
+            "recommendLv": "1",
+            "spotId": 836801,
+            "spotName": "カルデアゲート",
+            "warId": 8368,
+            "warLongName": "バトル・イン・ニューヨーク2022 ～スペース・オデュッセウス対ニコラ・テスラ～",
+            "gifts": [
+              {
+                "objectId": 7999,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94067605
+              },
+              {
+                "type": "date",
+                "targetId": 0
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "phasesNoBattle": [
+              1
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9406760610",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406760610.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1648198800,
             "openedAt": 1648198800,
             "closedAt": 1648612799
           },
@@ -77178,6 +77322,230 @@
             "noticeAt": 1647766800,
             "openedAt": 1647766800,
             "closedAt": 1648198799
+          },
+          {
+            "id": 94067640,
+            "name": "第三リーグ アイランド級 スペース・ウィッチズ",
+            "type": "event",
+            "flags": [
+              "displayLoopmark"
+            ],
+            "consume": 40,
+            "afterClear": "repeatLast",
+            "recommendLv": "70",
+            "spotId": 836801,
+            "spotName": "カルデアゲート",
+            "warId": 8368,
+            "warLongName": "バトル・イン・ニューヨーク2022 ～スペース・オデュッセウス対ニコラ・テスラ～",
+            "gifts": [
+              {
+                "objectId": 101,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94067601
+              },
+              {
+                "type": "date",
+                "targetId": 0
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "noticeAt": 1648198800,
+            "openedAt": 1648198800,
+            "closedAt": 1648612799
+          },
+          {
+            "id": 94067641,
+            "name": "第三リーグ コンティネント級 カルデア救命班＋α",
+            "type": "event",
+            "flags": [
+              "displayLoopmark"
+            ],
+            "consume": 40,
+            "afterClear": "repeatLast",
+            "recommendLv": "75",
+            "spotId": 836801,
+            "spotName": "カルデアゲート",
+            "warId": 8368,
+            "warLongName": "バトル・イン・ニューヨーク2022 ～スペース・オデュッセウス対ニコラ・テスラ～",
+            "gifts": [
+              {
+                "objectId": 101,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94067601
+              },
+              {
+                "type": "date",
+                "targetId": 0
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "noticeAt": 1648198800,
+            "openedAt": 1648198800,
+            "closedAt": 1648612799
+          },
+          {
+            "id": 94067642,
+            "name": "第三リーグ プラネット級 ヴィラン連合残党",
+            "type": "event",
+            "flags": [
+              "displayLoopmark"
+            ],
+            "consume": 40,
+            "afterClear": "repeatLast",
+            "recommendLv": "80",
+            "spotId": 836801,
+            "spotName": "カルデアゲート",
+            "warId": 8368,
+            "warLongName": "バトル・イン・ニューヨーク2022 ～スペース・オデュッセウス対ニコラ・テスラ～",
+            "gifts": [
+              {
+                "objectId": 100,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94067601
+              },
+              {
+                "type": "date",
+                "targetId": 0
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "noticeAt": 1648198800,
+            "openedAt": 1648198800,
+            "closedAt": 1648612799
+          },
+          {
+            "id": 94067643,
+            "name": "第三リーグ ギャラクシー級 カルデア剣術顧問",
+            "type": "event",
+            "flags": [
+              "displayLoopmark"
+            ],
+            "consume": 40,
+            "afterClear": "repeatLast",
+            "recommendLv": "90",
+            "spotId": 836801,
+            "spotName": "カルデアゲート",
+            "warId": 8368,
+            "warLongName": "バトル・イン・ニューヨーク2022 ～スペース・オデュッセウス対ニコラ・テスラ～",
+            "gifts": [
+              {
+                "objectId": 100,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94067601
+              },
+              {
+                "type": "date",
+                "targetId": 0
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "noticeAt": 1648198800,
+            "openedAt": 1648198800,
+            "closedAt": 1648612799
+          },
+          {
+            "id": 94067644,
+            "name": "第三リーグ スペース級 スペース・パイレーツ",
+            "type": "event",
+            "flags": [
+              "displayLoopmark"
+            ],
+            "consume": 40,
+            "afterClear": "repeatLast",
+            "recommendLv": "90+",
+            "spotId": 836801,
+            "spotName": "カルデアゲート",
+            "warId": 8368,
+            "warLongName": "バトル・イン・ニューヨーク2022 ～スペース・オデュッセウス対ニコラ・テスラ～",
+            "gifts": [
+              {
+                "objectId": 3,
+                "num": 100
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94067601
+              },
+              {
+                "type": "date",
+                "targetId": 0
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "noticeAt": 1648198800,
+            "openedAt": 1648198800,
+            "closedAt": 1648612799
+          },
+          {
+            "id": 94067680,
+            "name": "【高難易度】ライトニング・イン・ギルギルガメッシュ",
+            "type": "event",
+            "flags": [
+              "dropFirstTimeOnly",
+              "notRetrievable",
+              "notDisplayResultGetPoint"
+            ],
+            "consume": 5,
+            "afterClear": "repeatLast",
+            "recommendLv": "90+",
+            "spotId": 836801,
+            "spotName": "カルデアゲート",
+            "warId": 8368,
+            "warLongName": "バトル・イン・ニューヨーク2022 ～スペース・オデュッセウス対ニコラ・テスラ～",
+            "gifts": [
+              {
+                "objectId": 6999,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94067606
+              },
+              {
+                "type": "date",
+                "targetId": 0
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "noticeAt": 1648198800,
+            "openedAt": 1648198800,
+            "closedAt": 1648612799
           }
         ]
       }
@@ -77614,6 +77982,17 @@
     "warAdds": [
       {
         "warId": 8370,
+        "type": "bgImage",
+        "priority": 0,
+        "overwriteId": 39100,
+        "condType": "questClear",
+        "targetId": 94067606,
+        "value": 0,
+        "startedAt": 1647421200,
+        "endedAt": 1648612799
+      },
+      {
+        "warId": 8370,
         "type": "warForceDisp",
         "priority": 1,
         "overwriteId": 0,
@@ -77656,7 +78035,7 @@
         "quests": [
           {
             "id": 94067667,
-            "name": "",
+            "name": "[1]【高難易度】ウエスタン忍法帳",
             "type": "event",
             "flags": [
               "dropFirstTimeOnly",
@@ -77697,7 +78076,7 @@
           },
           {
             "id": 94067668,
-            "name": "",
+            "name": "[2]【高難易度】家に帰るまでが特異点修復です",
             "type": "event",
             "flags": [
               "dropFirstTimeOnly",
@@ -77738,7 +78117,7 @@
           },
           {
             "id": 94067669,
-            "name": "",
+            "name": "[3]【高難易度】ギャラクシー・ガーディアン",
             "type": "event",
             "flags": [
               "dropFirstTimeOnly",
@@ -77779,7 +78158,7 @@
           },
           {
             "id": 94067670,
-            "name": "",
+            "name": "[4]【高難易度】真実の愛",
             "type": "event",
             "flags": [
               "dropFirstTimeOnly",
@@ -77820,7 +78199,7 @@
           },
           {
             "id": 94067671,
-            "name": "",
+            "name": "[5]【高難易度】黄泉の申し子",
             "type": "event",
             "flags": [
               "dropFirstTimeOnly",
@@ -77861,7 +78240,7 @@
           },
           {
             "id": 94067672,
-            "name": "",
+            "name": "[6]【高難易度】 「怒涛！ かかれ柴田！」",
             "type": "event",
             "flags": [
               "dropFirstTimeOnly",
@@ -77902,12 +78281,13 @@
           },
           {
             "id": 94067673,
-            "name": "",
+            "name": "[7]【高難易度】Five Star Idol",
             "type": "event",
             "flags": [
               "dropFirstTimeOnly",
               "eventDeckNoSupport",
               "notRetrievable",
+              "live",
               "forceDisplayEnemyInfo",
               "alloutBattle"
             ],
@@ -77936,7 +78316,8 @@
               {
                 "type": "questGroupClear",
                 "targetId": 8036302,
-                "value": 6
+                "value": 6,
+                "closedMessage": "ギガコイル級[1]～[6]をすべてクリアで開放"
               }
             ],
             "phases": [
