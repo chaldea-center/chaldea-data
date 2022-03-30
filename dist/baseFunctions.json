@@ -7584,6 +7584,158 @@
     ]
   },
   {
+    "funcId": 1885,
+    "funcType": "addState",
+    "funcTargetType": "enemy",
+    "funcTargetTeam": "playerAndEnemy",
+    "funcPopupText": "毒",
+    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_500.png",
+    "buffs": [
+      {
+        "id": 739,
+        "name": "毒(非重複)",
+        "detail": "ターン終了時にHPが減る(重複してかからない)",
+        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_500.png",
+        "type": "reduceHp",
+        "buffGroup": 100,
+        "script": {},
+        "vals": [
+          {
+            "id": 3005
+          },
+          {
+            "id": 3011
+          }
+        ],
+        "maxRate": 0
+      }
+    ]
+  },
+  {
+    "funcId": 175,
+    "funcType": "addState",
+    "funcTargetType": "self",
+    "funcTargetTeam": "playerAndEnemy",
+    "funcPopupText": "防御力アップ",
+    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_301.png",
+    "buffs": [
+      {
+        "id": 146,
+        "name": "防御力アップ",
+        "detail": "防御力をアップ",
+        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_301.png",
+        "type": "upDefence",
+        "script": {},
+        "vals": [
+          {
+            "id": 3004
+          },
+          {
+            "id": 3007
+          },
+          {
+            "id": 3040
+          },
+          {
+            "id": 3058
+          }
+        ],
+        "maxRate": 5000
+      }
+    ]
+  },
+  {
+    "funcId": 176,
+    "funcType": "addState",
+    "funcTargetType": "self",
+    "funcTargetTeam": "playerAndEnemy",
+    "funcPopupText": "防御力アップ",
+    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_301.png",
+    "buffs": [
+      {
+        "id": 146,
+        "name": "防御力アップ",
+        "detail": "防御力をアップ",
+        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_301.png",
+        "type": "upDefence",
+        "script": {},
+        "vals": [
+          {
+            "id": 3004
+          },
+          {
+            "id": 3007
+          },
+          {
+            "id": 3040
+          },
+          {
+            "id": 3058
+          }
+        ],
+        "maxRate": 5000
+      }
+    ]
+  },
+  {
+    "funcId": 370,
+    "funcType": "addState",
+    "funcTargetType": "enemy",
+    "funcTargetTeam": "player",
+    "funcPopupText": "スター集中ダウン",
+    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_518.png",
+    "buffs": [
+      {
+        "id": 116,
+        "name": "スター集中ダウン",
+        "detail": "スターの集まりやすさをダウン",
+        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_518.png",
+        "type": "downStarweight",
+        "script": {},
+        "vals": [
+          {
+            "id": 3005
+          }
+        ],
+        "maxRate": 100000
+      }
+    ]
+  },
+  {
+    "funcId": 344,
+    "funcType": "addState",
+    "funcTargetType": "enemy",
+    "funcTargetTeam": "playerAndEnemy",
+    "funcPopupText": "魅了",
+    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_502.png",
+    "buffs": [
+      {
+        "id": 175,
+        "name": "魅了",
+        "detail": "行動不能になる",
+        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_502.png",
+        "type": "donotAct",
+        "buffGroup": 501,
+        "script": {},
+        "vals": [
+          {
+            "id": 3005
+          },
+          {
+            "id": 3010
+          },
+          {
+            "id": 3012
+          },
+          {
+            "id": 3045
+          }
+        ],
+        "maxRate": 0
+      }
+    ]
+  },
+  {
     "funcId": 181,
     "funcType": "addState",
     "funcTargetType": "ptAll",
@@ -7615,6 +7767,1126 @@
         "maxRate": 5000
       }
     ]
+  },
+  {
+    "funcId": 265,
+    "funcType": "addStateShort",
+    "funcTargetType": "self",
+    "funcTargetTeam": "playerAndEnemy",
+    "funcPopupText": "アタックプラス",
+    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "buffs": [
+      {
+        "id": 136,
+        "name": "ダメージプラス",
+        "detail": "与えるダメージを増やす",
+        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+        "type": "addDamage",
+        "script": {},
+        "vals": [
+          {
+            "id": 3004
+          },
+          {
+            "id": 3006
+          },
+          {
+            "id": 3029
+          }
+        ],
+        "maxRate": 0
+      }
+    ]
+  },
+  {
+    "funcId": 266,
+    "funcType": "addStateShort",
+    "funcTargetType": "self",
+    "funcTargetTeam": "playerAndEnemy",
+    "funcPopupText": "アタックプラス",
+    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "buffs": [
+      {
+        "id": 136,
+        "name": "ダメージプラス",
+        "detail": "与えるダメージを増やす",
+        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+        "type": "addDamage",
+        "script": {},
+        "vals": [
+          {
+            "id": 3004
+          },
+          {
+            "id": 3006
+          },
+          {
+            "id": 3029
+          }
+        ],
+        "maxRate": 0
+      }
+    ]
+  },
+  {
+    "funcId": 315,
+    "funcType": "addStateShort",
+    "funcTargetType": "ptAll",
+    "funcTargetTeam": "playerAndEnemy",
+    "funcPopupText": "毎ターンHP回復",
+    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_318.png",
+    "buffs": [
+      {
+        "id": 122,
+        "name": "毎ターンHP回復",
+        "detail": "ターン終了時にHPが回復する",
+        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_318.png",
+        "type": "regainHp",
+        "script": {},
+        "vals": [
+          {
+            "id": 3004
+          },
+          {
+            "id": 3060
+          }
+        ],
+        "maxRate": 0
+      }
+    ]
+  },
+  {
+    "funcId": 267,
+    "funcType": "addStateShort",
+    "funcTargetType": "self",
+    "funcTargetTeam": "playerAndEnemy",
+    "funcPopupText": "アタックプラス",
+    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "buffs": [
+      {
+        "id": 136,
+        "name": "ダメージプラス",
+        "detail": "与えるダメージを増やす",
+        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+        "type": "addDamage",
+        "script": {},
+        "vals": [
+          {
+            "id": 3004
+          },
+          {
+            "id": 3006
+          },
+          {
+            "id": 3029
+          }
+        ],
+        "maxRate": 0
+      }
+    ]
+  },
+  {
+    "funcId": 127,
+    "funcType": "addState",
+    "funcTargetType": "enemy",
+    "funcTargetTeam": "playerAndEnemy",
+    "funcPopupText": "クイックダウン",
+    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_515.png",
+    "buffs": [
+      {
+        "id": 112,
+        "name": "Quickダウン",
+        "detail": "Quickカードの性能をダウン",
+        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_515.png",
+        "type": "downCommandall",
+        "script": {},
+        "vals": [
+          {
+            "id": 3005
+          },
+          {
+            "id": 3008
+          }
+        ],
+        "tvals": [
+          {
+            "id": 5000
+          },
+          {
+            "id": 4003
+          }
+        ],
+        "ckSelfIndv": [
+          {
+            "id": 4003
+          }
+        ],
+        "maxRate": 5000
+      }
+    ]
+  },
+  {
+    "funcId": 128,
+    "funcType": "addState",
+    "funcTargetType": "enemy",
+    "funcTargetTeam": "playerAndEnemy",
+    "funcPopupText": "クイックダウン",
+    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_515.png",
+    "buffs": [
+      {
+        "id": 112,
+        "name": "Quickダウン",
+        "detail": "Quickカードの性能をダウン",
+        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_515.png",
+        "type": "downCommandall",
+        "script": {},
+        "vals": [
+          {
+            "id": 3005
+          },
+          {
+            "id": 3008
+          }
+        ],
+        "tvals": [
+          {
+            "id": 5000
+          },
+          {
+            "id": 4003
+          }
+        ],
+        "ckSelfIndv": [
+          {
+            "id": 4003
+          }
+        ],
+        "maxRate": 5000
+      }
+    ]
+  },
+  {
+    "funcId": 1891,
+    "funcType": "addState",
+    "funcTargetType": "enemyAll",
+    "funcTargetTeam": "playerAndEnemy",
+    "funcPopupText": "やけど",
+    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_513.png",
+    "buffs": [
+      {
+        "id": 740,
+        "name": "やけど(非重複)",
+        "detail": "ターン終了時にHPが減る(重複してかからない)",
+        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_513.png",
+        "type": "reduceHp",
+        "buffGroup": 101,
+        "script": {},
+        "vals": [
+          {
+            "id": 3005
+          },
+          {
+            "id": 3015
+          }
+        ],
+        "maxRate": 0
+      }
+    ]
+  },
+  {
+    "funcId": 342,
+    "funcType": "addState",
+    "funcTargetType": "enemy",
+    "funcTargetTeam": "player",
+    "funcPopupText": "NP獲得ダウン",
+    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_509.png",
+    "buffs": [
+      {
+        "id": 141,
+        "name": "NP獲得ダウン",
+        "detail": "NP獲得量をダウン",
+        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_509.png",
+        "type": "downDropnp",
+        "script": {},
+        "vals": [
+          {
+            "id": 3005
+          }
+        ],
+        "maxRate": 5000
+      }
+    ]
+  },
+  {
+    "funcId": 129,
+    "funcType": "addState",
+    "funcTargetType": "enemy",
+    "funcTargetTeam": "playerAndEnemy",
+    "funcPopupText": "クイックダウン",
+    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_515.png",
+    "buffs": [
+      {
+        "id": 112,
+        "name": "Quickダウン",
+        "detail": "Quickカードの性能をダウン",
+        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_515.png",
+        "type": "downCommandall",
+        "script": {},
+        "vals": [
+          {
+            "id": 3005
+          },
+          {
+            "id": 3008
+          }
+        ],
+        "tvals": [
+          {
+            "id": 5000
+          },
+          {
+            "id": 4003
+          }
+        ],
+        "ckSelfIndv": [
+          {
+            "id": 4003
+          }
+        ],
+        "maxRate": 5000
+      }
+    ]
+  },
+  {
+    "funcId": 140,
+    "funcType": "addState",
+    "funcTargetType": "enemy",
+    "funcTargetTeam": "playerAndEnemy",
+    "funcPopupText": "バスターダウン",
+    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_517.png",
+    "buffs": [
+      {
+        "id": 114,
+        "name": "Busterダウン",
+        "detail": "Busterカードの性能をダウン",
+        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_517.png",
+        "type": "downCommandall",
+        "script": {},
+        "vals": [
+          {
+            "id": 3005
+          },
+          {
+            "id": 3008
+          }
+        ],
+        "tvals": [
+          {
+            "id": 5000
+          },
+          {
+            "id": 4002
+          }
+        ],
+        "ckSelfIndv": [
+          {
+            "id": 4002
+          }
+        ],
+        "maxRate": 5000
+      }
+    ]
+  },
+  {
+    "funcId": 134,
+    "funcType": "addState",
+    "funcTargetType": "enemy",
+    "funcTargetTeam": "playerAndEnemy",
+    "funcPopupText": "アーツダウン",
+    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_516.png",
+    "buffs": [
+      {
+        "id": 113,
+        "name": "Artsダウン",
+        "detail": "Artsカードの性能をダウン",
+        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_516.png",
+        "type": "downCommandall",
+        "script": {},
+        "vals": [
+          {
+            "id": 3005
+          },
+          {
+            "id": 3008
+          }
+        ],
+        "tvals": [
+          {
+            "id": 5000
+          },
+          {
+            "id": 4001
+          }
+        ],
+        "ckSelfIndv": [
+          {
+            "id": 4001
+          }
+        ],
+        "maxRate": 5000
+      }
+    ]
+  },
+  {
+    "funcId": 135,
+    "funcType": "addState",
+    "funcTargetType": "enemy",
+    "funcTargetTeam": "playerAndEnemy",
+    "funcPopupText": "アーツダウン",
+    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_516.png",
+    "buffs": [
+      {
+        "id": 113,
+        "name": "Artsダウン",
+        "detail": "Artsカードの性能をダウン",
+        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_516.png",
+        "type": "downCommandall",
+        "script": {},
+        "vals": [
+          {
+            "id": 3005
+          },
+          {
+            "id": 3008
+          }
+        ],
+        "tvals": [
+          {
+            "id": 5000
+          },
+          {
+            "id": 4001
+          }
+        ],
+        "ckSelfIndv": [
+          {
+            "id": 4001
+          }
+        ],
+        "maxRate": 5000
+      }
+    ]
+  },
+  {
+    "funcId": 141,
+    "funcType": "addState",
+    "funcTargetType": "enemy",
+    "funcTargetTeam": "playerAndEnemy",
+    "funcPopupText": "バスターダウン",
+    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_517.png",
+    "buffs": [
+      {
+        "id": 114,
+        "name": "Busterダウン",
+        "detail": "Busterカードの性能をダウン",
+        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_517.png",
+        "type": "downCommandall",
+        "script": {},
+        "vals": [
+          {
+            "id": 3005
+          },
+          {
+            "id": 3008
+          }
+        ],
+        "tvals": [
+          {
+            "id": 5000
+          },
+          {
+            "id": 4002
+          }
+        ],
+        "ckSelfIndv": [
+          {
+            "id": 4002
+          }
+        ],
+        "maxRate": 5000
+      }
+    ]
+  },
+  {
+    "funcId": 304,
+    "funcType": "addState",
+    "funcTargetType": "enemy",
+    "funcTargetTeam": "player",
+    "funcPopupText": "スター発生ダウン",
+    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_510.png",
+    "buffs": [
+      {
+        "id": 118,
+        "name": "スター発生ダウン",
+        "detail": "スター発生率をダウン",
+        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_510.png",
+        "type": "downCriticalpoint",
+        "script": {},
+        "vals": [
+          {
+            "id": 3005
+          }
+        ],
+        "maxRate": 5000
+      }
+    ]
+  },
+  {
+    "funcId": 169,
+    "funcType": "addState",
+    "funcTargetType": "enemy",
+    "funcTargetTeam": "playerAndEnemy",
+    "funcPopupText": "攻撃力ダウン",
+    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_503.png",
+    "buffs": [
+      {
+        "id": 127,
+        "name": "攻撃力ダウン",
+        "detail": "攻撃力をダウン",
+        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_503.png",
+        "type": "downAtk",
+        "script": {},
+        "vals": [
+          {
+            "id": 3005
+          },
+          {
+            "id": 3008
+          },
+          {
+            "id": 3033
+          }
+        ],
+        "maxRate": 5000
+      }
+    ]
+  },
+  {
+    "funcId": 208,
+    "funcType": "addState",
+    "funcTargetType": "enemy",
+    "funcTargetTeam": "playerAndEnemy",
+    "funcPopupText": "クリティカル威力ダウン",
+    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_514.png",
+    "buffs": [
+      {
+        "id": 143,
+        "name": "クリティカル威力ダウン",
+        "detail": "クリティカル時のダメージをダウン",
+        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_514.png",
+        "type": "downCriticaldamage",
+        "script": {},
+        "vals": [
+          {
+            "id": 3005
+          },
+          {
+            "id": 3008
+          },
+          {
+            "id": 3037
+          }
+        ],
+        "maxRate": 5000
+      }
+    ]
+  },
+  {
+    "funcId": 205,
+    "funcType": "addStateShort",
+    "funcTargetType": "ptAll",
+    "funcTargetTeam": "playerAndEnemy",
+    "funcPopupText": "クリティカル威力アップ",
+    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_324.png",
+    "buffs": [
+      {
+        "id": 142,
+        "name": "クリティカル威力アップ",
+        "detail": "クリティカル時のダメージをアップ",
+        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_324.png",
+        "type": "upCriticaldamage",
+        "script": {},
+        "vals": [
+          {
+            "id": 3004
+          },
+          {
+            "id": 3006
+          },
+          {
+            "id": 3031
+          }
+        ],
+        "maxRate": 5000
+      }
+    ]
+  },
+  {
+    "funcId": 1886,
+    "funcType": "addState",
+    "funcTargetType": "enemyAll",
+    "funcTargetTeam": "playerAndEnemy",
+    "funcPopupText": "毒",
+    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_500.png",
+    "buffs": [
+      {
+        "id": 739,
+        "name": "毒(非重複)",
+        "detail": "ターン終了時にHPが減る(重複してかからない)",
+        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_500.png",
+        "type": "reduceHp",
+        "buffGroup": 100,
+        "script": {},
+        "vals": [
+          {
+            "id": 3005
+          },
+          {
+            "id": 3011
+          }
+        ],
+        "maxRate": 0
+      }
+    ]
+  },
+  {
+    "funcId": 322,
+    "funcType": "addState",
+    "funcTargetType": "enemy",
+    "funcTargetTeam": "player",
+    "funcPopupText": "毎ターンNP減少",
+    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_519.png",
+    "buffs": [
+      {
+        "id": 120,
+        "name": "毎ターンNP減少",
+        "detail": "ターン終了時にNPが減る",
+        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_519.png",
+        "type": "reduceNp",
+        "script": {},
+        "vals": [
+          {
+            "id": 3005
+          }
+        ],
+        "maxRate": 0
+      }
+    ]
+  },
+  {
+    "funcId": 131,
+    "funcType": "addState",
+    "funcTargetType": "enemyAll",
+    "funcTargetTeam": "playerAndEnemy",
+    "funcPopupText": "クイックダウン",
+    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_515.png",
+    "buffs": [
+      {
+        "id": 112,
+        "name": "Quickダウン",
+        "detail": "Quickカードの性能をダウン",
+        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_515.png",
+        "type": "downCommandall",
+        "script": {},
+        "vals": [
+          {
+            "id": 3005
+          },
+          {
+            "id": 3008
+          }
+        ],
+        "tvals": [
+          {
+            "id": 5000
+          },
+          {
+            "id": 4003
+          }
+        ],
+        "ckSelfIndv": [
+          {
+            "id": 4003
+          }
+        ],
+        "maxRate": 5000
+      }
+    ]
+  },
+  {
+    "funcId": 137,
+    "funcType": "addState",
+    "funcTargetType": "enemyAll",
+    "funcTargetTeam": "playerAndEnemy",
+    "funcPopupText": "アーツダウン",
+    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_516.png",
+    "buffs": [
+      {
+        "id": 113,
+        "name": "Artsダウン",
+        "detail": "Artsカードの性能をダウン",
+        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_516.png",
+        "type": "downCommandall",
+        "script": {},
+        "vals": [
+          {
+            "id": 3005
+          },
+          {
+            "id": 3008
+          }
+        ],
+        "tvals": [
+          {
+            "id": 5000
+          },
+          {
+            "id": 4001
+          }
+        ],
+        "ckSelfIndv": [
+          {
+            "id": 4001
+          }
+        ],
+        "maxRate": 5000
+      }
+    ]
+  },
+  {
+    "funcId": 143,
+    "funcType": "addState",
+    "funcTargetType": "enemyAll",
+    "funcTargetTeam": "playerAndEnemy",
+    "funcPopupText": "バスターダウン",
+    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_517.png",
+    "buffs": [
+      {
+        "id": 114,
+        "name": "Busterダウン",
+        "detail": "Busterカードの性能をダウン",
+        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_517.png",
+        "type": "downCommandall",
+        "script": {},
+        "vals": [
+          {
+            "id": 3005
+          },
+          {
+            "id": 3008
+          }
+        ],
+        "tvals": [
+          {
+            "id": 5000
+          },
+          {
+            "id": 4002
+          }
+        ],
+        "ckSelfIndv": [
+          {
+            "id": 4002
+          }
+        ],
+        "maxRate": 5000
+      }
+    ]
+  },
+  {
+    "funcId": 2013,
+    "funcType": "addState",
+    "funcTargetType": "enemy",
+    "funcTargetTeam": "playerAndEnemy",
+    "funcPopupText": "呪いダメージ効果アップ",
+    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_547.png",
+    "buffs": [
+      {
+        "id": 856,
+        "name": "呪い効果アップ",
+        "detail": "呪いの効果量アップ",
+        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_547.png",
+        "type": "upFuncHpReduce",
+        "script": {},
+        "vals": [
+          {
+            "id": 3005
+          },
+          {
+            "id": 3048
+          }
+        ],
+        "ckSelfIndv": [
+          {
+            "id": 3026
+          }
+        ],
+        "maxRate": 5000
+      }
+    ]
+  },
+  {
+    "funcId": 1301,
+    "funcType": "lossStar",
+    "funcTargetType": "enemyAll",
+    "funcTargetTeam": "player",
+    "funcPopupText": "スター減少"
+  },
+  {
+    "funcId": 1345,
+    "funcType": "lossStar",
+    "funcTargetType": "enemy",
+    "funcTargetTeam": "player"
+  },
+  {
+    "funcId": 612,
+    "funcType": "addStateShort",
+    "funcTargetType": "enemy",
+    "funcTargetTeam": "playerAndEnemy",
+    "funcPopupText": "ダメージプラス",
+    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_504.png",
+    "buffs": [
+      {
+        "id": 150,
+        "name": "ダメージアップ",
+        "detail": "被ダメージが増える",
+        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_504.png",
+        "type": "addSelfdamage",
+        "script": {},
+        "vals": [
+          {
+            "id": 3005
+          },
+          {
+            "id": 3009
+          }
+        ],
+        "maxRate": 0
+      }
+    ]
+  },
+  {
+    "funcId": 139,
+    "funcType": "addState",
+    "funcTargetType": "enemy",
+    "funcTargetTeam": "playerAndEnemy",
+    "funcPopupText": "バスターダウン",
+    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_517.png",
+    "buffs": [
+      {
+        "id": 114,
+        "name": "Busterダウン",
+        "detail": "Busterカードの性能をダウン",
+        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_517.png",
+        "type": "downCommandall",
+        "script": {},
+        "vals": [
+          {
+            "id": 3005
+          },
+          {
+            "id": 3008
+          }
+        ],
+        "tvals": [
+          {
+            "id": 5000
+          },
+          {
+            "id": 4002
+          }
+        ],
+        "ckSelfIndv": [
+          {
+            "id": 4002
+          }
+        ],
+        "maxRate": 5000
+      }
+    ]
+  },
+  {
+    "funcId": 133,
+    "funcType": "addState",
+    "funcTargetType": "enemy",
+    "funcTargetTeam": "playerAndEnemy",
+    "funcPopupText": "アーツダウン",
+    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_516.png",
+    "buffs": [
+      {
+        "id": 113,
+        "name": "Artsダウン",
+        "detail": "Artsカードの性能をダウン",
+        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_516.png",
+        "type": "downCommandall",
+        "script": {},
+        "vals": [
+          {
+            "id": 3005
+          },
+          {
+            "id": 3008
+          }
+        ],
+        "tvals": [
+          {
+            "id": 5000
+          },
+          {
+            "id": 4001
+          }
+        ],
+        "ckSelfIndv": [
+          {
+            "id": 4001
+          }
+        ],
+        "maxRate": 5000
+      }
+    ]
+  },
+  {
+    "funcId": 2089,
+    "funcType": "addState",
+    "funcTargetType": "enemy",
+    "funcTargetTeam": "playerAndEnemy",
+    "funcPopupText": "強化成功率ダウン",
+    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_506.png",
+    "buffs": [
+      {
+        "id": 889,
+        "name": "強化成功率ダウン",
+        "detail": "強化成功率をダウン",
+        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_506.png",
+        "type": "upTolerance",
+        "script": {},
+        "vals": [
+          {
+            "id": 3005
+          }
+        ],
+        "tvals": [
+          {
+            "id": 3004
+          }
+        ],
+        "ckOpIndv": [
+          {
+            "id": 3004
+          }
+        ],
+        "maxRate": 5000
+      }
+    ]
+  },
+  {
+    "funcId": 2516,
+    "funcType": "addState",
+    "funcTargetType": "enemyAll",
+    "funcTargetTeam": "playerAndEnemy",
+    "funcPopupText": "強化成功率ダウン",
+    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_506.png",
+    "buffs": [
+      {
+        "id": 889,
+        "name": "強化成功率ダウン",
+        "detail": "強化成功率をダウン",
+        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_506.png",
+        "type": "upTolerance",
+        "script": {},
+        "vals": [
+          {
+            "id": 3005
+          }
+        ],
+        "tvals": [
+          {
+            "id": 3004
+          }
+        ],
+        "ckOpIndv": [
+          {
+            "id": 3004
+          }
+        ],
+        "maxRate": 5000
+      }
+    ]
+  },
+  {
+    "funcId": 256,
+    "funcType": "addState",
+    "funcTargetType": "enemy",
+    "funcTargetTeam": "playerAndEnemy",
+    "funcPopupText": "宝具威力ダウン",
+    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_508.png",
+    "buffs": [
+      {
+        "id": 139,
+        "name": "宝具威力ダウン",
+        "detail": "宝具で与えるダメージをダウン",
+        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_508.png",
+        "type": "downNpdamage",
+        "script": {},
+        "vals": [
+          {
+            "id": 3005
+          },
+          {
+            "id": 3008
+          },
+          {
+            "id": 3036
+          }
+        ],
+        "maxRate": 5000
+      }
+    ]
+  },
+  {
+    "funcId": 3707,
+    "funcType": "addState",
+    "funcTargetType": "self",
+    "funcTargetTeam": "playerAndEnemy",
+    "funcPopupText": "即死耐性ダウン",
+    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_506.png",
+    "buffs": [
+      {
+        "id": 219,
+        "name": "即死耐性ダウン",
+        "detail": "即死耐性をダウン",
+        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_506.png",
+        "type": "upNonresistInstantdeath",
+        "script": {},
+        "vals": [
+          {
+            "id": 3005
+          },
+          {
+            "id": 3009
+          },
+          {
+            "id": 3039
+          }
+        ],
+        "maxRate": 5000
+      }
+    ]
+  },
+  {
+    "funcId": 2000,
+    "funcType": "addState",
+    "funcTargetType": "enemy",
+    "funcTargetTeam": "playerAndEnemy",
+    "funcPopupText": "蝕毒",
+    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_545.png",
+    "buffs": [
+      {
+        "id": 850,
+        "name": "蝕毒",
+        "detail": "毒の効果量アップ",
+        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_545.png",
+        "type": "upFuncHpReduce",
+        "script": {},
+        "vals": [
+          {
+            "id": 3005
+          },
+          {
+            "id": 3046
+          }
+        ],
+        "ckSelfIndv": [
+          {
+            "id": 3011
+          }
+        ],
+        "maxRate": 5000
+      }
+    ]
+  },
+  {
+    "funcId": 258,
+    "funcType": "addState",
+    "funcTargetType": "enemy",
+    "funcTargetTeam": "playerAndEnemy",
+    "funcPopupText": "宝具威力ダウン",
+    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_508.png",
+    "buffs": [
+      {
+        "id": 139,
+        "name": "宝具威力ダウン",
+        "detail": "宝具で与えるダメージをダウン",
+        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_508.png",
+        "type": "downNpdamage",
+        "script": {},
+        "vals": [
+          {
+            "id": 3005
+          },
+          {
+            "id": 3008
+          },
+          {
+            "id": 3036
+          }
+        ],
+        "maxRate": 5000
+      }
+    ]
+  },
+  {
+    "funcId": 257,
+    "funcType": "addState",
+    "funcTargetType": "enemy",
+    "funcTargetTeam": "playerAndEnemy",
+    "funcPopupText": "宝具威力ダウン",
+    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_508.png",
+    "buffs": [
+      {
+        "id": 139,
+        "name": "宝具威力ダウン",
+        "detail": "宝具で与えるダメージをダウン",
+        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_508.png",
+        "type": "downNpdamage",
+        "script": {},
+        "vals": [
+          {
+            "id": 3005
+          },
+          {
+            "id": 3008
+          },
+          {
+            "id": 3036
+          }
+        ],
+        "maxRate": 5000
+      }
+    ]
+  },
+  {
+    "funcId": 439,
+    "funcType": "gainHp",
+    "funcTargetType": "self",
+    "funcTargetTeam": "playerAndEnemy"
+  },
+  {
+    "funcId": 982,
+    "funcType": "gainNp",
+    "funcTargetType": "enemy",
+    "funcTargetTeam": "player",
+    "funcPopupText": "NP増加"
   },
   {
     "funcId": 290,
@@ -9652,12 +10924,6 @@
     ]
   },
   {
-    "funcId": 439,
-    "funcType": "gainHp",
-    "funcTargetType": "self",
-    "funcTargetTeam": "playerAndEnemy"
-  },
-  {
     "funcId": 292,
     "funcType": "addState",
     "funcTargetType": "self",
@@ -10434,36 +11700,6 @@
     ]
   },
   {
-    "funcId": 265,
-    "funcType": "addStateShort",
-    "funcTargetType": "self",
-    "funcTargetTeam": "playerAndEnemy",
-    "funcPopupText": "アタックプラス",
-    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
-    "buffs": [
-      {
-        "id": 136,
-        "name": "ダメージプラス",
-        "detail": "与えるダメージを増やす",
-        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
-        "type": "addDamage",
-        "script": {},
-        "vals": [
-          {
-            "id": 3004
-          },
-          {
-            "id": 3006
-          },
-          {
-            "id": 3029
-          }
-        ],
-        "maxRate": 0
-      }
-    ]
-  },
-  {
     "funcId": 5900,
     "funcType": "servantFriendshipUp",
     "funcTargetType": "self",
@@ -10666,39 +11902,6 @@
         "ckSelfIndv": [
           {
             "id": 4002
-          }
-        ],
-        "maxRate": 5000
-      }
-    ]
-  },
-  {
-    "funcId": 175,
-    "funcType": "addState",
-    "funcTargetType": "self",
-    "funcTargetTeam": "playerAndEnemy",
-    "funcPopupText": "防御力アップ",
-    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_301.png",
-    "buffs": [
-      {
-        "id": 146,
-        "name": "防御力アップ",
-        "detail": "防御力をアップ",
-        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_301.png",
-        "type": "upDefence",
-        "script": {},
-        "vals": [
-          {
-            "id": 3004
-          },
-          {
-            "id": 3007
-          },
-          {
-            "id": 3040
-          },
-          {
-            "id": 3058
           }
         ],
         "maxRate": 5000
@@ -12418,36 +13621,6 @@
     ]
   },
   {
-    "funcId": 257,
-    "funcType": "addState",
-    "funcTargetType": "enemy",
-    "funcTargetTeam": "playerAndEnemy",
-    "funcPopupText": "宝具威力ダウン",
-    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_508.png",
-    "buffs": [
-      {
-        "id": 139,
-        "name": "宝具威力ダウン",
-        "detail": "宝具で与えるダメージをダウン",
-        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_508.png",
-        "type": "downNpdamage",
-        "script": {},
-        "vals": [
-          {
-            "id": 3005
-          },
-          {
-            "id": 3008
-          },
-          {
-            "id": 3036
-          }
-        ],
-        "maxRate": 5000
-      }
-    ]
-  },
-  {
     "funcId": 204,
     "funcType": "addStateShort",
     "funcTargetType": "ptOne",
@@ -12934,40 +14107,6 @@
     ]
   },
   {
-    "funcId": 344,
-    "funcType": "addState",
-    "funcTargetType": "enemy",
-    "funcTargetTeam": "playerAndEnemy",
-    "funcPopupText": "魅了",
-    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_502.png",
-    "buffs": [
-      {
-        "id": 175,
-        "name": "魅了",
-        "detail": "行動不能になる",
-        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_502.png",
-        "type": "donotAct",
-        "buffGroup": 501,
-        "script": {},
-        "vals": [
-          {
-            "id": 3005
-          },
-          {
-            "id": 3010
-          },
-          {
-            "id": 3012
-          },
-          {
-            "id": 3045
-          }
-        ],
-        "maxRate": 0
-      }
-    ]
-  },
-  {
     "funcId": 2167,
     "funcType": "addState",
     "funcTargetType": "enemyAll",
@@ -13174,39 +14313,6 @@
         "ckOpIndv": [
           {
             "id": 106
-          }
-        ],
-        "maxRate": 5000
-      }
-    ]
-  },
-  {
-    "funcId": 176,
-    "funcType": "addState",
-    "funcTargetType": "self",
-    "funcTargetTeam": "playerAndEnemy",
-    "funcPopupText": "防御力アップ",
-    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_301.png",
-    "buffs": [
-      {
-        "id": 146,
-        "name": "防御力アップ",
-        "detail": "防御力をアップ",
-        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_301.png",
-        "type": "upDefence",
-        "script": {},
-        "vals": [
-          {
-            "id": 3004
-          },
-          {
-            "id": 3007
-          },
-          {
-            "id": 3040
-          },
-          {
-            "id": 3058
           }
         ],
         "maxRate": 5000
@@ -13479,36 +14585,6 @@
     ]
   },
   {
-    "funcId": 169,
-    "funcType": "addState",
-    "funcTargetType": "enemy",
-    "funcTargetTeam": "playerAndEnemy",
-    "funcPopupText": "攻撃力ダウン",
-    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_503.png",
-    "buffs": [
-      {
-        "id": 127,
-        "name": "攻撃力ダウン",
-        "detail": "攻撃力をダウン",
-        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_503.png",
-        "type": "downAtk",
-        "script": {},
-        "vals": [
-          {
-            "id": 3005
-          },
-          {
-            "id": 3008
-          },
-          {
-            "id": 3033
-          }
-        ],
-        "maxRate": 5000
-      }
-    ]
-  },
-  {
     "funcId": 30065,
     "funcType": "addState",
     "funcTargetType": "self",
@@ -13641,36 +14717,6 @@
           }
         ],
         "maxRate": 0
-      }
-    ]
-  },
-  {
-    "funcId": 258,
-    "funcType": "addState",
-    "funcTargetType": "enemy",
-    "funcTargetTeam": "playerAndEnemy",
-    "funcPopupText": "宝具威力ダウン",
-    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_508.png",
-    "buffs": [
-      {
-        "id": 139,
-        "name": "宝具威力ダウン",
-        "detail": "宝具で与えるダメージをダウン",
-        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_508.png",
-        "type": "downNpdamage",
-        "script": {},
-        "vals": [
-          {
-            "id": 3005
-          },
-          {
-            "id": 3008
-          },
-          {
-            "id": 3036
-          }
-        ],
-        "maxRate": 5000
       }
     ]
   },
@@ -14261,30 +15307,6 @@
         "vals": [
           {
             "id": 3004
-          }
-        ],
-        "maxRate": 5000
-      }
-    ]
-  },
-  {
-    "funcId": 304,
-    "funcType": "addState",
-    "funcTargetType": "enemy",
-    "funcTargetTeam": "player",
-    "funcPopupText": "スター発生ダウン",
-    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_510.png",
-    "buffs": [
-      {
-        "id": 118,
-        "name": "スター発生ダウン",
-        "detail": "スター発生率をダウン",
-        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_510.png",
-        "type": "downCriticalpoint",
-        "script": {},
-        "vals": [
-          {
-            "id": 3005
           }
         ],
         "maxRate": 5000
@@ -15431,30 +16453,6 @@
         "id": 2018
       }
     ],
-    "buffs": [
-      {
-        "id": 141,
-        "name": "NP獲得ダウン",
-        "detail": "NP獲得量をダウン",
-        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_509.png",
-        "type": "downDropnp",
-        "script": {},
-        "vals": [
-          {
-            "id": 3005
-          }
-        ],
-        "maxRate": 5000
-      }
-    ]
-  },
-  {
-    "funcId": 342,
-    "funcType": "addState",
-    "funcTargetType": "enemy",
-    "funcTargetTeam": "player",
-    "funcPopupText": "NP獲得ダウン",
-    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_509.png",
     "buffs": [
       {
         "id": 141,
@@ -16881,38 +17879,6 @@
         "ckSelfIndv": [
           {
             "id": 3005
-          }
-        ],
-        "maxRate": 5000
-      }
-    ]
-  },
-  {
-    "funcId": 2000,
-    "funcType": "addState",
-    "funcTargetType": "enemy",
-    "funcTargetTeam": "playerAndEnemy",
-    "funcPopupText": "蝕毒",
-    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_545.png",
-    "buffs": [
-      {
-        "id": 850,
-        "name": "蝕毒",
-        "detail": "毒の効果量アップ",
-        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_545.png",
-        "type": "upFuncHpReduce",
-        "script": {},
-        "vals": [
-          {
-            "id": 3005
-          },
-          {
-            "id": 3046
-          }
-        ],
-        "ckSelfIndv": [
-          {
-            "id": 3011
           }
         ],
         "maxRate": 5000
@@ -18665,36 +19631,6 @@
         "vals": [
           {
             "id": 3004
-          }
-        ],
-        "maxRate": 0
-      }
-    ]
-  },
-  {
-    "funcId": 267,
-    "funcType": "addStateShort",
-    "funcTargetType": "self",
-    "funcTargetTeam": "playerAndEnemy",
-    "funcPopupText": "アタックプラス",
-    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
-    "buffs": [
-      {
-        "id": 136,
-        "name": "ダメージプラス",
-        "detail": "与えるダメージを増やす",
-        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
-        "type": "addDamage",
-        "script": {},
-        "vals": [
-          {
-            "id": 3004
-          },
-          {
-            "id": 3006
-          },
-          {
-            "id": 3029
           }
         ],
         "maxRate": 0
@@ -20629,36 +21565,6 @@
           }
         ],
         "maxRate": 0
-      }
-    ]
-  },
-  {
-    "funcId": 205,
-    "funcType": "addStateShort",
-    "funcTargetType": "ptAll",
-    "funcTargetTeam": "playerAndEnemy",
-    "funcPopupText": "クリティカル威力アップ",
-    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_324.png",
-    "buffs": [
-      {
-        "id": 142,
-        "name": "クリティカル威力アップ",
-        "detail": "クリティカル時のダメージをアップ",
-        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_324.png",
-        "type": "upCriticaldamage",
-        "script": {},
-        "vals": [
-          {
-            "id": 3004
-          },
-          {
-            "id": 3006
-          },
-          {
-            "id": 3031
-          }
-        ],
-        "maxRate": 5000
       }
     ]
   },
@@ -39996,6 +40902,89 @@
     ]
   },
   {
+    "funcId": 447,
+    "funcType": "gainHpPer",
+    "funcTargetType": "self",
+    "funcTargetTeam": "playerAndEnemy"
+  },
+  {
+    "funcId": 415,
+    "funcType": "addStateShort",
+    "funcTargetType": "enemy",
+    "funcTargetTeam": "playerAndEnemy",
+    "funcPopupText": "弱体耐性ダウン",
+    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_506.png",
+    "buffs": [
+      {
+        "id": 169,
+        "name": "弱体耐性ダウン",
+        "detail": "弱体耐性をダウン",
+        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_506.png",
+        "type": "downTolerance",
+        "script": {},
+        "vals": [
+          {
+            "id": 3005
+          }
+        ],
+        "tvals": [
+          {
+            "id": 3005
+          }
+        ],
+        "ckOpIndv": [
+          {
+            "id": 3005
+          }
+        ],
+        "maxRate": 5000
+      }
+    ]
+  },
+  {
+    "funcId": 457,
+    "funcType": "lossHp",
+    "funcTargetType": "enemy",
+    "funcTargetTeam": "playerAndEnemy",
+    "funcPopupText": "HP減少"
+  },
+  {
+    "funcId": 438,
+    "funcType": "gainHp",
+    "funcTargetType": "self",
+    "funcTargetTeam": "playerAndEnemy"
+  },
+  {
+    "funcId": 271,
+    "funcType": "addStateShort",
+    "funcTargetType": "ptAll",
+    "funcTargetTeam": "playerAndEnemy",
+    "funcPopupText": "アタックプラス",
+    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "buffs": [
+      {
+        "id": 136,
+        "name": "ダメージプラス",
+        "detail": "与えるダメージを増やす",
+        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+        "type": "addDamage",
+        "script": {},
+        "vals": [
+          {
+            "id": 3004
+          },
+          {
+            "id": 3006
+          },
+          {
+            "id": 3029
+          }
+        ],
+        "maxRate": 0
+      }
+    ]
+  },
+  {
     "funcId": 539,
     "funcType": "addState",
     "funcTargetType": "self",
@@ -40016,6 +41005,98 @@
           }
         ],
         "maxRate": 0
+      }
+    ]
+  },
+  {
+    "funcId": 210,
+    "funcType": "addState",
+    "funcTargetType": "enemy",
+    "funcTargetTeam": "playerAndEnemy",
+    "funcPopupText": "クリティカル威力ダウン",
+    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_514.png",
+    "buffs": [
+      {
+        "id": 143,
+        "name": "クリティカル威力ダウン",
+        "detail": "クリティカル時のダメージをダウン",
+        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_514.png",
+        "type": "downCriticaldamage",
+        "script": {},
+        "vals": [
+          {
+            "id": 3005
+          },
+          {
+            "id": 3008
+          },
+          {
+            "id": 3037
+          }
+        ],
+        "maxRate": 5000
+      }
+    ]
+  },
+  {
+    "funcId": 426,
+    "funcType": "addStateShort",
+    "funcTargetType": "enemy",
+    "funcTargetTeam": "playerAndEnemy",
+    "funcPopupText": "精神異常耐性ダウン",
+    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_506.png",
+    "buffs": [
+      {
+        "id": 170,
+        "name": "精神異常耐性ダウン",
+        "detail": "精神異常耐性をダウン",
+        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_506.png",
+        "type": "downTolerance",
+        "script": {},
+        "vals": [
+          {
+            "id": 3005
+          }
+        ],
+        "tvals": [
+          {
+            "id": 3010
+          }
+        ],
+        "ckOpIndv": [
+          {
+            "id": 3010
+          }
+        ],
+        "maxRate": 5000
+      }
+    ]
+  },
+  {
+    "funcId": 1206,
+    "funcType": "addStateShort",
+    "funcTargetType": "enemy",
+    "funcTargetTeam": "player",
+    "funcPopupText": "タゲ集中アップ",
+    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_323.png",
+    "buffs": [
+      {
+        "id": 360,
+        "name": "タゲ集中アップ",
+        "detail": "敵からの狙われやすさがアップ(弱体扱い)",
+        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_323.png",
+        "type": "upHate",
+        "buffGroup": 700,
+        "script": {},
+        "vals": [
+          {
+            "id": 3005
+          },
+          {
+            "id": 3023
+          }
+        ],
+        "maxRate": 50000
       }
     ]
   },
@@ -40052,6 +41133,46 @@
     ]
   },
   {
+    "funcId": 455,
+    "funcType": "gainHpPer",
+    "funcTargetType": "ptAll",
+    "funcTargetTeam": "playerAndEnemy"
+  },
+  {
+    "funcId": 2384,
+    "funcType": "addState",
+    "funcTargetType": "enemy",
+    "funcTargetTeam": "playerAndEnemy",
+    "funcPopupText": "防御強化無効",
+    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_531.png",
+    "buffs": [
+      {
+        "id": 1053,
+        "name": "防御強化無効",
+        "detail": "防御強化を受けなくなる",
+        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_531.png",
+        "type": "avoidState",
+        "script": {},
+        "vals": [
+          {
+            "id": 3005
+          }
+        ],
+        "tvals": [
+          {
+            "id": 3007
+          }
+        ],
+        "ckOpIndv": [
+          {
+            "id": 3007
+          }
+        ],
+        "maxRate": 0
+      }
+    ]
+  },
+  {
     "funcId": 1894,
     "funcType": "addState",
     "funcTargetType": "self",
@@ -40077,6 +41198,98 @@
           }
         ],
         "maxRate": 0
+      }
+    ]
+  },
+  {
+    "funcId": 3017,
+    "funcType": "addStateShort",
+    "funcTargetType": "self",
+    "funcTargetTeam": "playerAndEnemy",
+    "funcPopupText": "攻撃時発動(やけど付与)",
+    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_528.png",
+    "buffs": [
+      {
+        "id": 1393,
+        "name": "攻撃時発動(やけど付与)",
+        "detail": "自身の通常攻撃時に敵単体にやけど状態(5ターン)を付与する",
+        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_528.png",
+        "type": "commandattackFunction",
+        "script": {},
+        "vals": [
+          {
+            "id": 3004
+          }
+        ],
+        "maxRate": 0
+      }
+    ]
+  },
+  {
+    "funcId": 132,
+    "funcType": "addState",
+    "funcTargetType": "enemyAll",
+    "funcTargetTeam": "playerAndEnemy",
+    "funcPopupText": "クイックダウン",
+    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_515.png",
+    "buffs": [
+      {
+        "id": 112,
+        "name": "Quickダウン",
+        "detail": "Quickカードの性能をダウン",
+        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_515.png",
+        "type": "downCommandall",
+        "script": {},
+        "vals": [
+          {
+            "id": 3005
+          },
+          {
+            "id": 3008
+          }
+        ],
+        "tvals": [
+          {
+            "id": 5000
+          },
+          {
+            "id": 4003
+          }
+        ],
+        "ckSelfIndv": [
+          {
+            "id": 4003
+          }
+        ],
+        "maxRate": 5000
+      }
+    ]
+  },
+  {
+    "funcId": 359,
+    "funcType": "addStateShort",
+    "funcTargetType": "enemy",
+    "funcTargetTeam": "player",
+    "funcPopupText": "タゲ集中アップ",
+    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_323.png",
+    "buffs": [
+      {
+        "id": 330,
+        "name": "タゲ集中アップ",
+        "detail": "敵からの狙われやすさをアップ",
+        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_323.png",
+        "type": "upHate",
+        "buffGroup": 700,
+        "script": {},
+        "vals": [
+          {
+            "id": 3005
+          },
+          {
+            "id": 3023
+          }
+        ],
+        "maxRate": 50000
       }
     ]
   },
@@ -40137,6 +41350,40 @@
     ]
   },
   {
+    "funcId": 1055,
+    "funcType": "addState",
+    "funcTargetType": "enemyAll",
+    "funcTargetTeam": "playerAndEnemy",
+    "funcPopupText": "状態付与ダウン：強化",
+    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_507.png",
+    "buffs": [
+      {
+        "id": 309,
+        "name": "強化成功率ダウン",
+        "detail": "強化成功率をダウン",
+        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_507.png",
+        "type": "downGrantstate",
+        "script": {},
+        "vals": [
+          {
+            "id": 3005
+          }
+        ],
+        "tvals": [
+          {
+            "id": 3004
+          }
+        ],
+        "ckSelfIndv": [
+          {
+            "id": 3004
+          }
+        ],
+        "maxRate": 5000
+      }
+    ]
+  },
+  {
     "funcId": 5239,
     "funcType": "addStateShort",
     "funcTargetType": "self",
@@ -40152,6 +41399,30 @@
         "vals": [
           {
             "id": 2616
+          }
+        ],
+        "maxRate": 0
+      }
+    ]
+  },
+  {
+    "funcId": 6188,
+    "funcType": "addState",
+    "funcTargetType": "self",
+    "funcTargetTeam": "playerAndEnemy",
+    "funcPopupText": "被ダメージ時発動(攻撃力ダウン)",
+    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_331.png",
+    "buffs": [
+      {
+        "id": 3153,
+        "name": "被ダメージ時発動(攻撃力ダウン)",
+        "detail": "攻撃を受けると敵単体の攻撃力をダウン",
+        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_331.png",
+        "type": "damageFunction",
+        "script": {},
+        "vals": [
+          {
+            "id": 3004
           }
         ],
         "maxRate": 0
@@ -40218,6 +41489,43 @@
     ]
   },
   {
+    "funcId": 7350,
+    "funcType": "addState",
+    "funcTargetType": "self",
+    "funcTargetTeam": "playerAndEnemy",
+    "funcPopupText": "クリティカル攻撃耐性アップ",
+    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_334.png",
+    "buffs": [
+      {
+        "id": 3528,
+        "name": "クリティカル耐性アップ",
+        "detail": "クリティカル攻撃への耐性を得る",
+        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_334.png",
+        "type": "upSpecialdefence",
+        "script": {},
+        "vals": [
+          {
+            "id": 3004
+          },
+          {
+            "id": 3016
+          }
+        ],
+        "tvals": [
+          {
+            "id": 4100
+          }
+        ],
+        "ckOpIndv": [
+          {
+            "id": 4100
+          }
+        ],
+        "maxRate": 5000
+      }
+    ]
+  },
+  {
     "funcId": 7409,
     "funcType": "addState",
     "funcTargetType": "self",
@@ -40264,5 +41572,18 @@
         "maxRate": 0
       }
     ]
+  },
+  {
+    "funcId": 1341,
+    "funcType": "gainStar",
+    "funcTargetType": "enemyAll",
+    "funcTargetTeam": "player",
+    "funcPopupText": "スター獲得"
+  },
+  {
+    "funcId": 1346,
+    "funcType": "gainStar",
+    "funcTargetType": "enemy",
+    "funcTargetTeam": "player"
   }
 ]
