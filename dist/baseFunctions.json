@@ -7584,6 +7584,86 @@
     ]
   },
   {
+    "funcId": 116,
+    "funcType": "addStateShort",
+    "funcTargetType": "ptAll",
+    "funcTargetTeam": "playerAndEnemy",
+    "funcPopupText": "アーツアップ",
+    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_313.png",
+    "buffs": [
+      {
+        "id": 101,
+        "name": "Artsアップ",
+        "detail": "Artsカードの性能をアップ",
+        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_313.png",
+        "type": "upCommandall",
+        "script": {},
+        "vals": [
+          {
+            "id": 3004
+          },
+          {
+            "id": 3006
+          }
+        ],
+        "tvals": [
+          {
+            "id": 5000
+          },
+          {
+            "id": 4001
+          }
+        ],
+        "ckSelfIndv": [
+          {
+            "id": 4001
+          }
+        ],
+        "maxRate": 5000
+      }
+    ]
+  },
+  {
+    "funcId": 125,
+    "funcType": "addStateShort",
+    "funcTargetType": "ptAll",
+    "funcTargetTeam": "playerAndEnemy",
+    "funcPopupText": "バスターアップ",
+    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_314.png",
+    "buffs": [
+      {
+        "id": 102,
+        "name": "Busterアップ",
+        "detail": "Busterカードの性能をアップ",
+        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_314.png",
+        "type": "upCommandall",
+        "script": {},
+        "vals": [
+          {
+            "id": 3004
+          },
+          {
+            "id": 3006
+          }
+        ],
+        "tvals": [
+          {
+            "id": 5000
+          },
+          {
+            "id": 4002
+          }
+        ],
+        "ckSelfIndv": [
+          {
+            "id": 4002
+          }
+        ],
+        "maxRate": 5000
+      }
+    ]
+  },
+  {
     "funcId": 1885,
     "funcType": "addState",
     "funcTargetType": "enemy",
@@ -9976,6 +10056,77 @@
     ]
   },
   {
+    "funcId": 8265,
+    "funcType": "eventDropUp",
+    "funcTargetType": "self",
+    "funcTargetTeam": "playerAndEnemy",
+    "funcPopupText": "なし",
+    "funcGroup": [
+      {
+        "eventId": 80364,
+        "baseFuncId": 0,
+        "nameTotal": "{0}\n獲得数ボーナス合計",
+        "name": "{0}獲得数アップ",
+        "icon": "https://static.atlasacademy.io/JP/Items/94068805.png",
+        "priority": 5000,
+        "isDispValue": true
+      }
+    ]
+  },
+  {
+    "funcId": 8433,
+    "funcType": "addStateShort",
+    "funcTargetType": "self",
+    "funcTargetTeam": "player",
+    "funcPopupText": "アイランド・レスキュー",
+    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "funcquestTvals": [
+      {
+        "id": 94000132
+      }
+    ],
+    "funcGroup": [
+      {
+        "eventId": 80364,
+        "baseFuncId": 8431,
+        "nameTotal": "{1} \n攻撃の威力アップ合計",
+        "name": "攻撃の威力アップ",
+        "icon": "https://static.atlasacademy.io/JP/EventUI/func_group_icon_302.png",
+        "priority": 1,
+        "isDispValue": true
+      }
+    ],
+    "buffs": [
+      {
+        "id": 4199,
+        "name": "アイランド・レスキュー",
+        "detail": "『水怪クライシス 無垢なる者たちの浮島』において与えるダメージをアップ",
+        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+        "type": "upDamage",
+        "script": {},
+        "maxRate": 10000
+      }
+    ]
+  },
+  {
+    "funcId": 8435,
+    "funcType": "servantFriendshipUp",
+    "funcTargetType": "ptFull",
+    "funcTargetTeam": "playerAndEnemy",
+    "funcPopupText": "なし",
+    "funcGroup": [
+      {
+        "eventId": 80364,
+        "baseFuncId": 0,
+        "nameTotal": "{1}\n得られる自身の絆ボーナス合計",
+        "name": "得られる自身の絆アップ",
+        "icon": "https://static.atlasacademy.io/JP/EventUI/func_group_icon_1023.png",
+        "priority": 1,
+        "isDispValue": true
+      }
+    ]
+  },
+  {
     "funcId": 1254,
     "funcType": "addStateShort",
     "funcTargetType": "self",
@@ -10418,6 +10569,24 @@
         "name": "得られる自身の絆アップ",
         "icon": "https://static.atlasacademy.io/JP/EventUI/func_group_icon_1009.png",
         "priority": 110,
+        "isDispValue": true
+      }
+    ]
+  },
+  {
+    "funcId": 8266,
+    "funcType": "eventDropUp",
+    "funcTargetType": "self",
+    "funcTargetTeam": "playerAndEnemy",
+    "funcPopupText": "なし",
+    "funcGroup": [
+      {
+        "eventId": 80364,
+        "baseFuncId": 0,
+        "nameTotal": "{0}\n獲得数ボーナス合計",
+        "name": "{0}獲得数アップ",
+        "icon": "https://static.atlasacademy.io/JP/Items/94068806.png",
+        "priority": 6000,
         "isDispValue": true
       }
     ]
@@ -12455,6 +12624,24 @@
     ]
   },
   {
+    "funcId": 8264,
+    "funcType": "eventDropUp",
+    "funcTargetType": "self",
+    "funcTargetTeam": "playerAndEnemy",
+    "funcPopupText": "なし",
+    "funcGroup": [
+      {
+        "eventId": 80364,
+        "baseFuncId": 0,
+        "nameTotal": "{0}\n獲得数ボーナス合計",
+        "name": "{0}獲得数アップ",
+        "icon": "https://static.atlasacademy.io/JP/Items/94068804.png",
+        "priority": 4000,
+        "isDispValue": true
+      }
+    ]
+  },
+  {
     "funcId": 1137,
     "funcType": "addStateShort",
     "funcTargetType": "ptOther",
@@ -12621,46 +12808,6 @@
           }
         ],
         "maxRate": 10000
-      }
-    ]
-  },
-  {
-    "funcId": 125,
-    "funcType": "addStateShort",
-    "funcTargetType": "ptAll",
-    "funcTargetTeam": "playerAndEnemy",
-    "funcPopupText": "バスターアップ",
-    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_314.png",
-    "buffs": [
-      {
-        "id": 102,
-        "name": "Busterアップ",
-        "detail": "Busterカードの性能をアップ",
-        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_314.png",
-        "type": "upCommandall",
-        "script": {},
-        "vals": [
-          {
-            "id": 3004
-          },
-          {
-            "id": 3006
-          }
-        ],
-        "tvals": [
-          {
-            "id": 5000
-          },
-          {
-            "id": 4002
-          }
-        ],
-        "ckSelfIndv": [
-          {
-            "id": 4002
-          }
-        ],
-        "maxRate": 5000
       }
     ]
   },
@@ -12988,46 +13135,6 @@
           }
         ],
         "maxRate": 10000
-      }
-    ]
-  },
-  {
-    "funcId": 116,
-    "funcType": "addStateShort",
-    "funcTargetType": "ptAll",
-    "funcTargetTeam": "playerAndEnemy",
-    "funcPopupText": "アーツアップ",
-    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_313.png",
-    "buffs": [
-      {
-        "id": 101,
-        "name": "Artsアップ",
-        "detail": "Artsカードの性能をアップ",
-        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_313.png",
-        "type": "upCommandall",
-        "script": {},
-        "vals": [
-          {
-            "id": 3004
-          },
-          {
-            "id": 3006
-          }
-        ],
-        "tvals": [
-          {
-            "id": 5000
-          },
-          {
-            "id": 4001
-          }
-        ],
-        "ckSelfIndv": [
-          {
-            "id": 4001
-          }
-        ],
-        "maxRate": 5000
       }
     ]
   },
@@ -19098,6 +19205,24 @@
           }
         ],
         "maxRate": 0
+      }
+    ]
+  },
+  {
+    "funcId": 8434,
+    "funcType": "servantFriendshipUp",
+    "funcTargetType": "self",
+    "funcTargetTeam": "playerAndEnemy",
+    "funcPopupText": "なし",
+    "funcGroup": [
+      {
+        "eventId": 80364,
+        "baseFuncId": 0,
+        "nameTotal": "{1}\n得られる自身の絆ボーナス合計",
+        "name": "得られる自身の絆アップ",
+        "icon": "https://static.atlasacademy.io/JP/EventUI/func_group_icon_1009.png",
+        "priority": 1,
+        "isDispValue": true
       }
     ]
   },
@@ -28001,6 +28126,80 @@
           }
         ],
         "maxRate": 10000
+      }
+    ]
+  },
+  {
+    "funcId": 8457,
+    "funcType": "addStateShort",
+    "funcTargetType": "self",
+    "funcTargetTeam": "playerAndEnemy",
+    "funcPopupText": "Arts攻撃時追加効果",
+    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_333.png",
+    "buffs": [
+      {
+        "id": 4211,
+        "name": "Arts攻撃時追加効果",
+        "detail": "Artsカードで攻撃時、自身のBusterカードの性能をアップ",
+        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_333.png",
+        "type": "attackFunction",
+        "script": {},
+        "vals": [
+          {
+            "id": 3004
+          }
+        ],
+        "tvals": [
+          {
+            "id": 5000
+          },
+          {
+            "id": 4001
+          }
+        ],
+        "ckSelfIndv": [
+          {
+            "id": 4001
+          }
+        ],
+        "maxRate": 0
+      }
+    ]
+  },
+  {
+    "funcId": 8458,
+    "funcType": "addStateShort",
+    "funcTargetType": "self",
+    "funcTargetTeam": "playerAndEnemy",
+    "funcPopupText": "Buster攻撃時追加効果",
+    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_333.png",
+    "buffs": [
+      {
+        "id": 4212,
+        "name": "Buster攻撃時追加効果",
+        "detail": "Busterカードで攻撃時、自身のArtsカードの性能をアップ",
+        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_333.png",
+        "type": "attackFunction",
+        "script": {},
+        "vals": [
+          {
+            "id": 3004
+          }
+        ],
+        "tvals": [
+          {
+            "id": 5000
+          },
+          {
+            "id": 4002
+          }
+        ],
+        "ckSelfIndv": [
+          {
+            "id": 4002
+          }
+        ],
+        "maxRate": 0
       }
     ]
   },
@@ -39614,6 +39813,60 @@
         "name": "{0}獲得数アップ",
         "icon": "https://static.atlasacademy.io/JP/Items/94067605.png",
         "priority": 4000,
+        "isDispValue": true
+      }
+    ]
+  },
+  {
+    "funcId": 8263,
+    "funcType": "eventDropUp",
+    "funcTargetType": "self",
+    "funcTargetTeam": "playerAndEnemy",
+    "funcPopupText": "なし",
+    "funcGroup": [
+      {
+        "eventId": 80364,
+        "baseFuncId": 0,
+        "nameTotal": "{0}\n獲得数ボーナス合計",
+        "name": "{0}獲得数アップ",
+        "icon": "https://static.atlasacademy.io/JP/Items/94068803.png",
+        "priority": 3000,
+        "isDispValue": true
+      }
+    ]
+  },
+  {
+    "funcId": 8262,
+    "funcType": "eventDropUp",
+    "funcTargetType": "self",
+    "funcTargetTeam": "playerAndEnemy",
+    "funcPopupText": "なし",
+    "funcGroup": [
+      {
+        "eventId": 80364,
+        "baseFuncId": 0,
+        "nameTotal": "{0}\n獲得数ボーナス合計",
+        "name": "{0}獲得数アップ",
+        "icon": "https://static.atlasacademy.io/JP/Items/94068802.png",
+        "priority": 2000,
+        "isDispValue": true
+      }
+    ]
+  },
+  {
+    "funcId": 8261,
+    "funcType": "eventDropUp",
+    "funcTargetType": "self",
+    "funcTargetTeam": "playerAndEnemy",
+    "funcPopupText": "なし",
+    "funcGroup": [
+      {
+        "eventId": 80364,
+        "baseFuncId": 0,
+        "nameTotal": "{0}\n獲得数ボーナス合計",
+        "name": "{0}獲得数アップ",
+        "icon": "https://static.atlasacademy.io/JP/Items/94068801.png",
+        "priority": 1000,
         "isDispValue": true
       }
     ]

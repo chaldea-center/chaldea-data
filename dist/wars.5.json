@@ -50773,5 +50773,1524 @@
         "activeTargetValue": 0
       }
     ]
+  },
+  {
+    "id": 9131,
+    "coordinates": [
+      [],
+      []
+    ],
+    "age": "-",
+    "name": "所在不明水域タートルアイランド",
+    "longName": "所在不明水域タートルアイランド",
+    "originalLongName": "所在不明水域タートルアイランド",
+    "flags": [
+      "isEvent",
+      "noClearMarkWithComplete"
+    ],
+    "banner": "https://static.atlasacademy.io/JP/Banner/event_war_80354.png",
+    "priority": 9131,
+    "bgm": {
+      "id": 0
+    },
+    "scriptId": "NONE",
+    "script": "https://static.atlasacademy.io/JP/Script/Common/NONE.txt",
+    "startType": "none",
+    "targetId": 0,
+    "eventId": 80364,
+    "eventName": "水怪クライシス 無垢なる者たちの浮島",
+    "lastQuestId": 0,
+    "warAdds": [
+      {
+        "warId": 9131,
+        "type": "flag",
+        "priority": 2,
+        "overwriteId": 2082,
+        "condType": "questClear",
+        "targetId": 94068801,
+        "value": 0,
+        "startedAt": 1649235600,
+        "endedAt": 1893423600
+      }
+    ],
+    "maps": [
+      {
+        "id": 9131,
+        "mapImage": "https://static.atlasacademy.io/JP/Terminal/MapImgs/img_questmap_009131/img_questmap_009131.png",
+        "mapImageW": 2048,
+        "mapImageH": 2048,
+        "bgm": {
+          "id": 0
+        }
+      }
+    ],
+    "spots": [
+      {
+        "id": 913101,
+        "mapId": 9131,
+        "name": "ヒダリワキビーチ",
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9131/QMap_Cap9131_Atlas/spot_913101.png",
+        "x": 866,
+        "y": 556,
+        "nameOfsY": -3,
+        "questOfsX": 39,
+        "questOfsY": -71,
+        "quests": [
+          {
+            "id": 94068802,
+            "name": "第1節「姉妹と無垢なる者たち」",
+            "type": "main",
+            "consume": 5,
+            "afterClear": "close",
+            "recommendLv": "70",
+            "spotId": 913101,
+            "spotName": "ヒダリワキビーチ",
+            "warId": 9131,
+            "warLongName": "所在不明水域タートルアイランド",
+            "gifts": [
+              {
+                "objectId": 2,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94068801
+              },
+              {
+                "type": "date",
+                "targetId": 0,
+                "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+              }
+            ],
+            "phases": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "phasesNoBattle": [
+              1,
+              2,
+              3
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9406880210",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406880210.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 2,
+                "scripts": [
+                  {
+                    "scriptId": "9406880220",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406880220.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 3,
+                "scripts": [
+                  {
+                    "scriptId": "9406880230",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406880230.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 4,
+                "scripts": [
+                  {
+                    "scriptId": "9406880241",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406880241.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1649235600,
+            "openedAt": 1649235600,
+            "closedAt": 1651031999
+          },
+          {
+            "id": 94068901,
+            "name": "カルデアレスキュー！ 初級",
+            "type": "event",
+            "flags": [
+              "displayLoopmark"
+            ],
+            "consume": 40,
+            "afterClear": "repeatLast",
+            "recommendLv": "70",
+            "spotId": 913101,
+            "spotName": "ヒダリワキビーチ",
+            "warId": 9131,
+            "warLongName": "所在不明水域タートルアイランド",
+            "gifts": [
+              {
+                "objectId": 101,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94068802
+              },
+              {
+                "type": "date",
+                "targetId": 0,
+                "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "noticeAt": 1649235600,
+            "openedAt": 1649235600,
+            "closedAt": 1651031999
+          },
+          {
+            "id": 94068902,
+            "name": "カルデアレスキュー！ 中級",
+            "type": "event",
+            "flags": [
+              "displayLoopmark"
+            ],
+            "consume": 40,
+            "afterClear": "repeatLast",
+            "recommendLv": "70",
+            "spotId": 913101,
+            "spotName": "ヒダリワキビーチ",
+            "warId": 9131,
+            "warLongName": "所在不明水域タートルアイランド",
+            "gifts": [
+              {
+                "objectId": 101,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94068802
+              },
+              {
+                "type": "date",
+                "targetId": 0,
+                "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "noticeAt": 1649235600,
+            "openedAt": 1649235600,
+            "closedAt": 1651031999
+          }
+        ]
+      },
+      {
+        "id": 913102,
+        "mapId": 9131,
+        "name": "水上村",
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9131/QMap_Cap9131_Atlas/spot_913102.png",
+        "x": 1176,
+        "y": 891,
+        "nameOfsY": -6,
+        "questOfsX": 35,
+        "questOfsY": -81,
+        "quests": [
+          {
+            "id": 94068805,
+            "name": "第4節「インターミッション」",
+            "type": "main",
+            "flags": [
+              "noBattle"
+            ],
+            "consume": 0,
+            "afterClear": "close",
+            "recommendLv": "1",
+            "spotId": 913102,
+            "spotName": "水上村",
+            "warId": 9131,
+            "warLongName": "所在不明水域タートルアイランド",
+            "gifts": [
+              {
+                "objectId": 2,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "date",
+                "targetId": 0,
+                "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+              },
+              {
+                "type": "questGroupClear",
+                "targetId": 94069010,
+                "value": 1
+              }
+            ],
+            "phases": [
+              1,
+              2
+            ],
+            "phasesNoBattle": [
+              1,
+              2
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9406880510",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406880510.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 2,
+                "scripts": [
+                  {
+                    "scriptId": "9406880520",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406880520.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1649235600,
+            "openedAt": 1649235600,
+            "closedAt": 1651031999
+          },
+          {
+            "id": 94068806,
+            "name": "第5節「喰らいつく怪」",
+            "type": "main",
+            "flags": [
+              "noBattle"
+            ],
+            "consume": 0,
+            "afterClear": "close",
+            "recommendLv": "1",
+            "spotId": 913102,
+            "spotName": "水上村",
+            "warId": 9131,
+            "warLongName": "所在不明水域タートルアイランド",
+            "gifts": [
+              {
+                "objectId": 2,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94068805
+              },
+              {
+                "type": "date",
+                "targetId": 0,
+                "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+              }
+            ],
+            "phases": [
+              1,
+              2
+            ],
+            "phasesNoBattle": [
+              1,
+              2
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9406880610",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406880610.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 2,
+                "scripts": [
+                  {
+                    "scriptId": "9406880620",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406880620.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1649235600,
+            "openedAt": 1649322000,
+            "closedAt": 1651031999
+          },
+          {
+            "id": 94069001,
+            "name": "製作1 「水上村の増築」",
+            "type": "main",
+            "flags": [
+              "noBattle"
+            ],
+            "consumeType": "item",
+            "consume": 0,
+            "consumeItem": [
+              {
+                "itemId": 94068804,
+                "amount": 1
+              },
+              {
+                "itemId": 94068805,
+                "amount": 1
+              },
+              {
+                "itemId": 94068806,
+                "amount": 1
+              }
+            ],
+            "afterClear": "close",
+            "recommendLv": "1",
+            "spotId": 913102,
+            "spotName": "水上村",
+            "warId": 9131,
+            "warLongName": "所在不明水域タートルアイランド",
+            "gifts": [
+              {
+                "objectId": 101,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94068802
+              },
+              {
+                "type": "date",
+                "targetId": 0
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "phasesNoBattle": [
+              1
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9406900110",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406900110.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1649235600,
+            "openedAt": 1649235600,
+            "closedAt": 1651031999
+          },
+          {
+            "id": 94069002,
+            "name": "製作2 A案「刀を持たせよう」",
+            "type": "main",
+            "flags": [
+              "noBattle"
+            ],
+            "consumeType": "item",
+            "consume": 0,
+            "consumeItem": [
+              {
+                "itemId": 94068804,
+                "amount": 5
+              },
+              {
+                "itemId": 94068805,
+                "amount": 1
+              }
+            ],
+            "afterClear": "close",
+            "recommendLv": "1",
+            "spotId": 913102,
+            "spotName": "水上村",
+            "warId": 9131,
+            "warLongName": "所在不明水域タートルアイランド",
+            "gifts": [
+              {
+                "objectId": 101,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94068803
+              },
+              {
+                "type": "date",
+                "targetId": 0
+              },
+              {
+                "type": "notQuestGroupClear",
+                "targetId": 94069002,
+                "value": 1
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "phasesNoBattle": [
+              1
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9406900210",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406900210.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1649235600,
+            "openedAt": 1649235600,
+            "closedAt": 1651031999
+          },
+          {
+            "id": 94069003,
+            "name": "製作2 B案「槍を持たせよう」",
+            "type": "main",
+            "flags": [
+              "noBattle"
+            ],
+            "consumeType": "item",
+            "consume": 0,
+            "consumeItem": [
+              {
+                "itemId": 94068805,
+                "amount": 5
+              },
+              {
+                "itemId": 94068806,
+                "amount": 1
+              }
+            ],
+            "afterClear": "close",
+            "recommendLv": "1",
+            "spotId": 913102,
+            "spotName": "水上村",
+            "warId": 9131,
+            "warLongName": "所在不明水域タートルアイランド",
+            "gifts": [
+              {
+                "objectId": 101,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94068803
+              },
+              {
+                "type": "date",
+                "targetId": 0
+              },
+              {
+                "type": "notQuestGroupClear",
+                "targetId": 94069002,
+                "value": 1
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "phasesNoBattle": [
+              1
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9406900310",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406900310.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1649235600,
+            "openedAt": 1649235600,
+            "closedAt": 1651031999
+          },
+          {
+            "id": 94069004,
+            "name": "製作2 C案「杭打ち機を持たせよう」",
+            "type": "main",
+            "flags": [
+              "noBattle"
+            ],
+            "consumeType": "item",
+            "consume": 0,
+            "consumeItem": [
+              {
+                "itemId": 94068804,
+                "amount": 1
+              },
+              {
+                "itemId": 94068806,
+                "amount": 5
+              }
+            ],
+            "afterClear": "close",
+            "recommendLv": "1",
+            "spotId": 913102,
+            "spotName": "水上村",
+            "warId": 9131,
+            "warLongName": "所在不明水域タートルアイランド",
+            "gifts": [
+              {
+                "objectId": 101,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94068803
+              },
+              {
+                "type": "date",
+                "targetId": 0
+              },
+              {
+                "type": "notQuestGroupClear",
+                "targetId": 94069002,
+                "value": 1
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "phasesNoBattle": [
+              1
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9406900410",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406900410.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1649235600,
+            "openedAt": 1649235600,
+            "closedAt": 1651031999
+          },
+          {
+            "id": 94069005,
+            "name": "製作3 A案「源氏の鎧を着せよう」",
+            "type": "main",
+            "flags": [
+              "noBattle"
+            ],
+            "consumeType": "item",
+            "consume": 0,
+            "consumeItem": [
+              {
+                "itemId": 94068804,
+                "amount": 15
+              },
+              {
+                "itemId": 94068805,
+                "amount": 5
+              }
+            ],
+            "afterClear": "close",
+            "recommendLv": "1",
+            "spotId": 913102,
+            "spotName": "水上村",
+            "warId": 9131,
+            "warLongName": "所在不明水域タートルアイランド",
+            "gifts": [
+              {
+                "objectId": 101,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94068806
+              },
+              {
+                "type": "date",
+                "targetId": 0
+              },
+              {
+                "type": "notQuestGroupClear",
+                "targetId": 94069003,
+                "value": 1
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "phasesNoBattle": [
+              1
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9406900510",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406900510.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1649235600,
+            "openedAt": 1649322000,
+            "closedAt": 1651031999
+          },
+          {
+            "id": 94069006,
+            "name": "製作3 B案「ローマの鎧を着せよう」",
+            "type": "main",
+            "flags": [
+              "noBattle"
+            ],
+            "consumeType": "item",
+            "consume": 0,
+            "consumeItem": [
+              {
+                "itemId": 94068805,
+                "amount": 15
+              },
+              {
+                "itemId": 94068806,
+                "amount": 5
+              }
+            ],
+            "afterClear": "close",
+            "recommendLv": "1",
+            "spotId": 913102,
+            "spotName": "水上村",
+            "warId": 9131,
+            "warLongName": "所在不明水域タートルアイランド",
+            "gifts": [
+              {
+                "objectId": 101,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94068806
+              },
+              {
+                "type": "date",
+                "targetId": 0
+              },
+              {
+                "type": "notQuestGroupClear",
+                "targetId": 94069003,
+                "value": 1
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "phasesNoBattle": [
+              1
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9406900610",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406900610.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1649235600,
+            "openedAt": 1649322000,
+            "closedAt": 1651031999
+          },
+          {
+            "id": 94069007,
+            "name": "製作3 C案「メカ装甲を着せよう」",
+            "type": "main",
+            "flags": [
+              "noBattle"
+            ],
+            "consumeType": "item",
+            "consume": 0,
+            "consumeItem": [
+              {
+                "itemId": 94068804,
+                "amount": 5
+              },
+              {
+                "itemId": 94068806,
+                "amount": 15
+              }
+            ],
+            "afterClear": "close",
+            "recommendLv": "1",
+            "spotId": 913102,
+            "spotName": "水上村",
+            "warId": 9131,
+            "warLongName": "所在不明水域タートルアイランド",
+            "gifts": [
+              {
+                "objectId": 101,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94068806
+              },
+              {
+                "type": "date",
+                "targetId": 0
+              },
+              {
+                "type": "notQuestGroupClear",
+                "targetId": 94069003,
+                "value": 1
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "phasesNoBattle": [
+              1
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9406900710",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406900710.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1649235600,
+            "openedAt": 1649322000,
+            "closedAt": 1651031999
+          }
+        ]
+      },
+      {
+        "id": 913103,
+        "mapId": 9131,
+        "name": "大ヤシ林",
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9131/QMap_Cap9131_Atlas/spot_913103.png",
+        "x": 719,
+        "y": 712,
+        "nameOfsY": -6,
+        "questOfsX": 35,
+        "questOfsY": -83,
+        "quests": [
+          {
+            "id": 94068803,
+            "name": "第2節「問答する僧形」",
+            "type": "main",
+            "consume": 5,
+            "afterClear": "close",
+            "recommendLv": "70",
+            "spotId": 913103,
+            "spotName": "大ヤシ林",
+            "warId": 9131,
+            "warLongName": "所在不明水域タートルアイランド",
+            "gifts": [
+              {
+                "objectId": 2,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94068802
+              },
+              {
+                "type": "date",
+                "targetId": 0,
+                "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+              },
+              {
+                "type": "questGroupClear",
+                "targetId": 94069001,
+                "value": 1
+              }
+            ],
+            "phases": [
+              1,
+              2
+            ],
+            "phasesNoBattle": [
+              2
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9406880310",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406880310.txt"
+                  },
+                  {
+                    "scriptId": "9406880311",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406880311.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 2,
+                "scripts": [
+                  {
+                    "scriptId": "9406880320",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406880320.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1649235600,
+            "openedAt": 1649235600,
+            "closedAt": 1651031999
+          },
+          {
+            "id": 94068804,
+            "name": "第3節「第一エリア奪還戦」",
+            "type": "main",
+            "consume": 5,
+            "afterClear": "close",
+            "recommendLv": "70",
+            "spotId": 913103,
+            "spotName": "大ヤシ林",
+            "warId": 9131,
+            "warLongName": "所在不明水域タートルアイランド",
+            "gifts": [
+              {
+                "objectId": 2,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94068803
+              },
+              {
+                "type": "questClear",
+                "targetId": 94069002
+              },
+              {
+                "type": "date",
+                "targetId": 0,
+                "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+              },
+              {
+                "type": "notQuestGroupClear",
+                "targetId": 94069010,
+                "value": 1
+              },
+              {
+                "type": "questGroupClear",
+                "targetId": 94069002,
+                "value": 1
+              }
+            ],
+            "phases": [
+              1,
+              2
+            ],
+            "phasesNoBattle": [
+              2
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9406880410",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406880410.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 2,
+                "scripts": [
+                  {
+                    "scriptId": "9406880420",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406880420.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1649235600,
+            "openedAt": 1649235600,
+            "closedAt": 1651031999
+          },
+          {
+            "id": 94068898,
+            "name": "第3節「第一エリア奪還戦」",
+            "type": "main",
+            "consume": 5,
+            "afterClear": "close",
+            "recommendLv": "70",
+            "spotId": 913103,
+            "spotName": "大ヤシ林",
+            "warId": 9131,
+            "warLongName": "所在不明水域タートルアイランド",
+            "gifts": [
+              {
+                "objectId": 2,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94069004
+              },
+              {
+                "type": "date",
+                "targetId": 0,
+                "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+              },
+              {
+                "type": "notQuestGroupClear",
+                "targetId": 94069010,
+                "value": 1
+              }
+            ],
+            "phases": [
+              1,
+              2
+            ],
+            "phasesNoBattle": [
+              2
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9406880410",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406880410.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 2,
+                "scripts": [
+                  {
+                    "scriptId": "9406880420",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406880420.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1649235600,
+            "openedAt": 1649235600,
+            "closedAt": 1651031999
+          },
+          {
+            "id": 94068899,
+            "name": "第3節「第一エリア奪還戦」",
+            "type": "main",
+            "consume": 5,
+            "afterClear": "close",
+            "recommendLv": "70",
+            "spotId": 913103,
+            "spotName": "大ヤシ林",
+            "warId": 9131,
+            "warLongName": "所在不明水域タートルアイランド",
+            "gifts": [
+              {
+                "objectId": 2,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94069003
+              },
+              {
+                "type": "date",
+                "targetId": 0,
+                "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+              },
+              {
+                "type": "notQuestGroupClear",
+                "targetId": 94069010,
+                "value": 1
+              }
+            ],
+            "phases": [
+              1,
+              2
+            ],
+            "phasesNoBattle": [
+              2
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9406880410",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406880410.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 2,
+                "scripts": [
+                  {
+                    "scriptId": "9406880420",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406880420.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1649235600,
+            "openedAt": 1649235600,
+            "closedAt": 1651031999
+          },
+          {
+            "id": 94068903,
+            "name": "カルデアレスキュー！ 上級",
+            "type": "event",
+            "flags": [
+              "displayLoopmark"
+            ],
+            "consume": 40,
+            "afterClear": "repeatLast",
+            "recommendLv": "70",
+            "spotId": 913103,
+            "spotName": "大ヤシ林",
+            "warId": 9131,
+            "warLongName": "所在不明水域タートルアイランド",
+            "gifts": [
+              {
+                "objectId": 101,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "date",
+                "targetId": 0,
+                "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+              },
+              {
+                "type": "questGroupClear",
+                "targetId": 94069010,
+                "value": 1
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "noticeAt": 1649235600,
+            "openedAt": 1649235600,
+            "closedAt": 1651031999
+          }
+        ]
+      },
+      {
+        "id": 913104,
+        "mapId": 9131,
+        "name": "滂沱の滝",
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9131/QMap_Cap9131_Atlas/spot_913104.png",
+        "x": 1695,
+        "y": 620,
+        "nameOfsY": -7,
+        "questOfsX": 41,
+        "questOfsY": -78,
+        "quests": [
+          {
+            "id": 94068807,
+            "name": "第6節「第二エリア奪還戦」",
+            "type": "main",
+            "consume": 5,
+            "afterClear": "close",
+            "recommendLv": "75",
+            "spotId": 913104,
+            "spotName": "滂沱の滝",
+            "warId": 9131,
+            "warLongName": "所在不明水域タートルアイランド",
+            "gifts": [
+              {
+                "objectId": 2,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94068806
+              },
+              {
+                "type": "questClear",
+                "targetId": 94069005
+              },
+              {
+                "type": "date",
+                "targetId": 0,
+                "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+              },
+              {
+                "type": "notQuestGroupClear",
+                "targetId": 94069011,
+                "value": 1
+              },
+              {
+                "type": "questGroupClear",
+                "targetId": 94069003,
+                "value": 1
+              }
+            ],
+            "phases": [
+              1,
+              2
+            ],
+            "phasesNoBattle": [
+              2
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9406880710",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406880710.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 2,
+                "scripts": [
+                  {
+                    "scriptId": "9406880720",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406880720.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1649235600,
+            "openedAt": 1649322000,
+            "closedAt": 1651031999
+          },
+          {
+            "id": 94068904,
+            "name": "カルデアレスキュー！ 大口からの救出",
+            "type": "event",
+            "flags": [
+              "displayLoopmark"
+            ],
+            "consume": 40,
+            "afterClear": "repeatLast",
+            "recommendLv": "80",
+            "spotId": 913104,
+            "spotName": "滂沱の滝",
+            "warId": 9131,
+            "warLongName": "所在不明水域タートルアイランド",
+            "gifts": [
+              {
+                "objectId": 100,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "date",
+                "targetId": 0,
+                "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+              },
+              {
+                "type": "questGroupClear",
+                "targetId": 94069011,
+                "value": 1
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "noticeAt": 1649235600,
+            "openedAt": 1649322000,
+            "closedAt": 1651031999
+          }
+        ]
+      },
+      {
+        "id": 913105,
+        "mapId": 9131,
+        "name": "サハラ樹林",
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9131/QMap_Cap9131_Atlas/spot_913105.png",
+        "x": 360,
+        "y": 948,
+        "nameOfsY": -5,
+        "questOfsX": 40,
+        "questOfsY": -72
+      },
+      {
+        "id": 913106,
+        "mapId": 9131,
+        "name": "足先岬",
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9131/QMap_Cap9131_Atlas/spot_913106.png",
+        "x": 511,
+        "y": 1629,
+        "questOfsX": 35,
+        "questOfsY": -75
+      },
+      {
+        "id": 913110,
+        "mapId": 9131,
+        "name": "ウハラ川",
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9131/QMap_Cap9131_Atlas/spot_913110.png",
+        "x": 1220,
+        "y": 1323,
+        "nameOfsY": -5,
+        "questOfsX": 34,
+        "questOfsY": -91
+      },
+      {
+        "id": 913111,
+        "mapId": 9131,
+        "name": "亀鉱山",
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9131/QMap_Cap9131_Atlas/spot_913111.png",
+        "x": 911,
+        "y": 1419,
+        "nameOfsY": -7,
+        "questOfsX": 29,
+        "questOfsY": -81
+      },
+      {
+        "id": 913199,
+        "mapId": 9131,
+        "name": "カルデアゲート",
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9131/QMap_Cap9131_Atlas/spot_913199.png",
+        "x": 0,
+        "y": 0,
+        "quests": [
+          {
+            "id": 94068801,
+            "name": "プロローグ",
+            "type": "main",
+            "consume": 5,
+            "afterClear": "close",
+            "recommendLv": "70",
+            "spotId": 913199,
+            "spotName": "カルデアゲート",
+            "warId": 9131,
+            "warLongName": "所在不明水域タートルアイランド",
+            "gifts": [
+              {
+                "type": "servant",
+                "objectId": 9405990,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 3000218
+              },
+              {
+                "type": "date",
+                "targetId": 0,
+                "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9406880110",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406880110.txt"
+                  },
+                  {
+                    "scriptId": "9406880111",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406880111.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1649235600,
+            "openedAt": 1649235600,
+            "closedAt": 1651031999
+          }
+        ]
+      }
+    ],
+    "spotRoads": [
+      {
+        "id": 913101,
+        "warId": 9131,
+        "mapId": 9131,
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9131/QMap_Cap9131_Atlas/img_road9131_00.png",
+        "srcSpotId": 913101,
+        "dstSpotId": 913102,
+        "dispCondType": "useItemTime",
+        "dispTargetId": 0,
+        "dispTargetValue": 0,
+        "dispCondType2": "useItemTime",
+        "dispTargetId2": 0,
+        "dispTargetValue2": 0,
+        "activeCondType": "questClear",
+        "activeTargetId": 0,
+        "activeTargetValue": 0
+      },
+      {
+        "id": 913102,
+        "warId": 9131,
+        "mapId": 9131,
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9131/QMap_Cap9131_Atlas/img_road9131_00.png",
+        "srcSpotId": 913102,
+        "dstSpotId": 913103,
+        "dispCondType": "useItemTime",
+        "dispTargetId": 0,
+        "dispTargetValue": 0,
+        "dispCondType2": "useItemTime",
+        "dispTargetId2": 0,
+        "dispTargetValue2": 0,
+        "activeCondType": "questClear",
+        "activeTargetId": 0,
+        "activeTargetValue": 0
+      },
+      {
+        "id": 913103,
+        "warId": 9131,
+        "mapId": 9131,
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9131/QMap_Cap9131_Atlas/img_road9131_00.png",
+        "srcSpotId": 913103,
+        "dstSpotId": 913101,
+        "dispCondType": "useItemTime",
+        "dispTargetId": 0,
+        "dispTargetValue": 0,
+        "dispCondType2": "useItemTime",
+        "dispTargetId2": 0,
+        "dispTargetValue2": 0,
+        "activeCondType": "questClear",
+        "activeTargetId": 0,
+        "activeTargetValue": 0
+      },
+      {
+        "id": 913104,
+        "warId": 9131,
+        "mapId": 9131,
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9131/QMap_Cap9131_Atlas/img_road9131_00.png",
+        "srcSpotId": 913102,
+        "dstSpotId": 913104,
+        "dispCondType": "useItemTime",
+        "dispTargetId": 0,
+        "dispTargetValue": 0,
+        "dispCondType2": "useItemTime",
+        "dispTargetId2": 0,
+        "dispTargetValue2": 0,
+        "activeCondType": "questClear",
+        "activeTargetId": 0,
+        "activeTargetValue": 0
+      },
+      {
+        "id": 913105,
+        "warId": 9131,
+        "mapId": 9131,
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9131/QMap_Cap9131_Atlas/img_road9131_00.png",
+        "srcSpotId": 913102,
+        "dstSpotId": 913111,
+        "dispCondType": "useItemTime",
+        "dispTargetId": 0,
+        "dispTargetValue": 0,
+        "dispCondType2": "useItemTime",
+        "dispTargetId2": 0,
+        "dispTargetValue2": 0,
+        "activeCondType": "questClear",
+        "activeTargetId": 0,
+        "activeTargetValue": 0
+      },
+      {
+        "id": 913106,
+        "warId": 9131,
+        "mapId": 9131,
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9131/QMap_Cap9131_Atlas/img_road9131_00.png",
+        "srcSpotId": 913102,
+        "dstSpotId": 913105,
+        "dispCondType": "useItemTime",
+        "dispTargetId": 0,
+        "dispTargetValue": 0,
+        "dispCondType2": "useItemTime",
+        "dispTargetId2": 0,
+        "dispTargetValue2": 0,
+        "activeCondType": "questClear",
+        "activeTargetId": 0,
+        "activeTargetValue": 0
+      },
+      {
+        "id": 913107,
+        "warId": 9131,
+        "mapId": 9131,
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9131/QMap_Cap9131_Atlas/img_road9131_00.png",
+        "srcSpotId": 913102,
+        "dstSpotId": 913110,
+        "dispCondType": "useItemTime",
+        "dispTargetId": 0,
+        "dispTargetValue": 0,
+        "dispCondType2": "useItemTime",
+        "dispTargetId2": 0,
+        "dispTargetValue2": 0,
+        "activeCondType": "questClear",
+        "activeTargetId": 0,
+        "activeTargetValue": 0
+      },
+      {
+        "id": 913108,
+        "warId": 9131,
+        "mapId": 9131,
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9131/QMap_Cap9131_Atlas/img_road9131_00.png",
+        "srcSpotId": 913102,
+        "dstSpotId": 913106,
+        "dispCondType": "useItemTime",
+        "dispTargetId": 0,
+        "dispTargetValue": 0,
+        "dispCondType2": "useItemTime",
+        "dispTargetId2": 0,
+        "dispTargetValue2": 0,
+        "activeCondType": "questClear",
+        "activeTargetId": 0,
+        "activeTargetValue": 0
+      }
+    ]
   }
 ]
