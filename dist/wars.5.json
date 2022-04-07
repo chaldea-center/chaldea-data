@@ -51143,6 +51143,59 @@
             "closedAt": 1651031999
           },
           {
+            "id": 94068808,
+            "name": "第7節「監視塔建設計画」",
+            "type": "main",
+            "flags": [
+              "noBattle"
+            ],
+            "consume": 0,
+            "afterClear": "close",
+            "recommendLv": "1",
+            "spotId": 913102,
+            "spotName": "水上村",
+            "warId": 9131,
+            "warLongName": "所在不明水域タートルアイランド",
+            "gifts": [
+              {
+                "objectId": 2,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "date",
+                "targetId": 0,
+                "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+              },
+              {
+                "type": "questGroupClear",
+                "targetId": 94069011,
+                "value": 1
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "phasesNoBattle": [
+              1
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9406880810",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406880810.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1649322000,
+            "openedAt": 1649408400,
+            "closedAt": 1651031999
+          },
+          {
             "id": 94069001,
             "name": "製作1 「水上村の増築」",
             "type": "main",
@@ -51609,6 +51662,207 @@
             "noticeAt": 1649235600,
             "openedAt": 1649322000,
             "closedAt": 1651031999
+          },
+          {
+            "id": 94069008,
+            "name": "製作4 A案「ピサの斜塔を建てよう」",
+            "type": "main",
+            "flags": [
+              "noBattle"
+            ],
+            "consumeType": "item",
+            "consume": 0,
+            "consumeItem": [
+              {
+                "itemId": 94068804,
+                "amount": 30
+              },
+              {
+                "itemId": 94068805,
+                "amount": 15
+              }
+            ],
+            "afterClear": "close",
+            "recommendLv": "1",
+            "spotId": 913102,
+            "spotName": "水上村",
+            "warId": 9131,
+            "warLongName": "所在不明水域タートルアイランド",
+            "gifts": [
+              {
+                "objectId": 101,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94068808
+              },
+              {
+                "type": "date",
+                "targetId": 0
+              },
+              {
+                "type": "notQuestGroupClear",
+                "targetId": 94069004,
+                "value": 1
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "phasesNoBattle": [
+              1
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9406900810",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406900810.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1649322000,
+            "openedAt": 1649408400,
+            "closedAt": 1651031999
+          },
+          {
+            "id": 94069009,
+            "name": "製作4 B案「五重塔を建てよう」",
+            "type": "main",
+            "flags": [
+              "noBattle"
+            ],
+            "consumeType": "item",
+            "consume": 0,
+            "consumeItem": [
+              {
+                "itemId": 94068805,
+                "amount": 30
+              },
+              {
+                "itemId": 94068806,
+                "amount": 15
+              }
+            ],
+            "afterClear": "close",
+            "recommendLv": "1",
+            "spotId": 913102,
+            "spotName": "水上村",
+            "warId": 9131,
+            "warLongName": "所在不明水域タートルアイランド",
+            "gifts": [
+              {
+                "objectId": 101,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94068808
+              },
+              {
+                "type": "date",
+                "targetId": 0
+              },
+              {
+                "type": "notQuestGroupClear",
+                "targetId": 94069004,
+                "value": 1
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "phasesNoBattle": [
+              1
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9406900910",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406900910.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1649322000,
+            "openedAt": 1649408400,
+            "closedAt": 1651031999
+          },
+          {
+            "id": 94069010,
+            "name": "製作4 C案「ピラミッドを建てよう」",
+            "type": "main",
+            "flags": [
+              "noBattle"
+            ],
+            "consumeType": "item",
+            "consume": 0,
+            "consumeItem": [
+              {
+                "itemId": 94068804,
+                "amount": 15
+              },
+              {
+                "itemId": 94068806,
+                "amount": 30
+              }
+            ],
+            "afterClear": "close",
+            "recommendLv": "1",
+            "spotId": 913102,
+            "spotName": "水上村",
+            "warId": 9131,
+            "warLongName": "所在不明水域タートルアイランド",
+            "gifts": [
+              {
+                "objectId": 101,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94068808
+              },
+              {
+                "type": "date",
+                "targetId": 0
+              },
+              {
+                "type": "notQuestGroupClear",
+                "targetId": 94069004,
+                "value": 1
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "phasesNoBattle": [
+              1
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9406901010",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406901010.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1649322000,
+            "openedAt": 1649408400,
+            "closedAt": 1651031999
           }
         ]
       },
@@ -52033,6 +52287,134 @@
             "closedAt": 1651031999
           },
           {
+            "id": 94068896,
+            "name": "第6節「第二エリア奪還戦」",
+            "type": "main",
+            "consume": 5,
+            "afterClear": "close",
+            "recommendLv": "75",
+            "spotId": 913104,
+            "spotName": "滂沱の滝",
+            "warId": 9131,
+            "warLongName": "所在不明水域タートルアイランド",
+            "gifts": [
+              {
+                "objectId": 2,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94069007
+              },
+              {
+                "type": "date",
+                "targetId": 0,
+                "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+              },
+              {
+                "type": "notQuestGroupClear",
+                "targetId": 94069011,
+                "value": 1
+              }
+            ],
+            "phases": [
+              1,
+              2
+            ],
+            "phasesNoBattle": [
+              2
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9406880710",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406880710.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 2,
+                "scripts": [
+                  {
+                    "scriptId": "9406880720",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406880720.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1649322000,
+            "openedAt": 1649322000,
+            "closedAt": 1651031999
+          },
+          {
+            "id": 94068897,
+            "name": "第6節「第二エリア奪還戦」",
+            "type": "main",
+            "consume": 5,
+            "afterClear": "close",
+            "recommendLv": "75",
+            "spotId": 913104,
+            "spotName": "滂沱の滝",
+            "warId": 9131,
+            "warLongName": "所在不明水域タートルアイランド",
+            "gifts": [
+              {
+                "objectId": 2,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94069006
+              },
+              {
+                "type": "date",
+                "targetId": 0,
+                "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+              },
+              {
+                "type": "notQuestGroupClear",
+                "targetId": 94069011,
+                "value": 1
+              }
+            ],
+            "phases": [
+              1,
+              2
+            ],
+            "phasesNoBattle": [
+              2
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9406880710",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406880710.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 2,
+                "scripts": [
+                  {
+                    "scriptId": "9406880720",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406880720.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1649322000,
+            "openedAt": 1649322000,
+            "closedAt": 1651031999
+          },
+          {
             "id": 94068904,
             "name": "カルデアレスキュー！ 大口からの救出",
             "type": "event",
@@ -52114,7 +52496,47 @@
         "y": 1419,
         "nameOfsY": -7,
         "questOfsX": 29,
-        "questOfsY": -81
+        "questOfsY": -81,
+        "quests": [
+          {
+            "id": 94068905,
+            "name": "カルデアレスキュー！ 鉱山災害からの救出",
+            "type": "event",
+            "flags": [
+              "displayLoopmark"
+            ],
+            "consume": 40,
+            "afterClear": "repeatLast",
+            "recommendLv": "80",
+            "spotId": 913111,
+            "spotName": "亀鉱山",
+            "warId": 9131,
+            "warLongName": "所在不明水域タートルアイランド",
+            "gifts": [
+              {
+                "objectId": 100,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94068808
+              },
+              {
+                "type": "date",
+                "targetId": 0,
+                "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "noticeAt": 1649322000,
+            "openedAt": 1649408400,
+            "closedAt": 1651031999
+          }
+        ]
       },
       {
         "id": 913199,
