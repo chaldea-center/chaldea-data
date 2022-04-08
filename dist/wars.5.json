@@ -51196,6 +51196,155 @@
             "closedAt": 1651031999
           },
           {
+            "id": 94068809,
+            "name": "第8節「妖霧蠢動」",
+            "type": "main",
+            "consume": 5,
+            "afterClear": "close",
+            "recommendLv": "75",
+            "spotId": 913102,
+            "spotName": "水上村",
+            "warId": 9131,
+            "warLongName": "所在不明水域タートルアイランド",
+            "gifts": [
+              {
+                "objectId": 2,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94068808
+              },
+              {
+                "type": "date",
+                "targetId": 0,
+                "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+              },
+              {
+                "type": "questGroupClear",
+                "targetId": 94069004,
+                "value": 1
+              }
+            ],
+            "phases": [
+              1,
+              2,
+              3
+            ],
+            "phasesNoBattle": [
+              3
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9406880910",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406880910.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 2,
+                "scripts": [
+                  {
+                    "scriptId": "9406880920",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406880920.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 3,
+                "scripts": [
+                  {
+                    "scriptId": "9406880930",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406880930.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1649408400,
+            "openedAt": 1649494800,
+            "closedAt": 1651031999
+          },
+          {
+            "id": 94068810,
+            "name": "第9節「水門に棲まうこと能わず」",
+            "type": "main",
+            "consume": 5,
+            "afterClear": "close",
+            "recommendLv": "80",
+            "spotId": 913102,
+            "spotName": "水上村",
+            "warId": 9131,
+            "warLongName": "所在不明水域タートルアイランド",
+            "gifts": [
+              {
+                "objectId": 2,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94068809
+              },
+              {
+                "type": "questClear",
+                "targetId": 94069011
+              },
+              {
+                "type": "date",
+                "targetId": 0,
+                "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+              },
+              {
+                "type": "notQuestGroupClear",
+                "targetId": 94069012,
+                "value": 1
+              },
+              {
+                "type": "questGroupClear",
+                "targetId": 94069005,
+                "value": 1
+              }
+            ],
+            "phases": [
+              1,
+              2,
+              3
+            ],
+            "phasesNoBattle": [
+              2,
+              3
+            ],
+            "phaseScripts": [
+              {
+                "phase": 2,
+                "scripts": [
+                  {
+                    "scriptId": "9406881020",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406881020.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 3,
+                "scripts": [
+                  {
+                    "scriptId": "9406881030",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406881030.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1649408400,
+            "openedAt": 1649494800,
+            "closedAt": 1651031999
+          },
+          {
             "id": 94069001,
             "name": "製作1 「水上村の増築」",
             "type": "main",
@@ -51863,6 +52012,207 @@
             "noticeAt": 1649322000,
             "openedAt": 1649408400,
             "closedAt": 1651031999
+          },
+          {
+            "id": 94069011,
+            "name": "製作5 A案「万里の長城を造ろう」",
+            "type": "main",
+            "flags": [
+              "noBattle"
+            ],
+            "consumeType": "item",
+            "consume": 0,
+            "consumeItem": [
+              {
+                "itemId": 94068804,
+                "amount": 50
+              },
+              {
+                "itemId": 94068805,
+                "amount": 30
+              }
+            ],
+            "afterClear": "close",
+            "recommendLv": "1",
+            "spotId": 913102,
+            "spotName": "水上村",
+            "warId": 9131,
+            "warLongName": "所在不明水域タートルアイランド",
+            "gifts": [
+              {
+                "objectId": 101,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94068809
+              },
+              {
+                "type": "date",
+                "targetId": 0
+              },
+              {
+                "type": "notQuestGroupClear",
+                "targetId": 94069005,
+                "value": 1
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "phasesNoBattle": [
+              1
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9406901110",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406901110.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1649408400,
+            "openedAt": 1649494800,
+            "closedAt": 1651031999
+          },
+          {
+            "id": 94069012,
+            "name": "製作5 B案「列車を造ろう」",
+            "type": "main",
+            "flags": [
+              "noBattle"
+            ],
+            "consumeType": "item",
+            "consume": 0,
+            "consumeItem": [
+              {
+                "itemId": 94068805,
+                "amount": 50
+              },
+              {
+                "itemId": 94068806,
+                "amount": 30
+              }
+            ],
+            "afterClear": "close",
+            "recommendLv": "1",
+            "spotId": 913102,
+            "spotName": "水上村",
+            "warId": 9131,
+            "warLongName": "所在不明水域タートルアイランド",
+            "gifts": [
+              {
+                "objectId": 101,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94068809
+              },
+              {
+                "type": "date",
+                "targetId": 0
+              },
+              {
+                "type": "notQuestGroupClear",
+                "targetId": 94069005,
+                "value": 1
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "phasesNoBattle": [
+              1
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9406901210",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406901210.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1649408400,
+            "openedAt": 1649494800,
+            "closedAt": 1651031999
+          },
+          {
+            "id": 94069013,
+            "name": "製作5 C案「木馬を造ろう」",
+            "type": "main",
+            "flags": [
+              "noBattle"
+            ],
+            "consumeType": "item",
+            "consume": 0,
+            "consumeItem": [
+              {
+                "itemId": 94068804,
+                "amount": 30
+              },
+              {
+                "itemId": 94068806,
+                "amount": 50
+              }
+            ],
+            "afterClear": "close",
+            "recommendLv": "1",
+            "spotId": 913102,
+            "spotName": "水上村",
+            "warId": 9131,
+            "warLongName": "所在不明水域タートルアイランド",
+            "gifts": [
+              {
+                "objectId": 101,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94068809
+              },
+              {
+                "type": "date",
+                "targetId": 0
+              },
+              {
+                "type": "notQuestGroupClear",
+                "targetId": 94069005,
+                "value": 1
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "phasesNoBattle": [
+              1
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9406901310",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406901310.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1649408400,
+            "openedAt": 1649494800,
+            "closedAt": 1651031999
           }
         ]
       },
@@ -52259,6 +52609,9 @@
               1,
               2
             ],
+            "phasesWithEnemies": [
+              1
+            ],
             "phasesNoBattle": [
               2
             ],
@@ -52322,6 +52675,9 @@
             "phases": [
               1,
               2
+            ],
+            "phasesWithEnemies": [
+              1
             ],
             "phasesNoBattle": [
               2
@@ -52387,6 +52743,9 @@
               1,
               2
             ],
+            "phasesWithEnemies": [
+              1
+            ],
             "phasesNoBattle": [
               2
             ],
@@ -52449,6 +52808,9 @@
             "phases": [
               1
             ],
+            "phasesWithEnemies": [
+              1
+            ],
             "noticeAt": 1649235600,
             "openedAt": 1649322000,
             "closedAt": 1651031999
@@ -52464,7 +52826,48 @@
         "y": 948,
         "nameOfsY": -5,
         "questOfsX": 40,
-        "questOfsY": -72
+        "questOfsY": -72,
+        "quests": [
+          {
+            "id": 94068906,
+            "name": "カルデアレスキュー！ 敵陣からの救出",
+            "type": "event",
+            "flags": [
+              "displayLoopmark"
+            ],
+            "consume": 40,
+            "afterClear": "repeatLast",
+            "recommendLv": "80",
+            "spotId": 913105,
+            "spotName": "サハラ樹林",
+            "warId": 9131,
+            "warLongName": "所在不明水域タートルアイランド",
+            "gifts": [
+              {
+                "objectId": 100,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "date",
+                "targetId": 0,
+                "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+              },
+              {
+                "type": "questGroupClear",
+                "targetId": 94069012,
+                "value": 1
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "noticeAt": 1649408400,
+            "openedAt": 1649494800,
+            "closedAt": 1651031999
+          }
+        ]
       },
       {
         "id": 913106,
