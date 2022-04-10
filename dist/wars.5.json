@@ -51320,6 +51320,9 @@
               2,
               3
             ],
+            "phasesWithEnemies": [
+              1
+            ],
             "phasesNoBattle": [
               2,
               3
@@ -51402,6 +51405,59 @@
             "closedAt": 1651031999
           },
           {
+            "id": 94068813,
+            "name": "第12節「水の上でも住まば都」",
+            "type": "main",
+            "flags": [
+              "noBattle"
+            ],
+            "consume": 0,
+            "afterClear": "close",
+            "recommendLv": "1",
+            "spotId": 913102,
+            "spotName": "水上村",
+            "warId": 9131,
+            "warLongName": "所在不明水域タートルアイランド",
+            "gifts": [
+              {
+                "objectId": 2,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "date",
+                "targetId": 0,
+                "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+              },
+              {
+                "type": "questGroupClear",
+                "targetId": 94069013,
+                "value": 1
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "phasesNoBattle": [
+              1
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9406881310",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406881310.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1649581200,
+            "openedAt": 1649667600,
+            "closedAt": 1651031999
+          },
+          {
             "id": 94068894,
             "name": "第9節「水門に棲まうこと能わず」",
             "type": "main",
@@ -51438,6 +51494,9 @@
               1,
               2,
               3
+            ],
+            "phasesWithEnemies": [
+              1
             ],
             "phasesNoBattle": [
               2,
@@ -51504,6 +51563,9 @@
               1,
               2,
               3
+            ],
+            "phasesWithEnemies": [
+              1
             ],
             "phasesNoBattle": [
               2,
@@ -52603,6 +52665,207 @@
             "noticeAt": 1649494800,
             "openedAt": 1649581200,
             "closedAt": 1651031999
+          },
+          {
+            "id": 94069017,
+            "name": "製作7 A案「豪華客船で暮らそう」",
+            "type": "main",
+            "flags": [
+              "noBattle"
+            ],
+            "consumeType": "item",
+            "consume": 0,
+            "consumeItem": [
+              {
+                "itemId": 94068804,
+                "amount": 100
+              },
+              {
+                "itemId": 94068805,
+                "amount": 80
+              }
+            ],
+            "afterClear": "close",
+            "recommendLv": "1",
+            "spotId": 913102,
+            "spotName": "水上村",
+            "warId": 9131,
+            "warLongName": "所在不明水域タートルアイランド",
+            "gifts": [
+              {
+                "objectId": 101,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94068813
+              },
+              {
+                "type": "date",
+                "targetId": 0
+              },
+              {
+                "type": "notQuestGroupClear",
+                "targetId": 94069007,
+                "value": 1
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "phasesNoBattle": [
+              1
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9406901710",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406901710.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1649581200,
+            "openedAt": 1649667600,
+            "closedAt": 1651031999
+          },
+          {
+            "id": 94069018,
+            "name": "製作7 B案「屋形船で暮らそう」",
+            "type": "main",
+            "flags": [
+              "noBattle"
+            ],
+            "consumeType": "item",
+            "consume": 0,
+            "consumeItem": [
+              {
+                "itemId": 94068805,
+                "amount": 100
+              },
+              {
+                "itemId": 94068806,
+                "amount": 80
+              }
+            ],
+            "afterClear": "close",
+            "recommendLv": "1",
+            "spotId": 913102,
+            "spotName": "水上村",
+            "warId": 9131,
+            "warLongName": "所在不明水域タートルアイランド",
+            "gifts": [
+              {
+                "objectId": 101,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94068813
+              },
+              {
+                "type": "date",
+                "targetId": 0
+              },
+              {
+                "type": "notQuestGroupClear",
+                "targetId": 94069007,
+                "value": 1
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "phasesNoBattle": [
+              1
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9406901810",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406901810.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1649581200,
+            "openedAt": 1649667600,
+            "closedAt": 1651031999
+          },
+          {
+            "id": 94069019,
+            "name": "製作7 C案「コロニー船で暮らそう」",
+            "type": "main",
+            "flags": [
+              "noBattle"
+            ],
+            "consumeType": "item",
+            "consume": 0,
+            "consumeItem": [
+              {
+                "itemId": 94068804,
+                "amount": 80
+              },
+              {
+                "itemId": 94068806,
+                "amount": 100
+              }
+            ],
+            "afterClear": "close",
+            "recommendLv": "1",
+            "spotId": 913102,
+            "spotName": "水上村",
+            "warId": 9131,
+            "warLongName": "所在不明水域タートルアイランド",
+            "gifts": [
+              {
+                "objectId": 101,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94068813
+              },
+              {
+                "type": "date",
+                "targetId": 0
+              },
+              {
+                "type": "notQuestGroupClear",
+                "targetId": 94069007,
+                "value": 1
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "phasesNoBattle": [
+              1
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9406901910",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406901910.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1649581200,
+            "openedAt": 1649667600,
+            "closedAt": 1651031999
           }
         ]
       },
@@ -53253,6 +53516,9 @@
             "phases": [
               1
             ],
+            "phasesWithEnemies": [
+              1
+            ],
             "noticeAt": 1649408400,
             "openedAt": 1649494800,
             "closedAt": 1651031999
@@ -53341,6 +53607,116 @@
               }
             ],
             "noticeAt": 1649494800,
+            "openedAt": 1649581200,
+            "closedAt": 1651031999
+          },
+          {
+            "id": 94068892,
+            "name": "第11節「第三エリア奪還戦」",
+            "type": "main",
+            "consume": 5,
+            "afterClear": "close",
+            "recommendLv": "80",
+            "spotId": 913110,
+            "spotName": "ウハラ川",
+            "warId": 9131,
+            "warLongName": "所在不明水域タートルアイランド",
+            "gifts": [
+              {
+                "objectId": 2,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94069016
+              },
+              {
+                "type": "date",
+                "targetId": 0,
+                "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+              },
+              {
+                "type": "notQuestGroupClear",
+                "targetId": 94069013,
+                "value": 1
+              }
+            ],
+            "phases": [
+              1,
+              2
+            ],
+            "phasesNoBattle": [
+              2
+            ],
+            "phaseScripts": [
+              {
+                "phase": 2,
+                "scripts": [
+                  {
+                    "scriptId": "9406881220",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406881220.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1649581200,
+            "openedAt": 1649581200,
+            "closedAt": 1651031999
+          },
+          {
+            "id": 94068893,
+            "name": "第11節「第三エリア奪還戦」",
+            "type": "main",
+            "consume": 5,
+            "afterClear": "close",
+            "recommendLv": "80",
+            "spotId": 913110,
+            "spotName": "ウハラ川",
+            "warId": 9131,
+            "warLongName": "所在不明水域タートルアイランド",
+            "gifts": [
+              {
+                "objectId": 2,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94069015
+              },
+              {
+                "type": "date",
+                "targetId": 0,
+                "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+              },
+              {
+                "type": "notQuestGroupClear",
+                "targetId": 94069013,
+                "value": 1
+              }
+            ],
+            "phases": [
+              1,
+              2
+            ],
+            "phasesNoBattle": [
+              2
+            ],
+            "phaseScripts": [
+              {
+                "phase": 2,
+                "scripts": [
+                  {
+                    "scriptId": "9406881220",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406881220.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1649581200,
             "openedAt": 1649581200,
             "closedAt": 1651031999
           },
@@ -53435,6 +53811,44 @@
             ],
             "noticeAt": 1649322000,
             "openedAt": 1649408400,
+            "closedAt": 1651031999
+          },
+          {
+            "id": 94068908,
+            "name": "カルデアレスキュー！ 洞窟遭難からの救出",
+            "type": "event",
+            "flags": [
+              "displayLoopmark"
+            ],
+            "consume": 40,
+            "afterClear": "repeatLast",
+            "recommendLv": "90",
+            "spotId": 913111,
+            "spotName": "亀鉱山",
+            "warId": 9131,
+            "warLongName": "所在不明水域タートルアイランド",
+            "gifts": [
+              {
+                "objectId": 100,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94068813
+              },
+              {
+                "type": "date",
+                "targetId": 0,
+                "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "noticeAt": 1649581200,
+            "openedAt": 1649667600,
             "closedAt": 1651031999
           }
         ]
