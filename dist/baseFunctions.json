@@ -17238,6 +17238,39 @@
     ]
   },
   {
+    "funcId": 1695,
+    "funcType": "addState",
+    "funcTargetType": "ptOther",
+    "funcTargetTeam": "playerAndEnemy",
+    "funcPopupText": "防御力アップ",
+    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_301.png",
+    "buffs": [
+      {
+        "id": 146,
+        "name": "防御力アップ",
+        "detail": "防御力をアップ",
+        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_301.png",
+        "type": "upDefence",
+        "script": {},
+        "vals": [
+          {
+            "id": 3004
+          },
+          {
+            "id": 3007
+          },
+          {
+            "id": 3040
+          },
+          {
+            "id": 3058
+          }
+        ],
+        "maxRate": 5000
+      }
+    ]
+  },
+  {
     "funcId": 1851,
     "funcType": "addStateShort",
     "funcTargetType": "self",
@@ -19661,6 +19694,24 @@
     ]
   },
   {
+    "funcId": 2451,
+    "funcType": "subState",
+    "funcTargetType": "self",
+    "funcTargetTeam": "playerAndEnemy",
+    "funcPopupText": "毒・呪い・やけど解除",
+    "traitVals": [
+      {
+        "id": 3011
+      },
+      {
+        "id": 3026
+      },
+      {
+        "id": 3015
+      }
+    ]
+  },
+  {
     "funcId": 2452,
     "funcType": "addState",
     "funcTargetType": "enemyAll",
@@ -20404,6 +20455,24 @@
           }
         ],
         "maxRate": 10000
+      }
+    ]
+  },
+  {
+    "funcId": 2926,
+    "funcType": "gainHp",
+    "funcTargetType": "enemy",
+    "funcTargetTeam": "playerAndEnemy"
+  },
+  {
+    "funcId": 2994,
+    "funcType": "subState",
+    "funcTargetType": "self",
+    "funcTargetTeam": "playerAndEnemy",
+    "funcPopupText": "弱体解除",
+    "traitVals": [
+      {
+        "id": 3005
       }
     ]
   },
@@ -21427,6 +21496,43 @@
     ]
   },
   {
+    "funcId": 3252,
+    "funcType": "addState",
+    "funcTargetType": "self",
+    "funcTargetTeam": "playerAndEnemy",
+    "funcPopupText": "行動不能無効",
+    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_322.png",
+    "buffs": [
+      {
+        "id": 1461,
+        "name": "行動不能無効",
+        "detail": "行動不能を受けなくなる",
+        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_322.png",
+        "type": "avoidState",
+        "script": {},
+        "vals": [
+          {
+            "id": 3004
+          },
+          {
+            "id": 3061
+          }
+        ],
+        "tvals": [
+          {
+            "id": 3045
+          }
+        ],
+        "ckOpIndv": [
+          {
+            "id": 3045
+          }
+        ],
+        "maxRate": 0
+      }
+    ]
+  },
+  {
     "funcId": 3255,
     "funcType": "addStateShort",
     "funcTargetType": "self",
@@ -22001,6 +22107,23 @@
           }
         ],
         "maxRate": 5000
+      }
+    ]
+  },
+  {
+    "funcId": 3310,
+    "funcType": "subState",
+    "funcTargetType": "enemy",
+    "funcTargetTeam": "playerAndEnemy",
+    "funcPopupText": "クリティカル威力アップ解除",
+    "functvals": [
+      {
+        "id": 3031
+      }
+    ],
+    "traitVals": [
+      {
+        "id": 3031
       }
     ]
   },
@@ -22800,6 +22923,18 @@
     "funcTargetType": "ptAll",
     "funcTargetTeam": "playerAndEnemy",
     "funcPopupText": "HP減少"
+  },
+  {
+    "funcId": 3442,
+    "funcType": "subState",
+    "funcTargetType": "enemy",
+    "funcTargetTeam": "playerAndEnemy",
+    "funcPopupText": "弱体無効状態解除",
+    "traitVals": [
+      {
+        "id": 3061
+      }
+    ]
   },
   {
     "funcId": 3443,
@@ -24837,6 +24972,43 @@
     ]
   },
   {
+    "funcId": 3890,
+    "funcType": "addStateShort",
+    "funcTargetType": "enemy",
+    "funcTargetTeam": "playerAndEnemy",
+    "funcPopupText": "防御力ダウン〔Arts〕",
+    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_504.png",
+    "buffs": [
+      {
+        "id": 1732,
+        "name": "防御力ダウン〔Arts〕",
+        "detail": "Arts攻撃に対する防御力をダウン",
+        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_504.png",
+        "type": "downDefence",
+        "script": {},
+        "vals": [
+          {
+            "id": 3005
+          },
+          {
+            "id": 3009
+          }
+        ],
+        "tvals": [
+          {
+            "id": 4001
+          }
+        ],
+        "ckOpIndv": [
+          {
+            "id": 4001
+          }
+        ],
+        "maxRate": 5000
+      }
+    ]
+  },
+  {
     "funcId": 3893,
     "funcType": "addStateShort",
     "funcTargetType": "self",
@@ -24962,6 +25134,23 @@
           }
         ],
         "maxRate": 5000
+      }
+    ]
+  },
+  {
+    "funcId": 3896,
+    "funcType": "subState",
+    "funcTargetType": "enemy",
+    "funcTargetTeam": "playerAndEnemy",
+    "funcPopupText": "宝具威力アップ解除",
+    "functvals": [
+      {
+        "id": 3030
+      }
+    ],
+    "traitVals": [
+      {
+        "id": 3030
       }
     ]
   },
@@ -27419,6 +27608,23 @@
           }
         ],
         "maxRate": 5000
+      }
+    ]
+  },
+  {
+    "funcId": 4885,
+    "funcType": "subState",
+    "funcTargetType": "enemy",
+    "funcTargetTeam": "playerAndEnemy",
+    "funcPopupText": "クリティカル発生アップ解除",
+    "functvals": [
+      {
+        "id": 3032
+      }
+    ],
+    "traitVals": [
+      {
+        "id": 3032
       }
     ]
   },
@@ -31755,6 +31961,18 @@
     ]
   },
   {
+    "funcId": 5806,
+    "funcType": "subState",
+    "funcTargetType": "self",
+    "funcTargetTeam": "playerAndEnemy",
+    "funcPopupText": "防御弱体解除",
+    "traitVals": [
+      {
+        "id": 3009
+      }
+    ]
+  },
+  {
     "funcId": 5807,
     "funcType": "eventDropUp",
     "funcTargetType": "self",
@@ -32336,6 +32554,13 @@
         "maxRate": 5000
       }
     ]
+  },
+  {
+    "funcId": 5876,
+    "funcType": "gainNp",
+    "funcTargetType": "ptOther",
+    "funcTargetTeam": "player",
+    "funcPopupText": "NP増加"
   },
   {
     "funcId": 5877,
@@ -35051,6 +35276,18 @@
     ]
   },
   {
+    "funcId": 6561,
+    "funcType": "subState",
+    "funcTargetType": "self",
+    "funcTargetTeam": "playerAndEnemy",
+    "funcPopupText": "攻撃弱体解除",
+    "traitVals": [
+      {
+        "id": 3008
+      }
+    ]
+  },
+  {
     "funcId": 6588,
     "funcType": "servantFriendshipUp",
     "funcTargetType": "self",
@@ -35515,6 +35752,101 @@
         "type": "addIndividuality",
         "script": {},
         "maxRate": 0
+      }
+    ]
+  },
+  {
+    "funcId": 6662,
+    "funcType": "addState",
+    "funcTargetType": "enemyOneNoTargetNoAction",
+    "funcTargetTeam": "playerAndEnemy",
+    "funcPopupText": "宝具封印",
+    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_512.png",
+    "buffs": [
+      {
+        "id": 183,
+        "name": "宝具封印",
+        "detail": "宝具を使用できなくなる",
+        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_512.png",
+        "type": "donotNoble",
+        "buffGroup": 900,
+        "script": {},
+        "vals": [
+          {
+            "id": 3005
+          },
+          {
+            "id": 3020
+          }
+        ],
+        "maxRate": 0
+      }
+    ]
+  },
+  {
+    "funcId": 6663,
+    "funcType": "addState",
+    "funcTargetType": "enemyOneNoTargetNoAction",
+    "funcTargetTeam": "playerAndEnemy",
+    "funcPopupText": "呪い",
+    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_521.png",
+    "buffs": [
+      {
+        "id": 125,
+        "name": "呪い",
+        "detail": "ターン終了時にHPが減る",
+        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_521.png",
+        "type": "reduceHp",
+        "script": {},
+        "vals": [
+          {
+            "id": 3005
+          },
+          {
+            "id": 3026
+          },
+          {
+            "id": 2729
+          }
+        ],
+        "maxRate": 0
+      }
+    ]
+  },
+  {
+    "funcId": 6676,
+    "funcType": "addStateShort",
+    "funcTargetType": "enemy",
+    "funcTargetTeam": "playerAndEnemy",
+    "funcPopupText": "防御力ダウン〔Buster〕",
+    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_504.png",
+    "buffs": [
+      {
+        "id": 3383,
+        "name": "防御力ダウン〔Buster〕",
+        "detail": "Buster攻撃に対する防御力をダウン",
+        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_504.png",
+        "type": "downDefence",
+        "script": {},
+        "vals": [
+          {
+            "id": 3005
+          },
+          {
+            "id": 3009
+          }
+        ],
+        "tvals": [
+          {
+            "id": 4002
+          }
+        ],
+        "ckOpIndv": [
+          {
+            "id": 4002
+          }
+        ],
+        "maxRate": 5000
       }
     ]
   },
