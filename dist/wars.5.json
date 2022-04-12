@@ -51515,6 +51515,53 @@
             "closedAt": 1651031999
           },
           {
+            "id": 94068816,
+            "name": "",
+            "type": "main",
+            "flags": [
+              "noBattle"
+            ],
+            "consume": 0,
+            "afterClear": "close",
+            "recommendLv": "1",
+            "spotId": 913102,
+            "spotName": "水上村",
+            "warId": 9131,
+            "warLongName": "所在不明水域タートルアイランド",
+            "gifts": [
+              {
+                "objectId": 2,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "date",
+                "targetId": 0,
+                "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+              },
+              {
+                "type": "questGroupClear",
+                "targetId": 94069014,
+                "value": 1
+              },
+              {
+                "type": "forceFalse",
+                "targetId": 0,
+                "closedMessage": "データ更新後に開放"
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "phasesNoBattle": [
+              1
+            ],
+            "noticeAt": 1649754000,
+            "openedAt": 1649840400,
+            "closedAt": 1651031999
+          },
+          {
             "id": 94068894,
             "name": "第9節「水門に棲まうこと能わず」",
             "type": "main",
@@ -53838,6 +53885,9 @@
             "phases": [
               1
             ],
+            "phasesWithEnemies": [
+              1
+            ],
             "phaseScripts": [
               {
                 "phase": 1,
@@ -53854,6 +53904,116 @@
               }
             ],
             "noticeAt": 1649667600,
+            "openedAt": 1649754000,
+            "closedAt": 1651031999
+          },
+          {
+            "id": 94068890,
+            "name": "第14節「第四エリア奪還戦」",
+            "type": "main",
+            "consume": 5,
+            "afterClear": "close",
+            "recommendLv": "85",
+            "spotId": 913106,
+            "spotName": "足先岬",
+            "warId": 9131,
+            "warLongName": "所在不明水域タートルアイランド",
+            "gifts": [
+              {
+                "objectId": 2,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94069022
+              },
+              {
+                "type": "date",
+                "targetId": 0,
+                "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+              },
+              {
+                "type": "notQuestGroupClear",
+                "targetId": 94069014,
+                "value": 1
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9406881510",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406881510.txt"
+                  },
+                  {
+                    "scriptId": "9406881511",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406881511.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1649754000,
+            "openedAt": 1649754000,
+            "closedAt": 1651031999
+          },
+          {
+            "id": 94068891,
+            "name": "第14節「第四エリア奪還戦」",
+            "type": "main",
+            "consume": 5,
+            "afterClear": "close",
+            "recommendLv": "85",
+            "spotId": 913106,
+            "spotName": "足先岬",
+            "warId": 9131,
+            "warLongName": "所在不明水域タートルアイランド",
+            "gifts": [
+              {
+                "objectId": 2,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94069021
+              },
+              {
+                "type": "date",
+                "targetId": 0,
+                "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+              },
+              {
+                "type": "notQuestGroupClear",
+                "targetId": 94069014,
+                "value": 1
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9406881510",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406881510.txt"
+                  },
+                  {
+                    "scriptId": "9406881511",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406881511.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1649754000,
             "openedAt": 1649754000,
             "closedAt": 1651031999
           },
