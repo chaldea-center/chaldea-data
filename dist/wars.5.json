@@ -50921,6 +50921,63 @@
             "closedAt": 1651031999
           },
           {
+            "id": 94068820,
+            "name": "エピローグ",
+            "type": "main",
+            "flags": [
+              "noBattle"
+            ],
+            "consume": 0,
+            "afterClear": "close",
+            "recommendLv": "1",
+            "spotId": 913101,
+            "spotName": "ヒダリワキビーチ",
+            "warId": 9131,
+            "warLongName": "所在不明水域タートルアイランド",
+            "gifts": [
+              {
+                "objectId": 7999,
+                "num": 1
+              },
+              {
+                "type": "eventSvtGet",
+                "objectId": 1001200,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94068819
+              },
+              {
+                "type": "date",
+                "targetId": 0,
+                "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "phasesNoBattle": [
+              1
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9406882010",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406882010.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1649754000,
+            "openedAt": 1649840400,
+            "closedAt": 1651031999
+          },
+          {
             "id": 94068901,
             "name": "カルデアレスキュー！ 初級",
             "type": "event",
@@ -51000,6 +51057,55 @@
             ],
             "noticeAt": 1649235600,
             "openedAt": 1649235600,
+            "closedAt": 1651031999
+          },
+          {
+            "id": 94069101,
+            "name": "【おまけクエスト】トモダチコンビネーション",
+            "type": "main",
+            "flags": [
+              "actConsumeBattleWin"
+            ],
+            "consumeType": "item",
+            "consume": 0,
+            "consumeItem": [
+              {
+                "itemId": 94068804,
+                "amount": 300
+              },
+              {
+                "itemId": 94068805,
+                "amount": 300
+              }
+            ],
+            "afterClear": "close",
+            "recommendLv": "90",
+            "spotId": 913101,
+            "spotName": "ヒダリワキビーチ",
+            "warId": 9131,
+            "warLongName": "所在不明水域タートルアイランド",
+            "gifts": [
+              {
+                "type": "servant",
+                "objectId": 1001201,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94068820
+              },
+              {
+                "type": "date",
+                "targetId": 0
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "noticeAt": 1649754000,
+            "openedAt": 1649840400,
             "closedAt": 1651031999
           }
         ]
@@ -51516,7 +51622,7 @@
           },
           {
             "id": 94068816,
-            "name": "",
+            "name": "第15節「海上戦準備」",
             "type": "main",
             "flags": [
               "noBattle"
@@ -51536,6 +51642,10 @@
             ],
             "releaseConditions": [
               {
+                "type": "none",
+                "targetId": 0
+              },
+              {
                 "type": "date",
                 "targetId": 0,
                 "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
@@ -51544,17 +51654,205 @@
                 "type": "questGroupClear",
                 "targetId": 94069014,
                 "value": 1
-              },
-              {
-                "type": "forceFalse",
-                "targetId": 0,
-                "closedMessage": "データ更新後に開放"
               }
             ],
             "phases": [
               1
             ],
             "phasesNoBattle": [
+              1
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9406881610",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406881610.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1649754000,
+            "openedAt": 1649840400,
+            "closedAt": 1651031999
+          },
+          {
+            "id": 94068817,
+            "name": "第16節「決戦前夜」",
+            "type": "main",
+            "flags": [
+              "noBattle"
+            ],
+            "consume": 0,
+            "afterClear": "close",
+            "recommendLv": "1",
+            "spotId": 913102,
+            "spotName": "水上村",
+            "warId": 9131,
+            "warLongName": "所在不明水域タートルアイランド",
+            "gifts": [
+              {
+                "objectId": 2,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94068816
+              },
+              {
+                "type": "date",
+                "targetId": 0,
+                "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+              },
+              {
+                "type": "questGroupClear",
+                "targetId": 94069009,
+                "value": 1
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "phasesNoBattle": [
+              1
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9406881710",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406881710.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1649754000,
+            "openedAt": 1649840400,
+            "closedAt": 1651031999
+          },
+          {
+            "id": 94068819,
+            "name": "第18節「顕れる神」",
+            "type": "main",
+            "consume": 5,
+            "afterClear": "close",
+            "recommendLv": "90",
+            "spotId": 913102,
+            "spotName": "水上村",
+            "warId": 9131,
+            "warLongName": "所在不明水域タートルアイランド",
+            "gifts": [
+              {
+                "objectId": 2,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "date",
+                "targetId": 0,
+                "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+              },
+              {
+                "type": "questGroupClear",
+                "targetId": 94069015,
+                "value": 1
+              }
+            ],
+            "phases": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "phasesNoBattle": [
+              5
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9406881910",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406881910.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 3,
+                "scripts": [
+                  {
+                    "scriptId": "9406881930",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406881930.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 4,
+                "scripts": [
+                  {
+                    "scriptId": "9406881940",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406881940.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 5,
+                "scripts": [
+                  {
+                    "scriptId": "9406881950",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406881950.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1649754000,
+            "openedAt": 1649840400,
+            "closedAt": 1651031999
+          },
+          {
+            "id": 94068850,
+            "name": "【高難易度】なかよしサーヴァント交流会",
+            "type": "event",
+            "flags": [
+              "dropFirstTimeOnly",
+              "notRetrievable",
+              "notDisplayResultGetPoint"
+            ],
+            "consume": 5,
+            "afterClear": "repeatLast",
+            "recommendLv": "90+",
+            "spotId": 913102,
+            "spotName": "水上村",
+            "warId": 9131,
+            "warLongName": "所在不明水域タートルアイランド",
+            "gifts": [
+              {
+                "objectId": 6999,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 1000822
+              },
+              {
+                "type": "questClear",
+                "targetId": 94068820
+              },
+              {
+                "type": "date",
+                "targetId": 0,
+                "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+              }
+            ],
+            "phases": [
               1
             ],
             "noticeAt": 1649754000,
@@ -51704,7 +52002,8 @@
             "name": "製作1 「水上村の増築」",
             "type": "main",
             "flags": [
-              "noBattle"
+              "noBattle",
+              "hideProgress"
             ],
             "consumeType": "item",
             "consume": 0,
@@ -51770,7 +52069,8 @@
             "name": "製作2 A案「刀を持たせよう」",
             "type": "main",
             "flags": [
-              "noBattle"
+              "noBattle",
+              "hideProgress"
             ],
             "consumeType": "item",
             "consume": 0,
@@ -51837,7 +52137,8 @@
             "name": "製作2 B案「槍を持たせよう」",
             "type": "main",
             "flags": [
-              "noBattle"
+              "noBattle",
+              "hideProgress"
             ],
             "consumeType": "item",
             "consume": 0,
@@ -51904,7 +52205,8 @@
             "name": "製作2 C案「杭打ち機を持たせよう」",
             "type": "main",
             "flags": [
-              "noBattle"
+              "noBattle",
+              "hideProgress"
             ],
             "consumeType": "item",
             "consume": 0,
@@ -51971,7 +52273,8 @@
             "name": "製作3 A案「源氏の鎧を着せよう」",
             "type": "main",
             "flags": [
-              "noBattle"
+              "noBattle",
+              "hideProgress"
             ],
             "consumeType": "item",
             "consume": 0,
@@ -52038,7 +52341,8 @@
             "name": "製作3 B案「ローマの鎧を着せよう」",
             "type": "main",
             "flags": [
-              "noBattle"
+              "noBattle",
+              "hideProgress"
             ],
             "consumeType": "item",
             "consume": 0,
@@ -52105,7 +52409,8 @@
             "name": "製作3 C案「メカ装甲を着せよう」",
             "type": "main",
             "flags": [
-              "noBattle"
+              "noBattle",
+              "hideProgress"
             ],
             "consumeType": "item",
             "consume": 0,
@@ -52172,7 +52477,8 @@
             "name": "製作4 A案「ピサの斜塔を建てよう」",
             "type": "main",
             "flags": [
-              "noBattle"
+              "noBattle",
+              "hideProgress"
             ],
             "consumeType": "item",
             "consume": 0,
@@ -52239,7 +52545,8 @@
             "name": "製作4 B案「五重塔を建てよう」",
             "type": "main",
             "flags": [
-              "noBattle"
+              "noBattle",
+              "hideProgress"
             ],
             "consumeType": "item",
             "consume": 0,
@@ -52306,7 +52613,8 @@
             "name": "製作4 C案「ピラミッドを建てよう」",
             "type": "main",
             "flags": [
-              "noBattle"
+              "noBattle",
+              "hideProgress"
             ],
             "consumeType": "item",
             "consume": 0,
@@ -52373,7 +52681,8 @@
             "name": "製作5 A案「万里の長城を造ろう」",
             "type": "main",
             "flags": [
-              "noBattle"
+              "noBattle",
+              "hideProgress"
             ],
             "consumeType": "item",
             "consume": 0,
@@ -52440,7 +52749,8 @@
             "name": "製作5 B案「列車を造ろう」",
             "type": "main",
             "flags": [
-              "noBattle"
+              "noBattle",
+              "hideProgress"
             ],
             "consumeType": "item",
             "consume": 0,
@@ -52507,7 +52817,8 @@
             "name": "製作5 C案「木馬を造ろう」",
             "type": "main",
             "flags": [
-              "noBattle"
+              "noBattle",
+              "hideProgress"
             ],
             "consumeType": "item",
             "consume": 0,
@@ -52574,7 +52885,8 @@
             "name": "製作6 A案「スーパーカーに乗せよう」",
             "type": "main",
             "flags": [
-              "noBattle"
+              "noBattle",
+              "hideProgress"
             ],
             "consumeType": "item",
             "consume": 0,
@@ -52641,7 +52953,8 @@
             "name": "製作6 B案「からくり牛に乗せよう」",
             "type": "main",
             "flags": [
-              "noBattle"
+              "noBattle",
+              "hideProgress"
             ],
             "consumeType": "item",
             "consume": 0,
@@ -52708,7 +53021,8 @@
             "name": "製作6 C案「ヴィマーナ？に乗せよう」",
             "type": "main",
             "flags": [
-              "noBattle"
+              "noBattle",
+              "hideProgress"
             ],
             "consumeType": "item",
             "consume": 0,
@@ -52775,7 +53089,8 @@
             "name": "製作7 A案「豪華客船で暮らそう」",
             "type": "main",
             "flags": [
-              "noBattle"
+              "noBattle",
+              "hideProgress"
             ],
             "consumeType": "item",
             "consume": 0,
@@ -52842,7 +53157,8 @@
             "name": "製作7 B案「屋形船で暮らそう」",
             "type": "main",
             "flags": [
-              "noBattle"
+              "noBattle",
+              "hideProgress"
             ],
             "consumeType": "item",
             "consume": 0,
@@ -52909,7 +53225,8 @@
             "name": "製作7 C案「コロニー船で暮らそう」",
             "type": "main",
             "flags": [
-              "noBattle"
+              "noBattle",
+              "hideProgress"
             ],
             "consumeType": "item",
             "consume": 0,
@@ -52976,7 +53293,8 @@
             "name": "製作8 A案「劇場を建てよう」",
             "type": "main",
             "flags": [
-              "noBattle"
+              "noBattle",
+              "hideProgress"
             ],
             "consumeType": "item",
             "consume": 0,
@@ -53043,7 +53361,8 @@
             "name": "製作8 B案「ゲームセンターを建てよう」",
             "type": "main",
             "flags": [
-              "noBattle"
+              "noBattle",
+              "hideProgress"
             ],
             "consumeType": "item",
             "consume": 0,
@@ -53110,7 +53429,8 @@
             "name": "製作8 C案「図書館を建てよう」",
             "type": "main",
             "flags": [
-              "noBattle"
+              "noBattle",
+              "hideProgress"
             ],
             "consumeType": "item",
             "consume": 0,
@@ -53170,6 +53490,1185 @@
             ],
             "noticeAt": 1649667600,
             "openedAt": 1649754000,
+            "closedAt": 1651031999
+          },
+          {
+            "id": 94069023,
+            "name": "製作9 A案「海賊船に乗り込もう」",
+            "type": "main",
+            "flags": [
+              "noBattle",
+              "hideProgress"
+            ],
+            "consumeType": "item",
+            "consume": 0,
+            "consumeItem": [
+              {
+                "itemId": 94068804,
+                "amount": 200
+              },
+              {
+                "itemId": 94068805,
+                "amount": 150
+              }
+            ],
+            "afterClear": "close",
+            "recommendLv": "1",
+            "spotId": 913102,
+            "spotName": "水上村",
+            "warId": 9131,
+            "warLongName": "所在不明水域タートルアイランド",
+            "gifts": [
+              {
+                "objectId": 101,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94068816
+              },
+              {
+                "type": "date",
+                "targetId": 0
+              },
+              {
+                "type": "notQuestGroupClear",
+                "targetId": 94069009,
+                "value": 1
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "phasesNoBattle": [
+              1
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9406902310",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406902310.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1649754000,
+            "openedAt": 1649840400,
+            "closedAt": 1651031999
+          },
+          {
+            "id": 94069024,
+            "name": "製作9 B案「ホバークラフトに乗り込もう」",
+            "type": "main",
+            "flags": [
+              "noBattle",
+              "hideProgress"
+            ],
+            "consumeType": "item",
+            "consume": 0,
+            "consumeItem": [
+              {
+                "itemId": 94068805,
+                "amount": 200
+              },
+              {
+                "itemId": 94068806,
+                "amount": 150
+              }
+            ],
+            "afterClear": "close",
+            "recommendLv": "1",
+            "spotId": 913102,
+            "spotName": "水上村",
+            "warId": 9131,
+            "warLongName": "所在不明水域タートルアイランド",
+            "gifts": [
+              {
+                "objectId": 101,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94068816
+              },
+              {
+                "type": "date",
+                "targetId": 0
+              },
+              {
+                "type": "notQuestGroupClear",
+                "targetId": 94069009,
+                "value": 1
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "phasesNoBattle": [
+              1
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9406902410",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406902410.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1649754000,
+            "openedAt": 1649840400,
+            "closedAt": 1651031999
+          },
+          {
+            "id": 94069025,
+            "name": "製作9 C案「うつほ舟に乗り込もう」",
+            "type": "main",
+            "flags": [
+              "noBattle",
+              "hideProgress"
+            ],
+            "consumeType": "item",
+            "consume": 0,
+            "consumeItem": [
+              {
+                "itemId": 94068804,
+                "amount": 150
+              },
+              {
+                "itemId": 94068806,
+                "amount": 200
+              }
+            ],
+            "afterClear": "close",
+            "recommendLv": "1",
+            "spotId": 913102,
+            "spotName": "水上村",
+            "warId": 9131,
+            "warLongName": "所在不明水域タートルアイランド",
+            "gifts": [
+              {
+                "objectId": 101,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94068816
+              },
+              {
+                "type": "date",
+                "targetId": 0
+              },
+              {
+                "type": "notQuestGroupClear",
+                "targetId": 94069009,
+                "value": 1
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "phasesNoBattle": [
+              1
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9406902510",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406902510.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1649754000,
+            "openedAt": 1649840400,
+            "closedAt": 1651031999
+          },
+          {
+            "id": 94069026,
+            "name": "武器を作り直す",
+            "type": "event",
+            "flags": [
+              "noBattle",
+              "hideProgress"
+            ],
+            "consume": 0,
+            "afterClear": "repeatLast",
+            "recommendLv": "1",
+            "spotId": 913102,
+            "spotName": "水上村",
+            "warId": 9131,
+            "warLongName": "所在不明水域タートルアイランド",
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94068820
+              },
+              {
+                "type": "questClear",
+                "targetId": 94069002
+              },
+              {
+                "type": "date",
+                "targetId": 0
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "phasesNoBattle": [
+              1
+            ],
+            "noticeAt": 1649754000,
+            "openedAt": 1649840400,
+            "closedAt": 1651031999
+          },
+          {
+            "id": 94069027,
+            "name": "武器を作り直す",
+            "type": "event",
+            "flags": [
+              "noBattle",
+              "hideProgress"
+            ],
+            "consume": 0,
+            "afterClear": "repeatLast",
+            "recommendLv": "1",
+            "spotId": 913102,
+            "spotName": "水上村",
+            "warId": 9131,
+            "warLongName": "所在不明水域タートルアイランド",
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94068820
+              },
+              {
+                "type": "questClear",
+                "targetId": 94069003
+              },
+              {
+                "type": "date",
+                "targetId": 0
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "phasesNoBattle": [
+              1
+            ],
+            "noticeAt": 1649754000,
+            "openedAt": 1649840400,
+            "closedAt": 1651031999
+          },
+          {
+            "id": 94069028,
+            "name": "武器を作り直す",
+            "type": "event",
+            "flags": [
+              "noBattle",
+              "hideProgress"
+            ],
+            "consume": 0,
+            "afterClear": "repeatLast",
+            "recommendLv": "1",
+            "spotId": 913102,
+            "spotName": "水上村",
+            "warId": 9131,
+            "warLongName": "所在不明水域タートルアイランド",
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94068820
+              },
+              {
+                "type": "questClear",
+                "targetId": 94069004
+              },
+              {
+                "type": "date",
+                "targetId": 0
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "phasesNoBattle": [
+              1
+            ],
+            "noticeAt": 1649754000,
+            "openedAt": 1649840400,
+            "closedAt": 1651031999
+          },
+          {
+            "id": 94069029,
+            "name": "防具を作り直す",
+            "type": "event",
+            "flags": [
+              "noBattle",
+              "hideProgress"
+            ],
+            "consume": 0,
+            "afterClear": "repeatLast",
+            "recommendLv": "1",
+            "spotId": 913102,
+            "spotName": "水上村",
+            "warId": 9131,
+            "warLongName": "所在不明水域タートルアイランド",
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94068820
+              },
+              {
+                "type": "questClear",
+                "targetId": 94069005
+              },
+              {
+                "type": "date",
+                "targetId": 0
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "phasesNoBattle": [
+              1
+            ],
+            "noticeAt": 1649754000,
+            "openedAt": 1649840400,
+            "closedAt": 1651031999
+          },
+          {
+            "id": 94069030,
+            "name": "防具を作り直す",
+            "type": "event",
+            "flags": [
+              "noBattle",
+              "hideProgress"
+            ],
+            "consume": 0,
+            "afterClear": "repeatLast",
+            "recommendLv": "1",
+            "spotId": 913102,
+            "spotName": "水上村",
+            "warId": 9131,
+            "warLongName": "所在不明水域タートルアイランド",
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94068820
+              },
+              {
+                "type": "questClear",
+                "targetId": 94069006
+              },
+              {
+                "type": "date",
+                "targetId": 0
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "phasesNoBattle": [
+              1
+            ],
+            "noticeAt": 1649754000,
+            "openedAt": 1649840400,
+            "closedAt": 1651031999
+          },
+          {
+            "id": 94069031,
+            "name": "防具を作り直す",
+            "type": "event",
+            "flags": [
+              "noBattle",
+              "hideProgress"
+            ],
+            "consume": 0,
+            "afterClear": "repeatLast",
+            "recommendLv": "1",
+            "spotId": 913102,
+            "spotName": "水上村",
+            "warId": 9131,
+            "warLongName": "所在不明水域タートルアイランド",
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94068820
+              },
+              {
+                "type": "questClear",
+                "targetId": 94069007
+              },
+              {
+                "type": "date",
+                "targetId": 0
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "phasesNoBattle": [
+              1
+            ],
+            "noticeAt": 1649754000,
+            "openedAt": 1649840400,
+            "closedAt": 1651031999
+          },
+          {
+            "id": 94069032,
+            "name": "監視塔を建て直す",
+            "type": "event",
+            "flags": [
+              "noBattle",
+              "hideProgress"
+            ],
+            "consume": 0,
+            "afterClear": "repeatLast",
+            "recommendLv": "1",
+            "spotId": 913102,
+            "spotName": "水上村",
+            "warId": 9131,
+            "warLongName": "所在不明水域タートルアイランド",
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94068820
+              },
+              {
+                "type": "questClear",
+                "targetId": 94069008
+              },
+              {
+                "type": "date",
+                "targetId": 0
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "phasesNoBattle": [
+              1
+            ],
+            "noticeAt": 1649754000,
+            "openedAt": 1649840400,
+            "closedAt": 1651031999
+          },
+          {
+            "id": 94069033,
+            "name": "監視塔を建て直す",
+            "type": "event",
+            "flags": [
+              "noBattle",
+              "hideProgress"
+            ],
+            "consume": 0,
+            "afterClear": "repeatLast",
+            "recommendLv": "1",
+            "spotId": 913102,
+            "spotName": "水上村",
+            "warId": 9131,
+            "warLongName": "所在不明水域タートルアイランド",
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94068820
+              },
+              {
+                "type": "questClear",
+                "targetId": 94069009
+              },
+              {
+                "type": "date",
+                "targetId": 0
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "phasesNoBattle": [
+              1
+            ],
+            "noticeAt": 1649754000,
+            "openedAt": 1649840400,
+            "closedAt": 1651031999
+          },
+          {
+            "id": 94069034,
+            "name": "監視塔を建て直す",
+            "type": "event",
+            "flags": [
+              "noBattle",
+              "hideProgress"
+            ],
+            "consume": 0,
+            "afterClear": "repeatLast",
+            "recommendLv": "1",
+            "spotId": 913102,
+            "spotName": "水上村",
+            "warId": 9131,
+            "warLongName": "所在不明水域タートルアイランド",
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94068820
+              },
+              {
+                "type": "questClear",
+                "targetId": 94069010
+              },
+              {
+                "type": "date",
+                "targetId": 0
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "phasesNoBattle": [
+              1
+            ],
+            "noticeAt": 1649754000,
+            "openedAt": 1649840400,
+            "closedAt": 1651031999
+          },
+          {
+            "id": 94069035,
+            "name": "移動防衛施設を建て直す",
+            "type": "event",
+            "flags": [
+              "noBattle",
+              "hideProgress"
+            ],
+            "consume": 0,
+            "afterClear": "repeatLast",
+            "recommendLv": "1",
+            "spotId": 913102,
+            "spotName": "水上村",
+            "warId": 9131,
+            "warLongName": "所在不明水域タートルアイランド",
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94068820
+              },
+              {
+                "type": "questClear",
+                "targetId": 94069011
+              },
+              {
+                "type": "date",
+                "targetId": 0
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "phasesNoBattle": [
+              1
+            ],
+            "noticeAt": 1649754000,
+            "openedAt": 1649840400,
+            "closedAt": 1651031999
+          },
+          {
+            "id": 94069036,
+            "name": "移動防衛施設を建て直す",
+            "type": "event",
+            "flags": [
+              "noBattle",
+              "hideProgress"
+            ],
+            "consume": 0,
+            "afterClear": "repeatLast",
+            "recommendLv": "1",
+            "spotId": 913102,
+            "spotName": "水上村",
+            "warId": 9131,
+            "warLongName": "所在不明水域タートルアイランド",
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94068820
+              },
+              {
+                "type": "questClear",
+                "targetId": 94069012
+              },
+              {
+                "type": "date",
+                "targetId": 0
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "phasesNoBattle": [
+              1
+            ],
+            "noticeAt": 1649754000,
+            "openedAt": 1649840400,
+            "closedAt": 1651031999
+          },
+          {
+            "id": 94069037,
+            "name": "移動防衛施設を建て直す",
+            "type": "event",
+            "flags": [
+              "noBattle",
+              "hideProgress"
+            ],
+            "consume": 0,
+            "afterClear": "repeatLast",
+            "recommendLv": "1",
+            "spotId": 913102,
+            "spotName": "水上村",
+            "warId": 9131,
+            "warLongName": "所在不明水域タートルアイランド",
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94068820
+              },
+              {
+                "type": "questClear",
+                "targetId": 94069013
+              },
+              {
+                "type": "date",
+                "targetId": 0
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "phasesNoBattle": [
+              1
+            ],
+            "noticeAt": 1649754000,
+            "openedAt": 1649840400,
+            "closedAt": 1651031999
+          },
+          {
+            "id": 94069038,
+            "name": "乗り物を造り直す",
+            "type": "event",
+            "flags": [
+              "noBattle",
+              "hideProgress"
+            ],
+            "consume": 0,
+            "afterClear": "repeatLast",
+            "recommendLv": "1",
+            "spotId": 913102,
+            "spotName": "水上村",
+            "warId": 9131,
+            "warLongName": "所在不明水域タートルアイランド",
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94068820
+              },
+              {
+                "type": "questClear",
+                "targetId": 94069014
+              },
+              {
+                "type": "date",
+                "targetId": 0
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "phasesNoBattle": [
+              1
+            ],
+            "noticeAt": 1649754000,
+            "openedAt": 1649840400,
+            "closedAt": 1651031999
+          },
+          {
+            "id": 94069039,
+            "name": "乗り物を造り直す",
+            "type": "event",
+            "flags": [
+              "noBattle",
+              "hideProgress"
+            ],
+            "consume": 0,
+            "afterClear": "repeatLast",
+            "recommendLv": "1",
+            "spotId": 913102,
+            "spotName": "水上村",
+            "warId": 9131,
+            "warLongName": "所在不明水域タートルアイランド",
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94068820
+              },
+              {
+                "type": "questClear",
+                "targetId": 94069015
+              },
+              {
+                "type": "date",
+                "targetId": 0
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "phasesNoBattle": [
+              1
+            ],
+            "noticeAt": 1649754000,
+            "openedAt": 1649840400,
+            "closedAt": 1651031999
+          },
+          {
+            "id": 94069040,
+            "name": "乗り物を造り直す",
+            "type": "event",
+            "flags": [
+              "noBattle",
+              "hideProgress"
+            ],
+            "consume": 0,
+            "afterClear": "repeatLast",
+            "recommendLv": "1",
+            "spotId": 913102,
+            "spotName": "水上村",
+            "warId": 9131,
+            "warLongName": "所在不明水域タートルアイランド",
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94068820
+              },
+              {
+                "type": "questClear",
+                "targetId": 94069016
+              },
+              {
+                "type": "date",
+                "targetId": 0
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "phasesNoBattle": [
+              1
+            ],
+            "noticeAt": 1649754000,
+            "openedAt": 1649840400,
+            "closedAt": 1651031999
+          },
+          {
+            "id": 94069041,
+            "name": "水上居住区を建て直す",
+            "type": "event",
+            "flags": [
+              "noBattle",
+              "hideProgress"
+            ],
+            "consume": 0,
+            "afterClear": "repeatLast",
+            "recommendLv": "1",
+            "spotId": 913102,
+            "spotName": "水上村",
+            "warId": 9131,
+            "warLongName": "所在不明水域タートルアイランド",
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94068820
+              },
+              {
+                "type": "questClear",
+                "targetId": 94069017
+              },
+              {
+                "type": "date",
+                "targetId": 0
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "phasesNoBattle": [
+              1
+            ],
+            "noticeAt": 1649754000,
+            "openedAt": 1649840400,
+            "closedAt": 1651031999
+          },
+          {
+            "id": 94069042,
+            "name": "水上居住区を建て直す",
+            "type": "event",
+            "flags": [
+              "noBattle",
+              "hideProgress"
+            ],
+            "consume": 0,
+            "afterClear": "repeatLast",
+            "recommendLv": "1",
+            "spotId": 913102,
+            "spotName": "水上村",
+            "warId": 9131,
+            "warLongName": "所在不明水域タートルアイランド",
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94068820
+              },
+              {
+                "type": "questClear",
+                "targetId": 94069018
+              },
+              {
+                "type": "date",
+                "targetId": 0
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "phasesNoBattle": [
+              1
+            ],
+            "noticeAt": 1649754000,
+            "openedAt": 1649840400,
+            "closedAt": 1651031999
+          },
+          {
+            "id": 94069043,
+            "name": "水上居住区を建て直す",
+            "type": "event",
+            "flags": [
+              "noBattle",
+              "hideProgress"
+            ],
+            "consume": 0,
+            "afterClear": "repeatLast",
+            "recommendLv": "1",
+            "spotId": 913102,
+            "spotName": "水上村",
+            "warId": 9131,
+            "warLongName": "所在不明水域タートルアイランド",
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94068820
+              },
+              {
+                "type": "questClear",
+                "targetId": 94069019
+              },
+              {
+                "type": "date",
+                "targetId": 0
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "phasesNoBattle": [
+              1
+            ],
+            "noticeAt": 1649754000,
+            "openedAt": 1649840400,
+            "closedAt": 1651031999
+          },
+          {
+            "id": 94069044,
+            "name": "文化的施設を建て直す",
+            "type": "event",
+            "flags": [
+              "noBattle",
+              "hideProgress"
+            ],
+            "consume": 0,
+            "afterClear": "repeatLast",
+            "recommendLv": "1",
+            "spotId": 913102,
+            "spotName": "水上村",
+            "warId": 9131,
+            "warLongName": "所在不明水域タートルアイランド",
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94068820
+              },
+              {
+                "type": "questClear",
+                "targetId": 94069020
+              },
+              {
+                "type": "date",
+                "targetId": 0
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "phasesNoBattle": [
+              1
+            ],
+            "noticeAt": 1649754000,
+            "openedAt": 1649840400,
+            "closedAt": 1651031999
+          },
+          {
+            "id": 94069045,
+            "name": "文化的施設を建て直す",
+            "type": "event",
+            "flags": [
+              "noBattle",
+              "hideProgress"
+            ],
+            "consume": 0,
+            "afterClear": "repeatLast",
+            "recommendLv": "1",
+            "spotId": 913102,
+            "spotName": "水上村",
+            "warId": 9131,
+            "warLongName": "所在不明水域タートルアイランド",
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94068820
+              },
+              {
+                "type": "questClear",
+                "targetId": 94069021
+              },
+              {
+                "type": "date",
+                "targetId": 0
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "phasesNoBattle": [
+              1
+            ],
+            "noticeAt": 1649754000,
+            "openedAt": 1649840400,
+            "closedAt": 1651031999
+          },
+          {
+            "id": 94069046,
+            "name": "文化的施設を建て直す",
+            "type": "event",
+            "flags": [
+              "noBattle",
+              "hideProgress"
+            ],
+            "consume": 0,
+            "afterClear": "repeatLast",
+            "recommendLv": "1",
+            "spotId": 913102,
+            "spotName": "水上村",
+            "warId": 9131,
+            "warLongName": "所在不明水域タートルアイランド",
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94068820
+              },
+              {
+                "type": "questClear",
+                "targetId": 94069022
+              },
+              {
+                "type": "date",
+                "targetId": 0
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "phasesNoBattle": [
+              1
+            ],
+            "noticeAt": 1649754000,
+            "openedAt": 1649840400,
+            "closedAt": 1651031999
+          },
+          {
+            "id": 94069047,
+            "name": "船を造り直す",
+            "type": "event",
+            "flags": [
+              "noBattle",
+              "hideProgress"
+            ],
+            "consume": 0,
+            "afterClear": "repeatLast",
+            "recommendLv": "1",
+            "spotId": 913102,
+            "spotName": "水上村",
+            "warId": 9131,
+            "warLongName": "所在不明水域タートルアイランド",
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94068820
+              },
+              {
+                "type": "questClear",
+                "targetId": 94069023
+              },
+              {
+                "type": "date",
+                "targetId": 0
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "phasesNoBattle": [
+              1
+            ],
+            "noticeAt": 1649754000,
+            "openedAt": 1649840400,
+            "closedAt": 1651031999
+          },
+          {
+            "id": 94069048,
+            "name": "船を造り直す",
+            "type": "event",
+            "flags": [
+              "noBattle",
+              "hideProgress"
+            ],
+            "consume": 0,
+            "afterClear": "repeatLast",
+            "recommendLv": "1",
+            "spotId": 913102,
+            "spotName": "水上村",
+            "warId": 9131,
+            "warLongName": "所在不明水域タートルアイランド",
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94068820
+              },
+              {
+                "type": "questClear",
+                "targetId": 94069024
+              },
+              {
+                "type": "date",
+                "targetId": 0
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "phasesNoBattle": [
+              1
+            ],
+            "noticeAt": 1649754000,
+            "openedAt": 1649840400,
+            "closedAt": 1651031999
+          },
+          {
+            "id": 94069049,
+            "name": "船を造り直す",
+            "type": "event",
+            "flags": [
+              "noBattle",
+              "hideProgress"
+            ],
+            "consume": 0,
+            "afterClear": "repeatLast",
+            "recommendLv": "1",
+            "spotId": 913102,
+            "spotName": "水上村",
+            "warId": 9131,
+            "warLongName": "所在不明水域タートルアイランド",
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94068820
+              },
+              {
+                "type": "questClear",
+                "targetId": 94069025
+              },
+              {
+                "type": "date",
+                "targetId": 0
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "phasesNoBattle": [
+              1
+            ],
+            "noticeAt": 1649754000,
+            "openedAt": 1649840400,
+            "closedAt": 1651031999
+          },
+          {
+            "id": 94069050,
+            "name": "全ての製作クエストをやり直す （水上村を除く）",
+            "type": "event",
+            "flags": [
+              "noBattle",
+              "hideProgress"
+            ],
+            "consume": 0,
+            "afterClear": "repeatLast",
+            "recommendLv": "1",
+            "spotId": 913102,
+            "spotName": "水上村",
+            "warId": 9131,
+            "warLongName": "所在不明水域タートルアイランド",
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94068820
+              },
+              {
+                "type": "date",
+                "targetId": 0
+              },
+              {
+                "type": "questResetAvailable",
+                "targetId": 94069050
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "phasesNoBattle": [
+              1
+            ],
+            "noticeAt": 1649754000,
+            "openedAt": 1649840400,
             "closedAt": 1651031999
           }
         ]
@@ -53772,6 +55271,55 @@
             "noticeAt": 1649235600,
             "openedAt": 1649322000,
             "closedAt": 1651031999
+          },
+          {
+            "id": 94069103,
+            "name": "【おまけクエスト】おとぎ話の森",
+            "type": "main",
+            "flags": [
+              "actConsumeBattleWin"
+            ],
+            "consumeType": "item",
+            "consume": 0,
+            "consumeItem": [
+              {
+                "itemId": 94068804,
+                "amount": 300
+              },
+              {
+                "itemId": 94068806,
+                "amount": 300
+              }
+            ],
+            "afterClear": "close",
+            "recommendLv": "90",
+            "spotId": 913104,
+            "spotName": "滂沱の滝",
+            "warId": 9131,
+            "warLongName": "所在不明水域タートルアイランド",
+            "gifts": [
+              {
+                "type": "servant",
+                "objectId": 1001201,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94068820
+              },
+              {
+                "type": "date",
+                "targetId": 0
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "noticeAt": 1649754000,
+            "openedAt": 1649840400,
+            "closedAt": 1651031999
           }
         ]
       },
@@ -53943,6 +55491,9 @@
             "phases": [
               1
             ],
+            "phasesWithEnemies": [
+              1
+            ],
             "phaseScripts": [
               {
                 "phase": 1,
@@ -53996,6 +55547,9 @@
               }
             ],
             "phases": [
+              1
+            ],
+            "phasesWithEnemies": [
               1
             ],
             "phaseScripts": [
@@ -54052,8 +55606,494 @@
             "phases": [
               1
             ],
+            "phasesWithEnemies": [
+              1
+            ],
             "noticeAt": 1649667600,
             "openedAt": 1649754000,
+            "closedAt": 1651031999
+          }
+        ]
+      },
+      {
+        "id": 913107,
+        "mapId": 9131,
+        "name": "ミギワキ港",
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9131/QMap_Cap9131_Atlas/spot_913107.png",
+        "x": 1504,
+        "y": 1263,
+        "nameOfsY": -15,
+        "questOfsX": 31,
+        "questOfsY": -86,
+        "quests": [
+          {
+            "id": 94068818,
+            "name": "第17節「最終エリア奪還戦」",
+            "type": "main",
+            "consume": 5,
+            "afterClear": "close",
+            "recommendLv": "85",
+            "spotId": 913107,
+            "spotName": "ミギワキ港",
+            "warId": 9131,
+            "warLongName": "所在不明水域タートルアイランド",
+            "gifts": [
+              {
+                "objectId": 2,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94068817
+              },
+              {
+                "type": "questClear",
+                "targetId": 94069023
+              },
+              {
+                "type": "date",
+                "targetId": 0,
+                "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+              },
+              {
+                "type": "notQuestGroupClear",
+                "targetId": 94069015,
+                "value": 1
+              }
+            ],
+            "phases": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "phasesNoBattle": [
+              3,
+              4
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9406881810",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406881810.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 2,
+                "scripts": [
+                  {
+                    "scriptId": "9406881820",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406881820.txt"
+                  },
+                  {
+                    "scriptId": "9406881821",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406881821.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 3,
+                "scripts": [
+                  {
+                    "scriptId": "9406881830",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406881830.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 4,
+                "scripts": [
+                  {
+                    "scriptId": "9406881840",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406881840.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1649754000,
+            "openedAt": 1649840400,
+            "closedAt": 1651031999
+          },
+          {
+            "id": 94068888,
+            "name": "第17節「最終エリア奪還戦」",
+            "type": "main",
+            "consume": 5,
+            "afterClear": "close",
+            "recommendLv": "85",
+            "spotId": 913107,
+            "spotName": "ミギワキ港",
+            "warId": 9131,
+            "warLongName": "所在不明水域タートルアイランド",
+            "gifts": [
+              {
+                "objectId": 2,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94068817
+              },
+              {
+                "type": "questClear",
+                "targetId": 94069025
+              },
+              {
+                "type": "date",
+                "targetId": 0,
+                "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+              },
+              {
+                "type": "notQuestGroupClear",
+                "targetId": 94069015,
+                "value": 1
+              }
+            ],
+            "phases": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "phasesNoBattle": [
+              3,
+              4
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9406881810",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406881810.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 2,
+                "scripts": [
+                  {
+                    "scriptId": "9406881820",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406881820.txt"
+                  },
+                  {
+                    "scriptId": "9406881821",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406881821.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 3,
+                "scripts": [
+                  {
+                    "scriptId": "9406881830",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406881830.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 4,
+                "scripts": [
+                  {
+                    "scriptId": "9406881840",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406881840.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1649754000,
+            "openedAt": 1649840400,
+            "closedAt": 1651031999
+          },
+          {
+            "id": 94068889,
+            "name": "第17節「最終エリア奪還戦」",
+            "type": "main",
+            "consume": 5,
+            "afterClear": "close",
+            "recommendLv": "85",
+            "spotId": 913107,
+            "spotName": "ミギワキ港",
+            "warId": 9131,
+            "warLongName": "所在不明水域タートルアイランド",
+            "gifts": [
+              {
+                "objectId": 2,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94068817
+              },
+              {
+                "type": "questClear",
+                "targetId": 94069024
+              },
+              {
+                "type": "date",
+                "targetId": 0,
+                "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+              },
+              {
+                "type": "notQuestGroupClear",
+                "targetId": 94069015,
+                "value": 1
+              }
+            ],
+            "phases": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "phasesNoBattle": [
+              3,
+              4
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9406881810",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406881810.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 2,
+                "scripts": [
+                  {
+                    "scriptId": "9406881820",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406881820.txt"
+                  },
+                  {
+                    "scriptId": "9406881821",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406881821.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 3,
+                "scripts": [
+                  {
+                    "scriptId": "9406881830",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406881830.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 4,
+                "scripts": [
+                  {
+                    "scriptId": "9406881840",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406881840.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1649754000,
+            "openedAt": 1649840400,
+            "closedAt": 1651031999
+          },
+          {
+            "id": 94068910,
+            "name": "カルデアレスキュー！ 港怪異からの救出",
+            "type": "event",
+            "flags": [
+              "displayLoopmark"
+            ],
+            "consume": 40,
+            "afterClear": "repeatLast",
+            "recommendLv": "90",
+            "spotId": 913107,
+            "spotName": "ミギワキ港",
+            "warId": 9131,
+            "warLongName": "所在不明水域タートルアイランド",
+            "gifts": [
+              {
+                "objectId": 100,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94068820
+              },
+              {
+                "type": "date",
+                "targetId": 0,
+                "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "noticeAt": 1649754000,
+            "openedAt": 1649840400,
+            "closedAt": 1651031999
+          },
+          {
+            "id": 94069104,
+            "name": "【おまけクエスト】お料理を学ぼう！",
+            "type": "main",
+            "flags": [
+              "actConsumeBattleWin"
+            ],
+            "consumeType": "item",
+            "consume": 0,
+            "consumeItem": [
+              {
+                "itemId": 94068804,
+                "amount": 200
+              },
+              {
+                "itemId": 94068805,
+                "amount": 200
+              },
+              {
+                "itemId": 94068806,
+                "amount": 200
+              }
+            ],
+            "afterClear": "close",
+            "recommendLv": "90",
+            "spotId": 913107,
+            "spotName": "ミギワキ港",
+            "warId": 9131,
+            "warLongName": "所在不明水域タートルアイランド",
+            "gifts": [
+              {
+                "type": "servant",
+                "objectId": 1001201,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94068820
+              },
+              {
+                "type": "date",
+                "targetId": 0
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "noticeAt": 1649754000,
+            "openedAt": 1649840400,
+            "closedAt": 1651031999
+          }
+        ]
+      },
+      {
+        "id": 913108,
+        "mapId": 9131,
+        "name": "カメノテ島",
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9131/QMap_Cap9131_Atlas/spot_913108.png",
+        "x": 1546,
+        "y": 1571,
+        "nameOfsY": -6,
+        "questOfsX": 37,
+        "questOfsY": -82,
+        "quests": [
+          {
+            "id": 94068911,
+            "name": "カルデアレスキュー！ 大怪獣からの救出",
+            "type": "event",
+            "flags": [
+              "displayLoopmark"
+            ],
+            "consume": 40,
+            "afterClear": "repeatLast",
+            "recommendLv": "90+",
+            "spotId": 913108,
+            "spotName": "カメノテ島",
+            "warId": 9131,
+            "warLongName": "所在不明水域タートルアイランド",
+            "gifts": [
+              {
+                "objectId": 3,
+                "num": 100
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94068820
+              },
+              {
+                "type": "date",
+                "targetId": 0,
+                "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "noticeAt": 1649754000,
+            "openedAt": 1649840400,
+            "closedAt": 1651031999
+          },
+          {
+            "id": 94069102,
+            "name": "【おまけクエスト】オヤブン？につづけ",
+            "type": "main",
+            "flags": [
+              "actConsumeBattleWin"
+            ],
+            "consumeType": "item",
+            "consume": 0,
+            "consumeItem": [
+              {
+                "itemId": 94068805,
+                "amount": 300
+              },
+              {
+                "itemId": 94068806,
+                "amount": 300
+              }
+            ],
+            "afterClear": "close",
+            "recommendLv": "90",
+            "spotId": 913108,
+            "spotName": "カメノテ島",
+            "warId": 9131,
+            "warLongName": "所在不明水域タートルアイランド",
+            "gifts": [
+              {
+                "type": "servant",
+                "objectId": 1001201,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94068820
+              },
+              {
+                "type": "date",
+                "targetId": 0
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "noticeAt": 1649754000,
+            "openedAt": 1649840400,
             "closedAt": 1651031999
           }
         ]
@@ -54583,6 +56623,57 @@
         "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9131/QMap_Cap9131_Atlas/img_road9131_00.png",
         "srcSpotId": 913102,
         "dstSpotId": 913106,
+        "dispCondType": "useItemTime",
+        "dispTargetId": 0,
+        "dispTargetValue": 0,
+        "dispCondType2": "useItemTime",
+        "dispTargetId2": 0,
+        "dispTargetValue2": 0,
+        "activeCondType": "questClear",
+        "activeTargetId": 0,
+        "activeTargetValue": 0
+      },
+      {
+        "id": 913109,
+        "warId": 9131,
+        "mapId": 9131,
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9131/QMap_Cap9131_Atlas/img_road9131_00.png",
+        "srcSpotId": 913102,
+        "dstSpotId": 913107,
+        "dispCondType": "useItemTime",
+        "dispTargetId": 0,
+        "dispTargetValue": 0,
+        "dispCondType2": "useItemTime",
+        "dispTargetId2": 0,
+        "dispTargetValue2": 0,
+        "activeCondType": "questClear",
+        "activeTargetId": 0,
+        "activeTargetValue": 0
+      },
+      {
+        "id": 913110,
+        "warId": 9131,
+        "mapId": 9131,
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9131/QMap_Cap9131_Atlas/img_road9131_00.png",
+        "srcSpotId": 913107,
+        "dstSpotId": 913108,
+        "dispCondType": "useItemTime",
+        "dispTargetId": 0,
+        "dispTargetValue": 0,
+        "dispCondType2": "useItemTime",
+        "dispTargetId2": 0,
+        "dispTargetValue2": 0,
+        "activeCondType": "questClear",
+        "activeTargetId": 0,
+        "activeTargetValue": 0
+      },
+      {
+        "id": 913111,
+        "warId": 9131,
+        "mapId": 9131,
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9131/QMap_Cap9131_Atlas/img_road9131_00.png",
+        "srcSpotId": 913108,
+        "dstSpotId": 913102,
         "dispCondType": "useItemTime",
         "dispTargetId": 0,
         "dispTargetValue": 0,
