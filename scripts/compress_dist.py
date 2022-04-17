@@ -1,5 +1,5 @@
-from hashlib import md5
 import json
+from hashlib import md5
 from pathlib import Path
 
 project_root = Path(__file__).resolve().parent.parent
