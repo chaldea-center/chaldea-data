@@ -57286,5 +57286,797 @@
         "activeTargetValue": 0
       }
     ]
+  },
+  {
+    "id": 9133,
+    "coordinates": [
+      [
+        29.275185,
+        -89.35306
+      ],
+      [
+        14.054547,
+        -98.13481
+      ]
+    ],
+    "age": "-",
+    "name": "連続活劇神話 ミシシッピ・ミササイザーズ",
+    "longName": "連続活劇神話 ミシシッピ・ミササイザーズ",
+    "originalLongName": "連続活劇神話 ミシシッピ・ミササイザーズ",
+    "flags": [
+      "isEvent",
+      "noClearMarkWithComplete"
+    ],
+    "banner": "https://static.atlasacademy.io/JP/Banner/event_war_80358.png",
+    "priority": 9133,
+    "bgm": {
+      "id": 0
+    },
+    "scriptId": "NONE",
+    "script": "https://static.atlasacademy.io/JP/Script/Common/NONE.txt",
+    "startType": "none",
+    "targetId": 0,
+    "eventId": 80367,
+    "eventName": "連続活劇神話 ミシシッピ・ミササイザーズ",
+    "lastQuestId": 0,
+    "warAdds": [
+      {
+        "warId": 9133,
+        "type": "flag",
+        "priority": 2,
+        "overwriteId": 2082,
+        "condType": "questClearPhase",
+        "targetId": 94069601,
+        "value": 1,
+        "startedAt": 1651059000,
+        "endedAt": 1893423600
+      }
+    ],
+    "maps": [
+      {
+        "id": 9133,
+        "mapImage": "https://static.atlasacademy.io/JP/Terminal/MapImgs/img_questmap_009133/img_questmap_009133.png",
+        "mapImageW": 2048,
+        "mapImageH": 2048,
+        "bgm": {
+          "id": 0
+        }
+      }
+    ],
+    "spots": [
+      {
+        "id": 913301,
+        "mapId": 9133,
+        "name": "ミシシッピ川・河口",
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9133/QMap_Cap9133_Atlas/spot_913301.png",
+        "x": 1371,
+        "y": 1765,
+        "nameOfsY": -13,
+        "questOfsX": 44,
+        "questOfsY": -85,
+        "quests": [
+          {
+            "id": 94069602,
+            "name": "第１節：愉快な仲間の素敵なお仕事（1/2）",
+            "type": "main",
+            "consume": 5,
+            "afterClear": "close",
+            "recommendLv": "10",
+            "spotId": 913301,
+            "spotName": "ミシシッピ川・河口",
+            "warId": 9133,
+            "warLongName": "連続活劇神話 ミシシッピ・ミササイザーズ",
+            "gifts": [
+              {
+                "type": "servant",
+                "objectId": 9406080,
+                "num": 1
+              },
+              {
+                "type": "servant",
+                "objectId": 9808340,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94069601
+              },
+              {
+                "type": "date",
+                "targetId": 0,
+                "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+              }
+            ],
+            "phases": [
+              1,
+              2
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9406960210",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406960210.txt"
+                  },
+                  {
+                    "scriptId": "9406960211",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406960211.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 2,
+                "scripts": [
+                  {
+                    "scriptId": "9406960220",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406960220.txt"
+                  },
+                  {
+                    "scriptId": "9406960221",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406960221.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1651059000,
+            "openedAt": 1651059000,
+            "closedAt": 1652846399
+          },
+          {
+            "id": 94069701,
+            "name": "カルデアシアター メイキング 初級",
+            "type": "event",
+            "flags": [
+              "displayLoopmark",
+              "notDisplayResultGetPoint"
+            ],
+            "consume": 30,
+            "afterClear": "repeatLast",
+            "recommendLv": "15",
+            "spotId": 913301,
+            "spotName": "ミシシッピ川・河口",
+            "warId": 9133,
+            "warLongName": "連続活劇神話 ミシシッピ・ミササイザーズ",
+            "gifts": [
+              {
+                "objectId": 102,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94069602
+              },
+              {
+                "type": "date",
+                "targetId": 0,
+                "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "noticeAt": 1651059000,
+            "openedAt": 1651059000,
+            "closedAt": 1652846399
+          },
+          {
+            "id": 94069702,
+            "name": "カルデアシアター メイキング 中級",
+            "type": "event",
+            "flags": [
+              "displayLoopmark",
+              "notDisplayResultGetPoint"
+            ],
+            "consume": 35,
+            "afterClear": "repeatLast",
+            "recommendLv": "25",
+            "spotId": 913301,
+            "spotName": "ミシシッピ川・河口",
+            "warId": 9133,
+            "warLongName": "連続活劇神話 ミシシッピ・ミササイザーズ",
+            "gifts": [
+              {
+                "objectId": 102,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94069602
+              },
+              {
+                "type": "date",
+                "targetId": 0,
+                "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "noticeAt": 1651059000,
+            "openedAt": 1651059000,
+            "closedAt": 1652846399
+          }
+        ]
+      },
+      {
+        "id": 913302,
+        "mapId": 9133,
+        "name": "ニューオーリンズ",
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9133/QMap_Cap9133_Atlas/spot_913302.png",
+        "x": 1156,
+        "y": 1593,
+        "nameOfsY": -15,
+        "questOfsX": 45,
+        "questOfsY": -87,
+        "quests": [
+          {
+            "id": 94069603,
+            "name": "第１節：愉快な仲間の素敵なお仕事（2/2）",
+            "type": "main",
+            "consume": 5,
+            "afterClear": "close",
+            "recommendLv": "1",
+            "spotId": 913302,
+            "spotName": "ニューオーリンズ",
+            "warId": 9133,
+            "warLongName": "連続活劇神話 ミシシッピ・ミササイザーズ",
+            "gifts": [
+              {
+                "type": "servant",
+                "objectId": 9808340,
+                "num": 1
+              },
+              {
+                "objectId": 2,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94069602
+              },
+              {
+                "type": "date",
+                "targetId": 0,
+                "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+              },
+              {
+                "type": "eventTotalPoint",
+                "targetId": 80367,
+                "value": 2000,
+                "closedMessage": "バニペイポイント2,000以上で開放"
+              }
+            ],
+            "phases": [
+              1,
+              2
+            ],
+            "phasesNoBattle": [
+              1,
+              2
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9406960310",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406960310.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 2,
+                "scripts": [
+                  {
+                    "scriptId": "9406960320",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406960320.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1651059000,
+            "openedAt": 1651059000,
+            "closedAt": 1652846399
+          },
+          {
+            "id": 94069703,
+            "name": "カルデアシアター メイキング 上級",
+            "type": "event",
+            "flags": [
+              "displayLoopmark",
+              "notDisplayResultGetPoint"
+            ],
+            "consume": 40,
+            "afterClear": "repeatLast",
+            "recommendLv": "35",
+            "spotId": 913302,
+            "spotName": "ニューオーリンズ",
+            "warId": 9133,
+            "warLongName": "連続活劇神話 ミシシッピ・ミササイザーズ",
+            "gifts": [
+              {
+                "objectId": 101,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94069602
+              },
+              {
+                "type": "date",
+                "targetId": 0,
+                "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "noticeAt": 1651059000,
+            "openedAt": 1651059000,
+            "closedAt": 1652846399
+          }
+        ]
+      },
+      {
+        "id": 913303,
+        "mapId": 9133,
+        "name": "メンフィス",
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9133/QMap_Cap9133_Atlas/spot_913303.png",
+        "x": 1167,
+        "y": 1045,
+        "nameOfsY": -15,
+        "questOfsX": 43,
+        "questOfsY": -92,
+        "quests": [
+          {
+            "id": 94069604,
+            "name": "第２節：Wrong Way Walk of Positive Row（1/3）",
+            "type": "main",
+            "consume": 5,
+            "afterClear": "close",
+            "recommendLv": "20",
+            "spotId": 913303,
+            "spotName": "メンフィス",
+            "warId": 9133,
+            "warLongName": "連続活劇神話 ミシシッピ・ミササイザーズ",
+            "gifts": [
+              {
+                "type": "servant",
+                "objectId": 9808340,
+                "num": 1
+              },
+              {
+                "objectId": 2,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94069603
+              },
+              {
+                "type": "date",
+                "targetId": 0,
+                "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9406960410",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406960410.txt"
+                  },
+                  {
+                    "scriptId": "9406960411",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406960411.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1651059000,
+            "openedAt": 1651136400,
+            "closedAt": 1652846399
+          },
+          {
+            "id": 94069605,
+            "name": "第２節：Wrong Way Walk of Positive Row（2/3）",
+            "type": "main",
+            "consume": 5,
+            "afterClear": "close",
+            "recommendLv": "20",
+            "spotId": 913303,
+            "spotName": "メンフィス",
+            "warId": 9133,
+            "warLongName": "連続活劇神話 ミシシッピ・ミササイザーズ",
+            "gifts": [
+              {
+                "type": "servant",
+                "objectId": 9808340,
+                "num": 1
+              },
+              {
+                "objectId": 2,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94069604
+              },
+              {
+                "type": "date",
+                "targetId": 0,
+                "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+              },
+              {
+                "type": "eventTotalPoint",
+                "targetId": 80367,
+                "value": 10000,
+                "closedMessage": "バニペイポイント10,000以上で開放"
+              }
+            ],
+            "phases": [
+              1,
+              2
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9406960510",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406960510.txt"
+                  },
+                  {
+                    "scriptId": "9406960511",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406960511.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 2,
+                "scripts": [
+                  {
+                    "scriptId": "9406960520",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406960520.txt"
+                  },
+                  {
+                    "scriptId": "9406960521",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406960521.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1651059000,
+            "openedAt": 1651136400,
+            "closedAt": 1652846399
+          }
+        ]
+      },
+      {
+        "id": 913304,
+        "mapId": 9133,
+        "name": "ナッシュビル",
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9133/QMap_Cap9133_Atlas/spot_913304.png",
+        "x": 1570,
+        "y": 995,
+        "nameOfsY": -15,
+        "questOfsX": 43,
+        "questOfsY": -93,
+        "quests": [
+          {
+            "id": 94069606,
+            "name": "第２節：Wrong Way Walk of Positive Row（3/3）",
+            "type": "main",
+            "consume": 5,
+            "afterClear": "close",
+            "recommendLv": "20",
+            "spotId": 913304,
+            "spotName": "ナッシュビル",
+            "warId": 9133,
+            "warLongName": "連続活劇神話 ミシシッピ・ミササイザーズ",
+            "gifts": [
+              {
+                "type": "servant",
+                "objectId": 9808340,
+                "num": 1
+              },
+              {
+                "objectId": 2,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94069605
+              },
+              {
+                "type": "date",
+                "targetId": 0,
+                "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+              },
+              {
+                "type": "eventTotalPoint",
+                "targetId": 80367,
+                "value": 15000,
+                "closedMessage": "バニペイポイント15,000以上で開放"
+              }
+            ],
+            "phases": [
+              1,
+              2
+            ],
+            "phasesNoBattle": [
+              2
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9406960610",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406960610.txt"
+                  },
+                  {
+                    "scriptId": "9406960611",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406960611.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 2,
+                "scripts": [
+                  {
+                    "scriptId": "9406960620",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406960620.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1651059000,
+            "openedAt": 1651136400,
+            "closedAt": 1652846399
+          }
+        ]
+      },
+      {
+        "id": 913305,
+        "mapId": 9133,
+        "name": "ルイビル",
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9133/QMap_Cap9133_Atlas/spot_913305.png",
+        "x": 1659,
+        "y": 655,
+        "nameOfsY": -15,
+        "questOfsX": 43,
+        "questOfsY": -99
+      },
+      {
+        "id": 913312,
+        "mapId": 9133,
+        "name": "ニューオーリンズ",
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9133/QMap_Cap9133_Atlas/spot_913312.png",
+        "x": 1156,
+        "y": 1593,
+        "nameOfsY": -15,
+        "questOfsX": 45,
+        "questOfsY": -87
+      },
+      {
+        "id": 913313,
+        "mapId": 9133,
+        "name": "メンフィス",
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9133/QMap_Cap9133_Atlas/spot_913313.png",
+        "x": 1167,
+        "y": 1045,
+        "nameOfsY": -15,
+        "questOfsX": 43,
+        "questOfsY": -92
+      },
+      {
+        "id": 913314,
+        "mapId": 9133,
+        "name": "ナッシュビル",
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9133/QMap_Cap9133_Atlas/spot_913314.png",
+        "x": 1570,
+        "y": 995,
+        "nameOfsY": -15,
+        "questOfsX": 43,
+        "questOfsY": -93
+      },
+      {
+        "id": 913399,
+        "mapId": 9133,
+        "name": "",
+        "x": 999999,
+        "y": 999999,
+        "nameOfsY": 3,
+        "questOfsX": 41,
+        "questOfsY": -71,
+        "quests": [
+          {
+            "id": 94069601,
+            "name": "プロローグ：宝船オン・ザ・ミシシッピ",
+            "type": "main",
+            "consume": 5,
+            "afterClear": "close",
+            "recommendLv": "10",
+            "spotId": 913399,
+            "spotName": "",
+            "warId": 9133,
+            "warLongName": "連続活劇神話 ミシシッピ・ミササイザーズ",
+            "gifts": [
+              {
+                "type": "servant",
+                "objectId": 9808340,
+                "num": 1
+              },
+              {
+                "objectId": 2,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 1000011
+              },
+              {
+                "type": "date",
+                "targetId": 0,
+                "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+              }
+            ],
+            "phases": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "phasesNoBattle": [
+              1,
+              4
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9406960110",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406960110.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 2,
+                "scripts": [
+                  {
+                    "scriptId": "9406960120",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406960120.txt"
+                  },
+                  {
+                    "scriptId": "9406960121",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406960121.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 3,
+                "scripts": [
+                  {
+                    "scriptId": "9406960130",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406960130.txt"
+                  },
+                  {
+                    "scriptId": "9406960131",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406960131.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 4,
+                "scripts": [
+                  {
+                    "scriptId": "9406960140",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406960140.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1651059000,
+            "openedAt": 1651059000,
+            "closedAt": 1652846399
+          }
+        ]
+      }
+    ],
+    "spotRoads": [
+      {
+        "id": 913301,
+        "warId": 9133,
+        "mapId": 9133,
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9133/QMap_Cap9133_Atlas/img_road9133_00.png",
+        "srcSpotId": 913301,
+        "dstSpotId": 913302,
+        "dispCondType": "useItemTime",
+        "dispTargetId": 0,
+        "dispTargetValue": 0,
+        "dispCondType2": "useItemTime",
+        "dispTargetId2": 0,
+        "dispTargetValue2": 0,
+        "activeCondType": "questClear",
+        "activeTargetId": 0,
+        "activeTargetValue": 0
+      },
+      {
+        "id": 913302,
+        "warId": 9133,
+        "mapId": 9133,
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9133/QMap_Cap9133_Atlas/img_road9133_00.png",
+        "srcSpotId": 913302,
+        "dstSpotId": 913303,
+        "dispCondType": "useItemTime",
+        "dispTargetId": 0,
+        "dispTargetValue": 0,
+        "dispCondType2": "useItemTime",
+        "dispTargetId2": 0,
+        "dispTargetValue2": 0,
+        "activeCondType": "questClear",
+        "activeTargetId": 0,
+        "activeTargetValue": 0
+      },
+      {
+        "id": 913303,
+        "warId": 9133,
+        "mapId": 9133,
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9133/QMap_Cap9133_Atlas/img_road9133_00.png",
+        "srcSpotId": 913303,
+        "dstSpotId": 913304,
+        "dispCondType": "useItemTime",
+        "dispTargetId": 0,
+        "dispTargetValue": 0,
+        "dispCondType2": "useItemTime",
+        "dispTargetId2": 0,
+        "dispTargetValue2": 0,
+        "activeCondType": "questClear",
+        "activeTargetId": 0,
+        "activeTargetValue": 0
+      },
+      {
+        "id": 913304,
+        "warId": 9133,
+        "mapId": 9133,
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9133/QMap_Cap9133_Atlas/img_road9133_00.png",
+        "srcSpotId": 913304,
+        "dstSpotId": 913305,
+        "dispCondType": "useItemTime",
+        "dispTargetId": 0,
+        "dispTargetValue": 0,
+        "dispCondType2": "useItemTime",
+        "dispTargetId2": 0,
+        "dispTargetValue2": 0,
+        "activeCondType": "questClear",
+        "activeTargetId": 0,
+        "activeTargetValue": 0
+      }
+    ]
   }
 ]
