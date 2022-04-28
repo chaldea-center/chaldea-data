@@ -57688,6 +57688,9 @@
             "phases": [
               1
             ],
+            "phasesWithEnemies": [
+              1
+            ],
             "phaseScripts": [
               {
                 "phase": 1,
@@ -57781,6 +57784,45 @@
             "noticeAt": 1651059000,
             "openedAt": 1651136400,
             "closedAt": 1652846399
+          },
+          {
+            "id": 94069704,
+            "name": "カルデアシアター クランクアップ級",
+            "type": "event",
+            "flags": [
+              "displayLoopmark",
+              "notDisplayResultGetPoint"
+            ],
+            "consume": 40,
+            "afterClear": "repeatLast",
+            "recommendLv": "45",
+            "spotId": 913303,
+            "spotName": "メンフィス",
+            "warId": 9133,
+            "warLongName": "連続活劇神話 ミシシッピ・ミササイザーズ",
+            "gifts": [
+              {
+                "objectId": 101,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94069604
+              },
+              {
+                "type": "date",
+                "targetId": 0,
+                "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "noticeAt": 1651136400,
+            "openedAt": 1651136400,
+            "closedAt": 1652846399
           }
         ]
       },
@@ -57868,6 +57910,45 @@
             "noticeAt": 1651059000,
             "openedAt": 1651136400,
             "closedAt": 1652846399
+          },
+          {
+            "id": 94069705,
+            "name": "カルデアシアター 完成披露試写会級",
+            "type": "event",
+            "flags": [
+              "displayLoopmark",
+              "notDisplayResultGetPoint"
+            ],
+            "consume": 40,
+            "afterClear": "repeatLast",
+            "recommendLv": "50",
+            "spotId": 913304,
+            "spotName": "ナッシュビル",
+            "warId": 9133,
+            "warLongName": "連続活劇神話 ミシシッピ・ミササイザーズ",
+            "gifts": [
+              {
+                "objectId": 101,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94069605
+              },
+              {
+                "type": "date",
+                "targetId": 0,
+                "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "noticeAt": 1651136400,
+            "openedAt": 1651136400,
+            "closedAt": 1652846399
           }
         ]
       },
@@ -57880,7 +57961,54 @@
         "y": 655,
         "nameOfsY": -15,
         "questOfsX": 43,
-        "questOfsY": -99
+        "questOfsY": -99,
+        "quests": [
+          {
+            "id": 94069607,
+            "name": "",
+            "type": "main",
+            "consume": 5,
+            "afterClear": "close",
+            "recommendLv": "30",
+            "spotId": 913305,
+            "spotName": "ルイビル",
+            "warId": 9133,
+            "warLongName": "連続活劇神話 ミシシッピ・ミササイザーズ",
+            "gifts": [
+              {
+                "type": "servant",
+                "objectId": 9808340,
+                "num": 1
+              },
+              {
+                "objectId": 2,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94069606
+              },
+              {
+                "type": "date",
+                "targetId": 0,
+                "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+              },
+              {
+                "type": "forceFalse",
+                "targetId": 0,
+                "closedMessage": "データ更新後に開放"
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "noticeAt": 1651136400,
+            "openedAt": 1651222800,
+            "closedAt": 1652846399
+          }
+        ]
       },
       {
         "id": 913312,
