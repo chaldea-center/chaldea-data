@@ -58438,6 +58438,45 @@
             "noticeAt": 1651222800,
             "openedAt": 1651309200,
             "closedAt": 1652846399
+          },
+          {
+            "id": 94069708,
+            "name": "カルデアシアター 各方面から絶賛の嵐級",
+            "type": "event",
+            "flags": [
+              "displayLoopmark",
+              "notDisplayResultGetPoint"
+            ],
+            "consume": 40,
+            "afterClear": "repeatLast",
+            "recommendLv": "65",
+            "spotId": 913307,
+            "spotName": "セントルイス",
+            "warId": 9133,
+            "warLongName": "連続活劇神話 ミシシッピ・ミササイザーズ",
+            "gifts": [
+              {
+                "objectId": 100,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94069610
+              },
+              {
+                "type": "date",
+                "targetId": 0,
+                "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "noticeAt": 1651309200,
+            "openedAt": 1651309200,
+            "closedAt": 1652846399
           }
         ]
       },
@@ -58547,6 +58586,45 @@
             "noticeAt": 1651222800,
             "openedAt": 1651309200,
             "closedAt": 1652846399
+          },
+          {
+            "id": 94069709,
+            "name": "カルデアシアター 異例ロングラン級",
+            "type": "event",
+            "flags": [
+              "displayLoopmark",
+              "notDisplayResultGetPoint"
+            ],
+            "consume": 40,
+            "afterClear": "repeatLast",
+            "recommendLv": "70",
+            "spotId": 913308,
+            "spotName": "カンザスシティ",
+            "warId": 9133,
+            "warLongName": "連続活劇神話 ミシシッピ・ミササイザーズ",
+            "gifts": [
+              {
+                "objectId": 100,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94069611
+              },
+              {
+                "type": "date",
+                "targetId": 0,
+                "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "noticeAt": 1651309200,
+            "openedAt": 1651309200,
+            "closedAt": 1652846399
           }
         ]
       },
@@ -58559,7 +58637,149 @@
         "y": 244,
         "nameOfsY": -15,
         "questOfsX": 43,
-        "questOfsY": -87
+        "questOfsY": -87,
+        "quests": [
+          {
+            "id": 94069613,
+            "name": "第５節：夢見た星を掴むには……（1/2）",
+            "type": "main",
+            "consume": 5,
+            "afterClear": "close",
+            "recommendLv": "45",
+            "spotId": 913309,
+            "spotName": "オマハ",
+            "warId": 9133,
+            "warLongName": "連続活劇神話 ミシシッピ・ミササイザーズ",
+            "gifts": [
+              {
+                "type": "servant",
+                "objectId": 9808330,
+                "num": 1
+              },
+              {
+                "objectId": 2,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94069612
+              },
+              {
+                "type": "date",
+                "targetId": 0,
+                "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9406961310",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406961310.txt"
+                  },
+                  {
+                    "scriptId": "9406961311",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406961311.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1651309200,
+            "openedAt": 1651395600,
+            "closedAt": 1652846399
+          },
+          {
+            "id": 94069614,
+            "name": "第５節：夢見た星を掴むには……（2/2）",
+            "type": "main",
+            "consume": 5,
+            "afterClear": "close",
+            "recommendLv": "45",
+            "spotId": 913309,
+            "spotName": "オマハ",
+            "warId": 9133,
+            "warLongName": "連続活劇神話 ミシシッピ・ミササイザーズ",
+            "gifts": [
+              {
+                "type": "servant",
+                "objectId": 9808330,
+                "num": 1
+              },
+              {
+                "objectId": 2,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94069613
+              },
+              {
+                "type": "date",
+                "targetId": 0,
+                "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+              },
+              {
+                "type": "eventTotalPoint",
+                "targetId": 80367,
+                "value": 70000,
+                "closedMessage": "バニペイポイント70,000以上で開放"
+              }
+            ],
+            "phases": [
+              1,
+              2,
+              3
+            ],
+            "phasesNoBattle": [
+              2,
+              3
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9406961410",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406961410.txt"
+                  },
+                  {
+                    "scriptId": "9406961411",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406961411.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 2,
+                "scripts": [
+                  {
+                    "scriptId": "9406961420",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406961420.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 3,
+                "scripts": [
+                  {
+                    "scriptId": "9406961430",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406961430.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1651309200,
+            "openedAt": 1651395600,
+            "closedAt": 1652846399
+          }
+        ]
       },
       {
         "id": 913310,
