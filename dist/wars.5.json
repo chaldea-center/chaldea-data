@@ -58691,6 +58691,9 @@
             "phases": [
               1
             ],
+            "phasesWithEnemies": [
+              1
+            ],
             "phaseScripts": [
               {
                 "phase": 1,
@@ -58794,6 +58797,45 @@
             "noticeAt": 1651309200,
             "openedAt": 1651395600,
             "closedAt": 1652846399
+          },
+          {
+            "id": 94069710,
+            "name": "カルデアシアター 全カルデアが泣いた級",
+            "type": "event",
+            "flags": [
+              "displayLoopmark",
+              "notDisplayResultGetPoint"
+            ],
+            "consume": 40,
+            "afterClear": "repeatLast",
+            "recommendLv": "80",
+            "spotId": 913309,
+            "spotName": "オマハ",
+            "warId": 9133,
+            "warLongName": "連続活劇神話 ミシシッピ・ミササイザーズ",
+            "gifts": [
+              {
+                "objectId": 100,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94069613
+              },
+              {
+                "type": "date",
+                "targetId": 0,
+                "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "noticeAt": 1651395600,
+            "openedAt": 1651395600,
+            "closedAt": 1652846399
           }
         ]
       },
@@ -58806,7 +58848,48 @@
         "y": 474,
         "nameOfsY": -15,
         "questOfsX": 44,
-        "questOfsY": -91
+        "questOfsY": -91,
+        "quests": [
+          {
+            "id": 94069711,
+            "name": "カルデアシアター レッドカーペット級",
+            "type": "event",
+            "flags": [
+              "displayLoopmark",
+              "notDisplayResultGetPoint"
+            ],
+            "consume": 40,
+            "afterClear": "repeatLast",
+            "recommendLv": "90",
+            "spotId": 913310,
+            "spotName": "ピオリア",
+            "warId": 9133,
+            "warLongName": "連続活劇神話 ミシシッピ・ミササイザーズ",
+            "gifts": [
+              {
+                "objectId": 100,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94069614
+              },
+              {
+                "type": "date",
+                "targetId": 0,
+                "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "noticeAt": 1651395600,
+            "openedAt": 1651395600,
+            "closedAt": 1652846399
+          }
+        ]
       },
       {
         "id": 913311,
@@ -58817,7 +58900,61 @@
         "y": 313,
         "nameOfsY": -15,
         "questOfsX": 42,
-        "questOfsY": -89
+        "questOfsY": -89,
+        "quests": [
+          {
+            "id": 94069615,
+            "name": "",
+            "type": "main",
+            "consume": 5,
+            "afterClear": "close",
+            "recommendLv": "60",
+            "spotId": 913311,
+            "spotName": "ミシガン湖",
+            "warId": 9133,
+            "warLongName": "連続活劇神話 ミシシッピ・ミササイザーズ",
+            "gifts": [
+              {
+                "type": "servant",
+                "objectId": 9808330,
+                "num": 1
+              },
+              {
+                "objectId": 2,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94069614
+              },
+              {
+                "type": "date",
+                "targetId": 0,
+                "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+              },
+              {
+                "type": "forceFalse",
+                "targetId": 0,
+                "closedMessage": "データ更新後に開放"
+              }
+            ],
+            "phases": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "phasesNoBattle": [
+              1
+            ],
+            "noticeAt": 1651395600,
+            "openedAt": 1651482000,
+            "closedAt": 1652846399
+          }
+        ]
       },
       {
         "id": 913312,
