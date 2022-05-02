@@ -58913,7 +58913,7 @@
         "quests": [
           {
             "id": 94069615,
-            "name": "",
+            "name": "第６節：決戦！　ミシガン湖",
             "type": "main",
             "consume": 5,
             "afterClear": "close",
@@ -58935,6 +58935,10 @@
             ],
             "releaseConditions": [
               {
+                "type": "none",
+                "targetId": 0
+              },
+              {
                 "type": "questClear",
                 "targetId": 94069614
               },
@@ -58942,11 +58946,6 @@
                 "type": "date",
                 "targetId": 0,
                 "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
-              },
-              {
-                "type": "forceFalse",
-                "targetId": 0,
-                "closedMessage": "データ更新後に開放"
               }
             ],
             "phases": [
@@ -58957,10 +58956,303 @@
               5
             ],
             "phasesNoBattle": [
-              1
+              1,
+              2,
+              5
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9406961510",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406961510.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 2,
+                "scripts": [
+                  {
+                    "scriptId": "9406961520",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406961520.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 3,
+                "scripts": [
+                  {
+                    "scriptId": "9406961530",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406961530.txt"
+                  },
+                  {
+                    "scriptId": "9406961531",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406961531.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 4,
+                "scripts": [
+                  {
+                    "scriptId": "9406961540",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406961540.txt"
+                  },
+                  {
+                    "scriptId": "9406961541",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406961541.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 5,
+                "scripts": [
+                  {
+                    "scriptId": "9406961550",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406961550.txt"
+                  }
+                ]
+              }
             ],
             "noticeAt": 1651395600,
             "openedAt": 1651482000,
+            "closedAt": 1652846399
+          },
+          {
+            "id": 94069616,
+            "name": "第７節：偶像が墜ちる時",
+            "type": "main",
+            "consume": 5,
+            "afterClear": "close",
+            "recommendLv": "50",
+            "spotId": 913311,
+            "spotName": "ミシガン湖",
+            "warId": 9133,
+            "warLongName": "連続活劇神話 ミシシッピ・ミササイザーズ",
+            "gifts": [
+              {
+                "type": "servant",
+                "objectId": 9808330,
+                "num": 1
+              },
+              {
+                "objectId": 2,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94069615
+              },
+              {
+                "type": "date",
+                "targetId": 0,
+                "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+              }
+            ],
+            "phases": [
+              1,
+              2,
+              3
+            ],
+            "phasesNoBattle": [
+              2
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9406961610",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406961610.txt"
+                  },
+                  {
+                    "scriptId": "9406961611",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406961611.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 2,
+                "scripts": [
+                  {
+                    "scriptId": "9406961620",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406961620.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 3,
+                "scripts": [
+                  {
+                    "scriptId": "9406961630",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406961630.txt"
+                  },
+                  {
+                    "scriptId": "9406961631",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406961631.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1651395600,
+            "openedAt": 1651482000,
+            "closedAt": 1652846399
+          },
+          {
+            "id": 94069617,
+            "name": "エピローグ：神話の終わりと───",
+            "type": "main",
+            "consume": 5,
+            "afterClear": "close",
+            "recommendLv": "10",
+            "spotId": 913311,
+            "spotName": "ミシガン湖",
+            "warId": 9133,
+            "warLongName": "連続活劇神話 ミシシッピ・ミササイザーズ",
+            "gifts": [
+              {
+                "type": "servant",
+                "objectId": 9808330,
+                "num": 1
+              },
+              {
+                "objectId": 7999,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94069616
+              },
+              {
+                "type": "date",
+                "targetId": 0,
+                "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+              }
+            ],
+            "phases": [
+              1,
+              2
+            ],
+            "phasesNoBattle": [
+              1,
+              2
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9406961710",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406961710.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 2,
+                "scripts": [
+                  {
+                    "scriptId": "9406961720",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406961720.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1651395600,
+            "openedAt": 1651482000,
+            "closedAt": 1652846399
+          },
+          {
+            "id": 94069712,
+            "name": "カルデアシアター 映画って本っ当に素晴らしいもの級",
+            "type": "event",
+            "flags": [
+              "displayLoopmark",
+              "notDisplayResultGetPoint"
+            ],
+            "consume": 40,
+            "afterClear": "repeatLast",
+            "recommendLv": "90+",
+            "spotId": 913311,
+            "spotName": "ミシガン湖",
+            "warId": 9133,
+            "warLongName": "連続活劇神話 ミシシッピ・ミササイザーズ",
+            "gifts": [
+              {
+                "objectId": 3,
+                "num": 100
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94069616
+              },
+              {
+                "type": "date",
+                "targetId": 0,
+                "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "noticeAt": 1651482000,
+            "openedAt": 1651482000,
+            "closedAt": 1652846399
+          },
+          {
+            "id": 94069801,
+            "name": "",
+            "type": "event",
+            "flags": [
+              "dropFirstTimeOnly",
+              "notRetrievable",
+              "notDisplayResultGetPoint"
+            ],
+            "consume": 5,
+            "afterClear": "repeatLast",
+            "recommendLv": "90+",
+            "spotId": 913311,
+            "spotName": "ミシガン湖",
+            "warId": 9133,
+            "warLongName": "連続活劇神話 ミシシッピ・ミササイザーズ",
+            "gifts": [
+              {
+                "objectId": 6999,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 1000822,
+                "closedMessage": "終局特異点クリアで開放"
+              },
+              {
+                "type": "questClear",
+                "targetId": 94069617
+              },
+              {
+                "type": "date",
+                "targetId": 0,
+                "closedMessage": "終局特異点クリアかつ5月4日18時00分以降に開放"
+              },
+              {
+                "type": "forceFalse",
+                "targetId": 0,
+                "closedMessage": "データ更新後に開放"
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "noticeAt": 1651482000,
+            "openedAt": 1651654800,
             "closedAt": 1652846399
           }
         ]
