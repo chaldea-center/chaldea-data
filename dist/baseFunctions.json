@@ -41930,6 +41930,46 @@
     ]
   },
   {
+    "funcId": 8249,
+    "funcType": "addState",
+    "funcTargetType": "enemy",
+    "funcTargetTeam": "playerAndEnemy",
+    "funcPopupText": "クイック耐性ダウン",
+    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_539.png",
+    "buffs": [
+      {
+        "id": 504,
+        "name": "Quickカード耐性ダウン",
+        "detail": "Quickカードの攻撃による被ダメージ、被NP発生量、被スター発生率が増加する",
+        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_539.png",
+        "type": "downDefencecommandall",
+        "script": {},
+        "vals": [
+          {
+            "id": 3005
+          },
+          {
+            "id": 3009
+          }
+        ],
+        "tvals": [
+          {
+            "id": 5000
+          },
+          {
+            "id": 4003
+          }
+        ],
+        "ckOpIndv": [
+          {
+            "id": 4003
+          }
+        ],
+        "maxRate": 5000
+      }
+    ]
+  },
+  {
     "funcId": 8261,
     "funcType": "eventDropUp",
     "funcTargetType": "self",
