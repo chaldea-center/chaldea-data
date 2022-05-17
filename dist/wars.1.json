@@ -1828,7 +1828,8 @@
             ],
             "phasesWithEnemies": [
               1,
-              2
+              2,
+              3
             ],
             "phaseScripts": [
               {
@@ -14745,7 +14746,9 @@
               3
             ],
             "phasesWithEnemies": [
-              1
+              1,
+              2,
+              3
             ],
             "phaseScripts": [
               {
@@ -92348,6 +92351,80 @@
             ],
             "noticeAt": 1632906000,
             "openedAt": 1632906000,
+            "closedAt": 1893423600
+          },
+          {
+            "id": 91304701,
+            "name": "騎士よ迷うことなかれ、と聖槍は言った",
+            "type": "friendship",
+            "consume": 20,
+            "afterClear": "close",
+            "recommendLv": "70",
+            "spotId": 99003,
+            "spotName": "幕間の物語",
+            "warId": 1003,
+            "warLongName": "幕間の物語",
+            "chapterId": 1,
+            "chapterSubId": 1,
+            "gifts": [
+              {
+                "objectId": 2,
+                "num": 2
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 3000303,
+                "closedMessage": "Lostbelt No.3 プロローグをクリア＆霊基再臨3段階目＆絆Lv.5で開放"
+              },
+              {
+                "type": "svtLimit",
+                "targetId": 304700,
+                "value": 3,
+                "closedMessage": "Lostbelt No.3 プロローグをクリア＆霊基再臨3段階目＆絆Lv.5で開放"
+              },
+              {
+                "type": "svtGet",
+                "targetId": 304700
+              },
+              {
+                "type": "svtFriendship",
+                "targetId": 304700,
+                "value": 5,
+                "closedMessage": "Lostbelt No.3 プロローグをクリア＆霊基再臨3段階目＆絆Lv.5で開放"
+              }
+            ],
+            "phases": [
+              1,
+              2
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9130470110",
+                    "script": "https://static.atlasacademy.io/JP/Script/91/9130470110.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 2,
+                "scripts": [
+                  {
+                    "scriptId": "9130470120",
+                    "script": "https://static.atlasacademy.io/JP/Script/91/9130470120.txt"
+                  },
+                  {
+                    "scriptId": "9130470121",
+                    "script": "https://static.atlasacademy.io/JP/Script/91/9130470121.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1652778000,
+            "openedAt": 1652778000,
             "closedAt": 1893423600
           },
           {
