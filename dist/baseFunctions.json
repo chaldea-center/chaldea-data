@@ -16317,6 +16317,12 @@
     "funcTargetTeam": "playerAndEnemy"
   },
   {
+    "funcId": 1545,
+    "funcType": "gainHp",
+    "funcTargetType": "ptOther",
+    "funcTargetTeam": "playerAndEnemy"
+  },
+  {
     "funcId": 1550,
     "funcType": "addState",
     "funcTargetType": "ptOther",
@@ -29190,6 +29196,41 @@
           }
         ],
         "maxRate": 0
+      }
+    ]
+  },
+  {
+    "funcId": 5356,
+    "funcType": "addStateShort",
+    "funcTargetType": "ptAll",
+    "funcTargetTeam": "playerAndEnemy",
+    "funcPopupText": "クリティカル威力アップ",
+    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_324.png",
+    "functvals": [
+      {
+        "id": 2004
+      }
+    ],
+    "buffs": [
+      {
+        "id": 142,
+        "name": "クリティカル威力アップ",
+        "detail": "クリティカル時のダメージをアップ",
+        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_324.png",
+        "type": "upCriticaldamage",
+        "script": {},
+        "vals": [
+          {
+            "id": 3004
+          },
+          {
+            "id": 3006
+          },
+          {
+            "id": 3031
+          }
+        ],
+        "maxRate": 5000
       }
     ]
   },
@@ -42955,6 +42996,194 @@
       },
       {
         "id": 3
+      }
+    ]
+  },
+  {
+    "funcId": 8602,
+    "funcType": "addState",
+    "funcTargetType": "self",
+    "funcTargetTeam": "playerAndEnemy",
+    "funcPopupText": "終焉特権",
+    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_350.png",
+    "buffs": [
+      {
+        "id": 4295,
+        "name": "死亡時発動(終焉特権)",
+        "detail": "HPが0になった時、自身を除く最後尾の味方単体のNPを増やす＆クリティカル威力をアップ＆毎ターンスター獲得状態を付与",
+        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_350.png",
+        "type": "deadFunction",
+        "buffGroup": 602,
+        "script": {},
+        "vals": [
+          {
+            "id": 3004
+          }
+        ],
+        "maxRate": 0
+      }
+    ]
+  },
+  {
+    "funcId": 8603,
+    "funcType": "gainNp",
+    "funcTargetType": "ptSelfAnotherLast",
+    "funcTargetTeam": "player",
+    "funcPopupText": "NP増加"
+  },
+  {
+    "funcId": 8604,
+    "funcType": "addState",
+    "funcTargetType": "ptSelfAnotherLast",
+    "funcTargetTeam": "playerAndEnemy",
+    "funcPopupText": "クリティカル威力アップ",
+    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_324.png",
+    "buffs": [
+      {
+        "id": 142,
+        "name": "クリティカル威力アップ",
+        "detail": "クリティカル時のダメージをアップ",
+        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_324.png",
+        "type": "upCriticaldamage",
+        "script": {},
+        "vals": [
+          {
+            "id": 3004
+          },
+          {
+            "id": 3006
+          },
+          {
+            "id": 3031
+          }
+        ],
+        "maxRate": 5000
+      }
+    ]
+  },
+  {
+    "funcId": 8605,
+    "funcType": "addState",
+    "funcTargetType": "ptSelfAnotherLast",
+    "funcTargetTeam": "player",
+    "funcPopupText": "毎ターンスター獲得",
+    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_320.png",
+    "buffs": [
+      {
+        "id": 121,
+        "name": "毎ターンスター獲得",
+        "detail": "ターン終了時にスターを獲得する",
+        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_320.png",
+        "type": "regainStar",
+        "script": {},
+        "vals": [
+          {
+            "id": 3004
+          }
+        ],
+        "maxRate": 0
+      }
+    ]
+  },
+  {
+    "funcId": 8606,
+    "funcType": "addState",
+    "funcTargetType": "ptAll",
+    "funcTargetTeam": "playerAndEnemy",
+    "funcPopupText": "ダメージカット",
+    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_301.png",
+    "functvals": [
+      {
+        "id": 2004
+      }
+    ],
+    "buffs": [
+      {
+        "id": 149,
+        "name": "ダメージカット",
+        "detail": "被ダメージを減らす",
+        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_301.png",
+        "type": "subSelfdamage",
+        "script": {},
+        "vals": [
+          {
+            "id": 3004
+          },
+          {
+            "id": 3007
+          },
+          {
+            "id": 3040
+          }
+        ],
+        "maxRate": 0
+      }
+    ]
+  },
+  {
+    "funcId": 8607,
+    "funcType": "hastenNpturn",
+    "funcTargetType": "ptSelfAnotherLast",
+    "funcTargetTeam": "enemy",
+    "funcPopupText": "チャージ増加"
+  },
+  {
+    "funcId": 8608,
+    "funcType": "addState",
+    "funcTargetType": "ptSelfAnotherLast",
+    "funcTargetTeam": "enemy",
+    "funcPopupText": "クリティカル発生アップ",
+    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_327.png",
+    "buffs": [
+      {
+        "id": 144,
+        "name": "クリティカル発生アップ",
+        "detail": "クリティカルの発生率をアップ",
+        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_327.png",
+        "type": "upCriticalrate",
+        "script": {},
+        "vals": [
+          {
+            "id": 3004
+          },
+          {
+            "id": 3006
+          },
+          {
+            "id": 3032
+          }
+        ],
+        "maxRate": 5000
+      }
+    ]
+  },
+  {
+    "funcId": 8609,
+    "funcType": "addState",
+    "funcTargetType": "ptOther",
+    "funcTargetTeam": "playerAndEnemy",
+    "funcPopupText": "攻撃力アップ",
+    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_300.png",
+    "buffs": [
+      {
+        "id": 126,
+        "name": "攻撃力アップ",
+        "detail": "攻撃力をアップ",
+        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_300.png",
+        "type": "upAtk",
+        "script": {},
+        "vals": [
+          {
+            "id": 3004
+          },
+          {
+            "id": 3006
+          },
+          {
+            "id": 3027
+          }
+        ],
+        "maxRate": 5000
       }
     ]
   },
