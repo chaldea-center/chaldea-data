@@ -102215,6 +102215,1507 @@
         "y": 0,
         "quests": [
           {
+            "id": 94001101,
+            "name": "プロローグ　魔境のあるじ",
+            "type": "event",
+            "consume": 5,
+            "afterClear": "close",
+            "recommendLv": "10",
+            "spotId": 999999,
+            "spotName": "カルデアゲート",
+            "warId": 9999,
+            "warLongName": "カルデアゲート",
+            "gifts": [
+              {
+                "objectId": 6003,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "none",
+                "targetId": 0,
+                "closedMessage": "{0}をクリアで開放"
+              },
+              {
+                "type": "questClear",
+                "targetId": 1000011,
+                "closedMessage": "{0}をクリアで開放"
+              },
+              {
+                "type": "date",
+                "targetId": 0
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "phasesWithEnemies": [
+              1
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9400110110",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9400/9400110110.txt"
+                  },
+                  {
+                    "scriptId": "9400110111",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9400/9400110111.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1449637200,
+            "openedAt": 1449637200,
+            "closedAt": 1450198799
+          },
+          {
+            "id": 94001102,
+            "name": "エピソードI　螺旋虹霓",
+            "type": "event",
+            "consume": 5,
+            "afterClear": "close",
+            "recommendLv": "15",
+            "spotId": 999999,
+            "spotName": "カルデアゲート",
+            "warId": 9999,
+            "warLongName": "カルデアゲート",
+            "gifts": [
+              {
+                "objectId": 6103,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94001101
+              },
+              {
+                "type": "date",
+                "targetId": 0
+              },
+              {
+                "type": "purchaseShop",
+                "targetId": 6000113
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "phasesWithEnemies": [
+              1
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9400110210",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9400/9400110210.txt"
+                  },
+                  {
+                    "scriptId": "9400110211",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9400/9400110211.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1449637200,
+            "openedAt": 1449637200,
+            "closedAt": 1893423600
+          },
+          {
+            "id": 94001103,
+            "name": "エピソードII　灰燼より来たる",
+            "type": "event",
+            "consume": 5,
+            "afterClear": "close",
+            "recommendLv": "20",
+            "spotId": 999999,
+            "spotName": "カルデアゲート",
+            "warId": 9999,
+            "warLongName": "カルデアゲート",
+            "gifts": [
+              {
+                "objectId": 6203,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94001102
+              },
+              {
+                "type": "date",
+                "targetId": 0
+              },
+              {
+                "type": "purchaseShop",
+                "targetId": 6000113
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "phasesWithEnemies": [
+              1
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9400110310",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9400/9400110310.txt"
+                  },
+                  {
+                    "scriptId": "9400110311",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9400/9400110311.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1449637200,
+            "openedAt": 1449637200,
+            "closedAt": 1893423600
+          },
+          {
+            "id": 94001104,
+            "name": "エピソードIII　最後の導き",
+            "type": "event",
+            "consume": 5,
+            "afterClear": "close",
+            "recommendLv": "25",
+            "spotId": 999999,
+            "spotName": "カルデアゲート",
+            "warId": 9999,
+            "warLongName": "カルデアゲート",
+            "gifts": [
+              {
+                "objectId": 4001,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94001103
+              },
+              {
+                "type": "date",
+                "targetId": 0
+              },
+              {
+                "type": "purchaseShop",
+                "targetId": 6000113
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "phasesWithEnemies": [
+              1
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9400110410",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9400/9400110410.txt"
+                  },
+                  {
+                    "scriptId": "9400110411",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9400/9400110411.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1449637200,
+            "openedAt": 1449637200,
+            "closedAt": 1893423600
+          },
+          {
+            "id": 94001401,
+            "name": "再び神の詩を求めよ",
+            "type": "event",
+            "consume": 5,
+            "afterClear": "close",
+            "recommendLv": "15",
+            "spotId": 999999,
+            "spotName": "カルデアゲート",
+            "warId": 9999,
+            "warLongName": "カルデアゲート",
+            "gifts": [
+              {
+                "objectId": 4001,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "none",
+                "targetId": 0
+              },
+              {
+                "type": "date",
+                "targetId": 0
+              }
+            ],
+            "phases": [
+              1,
+              2
+            ],
+            "phasesWithEnemies": [
+              1,
+              2
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9400140110",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9400/9400140110.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 2,
+                "scripts": [
+                  {
+                    "scriptId": "9400140120",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9400/9400140120.txt"
+                  },
+                  {
+                    "scriptId": "9400140121",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9400/9400140121.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1451574000,
+            "openedAt": 1451574000,
+            "closedAt": 1452178799
+          },
+          {
+            "id": 94001402,
+            "name": "我、死中にて活を求めん",
+            "type": "event",
+            "consume": 5,
+            "afterClear": "close",
+            "recommendLv": "20",
+            "spotId": 999999,
+            "spotName": "カルデアゲート",
+            "warId": 9999,
+            "warLongName": "カルデアゲート",
+            "gifts": [
+              {
+                "objectId": 4001,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94001401
+              },
+              {
+                "type": "date",
+                "targetId": 0
+              },
+              {
+                "type": "purchaseShop",
+                "targetId": 6000114
+              }
+            ],
+            "phases": [
+              1,
+              2
+            ],
+            "phasesWithEnemies": [
+              1,
+              2
+            ],
+            "noticeAt": 1451574000,
+            "openedAt": 1451574000,
+            "closedAt": 1893423600
+          },
+          {
+            "id": 94001701,
+            "name": "わが愛しき英雄(ひと)よ",
+            "type": "event",
+            "consume": 5,
+            "afterClear": "close",
+            "recommendLv": "15",
+            "spotId": 999999,
+            "spotName": "カルデアゲート",
+            "warId": 9999,
+            "warLongName": "カルデアゲート",
+            "gifts": [
+              {
+                "objectId": 4001,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 1000011,
+                "closedMessage": "{0}をクリアで開放"
+              },
+              {
+                "type": "date",
+                "targetId": 0
+              }
+            ],
+            "phases": [
+              1,
+              2
+            ],
+            "phasesWithEnemies": [
+              1,
+              2
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9400170110",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9400/9400170110.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 2,
+                "scripts": [
+                  {
+                    "scriptId": "9400170120",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9400/9400170120.txt"
+                  },
+                  {
+                    "scriptId": "9400170121",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9400/9400170121.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1454475600,
+            "openedAt": 1454475600,
+            "closedAt": 1455080399
+          },
+          {
+            "id": 94002303,
+            "name": "第三節　偽杯、天に至らず",
+            "type": "event",
+            "consume": 5,
+            "afterClear": "close",
+            "recommendLv": "25",
+            "spotId": 999999,
+            "spotName": "カルデアゲート",
+            "warId": 9999,
+            "warLongName": "カルデアゲート",
+            "gifts": [
+              {
+                "objectId": 4001,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94002302
+              },
+              {
+                "type": "date",
+                "targetId": 0
+              }
+            ],
+            "phases": [
+              1,
+              2,
+              3
+            ],
+            "phasesWithEnemies": [
+              1,
+              2,
+              3
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9400230310",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9400/9400230310.txt"
+                  },
+                  {
+                    "scriptId": "9400230311",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9400/9400230311.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 2,
+                "scripts": [
+                  {
+                    "scriptId": "9400230320",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9400/9400230320.txt"
+                  },
+                  {
+                    "scriptId": "9400230321",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9400/9400230321.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 3,
+                "scripts": [
+                  {
+                    "scriptId": "9400230330",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9400/9400230330.txt"
+                  },
+                  {
+                    "scriptId": "9400230331",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9400/9400230331.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1457499600,
+            "openedAt": 1457499600,
+            "closedAt": 1458104399
+          },
+          {
+            "id": 94005510,
+            "name": "ダ・ヴィンチ体験クエスト",
+            "type": "event",
+            "consume": 5,
+            "afterClear": "close",
+            "recommendLv": "15",
+            "spotId": 999999,
+            "spotName": "カルデアゲート",
+            "warId": 9999,
+            "warLongName": "カルデアゲート",
+            "gifts": [
+              {
+                "objectId": 4001,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "date",
+                "targetId": 0
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "noticeAt": 1469800800,
+            "openedAt": 1469800800,
+            "closedAt": 1470581999
+          },
+          {
+            "id": 94009501,
+            "name": "「乱入者」",
+            "type": "event",
+            "consume": 5,
+            "afterClear": "close",
+            "recommendLv": "10",
+            "spotId": 999999,
+            "spotName": "カルデアゲート",
+            "warId": 9999,
+            "warLongName": "カルデアゲート",
+            "gifts": [
+              {
+                "objectId": 6001,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 1000011,
+                "closedMessage": "{0}をクリアで開放"
+              },
+              {
+                "type": "date",
+                "targetId": 0
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "phasesWithEnemies": [
+              1
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9400950110",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9400/9400950110.txt"
+                  },
+                  {
+                    "scriptId": "9400950111",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9400/9400950111.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1507435200,
+            "openedAt": 1507435200,
+            "closedAt": 1507906799
+          },
+          {
+            "id": 94009502,
+            "name": "「幕間 一の門」",
+            "type": "event",
+            "consume": 5,
+            "afterClear": "close",
+            "recommendLv": "15",
+            "spotId": 999999,
+            "spotName": "カルデアゲート",
+            "warId": 9999,
+            "warLongName": "カルデアゲート",
+            "gifts": [
+              {
+                "objectId": 6001,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94009501
+              },
+              {
+                "type": "date",
+                "targetId": 0
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "phasesWithEnemies": [
+              1
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9400950210",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9400/9400950210.txt"
+                  },
+                  {
+                    "scriptId": "9400950211",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9400/9400950211.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1507435200,
+            "openedAt": 1507435200,
+            "closedAt": 1507906799
+          },
+          {
+            "id": 94009503,
+            "name": "「幕間 二の門」",
+            "type": "event",
+            "consume": 5,
+            "afterClear": "close",
+            "recommendLv": "20",
+            "spotId": 999999,
+            "spotName": "カルデアゲート",
+            "warId": 9999,
+            "warLongName": "カルデアゲート",
+            "gifts": [
+              {
+                "objectId": 6101,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94009502
+              },
+              {
+                "type": "date",
+                "targetId": 0
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "phasesWithEnemies": [
+              1
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9400950310",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9400/9400950310.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1507435200,
+            "openedAt": 1507435200,
+            "closedAt": 1507906799
+          },
+          {
+            "id": 94009504,
+            "name": "「幕間 三の門」",
+            "type": "event",
+            "consume": 5,
+            "afterClear": "close",
+            "recommendLv": "25",
+            "spotId": 999999,
+            "spotName": "カルデアゲート",
+            "warId": 9999,
+            "warLongName": "カルデアゲート",
+            "gifts": [
+              {
+                "objectId": 6101,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94009503
+              },
+              {
+                "type": "date",
+                "targetId": 0
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "phasesWithEnemies": [
+              1
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9400950410",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9400/9400950410.txt"
+                  },
+                  {
+                    "scriptId": "9400950411",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9400/9400950411.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1507435200,
+            "openedAt": 1507435200,
+            "closedAt": 1507906799
+          },
+          {
+            "id": 94009505,
+            "name": "「漂流者」",
+            "type": "event",
+            "consume": 5,
+            "afterClear": "close",
+            "recommendLv": "30",
+            "spotId": 999999,
+            "spotName": "カルデアゲート",
+            "warId": 9999,
+            "warLongName": "カルデアゲート",
+            "gifts": [
+              {
+                "objectId": 6201,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94009504
+              },
+              {
+                "type": "date",
+                "targetId": 0
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "phasesWithEnemies": [
+              1
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9400950510",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9400/9400950510.txt"
+                  },
+                  {
+                    "scriptId": "9400950511",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9400/9400950511.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1507435200,
+            "openedAt": 1507435200,
+            "closedAt": 1507906799
+          },
+          {
+            "id": 94010001,
+            "name": " 「幕間 Entracte･Ⅰ」",
+            "type": "event",
+            "consume": 5,
+            "afterClear": "close",
+            "recommendLv": "15",
+            "spotId": 999999,
+            "spotName": "カルデアゲート",
+            "warId": 9999,
+            "warLongName": "カルデアゲート",
+            "gifts": [
+              {
+                "objectId": 6007,
+                "num": 3
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 1000011,
+                "closedMessage": "{0}をクリアで開放"
+              },
+              {
+                "type": "date",
+                "targetId": 0
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "phasesWithEnemies": [
+              1
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9401000110",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9401/9401000110.txt"
+                  },
+                  {
+                    "scriptId": "9401000111",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9401/9401000111.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1486530000,
+            "openedAt": 1486530000,
+            "closedAt": 1487739599
+          },
+          {
+            "id": 94010002,
+            "name": " 「幕間 Entracte･Ⅱ」",
+            "type": "event",
+            "consume": 5,
+            "afterClear": "close",
+            "recommendLv": "20",
+            "spotId": 999999,
+            "spotName": "カルデアゲート",
+            "warId": 9999,
+            "warLongName": "カルデアゲート",
+            "gifts": [
+              {
+                "objectId": 6107,
+                "num": 2
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94010001
+              },
+              {
+                "type": "date",
+                "targetId": 0
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "phasesWithEnemies": [
+              1
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9401000210",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9401/9401000210.txt"
+                  },
+                  {
+                    "scriptId": "9401000211",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9401/9401000211.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1486530000,
+            "openedAt": 1486530000,
+            "closedAt": 1487739599
+          },
+          {
+            "id": 94010003,
+            "name": " 「幕間 Entracte･Ⅲ」",
+            "type": "event",
+            "consume": 5,
+            "afterClear": "close",
+            "recommendLv": "25",
+            "spotId": 999999,
+            "spotName": "カルデアゲート",
+            "warId": 9999,
+            "warLongName": "カルデアゲート",
+            "gifts": [
+              {
+                "objectId": 6207,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94010002
+              },
+              {
+                "type": "date",
+                "targetId": 0
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "phasesWithEnemies": [
+              1
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9401000310",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9401/9401000310.txt"
+                  },
+                  {
+                    "scriptId": "9401000311",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9401/9401000311.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1486530000,
+            "openedAt": 1486530000,
+            "closedAt": 1487739599
+          },
+          {
+            "id": 94011701,
+            "name": "───いつか、星を救う日に",
+            "type": "event",
+            "consume": 5,
+            "afterClear": "close",
+            "recommendLv": "15",
+            "spotId": 999999,
+            "spotName": "カルデアゲート",
+            "warId": 9999,
+            "warLongName": "カルデアゲート",
+            "gifts": [
+              {
+                "objectId": 4001,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 1000011,
+                "closedMessage": "{0}をクリアで開放"
+              },
+              {
+                "type": "date",
+                "targetId": 0
+              }
+            ],
+            "phases": [
+              1,
+              2
+            ],
+            "phasesWithEnemies": [
+              1,
+              2
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9401170110",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9401/9401170110.txt"
+                  },
+                  {
+                    "scriptId": "9401170111",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9401/9401170111.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 2,
+                "scripts": [
+                  {
+                    "scriptId": "9401170120",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9401/9401170120.txt"
+                  },
+                  {
+                    "scriptId": "9401170121",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9401/9401170121.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1488960000,
+            "openedAt": 1488960000,
+            "closedAt": 1490162399
+          },
+          {
+            "id": 94014901,
+            "name": "見つける者、明かす者、探偵───或いは調停者",
+            "type": "event",
+            "consume": 5,
+            "afterClear": "close",
+            "recommendLv": "15",
+            "spotId": 999999,
+            "spotName": "カルデアゲート",
+            "warId": 9999,
+            "warLongName": "カルデアゲート",
+            "gifts": [
+              {
+                "objectId": 4001,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 1000011,
+                "closedMessage": "{0}をクリアで開放"
+              },
+              {
+                "type": "date",
+                "targetId": 0
+              }
+            ],
+            "phases": [
+              1,
+              2
+            ],
+            "phasesWithEnemies": [
+              1,
+              2
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9401490110",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9401/9401490110.txt"
+                  },
+                  {
+                    "scriptId": "9401490111",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9401/9401490111.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 2,
+                "scripts": [
+                  {
+                    "scriptId": "9401490120",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9401/9401490120.txt"
+                  },
+                  {
+                    "scriptId": "9401490121",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9401/9401490121.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1501491600,
+            "openedAt": 1501491600,
+            "closedAt": 1502855999
+          },
+          {
+            "id": 94017401,
+            "name": "冬木に降り立つ貴婦人",
+            "type": "event",
+            "consume": 5,
+            "afterClear": "close",
+            "recommendLv": "15",
+            "spotId": 999999,
+            "spotName": "カルデアゲート",
+            "warId": 9999,
+            "warLongName": "カルデアゲート",
+            "gifts": [
+              {
+                "objectId": 4001,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 1000011,
+                "closedMessage": "{0}をクリアで開放"
+              },
+              {
+                "type": "date",
+                "targetId": 0
+              }
+            ],
+            "phases": [
+              1,
+              2,
+              3
+            ],
+            "phasesWithEnemies": [
+              1,
+              2,
+              3
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9401740110",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9401/9401740110.txt"
+                  },
+                  {
+                    "scriptId": "9401740111",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9401/9401740111.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 2,
+                "scripts": [
+                  {
+                    "scriptId": "9401740120",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9401/9401740120.txt"
+                  },
+                  {
+                    "scriptId": "9401740121",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9401/9401740121.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 3,
+                "scripts": [
+                  {
+                    "scriptId": "9401740130",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9401/9401740130.txt"
+                  },
+                  {
+                    "scriptId": "9401740131",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9401/9401740131.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1597222800,
+            "openedAt": 1597222800,
+            "closedAt": 1599796799
+          },
+          {
+            "id": 94019401,
+            "name": "元旦夢の枕",
+            "type": "event",
+            "consume": 5,
+            "afterClear": "close",
+            "recommendLv": "15",
+            "spotId": 999999,
+            "spotName": "カルデアゲート",
+            "warId": 9999,
+            "warLongName": "カルデアゲート",
+            "gifts": [
+              {
+                "objectId": 101,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 1000011,
+                "closedMessage": "{0}をクリアで開放"
+              },
+              {
+                "type": "date",
+                "targetId": 0
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "phasesWithEnemies": [
+              1
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9401940110",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9401/9401940110.txt"
+                  },
+                  {
+                    "scriptId": "9401940111",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9401/9401940111.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1514732400,
+            "openedAt": 1514732400,
+            "closedAt": 1515556799
+          },
+          {
+            "id": 94019402,
+            "name": "浮世絵は夢の如し",
+            "type": "event",
+            "consume": 5,
+            "afterClear": "close",
+            "recommendLv": "15",
+            "spotId": 999999,
+            "spotName": "カルデアゲート",
+            "warId": 9999,
+            "warLongName": "カルデアゲート",
+            "gifts": [
+              {
+                "objectId": 101,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94019401
+              },
+              {
+                "type": "date",
+                "targetId": 0
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "phasesWithEnemies": [
+              1
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9401940210",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9401/9401940210.txt"
+                  },
+                  {
+                    "scriptId": "9401940211",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9401/9401940211.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1514732400,
+            "openedAt": 1514732400,
+            "closedAt": 1515556799
+          },
+          {
+            "id": 94019403,
+            "name": "一筆の春夢",
+            "type": "event",
+            "consume": 5,
+            "afterClear": "close",
+            "recommendLv": "15",
+            "spotId": 999999,
+            "spotName": "カルデアゲート",
+            "warId": 9999,
+            "warLongName": "カルデアゲート",
+            "gifts": [
+              {
+                "objectId": 100,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94019402
+              },
+              {
+                "type": "date",
+                "targetId": 0
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "phasesWithEnemies": [
+              1
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9401940310",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9401/9401940310.txt"
+                  },
+                  {
+                    "scriptId": "9401940311",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9401/9401940311.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1514732400,
+            "openedAt": 1514732400,
+            "closedAt": 1515556799
+          },
+          {
+            "id": 94019404,
+            "name": "江戸の初夢 カルデアの正夢",
+            "type": "event",
+            "consume": 5,
+            "afterClear": "close",
+            "recommendLv": "15",
+            "spotId": 999999,
+            "spotName": "カルデアゲート",
+            "warId": 9999,
+            "warLongName": "カルデアゲート",
+            "gifts": [
+              {
+                "objectId": 4001,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94019403
+              },
+              {
+                "type": "date",
+                "targetId": 0
+              }
+            ],
+            "phases": [
+              1,
+              2
+            ],
+            "phasesWithEnemies": [
+              1,
+              2
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9401940410",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9401/9401940410.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 2,
+                "scripts": [
+                  {
+                    "scriptId": "9401940420",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9401/9401940420.txt"
+                  },
+                  {
+                    "scriptId": "9401940421",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9401/9401940421.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1514732400,
+            "openedAt": 1514732400,
+            "closedAt": 1515556799
+          },
+          {
+            "id": 94021501,
+            "name": "浅上藤乃体験クエスト",
+            "type": "event",
+            "consume": 5,
+            "afterClear": "close",
+            "recommendLv": "15",
+            "spotId": 999999,
+            "spotName": "カルデアゲート",
+            "warId": 9999,
+            "warLongName": "カルデアゲート",
+            "gifts": [
+              {
+                "objectId": 4001,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94021301,
+                "closedMessage": "復刻版:空の境界「エンカウント」クリアで開放"
+              },
+              {
+                "type": "date",
+                "targetId": 0
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "noticeAt": 1518685200,
+            "openedAt": 1518685200,
+            "closedAt": 1519790399
+          },
+          {
+            "id": 94028401,
+            "name": "スカサハ＝スカディ体験クエスト",
+            "type": "event",
+            "consume": 5,
+            "afterClear": "close",
+            "recommendLv": "15",
+            "spotId": 999999,
+            "spotName": "カルデアゲート",
+            "warId": 9999,
+            "warLongName": "カルデアゲート",
+            "gifts": [
+              {
+                "objectId": 4001,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 1000011,
+                "closedMessage": "{0}をクリアで開放"
+              },
+              {
+                "type": "date",
+                "targetId": 0
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "noticeAt": 1532849400,
+            "openedAt": 1532849400,
+            "closedAt": 1534046399
+          },
+          {
+            "id": 94028901,
+            "name": "ディルムッド・オディナ体験クエスト",
+            "type": "event",
+            "consume": 5,
+            "afterClear": "close",
+            "recommendLv": "15",
+            "spotId": 999999,
+            "spotName": "カルデアゲート",
+            "warId": 9999,
+            "warLongName": "カルデアゲート",
+            "gifts": [
+              {
+                "objectId": 4001,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 1000011,
+                "closedMessage": "{0}をクリアで開放"
+              },
+              {
+                "type": "date",
+                "targetId": 0
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "noticeAt": 1536138000,
+            "openedAt": 1536138000,
+            "closedAt": 1537329599
+          },
+          {
+            "id": 94033402,
+            "name": "美遊・エーデルフェルト体験クエスト",
+            "type": "event",
+            "consume": 5,
+            "afterClear": "close",
+            "recommendLv": "15",
+            "spotId": 999999,
+            "spotName": "カルデアゲート",
+            "warId": 9999,
+            "warLongName": "カルデアゲート",
+            "gifts": [
+              {
+                "objectId": 4001,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 1000011,
+                "closedMessage": "{0}をクリアで開放"
+              },
+              {
+                "type": "date",
+                "targetId": 0
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "noticeAt": 1548234000,
+            "openedAt": 1548234000,
+            "closedAt": 1549425599
+          },
+          {
             "id": 94043501,
             "name": "スケルトン・ハント 開位級",
             "type": "event",
@@ -102753,6 +104254,41 @@
             "noticeAt": 1574672400,
             "openedAt": 1574672400,
             "closedAt": 1574827199
+          },
+          {
+            "id": 94044101,
+            "name": "楊貴妃体験クエスト",
+            "type": "event",
+            "consume": 5,
+            "afterClear": "close",
+            "recommendLv": "15",
+            "spotId": 999999,
+            "spotName": "カルデアゲート",
+            "warId": 9999,
+            "warLongName": "カルデアゲート",
+            "gifts": [
+              {
+                "objectId": 4001,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 1000011,
+                "closedMessage": "{0}をクリアで開放"
+              },
+              {
+                "type": "date",
+                "targetId": 0
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "noticeAt": 1577804400,
+            "openedAt": 1577804400,
+            "closedAt": 1579060799
           },
           {
             "id": 94047601,
@@ -104015,6 +105551,41 @@
             "closedAt": 1594785599
           },
           {
+            "id": 94052301,
+            "name": "アルトリア・キャスター体験クエスト",
+            "type": "event",
+            "consume": 5,
+            "afterClear": "close",
+            "recommendLv": "15",
+            "spotId": 999999,
+            "spotName": "カルデアゲート",
+            "warId": 9999,
+            "warLongName": "カルデアゲート",
+            "gifts": [
+              {
+                "objectId": 4001,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 1000011,
+                "closedMessage": "{0}をクリアで開放"
+              },
+              {
+                "type": "date",
+                "targetId": 0
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "noticeAt": 1597051800,
+            "openedAt": 1597051800,
+            "closedAt": 1598241599
+          },
+          {
             "id": 94053101,
             "name": "心を失った者・ハント 開位級",
             "type": "event",
@@ -104733,6 +106304,44 @@
             "noticeAt": 1602061200,
             "openedAt": 1602061200,
             "closedAt": 1602215999
+          },
+          {
+            "id": 94055101,
+            "name": "千子村正体験クエスト",
+            "type": "event",
+            "consume": 5,
+            "afterClear": "close",
+            "recommendLv": "15",
+            "spotId": 999999,
+            "spotName": "カルデアゲート",
+            "warId": 9999,
+            "warLongName": "カルデアゲート",
+            "gifts": [
+              {
+                "objectId": 4001,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 1000011,
+                "closedMessage": "{0}をクリアで開放"
+              },
+              {
+                "type": "date",
+                "targetId": 0
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "phasesWithEnemies": [
+              1
+            ],
+            "noticeAt": 1609426800,
+            "openedAt": 1609426800,
+            "closedAt": 1610683199
           },
           {
             "id": 94058401,
@@ -105527,6 +107136,44 @@
             "closedAt": 1618372799
           },
           {
+            "id": 94061641,
+            "name": "光のコヤンスカヤ体験クエスト",
+            "type": "event",
+            "consume": 5,
+            "afterClear": "close",
+            "recommendLv": "15",
+            "spotId": 999999,
+            "spotName": "カルデアゲート",
+            "warId": 9999,
+            "warLongName": "カルデアゲート",
+            "gifts": [
+              {
+                "objectId": 4001,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 1000011,
+                "closedMessage": "{0}をクリアで開放"
+              },
+              {
+                "type": "date",
+                "targetId": 0
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "phasesWithEnemies": [
+              1
+            ],
+            "noticeAt": 1627812000,
+            "openedAt": 1627812000,
+            "closedAt": 1628999999
+          },
+          {
             "id": 94061801,
             "name": "スケルトン・ハント 開位級",
             "type": "event",
@@ -106317,6 +107964,82 @@
             "noticeAt": 1629882000,
             "openedAt": 1629882000,
             "closedAt": 1630036799
+          },
+          {
+            "id": 94066150,
+            "name": "闇のコヤンスカヤ体験クエスト",
+            "type": "event",
+            "consume": 5,
+            "afterClear": "close",
+            "recommendLv": "15",
+            "spotId": 999999,
+            "spotName": "カルデアゲート",
+            "warId": 9999,
+            "warLongName": "カルデアゲート",
+            "gifts": [
+              {
+                "objectId": 4001,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 1000011,
+                "closedMessage": "{0}をクリアで開放"
+              },
+              {
+                "type": "date",
+                "targetId": 0
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "phasesWithEnemies": [
+              1
+            ],
+            "noticeAt": 1640962800,
+            "openedAt": 1640962800,
+            "closedAt": 1641787199
+          },
+          {
+            "id": 94071701,
+            "name": "コンスタンティノス11世体験クエスト",
+            "type": "event",
+            "consume": 5,
+            "afterClear": "close",
+            "recommendLv": "15",
+            "spotId": 999999,
+            "spotName": "カルデアゲート",
+            "warId": 9999,
+            "warLongName": "カルデアゲート",
+            "gifts": [
+              {
+                "objectId": 4001,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 1000011,
+                "closedMessage": "{0}をクリアで開放"
+              },
+              {
+                "type": "date",
+                "targetId": 0
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "phasesWithEnemies": [
+              1
+            ],
+            "noticeAt": 1652864400,
+            "openedAt": 1652864400,
+            "closedAt": 1654660799
           }
         ]
       }
