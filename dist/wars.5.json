@@ -44095,7 +44095,7 @@
       "dispFirstQuest"
     ],
     "banner": "https://static.atlasacademy.io/JP/Banner/event_war_80342.png",
-    "priority": 9128,
+    "priority": 311,
     "bgm": {
       "id": 0
     },
@@ -59648,6 +59648,1758 @@
         "dispTargetId": 0,
         "dispTargetValue": 0,
         "dispCondType2": "useItemTime",
+        "dispTargetId2": 0,
+        "dispTargetValue2": 0,
+        "activeCondType": "questClear",
+        "activeTargetId": 0,
+        "activeTargetValue": 0
+      }
+    ]
+  },
+  {
+    "id": 9135,
+    "coordinates": [
+      [
+        60.916668,
+        101.95
+      ],
+      [
+        56.31135,
+        97.30284
+      ]
+    ],
+    "age": "-",
+    "name": "非霊長生存圏 ツングースカ・サンクチュアリ",
+    "longName": "非霊長生存圏 ツングースカ・サンクチュアリ",
+    "originalLongName": "非霊長生存圏 ツングースカ・サンクチュアリ",
+    "flags": [
+      "withMap",
+      "isEvent",
+      "noClearMarkWithClear",
+      "shop"
+    ],
+    "banner": "https://static.atlasacademy.io/JP/Banner/event_war_106.png",
+    "priority": 311,
+    "parentWarId": 1004,
+    "bgm": {
+      "id": 0
+    },
+    "scriptId": "NONE",
+    "script": "https://static.atlasacademy.io/JP/Script/Common/NONE.txt",
+    "startType": "none",
+    "targetId": 0,
+    "eventId": 80372,
+    "eventName": "メイン・インタールード\n非霊長生存圏 ツングースカ・サンクチュアリ",
+    "lastQuestId": 94071014,
+    "warAdds": [
+      {
+        "warId": 9135,
+        "type": "bgImage",
+        "priority": 1,
+        "overwriteId": 57400,
+        "condType": "none",
+        "targetId": 94071013,
+        "value": 0,
+        "startedAt": 1653469200,
+        "endedAt": 1901199599
+      },
+      {
+        "warId": 9135,
+        "type": "flag",
+        "priority": 1,
+        "overwriteId": 1058912,
+        "condType": "questClear",
+        "targetId": 94071013,
+        "value": 3,
+        "startedAt": 1653469200,
+        "endedAt": 1901199599
+      },
+      {
+        "warId": 9135,
+        "type": "coordinates",
+        "priority": 1,
+        "overwriteId": 0,
+        "overwriteStr": "[[],[]]",
+        "condType": "notShopPurchase",
+        "targetId": 6000657,
+        "value": 1,
+        "startedAt": 1653469200,
+        "endedAt": 1901199599
+      },
+      {
+        "warId": 9135,
+        "type": "flag",
+        "priority": 2,
+        "overwriteId": 10336,
+        "condType": "questClear",
+        "targetId": 94071014,
+        "value": 3,
+        "startedAt": 1653469200,
+        "endedAt": 1901199599
+      }
+    ],
+    "maps": [
+      {
+        "id": 9135,
+        "mapImage": "https://static.atlasacademy.io/JP/Terminal/MapImgs/img_questmap_009128/img_questmap_009128.png",
+        "mapImageW": 2048,
+        "mapImageH": 1440,
+        "bgm": {
+          "id": 559
+        }
+      }
+    ],
+    "spots": [
+      {
+        "id": 913501,
+        "mapId": 9135,
+        "name": "ストーム・ボーダー",
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9128/QMap_Cap9128_Atlas/spot_912801.png",
+        "x": 500,
+        "y": 1060,
+        "nameOfsY": -10,
+        "questOfsX": 43,
+        "questOfsY": -57,
+        "quests": [
+          {
+            "id": 94071002,
+            "name": "第1節 Beyond the walls of the world",
+            "type": "main",
+            "consume": 5,
+            "afterClear": "close",
+            "recommendLv": "1",
+            "spotId": 913501,
+            "spotName": "ストーム・ボーダー",
+            "warId": 9135,
+            "warLongName": "非霊長生存圏 ツングースカ・サンクチュアリ",
+            "gifts": [
+              {
+                "objectId": 2,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "date",
+                "targetId": 0,
+                "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+              },
+              {
+                "type": "purchaseShop",
+                "targetId": 6000657
+              }
+            ],
+            "phases": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "phasesNoBattle": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9406490210",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406490210.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 2,
+                "scripts": [
+                  {
+                    "scriptId": "9406490220",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406490220.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 3,
+                "scripts": [
+                  {
+                    "scriptId": "9406490230",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406490230.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 4,
+                "scripts": [
+                  {
+                    "scriptId": "9406490240",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406490240.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1653469200,
+            "openedAt": 1653469200,
+            "closedAt": 1901199599
+          },
+          {
+            "id": 94071003,
+            "name": "第2節 大衝突",
+            "type": "main",
+            "consume": 5,
+            "afterClear": "close",
+            "recommendLv": "70",
+            "spotId": 913501,
+            "spotName": "ストーム・ボーダー",
+            "warId": 9135,
+            "warLongName": "非霊長生存圏 ツングースカ・サンクチュアリ",
+            "gifts": [
+              {
+                "objectId": 2,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94071002
+              },
+              {
+                "type": "date",
+                "targetId": 0,
+                "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+              },
+              {
+                "type": "purchaseShop",
+                "targetId": 6000657
+              }
+            ],
+            "phases": [
+              1,
+              2
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9406490310",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406490310.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 2,
+                "scripts": [
+                  {
+                    "scriptId": "9406490320",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406490320.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1653469200,
+            "openedAt": 1653469200,
+            "closedAt": 1901199599
+          }
+        ]
+      },
+      {
+        "id": 913502,
+        "mapId": 9135,
+        "name": "フォーリングポイント",
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9128/QMap_Cap9128_Atlas/spot_912802.png",
+        "x": 767,
+        "y": 978,
+        "nameOfsY": -2,
+        "questOfsX": 35,
+        "questOfsY": -65
+      },
+      {
+        "id": 913503,
+        "mapId": 9135,
+        "name": "深い森林",
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9128/QMap_Cap9128_Atlas/spot_912803.png",
+        "x": 1043,
+        "y": 980,
+        "nameOfsY": -2,
+        "questOfsX": 35,
+        "questOfsY": -65,
+        "quests": [
+          {
+            "id": 94071004,
+            "name": "第3節 永遠を目指す者",
+            "type": "main",
+            "consume": 5,
+            "afterClear": "close",
+            "recommendLv": "1",
+            "spotId": 913503,
+            "spotName": "深い森林",
+            "warId": 9135,
+            "warLongName": "非霊長生存圏 ツングースカ・サンクチュアリ",
+            "gifts": [
+              {
+                "objectId": 2,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94071003
+              },
+              {
+                "type": "date",
+                "targetId": 0,
+                "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+              },
+              {
+                "type": "purchaseShop",
+                "targetId": 6000657
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "phasesNoBattle": [
+              1
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9406490410",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406490410.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1653469200,
+            "openedAt": 1653469200,
+            "closedAt": 1901199599
+          },
+          {
+            "id": 94071005,
+            "name": "第4節 ニキチッチ解決法",
+            "type": "main",
+            "consume": 5,
+            "afterClear": "close",
+            "recommendLv": "80",
+            "spotId": 913503,
+            "spotName": "深い森林",
+            "warId": 9135,
+            "warLongName": "非霊長生存圏 ツングースカ・サンクチュアリ",
+            "gifts": [
+              {
+                "objectId": 2,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94071004
+              },
+              {
+                "type": "date",
+                "targetId": 0,
+                "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+              },
+              {
+                "type": "purchaseShop",
+                "targetId": 6000657
+              }
+            ],
+            "phases": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "phasesNoBattle": [
+              1,
+              4,
+              5
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9406490510",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406490510.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 2,
+                "scripts": [
+                  {
+                    "scriptId": "9406490520",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406490520.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 3,
+                "scripts": [
+                  {
+                    "scriptId": "9406490530",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406490530.txt"
+                  },
+                  {
+                    "scriptId": "9406490531",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406490531.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 4,
+                "scripts": [
+                  {
+                    "scriptId": "9406490540",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406490540.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 5,
+                "scripts": [
+                  {
+                    "scriptId": "9406490550",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406490550.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1653469200,
+            "openedAt": 1653469200,
+            "closedAt": 1901199599
+          },
+          {
+            "id": 94071012,
+            "name": "第11節 愛玩降臨",
+            "type": "main",
+            "consume": 5,
+            "afterClear": "close",
+            "recommendLv": "85",
+            "spotId": 913503,
+            "spotName": "深い森林",
+            "warId": 9135,
+            "warLongName": "非霊長生存圏 ツングースカ・サンクチュアリ",
+            "gifts": [
+              {
+                "objectId": 2,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94071011
+              },
+              {
+                "type": "date",
+                "targetId": 0,
+                "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+              },
+              {
+                "type": "purchaseShop",
+                "targetId": 6000657
+              }
+            ],
+            "phases": [
+              1,
+              2,
+              3
+            ],
+            "phasesNoBattle": [
+              1,
+              3
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9406491210",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406491210.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 2,
+                "scripts": [
+                  {
+                    "scriptId": "9406491220",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406491220.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 3,
+                "scripts": [
+                  {
+                    "scriptId": "9406491230",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406491230.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1653469200,
+            "openedAt": 1653469200,
+            "closedAt": 1901199599
+          }
+        ]
+      },
+      {
+        "id": 913504,
+        "mapId": 9135,
+        "name": "超抜級拠点・南",
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9128/QMap_Cap9128_Atlas/spot_912804.png",
+        "x": 1339,
+        "y": 868,
+        "nameOfsY": -3,
+        "questOfsX": 34,
+        "questOfsY": -74,
+        "quests": [
+          {
+            "id": 94071006,
+            "name": "第5節 たおやかなる狂える命に",
+            "type": "main",
+            "consume": 5,
+            "afterClear": "close",
+            "recommendLv": "1",
+            "spotId": 913504,
+            "spotName": "超抜級拠点・南",
+            "warId": 9135,
+            "warLongName": "非霊長生存圏 ツングースカ・サンクチュアリ",
+            "gifts": [
+              {
+                "objectId": 2,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94071101
+              },
+              {
+                "type": "date",
+                "targetId": 0,
+                "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+              },
+              {
+                "type": "purchaseShop",
+                "targetId": 6000657
+              }
+            ],
+            "phases": [
+              1,
+              2,
+              3
+            ],
+            "phasesNoBattle": [
+              1,
+              2,
+              3
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9406490610",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406490610.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 2,
+                "scripts": [
+                  {
+                    "scriptId": "9406490620",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406490620.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 3,
+                "scripts": [
+                  {
+                    "scriptId": "9406490630",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406490630.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1653469200,
+            "openedAt": 1653469200,
+            "closedAt": 1901199599
+          },
+          {
+            "id": 94071101,
+            "name": "AN602-Ivan 攻略戦",
+            "type": "main",
+            "consume": 5,
+            "afterClear": "close",
+            "recommendLv": "90",
+            "spotId": 913504,
+            "spotName": "超抜級拠点・南",
+            "warId": 9135,
+            "warLongName": "非霊長生存圏 ツングースカ・サンクチュアリ",
+            "gifts": [
+              {
+                "objectId": 2,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94071005
+              },
+              {
+                "type": "date",
+                "targetId": 0
+              },
+              {
+                "type": "purchaseShop",
+                "targetId": 6000657
+              },
+              {
+                "type": "raidGroupDead",
+                "targetId": 80372,
+                "value": 1
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "noticeAt": 1653469200,
+            "openedAt": 1653469200,
+            "closedAt": 1901199599
+          },
+          {
+            "id": 94071191,
+            "name": "",
+            "type": "event",
+            "flags": [
+              "raid",
+              "raidConnection",
+              "noDisplayRemain",
+              "noDisplayRaidRemain"
+            ],
+            "consume": 40,
+            "afterClear": "repeatLast",
+            "recommendLv": "90+",
+            "spotId": 913504,
+            "spotName": "超抜級拠点・南",
+            "warId": 9135,
+            "warLongName": "非霊長生存圏 ツングースカ・サンクチュアリ",
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94071005
+              },
+              {
+                "type": "date",
+                "targetId": 0
+              },
+              {
+                "type": "raidAlive",
+                "targetId": 80372,
+                "value": 1
+              }
+            ],
+            "phases": [],
+            "noticeAt": 1653469200,
+            "openedAt": 1653469200,
+            "closedAt": 1901199599
+          }
+        ]
+      },
+      {
+        "id": 913505,
+        "mapId": 9135,
+        "name": "静かな河畔",
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9128/QMap_Cap9128_Atlas/spot_912805.png",
+        "x": 946,
+        "y": 813,
+        "nameOfsY": 1,
+        "questOfsX": 35,
+        "questOfsY": -65
+      },
+      {
+        "id": 913506,
+        "mapId": 9135,
+        "name": "生存領域",
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9128/QMap_Cap9128_Atlas/spot_912806.png",
+        "x": 722,
+        "y": 716,
+        "nameOfsY": 2,
+        "questOfsX": 32,
+        "questOfsY": -79,
+        "quests": [
+          {
+            "id": 94071010,
+            "name": "第9節 霊長の星への賛歌Ⅰ",
+            "type": "main",
+            "consume": 5,
+            "afterClear": "close",
+            "recommendLv": "1",
+            "spotId": 913506,
+            "spotName": "生存領域",
+            "warId": 9135,
+            "warLongName": "非霊長生存圏 ツングースカ・サンクチュアリ",
+            "gifts": [
+              {
+                "objectId": 2,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94071009
+              },
+              {
+                "type": "date",
+                "targetId": 0,
+                "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+              },
+              {
+                "type": "purchaseShop",
+                "targetId": 6000657
+              }
+            ],
+            "phases": [
+              1,
+              2
+            ],
+            "phasesNoBattle": [
+              1,
+              2
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9406491010",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406491010.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 2,
+                "scripts": [
+                  {
+                    "scriptId": "9406491020",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406491020.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1653469200,
+            "openedAt": 1653469200,
+            "closedAt": 1901199599
+          }
+        ]
+      },
+      {
+        "id": 913507,
+        "mapId": 9135,
+        "name": "殺戮領域",
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9128/QMap_Cap9128_Atlas/spot_912807.png",
+        "x": 1102,
+        "y": 683,
+        "nameOfsY": -2,
+        "questOfsX": 32,
+        "questOfsY": -55,
+        "quests": [
+          {
+            "id": 94071007,
+            "name": "第6節 殺戮の荒野から",
+            "type": "main",
+            "consume": 5,
+            "afterClear": "close",
+            "recommendLv": "80",
+            "spotId": 913507,
+            "spotName": "殺戮領域",
+            "warId": 9135,
+            "warLongName": "非霊長生存圏 ツングースカ・サンクチュアリ",
+            "gifts": [
+              {
+                "objectId": 2,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94071006
+              },
+              {
+                "type": "date",
+                "targetId": 0,
+                "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+              },
+              {
+                "type": "purchaseShop",
+                "targetId": 6000657
+              }
+            ],
+            "phases": [
+              1,
+              2
+            ],
+            "phasesNoBattle": [
+              1
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9406490710",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406490710.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 2,
+                "scripts": [
+                  {
+                    "scriptId": "9406490720",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406490720.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1653469200,
+            "openedAt": 1653469200,
+            "closedAt": 1901199599
+          },
+          {
+            "id": 94071008,
+            "name": "第7節 氷は溶けた、炎が消える",
+            "type": "main",
+            "consume": 5,
+            "afterClear": "close",
+            "recommendLv": "85",
+            "spotId": 913507,
+            "spotName": "殺戮領域",
+            "warId": 9135,
+            "warLongName": "非霊長生存圏 ツングースカ・サンクチュアリ",
+            "gifts": [
+              {
+                "objectId": 2,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94071007
+              },
+              {
+                "type": "date",
+                "targetId": 0,
+                "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+              },
+              {
+                "type": "purchaseShop",
+                "targetId": 6000657
+              }
+            ],
+            "phases": [
+              1,
+              2
+            ],
+            "phasesNoBattle": [
+              2
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9406490810",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406490810.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 2,
+                "scripts": [
+                  {
+                    "scriptId": "9406490820",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406490820.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1653469200,
+            "openedAt": 1653469200,
+            "closedAt": 1901199599
+          },
+          {
+            "id": 94071009,
+            "name": "第8節 汝が半数体の楽園",
+            "type": "main",
+            "consume": 5,
+            "afterClear": "close",
+            "recommendLv": "1",
+            "spotId": 913507,
+            "spotName": "殺戮領域",
+            "warId": 9135,
+            "warLongName": "非霊長生存圏 ツングースカ・サンクチュアリ",
+            "gifts": [
+              {
+                "objectId": 2,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94071102
+              },
+              {
+                "type": "date",
+                "targetId": 0,
+                "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+              },
+              {
+                "type": "purchaseShop",
+                "targetId": 6000657
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "phasesNoBattle": [
+              1
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9406490910",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406490910.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1653469200,
+            "openedAt": 1653469200,
+            "closedAt": 1901199599
+          }
+        ]
+      },
+      {
+        "id": 913510,
+        "mapId": 9135,
+        "name": "ＮＦＦ本社ビル",
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9128/QMap_Cap9128_Atlas/spot_912810.png",
+        "x": 1544,
+        "y": 635,
+        "nameOfsY": -11,
+        "questOfsX": 30,
+        "questOfsY": -96
+      },
+      {
+        "id": 913512,
+        "mapId": 9135,
+        "name": "超抜級拠点・西",
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9128/QMap_Cap9128_Atlas/spot_912812.png",
+        "x": 997,
+        "y": 589,
+        "nameOfsY": -4,
+        "questOfsX": 39,
+        "questOfsY": -68,
+        "quests": [
+          {
+            "id": 94071102,
+            "name": "R-36M2-Voevoda 攻略戦",
+            "type": "main",
+            "consume": 5,
+            "afterClear": "close",
+            "recommendLv": "90",
+            "spotId": 913512,
+            "spotName": "超抜級拠点・西",
+            "warId": 9135,
+            "warLongName": "非霊長生存圏 ツングースカ・サンクチュアリ",
+            "gifts": [
+              {
+                "objectId": 2,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94071008
+              },
+              {
+                "type": "date",
+                "targetId": 0
+              },
+              {
+                "type": "purchaseShop",
+                "targetId": 6000657
+              },
+              {
+                "type": "raidGroupDead",
+                "targetId": 80372,
+                "value": 2
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "noticeAt": 1653469200,
+            "openedAt": 1653469200,
+            "closedAt": 1901199599
+          },
+          {
+            "id": 94071192,
+            "name": "",
+            "type": "event",
+            "flags": [
+              "raid",
+              "raidConnection",
+              "noDisplayRemain",
+              "noDisplayRaidRemain"
+            ],
+            "consume": 40,
+            "afterClear": "repeatLast",
+            "recommendLv": "90+",
+            "spotId": 913512,
+            "spotName": "超抜級拠点・西",
+            "warId": 9135,
+            "warLongName": "非霊長生存圏 ツングースカ・サンクチュアリ",
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94071008
+              },
+              {
+                "type": "date",
+                "targetId": 0
+              },
+              {
+                "type": "raidAlive",
+                "targetId": 80372,
+                "value": 2
+              }
+            ],
+            "phases": [],
+            "noticeAt": 1653469200,
+            "openedAt": 1653469200,
+            "closedAt": 1901199599
+          }
+        ]
+      },
+      {
+        "id": 913513,
+        "mapId": 9135,
+        "name": "フォーリングポイント",
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9128/QMap_Cap9128_Atlas/spot_912813.png",
+        "x": 767,
+        "y": 978,
+        "nameOfsY": -2,
+        "questOfsX": 35,
+        "questOfsY": -65
+      },
+      {
+        "id": 913514,
+        "mapId": 9135,
+        "name": "生存領域",
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9128/QMap_Cap9128_Atlas/spot_912814.png",
+        "x": 722,
+        "y": 716,
+        "nameOfsY": 2,
+        "questOfsX": 32,
+        "questOfsY": -79
+      },
+      {
+        "id": 913515,
+        "mapId": 9135,
+        "name": "深い森林",
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9128/QMap_Cap9128_Atlas/spot_912815.png",
+        "x": 1043,
+        "y": 980,
+        "nameOfsY": -2,
+        "questOfsX": 35,
+        "questOfsY": -65
+      },
+      {
+        "id": 913516,
+        "mapId": 9135,
+        "name": "ＮＦＦ本社ビル",
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9128/QMap_Cap9128_Atlas/spot_912816.png",
+        "x": 1544,
+        "y": 635,
+        "nameOfsY": -16,
+        "questOfsX": 30,
+        "questOfsY": -96
+      },
+      {
+        "id": 913517,
+        "mapId": 9135,
+        "name": "超抜級拠点・南",
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9128/QMap_Cap9128_Atlas/spot_912817.png",
+        "x": 1339,
+        "y": 868,
+        "questOfsX": 34,
+        "questOfsY": -74
+      },
+      {
+        "id": 913518,
+        "mapId": 9135,
+        "name": "静かな河畔",
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9128/QMap_Cap9128_Atlas/spot_912818.png",
+        "x": 946,
+        "y": 813,
+        "nameOfsY": 1,
+        "questOfsX": 35,
+        "questOfsY": -65
+      },
+      {
+        "id": 913519,
+        "mapId": 9135,
+        "name": "ＮＦＦ本社ビル",
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9128/QMap_Cap9128_Atlas/spot_912819.png",
+        "x": 1544,
+        "y": 635,
+        "nameOfsY": -16,
+        "questOfsX": 30,
+        "questOfsY": -96,
+        "quests": [
+          {
+            "id": 94071013,
+            "name": "第12節 ただひとつの、冴えたやり方",
+            "type": "main",
+            "consume": 5,
+            "afterClear": "close",
+            "recommendLv": "1",
+            "spotId": 913519,
+            "spotName": "ＮＦＦ本社ビル",
+            "warId": 9135,
+            "warLongName": "非霊長生存圏 ツングースカ・サンクチュアリ",
+            "gifts": [
+              {
+                "objectId": 2,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94071104
+              },
+              {
+                "type": "date",
+                "targetId": 0,
+                "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+              },
+              {
+                "type": "purchaseShop",
+                "targetId": 6000657
+              }
+            ],
+            "phases": [
+              1,
+              2,
+              3
+            ],
+            "phasesNoBattle": [
+              1,
+              2,
+              3
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9406491310",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406491310.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 2,
+                "scripts": [
+                  {
+                    "scriptId": "9406491320",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406491320.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 3,
+                "scripts": [
+                  {
+                    "scriptId": "9406491330",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406491330.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1653469200,
+            "openedAt": 1653469200,
+            "closedAt": 1901199599
+          },
+          {
+            "id": 94071104,
+            "name": "ロストベルト：ビーストⅣ 決戦",
+            "type": "main",
+            "consume": 5,
+            "afterClear": "close",
+            "recommendLv": "90+",
+            "spotId": 913519,
+            "spotName": "ＮＦＦ本社ビル",
+            "warId": 9135,
+            "warLongName": "非霊長生存圏 ツングースカ・サンクチュアリ",
+            "gifts": [
+              {
+                "objectId": 2,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94071012
+              },
+              {
+                "type": "date",
+                "targetId": 0
+              },
+              {
+                "type": "purchaseShop",
+                "targetId": 6000657
+              },
+              {
+                "type": "raidGroupDead",
+                "targetId": 80372,
+                "value": 4
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "noticeAt": 1653469200,
+            "openedAt": 1653469200,
+            "closedAt": 1901199599
+          },
+          {
+            "id": 94071194,
+            "name": "",
+            "type": "event",
+            "flags": [
+              "raid",
+              "raidConnection",
+              "noDisplayRemain",
+              "noDisplayRaidRemain"
+            ],
+            "consume": 40,
+            "afterClear": "repeatLast",
+            "recommendLv": "90++",
+            "spotId": 913519,
+            "spotName": "ＮＦＦ本社ビル",
+            "warId": 9135,
+            "warLongName": "非霊長生存圏 ツングースカ・サンクチュアリ",
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94071012
+              },
+              {
+                "type": "date",
+                "targetId": 0
+              },
+              {
+                "type": "raidAlive",
+                "targetId": 80372,
+                "value": 100
+              }
+            ],
+            "phases": [],
+            "noticeAt": 1653469200,
+            "openedAt": 1653469200,
+            "closedAt": 1901199599
+          }
+        ]
+      },
+      {
+        "id": 913520,
+        "mapId": 9135,
+        "name": "？？？",
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9128/QMap_Cap9128_Atlas/spot_912812.png",
+        "x": 997,
+        "y": 589,
+        "nameOfsY": -4,
+        "questOfsX": 39,
+        "questOfsY": -68
+      },
+      {
+        "id": 913521,
+        "mapId": 9135,
+        "name": "戦慄く河畔",
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9128/QMap_Cap9128_Atlas/spot_912818.png",
+        "x": 946,
+        "y": 813,
+        "nameOfsY": 1,
+        "questOfsX": 35,
+        "questOfsY": -65,
+        "quests": [
+          {
+            "id": 94071011,
+            "name": "第10節 霊長の星への賛歌Ⅱ",
+            "type": "main",
+            "consume": 5,
+            "afterClear": "close",
+            "recommendLv": "90",
+            "spotId": 913521,
+            "spotName": "戦慄く河畔",
+            "warId": 9135,
+            "warLongName": "非霊長生存圏 ツングースカ・サンクチュアリ",
+            "gifts": [
+              {
+                "objectId": 2,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94071103
+              },
+              {
+                "type": "date",
+                "targetId": 0,
+                "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+              },
+              {
+                "type": "purchaseShop",
+                "targetId": 6000657
+              }
+            ],
+            "phases": [
+              1,
+              2,
+              3
+            ],
+            "phasesNoBattle": [
+              1,
+              3
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9406491110",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406491110.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 2,
+                "scripts": [
+                  {
+                    "scriptId": "9406491120",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406491120.txt"
+                  },
+                  {
+                    "scriptId": "9406491121",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406491121.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 3,
+                "scripts": [
+                  {
+                    "scriptId": "9406491130",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406491130.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1653469200,
+            "openedAt": 1653469200,
+            "closedAt": 1901199599
+          },
+          {
+            "id": 94071103,
+            "name": "異聞眷属群 攻略戦",
+            "type": "main",
+            "consume": 5,
+            "afterClear": "close",
+            "recommendLv": "90",
+            "spotId": 913521,
+            "spotName": "戦慄く河畔",
+            "warId": 9135,
+            "warLongName": "非霊長生存圏 ツングースカ・サンクチュアリ",
+            "gifts": [
+              {
+                "objectId": 2,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94071010
+              },
+              {
+                "type": "date",
+                "targetId": 0
+              },
+              {
+                "type": "purchaseShop",
+                "targetId": 6000657
+              },
+              {
+                "type": "raidGroupDead",
+                "targetId": 80372,
+                "value": 3
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "noticeAt": 1653469200,
+            "openedAt": 1653469200,
+            "closedAt": 1901199599
+          }
+        ]
+      },
+      {
+        "id": 913522,
+        "mapId": 9135,
+        "name": "静かな河畔",
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9128/QMap_Cap9128_Atlas/spot_912818.png",
+        "x": 946,
+        "y": 813,
+        "nameOfsY": 1,
+        "questOfsX": 35,
+        "questOfsY": -65
+      },
+      {
+        "id": 913599,
+        "mapId": 9135,
+        "name": "0",
+        "x": 999999,
+        "y": 999999,
+        "nameOfsY": 3,
+        "questOfsX": 41,
+        "questOfsY": -71,
+        "quests": [
+          {
+            "id": 94071014,
+            "name": "第13節 愛はさだめ、さだめは───",
+            "type": "main",
+            "consume": 5,
+            "afterClear": "close",
+            "recommendLv": "1",
+            "spotId": 913599,
+            "spotName": "0",
+            "warId": 9135,
+            "warLongName": "非霊長生存圏 ツングースカ・サンクチュアリ",
+            "gifts": [
+              {
+                "objectId": 7999,
+                "num": 1,
+                "giftAdds": [
+                  {
+                    "priority": 0,
+                    "replacementGiftIcon": "https://static.atlasacademy.io/JP/Items/19.png",
+                    "condType": "questClear",
+                    "targetId": 94064914,
+                    "targetNum": 1,
+                    "replacementGifts": [
+                      {
+                        "id": 94071002,
+                        "objectId": 6999,
+                        "priority": 0,
+                        "num": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94071013
+              },
+              {
+                "type": "date",
+                "targetId": 0,
+                "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+              },
+              {
+                "type": "purchaseShop",
+                "targetId": 6000657
+              }
+            ],
+            "phases": [
+              1,
+              2,
+              3
+            ],
+            "phasesNoBattle": [
+              1,
+              2,
+              3
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9406491410",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406491410.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 2,
+                "scripts": [
+                  {
+                    "scriptId": "9406491420",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406491420.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 3,
+                "scripts": [
+                  {
+                    "scriptId": "9406491430",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406491430.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1653469200,
+            "openedAt": 1653469200,
+            "closedAt": 1901199599
+          }
+        ]
+      }
+    ],
+    "spotRoads": [
+      {
+        "id": 913501,
+        "warId": 9135,
+        "mapId": 9135,
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9128/QMap_Cap9128_Atlas/img_road9128_00.png",
+        "srcSpotId": 913501,
+        "dstSpotId": 913502,
+        "dispCondType": "itemGet",
+        "dispTargetId": 94071002,
+        "dispTargetValue": 3,
+        "dispCondType2": "questClear",
+        "dispTargetId2": 0,
+        "dispTargetValue2": 0,
+        "activeCondType": "questClear",
+        "activeTargetId": 0,
+        "activeTargetValue": 0
+      },
+      {
+        "id": 913502,
+        "warId": 9135,
+        "mapId": 9135,
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9128/QMap_Cap9128_Atlas/img_road9128_00.png",
+        "srcSpotId": 913502,
+        "dstSpotId": 913503,
+        "dispCondType": "itemGet",
+        "dispTargetId": 94071003,
+        "dispTargetValue": 1,
+        "dispCondType2": "questClear",
+        "dispTargetId2": 0,
+        "dispTargetValue2": 0,
+        "activeCondType": "questClear",
+        "activeTargetId": 0,
+        "activeTargetValue": 0
+      },
+      {
+        "id": 913503,
+        "warId": 9135,
+        "mapId": 9135,
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9128/QMap_Cap9128_Atlas/img_road9128_00.png",
+        "srcSpotId": 913503,
+        "dstSpotId": 913504,
+        "dispCondType": "itemGet",
+        "dispTargetId": 94071005,
+        "dispTargetValue": 4,
+        "dispCondType2": "questClear",
+        "dispTargetId2": 0,
+        "dispTargetValue2": 0,
+        "activeCondType": "questClear",
+        "activeTargetId": 0,
+        "activeTargetValue": 0
+      },
+      {
+        "id": 913504,
+        "warId": 9135,
+        "mapId": 9135,
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9128/QMap_Cap9128_Atlas/img_road9128_00.png",
+        "srcSpotId": 913504,
+        "dstSpotId": 913505,
+        "dispCondType": "itemGet",
+        "dispTargetId": 94071006,
+        "dispTargetValue": 1,
+        "dispCondType2": "questClear",
+        "dispTargetId2": 0,
+        "dispTargetValue2": 0,
+        "activeCondType": "questClear",
+        "activeTargetId": 0,
+        "activeTargetValue": 0
+      },
+      {
+        "id": 913506,
+        "warId": 9135,
+        "mapId": 9135,
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9128/QMap_Cap9128_Atlas/img_road9128_00.png",
+        "srcSpotId": 913507,
+        "dstSpotId": 913512,
+        "dispCondType": "itemGet",
+        "dispTargetId": 94071008,
+        "dispTargetValue": 1,
+        "dispCondType2": "questClear",
+        "dispTargetId2": 0,
+        "dispTargetValue2": 0,
+        "activeCondType": "questClear",
+        "activeTargetId": 0,
+        "activeTargetValue": 0
+      },
+      {
+        "id": 913507,
+        "warId": 9135,
+        "mapId": 9135,
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9128/QMap_Cap9128_Atlas/img_road9128_00.png",
+        "srcSpotId": 913512,
+        "dstSpotId": 913506,
+        "dispCondType": "itemGet",
+        "dispTargetId": 94071009,
+        "dispTargetValue": 1,
+        "dispCondType2": "questClear",
+        "dispTargetId2": 0,
+        "dispTargetValue2": 0,
+        "activeCondType": "questClear",
+        "activeTargetId": 0,
+        "activeTargetValue": 0
+      },
+      {
+        "id": 913508,
+        "warId": 9135,
+        "mapId": 9135,
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9128/QMap_Cap9128_Atlas/img_road9128_00.png",
+        "srcSpotId": 913506,
+        "dstSpotId": 913503,
+        "dispCondType": "useItemTime",
+        "dispTargetId": 0,
+        "dispTargetValue": 0,
+        "dispCondType2": "useItemTime",
+        "dispTargetId2": 0,
+        "dispTargetValue2": 0,
+        "activeCondType": "questClear",
+        "activeTargetId": 0,
+        "activeTargetValue": 0
+      },
+      {
+        "id": 913509,
+        "warId": 9135,
+        "mapId": 9135,
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9128/QMap_Cap9128_Atlas/img_road9128_00.png",
+        "srcSpotId": 913503,
+        "dstSpotId": 913510,
+        "dispCondType": "useItemTime",
+        "dispTargetId": 0,
+        "dispTargetValue": 0,
+        "dispCondType2": "useItemTime",
+        "dispTargetId2": 0,
+        "dispTargetValue2": 0,
+        "activeCondType": "questClear",
+        "activeTargetId": 0,
+        "activeTargetValue": 0
+      },
+      {
+        "id": 913510,
+        "warId": 9135,
+        "mapId": 9135,
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9128/QMap_Cap9128_Atlas/img_road9128_00.png",
+        "srcSpotId": 913504,
+        "dstSpotId": 913510,
+        "dispCondType": "itemGet",
+        "dispTargetId": 94071012,
+        "dispTargetValue": 2,
+        "dispCondType2": "questClear",
+        "dispTargetId2": 0,
+        "dispTargetValue2": 0,
+        "activeCondType": "questClear",
+        "activeTargetId": 0,
+        "activeTargetValue": 0
+      },
+      {
+        "id": 913511,
+        "warId": 9135,
+        "mapId": 9135,
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9128/QMap_Cap9128_Atlas/img_road9128_00.png",
+        "srcSpotId": 913505,
+        "dstSpotId": 913506,
+        "dispCondType": "itemGet",
+        "dispTargetId": 94071006,
+        "dispTargetValue": 2,
+        "dispCondType2": "questClear",
+        "dispTargetId2": 0,
+        "dispTargetValue2": 0,
+        "activeCondType": "questClear",
+        "activeTargetId": 0,
+        "activeTargetValue": 0
+      },
+      {
+        "id": 913512,
+        "warId": 9135,
+        "mapId": 9135,
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9128/QMap_Cap9128_Atlas/img_road9128_00.png",
+        "srcSpotId": 913505,
+        "dstSpotId": 913503,
+        "dispCondType": "itemGet",
+        "dispTargetId": 94071011,
+        "dispTargetValue": 2,
+        "dispCondType2": "questClear",
+        "dispTargetId2": 0,
+        "dispTargetValue2": 0,
+        "activeCondType": "questClear",
+        "activeTargetId": 0,
+        "activeTargetValue": 0
+      },
+      {
+        "id": 913513,
+        "warId": 9135,
+        "mapId": 9135,
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9128/QMap_Cap9128_Atlas/img_road9128_00.png",
+        "srcSpotId": 913506,
+        "dstSpotId": 913507,
+        "dispCondType": "itemGet",
+        "dispTargetId": 94071006,
+        "dispTargetValue": 3,
+        "dispCondType2": "questClear",
         "dispTargetId2": 0,
         "dispTargetValue2": 0,
         "activeCondType": "questClear",
