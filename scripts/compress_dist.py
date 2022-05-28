@@ -10,7 +10,7 @@ def load_json(fp: Path) -> dict:
 
 
 def dump_json(data, fp: Path):
-    json.dumps(data, ensure_ascii=False)
+    fp.write_text(json.dumps(data, ensure_ascii=False))
 
 
 def main():
