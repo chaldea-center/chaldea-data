@@ -10379,7 +10379,43 @@
     "funcType": "addState",
     "funcTargetType": "self",
     "funcTargetTeam": "playerAndEnemy",
-    "funcPopupText": "魅了耐性ダウン・対女性",
+    "funcPopupText": "魅了耐性ダウン",
+    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_506.png",
+    "buffs": [
+      {
+        "id": 217,
+        "name": "魅了耐性ダウン(精神異常)",
+        "detail": "魅了耐性をダウン",
+        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_506.png",
+        "type": "downTolerance",
+        "vals": [
+          {
+            "id": 3005
+          },
+          {
+            "id": 3010
+          }
+        ],
+        "tvals": [
+          {
+            "id": 3012
+          }
+        ],
+        "ckOpIndv": [
+          {
+            "id": 3012
+          }
+        ],
+        "maxRate": 5000
+      }
+    ]
+  },
+  {
+    "funcId": 690,
+    "funcType": "addState",
+    "funcTargetType": "self",
+    "funcTargetTeam": "playerAndEnemy",
+    "funcPopupText": "魅了耐性ダウン",
     "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_506.png",
     "buffs": [
       {
@@ -10638,6 +10674,48 @@
         "icon": "https://static.atlasacademy.io/JP/EventUI/func_group_icon_1017.png",
         "priority": 7000,
         "isDispValue": true
+      }
+    ]
+  },
+  {
+    "funcId": 716,
+    "funcType": "addState",
+    "funcTargetType": "self",
+    "funcTargetTeam": "playerAndEnemy",
+    "funcPopupText": "防御力アップ・対神性",
+    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_301.png",
+    "buffs": [
+      {
+        "id": 220,
+        "name": "防御力アップ〔神性〕",
+        "detail": "〔神性〕に対する防御力をアップ",
+        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_301.png",
+        "type": "upDefence",
+        "vals": [
+          {
+            "id": 3004
+          },
+          {
+            "id": 3007
+          },
+          {
+            "id": 3040
+          },
+          {
+            "id": 3058
+          }
+        ],
+        "tvals": [
+          {
+            "id": 2000
+          }
+        ],
+        "ckOpIndv": [
+          {
+            "id": 2000
+          }
+        ],
+        "maxRate": 5000
       }
     ]
   },
@@ -23576,6 +23654,9 @@
         "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_353.png",
         "type": "fieldIndividuality",
         "vals": [
+          {
+            "id": 3004
+          },
           {
             "id": 3057
           },
@@ -42194,6 +42275,171 @@
           }
         ],
         "maxRate": 5000
+      }
+    ]
+  },
+  {
+    "funcId": 8687,
+    "funcType": "addState",
+    "funcTargetType": "self",
+    "funcTargetTeam": "playerAndEnemy",
+    "funcPopupText": "宝具封印",
+    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_512.png",
+    "functvals": [
+      {
+        "id": 3022
+      }
+    ],
+    "buffs": [
+      {
+        "id": 183,
+        "name": "宝具封印",
+        "detail": "宝具を使用できなくなる",
+        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_512.png",
+        "type": "donotNoble",
+        "buffGroup": 900,
+        "vals": [
+          {
+            "id": 3005
+          },
+          {
+            "id": 3020
+          }
+        ],
+        "maxRate": 0
+      }
+    ]
+  },
+  {
+    "funcId": 8688,
+    "funcType": "addState",
+    "funcTargetType": "self",
+    "funcTargetTeam": "playerAndEnemy",
+    "funcPopupText": "被ダメージ時発動(強化)",
+    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_331.png",
+    "functvals": [
+      {
+        "id": 3022,
+        "negative": true
+      }
+    ],
+    "buffs": [
+      {
+        "id": 4340,
+        "name": "被ダメージ時発動(強化)",
+        "detail": "攻撃を受けると自身に〔王勇〕状態を付与",
+        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_331.png",
+        "type": "damageFunction",
+        "vals": [
+          {
+            "id": 3004
+          }
+        ],
+        "maxRate": 0
+      }
+    ]
+  },
+  {
+    "funcId": 8689,
+    "funcType": "addState",
+    "funcTargetType": "self",
+    "funcTargetTeam": "playerAndEnemy",
+    "funcPopupText": "王勇",
+    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_520.png",
+    "buffs": [
+      {
+        "id": 4341,
+        "name": "王勇",
+        "detail": "王勇を示すほど自身の宝具威力がアップする",
+        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_520.png",
+        "type": "addIndividuality",
+        "vals": [
+          {
+            "id": 3004
+          }
+        ],
+        "maxRate": 0
+      }
+    ]
+  },
+  {
+    "funcId": 8690,
+    "funcType": "addStateShort",
+    "funcTargetType": "self",
+    "funcTargetTeam": "playerAndEnemy",
+    "funcPopupText": "クリティカル威力アップ〔悪〕",
+    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_324.png",
+    "buffs": [
+      {
+        "id": 4342,
+        "name": "クリティカル威力アップ〔悪〕",
+        "detail": "〔悪〕特性に与えるクリティカル時のダメージをアップ",
+        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_324.png",
+        "type": "upCriticaldamage",
+        "vals": [
+          {
+            "id": 3004
+          },
+          {
+            "id": 3006
+          },
+          {
+            "id": 3031
+          }
+        ],
+        "tvals": [
+          {
+            "id": 304
+          }
+        ],
+        "ckOpIndv": [
+          {
+            "id": 304
+          }
+        ],
+        "maxRate": 5000
+      }
+    ]
+  },
+  {
+    "funcId": 8699,
+    "funcType": "addStateShort",
+    "funcTargetType": "self",
+    "funcTargetTeam": "player",
+    "funcPopupText": "NP獲得アップ",
+    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_303.png",
+    "functvals": [
+      {
+        "id": 3022,
+        "negative": true
+      }
+    ],
+    "buffs": [
+      {
+        "id": 140,
+        "name": "NP獲得アップ",
+        "detail": "NP獲得量をアップ",
+        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_303.png",
+        "type": "upDropnp",
+        "vals": [
+          {
+            "id": 3004
+          }
+        ],
+        "maxRate": 5000
+      }
+    ]
+  },
+  {
+    "funcId": 8701,
+    "funcType": "hastenNpturn",
+    "funcTargetType": "self",
+    "funcTargetTeam": "enemy",
+    "funcPopupText": "チャージ増加",
+    "functvals": [
+      {
+        "id": 3022,
+        "negative": true
       }
     ]
   },

@@ -73061,6 +73061,17 @@
       },
       {
         "warId": 309,
+        "type": "clearMark",
+        "priority": 2,
+        "overwriteId": 0,
+        "condType": "questClear",
+        "targetId": 3001101,
+        "value": 0,
+        "startedAt": 1654086600,
+        "endedAt": 1893423600
+      },
+      {
+        "warId": 309,
         "type": "startType",
         "priority": 3,
         "overwriteId": 0,
@@ -73223,6 +73234,3502 @@
   {
     "id": 310,
     "coordinates": [
+      [
+        63.61948,
+        -115.812
+      ],
+      [
+        60.421837,
+        -120.15799
+      ]
+    ],
+    "age": "A.D.XX17",
+    "name": "-",
+    "longName": "死想顕現界域 トラオム",
+    "originalLongName": "死想顕現界域 トラオム",
+    "flags": [
+      "mainScenario",
+      "dispFirstQuest",
+      "effectDisappearBanner"
+    ],
+    "banner": "https://static.atlasacademy.io/JP/Banner/questboard_cap315.png",
+    "priority": 312,
+    "bgm": {
+      "id": 0
+    },
+    "scriptId": "NONE",
+    "script": "https://static.atlasacademy.io/JP/Script/Common/NONE.txt",
+    "startType": "quest",
+    "targetId": 3001200,
+    "lastQuestId": 3001222,
+    "warAdds": [
+      {
+        "warId": 310,
+        "type": "bgImage",
+        "priority": 1,
+        "overwriteId": 57400,
+        "condType": "questClear",
+        "targetId": 3001200,
+        "value": 0,
+        "startedAt": 1654086600,
+        "endedAt": 1893423600
+      },
+      {
+        "warId": 310,
+        "type": "flag",
+        "priority": 1,
+        "overwriteId": 65666,
+        "condType": "questClearPhase",
+        "targetId": 3001201,
+        "value": 1,
+        "startedAt": 1654086600,
+        "endedAt": 1893423600
+      },
+      {
+        "warId": 310,
+        "type": "baseMapId",
+        "priority": 2,
+        "overwriteId": 31001,
+        "condType": "questClear",
+        "targetId": 3001101,
+        "value": 0,
+        "startedAt": 1654086600,
+        "endedAt": 1893423600
+      },
+      {
+        "warId": 310,
+        "type": "materialParentWar",
+        "priority": 2,
+        "overwriteId": 13000,
+        "condType": "questClear",
+        "targetId": 3000008,
+        "value": 0,
+        "startedAt": 1654086600,
+        "endedAt": 1893423600
+      },
+      {
+        "warId": 310,
+        "type": "banner",
+        "priority": 3,
+        "overwriteId": 316,
+        "overwriteBanner": "https://static.atlasacademy.io/JP/Banner/questboard_cap316.png",
+        "condType": "questClear",
+        "targetId": 3001222,
+        "value": 0,
+        "startedAt": 1654086600,
+        "endedAt": 1893423600
+      },
+      {
+        "warId": 310,
+        "type": "parentWar",
+        "priority": 4,
+        "overwriteId": 1004,
+        "condType": "questClear",
+        "targetId": 3001222,
+        "value": 0,
+        "startedAt": 1654086600,
+        "endedAt": 1893423600
+      }
+    ],
+    "maps": [
+      {
+        "id": 31001,
+        "mapImage": "https://static.atlasacademy.io/JP/Terminal/MapImgs/img_questmap_031001/img_questmap_031001.png",
+        "mapImageW": 2048,
+        "mapImageH": 1440,
+        "headerImage": "https://static.atlasacademy.io/JP/Banner/img_title_header_29.png",
+        "bgm": {
+          "id": 229
+        }
+      },
+      {
+        "id": 31002,
+        "mapImage": "https://static.atlasacademy.io/JP/Terminal/MapImgs/img_questmap_031002/img_questmap_031002.png",
+        "mapImageW": 2048,
+        "mapImageH": 1440,
+        "headerImage": "https://static.atlasacademy.io/JP/Banner/img_title_header_29.png",
+        "bgm": {
+          "id": 229
+        }
+      }
+    ],
+    "spots": [
+      {
+        "id": 31001,
+        "mapId": 31001,
+        "name": "狭間の街",
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0310/QMap_Cap0310_Atlas/spot_031001.png",
+        "x": 1240,
+        "y": 757,
+        "nameOfsY": -3,
+        "questOfsX": 34,
+        "questOfsY": -58,
+        "quests": [
+          {
+            "id": 3001202,
+            "name": "若き皇帝",
+            "type": "main",
+            "flags": [
+              "enableFollowQuest"
+            ],
+            "consume": 23,
+            "afterClear": "close",
+            "recommendLv": "76",
+            "spotId": 31001,
+            "spotName": "狭間の街",
+            "warId": 310,
+            "warLongName": "死想顕現界域 トラオム",
+            "chapterId": 313,
+            "chapterSubId": 2,
+            "gifts": [
+              {
+                "type": "servant",
+                "objectId": 9770500,
+                "num": 2
+              },
+              {
+                "objectId": 2,
+                "num": 1
+              },
+              {
+                "objectId": 46,
+                "num": 2
+              },
+              {
+                "objectId": 6552,
+                "num": 2
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 3001201
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "phasesWithEnemies": [
+              1
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "0300120210",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300120210.txt"
+                  },
+                  {
+                    "scriptId": "0300120211",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300120211.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1654086600,
+            "openedAt": 1654086600,
+            "closedAt": 1893423600
+          },
+          {
+            "id": 3001203,
+            "name": "汎人類史という罪",
+            "type": "main",
+            "flags": [
+              "enableFollowQuest"
+            ],
+            "consume": 5,
+            "afterClear": "close",
+            "recommendLv": "1",
+            "spotId": 31001,
+            "spotName": "狭間の街",
+            "warId": 310,
+            "warLongName": "死想顕現界域 トラオム",
+            "chapterId": 313,
+            "chapterSubId": 3,
+            "gifts": [
+              {
+                "objectId": 2,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 3001202
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "phasesNoBattle": [
+              1
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "0300120310",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300120310.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1654086600,
+            "openedAt": 1654086600,
+            "closedAt": 1893423600
+          },
+          {
+            "id": 3001211,
+            "name": "ヴラド三世の凱旋",
+            "type": "main",
+            "flags": [
+              "enableFollowQuest"
+            ],
+            "consume": 23,
+            "afterClear": "close",
+            "recommendLv": "76",
+            "spotId": 31001,
+            "spotName": "狭間の街",
+            "warId": 310,
+            "warLongName": "死想顕現界域 トラオム",
+            "chapterId": 313,
+            "chapterSubId": 11,
+            "gifts": [
+              {
+                "type": "servant",
+                "objectId": 9770500,
+                "num": 5
+              },
+              {
+                "objectId": 2,
+                "num": 1
+              },
+              {
+                "objectId": 46,
+                "num": 5
+              },
+              {
+                "objectId": 6503,
+                "num": 5
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 3001210
+              }
+            ],
+            "phases": [
+              1,
+              2
+            ],
+            "phasesWithEnemies": [
+              2
+            ],
+            "phasesNoBattle": [
+              1
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "0300121110",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300121110.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 2,
+                "scripts": [
+                  {
+                    "scriptId": "0300121120",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300121120.txt"
+                  },
+                  {
+                    "scriptId": "0300121121",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300121121.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1654086600,
+            "openedAt": 1654086600,
+            "closedAt": 1893423600
+          },
+          {
+            "id": 93031201,
+            "name": "陣地作成",
+            "type": "free",
+            "flags": [
+              "displayLoopmark"
+            ],
+            "consume": 21,
+            "afterClear": "repeatLast",
+            "recommendLv": "74",
+            "spotId": 31001,
+            "spotName": "狭間の街",
+            "warId": 310,
+            "warLongName": "死想顕現界域 トラオム",
+            "chapterId": 313,
+            "chapterSubId": 1,
+            "gifts": [
+              {
+                "objectId": 2,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 3001222
+              }
+            ],
+            "phases": [
+              1,
+              2,
+              3
+            ],
+            "noticeAt": 1654086600,
+            "openedAt": 1654086600,
+            "closedAt": 1893423600
+          }
+        ]
+      },
+      {
+        "id": 31002,
+        "mapId": 31001,
+        "name": "暁の平原",
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0310/QMap_Cap0310_Atlas/spot_031002.png",
+        "x": 1467,
+        "y": 683,
+        "nameOfsY": -6,
+        "questOfsX": 35,
+        "questOfsY": -69,
+        "quests": [
+          {
+            "id": 3001204,
+            "name": "逃げて、逃げて、逃げまくれ",
+            "type": "main",
+            "flags": [
+              "enableFollowQuest"
+            ],
+            "consume": 22,
+            "afterClear": "close",
+            "recommendLv": "72",
+            "spotId": 31002,
+            "spotName": "暁の平原",
+            "warId": 310,
+            "warLongName": "死想顕現界域 トラオム",
+            "chapterId": 313,
+            "chapterSubId": 4,
+            "gifts": [
+              {
+                "type": "servant",
+                "objectId": 9770500,
+                "num": 2
+              },
+              {
+                "objectId": 2,
+                "num": 1
+              },
+              {
+                "objectId": 46,
+                "num": 2
+              },
+              {
+                "objectId": 6551,
+                "num": 2
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 3001203
+              }
+            ],
+            "phases": [
+              1,
+              2
+            ],
+            "phasesWithEnemies": [
+              2
+            ],
+            "phasesNoBattle": [
+              1
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "0300120410",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300120410.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 2,
+                "scripts": [
+                  {
+                    "scriptId": "0300120420",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300120420.txt"
+                  },
+                  {
+                    "scriptId": "0300120421",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300120421.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1654086600,
+            "openedAt": 1654086600,
+            "closedAt": 1893423600
+          },
+          {
+            "id": 93031202,
+            "name": "愚者の分かれ道",
+            "type": "free",
+            "flags": [
+              "displayLoopmark"
+            ],
+            "consume": 21,
+            "afterClear": "repeatLast",
+            "recommendLv": "74",
+            "spotId": 31002,
+            "spotName": "暁の平原",
+            "warId": 310,
+            "warLongName": "死想顕現界域 トラオム",
+            "chapterId": 313,
+            "chapterSubId": 2,
+            "gifts": [
+              {
+                "objectId": 2,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 3001222
+              }
+            ],
+            "phases": [
+              1,
+              2,
+              3
+            ],
+            "noticeAt": 1654086600,
+            "openedAt": 1654086600,
+            "closedAt": 1893423600
+          }
+        ]
+      },
+      {
+        "id": 31003,
+        "mapId": 31001,
+        "name": "復権界域拠点",
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0310/QMap_Cap0310_Atlas/spot_031003.png",
+        "x": 1732,
+        "y": 1115,
+        "nameOfsY": 1,
+        "questOfsX": 41,
+        "questOfsY": -70,
+        "quests": [
+          {
+            "id": 3001205,
+            "name": "カウントダウン",
+            "type": "main",
+            "flags": [
+              "enableFollowQuest"
+            ],
+            "consume": 5,
+            "afterClear": "close",
+            "recommendLv": "72",
+            "spotId": 31003,
+            "spotName": "復権界域拠点",
+            "warId": 310,
+            "warLongName": "死想顕現界域 トラオム",
+            "chapterId": 313,
+            "chapterSubId": 5,
+            "gifts": [
+              {
+                "type": "servant",
+                "objectId": 9770500,
+                "num": 2
+              },
+              {
+                "objectId": 2,
+                "num": 1
+              },
+              {
+                "objectId": 46,
+                "num": 2
+              },
+              {
+                "objectId": 6551,
+                "num": 2
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 3001204
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "phasesWithEnemies": [
+              1
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "0300120510",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300120510.txt"
+                  },
+                  {
+                    "scriptId": "0300120511",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300120511.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1654086600,
+            "openedAt": 1654086600,
+            "closedAt": 1893423600
+          },
+          {
+            "id": 3001207,
+            "name": "あなたの首なんて欲しくはないの",
+            "type": "main",
+            "flags": [
+              "enableFollowQuest"
+            ],
+            "consume": 23,
+            "afterClear": "close",
+            "recommendLv": "78",
+            "spotId": 31003,
+            "spotName": "復権界域拠点",
+            "warId": 310,
+            "warLongName": "死想顕現界域 トラオム",
+            "chapterId": 313,
+            "chapterSubId": 7,
+            "gifts": [
+              {
+                "type": "servant",
+                "objectId": 9770500,
+                "num": 3
+              },
+              {
+                "objectId": 2,
+                "num": 1
+              },
+              {
+                "objectId": 46,
+                "num": 3
+              },
+              {
+                "objectId": 6552,
+                "num": 3
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 3001206
+              }
+            ],
+            "phases": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "phasesWithEnemies": [
+              2,
+              5,
+              6,
+              7,
+              8
+            ],
+            "phasesNoBattle": [
+              1,
+              3,
+              4,
+              9
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "0300120710",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300120710.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 2,
+                "scripts": [
+                  {
+                    "scriptId": "0300120720",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300120720.txt"
+                  },
+                  {
+                    "scriptId": "0300120721",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300120721.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 3,
+                "scripts": [
+                  {
+                    "scriptId": "0300120730",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300120730.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 4,
+                "scripts": [
+                  {
+                    "scriptId": "0300120740",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300120740.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 5,
+                "scripts": [
+                  {
+                    "scriptId": "0300120750",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300120750.txt"
+                  },
+                  {
+                    "scriptId": "0300120751",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300120751.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 6,
+                "scripts": [
+                  {
+                    "scriptId": "0300120760",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300120760.txt"
+                  },
+                  {
+                    "scriptId": "0300120761",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300120761.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 7,
+                "scripts": [
+                  {
+                    "scriptId": "0300120770",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300120770.txt"
+                  },
+                  {
+                    "scriptId": "0300120771",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300120771.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 8,
+                "scripts": [
+                  {
+                    "scriptId": "0300120780",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300120780.txt"
+                  },
+                  {
+                    "scriptId": "0300120781",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300120781.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 9,
+                "scripts": [
+                  {
+                    "scriptId": "0300120790",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300120790.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1654086600,
+            "openedAt": 1654086600,
+            "closedAt": 1893423600
+          },
+          {
+            "id": 3001210,
+            "name": "ドン・キホーテ・デ・ラ・マンチャの出立",
+            "type": "main",
+            "flags": [
+              "enableFollowQuest"
+            ],
+            "consume": 23,
+            "afterClear": "close",
+            "recommendLv": "80",
+            "spotId": 31003,
+            "spotName": "復権界域拠点",
+            "warId": 310,
+            "warLongName": "死想顕現界域 トラオム",
+            "chapterId": 313,
+            "chapterSubId": 10,
+            "gifts": [
+              {
+                "type": "servant",
+                "objectId": 9770500,
+                "num": 3
+              },
+              {
+                "objectId": 2,
+                "num": 1
+              },
+              {
+                "objectId": 46,
+                "num": 3
+              },
+              {
+                "objectId": 6520,
+                "num": 3
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 3001209
+              }
+            ],
+            "phases": [
+              1,
+              2,
+              3
+            ],
+            "phasesWithEnemies": [
+              2,
+              3
+            ],
+            "phasesNoBattle": [
+              1
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "0300121010",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300121010.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 2,
+                "scripts": [
+                  {
+                    "scriptId": "0300121020",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300121020.txt"
+                  },
+                  {
+                    "scriptId": "0300121021",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300121021.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 3,
+                "scripts": [
+                  {
+                    "scriptId": "0300121030",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300121030.txt"
+                  },
+                  {
+                    "scriptId": "0300121031",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300121031.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1654086600,
+            "openedAt": 1654086600,
+            "closedAt": 1893423600
+          },
+          {
+            "id": 93031211,
+            "name": "贖罪の都",
+            "type": "free",
+            "flags": [
+              "displayLoopmark"
+            ],
+            "consume": 21,
+            "afterClear": "repeatLast",
+            "recommendLv": "80",
+            "spotId": 31003,
+            "spotName": "復権界域拠点",
+            "warId": 310,
+            "warLongName": "死想顕現界域 トラオム",
+            "chapterId": 313,
+            "chapterSubId": 11,
+            "gifts": [
+              {
+                "objectId": 2,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 3001222
+              }
+            ],
+            "phases": [
+              1,
+              2,
+              3
+            ],
+            "noticeAt": 1654086600,
+            "openedAt": 1654086600,
+            "closedAt": 1893423600
+          }
+        ]
+      },
+      {
+        "id": 31004,
+        "mapId": 31001,
+        "name": "復讐界域拠点",
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0310/QMap_Cap0310_Atlas/spot_031004.png",
+        "x": 1017,
+        "y": 294,
+        "nameOfsY": -2,
+        "questOfsX": 39,
+        "questOfsY": -91,
+        "quests": [
+          {
+            "id": 3001206,
+            "name": "あなたの首が欲しいのかしら？",
+            "type": "main",
+            "flags": [
+              "enableFollowQuest"
+            ],
+            "consume": 22,
+            "afterClear": "close",
+            "recommendLv": "72",
+            "spotId": 31004,
+            "spotName": "復讐界域拠点",
+            "warId": 310,
+            "warLongName": "死想顕現界域 トラオム",
+            "chapterId": 313,
+            "chapterSubId": 6,
+            "gifts": [
+              {
+                "type": "servant",
+                "objectId": 9770500,
+                "num": 2
+              },
+              {
+                "objectId": 2,
+                "num": 1
+              },
+              {
+                "objectId": 46,
+                "num": 2
+              },
+              {
+                "objectId": 6552,
+                "num": 2
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 3001205
+              }
+            ],
+            "phases": [
+              1,
+              2
+            ],
+            "phasesWithEnemies": [
+              2
+            ],
+            "phasesNoBattle": [
+              1
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "0300120610",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300120610.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 2,
+                "scripts": [
+                  {
+                    "scriptId": "0300120621",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300120621.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1654086600,
+            "openedAt": 1654086600,
+            "closedAt": 1893423600
+          },
+          {
+            "id": 3001214,
+            "name": "全面戦争・復権界域（前編）",
+            "type": "main",
+            "flags": [
+              "enableFollowQuest"
+            ],
+            "consume": 23,
+            "afterClear": "close",
+            "recommendLv": "80",
+            "spotId": 31004,
+            "spotName": "復讐界域拠点",
+            "warId": 310,
+            "warLongName": "死想顕現界域 トラオム",
+            "chapterId": 313,
+            "chapterSubId": 14,
+            "gifts": [
+              {
+                "type": "servant",
+                "objectId": 9770500,
+                "num": 3
+              },
+              {
+                "objectId": 2,
+                "num": 1
+              },
+              {
+                "objectId": 46,
+                "num": 3
+              },
+              {
+                "objectId": 6551,
+                "num": 3
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 3001213
+              }
+            ],
+            "phases": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "phasesWithEnemies": [
+              4,
+              5,
+              6,
+              7
+            ],
+            "phasesNoBattle": [
+              1,
+              2,
+              3
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "0300121410",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300121410.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 2,
+                "scripts": [
+                  {
+                    "scriptId": "0300121420",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300121420.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 3,
+                "scripts": [
+                  {
+                    "scriptId": "0300121430",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300121430.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 4,
+                "scripts": [
+                  {
+                    "scriptId": "0300121440",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300121440.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 5,
+                "scripts": [
+                  {
+                    "scriptId": "0300121450",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300121450.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 6,
+                "scripts": [
+                  {
+                    "scriptId": "0300121460",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300121460.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 7,
+                "scripts": [
+                  {
+                    "scriptId": "0300121470",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300121470.txt"
+                  },
+                  {
+                    "scriptId": "0300121471",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300121471.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1654086600,
+            "openedAt": 1654086600,
+            "closedAt": 1893423600
+          },
+          {
+            "id": 3001220,
+            "name": "されど、復讐には届かず",
+            "type": "main",
+            "flags": [
+              "enableFollowQuest"
+            ],
+            "consume": 5,
+            "afterClear": "close",
+            "recommendLv": "90",
+            "spotId": 31004,
+            "spotName": "復讐界域拠点",
+            "warId": 310,
+            "warLongName": "死想顕現界域 トラオム",
+            "chapterId": 313,
+            "chapterSubId": 20,
+            "gifts": [
+              {
+                "type": "servant",
+                "objectId": 9770500,
+                "num": 5
+              },
+              {
+                "objectId": 2,
+                "num": 1
+              },
+              {
+                "objectId": 46,
+                "num": 5
+              },
+              {
+                "objectId": 6506,
+                "num": 5
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 3001219
+              }
+            ],
+            "phases": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "phasesNoBattle": [
+              7,
+              8
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "0300122010",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300122010.txt"
+                  },
+                  {
+                    "scriptId": "0300122011",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300122011.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 2,
+                "scripts": [
+                  {
+                    "scriptId": "0300122020",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300122020.txt"
+                  },
+                  {
+                    "scriptId": "0300122021",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300122021.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 3,
+                "scripts": [
+                  {
+                    "scriptId": "0300122031",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300122031.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 4,
+                "scripts": [
+                  {
+                    "scriptId": "0300122040",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300122040.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 5,
+                "scripts": [
+                  {
+                    "scriptId": "0300122050",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300122050.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 6,
+                "scripts": [
+                  {
+                    "scriptId": "0300122060",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300122060.txt"
+                  },
+                  {
+                    "scriptId": "0300122061",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300122061.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 7,
+                "scripts": [
+                  {
+                    "scriptId": "0300122070",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300122070.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 8,
+                "scripts": [
+                  {
+                    "scriptId": "0300122080",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300122080.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1654086600,
+            "openedAt": 1654086600,
+            "closedAt": 1893423600
+          },
+          {
+            "id": 3001299,
+            "name": "されど、復讐には届かず",
+            "type": "main",
+            "flags": [
+              "branch",
+              "enableFollowQuest"
+            ],
+            "consume": 25,
+            "afterClear": "close",
+            "recommendLv": "90",
+            "spotId": 31004,
+            "spotName": "復讐界域拠点",
+            "warId": 310,
+            "warLongName": "死想顕現界域 トラオム",
+            "chapterId": 313,
+            "chapterSubId": 99,
+            "phases": [
+              2
+            ],
+            "phaseScripts": [
+              {
+                "phase": 2,
+                "scripts": [
+                  {
+                    "scriptId": "0300129921",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300129921.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1654086600,
+            "openedAt": 1654086600,
+            "closedAt": 1893423600
+          },
+          {
+            "id": 93031213,
+            "name": "真紅の絢爛と漆黒の狂気",
+            "type": "free",
+            "flags": [
+              "displayLoopmark"
+            ],
+            "consume": 22,
+            "afterClear": "repeatLast",
+            "recommendLv": "82",
+            "spotId": 31004,
+            "spotName": "復讐界域拠点",
+            "warId": 310,
+            "warLongName": "死想顕現界域 トラオム",
+            "chapterId": 313,
+            "chapterSubId": 13,
+            "gifts": [
+              {
+                "objectId": 2,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 3001222
+              }
+            ],
+            "phases": [
+              1,
+              2,
+              3
+            ],
+            "noticeAt": 1654086600,
+            "openedAt": 1654086600,
+            "closedAt": 1893423600
+          }
+        ]
+      },
+      {
+        "id": 31005,
+        "mapId": 31001,
+        "name": "中つ森",
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0310/QMap_Cap0310_Atlas/spot_031005.png",
+        "x": 1045,
+        "y": 899,
+        "nameOfsY": -8,
+        "questOfsX": 34,
+        "questOfsY": -68,
+        "quests": [
+          {
+            "id": 93031203,
+            "name": "三界分立",
+            "type": "free",
+            "flags": [
+              "displayLoopmark"
+            ],
+            "consume": 21,
+            "afterClear": "repeatLast",
+            "recommendLv": "74",
+            "spotId": 31005,
+            "spotName": "中つ森",
+            "warId": 310,
+            "warLongName": "死想顕現界域 トラオム",
+            "chapterId": 313,
+            "chapterSubId": 3,
+            "gifts": [
+              {
+                "objectId": 2,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 3001222
+              }
+            ],
+            "phases": [
+              1,
+              2,
+              3
+            ],
+            "noticeAt": 1654086600,
+            "openedAt": 1654086600,
+            "closedAt": 1893423600
+          }
+        ]
+      },
+      {
+        "id": 31006,
+        "mapId": 31001,
+        "name": "天嶮山脈",
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0310/QMap_Cap0310_Atlas/spot_031006.png",
+        "x": 774,
+        "y": 1026,
+        "nameOfsY": -5,
+        "questOfsX": 27,
+        "questOfsY": -75,
+        "quests": [
+          {
+            "id": 93031205,
+            "name": "要害の砦",
+            "type": "free",
+            "flags": [
+              "displayLoopmark"
+            ],
+            "consume": 21,
+            "afterClear": "repeatLast",
+            "recommendLv": "76",
+            "spotId": 31006,
+            "spotName": "天嶮山脈",
+            "warId": 310,
+            "warLongName": "死想顕現界域 トラオム",
+            "chapterId": 313,
+            "chapterSubId": 5,
+            "gifts": [
+              {
+                "objectId": 2,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 3001222
+              }
+            ],
+            "phases": [
+              1,
+              2,
+              3
+            ],
+            "noticeAt": 1654086600,
+            "openedAt": 1654086600,
+            "closedAt": 1893423600
+          }
+        ]
+      },
+      {
+        "id": 31007,
+        "mapId": 31001,
+        "name": "王道界域拠点",
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0310/QMap_Cap0310_Atlas/spot_031007.png",
+        "x": 364,
+        "y": 1053,
+        "nameOfsY": 1,
+        "questOfsX": 40,
+        "questOfsY": -65,
+        "quests": [
+          {
+            "id": 3001208,
+            "name": "闇夜の閑話",
+            "type": "main",
+            "flags": [
+              "enableFollowQuest"
+            ],
+            "consume": 5,
+            "afterClear": "close",
+            "recommendLv": "1",
+            "spotId": 31007,
+            "spotName": "王道界域拠点",
+            "warId": 310,
+            "warLongName": "死想顕現界域 トラオム",
+            "chapterId": 313,
+            "chapterSubId": 8,
+            "gifts": [
+              {
+                "objectId": 2,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 3001207
+              }
+            ],
+            "phases": [
+              1,
+              2
+            ],
+            "phasesNoBattle": [
+              1,
+              2
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "0300120810",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300120810.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 2,
+                "scripts": [
+                  {
+                    "scriptId": "0300120820",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300120820.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1654086600,
+            "openedAt": 1654086600,
+            "closedAt": 1893423600
+          },
+          {
+            "id": 3001209,
+            "name": "我らカール遊撃隊！",
+            "type": "main",
+            "flags": [
+              "enableFollowQuest"
+            ],
+            "consume": 23,
+            "afterClear": "close",
+            "recommendLv": "75",
+            "spotId": 31007,
+            "spotName": "王道界域拠点",
+            "warId": 310,
+            "warLongName": "死想顕現界域 トラオム",
+            "chapterId": 313,
+            "chapterSubId": 9,
+            "gifts": [
+              {
+                "type": "servant",
+                "objectId": 9770500,
+                "num": 3
+              },
+              {
+                "objectId": 2,
+                "num": 1
+              },
+              {
+                "objectId": 46,
+                "num": 3
+              },
+              {
+                "objectId": 6552,
+                "num": 3
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 3001208
+              }
+            ],
+            "phases": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "phasesWithEnemies": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "0300120910",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300120910.txt"
+                  },
+                  {
+                    "scriptId": "0300120911",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300120911.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 2,
+                "scripts": [
+                  {
+                    "scriptId": "0300120920",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300120920.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 3,
+                "scripts": [
+                  {
+                    "scriptId": "0300120930",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300120930.txt"
+                  },
+                  {
+                    "scriptId": "0300120931",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300120931.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 4,
+                "scripts": [
+                  {
+                    "scriptId": "0300120940",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300120940.txt"
+                  },
+                  {
+                    "scriptId": "0300120941",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300120941.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1654086600,
+            "openedAt": 1654086600,
+            "closedAt": 1893423600
+          },
+          {
+            "id": 3001212,
+            "name": "暗殺計画",
+            "type": "main",
+            "flags": [
+              "enableFollowQuest"
+            ],
+            "consume": 23,
+            "afterClear": "close",
+            "recommendLv": "77",
+            "spotId": 31007,
+            "spotName": "王道界域拠点",
+            "warId": 310,
+            "warLongName": "死想顕現界域 トラオム",
+            "chapterId": 313,
+            "chapterSubId": 12,
+            "gifts": [
+              {
+                "type": "servant",
+                "objectId": 9770500,
+                "num": 3
+              },
+              {
+                "objectId": 2,
+                "num": 1
+              },
+              {
+                "objectId": 46,
+                "num": 3
+              },
+              {
+                "objectId": 6511,
+                "num": 3
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 3001211
+              }
+            ],
+            "phases": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "phasesWithEnemies": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "0300121210",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300121210.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 2,
+                "scripts": [
+                  {
+                    "scriptId": "0300121220",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300121220.txt"
+                  },
+                  {
+                    "scriptId": "0300121221",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300121221.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 3,
+                "scripts": [
+                  {
+                    "scriptId": "0300121231",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300121231.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 4,
+                "scripts": [
+                  {
+                    "scriptId": "0300121240",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300121240.txt"
+                  },
+                  {
+                    "scriptId": "0300121241",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300121241.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1654086600,
+            "openedAt": 1654086600,
+            "closedAt": 1893423600
+          },
+          {
+            "id": 3001218,
+            "name": "女教皇、奮い立つ",
+            "type": "main",
+            "flags": [
+              "enableFollowQuest"
+            ],
+            "consume": 24,
+            "afterClear": "close",
+            "recommendLv": "85",
+            "spotId": 31007,
+            "spotName": "王道界域拠点",
+            "warId": 310,
+            "warLongName": "死想顕現界域 トラオム",
+            "chapterId": 313,
+            "chapterSubId": 18,
+            "gifts": [
+              {
+                "type": "servant",
+                "objectId": 9770500,
+                "num": 5
+              },
+              {
+                "objectId": 2,
+                "num": 1
+              },
+              {
+                "objectId": 46,
+                "num": 5
+              },
+              {
+                "objectId": 6551,
+                "num": 5
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 3001217
+              }
+            ],
+            "phases": [
+              1,
+              2
+            ],
+            "phasesNoBattle": [
+              2
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "0300121810",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300121810.txt"
+                  },
+                  {
+                    "scriptId": "0300121811",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300121811.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 2,
+                "scripts": [
+                  {
+                    "scriptId": "0300121820",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300121820.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1654086600,
+            "openedAt": 1654086600,
+            "closedAt": 1893423600
+          },
+          {
+            "id": 3001219,
+            "name": "騎士たちは華やかに、あるいは誰にも知られずに",
+            "type": "main",
+            "flags": [
+              "enableFollowQuest"
+            ],
+            "consume": 5,
+            "afterClear": "close",
+            "recommendLv": "85",
+            "spotId": 31007,
+            "spotName": "王道界域拠点",
+            "warId": 310,
+            "warLongName": "死想顕現界域 トラオム",
+            "chapterId": 313,
+            "chapterSubId": 19,
+            "gifts": [
+              {
+                "type": "servant",
+                "objectId": 9770500,
+                "num": 5
+              },
+              {
+                "objectId": 2,
+                "num": 1
+              },
+              {
+                "objectId": 46,
+                "num": 5
+              },
+              {
+                "objectId": 6552,
+                "num": 5
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 3001218
+              }
+            ],
+            "phases": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "phasesNoBattle": [
+              5
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "0300121910",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300121910.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 2,
+                "scripts": [
+                  {
+                    "scriptId": "0300121920",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300121920.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 3,
+                "scripts": [
+                  {
+                    "scriptId": "0300121930",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300121930.txt"
+                  },
+                  {
+                    "scriptId": "0300121931",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300121931.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 4,
+                "scripts": [
+                  {
+                    "scriptId": "0300121940",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300121940.txt"
+                  },
+                  {
+                    "scriptId": "0300121941",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300121941.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 5,
+                "scripts": [
+                  {
+                    "scriptId": "0300121950",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300121950.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1654086600,
+            "openedAt": 1654086600,
+            "closedAt": 1893423600
+          },
+          {
+            "id": 3001297,
+            "name": "我らカール遊撃隊！",
+            "type": "main",
+            "flags": [
+              "branch",
+              "enableFollowQuest"
+            ],
+            "consume": 23,
+            "afterClear": "close",
+            "recommendLv": "75",
+            "spotId": 31007,
+            "spotName": "王道界域拠点",
+            "warId": 310,
+            "warLongName": "死想顕現界域 トラオム",
+            "chapterId": 313,
+            "chapterSubId": 97,
+            "phases": [
+              4
+            ],
+            "phaseScripts": [
+              {
+                "phase": 4,
+                "scripts": [
+                  {
+                    "scriptId": "0300129741",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300129741.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1654086600,
+            "openedAt": 1654086600,
+            "closedAt": 1893423600
+          },
+          {
+            "id": 3001298,
+            "name": "暗殺計画",
+            "type": "main",
+            "flags": [
+              "branch",
+              "enableFollowQuest"
+            ],
+            "consume": 23,
+            "afterClear": "close",
+            "recommendLv": "77",
+            "spotId": 31007,
+            "spotName": "王道界域拠点",
+            "warId": 310,
+            "warLongName": "死想顕現界域 トラオム",
+            "chapterId": 313,
+            "chapterSubId": 98,
+            "phases": [
+              4
+            ],
+            "phaseScripts": [
+              {
+                "phase": 4,
+                "scripts": [
+                  {
+                    "scriptId": "0300129841",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300129841.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1654086600,
+            "openedAt": 1654086600,
+            "closedAt": 1893423600
+          },
+          {
+            "id": 93031206,
+            "name": "遍歴の都",
+            "type": "free",
+            "flags": [
+              "displayLoopmark"
+            ],
+            "consume": 21,
+            "afterClear": "repeatLast",
+            "recommendLv": "76",
+            "spotId": 31007,
+            "spotName": "王道界域拠点",
+            "warId": 310,
+            "warLongName": "死想顕現界域 トラオム",
+            "chapterId": 313,
+            "chapterSubId": 6,
+            "gifts": [
+              {
+                "objectId": 2,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 3001222
+              }
+            ],
+            "phases": [
+              1,
+              2,
+              3
+            ],
+            "noticeAt": 1654086600,
+            "openedAt": 1654086600,
+            "closedAt": 1893423600
+          }
+        ]
+      },
+      {
+        "id": 31008,
+        "mapId": 31001,
+        "name": "見張り塔",
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0310/QMap_Cap0310_Atlas/spot_031008.png",
+        "x": 779,
+        "y": 801,
+        "questOfsX": 28,
+        "questOfsY": -76
+      },
+      {
+        "id": 31009,
+        "mapId": 31001,
+        "name": "アツァガウク砦",
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0310/QMap_Cap0310_Atlas/spot_031009.png",
+        "x": 1163,
+        "y": 610,
+        "nameOfsY": -7,
+        "questOfsX": 29,
+        "questOfsY": -87,
+        "quests": [
+          {
+            "id": 3001213,
+            "name": "暗殺実行／その後宴",
+            "type": "main",
+            "flags": [
+              "enableFollowQuest"
+            ],
+            "consume": 24,
+            "afterClear": "close",
+            "recommendLv": "83",
+            "spotId": 31009,
+            "spotName": "アツァガウク砦",
+            "warId": 310,
+            "warLongName": "死想顕現界域 トラオム",
+            "chapterId": 313,
+            "chapterSubId": 13,
+            "gifts": [
+              {
+                "type": "servant",
+                "objectId": 9770500,
+                "num": 3
+              },
+              {
+                "objectId": 2,
+                "num": 1
+              },
+              {
+                "objectId": 46,
+                "num": 3
+              },
+              {
+                "objectId": 6552,
+                "num": 3
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 3001212
+              }
+            ],
+            "phases": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "phasesWithEnemies": [
+              1,
+              2
+            ],
+            "phasesNoBattle": [
+              3,
+              4
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "0300121310",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300121310.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 2,
+                "scripts": [
+                  {
+                    "scriptId": "0300121320",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300121320.txt"
+                  },
+                  {
+                    "scriptId": "0300121321",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300121321.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 3,
+                "scripts": [
+                  {
+                    "scriptId": "0300121330",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300121330.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 4,
+                "scripts": [
+                  {
+                    "scriptId": "0300121340",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300121340.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1654086600,
+            "openedAt": 1654086600,
+            "closedAt": 1893423600
+          },
+          {
+            "id": 93031208,
+            "name": "傀儡の根城",
+            "type": "free",
+            "flags": [
+              "displayLoopmark"
+            ],
+            "consume": 21,
+            "afterClear": "repeatLast",
+            "recommendLv": "78",
+            "spotId": 31009,
+            "spotName": "アツァガウク砦",
+            "warId": 310,
+            "warLongName": "死想顕現界域 トラオム",
+            "chapterId": 313,
+            "chapterSubId": 8,
+            "gifts": [
+              {
+                "objectId": 2,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 3001222
+              }
+            ],
+            "phases": [
+              1,
+              2,
+              3
+            ],
+            "noticeAt": 1654086600,
+            "openedAt": 1654086600,
+            "closedAt": 1893423600
+          }
+        ]
+      },
+      {
+        "id": 31010,
+        "mapId": 31001,
+        "name": "シルミウム",
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0310/QMap_Cap0310_Atlas/spot_031010.png",
+        "x": 1080,
+        "y": 1102,
+        "nameOfsY": -2,
+        "questOfsX": 37,
+        "questOfsY": -69,
+        "quests": [
+          {
+            "id": 3001215,
+            "name": "全面戦争・復権界域（後編）",
+            "type": "main",
+            "flags": [
+              "enableFollowQuest"
+            ],
+            "consume": 24,
+            "afterClear": "close",
+            "recommendLv": "83",
+            "spotId": 31010,
+            "spotName": "シルミウム",
+            "warId": 310,
+            "warLongName": "死想顕現界域 トラオム",
+            "chapterId": 313,
+            "chapterSubId": 15,
+            "gifts": [
+              {
+                "type": "servant",
+                "objectId": 9770500,
+                "num": 3
+              },
+              {
+                "objectId": 2,
+                "num": 1
+              },
+              {
+                "objectId": 46,
+                "num": 3
+              },
+              {
+                "objectId": 6551,
+                "num": 3
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 3001214
+              }
+            ],
+            "phases": [
+              1,
+              2
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "0300121510",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300121510.txt"
+                  },
+                  {
+                    "scriptId": "0300121511",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300121511.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 2,
+                "scripts": [
+                  {
+                    "scriptId": "0300121520",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300121520.txt"
+                  },
+                  {
+                    "scriptId": "0300121521",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300121521.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1654086600,
+            "openedAt": 1654086600,
+            "closedAt": 1893423600
+          },
+          {
+            "id": 3001216,
+            "name": "勇壮なる騎士のために王が来た",
+            "type": "main",
+            "flags": [
+              "enableFollowQuest"
+            ],
+            "consume": 23,
+            "afterClear": "close",
+            "recommendLv": "78",
+            "spotId": 31010,
+            "spotName": "シルミウム",
+            "warId": 310,
+            "warLongName": "死想顕現界域 トラオム",
+            "chapterId": 313,
+            "chapterSubId": 16,
+            "gifts": [
+              {
+                "type": "servant",
+                "objectId": 9770500,
+                "num": 2
+              },
+              {
+                "objectId": 2,
+                "num": 1
+              },
+              {
+                "objectId": 46,
+                "num": 2
+              },
+              {
+                "objectId": 6551,
+                "num": 2
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 3001215
+              }
+            ],
+            "phases": [
+              1,
+              2,
+              3
+            ],
+            "phasesNoBattle": [
+              1,
+              3
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "0300121610",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300121610.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 2,
+                "scripts": [
+                  {
+                    "scriptId": "0300121620",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300121620.txt"
+                  },
+                  {
+                    "scriptId": "0300121621",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300121621.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 3,
+                "scripts": [
+                  {
+                    "scriptId": "0300121630",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300121630.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1654086600,
+            "openedAt": 1654086600,
+            "closedAt": 1893423600
+          },
+          {
+            "id": 3001217,
+            "name": "皇帝は笑う",
+            "type": "main",
+            "flags": [
+              "enableFollowQuest"
+            ],
+            "consume": 23,
+            "afterClear": "close",
+            "recommendLv": "80",
+            "spotId": 31010,
+            "spotName": "シルミウム",
+            "warId": 310,
+            "warLongName": "死想顕現界域 トラオム",
+            "chapterId": 313,
+            "chapterSubId": 17,
+            "gifts": [
+              {
+                "type": "servant",
+                "objectId": 9770500,
+                "num": 2
+              },
+              {
+                "objectId": 2,
+                "num": 1
+              },
+              {
+                "objectId": 46,
+                "num": 2
+              },
+              {
+                "objectId": 6540,
+                "num": 2
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 3001216
+              }
+            ],
+            "phases": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "phasesNoBattle": [
+              1,
+              2,
+              3,
+              6
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "0300121710",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300121710.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 2,
+                "scripts": [
+                  {
+                    "scriptId": "0300121720",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300121720.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 3,
+                "scripts": [
+                  {
+                    "scriptId": "0300121730",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300121730.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 4,
+                "scripts": [
+                  {
+                    "scriptId": "0300121740",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300121740.txt"
+                  },
+                  {
+                    "scriptId": "0300121741",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300121741.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 5,
+                "scripts": [
+                  {
+                    "scriptId": "0300121750",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300121750.txt"
+                  },
+                  {
+                    "scriptId": "0300121751",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300121751.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 6,
+                "scripts": [
+                  {
+                    "scriptId": "0300121760",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300121760.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1654086600,
+            "openedAt": 1654086600,
+            "closedAt": 1893423600
+          },
+          {
+            "id": 93031210,
+            "name": "一夜要塞",
+            "type": "free",
+            "flags": [
+              "displayLoopmark"
+            ],
+            "consume": 21,
+            "afterClear": "repeatLast",
+            "recommendLv": "80",
+            "spotId": 31010,
+            "spotName": "シルミウム",
+            "warId": 310,
+            "warLongName": "死想顕現界域 トラオム",
+            "chapterId": 313,
+            "chapterSubId": 10,
+            "gifts": [
+              {
+                "objectId": 2,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 3001222
+              }
+            ],
+            "phases": [
+              1,
+              2,
+              3
+            ],
+            "noticeAt": 1654086600,
+            "openedAt": 1654086600,
+            "closedAt": 1893423600
+          }
+        ]
+      },
+      {
+        "id": 31011,
+        "mapId": 31001,
+        "name": "門前の平原",
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0310/QMap_Cap0310_Atlas/spot_031011.png",
+        "x": 1007,
+        "y": 410,
+        "nameOfsY": -4,
+        "questOfsX": 31,
+        "questOfsY": -52,
+        "quests": [
+          {
+            "id": 93031212,
+            "name": "空赤き大地",
+            "type": "free",
+            "flags": [
+              "displayLoopmark"
+            ],
+            "consume": 21,
+            "afterClear": "repeatLast",
+            "recommendLv": "80",
+            "spotId": 31011,
+            "spotName": "門前の平原",
+            "warId": 310,
+            "warLongName": "死想顕現界域 トラオム",
+            "chapterId": 313,
+            "chapterSubId": 12,
+            "gifts": [
+              {
+                "objectId": 2,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 3001222
+              }
+            ],
+            "phases": [
+              1,
+              2,
+              3
+            ],
+            "noticeAt": 1654086600,
+            "openedAt": 1654086600,
+            "closedAt": 1893423600
+          }
+        ]
+      },
+      {
+        "id": 31013,
+        "mapId": 31001,
+        "name": "ライヘンバッハ",
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0310/QMap_Cap0310_Atlas/spot_031013.png",
+        "x": 1000,
+        "y": 722,
+        "questOfsX": 32,
+        "questOfsY": -84,
+        "quests": [
+          {
+            "id": 3001221,
+            "name": "或る名探偵の死",
+            "type": "main",
+            "flags": [
+              "enableFollowQuest"
+            ],
+            "consume": 5,
+            "afterClear": "close",
+            "recommendLv": "90",
+            "spotId": 31013,
+            "spotName": "ライヘンバッハ",
+            "warId": 310,
+            "warLongName": "死想顕現界域 トラオム",
+            "chapterId": 313,
+            "chapterSubId": 21,
+            "gifts": [
+              {
+                "type": "servant",
+                "objectId": 9770500,
+                "num": 5
+              },
+              {
+                "objectId": 2,
+                "num": 1
+              },
+              {
+                "objectId": 46,
+                "num": 5
+              },
+              {
+                "objectId": 6542,
+                "num": 5
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 3001220
+              }
+            ],
+            "phases": [
+              1,
+              2,
+              3
+            ],
+            "phasesNoBattle": [
+              2
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "0300122110",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300122110.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 2,
+                "scripts": [
+                  {
+                    "scriptId": "0300122120",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300122120.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 3,
+                "scripts": [
+                  {
+                    "scriptId": "0300122130",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300122130.txt"
+                  },
+                  {
+                    "scriptId": "0300122131",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300122131.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1654086600,
+            "openedAt": 1654086600,
+            "closedAt": 1893423600
+          },
+          {
+            "id": 3001222,
+            "name": "そして、あなたたちは応報を見る",
+            "type": "main",
+            "flags": [
+              "enableFollowQuest"
+            ],
+            "consume": 5,
+            "afterClear": "close",
+            "recommendLv": "1",
+            "spotId": 31013,
+            "spotName": "ライヘンバッハ",
+            "warId": 310,
+            "warLongName": "死想顕現界域 トラオム",
+            "chapterId": 313,
+            "chapterSubId": 22,
+            "gifts": [
+              {
+                "objectId": 7999,
+                "num": 3
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 3001221
+              }
+            ],
+            "phases": [
+              1,
+              2
+            ],
+            "phasesNoBattle": [
+              1,
+              2
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "0300122210",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300122210.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 2,
+                "scripts": [
+                  {
+                    "scriptId": "0300122220",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300122220.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1654086600,
+            "openedAt": 1654086600,
+            "closedAt": 1893423600
+          },
+          {
+            "id": 93031214,
+            "name": "失落の滝",
+            "type": "free",
+            "flags": [
+              "displayLoopmark"
+            ],
+            "consume": 22,
+            "afterClear": "repeatLast",
+            "recommendLv": "82",
+            "spotId": 31013,
+            "spotName": "ライヘンバッハ",
+            "warId": 310,
+            "warLongName": "死想顕現界域 トラオム",
+            "chapterId": 313,
+            "chapterSubId": 14,
+            "gifts": [
+              {
+                "objectId": 2,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 3001222
+              }
+            ],
+            "phases": [
+              1,
+              2,
+              3
+            ],
+            "noticeAt": 1654086600,
+            "openedAt": 1654086600,
+            "closedAt": 1893423600
+          }
+        ]
+      },
+      {
+        "id": 31014,
+        "mapId": 31001,
+        "name": "果ての荒野",
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0310/QMap_Cap0310_Atlas/spot_031014.png",
+        "x": 221,
+        "y": 821,
+        "nameOfsY": -3,
+        "questOfsX": 34,
+        "questOfsY": -51,
+        "quests": [
+          {
+            "id": 93031215,
+            "name": "未確認領域",
+            "type": "free",
+            "flags": [
+              "displayLoopmark"
+            ],
+            "consume": 22,
+            "afterClear": "repeatLast",
+            "recommendLv": "84",
+            "spotId": 31014,
+            "spotName": "果ての荒野",
+            "warId": 310,
+            "warLongName": "死想顕現界域 トラオム",
+            "chapterId": 313,
+            "chapterSubId": 15,
+            "gifts": [
+              {
+                "objectId": 2,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 3001222
+              }
+            ],
+            "phases": [
+              1,
+              2,
+              3
+            ],
+            "noticeAt": 1654086600,
+            "openedAt": 1654086600,
+            "closedAt": 1893423600
+          }
+        ]
+      },
+      {
+        "id": 31015,
+        "mapId": 31001,
+        "name": "アツァガウク砦",
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0310/QMap_Cap0310_Atlas/spot_031015.png",
+        "x": 1163,
+        "y": 610,
+        "nameOfsY": -7,
+        "questOfsX": 29,
+        "questOfsY": -59
+      },
+      {
+        "id": 31016,
+        "mapId": 31001,
+        "name": "湖畔の平原",
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0310/QMap_Cap0310_Atlas/spot_031016.png",
+        "x": 1411,
+        "y": 1022,
+        "nameOfsY": -6,
+        "questOfsX": 29,
+        "questOfsY": -53
+      },
+      {
+        "id": 31017,
+        "mapId": 31001,
+        "name": "湖畔の平原",
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0310/QMap_Cap0310_Atlas/spot_031017.png",
+        "x": 1411,
+        "y": 1022,
+        "nameOfsY": -6,
+        "questOfsX": 29,
+        "questOfsY": -53,
+        "quests": [
+          {
+            "id": 93031209,
+            "name": "柔らかな残響",
+            "type": "free",
+            "flags": [
+              "displayLoopmark"
+            ],
+            "consume": 21,
+            "afterClear": "repeatLast",
+            "recommendLv": "78",
+            "spotId": 31017,
+            "spotName": "湖畔の平原",
+            "warId": 310,
+            "warLongName": "死想顕現界域 トラオム",
+            "chapterId": 313,
+            "chapterSubId": 9,
+            "gifts": [
+              {
+                "objectId": 2,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 3001222
+              }
+            ],
+            "phases": [
+              1,
+              2,
+              3
+            ],
+            "noticeAt": 1654086600,
+            "openedAt": 1654086600,
+            "closedAt": 1893423600
+          }
+        ]
+      },
+      {
+        "id": 31018,
+        "mapId": 31001,
+        "name": "薄暮れの森",
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0310/QMap_Cap0310_Atlas/spot_031018.png",
+        "x": 687,
+        "y": 637,
+        "nameOfsY": -8,
+        "questOfsX": 34,
+        "questOfsY": -68,
+        "quests": [
+          {
+            "id": 93031204,
+            "name": "隠者の逃げ道",
+            "type": "free",
+            "flags": [
+              "displayLoopmark"
+            ],
+            "consume": 21,
+            "afterClear": "repeatLast",
+            "recommendLv": "76",
+            "spotId": 31018,
+            "spotName": "薄暮れの森",
+            "warId": 310,
+            "warLongName": "死想顕現界域 トラオム",
+            "chapterId": 313,
+            "chapterSubId": 4,
+            "gifts": [
+              {
+                "objectId": 2,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 3001222
+              }
+            ],
+            "phases": [
+              1,
+              2,
+              3
+            ],
+            "noticeAt": 1654086600,
+            "openedAt": 1654086600,
+            "closedAt": 1893423600
+          }
+        ]
+      },
+      {
+        "id": 31020,
+        "mapId": 31001,
+        "name": "ヨウィヌス砦",
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0310/QMap_Cap0310_Atlas/spot_031020.png",
+        "x": 529,
+        "y": 314,
+        "nameOfsY": -7,
+        "questOfsX": 29,
+        "questOfsY": -87,
+        "quests": [
+          {
+            "id": 93031216,
+            "name": "外壁補修中",
+            "type": "free",
+            "flags": [
+              "displayLoopmark"
+            ],
+            "consume": 22,
+            "afterClear": "repeatLast",
+            "recommendLv": "84",
+            "spotId": 31020,
+            "spotName": "ヨウィヌス砦",
+            "warId": 310,
+            "warLongName": "死想顕現界域 トラオム",
+            "chapterId": 313,
+            "chapterSubId": 16,
+            "gifts": [
+              {
+                "objectId": 2,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 3001222
+              }
+            ],
+            "phases": [
+              1,
+              2,
+              3
+            ],
+            "noticeAt": 1654086600,
+            "openedAt": 1654086600,
+            "closedAt": 1893423600
+          }
+        ]
+      },
+      {
+        "id": 31021,
+        "mapId": 31001,
+        "name": "狭間の街",
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0310/QMap_Cap0310_Atlas/spot_031021.png",
+        "x": 1240,
+        "y": 757,
+        "nameOfsY": -3,
+        "questOfsX": 34,
+        "questOfsY": -58
+      },
+      {
+        "id": 31022,
+        "mapId": 31001,
+        "name": "東の平原",
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0310/QMap_Cap0310_Atlas/spot_031022.png",
+        "x": 1467,
+        "y": 683,
+        "nameOfsY": -6,
+        "questOfsX": 35,
+        "questOfsY": -69
+      },
+      {
+        "id": 31023,
+        "mapId": 31001,
+        "name": "復権界域拠点",
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0310/QMap_Cap0310_Atlas/spot_031023.png",
+        "x": 1732,
+        "y": 1115,
+        "nameOfsY": 1,
+        "questOfsX": 41,
+        "questOfsY": -70
+      },
+      {
+        "id": 31024,
+        "mapId": 31001,
+        "name": "中央の森",
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0310/QMap_Cap0310_Atlas/spot_031024.png",
+        "x": 1045,
+        "y": 899,
+        "nameOfsY": -8,
+        "questOfsX": 34,
+        "questOfsY": -68
+      },
+      {
+        "id": 31025,
+        "mapId": 31001,
+        "name": "クサンテンの塔",
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0310/QMap_Cap0310_Atlas/spot_031025.png",
+        "x": 779,
+        "y": 801,
+        "questOfsX": 28,
+        "questOfsY": -76
+      },
+      {
+        "id": 31026,
+        "mapId": 31001,
+        "name": "シルミウム",
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0310/QMap_Cap0310_Atlas/spot_031026.png",
+        "x": 1080,
+        "y": 1102,
+        "nameOfsY": -2,
+        "questOfsX": 37,
+        "questOfsY": -69
+      },
+      {
+        "id": 31027,
+        "mapId": 31001,
+        "name": "クサンテンの塔",
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0310/QMap_Cap0310_Atlas/spot_031008.png",
+        "x": 779,
+        "y": 801,
+        "questOfsX": 28,
+        "questOfsY": -76,
+        "quests": [
+          {
+            "id": 93031207,
+            "name": "月光大砲増幅装置",
+            "type": "free",
+            "flags": [
+              "displayLoopmark"
+            ],
+            "consume": 21,
+            "afterClear": "repeatLast",
+            "recommendLv": "78",
+            "spotId": 31027,
+            "spotName": "クサンテンの塔",
+            "warId": 310,
+            "warLongName": "死想顕現界域 トラオム",
+            "chapterId": 313,
+            "chapterSubId": 7,
+            "gifts": [
+              {
+                "objectId": 2,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 3001222
+              }
+            ],
+            "phases": [
+              1,
+              2,
+              3
+            ],
+            "noticeAt": 1654086600,
+            "openedAt": 1654086600,
+            "closedAt": 1893423600
+          }
+        ]
+      },
+      {
+        "id": 31099,
+        "mapId": 31001,
+        "name": "0",
+        "x": 999999,
+        "y": 999999,
+        "nameOfsY": -7,
+        "questOfsX": 29,
+        "questOfsY": -52,
+        "quests": [
+          {
+            "id": 3001200,
+            "name": "序",
+            "type": "main",
+            "flags": [
+              "enableFollowQuest"
+            ],
+            "consume": 5,
+            "afterClear": "close",
+            "recommendLv": "1",
+            "spotId": 31099,
+            "spotName": "0",
+            "warId": 310,
+            "warLongName": "死想顕現界域 トラオム",
+            "chapterId": 313,
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 3001101
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "phasesNoBattle": [
+              1
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "0300120010",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300120010.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1654086600,
+            "openedAt": 1654086600,
+            "closedAt": 1893423600
+          },
+          {
+            "id": 3001201,
+            "name": "棺桶屋だけが友達なのさ",
+            "type": "main",
+            "flags": [
+              "enableFollowQuest"
+            ],
+            "consume": 5,
+            "afterClear": "close",
+            "recommendLv": "1",
+            "spotId": 31099,
+            "spotName": "0",
+            "warId": 310,
+            "warLongName": "死想顕現界域 トラオム",
+            "chapterId": 313,
+            "chapterSubId": 1,
+            "gifts": [
+              {
+                "objectId": 2,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 3001200
+              }
+            ],
+            "phases": [
+              1,
+              2
+            ],
+            "phasesNoBattle": [
+              1,
+              2
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "0300120110",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300120110.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 2,
+                "scripts": [
+                  {
+                    "scriptId": "0300120120",
+                    "script": "https://static.atlasacademy.io/JP/Script/03/0300120120.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1654086600,
+            "openedAt": 1654086600,
+            "closedAt": 1893423600
+          }
+        ]
+      }
+    ],
+    "spotRoads": [
+      {
+        "id": 31001,
+        "warId": 310,
+        "mapId": 31001,
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0310/QMap_Cap0310_Atlas/img_road0310_00.png",
+        "srcSpotId": 31001,
+        "dstSpotId": 31002,
+        "dispCondType": "itemGet",
+        "dispTargetId": 3001203,
+        "dispTargetValue": 1,
+        "dispCondType2": "questClear",
+        "dispTargetId2": 0,
+        "dispTargetValue2": 0,
+        "activeCondType": "itemGet",
+        "activeTargetId": 3001203,
+        "activeTargetValue": 1
+      },
+      {
+        "id": 31002,
+        "warId": 310,
+        "mapId": 31001,
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0310/QMap_Cap0310_Atlas/img_road0310_00.png",
+        "srcSpotId": 31002,
+        "dstSpotId": 31004,
+        "dispCondType": "itemGet",
+        "dispTargetId": 3001204,
+        "dispTargetValue": 2,
+        "dispCondType2": "questClear",
+        "dispTargetId2": 0,
+        "dispTargetValue2": 0,
+        "activeCondType": "itemGet",
+        "activeTargetId": 3001204,
+        "activeTargetValue": 2
+      },
+      {
+        "id": 31003,
+        "warId": 310,
+        "mapId": 31001,
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0310/QMap_Cap0310_Atlas/img_road0310_00.png",
+        "srcSpotId": 31006,
+        "dstSpotId": 31007,
+        "dispCondType": "itemGet",
+        "dispTargetId": 3001207,
+        "dispTargetValue": 2,
+        "dispCondType2": "questClear",
+        "dispTargetId2": 0,
+        "dispTargetValue2": 0,
+        "activeCondType": "itemGet",
+        "activeTargetId": 3001207,
+        "activeTargetValue": 2
+      },
+      {
+        "id": 31004,
+        "warId": 310,
+        "mapId": 31001,
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0310/QMap_Cap0310_Atlas/img_road0310_00.png",
+        "srcSpotId": 31007,
+        "dstSpotId": 31008,
+        "dispCondType": "itemGet",
+        "dispTargetId": 3001209,
+        "dispTargetValue": 1,
+        "dispCondType2": "questClear",
+        "dispTargetId2": 0,
+        "dispTargetValue2": 0,
+        "activeCondType": "itemGet",
+        "activeTargetId": 3001209,
+        "activeTargetValue": 1
+      },
+      {
+        "id": 31005,
+        "warId": 310,
+        "mapId": 31001,
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0310/QMap_Cap0310_Atlas/img_road0310_00.png",
+        "srcSpotId": 31004,
+        "dstSpotId": 31011,
+        "dispCondType": "itemGet",
+        "dispTargetId": 3001207,
+        "dispTargetValue": 5,
+        "dispCondType2": "questClear",
+        "dispTargetId2": 0,
+        "dispTargetValue2": 0,
+        "activeCondType": "itemGet",
+        "activeTargetId": 3001207,
+        "activeTargetValue": 5
+      },
+      {
+        "id": 31006,
+        "warId": 310,
+        "mapId": 31001,
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0310/QMap_Cap0310_Atlas/img_road0310_00.png",
+        "srcSpotId": 31011,
+        "dstSpotId": 31013,
+        "dispCondType": "itemGet",
+        "dispTargetId": 3001220,
+        "dispTargetValue": 8,
+        "dispCondType2": "questClear",
+        "dispTargetId2": 0,
+        "dispTargetValue2": 0,
+        "activeCondType": "itemGet",
+        "activeTargetId": 3001220,
+        "activeTargetValue": 8
+      },
+      {
+        "id": 31007,
+        "warId": 310,
+        "mapId": 31001,
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0310/QMap_Cap0310_Atlas/img_road0310_00.png",
+        "srcSpotId": 31002,
+        "dstSpotId": 31003,
+        "dispCondType": "itemGet",
+        "dispTargetId": 3001204,
+        "dispTargetValue": 2,
+        "dispCondType2": "questClear",
+        "dispTargetId2": 0,
+        "dispTargetValue2": 0,
+        "activeCondType": "itemGet",
+        "activeTargetId": 3001204,
+        "activeTargetValue": 2
+      },
+      {
+        "id": 31008,
+        "warId": 310,
+        "mapId": 31001,
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0310/QMap_Cap0310_Atlas/img_road0310_00.png",
+        "srcSpotId": 31005,
+        "dstSpotId": 31017,
+        "dispCondType": "useItemTime",
+        "dispTargetId": 0,
+        "dispTargetValue": 0,
+        "dispCondType2": "useItemTime",
+        "dispTargetId2": 0,
+        "dispTargetValue2": 0,
+        "activeCondType": "useItemTime",
+        "activeTargetId": 0,
+        "activeTargetValue": 0
+      },
+      {
+        "id": 31009,
+        "warId": 310,
+        "mapId": 31001,
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0310/QMap_Cap0310_Atlas/img_road0310_00.png",
+        "srcSpotId": 31003,
+        "dstSpotId": 31017,
+        "dispCondType": "itemGet",
+        "dispTargetId": 3001205,
+        "dispTargetValue": 1,
+        "dispCondType2": "questClear",
+        "dispTargetId2": 0,
+        "dispTargetValue2": 0,
+        "activeCondType": "itemGet",
+        "activeTargetId": 3001205,
+        "activeTargetValue": 1
+      },
+      {
+        "id": 31010,
+        "warId": 310,
+        "mapId": 31001,
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0310/QMap_Cap0310_Atlas/img_road0310_00.png",
+        "srcSpotId": 31017,
+        "dstSpotId": 31005,
+        "dispCondType": "itemGet",
+        "dispTargetId": 3001206,
+        "dispTargetValue": 1,
+        "dispCondType2": "questClear",
+        "dispTargetId2": 0,
+        "dispTargetValue2": 0,
+        "activeCondType": "itemGet",
+        "activeTargetId": 3001206,
+        "activeTargetValue": 1
+      },
+      {
+        "id": 31011,
+        "warId": 310,
+        "mapId": 31001,
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0310/QMap_Cap0310_Atlas/img_road0310_00.png",
+        "srcSpotId": 31005,
+        "dstSpotId": 31006,
+        "dispCondType": "itemGet",
+        "dispTargetId": 3001207,
+        "dispTargetValue": 1,
+        "dispCondType2": "questClear",
+        "dispTargetId2": 0,
+        "dispTargetValue2": 0,
+        "activeCondType": "itemGet",
+        "activeTargetId": 3001207,
+        "activeTargetValue": 1
+      },
+      {
+        "id": 31012,
+        "warId": 310,
+        "mapId": 31001,
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0310/QMap_Cap0310_Atlas/img_road0310_00.png",
+        "srcSpotId": 31005,
+        "dstSpotId": 31001,
+        "dispCondType": "itemGet",
+        "dispTargetId": 3001210,
+        "dispTargetValue": 2,
+        "dispCondType2": "questClear",
+        "dispTargetId2": 0,
+        "dispTargetValue2": 0,
+        "activeCondType": "itemGet",
+        "activeTargetId": 3001210,
+        "activeTargetValue": 2
+      },
+      {
+        "id": 31013,
+        "warId": 310,
+        "mapId": 31001,
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0310/QMap_Cap0310_Atlas/img_road0310_00.png",
+        "srcSpotId": 31001,
+        "dstSpotId": 31009,
+        "dispCondType": "itemGet",
+        "dispTargetId": 3001212,
+        "dispTargetValue": 4,
+        "dispCondType2": "questClear",
+        "dispTargetId2": 0,
+        "dispTargetValue2": 0,
+        "activeCondType": "itemGet",
+        "activeTargetId": 3001212,
+        "activeTargetValue": 4
+      },
+      {
+        "id": 31014,
+        "warId": 310,
+        "mapId": 31001,
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0310/QMap_Cap0310_Atlas/img_road0310_00.png",
+        "srcSpotId": 31018,
+        "dstSpotId": 31007,
+        "dispCondType": "itemGet",
+        "dispTargetId": 3001207,
+        "dispTargetValue": 8,
+        "dispCondType2": "questClear",
+        "dispTargetId2": 0,
+        "dispTargetValue2": 0,
+        "activeCondType": "itemGet",
+        "activeTargetId": 3001207,
+        "activeTargetValue": 8
+      },
+      {
+        "id": 31015,
+        "warId": 310,
+        "mapId": 31001,
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0310/QMap_Cap0310_Atlas/img_road0310_00.png",
+        "srcSpotId": 31006,
+        "dstSpotId": 31010,
+        "dispCondType": "itemGet",
+        "dispTargetId": 3001214,
+        "dispTargetValue": 2,
+        "dispCondType2": "questClear",
+        "dispTargetId2": 0,
+        "dispTargetValue2": 0,
+        "activeCondType": "itemGet",
+        "activeTargetId": 3001214,
+        "activeTargetValue": 2
+      },
+      {
+        "id": 31016,
+        "warId": 310,
+        "mapId": 31001,
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0310/QMap_Cap0310_Atlas/img_road0310_00.png",
+        "srcSpotId": 31011,
+        "dstSpotId": 31018,
+        "dispCondType": "itemGet",
+        "dispTargetId": 3001207,
+        "dispTargetValue": 6,
+        "dispCondType2": "questClear",
+        "dispTargetId2": 0,
+        "dispTargetValue2": 0,
+        "activeCondType": "itemGet",
+        "activeTargetId": 3001207,
+        "activeTargetValue": 6
+      },
+      {
+        "id": 31017,
+        "warId": 310,
+        "mapId": 31001,
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0310/QMap_Cap0310_Atlas/img_road0310_00.png",
+        "srcSpotId": 31018,
+        "dstSpotId": 31014,
+        "dispCondType": "itemGet",
+        "dispTargetId": 3001222,
+        "dispTargetValue": 1,
+        "dispCondType2": "questClear",
+        "dispTargetId2": 0,
+        "dispTargetValue2": 0,
+        "activeCondType": "itemGet",
+        "activeTargetId": 3001222,
+        "activeTargetValue": 1
+      },
+      {
+        "id": 31018,
+        "warId": 310,
+        "mapId": 31001,
+        "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0310/QMap_Cap0310_Atlas/img_road0310_00.png",
+        "srcSpotId": 31018,
+        "dstSpotId": 31020,
+        "dispCondType": "itemGet",
+        "dispTargetId": 93031204,
+        "dispTargetValue": 3,
+        "dispCondType2": "questClear",
+        "dispTargetId2": 0,
+        "dispTargetValue2": 0,
+        "activeCondType": "itemGet",
+        "activeTargetId": 93031204,
+        "activeTargetValue": 3
+      }
+    ]
+  },
+  {
+    "id": 311,
+    "coordinates": [
       [],
       []
     ],
@@ -73236,7 +76743,7 @@
       "whiteMarkUnderBoard"
     ],
     "banner": "https://static.atlasacademy.io/JP/Banner/questboard_cap_closed.png",
-    "priority": 312,
+    "priority": 313,
     "bgm": {
       "id": 0
     },
@@ -73247,14 +76754,37 @@
     "lastQuestId": 0,
     "warAdds": [
       {
-        "warId": 310,
+        "warId": 311,
+        "type": "flag",
+        "priority": 1,
+        "overwriteId": 130,
+        "condType": "questClear",
+        "targetId": 3001101,
+        "value": 0,
+        "startedAt": 1654086600,
+        "endedAt": 1893423600
+      },
+      {
+        "warId": 311,
         "type": "warForceDisp",
         "priority": 1,
         "overwriteId": 0,
         "condType": "questClear",
         "targetId": 3001009,
         "value": 0,
-        "startedAt": 1640941200,
+        "startedAt": 1654086600,
+        "endedAt": 1893423600
+      },
+      {
+        "warId": 311,
+        "type": "banner",
+        "priority": 2,
+        "overwriteId": 317,
+        "overwriteBanner": "https://static.atlasacademy.io/JP/Banner/questboard_cap317.png",
+        "condType": "questNotClear",
+        "targetId": 3001101,
+        "value": 0,
+        "startedAt": 1654086600,
         "endedAt": 1893423600
       }
     ],
@@ -89150,6 +92680,43 @@
             ],
             "noticeAt": 1632906000,
             "openedAt": 1632906000,
+            "closedAt": 1893423600
+          },
+          {
+            "id": 91105201,
+            "name": "霊基解放クエスト シャルルマーニュ",
+            "type": "friendship",
+            "consume": 5,
+            "afterClear": "close",
+            "recommendLv": "90",
+            "spotId": 99003,
+            "spotName": "幕間の物語",
+            "warId": 1003,
+            "warLongName": "幕間の物語",
+            "chapterId": 1,
+            "chapterSubId": 1,
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 3001222,
+                "closedMessage": "死想顕現界域 トラオムをクリア＆霊基再臨3段階目で開放"
+              },
+              {
+                "type": "svtLimit",
+                "targetId": 105200,
+                "value": 3,
+                "closedMessage": "死想顕現界域 トラオムをクリア＆霊基再臨3段階目で開放"
+              },
+              {
+                "type": "svtGet",
+                "targetId": 105200
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "noticeAt": 1654086600,
+            "openedAt": 1654086600,
             "closedAt": 1893423600
           },
           {
