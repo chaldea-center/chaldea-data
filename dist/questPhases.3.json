@@ -27712,29 +27712,36 @@
         "type": "servant",
         "objectId": 9706400,
         "num": 1,
-        "dropCount": 2,
-        "runs": 3
+        "dropCount": 3,
+        "runs": 4
       },
       {
         "type": "item",
         "objectId": 1,
         "num": 30000,
-        "dropCount": 8,
-        "runs": 3
+        "dropCount": 9,
+        "runs": 4
       },
       {
         "type": "item",
         "objectId": 6106,
         "num": 1,
-        "dropCount": 2,
-        "runs": 3
+        "dropCount": 3,
+        "runs": 4
       },
       {
         "type": "item",
         "objectId": 6107,
         "num": 1,
         "dropCount": 1,
-        "runs": 3
+        "runs": 4
+      },
+      {
+        "type": "item",
+        "objectId": 6551,
+        "num": 1,
+        "dropCount": 1,
+        "runs": 4
       }
     ],
     "stages": [
@@ -29644,7 +29651,9 @@
       3
     ],
     "phasesWithEnemies": [
-      1
+      1,
+      2,
+      3
     ],
     "noticeAt": 1654086600,
     "openedAt": 1654086600,
@@ -29667,24 +29676,779 @@
     "exp": 20056,
     "bond": 755,
     "battleBgId": 20800,
+    "drops": [
+      {
+        "type": "item",
+        "objectId": 6507,
+        "num": 1,
+        "dropCount": 1,
+        "runs": 1
+      }
+    ],
     "stages": [
       {
         "wave": 1,
         "bgm": {
           "id": 591
-        }
+        },
+        "enemies": [
+          {
+            "deck": "enemy",
+            "deckId": 1,
+            "userSvtId": 1,
+            "uniqueId": 7,
+            "npcId": 3001359,
+            "roleType": "servant",
+            "name": "クラス・キャスター",
+            "svt": {
+              "id": 9943790,
+              "collectionNo": 0,
+              "name": "クラス・キャスター",
+              "type": "enemy",
+              "flag": "normal",
+              "className": "caster",
+              "attribute": "human",
+              "rarity": 4,
+              "atkMax": 15678,
+              "hpMax": 308700,
+              "face": "https://static.atlasacademy.io/JP/Enemys/99437902.png",
+              "costume": {
+                "9943790": {
+                  "id": 1,
+                  "costumeCollectionNo": 0,
+                  "battleCharaId": 9943790,
+                  "shortName": ""
+                }
+              }
+            },
+            "lv": 33,
+            "atk": 5694,
+            "hp": 28503,
+            "deathRate": 200,
+            "criticalRate": 100,
+            "chargeTurn": 5,
+            "traits": [
+              {
+                "id": 5000
+              },
+              {
+                "id": 5010
+              },
+              {
+                "id": 1
+              },
+              {
+                "id": 104
+              },
+              {
+                "id": 202
+              },
+              {
+                "id": 2001
+              },
+              {
+                "id": 1000
+              },
+              {
+                "id": 2008
+              },
+              {
+                "id": 2
+              }
+            ],
+            "skills": {
+              "skillId1": 967029,
+              "skill1": {
+                "id": 967029
+              },
+              "skillLv1": 1
+            },
+            "noblePhantasm": {
+              "noblePhantasmId": 789,
+              "noblePhantasm": {
+                "id": 789,
+                "num": 1,
+                "strengthStatus": 1,
+                "priority": 14
+              },
+              "noblePhantasmLv": 1
+            },
+            "serverMod": {
+              "tdRate": 1200,
+              "tdAttackRate": 1200,
+              "starRate": 0
+            },
+            "misc": {
+              "userCommandCodeIds": [
+                -1,
+                -1,
+                -1,
+                -1,
+                -1
+              ]
+            }
+          },
+          {
+            "deck": "enemy",
+            "deckId": 2,
+            "userSvtId": 2,
+            "uniqueId": 8,
+            "npcId": 3001358,
+            "roleType": "servant",
+            "name": "クラス・ランサーＡ",
+            "svt": {
+              "id": 9943770,
+              "collectionNo": 0,
+              "name": "クラス・ランサー",
+              "type": "enemy",
+              "flag": "normal",
+              "className": "lancer",
+              "attribute": "human",
+              "rarity": 4,
+              "atkMax": 18035,
+              "hpMax": 290700,
+              "face": "https://static.atlasacademy.io/JP/Enemys/99437702.png",
+              "costume": {
+                "9943770": {
+                  "id": 1,
+                  "costumeCollectionNo": 0,
+                  "battleCharaId": 9943770,
+                  "shortName": ""
+                }
+              }
+            },
+            "lv": 26,
+            "atk": 5345,
+            "hp": 23383,
+            "deathRate": 200,
+            "criticalRate": 100,
+            "chargeTurn": 4,
+            "traits": [
+              {
+                "id": 5000
+              },
+              {
+                "id": 5010
+              },
+              {
+                "id": 1
+              },
+              {
+                "id": 101
+              },
+              {
+                "id": 202
+              },
+              {
+                "id": 2001
+              },
+              {
+                "id": 1000
+              },
+              {
+                "id": 2008
+              },
+              {
+                "id": 2
+              }
+            ],
+            "skills": {
+              "skillId1": 967027,
+              "skill1": {
+                "id": 967027
+              },
+              "skillLv1": 1
+            },
+            "noblePhantasm": {
+              "noblePhantasmId": 783,
+              "noblePhantasm": {
+                "id": 783,
+                "num": 1,
+                "strengthStatus": 1,
+                "priority": 8
+              },
+              "noblePhantasmLv": 1
+            },
+            "serverMod": {
+              "tdRate": 1000,
+              "tdAttackRate": 1000,
+              "starRate": -50
+            },
+            "misc": {
+              "userCommandCodeIds": [
+                -1,
+                -1,
+                -1,
+                -1,
+                -1
+              ]
+            }
+          },
+          {
+            "deck": "enemy",
+            "deckId": 3,
+            "userSvtId": 3,
+            "uniqueId": 9,
+            "npcId": 3001358,
+            "roleType": "servant",
+            "name": "クラス・ランサーＢ",
+            "svt": {
+              "id": 9943770,
+              "collectionNo": 0,
+              "name": "クラス・ランサー",
+              "type": "enemy",
+              "flag": "normal",
+              "className": "lancer",
+              "attribute": "human",
+              "rarity": 4,
+              "atkMax": 18035,
+              "hpMax": 290700,
+              "face": "https://static.atlasacademy.io/JP/Enemys/99437702.png",
+              "costume": {
+                "9943770": {
+                  "id": 1,
+                  "costumeCollectionNo": 0,
+                  "battleCharaId": 9943770,
+                  "shortName": ""
+                }
+              }
+            },
+            "lv": 27,
+            "atk": 5515,
+            "hp": 24275,
+            "deathRate": 200,
+            "criticalRate": 100,
+            "chargeTurn": 4,
+            "traits": [
+              {
+                "id": 5000
+              },
+              {
+                "id": 5010
+              },
+              {
+                "id": 1
+              },
+              {
+                "id": 101
+              },
+              {
+                "id": 202
+              },
+              {
+                "id": 2001
+              },
+              {
+                "id": 1000
+              },
+              {
+                "id": 2008
+              },
+              {
+                "id": 2
+              }
+            ],
+            "skills": {
+              "skillId1": 967027,
+              "skill1": {
+                "id": 967027
+              },
+              "skillLv1": 1
+            },
+            "noblePhantasm": {
+              "noblePhantasmId": 783,
+              "noblePhantasm": {
+                "id": 783,
+                "num": 1,
+                "strengthStatus": 1,
+                "priority": 8
+              },
+              "noblePhantasmLv": 1
+            },
+            "serverMod": {
+              "tdRate": 1000,
+              "tdAttackRate": 1000,
+              "starRate": -50
+            },
+            "misc": {
+              "userCommandCodeIds": [
+                -1,
+                -1,
+                -1,
+                -1,
+                -1
+              ]
+            }
+          }
+        ]
       },
       {
         "wave": 2,
         "bgm": {
           "id": 591
-        }
+        },
+        "enemies": [
+          {
+            "deck": "enemy",
+            "deckId": 1,
+            "userSvtId": 4,
+            "uniqueId": 10,
+            "npcId": 3001359,
+            "roleType": "servant",
+            "name": "クラス・キャスター",
+            "svt": {
+              "id": 9943790,
+              "collectionNo": 0,
+              "name": "クラス・キャスター",
+              "type": "enemy",
+              "flag": "normal",
+              "className": "caster",
+              "attribute": "human",
+              "rarity": 4,
+              "atkMax": 15678,
+              "hpMax": 308700,
+              "face": "https://static.atlasacademy.io/JP/Enemys/99437902.png",
+              "costume": {
+                "9943790": {
+                  "id": 1,
+                  "costumeCollectionNo": 0,
+                  "battleCharaId": 9943790,
+                  "shortName": ""
+                }
+              }
+            },
+            "lv": 35,
+            "atk": 5989,
+            "hp": 39927,
+            "deathRate": 200,
+            "criticalRate": 100,
+            "chargeTurn": 5,
+            "traits": [
+              {
+                "id": 5000
+              },
+              {
+                "id": 5010
+              },
+              {
+                "id": 1
+              },
+              {
+                "id": 104
+              },
+              {
+                "id": 202
+              },
+              {
+                "id": 2001
+              },
+              {
+                "id": 1000
+              },
+              {
+                "id": 2008
+              },
+              {
+                "id": 2
+              }
+            ],
+            "skills": {
+              "skillId1": 967029,
+              "skill1": {
+                "id": 967029
+              },
+              "skillLv1": 1
+            },
+            "noblePhantasm": {
+              "noblePhantasmId": 789,
+              "noblePhantasm": {
+                "id": 789,
+                "num": 1,
+                "strengthStatus": 1,
+                "priority": 14
+              },
+              "noblePhantasmLv": 1
+            },
+            "serverMod": {
+              "tdRate": 1200,
+              "tdAttackRate": 1200,
+              "starRate": 0
+            },
+            "misc": {
+              "userCommandCodeIds": [
+                -1,
+                -1,
+                -1,
+                -1,
+                -1
+              ]
+            }
+          },
+          {
+            "deck": "enemy",
+            "deckId": 2,
+            "userSvtId": 5,
+            "uniqueId": 11,
+            "npcId": 3001357,
+            "roleType": "danger",
+            "name": "キメラ",
+            "svt": {
+              "id": 9933400,
+              "collectionNo": 0,
+              "name": "キメラ",
+              "type": "enemy",
+              "flag": "normal",
+              "className": "berserker",
+              "attribute": "earth",
+              "rarity": 4,
+              "atkMax": 16671,
+              "hpMax": 364500,
+              "face": "https://static.atlasacademy.io/JP/Enemys/99334001.png"
+            },
+            "lv": 35,
+            "atk": 6368,
+            "hp": 62434,
+            "deathRate": 200,
+            "criticalRate": 300,
+            "chargeTurn": 5,
+            "traits": [
+              {
+                "id": 5000
+              },
+              {
+                "id": 5010
+              },
+              {
+                "id": 106
+              },
+              {
+                "id": 201
+              },
+              {
+                "id": 1004
+              },
+              {
+                "id": 1113
+              },
+              {
+                "id": 2005
+              }
+            ],
+            "skills": {
+              "skillId1": 960078,
+              "skill1": {
+                "id": 960078
+              },
+              "skillLv1": 1
+            },
+            "noblePhantasm": {
+              "noblePhantasmId": 285,
+              "noblePhantasm": {
+                "id": 285,
+                "num": 1,
+                "strengthStatus": 1,
+                "priority": 114
+              },
+              "noblePhantasmLv": 1
+            },
+            "serverMod": {
+              "tdRate": 800,
+              "tdAttackRate": 800,
+              "starRate": 0
+            },
+            "misc": {
+              "userCommandCodeIds": [
+                -1,
+                -1,
+                -1,
+                -1,
+                -1
+              ]
+            }
+          },
+          {
+            "deck": "enemy",
+            "deckId": 3,
+            "userSvtId": 6,
+            "uniqueId": 12,
+            "npcId": 3001358,
+            "roleType": "servant",
+            "name": "クラス・ランサー",
+            "svt": {
+              "id": 9943770,
+              "collectionNo": 0,
+              "name": "クラス・ランサー",
+              "type": "enemy",
+              "flag": "normal",
+              "className": "lancer",
+              "attribute": "human",
+              "rarity": 4,
+              "atkMax": 18035,
+              "hpMax": 290700,
+              "face": "https://static.atlasacademy.io/JP/Enemys/99437702.png",
+              "costume": {
+                "9943770": {
+                  "id": 1,
+                  "costumeCollectionNo": 0,
+                  "battleCharaId": 9943770,
+                  "shortName": ""
+                }
+              }
+            },
+            "lv": 29,
+            "atk": 5854,
+            "hp": 31944,
+            "deathRate": 200,
+            "criticalRate": 100,
+            "chargeTurn": 4,
+            "traits": [
+              {
+                "id": 5000
+              },
+              {
+                "id": 5010
+              },
+              {
+                "id": 1
+              },
+              {
+                "id": 101
+              },
+              {
+                "id": 202
+              },
+              {
+                "id": 2001
+              },
+              {
+                "id": 1000
+              },
+              {
+                "id": 2008
+              },
+              {
+                "id": 2
+              }
+            ],
+            "skills": {
+              "skillId1": 967027,
+              "skill1": {
+                "id": 967027
+              },
+              "skillLv1": 1
+            },
+            "noblePhantasm": {
+              "noblePhantasmId": 783,
+              "noblePhantasm": {
+                "id": 783,
+                "num": 1,
+                "strengthStatus": 1,
+                "priority": 8
+              },
+              "noblePhantasmLv": 1
+            },
+            "serverMod": {
+              "tdRate": 1000,
+              "tdAttackRate": 1000,
+              "starRate": -50
+            },
+            "misc": {
+              "userCommandCodeIds": [
+                -1,
+                -1,
+                -1,
+                -1,
+                -1
+              ]
+            }
+          }
+        ]
       },
       {
         "wave": 3,
         "bgm": {
           "id": 561
-        }
+        },
+        "enemies": [
+          {
+            "deck": "enemy",
+            "deckId": 1,
+            "userSvtId": 7,
+            "uniqueId": 13,
+            "npcId": 3001357,
+            "roleType": "danger",
+            "name": "キメラ",
+            "svt": {
+              "id": 9933400,
+              "collectionNo": 0,
+              "name": "キメラ",
+              "type": "enemy",
+              "flag": "normal",
+              "className": "berserker",
+              "attribute": "earth",
+              "rarity": 4,
+              "atkMax": 16671,
+              "hpMax": 364500,
+              "face": "https://static.atlasacademy.io/JP/Enemys/99334001.png"
+            },
+            "lv": 39,
+            "atk": 6995,
+            "hp": 114900,
+            "deathRate": 200,
+            "criticalRate": 300,
+            "chargeTurn": 5,
+            "traits": [
+              {
+                "id": 5000
+              },
+              {
+                "id": 5010
+              },
+              {
+                "id": 106
+              },
+              {
+                "id": 201
+              },
+              {
+                "id": 1004
+              },
+              {
+                "id": 1113
+              },
+              {
+                "id": 2005
+              }
+            ],
+            "skills": {
+              "skillId1": 960078,
+              "skill1": {
+                "id": 960078
+              },
+              "skillLv1": 1
+            },
+            "noblePhantasm": {
+              "noblePhantasmId": 285,
+              "noblePhantasm": {
+                "id": 285,
+                "num": 1,
+                "strengthStatus": 1,
+                "priority": 114
+              },
+              "noblePhantasmLv": 1
+            },
+            "serverMod": {
+              "tdRate": 800,
+              "tdAttackRate": 800,
+              "starRate": 0
+            },
+            "misc": {
+              "userCommandCodeIds": [
+                -1,
+                -1,
+                -1,
+                -1,
+                -1
+              ]
+            }
+          },
+          {
+            "deck": "enemy",
+            "deckId": 3,
+            "userSvtId": 8,
+            "uniqueId": 14,
+            "npcId": 3001359,
+            "roleType": "servant",
+            "name": "クラス・キャスター",
+            "svt": {
+              "id": 9943790,
+              "collectionNo": 0,
+              "name": "クラス・キャスター",
+              "type": "enemy",
+              "flag": "normal",
+              "className": "caster",
+              "attribute": "human",
+              "rarity": 4,
+              "atkMax": 15678,
+              "hpMax": 308700,
+              "face": "https://static.atlasacademy.io/JP/Enemys/99437902.png",
+              "costume": {
+                "9943790": {
+                  "id": 1,
+                  "costumeCollectionNo": 0,
+                  "battleCharaId": 9943790,
+                  "shortName": ""
+                }
+              }
+            },
+            "lv": 37,
+            "atk": 6284,
+            "hp": 45609,
+            "deathRate": 200,
+            "criticalRate": 100,
+            "chargeTurn": 5,
+            "traits": [
+              {
+                "id": 5000
+              },
+              {
+                "id": 5010
+              },
+              {
+                "id": 1
+              },
+              {
+                "id": 104
+              },
+              {
+                "id": 202
+              },
+              {
+                "id": 2001
+              },
+              {
+                "id": 1000
+              },
+              {
+                "id": 2008
+              },
+              {
+                "id": 2
+              }
+            ],
+            "skills": {
+              "skillId1": 967029,
+              "skill1": {
+                "id": 967029
+              },
+              "skillLv1": 1
+            },
+            "noblePhantasm": {
+              "noblePhantasmId": 789,
+              "noblePhantasm": {
+                "id": 789,
+                "num": 1,
+                "strengthStatus": 1,
+                "priority": 14
+              },
+              "noblePhantasmLv": 1
+            },
+            "serverMod": {
+              "tdRate": 1200,
+              "tdAttackRate": 1200,
+              "starRate": 0
+            },
+            "misc": {
+              "userCommandCodeIds": [
+                -1,
+                -1,
+                -1,
+                -1,
+                -1
+              ]
+            }
+          }
+        ]
       }
     ]
   },
@@ -30668,7 +31432,9 @@
       3
     ],
     "phasesWithEnemies": [
-      1
+      1,
+      2,
+      3
     ],
     "noticeAt": 1654086600,
     "openedAt": 1654086600,
@@ -30690,24 +31456,692 @@
     "exp": 21256,
     "bond": 775,
     "battleBgId": 78900,
+    "drops": [
+      {
+        "type": "servant",
+        "objectId": 9702500,
+        "num": 1,
+        "dropCount": 1,
+        "runs": 1
+      },
+      {
+        "type": "item",
+        "objectId": 1,
+        "num": 30000,
+        "dropCount": 1,
+        "runs": 1
+      }
+    ],
     "stages": [
       {
         "wave": 1,
         "bgm": {
           "id": 591
-        }
+        },
+        "enemies": [
+          {
+            "deck": "enemy",
+            "deckId": 1,
+            "userSvtId": 1,
+            "uniqueId": 7,
+            "npcId": 3001364,
+            "roleType": "normal",
+            "name": "怪鳥Ａ",
+            "svt": {
+              "id": 9940750,
+              "collectionNo": 0,
+              "name": "シャンタク",
+              "type": "enemy",
+              "flag": "normal",
+              "className": "caster",
+              "attribute": "earth",
+              "rarity": 4,
+              "atkMax": 18043,
+              "hpMax": 372400,
+              "face": "https://static.atlasacademy.io/JP/Enemys/99407501.png"
+            },
+            "lv": 28,
+            "atk": 5806,
+            "hp": 29120,
+            "deathRate": 100,
+            "criticalRate": 100,
+            "chargeTurn": 5,
+            "traits": [
+              {
+                "id": 5000
+              },
+              {
+                "id": 5010
+              },
+              {
+                "id": 104
+              },
+              {
+                "id": 201
+              },
+              {
+                "id": 2005
+              },
+              {
+                "id": 2019
+              }
+            ],
+            "skills": {
+              "skillId1": 961270,
+              "skill1": {
+                "id": 961270
+              },
+              "skillLv1": 1
+            },
+            "noblePhantasm": {
+              "noblePhantasmId": 547,
+              "noblePhantasm": {
+                "id": 547,
+                "num": 1,
+                "priority": 521
+              },
+              "noblePhantasmLv": 1
+            },
+            "serverMod": {
+              "tdRate": 1200,
+              "tdAttackRate": 1200,
+              "starRate": 0
+            },
+            "misc": {
+              "userCommandCodeIds": [
+                -1,
+                -1,
+                -1,
+                -1,
+                -1
+              ]
+            }
+          },
+          {
+            "deck": "enemy",
+            "deckId": 2,
+            "userSvtId": 2,
+            "uniqueId": 8,
+            "npcId": 3001364,
+            "roleType": "normal",
+            "name": "怪鳥Ｂ",
+            "svt": {
+              "id": 9940750,
+              "collectionNo": 0,
+              "name": "シャンタク",
+              "type": "enemy",
+              "flag": "normal",
+              "className": "caster",
+              "attribute": "earth",
+              "rarity": 4,
+              "atkMax": 18043,
+              "hpMax": 372400,
+              "face": "https://static.atlasacademy.io/JP/Enemys/99407501.png"
+            },
+            "lv": 27,
+            "atk": 5637,
+            "hp": 28088,
+            "deathRate": 100,
+            "criticalRate": 100,
+            "chargeTurn": 5,
+            "traits": [
+              {
+                "id": 5000
+              },
+              {
+                "id": 5010
+              },
+              {
+                "id": 104
+              },
+              {
+                "id": 201
+              },
+              {
+                "id": 2005
+              },
+              {
+                "id": 2019
+              }
+            ],
+            "skills": {
+              "skillId1": 961270,
+              "skill1": {
+                "id": 961270
+              },
+              "skillLv1": 1
+            },
+            "noblePhantasm": {
+              "noblePhantasmId": 547,
+              "noblePhantasm": {
+                "id": 547,
+                "num": 1,
+                "priority": 521
+              },
+              "noblePhantasmLv": 1
+            },
+            "serverMod": {
+              "tdRate": 1200,
+              "tdAttackRate": 1200,
+              "starRate": 0
+            },
+            "misc": {
+              "userCommandCodeIds": [
+                -1,
+                -1,
+                -1,
+                -1,
+                -1
+              ]
+            }
+          },
+          {
+            "deck": "enemy",
+            "deckId": 3,
+            "userSvtId": 3,
+            "uniqueId": 9,
+            "npcId": 3001364,
+            "roleType": "normal",
+            "name": "怪鳥Ｃ",
+            "svt": {
+              "id": 9940750,
+              "collectionNo": 0,
+              "name": "シャンタク",
+              "type": "enemy",
+              "flag": "normal",
+              "className": "caster",
+              "attribute": "earth",
+              "rarity": 4,
+              "atkMax": 18043,
+              "hpMax": 372400,
+              "face": "https://static.atlasacademy.io/JP/Enemys/99407501.png"
+            },
+            "lv": 25,
+            "atk": 5301,
+            "hp": 26024,
+            "deathRate": 100,
+            "criticalRate": 100,
+            "chargeTurn": 5,
+            "traits": [
+              {
+                "id": 5000
+              },
+              {
+                "id": 5010
+              },
+              {
+                "id": 104
+              },
+              {
+                "id": 201
+              },
+              {
+                "id": 2005
+              },
+              {
+                "id": 2019
+              }
+            ],
+            "skills": {
+              "skillId1": 961270,
+              "skill1": {
+                "id": 961270
+              },
+              "skillLv1": 1
+            },
+            "noblePhantasm": {
+              "noblePhantasmId": 547,
+              "noblePhantasm": {
+                "id": 547,
+                "num": 1,
+                "priority": 521
+              },
+              "noblePhantasmLv": 1
+            },
+            "serverMod": {
+              "tdRate": 1200,
+              "tdAttackRate": 1200,
+              "starRate": 0
+            },
+            "misc": {
+              "userCommandCodeIds": [
+                -1,
+                -1,
+                -1,
+                -1,
+                -1
+              ]
+            }
+          }
+        ]
       },
       {
         "wave": 2,
         "bgm": {
           "id": 591
-        }
+        },
+        "enemies": [
+          {
+            "deck": "enemy",
+            "deckId": 1,
+            "userSvtId": 4,
+            "uniqueId": 10,
+            "npcId": 3001364,
+            "roleType": "normal",
+            "name": "怪鳥",
+            "svt": {
+              "id": 9940750,
+              "collectionNo": 0,
+              "name": "シャンタク",
+              "type": "enemy",
+              "flag": "normal",
+              "className": "caster",
+              "attribute": "earth",
+              "rarity": 4,
+              "atkMax": 18043,
+              "hpMax": 372400,
+              "face": "https://static.atlasacademy.io/JP/Enemys/99407501.png"
+            },
+            "lv": 30,
+            "atk": 6142,
+            "hp": 37868,
+            "deathRate": 100,
+            "criticalRate": 100,
+            "chargeTurn": 5,
+            "traits": [
+              {
+                "id": 5000
+              },
+              {
+                "id": 5010
+              },
+              {
+                "id": 104
+              },
+              {
+                "id": 201
+              },
+              {
+                "id": 2005
+              },
+              {
+                "id": 2019
+              }
+            ],
+            "skills": {
+              "skillId1": 961270,
+              "skill1": {
+                "id": 961270
+              },
+              "skillLv1": 1
+            },
+            "noblePhantasm": {
+              "noblePhantasmId": 547,
+              "noblePhantasm": {
+                "id": 547,
+                "num": 1,
+                "priority": 521
+              },
+              "noblePhantasmLv": 1
+            },
+            "serverMod": {
+              "tdRate": 1200,
+              "tdAttackRate": 1200,
+              "starRate": 0
+            },
+            "misc": {
+              "userCommandCodeIds": [
+                -1,
+                -1,
+                -1,
+                -1,
+                -1
+              ]
+            }
+          },
+          {
+            "deck": "enemy",
+            "deckId": 3,
+            "userSvtId": 5,
+            "uniqueId": 11,
+            "npcId": 3001363,
+            "roleType": "danger",
+            "name": "おろち",
+            "svt": {
+              "id": 9939640,
+              "collectionNo": 0,
+              "name": "おろち",
+              "type": "enemy",
+              "flag": "normal",
+              "className": "lancer",
+              "attribute": "earth",
+              "rarity": 5,
+              "atkMax": 10227,
+              "hpMax": 551901,
+              "face": "https://static.atlasacademy.io/JP/Enemys/99396401.png"
+            },
+            "lv": 35,
+            "atk": 4023,
+            "hp": 63902,
+            "deathRate": 10,
+            "criticalRate": 100,
+            "chargeTurn": 4,
+            "traits": [
+              {
+                "id": 5000
+              },
+              {
+                "id": 5010
+              },
+              {
+                "id": 101
+              },
+              {
+                "id": 201
+              },
+              {
+                "id": 2005
+              },
+              {
+                "id": 2019
+              },
+              {
+                "id": 2076
+              }
+            ],
+            "skills": {
+              "skillId1": 961157,
+              "skill1": {
+                "id": 961157
+              },
+              "skillLv1": 1
+            },
+            "classPassive": {
+              "addPassive": [
+                {
+                  "id": 960493
+                }
+              ]
+            },
+            "noblePhantasm": {
+              "noblePhantasmId": 522,
+              "noblePhantasm": {
+                "id": 522,
+                "num": 1,
+                "priority": 497
+              },
+              "noblePhantasmLv": 1
+            },
+            "serverMod": {
+              "tdRate": 1000,
+              "tdAttackRate": 1000,
+              "starRate": -50
+            },
+            "misc": {
+              "npcSvtType": 3,
+              "userCommandCodeIds": [
+                -1,
+                -1,
+                -1,
+                -1,
+                -1
+              ]
+            }
+          }
+        ]
       },
       {
         "wave": 3,
         "bgm": {
           "id": 561
-        }
+        },
+        "enemies": [
+          {
+            "deck": "enemy",
+            "deckId": 1,
+            "userSvtId": 6,
+            "uniqueId": 12,
+            "npcId": 3001364,
+            "roleType": "normal",
+            "name": "怪鳥Ａ",
+            "svt": {
+              "id": 9940750,
+              "collectionNo": 0,
+              "name": "シャンタク",
+              "type": "enemy",
+              "flag": "normal",
+              "className": "caster",
+              "attribute": "earth",
+              "rarity": 4,
+              "atkMax": 18043,
+              "hpMax": 372400,
+              "face": "https://static.atlasacademy.io/JP/Enemys/99407501.png"
+            },
+            "lv": 31,
+            "atk": 6327,
+            "hp": 41555,
+            "deathRate": 100,
+            "criticalRate": 100,
+            "chargeTurn": 5,
+            "traits": [
+              {
+                "id": 5000
+              },
+              {
+                "id": 5010
+              },
+              {
+                "id": 104
+              },
+              {
+                "id": 201
+              },
+              {
+                "id": 2005
+              },
+              {
+                "id": 2019
+              }
+            ],
+            "skills": {
+              "skillId1": 961270,
+              "skill1": {
+                "id": 961270
+              },
+              "skillLv1": 1
+            },
+            "noblePhantasm": {
+              "noblePhantasmId": 547,
+              "noblePhantasm": {
+                "id": 547,
+                "num": 1,
+                "priority": 521
+              },
+              "noblePhantasmLv": 1
+            },
+            "serverMod": {
+              "tdRate": 1200,
+              "tdAttackRate": 1200,
+              "starRate": 0
+            },
+            "misc": {
+              "userCommandCodeIds": [
+                -1,
+                -1,
+                -1,
+                -1,
+                -1
+              ]
+            }
+          },
+          {
+            "deck": "enemy",
+            "deckId": 2,
+            "userSvtId": 7,
+            "uniqueId": 13,
+            "npcId": 3001364,
+            "roleType": "normal",
+            "name": "怪鳥Ｂ",
+            "svt": {
+              "id": 9940750,
+              "collectionNo": 0,
+              "name": "シャンタク",
+              "type": "enemy",
+              "flag": "normal",
+              "className": "caster",
+              "attribute": "earth",
+              "rarity": 4,
+              "atkMax": 18043,
+              "hpMax": 372400,
+              "face": "https://static.atlasacademy.io/JP/Enemys/99407501.png"
+            },
+            "lv": 32,
+            "atk": 6495,
+            "hp": 42882,
+            "deathRate": 100,
+            "criticalRate": 100,
+            "chargeTurn": 5,
+            "traits": [
+              {
+                "id": 5000
+              },
+              {
+                "id": 5010
+              },
+              {
+                "id": 104
+              },
+              {
+                "id": 201
+              },
+              {
+                "id": 2005
+              },
+              {
+                "id": 2019
+              }
+            ],
+            "skills": {
+              "skillId1": 961270,
+              "skill1": {
+                "id": 961270
+              },
+              "skillLv1": 1
+            },
+            "noblePhantasm": {
+              "noblePhantasmId": 547,
+              "noblePhantasm": {
+                "id": 547,
+                "num": 1,
+                "priority": 521
+              },
+              "noblePhantasmLv": 1
+            },
+            "serverMod": {
+              "tdRate": 1200,
+              "tdAttackRate": 1200,
+              "starRate": 0
+            },
+            "misc": {
+              "userCommandCodeIds": [
+                -1,
+                -1,
+                -1,
+                -1,
+                -1
+              ]
+            }
+          },
+          {
+            "deck": "enemy",
+            "deckId": 3,
+            "userSvtId": 8,
+            "uniqueId": 14,
+            "npcId": 3001363,
+            "roleType": "danger",
+            "name": "おろち",
+            "svt": {
+              "id": 9939640,
+              "collectionNo": 0,
+              "name": "おろち",
+              "type": "enemy",
+              "flag": "normal",
+              "className": "lancer",
+              "attribute": "earth",
+              "rarity": 5,
+              "atkMax": 10227,
+              "hpMax": 551901,
+              "face": "https://static.atlasacademy.io/JP/Enemys/99396401.png"
+            },
+            "lv": 40,
+            "atk": 4495,
+            "hp": 114872,
+            "deathRate": 10,
+            "criticalRate": 100,
+            "chargeTurn": 4,
+            "traits": [
+              {
+                "id": 5000
+              },
+              {
+                "id": 5010
+              },
+              {
+                "id": 101
+              },
+              {
+                "id": 201
+              },
+              {
+                "id": 2005
+              },
+              {
+                "id": 2019
+              },
+              {
+                "id": 2076
+              }
+            ],
+            "skills": {
+              "skillId1": 961157,
+              "skill1": {
+                "id": 961157
+              },
+              "skillLv1": 1
+            },
+            "classPassive": {
+              "addPassive": [
+                {
+                  "id": 960493
+                }
+              ]
+            },
+            "noblePhantasm": {
+              "noblePhantasmId": 522,
+              "noblePhantasm": {
+                "id": 522,
+                "num": 1,
+                "priority": 497
+              },
+              "noblePhantasmLv": 1
+            },
+            "serverMod": {
+              "tdRate": 1000,
+              "tdAttackRate": 1000,
+              "starRate": -50
+            },
+            "misc": {
+              "npcSvtType": 3,
+              "userCommandCodeIds": [
+                -1,
+                -1,
+                -1,
+                -1,
+                -1
+              ]
+            }
+          }
+        ]
       }
     ]
   },
@@ -30745,7 +32179,9 @@
       3
     ],
     "phasesWithEnemies": [
-      1
+      1,
+      2,
+      3
     ],
     "noticeAt": 1654086600,
     "openedAt": 1654086600,
@@ -30768,24 +32204,871 @@
     "exp": 21256,
     "bond": 775,
     "battleBgId": 79000,
+    "drops": [
+      {
+        "type": "servant",
+        "objectId": 9707400,
+        "num": 1,
+        "dropCount": 2,
+        "runs": 1
+      },
+      {
+        "type": "item",
+        "objectId": 1,
+        "num": 30000,
+        "dropCount": 2,
+        "runs": 1
+      },
+      {
+        "type": "item",
+        "objectId": 6551,
+        "num": 1,
+        "dropCount": 1,
+        "runs": 1
+      }
+    ],
     "stages": [
       {
         "wave": 1,
         "bgm": {
           "id": 591
-        }
+        },
+        "enemies": [
+          {
+            "deck": "enemy",
+            "deckId": 1,
+            "userSvtId": 1,
+            "uniqueId": 7,
+            "npcId": 3001368,
+            "roleType": "normal",
+            "name": "キングボーパルチキンＡ",
+            "svt": {
+              "id": 9941420,
+              "collectionNo": 0,
+              "name": "キングボーパルチキン",
+              "type": "enemy",
+              "flag": "normal",
+              "className": "berserker",
+              "attribute": "earth",
+              "rarity": 4,
+              "atkMax": 16671,
+              "hpMax": 243000,
+              "face": "https://static.atlasacademy.io/JP/Enemys/99414201.png",
+              "costume": {
+                "9941420": {
+                  "id": 1,
+                  "costumeCollectionNo": 0,
+                  "battleCharaId": 9941420,
+                  "shortName": ""
+                }
+              }
+            },
+            "lv": 21,
+            "atk": 4157,
+            "hp": 20920,
+            "deathRate": 200,
+            "criticalRate": 100,
+            "chargeTurn": 5,
+            "traits": [
+              {
+                "id": 5000
+              },
+              {
+                "id": 5010
+              },
+              {
+                "id": 106
+              },
+              {
+                "id": 201
+              },
+              {
+                "id": 2005
+              }
+            ],
+            "skills": {
+              "skillId1": 961711,
+              "skill1": {
+                "id": 961711
+              },
+              "skillLv1": 1
+            },
+            "noblePhantasm": {
+              "noblePhantasmId": 589,
+              "noblePhantasm": {
+                "id": 589,
+                "num": 1,
+                "priority": 564
+              },
+              "noblePhantasmLv": 1
+            },
+            "serverMod": {
+              "tdRate": 800,
+              "tdAttackRate": 800,
+              "starRate": 0
+            },
+            "misc": {
+              "userCommandCodeIds": [
+                -1,
+                -1,
+                -1,
+                -1,
+                -1
+              ]
+            }
+          },
+          {
+            "deck": "enemy",
+            "deckId": 2,
+            "userSvtId": 2,
+            "uniqueId": 8,
+            "npcId": 3001368,
+            "roleType": "normal",
+            "name": "キングボーパルチキンＢ",
+            "svt": {
+              "id": 9941420,
+              "collectionNo": 0,
+              "name": "キングボーパルチキン",
+              "type": "enemy",
+              "flag": "normal",
+              "className": "berserker",
+              "attribute": "earth",
+              "rarity": 4,
+              "atkMax": 16671,
+              "hpMax": 243000,
+              "face": "https://static.atlasacademy.io/JP/Enemys/99414201.png",
+              "costume": {
+                "9941420": {
+                  "id": 1,
+                  "costumeCollectionNo": 0,
+                  "battleCharaId": 9941420,
+                  "shortName": ""
+                }
+              }
+            },
+            "lv": 23,
+            "atk": 4471,
+            "hp": 22892,
+            "deathRate": 200,
+            "criticalRate": 100,
+            "chargeTurn": 5,
+            "traits": [
+              {
+                "id": 5000
+              },
+              {
+                "id": 5010
+              },
+              {
+                "id": 106
+              },
+              {
+                "id": 201
+              },
+              {
+                "id": 2005
+              }
+            ],
+            "skills": {
+              "skillId1": 961711,
+              "skill1": {
+                "id": 961711
+              },
+              "skillLv1": 1
+            },
+            "noblePhantasm": {
+              "noblePhantasmId": 589,
+              "noblePhantasm": {
+                "id": 589,
+                "num": 1,
+                "priority": 564
+              },
+              "noblePhantasmLv": 1
+            },
+            "serverMod": {
+              "tdRate": 800,
+              "tdAttackRate": 800,
+              "starRate": 0
+            },
+            "misc": {
+              "userCommandCodeIds": [
+                -1,
+                -1,
+                -1,
+                -1,
+                -1
+              ]
+            }
+          },
+          {
+            "deck": "enemy",
+            "deckId": 3,
+            "userSvtId": 3,
+            "uniqueId": 9,
+            "npcId": 3001368,
+            "roleType": "normal",
+            "name": "キングボーパルチキンＣ",
+            "svt": {
+              "id": 9941420,
+              "collectionNo": 0,
+              "name": "キングボーパルチキン",
+              "type": "enemy",
+              "flag": "normal",
+              "className": "berserker",
+              "attribute": "earth",
+              "rarity": 4,
+              "atkMax": 16671,
+              "hpMax": 243000,
+              "face": "https://static.atlasacademy.io/JP/Enemys/99414201.png",
+              "costume": {
+                "9941420": {
+                  "id": 1,
+                  "costumeCollectionNo": 0,
+                  "battleCharaId": 9941420,
+                  "shortName": ""
+                }
+              }
+            },
+            "lv": 22,
+            "atk": 4314,
+            "hp": 21906,
+            "deathRate": 200,
+            "criticalRate": 100,
+            "chargeTurn": 5,
+            "traits": [
+              {
+                "id": 5000
+              },
+              {
+                "id": 5010
+              },
+              {
+                "id": 106
+              },
+              {
+                "id": 201
+              },
+              {
+                "id": 2005
+              }
+            ],
+            "skills": {
+              "skillId1": 961711,
+              "skill1": {
+                "id": 961711
+              },
+              "skillLv1": 1
+            },
+            "noblePhantasm": {
+              "noblePhantasmId": 589,
+              "noblePhantasm": {
+                "id": 589,
+                "num": 1,
+                "priority": 564
+              },
+              "noblePhantasmLv": 1
+            },
+            "serverMod": {
+              "tdRate": 800,
+              "tdAttackRate": 800,
+              "starRate": 0
+            },
+            "misc": {
+              "userCommandCodeIds": [
+                -1,
+                -1,
+                -1,
+                -1,
+                -1
+              ]
+            }
+          }
+        ]
       },
       {
         "wave": 2,
         "bgm": {
           "id": 591
-        }
+        },
+        "enemies": [
+          {
+            "deck": "enemy",
+            "deckId": 1,
+            "userSvtId": 4,
+            "uniqueId": 10,
+            "npcId": 3001368,
+            "roleType": "normal",
+            "name": "キングボーパルチキン",
+            "svt": {
+              "id": 9941420,
+              "collectionNo": 0,
+              "name": "キングボーパルチキン",
+              "type": "enemy",
+              "flag": "normal",
+              "className": "berserker",
+              "attribute": "earth",
+              "rarity": 4,
+              "atkMax": 16671,
+              "hpMax": 243000,
+              "face": "https://static.atlasacademy.io/JP/Enemys/99414201.png",
+              "costume": {
+                "9941420": {
+                  "id": 1,
+                  "costumeCollectionNo": 0,
+                  "battleCharaId": 9941420,
+                  "shortName": ""
+                }
+              }
+            },
+            "lv": 24,
+            "atk": 4627,
+            "hp": 28538,
+            "deathRate": 200,
+            "criticalRate": 100,
+            "chargeTurn": 5,
+            "traits": [
+              {
+                "id": 5000
+              },
+              {
+                "id": 5010
+              },
+              {
+                "id": 106
+              },
+              {
+                "id": 201
+              },
+              {
+                "id": 2005
+              }
+            ],
+            "skills": {
+              "skillId1": 961711,
+              "skill1": {
+                "id": 961711
+              },
+              "skillLv1": 1
+            },
+            "noblePhantasm": {
+              "noblePhantasmId": 589,
+              "noblePhantasm": {
+                "id": 589,
+                "num": 1,
+                "priority": 564
+              },
+              "noblePhantasmLv": 1
+            },
+            "serverMod": {
+              "tdRate": 800,
+              "tdAttackRate": 800,
+              "starRate": 0
+            },
+            "misc": {
+              "userCommandCodeIds": [
+                -1,
+                -1,
+                -1,
+                -1,
+                -1
+              ]
+            }
+          },
+          {
+            "deck": "enemy",
+            "deckId": 2,
+            "userSvtId": 5,
+            "uniqueId": 11,
+            "npcId": 3001366,
+            "roleType": "servant",
+            "name": "クラス・アサシン",
+            "svt": {
+              "id": 9943800,
+              "collectionNo": 0,
+              "name": "クラス・アサシン",
+              "type": "enemy",
+              "flag": "normal",
+              "className": "assassin",
+              "attribute": "human",
+              "rarity": 4,
+              "atkMax": 16797,
+              "hpMax": 270750,
+              "face": "https://static.atlasacademy.io/JP/Enemys/99438001.png",
+              "costume": {
+                "9943800": {
+                  "id": 1,
+                  "costumeCollectionNo": 0,
+                  "battleCharaId": 9943800,
+                  "shortName": ""
+                }
+              }
+            },
+            "lv": 45,
+            "atk": 8012,
+            "hp": 57207,
+            "deathRate": 200,
+            "criticalRate": 300,
+            "chargeTurn": 3,
+            "traits": [
+              {
+                "id": 5000
+              },
+              {
+                "id": 5010
+              },
+              {
+                "id": 1
+              },
+              {
+                "id": 105
+              },
+              {
+                "id": 202
+              },
+              {
+                "id": 2001
+              },
+              {
+                "id": 1000
+              },
+              {
+                "id": 2008
+              },
+              {
+                "id": 2
+              }
+            ],
+            "skills": {
+              "skillId1": 967030,
+              "skill1": {
+                "id": 967030
+              },
+              "skillLv1": 1
+            },
+            "noblePhantasm": {
+              "noblePhantasmId": 791,
+              "noblePhantasm": {
+                "id": 791,
+                "num": 1,
+                "strengthStatus": 1,
+                "priority": 16
+              },
+              "noblePhantasmLv": 1
+            },
+            "serverMod": {
+              "tdRate": 900,
+              "tdAttackRate": 900,
+              "starRate": -100
+            },
+            "misc": {
+              "userCommandCodeIds": [
+                -1,
+                -1,
+                -1,
+                -1,
+                -1
+              ]
+            }
+          },
+          {
+            "deck": "enemy",
+            "deckId": 3,
+            "userSvtId": 6,
+            "uniqueId": 12,
+            "npcId": 3001365,
+            "roleType": "servant",
+            "name": "クラス・セイバー",
+            "svt": {
+              "id": 9943750,
+              "collectionNo": 0,
+              "name": "クラス・セイバー",
+              "type": "enemy",
+              "flag": "normal",
+              "className": "saber",
+              "attribute": "human",
+              "rarity": 4,
+              "atkMax": 17008,
+              "hpMax": 303000,
+              "face": "https://static.atlasacademy.io/JP/Enemys/99437501.png",
+              "costume": {
+                "9943750": {
+                  "id": 1,
+                  "costumeCollectionNo": 0,
+                  "battleCharaId": 9943750,
+                  "shortName": ""
+                }
+              }
+            },
+            "lv": 31,
+            "atk": 5857,
+            "hp": 35689,
+            "deathRate": 200,
+            "criticalRate": 100,
+            "chargeTurn": 4,
+            "traits": [
+              {
+                "id": 5000
+              },
+              {
+                "id": 5010
+              },
+              {
+                "id": 1
+              },
+              {
+                "id": 100
+              },
+              {
+                "id": 202
+              },
+              {
+                "id": 2001
+              },
+              {
+                "id": 1000
+              },
+              {
+                "id": 2008
+              },
+              {
+                "id": 2075
+              },
+              {
+                "id": 2
+              }
+            ],
+            "skills": {
+              "skillId1": 967025,
+              "skill1": {
+                "id": 967025
+              },
+              "skillLv1": 1
+            },
+            "noblePhantasm": {
+              "noblePhantasmId": 776,
+              "noblePhantasm": {
+                "id": 776,
+                "num": 1,
+                "strengthStatus": 1,
+                "priority": 1
+              },
+              "noblePhantasmLv": 1
+            },
+            "serverMod": {
+              "tdRate": 1000,
+              "tdAttackRate": 1000,
+              "starRate": 0
+            },
+            "misc": {
+              "userCommandCodeIds": [
+                -1,
+                -1,
+                -1,
+                -1,
+                -1
+              ]
+            }
+          }
+        ]
       },
       {
         "wave": 3,
         "bgm": {
           "id": 561
-        }
+        },
+        "enemies": [
+          {
+            "deck": "enemy",
+            "deckId": 1,
+            "userSvtId": 7,
+            "uniqueId": 13,
+            "npcId": 3001366,
+            "roleType": "servant",
+            "name": "クラス・アサシン",
+            "svt": {
+              "id": 9943800,
+              "collectionNo": 0,
+              "name": "クラス・アサシン",
+              "type": "enemy",
+              "flag": "normal",
+              "className": "assassin",
+              "attribute": "human",
+              "rarity": 4,
+              "atkMax": 16797,
+              "hpMax": 270750,
+              "face": "https://static.atlasacademy.io/JP/Enemys/99438001.png",
+              "costume": {
+                "9943800": {
+                  "id": 1,
+                  "costumeCollectionNo": 0,
+                  "battleCharaId": 9943800,
+                  "shortName": ""
+                }
+              }
+            },
+            "lv": 34,
+            "atk": 6258,
+            "hp": 37705,
+            "deathRate": 200,
+            "criticalRate": 300,
+            "chargeTurn": 3,
+            "traits": [
+              {
+                "id": 5000
+              },
+              {
+                "id": 5010
+              },
+              {
+                "id": 1
+              },
+              {
+                "id": 105
+              },
+              {
+                "id": 202
+              },
+              {
+                "id": 2001
+              },
+              {
+                "id": 1000
+              },
+              {
+                "id": 2008
+              },
+              {
+                "id": 2
+              }
+            ],
+            "skills": {
+              "skillId1": 967030,
+              "skill1": {
+                "id": 967030
+              },
+              "skillLv1": 1
+            },
+            "noblePhantasm": {
+              "noblePhantasmId": 791,
+              "noblePhantasm": {
+                "id": 791,
+                "num": 1,
+                "strengthStatus": 1,
+                "priority": 16
+              },
+              "noblePhantasmLv": 1
+            },
+            "serverMod": {
+              "tdRate": 900,
+              "tdAttackRate": 900,
+              "starRate": -100
+            },
+            "misc": {
+              "userCommandCodeIds": [
+                -1,
+                -1,
+                -1,
+                -1,
+                -1
+              ]
+            }
+          },
+          {
+            "deck": "enemy",
+            "deckId": 2,
+            "userSvtId": 8,
+            "uniqueId": 14,
+            "npcId": 3001365,
+            "roleType": "servant",
+            "name": "クラス・セイバー",
+            "svt": {
+              "id": 9943750,
+              "collectionNo": 0,
+              "name": "クラス・セイバー",
+              "type": "enemy",
+              "flag": "normal",
+              "className": "saber",
+              "attribute": "human",
+              "rarity": 4,
+              "atkMax": 17008,
+              "hpMax": 303000,
+              "face": "https://static.atlasacademy.io/JP/Enemys/99437501.png",
+              "costume": {
+                "9943750": {
+                  "id": 1,
+                  "costumeCollectionNo": 0,
+                  "battleCharaId": 9943750,
+                  "shortName": ""
+                }
+              }
+            },
+            "lv": 51,
+            "atk": 9088,
+            "hp": 78802,
+            "deathRate": 200,
+            "criticalRate": 100,
+            "chargeTurn": 4,
+            "traits": [
+              {
+                "id": 5000
+              },
+              {
+                "id": 5010
+              },
+              {
+                "id": 1
+              },
+              {
+                "id": 100
+              },
+              {
+                "id": 202
+              },
+              {
+                "id": 2001
+              },
+              {
+                "id": 1000
+              },
+              {
+                "id": 2008
+              },
+              {
+                "id": 2075
+              },
+              {
+                "id": 2
+              }
+            ],
+            "skills": {
+              "skillId1": 967025,
+              "skill1": {
+                "id": 967025
+              },
+              "skillLv1": 1
+            },
+            "noblePhantasm": {
+              "noblePhantasmId": 776,
+              "noblePhantasm": {
+                "id": 776,
+                "num": 1,
+                "strengthStatus": 1,
+                "priority": 1
+              },
+              "noblePhantasmLv": 1
+            },
+            "serverMod": {
+              "tdRate": 1000,
+              "tdAttackRate": 1000,
+              "starRate": 0
+            },
+            "misc": {
+              "userCommandCodeIds": [
+                -1,
+                -1,
+                -1,
+                -1,
+                -1
+              ]
+            }
+          },
+          {
+            "deck": "enemy",
+            "deckId": 3,
+            "userSvtId": 9,
+            "uniqueId": 15,
+            "npcId": 3001367,
+            "roleType": "servant",
+            "name": "クラス・バーサーカー",
+            "svt": {
+              "id": 9943810,
+              "collectionNo": 0,
+              "name": "クラス・バーサーカー",
+              "type": "enemy",
+              "flag": "normal",
+              "className": "berserker",
+              "attribute": "human",
+              "rarity": 4,
+              "atkMax": 16671,
+              "hpMax": 243000,
+              "face": "https://static.atlasacademy.io/JP/Enemys/99438101.png",
+              "costume": {
+                "9943810": {
+                  "id": 1,
+                  "costumeCollectionNo": 0,
+                  "battleCharaId": 9943810,
+                  "shortName": ""
+                }
+              }
+            },
+            "lv": 39,
+            "atk": 6995,
+            "hp": 80382,
+            "deathRate": 200,
+            "criticalRate": 100,
+            "chargeTurn": 5,
+            "traits": [
+              {
+                "id": 5000
+              },
+              {
+                "id": 5010
+              },
+              {
+                "id": 1
+              },
+              {
+                "id": 106
+              },
+              {
+                "id": 202
+              },
+              {
+                "id": 2001
+              },
+              {
+                "id": 1000
+              },
+              {
+                "id": 2008
+              },
+              {
+                "id": 2
+              }
+            ],
+            "skills": {
+              "skillId1": 967031,
+              "skill1": {
+                "id": 967031
+              },
+              "skillLv1": 1
+            },
+            "noblePhantasm": {
+              "noblePhantasmId": 794,
+              "noblePhantasm": {
+                "id": 794,
+                "num": 1,
+                "strengthStatus": 1,
+                "priority": 19
+              },
+              "noblePhantasmLv": 1
+            },
+            "serverMod": {
+              "tdRate": 800,
+              "tdAttackRate": 800,
+              "starRate": 0
+            },
+            "misc": {
+              "userCommandCodeIds": [
+                -1,
+                -1,
+                -1,
+                -1,
+                -1
+              ]
+            }
+          }
+        ]
       }
     ]
   },
@@ -30824,7 +33107,8 @@
     ],
     "phasesWithEnemies": [
       1,
-      2
+      2,
+      3
     ],
     "noticeAt": 1654086600,
     "openedAt": 1654086600,
@@ -30846,24 +33130,910 @@
     "exp": 22488,
     "bond": 795,
     "battleBgId": 78800,
+    "drops": [
+      {
+        "type": "item",
+        "objectId": 1,
+        "num": 30000,
+        "dropCount": 4,
+        "runs": 1
+      },
+      {
+        "type": "item",
+        "objectId": 6552,
+        "num": 1,
+        "dropCount": 1,
+        "runs": 1
+      }
+    ],
     "stages": [
       {
         "wave": 1,
         "bgm": {
           "id": 591
-        }
+        },
+        "enemies": [
+          {
+            "deck": "enemy",
+            "deckId": 1,
+            "userSvtId": 1,
+            "uniqueId": 7,
+            "npcId": 3001372,
+            "roleType": "servant",
+            "name": "クラス・キャスター",
+            "svt": {
+              "id": 9943790,
+              "collectionNo": 0,
+              "name": "クラス・キャスター",
+              "type": "enemy",
+              "flag": "normal",
+              "className": "caster",
+              "attribute": "human",
+              "rarity": 4,
+              "atkMax": 15678,
+              "hpMax": 308700,
+              "face": "https://static.atlasacademy.io/JP/Enemys/99437901.png",
+              "costume": {
+                "9943790": {
+                  "id": 1,
+                  "costumeCollectionNo": 0,
+                  "battleCharaId": 9943790,
+                  "shortName": ""
+                }
+              }
+            },
+            "lv": 33,
+            "atk": 5694,
+            "hp": 22395,
+            "deathRate": 200,
+            "criticalRate": 100,
+            "chargeTurn": 5,
+            "traits": [
+              {
+                "id": 5000
+              },
+              {
+                "id": 5010
+              },
+              {
+                "id": 1
+              },
+              {
+                "id": 104
+              },
+              {
+                "id": 202
+              },
+              {
+                "id": 2001
+              },
+              {
+                "id": 1000
+              },
+              {
+                "id": 2008
+              },
+              {
+                "id": 2
+              }
+            ],
+            "skills": {
+              "skillId1": 967029,
+              "skill1": {
+                "id": 967029
+              },
+              "skillLv1": 1
+            },
+            "noblePhantasm": {
+              "noblePhantasmId": 788,
+              "noblePhantasm": {
+                "id": 788,
+                "num": 1,
+                "strengthStatus": 1,
+                "priority": 13
+              },
+              "noblePhantasmLv": 1
+            },
+            "serverMod": {
+              "tdRate": 1200,
+              "tdAttackRate": 1200,
+              "starRate": 0
+            },
+            "misc": {
+              "userCommandCodeIds": [
+                -1,
+                -1,
+                -1,
+                -1,
+                -1
+              ]
+            }
+          },
+          {
+            "deck": "enemy",
+            "deckId": 2,
+            "userSvtId": 2,
+            "uniqueId": 8,
+            "npcId": 3001371,
+            "roleType": "servant",
+            "name": "クラス・アーチャーＡ",
+            "svt": {
+              "id": 9943760,
+              "collectionNo": 0,
+              "name": "クラス・アーチャー",
+              "type": "enemy",
+              "flag": "normal",
+              "className": "archer",
+              "attribute": "human",
+              "rarity": 4,
+              "atkMax": 18153,
+              "hpMax": 264600,
+              "face": "https://static.atlasacademy.io/JP/Enemys/99437601.png",
+              "costume": {
+                "9943760": {
+                  "id": 1,
+                  "costumeCollectionNo": 0,
+                  "battleCharaId": 9943760,
+                  "shortName": ""
+                }
+              }
+            },
+            "lv": 29,
+            "atk": 5893,
+            "hp": 27546,
+            "deathRate": 200,
+            "criticalRate": 200,
+            "chargeTurn": 3,
+            "traits": [
+              {
+                "id": 5000
+              },
+              {
+                "id": 5010
+              },
+              {
+                "id": 1
+              },
+              {
+                "id": 102
+              },
+              {
+                "id": 202
+              },
+              {
+                "id": 2001
+              },
+              {
+                "id": 1000
+              },
+              {
+                "id": 2008
+              },
+              {
+                "id": 2
+              }
+            ],
+            "skills": {
+              "skillId1": 967026,
+              "skill1": {
+                "id": 967026
+              },
+              "skillLv1": 1
+            },
+            "noblePhantasm": {
+              "noblePhantasmId": 779,
+              "noblePhantasm": {
+                "id": 779,
+                "num": 1,
+                "strengthStatus": 1,
+                "priority": 4
+              },
+              "noblePhantasmLv": 1
+            },
+            "serverMod": {
+              "tdRate": 1000,
+              "tdAttackRate": 1000,
+              "starRate": 50
+            },
+            "misc": {
+              "userCommandCodeIds": [
+                -1,
+                -1,
+                -1,
+                -1,
+                -1
+              ]
+            }
+          },
+          {
+            "deck": "enemy",
+            "deckId": 3,
+            "userSvtId": 3,
+            "uniqueId": 9,
+            "npcId": 3001371,
+            "roleType": "servant",
+            "name": "クラス・アーチャーＢ",
+            "svt": {
+              "id": 9943760,
+              "collectionNo": 0,
+              "name": "クラス・アーチャー",
+              "type": "enemy",
+              "flag": "normal",
+              "className": "archer",
+              "attribute": "human",
+              "rarity": 4,
+              "atkMax": 18153,
+              "hpMax": 264600,
+              "face": "https://static.atlasacademy.io/JP/Enemys/99437601.png",
+              "costume": {
+                "9943760": {
+                  "id": 1,
+                  "costumeCollectionNo": 0,
+                  "battleCharaId": 9943760,
+                  "shortName": ""
+                }
+              }
+            },
+            "lv": 28,
+            "atk": 5722,
+            "hp": 26602,
+            "deathRate": 200,
+            "criticalRate": 200,
+            "chargeTurn": 3,
+            "traits": [
+              {
+                "id": 5000
+              },
+              {
+                "id": 5010
+              },
+              {
+                "id": 1
+              },
+              {
+                "id": 102
+              },
+              {
+                "id": 202
+              },
+              {
+                "id": 2001
+              },
+              {
+                "id": 1000
+              },
+              {
+                "id": 2008
+              },
+              {
+                "id": 2
+              }
+            ],
+            "skills": {
+              "skillId1": 967026,
+              "skill1": {
+                "id": 967026
+              },
+              "skillLv1": 1
+            },
+            "noblePhantasm": {
+              "noblePhantasmId": 779,
+              "noblePhantasm": {
+                "id": 779,
+                "num": 1,
+                "strengthStatus": 1,
+                "priority": 4
+              },
+              "noblePhantasmLv": 1
+            },
+            "serverMod": {
+              "tdRate": 1000,
+              "tdAttackRate": 1000,
+              "starRate": 50
+            },
+            "misc": {
+              "userCommandCodeIds": [
+                -1,
+                -1,
+                -1,
+                -1,
+                -1
+              ]
+            }
+          }
+        ]
       },
       {
         "wave": 2,
         "bgm": {
           "id": 591
-        }
+        },
+        "enemies": [
+          {
+            "deck": "enemy",
+            "deckId": 1,
+            "userSvtId": 4,
+            "uniqueId": 10,
+            "npcId": 3001369,
+            "roleType": "servant",
+            "name": "クラス・アーチャー",
+            "svt": {
+              "id": 9943760,
+              "collectionNo": 0,
+              "name": "クラス・アーチャー",
+              "type": "enemy",
+              "flag": "normal",
+              "className": "archer",
+              "attribute": "human",
+              "rarity": 4,
+              "atkMax": 18153,
+              "hpMax": 264600,
+              "face": "https://static.atlasacademy.io/JP/Enemys/99437603.png",
+              "costume": {
+                "9943760": {
+                  "id": 1,
+                  "costumeCollectionNo": 0,
+                  "battleCharaId": 9943760,
+                  "shortName": ""
+                }
+              }
+            },
+            "lv": 30,
+            "atk": 6063,
+            "hp": 34819,
+            "deathRate": 200,
+            "criticalRate": 200,
+            "chargeTurn": 3,
+            "traits": [
+              {
+                "id": 5000
+              },
+              {
+                "id": 5010
+              },
+              {
+                "id": 1
+              },
+              {
+                "id": 102
+              },
+              {
+                "id": 202
+              },
+              {
+                "id": 2001
+              },
+              {
+                "id": 1000
+              },
+              {
+                "id": 2008
+              },
+              {
+                "id": 2
+              }
+            ],
+            "skills": {
+              "skillId1": 967026,
+              "skill1": {
+                "id": 967026
+              },
+              "skillLv1": 1
+            },
+            "noblePhantasm": {
+              "noblePhantasmId": 781,
+              "noblePhantasm": {
+                "id": 781,
+                "num": 1,
+                "strengthStatus": 2,
+                "priority": 6
+              },
+              "noblePhantasmLv": 1
+            },
+            "serverMod": {
+              "tdRate": 1000,
+              "tdAttackRate": 1000,
+              "starRate": 50
+            },
+            "misc": {
+              "userCommandCodeIds": [
+                -1,
+                -1,
+                -1,
+                -1,
+                -1
+              ]
+            }
+          },
+          {
+            "deck": "enemy",
+            "deckId": 2,
+            "userSvtId": 5,
+            "uniqueId": 11,
+            "npcId": 3001370,
+            "roleType": "servant",
+            "name": "クラス・キャスターＡ",
+            "svt": {
+              "id": 9943790,
+              "collectionNo": 0,
+              "name": "クラス・キャスター",
+              "type": "enemy",
+              "flag": "normal",
+              "className": "caster",
+              "attribute": "human",
+              "rarity": 4,
+              "atkMax": 15678,
+              "hpMax": 308700,
+              "face": "https://static.atlasacademy.io/JP/Enemys/99437903.png",
+              "costume": {
+                "9943790": {
+                  "id": 1,
+                  "costumeCollectionNo": 0,
+                  "battleCharaId": 9943790,
+                  "shortName": ""
+                }
+              }
+            },
+            "lv": 50,
+            "atk": 8216,
+            "hp": 58542,
+            "deathRate": 200,
+            "criticalRate": 100,
+            "chargeTurn": 5,
+            "traits": [
+              {
+                "id": 5000
+              },
+              {
+                "id": 5010
+              },
+              {
+                "id": 1
+              },
+              {
+                "id": 104
+              },
+              {
+                "id": 202
+              },
+              {
+                "id": 2001
+              },
+              {
+                "id": 1000
+              },
+              {
+                "id": 2008
+              },
+              {
+                "id": 2
+              }
+            ],
+            "skills": {
+              "skillId1": 967029,
+              "skill1": {
+                "id": 967029
+              },
+              "skillLv1": 1
+            },
+            "noblePhantasm": {
+              "noblePhantasmId": 790,
+              "noblePhantasm": {
+                "id": 790,
+                "num": 1,
+                "strengthStatus": 2,
+                "priority": 15
+              },
+              "noblePhantasmLv": 1
+            },
+            "serverMod": {
+              "tdRate": 1200,
+              "tdAttackRate": 1200,
+              "starRate": 0
+            },
+            "misc": {
+              "userCommandCodeIds": [
+                -1,
+                -1,
+                -1,
+                -1,
+                -1
+              ]
+            }
+          },
+          {
+            "deck": "enemy",
+            "deckId": 3,
+            "userSvtId": 6,
+            "uniqueId": 12,
+            "npcId": 3001370,
+            "roleType": "servant",
+            "name": "クラス・キャスターＢ",
+            "svt": {
+              "id": 9943790,
+              "collectionNo": 0,
+              "name": "クラス・キャスター",
+              "type": "enemy",
+              "flag": "normal",
+              "className": "caster",
+              "attribute": "human",
+              "rarity": 4,
+              "atkMax": 15678,
+              "hpMax": 308700,
+              "face": "https://static.atlasacademy.io/JP/Enemys/99437903.png",
+              "costume": {
+                "9943790": {
+                  "id": 1,
+                  "costumeCollectionNo": 0,
+                  "battleCharaId": 9943790,
+                  "shortName": ""
+                }
+              }
+            },
+            "lv": 34,
+            "atk": 5841,
+            "hp": 29359,
+            "deathRate": 200,
+            "criticalRate": 100,
+            "chargeTurn": 5,
+            "traits": [
+              {
+                "id": 5000
+              },
+              {
+                "id": 5010
+              },
+              {
+                "id": 1
+              },
+              {
+                "id": 104
+              },
+              {
+                "id": 202
+              },
+              {
+                "id": 2001
+              },
+              {
+                "id": 1000
+              },
+              {
+                "id": 2008
+              },
+              {
+                "id": 2
+              }
+            ],
+            "skills": {
+              "skillId1": 967029,
+              "skill1": {
+                "id": 967029
+              },
+              "skillLv1": 1
+            },
+            "noblePhantasm": {
+              "noblePhantasmId": 790,
+              "noblePhantasm": {
+                "id": 790,
+                "num": 1,
+                "strengthStatus": 2,
+                "priority": 15
+              },
+              "noblePhantasmLv": 1
+            },
+            "serverMod": {
+              "tdRate": 1200,
+              "tdAttackRate": 1200,
+              "starRate": 0
+            },
+            "misc": {
+              "userCommandCodeIds": [
+                -1,
+                -1,
+                -1,
+                -1,
+                -1
+              ]
+            }
+          }
+        ]
       },
       {
         "wave": 3,
         "bgm": {
           "id": 561
-        }
+        },
+        "enemies": [
+          {
+            "deck": "enemy",
+            "deckId": 1,
+            "userSvtId": 7,
+            "uniqueId": 13,
+            "npcId": 3001369,
+            "roleType": "servant",
+            "name": "クラス・アーチャー",
+            "svt": {
+              "id": 9943760,
+              "collectionNo": 0,
+              "name": "クラス・アーチャー",
+              "type": "enemy",
+              "flag": "normal",
+              "className": "archer",
+              "attribute": "human",
+              "rarity": 4,
+              "atkMax": 18153,
+              "hpMax": 264600,
+              "face": "https://static.atlasacademy.io/JP/Enemys/99437603.png",
+              "costume": {
+                "9943760": {
+                  "id": 1,
+                  "costumeCollectionNo": 0,
+                  "battleCharaId": 9943760,
+                  "shortName": ""
+                }
+              }
+            },
+            "lv": 33,
+            "atk": 6593,
+            "hp": 41010,
+            "deathRate": 200,
+            "criticalRate": 200,
+            "chargeTurn": 3,
+            "traits": [
+              {
+                "id": 5000
+              },
+              {
+                "id": 5010
+              },
+              {
+                "id": 1
+              },
+              {
+                "id": 102
+              },
+              {
+                "id": 202
+              },
+              {
+                "id": 2001
+              },
+              {
+                "id": 1000
+              },
+              {
+                "id": 2008
+              },
+              {
+                "id": 2
+              }
+            ],
+            "skills": {
+              "skillId1": 967026,
+              "skill1": {
+                "id": 967026
+              },
+              "skillLv1": 1
+            },
+            "noblePhantasm": {
+              "noblePhantasmId": 781,
+              "noblePhantasm": {
+                "id": 781,
+                "num": 1,
+                "strengthStatus": 2,
+                "priority": 6
+              },
+              "noblePhantasmLv": 1
+            },
+            "serverMod": {
+              "tdRate": 1000,
+              "tdAttackRate": 1000,
+              "starRate": 50
+            },
+            "misc": {
+              "userCommandCodeIds": [
+                -1,
+                -1,
+                -1,
+                -1,
+                -1
+              ]
+            }
+          },
+          {
+            "deck": "enemy",
+            "deckId": 2,
+            "userSvtId": 8,
+            "uniqueId": 14,
+            "npcId": 3001370,
+            "roleType": "servant",
+            "name": "クラス・キャスターＡ",
+            "svt": {
+              "id": 9943790,
+              "collectionNo": 0,
+              "name": "クラス・キャスター",
+              "type": "enemy",
+              "flag": "normal",
+              "className": "caster",
+              "attribute": "human",
+              "rarity": 4,
+              "atkMax": 15678,
+              "hpMax": 308700,
+              "face": "https://static.atlasacademy.io/JP/Enemys/99437903.png",
+              "costume": {
+                "9943790": {
+                  "id": 1,
+                  "costumeCollectionNo": 0,
+                  "battleCharaId": 9943790,
+                  "shortName": ""
+                }
+              }
+            },
+            "lv": 56,
+            "atk": 9115,
+            "hp": 113983,
+            "deathRate": 200,
+            "criticalRate": 100,
+            "chargeTurn": 5,
+            "traits": [
+              {
+                "id": 5000
+              },
+              {
+                "id": 5010
+              },
+              {
+                "id": 1
+              },
+              {
+                "id": 104
+              },
+              {
+                "id": 202
+              },
+              {
+                "id": 2001
+              },
+              {
+                "id": 1000
+              },
+              {
+                "id": 2008
+              },
+              {
+                "id": 2
+              }
+            ],
+            "skills": {
+              "skillId1": 967029,
+              "skill1": {
+                "id": 967029
+              },
+              "skillLv1": 1
+            },
+            "noblePhantasm": {
+              "noblePhantasmId": 790,
+              "noblePhantasm": {
+                "id": 790,
+                "num": 1,
+                "strengthStatus": 2,
+                "priority": 15
+              },
+              "noblePhantasmLv": 1
+            },
+            "serverMod": {
+              "tdRate": 1200,
+              "tdAttackRate": 1200,
+              "starRate": 0
+            },
+            "misc": {
+              "userCommandCodeIds": [
+                -1,
+                -1,
+                -1,
+                -1,
+                -1
+              ]
+            }
+          },
+          {
+            "deck": "enemy",
+            "deckId": 3,
+            "userSvtId": 9,
+            "uniqueId": 15,
+            "npcId": 3001370,
+            "roleType": "servant",
+            "name": "クラス・キャスターＢ",
+            "svt": {
+              "id": 9943790,
+              "collectionNo": 0,
+              "name": "クラス・キャスター",
+              "type": "enemy",
+              "flag": "normal",
+              "className": "caster",
+              "attribute": "human",
+              "rarity": 4,
+              "atkMax": 15678,
+              "hpMax": 308700,
+              "face": "https://static.atlasacademy.io/JP/Enemys/99437903.png",
+              "costume": {
+                "9943790": {
+                  "id": 1,
+                  "costumeCollectionNo": 0,
+                  "battleCharaId": 9943790,
+                  "shortName": ""
+                }
+              }
+            },
+            "lv": 36,
+            "atk": 6136,
+            "hp": 35509,
+            "deathRate": 200,
+            "criticalRate": 100,
+            "chargeTurn": 5,
+            "traits": [
+              {
+                "id": 5000
+              },
+              {
+                "id": 5010
+              },
+              {
+                "id": 1
+              },
+              {
+                "id": 104
+              },
+              {
+                "id": 202
+              },
+              {
+                "id": 2001
+              },
+              {
+                "id": 1000
+              },
+              {
+                "id": 2008
+              },
+              {
+                "id": 2
+              }
+            ],
+            "skills": {
+              "skillId1": 967029,
+              "skill1": {
+                "id": 967029
+              },
+              "skillLv1": 1
+            },
+            "noblePhantasm": {
+              "noblePhantasmId": 790,
+              "noblePhantasm": {
+                "id": 790,
+                "num": 1,
+                "strengthStatus": 2,
+                "priority": 15
+              },
+              "noblePhantasmLv": 1
+            },
+            "serverMod": {
+              "tdRate": 1200,
+              "tdAttackRate": 1200,
+              "starRate": 0
+            },
+            "misc": {
+              "userCommandCodeIds": [
+                -1,
+                -1,
+                -1,
+                -1,
+                -1
+              ]
+            }
+          }
+        ]
       }
     ]
   },
@@ -30918,6 +34088,22 @@
     "exp": 22488,
     "bond": 795,
     "battleBgId": 79100,
+    "drops": [
+      {
+        "type": "item",
+        "objectId": 6004,
+        "num": 1,
+        "dropCount": 1,
+        "runs": 2
+      },
+      {
+        "type": "item",
+        "objectId": 6505,
+        "num": 1,
+        "dropCount": 1,
+        "runs": 2
+      }
+    ],
     "stages": [
       {
         "wave": 1,
@@ -31574,7 +34760,8 @@
       3
     ],
     "phasesWithEnemies": [
-      1
+      1,
+      3
     ],
     "noticeAt": 1654086600,
     "openedAt": 1654086600,
@@ -31593,24 +34780,820 @@
     "exp": 22488,
     "bond": 795,
     "battleBgId": 17201,
+    "drops": [
+      {
+        "type": "servant",
+        "objectId": 9704300,
+        "num": 1,
+        "dropCount": 1,
+        "runs": 1
+      },
+      {
+        "type": "item",
+        "objectId": 1,
+        "num": 15000,
+        "dropCount": 2,
+        "runs": 1
+      }
+    ],
     "stages": [
       {
         "wave": 1,
         "bgm": {
           "id": 591
-        }
+        },
+        "enemies": [
+          {
+            "deck": "enemy",
+            "deckId": 1,
+            "userSvtId": 1,
+            "uniqueId": 7,
+            "npcId": 3001378,
+            "roleType": "normal",
+            "name": "ハイイロオオカミＡ",
+            "svt": {
+              "id": 9940740,
+              "collectionNo": 0,
+              "name": "ハイイロオオカミ",
+              "type": "enemy",
+              "flag": "normal",
+              "className": "rider",
+              "attribute": "earth",
+              "rarity": 1,
+              "atkMax": 11922,
+              "hpMax": 17798,
+              "face": "https://static.atlasacademy.io/JP/Enemys/99407401.png"
+            },
+            "lv": 46,
+            "atk": 5643,
+            "hp": 21988,
+            "deathRate": 1000,
+            "criticalRate": 150,
+            "chargeTurn": 5,
+            "traits": [
+              {
+                "id": 5000
+              },
+              {
+                "id": 5010
+              },
+              {
+                "id": 103
+              },
+              {
+                "id": 201
+              },
+              {
+                "id": 2005
+              }
+            ],
+            "skills": {
+              "skillId1": 961252,
+              "skill1": {
+                "id": 961252
+              },
+              "skillLv1": 1
+            },
+            "noblePhantasm": {
+              "noblePhantasmId": 544,
+              "noblePhantasm": {
+                "id": 544,
+                "num": 1,
+                "priority": 518
+              },
+              "noblePhantasmLv": 1
+            },
+            "serverMod": {
+              "tdRate": 1100,
+              "tdAttackRate": 1100,
+              "starRate": 100
+            },
+            "misc": {
+              "userCommandCodeIds": [
+                -1,
+                -1,
+                -1,
+                -1,
+                -1
+              ]
+            }
+          },
+          {
+            "deck": "enemy",
+            "deckId": 2,
+            "userSvtId": 2,
+            "uniqueId": 8,
+            "npcId": 3001378,
+            "roleType": "normal",
+            "name": "ハイイロオオカミＢ",
+            "svt": {
+              "id": 9940740,
+              "collectionNo": 0,
+              "name": "ハイイロオオカミ",
+              "type": "enemy",
+              "flag": "normal",
+              "className": "rider",
+              "attribute": "earth",
+              "rarity": 1,
+              "atkMax": 11922,
+              "hpMax": 17798,
+              "face": "https://static.atlasacademy.io/JP/Enemys/99407401.png"
+            },
+            "lv": 47,
+            "atk": 5758,
+            "hp": 22432,
+            "deathRate": 1000,
+            "criticalRate": 150,
+            "chargeTurn": 5,
+            "traits": [
+              {
+                "id": 5000
+              },
+              {
+                "id": 5010
+              },
+              {
+                "id": 103
+              },
+              {
+                "id": 201
+              },
+              {
+                "id": 2005
+              }
+            ],
+            "skills": {
+              "skillId1": 961252,
+              "skill1": {
+                "id": 961252
+              },
+              "skillLv1": 1
+            },
+            "noblePhantasm": {
+              "noblePhantasmId": 544,
+              "noblePhantasm": {
+                "id": 544,
+                "num": 1,
+                "priority": 518
+              },
+              "noblePhantasmLv": 1
+            },
+            "serverMod": {
+              "tdRate": 1100,
+              "tdAttackRate": 1100,
+              "starRate": 100
+            },
+            "misc": {
+              "userCommandCodeIds": [
+                -1,
+                -1,
+                -1,
+                -1,
+                -1
+              ]
+            }
+          },
+          {
+            "deck": "enemy",
+            "deckId": 3,
+            "userSvtId": 3,
+            "uniqueId": 9,
+            "npcId": 3001378,
+            "roleType": "normal",
+            "name": "ハイイロオオカミＣ",
+            "svt": {
+              "id": 9940740,
+              "collectionNo": 0,
+              "name": "ハイイロオオカミ",
+              "type": "enemy",
+              "flag": "normal",
+              "className": "rider",
+              "attribute": "earth",
+              "rarity": 1,
+              "atkMax": 11922,
+              "hpMax": 17798,
+              "face": "https://static.atlasacademy.io/JP/Enemys/99407401.png"
+            },
+            "lv": 48,
+            "atk": 5873,
+            "hp": 22877,
+            "deathRate": 1000,
+            "criticalRate": 150,
+            "chargeTurn": 5,
+            "traits": [
+              {
+                "id": 5000
+              },
+              {
+                "id": 5010
+              },
+              {
+                "id": 103
+              },
+              {
+                "id": 201
+              },
+              {
+                "id": 2005
+              }
+            ],
+            "skills": {
+              "skillId1": 961252,
+              "skill1": {
+                "id": 961252
+              },
+              "skillLv1": 1
+            },
+            "noblePhantasm": {
+              "noblePhantasmId": 544,
+              "noblePhantasm": {
+                "id": 544,
+                "num": 1,
+                "priority": 518
+              },
+              "noblePhantasmLv": 1
+            },
+            "serverMod": {
+              "tdRate": 1100,
+              "tdAttackRate": 1100,
+              "starRate": 100
+            },
+            "misc": {
+              "userCommandCodeIds": [
+                -1,
+                -1,
+                -1,
+                -1,
+                -1
+              ]
+            }
+          }
+        ]
       },
       {
         "wave": 2,
         "bgm": {
           "id": 591
-        }
+        },
+        "enemies": [
+          {
+            "deck": "enemy",
+            "deckId": 1,
+            "userSvtId": 4,
+            "uniqueId": 10,
+            "npcId": 3001377,
+            "roleType": "servant",
+            "name": "クラス・アーチャー",
+            "svt": {
+              "id": 9943760,
+              "collectionNo": 0,
+              "name": "クラス・アーチャー",
+              "type": "enemy",
+              "flag": "normal",
+              "className": "archer",
+              "attribute": "human",
+              "rarity": 4,
+              "atkMax": 18153,
+              "hpMax": 264600,
+              "face": "https://static.atlasacademy.io/JP/Enemys/99437602.png",
+              "costume": {
+                "9943760": {
+                  "id": 1,
+                  "costumeCollectionNo": 0,
+                  "battleCharaId": 9943760,
+                  "shortName": ""
+                }
+              }
+            },
+            "lv": 30,
+            "atk": 6063,
+            "hp": 35611,
+            "deathRate": 200,
+            "criticalRate": 200,
+            "chargeTurn": 3,
+            "traits": [
+              {
+                "id": 5000
+              },
+              {
+                "id": 5010
+              },
+              {
+                "id": 1
+              },
+              {
+                "id": 102
+              },
+              {
+                "id": 202
+              },
+              {
+                "id": 2001
+              },
+              {
+                "id": 1000
+              },
+              {
+                "id": 2008
+              },
+              {
+                "id": 2
+              }
+            ],
+            "skills": {
+              "skillId1": 967026,
+              "skill1": {
+                "id": 967026
+              },
+              "skillLv1": 1
+            },
+            "noblePhantasm": {
+              "noblePhantasmId": 780,
+              "noblePhantasm": {
+                "id": 780,
+                "num": 1,
+                "strengthStatus": 1,
+                "priority": 5
+              },
+              "noblePhantasmLv": 1
+            },
+            "serverMod": {
+              "tdRate": 1000,
+              "tdAttackRate": 1000,
+              "starRate": 50
+            },
+            "misc": {
+              "userCommandCodeIds": [
+                -1,
+                -1,
+                -1,
+                -1,
+                -1
+              ]
+            }
+          },
+          {
+            "deck": "enemy",
+            "deckId": 2,
+            "userSvtId": 5,
+            "uniqueId": 11,
+            "npcId": 3001378,
+            "roleType": "normal",
+            "name": "ハイイロオオカミＡ",
+            "svt": {
+              "id": 9940740,
+              "collectionNo": 0,
+              "name": "ハイイロオオカミ",
+              "type": "enemy",
+              "flag": "normal",
+              "className": "rider",
+              "attribute": "earth",
+              "rarity": 1,
+              "atkMax": 11922,
+              "hpMax": 17798,
+              "face": "https://static.atlasacademy.io/JP/Enemys/99407401.png"
+            },
+            "lv": 49,
+            "atk": 5988,
+            "hp": 28704,
+            "deathRate": 1000,
+            "criticalRate": 150,
+            "chargeTurn": 5,
+            "traits": [
+              {
+                "id": 5000
+              },
+              {
+                "id": 5010
+              },
+              {
+                "id": 103
+              },
+              {
+                "id": 201
+              },
+              {
+                "id": 2005
+              }
+            ],
+            "skills": {
+              "skillId1": 961252,
+              "skill1": {
+                "id": 961252
+              },
+              "skillLv1": 1
+            },
+            "noblePhantasm": {
+              "noblePhantasmId": 544,
+              "noblePhantasm": {
+                "id": 544,
+                "num": 1,
+                "priority": 518
+              },
+              "noblePhantasmLv": 1
+            },
+            "serverMod": {
+              "tdRate": 1100,
+              "tdAttackRate": 1100,
+              "starRate": 100
+            },
+            "misc": {
+              "userCommandCodeIds": [
+                -1,
+                -1,
+                -1,
+                -1,
+                -1
+              ]
+            }
+          },
+          {
+            "deck": "enemy",
+            "deckId": 3,
+            "userSvtId": 5,
+            "uniqueId": 12,
+            "npcId": 3001378,
+            "roleType": "normal",
+            "name": "ハイイロオオカミＢ",
+            "svt": {
+              "id": 9940740,
+              "collectionNo": 0,
+              "name": "ハイイロオオカミ",
+              "type": "enemy",
+              "flag": "normal",
+              "className": "rider",
+              "attribute": "earth",
+              "rarity": 1,
+              "atkMax": 11922,
+              "hpMax": 17798,
+              "face": "https://static.atlasacademy.io/JP/Enemys/99407401.png"
+            },
+            "lv": 49,
+            "atk": 5988,
+            "hp": 28704,
+            "deathRate": 1000,
+            "criticalRate": 150,
+            "chargeTurn": 5,
+            "traits": [
+              {
+                "id": 5000
+              },
+              {
+                "id": 5010
+              },
+              {
+                "id": 103
+              },
+              {
+                "id": 201
+              },
+              {
+                "id": 2005
+              }
+            ],
+            "skills": {
+              "skillId1": 961252,
+              "skill1": {
+                "id": 961252
+              },
+              "skillLv1": 1
+            },
+            "noblePhantasm": {
+              "noblePhantasmId": 544,
+              "noblePhantasm": {
+                "id": 544,
+                "num": 1,
+                "priority": 518
+              },
+              "noblePhantasmLv": 1
+            },
+            "serverMod": {
+              "tdRate": 1100,
+              "tdAttackRate": 1100,
+              "starRate": 100
+            },
+            "misc": {
+              "userCommandCodeIds": [
+                -1,
+                -1,
+                -1,
+                -1,
+                -1
+              ]
+            }
+          }
+        ]
       },
       {
         "wave": 3,
         "bgm": {
           "id": 561
-        }
+        },
+        "enemies": [
+          {
+            "deck": "enemy",
+            "deckId": 1,
+            "userSvtId": 6,
+            "uniqueId": 13,
+            "npcId": 3001376,
+            "roleType": "servant",
+            "name": "クラス・ライダーＡ",
+            "svt": {
+              "id": 9943780,
+              "collectionNo": 0,
+              "name": "クラス・ライダー",
+              "type": "enemy",
+              "flag": "normal",
+              "className": "rider",
+              "attribute": "human",
+              "rarity": 4,
+              "atkMax": 16166,
+              "hpMax": 288000,
+              "face": "https://static.atlasacademy.io/JP/Enemys/99437802.png",
+              "costume": {
+                "9943780": {
+                  "id": 1,
+                  "costumeCollectionNo": 0,
+                  "battleCharaId": 9943780,
+                  "shortName": ""
+                }
+              }
+            },
+            "lv": 53,
+            "atk": 8943,
+            "hp": 99169,
+            "deathRate": 200,
+            "criticalRate": 150,
+            "chargeTurn": 5,
+            "traits": [
+              {
+                "id": 5000
+              },
+              {
+                "id": 5010
+              },
+              {
+                "id": 1
+              },
+              {
+                "id": 103
+              },
+              {
+                "id": 202
+              },
+              {
+                "id": 2001
+              },
+              {
+                "id": 1000
+              },
+              {
+                "id": 2008
+              },
+              {
+                "id": 2009
+              },
+              {
+                "id": 2
+              }
+            ],
+            "skills": {
+              "skillId1": 967028,
+              "skill1": {
+                "id": 967028
+              },
+              "skillLv1": 1
+            },
+            "noblePhantasm": {
+              "noblePhantasmId": 786,
+              "noblePhantasm": {
+                "id": 786,
+                "num": 1,
+                "strengthStatus": 1,
+                "priority": 11
+              },
+              "noblePhantasmLv": 1
+            },
+            "serverMod": {
+              "tdRate": 1100,
+              "tdAttackRate": 1100,
+              "starRate": 100
+            },
+            "enemyScript": {
+              "billBoardGroup": 1
+            },
+            "misc": {
+              "userCommandCodeIds": [
+                -1,
+                -1,
+                -1,
+                -1,
+                -1
+              ]
+            }
+          },
+          {
+            "deck": "enemy",
+            "deckId": 2,
+            "userSvtId": 7,
+            "uniqueId": 14,
+            "npcId": 3001377,
+            "roleType": "servant",
+            "name": "クラス・アーチャー",
+            "svt": {
+              "id": 9943760,
+              "collectionNo": 0,
+              "name": "クラス・アーチャー",
+              "type": "enemy",
+              "flag": "normal",
+              "className": "archer",
+              "attribute": "human",
+              "rarity": 4,
+              "atkMax": 18153,
+              "hpMax": 264600,
+              "face": "https://static.atlasacademy.io/JP/Enemys/99437602.png",
+              "costume": {
+                "9943760": {
+                  "id": 1,
+                  "costumeCollectionNo": 0,
+                  "battleCharaId": 9943760,
+                  "shortName": ""
+                }
+              }
+            },
+            "lv": 48,
+            "atk": 9171,
+            "hp": 92572,
+            "deathRate": 200,
+            "criticalRate": 200,
+            "chargeTurn": 3,
+            "traits": [
+              {
+                "id": 5000
+              },
+              {
+                "id": 5010
+              },
+              {
+                "id": 1
+              },
+              {
+                "id": 102
+              },
+              {
+                "id": 202
+              },
+              {
+                "id": 2001
+              },
+              {
+                "id": 1000
+              },
+              {
+                "id": 2008
+              },
+              {
+                "id": 2
+              }
+            ],
+            "skills": {
+              "skillId1": 967026,
+              "skill1": {
+                "id": 967026
+              },
+              "skillLv1": 1
+            },
+            "noblePhantasm": {
+              "noblePhantasmId": 780,
+              "noblePhantasm": {
+                "id": 780,
+                "num": 1,
+                "strengthStatus": 1,
+                "priority": 5
+              },
+              "noblePhantasmLv": 1
+            },
+            "serverMod": {
+              "tdRate": 1000,
+              "tdAttackRate": 1000,
+              "starRate": 50
+            },
+            "enemyScript": {
+              "billBoardGroup": 1
+            },
+            "misc": {
+              "userCommandCodeIds": [
+                -1,
+                -1,
+                -1,
+                -1,
+                -1
+              ]
+            }
+          },
+          {
+            "deck": "enemy",
+            "deckId": 3,
+            "userSvtId": 8,
+            "uniqueId": 15,
+            "npcId": 3001376,
+            "roleType": "servant",
+            "name": "クラス・ライダーＢ",
+            "svt": {
+              "id": 9943780,
+              "collectionNo": 0,
+              "name": "クラス・ライダー",
+              "type": "enemy",
+              "flag": "normal",
+              "className": "rider",
+              "attribute": "human",
+              "rarity": 4,
+              "atkMax": 16166,
+              "hpMax": 288000,
+              "face": "https://static.atlasacademy.io/JP/Enemys/99437802.png",
+              "costume": {
+                "9943780": {
+                  "id": 1,
+                  "costumeCollectionNo": 0,
+                  "battleCharaId": 9943780,
+                  "shortName": ""
+                }
+              }
+            },
+            "lv": 36,
+            "atk": 6327,
+            "hp": 41410,
+            "deathRate": 200,
+            "criticalRate": 150,
+            "chargeTurn": 5,
+            "traits": [
+              {
+                "id": 5000
+              },
+              {
+                "id": 5010
+              },
+              {
+                "id": 1
+              },
+              {
+                "id": 103
+              },
+              {
+                "id": 202
+              },
+              {
+                "id": 2001
+              },
+              {
+                "id": 1000
+              },
+              {
+                "id": 2008
+              },
+              {
+                "id": 2009
+              },
+              {
+                "id": 2
+              }
+            ],
+            "skills": {
+              "skillId1": 967028,
+              "skill1": {
+                "id": 967028
+              },
+              "skillLv1": 1
+            },
+            "noblePhantasm": {
+              "noblePhantasmId": 786,
+              "noblePhantasm": {
+                "id": 786,
+                "num": 1,
+                "strengthStatus": 1,
+                "priority": 11
+              },
+              "noblePhantasmLv": 1
+            },
+            "serverMod": {
+              "tdRate": 1100,
+              "tdAttackRate": 1100,
+              "starRate": 100
+            },
+            "enemyScript": {
+              "billBoardGroup": 1
+            },
+            "misc": {
+              "userCommandCodeIds": [
+                -1,
+                -1,
+                -1,
+                -1,
+                -1
+              ]
+            }
+          }
+        ]
       }
     ]
   },
@@ -31647,6 +35630,11 @@
       2,
       3
     ],
+    "phasesWithEnemies": [
+      1,
+      2,
+      3
+    ],
     "noticeAt": 1654086600,
     "openedAt": 1654086600,
     "closedAt": 1893423600,
@@ -31664,24 +35652,964 @@
     "exp": 23752,
     "bond": 815,
     "battleBgId": 79310,
+    "drops": [
+      {
+        "type": "item",
+        "objectId": 1,
+        "num": 30000,
+        "dropCount": 1,
+        "runs": 1
+      },
+      {
+        "type": "item",
+        "objectId": 6551,
+        "num": 1,
+        "dropCount": 3,
+        "runs": 1
+      }
+    ],
     "stages": [
       {
         "wave": 1,
         "bgm": {
           "id": 591
-        }
+        },
+        "enemies": [
+          {
+            "deck": "enemy",
+            "deckId": 1,
+            "userSvtId": 1,
+            "uniqueId": 7,
+            "npcId": 3001381,
+            "roleType": "servant",
+            "name": "クラス・セイバーＡ",
+            "svt": {
+              "id": 9943750,
+              "collectionNo": 0,
+              "name": "クラス・セイバー",
+              "type": "enemy",
+              "flag": "normal",
+              "className": "saber",
+              "attribute": "human",
+              "rarity": 4,
+              "atkMax": 17008,
+              "hpMax": 303000,
+              "face": "https://static.atlasacademy.io/JP/Enemys/99437502.png",
+              "costume": {
+                "9943750": {
+                  "id": 1,
+                  "costumeCollectionNo": 0,
+                  "battleCharaId": 9943750,
+                  "shortName": ""
+                }
+              }
+            },
+            "lv": 31,
+            "atk": 5857,
+            "hp": 27236,
+            "deathRate": 200,
+            "criticalRate": 100,
+            "chargeTurn": 4,
+            "traits": [
+              {
+                "id": 5000
+              },
+              {
+                "id": 5010
+              },
+              {
+                "id": 1
+              },
+              {
+                "id": 100
+              },
+              {
+                "id": 202
+              },
+              {
+                "id": 2001
+              },
+              {
+                "id": 1000
+              },
+              {
+                "id": 2008
+              },
+              {
+                "id": 2075
+              },
+              {
+                "id": 2
+              }
+            ],
+            "skills": {
+              "skillId1": 967025,
+              "skill1": {
+                "id": 967025
+              },
+              "skillLv1": 1
+            },
+            "noblePhantasm": {
+              "noblePhantasmId": 777,
+              "noblePhantasm": {
+                "id": 777,
+                "num": 1,
+                "strengthStatus": 1,
+                "priority": 2
+              },
+              "noblePhantasmLv": 1
+            },
+            "serverMod": {
+              "tdRate": 1000,
+              "tdAttackRate": 1000,
+              "starRate": 0
+            },
+            "enemyScript": {
+              "billBoardGroup": 1
+            },
+            "misc": {
+              "userCommandCodeIds": [
+                -1,
+                -1,
+                -1,
+                -1,
+                -1
+              ]
+            }
+          },
+          {
+            "deck": "enemy",
+            "deckId": 2,
+            "userSvtId": 2,
+            "uniqueId": 8,
+            "npcId": 3001382,
+            "roleType": "servant",
+            "name": "クラス・ライダー",
+            "svt": {
+              "id": 9943780,
+              "collectionNo": 0,
+              "name": "クラス・ライダー",
+              "type": "enemy",
+              "flag": "normal",
+              "className": "rider",
+              "attribute": "human",
+              "rarity": 4,
+              "atkMax": 16166,
+              "hpMax": 288000,
+              "face": "https://static.atlasacademy.io/JP/Enemys/99437802.png",
+              "costume": {
+                "9943780": {
+                  "id": 1,
+                  "costumeCollectionNo": 0,
+                  "battleCharaId": 9943780,
+                  "shortName": ""
+                }
+              }
+            },
+            "lv": 31,
+            "atk": 5567,
+            "hp": 22317,
+            "deathRate": 200,
+            "criticalRate": 150,
+            "chargeTurn": 5,
+            "traits": [
+              {
+                "id": 5000
+              },
+              {
+                "id": 5010
+              },
+              {
+                "id": 1
+              },
+              {
+                "id": 103
+              },
+              {
+                "id": 202
+              },
+              {
+                "id": 2001
+              },
+              {
+                "id": 1000
+              },
+              {
+                "id": 2008
+              },
+              {
+                "id": 2009
+              },
+              {
+                "id": 2
+              }
+            ],
+            "skills": {
+              "skillId1": 967028,
+              "skill1": {
+                "id": 967028
+              },
+              "skillLv1": 1
+            },
+            "noblePhantasm": {
+              "noblePhantasmId": 786,
+              "noblePhantasm": {
+                "id": 786,
+                "num": 1,
+                "strengthStatus": 1,
+                "priority": 11
+              },
+              "noblePhantasmLv": 1
+            },
+            "serverMod": {
+              "tdRate": 1100,
+              "tdAttackRate": 1100,
+              "starRate": 100
+            },
+            "enemyScript": {
+              "billBoardGroup": 1
+            },
+            "misc": {
+              "userCommandCodeIds": [
+                -1,
+                -1,
+                -1,
+                -1,
+                -1
+              ]
+            }
+          },
+          {
+            "deck": "enemy",
+            "deckId": 3,
+            "userSvtId": 3,
+            "uniqueId": 9,
+            "npcId": 3001381,
+            "roleType": "servant",
+            "name": "クラス・セイバーＢ",
+            "svt": {
+              "id": 9943750,
+              "collectionNo": 0,
+              "name": "クラス・セイバー",
+              "type": "enemy",
+              "flag": "normal",
+              "className": "saber",
+              "attribute": "human",
+              "rarity": 4,
+              "atkMax": 17008,
+              "hpMax": 303000,
+              "face": "https://static.atlasacademy.io/JP/Enemys/99437502.png",
+              "costume": {
+                "9943750": {
+                  "id": 1,
+                  "costumeCollectionNo": 0,
+                  "battleCharaId": 9943750,
+                  "shortName": ""
+                }
+              }
+            },
+            "lv": 32,
+            "atk": 6017,
+            "hp": 28106,
+            "deathRate": 200,
+            "criticalRate": 100,
+            "chargeTurn": 4,
+            "traits": [
+              {
+                "id": 5000
+              },
+              {
+                "id": 5010
+              },
+              {
+                "id": 1
+              },
+              {
+                "id": 100
+              },
+              {
+                "id": 202
+              },
+              {
+                "id": 2001
+              },
+              {
+                "id": 1000
+              },
+              {
+                "id": 2008
+              },
+              {
+                "id": 2075
+              },
+              {
+                "id": 2
+              }
+            ],
+            "skills": {
+              "skillId1": 967025,
+              "skill1": {
+                "id": 967025
+              },
+              "skillLv1": 1
+            },
+            "noblePhantasm": {
+              "noblePhantasmId": 777,
+              "noblePhantasm": {
+                "id": 777,
+                "num": 1,
+                "strengthStatus": 1,
+                "priority": 2
+              },
+              "noblePhantasmLv": 1
+            },
+            "serverMod": {
+              "tdRate": 1000,
+              "tdAttackRate": 1000,
+              "starRate": 0
+            },
+            "enemyScript": {
+              "billBoardGroup": 1
+            },
+            "misc": {
+              "userCommandCodeIds": [
+                -1,
+                -1,
+                -1,
+                -1,
+                -1
+              ]
+            }
+          }
+        ]
       },
       {
         "wave": 2,
         "bgm": {
           "id": 591
-        }
+        },
+        "enemies": [
+          {
+            "deck": "enemy",
+            "deckId": 1,
+            "userSvtId": 4,
+            "uniqueId": 10,
+            "npcId": 3001382,
+            "roleType": "servant",
+            "name": "クラス・ライダーＡ",
+            "svt": {
+              "id": 9943780,
+              "collectionNo": 0,
+              "name": "クラス・ライダー",
+              "type": "enemy",
+              "flag": "normal",
+              "className": "rider",
+              "attribute": "human",
+              "rarity": 4,
+              "atkMax": 16166,
+              "hpMax": 288000,
+              "face": "https://static.atlasacademy.io/JP/Enemys/99437802.png",
+              "costume": {
+                "9943780": {
+                  "id": 1,
+                  "costumeCollectionNo": 0,
+                  "battleCharaId": 9943780,
+                  "shortName": ""
+                }
+              }
+            },
+            "lv": 33,
+            "atk": 5871,
+            "hp": 32290,
+            "deathRate": 200,
+            "criticalRate": 150,
+            "chargeTurn": 5,
+            "traits": [
+              {
+                "id": 5000
+              },
+              {
+                "id": 5010
+              },
+              {
+                "id": 1
+              },
+              {
+                "id": 103
+              },
+              {
+                "id": 202
+              },
+              {
+                "id": 2001
+              },
+              {
+                "id": 1000
+              },
+              {
+                "id": 2008
+              },
+              {
+                "id": 2009
+              },
+              {
+                "id": 2
+              }
+            ],
+            "skills": {
+              "skillId1": 967028,
+              "skill1": {
+                "id": 967028
+              },
+              "skillLv1": 1
+            },
+            "noblePhantasm": {
+              "noblePhantasmId": 786,
+              "noblePhantasm": {
+                "id": 786,
+                "num": 1,
+                "strengthStatus": 1,
+                "priority": 11
+              },
+              "noblePhantasmLv": 1
+            },
+            "serverMod": {
+              "tdRate": 1100,
+              "tdAttackRate": 1100,
+              "starRate": 100
+            },
+            "enemyScript": {
+              "billBoardGroup": 1
+            },
+            "misc": {
+              "userCommandCodeIds": [
+                -1,
+                -1,
+                -1,
+                -1,
+                -1
+              ]
+            }
+          },
+          {
+            "deck": "enemy",
+            "deckId": 2,
+            "userSvtId": 5,
+            "uniqueId": 11,
+            "npcId": 3001382,
+            "roleType": "servant",
+            "name": "クラス・ライダーＢ",
+            "svt": {
+              "id": 9943780,
+              "collectionNo": 0,
+              "name": "クラス・ライダー",
+              "type": "enemy",
+              "flag": "normal",
+              "className": "rider",
+              "attribute": "human",
+              "rarity": 4,
+              "atkMax": 16166,
+              "hpMax": 288000,
+              "face": "https://static.atlasacademy.io/JP/Enemys/99437802.png",
+              "costume": {
+                "9943780": {
+                  "id": 1,
+                  "costumeCollectionNo": 0,
+                  "battleCharaId": 9943780,
+                  "shortName": ""
+                }
+              }
+            },
+            "lv": 49,
+            "atk": 8319,
+            "hp": 61986,
+            "deathRate": 200,
+            "criticalRate": 150,
+            "chargeTurn": 5,
+            "traits": [
+              {
+                "id": 5000
+              },
+              {
+                "id": 5010
+              },
+              {
+                "id": 1
+              },
+              {
+                "id": 103
+              },
+              {
+                "id": 202
+              },
+              {
+                "id": 2001
+              },
+              {
+                "id": 1000
+              },
+              {
+                "id": 2008
+              },
+              {
+                "id": 2009
+              },
+              {
+                "id": 2
+              }
+            ],
+            "skills": {
+              "skillId1": 967028,
+              "skill1": {
+                "id": 967028
+              },
+              "skillLv1": 1
+            },
+            "noblePhantasm": {
+              "noblePhantasmId": 786,
+              "noblePhantasm": {
+                "id": 786,
+                "num": 1,
+                "strengthStatus": 1,
+                "priority": 11
+              },
+              "noblePhantasmLv": 1
+            },
+            "serverMod": {
+              "tdRate": 1100,
+              "tdAttackRate": 1100,
+              "starRate": 100
+            },
+            "enemyScript": {
+              "billBoardGroup": 1
+            },
+            "misc": {
+              "userCommandCodeIds": [
+                -1,
+                -1,
+                -1,
+                -1,
+                -1
+              ]
+            }
+          },
+          {
+            "deck": "enemy",
+            "deckId": 3,
+            "userSvtId": 6,
+            "uniqueId": 12,
+            "npcId": 3001381,
+            "roleType": "servant",
+            "name": "クラス・セイバー",
+            "svt": {
+              "id": 9943750,
+              "collectionNo": 0,
+              "name": "クラス・セイバー",
+              "type": "enemy",
+              "flag": "normal",
+              "className": "saber",
+              "attribute": "human",
+              "rarity": 4,
+              "atkMax": 17008,
+              "hpMax": 303000,
+              "face": "https://static.atlasacademy.io/JP/Enemys/99437502.png",
+              "costume": {
+                "9943750": {
+                  "id": 1,
+                  "costumeCollectionNo": 0,
+                  "battleCharaId": 9943750,
+                  "shortName": ""
+                }
+              }
+            },
+            "lv": 33,
+            "atk": 6177,
+            "hp": 36970,
+            "deathRate": 200,
+            "criticalRate": 100,
+            "chargeTurn": 4,
+            "traits": [
+              {
+                "id": 5000
+              },
+              {
+                "id": 5010
+              },
+              {
+                "id": 1
+              },
+              {
+                "id": 100
+              },
+              {
+                "id": 202
+              },
+              {
+                "id": 2001
+              },
+              {
+                "id": 1000
+              },
+              {
+                "id": 2008
+              },
+              {
+                "id": 2075
+              },
+              {
+                "id": 2
+              }
+            ],
+            "skills": {
+              "skillId1": 967025,
+              "skill1": {
+                "id": 967025
+              },
+              "skillLv1": 1
+            },
+            "noblePhantasm": {
+              "noblePhantasmId": 777,
+              "noblePhantasm": {
+                "id": 777,
+                "num": 1,
+                "strengthStatus": 1,
+                "priority": 2
+              },
+              "noblePhantasmLv": 1
+            },
+            "serverMod": {
+              "tdRate": 1000,
+              "tdAttackRate": 1000,
+              "starRate": 0
+            },
+            "enemyScript": {
+              "billBoardGroup": 1
+            },
+            "misc": {
+              "userCommandCodeIds": [
+                -1,
+                -1,
+                -1,
+                -1,
+                -1
+              ]
+            }
+          }
+        ]
       },
       {
         "wave": 3,
         "bgm": {
           "id": 561
-        }
+        },
+        "enemies": [
+          {
+            "deck": "enemy",
+            "deckId": 1,
+            "userSvtId": 7,
+            "uniqueId": 13,
+            "npcId": 3001379,
+            "roleType": "servant",
+            "name": "クラス・セイバーＡ",
+            "svt": {
+              "id": 9943750,
+              "collectionNo": 0,
+              "name": "クラス・セイバー",
+              "type": "enemy",
+              "flag": "normal",
+              "className": "saber",
+              "attribute": "human",
+              "rarity": 4,
+              "atkMax": 17008,
+              "hpMax": 303000,
+              "face": "https://static.atlasacademy.io/JP/Enemys/99437501.png",
+              "costume": {
+                "9943750": {
+                  "id": 1,
+                  "costumeCollectionNo": 0,
+                  "battleCharaId": 9943750,
+                  "shortName": ""
+                }
+              }
+            },
+            "lv": 52,
+            "atk": 9248,
+            "hp": 113410,
+            "deathRate": 200,
+            "criticalRate": 100,
+            "chargeTurn": 4,
+            "traits": [
+              {
+                "id": 5000
+              },
+              {
+                "id": 5010
+              },
+              {
+                "id": 1
+              },
+              {
+                "id": 100
+              },
+              {
+                "id": 202
+              },
+              {
+                "id": 2001
+              },
+              {
+                "id": 1000
+              },
+              {
+                "id": 2008
+              },
+              {
+                "id": 2075
+              },
+              {
+                "id": 2
+              }
+            ],
+            "skills": {
+              "skillId1": 967025,
+              "skill1": {
+                "id": 967025
+              },
+              "skillLv1": 1
+            },
+            "noblePhantasm": {
+              "noblePhantasmId": 776,
+              "noblePhantasm": {
+                "id": 776,
+                "num": 1,
+                "strengthStatus": 1,
+                "priority": 1
+              },
+              "noblePhantasmLv": 1
+            },
+            "serverMod": {
+              "tdRate": 1000,
+              "tdAttackRate": 1000,
+              "starRate": 0
+            },
+            "enemyScript": {
+              "billBoardGroup": 1
+            },
+            "misc": {
+              "userCommandCodeIds": [
+                -1,
+                -1,
+                -1,
+                -1,
+                -1
+              ]
+            }
+          },
+          {
+            "deck": "enemy",
+            "deckId": 2,
+            "userSvtId": 8,
+            "uniqueId": 14,
+            "npcId": 3001379,
+            "roleType": "servant",
+            "name": "クラス・セイバーＢ",
+            "svt": {
+              "id": 9943750,
+              "collectionNo": 0,
+              "name": "クラス・セイバー",
+              "type": "enemy",
+              "flag": "normal",
+              "className": "saber",
+              "attribute": "human",
+              "rarity": 4,
+              "atkMax": 17008,
+              "hpMax": 303000,
+              "face": "https://static.atlasacademy.io/JP/Enemys/99437501.png",
+              "costume": {
+                "9943750": {
+                  "id": 1,
+                  "costumeCollectionNo": 0,
+                  "battleCharaId": 9943750,
+                  "shortName": ""
+                }
+              }
+            },
+            "lv": 36,
+            "atk": 6657,
+            "hp": 43567,
+            "deathRate": 200,
+            "criticalRate": 100,
+            "chargeTurn": 4,
+            "traits": [
+              {
+                "id": 5000
+              },
+              {
+                "id": 5010
+              },
+              {
+                "id": 1
+              },
+              {
+                "id": 100
+              },
+              {
+                "id": 202
+              },
+              {
+                "id": 2001
+              },
+              {
+                "id": 1000
+              },
+              {
+                "id": 2008
+              },
+              {
+                "id": 2075
+              },
+              {
+                "id": 2
+              }
+            ],
+            "skills": {
+              "skillId1": 967025,
+              "skill1": {
+                "id": 967025
+              },
+              "skillLv1": 1
+            },
+            "noblePhantasm": {
+              "noblePhantasmId": 776,
+              "noblePhantasm": {
+                "id": 776,
+                "num": 1,
+                "strengthStatus": 1,
+                "priority": 1
+              },
+              "noblePhantasmLv": 1
+            },
+            "serverMod": {
+              "tdRate": 1000,
+              "tdAttackRate": 1000,
+              "starRate": 0
+            },
+            "enemyScript": {
+              "billBoardGroup": 1
+            },
+            "misc": {
+              "userCommandCodeIds": [
+                -1,
+                -1,
+                -1,
+                -1,
+                -1
+              ]
+            }
+          },
+          {
+            "deck": "enemy",
+            "deckId": 3,
+            "userSvtId": 9,
+            "uniqueId": 15,
+            "npcId": 3001380,
+            "roleType": "servant",
+            "name": "クラス・ライダー",
+            "svt": {
+              "id": 9943780,
+              "collectionNo": 0,
+              "name": "クラス・ライダー",
+              "type": "enemy",
+              "flag": "normal",
+              "className": "rider",
+              "attribute": "human",
+              "rarity": 4,
+              "atkMax": 16166,
+              "hpMax": 288000,
+              "face": "https://static.atlasacademy.io/JP/Enemys/99437801.png",
+              "costume": {
+                "9943780": {
+                  "id": 1,
+                  "costumeCollectionNo": 0,
+                  "battleCharaId": 9943780,
+                  "shortName": ""
+                }
+              }
+            },
+            "lv": 36,
+            "atk": 6327,
+            "hp": 38304,
+            "deathRate": 200,
+            "criticalRate": 150,
+            "chargeTurn": 5,
+            "traits": [
+              {
+                "id": 5000
+              },
+              {
+                "id": 5010
+              },
+              {
+                "id": 1
+              },
+              {
+                "id": 103
+              },
+              {
+                "id": 202
+              },
+              {
+                "id": 2001
+              },
+              {
+                "id": 1000
+              },
+              {
+                "id": 2008
+              },
+              {
+                "id": 2009
+              },
+              {
+                "id": 2
+              }
+            ],
+            "skills": {
+              "skillId1": 967028,
+              "skill1": {
+                "id": 967028
+              },
+              "skillLv1": 1
+            },
+            "noblePhantasm": {
+              "noblePhantasmId": 785,
+              "noblePhantasm": {
+                "id": 785,
+                "num": 1,
+                "strengthStatus": 1,
+                "priority": 10
+              },
+              "noblePhantasmLv": 1
+            },
+            "serverMod": {
+              "tdRate": 1100,
+              "tdAttackRate": 1100,
+              "starRate": 100
+            },
+            "enemyScript": {
+              "billBoardGroup": 1
+            },
+            "misc": {
+              "userCommandCodeIds": [
+                -1,
+                -1,
+                -1,
+                -1,
+                -1
+              ]
+            }
+          }
+        ]
       }
     ]
   },
@@ -32704,6 +37632,15 @@
     "exp": 23752,
     "bond": 815,
     "battleBgId": 17210,
+    "drops": [
+      {
+        "type": "item",
+        "objectId": 1,
+        "num": 30000,
+        "dropCount": 2,
+        "runs": 2
+      }
+    ],
     "stages": [
       {
         "wave": 1,
@@ -33545,25 +38482,39 @@
     "battleBgId": 78700,
     "drops": [
       {
+        "type": "servant",
+        "objectId": 9707400,
+        "num": 1,
+        "dropCount": 1,
+        "runs": 2
+      },
+      {
         "type": "item",
         "objectId": 1,
         "num": 30000,
         "dropCount": 2,
-        "runs": 1
+        "runs": 2
+      },
+      {
+        "type": "item",
+        "objectId": 6101,
+        "num": 1,
+        "dropCount": 2,
+        "runs": 2
       },
       {
         "type": "item",
         "objectId": 6505,
         "num": 1,
         "dropCount": 1,
-        "runs": 1
+        "runs": 2
       },
       {
         "type": "item",
         "objectId": 6552,
         "num": 1,
-        "dropCount": 1,
-        "runs": 1
+        "dropCount": 2,
+        "runs": 2
       }
     ],
     "stages": [
@@ -34479,50 +39430,50 @@
         "type": "servant",
         "objectId": 9702400,
         "num": 1,
-        "dropCount": 40,
-        "runs": 124
+        "dropCount": 76,
+        "runs": 246
       },
       {
         "type": "servant",
         "objectId": 9704400,
         "num": 1,
-        "dropCount": 29,
-        "runs": 124
+        "dropCount": 52,
+        "runs": 246
       },
       {
         "type": "item",
         "objectId": 1,
         "num": 30000,
-        "dropCount": 208,
-        "runs": 124
+        "dropCount": 425,
+        "runs": 246
       },
       {
         "type": "item",
         "objectId": 6103,
         "num": 1,
-        "dropCount": 34,
-        "runs": 124
+        "dropCount": 74,
+        "runs": 246
       },
       {
         "type": "item",
         "objectId": 6104,
         "num": 1,
-        "dropCount": 34,
-        "runs": 124
+        "dropCount": 62,
+        "runs": 246
       },
       {
         "type": "item",
         "objectId": 6551,
         "num": 1,
-        "dropCount": 80,
-        "runs": 124
+        "dropCount": 155,
+        "runs": 246
       },
       {
         "type": "item",
         "objectId": 6552,
         "num": 1,
-        "dropCount": 42,
-        "runs": 124
+        "dropCount": 76,
+        "runs": 246
       }
     ],
     "stages": [
@@ -35488,6 +40439,10 @@
       2,
       3
     ],
+    "phasesWithEnemies": [
+      1,
+      3
+    ],
     "noticeAt": 1654086600,
     "openedAt": 1654086600,
     "closedAt": 1893423600,
@@ -35505,24 +40460,774 @@
     "exp": 26376,
     "bond": 855,
     "battleBgId": 12200,
+    "drops": [
+      {
+        "type": "servant",
+        "objectId": 9702200,
+        "num": 1,
+        "dropCount": 1,
+        "runs": 1
+      },
+      {
+        "type": "item",
+        "objectId": 6103,
+        "num": 1,
+        "dropCount": 1,
+        "runs": 1
+      },
+      {
+        "type": "item",
+        "objectId": 6514,
+        "num": 1,
+        "dropCount": 1,
+        "runs": 1
+      }
+    ],
     "stages": [
       {
         "wave": 1,
         "bgm": {
           "id": 591
-        }
+        },
+        "enemies": [
+          {
+            "deck": "enemy",
+            "deckId": 1,
+            "userSvtId": 1,
+            "uniqueId": 7,
+            "npcId": 3001402,
+            "roleType": "normal",
+            "name": "ホムンクルスＡ",
+            "svt": {
+              "id": 9933800,
+              "collectionNo": 0,
+              "name": "ホムンクルス",
+              "type": "enemy",
+              "flag": "normal",
+              "className": "lancer",
+              "attribute": "sky",
+              "rarity": 2,
+              "atkMax": 13366,
+              "hpMax": 58721,
+              "face": "https://static.atlasacademy.io/JP/Enemys/99338001.png"
+            },
+            "lv": 41,
+            "atk": 5782,
+            "hp": 24415,
+            "deathRate": 800,
+            "criticalRate": 100,
+            "chargeTurn": 4,
+            "traits": [
+              {
+                "id": 5000
+              },
+              {
+                "id": 5010
+              },
+              {
+                "id": 101
+              },
+              {
+                "id": 200
+              },
+              {
+                "id": 1003
+              },
+              {
+                "id": 1108
+              }
+            ],
+            "skills": {
+              "skillId1": 960086,
+              "skill1": {
+                "id": 960086
+              },
+              "skillLv1": 1
+            },
+            "noblePhantasm": {
+              "noblePhantasmId": 293,
+              "noblePhantasm": {
+                "id": 293,
+                "num": 1,
+                "strengthStatus": 1,
+                "priority": 122
+              },
+              "noblePhantasmLv": 1
+            },
+            "serverMod": {
+              "tdRate": 1000,
+              "tdAttackRate": 1000,
+              "starRate": -50
+            },
+            "misc": {
+              "userCommandCodeIds": [
+                -1,
+                -1,
+                -1,
+                -1,
+                -1
+              ]
+            }
+          },
+          {
+            "deck": "enemy",
+            "deckId": 2,
+            "userSvtId": 1,
+            "uniqueId": 8,
+            "npcId": 3001402,
+            "roleType": "normal",
+            "name": "ホムンクルスＢ",
+            "svt": {
+              "id": 9933800,
+              "collectionNo": 0,
+              "name": "ホムンクルス",
+              "type": "enemy",
+              "flag": "normal",
+              "className": "lancer",
+              "attribute": "sky",
+              "rarity": 2,
+              "atkMax": 13366,
+              "hpMax": 58721,
+              "face": "https://static.atlasacademy.io/JP/Enemys/99338001.png"
+            },
+            "lv": 41,
+            "atk": 5782,
+            "hp": 24415,
+            "deathRate": 800,
+            "criticalRate": 100,
+            "chargeTurn": 4,
+            "traits": [
+              {
+                "id": 5000
+              },
+              {
+                "id": 5010
+              },
+              {
+                "id": 101
+              },
+              {
+                "id": 200
+              },
+              {
+                "id": 1003
+              },
+              {
+                "id": 1108
+              }
+            ],
+            "skills": {
+              "skillId1": 960086,
+              "skill1": {
+                "id": 960086
+              },
+              "skillLv1": 1
+            },
+            "noblePhantasm": {
+              "noblePhantasmId": 293,
+              "noblePhantasm": {
+                "id": 293,
+                "num": 1,
+                "strengthStatus": 1,
+                "priority": 122
+              },
+              "noblePhantasmLv": 1
+            },
+            "serverMod": {
+              "tdRate": 1000,
+              "tdAttackRate": 1000,
+              "starRate": -50
+            },
+            "misc": {
+              "userCommandCodeIds": [
+                -1,
+                -1,
+                -1,
+                -1,
+                -1
+              ]
+            }
+          },
+          {
+            "deck": "enemy",
+            "deckId": 3,
+            "userSvtId": 2,
+            "uniqueId": 9,
+            "npcId": 3001402,
+            "roleType": "normal",
+            "name": "ホムンクルスＣ",
+            "svt": {
+              "id": 9933800,
+              "collectionNo": 0,
+              "name": "ホムンクルス",
+              "type": "enemy",
+              "flag": "normal",
+              "className": "lancer",
+              "attribute": "sky",
+              "rarity": 2,
+              "atkMax": 13366,
+              "hpMax": 58721,
+              "face": "https://static.atlasacademy.io/JP/Enemys/99338001.png"
+            },
+            "lv": 42,
+            "atk": 5909,
+            "hp": 24991,
+            "deathRate": 800,
+            "criticalRate": 100,
+            "chargeTurn": 4,
+            "traits": [
+              {
+                "id": 5000
+              },
+              {
+                "id": 5010
+              },
+              {
+                "id": 101
+              },
+              {
+                "id": 200
+              },
+              {
+                "id": 1003
+              },
+              {
+                "id": 1108
+              }
+            ],
+            "skills": {
+              "skillId1": 960086,
+              "skill1": {
+                "id": 960086
+              },
+              "skillLv1": 1
+            },
+            "noblePhantasm": {
+              "noblePhantasmId": 293,
+              "noblePhantasm": {
+                "id": 293,
+                "num": 1,
+                "strengthStatus": 1,
+                "priority": 122
+              },
+              "noblePhantasmLv": 1
+            },
+            "serverMod": {
+              "tdRate": 1000,
+              "tdAttackRate": 1000,
+              "starRate": -50
+            },
+            "misc": {
+              "userCommandCodeIds": [
+                -1,
+                -1,
+                -1,
+                -1,
+                -1
+              ]
+            }
+          }
+        ]
       },
       {
         "wave": 2,
         "bgm": {
           "id": 591
-        }
+        },
+        "enemies": [
+          {
+            "deck": "enemy",
+            "deckId": 1,
+            "userSvtId": 3,
+            "uniqueId": 10,
+            "npcId": 3001402,
+            "roleType": "normal",
+            "name": "ホムンクルスＡ",
+            "svt": {
+              "id": 9933800,
+              "collectionNo": 0,
+              "name": "ホムンクルス",
+              "type": "enemy",
+              "flag": "normal",
+              "className": "lancer",
+              "attribute": "sky",
+              "rarity": 2,
+              "atkMax": 13366,
+              "hpMax": 58721,
+              "face": "https://static.atlasacademy.io/JP/Enemys/99338001.png"
+            },
+            "lv": 43,
+            "atk": 6036,
+            "hp": 30680,
+            "deathRate": 800,
+            "criticalRate": 100,
+            "chargeTurn": 4,
+            "traits": [
+              {
+                "id": 5000
+              },
+              {
+                "id": 5010
+              },
+              {
+                "id": 101
+              },
+              {
+                "id": 200
+              },
+              {
+                "id": 1003
+              },
+              {
+                "id": 1108
+              }
+            ],
+            "skills": {
+              "skillId1": 960086,
+              "skill1": {
+                "id": 960086
+              },
+              "skillLv1": 1
+            },
+            "noblePhantasm": {
+              "noblePhantasmId": 293,
+              "noblePhantasm": {
+                "id": 293,
+                "num": 1,
+                "strengthStatus": 1,
+                "priority": 122
+              },
+              "noblePhantasmLv": 1
+            },
+            "serverMod": {
+              "tdRate": 1000,
+              "tdAttackRate": 1000,
+              "starRate": -50
+            },
+            "misc": {
+              "userCommandCodeIds": [
+                -1,
+                -1,
+                -1,
+                -1,
+                -1
+              ]
+            }
+          },
+          {
+            "deck": "enemy",
+            "deckId": 2,
+            "userSvtId": 4,
+            "uniqueId": 11,
+            "npcId": 3001401,
+            "roleType": "normal",
+            "name": "プロトホムンクルス",
+            "svt": {
+              "id": 9933800,
+              "collectionNo": 0,
+              "name": "ホムンクルス",
+              "type": "enemy",
+              "flag": "normal",
+              "className": "lancer",
+              "attribute": "sky",
+              "rarity": 4,
+              "atkMax": 18894,
+              "hpMax": 275400,
+              "face": "https://static.atlasacademy.io/JP/Enemys/99338002.png"
+            },
+            "lv": 31,
+            "atk": 6506,
+            "hp": 40121,
+            "deathRate": 200,
+            "criticalRate": 100,
+            "chargeTurn": 4,
+            "traits": [
+              {
+                "id": 5000
+              },
+              {
+                "id": 5010
+              },
+              {
+                "id": 101
+              },
+              {
+                "id": 200
+              },
+              {
+                "id": 1003
+              },
+              {
+                "id": 1108
+              }
+            ],
+            "skills": {
+              "skillId1": 960087,
+              "skill1": {
+                "id": 960087
+              },
+              "skillLv1": 1
+            },
+            "noblePhantasm": {
+              "noblePhantasmId": 294,
+              "noblePhantasm": {
+                "id": 294,
+                "num": 1,
+                "strengthStatus": 1,
+                "priority": 123
+              },
+              "noblePhantasmLv": 1
+            },
+            "serverMod": {
+              "tdRate": 1000,
+              "tdAttackRate": 1000,
+              "starRate": -50
+            },
+            "misc": {
+              "userCommandCodeIds": [
+                -1,
+                -1,
+                -1,
+                -1,
+                -1
+              ]
+            }
+          },
+          {
+            "deck": "enemy",
+            "deckId": 3,
+            "userSvtId": 3,
+            "uniqueId": 12,
+            "npcId": 3001402,
+            "roleType": "normal",
+            "name": "ホムンクルスＢ",
+            "svt": {
+              "id": 9933800,
+              "collectionNo": 0,
+              "name": "ホムンクルス",
+              "type": "enemy",
+              "flag": "normal",
+              "className": "lancer",
+              "attribute": "sky",
+              "rarity": 2,
+              "atkMax": 13366,
+              "hpMax": 58721,
+              "face": "https://static.atlasacademy.io/JP/Enemys/99338001.png"
+            },
+            "lv": 43,
+            "atk": 6036,
+            "hp": 30680,
+            "deathRate": 800,
+            "criticalRate": 100,
+            "chargeTurn": 4,
+            "traits": [
+              {
+                "id": 5000
+              },
+              {
+                "id": 5010
+              },
+              {
+                "id": 101
+              },
+              {
+                "id": 200
+              },
+              {
+                "id": 1003
+              },
+              {
+                "id": 1108
+              }
+            ],
+            "skills": {
+              "skillId1": 960086,
+              "skill1": {
+                "id": 960086
+              },
+              "skillLv1": 1
+            },
+            "noblePhantasm": {
+              "noblePhantasmId": 293,
+              "noblePhantasm": {
+                "id": 293,
+                "num": 1,
+                "strengthStatus": 1,
+                "priority": 122
+              },
+              "noblePhantasmLv": 1
+            },
+            "serverMod": {
+              "tdRate": 1000,
+              "tdAttackRate": 1000,
+              "starRate": -50
+            },
+            "misc": {
+              "userCommandCodeIds": [
+                -1,
+                -1,
+                -1,
+                -1,
+                -1
+              ]
+            }
+          }
+        ]
       },
       {
         "wave": 3,
         "bgm": {
           "id": 561
-        }
+        },
+        "enemies": [
+          {
+            "deck": "enemy",
+            "deckId": 1,
+            "userSvtId": 5,
+            "uniqueId": 13,
+            "npcId": 3001401,
+            "roleType": "normal",
+            "name": "プロトホムンクルスＡ",
+            "svt": {
+              "id": 9933800,
+              "collectionNo": 0,
+              "name": "ホムンクルス",
+              "type": "enemy",
+              "flag": "normal",
+              "className": "lancer",
+              "attribute": "sky",
+              "rarity": 4,
+              "atkMax": 18894,
+              "hpMax": 275400,
+              "face": "https://static.atlasacademy.io/JP/Enemys/99338002.png"
+            },
+            "lv": 32,
+            "atk": 6684,
+            "hp": 44046,
+            "deathRate": 200,
+            "criticalRate": 100,
+            "chargeTurn": 4,
+            "traits": [
+              {
+                "id": 5000
+              },
+              {
+                "id": 5010
+              },
+              {
+                "id": 101
+              },
+              {
+                "id": 200
+              },
+              {
+                "id": 1003
+              },
+              {
+                "id": 1108
+              }
+            ],
+            "skills": {
+              "skillId1": 960087,
+              "skill1": {
+                "id": 960087
+              },
+              "skillLv1": 1
+            },
+            "noblePhantasm": {
+              "noblePhantasmId": 294,
+              "noblePhantasm": {
+                "id": 294,
+                "num": 1,
+                "strengthStatus": 1,
+                "priority": 123
+              },
+              "noblePhantasmLv": 1
+            },
+            "serverMod": {
+              "tdRate": 1000,
+              "tdAttackRate": 1000,
+              "starRate": -50
+            },
+            "misc": {
+              "userCommandCodeIds": [
+                -1,
+                -1,
+                -1,
+                -1,
+                -1
+              ]
+            }
+          },
+          {
+            "deck": "enemy",
+            "deckId": 2,
+            "userSvtId": 6,
+            "uniqueId": 14,
+            "npcId": 3001401,
+            "roleType": "normal",
+            "name": "プロトホムンクルスＢ",
+            "svt": {
+              "id": 9933800,
+              "collectionNo": 0,
+              "name": "ホムンクルス",
+              "type": "enemy",
+              "flag": "normal",
+              "className": "lancer",
+              "attribute": "sky",
+              "rarity": 4,
+              "atkMax": 18894,
+              "hpMax": 275400,
+              "face": "https://static.atlasacademy.io/JP/Enemys/99338002.png"
+            },
+            "lv": 33,
+            "atk": 6862,
+            "hp": 45409,
+            "deathRate": 200,
+            "criticalRate": 100,
+            "chargeTurn": 4,
+            "traits": [
+              {
+                "id": 5000
+              },
+              {
+                "id": 5010
+              },
+              {
+                "id": 101
+              },
+              {
+                "id": 200
+              },
+              {
+                "id": 1003
+              },
+              {
+                "id": 1108
+              }
+            ],
+            "skills": {
+              "skillId1": 960087,
+              "skill1": {
+                "id": 960087
+              },
+              "skillLv1": 1
+            },
+            "noblePhantasm": {
+              "noblePhantasmId": 294,
+              "noblePhantasm": {
+                "id": 294,
+                "num": 1,
+                "strengthStatus": 1,
+                "priority": 123
+              },
+              "noblePhantasmLv": 1
+            },
+            "serverMod": {
+              "tdRate": 1000,
+              "tdAttackRate": 1000,
+              "starRate": -50
+            },
+            "misc": {
+              "userCommandCodeIds": [
+                -1,
+                -1,
+                -1,
+                -1,
+                -1
+              ]
+            }
+          },
+          {
+            "deck": "enemy",
+            "deckId": 3,
+            "userSvtId": 7,
+            "uniqueId": 15,
+            "npcId": 3001400,
+            "roleType": "danger",
+            "name": "ヒュドラ",
+            "svt": {
+              "id": 9939320,
+              "collectionNo": 0,
+              "name": "ヒュドラ",
+              "type": "enemy",
+              "flag": "normal",
+              "className": "archer",
+              "attribute": "earth",
+              "rarity": 5,
+              "atkMax": 9825,
+              "hpMax": 530258,
+              "face": "https://static.atlasacademy.io/JP/Enemys/99393201.png"
+            },
+            "lv": 45,
+            "atk": 4781,
+            "hp": 155327,
+            "deathRate": 10,
+            "criticalRate": 200,
+            "chargeTurn": 3,
+            "traits": [
+              {
+                "id": 5000
+              },
+              {
+                "id": 5010
+              },
+              {
+                "id": 102
+              },
+              {
+                "id": 201
+              },
+              {
+                "id": 2005
+              },
+              {
+                "id": 2019
+              },
+              {
+                "id": 2076
+              }
+            ],
+            "skills": {
+              "skillId1": 960840,
+              "skill1": {
+                "id": 960840
+              },
+              "skillLv1": 1
+            },
+            "classPassive": {
+              "addPassive": [
+                {
+                  "id": 960493
+                }
+              ]
+            },
+            "noblePhantasm": {
+              "noblePhantasmId": 507,
+              "noblePhantasm": {
+                "id": 507,
+                "num": 1,
+                "priority": 476
+              },
+              "noblePhantasmLv": 1
+            },
+            "serverMod": {
+              "tdRate": 1000,
+              "tdAttackRate": 1000,
+              "starRate": 50
+            },
+            "misc": {
+              "npcSvtType": 3,
+              "userCommandCodeIds": [
+                -1,
+                -1,
+                -1,
+                -1,
+                -1
+              ]
+            }
+          }
+        ]
       }
     ]
   },
@@ -35559,6 +41264,10 @@
       2,
       3
     ],
+    "phasesWithEnemies": [
+      1,
+      3
+    ],
     "noticeAt": 1654086600,
     "openedAt": 1654086600,
     "closedAt": 1893423600,
@@ -35572,24 +41281,956 @@
     "exp": 26376,
     "bond": 855,
     "battleBgId": 79200,
+    "drops": [
+      {
+        "type": "servant",
+        "objectId": 9707400,
+        "num": 1,
+        "dropCount": 1,
+        "runs": 1
+      },
+      {
+        "type": "item",
+        "objectId": 1,
+        "num": 30000,
+        "dropCount": 2,
+        "runs": 1
+      },
+      {
+        "type": "item",
+        "objectId": 6552,
+        "num": 1,
+        "dropCount": 1,
+        "runs": 1
+      }
+    ],
     "stages": [
       {
         "wave": 1,
         "bgm": {
           "id": 591
-        }
+        },
+        "enemies": [
+          {
+            "deck": "enemy",
+            "deckId": 1,
+            "userSvtId": 1,
+            "uniqueId": 7,
+            "npcId": 3001404,
+            "roleType": "servant",
+            "name": "クラス・ライダーＡ",
+            "svt": {
+              "id": 9943780,
+              "collectionNo": 0,
+              "name": "クラス・ライダー",
+              "type": "enemy",
+              "flag": "normal",
+              "className": "rider",
+              "attribute": "human",
+              "rarity": 4,
+              "atkMax": 16166,
+              "hpMax": 288000,
+              "face": "https://static.atlasacademy.io/JP/Enemys/99437803.png",
+              "costume": {
+                "9943780": {
+                  "id": 1,
+                  "costumeCollectionNo": 0,
+                  "battleCharaId": 9943780,
+                  "shortName": ""
+                }
+              }
+            },
+            "lv": 35,
+            "atk": 6175,
+            "hp": 30202,
+            "deathRate": 200,
+            "criticalRate": 150,
+            "chargeTurn": 5,
+            "traits": [
+              {
+                "id": 5000
+              },
+              {
+                "id": 5010
+              },
+              {
+                "id": 1
+              },
+              {
+                "id": 103
+              },
+              {
+                "id": 202
+              },
+              {
+                "id": 2001
+              },
+              {
+                "id": 1000
+              },
+              {
+                "id": 2008
+              },
+              {
+                "id": 2009
+              },
+              {
+                "id": 2
+              }
+            ],
+            "skills": {
+              "skillId1": 967028,
+              "skill1": {
+                "id": 967028
+              },
+              "skillLv1": 1
+            },
+            "noblePhantasm": {
+              "noblePhantasmId": 787,
+              "noblePhantasm": {
+                "id": 787,
+                "num": 1,
+                "strengthStatus": 2,
+                "priority": 12
+              },
+              "noblePhantasmLv": 1
+            },
+            "serverMod": {
+              "tdRate": 1100,
+              "tdAttackRate": 1100,
+              "starRate": 100
+            },
+            "enemyScript": {
+              "billBoardGroup": 1
+            },
+            "misc": {
+              "userCommandCodeIds": [
+                -1,
+                -1,
+                -1,
+                -1,
+                -1
+              ]
+            }
+          },
+          {
+            "deck": "enemy",
+            "deckId": 2,
+            "userSvtId": 2,
+            "uniqueId": 8,
+            "npcId": 3001405,
+            "roleType": "servant",
+            "name": "クラス・バーサーカー",
+            "svt": {
+              "id": 9943810,
+              "collectionNo": 0,
+              "name": "クラス・バーサーカー",
+              "type": "enemy",
+              "flag": "normal",
+              "className": "berserker",
+              "attribute": "human",
+              "rarity": 4,
+              "atkMax": 16671,
+              "hpMax": 243000,
+              "face": "https://static.atlasacademy.io/JP/Enemys/99438103.png",
+              "costume": {
+                "9943810": {
+                  "id": 1,
+                  "costumeCollectionNo": 0,
+                  "battleCharaId": 9943810,
+                  "shortName": ""
+                }
+              }
+            },
+            "lv": 27,
+            "atk": 5098,
+            "hp": 26183,
+            "deathRate": 200,
+            "criticalRate": 100,
+            "chargeTurn": 5,
+            "traits": [
+              {
+                "id": 5000
+              },
+              {
+                "id": 5010
+              },
+              {
+                "id": 1
+              },
+              {
+                "id": 106
+              },
+              {
+                "id": 202
+              },
+              {
+                "id": 2001
+              },
+              {
+                "id": 1000
+              },
+              {
+                "id": 2008
+              },
+              {
+                "id": 2
+              }
+            ],
+            "skills": {
+              "skillId1": 967031,
+              "skill1": {
+                "id": 967031
+              },
+              "skillLv1": 1
+            },
+            "noblePhantasm": {
+              "noblePhantasmId": 796,
+              "noblePhantasm": {
+                "id": 796,
+                "num": 1,
+                "strengthStatus": 2,
+                "priority": 21
+              },
+              "noblePhantasmLv": 1
+            },
+            "serverMod": {
+              "tdRate": 800,
+              "tdAttackRate": 800,
+              "starRate": 0
+            },
+            "enemyScript": {
+              "billBoardGroup": 1
+            },
+            "misc": {
+              "userCommandCodeIds": [
+                -1,
+                -1,
+                -1,
+                -1,
+                -1
+              ]
+            }
+          },
+          {
+            "deck": "enemy",
+            "deckId": 3,
+            "userSvtId": 3,
+            "uniqueId": 9,
+            "npcId": 3001404,
+            "roleType": "servant",
+            "name": "クラス・ライダーＢ",
+            "svt": {
+              "id": 9943780,
+              "collectionNo": 0,
+              "name": "クラス・ライダー",
+              "type": "enemy",
+              "flag": "normal",
+              "className": "rider",
+              "attribute": "human",
+              "rarity": 4,
+              "atkMax": 16166,
+              "hpMax": 288000,
+              "face": "https://static.atlasacademy.io/JP/Enemys/99437803.png",
+              "costume": {
+                "9943780": {
+                  "id": 1,
+                  "costumeCollectionNo": 0,
+                  "battleCharaId": 9943780,
+                  "shortName": ""
+                }
+              }
+            },
+            "lv": 36,
+            "atk": 6327,
+            "hp": 31058,
+            "deathRate": 200,
+            "criticalRate": 150,
+            "chargeTurn": 5,
+            "traits": [
+              {
+                "id": 5000
+              },
+              {
+                "id": 5010
+              },
+              {
+                "id": 1
+              },
+              {
+                "id": 103
+              },
+              {
+                "id": 202
+              },
+              {
+                "id": 2001
+              },
+              {
+                "id": 1000
+              },
+              {
+                "id": 2008
+              },
+              {
+                "id": 2009
+              },
+              {
+                "id": 2
+              }
+            ],
+            "skills": {
+              "skillId1": 967028,
+              "skill1": {
+                "id": 967028
+              },
+              "skillLv1": 1
+            },
+            "noblePhantasm": {
+              "noblePhantasmId": 787,
+              "noblePhantasm": {
+                "id": 787,
+                "num": 1,
+                "strengthStatus": 2,
+                "priority": 12
+              },
+              "noblePhantasmLv": 1
+            },
+            "serverMod": {
+              "tdRate": 1100,
+              "tdAttackRate": 1100,
+              "starRate": 100
+            },
+            "enemyScript": {
+              "billBoardGroup": 1
+            },
+            "misc": {
+              "userCommandCodeIds": [
+                -1,
+                -1,
+                -1,
+                -1,
+                -1
+              ]
+            }
+          }
+        ]
       },
       {
         "wave": 2,
         "bgm": {
           "id": 591
-        }
+        },
+        "enemies": [
+          {
+            "deck": "enemy",
+            "deckId": 1,
+            "userSvtId": 4,
+            "uniqueId": 10,
+            "npcId": 3001405,
+            "roleType": "servant",
+            "name": "クラス・バーサーカーＡ",
+            "svt": {
+              "id": 9943810,
+              "collectionNo": 0,
+              "name": "クラス・バーサーカー",
+              "type": "enemy",
+              "flag": "normal",
+              "className": "berserker",
+              "attribute": "human",
+              "rarity": 4,
+              "atkMax": 16671,
+              "hpMax": 243000,
+              "face": "https://static.atlasacademy.io/JP/Enemys/99438103.png",
+              "costume": {
+                "9943810": {
+                  "id": 1,
+                  "costumeCollectionNo": 0,
+                  "battleCharaId": 9943810,
+                  "shortName": ""
+                }
+              }
+            },
+            "lv": 28,
+            "atk": 5255,
+            "hp": 34611,
+            "deathRate": 200,
+            "criticalRate": 100,
+            "chargeTurn": 5,
+            "traits": [
+              {
+                "id": 5000
+              },
+              {
+                "id": 5010
+              },
+              {
+                "id": 1
+              },
+              {
+                "id": 106
+              },
+              {
+                "id": 202
+              },
+              {
+                "id": 2001
+              },
+              {
+                "id": 1000
+              },
+              {
+                "id": 2008
+              },
+              {
+                "id": 2
+              }
+            ],
+            "skills": {
+              "skillId1": 967031,
+              "skill1": {
+                "id": 967031
+              },
+              "skillLv1": 1
+            },
+            "noblePhantasm": {
+              "noblePhantasmId": 796,
+              "noblePhantasm": {
+                "id": 796,
+                "num": 1,
+                "strengthStatus": 2,
+                "priority": 21
+              },
+              "noblePhantasmLv": 1
+            },
+            "serverMod": {
+              "tdRate": 800,
+              "tdAttackRate": 800,
+              "starRate": 0
+            },
+            "enemyScript": {
+              "billBoardGroup": 1
+            },
+            "misc": {
+              "userCommandCodeIds": [
+                -1,
+                -1,
+                -1,
+                -1,
+                -1
+              ]
+            }
+          },
+          {
+            "deck": "enemy",
+            "deckId": 2,
+            "userSvtId": 5,
+            "uniqueId": 11,
+            "npcId": 3001404,
+            "roleType": "servant",
+            "name": "クラス・ライダー",
+            "svt": {
+              "id": 9943780,
+              "collectionNo": 0,
+              "name": "クラス・ライダー",
+              "type": "enemy",
+              "flag": "normal",
+              "className": "rider",
+              "attribute": "human",
+              "rarity": 4,
+              "atkMax": 16166,
+              "hpMax": 288000,
+              "face": "https://static.atlasacademy.io/JP/Enemys/99437803.png",
+              "costume": {
+                "9943780": {
+                  "id": 1,
+                  "costumeCollectionNo": 0,
+                  "battleCharaId": 9943780,
+                  "shortName": ""
+                }
+              }
+            },
+            "lv": 52,
+            "atk": 8791,
+            "hp": 61383,
+            "deathRate": 200,
+            "criticalRate": 150,
+            "chargeTurn": 5,
+            "traits": [
+              {
+                "id": 5000
+              },
+              {
+                "id": 5010
+              },
+              {
+                "id": 1
+              },
+              {
+                "id": 103
+              },
+              {
+                "id": 202
+              },
+              {
+                "id": 2001
+              },
+              {
+                "id": 1000
+              },
+              {
+                "id": 2008
+              },
+              {
+                "id": 2009
+              },
+              {
+                "id": 2
+              }
+            ],
+            "skills": {
+              "skillId1": 967028,
+              "skill1": {
+                "id": 967028
+              },
+              "skillLv1": 1
+            },
+            "noblePhantasm": {
+              "noblePhantasmId": 787,
+              "noblePhantasm": {
+                "id": 787,
+                "num": 1,
+                "strengthStatus": 2,
+                "priority": 12
+              },
+              "noblePhantasmLv": 1
+            },
+            "serverMod": {
+              "tdRate": 1100,
+              "tdAttackRate": 1100,
+              "starRate": 100
+            },
+            "enemyScript": {
+              "billBoardGroup": 1
+            },
+            "misc": {
+              "userCommandCodeIds": [
+                -1,
+                -1,
+                -1,
+                -1,
+                -1
+              ]
+            }
+          },
+          {
+            "deck": "enemy",
+            "deckId": 3,
+            "userSvtId": 6,
+            "uniqueId": 12,
+            "npcId": 3001405,
+            "roleType": "servant",
+            "name": "クラス・バーサーカーＢ",
+            "svt": {
+              "id": 9943810,
+              "collectionNo": 0,
+              "name": "クラス・バーサーカー",
+              "type": "enemy",
+              "flag": "normal",
+              "className": "berserker",
+              "attribute": "human",
+              "rarity": 4,
+              "atkMax": 16671,
+              "hpMax": 243000,
+              "face": "https://static.atlasacademy.io/JP/Enemys/99438103.png",
+              "costume": {
+                "9943810": {
+                  "id": 1,
+                  "costumeCollectionNo": 0,
+                  "battleCharaId": 9943810,
+                  "shortName": ""
+                }
+              }
+            },
+            "lv": 29,
+            "atk": 5412,
+            "hp": 35837,
+            "deathRate": 200,
+            "criticalRate": 100,
+            "chargeTurn": 5,
+            "traits": [
+              {
+                "id": 5000
+              },
+              {
+                "id": 5010
+              },
+              {
+                "id": 1
+              },
+              {
+                "id": 106
+              },
+              {
+                "id": 202
+              },
+              {
+                "id": 2001
+              },
+              {
+                "id": 1000
+              },
+              {
+                "id": 2008
+              },
+              {
+                "id": 2
+              }
+            ],
+            "skills": {
+              "skillId1": 967031,
+              "skill1": {
+                "id": 967031
+              },
+              "skillLv1": 1
+            },
+            "noblePhantasm": {
+              "noblePhantasmId": 796,
+              "noblePhantasm": {
+                "id": 796,
+                "num": 1,
+                "strengthStatus": 2,
+                "priority": 21
+              },
+              "noblePhantasmLv": 1
+            },
+            "serverMod": {
+              "tdRate": 800,
+              "tdAttackRate": 800,
+              "starRate": 0
+            },
+            "enemyScript": {
+              "billBoardGroup": 1
+            },
+            "misc": {
+              "userCommandCodeIds": [
+                -1,
+                -1,
+                -1,
+                -1,
+                -1
+              ]
+            }
+          }
+        ]
       },
       {
         "wave": 3,
         "bgm": {
           "id": 561
-        }
+        },
+        "enemies": [
+          {
+            "deck": "enemy",
+            "deckId": 1,
+            "userSvtId": 7,
+            "uniqueId": 13,
+            "npcId": 3001404,
+            "roleType": "servant",
+            "name": "クラス・ライダー",
+            "svt": {
+              "id": 9943780,
+              "collectionNo": 0,
+              "name": "クラス・ライダー",
+              "type": "enemy",
+              "flag": "normal",
+              "className": "rider",
+              "attribute": "human",
+              "rarity": 4,
+              "atkMax": 16166,
+              "hpMax": 288000,
+              "face": "https://static.atlasacademy.io/JP/Enemys/99437803.png",
+              "costume": {
+                "9943780": {
+                  "id": 1,
+                  "costumeCollectionNo": 0,
+                  "battleCharaId": 9943780,
+                  "shortName": ""
+                }
+              }
+            },
+            "lv": 39,
+            "atk": 6783,
+            "hp": 44832,
+            "deathRate": 200,
+            "criticalRate": 150,
+            "chargeTurn": 5,
+            "traits": [
+              {
+                "id": 5000
+              },
+              {
+                "id": 5010
+              },
+              {
+                "id": 1
+              },
+              {
+                "id": 103
+              },
+              {
+                "id": 202
+              },
+              {
+                "id": 2001
+              },
+              {
+                "id": 1000
+              },
+              {
+                "id": 2008
+              },
+              {
+                "id": 2009
+              },
+              {
+                "id": 2
+              }
+            ],
+            "skills": {
+              "skillId1": 967028,
+              "skill1": {
+                "id": 967028
+              },
+              "skillLv1": 1
+            },
+            "noblePhantasm": {
+              "noblePhantasmId": 787,
+              "noblePhantasm": {
+                "id": 787,
+                "num": 1,
+                "strengthStatus": 2,
+                "priority": 12
+              },
+              "noblePhantasmLv": 1
+            },
+            "serverMod": {
+              "tdRate": 1100,
+              "tdAttackRate": 1100,
+              "starRate": 100
+            },
+            "enemyScript": {
+              "billBoardGroup": 1
+            },
+            "misc": {
+              "userCommandCodeIds": [
+                -1,
+                -1,
+                -1,
+                -1,
+                -1
+              ]
+            }
+          },
+          {
+            "deck": "enemy",
+            "deckId": 2,
+            "userSvtId": 8,
+            "uniqueId": 14,
+            "npcId": 3001405,
+            "roleType": "servant",
+            "name": "クラス・バーサーカー",
+            "svt": {
+              "id": 9943810,
+              "collectionNo": 0,
+              "name": "クラス・バーサーカー",
+              "type": "enemy",
+              "flag": "normal",
+              "className": "berserker",
+              "attribute": "human",
+              "rarity": 4,
+              "atkMax": 16671,
+              "hpMax": 243000,
+              "face": "https://static.atlasacademy.io/JP/Enemys/99438103.png",
+              "costume": {
+                "9943810": {
+                  "id": 1,
+                  "costumeCollectionNo": 0,
+                  "battleCharaId": 9943810,
+                  "shortName": ""
+                }
+              }
+            },
+            "lv": 30,
+            "atk": 5568,
+            "hp": 40698,
+            "deathRate": 200,
+            "criticalRate": 100,
+            "chargeTurn": 5,
+            "traits": [
+              {
+                "id": 5000
+              },
+              {
+                "id": 5010
+              },
+              {
+                "id": 1
+              },
+              {
+                "id": 106
+              },
+              {
+                "id": 202
+              },
+              {
+                "id": 2001
+              },
+              {
+                "id": 1000
+              },
+              {
+                "id": 2008
+              },
+              {
+                "id": 2
+              }
+            ],
+            "skills": {
+              "skillId1": 967031,
+              "skill1": {
+                "id": 967031
+              },
+              "skillLv1": 1
+            },
+            "noblePhantasm": {
+              "noblePhantasmId": 796,
+              "noblePhantasm": {
+                "id": 796,
+                "num": 1,
+                "strengthStatus": 2,
+                "priority": 21
+              },
+              "noblePhantasmLv": 1
+            },
+            "serverMod": {
+              "tdRate": 800,
+              "tdAttackRate": 800,
+              "starRate": 0
+            },
+            "enemyScript": {
+              "billBoardGroup": 1
+            },
+            "misc": {
+              "userCommandCodeIds": [
+                -1,
+                -1,
+                -1,
+                -1,
+                -1
+              ]
+            }
+          },
+          {
+            "deck": "enemy",
+            "deckId": 3,
+            "userSvtId": 9,
+            "uniqueId": 15,
+            "npcId": 3001403,
+            "roleType": "servant",
+            "name": "クラス・ランサー",
+            "svt": {
+              "id": 9943770,
+              "collectionNo": 0,
+              "name": "クラス・ランサー",
+              "type": "enemy",
+              "flag": "normal",
+              "className": "lancer",
+              "attribute": "human",
+              "rarity": 4,
+              "atkMax": 18035,
+              "hpMax": 290700,
+              "face": "https://static.atlasacademy.io/JP/Enemys/99437703.png",
+              "costume": {
+                "9943770": {
+                  "id": 1,
+                  "costumeCollectionNo": 0,
+                  "battleCharaId": 9943770,
+                  "shortName": ""
+                }
+              }
+            },
+            "lv": 50,
+            "atk": 9451,
+            "hp": 121863,
+            "deathRate": 200,
+            "criticalRate": 100,
+            "chargeTurn": 4,
+            "traits": [
+              {
+                "id": 5000
+              },
+              {
+                "id": 5010
+              },
+              {
+                "id": 1
+              },
+              {
+                "id": 101
+              },
+              {
+                "id": 202
+              },
+              {
+                "id": 2001
+              },
+              {
+                "id": 1000
+              },
+              {
+                "id": 2008
+              },
+              {
+                "id": 2
+              }
+            ],
+            "skills": {
+              "skillId1": 967027,
+              "skill1": {
+                "id": 967027
+              },
+              "skillLv1": 1
+            },
+            "noblePhantasm": {
+              "noblePhantasmId": 784,
+              "noblePhantasm": {
+                "id": 784,
+                "num": 1,
+                "strengthStatus": 2,
+                "priority": 9
+              },
+              "noblePhantasmLv": 1
+            },
+            "serverMod": {
+              "tdRate": 1000,
+              "tdAttackRate": 1000,
+              "starRate": -50
+            },
+            "enemyScript": {
+              "billBoardGroup": 1
+            },
+            "misc": {
+              "userCommandCodeIds": [
+                -1,
+                -1,
+                -1,
+                -1,
+                -1
+              ]
+            }
+          }
+        ]
       }
     ]
   },
