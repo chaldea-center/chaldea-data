@@ -59657,6 +59657,364 @@
     ]
   },
   {
+    "id": 9134,
+    "coordinates": [
+      [],
+      []
+    ],
+    "age": "-",
+    "name": "カルデアゲート",
+    "longName": "カルデアゲート",
+    "originalLongName": "カルデアゲート",
+    "flags": [
+      "isEvent",
+      "noClearMarkWithComplete"
+    ],
+    "banner": "https://static.atlasacademy.io/JP/Banner/event_war_80367.png",
+    "priority": 9134,
+    "bgm": {
+      "id": 0
+    },
+    "scriptId": "NONE",
+    "script": "https://static.atlasacademy.io/JP/Script/Common/NONE.txt",
+    "startType": "none",
+    "targetId": 0,
+    "eventId": 80373,
+    "eventName": "聖杯戦線 ～ムーンサルト・オペレーション～",
+    "lastQuestId": 0,
+    "maps": [
+      {
+        "id": 9134,
+        "mapImage": "https://static.atlasacademy.io/JP/Terminal/MapImgs/img_questmap_009134/img_questmap_009134.png",
+        "mapImageW": 2048,
+        "mapImageH": 1440,
+        "bgm": {
+          "id": 0
+        }
+      }
+    ],
+    "spots": [
+      {
+        "id": 913401,
+        "mapId": 9134,
+        "name": "カルデアゲート",
+        "x": 0,
+        "y": 0,
+        "quests": [
+          {
+            "id": 94071401,
+            "name": "SE.RA.PH戦線Ⅰ 宮殿へのいざない",
+            "type": "warBoard",
+            "flags": [
+              "dropFirstTimeOnly",
+              "notRetrievable",
+              "battleResultLoseQuestClear"
+            ],
+            "consume": 5,
+            "afterClear": "repeatLast",
+            "recommendLv": "60",
+            "spotId": 913401,
+            "spotName": "カルデアゲート",
+            "warId": 9134,
+            "warLongName": "カルデアゲート",
+            "gifts": [
+              {
+                "objectId": 1,
+                "num": 3000000
+              },
+              {
+                "objectId": 4001,
+                "num": 1
+              },
+              {
+                "objectId": 6507,
+                "num": 5
+              },
+              {
+                "objectId": 7998,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94071421
+              },
+              {
+                "type": "date",
+                "targetId": 0,
+                "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "noticeAt": 1655283600,
+            "openedAt": 1655283600,
+            "closedAt": 1656475199
+          },
+          {
+            "id": 94071402,
+            "name": "",
+            "type": "warBoard",
+            "flags": [
+              "dropFirstTimeOnly",
+              "notRetrievable",
+              "battleResultLoseQuestClear"
+            ],
+            "consume": 5,
+            "afterClear": "repeatLast",
+            "recommendLv": "70",
+            "spotId": 913401,
+            "spotName": "カルデアゲート",
+            "warId": 9134,
+            "warLongName": "カルデアゲート",
+            "gifts": [
+              {
+                "objectId": 1,
+                "num": 3000000
+              },
+              {
+                "objectId": 4001,
+                "num": 1
+              },
+              {
+                "objectId": 6546,
+                "num": 5
+              },
+              {
+                "objectId": 7998,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94071401,
+                "closedMessage": "SE.RA.PH戦線Ⅰクリアで開放"
+              },
+              {
+                "type": "questClear",
+                "targetId": 94071421
+              },
+              {
+                "type": "date",
+                "targetId": 0,
+                "closedMessage": "SE.RA.PH戦線Ⅰクリアかつ6月16日18時00分以降に開放"
+              },
+              {
+                "type": "forceFalse",
+                "targetId": 0,
+                "closedMessage": "データ更新後に開放"
+              }
+            ],
+            "phases": [],
+            "noticeAt": 1655283600,
+            "openedAt": 1655370000,
+            "closedAt": 1656475199
+          },
+          {
+            "id": 94071420,
+            "name": "ＢＢちゃんの反省",
+            "type": "main",
+            "flags": [
+              "noBattle"
+            ],
+            "consume": 0,
+            "afterClear": "close",
+            "recommendLv": "1",
+            "spotId": 913401,
+            "spotName": "カルデアゲート",
+            "warId": 9134,
+            "warLongName": "カルデアゲート",
+            "gifts": [
+              {
+                "objectId": 2,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 1000822,
+                "closedMessage": "終局特異点クリアで開放可能"
+              },
+              {
+                "type": "date",
+                "targetId": 0,
+                "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "phasesNoBattle": [
+              1
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9407142010",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407142010.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1655283600,
+            "openedAt": 1655283600,
+            "closedAt": 1656475199
+          },
+          {
+            "id": 94071421,
+            "name": "毎日電脳楽土　JI.NA.KO",
+            "type": "main",
+            "flags": [
+              "noBattle"
+            ],
+            "consume": 0,
+            "afterClear": "close",
+            "recommendLv": "1",
+            "spotId": 913401,
+            "spotName": "カルデアゲート",
+            "warId": 9134,
+            "warLongName": "カルデアゲート",
+            "gifts": [
+              {
+                "objectId": 2,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94071420
+              },
+              {
+                "type": "date",
+                "targetId": 0,
+                "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "phasesNoBattle": [
+              1
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9407142110",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407142110.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1655283600,
+            "openedAt": 1655283600,
+            "closedAt": 1656475199
+          },
+          {
+            "id": 94071422,
+            "name": "",
+            "type": "main",
+            "flags": [
+              "noBattle"
+            ],
+            "consume": 0,
+            "afterClear": "close",
+            "recommendLv": "1",
+            "spotId": 913401,
+            "spotName": "カルデアゲート",
+            "warId": 9134,
+            "warLongName": "カルデアゲート",
+            "gifts": [
+              {
+                "objectId": 2,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94071403,
+                "closedMessage": "SE.RA.PH戦線Ⅲクリアで開放"
+              },
+              {
+                "type": "questClear",
+                "targetId": 94071421
+              },
+              {
+                "type": "date",
+                "targetId": 0,
+                "closedMessage": "SE.RA.PH戦線Ⅲクリアかつ6月18日18時00分以降に開放"
+              },
+              {
+                "type": "forceFalse",
+                "targetId": 0,
+                "closedMessage": "データ更新後に開放"
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "phasesNoBattle": [
+              1
+            ],
+            "noticeAt": 1655283600,
+            "openedAt": 1655542800,
+            "closedAt": 1656475199
+          },
+          {
+            "id": 94071440,
+            "name": "カルデア戦線 基礎トレーニング",
+            "type": "warBoard",
+            "flags": [
+              "dropFirstTimeOnly",
+              "notRetrievable",
+              "battleResultLoseQuestClear"
+            ],
+            "consume": 5,
+            "afterClear": "repeatLast",
+            "recommendLv": "60",
+            "spotId": 913401,
+            "spotName": "カルデアゲート",
+            "warId": 9134,
+            "warLongName": "カルデアゲート",
+            "gifts": [
+              {
+                "objectId": 2,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94071421
+              },
+              {
+                "type": "date",
+                "targetId": 0,
+                "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "noticeAt": 1655283600,
+            "openedAt": 1655283600,
+            "closedAt": 1656475199
+          }
+        ]
+      }
+    ],
+    "spotRoads": []
+  },
+  {
     "id": 9135,
     "coordinates": [
       [
@@ -59676,7 +60034,8 @@
       "withMap",
       "isEvent",
       "noClearMarkWithClear",
-      "shop"
+      "shop",
+      "dispFirstQuest"
     ],
     "banner": "https://static.atlasacademy.io/JP/Banner/event_war_106.png",
     "priority": 311,
@@ -59686,8 +60045,8 @@
     },
     "scriptId": "NONE",
     "script": "https://static.atlasacademy.io/JP/Script/Common/NONE.txt",
-    "startType": "none",
-    "targetId": 0,
+    "startType": "quest",
+    "targetId": 94071002,
     "eventId": 80372,
     "eventName": "メイン・インタールード\n非霊長生存圏 ツングースカ・サンクチュアリ",
     "lastQuestId": 94071014,
