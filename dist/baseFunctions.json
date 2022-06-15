@@ -17450,39 +17450,6 @@
     ]
   },
   {
-    "funcId": 2010,
-    "funcType": "addState",
-    "funcTargetType": "enemy",
-    "funcTargetTeam": "playerAndEnemy",
-    "funcPopupText": "豚化",
-    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_548.png",
-    "buffs": [
-      {
-        "id": 854,
-        "name": "豚化",
-        "detail": "姿が豚になり行動不能になる",
-        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_548.png",
-        "type": "donotAct",
-        "buffGroup": 502,
-        "vals": [
-          {
-            "id": 3005
-          },
-          {
-            "id": 3014
-          },
-          {
-            "id": 3047
-          },
-          {
-            "id": 3045
-          }
-        ],
-        "maxRate": 0
-      }
-    ]
-  },
-  {
     "funcId": 2012,
     "funcType": "addState",
     "funcTargetType": "self",
@@ -42941,6 +42908,140 @@
           }
         ],
         "maxRate": 10000
+      }
+    ]
+  },
+  {
+    "funcId": 8798,
+    "funcType": "addState",
+    "funcTargetType": "enemy",
+    "funcTargetTeam": "playerAndEnemy",
+    "funcPopupText": "豚化",
+    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_548.png",
+    "buffs": [
+      {
+        "id": 4371,
+        "name": "豚化",
+        "detail": "姿が豚になり行動不能になる",
+        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_548.png",
+        "type": "donotAct",
+        "buffGroup": 502,
+        "vals": [
+          {
+            "id": 3005
+          },
+          {
+            "id": 3014
+          },
+          {
+            "id": 3047
+          },
+          {
+            "id": 3045
+          },
+          {
+            "id": 3077
+          }
+        ],
+        "maxRate": 0
+      }
+    ]
+  },
+  {
+    "funcId": 8799,
+    "funcType": "addState",
+    "funcTargetType": "self",
+    "funcTargetTeam": "playerAndEnemy",
+    "funcPopupText": "豚状態無効",
+    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_322.png",
+    "buffs": [
+      {
+        "id": 4372,
+        "name": "豚化無効",
+        "detail": "豚化を受けなくなる",
+        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_322.png",
+        "type": "avoidState",
+        "tvals": [
+          {
+            "id": 3077
+          }
+        ],
+        "ckOpIndv": [
+          {
+            "id": 3077
+          }
+        ],
+        "maxRate": 0
+      }
+    ]
+  },
+  {
+    "funcId": 8800,
+    "funcType": "addStateShort",
+    "funcTargetType": "self",
+    "funcTargetTeam": "player",
+    "funcPopupText": "Extra Attack時追加効果",
+    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_333.png",
+    "buffs": [
+      {
+        "id": 4373,
+        "name": "Extra Attack時追加効果",
+        "detail": "Extra Attack時に味方全体のNPを少し増やす",
+        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_333.png",
+        "type": "commandattackFunction",
+        "vals": [
+          {
+            "id": 3004
+          }
+        ],
+        "tvals": [
+          {
+            "id": 5000
+          },
+          {
+            "id": 4004
+          }
+        ],
+        "ckSelfIndv": [
+          {
+            "id": 4004
+          }
+        ],
+        "maxRate": 0
+      }
+    ]
+  },
+  {
+    "funcId": 8808,
+    "funcType": "addStateShort",
+    "funcTargetType": "self",
+    "funcTargetTeam": "playerAndEnemy",
+    "funcPopupText": "宝具威力アップ〔増殖〕",
+    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_310.png",
+    "buffs": [
+      {
+        "id": 4376,
+        "name": "宝具威力アップ〔増殖〕",
+        "detail": "自身の〔増殖〕が多いほど宝具で与えるダメージをアップ",
+        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_310.png",
+        "type": "upNpdamage",
+        "script": {
+          "INDIVIDUALITIE": {
+            "id": 2386
+          }
+        },
+        "vals": [
+          {
+            "id": 3004
+          },
+          {
+            "id": 3006
+          },
+          {
+            "id": 3030
+          }
+        ],
+        "maxRate": 5000
       }
     ]
   },
