@@ -59758,7 +59758,7 @@
           },
           {
             "id": 94071402,
-            "name": "",
+            "name": "SE.RA.PH戦線Ⅱ ぼっちでは勝てぬ",
             "type": "warBoard",
             "flags": [
               "dropFirstTimeOnly",
@@ -59792,6 +59792,10 @@
             ],
             "releaseConditions": [
               {
+                "type": "none",
+                "targetId": 0
+              },
+              {
                 "type": "questClear",
                 "targetId": 94071401,
                 "closedMessage": "SE.RA.PH戦線Ⅰクリアで開放"
@@ -59804,6 +59808,63 @@
                 "type": "date",
                 "targetId": 0,
                 "closedMessage": "SE.RA.PH戦線Ⅰクリアかつ6月16日18時00分以降に開放"
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "noticeAt": 1655283600,
+            "openedAt": 1655370000,
+            "closedAt": 1656475199
+          },
+          {
+            "id": 94071403,
+            "name": "",
+            "type": "warBoard",
+            "flags": [
+              "dropFirstTimeOnly",
+              "notRetrievable",
+              "battleResultLoseQuestClear"
+            ],
+            "consume": 5,
+            "afterClear": "repeatLast",
+            "recommendLv": "80",
+            "spotId": 913401,
+            "spotName": "カルデアゲート",
+            "warId": 9134,
+            "warLongName": "カルデアゲート",
+            "gifts": [
+              {
+                "objectId": 1,
+                "num": 3000000
+              },
+              {
+                "objectId": 4001,
+                "num": 1
+              },
+              {
+                "objectId": 6540,
+                "num": 5
+              },
+              {
+                "objectId": 7998,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94071402,
+                "closedMessage": "SE.RA.PH戦線Ⅱクリアで開放"
+              },
+              {
+                "type": "questClear",
+                "targetId": 94071421
+              },
+              {
+                "type": "date",
+                "targetId": 0,
+                "closedMessage": "SE.RA.PH戦線Ⅱクリアかつ6月17日18時00分以降に開放"
               },
               {
                 "type": "forceFalse",
@@ -59812,8 +59873,8 @@
               }
             ],
             "phases": [],
-            "noticeAt": 1655283600,
-            "openedAt": 1655370000,
+            "noticeAt": 1655370000,
+            "openedAt": 1655456400,
             "closedAt": 1656475199
           },
           {
