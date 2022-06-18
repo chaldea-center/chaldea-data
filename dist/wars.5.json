@@ -59682,6 +59682,20 @@
     "eventId": 80373,
     "eventName": "聖杯戦線 ～ムーンサルト・オペレーション～",
     "lastQuestId": 0,
+    "warAdds": [
+      {
+        "warId": 9134,
+        "type": "banner",
+        "priority": 80370,
+        "overwriteId": 80370,
+        "overwriteBanner": "https://static.atlasacademy.io/JP/Banner/questboard_cap80370.png",
+        "condType": "questClear",
+        "targetId": 94071422,
+        "value": 0,
+        "startedAt": 1655542800,
+        "endedAt": 1656475199
+      }
+    ],
     "maps": [
       {
         "id": 9134,
@@ -59877,8 +59891,245 @@
             "phases": [
               1
             ],
-            "noticeAt": 1655370000,
+            "phasesWithEnemies": [
+              1
+            ],
+            "noticeAt": 1655283600,
             "openedAt": 1655456400,
+            "closedAt": 1656475199
+          },
+          {
+            "id": 94071404,
+            "name": "サクラ戦線Ⅰ 足元崩壊ランデブー",
+            "type": "warBoard",
+            "flags": [
+              "dropFirstTimeOnly",
+              "notRetrievable",
+              "battleResultLoseQuestClear"
+            ],
+            "consume": 5,
+            "afterClear": "repeatLast",
+            "recommendLv": "90",
+            "spotId": 913401,
+            "spotName": "カルデアゲート",
+            "warId": 9134,
+            "warLongName": "カルデアゲート",
+            "gifts": [
+              {
+                "objectId": 1,
+                "num": 3000000
+              },
+              {
+                "objectId": 4001,
+                "num": 1
+              },
+              {
+                "objectId": 6548,
+                "num": 5
+              },
+              {
+                "objectId": 7998,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94071422
+              },
+              {
+                "type": "date",
+                "targetId": 0
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "phasesWithEnemies": [
+              1
+            ],
+            "noticeAt": 1655542800,
+            "openedAt": 1655542800,
+            "closedAt": 1656475199
+          },
+          {
+            "id": 94071405,
+            "name": "",
+            "type": "warBoard",
+            "flags": [
+              "dropFirstTimeOnly",
+              "notRetrievable",
+              "battleResultLoseQuestClear"
+            ],
+            "consume": 5,
+            "afterClear": "repeatLast",
+            "recommendLv": "90",
+            "spotId": 913401,
+            "spotName": "カルデアゲート",
+            "warId": 9134,
+            "warLongName": "カルデアゲート",
+            "gifts": [
+              {
+                "objectId": 1,
+                "num": 3000000
+              },
+              {
+                "objectId": 4001,
+                "num": 1
+              },
+              {
+                "objectId": 6551,
+                "num": 5
+              },
+              {
+                "objectId": 7998,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94071404,
+                "closedMessage": "サクラ戦線Ⅰクリアで開放"
+              },
+              {
+                "type": "questClear",
+                "targetId": 94071422
+              },
+              {
+                "type": "date",
+                "targetId": 0,
+                "closedMessage": "サクラ戦線Ⅰクリアかつ6月19日18時00分以降に開放"
+              },
+              {
+                "type": "forceFalse",
+                "targetId": 0,
+                "closedMessage": "データ更新後に開放"
+              }
+            ],
+            "phases": [],
+            "noticeAt": 1655542800,
+            "openedAt": 1655629200,
+            "closedAt": 1656475199
+          },
+          {
+            "id": 94071406,
+            "name": "",
+            "type": "warBoard",
+            "flags": [
+              "dropFirstTimeOnly",
+              "notRetrievable",
+              "battleResultLoseQuestClear"
+            ],
+            "consume": 5,
+            "afterClear": "repeatLast",
+            "recommendLv": "90",
+            "spotId": 913401,
+            "spotName": "カルデアゲート",
+            "warId": 9134,
+            "warLongName": "カルデアゲート",
+            "gifts": [
+              {
+                "objectId": 1,
+                "num": 3000000
+              },
+              {
+                "objectId": 4001,
+                "num": 1
+              },
+              {
+                "objectId": 6544,
+                "num": 5
+              },
+              {
+                "objectId": 7998,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94071405,
+                "closedMessage": "サクラ戦線Ⅱクリアで開放"
+              },
+              {
+                "type": "questClear",
+                "targetId": 94071422
+              },
+              {
+                "type": "date",
+                "targetId": 0,
+                "closedMessage": "サクラ戦線Ⅱクリアかつ6月20日18時00分以降に開放"
+              },
+              {
+                "type": "forceFalse",
+                "targetId": 0,
+                "closedMessage": "データ更新後に開放"
+              }
+            ],
+            "phases": [],
+            "noticeAt": 1655542800,
+            "openedAt": 1655715600,
+            "closedAt": 1656475199
+          },
+          {
+            "id": 94071407,
+            "name": "",
+            "type": "warBoard",
+            "flags": [
+              "dropFirstTimeOnly",
+              "notRetrievable",
+              "battleResultLoseQuestClear"
+            ],
+            "consume": 5,
+            "afterClear": "repeatLast",
+            "recommendLv": "90",
+            "spotId": 913401,
+            "spotName": "カルデアゲート",
+            "warId": 9134,
+            "warLongName": "カルデアゲート",
+            "gifts": [
+              {
+                "objectId": 1,
+                "num": 3000000
+              },
+              {
+                "objectId": 4001,
+                "num": 1
+              },
+              {
+                "objectId": 6552,
+                "num": 5
+              },
+              {
+                "objectId": 7998,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94071406,
+                "closedMessage": "サクラ戦線Ⅲクリアで開放"
+              },
+              {
+                "type": "questClear",
+                "targetId": 94071422
+              },
+              {
+                "type": "date",
+                "targetId": 0,
+                "closedMessage": "サクラ戦線Ⅲクリアかつ6月21日18時00分以降に開放"
+              },
+              {
+                "type": "forceFalse",
+                "targetId": 0,
+                "closedMessage": "データ更新後に開放"
+              }
+            ],
+            "phases": [],
+            "noticeAt": 1655542800,
+            "openedAt": 1655802000,
             "closedAt": 1656475199
           },
           {
@@ -59988,6 +60239,67 @@
           },
           {
             "id": 94071422,
+            "name": "滑落のムーンサルト",
+            "type": "main",
+            "flags": [
+              "noBattle"
+            ],
+            "consume": 0,
+            "afterClear": "close",
+            "recommendLv": "1",
+            "spotId": 913401,
+            "spotName": "カルデアゲート",
+            "warId": 9134,
+            "warLongName": "カルデアゲート",
+            "gifts": [
+              {
+                "objectId": 2,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "none",
+                "targetId": 0
+              },
+              {
+                "type": "questClear",
+                "targetId": 94071403,
+                "closedMessage": "SE.RA.PH戦線Ⅲクリアで開放"
+              },
+              {
+                "type": "questClear",
+                "targetId": 94071421
+              },
+              {
+                "type": "date",
+                "targetId": 0,
+                "closedMessage": "SE.RA.PH戦線Ⅲクリアかつ6月18日18時00分以降に開放"
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "phasesNoBattle": [
+              1
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9407142210",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407142210.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1655283600,
+            "openedAt": 1655542800,
+            "closedAt": 1656475199
+          },
+          {
+            "id": 94071423,
             "name": "",
             "type": "main",
             "flags": [
@@ -60009,17 +60321,17 @@
             "releaseConditions": [
               {
                 "type": "questClear",
-                "targetId": 94071403,
-                "closedMessage": "SE.RA.PH戦線Ⅲクリアで開放"
+                "targetId": 94071407,
+                "closedMessage": "サクラ戦線Ⅳクリアで開放"
               },
               {
                 "type": "questClear",
-                "targetId": 94071421
+                "targetId": 94071422
               },
               {
                 "type": "date",
                 "targetId": 0,
-                "closedMessage": "SE.RA.PH戦線Ⅲクリアかつ6月18日18時00分以降に開放"
+                "closedMessage": "サクラ戦線Ⅳクリアかつ6月21日18時00分以降に開放"
               },
               {
                 "type": "forceFalse",
@@ -60033,8 +60345,8 @@
             "phasesNoBattle": [
               1
             ],
-            "noticeAt": 1655283600,
-            "openedAt": 1655542800,
+            "noticeAt": 1655542800,
+            "openedAt": 1655802000,
             "closedAt": 1656475199
           },
           {
