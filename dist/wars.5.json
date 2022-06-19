@@ -59954,7 +59954,7 @@
           },
           {
             "id": 94071405,
-            "name": "",
+            "name": "サクラ戦線Ⅱ 一騎当千エトワール",
             "type": "warBoard",
             "flags": [
               "dropFirstTimeOnly",
@@ -59988,6 +59988,10 @@
             ],
             "releaseConditions": [
               {
+                "type": "none",
+                "targetId": 0
+              },
+              {
                 "type": "questClear",
                 "targetId": 94071404,
                 "closedMessage": "サクラ戦線Ⅰクリアで開放"
@@ -60000,14 +60004,11 @@
                 "type": "date",
                 "targetId": 0,
                 "closedMessage": "サクラ戦線Ⅰクリアかつ6月19日18時00分以降に開放"
-              },
-              {
-                "type": "forceFalse",
-                "targetId": 0,
-                "closedMessage": "データ更新後に開放"
               }
             ],
-            "phases": [],
+            "phases": [
+              1
+            ],
             "noticeAt": 1655542800,
             "openedAt": 1655629200,
             "closedAt": 1656475199
