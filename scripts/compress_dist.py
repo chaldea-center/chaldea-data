@@ -17,7 +17,7 @@ def main():
     dist_dir = project_root / "dist"
     fp_version = dist_dir / "version.json"
     version = load_json(fp_version)
-    for key, file_version in version["files"].items():  # type: str, dict
+    for file_version in version["files"].values():
         old_ver = dict(file_version)
         fn: str = file_version["filename"]
         file = dist_dir / fn
