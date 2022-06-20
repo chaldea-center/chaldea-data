@@ -60018,7 +60018,7 @@
           },
           {
             "id": 94071406,
-            "name": "",
+            "name": "サクラ戦線Ⅲ ぜつゆるブッキング",
             "type": "warBoard",
             "flags": [
               "dropFirstTimeOnly",
@@ -60052,6 +60052,10 @@
             ],
             "releaseConditions": [
               {
+                "type": "none",
+                "targetId": 0
+              },
+              {
                 "type": "questClear",
                 "targetId": 94071405,
                 "closedMessage": "サクラ戦線Ⅱクリアで開放"
@@ -60064,14 +60068,11 @@
                 "type": "date",
                 "targetId": 0,
                 "closedMessage": "サクラ戦線Ⅱクリアかつ6月20日18時00分以降に開放"
-              },
-              {
-                "type": "forceFalse",
-                "targetId": 0,
-                "closedMessage": "データ更新後に開放"
               }
             ],
-            "phases": [],
+            "phases": [
+              1
+            ],
             "noticeAt": 1655542800,
             "openedAt": 1655715600,
             "closedAt": 1656475199
