@@ -60073,13 +60073,16 @@
             "phases": [
               1
             ],
+            "phasesWithEnemies": [
+              1
+            ],
             "noticeAt": 1655542800,
             "openedAt": 1655715600,
             "closedAt": 1656475199
           },
           {
             "id": 94071407,
-            "name": "",
+            "name": "サクラ戦線Ⅳ 最終告白ボルテージ",
             "type": "warBoard",
             "flags": [
               "dropFirstTimeOnly",
@@ -60113,6 +60116,10 @@
             ],
             "releaseConditions": [
               {
+                "type": "none",
+                "targetId": 0
+              },
+              {
                 "type": "questClear",
                 "targetId": 94071406,
                 "closedMessage": "サクラ戦線Ⅲクリアで開放"
@@ -60125,14 +60132,14 @@
                 "type": "date",
                 "targetId": 0,
                 "closedMessage": "サクラ戦線Ⅲクリアかつ6月21日18時00分以降に開放"
-              },
-              {
-                "type": "forceFalse",
-                "targetId": 0,
-                "closedMessage": "データ更新後に開放"
               }
             ],
-            "phases": [],
+            "phases": [
+              1
+            ],
+            "phasesWithEnemies": [
+              1
+            ],
             "noticeAt": 1655542800,
             "openedAt": 1655802000,
             "closedAt": 1656475199
@@ -60305,7 +60312,7 @@
           },
           {
             "id": 94071423,
-            "name": "",
+            "name": "夏の予感の電子の海",
             "type": "main",
             "flags": [
               "noBattle"
@@ -60325,6 +60332,10 @@
             ],
             "releaseConditions": [
               {
+                "type": "none",
+                "targetId": 0
+              },
+              {
                 "type": "questClear",
                 "targetId": 94071407,
                 "closedMessage": "サクラ戦線Ⅳクリアで開放"
@@ -60337,11 +60348,6 @@
                 "type": "date",
                 "targetId": 0,
                 "closedMessage": "サクラ戦線Ⅳクリアかつ6月21日18時00分以降に開放"
-              },
-              {
-                "type": "forceFalse",
-                "targetId": 0,
-                "closedMessage": "データ更新後に開放"
               }
             ],
             "phases": [
@@ -60349,6 +60355,17 @@
             ],
             "phasesNoBattle": [
               1
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9407142310",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407142310.txt"
+                  }
+                ]
+              }
             ],
             "noticeAt": 1655542800,
             "openedAt": 1655802000,
