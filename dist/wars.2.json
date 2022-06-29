@@ -79963,6 +79963,548 @@
     "spotRoads": []
   },
   {
+    "id": 8373,
+    "coordinates": [
+      [],
+      []
+    ],
+    "age": "-",
+    "name": "南溟弓張八犬伝",
+    "longName": "南溟弓張八犬伝",
+    "originalLongName": "南溟弓張八犬伝",
+    "flags": [
+      "isEvent",
+      "noClearMarkWithComplete"
+    ],
+    "banner": "https://static.atlasacademy.io/JP/Banner/event_war_80374.png",
+    "priority": 8373,
+    "bgm": {
+      "id": 0
+    },
+    "scriptId": "NONE",
+    "script": "https://static.atlasacademy.io/JP/Script/Common/NONE.txt",
+    "startType": "none",
+    "targetId": 0,
+    "eventId": 80381,
+    "eventName": "南溟弓張八犬伝",
+    "lastQuestId": 0,
+    "warAdds": [
+      {
+        "warId": 8373,
+        "type": "bgImage",
+        "priority": 0,
+        "overwriteId": 156700,
+        "condType": "questClear",
+        "targetId": 94072703,
+        "value": 0,
+        "startedAt": 1656504000,
+        "endedAt": 1658289599
+      }
+    ],
+    "maps": [
+      {
+        "id": 8373,
+        "mapImage": "https://static.atlasacademy.io/JP/Terminal/MapImgs/img_questmap_008373/img_questmap_008373.png",
+        "mapImageW": 0,
+        "mapImageH": 0,
+        "bgm": {
+          "id": 0
+        }
+      }
+    ],
+    "spots": [
+      {
+        "id": 837301,
+        "mapId": 8373,
+        "name": "",
+        "x": 0,
+        "y": 0,
+        "quests": [
+          {
+            "id": 94072701,
+            "name": "プロローグ 尨犬はぐれて霊騎を走らす",
+            "type": "main",
+            "flags": [
+              "noBattle"
+            ],
+            "consume": 0,
+            "afterClear": "close",
+            "recommendLv": "1",
+            "spotId": 837301,
+            "spotName": "",
+            "warId": 8373,
+            "warLongName": "南溟弓張八犬伝",
+            "gifts": [
+              {
+                "type": "servant",
+                "objectId": 9406230,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 3000320
+              },
+              {
+                "type": "date",
+                "targetId": 0,
+                "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "phasesNoBattle": [
+              1
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9407270110",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407270110.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1656504000,
+            "openedAt": 1656504000,
+            "closedAt": 1658289599
+          },
+          {
+            "id": 94072702,
+            "name": "カルデア 一の弓 三星の狩人極矢を放つ",
+            "type": "main",
+            "consume": 5,
+            "afterClear": "close",
+            "recommendLv": "70",
+            "spotId": 837301,
+            "spotName": "",
+            "warId": 8373,
+            "warLongName": "南溟弓張八犬伝",
+            "gifts": [
+              {
+                "objectId": 2,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94072701
+              },
+              {
+                "type": "date",
+                "targetId": 0,
+                "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9407270210",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407270210.txt"
+                  },
+                  {
+                    "scriptId": "9407270211",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407270211.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1656504000,
+            "openedAt": 1656504000,
+            "closedAt": 1658289599
+          },
+          {
+            "id": 94072703,
+            "name": "南征 一の矢 南溟に漕ぎ寄せ敵を識る",
+            "type": "main",
+            "consume": 5,
+            "afterClear": "close",
+            "recommendLv": "70",
+            "spotId": 837301,
+            "spotName": "",
+            "warId": 8373,
+            "warLongName": "南溟弓張八犬伝",
+            "gifts": [
+              {
+                "objectId": 2,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94072702
+              },
+              {
+                "type": "date",
+                "targetId": 0,
+                "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9407270310",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407270310.txt"
+                  },
+                  {
+                    "scriptId": "9407270311",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407270311.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1656504000,
+            "openedAt": 1656504000,
+            "closedAt": 1658289599
+          },
+          {
+            "id": 94072704,
+            "name": "暗月",
+            "type": "main",
+            "flags": [
+              "noBattle"
+            ],
+            "consume": 0,
+            "afterClear": "close",
+            "recommendLv": "1",
+            "spotId": 837301,
+            "spotName": "",
+            "warId": 8373,
+            "warLongName": "南溟弓張八犬伝",
+            "gifts": [
+              {
+                "objectId": 2,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94072703
+              },
+              {
+                "type": "date",
+                "targetId": 0,
+                "closedMessage": "犬士ポイント20,000以上＆6月30日18時以降に開放"
+              },
+              {
+                "type": "eventTotalPoint",
+                "targetId": 80381,
+                "value": 20000,
+                "closedMessage": "犬士ポイント20,000以上で開放"
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "phasesNoBattle": [
+              1
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9407270410",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407270410.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1656504000,
+            "openedAt": 1656579600,
+            "closedAt": 1658289599
+          },
+          {
+            "id": 94072705,
+            "name": "南征 二の矢 犬一匹出でて八島鳴動す",
+            "type": "main",
+            "flags": [
+              "noBattle"
+            ],
+            "consume": 0,
+            "afterClear": "close",
+            "recommendLv": "1",
+            "spotId": 837301,
+            "spotName": "",
+            "warId": 8373,
+            "warLongName": "南溟弓張八犬伝",
+            "gifts": [
+              {
+                "objectId": 2,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94072704
+              },
+              {
+                "type": "date",
+                "targetId": 0,
+                "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+              },
+              {
+                "type": "eventTotalPoint",
+                "targetId": 80381,
+                "value": 40000,
+                "closedMessage": "犬士ポイント40,000以上で開放"
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "phasesNoBattle": [
+              1
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9407270510",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407270510.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1656504000,
+            "openedAt": 1656579600,
+            "closedAt": 1658289599
+          },
+          {
+            "id": 94072706,
+            "name": "カルデア 二の弓 精兵釣瓶矢に迎え射る",
+            "type": "main",
+            "consume": 5,
+            "afterClear": "close",
+            "recommendLv": "70",
+            "spotId": 837301,
+            "spotName": "",
+            "warId": 8373,
+            "warLongName": "南溟弓張八犬伝",
+            "gifts": [
+              {
+                "objectId": 2,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94072705
+              },
+              {
+                "type": "date",
+                "targetId": 0,
+                "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+              },
+              {
+                "type": "eventTotalPoint",
+                "targetId": 80381,
+                "value": 70000,
+                "closedMessage": "犬士ポイント70,000以上で開放"
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9407270610",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407270610.txt"
+                  },
+                  {
+                    "scriptId": "9407270611",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407270611.txt"
+                  }
+                ]
+              }
+            ],
+            "noticeAt": 1656504000,
+            "openedAt": 1656579600,
+            "closedAt": 1658289599
+          },
+          {
+            "id": 94072801,
+            "name": "犬士品評会！ 初級",
+            "type": "event",
+            "flags": [
+              "displayLoopmark"
+            ],
+            "consume": 40,
+            "afterClear": "repeatLast",
+            "recommendLv": "70",
+            "spotId": 837301,
+            "spotName": "",
+            "warId": 8373,
+            "warLongName": "南溟弓張八犬伝",
+            "gifts": [
+              {
+                "objectId": 101,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94072703
+              },
+              {
+                "type": "date",
+                "targetId": 0
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "noticeAt": 1656504000,
+            "openedAt": 1656504000,
+            "closedAt": 1658289599
+          },
+          {
+            "id": 94072802,
+            "name": "犬士品評会！ 中級",
+            "type": "event",
+            "flags": [
+              "displayLoopmark"
+            ],
+            "consume": 40,
+            "afterClear": "repeatLast",
+            "recommendLv": "70",
+            "spotId": 837301,
+            "spotName": "",
+            "warId": 8373,
+            "warLongName": "南溟弓張八犬伝",
+            "gifts": [
+              {
+                "objectId": 101,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94072703
+              },
+              {
+                "type": "date",
+                "targetId": 0
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "noticeAt": 1656504000,
+            "openedAt": 1656504000,
+            "closedAt": 1658289599
+          },
+          {
+            "id": 94072803,
+            "name": "犬士品評会！ 上級",
+            "type": "event",
+            "flags": [
+              "displayLoopmark"
+            ],
+            "consume": 40,
+            "afterClear": "repeatLast",
+            "recommendLv": "70",
+            "spotId": 837301,
+            "spotName": "",
+            "warId": 8373,
+            "warLongName": "南溟弓張八犬伝",
+            "gifts": [
+              {
+                "objectId": 101,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94072703
+              },
+              {
+                "type": "date",
+                "targetId": 0
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "noticeAt": 1656504000,
+            "openedAt": 1656504000,
+            "closedAt": 1658289599
+          },
+          {
+            "id": 94072804,
+            "name": "犬士品評会！ ジュニアチャンピオン級",
+            "type": "event",
+            "flags": [
+              "displayLoopmark"
+            ],
+            "consume": 40,
+            "afterClear": "repeatLast",
+            "recommendLv": "80",
+            "spotId": 837301,
+            "spotName": "",
+            "warId": 8373,
+            "warLongName": "南溟弓張八犬伝",
+            "gifts": [
+              {
+                "objectId": 100,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94072703
+              },
+              {
+                "type": "questClear",
+                "targetId": 94072706,
+                "closedMessage": "カルデア 二の弓クリアで開放"
+              },
+              {
+                "type": "date",
+                "targetId": 0,
+                "closedMessage": "カルデア 二の弓クリアかつ6月30日18時00分以降に開放"
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "noticeAt": 1656504000,
+            "openedAt": 1656579600,
+            "closedAt": 1658289599
+          }
+        ]
+      }
+    ],
+    "spotRoads": []
+  },
+  {
     "id": 8374,
     "coordinates": [
       [],

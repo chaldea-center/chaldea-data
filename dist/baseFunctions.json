@@ -12968,6 +12968,45 @@
     ]
   },
   {
+    "funcId": 910,
+    "funcType": "addStateShort",
+    "funcTargetType": "self",
+    "funcTargetTeam": "playerAndEnemy",
+    "funcPopupText": "威力アップ・対天地サーヴァント",
+    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "buffs": [
+      {
+        "id": 250,
+        "name": "威力アップ〔天と地のサーヴァント〕",
+        "detail": "〔天と地の力を持つサーヴァント(擬似サーヴァント、デミ・サーヴァントは除く)〕に与えるダメージをアップ",
+        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+        "type": "upDamage",
+        "vals": [
+          {
+            "id": 3004
+          },
+          {
+            "id": 3006
+          },
+          {
+            "id": 3028
+          }
+        ],
+        "tvals": [
+          {
+            "id": 2037
+          }
+        ],
+        "ckOpIndv": [
+          {
+            "id": 2037
+          }
+        ],
+        "maxRate": 10000
+      }
+    ]
+  },
+  {
     "funcId": 911,
     "funcType": "addStateShort",
     "funcTargetType": "self",
@@ -22996,6 +23035,48 @@
     ]
   },
   {
+    "funcId": 3626,
+    "funcType": "addStateShort",
+    "funcTargetType": "self",
+    "funcTargetTeam": "playerAndEnemy",
+    "funcPopupText": "クリティカル威力アップ",
+    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_324.png",
+    "buffs": [
+      {
+        "id": 1621,
+        "name": "クリティカル威力アップ",
+        "detail": "Busterカードのクリティカル時のダメージをアップ",
+        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_324.png",
+        "type": "upCriticaldamage",
+        "vals": [
+          {
+            "id": 3004
+          },
+          {
+            "id": 3006
+          },
+          {
+            "id": 3031
+          }
+        ],
+        "tvals": [
+          {
+            "id": 5000
+          },
+          {
+            "id": 4002
+          }
+        ],
+        "ckSelfIndv": [
+          {
+            "id": 4002
+          }
+        ],
+        "maxRate": 5000
+      }
+    ]
+  },
+  {
     "funcId": 3627,
     "funcType": "addStateShort",
     "funcTargetType": "self",
@@ -27732,6 +27813,45 @@
     "funcTargetType": "self",
     "funcTargetTeam": "playerAndEnemy",
     "funcPopupText": "即死"
+  },
+  {
+    "funcId": 5155,
+    "funcType": "addStateShort",
+    "funcTargetType": "self",
+    "funcTargetTeam": "playerAndEnemy",
+    "funcPopupText": "威力アップ・対 人の力",
+    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "buffs": [
+      {
+        "id": 2710,
+        "name": "威力アップ〔人の力〕",
+        "detail": "〔人の力〕に与えるダメージをアップ",
+        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+        "type": "upDamage",
+        "vals": [
+          {
+            "id": 3004
+          },
+          {
+            "id": 3006
+          },
+          {
+            "id": 3028
+          }
+        ],
+        "tvals": [
+          {
+            "id": 202
+          }
+        ],
+        "ckOpIndv": [
+          {
+            "id": 202
+          }
+        ],
+        "maxRate": 10000
+      }
+    ]
   },
   {
     "funcId": 5156,
@@ -42912,6 +43032,164 @@
     ]
   },
   {
+    "funcId": 8747,
+    "funcType": "eventDropUp",
+    "funcTargetType": "self",
+    "funcTargetTeam": "playerAndEnemy",
+    "funcPopupText": "なし",
+    "funcGroup": [
+      {
+        "eventId": 80381,
+        "baseFuncId": 0,
+        "nameTotal": "{0}\n獲得数ボーナス合計",
+        "name": "{0}獲得数アップ",
+        "icon": "https://static.atlasacademy.io/JP/Items/94072703.png",
+        "priority": 1000,
+        "isDispValue": true
+      }
+    ]
+  },
+  {
+    "funcId": 8748,
+    "funcType": "eventDropUp",
+    "funcTargetType": "self",
+    "funcTargetTeam": "playerAndEnemy",
+    "funcPopupText": "なし",
+    "funcGroup": [
+      {
+        "eventId": 80381,
+        "baseFuncId": 0,
+        "nameTotal": "{0}\n獲得数ボーナス合計",
+        "name": "{0}獲得数アップ",
+        "icon": "https://static.atlasacademy.io/JP/Items/94072702.png",
+        "priority": 2000,
+        "isDispValue": true
+      }
+    ]
+  },
+  {
+    "funcId": 8749,
+    "funcType": "eventDropUp",
+    "funcTargetType": "self",
+    "funcTargetTeam": "playerAndEnemy",
+    "funcPopupText": "なし",
+    "funcGroup": [
+      {
+        "eventId": 80381,
+        "baseFuncId": 0,
+        "nameTotal": "{0}\n獲得数ボーナス合計",
+        "name": "{0}獲得数アップ",
+        "icon": "https://static.atlasacademy.io/JP/Items/94072701.png",
+        "priority": 3000,
+        "isDispValue": true
+      }
+    ]
+  },
+  {
+    "funcId": 8750,
+    "funcType": "eventPointUp",
+    "funcTargetType": "self",
+    "funcTargetTeam": "playerAndEnemy",
+    "funcPopupText": "なし",
+    "funcGroup": [
+      {
+        "eventId": 80381,
+        "baseFuncId": 0,
+        "nameTotal": "{0}\n獲得量ボーナス合計",
+        "name": "{0}獲得量アップ",
+        "icon": "https://static.atlasacademy.io/JP/Items/94072704.png",
+        "priority": 4000,
+        "isDispValue": true
+      }
+    ]
+  },
+  {
+    "funcId": 8752,
+    "funcType": "addStateShort",
+    "funcTargetType": "self",
+    "funcTargetTeam": "player",
+    "funcPopupText": "忠魂義胆の真髄",
+    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "funcquestTvals": [
+      {
+        "id": 94000134
+      }
+    ],
+    "funcGroup": [
+      {
+        "eventId": 80381,
+        "baseFuncId": 8751,
+        "nameTotal": "{1} \n攻撃の威力アップ合計",
+        "name": "攻撃の威力アップ",
+        "icon": "https://static.atlasacademy.io/JP/EventUI/func_group_icon_302.png",
+        "priority": 1,
+        "isDispValue": true
+      }
+    ],
+    "buffs": [
+      {
+        "id": 4355,
+        "name": "忠魂義胆の真髄",
+        "detail": "『南溟弓張八犬伝』において与えるダメージをアップ",
+        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+        "type": "upDamage",
+        "maxRate": 10000
+      }
+    ]
+  },
+  {
+    "funcId": 8753,
+    "funcType": "addStateShort",
+    "funcTargetType": "self",
+    "funcTargetTeam": "player",
+    "funcPopupText": "忠魂義胆の真髄",
+    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "funcquestTvals": [
+      {
+        "id": 94000134
+      }
+    ],
+    "funcGroup": [
+      {
+        "eventId": 80381,
+        "baseFuncId": 8751,
+        "nameTotal": "{1} \n攻撃の威力アップ合計",
+        "name": "攻撃の威力アップ",
+        "icon": "https://static.atlasacademy.io/JP/EventUI/func_group_icon_302.png",
+        "priority": 1,
+        "isDispValue": true
+      }
+    ],
+    "buffs": [
+      {
+        "id": 4355,
+        "name": "忠魂義胆の真髄",
+        "detail": "『南溟弓張八犬伝』において与えるダメージをアップ",
+        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+        "type": "upDamage",
+        "maxRate": 10000
+      }
+    ]
+  },
+  {
+    "funcId": 8754,
+    "funcType": "servantFriendshipUp",
+    "funcTargetType": "self",
+    "funcTargetTeam": "playerAndEnemy",
+    "funcPopupText": "なし",
+    "funcGroup": [
+      {
+        "eventId": 80381,
+        "baseFuncId": 0,
+        "nameTotal": "{1}\n得られる自身の絆ボーナス合計",
+        "name": "得られる自身の絆アップ",
+        "icon": "https://static.atlasacademy.io/JP/EventUI/func_group_icon_1009.png",
+        "priority": 1,
+        "isDispValue": true
+      }
+    ]
+  },
+  {
     "funcId": 8798,
     "funcType": "addState",
     "funcTargetType": "enemy",
@@ -43075,6 +43353,70 @@
         "ckSelfIndv": [
           {
             "id": 4004
+          }
+        ],
+        "maxRate": 0
+      }
+    ]
+  },
+  {
+    "funcId": 8868,
+    "funcType": "addStateShort",
+    "funcTargetType": "self",
+    "funcTargetTeam": "player",
+    "funcPopupText": "スター集中アップ",
+    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_325.png",
+    "buffs": [
+      {
+        "id": 4405,
+        "name": "スター集中アップ",
+        "detail": "スターの集まりやすさをアップ",
+        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_325.png",
+        "type": "upStarweight",
+        "vals": [
+          {
+            "id": 3004
+          }
+        ],
+        "ckSelfIndv": [
+          {
+            "id": 4002
+          }
+        ],
+        "maxRate": 500000
+      }
+    ]
+  },
+  {
+    "funcId": 8871,
+    "funcType": "addStateShort",
+    "funcTargetType": "self",
+    "funcTargetTeam": "playerAndEnemy",
+    "funcPopupText": "Arts攻撃時追加効果",
+    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_333.png",
+    "buffs": [
+      {
+        "id": 4406,
+        "name": "Arts攻撃時追加効果",
+        "detail": "Artsカードで攻撃時、味方全体の攻撃力をアップ",
+        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_333.png",
+        "type": "attackFunction",
+        "vals": [
+          {
+            "id": 3004
+          }
+        ],
+        "tvals": [
+          {
+            "id": 5000
+          },
+          {
+            "id": 4001
+          }
+        ],
+        "ckSelfIndv": [
+          {
+            "id": 4001
           }
         ],
         "maxRate": 0
