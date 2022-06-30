@@ -80332,6 +80332,9 @@
             "phases": [
               1
             ],
+            "phasesWithEnemies": [
+              1
+            ],
             "phaseScripts": [
               {
                 "phase": 1,
@@ -80349,6 +80352,53 @@
             ],
             "noticeAt": 1656504000,
             "openedAt": 1656579600,
+            "closedAt": 1658289599
+          },
+          {
+            "id": 94072707,
+            "name": "",
+            "type": "main",
+            "consume": 5,
+            "afterClear": "close",
+            "recommendLv": "75",
+            "spotId": 837301,
+            "spotName": "",
+            "warId": 8373,
+            "warLongName": "南溟弓張八犬伝",
+            "gifts": [
+              {
+                "objectId": 2,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94072706
+              },
+              {
+                "type": "date",
+                "targetId": 0,
+                "closedMessage": "犬士ポイント110,000以上＆7月1日18時以降に開放"
+              },
+              {
+                "type": "eventTotalPoint",
+                "targetId": 80381,
+                "value": 110000,
+                "closedMessage": "犬士ポイント110,000以上で開放"
+              },
+              {
+                "type": "forceFalse",
+                "targetId": 0,
+                "closedMessage": "データ更新後に開放"
+              }
+            ],
+            "phases": [
+              1,
+              2
+            ],
+            "noticeAt": 1656579600,
+            "openedAt": 1656666000,
             "closedAt": 1658289599
           },
           {
@@ -80512,6 +80562,54 @@
             ],
             "noticeAt": 1656504000,
             "openedAt": 1656579600,
+            "closedAt": 1658289599
+          },
+          {
+            "id": 94072805,
+            "name": "",
+            "type": "event",
+            "flags": [
+              "displayLoopmark"
+            ],
+            "consume": 40,
+            "afterClear": "repeatLast",
+            "recommendLv": "80",
+            "spotId": 837301,
+            "spotName": "",
+            "warId": 8373,
+            "warLongName": "南溟弓張八犬伝",
+            "gifts": [
+              {
+                "objectId": 100,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94072706
+              },
+              {
+                "type": "questClear",
+                "targetId": 94072709,
+                "closedMessage": "カルデア 四の弓クリアで開放"
+              },
+              {
+                "type": "date",
+                "targetId": 0,
+                "closedMessage": "カルデア 四の弓クリアかつ7月1日18時00分以降に開放"
+              },
+              {
+                "type": "forceFalse",
+                "targetId": 0,
+                "closedMessage": "データ更新後に開放"
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "noticeAt": 1656579600,
+            "openedAt": 1656666000,
             "closedAt": 1658289599
           }
         ]
