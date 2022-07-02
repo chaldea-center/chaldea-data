@@ -82456,6 +82456,9 @@
             "phases": [
               1
             ],
+            "phasesWithEnemies": [
+              1
+            ],
             "phaseScripts": [
               {
                 "phase": 1,
@@ -82474,6 +82477,133 @@
             "priority": 94072985,
             "noticeAt": 1656666000,
             "openedAt": 1656752400,
+            "closedAt": 1658289599
+          },
+          {
+            "id": 94072713,
+            "name": "南征 五の矢 君偲ぶ道を辿り忍び取る",
+            "type": "main",
+            "consume": 5,
+            "afterClear": "close",
+            "recommendLv": "85",
+            "spotId": 837301,
+            "spotName": "",
+            "warId": 8373,
+            "warLongName": "南溟弓張八犬伝",
+            "gifts": [
+              {
+                "objectId": 2,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94072712
+              },
+              {
+                "type": "date",
+                "targetId": 0,
+                "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+              },
+              {
+                "type": "eventTotalPoint",
+                "targetId": 80381,
+                "value": 350000,
+                "closedMessage": "犬士ポイント350,000以上で開放"
+              }
+            ],
+            "phases": [
+              1,
+              2,
+              3
+            ],
+            "phasesWithEnemies": [
+              1
+            ],
+            "phaseScripts": [
+              {
+                "phase": 1,
+                "scripts": [
+                  {
+                    "scriptId": "9407271310",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407271310.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 2,
+                "scripts": [
+                  {
+                    "scriptId": "9407271320",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407271320.txt"
+                  }
+                ]
+              },
+              {
+                "phase": 3,
+                "scripts": [
+                  {
+                    "scriptId": "9407271330",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407271330.txt"
+                  },
+                  {
+                    "scriptId": "9407271331",
+                    "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407271331.txt"
+                  }
+                ]
+              }
+            ],
+            "priority": 94072984,
+            "noticeAt": 1656752400,
+            "openedAt": 1656752400,
+            "closedAt": 1658289599
+          },
+          {
+            "id": 94072714,
+            "name": "",
+            "type": "main",
+            "consume": 5,
+            "afterClear": "close",
+            "recommendLv": "85",
+            "spotId": 837301,
+            "spotName": "",
+            "warId": 8373,
+            "warLongName": "南溟弓張八犬伝",
+            "gifts": [
+              {
+                "objectId": 2,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94072713
+              },
+              {
+                "type": "date",
+                "targetId": 0,
+                "closedMessage": "犬士ポイント420,000以上＆7月3日18時以降に開放"
+              },
+              {
+                "type": "eventTotalPoint",
+                "targetId": 80381,
+                "value": 420000
+              },
+              {
+                "type": "forceFalse",
+                "targetId": 0,
+                "closedMessage": "データ更新後に開放"
+              }
+            ],
+            "phases": [
+              1,
+              2
+            ],
+            "priority": 94072983,
+            "noticeAt": 1656752400,
+            "openedAt": 1656838800,
             "closedAt": 1658289599
           },
           {
@@ -82787,6 +82917,55 @@
             "priority": 94072792,
             "noticeAt": 1656666000,
             "openedAt": 1656752400,
+            "closedAt": 1658289599
+          },
+          {
+            "id": 94072808,
+            "name": "",
+            "type": "event",
+            "flags": [
+              "displayLoopmark"
+            ],
+            "consume": 40,
+            "afterClear": "repeatLast",
+            "recommendLv": "90",
+            "spotId": 837301,
+            "spotName": "",
+            "warId": 8373,
+            "warLongName": "南溟弓張八犬伝",
+            "gifts": [
+              {
+                "objectId": 100,
+                "num": 1
+              }
+            ],
+            "releaseConditions": [
+              {
+                "type": "questClear",
+                "targetId": 94072713
+              },
+              {
+                "type": "questClear",
+                "targetId": 94072715,
+                "closedMessage": "南征 終の矢クリアで開放"
+              },
+              {
+                "type": "date",
+                "targetId": 0,
+                "closedMessage": "南征 終の矢クリアかつ7月3日18時00分以降に開放"
+              },
+              {
+                "type": "forceFalse",
+                "targetId": 0,
+                "closedMessage": "データ更新後に開放"
+              }
+            ],
+            "phases": [
+              1
+            ],
+            "priority": 94072791,
+            "noticeAt": 1656752400,
+            "openedAt": 1656838800,
             "closedAt": 1658289599
           }
         ]
