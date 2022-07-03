@@ -37177,6 +37177,35 @@
     ]
   },
   {
+    "funcId": 7220,
+    "funcType": "addState",
+    "funcTargetType": "self",
+    "funcTargetTeam": "playerAndEnemy",
+    "funcPopupText": "宝具威力アップ",
+    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_310.png",
+    "buffs": [
+      {
+        "id": 138,
+        "name": "宝具威力アップ",
+        "detail": "宝具で与えるダメージをアップ",
+        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_310.png",
+        "type": "upNpdamage",
+        "vals": [
+          {
+            "id": 3004
+          },
+          {
+            "id": 3006
+          },
+          {
+            "id": 3030
+          }
+        ],
+        "maxRate": 5000
+      }
+    ]
+  },
+  {
     "funcId": 7233,
     "funcType": "addStateShort",
     "funcTargetType": "ptFull",
@@ -43420,6 +43449,96 @@
           }
         ],
         "maxRate": 0
+      }
+    ]
+  },
+  {
+    "funcId": 8872,
+    "funcType": "addState",
+    "funcTargetType": "self",
+    "funcTargetTeam": "playerAndEnemy",
+    "funcPopupText": "ガッツ時発動(宝具威力アップ＆弱体解除)",
+    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_365.png",
+    "buffs": [
+      {
+        "id": 4407,
+        "name": "ガッツ時発動(宝具威力アップ＆弱体解除)",
+        "detail": "ガッツ発動時、宝具威力をアップ＆弱体状態を解除",
+        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_365.png",
+        "type": "gutsFunction",
+        "vals": [
+          {
+            "id": 3004
+          }
+        ],
+        "maxRate": 0
+      }
+    ]
+  },
+  {
+    "funcId": 8873,
+    "funcType": "addState",
+    "funcTargetType": "self",
+    "funcTargetTeam": "playerAndEnemy",
+    "funcPopupText": "毎ターン発動(宝具威力アップ)",
+    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_343.png",
+    "buffs": [
+      {
+        "id": 4408,
+        "name": "毎ターン発動(宝具威力アップ)",
+        "detail": "毎ターン終了時、自身の宝具威力をアップ",
+        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_343.png",
+        "type": "selfturnendFunction",
+        "vals": [
+          {
+            "id": 3004
+          }
+        ],
+        "maxRate": 0
+      }
+    ]
+  },
+  {
+    "funcId": 8875,
+    "funcType": "addStateShort",
+    "funcTargetType": "self",
+    "funcTargetTeam": "playerAndEnemy",
+    "funcPopupText": "バスターアップ：水辺",
+    "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_314.png",
+    "funcquestTvals": [
+      {
+        "id": 2039
+      }
+    ],
+    "buffs": [
+      {
+        "id": 4409,
+        "name": "Busterアップ",
+        "detail": "〔水辺〕のあるフィールドにおいてのみ、Busterカードの性能をアップ",
+        "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_314.png",
+        "type": "upCommandall",
+        "vals": [
+          {
+            "id": 3004
+          },
+          {
+            "id": 3006
+          }
+        ],
+        "tvals": [
+          {
+            "id": 5000
+          },
+          {
+            "id": 4002
+          }
+        ],
+        "ckSelfIndv": [
+          {
+            "id": 4002
+          }
+        ],
+        "maxRate": 5000
       }
     ]
   },
