@@ -60880,7 +60880,7 @@
       "closedAt": 1658289599
     }, {
       "id": 94072901,
-      "name": "",
+      "name": "【高難易度】喧嘩するほど仲がいい",
       "type": "event",
       "flags": ["dropFirstTimeOnly", "notRetrievable", "notDisplayResultGetPoint"],
       "consume": 5,
@@ -60895,6 +60895,9 @@
         "num": 1
       }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 1000822
       }, {
@@ -60904,12 +60907,9 @@
         "type": "date",
         "targetId": 0,
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
-      }, {
-        "type": "forceFalse",
-        "targetId": 0,
-        "closedMessage": "データ更新後に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94072898,
       "noticeAt": 1656838800,
       "openedAt": 1657098000,
