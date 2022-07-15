@@ -17,7 +17,9 @@ def _call_oss(*args) -> str:
         print(output)
         return output
     except subprocess.CalledProcessError as e:
-        logging.exception(f'CalledProcessError: {e}\nstderr:\n{e.stderr}\nstdout:\n{e.stdout}')
+        logging.exception(
+            f"CalledProcessError: {e}\nstderr:\n{e.stderr}\nstdout:\n{e.stdout}"
+        )
         raise
     except Exception as e:
         logging.exception(f"Call ossutil failed: {e}")

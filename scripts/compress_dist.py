@@ -1,3 +1,6 @@
+"""
+CF runtime: python 3.7
+"""
 import json
 from hashlib import md5
 from pathlib import Path
@@ -9,8 +12,11 @@ def load_json(fp: Path) -> dict:
     return json.loads(fp.read_text())
 
 
-def dump_json(data, fp: Path):
-    fp.write_text(json.dumps(data, ensure_ascii=False))
+def dump_json(data, fp=None) -> str:
+    text = json.dumps(data, ensure_ascii=False, separators=(",", ":"))
+    if fp:
+        Path(fp).write_text(text)
+    return text
 
 
 def main():
@@ -22,11 +28,10 @@ def main():
         fn: str = file_version["filename"]
         file = dist_dir / fn
         content = load_json(file)
-        compressed = json.dumps(content, ensure_ascii=False).encode()
+        # compressed = orjson.dumps(content)
+        compressed = dump_json(content).encode()
         size = len(compressed)
-        _md5 = md5()
-        _md5.update(compressed)
-        hash_val = _md5.hexdigest()[:6]
+        hash_val = md5(compressed).hexdigest()[:6]
         print(f'{fn:20s}: {old_ver["hash"]}->{hash_val}, {old_ver["size"]}->{size}')
         file_version["size"] = size
         file_version["hash"] = hash_val
