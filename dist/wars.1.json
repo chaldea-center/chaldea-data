@@ -77783,6 +77783,72 @@
       "openedAt": 1449637200,
       "closedAt": 1893423600
     }, {
+      "id": 94001301,
+      "name": "魔術礼装クエスト・カルデア戦闘服",
+      "type": "event",
+      "consume": 40,
+      "afterClear": "close",
+      "recommendLv": "50",
+      "spotId": 999999,
+      "spotName": "カルデアゲート",
+      "warId": 9999,
+      "warLongName": "カルデアゲート",
+      "gifts": [{
+        "type": "equip",
+        "objectId": 20,
+        "num": 1
+      }],
+      "phases": [1, 2, 3],
+      "phasesWithEnemies": [1, 2, 3],
+      "priority": 92999999,
+      "noticeAt": 946652400,
+      "openedAt": 946652400,
+      "closedAt": 1893423600
+    }, {
+      "id": 94001302,
+      "name": "魔術礼装クエスト・魔術協会制服",
+      "type": "event",
+      "consume": 40,
+      "afterClear": "close",
+      "recommendLv": "50",
+      "spotId": 999999,
+      "spotName": "カルデアゲート",
+      "warId": 9999,
+      "warLongName": "カルデアゲート",
+      "gifts": [{
+        "type": "equip",
+        "objectId": 30,
+        "num": 1
+      }],
+      "phases": [1, 2, 3],
+      "phasesWithEnemies": [1, 2, 3],
+      "priority": 92999998,
+      "noticeAt": 946652400,
+      "openedAt": 946652400,
+      "closedAt": 1893423600
+    }, {
+      "id": 94001303,
+      "name": "魔術礼装クエスト・アトラス院制服",
+      "type": "event",
+      "consume": 40,
+      "afterClear": "close",
+      "recommendLv": "50",
+      "spotId": 999999,
+      "spotName": "カルデアゲート",
+      "warId": 9999,
+      "warLongName": "カルデアゲート",
+      "gifts": [{
+        "type": "equip",
+        "objectId": 40,
+        "num": 1
+      }],
+      "phases": [1, 2, 3],
+      "phasesWithEnemies": [1, 2, 3],
+      "priority": 92999997,
+      "noticeAt": 946652400,
+      "openedAt": 946652400,
+      "closedAt": 1893423600
+    }, {
       "id": 94001401,
       "name": "再び神の詩を求めよ",
       "type": "event",
@@ -78334,6 +78400,37 @@
       "openedAt": 1488960000,
       "closedAt": 1490162399
     }, {
+      "id": 94014310,
+      "name": "ビーチフラワー",
+      "type": "event",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "5",
+      "spotId": 999999,
+      "spotName": "カルデアゲート",
+      "warId": 9999,
+      "warLongName": "カルデアゲート",
+      "gifts": [{
+        "objectId": 94013706,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 1000011
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "purchaseShop",
+        "targetId": 6000446
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94013988,
+      "noticeAt": 1499850000,
+      "openedAt": 1499850000,
+      "closedAt": 1901199599
+    }, {
       "id": 94014901,
       "name": "見つける者、明かす者、探偵───或いは調停者",
       "type": "event",
@@ -78709,6 +78806,84 @@
       "noticeAt": 1548234000,
       "openedAt": 1548234000,
       "closedAt": 1549425599
+    }, {
+      "id": 94037901,
+      "name": "「マンガで分かる！Fate/Grand Order」2巻発売記念クエスト",
+      "type": "event",
+      "flags": ["noDisplayRemain"],
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "15",
+      "spotId": 999999,
+      "spotName": "カルデアゲート",
+      "warId": 9999,
+      "warLongName": "カルデアゲート",
+      "gifts": [{
+        "type": "servant",
+        "objectId": 9303670,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 1000011,
+        "closedMessage": "{0}をクリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "purchaseShop",
+        "targetId": 6000645
+      }],
+      "phases": [1, 2, 3, 4, 5, 6, 7],
+      "phasesWithEnemies": [6],
+      "phasesNoBattle": [1, 2, 3, 4, 5, 7],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9403790110",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9403/9403790110.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9403790120",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9403/9403790120.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9403790130",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9403/9403790130.txt"
+        }]
+      }, {
+        "phase": 4,
+        "scripts": [{
+          "scriptId": "9403790140",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9403/9403790140.txt"
+        }]
+      }, {
+        "phase": 5,
+        "scripts": [{
+          "scriptId": "9403790150",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9403/9403790150.txt"
+        }]
+      }, {
+        "phase": 6,
+        "scripts": [{
+          "scriptId": "9403790160",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9403/9403790160.txt"
+        }]
+      }, {
+        "phase": 7,
+        "scripts": [{
+          "scriptId": "9403790170",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9403/9403790170.txt"
+        }]
+      }],
+      "priority": 94037998,
+      "noticeAt": 1651636800,
+      "openedAt": 1651636800,
+      "closedAt": 1901199599
     }, {
       "id": 94043501,
       "name": "スケルトン・ハント 開位級",
@@ -80205,6 +80380,192 @@
       "noticeAt": 1597051800,
       "openedAt": 1597051800,
       "closedAt": 1598241599
+    }, {
+      "id": 94052302,
+      "name": "アルジュナ霊衣獲得クエスト",
+      "type": "event",
+      "flags": ["noDisplayRemain"],
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "15",
+      "spotId": 999999,
+      "spotName": "カルデアゲート",
+      "warId": 9999,
+      "warLongName": "カルデアゲート",
+      "gifts": [{
+        "objectId": 4001,
+        "num": 1
+      }, {
+        "type": "costumeRelease",
+        "objectId": 20150011,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 1000011
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "purchaseShop",
+        "targetId": 6000608
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94052398,
+      "noticeAt": 1597051800,
+      "openedAt": 1597051800,
+      "closedAt": 1901199599
+    }, {
+      "id": 94052304,
+      "name": "ネロ霊衣獲得クエスト",
+      "type": "event",
+      "flags": ["noDisplayRemain"],
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "15",
+      "spotId": 999999,
+      "spotName": "カルデアゲート",
+      "warId": 9999,
+      "warLongName": "カルデアゲート",
+      "gifts": [{
+        "objectId": 4001,
+        "num": 1
+      }, {
+        "type": "costumeRelease",
+        "objectId": 10050012,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 1000011
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "purchaseShop",
+        "targetId": 6000627
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94052396,
+      "noticeAt": 1597051800,
+      "openedAt": 1597051800,
+      "closedAt": 1901199599
+    }, {
+      "id": 94052305,
+      "name": "岡田以蔵霊衣獲得クエスト",
+      "type": "event",
+      "flags": ["noDisplayRemain"],
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "15",
+      "spotId": 999999,
+      "spotName": "カルデアゲート",
+      "warId": 9999,
+      "warLongName": "カルデアゲート",
+      "gifts": [{
+        "objectId": 4001,
+        "num": 1
+      }, {
+        "type": "costumeRelease",
+        "objectId": 60330011,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 1000011,
+        "closedMessage": "特異点Fをクリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "purchaseShop",
+        "targetId": 6000670
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94052395,
+      "noticeAt": 1656504000,
+      "openedAt": 1656504000,
+      "closedAt": 1901199599
+    }, {
+      "id": 94052306,
+      "name": "ポール・バニヤン霊衣獲得クエスト",
+      "type": "event",
+      "flags": ["noDisplayRemain"],
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "15",
+      "spotId": 999999,
+      "spotName": "カルデアゲート",
+      "warId": 9999,
+      "warLongName": "カルデアゲート",
+      "gifts": [{
+        "objectId": 4001,
+        "num": 1
+      }, {
+        "type": "costumeRelease",
+        "objectId": 70280011,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 1000011
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "purchaseShop",
+        "targetId": 6000644
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94052394,
+      "noticeAt": 1597051800,
+      "openedAt": 1597051800,
+      "closedAt": 1901199599
+    }, {
+      "id": 94052401,
+      "name": "「FGO Waltz in the MOONLIGHT/LOSTROOM」配信記念クエスト",
+      "type": "event",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 999999,
+      "spotName": "カルデアゲート",
+      "warId": 9999,
+      "warLongName": "カルデアゲート",
+      "gifts": [{
+        "type": "servant",
+        "objectId": 9305240,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 1000822,
+        "closedMessage": "終局特異点クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "purchaseShop",
+        "targetId": 6000473
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9405240111",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9405/9405240111.txt"
+        }]
+      }],
+      "priority": 94052499,
+      "noticeAt": 1598346000,
+      "openedAt": 1598346000,
+      "closedAt": 1901199599
     }, {
       "id": 94053101,
       "name": "心を失った者・ハント 開位級",
