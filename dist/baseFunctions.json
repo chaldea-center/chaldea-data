@@ -6539,6 +6539,15 @@
   "funcTargetTeam": "player",
   "funcPopupText": "スキルターン減少"
 }, {
+  "funcId": 503,
+  "funcType": "subState",
+  "funcTargetType": "ptOne",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "精神異常解除",
+  "traitVals": [{
+    "id": 3010
+  }]
+}, {
   "funcId": 504,
   "funcType": "subState",
   "funcTargetType": "ptAll",
@@ -7504,6 +7513,12 @@
     "maxRate": 0
   }]
 }, {
+  "funcId": 650,
+  "funcType": "gainStar",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "player",
+  "funcPopupText": "スター獲得"
+}, {
   "funcId": 651,
   "funcType": "gainStar",
   "funcTargetType": "ptAll",
@@ -7919,6 +7934,28 @@
       "id": 3007
     }, {
       "id": 3040
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 703,
+  "funcType": "addStateShort",
+  "funcTargetType": "enemy",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "即死耐性ダウン",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_506.png",
+  "buffs": [{
+    "id": 219,
+    "name": "即死耐性ダウン",
+    "detail": "即死耐性をダウン",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_506.png",
+    "type": "upNonresistInstantdeath",
+    "vals": [{
+      "id": 3005
+    }, {
+      "id": 3009
+    }, {
+      "id": 3039
     }],
     "maxRate": 5000
   }]
@@ -33369,6 +33406,348 @@
       "id": 4002
     }],
     "maxRate": 5000
+  }]
+}, {
+  "funcId": 8911,
+  "funcType": "addFieldChangeToField",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "buffs": [{
+    "id": 4423,
+    "name": "フィールド変化〔千年城〕",
+    "detail": "フィールドを〔千年城〕状態にする",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_700.png",
+    "type": "toFieldChangeField",
+    "vals": [{
+      "id": 3079
+    }, {
+      "id": 2829
+    }],
+    "maxRate": 0
+  }]
+}, {
+  "funcId": 8986,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "クイックアップ：千年城",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_312.png",
+  "buffs": [{
+    "id": 4458,
+    "name": "Quickアップ",
+    "detail": "〔千年城〕のあるフィールドにおいてのみ、Quickカードの性能をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_312.png",
+    "type": "upCommandall",
+    "script": {
+      "INDIVIDUALITIE": {
+        "id": 2829
+      }
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }],
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4003
+    }],
+    "ckSelfIndv": [{
+      "id": 4003
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 8987,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "アーツアップ：千年城",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_313.png",
+  "buffs": [{
+    "id": 4459,
+    "name": "Artsアップ",
+    "detail": "〔千年城〕のあるフィールドにおいてのみ、Artsカードの性能をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_313.png",
+    "type": "upCommandall",
+    "script": {
+      "INDIVIDUALITIE": {
+        "id": 2829
+      }
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }],
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4001
+    }],
+    "ckSelfIndv": [{
+      "id": 4001
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 8988,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "バスターアップ：千年城",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_314.png",
+  "buffs": [{
+    "id": 4460,
+    "name": "Busterアップ",
+    "detail": "〔千年城〕のあるフィールドにおいてのみ、Busterカードの性能をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_314.png",
+    "type": "upCommandall",
+    "script": {
+      "INDIVIDUALITIE": {
+        "id": 2829
+      }
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }],
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4002
+    }],
+    "ckSelfIndv": [{
+      "id": 4002
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 8989,
+  "funcType": "addState",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "強化解除耐性アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_348.png",
+  "functvals": [{
+    "id": 303
+  }],
+  "buffs": [{
+    "id": 887,
+    "name": "強化解除耐性アップ",
+    "detail": "強化解除耐性をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_348.png",
+    "type": "upToleranceSubstate",
+    "vals": [{
+      "id": 3004
+    }],
+    "ckOpIndv": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3007
+    }, {
+      "id": 3027
+    }, {
+      "id": 3058
+    }, {
+      "id": 3031
+    }, {
+      "id": 3021
+    }, {
+      "id": 3018
+    }, {
+      "id": 3024
+    }, {
+      "id": 3030
+    }, {
+      "id": 3032
+    }, {
+      "id": 3019
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 8990,
+  "funcType": "gainNp",
+  "funcTargetType": "ptOther",
+  "funcTargetTeam": "player",
+  "funcPopupText": "NP増加：千年城",
+  "funcquestTvals": [{
+    "id": 2829
+  }]
+}, {
+  "funcId": 8991,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "攻撃力ダウン・対虞美人",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_503.png",
+  "buffs": [{
+    "id": 4461,
+    "name": "攻撃力ダウン〔虞美人〕",
+    "detail": "〔虞美人〕に対する攻撃力をダウン",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_503.png",
+    "type": "downAtk",
+    "vals": [{
+      "id": 3005
+    }, {
+      "id": 3008
+    }, {
+      "id": 3033
+    }],
+    "tvals": [{
+      "id": 2833
+    }, {
+      "id": 603500
+    }, {
+      "id": 304400
+    }],
+    "ckOpIndv": [{
+      "id": 2833
+    }, {
+      "id": 603500
+    }, {
+      "id": 304400
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 8992,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "威力アップ・対死霊",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+  "buffs": [{
+    "id": 191,
+    "name": "威力アップ〔死霊〕",
+    "detail": "〔死霊〕特性に与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamage",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3028
+    }],
+    "tvals": [{
+      "id": 1002
+    }],
+    "ckOpIndv": [{
+      "id": 1002
+    }],
+    "maxRate": 10000
+  }]
+}, {
+  "funcId": 8993,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptOne",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "宝具威力アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_310.png",
+  "functvals": [{
+    "id": 2833
+  }],
+  "buffs": [{
+    "id": 138,
+    "name": "宝具威力アップ",
+    "detail": "宝具で与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_310.png",
+    "type": "upNpdamage",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3030
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 8994,
+  "funcType": "gainNp",
+  "funcTargetType": "ptOne",
+  "funcTargetTeam": "player",
+  "funcPopupText": "NP増加",
+  "functvals": [{
+    "id": 2833
+  }]
+}, {
+  "funcId": 9012,
+  "funcType": "gainNp",
+  "funcTargetType": "ptOther",
+  "funcTargetTeam": "player",
+  "funcPopupText": "NP増加",
+  "functvals": [{
+    "id": 2654
+  }]
+}, {
+  "funcId": 9014,
+  "funcType": "hastenNpturn",
+  "funcTargetType": "ptOther",
+  "funcTargetTeam": "enemy",
+  "funcPopupText": "チャージ増加",
+  "functvals": [{
+    "id": 2654
+  }]
+}, {
+  "funcId": 9035,
+  "funcType": "hastenNpturn",
+  "funcTargetType": "ptOne",
+  "funcTargetTeam": "enemy",
+  "funcPopupText": "チャージ増加",
+  "functvals": [{
+    "id": 2833
+  }]
+}, {
+  "funcId": 9042,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptFull",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "宝具威力アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_310.png",
+  "buffs": [{
+    "id": 4499,
+    "name": "宝具威力アップ",
+    "detail": "宝具で与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_310.png",
+    "type": "upNpdamage",
+    "script": {
+      "INDIVIDUALITIE": {
+        "id": 2829
+      }
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3030
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 9043,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "ガッツ時発動(スター獲得)",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_365.png",
+  "buffs": [{
+    "id": 4492,
+    "name": "ガッツ時発動(スター獲得)",
+    "detail": "ガッツ発動時、スターを獲得する",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_365.png",
+    "type": "gutsFunction",
+    "vals": [{
+      "id": 3004
+    }],
+    "maxRate": 0
   }]
 }, {
   "funcId": 30003,
