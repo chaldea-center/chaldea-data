@@ -21171,6 +21171,26 @@
     "maxRate": 500000
   }]
 }, {
+  "funcId": 5056,
+  "funcType": "addState",
+  "funcTargetType": "enemy",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "防御力ダウン",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_504.png",
+  "buffs": [{
+    "id": 148,
+    "name": "防御力ダウン",
+    "detail": "防御力をダウン",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_504.png",
+    "type": "downDefence",
+    "vals": [{
+      "id": 3005
+    }, {
+      "id": 3009
+    }],
+    "maxRate": 5000
+  }]
+}, {
   "funcId": 5057,
   "funcType": "addState",
   "funcTargetType": "enemy",
@@ -33748,6 +33768,45 @@
       "id": 3004
     }],
     "maxRate": 0
+  }]
+}, {
+  "funcId": 9047,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "被ダメージ時発動",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_331.png",
+  "buffs": [{
+    "id": 4494,
+    "name": "被ダメージ時発動",
+    "detail": "攻撃を受けると敵単体の防御力をダウン",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_331.png",
+    "type": "damageFunction",
+    "vals": [{
+      "id": 3004
+    }],
+    "tvals": [{
+      "id": 5000
+    }],
+    "maxRate": 0
+  }]
+}, {
+  "funcId": 9048,
+  "funcType": "gainNp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "NP増加",
+  "functvals": [{
+    "id": 600700
+  }]
+}, {
+  "funcId": 9049,
+  "funcType": "hastenNpturn",
+  "funcTargetType": "self",
+  "funcTargetTeam": "enemy",
+  "funcPopupText": "チャージ増加",
+  "functvals": [{
+    "id": 600700
   }]
 }, {
   "funcId": 30003,
