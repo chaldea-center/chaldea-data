@@ -8038,6 +8038,18 @@
   "funcTargetTeam": "playerAndEnemy",
   "funcPopupText": "HP減少"
 }, {
+  "funcId": 710,
+  "funcType": "lossHpSafe",
+  "funcTargetType": "enemy",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "HP減少"
+}, {
+  "funcId": 711,
+  "funcType": "lossHpSafe",
+  "funcTargetType": "enemyAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "HP減少"
+}, {
   "funcId": 712,
   "funcType": "enemyEncountCopyRateUp",
   "funcTargetType": "self",
@@ -18971,6 +18983,12 @@
     "maxRate": 0
   }]
 }, {
+  "funcId": 3962,
+  "funcType": "lossNp",
+  "funcTargetType": "ptOther",
+  "funcTargetTeam": "player",
+  "funcPopupText": "NP減少"
+}, {
   "funcId": 3963,
   "funcType": "addState",
   "funcTargetType": "self",
@@ -21251,6 +21269,12 @@
     "priority": 1,
     "isDispValue": true
   }]
+}, {
+  "funcId": 5061,
+  "funcType": "delayNpturn",
+  "funcTargetType": "ptOther",
+  "funcTargetTeam": "enemy",
+  "funcPopupText": "チャージ減少"
 }, {
   "funcId": 5098,
   "funcType": "eventDropUp",
@@ -25303,6 +25327,15 @@
     "maxRate": 0
   }]
 }, {
+  "funcId": 6026,
+  "funcType": "subState",
+  "funcTargetType": "fieldOther",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "呪い解除",
+  "traitVals": [{
+    "id": 3026
+  }]
+}, {
   "funcId": 6027,
   "funcType": "moveState",
   "funcTargetType": "self",
@@ -29150,6 +29183,12 @@
     "maxRate": 0
   }]
 }, {
+  "funcId": 7413,
+  "funcType": "lossHpSafe",
+  "funcTargetType": "enemyOneNoTargetNoAction",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "HP減少"
+}, {
   "funcId": 7414,
   "funcType": "gainHpFromTargets",
   "funcTargetType": "self",
@@ -31463,6 +31502,15 @@
       "id": 3004
     }],
     "maxRate": 0
+  }]
+}, {
+  "funcId": 8191,
+  "funcType": "subState",
+  "funcTargetType": "ptOther",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "呪い解除",
+  "traitVals": [{
+    "id": 3026
   }]
 }, {
   "funcId": 8192,
