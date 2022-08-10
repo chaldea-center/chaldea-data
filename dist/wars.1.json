@@ -12417,6 +12417,7 @@
         "closedMessage": "第四特異点をクリア＆霊基再臨3段階目＆絆Lv.5で開放"
       }],
       "phases": [1, 2],
+      "phasesWithEnemies": [1, 2],
       "phaseScripts": [{
         "phase": 1,
         "scripts": [{
@@ -58099,7 +58100,7 @@
         "targetId": 601800
       }],
       "phases": [1, 2, 3],
-      "phasesWithEnemies": [1, 3],
+      "phasesWithEnemies": [1, 2, 3],
       "priority": 700090,
       "noticeAt": 1501945200,
       "openedAt": 1501945200,
@@ -59880,6 +59881,7 @@
         "targetId": 601800
       }],
       "phases": [1, 2, 3],
+      "phasesWithEnemies": [1, 2, 3],
       "priority": 94037909,
       "noticeAt": 1565341200,
       "openedAt": 1565341200,
@@ -65183,7 +65185,7 @@
     "y": 0,
     "quests": [{
       "id": 94006801,
-      "name": "日曜 剣の修練場 初級",
+      "name": "日替り 剣の修練場 初級",
       "type": "event",
       "consume": 10,
       "afterClear": "repeatLast",
@@ -65193,8 +65195,8 @@
       "warId": 1002,
       "warLongName": "曜日クエスト",
       "releaseConditions": [{
-        "type": "weekday",
-        "targetId": 0
+        "type": "weekdays",
+        "targetId": 162
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -65204,7 +65206,7 @@
       "closedAt": 1893423600
     }, {
       "id": 94006802,
-      "name": "日曜 剣の修練場 中級",
+      "name": "日替り 剣の修練場 中級",
       "type": "event",
       "consume": 20,
       "afterClear": "repeatLast",
@@ -65214,8 +65216,8 @@
       "warId": 1002,
       "warLongName": "曜日クエスト",
       "releaseConditions": [{
-        "type": "weekday",
-        "targetId": 0
+        "type": "weekdays",
+        "targetId": 162
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -65225,7 +65227,7 @@
       "closedAt": 1893423600
     }, {
       "id": 94006803,
-      "name": "日曜 剣の修練場 上級",
+      "name": "日替り 剣の修練場 上級",
       "type": "event",
       "consume": 30,
       "afterClear": "repeatLast",
@@ -65235,8 +65237,8 @@
       "warId": 1002,
       "warLongName": "曜日クエスト",
       "releaseConditions": [{
-        "type": "weekday",
-        "targetId": 0
+        "type": "weekdays",
+        "targetId": 162
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -65246,7 +65248,7 @@
       "closedAt": 1893423600
     }, {
       "id": 94006804,
-      "name": "日曜 剣の修練場 超級",
+      "name": "日替り 剣の修練場 超級",
       "type": "event",
       "consume": 40,
       "afterClear": "repeatLast",
@@ -65256,8 +65258,8 @@
       "warId": 1002,
       "warLongName": "曜日クエスト",
       "releaseConditions": [{
-        "type": "weekday",
-        "targetId": 0
+        "type": "weekdays",
+        "targetId": 162
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -65267,7 +65269,7 @@
       "closedAt": 1893423600
     }, {
       "id": 94006805,
-      "name": "月曜 弓の修練場 初級",
+      "name": "日替り 弓の修練場 初級",
       "type": "event",
       "consume": 10,
       "afterClear": "repeatLast",
@@ -65277,8 +65279,8 @@
       "warId": 1002,
       "warLongName": "曜日クエスト",
       "releaseConditions": [{
-        "type": "weekday",
-        "targetId": 0
+        "type": "weekdays",
+        "targetId": 134
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -65288,7 +65290,7 @@
       "closedAt": 1893423600
     }, {
       "id": 94006806,
-      "name": "月曜 弓の修練場 中級",
+      "name": "日替り 弓の修練場 中級",
       "type": "event",
       "consume": 20,
       "afterClear": "repeatLast",
@@ -65298,8 +65300,8 @@
       "warId": 1002,
       "warLongName": "曜日クエスト",
       "releaseConditions": [{
-        "type": "weekday",
-        "targetId": 0
+        "type": "weekdays",
+        "targetId": 134
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -65309,7 +65311,7 @@
       "closedAt": 1893423600
     }, {
       "id": 94006807,
-      "name": "月曜 弓の修練場 上級",
+      "name": "日替り 弓の修練場 上級",
       "type": "event",
       "consume": 30,
       "afterClear": "repeatLast",
@@ -65319,8 +65321,8 @@
       "warId": 1002,
       "warLongName": "曜日クエスト",
       "releaseConditions": [{
-        "type": "weekday",
-        "targetId": 0
+        "type": "weekdays",
+        "targetId": 134
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -65330,7 +65332,7 @@
       "closedAt": 1893423600
     }, {
       "id": 94006808,
-      "name": "月曜 弓の修練場 超級",
+      "name": "日替り 弓の修練場 超級",
       "type": "event",
       "consume": 40,
       "afterClear": "repeatLast",
@@ -65340,8 +65342,8 @@
       "warId": 1002,
       "warLongName": "曜日クエスト",
       "releaseConditions": [{
-        "type": "weekday",
-        "targetId": 0
+        "type": "weekdays",
+        "targetId": 134
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -65351,7 +65353,7 @@
       "closedAt": 1893423600
     }, {
       "id": 94006809,
-      "name": "火曜 槍の修練場 初級",
+      "name": "日替り 槍の修練場 初級",
       "type": "event",
       "consume": 10,
       "afterClear": "repeatLast",
@@ -65361,8 +65363,8 @@
       "warId": 1002,
       "warLongName": "曜日クエスト",
       "releaseConditions": [{
-        "type": "weekday",
-        "targetId": 0
+        "type": "weekdays",
+        "targetId": 138
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -65372,7 +65374,7 @@
       "closedAt": 1893423600
     }, {
       "id": 94006810,
-      "name": "火曜 槍の修練場 中級",
+      "name": "日替り 槍の修練場 中級",
       "type": "event",
       "consume": 20,
       "afterClear": "repeatLast",
@@ -65382,8 +65384,8 @@
       "warId": 1002,
       "warLongName": "曜日クエスト",
       "releaseConditions": [{
-        "type": "weekday",
-        "targetId": 0
+        "type": "weekdays",
+        "targetId": 138
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -65393,7 +65395,7 @@
       "closedAt": 1893423600
     }, {
       "id": 94006811,
-      "name": "火曜 槍の修練場 上級",
+      "name": "日替り 槍の修練場 上級",
       "type": "event",
       "consume": 30,
       "afterClear": "repeatLast",
@@ -65403,8 +65405,8 @@
       "warId": 1002,
       "warLongName": "曜日クエスト",
       "releaseConditions": [{
-        "type": "weekday",
-        "targetId": 0
+        "type": "weekdays",
+        "targetId": 138
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -65414,7 +65416,7 @@
       "closedAt": 1893423600
     }, {
       "id": 94006812,
-      "name": "火曜 槍の修練場 超級",
+      "name": "日替り 槍の修練場 超級",
       "type": "event",
       "consume": 40,
       "afterClear": "repeatLast",
@@ -65424,8 +65426,8 @@
       "warId": 1002,
       "warLongName": "曜日クエスト",
       "releaseConditions": [{
-        "type": "weekday",
-        "targetId": 0
+        "type": "weekdays",
+        "targetId": 138
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -65435,7 +65437,7 @@
       "closedAt": 1893423600
     }, {
       "id": 94006813,
-      "name": "水曜 狂の修練場 初級",
+      "name": "日替り 狂の修練場 初級",
       "type": "event",
       "consume": 10,
       "afterClear": "repeatLast",
@@ -65445,8 +65447,8 @@
       "warId": 1002,
       "warLongName": "曜日クエスト",
       "releaseConditions": [{
-        "type": "weekday",
-        "targetId": 0
+        "type": "weekdays",
+        "targetId": 146
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -65456,7 +65458,7 @@
       "closedAt": 1893423600
     }, {
       "id": 94006814,
-      "name": "水曜 狂の修練場 中級",
+      "name": "日替り 狂の修練場 中級",
       "type": "event",
       "consume": 20,
       "afterClear": "repeatLast",
@@ -65466,8 +65468,8 @@
       "warId": 1002,
       "warLongName": "曜日クエスト",
       "releaseConditions": [{
-        "type": "weekday",
-        "targetId": 0
+        "type": "weekdays",
+        "targetId": 146
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -65477,7 +65479,7 @@
       "closedAt": 1893423600
     }, {
       "id": 94006815,
-      "name": "水曜 狂の修練場 上級",
+      "name": "日替り 狂の修練場 上級",
       "type": "event",
       "consume": 30,
       "afterClear": "repeatLast",
@@ -65487,8 +65489,8 @@
       "warId": 1002,
       "warLongName": "曜日クエスト",
       "releaseConditions": [{
-        "type": "weekday",
-        "targetId": 0
+        "type": "weekdays",
+        "targetId": 146
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -65498,7 +65500,7 @@
       "closedAt": 1893423600
     }, {
       "id": 94006816,
-      "name": "水曜 狂の修練場 超級",
+      "name": "日替り 狂の修練場 超級",
       "type": "event",
       "consume": 40,
       "afterClear": "repeatLast",
@@ -65508,8 +65510,8 @@
       "warId": 1002,
       "warLongName": "曜日クエスト",
       "releaseConditions": [{
-        "type": "weekday",
-        "targetId": 0
+        "type": "weekdays",
+        "targetId": 146
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -65519,7 +65521,7 @@
       "closedAt": 1893423600
     }, {
       "id": 94006817,
-      "name": "木曜 騎の修練場 初級",
+      "name": "日替り 騎の修練場 初級",
       "type": "event",
       "consume": 10,
       "afterClear": "repeatLast",
@@ -65529,8 +65531,8 @@
       "warId": 1002,
       "warLongName": "曜日クエスト",
       "releaseConditions": [{
-        "type": "weekday",
-        "targetId": 0
+        "type": "weekdays",
+        "targetId": 162
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -65540,7 +65542,7 @@
       "closedAt": 1893423600
     }, {
       "id": 94006818,
-      "name": "木曜 騎の修練場 中級",
+      "name": "日替り 騎の修練場 中級",
       "type": "event",
       "consume": 20,
       "afterClear": "repeatLast",
@@ -65550,8 +65552,8 @@
       "warId": 1002,
       "warLongName": "曜日クエスト",
       "releaseConditions": [{
-        "type": "weekday",
-        "targetId": 0
+        "type": "weekdays",
+        "targetId": 162
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -65561,7 +65563,7 @@
       "closedAt": 1893423600
     }, {
       "id": 94006819,
-      "name": "木曜 騎の修練場 上級",
+      "name": "日替り 騎の修練場 上級",
       "type": "event",
       "consume": 30,
       "afterClear": "repeatLast",
@@ -65571,8 +65573,8 @@
       "warId": 1002,
       "warLongName": "曜日クエスト",
       "releaseConditions": [{
-        "type": "weekday",
-        "targetId": 0
+        "type": "weekdays",
+        "targetId": 162
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -65582,7 +65584,7 @@
       "closedAt": 1893423600
     }, {
       "id": 94006820,
-      "name": "木曜 騎の修練場 超級",
+      "name": "日替り 騎の修練場 超級",
       "type": "event",
       "consume": 40,
       "afterClear": "repeatLast",
@@ -65592,8 +65594,8 @@
       "warId": 1002,
       "warLongName": "曜日クエスト",
       "releaseConditions": [{
-        "type": "weekday",
-        "targetId": 0
+        "type": "weekdays",
+        "targetId": 162
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -65603,7 +65605,7 @@
       "closedAt": 1893423600
     }, {
       "id": 94006821,
-      "name": "金曜 術の修練場 初級",
+      "name": "日替り 術の修練場 初級",
       "type": "event",
       "consume": 10,
       "afterClear": "repeatLast",
@@ -65613,8 +65615,8 @@
       "warId": 1002,
       "warLongName": "曜日クエスト",
       "releaseConditions": [{
-        "type": "weekday",
-        "targetId": 0
+        "type": "weekdays",
+        "targetId": 194
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -65624,7 +65626,7 @@
       "closedAt": 1893423600
     }, {
       "id": 94006822,
-      "name": "金曜 術の修練場 中級",
+      "name": "日替り 術の修練場 中級",
       "type": "event",
       "consume": 20,
       "afterClear": "repeatLast",
@@ -65634,8 +65636,8 @@
       "warId": 1002,
       "warLongName": "曜日クエスト",
       "releaseConditions": [{
-        "type": "weekday",
-        "targetId": 0
+        "type": "weekdays",
+        "targetId": 194
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -65645,7 +65647,7 @@
       "closedAt": 1893423600
     }, {
       "id": 94006823,
-      "name": "金曜 術の修練場 上級",
+      "name": "日替り 術の修練場 上級",
       "type": "event",
       "consume": 30,
       "afterClear": "repeatLast",
@@ -65655,8 +65657,8 @@
       "warId": 1002,
       "warLongName": "曜日クエスト",
       "releaseConditions": [{
-        "type": "weekday",
-        "targetId": 0
+        "type": "weekdays",
+        "targetId": 194
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -65666,7 +65668,7 @@
       "closedAt": 1893423600
     }, {
       "id": 94006824,
-      "name": "金曜 術の修練場 超級",
+      "name": "日替り 術の修練場 超級",
       "type": "event",
       "consume": 40,
       "afterClear": "repeatLast",
@@ -65676,8 +65678,8 @@
       "warId": 1002,
       "warLongName": "曜日クエスト",
       "releaseConditions": [{
-        "type": "weekday",
-        "targetId": 0
+        "type": "weekdays",
+        "targetId": 194
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -65687,7 +65689,7 @@
       "closedAt": 1893423600
     }, {
       "id": 94006825,
-      "name": "土曜 殺の修練場 初級",
+      "name": "日替り 殺の修練場 初級",
       "type": "event",
       "consume": 10,
       "afterClear": "repeatLast",
@@ -65697,8 +65699,8 @@
       "warId": 1002,
       "warLongName": "曜日クエスト",
       "releaseConditions": [{
-        "type": "weekday",
-        "targetId": 0
+        "type": "weekdays",
+        "targetId": 146
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -65708,7 +65710,7 @@
       "closedAt": 1893423600
     }, {
       "id": 94006826,
-      "name": "土曜 殺の修練場 中級",
+      "name": "日替り 殺の修練場 中級",
       "type": "event",
       "consume": 20,
       "afterClear": "repeatLast",
@@ -65718,8 +65720,8 @@
       "warId": 1002,
       "warLongName": "曜日クエスト",
       "releaseConditions": [{
-        "type": "weekday",
-        "targetId": 0
+        "type": "weekdays",
+        "targetId": 146
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -65729,7 +65731,7 @@
       "closedAt": 1893423600
     }, {
       "id": 94006827,
-      "name": "土曜 殺の修練場 上級",
+      "name": "日替り 殺の修練場 上級",
       "type": "event",
       "consume": 30,
       "afterClear": "repeatLast",
@@ -65739,8 +65741,8 @@
       "warId": 1002,
       "warLongName": "曜日クエスト",
       "releaseConditions": [{
-        "type": "weekday",
-        "targetId": 0
+        "type": "weekdays",
+        "targetId": 146
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -65750,7 +65752,7 @@
       "closedAt": 1893423600
     }, {
       "id": 94006828,
-      "name": "土曜 殺の修練場 超級",
+      "name": "日替り 殺の修練場 超級",
       "type": "event",
       "consume": 40,
       "afterClear": "repeatLast",
@@ -65760,8 +65762,8 @@
       "warId": 1002,
       "warLongName": "曜日クエスト",
       "releaseConditions": [{
-        "type": "weekday",
-        "targetId": 0
+        "type": "weekdays",
+        "targetId": 146
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -65771,7 +65773,7 @@
       "closedAt": 1893423600
     }, {
       "id": 94061601,
-      "name": "月曜 種火集め<殺・槍編> 初級",
+      "name": "日替り 種火集め<殺・槍編> 初級",
       "type": "event",
       "consume": 10,
       "afterClear": "repeatLast",
@@ -65781,8 +65783,8 @@
       "warId": 1002,
       "warLongName": "曜日クエスト",
       "releaseConditions": [{
-        "type": "weekday",
-        "targetId": 0
+        "type": "weekdays",
+        "targetId": 134
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -65792,7 +65794,7 @@
       "closedAt": 1893423600
     }, {
       "id": 94061602,
-      "name": "月曜 種火集め<殺・槍編> 中級",
+      "name": "日替り 種火集め<殺・槍編> 中級",
       "type": "event",
       "consume": 20,
       "afterClear": "repeatLast",
@@ -65802,8 +65804,8 @@
       "warId": 1002,
       "warLongName": "曜日クエスト",
       "releaseConditions": [{
-        "type": "weekday",
-        "targetId": 0
+        "type": "weekdays",
+        "targetId": 134
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -65813,7 +65815,7 @@
       "closedAt": 1893423600
     }, {
       "id": 94061603,
-      "name": "月曜 種火集め<殺・槍編> 上級",
+      "name": "日替り 種火集め<殺・槍編> 上級",
       "type": "event",
       "consume": 30,
       "afterClear": "repeatLast",
@@ -65823,8 +65825,8 @@
       "warId": 1002,
       "warLongName": "曜日クエスト",
       "releaseConditions": [{
-        "type": "weekday",
-        "targetId": 0
+        "type": "weekdays",
+        "targetId": 134
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -65834,7 +65836,7 @@
       "closedAt": 1893423600
     }, {
       "id": 94061604,
-      "name": "月曜 種火集め<殺・槍編> 超級",
+      "name": "日替り 種火集め<殺・槍編> 超級",
       "type": "event",
       "consume": 40,
       "afterClear": "repeatLast",
@@ -65844,8 +65846,8 @@
       "warId": 1002,
       "warLongName": "曜日クエスト",
       "releaseConditions": [{
-        "type": "weekday",
-        "targetId": 0
+        "type": "weekdays",
+        "targetId": 134
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -65855,7 +65857,7 @@
       "closedAt": 1893423600
     }, {
       "id": 94061605,
-      "name": "月曜 種火集め<殺・槍編> 極級",
+      "name": "日替り 種火集め<殺・槍編> 極級",
       "type": "event",
       "consume": 40,
       "afterClear": "repeatLast",
@@ -65865,8 +65867,8 @@
       "warId": 1002,
       "warLongName": "曜日クエスト",
       "releaseConditions": [{
-        "type": "weekday",
-        "targetId": 0
+        "type": "weekdays",
+        "targetId": 134
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -65876,7 +65878,7 @@
       "closedAt": 1893423600
     }, {
       "id": 94061606,
-      "name": "火曜 種火集め<騎・剣編> 初級",
+      "name": "日替り 種火集め<騎・剣編> 初級",
       "type": "event",
       "consume": 10,
       "afterClear": "repeatLast",
@@ -65886,8 +65888,8 @@
       "warId": 1002,
       "warLongName": "曜日クエスト",
       "releaseConditions": [{
-        "type": "weekday",
-        "targetId": 0
+        "type": "weekdays",
+        "targetId": 138
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -65897,7 +65899,7 @@
       "closedAt": 1893423600
     }, {
       "id": 94061607,
-      "name": "火曜 種火集め<騎・剣編> 中級",
+      "name": "日替り 種火集め<騎・剣編> 中級",
       "type": "event",
       "consume": 20,
       "afterClear": "repeatLast",
@@ -65907,8 +65909,8 @@
       "warId": 1002,
       "warLongName": "曜日クエスト",
       "releaseConditions": [{
-        "type": "weekday",
-        "targetId": 0
+        "type": "weekdays",
+        "targetId": 138
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -65918,7 +65920,7 @@
       "closedAt": 1893423600
     }, {
       "id": 94061608,
-      "name": "火曜 種火集め<騎・剣編> 上級",
+      "name": "日替り 種火集め<騎・剣編> 上級",
       "type": "event",
       "consume": 30,
       "afterClear": "repeatLast",
@@ -65928,8 +65930,8 @@
       "warId": 1002,
       "warLongName": "曜日クエスト",
       "releaseConditions": [{
-        "type": "weekday",
-        "targetId": 0
+        "type": "weekdays",
+        "targetId": 138
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -65939,7 +65941,7 @@
       "closedAt": 1893423600
     }, {
       "id": 94061609,
-      "name": "火曜 種火集め<騎・剣編> 超級",
+      "name": "日替り 種火集め<騎・剣編> 超級",
       "type": "event",
       "consume": 40,
       "afterClear": "repeatLast",
@@ -65949,8 +65951,8 @@
       "warId": 1002,
       "warLongName": "曜日クエスト",
       "releaseConditions": [{
-        "type": "weekday",
-        "targetId": 0
+        "type": "weekdays",
+        "targetId": 138
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -65960,7 +65962,7 @@
       "closedAt": 1893423600
     }, {
       "id": 94061610,
-      "name": "火曜 種火集め<騎・剣編> 極級",
+      "name": "日替り 種火集め<騎・剣編> 極級",
       "type": "event",
       "consume": 40,
       "afterClear": "repeatLast",
@@ -65970,8 +65972,8 @@
       "warId": 1002,
       "warLongName": "曜日クエスト",
       "releaseConditions": [{
-        "type": "weekday",
-        "targetId": 0
+        "type": "weekdays",
+        "targetId": 138
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -65981,7 +65983,7 @@
       "closedAt": 1893423600
     }, {
       "id": 94061611,
-      "name": "水曜 種火集め<術・弓編> 初級",
+      "name": "日替り 種火集め<術・弓編> 初級",
       "type": "event",
       "consume": 10,
       "afterClear": "repeatLast",
@@ -65991,8 +65993,8 @@
       "warId": 1002,
       "warLongName": "曜日クエスト",
       "releaseConditions": [{
-        "type": "weekday",
-        "targetId": 0
+        "type": "weekdays",
+        "targetId": 146
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -66002,7 +66004,7 @@
       "closedAt": 1893423600
     }, {
       "id": 94061612,
-      "name": "水曜 種火集め<術・弓編> 中級",
+      "name": "日替り 種火集め<術・弓編> 中級",
       "type": "event",
       "consume": 20,
       "afterClear": "repeatLast",
@@ -66012,8 +66014,8 @@
       "warId": 1002,
       "warLongName": "曜日クエスト",
       "releaseConditions": [{
-        "type": "weekday",
-        "targetId": 0
+        "type": "weekdays",
+        "targetId": 146
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -66023,7 +66025,7 @@
       "closedAt": 1893423600
     }, {
       "id": 94061613,
-      "name": "水曜 種火集め<術・弓編> 上級",
+      "name": "日替り 種火集め<術・弓編> 上級",
       "type": "event",
       "consume": 30,
       "afterClear": "repeatLast",
@@ -66033,8 +66035,8 @@
       "warId": 1002,
       "warLongName": "曜日クエスト",
       "releaseConditions": [{
-        "type": "weekday",
-        "targetId": 0
+        "type": "weekdays",
+        "targetId": 146
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -66044,7 +66046,7 @@
       "closedAt": 1893423600
     }, {
       "id": 94061614,
-      "name": "水曜 種火集め<術・弓編> 超級",
+      "name": "日替り 種火集め<術・弓編> 超級",
       "type": "event",
       "consume": 40,
       "afterClear": "repeatLast",
@@ -66054,8 +66056,8 @@
       "warId": 1002,
       "warLongName": "曜日クエスト",
       "releaseConditions": [{
-        "type": "weekday",
-        "targetId": 0
+        "type": "weekdays",
+        "targetId": 146
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -66065,7 +66067,7 @@
       "closedAt": 1893423600
     }, {
       "id": 94061615,
-      "name": "水曜 種火集め<術・弓編> 極級",
+      "name": "日替り 種火集め<術・弓編> 極級",
       "type": "event",
       "consume": 40,
       "afterClear": "repeatLast",
@@ -66075,8 +66077,8 @@
       "warId": 1002,
       "warLongName": "曜日クエスト",
       "releaseConditions": [{
-        "type": "weekday",
-        "targetId": 0
+        "type": "weekdays",
+        "targetId": 146
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -66086,7 +66088,7 @@
       "closedAt": 1893423600
     }, {
       "id": 94061616,
-      "name": "木曜 種火集め<槍・殺編> 初級",
+      "name": "日替り 種火集め<槍・殺編> 初級",
       "type": "event",
       "consume": 10,
       "afterClear": "repeatLast",
@@ -66096,8 +66098,8 @@
       "warId": 1002,
       "warLongName": "曜日クエスト",
       "releaseConditions": [{
-        "type": "weekday",
-        "targetId": 0
+        "type": "weekdays",
+        "targetId": 162
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -66107,7 +66109,7 @@
       "closedAt": 1893423600
     }, {
       "id": 94061617,
-      "name": "木曜 種火集め<槍・殺編> 中級",
+      "name": "日替り 種火集め<槍・殺編> 中級",
       "type": "event",
       "consume": 20,
       "afterClear": "repeatLast",
@@ -66117,8 +66119,8 @@
       "warId": 1002,
       "warLongName": "曜日クエスト",
       "releaseConditions": [{
-        "type": "weekday",
-        "targetId": 0
+        "type": "weekdays",
+        "targetId": 162
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -66128,7 +66130,7 @@
       "closedAt": 1893423600
     }, {
       "id": 94061618,
-      "name": "木曜 種火集め<槍・殺編> 上級",
+      "name": "日替り 種火集め<槍・殺編> 上級",
       "type": "event",
       "consume": 30,
       "afterClear": "repeatLast",
@@ -66138,8 +66140,8 @@
       "warId": 1002,
       "warLongName": "曜日クエスト",
       "releaseConditions": [{
-        "type": "weekday",
-        "targetId": 0
+        "type": "weekdays",
+        "targetId": 162
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -66149,7 +66151,7 @@
       "closedAt": 1893423600
     }, {
       "id": 94061619,
-      "name": "木曜 種火集め<槍・殺編> 超級",
+      "name": "日替り 種火集め<槍・殺編> 超級",
       "type": "event",
       "consume": 40,
       "afterClear": "repeatLast",
@@ -66159,8 +66161,8 @@
       "warId": 1002,
       "warLongName": "曜日クエスト",
       "releaseConditions": [{
-        "type": "weekday",
-        "targetId": 0
+        "type": "weekdays",
+        "targetId": 162
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -66170,7 +66172,7 @@
       "closedAt": 1893423600
     }, {
       "id": 94061620,
-      "name": "木曜 種火集め<槍・殺編> 極級",
+      "name": "日替り 種火集め<槍・殺編> 極級",
       "type": "event",
       "consume": 40,
       "afterClear": "repeatLast",
@@ -66180,8 +66182,8 @@
       "warId": 1002,
       "warLongName": "曜日クエスト",
       "releaseConditions": [{
-        "type": "weekday",
-        "targetId": 0
+        "type": "weekdays",
+        "targetId": 162
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -66191,7 +66193,7 @@
       "closedAt": 1893423600
     }, {
       "id": 94061621,
-      "name": "金曜 種火集め<剣・騎編> 初級",
+      "name": "日替り 種火集め<剣・騎編> 初級",
       "type": "event",
       "consume": 10,
       "afterClear": "repeatLast",
@@ -66201,8 +66203,8 @@
       "warId": 1002,
       "warLongName": "曜日クエスト",
       "releaseConditions": [{
-        "type": "weekday",
-        "targetId": 0
+        "type": "weekdays",
+        "targetId": 194
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -66212,7 +66214,7 @@
       "closedAt": 1893423600
     }, {
       "id": 94061622,
-      "name": "金曜 種火集め<剣・騎編> 中級",
+      "name": "日替り 種火集め<剣・騎編> 中級",
       "type": "event",
       "consume": 20,
       "afterClear": "repeatLast",
@@ -66222,8 +66224,8 @@
       "warId": 1002,
       "warLongName": "曜日クエスト",
       "releaseConditions": [{
-        "type": "weekday",
-        "targetId": 0
+        "type": "weekdays",
+        "targetId": 194
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -66233,7 +66235,7 @@
       "closedAt": 1893423600
     }, {
       "id": 94061623,
-      "name": "金曜 種火集め<剣・騎編> 上級",
+      "name": "日替り 種火集め<剣・騎編> 上級",
       "type": "event",
       "consume": 30,
       "afterClear": "repeatLast",
@@ -66243,8 +66245,8 @@
       "warId": 1002,
       "warLongName": "曜日クエスト",
       "releaseConditions": [{
-        "type": "weekday",
-        "targetId": 0
+        "type": "weekdays",
+        "targetId": 194
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -66254,7 +66256,7 @@
       "closedAt": 1893423600
     }, {
       "id": 94061624,
-      "name": "金曜 種火集め<剣・騎編> 超級",
+      "name": "日替り 種火集め<剣・騎編> 超級",
       "type": "event",
       "consume": 40,
       "afterClear": "repeatLast",
@@ -66264,8 +66266,8 @@
       "warId": 1002,
       "warLongName": "曜日クエスト",
       "releaseConditions": [{
-        "type": "weekday",
-        "targetId": 0
+        "type": "weekdays",
+        "targetId": 194
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -66275,7 +66277,7 @@
       "closedAt": 1893423600
     }, {
       "id": 94061625,
-      "name": "金曜 種火集め<剣・騎編> 極級",
+      "name": "日替り 種火集め<剣・騎編> 極級",
       "type": "event",
       "consume": 40,
       "afterClear": "repeatLast",
@@ -66285,8 +66287,8 @@
       "warId": 1002,
       "warLongName": "曜日クエスト",
       "releaseConditions": [{
-        "type": "weekday",
-        "targetId": 0
+        "type": "weekdays",
+        "targetId": 194
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -66296,7 +66298,7 @@
       "closedAt": 1893423600
     }, {
       "id": 94061626,
-      "name": "土曜 種火集め<弓・術編> 初級",
+      "name": "日替り 種火集め<弓・術編> 初級",
       "type": "event",
       "consume": 10,
       "afterClear": "repeatLast",
@@ -66306,8 +66308,8 @@
       "warId": 1002,
       "warLongName": "曜日クエスト",
       "releaseConditions": [{
-        "type": "weekday",
-        "targetId": 0
+        "type": "weekdays",
+        "targetId": 138
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -66317,7 +66319,7 @@
       "closedAt": 1893423600
     }, {
       "id": 94061627,
-      "name": "土曜 種火集め<弓・術編> 中級",
+      "name": "日替り 種火集め<弓・術編> 中級",
       "type": "event",
       "consume": 20,
       "afterClear": "repeatLast",
@@ -66327,8 +66329,8 @@
       "warId": 1002,
       "warLongName": "曜日クエスト",
       "releaseConditions": [{
-        "type": "weekday",
-        "targetId": 0
+        "type": "weekdays",
+        "targetId": 138
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -66338,7 +66340,7 @@
       "closedAt": 1893423600
     }, {
       "id": 94061628,
-      "name": "土曜 種火集め<弓・術編> 上級",
+      "name": "日替り 種火集め<弓・術編> 上級",
       "type": "event",
       "consume": 30,
       "afterClear": "repeatLast",
@@ -66348,8 +66350,8 @@
       "warId": 1002,
       "warLongName": "曜日クエスト",
       "releaseConditions": [{
-        "type": "weekday",
-        "targetId": 0
+        "type": "weekdays",
+        "targetId": 138
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -66359,7 +66361,7 @@
       "closedAt": 1893423600
     }, {
       "id": 94061629,
-      "name": "土曜 種火集め<弓・術編> 超級",
+      "name": "日替り 種火集め<弓・術編> 超級",
       "type": "event",
       "consume": 40,
       "afterClear": "repeatLast",
@@ -66369,8 +66371,8 @@
       "warId": 1002,
       "warLongName": "曜日クエスト",
       "releaseConditions": [{
-        "type": "weekday",
-        "targetId": 0
+        "type": "weekdays",
+        "targetId": 138
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -66380,7 +66382,7 @@
       "closedAt": 1893423600
     }, {
       "id": 94061630,
-      "name": "土曜 種火集め<弓・術編> 極級",
+      "name": "日替り 種火集め<弓・術編> 極級",
       "type": "event",
       "consume": 40,
       "afterClear": "repeatLast",
@@ -66390,8 +66392,8 @@
       "warId": 1002,
       "warLongName": "曜日クエスト",
       "releaseConditions": [{
-        "type": "weekday",
-        "targetId": 0
+        "type": "weekdays",
+        "targetId": 138
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -66401,7 +66403,7 @@
       "closedAt": 1893423600
     }, {
       "id": 94061631,
-      "name": "日曜 種火集め<ランダム編> 初級",
+      "name": "日替り 種火集め<ランダム編> 初級",
       "type": "event",
       "consume": 10,
       "afterClear": "repeatLast",
@@ -66411,8 +66413,8 @@
       "warId": 1002,
       "warLongName": "曜日クエスト",
       "releaseConditions": [{
-        "type": "weekday",
-        "targetId": 0
+        "type": "weekdays",
+        "targetId": 130
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -66422,7 +66424,7 @@
       "closedAt": 1893423600
     }, {
       "id": 94061632,
-      "name": "日曜 種火集め<ランダム編> 中級",
+      "name": "日替り 種火集め<ランダム編> 中級",
       "type": "event",
       "consume": 20,
       "afterClear": "repeatLast",
@@ -66432,8 +66434,8 @@
       "warId": 1002,
       "warLongName": "曜日クエスト",
       "releaseConditions": [{
-        "type": "weekday",
-        "targetId": 0
+        "type": "weekdays",
+        "targetId": 130
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -66443,7 +66445,7 @@
       "closedAt": 1893423600
     }, {
       "id": 94061633,
-      "name": "日曜 種火集め<ランダム編> 上級",
+      "name": "日替り 種火集め<ランダム編> 上級",
       "type": "event",
       "consume": 30,
       "afterClear": "repeatLast",
@@ -66453,8 +66455,8 @@
       "warId": 1002,
       "warLongName": "曜日クエスト",
       "releaseConditions": [{
-        "type": "weekday",
-        "targetId": 0
+        "type": "weekdays",
+        "targetId": 130
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -66464,7 +66466,7 @@
       "closedAt": 1893423600
     }, {
       "id": 94061634,
-      "name": "日曜 種火集め<ランダム編> 超級",
+      "name": "日替り 種火集め<ランダム編> 超級",
       "type": "event",
       "consume": 40,
       "afterClear": "repeatLast",
@@ -66474,8 +66476,8 @@
       "warId": 1002,
       "warLongName": "曜日クエスト",
       "releaseConditions": [{
-        "type": "weekday",
-        "targetId": 0
+        "type": "weekdays",
+        "targetId": 130
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -66485,7 +66487,7 @@
       "closedAt": 1893423600
     }, {
       "id": 94061635,
-      "name": "日曜 種火集め<ランダム編> 極級",
+      "name": "日替り 種火集め<ランダム編> 極級",
       "type": "event",
       "consume": 40,
       "afterClear": "repeatLast",
@@ -66495,8 +66497,8 @@
       "warId": 1002,
       "warLongName": "曜日クエスト",
       "releaseConditions": [{
-        "type": "weekday",
-        "targetId": 0
+        "type": "weekdays",
+        "targetId": 130
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -66616,7 +66618,7 @@
       "closedAt": 1893423600
     }, {
       "id": 94066101,
-      "name": "月曜 弓の修練場 極級",
+      "name": "日替り 弓の修練場 極級",
       "type": "event",
       "consume": 40,
       "afterClear": "repeatLast",
@@ -66626,8 +66628,8 @@
       "warId": 1002,
       "warLongName": "曜日クエスト",
       "releaseConditions": [{
-        "type": "weekday",
-        "targetId": 0
+        "type": "weekdays",
+        "targetId": 134
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -66637,7 +66639,7 @@
       "closedAt": 1893423600
     }, {
       "id": 94066102,
-      "name": "火曜 槍の修練場 極級",
+      "name": "日替り 槍の修練場 極級",
       "type": "event",
       "consume": 40,
       "afterClear": "repeatLast",
@@ -66647,8 +66649,8 @@
       "warId": 1002,
       "warLongName": "曜日クエスト",
       "releaseConditions": [{
-        "type": "weekday",
-        "targetId": 0
+        "type": "weekdays",
+        "targetId": 138
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -66658,7 +66660,7 @@
       "closedAt": 1893423600
     }, {
       "id": 94066103,
-      "name": "水曜 狂の修練場 極級",
+      "name": "日替り 狂の修練場 極級",
       "type": "event",
       "consume": 40,
       "afterClear": "repeatLast",
@@ -66668,8 +66670,8 @@
       "warId": 1002,
       "warLongName": "曜日クエスト",
       "releaseConditions": [{
-        "type": "weekday",
-        "targetId": 0
+        "type": "weekdays",
+        "targetId": 146
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -66679,7 +66681,7 @@
       "closedAt": 1893423600
     }, {
       "id": 94066104,
-      "name": "木曜 騎の修練場 極級",
+      "name": "日替り 騎の修練場 極級",
       "type": "event",
       "consume": 40,
       "afterClear": "repeatLast",
@@ -66689,8 +66691,8 @@
       "warId": 1002,
       "warLongName": "曜日クエスト",
       "releaseConditions": [{
-        "type": "weekday",
-        "targetId": 0
+        "type": "weekdays",
+        "targetId": 162
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -66700,7 +66702,7 @@
       "closedAt": 1893423600
     }, {
       "id": 94066105,
-      "name": "金曜 術の修練場 極級",
+      "name": "日替り 術の修練場 極級",
       "type": "event",
       "consume": 40,
       "afterClear": "repeatLast",
@@ -66710,8 +66712,8 @@
       "warId": 1002,
       "warLongName": "曜日クエスト",
       "releaseConditions": [{
-        "type": "weekday",
-        "targetId": 0
+        "type": "weekdays",
+        "targetId": 194
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -66721,7 +66723,7 @@
       "closedAt": 1893423600
     }, {
       "id": 94066106,
-      "name": "土曜 殺の修練場 極級",
+      "name": "日替り 殺の修練場 極級",
       "type": "event",
       "consume": 40,
       "afterClear": "repeatLast",
@@ -66731,8 +66733,8 @@
       "warId": 1002,
       "warLongName": "曜日クエスト",
       "releaseConditions": [{
-        "type": "weekday",
-        "targetId": 0
+        "type": "weekdays",
+        "targetId": 146
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -66742,7 +66744,7 @@
       "closedAt": 1893423600
     }, {
       "id": 94066107,
-      "name": "日曜 剣の修練場 極級",
+      "name": "日替り 剣の修練場 極級",
       "type": "event",
       "consume": 40,
       "afterClear": "repeatLast",
@@ -66752,8 +66754,8 @@
       "warId": 1002,
       "warLongName": "曜日クエスト",
       "releaseConditions": [{
-        "type": "weekday",
-        "targetId": 0
+        "type": "weekdays",
+        "targetId": 162
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -83112,35 +83114,6 @@
       "noticeAt": 1652864400,
       "openedAt": 1652864400,
       "closedAt": 1654660799
-    }, {
-      "id": 94074121,
-      "name": "アーキタイプ：アース体験クエスト",
-      "type": "event",
-      "consume": 5,
-      "afterClear": "close",
-      "recommendLv": "15",
-      "spotId": 999999,
-      "spotName": "カルデアゲート",
-      "warId": 9999,
-      "warLongName": "カルデアゲート",
-      "gifts": [{
-        "objectId": 4001,
-        "num": 1
-      }],
-      "releaseConditions": [{
-        "type": "questClear",
-        "targetId": 1000011,
-        "closedMessage": "{0}をクリアで開放"
-      }, {
-        "type": "date",
-        "targetId": 0
-      }],
-      "phases": [1],
-      "phasesWithEnemies": [1],
-      "priority": 94074121,
-      "noticeAt": 1659259800,
-      "openedAt": 1659259800,
-      "closedAt": 1660103999
     }, {
       "id": 94074401,
       "name": "スケルトン・ハント 開位級",
