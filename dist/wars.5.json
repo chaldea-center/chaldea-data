@@ -73666,4 +73666,724 @@
     }]
   }],
   "spotRoads": []
+}, {
+  "id": 9143,
+  "coordinates": [
+    [83.695, 18.62],
+    [73.71725, 17.062782]
+  ],
+  "age": "-",
+  "name": "北極魔園観光アークティック・サマーワールド",
+  "longName": "北極魔園観光アークティック・サマーワールド",
+  "originalLongName": "北極魔園観光アークティック・サマーワールド",
+  "flags": ["isEvent", "noClearMarkWithComplete"],
+  "banner": "https://static.atlasacademy.io/JP/Banner/event_war_80378.png",
+  "priority": 9143,
+  "bgm": {
+    "id": 0
+  },
+  "scriptId": "NONE",
+  "script": "https://static.atlasacademy.io/JP/Script/Common/NONE.txt",
+  "startType": "none",
+  "targetId": 0,
+  "eventId": 80384,
+  "eventName": "アークティック・サマーワールド！\n～カルデア真夏の魔園観光～",
+  "lastQuestId": 0,
+  "warAdds": [{
+    "warId": 9143,
+    "type": "flag",
+    "priority": 2,
+    "overwriteId": 2082,
+    "condType": "questClearPhase",
+    "targetId": 94073601,
+    "value": 3,
+    "startedAt": 1660132800,
+    "endedAt": 1893423600
+  }],
+  "maps": [{
+    "id": 9143,
+    "mapImage": "https://static.atlasacademy.io/JP/Terminal/MapImgs/img_questmap_009143/img_questmap_009143.png",
+    "mapImageW": 2048,
+    "mapImageH": 2048,
+    "bgm": {
+      "id": 0
+    }
+  }],
+  "spots": [{
+    "id": 914301,
+    "mapId": 9143,
+    "name": "極北楽園郊外",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9143/QMap_Cap9143_Atlas/spot_914301.png",
+    "x": 1743,
+    "y": 1697,
+    "nameOfsY": -5,
+    "questOfsX": 37,
+    "questOfsY": -60
+  }, {
+    "id": 914302,
+    "joinSpotIds": [914320],
+    "mapId": 9143,
+    "name": "フラワーパーク",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9143/QMap_Cap9143_Atlas/spot_914302.png",
+    "x": 1572,
+    "y": 1428,
+    "nameOfsY": -5,
+    "questOfsX": 34,
+    "questOfsY": -79,
+    "quests": [{
+      "id": 94073801,
+      "name": "キャスト体験！ フラワーパークの案内人！",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 30,
+      "afterClear": "repeatLast",
+      "recommendLv": "20",
+      "spotId": 914302,
+      "spotName": "フラワーパーク",
+      "warId": 9143,
+      "warLongName": "北極魔園観光アークティック・サマーワールド",
+      "gifts": [{
+        "objectId": 102,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94073602
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "priority": 94073798,
+      "noticeAt": 1660132800,
+      "openedAt": 1660132800,
+      "closedAt": 1661918399
+    }, {
+      "id": 94073802,
+      "name": "キャスト体験！ フラワーパークを手入れしよう！",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 35,
+      "afterClear": "repeatLast",
+      "recommendLv": "30",
+      "spotId": 914302,
+      "spotName": "フラワーパーク",
+      "warId": 9143,
+      "warLongName": "北極魔園観光アークティック・サマーワールド",
+      "gifts": [{
+        "objectId": 102,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94073602
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "priority": 94073797,
+      "noticeAt": 1660132800,
+      "openedAt": 1660132800,
+      "closedAt": 1661918399
+    }]
+  }, {
+    "id": 914303,
+    "mapId": 9143,
+    "name": "歩く樹木の森",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9143/QMap_Cap9143_Atlas/spot_914303.png",
+    "x": 1255,
+    "y": 1432,
+    "nameOfsY": -9,
+    "questOfsX": 35,
+    "questOfsY": -91,
+    "quests": [{
+      "id": 94073803,
+      "name": "キャスト体験！ 歩く樹木のパレード整理！",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "40",
+      "spotId": 914303,
+      "spotName": "歩く樹木の森",
+      "warId": 9143,
+      "warLongName": "北極魔園観光アークティック・サマーワールド",
+      "gifts": [{
+        "objectId": 101,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94073602
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "priority": 94073796,
+      "noticeAt": 1660132800,
+      "openedAt": 1660132800,
+      "closedAt": 1661918399
+    }]
+  }, {
+    "id": 914304,
+    "joinSpotIds": [914321],
+    "mapId": 9143,
+    "name": "わくわくエリセランド",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9143/QMap_Cap9143_Atlas/spot_914304.png",
+    "x": 698,
+    "y": 1641,
+    "nameOfsY": -1,
+    "questOfsX": 38,
+    "questOfsY": -64,
+    "quests": [{
+      "id": 94073603,
+      "name": "",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "20",
+      "spotId": 914304,
+      "spotName": "わくわくエリセランド",
+      "warId": 9143,
+      "warLongName": "北極魔園観光アークティック・サマーワールド",
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94073602
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "来園者数ポイント2,000以上＆8月11日18時以降に開放"
+      }, {
+        "type": "eventTotalPoint",
+        "targetId": 80384,
+        "value": 2000,
+        "closedMessage": "来園者数ポイント2,000以上で開放"
+      }, {
+        "type": "forceFalse",
+        "targetId": 0,
+        "closedMessage": "データ更新後に開放"
+      }],
+      "phases": [1, 2, 3, 4],
+      "phasesNoBattle": [1],
+      "priority": 94073996,
+      "noticeAt": 1660132800,
+      "openedAt": 1660208400,
+      "closedAt": 1661918399
+    }]
+  }, {
+    "id": 914311,
+    "mapId": 9143,
+    "name": "氷の大地",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9143/QMap_Cap9143_Atlas/spot_914311.png",
+    "x": 1682,
+    "y": 1589,
+    "nameOfsY": -5,
+    "questOfsX": 30,
+    "questOfsY": -60,
+    "quests": [{
+      "id": 94073602,
+      "name": "第1節 ひみつのアヴァロン",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "15",
+      "spotId": 914311,
+      "spotName": "氷の大地",
+      "warId": 9143,
+      "warLongName": "北極魔園観光アークティック・サマーワールド",
+      "gifts": [{
+        "type": "servant",
+        "objectId": 9406310,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94073601
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1, 2, 3, 4],
+      "phasesWithEnemies": [2],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9407360210",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407360210.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9407360220",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407360220.txt"
+        }, {
+          "scriptId": "9407360221",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407360221.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9407360230",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407360230.txt"
+        }, {
+          "scriptId": "9407360231",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407360231.txt"
+        }]
+      }, {
+        "phase": 4,
+        "scripts": [{
+          "scriptId": "9407360240",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407360240.txt"
+        }, {
+          "scriptId": "9407360241",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407360241.txt"
+        }]
+      }],
+      "priority": 94073997,
+      "noticeAt": 1660132800,
+      "openedAt": 1660132800,
+      "closedAt": 1661918399
+    }]
+  }, {
+    "id": 914320,
+    "mapId": 9143,
+    "name": "フラワーパーク",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9143/QMap_Cap9143_Atlas/spot_914302.png",
+    "x": 1572,
+    "y": -1572,
+    "nameOfsY": -5,
+    "questOfsX": 34,
+    "questOfsY": -79,
+    "quests": [{
+      "id": 94074001,
+      "name": "【エリア改良】フラワーパークを改良する Lv.2",
+      "type": "event",
+      "flags": ["noBattle", "hideProgress", "displayConsumeIcon"],
+      "consumeType": "item",
+      "consume": 0,
+      "consumeItem": [{
+        "itemId": 94073604,
+        "amount": 20
+      }],
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 914320,
+      "spotName": "フラワーパーク",
+      "warId": 9143,
+      "warLongName": "北極魔園観光アークティック・サマーワールド",
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94073602
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94073698,
+      "noticeAt": 1660132800,
+      "openedAt": 1660132800,
+      "closedAt": 1661918399
+    }, {
+      "id": 94074002,
+      "name": "【エリア改良】フラワーパークを改良する Lv.3",
+      "type": "event",
+      "flags": ["noBattle", "hideProgress", "displayConsumeIcon"],
+      "consumeType": "item",
+      "consume": 0,
+      "consumeItem": [{
+        "itemId": 94073604,
+        "amount": 20
+      }],
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 914320,
+      "spotName": "フラワーパーク",
+      "warId": 9143,
+      "warLongName": "北極魔園観光アークティック・サマーワールド",
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94074001
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94073697,
+      "noticeAt": 1660132800,
+      "openedAt": 1660132800,
+      "closedAt": 1661918399
+    }, {
+      "id": 94074003,
+      "name": "【エリア改良】フラワーパークを改良する Lv.4",
+      "type": "event",
+      "flags": ["noBattle", "hideProgress", "displayConsumeIcon"],
+      "consumeType": "item",
+      "consume": 0,
+      "consumeItem": [{
+        "itemId": 94073604,
+        "amount": 20
+      }],
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 914320,
+      "spotName": "フラワーパーク",
+      "warId": 9143,
+      "warLongName": "北極魔園観光アークティック・サマーワールド",
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94074002
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94073696,
+      "noticeAt": 1660132800,
+      "openedAt": 1660132800,
+      "closedAt": 1661918399
+    }, {
+      "id": 94074004,
+      "name": "【エリア改良】フラワーパークを改良する Lv.5",
+      "type": "event",
+      "flags": ["noBattle", "hideProgress", "displayConsumeIcon"],
+      "consumeType": "item",
+      "consume": 0,
+      "consumeItem": [{
+        "itemId": 94073604,
+        "amount": 20
+      }],
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 914320,
+      "spotName": "フラワーパーク",
+      "warId": 9143,
+      "warLongName": "北極魔園観光アークティック・サマーワールド",
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94074003
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94073695,
+      "noticeAt": 1660132800,
+      "openedAt": 1660132800,
+      "closedAt": 1661918399
+    }, {
+      "id": 94074005,
+      "name": "【エリア改良】フラワーパークを改良する Lv.6",
+      "type": "event",
+      "flags": ["noBattle", "hideProgress", "displayConsumeIcon"],
+      "consumeType": "item",
+      "consume": 0,
+      "consumeItem": [{
+        "itemId": 94073604,
+        "amount": 20
+      }],
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 914320,
+      "spotName": "フラワーパーク",
+      "warId": 9143,
+      "warLongName": "北極魔園観光アークティック・サマーワールド",
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94074004
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94073694,
+      "noticeAt": 1660132800,
+      "openedAt": 1660132800,
+      "closedAt": 1661918399
+    }, {
+      "id": 94074006,
+      "name": "【エリア改良】フラワーパークを改良する Lv.7",
+      "type": "event",
+      "flags": ["noBattle", "hideProgress", "displayConsumeIcon"],
+      "consumeType": "item",
+      "consume": 0,
+      "consumeItem": [{
+        "itemId": 94073604,
+        "amount": 20
+      }],
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 914320,
+      "spotName": "フラワーパーク",
+      "warId": 9143,
+      "warLongName": "北極魔園観光アークティック・サマーワールド",
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94074005
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94073693,
+      "noticeAt": 1660132800,
+      "openedAt": 1660132800,
+      "closedAt": 1661918399
+    }, {
+      "id": 94074007,
+      "name": "【エリア改良】フラワーパークを改良する Lv.8",
+      "type": "event",
+      "flags": ["noBattle", "hideProgress", "displayConsumeIcon"],
+      "consumeType": "item",
+      "consume": 0,
+      "consumeItem": [{
+        "itemId": 94073604,
+        "amount": 20
+      }],
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 914320,
+      "spotName": "フラワーパーク",
+      "warId": 9143,
+      "warLongName": "北極魔園観光アークティック・サマーワールド",
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94074006
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94073692,
+      "noticeAt": 1660132800,
+      "openedAt": 1660132800,
+      "closedAt": 1661918399
+    }, {
+      "id": 94074008,
+      "name": "【エリア改良】フラワーパークを改良する Lv.9",
+      "type": "event",
+      "flags": ["noBattle", "hideProgress", "displayConsumeIcon"],
+      "consumeType": "item",
+      "consume": 0,
+      "consumeItem": [{
+        "itemId": 94073604,
+        "amount": 20
+      }],
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 914320,
+      "spotName": "フラワーパーク",
+      "warId": 9143,
+      "warLongName": "北極魔園観光アークティック・サマーワールド",
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94074007
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94073691,
+      "noticeAt": 1660132800,
+      "openedAt": 1660132800,
+      "closedAt": 1661918399
+    }, {
+      "id": 94074009,
+      "name": "【エリア改良】フラワーパークを改良する Lv.10",
+      "type": "event",
+      "flags": ["noBattle", "hideProgress", "displayConsumeIcon"],
+      "consumeType": "item",
+      "consume": 0,
+      "consumeItem": [{
+        "itemId": 94073604,
+        "amount": 20
+      }],
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 914320,
+      "spotName": "フラワーパーク",
+      "warId": 9143,
+      "warLongName": "北極魔園観光アークティック・サマーワールド",
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94074008
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94073690,
+      "noticeAt": 1660132800,
+      "openedAt": 1660132800,
+      "closedAt": 1661918399
+    }]
+  }, {
+    "id": 914321,
+    "mapId": 9143,
+    "name": "わくわくエリセランド",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9143/QMap_Cap9143_Atlas/spot_914304.png",
+    "x": 698,
+    "y": -1359,
+    "nameOfsY": -1,
+    "questOfsX": 38,
+    "questOfsY": -64
+  }, {
+    "id": 914399,
+    "mapId": 9143,
+    "name": "",
+    "x": 999999,
+    "y": 999999,
+    "nameOfsY": 3,
+    "questOfsX": 41,
+    "questOfsY": -71,
+    "quests": [{
+      "id": 94073601,
+      "name": "オープニング アークティック・サーヴァンツ",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 914399,
+      "spotName": "",
+      "warId": 9143,
+      "warLongName": "北極魔園観光アークティック・サマーワールド",
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 1000011
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1, 2, 3, 4],
+      "phasesNoBattle": [1, 2, 3, 4],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9407360110",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407360110.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9407360120",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407360120.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9407360130",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407360130.txt"
+        }]
+      }, {
+        "phase": 4,
+        "scripts": [{
+          "scriptId": "9407360140",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407360140.txt"
+        }]
+      }],
+      "priority": 94073998,
+      "noticeAt": 1660132800,
+      "openedAt": 1660132800,
+      "closedAt": 1661918399
+    }]
+  }],
+  "spotRoads": [{
+    "id": 914301,
+    "warId": 9143,
+    "mapId": 9143,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9143/QMap_Cap9143_Atlas/img_road9143_00.png",
+    "srcSpotId": 914301,
+    "dstSpotId": 914311,
+    "dispCondType": "useItemTime",
+    "dispTargetId": 0,
+    "dispTargetValue": 0,
+    "dispCondType2": "useItemTime",
+    "dispTargetId2": 0,
+    "dispTargetValue2": 0,
+    "activeCondType": "questClear",
+    "activeTargetId": 0,
+    "activeTargetValue": 0
+  }, {
+    "id": 914302,
+    "warId": 9143,
+    "mapId": 9143,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9143/QMap_Cap9143_Atlas/img_road9143_00.png",
+    "srcSpotId": 914311,
+    "dstSpotId": 914302,
+    "dispCondType": "useItemTime",
+    "dispTargetId": 0,
+    "dispTargetValue": 0,
+    "dispCondType2": "useItemTime",
+    "dispTargetId2": 0,
+    "dispTargetValue2": 0,
+    "activeCondType": "questClear",
+    "activeTargetId": 0,
+    "activeTargetValue": 0
+  }, {
+    "id": 914303,
+    "warId": 9143,
+    "mapId": 9143,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9143/QMap_Cap9143_Atlas/img_road9143_00.png",
+    "srcSpotId": 914302,
+    "dstSpotId": 914303,
+    "dispCondType": "useItemTime",
+    "dispTargetId": 0,
+    "dispTargetValue": 0,
+    "dispCondType2": "useItemTime",
+    "dispTargetId2": 0,
+    "dispTargetValue2": 0,
+    "activeCondType": "questClear",
+    "activeTargetId": 0,
+    "activeTargetValue": 0
+  }, {
+    "id": 914304,
+    "warId": 9143,
+    "mapId": 9143,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9143/QMap_Cap9143_Atlas/img_road9143_00.png",
+    "srcSpotId": 914303,
+    "dstSpotId": 914304,
+    "dispCondType": "useItemTime",
+    "dispTargetId": 0,
+    "dispTargetValue": 0,
+    "dispCondType2": "useItemTime",
+    "dispTargetId2": 0,
+    "dispTargetValue2": 0,
+    "activeCondType": "questClear",
+    "activeTargetId": 0,
+    "activeTargetValue": 0
+  }]
 }]

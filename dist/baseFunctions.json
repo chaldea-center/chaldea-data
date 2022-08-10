@@ -33273,6 +33273,10 @@
   "funcTargetTeam": "playerAndEnemy",
   "funcPopupText": "豚化",
   "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_548.png",
+  "functvals": [{
+    "id": 2835,
+    "negative": true
+  }],
   "buffs": [{
     "id": 4371,
     "name": "豚化",
@@ -33778,6 +33782,90 @@
     "id": 2833
   }]
 }, {
+  "funcId": 9007,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "サマー・キャスト",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+  "funcquestTvals": [{
+    "id": 94000135
+  }],
+  "funcGroup": [{
+    "eventId": 80384,
+    "baseFuncId": 9006,
+    "nameTotal": "{1} \n攻撃の威力アップ合計",
+    "name": "攻撃の威力アップ",
+    "icon": "https://static.atlasacademy.io/JP/EventUI/func_group_icon_302.png",
+    "priority": 1,
+    "isDispValue": true
+  }],
+  "buffs": [{
+    "id": 4468,
+    "name": "サマー・キャスト",
+    "detail": "『アークティック・サマーワールド！』において与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamage",
+    "maxRate": 10000
+  }]
+}, {
+  "funcId": 9008,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "サマー・キャスト",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+  "funcquestTvals": [{
+    "id": 94000135
+  }],
+  "funcGroup": [{
+    "eventId": 80384,
+    "baseFuncId": 9006,
+    "nameTotal": "{1} \n攻撃の威力アップ合計",
+    "name": "攻撃の威力アップ",
+    "icon": "https://static.atlasacademy.io/JP/EventUI/func_group_icon_302.png",
+    "priority": 1,
+    "isDispValue": true
+  }],
+  "buffs": [{
+    "id": 4468,
+    "name": "サマー・キャスト",
+    "detail": "『アークティック・サマーワールド！』において与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamage",
+    "maxRate": 10000
+  }]
+}, {
+  "funcId": 9009,
+  "funcType": "servantFriendshipUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "なし",
+  "funcGroup": [{
+    "eventId": 80384,
+    "baseFuncId": 0,
+    "nameTotal": "{1}\n得られる自身の絆ボーナス合計",
+    "name": "得られる自身の絆アップ",
+    "icon": "https://static.atlasacademy.io/JP/EventUI/func_group_icon_1009.png",
+    "priority": 1,
+    "isDispValue": true
+  }]
+}, {
+  "funcId": 9010,
+  "funcType": "servantFriendshipUp",
+  "funcTargetType": "ptFull",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "なし",
+  "funcGroup": [{
+    "eventId": 80384,
+    "baseFuncId": 0,
+    "nameTotal": "{1}\n得られる自身の絆ボーナス合計",
+    "name": "得られる自身の絆アップ",
+    "icon": "https://static.atlasacademy.io/JP/EventUI/func_group_icon_1023.png",
+    "priority": 1,
+    "isDispValue": true
+  }]
+}, {
   "funcId": 9012,
   "funcType": "gainNp",
   "funcTargetType": "ptOther",
@@ -33905,6 +33993,270 @@
   "funcPopupText": "チャージ増加",
   "functvals": [{
     "id": 117
+  }]
+}, {
+  "funcId": 9124,
+  "funcType": "eventDropUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "なし",
+  "funcGroup": [{
+    "eventId": 80384,
+    "baseFuncId": 0,
+    "nameTotal": "{0}\n獲得数ボーナス合計",
+    "name": "{0}獲得数アップ",
+    "icon": "https://static.atlasacademy.io/JP/Items/94073603.png",
+    "priority": 3000,
+    "isDispValue": true
+  }]
+}, {
+  "funcId": 9125,
+  "funcType": "eventDropUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "なし",
+  "funcGroup": [{
+    "eventId": 80384,
+    "baseFuncId": 0,
+    "nameTotal": "{0}\n獲得数ボーナス合計",
+    "name": "{0}獲得数アップ",
+    "icon": "https://static.atlasacademy.io/JP/Items/94073602.png",
+    "priority": 2000,
+    "isDispValue": true
+  }]
+}, {
+  "funcId": 9126,
+  "funcType": "eventDropUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "なし",
+  "funcGroup": [{
+    "eventId": 80384,
+    "baseFuncId": 0,
+    "nameTotal": "{0}\n獲得数ボーナス合計",
+    "name": "{0}獲得数アップ",
+    "icon": "https://static.atlasacademy.io/JP/Items/94073601.png",
+    "priority": 1000,
+    "isDispValue": true
+  }]
+}, {
+  "funcId": 9127,
+  "funcType": "eventDropUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "なし",
+  "funcGroup": [{
+    "eventId": 80384,
+    "baseFuncId": 0,
+    "nameTotal": "{0}\n獲得数ボーナス合計",
+    "name": "{0}獲得数アップ",
+    "icon": "https://static.atlasacademy.io/JP/Items/94073604.png",
+    "priority": 4000,
+    "isDispValue": true
+  }]
+}, {
+  "funcId": 9128,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "なし",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+  "funcquestTvals": [{
+    "id": 94000135
+  }],
+  "funcGroup": [{
+    "eventId": 80384,
+    "baseFuncId": 9006,
+    "nameTotal": "{1} \n攻撃の威力アップ合計",
+    "name": "攻撃の威力アップ合計",
+    "icon": "https://static.atlasacademy.io/JP/EventUI/func_group_icon_302.png",
+    "priority": 1,
+    "isDispValue": true
+  }],
+  "buffs": [{
+    "id": 4536,
+    "name": "威力アップ",
+    "detail": "『アークティック・サマーワールド！』において与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamage",
+    "maxRate": 10000
+  }]
+}, {
+  "funcId": 9131,
+  "funcType": "addState",
+  "funcTargetType": "enemyAll",
+  "funcTargetTeam": "enemy",
+  "funcPopupText": "ターンチャージマイナス",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_519.png",
+  "buffs": [{
+    "id": 4539,
+    "name": "ターンチャージマイナス",
+    "detail": "ターン毎のチャージ量を1減らす",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_519.png",
+    "type": "downNpturnval",
+    "buffGroup": 1900,
+    "vals": [{
+      "id": 3005
+    }],
+    "maxRate": 0
+  }]
+}, {
+  "funcId": 9132,
+  "funcType": "addState",
+  "funcTargetType": "enemyAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "buffs": [{
+    "id": 4540,
+    "name": "",
+    "detail": "",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_520.png",
+    "type": "addIndividuality",
+    "vals": [{
+      "id": 2836
+    }],
+    "maxRate": 0
+  }]
+}, {
+  "funcId": 9133,
+  "funcType": "subState",
+  "funcTargetType": "enemyAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "traitVals": [{
+    "id": 2836
+  }]
+}, {
+  "funcId": 9134,
+  "funcType": "subState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "traitVals": [{
+    "id": 2836
+  }]
+}, {
+  "funcId": 9135,
+  "funcType": "moveState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy"
+}, {
+  "funcId": 9138,
+  "funcType": "gainNpBuffIndividualSum",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "NP増加",
+  "traitVals": [{
+    "id": 2836
+  }]
+}, {
+  "funcId": 9142,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "通常攻撃時追加効果(やけど)",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_528.png",
+  "buffs": [{
+    "id": 4541,
+    "name": "通常攻撃時追加効果(やけど)",
+    "detail": "通常攻撃時に対象にやけど状態を付与",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_528.png",
+    "type": "commandattackFunction",
+    "vals": [{
+      "id": 3004
+    }],
+    "tvals": [{
+      "id": 5000
+    }],
+    "maxRate": 0
+  }]
+}, {
+  "funcId": 9148,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "攻撃力アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_300.png",
+  "funcquestTvals": [{
+    "id": 2038
+  }],
+  "buffs": [{
+    "id": 4542,
+    "name": "攻撃力アップ",
+    "detail": "〔陽射し〕のあるフィールドにおいてのみ、攻撃力をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_300.png",
+    "type": "upAtk",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3027
+    }],
+    "tvals": [{
+      "id": 5000
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 9165,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptFull",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "バスターアップ：陽射し",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_314.png",
+  "buffs": [{
+    "id": 4545,
+    "name": "Busterアップ",
+    "detail": "〔陽射し〕のあるフィールドにおいてのみ、Busterカードの性能をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_314.png",
+    "type": "upCommandall",
+    "script": {
+      "INDIVIDUALITIE": {
+        "id": 2038
+      }
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }],
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4002
+    }],
+    "ckSelfIndv": [{
+      "id": 4002
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 9169,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptFull",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "クリティカル威力アップ：陽射し",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_324.png",
+  "buffs": [{
+    "id": 4546,
+    "name": "クリティカル威力アップ",
+    "detail": "〔陽射し〕のあるフィールドにおいてのみ、クリティカル時のダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_324.png",
+    "type": "upCriticaldamage",
+    "script": {
+      "INDIVIDUALITIE": {
+        "id": 2038
+      }
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3031
+    }],
+    "tvals": [{
+      "id": 5000
+    }],
+    "maxRate": 5000
   }]
 }, {
   "funcId": 30003,
