@@ -73755,6 +73755,7 @@
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94073798,
       "noticeAt": 1660132800,
       "openedAt": 1660132800,
@@ -73784,6 +73785,7 @@
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94073797,
       "noticeAt": 1660132800,
       "openedAt": 1660132800,
@@ -73824,6 +73826,7 @@
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94073796,
       "noticeAt": 1660132800,
       "openedAt": 1660132800,
@@ -73842,7 +73845,7 @@
     "questOfsY": -64,
     "quests": [{
       "id": 94073603,
-      "name": "",
+      "name": "第2節 英雄たちへ愛を込めて",
       "type": "main",
       "consume": 5,
       "afterClear": "close",
@@ -73856,6 +73859,9 @@
         "num": 1
       }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 94073602
       }, {
@@ -73867,18 +73873,126 @@
         "targetId": 80384,
         "value": 2000,
         "closedMessage": "来園者数ポイント2,000以上で開放"
-      }, {
-        "type": "forceFalse",
-        "targetId": 0,
-        "closedMessage": "データ更新後に開放"
       }],
       "phases": [1, 2, 3, 4],
+      "phasesWithEnemies": [2, 3],
       "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9407360310",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407360310.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9407360320",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407360320.txt"
+        }, {
+          "scriptId": "9407360321",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407360321.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9407360330",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407360330.txt"
+        }]
+      }, {
+        "phase": 4,
+        "scripts": [{
+          "scriptId": "9407360340",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407360340.txt"
+        }, {
+          "scriptId": "9407360341",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407360341.txt"
+        }]
+      }],
       "priority": 94073996,
       "noticeAt": 1660132800,
       "openedAt": 1660208400,
       "closedAt": 1661918399
+    }, {
+      "id": 94073805,
+      "name": "キャスト体験！ アトラクションツアーを盛り上げよう！",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "60",
+      "spotId": 914304,
+      "spotName": "わくわくエリセランド",
+      "warId": 9143,
+      "warLongName": "北極魔園観光アークティック・サマーワールド",
+      "gifts": [{
+        "objectId": 101,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94073603
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "priority": 94073794,
+      "noticeAt": 1660208400,
+      "openedAt": 1660208400,
+      "closedAt": 1661918399
     }]
+  }, {
+    "id": 914305,
+    "mapId": 9143,
+    "name": "アルゴー号の冒険",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9143/QMap_Cap9143_Atlas/spot_914305.png",
+    "x": 509,
+    "y": 1593,
+    "nameOfsY": -9,
+    "questOfsX": 34,
+    "questOfsY": -83,
+    "quests": [{
+      "id": 94073804,
+      "name": "キャスト体験！ 冒険ガイドツアーの出港！",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "50",
+      "spotId": 914305,
+      "spotName": "アルゴー号の冒険",
+      "warId": 9143,
+      "warLongName": "北極魔園観光アークティック・サマーワールド",
+      "gifts": [{
+        "objectId": 101,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "questClearPhase",
+        "targetId": 94073603,
+        "value": 2
+      }],
+      "phases": [1],
+      "priority": 94073795,
+      "noticeAt": 1660208400,
+      "openedAt": 1660208400,
+      "closedAt": 1661918399
+    }]
+  }, {
+    "id": 914306,
+    "mapId": 9143,
+    "name": "ＧＥＮＪＩの湯",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9143/QMap_Cap9143_Atlas/spot_914306.png",
+    "x": 641,
+    "y": 1118,
+    "nameOfsY": -7,
+    "questOfsX": 34,
+    "questOfsY": -79
   }, {
     "id": 914311,
     "mapId": 9143,
@@ -73914,7 +74028,7 @@
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
       }],
       "phases": [1, 2, 3, 4],
-      "phasesWithEnemies": [2],
+      "phasesWithEnemies": [2, 3, 4],
       "phasesNoBattle": [1],
       "phaseScripts": [{
         "phase": 1,
@@ -73955,6 +74069,112 @@
       "openedAt": 1660132800,
       "closedAt": 1661918399
     }]
+  }, {
+    "id": 914312,
+    "mapId": 9143,
+    "name": "氷の大地",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9143/QMap_Cap9143_Atlas/spot_914311.png",
+    "x": 539,
+    "y": 1376,
+    "nameOfsY": -5,
+    "questOfsX": 30,
+    "questOfsY": -60,
+    "quests": [{
+      "id": 94073604,
+      "name": "第3節 U is for HOKKYOKU",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "30",
+      "spotId": 914312,
+      "spotName": "氷の大地",
+      "warId": 9143,
+      "warLongName": "北極魔園観光アークティック・サマーワールド",
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94073603
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "来園者数ポイント10,000以上＆8月12日18時以降に開放"
+      }, {
+        "type": "eventTotalPoint",
+        "targetId": 80384,
+        "value": 10000,
+        "closedMessage": "来園者数ポイント10,000以上で開放"
+      }],
+      "phases": [1, 2, 3, 4, 5, 6],
+      "phasesNoBattle": [1, 2, 3, 5, 6],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9407360410",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407360410.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9407360420",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407360420.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9407360430",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407360430.txt"
+        }]
+      }, {
+        "phase": 4,
+        "scripts": [{
+          "scriptId": "9407360440",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407360440.txt"
+        }, {
+          "scriptId": "9407360441",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407360441.txt"
+        }]
+      }, {
+        "phase": 5,
+        "scripts": [{
+          "scriptId": "9407360450",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407360450.txt"
+        }]
+      }, {
+        "phase": 6,
+        "scripts": [{
+          "scriptId": "9407360460",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407360460.txt"
+        }]
+      }],
+      "priority": 94073995,
+      "noticeAt": 1660208400,
+      "openedAt": 1660294800,
+      "closedAt": 1661918399
+    }]
+  }, {
+    "id": 914313,
+    "mapId": 9143,
+    "name": "魔氷城の麓",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9143/QMap_Cap9143_Atlas/spot_914311.png",
+    "x": 957,
+    "y": 1219,
+    "nameOfsY": -5,
+    "questOfsX": 30,
+    "questOfsY": -60
+  }, {
+    "id": 914319,
+    "joinSpotIds": [914322],
+    "mapId": 9143,
+    "name": "ハワイアンＧＥＮＪＩ",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9143/QMap_Cap9143_Atlas/spot_914306.png",
+    "x": 641,
+    "y": 1118,
+    "nameOfsY": -7,
+    "questOfsX": 34,
+    "questOfsY": -79
   }, {
     "id": 914320,
     "mapId": 9143,
@@ -74254,7 +74474,297 @@
     "y": -1359,
     "nameOfsY": -1,
     "questOfsX": 38,
-    "questOfsY": -64
+    "questOfsY": -64,
+    "quests": [{
+      "id": 94074010,
+      "name": "【エリア改良】わくわくエリセランドを改良する Lv.2",
+      "type": "event",
+      "flags": ["noBattle", "hideProgress", "displayConsumeIcon"],
+      "consumeType": "item",
+      "consume": 0,
+      "consumeItem": [{
+        "itemId": 94073604,
+        "amount": 25
+      }],
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 914321,
+      "spotName": "わくわくエリセランド",
+      "warId": 9143,
+      "warLongName": "北極魔園観光アークティック・サマーワールド",
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94073603
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94073689,
+      "noticeAt": 1660208400,
+      "openedAt": 1660208400,
+      "closedAt": 1661918399
+    }, {
+      "id": 94074011,
+      "name": "【エリア改良】わくわくエリセランドを改良する Lv.3",
+      "type": "event",
+      "flags": ["noBattle", "hideProgress", "displayConsumeIcon"],
+      "consumeType": "item",
+      "consume": 0,
+      "consumeItem": [{
+        "itemId": 94073604,
+        "amount": 25
+      }],
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 914321,
+      "spotName": "わくわくエリセランド",
+      "warId": 9143,
+      "warLongName": "北極魔園観光アークティック・サマーワールド",
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94074010
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94073688,
+      "noticeAt": 1660208400,
+      "openedAt": 1660208400,
+      "closedAt": 1661918399
+    }, {
+      "id": 94074012,
+      "name": "【エリア改良】わくわくエリセランドを改良する Lv.4",
+      "type": "event",
+      "flags": ["noBattle", "hideProgress", "displayConsumeIcon"],
+      "consumeType": "item",
+      "consume": 0,
+      "consumeItem": [{
+        "itemId": 94073604,
+        "amount": 25
+      }],
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 914321,
+      "spotName": "わくわくエリセランド",
+      "warId": 9143,
+      "warLongName": "北極魔園観光アークティック・サマーワールド",
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94074011
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94073687,
+      "noticeAt": 1660208400,
+      "openedAt": 1660208400,
+      "closedAt": 1661918399
+    }, {
+      "id": 94074013,
+      "name": "【エリア改良】わくわくエリセランドを改良する Lv.5",
+      "type": "event",
+      "flags": ["noBattle", "hideProgress", "displayConsumeIcon"],
+      "consumeType": "item",
+      "consume": 0,
+      "consumeItem": [{
+        "itemId": 94073604,
+        "amount": 25
+      }],
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 914321,
+      "spotName": "わくわくエリセランド",
+      "warId": 9143,
+      "warLongName": "北極魔園観光アークティック・サマーワールド",
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94074012
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94073686,
+      "noticeAt": 1660208400,
+      "openedAt": 1660208400,
+      "closedAt": 1661918399
+    }, {
+      "id": 94074014,
+      "name": "【エリア改良】わくわくエリセランドを改良する Lv.6",
+      "type": "event",
+      "flags": ["noBattle", "hideProgress", "displayConsumeIcon"],
+      "consumeType": "item",
+      "consume": 0,
+      "consumeItem": [{
+        "itemId": 94073604,
+        "amount": 25
+      }],
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 914321,
+      "spotName": "わくわくエリセランド",
+      "warId": 9143,
+      "warLongName": "北極魔園観光アークティック・サマーワールド",
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94074013
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94073685,
+      "noticeAt": 1660208400,
+      "openedAt": 1660208400,
+      "closedAt": 1661918399
+    }, {
+      "id": 94074015,
+      "name": "【エリア改良】わくわくエリセランドを改良する Lv.7",
+      "type": "event",
+      "flags": ["noBattle", "hideProgress", "displayConsumeIcon"],
+      "consumeType": "item",
+      "consume": 0,
+      "consumeItem": [{
+        "itemId": 94073604,
+        "amount": 25
+      }],
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 914321,
+      "spotName": "わくわくエリセランド",
+      "warId": 9143,
+      "warLongName": "北極魔園観光アークティック・サマーワールド",
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94074014
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94073684,
+      "noticeAt": 1660208400,
+      "openedAt": 1660208400,
+      "closedAt": 1661918399
+    }, {
+      "id": 94074016,
+      "name": "【エリア改良】わくわくエリセランドを改良する Lv.8",
+      "type": "event",
+      "flags": ["noBattle", "hideProgress", "displayConsumeIcon"],
+      "consumeType": "item",
+      "consume": 0,
+      "consumeItem": [{
+        "itemId": 94073604,
+        "amount": 25
+      }],
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 914321,
+      "spotName": "わくわくエリセランド",
+      "warId": 9143,
+      "warLongName": "北極魔園観光アークティック・サマーワールド",
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94074015
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94073683,
+      "noticeAt": 1660208400,
+      "openedAt": 1660208400,
+      "closedAt": 1661918399
+    }, {
+      "id": 94074017,
+      "name": "【エリア改良】わくわくエリセランドを改良する Lv.9",
+      "type": "event",
+      "flags": ["noBattle", "hideProgress", "displayConsumeIcon"],
+      "consumeType": "item",
+      "consume": 0,
+      "consumeItem": [{
+        "itemId": 94073604,
+        "amount": 25
+      }],
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 914321,
+      "spotName": "わくわくエリセランド",
+      "warId": 9143,
+      "warLongName": "北極魔園観光アークティック・サマーワールド",
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94074016
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94073682,
+      "noticeAt": 1660208400,
+      "openedAt": 1660208400,
+      "closedAt": 1661918399
+    }, {
+      "id": 94074018,
+      "name": "【エリア改良】わくわくエリセランドを改良する Lv.10",
+      "type": "event",
+      "flags": ["noBattle", "hideProgress", "displayConsumeIcon"],
+      "consumeType": "item",
+      "consume": 0,
+      "consumeItem": [{
+        "itemId": 94073604,
+        "amount": 25
+      }],
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 914321,
+      "spotName": "わくわくエリセランド",
+      "warId": 9143,
+      "warLongName": "北極魔園観光アークティック・サマーワールド",
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94074017
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94073681,
+      "noticeAt": 1660208400,
+      "openedAt": 1660208400,
+      "closedAt": 1661918399
+    }]
+  }, {
+    "id": 914322,
+    "mapId": 9143,
+    "name": "ハワイアンＧＥＮＪＩ",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9143/QMap_Cap9143_Atlas/spot_914306.png",
+    "x": 641,
+    "y": -1882,
+    "nameOfsY": -7,
+    "questOfsX": 34,
+    "questOfsY": -79
   }, {
     "id": 914399,
     "mapId": 9143,
@@ -74376,6 +74886,70 @@
     "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9143/QMap_Cap9143_Atlas/img_road9143_00.png",
     "srcSpotId": 914303,
     "dstSpotId": 914304,
+    "dispCondType": "useItemTime",
+    "dispTargetId": 0,
+    "dispTargetValue": 0,
+    "dispCondType2": "useItemTime",
+    "dispTargetId2": 0,
+    "dispTargetValue2": 0,
+    "activeCondType": "questClear",
+    "activeTargetId": 0,
+    "activeTargetValue": 0
+  }, {
+    "id": 914305,
+    "warId": 9143,
+    "mapId": 9143,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9143/QMap_Cap9143_Atlas/img_road9143_00.png",
+    "srcSpotId": 914304,
+    "dstSpotId": 914305,
+    "dispCondType": "useItemTime",
+    "dispTargetId": 0,
+    "dispTargetValue": 0,
+    "dispCondType2": "useItemTime",
+    "dispTargetId2": 0,
+    "dispTargetValue2": 0,
+    "activeCondType": "questClear",
+    "activeTargetId": 0,
+    "activeTargetValue": 0
+  }, {
+    "id": 914306,
+    "warId": 9143,
+    "mapId": 9143,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9143/QMap_Cap9143_Atlas/img_road9143_00.png",
+    "srcSpotId": 914304,
+    "dstSpotId": 914312,
+    "dispCondType": "useItemTime",
+    "dispTargetId": 0,
+    "dispTargetValue": 0,
+    "dispCondType2": "useItemTime",
+    "dispTargetId2": 0,
+    "dispTargetValue2": 0,
+    "activeCondType": "questClear",
+    "activeTargetId": 0,
+    "activeTargetValue": 0
+  }, {
+    "id": 914307,
+    "warId": 9143,
+    "mapId": 9143,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9143/QMap_Cap9143_Atlas/img_road9143_00.png",
+    "srcSpotId": 914312,
+    "dstSpotId": 914306,
+    "dispCondType": "useItemTime",
+    "dispTargetId": 0,
+    "dispTargetValue": 0,
+    "dispCondType2": "useItemTime",
+    "dispTargetId2": 0,
+    "dispTargetValue2": 0,
+    "activeCondType": "questClear",
+    "activeTargetId": 0,
+    "activeTargetValue": 0
+  }, {
+    "id": 914308,
+    "warId": 9143,
+    "mapId": 9143,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9143/QMap_Cap9143_Atlas/img_road9143_00.png",
+    "srcSpotId": 914306,
+    "dstSpotId": 914313,
     "dispCondType": "useItemTime",
     "dispTargetId": 0,
     "dispTargetValue": 0,
