@@ -73875,7 +73875,7 @@
         "closedMessage": "来園者数ポイント2,000以上で開放"
       }],
       "phases": [1, 2, 3, 4],
-      "phasesWithEnemies": [2, 3],
+      "phasesWithEnemies": [2, 3, 4],
       "phasesNoBattle": [1],
       "phaseScripts": [{
         "phase": 1,
@@ -73937,6 +73937,7 @@
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94073794,
       "noticeAt": 1660208400,
       "openedAt": 1660208400,
@@ -73978,6 +73979,7 @@
         "value": 2
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94073795,
       "noticeAt": 1660208400,
       "openedAt": 1660208400,
@@ -74108,6 +74110,7 @@
         "closedMessage": "来園者数ポイント10,000以上で開放"
       }],
       "phases": [1, 2, 3, 4, 5, 6],
+      "phasesWithEnemies": [4],
       "phasesNoBattle": [1, 2, 3, 5, 6],
       "phaseScripts": [{
         "phase": 1,
@@ -74163,7 +74166,46 @@
     "y": 1219,
     "nameOfsY": -5,
     "questOfsX": 30,
-    "questOfsY": -60
+    "questOfsY": -60,
+    "quests": [{
+      "id": 94073605,
+      "name": "",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "30",
+      "spotId": 914313,
+      "spotName": "魔氷城の麓",
+      "warId": 9143,
+      "warLongName": "北極魔園観光アークティック・サマーワールド",
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94073604
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "来園者数ポイント40,000以上＆8月13日18時以降に開放"
+      }, {
+        "type": "eventTotalPoint",
+        "targetId": 80384,
+        "value": 40000,
+        "closedMessage": "来園者数ポイント40,000以上で開放"
+      }, {
+        "type": "forceFalse",
+        "targetId": 0,
+        "closedMessage": "データ更新後に開放"
+      }],
+      "phases": [1, 2, 3],
+      "phasesNoBattle": [1, 3],
+      "priority": 94073994,
+      "noticeAt": 1660294800,
+      "openedAt": 1660381200,
+      "closedAt": 1661918399
+    }]
   }, {
     "id": 914319,
     "joinSpotIds": [914322],
@@ -74174,7 +74216,87 @@
     "y": 1118,
     "nameOfsY": -7,
     "questOfsX": 34,
-    "questOfsY": -79
+    "questOfsY": -79,
+    "quests": [{
+      "id": 94073701,
+      "name": "休日の過ごし方",
+      "type": "event",
+      "flags": ["noBattle"],
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "30",
+      "spotId": 914319,
+      "spotName": "ハワイアンＧＥＮＪＩ",
+      "warId": 9143,
+      "warLongName": "北極魔園観光アークティック・サマーワールド",
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94073604
+      }, {
+        "type": "questClear",
+        "targetId": 94074022,
+        "closedMessage": "【エリア改良】ハワイアンＧＥＮＪＩを改良する Lv.5クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1, 2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9407370110",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407370110.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9407370120",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407370120.txt"
+        }, {
+          "scriptId": "9407370121",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407370121.txt"
+        }]
+      }],
+      "priority": 94073979,
+      "noticeAt": 1660294800,
+      "openedAt": 1660294800,
+      "closedAt": 1661918399
+    }, {
+      "id": 94073806,
+      "name": "キャスト体験！ 癒しのプールテーマパーク！",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "70",
+      "spotId": 914319,
+      "spotName": "ハワイアンＧＥＮＪＩ",
+      "warId": 9143,
+      "warLongName": "北極魔園観光アークティック・サマーワールド",
+      "gifts": [{
+        "objectId": 101,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94073604
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94073793,
+      "noticeAt": 1660294800,
+      "openedAt": 1660294800,
+      "closedAt": 1661918399
+    }]
   }, {
     "id": 914320,
     "mapId": 9143,
@@ -74764,7 +74886,287 @@
     "y": -1882,
     "nameOfsY": -7,
     "questOfsX": 34,
-    "questOfsY": -79
+    "questOfsY": -79,
+    "quests": [{
+      "id": 94074019,
+      "name": "【エリア改良】ハワイアンＧＥＮＪＩを改良する Lv.2",
+      "type": "event",
+      "flags": ["noBattle", "hideProgress", "displayConsumeIcon"],
+      "consumeType": "item",
+      "consume": 0,
+      "consumeItem": [{
+        "itemId": 94073604,
+        "amount": 30
+      }],
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 914322,
+      "spotName": "ハワイアンＧＥＮＪＩ",
+      "warId": 9143,
+      "warLongName": "北極魔園観光アークティック・サマーワールド",
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94073604
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94073680,
+      "noticeAt": 1660294800,
+      "openedAt": 1660294800,
+      "closedAt": 1661918399
+    }, {
+      "id": 94074020,
+      "name": "【エリア改良】ハワイアンＧＥＮＪＩを改良する Lv.3",
+      "type": "event",
+      "flags": ["noBattle", "hideProgress", "displayConsumeIcon"],
+      "consumeType": "item",
+      "consume": 0,
+      "consumeItem": [{
+        "itemId": 94073604,
+        "amount": 30
+      }],
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 914322,
+      "spotName": "ハワイアンＧＥＮＪＩ",
+      "warId": 9143,
+      "warLongName": "北極魔園観光アークティック・サマーワールド",
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94074019
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94073679,
+      "noticeAt": 1660294800,
+      "openedAt": 1660294800,
+      "closedAt": 1661918399
+    }, {
+      "id": 94074021,
+      "name": "【エリア改良】ハワイアンＧＥＮＪＩを改良する Lv.4",
+      "type": "event",
+      "flags": ["noBattle", "hideProgress", "displayConsumeIcon"],
+      "consumeType": "item",
+      "consume": 0,
+      "consumeItem": [{
+        "itemId": 94073604,
+        "amount": 30
+      }],
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 914322,
+      "spotName": "ハワイアンＧＥＮＪＩ",
+      "warId": 9143,
+      "warLongName": "北極魔園観光アークティック・サマーワールド",
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94074020
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94073678,
+      "noticeAt": 1660294800,
+      "openedAt": 1660294800,
+      "closedAt": 1661918399
+    }, {
+      "id": 94074022,
+      "name": "【エリア改良】ハワイアンＧＥＮＪＩを改良する Lv.5",
+      "type": "event",
+      "flags": ["noBattle", "hideProgress", "displayConsumeIcon"],
+      "consumeType": "item",
+      "consume": 0,
+      "consumeItem": [{
+        "itemId": 94073604,
+        "amount": 30
+      }],
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 914322,
+      "spotName": "ハワイアンＧＥＮＪＩ",
+      "warId": 9143,
+      "warLongName": "北極魔園観光アークティック・サマーワールド",
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94074021
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94073677,
+      "noticeAt": 1660294800,
+      "openedAt": 1660294800,
+      "closedAt": 1661918399
+    }, {
+      "id": 94074023,
+      "name": "【エリア改良】ハワイアンＧＥＮＪＩを改良する Lv.6",
+      "type": "event",
+      "flags": ["noBattle", "hideProgress", "displayConsumeIcon"],
+      "consumeType": "item",
+      "consume": 0,
+      "consumeItem": [{
+        "itemId": 94073604,
+        "amount": 30
+      }],
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 914322,
+      "spotName": "ハワイアンＧＥＮＪＩ",
+      "warId": 9143,
+      "warLongName": "北極魔園観光アークティック・サマーワールド",
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94074022
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94073676,
+      "noticeAt": 1660294800,
+      "openedAt": 1660294800,
+      "closedAt": 1661918399
+    }, {
+      "id": 94074024,
+      "name": "【エリア改良】ハワイアンＧＥＮＪＩを改良する Lv.7",
+      "type": "event",
+      "flags": ["noBattle", "hideProgress", "displayConsumeIcon"],
+      "consumeType": "item",
+      "consume": 0,
+      "consumeItem": [{
+        "itemId": 94073604,
+        "amount": 30
+      }],
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 914322,
+      "spotName": "ハワイアンＧＥＮＪＩ",
+      "warId": 9143,
+      "warLongName": "北極魔園観光アークティック・サマーワールド",
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94074023
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94073675,
+      "noticeAt": 1660294800,
+      "openedAt": 1660294800,
+      "closedAt": 1661918399
+    }, {
+      "id": 94074025,
+      "name": "【エリア改良】ハワイアンＧＥＮＪＩを改良する Lv.8",
+      "type": "event",
+      "flags": ["noBattle", "hideProgress", "displayConsumeIcon"],
+      "consumeType": "item",
+      "consume": 0,
+      "consumeItem": [{
+        "itemId": 94073604,
+        "amount": 30
+      }],
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 914322,
+      "spotName": "ハワイアンＧＥＮＪＩ",
+      "warId": 9143,
+      "warLongName": "北極魔園観光アークティック・サマーワールド",
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94074024
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94073674,
+      "noticeAt": 1660294800,
+      "openedAt": 1660294800,
+      "closedAt": 1661918399
+    }, {
+      "id": 94074026,
+      "name": "【エリア改良】ハワイアンＧＥＮＪＩを改良する Lv.9",
+      "type": "event",
+      "flags": ["noBattle", "hideProgress", "displayConsumeIcon"],
+      "consumeType": "item",
+      "consume": 0,
+      "consumeItem": [{
+        "itemId": 94073604,
+        "amount": 30
+      }],
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 914322,
+      "spotName": "ハワイアンＧＥＮＪＩ",
+      "warId": 9143,
+      "warLongName": "北極魔園観光アークティック・サマーワールド",
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94074025
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94073673,
+      "noticeAt": 1660294800,
+      "openedAt": 1660294800,
+      "closedAt": 1661918399
+    }, {
+      "id": 94074027,
+      "name": "【エリア改良】ハワイアンＧＥＮＪＩを改良する Lv.10",
+      "type": "event",
+      "flags": ["noBattle", "hideProgress", "displayConsumeIcon"],
+      "consumeType": "item",
+      "consume": 0,
+      "consumeItem": [{
+        "itemId": 94073604,
+        "amount": 30
+      }],
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 914322,
+      "spotName": "ハワイアンＧＥＮＪＩ",
+      "warId": 9143,
+      "warLongName": "北極魔園観光アークティック・サマーワールド",
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94074026
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94073672,
+      "noticeAt": 1660294800,
+      "openedAt": 1660294800,
+      "closedAt": 1661918399
+    }]
   }, {
     "id": 914399,
     "mapId": 9143,
