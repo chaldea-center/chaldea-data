@@ -73996,6 +73996,102 @@
     "questOfsX": 34,
     "questOfsY": -79
   }, {
+    "id": 914307,
+    "joinSpotIds": [914323],
+    "mapId": 9143,
+    "name": "極北魔氷城",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9143/QMap_Cap9143_Atlas/spot_914307.png",
+    "x": 1041,
+    "y": 952,
+    "nameOfsY": -24,
+    "questOfsX": 37,
+    "questOfsY": -106,
+    "quests": [{
+      "id": 94073606,
+      "name": "第5節 銀河の流星、北極サマーワールドに現る！",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "40",
+      "spotId": 914307,
+      "spotName": "極北魔氷城",
+      "warId": 9143,
+      "warLongName": "北極魔園観光アークティック・サマーワールド",
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94073605
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1, 2, 3],
+      "phasesWithEnemies": [2],
+      "phasesNoBattle": [3],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9407360610",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407360610.txt"
+        }, {
+          "scriptId": "9407360611",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407360611.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9407360620",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407360620.txt"
+        }, {
+          "scriptId": "9407360621",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407360621.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9407360630",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407360630.txt"
+        }]
+      }],
+      "priority": 94073993,
+      "noticeAt": 1660381200,
+      "openedAt": 1660381200,
+      "closedAt": 1661918399
+    }, {
+      "id": 94073807,
+      "name": "キャスト体験！ 激闘のヒーローショー！",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "80",
+      "spotId": 914307,
+      "spotName": "極北魔氷城",
+      "warId": 9143,
+      "warLongName": "北極魔園観光アークティック・サマーワールド",
+      "gifts": [{
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94073606
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "priority": 94073792,
+      "noticeAt": 1660381200,
+      "openedAt": 1660381200,
+      "closedAt": 1661918399
+    }]
+  }, {
     "id": 914311,
     "mapId": 9143,
     "name": "氷の大地",
@@ -74169,7 +74265,7 @@
     "questOfsY": -60,
     "quests": [{
       "id": 94073605,
-      "name": "",
+      "name": "第4節 レット・イット・オール・アウト",
       "type": "main",
       "consume": 5,
       "afterClear": "close",
@@ -74183,6 +74279,9 @@
         "num": 1
       }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 94073604
       }, {
@@ -74194,16 +74293,84 @@
         "targetId": 80384,
         "value": 40000,
         "closedMessage": "来園者数ポイント40,000以上で開放"
+      }],
+      "phases": [1, 2, 3],
+      "phasesWithEnemies": [2],
+      "phasesNoBattle": [1, 3],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9407360510",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407360510.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9407360520",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407360520.txt"
+        }, {
+          "scriptId": "9407360521",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407360521.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9407360530",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407360530.txt"
+        }]
+      }],
+      "priority": 94073994,
+      "noticeAt": 1660294800,
+      "openedAt": 1660381200,
+      "closedAt": 1661918399
+    }]
+  }, {
+    "id": 914314,
+    "mapId": 9143,
+    "name": "氷の大地",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9143/QMap_Cap9143_Atlas/spot_914311.png",
+    "x": 1530,
+    "y": 996,
+    "nameOfsY": -5,
+    "questOfsX": 30,
+    "questOfsY": -60,
+    "quests": [{
+      "id": 94073607,
+      "name": "",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "45",
+      "spotId": 914314,
+      "spotName": "氷の大地",
+      "warId": 9143,
+      "warLongName": "北極魔園観光アークティック・サマーワールド",
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94073606
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "来園者数ポイント100,000以上＆8月14日18時以降に開放"
+      }, {
+        "type": "eventTotalPoint",
+        "targetId": 80384,
+        "value": 100000,
+        "closedMessage": "来園者数ポイント100,000以上で開放"
       }, {
         "type": "forceFalse",
         "targetId": 0,
         "closedMessage": "データ更新後に開放"
       }],
-      "phases": [1, 2, 3],
-      "phasesNoBattle": [1, 3],
-      "priority": 94073994,
-      "noticeAt": 1660294800,
-      "openedAt": 1660381200,
+      "phases": [1, 2, 3, 4, 5],
+      "phasesNoBattle": [2],
+      "priority": 94073992,
+      "noticeAt": 1660381200,
+      "openedAt": 1660467600,
       "closedAt": 1661918399
     }]
   }, {
@@ -74246,6 +74413,7 @@
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
       }],
       "phases": [1, 2],
+      "phasesWithEnemies": [1, 2],
       "phaseScripts": [{
         "phase": 1,
         "scripts": [{
@@ -75168,6 +75336,296 @@
       "closedAt": 1661918399
     }]
   }, {
+    "id": 914323,
+    "mapId": 9143,
+    "name": "極北魔氷城",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9143/QMap_Cap9143_Atlas/spot_914307.png",
+    "x": 910,
+    "y": -2180,
+    "nameOfsY": -24,
+    "questOfsX": 37,
+    "questOfsY": -106,
+    "quests": [{
+      "id": 94074028,
+      "name": "【エリア改良】極北魔氷城を改良する Lv.2",
+      "type": "event",
+      "flags": ["noBattle", "hideProgress", "displayConsumeIcon"],
+      "consumeType": "item",
+      "consume": 0,
+      "consumeItem": [{
+        "itemId": 94073604,
+        "amount": 40
+      }],
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 914323,
+      "spotName": "極北魔氷城",
+      "warId": 9143,
+      "warLongName": "北極魔園観光アークティック・サマーワールド",
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94073606
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94073671,
+      "noticeAt": 1660381200,
+      "openedAt": 1660381200,
+      "closedAt": 1661918399
+    }, {
+      "id": 94074029,
+      "name": "【エリア改良】極北魔氷城を改良する Lv.3",
+      "type": "event",
+      "flags": ["noBattle", "hideProgress", "displayConsumeIcon"],
+      "consumeType": "item",
+      "consume": 0,
+      "consumeItem": [{
+        "itemId": 94073604,
+        "amount": 40
+      }],
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 914323,
+      "spotName": "極北魔氷城",
+      "warId": 9143,
+      "warLongName": "北極魔園観光アークティック・サマーワールド",
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94074028
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94073670,
+      "noticeAt": 1660381200,
+      "openedAt": 1660381200,
+      "closedAt": 1661918399
+    }, {
+      "id": 94074030,
+      "name": "【エリア改良】極北魔氷城を改良する Lv.4",
+      "type": "event",
+      "flags": ["noBattle", "hideProgress", "displayConsumeIcon"],
+      "consumeType": "item",
+      "consume": 0,
+      "consumeItem": [{
+        "itemId": 94073604,
+        "amount": 40
+      }],
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 914323,
+      "spotName": "極北魔氷城",
+      "warId": 9143,
+      "warLongName": "北極魔園観光アークティック・サマーワールド",
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94074029
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94073669,
+      "noticeAt": 1660381200,
+      "openedAt": 1660381200,
+      "closedAt": 1661918399
+    }, {
+      "id": 94074031,
+      "name": "【エリア改良】極北魔氷城を改良する Lv.5",
+      "type": "event",
+      "flags": ["noBattle", "hideProgress", "displayConsumeIcon"],
+      "consumeType": "item",
+      "consume": 0,
+      "consumeItem": [{
+        "itemId": 94073604,
+        "amount": 40
+      }],
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 914323,
+      "spotName": "極北魔氷城",
+      "warId": 9143,
+      "warLongName": "北極魔園観光アークティック・サマーワールド",
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94074030
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94073668,
+      "noticeAt": 1660381200,
+      "openedAt": 1660381200,
+      "closedAt": 1661918399
+    }, {
+      "id": 94074032,
+      "name": "【エリア改良】極北魔氷城を改良する Lv.6",
+      "type": "event",
+      "flags": ["noBattle", "hideProgress", "displayConsumeIcon"],
+      "consumeType": "item",
+      "consume": 0,
+      "consumeItem": [{
+        "itemId": 94073604,
+        "amount": 40
+      }],
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 914323,
+      "spotName": "極北魔氷城",
+      "warId": 9143,
+      "warLongName": "北極魔園観光アークティック・サマーワールド",
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94074031
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94073667,
+      "noticeAt": 1660381200,
+      "openedAt": 1660381200,
+      "closedAt": 1661918399
+    }, {
+      "id": 94074033,
+      "name": "【エリア改良】極北魔氷城を改良する Lv.7",
+      "type": "event",
+      "flags": ["noBattle", "hideProgress", "displayConsumeIcon"],
+      "consumeType": "item",
+      "consume": 0,
+      "consumeItem": [{
+        "itemId": 94073604,
+        "amount": 40
+      }],
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 914323,
+      "spotName": "極北魔氷城",
+      "warId": 9143,
+      "warLongName": "北極魔園観光アークティック・サマーワールド",
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94074032
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94073666,
+      "noticeAt": 1660381200,
+      "openedAt": 1660381200,
+      "closedAt": 1661918399
+    }, {
+      "id": 94074034,
+      "name": "【エリア改良】極北魔氷城を改良する Lv.8",
+      "type": "event",
+      "flags": ["noBattle", "hideProgress", "displayConsumeIcon"],
+      "consumeType": "item",
+      "consume": 0,
+      "consumeItem": [{
+        "itemId": 94073604,
+        "amount": 40
+      }],
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 914323,
+      "spotName": "極北魔氷城",
+      "warId": 9143,
+      "warLongName": "北極魔園観光アークティック・サマーワールド",
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94074033
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94073665,
+      "noticeAt": 1660381200,
+      "openedAt": 1660381200,
+      "closedAt": 1661918399
+    }, {
+      "id": 94074035,
+      "name": "【エリア改良】極北魔氷城を改良する Lv.9",
+      "type": "event",
+      "flags": ["noBattle", "hideProgress", "displayConsumeIcon"],
+      "consumeType": "item",
+      "consume": 0,
+      "consumeItem": [{
+        "itemId": 94073604,
+        "amount": 40
+      }],
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 914323,
+      "spotName": "極北魔氷城",
+      "warId": 9143,
+      "warLongName": "北極魔園観光アークティック・サマーワールド",
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94074034
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94073664,
+      "noticeAt": 1660381200,
+      "openedAt": 1660381200,
+      "closedAt": 1661918399
+    }, {
+      "id": 94074036,
+      "name": "【エリア改良】極北魔氷城を改良する Lv.10",
+      "type": "event",
+      "flags": ["noBattle", "hideProgress", "displayConsumeIcon"],
+      "consumeType": "item",
+      "consume": 0,
+      "consumeItem": [{
+        "itemId": 94073604,
+        "amount": 40
+      }],
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 914323,
+      "spotName": "極北魔氷城",
+      "warId": 9143,
+      "warLongName": "北極魔園観光アークティック・サマーワールド",
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94074035
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94073663,
+      "noticeAt": 1660381200,
+      "openedAt": 1660381200,
+      "closedAt": 1661918399
+    }]
+  }, {
     "id": 914399,
     "mapId": 9143,
     "name": "",
@@ -75352,6 +75810,38 @@
     "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9143/QMap_Cap9143_Atlas/img_road9143_00.png",
     "srcSpotId": 914306,
     "dstSpotId": 914313,
+    "dispCondType": "useItemTime",
+    "dispTargetId": 0,
+    "dispTargetValue": 0,
+    "dispCondType2": "useItemTime",
+    "dispTargetId2": 0,
+    "dispTargetValue2": 0,
+    "activeCondType": "questClear",
+    "activeTargetId": 0,
+    "activeTargetValue": 0
+  }, {
+    "id": 914309,
+    "warId": 9143,
+    "mapId": 9143,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9143/QMap_Cap9143_Atlas/img_road9143_00.png",
+    "srcSpotId": 914313,
+    "dstSpotId": 914307,
+    "dispCondType": "useItemTime",
+    "dispTargetId": 0,
+    "dispTargetValue": 0,
+    "dispCondType2": "useItemTime",
+    "dispTargetId2": 0,
+    "dispTargetValue2": 0,
+    "activeCondType": "questClear",
+    "activeTargetId": 0,
+    "activeTargetValue": 0
+  }, {
+    "id": 914310,
+    "warId": 9143,
+    "mapId": 9143,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9143/QMap_Cap9143_Atlas/img_road9143_00.png",
+    "srcSpotId": 914307,
+    "dstSpotId": 914314,
     "dispCondType": "useItemTime",
     "dispTargetId": 0,
     "dispTargetValue": 0,
