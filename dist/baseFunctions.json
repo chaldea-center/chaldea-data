@@ -8171,6 +8171,10 @@
   "funcPopupText": "チャージ減少：対死霊と悪魔",
   "functvals": [{
     "id": 2018
+  }, {
+    "id": 1002
+  }, {
+    "id": 1119
   }]
 }, {
   "funcId": 725,
@@ -8181,6 +8185,10 @@
   "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_509.png",
   "functvals": [{
     "id": 2018
+  }, {
+    "id": 1002
+  }, {
+    "id": 1119
   }],
   "buffs": [{
     "id": 141,
@@ -10310,9 +10318,21 @@
     }],
     "tvals": [{
       "id": 2040
+    }, {
+      "id": 2000
+    }, {
+      "id": 1002
+    }, {
+      "id": 1119
     }],
     "ckOpIndv": [{
       "id": 2040
+    }, {
+      "id": 2000
+    }, {
+      "id": 1002
+    }, {
+      "id": 1119
     }],
     "maxRate": 10000
   }]
@@ -10696,9 +10716,17 @@
     }],
     "tvals": [{
       "id": 2018
+    }, {
+      "id": 1002
+    }, {
+      "id": 1119
     }],
     "ckOpIndv": [{
       "id": 2018
+    }, {
+      "id": 1002
+    }, {
+      "id": 1119
     }],
     "maxRate": 10000
   }]
@@ -22992,6 +23020,34 @@
     "maxRate": 10000
   }]
 }, {
+  "funcId": 5519,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "威力アップ・対サーヴァント",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+  "buffs": [{
+    "id": 2892,
+    "name": "威力アップ〔サーヴァント〕",
+    "detail": "〔サーヴァント〕に与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamage",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3028
+    }],
+    "tvals": [{
+      "id": 1000
+    }],
+    "ckOpIndv": [{
+      "id": 1000
+    }],
+    "maxRate": 10000
+  }]
+}, {
   "funcId": 5520,
   "funcType": "gainNp",
   "funcTargetType": "ptAll",
@@ -30912,9 +30968,21 @@
     }],
     "tvals": [{
       "id": 2040
+    }, {
+      "id": 2000
+    }, {
+      "id": 1002
+    }, {
+      "id": 1119
     }],
     "ckOpIndv": [{
       "id": 2040
+    }, {
+      "id": 2000
+    }, {
+      "id": 1002
+    }, {
+      "id": 1119
     }],
     "maxRate": 10000
   }]
@@ -30940,9 +31008,21 @@
     }],
     "tvals": [{
       "id": 2040
+    }, {
+      "id": 2000
+    }, {
+      "id": 1002
+    }, {
+      "id": 1119
     }],
     "ckOpIndv": [{
       "id": 2040
+    }, {
+      "id": 2000
+    }, {
+      "id": 1002
+    }, {
+      "id": 1119
     }],
     "maxRate": 10000
   }]
@@ -32489,6 +32569,34 @@
       "id": 5000
     }],
     "maxRate": 0
+  }]
+}, {
+  "funcId": 8553,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptFull",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "威力アップ・対 地の力",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+  "buffs": [{
+    "id": 4207,
+    "name": "威力アップ〔地の力〕",
+    "detail": "〔地の力〕に与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamage",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3028
+    }],
+    "tvals": [{
+      "id": 201
+    }],
+    "ckOpIndv": [{
+      "id": 201
+    }],
+    "maxRate": 10000
   }]
 }, {
   "funcId": 8554,
@@ -34196,6 +34304,27 @@
     "maxRate": 5000
   }]
 }, {
+  "funcId": 9150,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "被ダメージ時発動",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_331.png",
+  "buffs": [{
+    "id": 4543,
+    "name": "被ダメージ時発動",
+    "detail": "攻撃を受けると敵単体の防御力をダウン",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_331.png",
+    "type": "damageFunction",
+    "vals": [{
+      "id": 3004
+    }],
+    "tvals": [{
+      "id": 5000
+    }],
+    "maxRate": 0
+  }]
+}, {
   "funcId": 9165,
   "funcType": "addStateShort",
   "funcTargetType": "ptFull",
@@ -34257,6 +34386,36 @@
       "id": 5000
     }],
     "maxRate": 5000
+  }]
+}, {
+  "funcId": 9184,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "player",
+  "funcPopupText": "NP獲得アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_303.png",
+  "functvals": [{
+    "id": 2838
+  }],
+  "buffs": [{
+    "id": 140,
+    "name": "NP獲得アップ",
+    "detail": "NP獲得量をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_303.png",
+    "type": "upDropnp",
+    "vals": [{
+      "id": 3004
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 9186,
+  "funcType": "hastenNpturn",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "enemy",
+  "funcPopupText": "チャージ増加",
+  "functvals": [{
+    "id": 2838
   }]
 }, {
   "funcId": 30003,

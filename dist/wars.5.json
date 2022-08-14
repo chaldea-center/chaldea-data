@@ -74030,7 +74030,7 @@
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
       }],
       "phases": [1, 2, 3],
-      "phasesWithEnemies": [2],
+      "phasesWithEnemies": [1, 2],
       "phasesNoBattle": [3],
       "phaseScripts": [{
         "phase": 1,
@@ -74086,11 +74086,23 @@
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94073792,
       "noticeAt": 1660381200,
       "openedAt": 1660381200,
       "closedAt": 1661918399
     }]
+  }, {
+    "id": 914308,
+    "joinSpotIds": [914324],
+    "mapId": 9143,
+    "name": "ほーんてっど鬼屋",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9143/QMap_Cap9143_Atlas/spot_914308.png",
+    "x": 1735,
+    "y": 826,
+    "nameOfsY": -1,
+    "questOfsX": 31,
+    "questOfsY": -84
   }, {
     "id": 914311,
     "mapId": 9143,
@@ -74336,7 +74348,7 @@
     "questOfsY": -60,
     "quests": [{
       "id": 94073607,
-      "name": "",
+      "name": "第6節 鬼屋へようこそ！",
       "type": "main",
       "consume": 5,
       "afterClear": "close",
@@ -74350,6 +74362,9 @@
         "num": 1
       }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 94073606
       }, {
@@ -74361,18 +74376,61 @@
         "targetId": 80384,
         "value": 100000,
         "closedMessage": "来園者数ポイント100,000以上で開放"
-      }, {
-        "type": "forceFalse",
-        "targetId": 0,
-        "closedMessage": "データ更新後に開放"
       }],
       "phases": [1, 2, 3, 4, 5],
       "phasesNoBattle": [2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9407360710",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407360710.txt"
+        }, {
+          "scriptId": "9407360711",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407360711.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9407360720",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407360720.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9407360730",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407360730.txt"
+        }]
+      }, {
+        "phase": 4,
+        "scripts": [{
+          "scriptId": "9407360740",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407360740.txt"
+        }]
+      }, {
+        "phase": 5,
+        "scripts": [{
+          "scriptId": "9407360750",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407360750.txt"
+        }, {
+          "scriptId": "9407360751",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407360751.txt"
+        }]
+      }],
       "priority": 94073992,
       "noticeAt": 1660381200,
       "openedAt": 1660467600,
       "closedAt": 1661918399
     }]
+  }, {
+    "id": 914315,
+    "mapId": 9143,
+    "name": "氷の大地",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9143/QMap_Cap9143_Atlas/spot_914311.png",
+    "x": 1172,
+    "y": 598,
+    "nameOfsY": -5,
+    "questOfsX": 30,
+    "questOfsY": -60
   }, {
     "id": 914319,
     "joinSpotIds": [914322],
@@ -75626,6 +75684,16 @@
       "closedAt": 1661918399
     }]
   }, {
+    "id": 914324,
+    "mapId": 9143,
+    "name": "ほーんてっど鬼屋",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9143/QMap_Cap9143_Atlas/spot_914308.png",
+    "x": 1735,
+    "y": -2174,
+    "nameOfsY": -1,
+    "questOfsX": 31,
+    "questOfsY": -84
+  }, {
     "id": 914399,
     "mapId": 9143,
     "name": "",
@@ -75842,6 +75910,38 @@
     "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9143/QMap_Cap9143_Atlas/img_road9143_00.png",
     "srcSpotId": 914307,
     "dstSpotId": 914314,
+    "dispCondType": "useItemTime",
+    "dispTargetId": 0,
+    "dispTargetValue": 0,
+    "dispCondType2": "useItemTime",
+    "dispTargetId2": 0,
+    "dispTargetValue2": 0,
+    "activeCondType": "questClear",
+    "activeTargetId": 0,
+    "activeTargetValue": 0
+  }, {
+    "id": 914311,
+    "warId": 9143,
+    "mapId": 9143,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9143/QMap_Cap9143_Atlas/img_road9143_00.png",
+    "srcSpotId": 914314,
+    "dstSpotId": 914308,
+    "dispCondType": "useItemTime",
+    "dispTargetId": 0,
+    "dispTargetValue": 0,
+    "dispCondType2": "useItemTime",
+    "dispTargetId2": 0,
+    "dispTargetValue2": 0,
+    "activeCondType": "questClear",
+    "activeTargetId": 0,
+    "activeTargetValue": 0
+  }, {
+    "id": 914312,
+    "warId": 9143,
+    "mapId": 9143,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9143/QMap_Cap9143_Atlas/img_road9143_00.png",
+    "srcSpotId": 914308,
+    "dstSpotId": 914315,
     "dispCondType": "useItemTime",
     "dispTargetId": 0,
     "dispTargetValue": 0,
