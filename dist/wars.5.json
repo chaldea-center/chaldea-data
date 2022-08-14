@@ -74102,7 +74102,83 @@
     "y": 826,
     "nameOfsY": -1,
     "questOfsX": 31,
-    "questOfsY": -84
+    "questOfsY": -84,
+    "quests": [{
+      "id": 94073702,
+      "name": "水着奶奶の謎",
+      "type": "event",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "50",
+      "spotId": 914308,
+      "spotName": "ほーんてっど鬼屋",
+      "warId": 9143,
+      "warLongName": "北極魔園観光アークティック・サマーワールド",
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94073607
+      }, {
+        "type": "questClear",
+        "targetId": 94074040,
+        "closedMessage": "【エリア改良】ほーんてっど鬼屋を改良する Lv.5クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1, 2],
+      "phasesNoBattle": [2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9407370210",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407370210.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9407370220",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407370220.txt"
+        }]
+      }],
+      "priority": 94073978,
+      "noticeAt": 1660467600,
+      "openedAt": 1660467600,
+      "closedAt": 1661918399
+    }, {
+      "id": 94073808,
+      "name": "キャスト体験！ でませい！きょうふのほらーはうす！",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "85",
+      "spotId": 914308,
+      "spotName": "ほーんてっど鬼屋",
+      "warId": 9143,
+      "warLongName": "北極魔園観光アークティック・サマーワールド",
+      "gifts": [{
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94073607
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "priority": 94073791,
+      "noticeAt": 1660467600,
+      "openedAt": 1660467600,
+      "closedAt": 1661918399
+    }]
   }, {
     "id": 914311,
     "mapId": 9143,
@@ -74378,6 +74454,7 @@
         "closedMessage": "来園者数ポイント100,000以上で開放"
       }],
       "phases": [1, 2, 3, 4, 5],
+      "phasesWithEnemies": [1, 3, 4, 5],
       "phasesNoBattle": [2],
       "phaseScripts": [{
         "phase": 1,
@@ -74430,7 +74507,46 @@
     "y": 598,
     "nameOfsY": -5,
     "questOfsX": 30,
-    "questOfsY": -60
+    "questOfsY": -60,
+    "quests": [{
+      "id": 94073608,
+      "name": "",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "50",
+      "spotId": 914315,
+      "spotName": "氷の大地",
+      "warId": 9143,
+      "warLongName": "北極魔園観光アークティック・サマーワールド",
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94073607
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "来園者数ポイント200,000以上＆8月15日18時以降に開放"
+      }, {
+        "type": "eventTotalPoint",
+        "targetId": 80384,
+        "value": 200000,
+        "closedMessage": "来園者数ポイント200,000以上で開放"
+      }, {
+        "type": "forceFalse",
+        "targetId": 0,
+        "closedMessage": "データ更新後に開放"
+      }],
+      "phases": [1, 2, 3, 4, 5],
+      "phasesNoBattle": [1, 5],
+      "priority": 94073991,
+      "noticeAt": 1660467600,
+      "openedAt": 1660554000,
+      "closedAt": 1661918399
+    }]
   }, {
     "id": 914319,
     "joinSpotIds": [914322],
@@ -75692,7 +75808,287 @@
     "y": -2174,
     "nameOfsY": -1,
     "questOfsX": 31,
-    "questOfsY": -84
+    "questOfsY": -84,
+    "quests": [{
+      "id": 94074037,
+      "name": "【エリア改良】ほーんてっど鬼屋を改良する Lv.2",
+      "type": "event",
+      "flags": ["noBattle", "hideProgress", "displayConsumeIcon"],
+      "consumeType": "item",
+      "consume": 0,
+      "consumeItem": [{
+        "itemId": 94073604,
+        "amount": 50
+      }],
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 914324,
+      "spotName": "ほーんてっど鬼屋",
+      "warId": 9143,
+      "warLongName": "北極魔園観光アークティック・サマーワールド",
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94073607
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94073662,
+      "noticeAt": 1660467600,
+      "openedAt": 1660467600,
+      "closedAt": 1661918399
+    }, {
+      "id": 94074038,
+      "name": "【エリア改良】ほーんてっど鬼屋を改良する Lv.3",
+      "type": "event",
+      "flags": ["noBattle", "hideProgress", "displayConsumeIcon"],
+      "consumeType": "item",
+      "consume": 0,
+      "consumeItem": [{
+        "itemId": 94073604,
+        "amount": 50
+      }],
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 914324,
+      "spotName": "ほーんてっど鬼屋",
+      "warId": 9143,
+      "warLongName": "北極魔園観光アークティック・サマーワールド",
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94074037
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94073661,
+      "noticeAt": 1660467600,
+      "openedAt": 1660467600,
+      "closedAt": 1661918399
+    }, {
+      "id": 94074039,
+      "name": "【エリア改良】ほーんてっど鬼屋を改良する Lv.4",
+      "type": "event",
+      "flags": ["noBattle", "hideProgress", "displayConsumeIcon"],
+      "consumeType": "item",
+      "consume": 0,
+      "consumeItem": [{
+        "itemId": 94073604,
+        "amount": 50
+      }],
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 914324,
+      "spotName": "ほーんてっど鬼屋",
+      "warId": 9143,
+      "warLongName": "北極魔園観光アークティック・サマーワールド",
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94074038
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94073660,
+      "noticeAt": 1660467600,
+      "openedAt": 1660467600,
+      "closedAt": 1661918399
+    }, {
+      "id": 94074040,
+      "name": "【エリア改良】ほーんてっど鬼屋を改良する Lv.5",
+      "type": "event",
+      "flags": ["noBattle", "hideProgress", "displayConsumeIcon"],
+      "consumeType": "item",
+      "consume": 0,
+      "consumeItem": [{
+        "itemId": 94073604,
+        "amount": 50
+      }],
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 914324,
+      "spotName": "ほーんてっど鬼屋",
+      "warId": 9143,
+      "warLongName": "北極魔園観光アークティック・サマーワールド",
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94074039
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94073659,
+      "noticeAt": 1660467600,
+      "openedAt": 1660467600,
+      "closedAt": 1661918399
+    }, {
+      "id": 94074041,
+      "name": "【エリア改良】ほーんてっど鬼屋を改良する Lv.6",
+      "type": "event",
+      "flags": ["noBattle", "hideProgress", "displayConsumeIcon"],
+      "consumeType": "item",
+      "consume": 0,
+      "consumeItem": [{
+        "itemId": 94073604,
+        "amount": 50
+      }],
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 914324,
+      "spotName": "ほーんてっど鬼屋",
+      "warId": 9143,
+      "warLongName": "北極魔園観光アークティック・サマーワールド",
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94074040
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94073658,
+      "noticeAt": 1660467600,
+      "openedAt": 1660467600,
+      "closedAt": 1661918399
+    }, {
+      "id": 94074042,
+      "name": "【エリア改良】ほーんてっど鬼屋を改良する Lv.7",
+      "type": "event",
+      "flags": ["noBattle", "hideProgress", "displayConsumeIcon"],
+      "consumeType": "item",
+      "consume": 0,
+      "consumeItem": [{
+        "itemId": 94073604,
+        "amount": 50
+      }],
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 914324,
+      "spotName": "ほーんてっど鬼屋",
+      "warId": 9143,
+      "warLongName": "北極魔園観光アークティック・サマーワールド",
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94074041
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94073657,
+      "noticeAt": 1660467600,
+      "openedAt": 1660467600,
+      "closedAt": 1661918399
+    }, {
+      "id": 94074043,
+      "name": "【エリア改良】ほーんてっど鬼屋を改良する Lv.8",
+      "type": "event",
+      "flags": ["noBattle", "hideProgress", "displayConsumeIcon"],
+      "consumeType": "item",
+      "consume": 0,
+      "consumeItem": [{
+        "itemId": 94073604,
+        "amount": 50
+      }],
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 914324,
+      "spotName": "ほーんてっど鬼屋",
+      "warId": 9143,
+      "warLongName": "北極魔園観光アークティック・サマーワールド",
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94074042
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94073656,
+      "noticeAt": 1660467600,
+      "openedAt": 1660467600,
+      "closedAt": 1661918399
+    }, {
+      "id": 94074044,
+      "name": "【エリア改良】ほーんてっど鬼屋を改良する Lv.9",
+      "type": "event",
+      "flags": ["noBattle", "hideProgress", "displayConsumeIcon"],
+      "consumeType": "item",
+      "consume": 0,
+      "consumeItem": [{
+        "itemId": 94073604,
+        "amount": 50
+      }],
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 914324,
+      "spotName": "ほーんてっど鬼屋",
+      "warId": 9143,
+      "warLongName": "北極魔園観光アークティック・サマーワールド",
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94074043
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94073655,
+      "noticeAt": 1660467600,
+      "openedAt": 1660467600,
+      "closedAt": 1661918399
+    }, {
+      "id": 94074045,
+      "name": "【エリア改良】ほーんてっど鬼屋を改良する Lv.10",
+      "type": "event",
+      "flags": ["noBattle", "hideProgress", "displayConsumeIcon"],
+      "consumeType": "item",
+      "consume": 0,
+      "consumeItem": [{
+        "itemId": 94073604,
+        "amount": 50
+      }],
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 914324,
+      "spotName": "ほーんてっど鬼屋",
+      "warId": 9143,
+      "warLongName": "北極魔園観光アークティック・サマーワールド",
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94074044
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94073654,
+      "noticeAt": 1660467600,
+      "openedAt": 1660467600,
+      "closedAt": 1661918399
+    }]
   }, {
     "id": 914399,
     "mapId": 9143,
