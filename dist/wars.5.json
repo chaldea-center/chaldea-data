@@ -74182,6 +74182,96 @@
       "closedAt": 1661918399
     }]
   }, {
+    "id": 914309,
+    "joinSpotIds": [914325],
+    "mapId": 9143,
+    "name": "ミニサバフェス会場",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9143/QMap_Cap9143_Atlas/spot_914309.png",
+    "x": 596,
+    "y": 767,
+    "nameOfsY": -7,
+    "questOfsX": 36,
+    "questOfsY": -90,
+    "quests": [{
+      "id": 94073809,
+      "name": "キャスト体験！ サバフェスの問題解決ならお任せ！",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90",
+      "spotId": 914309,
+      "spotName": "ミニサバフェス会場",
+      "warId": 9143,
+      "warLongName": "北極魔園観光アークティック・サマーワールド",
+      "gifts": [{
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94073608
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "priority": 94073790,
+      "noticeAt": 1660554000,
+      "openedAt": 1660554000,
+      "closedAt": 1661918399
+    }]
+  }, {
+    "id": 914310,
+    "mapId": 9143,
+    "name": "アークティック・タワー",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9143/QMap_Cap9143_Atlas/spot_914310.png",
+    "x": 778,
+    "y": 397,
+    "nameOfsY": -13,
+    "questOfsX": 41,
+    "questOfsY": -80,
+    "quests": [{
+      "id": 94073609,
+      "name": "",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "60",
+      "spotId": 914310,
+      "spotName": "アークティック・タワー",
+      "warId": 9143,
+      "warLongName": "北極魔園観光アークティック・サマーワールド",
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94073608
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "来園者数ポイント300,000以上＆8月16日18時以降に開放"
+      }, {
+        "type": "eventTotalPoint",
+        "targetId": 80384,
+        "value": 300000,
+        "closedMessage": "来園者数ポイント300,000以上で開放"
+      }, {
+        "type": "forceFalse",
+        "targetId": 0,
+        "closedMessage": "データ更新後に開放"
+      }],
+      "phases": [1, 2, 3, 4, 5, 6],
+      "phasesNoBattle": [5, 6],
+      "priority": 94073990,
+      "noticeAt": 1660554000,
+      "openedAt": 1660640400,
+      "closedAt": 1661918399
+    }]
+  }, {
     "id": 914311,
     "mapId": 9143,
     "name": "氷の大地",
@@ -74512,7 +74602,7 @@
     "questOfsY": -60,
     "quests": [{
       "id": 94073608,
-      "name": "",
+      "name": "第7節 修羅場・ラ・グロンドメント・デュ・ヘ…",
       "type": "main",
       "consume": 5,
       "afterClear": "close",
@@ -74526,6 +74616,9 @@
         "num": 1
       }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 94073607
       }, {
@@ -74537,13 +74630,50 @@
         "targetId": 80384,
         "value": 200000,
         "closedMessage": "来園者数ポイント200,000以上で開放"
-      }, {
-        "type": "forceFalse",
-        "targetId": 0,
-        "closedMessage": "データ更新後に開放"
       }],
       "phases": [1, 2, 3, 4, 5],
+      "phasesWithEnemies": [2, 3],
       "phasesNoBattle": [1, 5],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9407360810",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407360810.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9407360820",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407360820.txt"
+        }, {
+          "scriptId": "9407360821",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407360821.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9407360830",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407360830.txt"
+        }, {
+          "scriptId": "9407360831",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407360831.txt"
+        }]
+      }, {
+        "phase": 4,
+        "scripts": [{
+          "scriptId": "9407360840",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407360840.txt"
+        }, {
+          "scriptId": "9407360841",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407360841.txt"
+        }]
+      }, {
+        "phase": 5,
+        "scripts": [{
+          "scriptId": "9407360850",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407360850.txt"
+        }]
+      }],
       "priority": 94073991,
       "noticeAt": 1660467600,
       "openedAt": 1660554000,
@@ -76092,6 +76222,296 @@
       "closedAt": 1661918399
     }]
   }, {
+    "id": 914325,
+    "mapId": 9143,
+    "name": "ミニサバフェス会場",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9143/QMap_Cap9143_Atlas/spot_914309.png",
+    "x": 596,
+    "y": -2233,
+    "nameOfsY": -7,
+    "questOfsX": 36,
+    "questOfsY": -90,
+    "quests": [{
+      "id": 94074046,
+      "name": "【エリア改良】ミニサバフェス会場を改良する Lv.2",
+      "type": "event",
+      "flags": ["noBattle", "hideProgress", "displayConsumeIcon"],
+      "consumeType": "item",
+      "consume": 0,
+      "consumeItem": [{
+        "itemId": 94073604,
+        "amount": 60
+      }],
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 914325,
+      "spotName": "ミニサバフェス会場",
+      "warId": 9143,
+      "warLongName": "北極魔園観光アークティック・サマーワールド",
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94073608
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94073653,
+      "noticeAt": 1660554000,
+      "openedAt": 1660554000,
+      "closedAt": 1661918399
+    }, {
+      "id": 94074047,
+      "name": "【エリア改良】ミニサバフェス会場を改良する Lv.3",
+      "type": "event",
+      "flags": ["noBattle", "hideProgress", "displayConsumeIcon"],
+      "consumeType": "item",
+      "consume": 0,
+      "consumeItem": [{
+        "itemId": 94073604,
+        "amount": 60
+      }],
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 914325,
+      "spotName": "ミニサバフェス会場",
+      "warId": 9143,
+      "warLongName": "北極魔園観光アークティック・サマーワールド",
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94074046
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94073652,
+      "noticeAt": 1660554000,
+      "openedAt": 1660554000,
+      "closedAt": 1661918399
+    }, {
+      "id": 94074048,
+      "name": "【エリア改良】ミニサバフェス会場を改良する Lv.4",
+      "type": "event",
+      "flags": ["noBattle", "hideProgress", "displayConsumeIcon"],
+      "consumeType": "item",
+      "consume": 0,
+      "consumeItem": [{
+        "itemId": 94073604,
+        "amount": 60
+      }],
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 914325,
+      "spotName": "ミニサバフェス会場",
+      "warId": 9143,
+      "warLongName": "北極魔園観光アークティック・サマーワールド",
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94074047
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94073651,
+      "noticeAt": 1660554000,
+      "openedAt": 1660554000,
+      "closedAt": 1661918399
+    }, {
+      "id": 94074049,
+      "name": "【エリア改良】ミニサバフェス会場を改良する Lv.5",
+      "type": "event",
+      "flags": ["noBattle", "hideProgress", "displayConsumeIcon"],
+      "consumeType": "item",
+      "consume": 0,
+      "consumeItem": [{
+        "itemId": 94073604,
+        "amount": 60
+      }],
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 914325,
+      "spotName": "ミニサバフェス会場",
+      "warId": 9143,
+      "warLongName": "北極魔園観光アークティック・サマーワールド",
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94074048
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94073650,
+      "noticeAt": 1660554000,
+      "openedAt": 1660554000,
+      "closedAt": 1661918399
+    }, {
+      "id": 94074050,
+      "name": "【エリア改良】ミニサバフェス会場を改良する Lv.6",
+      "type": "event",
+      "flags": ["noBattle", "hideProgress", "displayConsumeIcon"],
+      "consumeType": "item",
+      "consume": 0,
+      "consumeItem": [{
+        "itemId": 94073604,
+        "amount": 60
+      }],
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 914325,
+      "spotName": "ミニサバフェス会場",
+      "warId": 9143,
+      "warLongName": "北極魔園観光アークティック・サマーワールド",
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94074049
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94073649,
+      "noticeAt": 1660554000,
+      "openedAt": 1660554000,
+      "closedAt": 1661918399
+    }, {
+      "id": 94074051,
+      "name": "【エリア改良】ミニサバフェス会場を改良する Lv.7",
+      "type": "event",
+      "flags": ["noBattle", "hideProgress", "displayConsumeIcon"],
+      "consumeType": "item",
+      "consume": 0,
+      "consumeItem": [{
+        "itemId": 94073604,
+        "amount": 60
+      }],
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 914325,
+      "spotName": "ミニサバフェス会場",
+      "warId": 9143,
+      "warLongName": "北極魔園観光アークティック・サマーワールド",
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94074050
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94073648,
+      "noticeAt": 1660554000,
+      "openedAt": 1660554000,
+      "closedAt": 1661918399
+    }, {
+      "id": 94074052,
+      "name": "【エリア改良】ミニサバフェス会場を改良する Lv.8",
+      "type": "event",
+      "flags": ["noBattle", "hideProgress", "displayConsumeIcon"],
+      "consumeType": "item",
+      "consume": 0,
+      "consumeItem": [{
+        "itemId": 94073604,
+        "amount": 60
+      }],
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 914325,
+      "spotName": "ミニサバフェス会場",
+      "warId": 9143,
+      "warLongName": "北極魔園観光アークティック・サマーワールド",
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94074051
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94073647,
+      "noticeAt": 1660554000,
+      "openedAt": 1660554000,
+      "closedAt": 1661918399
+    }, {
+      "id": 94074053,
+      "name": "【エリア改良】ミニサバフェス会場を改良する Lv.9",
+      "type": "event",
+      "flags": ["noBattle", "hideProgress", "displayConsumeIcon"],
+      "consumeType": "item",
+      "consume": 0,
+      "consumeItem": [{
+        "itemId": 94073604,
+        "amount": 60
+      }],
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 914325,
+      "spotName": "ミニサバフェス会場",
+      "warId": 9143,
+      "warLongName": "北極魔園観光アークティック・サマーワールド",
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94074052
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94073646,
+      "noticeAt": 1660554000,
+      "openedAt": 1660554000,
+      "closedAt": 1661918399
+    }, {
+      "id": 94074054,
+      "name": "【エリア改良】ミニサバフェス会場を改良する Lv.10",
+      "type": "event",
+      "flags": ["noBattle", "hideProgress", "displayConsumeIcon"],
+      "consumeType": "item",
+      "consume": 0,
+      "consumeItem": [{
+        "itemId": 94073604,
+        "amount": 60
+      }],
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 914325,
+      "spotName": "ミニサバフェス会場",
+      "warId": 9143,
+      "warLongName": "北極魔園観光アークティック・サマーワールド",
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94074053
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94073645,
+      "noticeAt": 1660554000,
+      "openedAt": 1660554000,
+      "closedAt": 1661918399
+    }]
+  }, {
     "id": 914399,
     "mapId": 9143,
     "name": "",
@@ -76340,6 +76760,38 @@
     "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9143/QMap_Cap9143_Atlas/img_road9143_00.png",
     "srcSpotId": 914308,
     "dstSpotId": 914315,
+    "dispCondType": "useItemTime",
+    "dispTargetId": 0,
+    "dispTargetValue": 0,
+    "dispCondType2": "useItemTime",
+    "dispTargetId2": 0,
+    "dispTargetValue2": 0,
+    "activeCondType": "questClear",
+    "activeTargetId": 0,
+    "activeTargetValue": 0
+  }, {
+    "id": 914313,
+    "warId": 9143,
+    "mapId": 9143,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9143/QMap_Cap9143_Atlas/img_road9143_00.png",
+    "srcSpotId": 914315,
+    "dstSpotId": 914309,
+    "dispCondType": "useItemTime",
+    "dispTargetId": 0,
+    "dispTargetValue": 0,
+    "dispCondType2": "useItemTime",
+    "dispTargetId2": 0,
+    "dispTargetValue2": 0,
+    "activeCondType": "questClear",
+    "activeTargetId": 0,
+    "activeTargetValue": 0
+  }, {
+    "id": 914314,
+    "warId": 9143,
+    "mapId": 9143,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9143/QMap_Cap9143_Atlas/img_road9143_00.png",
+    "srcSpotId": 914309,
+    "dstSpotId": 914310,
     "dispCondType": "useItemTime",
     "dispTargetId": 0,
     "dispTargetValue": 0,
