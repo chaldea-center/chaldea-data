@@ -34276,6 +34276,36 @@
     "maxRate": 0
   }]
 }, {
+  "funcId": 9143,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "player",
+  "funcPopupText": "NP獲得アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_303.png",
+  "functvals": [{
+    "id": 2837
+  }],
+  "buffs": [{
+    "id": 140,
+    "name": "NP獲得アップ",
+    "detail": "NP獲得量をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_303.png",
+    "type": "upDropnp",
+    "vals": [{
+      "id": 3004
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 9146,
+  "funcType": "hastenNpturn",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "enemy",
+  "funcPopupText": "チャージ増加",
+  "functvals": [{
+    "id": 2837
+  }]
+}, {
   "funcId": 9148,
   "funcType": "addStateShort",
   "funcTargetType": "self",
@@ -34384,6 +34414,31 @@
     }],
     "tvals": [{
       "id": 5000
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 9172,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptFull",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "クリティカル威力アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_324.png",
+  "functvals": [{
+    "id": 2837
+  }],
+  "buffs": [{
+    "id": 142,
+    "name": "クリティカル威力アップ",
+    "detail": "クリティカル時のダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_324.png",
+    "type": "upCriticaldamage",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3031
     }],
     "maxRate": 5000
   }]

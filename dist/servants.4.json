@@ -31969,6 +31969,9 @@
         "2": "https://static.atlasacademy.io/JP/CharaGraph/704300/704300a@2.png",
         "3": "https://static.atlasacademy.io/JP/CharaGraph/704300/704300b@1.png",
         "4": "https://static.atlasacademy.io/JP/CharaGraph/704300/704300b@2.png"
+      },
+      "costume": {
+        "704330": "https://static.atlasacademy.io/JP/CharaGraph/704330/704330a.png"
       }
     },
     "faces": {
@@ -31977,6 +31980,9 @@
         "2": "https://static.atlasacademy.io/JP/Faces/f_7043001.png",
         "3": "https://static.atlasacademy.io/JP/Faces/f_7043002.png",
         "4": "https://static.atlasacademy.io/JP/Faces/f_7043003.png"
+      },
+      "costume": {
+        "704330": "https://static.atlasacademy.io/JP/Faces/f_7043300.png"
       }
     },
     "narrowFigure": {
@@ -31985,6 +31991,9 @@
         "2": "https://static.atlasacademy.io/JP/NarrowFigure/704300/704300@1.png",
         "3": "https://static.atlasacademy.io/JP/NarrowFigure/704300/704300@2.png",
         "4": "https://static.atlasacademy.io/JP/NarrowFigure/704300/704300_2@0.png"
+      },
+      "costume": {
+        "704330": "https://static.atlasacademy.io/JP/NarrowFigure/704330/704330@0.png"
       }
     },
     "charaFigure": {
@@ -31992,6 +32001,9 @@
         "1": "https://static.atlasacademy.io/JP/CharaFigure/7043000/7043000_merged.png",
         "2": "https://static.atlasacademy.io/JP/CharaFigure/7043001/7043001_merged.png",
         "3": "https://static.atlasacademy.io/JP/CharaFigure/7043002/7043002_merged.png"
+      },
+      "costume": {
+        "704330": "https://static.atlasacademy.io/JP/CharaFigure/7043300/7043300_merged.png"
       }
     },
     "commands": {
@@ -31999,6 +32011,9 @@
         "1": "https://static.atlasacademy.io/JP/Servants/Commands/704300/card_servant_1.png",
         "2": "https://static.atlasacademy.io/JP/Servants/Commands/704300/card_servant_2.png",
         "3": "https://static.atlasacademy.io/JP/Servants/Commands/704300/card_servant_3.png"
+      },
+      "costume": {
+        "704330": "https://static.atlasacademy.io/JP/Servants/Commands/704300/card_servant_11.png"
       }
     },
     "status": {
@@ -32006,6 +32021,9 @@
         "1": "https://static.atlasacademy.io/JP/Servants/Status/704300/status_servant_1.png",
         "2": "https://static.atlasacademy.io/JP/Servants/Status/704300/status_servant_2.png",
         "3": "https://static.atlasacademy.io/JP/Servants/Status/704300/status_servant_3.png"
+      },
+      "costume": {
+        "704330": "https://static.atlasacademy.io/JP/Servants/Status/704300/status_servant_11.png"
       }
     },
     "spriteModel": {
@@ -32015,6 +32033,9 @@
         "2": "https://static.atlasacademy.io/JP/Servants/704310/manifest.json",
         "3": "https://static.atlasacademy.io/JP/Servants/704320/manifest.json",
         "4": "https://static.atlasacademy.io/JP/Servants/704320/manifest.json"
+      },
+      "costume": {
+        "704330": "https://static.atlasacademy.io/JP/Servants/704330/manifest.json"
       }
     }
   },
@@ -32052,6 +32073,8 @@
     "id": 2632
   }, {
     "id": 2666
+  }, {
+    "id": 2780
   }, {
     "id": 2797
   }, {
@@ -32115,6 +32138,9 @@
         "2": [],
         "3": [],
         "4": []
+      },
+      "costume": {
+        "704330": []
       }
     },
     "voicePrefix": {
@@ -32124,6 +32150,9 @@
         "2": 1,
         "3": 2,
         "4": 2
+      },
+      "costume": {
+        "704330": 2
       }
     },
     "lvMax": {
@@ -32342,7 +32371,24 @@
       "qp": 20000000
     }
   },
-  "costumeMaterials": {},
+  "costumeMaterials": {
+    "704330": {
+      "items": [{
+        "itemId": 6516,
+        "amount": 10
+      }, {
+        "itemId": 6533,
+        "amount": 10
+      }, {
+        "itemId": 6521,
+        "amount": 5
+      }, {
+        "itemId": 6548,
+        "amount": 5
+      }],
+      "qp": 3000000
+    }
+  },
   "coin": {
     "summonNum": 90,
     "item": {
@@ -32520,6 +32566,17 @@
       "np": "B+",
       "policy": "chaotic",
       "personality": "summer"
+    },
+    "costume": {
+      "704330": {
+        "id": 11,
+        "costumeCollectionNo": 95,
+        "battleCharaId": 704330,
+        "name": "簡易霊衣：荒ぶる真夏の女神",
+        "shortName": "荒ぶる真夏の女神",
+        "detail": "夏モードの伊吹童子の荒ぶる姿\n第三再臨の姿よりもさらに荒ぶっている",
+        "priority": 1
+      }
     }
   }
 }, {
@@ -33074,6 +33131,1827 @@
       "np": "D",
       "policy": "lawful",
       "personality": "balanced"
+    }
+  }
+}, {
+  "id": 604500,
+  "collectionNo": 359,
+  "name": "スルーズ",
+  "ruby": "スルーズ",
+  "battleName": "スルーズ",
+  "className": "assassin",
+  "type": "normal",
+  "flag": "ignoreCombineLimitSpecial",
+  "rarity": 4,
+  "cost": 12,
+  "lvMax": 80,
+  "extraAssets": {
+    "charaGraph": {
+      "ascension": {
+        "1": "https://static.atlasacademy.io/JP/CharaGraph/604500/604500a@1.png",
+        "2": "https://static.atlasacademy.io/JP/CharaGraph/604500/604500a@2.png",
+        "3": "https://static.atlasacademy.io/JP/CharaGraph/604500/604500b@1.png",
+        "4": "https://static.atlasacademy.io/JP/CharaGraph/604500/604500b@2.png"
+      },
+      "costume": {
+        "604530": "https://static.atlasacademy.io/JP/CharaGraph/604530/604530a.png"
+      }
+    },
+    "faces": {
+      "ascension": {
+        "1": "https://static.atlasacademy.io/JP/Faces/f_6045000.png",
+        "2": "https://static.atlasacademy.io/JP/Faces/f_6045001.png",
+        "3": "https://static.atlasacademy.io/JP/Faces/f_6045002.png",
+        "4": "https://static.atlasacademy.io/JP/Faces/f_6045003.png"
+      },
+      "costume": {
+        "604530": "https://static.atlasacademy.io/JP/Faces/f_6045300.png"
+      }
+    },
+    "narrowFigure": {
+      "ascension": {
+        "1": "https://static.atlasacademy.io/JP/NarrowFigure/604500/604500@0.png",
+        "2": "https://static.atlasacademy.io/JP/NarrowFigure/604500/604500@1.png",
+        "3": "https://static.atlasacademy.io/JP/NarrowFigure/604500/604500@2.png",
+        "4": "https://static.atlasacademy.io/JP/NarrowFigure/604500/604500_2@0.png"
+      },
+      "costume": {
+        "604530": "https://static.atlasacademy.io/JP/NarrowFigure/604530/604530@0.png"
+      }
+    },
+    "charaFigure": {
+      "ascension": {
+        "1": "https://static.atlasacademy.io/JP/CharaFigure/6045000/6045000_merged.png",
+        "2": "https://static.atlasacademy.io/JP/CharaFigure/6045001/6045001_merged.png",
+        "3": "https://static.atlasacademy.io/JP/CharaFigure/6045002/6045002_merged.png"
+      },
+      "costume": {
+        "604530": "https://static.atlasacademy.io/JP/CharaFigure/6045300/6045300_merged.png"
+      }
+    },
+    "commands": {
+      "ascension": {
+        "1": "https://static.atlasacademy.io/JP/Servants/Commands/604500/card_servant_1.png",
+        "2": "https://static.atlasacademy.io/JP/Servants/Commands/604500/card_servant_2.png",
+        "3": "https://static.atlasacademy.io/JP/Servants/Commands/604500/card_servant_3.png"
+      },
+      "costume": {
+        "604530": "https://static.atlasacademy.io/JP/Servants/Commands/604500/card_servant_11.png"
+      }
+    },
+    "status": {
+      "ascension": {
+        "1": "https://static.atlasacademy.io/JP/Servants/Status/604500/status_servant_1.png",
+        "2": "https://static.atlasacademy.io/JP/Servants/Status/604500/status_servant_2.png",
+        "3": "https://static.atlasacademy.io/JP/Servants/Status/604500/status_servant_3.png"
+      },
+      "costume": {
+        "604530": "https://static.atlasacademy.io/JP/Servants/Status/604500/status_servant_11.png"
+      }
+    },
+    "spriteModel": {
+      "ascension": {
+        "0": "https://static.atlasacademy.io/JP/Servants/604500/manifest.json",
+        "1": "https://static.atlasacademy.io/JP/Servants/604500/manifest.json",
+        "2": "https://static.atlasacademy.io/JP/Servants/604500/manifest.json",
+        "3": "https://static.atlasacademy.io/JP/Servants/604500/manifest.json",
+        "4": "https://static.atlasacademy.io/JP/Servants/604500/manifest.json"
+      },
+      "costume": {
+        "604530": "https://static.atlasacademy.io/JP/Servants/604530/manifest.json"
+      }
+    }
+  },
+  "gender": "female",
+  "attribute": "sky",
+  "traits": [{
+    "id": 2
+  }, {
+    "id": 105
+  }, {
+    "id": 200
+  }, {
+    "id": 300
+  }, {
+    "id": 308
+  }, {
+    "id": 1000
+  }, {
+    "id": 2000
+  }, {
+    "id": 2001
+  }, {
+    "id": 2008
+  }, {
+    "id": 2011
+  }, {
+    "id": 2037
+  }, {
+    "id": 2040
+  }, {
+    "id": 2780
+  }, {
+    "id": 2797
+  }, {
+    "id": 2837
+  }, {
+    "id": 2838
+  }, {
+    "id": 5000
+  }, {
+    "id": 604500
+  }],
+  "starAbsorb": 100,
+  "starGen": 255,
+  "instantDeathChance": 316,
+  "cards": ["quick", "quick", "arts", "arts", "buster"],
+  "hitsDistribution": {
+    "arts": [10, 20, 30, 40],
+    "buster": [16, 33, 51],
+    "quick": [16, 33, 51],
+    "extra": [6, 13, 20, 26, 35]
+  },
+  "cardDetails": {
+    "arts": {
+      "attackIndividuality": [{
+        "id": 3000
+      }]
+    },
+    "buster": {
+      "attackIndividuality": [{
+        "id": 3000
+      }]
+    },
+    "quick": {
+      "attackIndividuality": [{
+        "id": 3000
+      }]
+    },
+    "extra": {
+      "attackIndividuality": [{
+        "id": 3000
+      }]
+    }
+  },
+  "atkBase": 1623,
+  "atkMax": 9741,
+  "hpBase": 1692,
+  "hpMax": 10580,
+  "growthCurve": 14,
+  "atkGrowth": [1623, 1631, 1647, 1671, 1696, 1736, 1777, 1825, 1874, 1939, 2004, 2069, 2150, 2231, 2321, 2410, 2507, 2613, 2727, 2832, 2954, 3076, 3197, 3327, 3465, 3603, 3741, 3887, 4034, 4180, 4334, 4488, 4642, 4797, 4959, 5113, 5276, 5438, 5600, 5755, 5917, 6079, 6242, 6396, 6558, 6712, 6867, 7021, 7175, 7321, 7467, 7614, 7752, 7890, 8028, 8157, 8279, 8401, 8523, 8628, 8742, 8848, 8945, 9034, 9124, 9205, 9286, 9351, 9416, 9481, 9529, 9578, 9611, 9635, 9659, 9676, 9692, 9708, 9724, 9741, 9838, 9943, 10041, 10146, 10252, 10349, 10455, 10560, 10658, 10763, 10869, 10966, 11072, 11177, 11275, 11380, 11486, 11583, 11689, 11794, 11892, 11997, 12103, 12200, 12306, 12411, 12509, 12614, 12720, 12817, 12923, 13028, 13126, 13231, 13337, 13434, 13540, 13645, 13743, 13848],
+  "hpGrowth": [1692, 1700, 1718, 1745, 1771, 1816, 1860, 1914, 1967, 2038, 2109, 2180, 2269, 2358, 2456, 2554, 2660, 2776, 2900, 3016, 3149, 3282, 3416, 3558, 3709, 3860, 4011, 4171, 4331, 4491, 4660, 4829, 4998, 5167, 5344, 5513, 5691, 5869, 6047, 6215, 6393, 6571, 6749, 6918, 7095, 7264, 7433, 7602, 7771, 7931, 8091, 8251, 8402, 8553, 8704, 8846, 8980, 9113, 9246, 9362, 9486, 9602, 9708, 9806, 9904, 9993, 10082, 10153, 10224, 10295, 10348, 10402, 10437, 10464, 10491, 10508, 10526, 10544, 10562, 10580, 10686, 10802, 10908, 11024, 11139, 11246, 11362, 11477, 11584, 11699, 11815, 11922, 12037, 12153, 12259, 12375, 12490, 12597, 12713, 12828, 12935, 13050, 13166, 13273, 13388, 13504, 13610, 13726, 13841, 13948, 14064, 14179, 14286, 14401, 14517, 14624, 14739, 14855, 14961, 15077],
+  "bondGrowth": [5000, 20000, 30000, 32000, 50000, 200000, 600000, 900000, 1180000, 1550000, 2640000, 3870000, 5230000, 6730000, 8370000],
+  "expGrowth": [0, 100, 400, 1000, 2000, 3500, 5600, 8400, 12000, 16500, 22000, 28600, 36400, 45500, 56000, 68000, 81600, 96900, 114000, 133000, 154000, 177100, 202400, 230000, 260000, 292500, 327600, 365400, 406000, 449500, 496000, 545600, 598400, 654500, 714000, 777000, 843600, 913900, 988000, 1066000, 1148000, 1234100, 1324400, 1419000, 1518000, 1621500, 1729600, 1842400, 1960000, 2082500, 2210000, 2342600, 2480400, 2623500, 2772000, 2926000, 3085600, 3250900, 3422000, 3599000, 3782000, 3971100, 4166400, 4368000, 4576000, 4790500, 5011600, 5239400, 5474000, 5715500, 5964000, 6219600, 6482400, 6752500, 7030000, 7315000, 7607600, 7907900, 8216000, 8532000, 8856000, 9188100, 9528400, 9877000, 10234000, 10599500, 10973600, 11356400, 11748000, 12148500, 12567000, 13021900, 13532000, 14116500, 14795000, 15587500, 16514400, 17596500, 18855000, 20311500, 40623000, 60934500, 81246000, 101557500, 121869000, 142180500, 162492000, 182803500, 203115000, 223426500, 243738000, 264049500, 284361000, 304672500, 324984000, 345295500, 365607000, 385918500, 406230000, 426541500],
+  "bondEquip": 9306550,
+  "ascensionAdd": {
+    "individuality": {
+      "ascension": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "costume": {
+        "604530": []
+      }
+    },
+    "voicePrefix": {
+      "ascension": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      },
+      "costume": {
+        "604530": 11
+      }
+    },
+    "overWriteServantBattleName": {
+      "costume": {
+        "11": "リンド"
+      }
+    },
+    "lvMax": {
+      "ascension": {
+        "0": 40,
+        "1": 50,
+        "2": 60,
+        "3": 70,
+        "4": 80
+      }
+    }
+  },
+  "traitAdd": [],
+  "ascensionMaterials": {
+    "0": {
+      "items": [{
+        "itemId": 94073606,
+        "amount": 1
+      }],
+      "qp": 50000
+    },
+    "1": {
+      "items": [{
+        "itemId": 94073606,
+        "amount": 1
+      }],
+      "qp": 150000
+    },
+    "2": {
+      "items": [{
+        "itemId": 94073606,
+        "amount": 1
+      }],
+      "qp": 500000
+    },
+    "3": {
+      "items": [{
+        "itemId": 94073606,
+        "amount": 1
+      }],
+      "qp": 1500000
+    }
+  },
+  "skillMaterials": {
+    "1": {
+      "items": [{
+        "itemId": 6006,
+        "amount": 4
+      }],
+      "qp": 100000
+    },
+    "2": {
+      "items": [{
+        "itemId": 6006,
+        "amount": 10
+      }],
+      "qp": 200000
+    },
+    "3": {
+      "items": [{
+        "itemId": 6106,
+        "amount": 4
+      }],
+      "qp": 600000
+    },
+    "4": {
+      "items": [{
+        "itemId": 6106,
+        "amount": 10
+      }, {
+        "itemId": 6526,
+        "amount": 4
+      }],
+      "qp": 800000
+    },
+    "5": {
+      "items": [{
+        "itemId": 6206,
+        "amount": 4
+      }, {
+        "itemId": 6526,
+        "amount": 8
+      }],
+      "qp": 2000000
+    },
+    "6": {
+      "items": [{
+        "itemId": 6206,
+        "amount": 10
+      }, {
+        "itemId": 6501,
+        "amount": 4
+      }],
+      "qp": 2500000
+    },
+    "7": {
+      "items": [{
+        "itemId": 6501,
+        "amount": 7
+      }, {
+        "itemId": 6534,
+        "amount": 15
+      }],
+      "qp": 5000000
+    },
+    "8": {
+      "items": [{
+        "itemId": 6534,
+        "amount": 45
+      }, {
+        "itemId": 6539,
+        "amount": 12
+      }],
+      "qp": 6000000
+    },
+    "9": {
+      "items": [{
+        "itemId": 6999,
+        "amount": 1
+      }],
+      "qp": 10000000
+    }
+  },
+  "appendSkillMaterials": {
+    "1": {
+      "items": [{
+        "itemId": 6006,
+        "amount": 4
+      }],
+      "qp": 100000
+    },
+    "2": {
+      "items": [{
+        "itemId": 6006,
+        "amount": 10
+      }],
+      "qp": 200000
+    },
+    "3": {
+      "items": [{
+        "itemId": 6106,
+        "amount": 4
+      }],
+      "qp": 600000
+    },
+    "4": {
+      "items": [{
+        "itemId": 6106,
+        "amount": 10
+      }, {
+        "itemId": 6535,
+        "amount": 4
+      }],
+      "qp": 800000
+    },
+    "5": {
+      "items": [{
+        "itemId": 6206,
+        "amount": 4
+      }, {
+        "itemId": 6535,
+        "amount": 8
+      }],
+      "qp": 2000000
+    },
+    "6": {
+      "items": [{
+        "itemId": 6206,
+        "amount": 10
+      }, {
+        "itemId": 6510,
+        "amount": 4
+      }],
+      "qp": 2500000
+    },
+    "7": {
+      "items": [{
+        "itemId": 6510,
+        "amount": 8
+      }, {
+        "itemId": 6536,
+        "amount": 5
+      }],
+      "qp": 5000000
+    },
+    "8": {
+      "items": [{
+        "itemId": 6536,
+        "amount": 15
+      }, {
+        "itemId": 6545,
+        "amount": 20
+      }],
+      "qp": 6000000
+    },
+    "9": {
+      "items": [{
+        "itemId": 6999,
+        "amount": 1
+      }],
+      "qp": 10000000
+    }
+  },
+  "costumeMaterials": {
+    "604530": {
+      "items": [{
+        "itemId": 6534,
+        "amount": 10
+      }, {
+        "itemId": 6536,
+        "amount": 5
+      }, {
+        "itemId": 6539,
+        "amount": 5
+      }, {
+        "itemId": 6540,
+        "amount": 5
+      }],
+      "qp": 3000000
+    }
+  },
+  "coin": {
+    "summonNum": 0,
+    "item": {
+      "id": 60450001,
+      "name": "サーヴァントコイン",
+      "type": "svtCoin",
+      "detail": "【サーヴァント強化素材】\nサーヴァントの霊基のカケラ。",
+      "icon": "https://static.atlasacademy.io/JP/Coins/604500.png",
+      "background": "silver",
+      "priority": 57,
+      "dropPriority": 1003
+    }
+  },
+  "script": {},
+  "skills": [{
+    "id": 2122450,
+    "num": 1,
+    "priority": 1
+  }, {
+    "id": 2123451,
+    "num": 2,
+    "priority": 1,
+    "condLimitCount": 1
+  }, {
+    "id": 2124650,
+    "num": 3,
+    "priority": 1,
+    "condLimitCount": 3
+  }],
+  "classPassive": [{
+    "id": 50450
+  }, {
+    "id": 62550
+  }],
+  "extraPassive": [{
+    "id": 940255,
+    "extraPassive": [{
+      "num": 16,
+      "priority": 173,
+      "eventId": 80384,
+      "startedAt": 1660132800,
+      "endedAt": 1661918399
+    }]
+  }, {
+    "id": 960502,
+    "extraPassive": [{
+      "num": 10,
+      "priority": 1,
+      "condQuestId": 1000722,
+      "condQuestPhase": 1,
+      "condFriendshipRank": 5,
+      "eventId": 80038,
+      "startedAt": 1482382800,
+      "endedAt": 1893423600
+    }]
+  }, {
+    "id": 960503,
+    "extraPassive": [{
+      "num": 10,
+      "priority": 2,
+      "condQuestId": 1000722,
+      "condQuestPhase": 1,
+      "condFriendshipRank": 6,
+      "eventId": 80038,
+      "startedAt": 1482382800,
+      "endedAt": 1893423600
+    }]
+  }, {
+    "id": 960504,
+    "extraPassive": [{
+      "num": 10,
+      "priority": 3,
+      "condQuestId": 1000722,
+      "condQuestPhase": 1,
+      "condFriendshipRank": 7,
+      "eventId": 80038,
+      "startedAt": 1482382800,
+      "endedAt": 1893423600
+    }]
+  }, {
+    "id": 960505,
+    "extraPassive": [{
+      "num": 10,
+      "priority": 4,
+      "condQuestId": 1000722,
+      "condQuestPhase": 1,
+      "condFriendshipRank": 8,
+      "eventId": 80038,
+      "startedAt": 1482382800,
+      "endedAt": 1893423600
+    }]
+  }, {
+    "id": 960506,
+    "extraPassive": [{
+      "num": 10,
+      "priority": 5,
+      "condQuestId": 1000722,
+      "condQuestPhase": 1,
+      "condFriendshipRank": 9,
+      "eventId": 80038,
+      "startedAt": 1482382800,
+      "endedAt": 1893423600
+    }]
+  }, {
+    "id": 960507,
+    "extraPassive": [{
+      "num": 10,
+      "priority": 6,
+      "condQuestId": 1000722,
+      "condQuestPhase": 1,
+      "condFriendshipRank": 10,
+      "eventId": 80038,
+      "startedAt": 1482382800,
+      "endedAt": 1893423600
+    }]
+  }, {
+    "id": 960837,
+    "extraPassive": [{
+      "num": 12,
+      "priority": 1,
+      "condQuestId": 1000822,
+      "condQuestPhase": 1,
+      "eventId": 80059,
+      "startedAt": 1498726800,
+      "endedAt": 1893423600
+    }]
+  }],
+  "appendPassive": [{
+    "num": 100,
+    "priority": 1,
+    "skill": {
+      "id": 3001000
+    },
+    "unlockMaterials": [{
+      "itemId": 60450001,
+      "amount": 120
+    }]
+  }, {
+    "num": 101,
+    "priority": 1,
+    "skill": {
+      "id": 3002000
+    },
+    "unlockMaterials": [{
+      "itemId": 60450001,
+      "amount": 120
+    }]
+  }, {
+    "num": 102,
+    "priority": 1,
+    "skill": {
+      "id": 3003000
+    },
+    "unlockMaterials": [{
+      "itemId": 60450001,
+      "amount": 120
+    }]
+  }],
+  "noblePhantasms": [{
+    "id": 604501,
+    "num": 1,
+    "priority": 101
+  }],
+  "profile": {
+    "cv": "雨宮天",
+    "illustrator": "武内崇",
+    "stats": {
+      "strength": "D",
+      "endurance": "C",
+      "agility": "A",
+      "magic": "A+",
+      "luck": "B",
+      "np": "B",
+      "policy": "lawful",
+      "personality": "summer"
+    },
+    "costume": {
+      "604530": {
+        "id": 11,
+        "costumeCollectionNo": 92,
+        "battleCharaId": 604530,
+        "name": "戦乙女リンド",
+        "shortName": "戦乙女リンド",
+        "detail": "スルーズと同時期に製造された個体\n作戦参謀的な役割を有している",
+        "priority": 1
+      }
+    }
+  }
+}, {
+  "id": 604400,
+  "collectionNo": 360,
+  "name": "ヒルド",
+  "ruby": "ヒルド",
+  "battleName": "ヒルド",
+  "className": "assassin",
+  "type": "normal",
+  "flag": "ignoreCombineLimitSpecial",
+  "rarity": 4,
+  "cost": 12,
+  "lvMax": 80,
+  "extraAssets": {
+    "charaGraph": {
+      "ascension": {
+        "1": "https://static.atlasacademy.io/JP/CharaGraph/604400/604400a@1.png",
+        "2": "https://static.atlasacademy.io/JP/CharaGraph/604400/604400a@2.png",
+        "3": "https://static.atlasacademy.io/JP/CharaGraph/604400/604400b@1.png",
+        "4": "https://static.atlasacademy.io/JP/CharaGraph/604400/604400b@2.png"
+      },
+      "costume": {
+        "604430": "https://static.atlasacademy.io/JP/CharaGraph/604430/604430a.png"
+      }
+    },
+    "faces": {
+      "ascension": {
+        "1": "https://static.atlasacademy.io/JP/Faces/f_6044000.png",
+        "2": "https://static.atlasacademy.io/JP/Faces/f_6044001.png",
+        "3": "https://static.atlasacademy.io/JP/Faces/f_6044002.png",
+        "4": "https://static.atlasacademy.io/JP/Faces/f_6044003.png"
+      },
+      "costume": {
+        "604430": "https://static.atlasacademy.io/JP/Faces/f_6044300.png"
+      }
+    },
+    "narrowFigure": {
+      "ascension": {
+        "1": "https://static.atlasacademy.io/JP/NarrowFigure/604400/604400@0.png",
+        "2": "https://static.atlasacademy.io/JP/NarrowFigure/604400/604400@1.png",
+        "3": "https://static.atlasacademy.io/JP/NarrowFigure/604400/604400@2.png",
+        "4": "https://static.atlasacademy.io/JP/NarrowFigure/604400/604400_2@0.png"
+      },
+      "costume": {
+        "604430": "https://static.atlasacademy.io/JP/NarrowFigure/604430/604430@0.png"
+      }
+    },
+    "charaFigure": {
+      "ascension": {
+        "1": "https://static.atlasacademy.io/JP/CharaFigure/6044000/6044000_merged.png",
+        "2": "https://static.atlasacademy.io/JP/CharaFigure/6044001/6044001_merged.png",
+        "3": "https://static.atlasacademy.io/JP/CharaFigure/6044002/6044002_merged.png"
+      },
+      "costume": {
+        "604430": "https://static.atlasacademy.io/JP/CharaFigure/6044300/6044300_merged.png"
+      }
+    },
+    "commands": {
+      "ascension": {
+        "1": "https://static.atlasacademy.io/JP/Servants/Commands/604400/card_servant_1.png",
+        "2": "https://static.atlasacademy.io/JP/Servants/Commands/604400/card_servant_2.png",
+        "3": "https://static.atlasacademy.io/JP/Servants/Commands/604400/card_servant_3.png"
+      },
+      "costume": {
+        "604430": "https://static.atlasacademy.io/JP/Servants/Commands/604400/card_servant_11.png"
+      }
+    },
+    "status": {
+      "ascension": {
+        "1": "https://static.atlasacademy.io/JP/Servants/Status/604400/status_servant_1.png",
+        "2": "https://static.atlasacademy.io/JP/Servants/Status/604400/status_servant_2.png",
+        "3": "https://static.atlasacademy.io/JP/Servants/Status/604400/status_servant_3.png"
+      },
+      "costume": {
+        "604430": "https://static.atlasacademy.io/JP/Servants/Status/604400/status_servant_11.png"
+      }
+    },
+    "spriteModel": {
+      "ascension": {
+        "0": "https://static.atlasacademy.io/JP/Servants/604400/manifest.json",
+        "1": "https://static.atlasacademy.io/JP/Servants/604400/manifest.json",
+        "2": "https://static.atlasacademy.io/JP/Servants/604400/manifest.json",
+        "3": "https://static.atlasacademy.io/JP/Servants/604400/manifest.json",
+        "4": "https://static.atlasacademy.io/JP/Servants/604400/manifest.json"
+      },
+      "costume": {
+        "604430": "https://static.atlasacademy.io/JP/Servants/604430/manifest.json"
+      }
+    }
+  },
+  "gender": "female",
+  "attribute": "sky",
+  "traits": [{
+    "id": 2
+  }, {
+    "id": 105
+  }, {
+    "id": 200
+  }, {
+    "id": 300
+  }, {
+    "id": 308
+  }, {
+    "id": 1000
+  }, {
+    "id": 2000
+  }, {
+    "id": 2001
+  }, {
+    "id": 2008
+  }, {
+    "id": 2011
+  }, {
+    "id": 2037
+  }, {
+    "id": 2040
+  }, {
+    "id": 2780
+  }, {
+    "id": 2797
+  }, {
+    "id": 2837
+  }, {
+    "id": 2838
+  }, {
+    "id": 5000
+  }, {
+    "id": 604400
+  }],
+  "starAbsorb": 100,
+  "starGen": 255,
+  "instantDeathChance": 316,
+  "cards": ["quick", "quick", "arts", "arts", "buster"],
+  "hitsDistribution": {
+    "arts": [10, 20, 30, 40],
+    "buster": [16, 33, 51],
+    "quick": [16, 33, 51],
+    "extra": [6, 13, 20, 26, 35]
+  },
+  "cardDetails": {
+    "arts": {
+      "attackIndividuality": [{
+        "id": 3000
+      }]
+    },
+    "buster": {
+      "attackIndividuality": [{
+        "id": 3000
+      }]
+    },
+    "quick": {
+      "attackIndividuality": [{
+        "id": 3000
+      }]
+    },
+    "extra": {
+      "attackIndividuality": [{
+        "id": 3000
+      }]
+    }
+  },
+  "atkBase": 1623,
+  "atkMax": 9741,
+  "hpBase": 1692,
+  "hpMax": 10580,
+  "growthCurve": 14,
+  "atkGrowth": [1623, 1631, 1647, 1671, 1696, 1736, 1777, 1825, 1874, 1939, 2004, 2069, 2150, 2231, 2321, 2410, 2507, 2613, 2727, 2832, 2954, 3076, 3197, 3327, 3465, 3603, 3741, 3887, 4034, 4180, 4334, 4488, 4642, 4797, 4959, 5113, 5276, 5438, 5600, 5755, 5917, 6079, 6242, 6396, 6558, 6712, 6867, 7021, 7175, 7321, 7467, 7614, 7752, 7890, 8028, 8157, 8279, 8401, 8523, 8628, 8742, 8848, 8945, 9034, 9124, 9205, 9286, 9351, 9416, 9481, 9529, 9578, 9611, 9635, 9659, 9676, 9692, 9708, 9724, 9741, 9838, 9943, 10041, 10146, 10252, 10349, 10455, 10560, 10658, 10763, 10869, 10966, 11072, 11177, 11275, 11380, 11486, 11583, 11689, 11794, 11892, 11997, 12103, 12200, 12306, 12411, 12509, 12614, 12720, 12817, 12923, 13028, 13126, 13231, 13337, 13434, 13540, 13645, 13743, 13848],
+  "hpGrowth": [1692, 1700, 1718, 1745, 1771, 1816, 1860, 1914, 1967, 2038, 2109, 2180, 2269, 2358, 2456, 2554, 2660, 2776, 2900, 3016, 3149, 3282, 3416, 3558, 3709, 3860, 4011, 4171, 4331, 4491, 4660, 4829, 4998, 5167, 5344, 5513, 5691, 5869, 6047, 6215, 6393, 6571, 6749, 6918, 7095, 7264, 7433, 7602, 7771, 7931, 8091, 8251, 8402, 8553, 8704, 8846, 8980, 9113, 9246, 9362, 9486, 9602, 9708, 9806, 9904, 9993, 10082, 10153, 10224, 10295, 10348, 10402, 10437, 10464, 10491, 10508, 10526, 10544, 10562, 10580, 10686, 10802, 10908, 11024, 11139, 11246, 11362, 11477, 11584, 11699, 11815, 11922, 12037, 12153, 12259, 12375, 12490, 12597, 12713, 12828, 12935, 13050, 13166, 13273, 13388, 13504, 13610, 13726, 13841, 13948, 14064, 14179, 14286, 14401, 14517, 14624, 14739, 14855, 14961, 15077],
+  "bondGrowth": [5000, 20000, 30000, 32000, 50000, 200000, 600000, 900000, 1180000, 1550000, 2640000, 3870000, 5230000, 6730000, 8370000],
+  "expGrowth": [0, 100, 400, 1000, 2000, 3500, 5600, 8400, 12000, 16500, 22000, 28600, 36400, 45500, 56000, 68000, 81600, 96900, 114000, 133000, 154000, 177100, 202400, 230000, 260000, 292500, 327600, 365400, 406000, 449500, 496000, 545600, 598400, 654500, 714000, 777000, 843600, 913900, 988000, 1066000, 1148000, 1234100, 1324400, 1419000, 1518000, 1621500, 1729600, 1842400, 1960000, 2082500, 2210000, 2342600, 2480400, 2623500, 2772000, 2926000, 3085600, 3250900, 3422000, 3599000, 3782000, 3971100, 4166400, 4368000, 4576000, 4790500, 5011600, 5239400, 5474000, 5715500, 5964000, 6219600, 6482400, 6752500, 7030000, 7315000, 7607600, 7907900, 8216000, 8532000, 8856000, 9188100, 9528400, 9877000, 10234000, 10599500, 10973600, 11356400, 11748000, 12148500, 12567000, 13021900, 13532000, 14116500, 14795000, 15587500, 16514400, 17596500, 18855000, 20311500, 40623000, 60934500, 81246000, 101557500, 121869000, 142180500, 162492000, 182803500, 203115000, 223426500, 243738000, 264049500, 284361000, 304672500, 324984000, 345295500, 365607000, 385918500, 406230000, 426541500],
+  "bondEquip": 9306560,
+  "ascensionAdd": {
+    "individuality": {
+      "ascension": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "costume": {
+        "604430": []
+      }
+    },
+    "voicePrefix": {
+      "ascension": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      },
+      "costume": {
+        "604430": 11
+      }
+    },
+    "overWriteServantBattleName": {
+      "costume": {
+        "11": "エルン"
+      }
+    },
+    "lvMax": {
+      "ascension": {
+        "0": 40,
+        "1": 50,
+        "2": 60,
+        "3": 70,
+        "4": 80
+      }
+    }
+  },
+  "traitAdd": [],
+  "ascensionMaterials": {
+    "0": {
+      "items": [{
+        "itemId": 94073606,
+        "amount": 1
+      }],
+      "qp": 50000
+    },
+    "1": {
+      "items": [{
+        "itemId": 94073606,
+        "amount": 1
+      }],
+      "qp": 150000
+    },
+    "2": {
+      "items": [{
+        "itemId": 94073606,
+        "amount": 1
+      }],
+      "qp": 500000
+    },
+    "3": {
+      "items": [{
+        "itemId": 94073606,
+        "amount": 1
+      }],
+      "qp": 1500000
+    }
+  },
+  "skillMaterials": {
+    "1": {
+      "items": [{
+        "itemId": 6006,
+        "amount": 4
+      }],
+      "qp": 100000
+    },
+    "2": {
+      "items": [{
+        "itemId": 6006,
+        "amount": 10
+      }],
+      "qp": 200000
+    },
+    "3": {
+      "items": [{
+        "itemId": 6106,
+        "amount": 4
+      }],
+      "qp": 600000
+    },
+    "4": {
+      "items": [{
+        "itemId": 6106,
+        "amount": 10
+      }, {
+        "itemId": 6526,
+        "amount": 4
+      }],
+      "qp": 800000
+    },
+    "5": {
+      "items": [{
+        "itemId": 6206,
+        "amount": 4
+      }, {
+        "itemId": 6526,
+        "amount": 8
+      }],
+      "qp": 2000000
+    },
+    "6": {
+      "items": [{
+        "itemId": 6206,
+        "amount": 10
+      }, {
+        "itemId": 6501,
+        "amount": 4
+      }],
+      "qp": 2500000
+    },
+    "7": {
+      "items": [{
+        "itemId": 6501,
+        "amount": 7
+      }, {
+        "itemId": 6534,
+        "amount": 15
+      }],
+      "qp": 5000000
+    },
+    "8": {
+      "items": [{
+        "itemId": 6534,
+        "amount": 45
+      }, {
+        "itemId": 6539,
+        "amount": 12
+      }],
+      "qp": 6000000
+    },
+    "9": {
+      "items": [{
+        "itemId": 6999,
+        "amount": 1
+      }],
+      "qp": 10000000
+    }
+  },
+  "appendSkillMaterials": {
+    "1": {
+      "items": [{
+        "itemId": 6006,
+        "amount": 4
+      }],
+      "qp": 100000
+    },
+    "2": {
+      "items": [{
+        "itemId": 6006,
+        "amount": 10
+      }],
+      "qp": 200000
+    },
+    "3": {
+      "items": [{
+        "itemId": 6106,
+        "amount": 4
+      }],
+      "qp": 600000
+    },
+    "4": {
+      "items": [{
+        "itemId": 6106,
+        "amount": 10
+      }, {
+        "itemId": 6535,
+        "amount": 4
+      }],
+      "qp": 800000
+    },
+    "5": {
+      "items": [{
+        "itemId": 6206,
+        "amount": 4
+      }, {
+        "itemId": 6535,
+        "amount": 8
+      }],
+      "qp": 2000000
+    },
+    "6": {
+      "items": [{
+        "itemId": 6206,
+        "amount": 10
+      }, {
+        "itemId": 6510,
+        "amount": 4
+      }],
+      "qp": 2500000
+    },
+    "7": {
+      "items": [{
+        "itemId": 6510,
+        "amount": 8
+      }, {
+        "itemId": 6536,
+        "amount": 5
+      }],
+      "qp": 5000000
+    },
+    "8": {
+      "items": [{
+        "itemId": 6536,
+        "amount": 15
+      }, {
+        "itemId": 6545,
+        "amount": 20
+      }],
+      "qp": 6000000
+    },
+    "9": {
+      "items": [{
+        "itemId": 6999,
+        "amount": 1
+      }],
+      "qp": 10000000
+    }
+  },
+  "costumeMaterials": {
+    "604430": {
+      "items": [{
+        "itemId": 6534,
+        "amount": 10
+      }, {
+        "itemId": 6536,
+        "amount": 5
+      }, {
+        "itemId": 6539,
+        "amount": 5
+      }, {
+        "itemId": 6540,
+        "amount": 5
+      }],
+      "qp": 3000000
+    }
+  },
+  "coin": {
+    "summonNum": 0,
+    "item": {
+      "id": 60440001,
+      "name": "サーヴァントコイン",
+      "type": "svtCoin",
+      "detail": "【サーヴァント強化素材】\nサーヴァントの霊基のカケラ。",
+      "icon": "https://static.atlasacademy.io/JP/Coins/604400.png",
+      "background": "silver",
+      "priority": 57,
+      "dropPriority": 1003
+    }
+  },
+  "script": {},
+  "skills": [{
+    "id": 2122450,
+    "num": 1,
+    "priority": 1
+  }, {
+    "id": 2123451,
+    "num": 2,
+    "priority": 1,
+    "condLimitCount": 1
+  }, {
+    "id": 2124650,
+    "num": 3,
+    "priority": 1,
+    "condLimitCount": 3
+  }],
+  "classPassive": [{
+    "id": 50450
+  }, {
+    "id": 62550
+  }],
+  "extraPassive": [{
+    "id": 940255,
+    "extraPassive": [{
+      "num": 16,
+      "priority": 173,
+      "eventId": 80384,
+      "startedAt": 1660132800,
+      "endedAt": 1661918399
+    }]
+  }, {
+    "id": 960502,
+    "extraPassive": [{
+      "num": 10,
+      "priority": 1,
+      "condQuestId": 1000722,
+      "condQuestPhase": 1,
+      "condFriendshipRank": 5,
+      "eventId": 80038,
+      "startedAt": 1482382800,
+      "endedAt": 1893423600
+    }]
+  }, {
+    "id": 960503,
+    "extraPassive": [{
+      "num": 10,
+      "priority": 2,
+      "condQuestId": 1000722,
+      "condQuestPhase": 1,
+      "condFriendshipRank": 6,
+      "eventId": 80038,
+      "startedAt": 1482382800,
+      "endedAt": 1893423600
+    }]
+  }, {
+    "id": 960504,
+    "extraPassive": [{
+      "num": 10,
+      "priority": 3,
+      "condQuestId": 1000722,
+      "condQuestPhase": 1,
+      "condFriendshipRank": 7,
+      "eventId": 80038,
+      "startedAt": 1482382800,
+      "endedAt": 1893423600
+    }]
+  }, {
+    "id": 960505,
+    "extraPassive": [{
+      "num": 10,
+      "priority": 4,
+      "condQuestId": 1000722,
+      "condQuestPhase": 1,
+      "condFriendshipRank": 8,
+      "eventId": 80038,
+      "startedAt": 1482382800,
+      "endedAt": 1893423600
+    }]
+  }, {
+    "id": 960506,
+    "extraPassive": [{
+      "num": 10,
+      "priority": 5,
+      "condQuestId": 1000722,
+      "condQuestPhase": 1,
+      "condFriendshipRank": 9,
+      "eventId": 80038,
+      "startedAt": 1482382800,
+      "endedAt": 1893423600
+    }]
+  }, {
+    "id": 960507,
+    "extraPassive": [{
+      "num": 10,
+      "priority": 6,
+      "condQuestId": 1000722,
+      "condQuestPhase": 1,
+      "condFriendshipRank": 10,
+      "eventId": 80038,
+      "startedAt": 1482382800,
+      "endedAt": 1893423600
+    }]
+  }, {
+    "id": 960837,
+    "extraPassive": [{
+      "num": 12,
+      "priority": 1,
+      "condQuestId": 1000822,
+      "condQuestPhase": 1,
+      "eventId": 80059,
+      "startedAt": 1498726800,
+      "endedAt": 1893423600
+    }]
+  }],
+  "appendPassive": [{
+    "num": 100,
+    "priority": 1,
+    "skill": {
+      "id": 3001000
+    },
+    "unlockMaterials": [{
+      "itemId": 60440001,
+      "amount": 120
+    }]
+  }, {
+    "num": 101,
+    "priority": 1,
+    "skill": {
+      "id": 3002000
+    },
+    "unlockMaterials": [{
+      "itemId": 60440001,
+      "amount": 120
+    }]
+  }, {
+    "num": 102,
+    "priority": 1,
+    "skill": {
+      "id": 3003000
+    },
+    "unlockMaterials": [{
+      "itemId": 60440001,
+      "amount": 120
+    }]
+  }],
+  "noblePhantasms": [{
+    "id": 604401,
+    "num": 1,
+    "priority": 101
+  }],
+  "profile": {
+    "cv": "小松未可子",
+    "illustrator": "武内崇",
+    "stats": {
+      "strength": "D",
+      "endurance": "C",
+      "agility": "A",
+      "magic": "A+",
+      "luck": "B",
+      "np": "B",
+      "policy": "lawful",
+      "personality": "summer"
+    },
+    "costume": {
+      "604430": {
+        "id": 11,
+        "costumeCollectionNo": 93,
+        "battleCharaId": 604430,
+        "name": "戦乙女エルルーン",
+        "shortName": "戦乙女エルルーン",
+        "detail": "愛称エルン、ヒルドと同時期の製造個体\nなお覚醒時期はオルトリンデと同じ",
+        "priority": 1
+      }
+    }
+  }
+}, {
+  "id": 604300,
+  "collectionNo": 361,
+  "name": "オルトリンデ",
+  "ruby": "オルトリンデ",
+  "battleName": "オルトリンデ",
+  "className": "assassin",
+  "type": "normal",
+  "flag": "ignoreCombineLimitSpecial",
+  "rarity": 4,
+  "cost": 12,
+  "lvMax": 80,
+  "extraAssets": {
+    "charaGraph": {
+      "ascension": {
+        "1": "https://static.atlasacademy.io/JP/CharaGraph/604300/604300a@1.png",
+        "2": "https://static.atlasacademy.io/JP/CharaGraph/604300/604300a@2.png",
+        "3": "https://static.atlasacademy.io/JP/CharaGraph/604300/604300b@1.png",
+        "4": "https://static.atlasacademy.io/JP/CharaGraph/604300/604300b@2.png"
+      },
+      "costume": {
+        "604330": "https://static.atlasacademy.io/JP/CharaGraph/604330/604330a.png"
+      }
+    },
+    "faces": {
+      "ascension": {
+        "1": "https://static.atlasacademy.io/JP/Faces/f_6043000.png",
+        "2": "https://static.atlasacademy.io/JP/Faces/f_6043001.png",
+        "3": "https://static.atlasacademy.io/JP/Faces/f_6043002.png",
+        "4": "https://static.atlasacademy.io/JP/Faces/f_6043003.png"
+      },
+      "costume": {
+        "604330": "https://static.atlasacademy.io/JP/Faces/f_6043300.png"
+      }
+    },
+    "narrowFigure": {
+      "ascension": {
+        "1": "https://static.atlasacademy.io/JP/NarrowFigure/604300/604300@0.png",
+        "2": "https://static.atlasacademy.io/JP/NarrowFigure/604300/604300@1.png",
+        "3": "https://static.atlasacademy.io/JP/NarrowFigure/604300/604300@2.png",
+        "4": "https://static.atlasacademy.io/JP/NarrowFigure/604300/604300_2@0.png"
+      },
+      "costume": {
+        "604330": "https://static.atlasacademy.io/JP/NarrowFigure/604330/604330@0.png"
+      }
+    },
+    "charaFigure": {
+      "ascension": {
+        "1": "https://static.atlasacademy.io/JP/CharaFigure/6043000/6043000_merged.png",
+        "2": "https://static.atlasacademy.io/JP/CharaFigure/6043001/6043001_merged.png",
+        "3": "https://static.atlasacademy.io/JP/CharaFigure/6043002/6043002_merged.png"
+      },
+      "costume": {
+        "604330": "https://static.atlasacademy.io/JP/CharaFigure/6043300/6043300_merged.png"
+      }
+    },
+    "commands": {
+      "ascension": {
+        "1": "https://static.atlasacademy.io/JP/Servants/Commands/604300/card_servant_1.png",
+        "2": "https://static.atlasacademy.io/JP/Servants/Commands/604300/card_servant_2.png",
+        "3": "https://static.atlasacademy.io/JP/Servants/Commands/604300/card_servant_3.png"
+      },
+      "costume": {
+        "604330": "https://static.atlasacademy.io/JP/Servants/Commands/604300/card_servant_11.png"
+      }
+    },
+    "status": {
+      "ascension": {
+        "1": "https://static.atlasacademy.io/JP/Servants/Status/604300/status_servant_1.png",
+        "2": "https://static.atlasacademy.io/JP/Servants/Status/604300/status_servant_2.png",
+        "3": "https://static.atlasacademy.io/JP/Servants/Status/604300/status_servant_3.png"
+      },
+      "costume": {
+        "604330": "https://static.atlasacademy.io/JP/Servants/Status/604300/status_servant_11.png"
+      }
+    },
+    "spriteModel": {
+      "ascension": {
+        "0": "https://static.atlasacademy.io/JP/Servants/604300/manifest.json",
+        "1": "https://static.atlasacademy.io/JP/Servants/604300/manifest.json",
+        "2": "https://static.atlasacademy.io/JP/Servants/604300/manifest.json",
+        "3": "https://static.atlasacademy.io/JP/Servants/604300/manifest.json",
+        "4": "https://static.atlasacademy.io/JP/Servants/604300/manifest.json"
+      },
+      "costume": {
+        "604330": "https://static.atlasacademy.io/JP/Servants/604330/manifest.json"
+      }
+    }
+  },
+  "gender": "female",
+  "attribute": "sky",
+  "traits": [{
+    "id": 2
+  }, {
+    "id": 105
+  }, {
+    "id": 200
+  }, {
+    "id": 300
+  }, {
+    "id": 308
+  }, {
+    "id": 1000
+  }, {
+    "id": 2000
+  }, {
+    "id": 2001
+  }, {
+    "id": 2008
+  }, {
+    "id": 2011
+  }, {
+    "id": 2037
+  }, {
+    "id": 2040
+  }, {
+    "id": 2780
+  }, {
+    "id": 2797
+  }, {
+    "id": 2837
+  }, {
+    "id": 2838
+  }, {
+    "id": 5000
+  }, {
+    "id": 604300
+  }],
+  "starAbsorb": 100,
+  "starGen": 255,
+  "instantDeathChance": 316,
+  "cards": ["quick", "quick", "arts", "arts", "buster"],
+  "hitsDistribution": {
+    "arts": [10, 20, 30, 40],
+    "buster": [16, 33, 51],
+    "quick": [16, 33, 51],
+    "extra": [6, 13, 20, 26, 35]
+  },
+  "cardDetails": {
+    "arts": {
+      "attackIndividuality": [{
+        "id": 3000
+      }]
+    },
+    "buster": {
+      "attackIndividuality": [{
+        "id": 3000
+      }]
+    },
+    "quick": {
+      "attackIndividuality": [{
+        "id": 3000
+      }]
+    },
+    "extra": {
+      "attackIndividuality": [{
+        "id": 3000
+      }]
+    }
+  },
+  "atkBase": 1623,
+  "atkMax": 9741,
+  "hpBase": 1692,
+  "hpMax": 10580,
+  "growthCurve": 14,
+  "atkGrowth": [1623, 1631, 1647, 1671, 1696, 1736, 1777, 1825, 1874, 1939, 2004, 2069, 2150, 2231, 2321, 2410, 2507, 2613, 2727, 2832, 2954, 3076, 3197, 3327, 3465, 3603, 3741, 3887, 4034, 4180, 4334, 4488, 4642, 4797, 4959, 5113, 5276, 5438, 5600, 5755, 5917, 6079, 6242, 6396, 6558, 6712, 6867, 7021, 7175, 7321, 7467, 7614, 7752, 7890, 8028, 8157, 8279, 8401, 8523, 8628, 8742, 8848, 8945, 9034, 9124, 9205, 9286, 9351, 9416, 9481, 9529, 9578, 9611, 9635, 9659, 9676, 9692, 9708, 9724, 9741, 9838, 9943, 10041, 10146, 10252, 10349, 10455, 10560, 10658, 10763, 10869, 10966, 11072, 11177, 11275, 11380, 11486, 11583, 11689, 11794, 11892, 11997, 12103, 12200, 12306, 12411, 12509, 12614, 12720, 12817, 12923, 13028, 13126, 13231, 13337, 13434, 13540, 13645, 13743, 13848],
+  "hpGrowth": [1692, 1700, 1718, 1745, 1771, 1816, 1860, 1914, 1967, 2038, 2109, 2180, 2269, 2358, 2456, 2554, 2660, 2776, 2900, 3016, 3149, 3282, 3416, 3558, 3709, 3860, 4011, 4171, 4331, 4491, 4660, 4829, 4998, 5167, 5344, 5513, 5691, 5869, 6047, 6215, 6393, 6571, 6749, 6918, 7095, 7264, 7433, 7602, 7771, 7931, 8091, 8251, 8402, 8553, 8704, 8846, 8980, 9113, 9246, 9362, 9486, 9602, 9708, 9806, 9904, 9993, 10082, 10153, 10224, 10295, 10348, 10402, 10437, 10464, 10491, 10508, 10526, 10544, 10562, 10580, 10686, 10802, 10908, 11024, 11139, 11246, 11362, 11477, 11584, 11699, 11815, 11922, 12037, 12153, 12259, 12375, 12490, 12597, 12713, 12828, 12935, 13050, 13166, 13273, 13388, 13504, 13610, 13726, 13841, 13948, 14064, 14179, 14286, 14401, 14517, 14624, 14739, 14855, 14961, 15077],
+  "bondGrowth": [5000, 20000, 30000, 32000, 50000, 200000, 600000, 900000, 1180000, 1550000, 2640000, 3870000, 5230000, 6730000, 8370000],
+  "expGrowth": [0, 100, 400, 1000, 2000, 3500, 5600, 8400, 12000, 16500, 22000, 28600, 36400, 45500, 56000, 68000, 81600, 96900, 114000, 133000, 154000, 177100, 202400, 230000, 260000, 292500, 327600, 365400, 406000, 449500, 496000, 545600, 598400, 654500, 714000, 777000, 843600, 913900, 988000, 1066000, 1148000, 1234100, 1324400, 1419000, 1518000, 1621500, 1729600, 1842400, 1960000, 2082500, 2210000, 2342600, 2480400, 2623500, 2772000, 2926000, 3085600, 3250900, 3422000, 3599000, 3782000, 3971100, 4166400, 4368000, 4576000, 4790500, 5011600, 5239400, 5474000, 5715500, 5964000, 6219600, 6482400, 6752500, 7030000, 7315000, 7607600, 7907900, 8216000, 8532000, 8856000, 9188100, 9528400, 9877000, 10234000, 10599500, 10973600, 11356400, 11748000, 12148500, 12567000, 13021900, 13532000, 14116500, 14795000, 15587500, 16514400, 17596500, 18855000, 20311500, 40623000, 60934500, 81246000, 101557500, 121869000, 142180500, 162492000, 182803500, 203115000, 223426500, 243738000, 264049500, 284361000, 304672500, 324984000, 345295500, 365607000, 385918500, 406230000, 426541500],
+  "bondEquip": 9306570,
+  "ascensionAdd": {
+    "individuality": {
+      "ascension": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": []
+      },
+      "costume": {
+        "604330": []
+      }
+    },
+    "voicePrefix": {
+      "ascension": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      },
+      "costume": {
+        "604330": 11
+      }
+    },
+    "overWriteServantBattleName": {
+      "costume": {
+        "11": "イルス"
+      }
+    },
+    "lvMax": {
+      "ascension": {
+        "0": 40,
+        "1": 50,
+        "2": 60,
+        "3": 70,
+        "4": 80
+      }
+    }
+  },
+  "traitAdd": [],
+  "ascensionMaterials": {
+    "0": {
+      "items": [{
+        "itemId": 94073606,
+        "amount": 1
+      }],
+      "qp": 50000
+    },
+    "1": {
+      "items": [{
+        "itemId": 94073606,
+        "amount": 1
+      }],
+      "qp": 150000
+    },
+    "2": {
+      "items": [{
+        "itemId": 94073606,
+        "amount": 1
+      }],
+      "qp": 500000
+    },
+    "3": {
+      "items": [{
+        "itemId": 94073606,
+        "amount": 1
+      }],
+      "qp": 1500000
+    }
+  },
+  "skillMaterials": {
+    "1": {
+      "items": [{
+        "itemId": 6006,
+        "amount": 4
+      }],
+      "qp": 100000
+    },
+    "2": {
+      "items": [{
+        "itemId": 6006,
+        "amount": 10
+      }],
+      "qp": 200000
+    },
+    "3": {
+      "items": [{
+        "itemId": 6106,
+        "amount": 4
+      }],
+      "qp": 600000
+    },
+    "4": {
+      "items": [{
+        "itemId": 6106,
+        "amount": 10
+      }, {
+        "itemId": 6526,
+        "amount": 4
+      }],
+      "qp": 800000
+    },
+    "5": {
+      "items": [{
+        "itemId": 6206,
+        "amount": 4
+      }, {
+        "itemId": 6526,
+        "amount": 8
+      }],
+      "qp": 2000000
+    },
+    "6": {
+      "items": [{
+        "itemId": 6206,
+        "amount": 10
+      }, {
+        "itemId": 6501,
+        "amount": 4
+      }],
+      "qp": 2500000
+    },
+    "7": {
+      "items": [{
+        "itemId": 6501,
+        "amount": 7
+      }, {
+        "itemId": 6534,
+        "amount": 15
+      }],
+      "qp": 5000000
+    },
+    "8": {
+      "items": [{
+        "itemId": 6534,
+        "amount": 45
+      }, {
+        "itemId": 6539,
+        "amount": 12
+      }],
+      "qp": 6000000
+    },
+    "9": {
+      "items": [{
+        "itemId": 6999,
+        "amount": 1
+      }],
+      "qp": 10000000
+    }
+  },
+  "appendSkillMaterials": {
+    "1": {
+      "items": [{
+        "itemId": 6006,
+        "amount": 4
+      }],
+      "qp": 100000
+    },
+    "2": {
+      "items": [{
+        "itemId": 6006,
+        "amount": 10
+      }],
+      "qp": 200000
+    },
+    "3": {
+      "items": [{
+        "itemId": 6106,
+        "amount": 4
+      }],
+      "qp": 600000
+    },
+    "4": {
+      "items": [{
+        "itemId": 6106,
+        "amount": 10
+      }, {
+        "itemId": 6535,
+        "amount": 4
+      }],
+      "qp": 800000
+    },
+    "5": {
+      "items": [{
+        "itemId": 6206,
+        "amount": 4
+      }, {
+        "itemId": 6535,
+        "amount": 8
+      }],
+      "qp": 2000000
+    },
+    "6": {
+      "items": [{
+        "itemId": 6206,
+        "amount": 10
+      }, {
+        "itemId": 6510,
+        "amount": 4
+      }],
+      "qp": 2500000
+    },
+    "7": {
+      "items": [{
+        "itemId": 6510,
+        "amount": 8
+      }, {
+        "itemId": 6536,
+        "amount": 5
+      }],
+      "qp": 5000000
+    },
+    "8": {
+      "items": [{
+        "itemId": 6536,
+        "amount": 15
+      }, {
+        "itemId": 6545,
+        "amount": 20
+      }],
+      "qp": 6000000
+    },
+    "9": {
+      "items": [{
+        "itemId": 6999,
+        "amount": 1
+      }],
+      "qp": 10000000
+    }
+  },
+  "costumeMaterials": {
+    "604330": {
+      "items": [{
+        "itemId": 6534,
+        "amount": 10
+      }, {
+        "itemId": 6536,
+        "amount": 5
+      }, {
+        "itemId": 6539,
+        "amount": 5
+      }, {
+        "itemId": 6540,
+        "amount": 5
+      }],
+      "qp": 3000000
+    }
+  },
+  "coin": {
+    "summonNum": 0,
+    "item": {
+      "id": 60430001,
+      "name": "サーヴァントコイン",
+      "type": "svtCoin",
+      "detail": "【サーヴァント強化素材】\nサーヴァントの霊基のカケラ。",
+      "icon": "https://static.atlasacademy.io/JP/Coins/604300.png",
+      "background": "silver",
+      "priority": 57,
+      "dropPriority": 1003
+    }
+  },
+  "script": {},
+  "skills": [{
+    "id": 2122450,
+    "num": 1,
+    "priority": 1
+  }, {
+    "id": 2123451,
+    "num": 2,
+    "priority": 1,
+    "condLimitCount": 1
+  }, {
+    "id": 2124650,
+    "num": 3,
+    "priority": 1,
+    "condLimitCount": 3
+  }],
+  "classPassive": [{
+    "id": 50450
+  }, {
+    "id": 62550
+  }],
+  "extraPassive": [{
+    "id": 940255,
+    "extraPassive": [{
+      "num": 16,
+      "priority": 173,
+      "eventId": 80384,
+      "startedAt": 1660132800,
+      "endedAt": 1661918399
+    }]
+  }, {
+    "id": 960502,
+    "extraPassive": [{
+      "num": 10,
+      "priority": 1,
+      "condQuestId": 1000722,
+      "condQuestPhase": 1,
+      "condFriendshipRank": 5,
+      "eventId": 80038,
+      "startedAt": 1482382800,
+      "endedAt": 1893423600
+    }]
+  }, {
+    "id": 960503,
+    "extraPassive": [{
+      "num": 10,
+      "priority": 2,
+      "condQuestId": 1000722,
+      "condQuestPhase": 1,
+      "condFriendshipRank": 6,
+      "eventId": 80038,
+      "startedAt": 1482382800,
+      "endedAt": 1893423600
+    }]
+  }, {
+    "id": 960504,
+    "extraPassive": [{
+      "num": 10,
+      "priority": 3,
+      "condQuestId": 1000722,
+      "condQuestPhase": 1,
+      "condFriendshipRank": 7,
+      "eventId": 80038,
+      "startedAt": 1482382800,
+      "endedAt": 1893423600
+    }]
+  }, {
+    "id": 960505,
+    "extraPassive": [{
+      "num": 10,
+      "priority": 4,
+      "condQuestId": 1000722,
+      "condQuestPhase": 1,
+      "condFriendshipRank": 8,
+      "eventId": 80038,
+      "startedAt": 1482382800,
+      "endedAt": 1893423600
+    }]
+  }, {
+    "id": 960506,
+    "extraPassive": [{
+      "num": 10,
+      "priority": 5,
+      "condQuestId": 1000722,
+      "condQuestPhase": 1,
+      "condFriendshipRank": 9,
+      "eventId": 80038,
+      "startedAt": 1482382800,
+      "endedAt": 1893423600
+    }]
+  }, {
+    "id": 960507,
+    "extraPassive": [{
+      "num": 10,
+      "priority": 6,
+      "condQuestId": 1000722,
+      "condQuestPhase": 1,
+      "condFriendshipRank": 10,
+      "eventId": 80038,
+      "startedAt": 1482382800,
+      "endedAt": 1893423600
+    }]
+  }, {
+    "id": 960837,
+    "extraPassive": [{
+      "num": 12,
+      "priority": 1,
+      "condQuestId": 1000822,
+      "condQuestPhase": 1,
+      "eventId": 80059,
+      "startedAt": 1498726800,
+      "endedAt": 1893423600
+    }]
+  }],
+  "appendPassive": [{
+    "num": 100,
+    "priority": 1,
+    "skill": {
+      "id": 3001000
+    },
+    "unlockMaterials": [{
+      "itemId": 60430001,
+      "amount": 120
+    }]
+  }, {
+    "num": 101,
+    "priority": 1,
+    "skill": {
+      "id": 3002000
+    },
+    "unlockMaterials": [{
+      "itemId": 60430001,
+      "amount": 120
+    }]
+  }, {
+    "num": 102,
+    "priority": 1,
+    "skill": {
+      "id": 3003000
+    },
+    "unlockMaterials": [{
+      "itemId": 60430001,
+      "amount": 120
+    }]
+  }],
+  "noblePhantasms": [{
+    "id": 604301,
+    "num": 1,
+    "priority": 101
+  }],
+  "profile": {
+    "cv": "田中美海",
+    "illustrator": "武内崇",
+    "stats": {
+      "strength": "D",
+      "endurance": "C",
+      "agility": "A",
+      "magic": "A+",
+      "luck": "B",
+      "np": "B",
+      "policy": "lawful",
+      "personality": "summer"
+    },
+    "costume": {
+      "604330": {
+        "id": 11,
+        "costumeCollectionNo": 94,
+        "battleCharaId": 604330,
+        "name": "戦乙女ゲイルスケグル",
+        "shortName": "戦乙女ゲイルスケグル",
+        "detail": "愛称イルス、単独行動向きの個体\nオルトリンデと同時期に製造された",
+        "priority": 1
+      }
     }
   }
 }]

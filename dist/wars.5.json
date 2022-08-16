@@ -73718,7 +73718,45 @@
     "y": 1697,
     "nameOfsY": -5,
     "questOfsX": 37,
-    "questOfsY": -60
+    "questOfsY": -60,
+    "quests": [{
+      "id": 94073901,
+      "name": "",
+      "type": "event",
+      "flags": ["dropFirstTimeOnly", "notRetrievable", "notDisplayResultGetPoint"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "90+",
+      "spotId": 914301,
+      "spotName": "極北楽園郊外",
+      "warId": 9143,
+      "warLongName": "北極魔園観光アークティック・サマーワールド",
+      "gifts": [{
+        "objectId": 6999,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 1000822,
+        "closedMessage": "終局特異点クリアで開放"
+      }, {
+        "type": "questClear",
+        "targetId": 94073611
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "終局特異点クリアかつ8月17日18時00分以降に開放"
+      }, {
+        "type": "forceFalse",
+        "targetId": 0,
+        "closedMessage": "データ更新後に開放"
+      }],
+      "phases": [1],
+      "priority": 94073898,
+      "noticeAt": 1660640400,
+      "openedAt": 1660726800,
+      "closedAt": 1661918399
+    }]
   }, {
     "id": 914302,
     "joinSpotIds": [914320],
@@ -73913,6 +73951,55 @@
       "openedAt": 1660208400,
       "closedAt": 1661918399
     }, {
+      "id": 94073705,
+      "name": "蠢く漆黒の闇シュヴァルツナハト",
+      "type": "event",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "60",
+      "spotId": 914304,
+      "spotName": "わくわくエリセランド",
+      "warId": 9143,
+      "warLongName": "北極魔園観光アークティック・サマーワールド",
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94073611
+      }, {
+        "type": "questClear",
+        "targetId": 94074015,
+        "closedMessage": "【エリア改良】わくわくエリセランドを改良する Lv.7クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1, 2],
+      "phasesWithEnemies": [1, 2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9407370510",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407370510.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9407370520",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407370520.txt"
+        }, {
+          "scriptId": "9407370521",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407370521.txt"
+        }]
+      }],
+      "priority": 94073975,
+      "noticeAt": 1660640400,
+      "openedAt": 1660640400,
+      "closedAt": 1661918399
+    }, {
       "id": 94073805,
       "name": "キャスト体験！ アトラクションツアーを盛り上げよう！",
       "type": "event",
@@ -74091,6 +74178,228 @@
       "noticeAt": 1660381200,
       "openedAt": 1660381200,
       "closedAt": 1661918399
+    }, {
+      "id": 94073950,
+      "name": "【いずれかのみ！】「スルーズ＆霊衣リンド」獲得クエスト",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 914307,
+      "spotName": "極北魔氷城",
+      "warId": 9143,
+      "warLongName": "北極魔園観光アークティック・サマーワールド",
+      "gifts": [{
+        "type": "eventSvtGet",
+        "objectId": 604500,
+        "num": 1
+      }, {
+        "type": "costumeRelease",
+        "objectId": 60450011,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94073611
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "notQuestGroupClear",
+        "targetId": 94073601,
+        "value": 1
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94073939,
+      "noticeAt": 1660640400,
+      "openedAt": 1660640400,
+      "closedAt": 1661918399
+    }, {
+      "id": 94073951,
+      "name": "【いずれかのみ！】「ヒルド＆霊衣エルン」獲得クエスト",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 914307,
+      "spotName": "極北魔氷城",
+      "warId": 9143,
+      "warLongName": "北極魔園観光アークティック・サマーワールド",
+      "gifts": [{
+        "type": "eventSvtGet",
+        "objectId": 604400,
+        "num": 1
+      }, {
+        "type": "costumeRelease",
+        "objectId": 60440011,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94073611
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "notQuestGroupClear",
+        "targetId": 94073601,
+        "value": 1
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94073938,
+      "noticeAt": 1660640400,
+      "openedAt": 1660640400,
+      "closedAt": 1661918399
+    }, {
+      "id": 94073952,
+      "name": "【いずれかのみ！】「オルトリンデ＆霊衣イルス」獲得クエスト",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 914307,
+      "spotName": "極北魔氷城",
+      "warId": 9143,
+      "warLongName": "北極魔園観光アークティック・サマーワールド",
+      "gifts": [{
+        "type": "eventSvtGet",
+        "objectId": 604300,
+        "num": 1
+      }, {
+        "type": "costumeRelease",
+        "objectId": 60430011,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94073611
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "notQuestGroupClear",
+        "targetId": 94073601,
+        "value": 1
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94073937,
+      "noticeAt": 1660640400,
+      "openedAt": 1660640400,
+      "closedAt": 1661918399
+    }, {
+      "id": 94073973,
+      "name": "【おまけクエスト】無許可営業は困ります！",
+      "type": "main",
+      "flags": ["notDisplayResultGetPoint"],
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "80",
+      "spotId": 914307,
+      "spotName": "極北魔氷城",
+      "warId": 9143,
+      "warLongName": "北極魔園観光アークティック・サマーワールド",
+      "gifts": [{
+        "type": "servant",
+        "objectId": 604501,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94073950
+      }, {
+        "type": "questClear",
+        "targetId": 94074036,
+        "closedMessage": "【エリア改良】極北魔氷城を改良する Lv.10クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94073929,
+      "noticeAt": 1660640400,
+      "openedAt": 1660640400,
+      "closedAt": 1661918399
+    }, {
+      "id": 94073977,
+      "name": "【おまけクエスト】無許可営業は困ります！",
+      "type": "main",
+      "flags": ["notDisplayResultGetPoint"],
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "80",
+      "spotId": 914307,
+      "spotName": "極北魔氷城",
+      "warId": 9143,
+      "warLongName": "北極魔園観光アークティック・サマーワールド",
+      "gifts": [{
+        "type": "servant",
+        "objectId": 604401,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94073951
+      }, {
+        "type": "questClear",
+        "targetId": 94074036,
+        "closedMessage": "【エリア改良】極北魔氷城を改良する Lv.10クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94073925,
+      "noticeAt": 1660640400,
+      "openedAt": 1660640400,
+      "closedAt": 1661918399
+    }, {
+      "id": 94073981,
+      "name": "【おまけクエスト】無許可営業は困ります！",
+      "type": "main",
+      "flags": ["notDisplayResultGetPoint"],
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "80",
+      "spotId": 914307,
+      "spotName": "極北魔氷城",
+      "warId": 9143,
+      "warLongName": "北極魔園観光アークティック・サマーワールド",
+      "gifts": [{
+        "type": "servant",
+        "objectId": 604301,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94073952
+      }, {
+        "type": "questClear",
+        "targetId": 94074036,
+        "closedMessage": "【エリア改良】極北魔氷城を改良する Lv.10クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94073921,
+      "noticeAt": 1660640400,
+      "openedAt": 1660640400,
+      "closedAt": 1661918399
     }]
   }, {
     "id": 914308,
@@ -74151,6 +74460,49 @@
       "openedAt": 1660467600,
       "closedAt": 1661918399
     }, {
+      "id": 94073703,
+      "name": "或る死体",
+      "type": "event",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "60",
+      "spotId": 914308,
+      "spotName": "ほーんてっど鬼屋",
+      "warId": 9143,
+      "warLongName": "北極魔園観光アークティック・サマーワールド",
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94073611
+      }, {
+        "type": "questClear",
+        "targetId": 94074042,
+        "closedMessage": "【エリア改良】ほーんてっど鬼屋を改良する Lv.7クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9407370310",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407370310.txt"
+        }, {
+          "scriptId": "9407370311",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407370311.txt"
+        }]
+      }],
+      "priority": 94073977,
+      "noticeAt": 1660640400,
+      "openedAt": 1660640400,
+      "closedAt": 1661918399
+    }, {
       "id": 94073808,
       "name": "キャスト体験！ でませい！きょうふのほらーはうす！",
       "type": "event",
@@ -74179,6 +74531,110 @@
       "priority": 94073791,
       "noticeAt": 1660467600,
       "openedAt": 1660467600,
+      "closedAt": 1661918399
+    }, {
+      "id": 94073971,
+      "name": "【おまけクエスト】危険なお客様への説得",
+      "type": "main",
+      "flags": ["notDisplayResultGetPoint"],
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "80",
+      "spotId": 914308,
+      "spotName": "ほーんてっど鬼屋",
+      "warId": 9143,
+      "warLongName": "北極魔園観光アークティック・サマーワールド",
+      "gifts": [{
+        "type": "servant",
+        "objectId": 604501,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94073950
+      }, {
+        "type": "questClear",
+        "targetId": 94074045,
+        "closedMessage": "【エリア改良】ほーんてっど鬼屋を改良する Lv.10クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94073986,
+      "noticeAt": 1660640400,
+      "openedAt": 1660640400,
+      "closedAt": 1661918399
+    }, {
+      "id": 94073975,
+      "name": "【おまけクエスト】危険なお客様への説得",
+      "type": "main",
+      "flags": ["notDisplayResultGetPoint"],
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "80",
+      "spotId": 914308,
+      "spotName": "ほーんてっど鬼屋",
+      "warId": 9143,
+      "warLongName": "北極魔園観光アークティック・サマーワールド",
+      "gifts": [{
+        "type": "servant",
+        "objectId": 604401,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94073951
+      }, {
+        "type": "questClear",
+        "targetId": 94074045,
+        "closedMessage": "【エリア改良】ほーんてっど鬼屋を改良する Lv.10クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "priority": 94073984,
+      "noticeAt": 1660640400,
+      "openedAt": 1660640400,
+      "closedAt": 1661918399
+    }, {
+      "id": 94073979,
+      "name": "【おまけクエスト】危険なお客様への説得",
+      "type": "main",
+      "flags": ["notDisplayResultGetPoint"],
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "80",
+      "spotId": 914308,
+      "spotName": "ほーんてっど鬼屋",
+      "warId": 9143,
+      "warLongName": "北極魔園観光アークティック・サマーワールド",
+      "gifts": [{
+        "type": "servant",
+        "objectId": 604301,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94073952
+      }, {
+        "type": "questClear",
+        "targetId": 94074045,
+        "closedMessage": "【エリア改良】ほーんてっど鬼屋を改良する Lv.10クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94073982,
+      "noticeAt": 1660640400,
+      "openedAt": 1660640400,
       "closedAt": 1661918399
     }]
   }, {
@@ -74217,9 +74673,113 @@
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94073790,
       "noticeAt": 1660554000,
       "openedAt": 1660554000,
+      "closedAt": 1661918399
+    }, {
+      "id": 94073970,
+      "name": "【おまけクエスト】暴走参加者への対処",
+      "type": "main",
+      "flags": ["notDisplayResultGetPoint"],
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "80",
+      "spotId": 914309,
+      "spotName": "ミニサバフェス会場",
+      "warId": 9143,
+      "warLongName": "北極魔園観光アークティック・サマーワールド",
+      "gifts": [{
+        "type": "servant",
+        "objectId": 604501,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94073950
+      }, {
+        "type": "questClear",
+        "targetId": 94074054,
+        "closedMessage": "【エリア改良】ミニサバフェス会場を改良する Lv.10クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "priority": 94073926,
+      "noticeAt": 1660640400,
+      "openedAt": 1660640400,
+      "closedAt": 1661918399
+    }, {
+      "id": 94073974,
+      "name": "【おまけクエスト】暴走参加者への対処",
+      "type": "main",
+      "flags": ["notDisplayResultGetPoint"],
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "80",
+      "spotId": 914309,
+      "spotName": "ミニサバフェス会場",
+      "warId": 9143,
+      "warLongName": "北極魔園観光アークティック・サマーワールド",
+      "gifts": [{
+        "type": "servant",
+        "objectId": 604401,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94073951
+      }, {
+        "type": "questClear",
+        "targetId": 94074054,
+        "closedMessage": "【エリア改良】ミニサバフェス会場を改良する Lv.10クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "priority": 94073922,
+      "noticeAt": 1660640400,
+      "openedAt": 1660640400,
+      "closedAt": 1661918399
+    }, {
+      "id": 94073978,
+      "name": "【おまけクエスト】暴走参加者への対処",
+      "type": "main",
+      "flags": ["notDisplayResultGetPoint"],
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "80",
+      "spotId": 914309,
+      "spotName": "ミニサバフェス会場",
+      "warId": 9143,
+      "warLongName": "北極魔園観光アークティック・サマーワールド",
+      "gifts": [{
+        "type": "servant",
+        "objectId": 604301,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94073952
+      }, {
+        "type": "questClear",
+        "targetId": 94074054,
+        "closedMessage": "【エリア改良】ミニサバフェス会場を改良する Lv.10クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94073918,
+      "noticeAt": 1660640400,
+      "openedAt": 1660640400,
       "closedAt": 1661918399
     }]
   }, {
@@ -74234,7 +74794,7 @@
     "questOfsY": -80,
     "quests": [{
       "id": 94073609,
-      "name": "",
+      "name": "第8節 夏以外をあきらめて",
       "type": "main",
       "consume": 5,
       "afterClear": "close",
@@ -74248,6 +74808,9 @@
         "num": 1
       }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 94073608
       }, {
@@ -74259,15 +74822,194 @@
         "targetId": 80384,
         "value": 300000,
         "closedMessage": "来園者数ポイント300,000以上で開放"
-      }, {
-        "type": "forceFalse",
-        "targetId": 0,
-        "closedMessage": "データ更新後に開放"
       }],
       "phases": [1, 2, 3, 4, 5, 6],
+      "phasesWithEnemies": [1, 2, 3, 4],
       "phasesNoBattle": [5, 6],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9407360910",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407360910.txt"
+        }, {
+          "scriptId": "9407360911",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407360911.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9407360920",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407360920.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9407360931",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407360931.txt"
+        }]
+      }, {
+        "phase": 4,
+        "scripts": [{
+          "scriptId": "9407360940",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407360940.txt"
+        }]
+      }, {
+        "phase": 5,
+        "scripts": [{
+          "scriptId": "9407360950",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407360950.txt"
+        }]
+      }, {
+        "phase": 6,
+        "scripts": [{
+          "scriptId": "9407360960",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407360960.txt"
+        }]
+      }],
       "priority": 94073990,
       "noticeAt": 1660554000,
+      "openedAt": 1660640400,
+      "closedAt": 1661918399
+    }, {
+      "id": 94073610,
+      "name": "エピローグⅠ 宴の後始末",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "70",
+      "spotId": 914310,
+      "spotName": "アークティック・タワー",
+      "warId": 9143,
+      "warLongName": "北極魔園観光アークティック・サマーワールド",
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94073609
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9407361010",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407361010.txt"
+        }, {
+          "scriptId": "9407361011",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407361011.txt"
+        }]
+      }],
+      "priority": 94073989,
+      "noticeAt": 1660640400,
+      "openedAt": 1660640400,
+      "closedAt": 1661918399
+    }, {
+      "id": 94073611,
+      "name": "エピローグⅡ さよならとよろしく",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 914310,
+      "spotName": "アークティック・タワー",
+      "warId": 9143,
+      "warLongName": "北極魔園観光アークティック・サマーワールド",
+      "gifts": [{
+        "objectId": 7999,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94073610
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1, 2],
+      "phasesNoBattle": [1, 2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9407361110",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407361110.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9407361120",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407361120.txt"
+        }]
+      }],
+      "priority": 94073988,
+      "noticeAt": 1660640400,
+      "openedAt": 1660640400,
+      "closedAt": 1661918399
+    }, {
+      "id": 94073810,
+      "name": "キャスト体験！ ふれあいタイム！フィッシュショー！",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90+",
+      "spotId": 914310,
+      "spotName": "アークティック・タワー",
+      "warId": 9143,
+      "warLongName": "北極魔園観光アークティック・サマーワールド",
+      "gifts": [{
+        "objectId": 3,
+        "num": 100
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94073609
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94073790,
+      "noticeAt": 1660640400,
+      "openedAt": 1660640400,
+      "closedAt": 1661918399
+    }, {
+      "id": 94073811,
+      "name": "キャスト体験！ 潜入！アークティック・タワーの謎！",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90++",
+      "spotId": 914310,
+      "spotName": "アークティック・タワー",
+      "warId": 9143,
+      "warLongName": "北極魔園観光アークティック・サマーワールド",
+      "gifts": [{
+        "objectId": 3,
+        "num": 200
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94073611
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94073789,
+      "noticeAt": 1660640400,
       "openedAt": 1660640400,
       "closedAt": 1661918399
     }]
@@ -74632,7 +75374,7 @@
         "closedMessage": "来園者数ポイント200,000以上で開放"
       }],
       "phases": [1, 2, 3, 4, 5],
-      "phasesWithEnemies": [2, 3],
+      "phasesWithEnemies": [2, 3, 4],
       "phasesNoBattle": [1, 5],
       "phaseScripts": [{
         "phase": 1,
@@ -74741,6 +75483,49 @@
       "openedAt": 1660294800,
       "closedAt": 1661918399
     }, {
+      "id": 94073704,
+      "name": "太陽のようなキミたちへ",
+      "type": "event",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "60",
+      "spotId": 914319,
+      "spotName": "ハワイアンＧＥＮＪＩ",
+      "warId": 9143,
+      "warLongName": "北極魔園観光アークティック・サマーワールド",
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94073611
+      }, {
+        "type": "questClear",
+        "targetId": 94074024,
+        "closedMessage": "【エリア改良】ハワイアンＧＥＮＪＩを改良する Lv.7クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9407370410",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407370410.txt"
+        }, {
+          "scriptId": "9407370411",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407370411.txt"
+        }]
+      }],
+      "priority": 94073976,
+      "noticeAt": 1660640400,
+      "openedAt": 1660640400,
+      "closedAt": 1661918399
+    }, {
       "id": 94073806,
       "name": "キャスト体験！ 癒しのプールテーマパーク！",
       "type": "event",
@@ -74769,6 +75554,111 @@
       "priority": 94073793,
       "noticeAt": 1660294800,
       "openedAt": 1660294800,
+      "closedAt": 1661918399
+    }, {
+      "id": 94073972,
+      "name": "【おまけクエスト】プールサイドの取り締まり",
+      "type": "main",
+      "flags": ["notDisplayResultGetPoint"],
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "80",
+      "spotId": 914319,
+      "spotName": "ハワイアンＧＥＮＪＩ",
+      "warId": 9143,
+      "warLongName": "北極魔園観光アークティック・サマーワールド",
+      "gifts": [{
+        "type": "servant",
+        "objectId": 604501,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94073950
+      }, {
+        "type": "questClear",
+        "targetId": 94074027,
+        "closedMessage": "【エリア改良】ハワイアンＧＥＮＪＩを改良する Lv.10クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94073987,
+      "noticeAt": 1660640400,
+      "openedAt": 1660640400,
+      "closedAt": 1661918399
+    }, {
+      "id": 94073976,
+      "name": "【おまけクエスト】プールサイドの取り締まり",
+      "type": "main",
+      "flags": ["notDisplayResultGetPoint"],
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "80",
+      "spotId": 914319,
+      "spotName": "ハワイアンＧＥＮＪＩ",
+      "warId": 9143,
+      "warLongName": "北極魔園観光アークティック・サマーワールド",
+      "gifts": [{
+        "type": "servant",
+        "objectId": 604401,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94073951
+      }, {
+        "type": "questClear",
+        "targetId": 94074027,
+        "closedMessage": "【エリア改良】ハワイアンＧＥＮＪＩを改良する Lv.10クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94073985,
+      "noticeAt": 1660640400,
+      "openedAt": 1660640400,
+      "closedAt": 1661918399
+    }, {
+      "id": 94073980,
+      "name": "【おまけクエスト】プールサイドの取り締まり",
+      "type": "main",
+      "flags": ["notDisplayResultGetPoint"],
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "80",
+      "spotId": 914319,
+      "spotName": "ハワイアンＧＥＮＪＩ",
+      "warId": 9143,
+      "warLongName": "北極魔園観光アークティック・サマーワールド",
+      "gifts": [{
+        "type": "servant",
+        "objectId": 604301,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94073952
+      }, {
+        "type": "questClear",
+        "targetId": 94074027,
+        "closedMessage": "【エリア改良】ハワイアンＧＥＮＪＩを改良する Lv.10クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94073983,
+      "noticeAt": 1660640400,
+      "openedAt": 1660640400,
       "closedAt": 1661918399
     }]
   }, {
