@@ -73721,7 +73721,7 @@
     "questOfsY": -60,
     "quests": [{
       "id": 94073901,
-      "name": "",
+      "name": "【高難易度】アークティック・サマーメモリー",
       "type": "event",
       "flags": ["dropFirstTimeOnly", "notRetrievable", "notDisplayResultGetPoint"],
       "consume": 5,
@@ -73736,6 +73736,9 @@
         "num": 1
       }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 1000822,
         "closedMessage": "終局特異点クリアで開放"
@@ -73746,12 +73749,9 @@
         "type": "date",
         "targetId": 0,
         "closedMessage": "終局特異点クリアかつ8月17日18時00分以降に開放"
-      }, {
-        "type": "forceFalse",
-        "targetId": 0,
-        "closedMessage": "データ更新後に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94073898,
       "noticeAt": 1660640400,
       "openedAt": 1660726800,

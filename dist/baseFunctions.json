@@ -34355,6 +34355,34 @@
     "maxRate": 0
   }]
 }, {
+  "funcId": 9158,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "宝具威力アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_310.png",
+  "funcquestTvals": [{
+    "id": 2039
+  }],
+  "buffs": [{
+    "id": 4544,
+    "name": "宝具威力アップ",
+    "detail": "〔水辺〕のあるフィールドにおいてのみ、宝具で与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_310.png",
+    "type": "upNpdamage",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3030
+    }],
+    "tvals": [{
+      "id": 5000
+    }],
+    "maxRate": 5000
+  }]
+}, {
   "funcId": 9165,
   "funcType": "addStateShort",
   "funcTargetType": "ptFull",
@@ -34443,6 +34471,64 @@
     "maxRate": 5000
   }]
 }, {
+  "funcId": 9175,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptFull",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "クリティカル威力アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_324.png",
+  "buffs": [{
+    "id": 1621,
+    "name": "クリティカル威力アップ",
+    "detail": "Busterカードのクリティカル時のダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_324.png",
+    "type": "upCriticaldamage",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3031
+    }],
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4002
+    }],
+    "ckSelfIndv": [{
+      "id": 4002
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 9178,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptFull",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "威力アップ・対死霊",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+  "buffs": [{
+    "id": 191,
+    "name": "威力アップ〔死霊〕",
+    "detail": "〔死霊〕特性に与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamage",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3028
+    }],
+    "tvals": [{
+      "id": 1002
+    }],
+    "ckOpIndv": [{
+      "id": 1002
+    }],
+    "maxRate": 10000
+  }]
+}, {
   "funcId": 9184,
   "funcType": "addStateShort",
   "funcTargetType": "ptAll",
@@ -34471,6 +34557,47 @@
   "funcPopupText": "チャージ増加",
   "functvals": [{
     "id": 2838
+  }]
+}, {
+  "funcId": 9187,
+  "funcType": "addState",
+  "funcTargetType": "enemyAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "死霊特性付与",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_520.png",
+  "buffs": [{
+    "id": 4547,
+    "name": "特性付与〔死霊〕",
+    "detail": "〔死霊〕特性を付与する",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_520.png",
+    "type": "addIndividuality",
+    "maxRate": 0
+  }]
+}, {
+  "funcId": 9195,
+  "funcType": "addState",
+  "funcTargetType": "enemyAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "スタン",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_501.png",
+  "functvals": [{
+    "id": 1002
+  }],
+  "buffs": [{
+    "id": 178,
+    "name": "スタン",
+    "detail": "行動不能になる",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_501.png",
+    "type": "donotAct",
+    "buffGroup": 500,
+    "vals": [{
+      "id": 3005
+    }, {
+      "id": 3014
+    }, {
+      "id": 3045
+    }],
+    "maxRate": 0
   }]
 }, {
   "funcId": 30003,
