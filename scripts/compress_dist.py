@@ -19,6 +19,16 @@ def dump_json(data, fp=None) -> str:
     return text
 
 
+def clean_mappings(data: dict) -> dict:
+    result = {}
+    for k, v in data.items():
+        if isinstance(v, dict):
+            result[k] = {kk: vv for kk, vv in v.items() if vv}
+        else:
+            result[k] = v
+    return result
+
+
 def main():
     dist_dir = project_root / "dist"
     fp_version = dist_dir / "version.json"
@@ -28,6 +38,8 @@ def main():
         fn: str = file_version["filename"]
         file = dist_dir / fn
         content = load_json(file)
+        if file_version["key"] == "mappingData":
+            content = clean_mappings(content)
         # compressed = orjson.dumps(content)
         compressed = dump_json(content).encode()
         size = len(compressed)

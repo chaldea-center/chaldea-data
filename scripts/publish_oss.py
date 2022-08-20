@@ -35,7 +35,7 @@ def main(bucket_name: str, folder: Path, *args):
         r"(?<=\n)(.{29})\s+(\d+)\s+(.+)\s+([0-9A-Z]{32})\s+(oss://.+)\n", list_result
     ):
         key = match[4][len(f"oss://{bucket_name}/") :]
-        if '/' in key:
+        if "/" in key:
             continue
         remote_etags[key] = str(match[3]).upper()
     print(f"Found {len(remote_etags)} files at remote")
