@@ -19,7 +19,6 @@ jobs:
       - uses: yizhoumo/setup-ossutil@v1
         if: github.ref == 'refs/heads/main'
         with:
-          ossutil-version: "1.7.9"
           endpoint: ${{ secrets.OSS_ENDPOINT }}
           access-key-id: ${{ secrets.OSS_ACCESS_KEY_ID }}
           access-key-secret: ${{ secrets.OSS_ACCESS_KEY_SECRET }}
