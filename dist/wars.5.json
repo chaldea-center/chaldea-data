@@ -77695,4 +77695,407 @@
     "activeTargetId": 0,
     "activeTargetValue": 0
   }]
+}, {
+  "id": 9144,
+  "coordinates": [
+    [],
+    []
+  ],
+  "age": "-",
+  "name": "幻邪馬台時空サカイ",
+  "longName": "幻邪馬台時空サカイ",
+  "originalLongName": "幻邪馬台時空サカイ",
+  "flags": ["isEvent", "noClearMarkWithComplete"],
+  "banner": "https://static.atlasacademy.io/JP/Banner/event_war_80382.png",
+  "priority": 9144,
+  "bgm": {
+    "id": 0
+  },
+  "scriptId": "NONE",
+  "script": "https://static.atlasacademy.io/JP/Script/Common/NONE.txt",
+  "startType": "none",
+  "targetId": 0,
+  "eventId": 80391,
+  "eventName": "ぶっちぎり茶の湯バトル \nぐだぐだ新邪馬台国 地獄から帰ってきた男",
+  "lastQuestId": 0,
+  "warAdds": [{
+    "warId": 9144,
+    "type": "flag",
+    "priority": 2,
+    "overwriteId": 2082,
+    "condType": "questClear",
+    "targetId": 94074501,
+    "value": 0,
+    "startedAt": 1663153200,
+    "endedAt": 1893423600
+  }],
+  "maps": [{
+    "id": 9144,
+    "mapImage": "https://static.atlasacademy.io/JP/Terminal/MapImgs/img_questmap_009144/img_questmap_009144.png",
+    "mapImageW": 2048,
+    "mapImageH": 1440,
+    "bgm": {
+      "id": 0
+    }
+  }],
+  "spots": [{
+    "id": 914401,
+    "mapId": 9144,
+    "name": "わびさびの里",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9144/QMap_Cap9144_Atlas/spot_914401.png",
+    "x": 573,
+    "y": 323,
+    "nameOfsY": -5,
+    "questOfsX": 35,
+    "questOfsY": -69,
+    "quests": [{
+      "id": 94074502,
+      "name": "第一服「レッツGOあの世！」",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "10",
+      "spotId": 914401,
+      "spotName": "わびさびの里",
+      "warId": 9144,
+      "warLongName": "幻邪馬台時空サカイ",
+      "gifts": [{
+        "type": "servant",
+        "objectId": 9406460,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94074501
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1, 2],
+      "phasesNoBattle": [1, 2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9407450210",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407450210.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9407450220",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407450220.txt"
+        }]
+      }],
+      "priority": 94074898,
+      "noticeAt": 1663153200,
+      "openedAt": 1663153200,
+      "closedAt": 1664942399
+    }, {
+      "id": 94074503,
+      "name": "第二服「スタンバイ茶の湯」",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "60",
+      "spotId": 914401,
+      "spotName": "わびさびの里",
+      "warId": 9144,
+      "warLongName": "幻邪馬台時空サカイ",
+      "gifts": [{
+        "type": "servant",
+        "objectId": 9808360,
+        "num": 1
+      }, {
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94074502
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "茶の湯ポイント18,000以上＆9月15日18時以降に開放"
+      }, {
+        "type": "eventTotalPoint",
+        "targetId": 80391,
+        "value": 18000,
+        "closedMessage": "茶の湯ポイント18,000以上で開放"
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9407450310",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407450310.txt"
+        }, {
+          "scriptId": "9407450311",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407450311.txt"
+        }]
+      }],
+      "priority": 94074897,
+      "noticeAt": 1663153200,
+      "openedAt": 1663232400,
+      "closedAt": 1664942399
+    }, {
+      "id": 94074701,
+      "name": "まつろわぬゴロツキ退治",
+      "type": "event",
+      "flags": ["displayLoopmark", "notDisplayResultGetPoint"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "70",
+      "spotId": 914401,
+      "spotName": "わびさびの里",
+      "warId": 9144,
+      "warLongName": "幻邪馬台時空サカイ",
+      "gifts": [{
+        "objectId": 101,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94074502
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "priority": 94074699,
+      "noticeAt": 1663153200,
+      "openedAt": 1663153200,
+      "closedAt": 1664942399
+    }, {
+      "id": 94074702,
+      "name": "あやしい麦茶屋調査",
+      "type": "event",
+      "flags": ["displayLoopmark", "notDisplayResultGetPoint"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "70",
+      "spotId": 914401,
+      "spotName": "わびさびの里",
+      "warId": 9144,
+      "warLongName": "幻邪馬台時空サカイ",
+      "gifts": [{
+        "objectId": 101,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94074502
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "priority": 94074698,
+      "noticeAt": 1663153200,
+      "openedAt": 1663153200,
+      "closedAt": 1664942399
+    }, {
+      "id": 94074703,
+      "name": "襲来！ 茶花盗賊団",
+      "type": "event",
+      "flags": ["displayLoopmark", "notDisplayResultGetPoint"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "70",
+      "spotId": 914401,
+      "spotName": "わびさびの里",
+      "warId": 9144,
+      "warLongName": "幻邪馬台時空サカイ",
+      "gifts": [{
+        "objectId": 101,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94074502
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "priority": 94074697,
+      "noticeAt": 1663153200,
+      "openedAt": 1663153200,
+      "closedAt": 1664942399
+    }]
+  }, {
+    "id": 914402,
+    "mapId": 9144,
+    "name": "？？？",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9144/QMap_Cap9144_Atlas/spot_914402.png",
+    "x": 1365,
+    "y": 307,
+    "nameOfsY": -4,
+    "questOfsX": 37,
+    "questOfsY": -62,
+    "quests": [{
+      "id": 94074504,
+      "name": "第三服「君の心にズキューン」",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "80",
+      "spotId": 914402,
+      "spotName": "？？？",
+      "warId": 9144,
+      "warLongName": "幻邪馬台時空サカイ",
+      "gifts": [{
+        "type": "servant",
+        "objectId": 9808360,
+        "num": 1
+      }, {
+        "type": "eventSvtJoin",
+        "objectId": 901500,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94074503
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9407450410",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407450410.txt"
+        }, {
+          "scriptId": "9407450411",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407450411.txt"
+        }]
+      }],
+      "priority": 94074896,
+      "noticeAt": 1663153200,
+      "openedAt": 1663232400,
+      "closedAt": 1664942399
+    }]
+  }, {
+    "id": 914403,
+    "mapId": 9144,
+    "name": "虚ろな荒野",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9144/QMap_Cap9144_Atlas/spot_914403.png",
+    "x": 1365,
+    "y": 307,
+    "nameOfsY": -4,
+    "questOfsX": 37,
+    "questOfsY": -62
+  }, {
+    "id": 914404,
+    "mapId": 9144,
+    "name": "暗黒関ヶ原",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9144/QMap_Cap9144_Atlas/spot_914404.png",
+    "x": 1667,
+    "y": 893,
+    "nameOfsY": -4,
+    "questOfsX": 37,
+    "questOfsY": -62
+  }, {
+    "id": 914499,
+    "mapId": 9144,
+    "name": "",
+    "x": 999999,
+    "y": 999999,
+    "nameOfsY": 3,
+    "questOfsX": 41,
+    "questOfsY": -71,
+    "quests": [{
+      "id": 94074501,
+      "name": "プロローグ「地獄から帰ってきた男」",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "70",
+      "spotId": 914499,
+      "spotName": "",
+      "warId": 9144,
+      "warLongName": "幻邪馬台時空サカイ",
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 3000421
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9407450110",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407450110.txt"
+        }, {
+          "scriptId": "9407450111",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407450111.txt"
+        }]
+      }],
+      "priority": 94074899,
+      "noticeAt": 1663153200,
+      "openedAt": 1663153200,
+      "closedAt": 1664942399
+    }]
+  }],
+  "spotRoads": [{
+    "id": 914401,
+    "warId": 9144,
+    "mapId": 9144,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9144/QMap_Cap9144_Atlas/img_road9144_00.png",
+    "srcSpotId": 914401,
+    "dstSpotId": 914402,
+    "dispCondType": "useItemTime",
+    "dispTargetId": 0,
+    "dispTargetValue": 0,
+    "dispCondType2": "useItemTime",
+    "dispTargetId2": 0,
+    "dispTargetValue2": 0,
+    "activeCondType": "questClear",
+    "activeTargetId": 0,
+    "activeTargetValue": 0
+  }, {
+    "id": 914402,
+    "warId": 9144,
+    "mapId": 9144,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9144/QMap_Cap9144_Atlas/img_road9144_00.png",
+    "srcSpotId": 914402,
+    "dstSpotId": 914403,
+    "dispCondType": "useItemTime",
+    "dispTargetId": 0,
+    "dispTargetValue": 0,
+    "dispCondType2": "useItemTime",
+    "dispTargetId2": 0,
+    "dispTargetValue2": 0,
+    "activeCondType": "questClear",
+    "activeTargetId": 0,
+    "activeTargetValue": 0
+  }, {
+    "id": 914403,
+    "warId": 9144,
+    "mapId": 9144,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9144/QMap_Cap9144_Atlas/img_road9144_00.png",
+    "srcSpotId": 914403,
+    "dstSpotId": 914404,
+    "dispCondType": "useItemTime",
+    "dispTargetId": 0,
+    "dispTargetValue": 0,
+    "dispCondType2": "useItemTime",
+    "dispTargetId2": 0,
+    "dispTargetValue2": 0,
+    "activeCondType": "questClear",
+    "activeTargetId": 0,
+    "activeTargetValue": 0
+  }]
 }]
