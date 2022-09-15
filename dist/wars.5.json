@@ -98377,6 +98377,7 @@
         "closedMessage": "茶の湯ポイント18,000以上で開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "phaseScripts": [{
         "phase": 1,
         "scripts": [{
@@ -98521,6 +98522,7 @@
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "phaseScripts": [{
         "phase": 1,
         "scripts": [{
@@ -98545,7 +98547,122 @@
     "y": 307,
     "nameOfsY": -4,
     "questOfsX": 37,
-    "questOfsY": -62
+    "questOfsY": -62,
+    "quests": [{
+      "id": 94074505,
+      "name": "第四服「待ち人来たり来なかったり」",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "10",
+      "spotId": 914403,
+      "spotName": "虚ろな荒野",
+      "warId": 9144,
+      "warLongName": "幻邪馬台時空サカイ",
+      "gifts": [{
+        "type": "servant",
+        "objectId": 9808360,
+        "num": 1
+      }, {
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94074504
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "茶の湯ポイント60,000以上＆9月16日18時以降に開放"
+      }, {
+        "type": "eventTotalPoint",
+        "targetId": 80391,
+        "value": 60000,
+        "closedMessage": "茶の湯ポイント60,000以上で開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9407450510",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407450510.txt"
+        }]
+      }],
+      "priority": 94074895,
+      "noticeAt": 1663232400,
+      "openedAt": 1663318800,
+      "closedAt": 1664942399
+    }, {
+      "id": 94074506,
+      "name": "第五服「滅びの巫女」",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "10",
+      "spotId": 914403,
+      "spotName": "虚ろな荒野",
+      "warId": 9144,
+      "warLongName": "幻邪馬台時空サカイ",
+      "gifts": [{
+        "type": "servant",
+        "objectId": 9808360,
+        "num": 1
+      }, {
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94074505
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9407450610",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407450610.txt"
+        }]
+      }],
+      "priority": 94074894,
+      "noticeAt": 1663232400,
+      "openedAt": 1663318800,
+      "closedAt": 1664942399
+    }, {
+      "id": 94074704,
+      "name": "冥界茶会はいづこ",
+      "type": "event",
+      "flags": ["displayLoopmark", "notDisplayResultGetPoint"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "80",
+      "spotId": 914403,
+      "spotName": "虚ろな荒野",
+      "warId": 9144,
+      "warLongName": "幻邪馬台時空サカイ",
+      "gifts": [{
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94074504
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "priority": 94074696,
+      "noticeAt": 1663232400,
+      "openedAt": 1663232400,
+      "closedAt": 1664942399
+    }]
   }, {
     "id": 914404,
     "mapId": 9144,
