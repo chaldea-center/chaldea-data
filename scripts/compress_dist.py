@@ -52,7 +52,7 @@ def main():
     version_content = json.dumps(version, indent=2, ensure_ascii=False)
     fp_version.write_text(version_content)
     version.pop("files", None)
-    print(version_content)
+    print(json.dumps(version, indent=2, ensure_ascii=False))
 
 
 if __name__ == "__main__":
