@@ -93970,6 +93970,36 @@
       "noticeAt": 1663405200,
       "openedAt": 1663405200,
       "closedAt": 1664942399
+    }, {
+      "id": 94074707,
+      "name": "暗黒関ヶ原の戦い 西軍",
+      "type": "event",
+      "flags": ["displayLoopmark", "notDisplayResultGetPoint"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90",
+      "spotId": 914404,
+      "spotName": "暗黒関ヶ原",
+      "warId": 9144,
+      "warLongName": "幻邪馬台時空サカイ",
+      "gifts": [{
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94074508
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94074693,
+      "noticeAt": 1663491600,
+      "openedAt": 1663491600,
+      "closedAt": 1664942399
     }]
   }, {
     "id": 914405,
@@ -93983,7 +94013,7 @@
     "questOfsY": -101,
     "quests": [{
       "id": 94074508,
-      "name": "",
+      "name": "第七服「獣の剣」",
       "type": "main",
       "consume": 5,
       "afterClear": "close",
@@ -94001,6 +94031,9 @@
         "num": 1
       }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 94074507
       }, {
@@ -94008,15 +94041,83 @@
         "targetId": 0,
         "closedMessage": "茶の湯ポイント190,000以上＆9月18日18時以降に開放"
       }, {
+        "type": "eventTotalPoint",
+        "targetId": 80391,
+        "value": 190000,
+        "closedMessage": "茶の湯ポイント190,000以上で開放"
+      }],
+      "phases": [1, 2, 3],
+      "phasesNoBattle": [1, 2, 3],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9407450810",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407450810.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9407450820",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407450820.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9407450830",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407450830.txt"
+        }]
+      }],
+      "priority": 94074892,
+      "noticeAt": 1663405200,
+      "openedAt": 1663491600,
+      "closedAt": 1664942399
+    }]
+  }, {
+    "id": 914406,
+    "mapId": 9144,
+    "name": "祖なる岩屋",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9144/QMap_Cap9144_Atlas/spot_914406.png",
+    "x": 1024,
+    "y": 812,
+    "nameOfsY": -6,
+    "questOfsX": 32,
+    "questOfsY": -86,
+    "quests": [{
+      "id": 94074509,
+      "name": "",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "10",
+      "spotId": 914406,
+      "spotName": "祖なる岩屋",
+      "warId": 9144,
+      "warLongName": "幻邪馬台時空サカイ",
+      "gifts": [{
+        "type": "servant",
+        "objectId": 9808360,
+        "num": 1
+      }, {
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94074508
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "茶の湯ポイント260,000以上＆9月19日18時以降に開放"
+      }, {
         "type": "forceFalse",
         "targetId": 0,
         "closedMessage": "データ更新後に開放"
       }],
-      "phases": [1, 2, 3],
-      "phasesNoBattle": [1, 2, 3],
-      "priority": 94074892,
-      "noticeAt": 1663405200,
-      "openedAt": 1663491600,
+      "phases": [1, 2],
+      "phasesNoBattle": [1, 2],
+      "priority": 94074891,
+      "noticeAt": 1663491600,
+      "openedAt": 1663578000,
       "closedAt": 1664942399
     }]
   }, {
@@ -94124,6 +94225,22 @@
     "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9144/QMap_Cap9144_Atlas/img_road9144_00.png",
     "srcSpotId": 914404,
     "dstSpotId": 914405,
+    "dispCondType": "useItemTime",
+    "dispTargetId": 0,
+    "dispTargetValue": 0,
+    "dispCondType2": "useItemTime",
+    "dispTargetId2": 0,
+    "dispTargetValue2": 0,
+    "activeCondType": "questClear",
+    "activeTargetId": 0,
+    "activeTargetValue": 0
+  }, {
+    "id": 914405,
+    "warId": 9144,
+    "mapId": 9144,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9144/QMap_Cap9144_Atlas/img_road9144_00.png",
+    "srcSpotId": 914405,
+    "dstSpotId": 914406,
     "dispCondType": "useItemTime",
     "dispTargetId": 0,
     "dispTargetValue": 0,
