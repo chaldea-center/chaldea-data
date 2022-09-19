@@ -94071,6 +94071,36 @@
       "noticeAt": 1663405200,
       "openedAt": 1663491600,
       "closedAt": 1664942399
+    }, {
+      "id": 94074708,
+      "name": "暗黒佐和山城・ピラミッドの乱",
+      "type": "event",
+      "flags": ["displayLoopmark", "notDisplayResultGetPoint"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90",
+      "spotId": 914405,
+      "spotName": "暗黒佐和山城",
+      "warId": 9144,
+      "warLongName": "幻邪馬台時空サカイ",
+      "gifts": [{
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94074509
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94074692,
+      "noticeAt": 1663578000,
+      "openedAt": 1663578000,
+      "closedAt": 1664942399
     }]
   }, {
     "id": 914406,
@@ -94084,7 +94114,7 @@
     "questOfsY": -86,
     "quests": [{
       "id": 94074509,
-      "name": "",
+      "name": "第八服「祖の獣」",
       "type": "main",
       "consume": 5,
       "afterClear": "close",
@@ -94102,6 +94132,9 @@
         "num": 1
       }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 94074508
       }, {
@@ -94109,15 +94142,65 @@
         "targetId": 0,
         "closedMessage": "茶の湯ポイント260,000以上＆9月19日18時以降に開放"
       }, {
+        "type": "eventTotalPoint",
+        "targetId": 80391,
+        "value": 260000,
+        "closedMessage": "茶の湯ポイント260,000以上で開放"
+      }],
+      "phases": [1, 2],
+      "phasesNoBattle": [1, 2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9407450910",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407450910.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9407450920",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407450920.txt"
+        }]
+      }],
+      "priority": 94074891,
+      "noticeAt": 1663491600,
+      "openedAt": 1663578000,
+      "closedAt": 1664942399
+    }, {
+      "id": 94074510,
+      "name": "",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "90",
+      "spotId": 914406,
+      "spotName": "祖なる岩屋",
+      "warId": 9144,
+      "warLongName": "幻邪馬台時空サカイ",
+      "gifts": [{
+        "type": "servant",
+        "objectId": 9808360,
+        "num": 1
+      }, {
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94074509
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "茶の湯ポイント340,000以上＆9月20日18時以降に開放"
+      }, {
         "type": "forceFalse",
         "targetId": 0,
         "closedMessage": "データ更新後に開放"
       }],
-      "phases": [1, 2],
-      "phasesNoBattle": [1, 2],
-      "priority": 94074891,
-      "noticeAt": 1663491600,
-      "openedAt": 1663578000,
+      "phases": [1],
+      "priority": 94074890,
+      "noticeAt": 1663578000,
+      "openedAt": 1663664400,
       "closedAt": 1664942399
     }]
   }, {
