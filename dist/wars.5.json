@@ -93381,6 +93381,19 @@
       "dispTargetId2": 94074601,
       "dispTargetValue2": 1
     }, {
+      "id": 914429,
+      "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9144/QMap_Cap9144_Atlas/gimmick_914429.png",
+      "x": 1024,
+      "y": 720,
+      "depthOffset": -650,
+      "scale": 1000,
+      "dispCondType": "itemGet",
+      "dispTargetId": 94074510,
+      "dispTargetValue": 1,
+      "dispCondType2": "useItemEternity",
+      "dispTargetId2": 94074601,
+      "dispTargetValue2": 1
+    }, {
       "id": 914431,
       "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9144/QMap_Cap9144_Atlas/gimmick_914431.png",
       "x": 1024,
@@ -93563,6 +93576,43 @@
       "priority": 94074897,
       "noticeAt": 1663153200,
       "openedAt": 1663232400,
+      "closedAt": 1664942399
+    }, {
+      "id": 94074512,
+      "name": "",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "10",
+      "spotId": 914401,
+      "spotName": "わびさびの里",
+      "warId": 9144,
+      "warLongName": "幻邪馬台時空サカイ",
+      "gifts": [{
+        "type": "servant",
+        "objectId": 9808360,
+        "num": 1
+      }, {
+        "objectId": 7999,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94074511
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "forceFalse",
+        "targetId": 0,
+        "closedMessage": "データ更新後に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94074888,
+      "noticeAt": 1663664400,
+      "openedAt": 1663750800,
       "closedAt": 1664942399
     }, {
       "id": 94074701,
@@ -94168,7 +94218,7 @@
       "closedAt": 1664942399
     }, {
       "id": 94074510,
-      "name": "",
+      "name": "第九服「ぶっちぎり茶の湯バトル」",
       "type": "main",
       "consume": 5,
       "afterClear": "close",
@@ -94186,6 +94236,9 @@
         "num": 1
       }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 94074509
       }, {
@@ -94193,13 +94246,104 @@
         "targetId": 0,
         "closedMessage": "茶の湯ポイント340,000以上＆9月20日18時以降に開放"
       }, {
-        "type": "forceFalse",
-        "targetId": 0,
-        "closedMessage": "データ更新後に開放"
+        "type": "eventTotalPoint",
+        "targetId": 80391,
+        "value": 340000,
+        "closedMessage": "茶の湯ポイント340,000以上で開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9407451010",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407451010.txt"
+        }, {
+          "scriptId": "9407451011",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407451011.txt"
+        }, {
+          "scriptId": "9407451012",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407451012.txt"
+        }]
+      }],
       "priority": 94074890,
       "noticeAt": 1663578000,
+      "openedAt": 1663664400,
+      "closedAt": 1664942399
+    }, {
+      "id": 94074511,
+      "name": "第十服「サヨナラのニライカナイ」",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "10",
+      "spotId": 914406,
+      "spotName": "祖なる岩屋",
+      "warId": 9144,
+      "warLongName": "幻邪馬台時空サカイ",
+      "gifts": [{
+        "type": "servant",
+        "objectId": 9808360,
+        "num": 1
+      }, {
+        "type": "eventSvtGet",
+        "objectId": 901500,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94074510
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1, 2],
+      "phasesNoBattle": [1, 2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9407451110",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407451110.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9407451120",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407451120.txt"
+        }]
+      }],
+      "priority": 94074889,
+      "noticeAt": 1663664400,
+      "openedAt": 1663664400,
+      "closedAt": 1664942399
+    }, {
+      "id": 94074709,
+      "name": "冥界茶会は茶に沈む",
+      "type": "event",
+      "flags": ["displayLoopmark", "notDisplayResultGetPoint"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90",
+      "spotId": 914406,
+      "spotName": "祖なる岩屋",
+      "warId": 9144,
+      "warLongName": "幻邪馬台時空サカイ",
+      "gifts": [{
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94074511
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "priority": 94074691,
+      "noticeAt": 1663664400,
       "openedAt": 1663664400,
       "closedAt": 1664942399
     }]
