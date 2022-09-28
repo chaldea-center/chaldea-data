@@ -45650,6 +45650,86 @@
       "noticeAt": 1576670400,
       "openedAt": 1576670400,
       "closedAt": 1893423600
+    }, {
+      "id": 94076901,
+      "name": "第11節 進行度2 リコレクションクエスト(1/3)",
+      "type": "event",
+      "flags": ["dropFirstTimeOnly", "supportSelectAfterScript", "notRetrievable", "recollection"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "90",
+      "spotId": 30563,
+      "spotName": "デイモス島",
+      "warId": 305,
+      "warLongName": "Lostbelt No.5\n神代巨神海洋 アトランティス",
+      "gifts": [{
+        "objectId": 4001,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 3000531
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9407690110",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407690110.txt"
+        }, {
+          "scriptId": "9407690111",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407690111.txt"
+        }]
+      }],
+      "priority": 94076998,
+      "noticeAt": 1664355600,
+      "openedAt": 1664355600,
+      "closedAt": 1664942399
+    }, {
+      "id": 94076902,
+      "name": "第11節 進行度2 スーパーリコレクションクエスト(1/3)",
+      "type": "event",
+      "flags": ["dropFirstTimeOnly", "supportSelectAfterScript", "notRetrievable", "recollection"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "90++",
+      "spotId": 30563,
+      "spotName": "デイモス島",
+      "warId": 305,
+      "warLongName": "Lostbelt No.5\n神代巨神海洋 アトランティス",
+      "gifts": [{
+        "objectId": 94075801,
+        "num": 10
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 3000531
+      }, {
+        "type": "questClear",
+        "targetId": 94076901,
+        "closedMessage": "「第11節 進行度2 リコレクションクエスト」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9407690210",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407690210.txt"
+        }, {
+          "scriptId": "9407690211",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407690211.txt"
+        }]
+      }],
+      "priority": 94076997,
+      "noticeAt": 1664355600,
+      "openedAt": 1664355600,
+      "closedAt": 1664942399
     }]
   }, {
     "id": 30564,
@@ -45855,6 +45935,196 @@
       "noticeAt": 1576670400,
       "openedAt": 1576670400,
       "closedAt": 1893423600
+    }]
+  }, {
+    "id": 30571,
+    "mapId": 30501,
+    "name": "ペルセイス島",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0305/QMap_Cap0305_Atlas/spot_030560.png",
+    "x": 298,
+    "y": 974,
+    "nameOfsY": -2,
+    "questOfsX": 27,
+    "questOfsY": -107,
+    "quests": [{
+      "id": 94076903,
+      "name": "第17節 進行度1 リコレクションクエスト(2/3)",
+      "type": "event",
+      "flags": ["dropFirstTimeOnly", "supportSelectAfterScript", "notRetrievable", "recollection"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "85",
+      "spotId": 30571,
+      "spotName": "ペルセイス島",
+      "warId": 305,
+      "warLongName": "Lostbelt No.5\n神代巨神海洋 アトランティス",
+      "gifts": [{
+        "objectId": 4001,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 3000531
+      }, {
+        "type": "questClear",
+        "targetId": 94076901,
+        "closedMessage": "「第11節 進行度2 リコレクションクエスト」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9407690310",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407690310.txt"
+        }, {
+          "scriptId": "9407690311",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407690311.txt"
+        }]
+      }],
+      "priority": 94076996,
+      "noticeAt": 1664355600,
+      "openedAt": 1664355600,
+      "closedAt": 1664942399
+    }, {
+      "id": 94076904,
+      "name": "第17節 進行度1 スーパーリコレクションクエスト(2/3)",
+      "type": "event",
+      "flags": ["dropFirstTimeOnly", "supportSelectAfterScript", "notRetrievable", "recollection"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "90++",
+      "spotId": 30571,
+      "spotName": "ペルセイス島",
+      "warId": 305,
+      "warLongName": "Lostbelt No.5\n神代巨神海洋 アトランティス",
+      "gifts": [{
+        "objectId": 94075801,
+        "num": 10
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 3000531
+      }, {
+        "type": "questClear",
+        "targetId": 94076903,
+        "closedMessage": "「第17節 進行度1 リコレクションクエスト」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9407690410",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407690410.txt"
+        }, {
+          "scriptId": "9407690411",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407690411.txt"
+        }]
+      }],
+      "priority": 94076995,
+      "noticeAt": 1664355600,
+      "openedAt": 1664355600,
+      "closedAt": 1664942399
+    }]
+  }, {
+    "id": 30572,
+    "mapId": 30501,
+    "name": "暗黒の海域",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0305/QMap_Cap0305_Atlas/spot_030561.png",
+    "x": 862,
+    "y": 997,
+    "nameOfsY": 1,
+    "questOfsX": 32,
+    "questOfsY": -55,
+    "quests": [{
+      "id": 94076905,
+      "name": "第23節 進行度3 リコレクションクエスト(3/3)",
+      "type": "event",
+      "flags": ["dropFirstTimeOnly", "supportSelectAfterScript", "notRetrievable", "recollection"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "86",
+      "spotId": 30572,
+      "spotName": "暗黒の海域",
+      "warId": 305,
+      "warLongName": "Lostbelt No.5\n神代巨神海洋 アトランティス",
+      "gifts": [{
+        "objectId": 4001,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 3000531
+      }, {
+        "type": "questClear",
+        "targetId": 94076903,
+        "closedMessage": "「第17節 進行度1 リコレクションクエスト」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9407690510",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407690510.txt"
+        }, {
+          "scriptId": "9407690511",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407690511.txt"
+        }]
+      }],
+      "priority": 94076994,
+      "noticeAt": 1664355600,
+      "openedAt": 1664355600,
+      "closedAt": 1664942399
+    }, {
+      "id": 94076906,
+      "name": "第23節 進行度3 スーパーリコレクションクエスト(3/3)",
+      "type": "event",
+      "flags": ["dropFirstTimeOnly", "supportSelectAfterScript", "notRetrievable", "recollection"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "90++",
+      "spotId": 30572,
+      "spotName": "暗黒の海域",
+      "warId": 305,
+      "warLongName": "Lostbelt No.5\n神代巨神海洋 アトランティス",
+      "gifts": [{
+        "objectId": 94075801,
+        "num": 10
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 3000531
+      }, {
+        "type": "questClear",
+        "targetId": 94076905,
+        "closedMessage": "「第23節 進行度3 リコレクションクエスト」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9407690610",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407690610.txt"
+        }, {
+          "scriptId": "9407690611",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407690611.txt"
+        }]
+      }],
+      "priority": 94076993,
+      "noticeAt": 1664355600,
+      "openedAt": 1664355600,
+      "closedAt": 1664942399
     }]
   }, {
     "id": 30599,
@@ -49352,7 +49622,7 @@
     "warId": 307,
     "type": "flag",
     "priority": 1,
-    "overwriteId": 65666,
+    "overwriteId": 6357122,
     "condType": "questClearPhase",
     "targetId": 3000701,
     "value": 2,
@@ -56648,7 +56918,7 @@
       "chapterSubStr": "プロローグ",
       "releaseConditions": [{
         "type": "questClear",
-        "targetId": 3000716
+        "targetId": 3000628
       }],
       "phases": [1],
       "phasesNoBattle": [1],
@@ -69532,6 +69802,78 @@
       "noticeAt": 1662541200,
       "openedAt": 1662541200,
       "closedAt": 1893423600
+    }, {
+      "id": 94077001,
+      "name": "強化クエスト アキレウス",
+      "type": "event",
+      "flags": ["noDisplayRemain"],
+      "consume": 23,
+      "afterClear": "close",
+      "recommendLv": "90",
+      "spotId": 99001,
+      "spotName": "強化クエスト",
+      "warId": 1001,
+      "warLongName": "強化クエスト",
+      "gifts": [{
+        "objectId": 2,
+        "num": 2
+      }, {
+        "type": "questRewardIcon",
+        "objectId": 8,
+        "num": 0
+      }],
+      "releaseConditions": [{
+        "type": "svtLimit",
+        "targetId": 402900,
+        "value": 4,
+        "closedMessage": "霊基再臨{0}段階目で開放"
+      }, {
+        "type": "svtGet",
+        "targetId": 402900
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1, 2, 3],
+      "priority": 94077099,
+      "noticeAt": 1664355600,
+      "openedAt": 1664355600,
+      "closedAt": 1893423600
+    }, {
+      "id": 94077002,
+      "name": "強化クエスト 望月千代女 2",
+      "type": "event",
+      "flags": ["noDisplayRemain"],
+      "consume": 21,
+      "afterClear": "close",
+      "recommendLv": "80",
+      "spotId": 99001,
+      "spotName": "強化クエスト",
+      "warId": 1001,
+      "warLongName": "強化クエスト",
+      "gifts": [{
+        "objectId": 2,
+        "num": 2
+      }, {
+        "type": "questRewardIcon",
+        "objectId": 9,
+        "num": 0
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94058502
+      }, {
+        "type": "svtGet",
+        "targetId": 602900
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1, 2, 3],
+      "priority": 94077098,
+      "noticeAt": 1664355600,
+      "openedAt": 1664355600,
+      "closedAt": 1893423600
     }]
   }],
   "spotRoads": []
@@ -72221,6 +72563,52 @@
       "openedAt": 1580893200,
       "closedAt": 1893423600
     }, {
+      "id": 91103801,
+      "name": "第二、あるいは三回アルゴノーツ乗員募集大会",
+      "type": "friendship",
+      "consume": 17,
+      "afterClear": "close",
+      "recommendLv": "50",
+      "spotId": 99003,
+      "spotName": "幕間の物語",
+      "warId": 1003,
+      "warLongName": "幕間の物語",
+      "chapterId": 1,
+      "chapterSubId": 1,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 3000531,
+        "closedMessage": "Lostbelt No.5 アトランティスクリア＆霊基再臨3段階目＆絆Lv.3で開放"
+      }, {
+        "type": "svtLimit",
+        "targetId": 103800,
+        "value": 3,
+        "closedMessage": "Lostbelt No.5 アトランティスクリア＆霊基再臨3段階目＆絆Lv.3で開放"
+      }, {
+        "type": "svtGet",
+        "targetId": 103800
+      }, {
+        "type": "svtFriendship",
+        "targetId": 103800,
+        "value": 3,
+        "closedMessage": "Lostbelt No.5 アトランティスクリア＆霊基再臨3段階目＆絆Lv.3で開放"
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9110380110",
+          "script": "https://static.atlasacademy.io/JP/Script/91/9110380110.txt"
+        }, {
+          "scriptId": "9110380111",
+          "script": "https://static.atlasacademy.io/JP/Script/91/9110380111.txt"
+        }]
+      }],
+      "priority": 689619,
+      "noticeAt": 1664355600,
+      "openedAt": 1664355600,
+      "closedAt": 1893423600
+    }, {
       "id": 91103901,
       "name": "王妃の○○な日々",
       "type": "friendship",
@@ -73401,6 +73789,57 @@
       "priority": 679649,
       "noticeAt": 1607936400,
       "openedAt": 1607936400,
+      "closedAt": 1893423600
+    }, {
+      "id": 91203801,
+      "name": "超人オリオン、未体験の感覚に戸惑う",
+      "type": "friendship",
+      "consume": 21,
+      "afterClear": "close",
+      "recommendLv": "80",
+      "spotId": 99003,
+      "spotName": "幕間の物語",
+      "warId": 1003,
+      "warLongName": "幕間の物語",
+      "chapterId": 1,
+      "chapterSubId": 1,
+      "gifts": [{
+        "objectId": 2,
+        "num": 2
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 3000531,
+        "closedMessage": "Lostbelt No.5 アトランティスクリア＆霊基再臨3段階目＆絆Lv.3で開放"
+      }, {
+        "type": "svtLimit",
+        "targetId": 203800,
+        "value": 3,
+        "closedMessage": "Lostbelt No.5 アトランティスクリア＆霊基再臨3段階目＆絆Lv.3で開放"
+      }, {
+        "type": "svtGet",
+        "targetId": 203800
+      }, {
+        "type": "svtFriendship",
+        "targetId": 203800,
+        "value": 3,
+        "closedMessage": "Lostbelt No.5 アトランティスクリア＆霊基再臨3段階目＆絆Lv.3で開放"
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9120380110",
+          "script": "https://static.atlasacademy.io/JP/Script/91/9120380110.txt"
+        }, {
+          "scriptId": "9120380111",
+          "script": "https://static.atlasacademy.io/JP/Script/91/9120380111.txt"
+        }]
+      }],
+      "priority": 679619,
+      "noticeAt": 1664355600,
+      "openedAt": 1664355600,
       "closedAt": 1893423600
     }, {
       "id": 91204001,
@@ -74925,6 +75364,9 @@
         "targetId": 400300,
         "value": 3,
         "closedMessage": "第四特異点をクリア＆霊基再臨3段階目＆絆Lv.5で開放"
+      }, {
+        "type": "svtGet",
+        "targetId": 400300
       }, {
         "type": "svtFriendship",
         "targetId": 400300,
