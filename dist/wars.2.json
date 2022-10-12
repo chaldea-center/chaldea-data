@@ -62682,6 +62682,587 @@
     "priority": 15
   }]
 }, {
+  "id": 8376,
+  "coordinates": [
+    [],
+    []
+  ],
+  "age": "-",
+  "name": "好漢酒宴要塞　チェイテ・リャンシャンボー",
+  "longName": "好漢酒宴要塞　チェイテ・リャンシャンボー",
+  "originalLongName": "好漢酒宴要塞　チェイテ・リャンシャンボー",
+  "flags": ["isEvent", "noClearMarkWithComplete"],
+  "banner": "https://static.atlasacademy.io/JP/Banner/event_war_80387.png",
+  "priority": 8376,
+  "bgm": {
+    "id": 0
+  },
+  "scriptId": "NONE",
+  "script": "https://static.atlasacademy.io/JP/Script/Common/NONE.txt",
+  "startType": "none",
+  "targetId": 94076201,
+  "eventId": 80400,
+  "eventName": "108人のハロウィン・リベリオン！\n～小竜娘水滸演義～ ",
+  "lastQuestId": 0,
+  "warAdds": [{
+    "warId": 8376,
+    "type": "bgImage",
+    "priority": 1,
+    "overwriteId": 167100,
+    "condType": "questClear",
+    "targetId": 94076202,
+    "value": 0,
+    "startedAt": 1665572400,
+    "endedAt": 1667361599
+  }, {
+    "warId": 8376,
+    "type": "bgImage",
+    "priority": 2,
+    "overwriteId": 167200,
+    "condType": "questClear",
+    "targetId": 94076203,
+    "value": 0,
+    "startedAt": 1665651600,
+    "endedAt": 1667361599
+  }],
+  "maps": [{
+    "id": 8376,
+    "mapImage": "https://static.atlasacademy.io/JP/Terminal/MapImgs/img_questmap_008376/img_questmap_008376.png",
+    "mapImageW": 0,
+    "mapImageH": 0,
+    "bgm": {
+      "id": 0
+    }
+  }],
+  "spots": [{
+    "id": 837601,
+    "mapId": 8376,
+    "name": "カルデアゲート",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter8376/QMap_Cap8376_Atlas/spot_835801.png",
+    "x": 0,
+    "y": 0,
+    "quests": [{
+      "id": 94076201,
+      "name": "プロローグ",
+      "type": "main",
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 837601,
+      "spotName": "カルデアゲート",
+      "warId": 8376,
+      "warLongName": "好漢酒宴要塞　チェイテ・リャンシャンボー",
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 3000628
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9407620110",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407620110.txt"
+        }]
+      }],
+      "priority": 94076499,
+      "noticeAt": 1665572400,
+      "openedAt": 1665572400,
+      "closedAt": 1667361599
+    }, {
+      "id": 94076202,
+      "name": "第一節『九紋竜エリザとマスター、梁山泊結成のこと』",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "60",
+      "spotId": 837601,
+      "spotName": "カルデアゲート",
+      "warId": 8376,
+      "warLongName": "好漢酒宴要塞　チェイテ・リャンシャンボー",
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/3.png",
+      "gifts": [{
+        "type": "servant",
+        "objectId": 9406550,
+        "num": 1
+      }, {
+        "type": "eventSvtJoin",
+        "objectId": 2800400,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94076201
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1, 2, 3],
+      "phasesNoBattle": [3],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9407620210",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407620210.txt"
+        }, {
+          "scriptId": "9407620211",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407620211.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9407620220",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407620220.txt"
+        }, {
+          "scriptId": "9407620221",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407620221.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9407620230",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407620230.txt"
+        }]
+      }],
+      "priority": 94076498,
+      "noticeAt": 1665572400,
+      "openedAt": 1665572400,
+      "closedAt": 1667361599
+    }, {
+      "id": 94076203,
+      "name": "第二節『呼延灼と黄飛虎、襲来々のこと』",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "60",
+      "spotId": 837601,
+      "spotName": "カルデアゲート",
+      "warId": 8376,
+      "warLongName": "好漢酒宴要塞　チェイテ・リャンシャンボー",
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }, {
+        "objectId": 94076204,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94076202
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1, 2, 3, 4],
+      "phasesNoBattle": [4],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9407620310",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407620310.txt"
+        }, {
+          "scriptId": "9407620311",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407620311.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9407620320",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407620320.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9407620330",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407620330.txt"
+        }, {
+          "scriptId": "9407620331",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407620331.txt"
+        }]
+      }, {
+        "phase": 4,
+        "scripts": [{
+          "scriptId": "9407620340",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407620340.txt"
+        }]
+      }],
+      "priority": 94076497,
+      "noticeAt": 1665572400,
+      "openedAt": 1665651600,
+      "closedAt": 1667361599
+    }, {
+      "id": 94076241,
+      "name": "第一節『九紋竜エリザとマスター、梁山泊結成のこと』",
+      "type": "main",
+      "flags": ["branch"],
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "60",
+      "spotId": 837601,
+      "spotName": "カルデアゲート",
+      "warId": 8376,
+      "warLongName": "好漢酒宴要塞　チェイテ・リャンシャンボー",
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }],
+      "phases": [2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9407620210",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407620210.txt"
+        }, {
+          "scriptId": "9407620211",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407620211.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9407620220",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407620220.txt"
+        }, {
+          "scriptId": "9407620221",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407620221.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9407620230",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407620230.txt"
+        }]
+      }],
+      "priority": 94076498,
+      "noticeAt": 1665572400,
+      "openedAt": 1665572400,
+      "closedAt": 1667361599
+    }, {
+      "id": 94076242,
+      "name": "第一節『九紋竜エリザとマスター、梁山泊結成のこと』",
+      "type": "main",
+      "flags": ["branch"],
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "60",
+      "spotId": 837601,
+      "spotName": "カルデアゲート",
+      "warId": 8376,
+      "warLongName": "好漢酒宴要塞　チェイテ・リャンシャンボー",
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }],
+      "phases": [2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9407620210",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407620210.txt"
+        }, {
+          "scriptId": "9407620211",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407620211.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9407620220",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407620220.txt"
+        }, {
+          "scriptId": "9407620221",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407620221.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9407620230",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407620230.txt"
+        }]
+      }],
+      "priority": 94076498,
+      "noticeAt": 1665572400,
+      "openedAt": 1665572400,
+      "closedAt": 1667361599
+    }, {
+      "id": 94076251,
+      "name": "第二節『呼延灼と黄飛虎、襲来々のこと』",
+      "type": "main",
+      "flags": ["branch"],
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "60",
+      "spotId": 837601,
+      "spotName": "カルデアゲート",
+      "warId": 8376,
+      "warLongName": "好漢酒宴要塞　チェイテ・リャンシャンボー",
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9407620310",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407620310.txt"
+        }, {
+          "scriptId": "9407620311",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407620311.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9407620320",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407620320.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9407620330",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407620330.txt"
+        }, {
+          "scriptId": "9407620331",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407620331.txt"
+        }]
+      }, {
+        "phase": 4,
+        "scripts": [{
+          "scriptId": "9407620340",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407620340.txt"
+        }]
+      }],
+      "priority": 94076497,
+      "noticeAt": 1665572400,
+      "openedAt": 1665651600,
+      "closedAt": 1667361599
+    }, {
+      "id": 94076301,
+      "name": "梁山泊近辺の安全調査",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "70",
+      "spotId": 837601,
+      "spotName": "カルデアゲート",
+      "warId": 8376,
+      "warLongName": "好漢酒宴要塞　チェイテ・リャンシャンボー",
+      "gifts": [{
+        "objectId": 101,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94076202
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "priority": 94076299,
+      "noticeAt": 1665572400,
+      "openedAt": 1665572400,
+      "closedAt": 1667361599
+    }, {
+      "id": 94076302,
+      "name": "断崖絶壁を駆け下る暴走馬を捕まえろ！",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "70",
+      "spotId": 837601,
+      "spotName": "カルデアゲート",
+      "warId": 8376,
+      "warLongName": "好漢酒宴要塞　チェイテ・リャンシャンボー",
+      "gifts": [{
+        "objectId": 101,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94076202
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "priority": 94076298,
+      "noticeAt": 1665572400,
+      "openedAt": 1665572400,
+      "closedAt": 1667361599
+    }, {
+      "id": 94076303,
+      "name": "隣村からの荒くれ者討伐依頼",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "70",
+      "spotId": 837601,
+      "spotName": "カルデアゲート",
+      "warId": 8376,
+      "warLongName": "好漢酒宴要塞　チェイテ・リャンシャンボー",
+      "gifts": [{
+        "objectId": 101,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94076202
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "priority": 94076297,
+      "noticeAt": 1665572400,
+      "openedAt": 1665572400,
+      "closedAt": 1667361599
+    }, {
+      "id": 94076304,
+      "name": "酒場の乱痴気騒ぎを解決せよ！",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "80",
+      "spotId": 837601,
+      "spotName": "カルデアゲート",
+      "warId": 8376,
+      "warLongName": "好漢酒宴要塞　チェイテ・リャンシャンボー",
+      "gifts": [{
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94076202
+      }, {
+        "type": "questClear",
+        "targetId": 94076203,
+        "closedMessage": "第二節クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "第二節クリアかつ10月13日18時00分以降に開放"
+      }],
+      "phases": [1],
+      "priority": 94076296,
+      "noticeAt": 1665572400,
+      "openedAt": 1665651600,
+      "closedAt": 1667361599
+    }, {
+      "id": 94076402,
+      "name": "【資金調達クエスト】作物泥棒は誰？",
+      "type": "event",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "70",
+      "spotId": 837601,
+      "spotName": "カルデアゲート",
+      "warId": 8376,
+      "warLongName": "好漢酒宴要塞　チェイテ・リャンシャンボー",
+      "gifts": [{
+        "type": "servant",
+        "objectId": 9406560,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94076202
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "eventFortificationRewardNum",
+        "targetId": 0,
+        "value": 10,
+        "closedMessage": "梁山泊の活動を10回達成で開放"
+      }],
+      "phases": [1],
+      "priority": 94076399,
+      "noticeAt": 1665572400,
+      "openedAt": 1665572400,
+      "closedAt": 1667361599
+    }, {
+      "id": 94076403,
+      "name": "【資金調達クエスト】山の幸の調達",
+      "type": "event",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "70",
+      "spotId": 837601,
+      "spotName": "カルデアゲート",
+      "warId": 8376,
+      "warLongName": "好漢酒宴要塞　チェイテ・リャンシャンボー",
+      "gifts": [{
+        "type": "servant",
+        "objectId": 9406570,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94076203
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "eventFortificationRewardNum",
+        "targetId": 0,
+        "value": 20,
+        "closedMessage": "梁山泊の活動を20回達成で開放"
+      }],
+      "phases": [1],
+      "priority": 94076398,
+      "noticeAt": 1665572400,
+      "openedAt": 1665651600,
+      "closedAt": 1667361599
+    }, {
+      "id": 94076404,
+      "name": "【資金調達クエスト】取り立て屋の撃退",
+      "type": "event",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "75",
+      "spotId": 837601,
+      "spotName": "カルデアゲート",
+      "warId": 8376,
+      "warLongName": "好漢酒宴要塞　チェイテ・リャンシャンボー",
+      "gifts": [{
+        "type": "servant",
+        "objectId": 9406580,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94076203
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "eventFortificationRewardNum",
+        "targetId": 0,
+        "value": 30,
+        "closedMessage": "梁山泊の活動を30回達成で開放"
+      }],
+      "phases": [1],
+      "priority": 94076397,
+      "noticeAt": 1665572400,
+      "openedAt": 1665651600,
+      "closedAt": 1667361599
+    }]
+  }]
+}, {
   "id": 8377,
   "coordinates": [
     [],

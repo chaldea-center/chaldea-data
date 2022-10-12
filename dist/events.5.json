@@ -7456,12 +7456,12 @@
   "finishedAt": 1520395199,
   "materialOpenedAt": 1751295600,
   "campaigns": [{
-    "target": "svtequipLargeSuccess",
+    "target": "svtequipSuperSuccess",
     "idx": 1,
     "value": 2000,
     "calcType": "multiplication"
   }, {
-    "target": "svtequipSuperSuccess",
+    "target": "svtequipLargeSuccess",
     "idx": 1,
     "value": 2000,
     "calcType": "multiplication"
@@ -62739,5 +62739,22 @@
     "questId": 3001008
   }, {
     "questId": 3001009
+  }]
+}, {
+  "id": 20125,
+  "type": "combineCampaign",
+  "name": "九紋竜エリザ 獲得経験値2倍！",
+  "detail": "九紋竜エリザ 獲得経験値2倍！",
+  "noticeAt": 1665572400,
+  "startedAt": 1665572400,
+  "endedAt": 1667361599,
+  "finishedAt": 1667361599,
+  "materialOpenedAt": 1751295600,
+  "campaigns": [{
+    "targetIds": [2800400],
+    "target": "combineExp",
+    "idx": 1,
+    "value": 2000,
+    "calcType": "multiplication"
   }]
 }]

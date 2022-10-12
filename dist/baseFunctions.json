@@ -12953,6 +12953,27 @@
     "maxRate": 5000
   }]
 }, {
+  "funcId": 1850,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "スター集中アップ：Buster",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_325.png",
+  "buffs": [{
+    "id": 720,
+    "name": "スター集中アップ:Buster",
+    "detail": "Busterカードへのスターの集まりやすさをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_325.png",
+    "type": "upStarweight",
+    "vals": [{
+      "id": 3004
+    }],
+    "ckSelfIndv": [{
+      "id": 4002
+    }],
+    "maxRate": 500000
+  }]
+}, {
   "funcId": 1851,
   "funcType": "addStateShort",
   "funcTargetType": "self",
@@ -15708,6 +15729,31 @@
       "id": 3008
     }, {
       "id": 3037
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 3120,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "enemy",
+  "funcPopupText": "クリティカル発生率アップ:Buster",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_327.png",
+  "buffs": [{
+    "id": 1436,
+    "name": "クリティカル発生アップ:Buster",
+    "detail": "Busterカードのクリティカルの発生率をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_327.png",
+    "type": "upCriticalrate",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3032
+    }],
+    "ckSelfIndv": [{
+      "id": 4002
     }],
     "maxRate": 5000
   }]
@@ -34805,6 +34851,51 @@
     "isDispValue": true
   }]
 }, {
+  "funcId": 9245,
+  "funcType": "eventDropUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "なし",
+  "funcGroup": [{
+    "eventId": 80400,
+    "baseFuncId": 0,
+    "nameTotal": "{0}\n獲得数ボーナス合計",
+    "name": "{0}獲得数アップ",
+    "icon": "https://static.atlasacademy.io/JP/Items/94076203.png",
+    "priority": 3000,
+    "isDispValue": true
+  }]
+}, {
+  "funcId": 9246,
+  "funcType": "eventDropUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "なし",
+  "funcGroup": [{
+    "eventId": 80400,
+    "baseFuncId": 0,
+    "nameTotal": "{0}\n獲得数ボーナス合計",
+    "name": "{0}獲得数アップ",
+    "icon": "https://static.atlasacademy.io/JP/Items/94076202.png",
+    "priority": 2000,
+    "isDispValue": true
+  }]
+}, {
+  "funcId": 9247,
+  "funcType": "eventDropUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "なし",
+  "funcGroup": [{
+    "eventId": 80400,
+    "baseFuncId": 0,
+    "nameTotal": "{0}\n獲得数ボーナス合計",
+    "name": "{0}獲得数アップ",
+    "icon": "https://static.atlasacademy.io/JP/Items/94076201.png",
+    "priority": 1000,
+    "isDispValue": true
+  }]
+}, {
   "funcId": 9327,
   "funcType": "addStateShort",
   "funcTargetType": "ptOne",
@@ -35138,6 +35229,21 @@
     "maxRate": 10000
   }]
 }, {
+  "funcId": 9548,
+  "funcType": "eventFortificationPointUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "なし",
+  "funcGroup": [{
+    "eventId": 80400,
+    "baseFuncId": 0,
+    "nameTotal": "職分属性〔軍務〕活動進行度アップ合計",
+    "name": "職分属性〔軍務〕活動進行度アップ",
+    "icon": "https://static.atlasacademy.io/JP/EventUI/func_group_icon_8040001.png",
+    "priority": 4000,
+    "isDispValue": true
+  }]
+}, {
   "funcId": 9551,
   "funcType": "addStateShort",
   "funcTargetType": "ptFull",
@@ -35248,6 +35354,437 @@
       "id": 3012
     }],
     "maxRate": 10000
+  }]
+}, {
+  "funcId": 9563,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "宿星パワー",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+  "funcquestTvals": [{
+    "id": 94000137
+  }],
+  "funcGroup": [{
+    "eventId": 80400,
+    "baseFuncId": 9562,
+    "nameTotal": "{1} \n攻撃の威力アップ合計",
+    "name": "攻撃の威力アップ",
+    "icon": "https://static.atlasacademy.io/JP/EventUI/func_group_icon_302.png",
+    "priority": 1,
+    "isDispValue": true
+  }],
+  "buffs": [{
+    "id": 4697,
+    "name": "宿星パワー",
+    "detail": "『108人のハロウィン・リベリオン！』において与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamage",
+    "maxRate": 10000
+  }]
+}, {
+  "funcId": 9564,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "宿星パワー",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+  "funcquestTvals": [{
+    "id": 94000137
+  }],
+  "funcGroup": [{
+    "eventId": 80400,
+    "baseFuncId": 9562,
+    "nameTotal": "{1} \n攻撃の威力アップ合計",
+    "name": "攻撃の威力アップ",
+    "icon": "https://static.atlasacademy.io/JP/EventUI/func_group_icon_302.png",
+    "priority": 1,
+    "isDispValue": true
+  }],
+  "buffs": [{
+    "id": 4697,
+    "name": "宿星パワー",
+    "detail": "『108人のハロウィン・リベリオン！』において与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamage",
+    "maxRate": 10000
+  }]
+}, {
+  "funcId": 9565,
+  "funcType": "servantFriendshipUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "なし",
+  "funcGroup": [{
+    "eventId": 80400,
+    "baseFuncId": 0,
+    "nameTotal": "{1}\n得られる自身の絆ボーナス合計",
+    "name": "得られる自身の絆アップ",
+    "icon": "https://static.atlasacademy.io/JP/EventUI/func_group_icon_1009.png",
+    "priority": 1,
+    "isDispValue": true
+  }]
+}, {
+  "funcId": 9589,
+  "funcType": "eventFortificationPointUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "なし",
+  "funcGroup": [{
+    "eventId": 80400,
+    "baseFuncId": 0,
+    "nameTotal": "職分属性〔内務〕活動進行度アップ合計",
+    "name": "職分属性〔内務〕活動進行度アップ",
+    "icon": "https://static.atlasacademy.io/JP/EventUI/func_group_icon_8040003.png",
+    "priority": 5000,
+    "isDispValue": true
+  }]
+}, {
+  "funcId": 9590,
+  "funcType": "eventFortificationPointUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "なし",
+  "funcGroup": [{
+    "eventId": 80400,
+    "baseFuncId": 0,
+    "nameTotal": "職分属性〔政務〕活動進行度アップ合計",
+    "name": "職分属性〔政務〕活動進行度アップ",
+    "icon": "https://static.atlasacademy.io/JP/EventUI/func_group_icon_8040002.png",
+    "priority": 6000,
+    "isDispValue": true
+  }]
+}, {
+  "funcId": 9617,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "Quick攻撃ダメージ前追加効果",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_333.png",
+  "buffs": [{
+    "id": 4718,
+    "name": "Quick攻撃ダメージ前追加効果",
+    "detail": "Quick攻撃時、ダメージ前に自身のスター発生率をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_333.png",
+    "type": "attackBeforeFunction",
+    "vals": [{
+      "id": 3004
+    }],
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4003
+    }],
+    "ckSelfIndv": [{
+      "id": 4003
+    }],
+    "maxRate": 0
+  }]
+}, {
+  "funcId": 9618,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "Buster攻撃ダメージ前追加効果",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_333.png",
+  "buffs": [{
+    "id": 4719,
+    "name": "Buster攻撃ダメージ前追加効果",
+    "detail": "Buster攻撃時、ダメージ前に自身のクリティカル威力アップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_333.png",
+    "type": "attackBeforeFunction",
+    "vals": [{
+      "id": 3004
+    }],
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4002
+    }],
+    "ckSelfIndv": [{
+      "id": 4002
+    }],
+    "maxRate": 0
+  }]
+}, {
+  "funcId": 9619,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "鎮国武成王",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_520.png",
+  "buffs": [{
+    "id": 4720,
+    "name": "鎮国武成王",
+    "detail": "特性を〔混沌〕から〔秩序〕に切り替える",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_520.png",
+    "type": "addIndividuality",
+    "maxRate": 0
+  }]
+}, {
+  "funcId": 9620,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "buffs": [{
+    "id": 4723,
+    "name": "",
+    "detail": "",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_520.png",
+    "type": "subIndividuality",
+    "maxRate": 0
+  }]
+}, {
+  "funcId": 9621,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "NP獲得アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_303.png",
+  "functvals": [{
+    "id": 301
+  }],
+  "buffs": [{
+    "id": 140,
+    "name": "NP獲得アップ",
+    "detail": "NP獲得量をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_303.png",
+    "type": "upDropnp",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3084
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 9622,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "クリティカル威力アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_324.png",
+  "functvals": [{
+    "id": 300
+  }],
+  "buffs": [{
+    "id": 142,
+    "name": "クリティカル威力アップ",
+    "detail": "クリティカル時のダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_324.png",
+    "type": "upCriticaldamage",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3031
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 9624,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "宝具威力アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_310.png",
+  "functvals": [{
+    "id": 302
+  }],
+  "buffs": [{
+    "id": 138,
+    "name": "宝具威力アップ",
+    "detail": "宝具で与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_310.png",
+    "type": "upNpdamage",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3030
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 9625,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "player",
+  "funcPopupText": "NP獲得アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_303.png",
+  "functvals": [{
+    "id": 301
+  }],
+  "buffs": [{
+    "id": 140,
+    "name": "NP獲得アップ",
+    "detail": "NP獲得量をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_303.png",
+    "type": "upDropnp",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3084
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 9626,
+  "funcType": "hastenNpturn",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "enemy",
+  "funcPopupText": "チャージ増加",
+  "functvals": [{
+    "id": 301
+  }]
+}, {
+  "funcId": 9627,
+  "funcType": "addState",
+  "funcTargetType": "ptOther",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "梁山泊",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_520.png",
+  "buffs": [{
+    "id": 4721,
+    "name": "梁山泊",
+    "detail": "〔梁山泊〕特性を付与する",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_520.png",
+    "type": "addIndividuality",
+    "maxRate": 0
+  }]
+}, {
+  "funcId": 9628,
+  "funcType": "gainNp",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "player",
+  "funcPopupText": "NP増加",
+  "functvals": [{
+    "id": 2840
+  }]
+}, {
+  "funcId": 9629,
+  "funcType": "hastenNpturn",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "enemy",
+  "funcPopupText": "チャージ増加",
+  "functvals": [{
+    "id": 2840
+  }]
+}, {
+  "funcId": 9630,
+  "funcType": "addState",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "最大HPプラス",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_330.png",
+  "functvals": [{
+    "id": 2840
+  }],
+  "buffs": [{
+    "id": 201,
+    "name": "最大HPプラス",
+    "detail": "最大HPを増やす",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_330.png",
+    "type": "addMaxhp",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3043
+    }],
+    "maxRate": 50000
+  }]
+}, {
+  "funcId": 9631,
+  "funcType": "addState",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "弱体耐性ダウン",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_506.png",
+  "functvals": [{
+    "id": 2840
+  }],
+  "buffs": [{
+    "id": 169,
+    "name": "弱体耐性ダウン",
+    "detail": "弱体耐性をダウン",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_506.png",
+    "type": "downTolerance",
+    "vals": [{
+      "id": 3005
+    }],
+    "tvals": [{
+      "id": 3005
+    }],
+    "ckOpIndv": [{
+      "id": 3005
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 9634,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptFull",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "クリティカル威力アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_324.png",
+  "buffs": [{
+    "id": 4722,
+    "name": "クリティカル威力アップ",
+    "detail": "クリティカル時のダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_324.png",
+    "type": "upCriticaldamage",
+    "script": {
+      "INDIVIDUALITIE": {
+        "id": 2840
+      }
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3031
+    }],
+    "ckSelfIndv": [{
+      "id": 2840
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 9635,
+  "funcType": "hastenNpturn",
+  "funcTargetType": "self",
+  "funcTargetTeam": "enemy",
+  "funcPopupText": "チャージ増加",
+  "functvals": [{
+    "id": 301
+  }]
+}, {
+  "funcId": 9636,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "クリティカル威力アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_324.png",
+  "functvals": [{
+    "id": 300
+  }],
+  "buffs": [{
+    "id": 142,
+    "name": "クリティカル威力アップ",
+    "detail": "クリティカル時のダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_324.png",
+    "type": "upCriticaldamage",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3031
+    }],
+    "maxRate": 5000
   }]
 }, {
   "funcId": 30003,
