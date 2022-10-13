@@ -62865,6 +62865,7 @@
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
       }],
       "phases": [1, 2, 3, 4],
+      "phasesWithEnemies": [1, 2],
       "phasesNoBattle": [4],
       "phaseScripts": [{
         "phase": 1,
@@ -62900,6 +62901,48 @@
       "priority": 94076497,
       "noticeAt": 1665572400,
       "openedAt": 1665651600,
+      "closedAt": 1667361599
+    }, {
+      "id": 94076204,
+      "name": "第三節『どんどん増やそう無頼漢』",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "60",
+      "spotId": 837601,
+      "spotName": "カルデアゲート",
+      "warId": 8376,
+      "warLongName": "好漢酒宴要塞　チェイテ・リャンシャンボー",
+      "gifts": [{
+        "type": "servant",
+        "objectId": 2800401,
+        "num": 1
+      }, {
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94076203
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9407620410",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407620410.txt"
+        }, {
+          "scriptId": "9407620411",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407620411.txt"
+        }]
+      }],
+      "priority": 94076496,
+      "noticeAt": 1665651600,
+      "openedAt": 1665738000,
       "closedAt": 1667361599
     }, {
       "id": 94076241,
@@ -63046,6 +63089,68 @@
       "openedAt": 1665651600,
       "closedAt": 1667361599
     }, {
+      "id": 94076261,
+      "name": "第三節『どんどん増やそう無頼漢』",
+      "type": "main",
+      "flags": ["branch"],
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "60",
+      "spotId": 837601,
+      "spotName": "カルデアゲート",
+      "warId": 8376,
+      "warLongName": "好漢酒宴要塞　チェイテ・リャンシャンボー",
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9407620410",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407620410.txt"
+        }, {
+          "scriptId": "9407620411",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407620411.txt"
+        }]
+      }],
+      "priority": 94076496,
+      "noticeAt": 1665651600,
+      "openedAt": 1665738000,
+      "closedAt": 1667361599
+    }, {
+      "id": 94076262,
+      "name": "第三節『どんどん増やそう無頼漢』",
+      "type": "main",
+      "flags": ["branch"],
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "60",
+      "spotId": 837601,
+      "spotName": "カルデアゲート",
+      "warId": 8376,
+      "warLongName": "好漢酒宴要塞　チェイテ・リャンシャンボー",
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9407620410",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407620410.txt"
+        }, {
+          "scriptId": "9407620411",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407620411.txt"
+        }]
+      }],
+      "priority": 94076496,
+      "noticeAt": 1665651600,
+      "openedAt": 1665738000,
+      "closedAt": 1667361599
+    }, {
       "id": 94076301,
       "name": "梁山泊近辺の安全調査",
       "type": "event",
@@ -63166,6 +63271,72 @@
       "openedAt": 1665651600,
       "closedAt": 1667361599
     }, {
+      "id": 94076305,
+      "name": "物資供給のため、湖畔ルートを開拓せよ！",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "80",
+      "spotId": 837601,
+      "spotName": "カルデアゲート",
+      "warId": 8376,
+      "warLongName": "好漢酒宴要塞　チェイテ・リャンシャンボー",
+      "gifts": [{
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94076203
+      }, {
+        "type": "questClear",
+        "targetId": 94076204,
+        "closedMessage": "第三節クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "第三節クリアかつ10月14日18時00分以降に開放"
+      }],
+      "phases": [1],
+      "priority": 94076295,
+      "noticeAt": 1665651600,
+      "openedAt": 1665738000,
+      "closedAt": 1667361599
+    }, {
+      "id": 94076306,
+      "name": "水利権をかけて、隣町との対抗試合！",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "80",
+      "spotId": 837601,
+      "spotName": "カルデアゲート",
+      "warId": 8376,
+      "warLongName": "好漢酒宴要塞　チェイテ・リャンシャンボー",
+      "gifts": [{
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94076203
+      }, {
+        "type": "questClear",
+        "targetId": 94076204,
+        "closedMessage": "第三節クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "第三節クリアかつ10月14日18時00分以降に開放"
+      }],
+      "phases": [1],
+      "priority": 94076294,
+      "noticeAt": 1665651600,
+      "openedAt": 1665738000,
+      "closedAt": 1667361599
+    }, {
       "id": 94076402,
       "name": "【資金調達クエスト】作物泥棒は誰？",
       "type": "event",
@@ -63264,6 +63435,39 @@
       "priority": 94076397,
       "noticeAt": 1665572400,
       "openedAt": 1665651600,
+      "closedAt": 1667361599
+    }, {
+      "id": 94076405,
+      "name": "【資金調達クエスト】伝説との邂逅",
+      "type": "event",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "75",
+      "spotId": 837601,
+      "spotName": "カルデアゲート",
+      "warId": 8376,
+      "warLongName": "好漢酒宴要塞　チェイテ・リャンシャンボー",
+      "gifts": [{
+        "type": "commandCode",
+        "objectId": 8401320,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94076204
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "eventFortificationRewardNum",
+        "targetId": 0,
+        "value": 50,
+        "closedMessage": "梁山泊の活動を50回達成で開放"
+      }],
+      "phases": [1],
+      "priority": 94076396,
+      "noticeAt": 1665651600,
+      "openedAt": 1665738000,
       "closedAt": 1667361599
     }]
   }]
