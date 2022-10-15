@@ -62724,6 +62724,16 @@
     "value": 0,
     "startedAt": 1665651600,
     "endedAt": 1667361599
+  }, {
+    "warId": 8376,
+    "type": "bgImage",
+    "priority": 3,
+    "overwriteId": 167300,
+    "condType": "questClear",
+    "targetId": 94076205,
+    "value": 0,
+    "startedAt": 1665824400,
+    "endedAt": 1667361599
   }],
   "maps": [{
     "id": 8376,
@@ -62947,7 +62957,7 @@
       "closedAt": 1667361599
     }, {
       "id": 94076205,
-      "name": "",
+      "name": "第四節『呼延灼と黄飛虎、反撃策を練るのこと』",
       "type": "main",
       "consume": 5,
       "afterClear": "close",
@@ -62961,22 +62971,101 @@
         "num": 1
       }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 94076204
       }, {
         "type": "date",
         "targetId": 0,
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
-      }, {
-        "type": "forceFalse",
-        "targetId": 0,
-        "closedMessage": "データ更新後に開放"
       }],
       "phases": [1, 2, 3],
+      "phasesWithEnemies": [1],
       "phasesNoBattle": [3],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9407620510",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407620510.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9407620520",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407620520.txt"
+        }, {
+          "scriptId": "9407620521",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407620521.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9407620530",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407620530.txt"
+        }]
+      }],
       "priority": 94076495,
       "noticeAt": 1665738000,
       "openedAt": 1665824400,
+      "closedAt": 1667361599
+    }, {
+      "id": 94076206,
+      "name": "第五節『官軍、大反撃のこと』",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 837601,
+      "spotName": "カルデアゲート",
+      "warId": 8376,
+      "warLongName": "好漢酒宴要塞　チェイテ・リャンシャンボー",
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94076205
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1, 2, 3, 4],
+      "phasesNoBattle": [1, 4],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9407620610",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407620610.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9407620620",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407620620.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9407620630",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407620630.txt"
+        }, {
+          "scriptId": "9407620631",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407620631.txt"
+        }]
+      }, {
+        "phase": 4,
+        "scripts": [{
+          "scriptId": "9407620640",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407620640.txt"
+        }]
+      }],
+      "priority": 94076494,
+      "noticeAt": 1665824400,
+      "openedAt": 1665910800,
       "closedAt": 1667361599
     }, {
       "id": 94076241,
@@ -63185,6 +63274,97 @@
       "openedAt": 1665738000,
       "closedAt": 1667361599
     }, {
+      "id": 94076271,
+      "name": "第四節『呼延灼と黄飛虎、反撃策を練るのこと』",
+      "type": "main",
+      "flags": ["branch"],
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "70",
+      "spotId": 837601,
+      "spotName": "カルデアゲート",
+      "warId": 8376,
+      "warLongName": "好漢酒宴要塞　チェイテ・リャンシャンボー",
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9407620510",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407620510.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9407620520",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407620520.txt"
+        }, {
+          "scriptId": "9407620521",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407620521.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9407620530",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407620530.txt"
+        }]
+      }],
+      "priority": 94076495,
+      "noticeAt": 1665738000,
+      "openedAt": 1665824400,
+      "closedAt": 1667361599
+    }, {
+      "id": 94076272,
+      "name": "第四節『呼延灼と黄飛虎、反撃策を練るのこと』",
+      "type": "main",
+      "flags": ["branch"],
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "70",
+      "spotId": 837601,
+      "spotName": "カルデアゲート",
+      "warId": 8376,
+      "warLongName": "好漢酒宴要塞　チェイテ・リャンシャンボー",
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "routeSelect",
+        "targetId": 94076205,
+        "value": 4010
+      }],
+      "phases": [2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9407620510",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407620510.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9407620520",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407620520.txt"
+        }, {
+          "scriptId": "9407620521",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407620521.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9407620530",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407620530.txt"
+        }]
+      }],
+      "priority": 94076495,
+      "noticeAt": 1665738000,
+      "openedAt": 1665824400,
+      "closedAt": 1667361599
+    }, {
       "id": 94076301,
       "name": "梁山泊近辺の安全調査",
       "type": "event",
@@ -63334,6 +63514,7 @@
         "closedMessage": "第三節クリアかつ10月14日18時00分以降に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94076295,
       "noticeAt": 1665651600,
       "openedAt": 1665738000,
@@ -63367,13 +63548,50 @@
         "closedMessage": "第三節クリアかつ10月14日18時00分以降に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94076294,
       "noticeAt": 1665651600,
       "openedAt": 1665738000,
       "closedAt": 1667361599
     }, {
       "id": 94076307,
-      "name": "",
+      "name": "危険生物の進行を止めろ！",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90",
+      "spotId": 837601,
+      "spotName": "カルデアゲート",
+      "warId": 8376,
+      "warLongName": "好漢酒宴要塞　チェイテ・リャンシャンボー",
+      "gifts": [{
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
+        "type": "questClear",
+        "targetId": 94076204
+      }, {
+        "type": "questClear",
+        "targetId": 94076205,
+        "closedMessage": "第四節クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "第四節クリアかつ10月15日18時00分以降に開放"
+      }],
+      "phases": [1],
+      "priority": 94076293,
+      "noticeAt": 1665738000,
+      "openedAt": 1665824400,
+      "closedAt": 1667361599
+    }, {
+      "id": 94076308,
+      "name": "荒野の悪徳商人を捕まえろ！",
       "type": "event",
       "flags": ["displayLoopmark"],
       "consume": 40,
@@ -63389,24 +63607,20 @@
       }],
       "releaseConditions": [{
         "type": "questClear",
-        "targetId": 94076204
+        "targetId": 94076205
       }, {
         "type": "questClear",
-        "targetId": 94076205,
-        "closedMessage": "第四節クリアで開放"
+        "targetId": 94076206,
+        "closedMessage": "第五節クリアで開放"
       }, {
         "type": "date",
         "targetId": 0,
-        "closedMessage": "第四節クリアかつ10月15日18時00分以降に開放"
-      }, {
-        "type": "forceFalse",
-        "targetId": 0,
-        "closedMessage": "データ更新後に開放"
+        "closedMessage": "第五節クリアかつ10月16日18時00分以降に開放"
       }],
       "phases": [1],
-      "priority": 94076293,
-      "noticeAt": 1665738000,
-      "openedAt": 1665824400,
+      "priority": 94076292,
+      "noticeAt": 1665824400,
+      "openedAt": 1665910800,
       "closedAt": 1667361599
     }, {
       "id": 94076402,
@@ -63539,9 +63753,107 @@
         "closedMessage": "梁山泊の活動を50回達成で開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94076396,
       "noticeAt": 1665651600,
       "openedAt": 1665738000,
+      "closedAt": 1667361599
+    }, {
+      "id": 94076406,
+      "name": "【資金調達クエスト】要人の警護",
+      "type": "event",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "80",
+      "spotId": 837601,
+      "spotName": "カルデアゲート",
+      "warId": 8376,
+      "warLongName": "好漢酒宴要塞　チェイテ・リャンシャンボー",
+      "gifts": [{
+        "objectId": 6999,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94076205
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "eventFortificationRewardNum",
+        "targetId": 0,
+        "value": 75,
+        "closedMessage": "梁山泊の活動を75回達成で開放"
+      }],
+      "phases": [1],
+      "priority": 94076395,
+      "noticeAt": 1665738000,
+      "openedAt": 1665824400,
+      "closedAt": 1667361599
+    }, {
+      "id": 94076407,
+      "name": "【資金調達クエスト】竜の骨探し",
+      "type": "event",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "80",
+      "spotId": 837601,
+      "spotName": "カルデアゲート",
+      "warId": 8376,
+      "warLongName": "好漢酒宴要塞　チェイテ・リャンシャンボー",
+      "gifts": [{
+        "type": "commandCode",
+        "objectId": 8401330,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94076205
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "eventFortificationRewardNum",
+        "targetId": 0,
+        "value": 100,
+        "closedMessage": "梁山泊の活動を100回達成で開放"
+      }],
+      "phases": [1],
+      "priority": 94076394,
+      "noticeAt": 1665738000,
+      "openedAt": 1665824400,
+      "closedAt": 1667361599
+    }, {
+      "id": 94076408,
+      "name": "【資金調達クエスト】山賊討伐",
+      "type": "event",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "85",
+      "spotId": 837601,
+      "spotName": "カルデアゲート",
+      "warId": 8376,
+      "warLongName": "好漢酒宴要塞　チェイテ・リャンシャンボー",
+      "gifts": [{
+        "objectId": 6999,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94076206
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "eventFortificationRewardNum",
+        "targetId": 0,
+        "value": 150,
+        "closedMessage": "梁山泊の活動を150回達成で開放"
+      }],
+      "phases": [1],
+      "priority": 94076393,
+      "noticeAt": 1665824400,
+      "openedAt": 1665910800,
       "closedAt": 1667361599
     }]
   }]

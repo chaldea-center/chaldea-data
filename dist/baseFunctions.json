@@ -35458,7 +35458,7 @@
   "funcId": 9617,
   "funcType": "addStateShort",
   "funcTargetType": "self",
-  "funcTargetTeam": "playerAndEnemy",
+  "funcTargetTeam": "player",
   "funcPopupText": "Quick攻撃ダメージ前追加効果",
   "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_333.png",
   "buffs": [{
@@ -35785,6 +35785,32 @@
       "id": 3031
     }],
     "maxRate": 5000
+  }]
+}, {
+  "funcId": 9645,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "enemy",
+  "funcPopupText": "Quick攻撃ダメージ前追加効果",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_333.png",
+  "buffs": [{
+    "id": 4727,
+    "name": "Quick攻撃ダメージ前追加効果",
+    "detail": "Quick攻撃時、ダメージ前に自身のクリティカル発生率をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_333.png",
+    "type": "attackBeforeFunction",
+    "vals": [{
+      "id": 3004
+    }],
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4003
+    }],
+    "ckSelfIndv": [{
+      "id": 4003
+    }],
+    "maxRate": 0
   }]
 }, {
   "funcId": 30003,
