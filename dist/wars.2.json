@@ -63034,6 +63034,7 @@
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
       }],
       "phases": [1, 2, 3, 4],
+      "phasesWithEnemies": [2, 3],
       "phasesNoBattle": [1, 4],
       "phaseScripts": [{
         "phase": 1,
@@ -63066,6 +63067,38 @@
       "priority": 94076494,
       "noticeAt": 1665824400,
       "openedAt": 1665910800,
+      "closedAt": 1667361599
+    }, {
+      "id": 94076207,
+      "name": "",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "80",
+      "spotId": 837601,
+      "spotName": "カルデアゲート",
+      "warId": 8376,
+      "warLongName": "好漢酒宴要塞　チェイテ・リャンシャンボー",
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94076206
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "forceFalse",
+        "targetId": 0,
+        "closedMessage": "データ更新後に開放"
+      }],
+      "phases": [1, 2],
+      "priority": 94076493,
+      "noticeAt": 1665910800,
+      "openedAt": 1665997200,
       "closedAt": 1667361599
     }, {
       "id": 94076241,
@@ -63622,6 +63655,43 @@
       "priority": 94076292,
       "noticeAt": 1665824400,
       "openedAt": 1665910800,
+      "closedAt": 1667361599
+    }, {
+      "id": 94076309,
+      "name": "",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90",
+      "spotId": 837601,
+      "spotName": "カルデアゲート",
+      "warId": 8376,
+      "warLongName": "好漢酒宴要塞　チェイテ・リャンシャンボー",
+      "gifts": [{
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94076206
+      }, {
+        "type": "questClear",
+        "targetId": 94076207,
+        "closedMessage": "第六節クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "第六節クリアかつ10月17日18時00分以降に開放"
+      }, {
+        "type": "forceFalse",
+        "targetId": 0,
+        "closedMessage": "データ更新後に開放"
+      }],
+      "phases": [1],
+      "priority": 94076291,
+      "noticeAt": 1665910800,
+      "openedAt": 1665997200,
       "closedAt": 1667361599
     }, {
       "id": 94076402,
