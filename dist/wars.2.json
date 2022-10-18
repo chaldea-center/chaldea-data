@@ -63070,7 +63070,7 @@
       "closedAt": 1667361599
     }, {
       "id": 94076207,
-      "name": "",
+      "name": "第六節『天罡地煞尽く』",
       "type": "main",
       "consume": 5,
       "afterClear": "close",
@@ -63084,21 +63084,128 @@
         "num": 1
       }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 94076206
       }, {
         "type": "date",
         "targetId": 0,
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
-      }, {
-        "type": "forceFalse",
-        "targetId": 0,
-        "closedMessage": "データ更新後に開放"
       }],
       "phases": [1, 2],
+      "phasesWithEnemies": [1, 2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9407620710",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407620710.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9407620720",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407620720.txt"
+        }, {
+          "scriptId": "9407620721",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407620721.txt"
+        }]
+      }],
       "priority": 94076493,
       "noticeAt": 1665910800,
       "openedAt": 1665997200,
+      "closedAt": 1667361599
+    }, {
+      "id": 94076208,
+      "name": "第七節『超大団円のこと』",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "80",
+      "spotId": 837601,
+      "spotName": "カルデアゲート",
+      "warId": 8376,
+      "warLongName": "好漢酒宴要塞　チェイテ・リャンシャンボー",
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/3.png",
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }, {
+        "type": "eventSvtGet",
+        "objectId": 2800400,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
+        "type": "questClear",
+        "targetId": 94076207
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1, 2],
+      "phasesWithEnemies": [1],
+      "phasesNoBattle": [2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9407620810",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407620810.txt"
+        }, {
+          "scriptId": "9407620811",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407620811.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9407620820",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407620820.txt"
+        }]
+      }],
+      "priority": 94076492,
+      "noticeAt": 1665997200,
+      "openedAt": 1666083600,
+      "closedAt": 1667361599
+    }, {
+      "id": 94076209,
+      "name": "エピローグ『人生足別離』",
+      "type": "main",
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 837601,
+      "spotName": "カルデアゲート",
+      "warId": 8376,
+      "warLongName": "好漢酒宴要塞　チェイテ・リャンシャンボー",
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/3.png",
+      "gifts": [{
+        "objectId": 7999,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94076208
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9407620910",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407620910.txt"
+        }]
+      }],
+      "priority": 94076491,
+      "noticeAt": 1666083600,
+      "openedAt": 1666083600,
       "closedAt": 1667361599
     }, {
       "id": 94076241,
@@ -63398,6 +63505,43 @@
       "openedAt": 1665824400,
       "closedAt": 1667361599
     }, {
+      "id": 94076291,
+      "name": "第六節『天罡地煞尽く』",
+      "type": "main",
+      "flags": ["branch"],
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "80",
+      "spotId": 837601,
+      "spotName": "カルデアゲート",
+      "warId": 8376,
+      "warLongName": "好漢酒宴要塞　チェイテ・リャンシャンボー",
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }],
+      "phases": [2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9407620710",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407620710.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9407620720",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407620720.txt"
+        }, {
+          "scriptId": "9407620721",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9407/9407620721.txt"
+        }]
+      }],
+      "priority": 94076493,
+      "noticeAt": 1665910800,
+      "openedAt": 1665997200,
+      "closedAt": 1667361599
+    }, {
       "id": 94076301,
       "name": "梁山泊近辺の安全調査",
       "type": "event",
@@ -63659,7 +63803,7 @@
       "closedAt": 1667361599
     }, {
       "id": 94076309,
-      "name": "",
+      "name": "隣国からの魔性洞窟調査依頼",
       "type": "event",
       "flags": ["displayLoopmark"],
       "consume": 40,
@@ -63674,6 +63818,9 @@
         "num": 1
       }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 94076206
       }, {
@@ -63684,15 +63831,113 @@
         "type": "date",
         "targetId": 0,
         "closedMessage": "第六節クリアかつ10月17日18時00分以降に開放"
-      }, {
-        "type": "forceFalse",
-        "targetId": 0,
-        "closedMessage": "データ更新後に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94076291,
       "noticeAt": 1665910800,
       "openedAt": 1665997200,
+      "closedAt": 1667361599
+    }, {
+      "id": 94076310,
+      "name": "密輸業者を摘発せよ！",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90+",
+      "spotId": 837601,
+      "spotName": "カルデアゲート",
+      "warId": 8376,
+      "warLongName": "好漢酒宴要塞　チェイテ・リャンシャンボー",
+      "gifts": [{
+        "objectId": 3,
+        "num": 100
+      }],
+      "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
+        "type": "questClear",
+        "targetId": 94076207
+      }, {
+        "type": "questClear",
+        "targetId": 94076209,
+        "closedMessage": "エピローグクリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "エピローグクリアかつ10月18日18時00分以降に開放"
+      }],
+      "phases": [1],
+      "priority": 94076290,
+      "noticeAt": 1665997200,
+      "openedAt": 1666083600,
+      "closedAt": 1667361599
+    }, {
+      "id": 94076311,
+      "name": "太極の双子との模擬戦闘！",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90++",
+      "spotId": 837601,
+      "spotName": "カルデアゲート",
+      "warId": 8376,
+      "warLongName": "好漢酒宴要塞　チェイテ・リャンシャンボー",
+      "gifts": [{
+        "objectId": 3,
+        "num": 200
+      }],
+      "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
+        "type": "questClear",
+        "targetId": 94076207
+      }, {
+        "type": "questClear",
+        "targetId": 94076209,
+        "closedMessage": "エピローグクリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "エピローグクリアかつ10月18日18時00分以降に開放"
+      }],
+      "phases": [1],
+      "priority": 94076289,
+      "noticeAt": 1665997200,
+      "openedAt": 1666083600,
+      "closedAt": 1667361599
+    }, {
+      "id": 94076401,
+      "name": "【高難易度】『激闘！ カルデア梁山泊！』",
+      "type": "event",
+      "flags": ["dropFirstTimeOnly", "notRetrievable"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "90+",
+      "spotId": 837601,
+      "spotName": "カルデアゲート",
+      "warId": 8376,
+      "warLongName": "好漢酒宴要塞　チェイテ・リャンシャンボー",
+      "gifts": [{
+        "objectId": 6999,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94076209
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "終局特異点クリアかつ10月18日18時00分以降に開放"
+      }],
+      "phases": [1],
+      "priority": 94076400,
+      "noticeAt": 1666083600,
+      "openedAt": 1666083600,
       "closedAt": 1667361599
     }, {
       "id": 94076402,
@@ -63929,6 +64174,104 @@
       "priority": 94076393,
       "noticeAt": 1665824400,
       "openedAt": 1665910800,
+      "closedAt": 1667361599
+    }, {
+      "id": 94076409,
+      "name": "【資金調達クエスト】謎の道士捕獲依頼",
+      "type": "event",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "85",
+      "spotId": 837601,
+      "spotName": "カルデアゲート",
+      "warId": 8376,
+      "warLongName": "好漢酒宴要塞　チェイテ・リャンシャンボー",
+      "gifts": [{
+        "type": "commandCode",
+        "objectId": 8401340,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94076207
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "eventFortificationRewardNum",
+        "targetId": 0,
+        "value": 200,
+        "closedMessage": "梁山泊の活動を200回達成で開放"
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94076392,
+      "noticeAt": 1665910800,
+      "openedAt": 1665997200,
+      "closedAt": 1667361599
+    }, {
+      "id": 94076410,
+      "name": "【資金調達クエスト】邪竜の財宝",
+      "type": "event",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "90",
+      "spotId": 837601,
+      "spotName": "カルデアゲート",
+      "warId": 8376,
+      "warLongName": "好漢酒宴要塞　チェイテ・リャンシャンボー",
+      "gifts": [{
+        "objectId": 6999,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94076209
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "eventFortificationRewardNum",
+        "targetId": 0,
+        "value": 300,
+        "closedMessage": "梁山泊の活動を300回達成で開放"
+      }],
+      "phases": [1],
+      "priority": 94076391,
+      "noticeAt": 1665997200,
+      "openedAt": 1666083600,
+      "closedAt": 1667361599
+    }, {
+      "id": 94076411,
+      "name": "【資金調達クエスト】炉心を奏でる二機の魔嬢",
+      "type": "event",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "90",
+      "spotId": 837601,
+      "spotName": "カルデアゲート",
+      "warId": 8376,
+      "warLongName": "好漢酒宴要塞　チェイテ・リャンシャンボー",
+      "gifts": [{
+        "objectId": 6999,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94076209
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "eventFortificationRewardNum",
+        "targetId": 0,
+        "value": 500,
+        "closedMessage": "梁山泊の活動を500回達成で開放"
+      }],
+      "phases": [1],
+      "priority": 94076390,
+      "noticeAt": 1665997200,
+      "openedAt": 1666083600,
       "closedAt": 1667361599
     }]
   }]
