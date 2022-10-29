@@ -81680,6 +81680,68 @@
       "openedAt": 1499245200,
       "closedAt": 1893423600
     }, {
+      "id": 911100302,
+      "name": "うたかたの夢を抱いて、そして眠るの",
+      "type": "friendship",
+      "consume": 23,
+      "afterClear": "close",
+      "recommendLv": "90",
+      "spotId": 99003,
+      "spotName": "幕間の物語",
+      "warId": 1003,
+      "warLongName": "幕間の物語",
+      "chapterId": 1,
+      "chapterSubId": 2,
+      "gifts": [{
+        "objectId": 2,
+        "num": 2
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 2000118,
+        "closedMessage": "亜種特異点Ⅰをクリア＆霊基再臨4段階目＆絆Lv.5で開放"
+      }, {
+        "type": "questClear",
+        "targetId": 911100301
+      }, {
+        "type": "svtLimit",
+        "targetId": 1100300,
+        "value": 4,
+        "closedMessage": "亜種特異点Ⅰをクリア＆霊基再臨4段階目＆絆Lv.5で開放"
+      }, {
+        "type": "svtFriendship",
+        "targetId": 1100300,
+        "value": 5,
+        "closedMessage": "亜種特異点Ⅰをクリア＆霊基再臨4段階目＆絆Lv.5で開放"
+      }],
+      "phases": [1, 2, 3],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9111030210",
+          "script": "https://static.atlasacademy.io/JP/Script/91/9111030210.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9111030220",
+          "script": "https://static.atlasacademy.io/JP/Script/91/9111030220.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9111030230",
+          "script": "https://static.atlasacademy.io/JP/Script/91/9111030230.txt"
+        }, {
+          "scriptId": "9111030231",
+          "script": "https://static.atlasacademy.io/JP/Script/91/9111030231.txt"
+        }]
+      }],
+      "priority": 589968,
+      "noticeAt": 1667034000,
+      "openedAt": 1667034000,
+      "closedAt": 1893423600
+    }, {
       "id": 911100401,
       "name": "汝は怪物なりや",
       "type": "friendship",
@@ -82325,6 +82387,7 @@
         "closedMessage": "Lostbelt No.3 プロローグをクリア＆霊基再臨3段階目＆絆Lv.4で開放"
       }],
       "phases": [1, 2, 3, 4, 5],
+      "phasesWithEnemies": [1, 2, 3, 4, 5],
       "phaseScripts": [{
         "phase": 1,
         "scripts": [{
