@@ -29738,6 +29738,11 @@
     "maxRate": 0
   }]
 }, {
+  "funcId": 7522,
+  "funcType": "gainHpFromTargets",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy"
+}, {
   "funcId": 7531,
   "funcType": "lossNp",
   "funcTargetType": "ptOne",
@@ -35173,6 +35178,92 @@
     "maxRate": 5000
   }]
 }, {
+  "funcId": 9522,
+  "funcType": "eventDropUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "なし",
+  "funcGroup": [{
+    "eventId": 80405,
+    "baseFuncId": 0,
+    "nameTotal": "{0}\n獲得数ボーナス合計",
+    "name": "{0}獲得数アップ",
+    "icon": "https://static.atlasacademy.io/JP/Items/94077701.png",
+    "priority": 1000,
+    "isDispValue": true
+  }]
+}, {
+  "funcId": 9523,
+  "funcType": "eventDropUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "なし",
+  "funcGroup": [{
+    "eventId": 80405,
+    "baseFuncId": 0,
+    "nameTotal": "{0}\n獲得数ボーナス合計",
+    "name": "{0}獲得数アップ",
+    "icon": "https://static.atlasacademy.io/JP/Items/94077702.png",
+    "priority": 2000,
+    "isDispValue": true
+  }]
+}, {
+  "funcId": 9524,
+  "funcType": "eventDropUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "なし",
+  "funcGroup": [{
+    "eventId": 80405,
+    "baseFuncId": 0,
+    "nameTotal": "{0}\n獲得数ボーナス合計",
+    "name": "{0}獲得数アップ",
+    "icon": "https://static.atlasacademy.io/JP/Items/94077703.png",
+    "priority": 3000,
+    "isDispValue": true
+  }]
+}, {
+  "funcId": 9525,
+  "funcType": "eventDropUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "なし",
+  "funcGroup": [{
+    "eventId": 80405,
+    "baseFuncId": 0,
+    "nameTotal": "{0}\n獲得数ボーナス合計",
+    "name": "{0}獲得数アップ",
+    "icon": "https://static.atlasacademy.io/JP/Items/94077705.png",
+    "priority": 4000,
+    "isDispValue": true
+  }]
+}, {
+  "funcId": 9526,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "なし",
+  "funcquestTvals": [{
+    "id": 94000138
+  }],
+  "funcGroup": [{
+    "eventId": 80405,
+    "baseFuncId": 9526,
+    "nameTotal": "{1} \n攻撃の威力アップ合計",
+    "name": "攻撃の威力アップ合計",
+    "icon": "https://static.atlasacademy.io/JP/EventUI/func_group_icon_302.png",
+    "priority": 1,
+    "isDispValue": true
+  }],
+  "buffs": [{
+    "id": 4685,
+    "name": "威力アップ",
+    "detail": "『カルデア妖精騎士杯』において与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamage",
+    "maxRate": 10000
+  }]
+}, {
   "funcId": 9540,
   "funcType": "addStateShort",
   "funcTargetType": "self",
@@ -35811,6 +35902,62 @@
       "id": 4003
     }],
     "maxRate": 0
+  }]
+}, {
+  "funcId": 9711,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "威力アップ・対騎乗スキル",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+  "buffs": [{
+    "id": 4753,
+    "name": "威力アップ〔騎乗スキル〕",
+    "detail": "〔騎乗スキル〕を持つ敵に与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamage",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3028
+    }],
+    "tvals": [{
+      "id": 2009
+    }],
+    "ckOpIndv": [{
+      "id": 2009
+    }],
+    "maxRate": 10000
+  }]
+}, {
+  "funcId": 9714,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptFull",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "威力アップ・対騎乗スキル",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+  "buffs": [{
+    "id": 4753,
+    "name": "威力アップ〔騎乗スキル〕",
+    "detail": "〔騎乗スキル〕を持つ敵に与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamage",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3028
+    }],
+    "tvals": [{
+      "id": 2009
+    }],
+    "ckOpIndv": [{
+      "id": 2009
+    }],
+    "maxRate": 10000
   }]
 }, {
   "funcId": 30003,
