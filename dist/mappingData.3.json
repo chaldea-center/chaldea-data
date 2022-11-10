@@ -8549,7 +8549,7 @@
       "NA": "Buddy Ring (Silver)"
     },
     "ヒール・プリンセス": {
-      "CN": "高跟鞋・公主",
+      "CN": "高跟鞋公主",
       "NA": "Heel Princess"
     },
     "ピジョンレポート": {
@@ -72587,13 +72587,16 @@
         "NA": "reserve party member"
       },
       "ptOneAnotherRandom": {
-        "NA": "Other random party member"
+        "CN": "其余己方随机单体",
+        "NA": "Other random party member except target"
       },
       "ptSelfAnotherRandom": {
+        "CN": "除自身外的随机己方单体",
         "NA": "Other random party member(except self)"
       },
       "enemyOneAnotherRandom": {
-        "NA": "other random enemy"
+        "CN": "其余随机敌方单体",
+        "NA": "Other random enemy"
       },
       "ptSelfAnotherFirst": {
         "JP": "自身を除く先頭の味方単体",
@@ -72627,7 +72630,8 @@
       },
       "ptOneHpLowestRate": {
         "JP": "HPの残比率の最も少ない味方単体",
-        "NA": "part member with the lowest HP ratio"
+        "CN": "剩余HP比率最少的己方单体",
+        "NA": "Part member with the lowest HP ratio"
       }
     },
     "mission_progress_type": {
@@ -73178,7 +73182,10 @@
       "changeBgm": {},
       "changeBgmCostume": {},
       "changeServant": {},
-      "classDropUp": {},
+      "classDropUp": {
+        "CN": "职阶掉落提升",
+        "NA": "Class Drop Up"
+      },
       "damage": {},
       "damageNp": {
         "JP": "宝具攻撃",
@@ -73322,7 +73329,7 @@
         "JP": "フレンドポイント",
         "CN": "友情点",
         "TW": "友情點",
-        "NA": "Friend Point ",
+        "NA": "Friend Point",
         "KR": "친구 포인트"
       },
       "friendPointUpDuplicate": {
@@ -73470,7 +73477,11 @@
       },
       "quickChangeBg": {},
       "releaseState": {},
-      "replaceMember": {},
+      "replaceMember": {
+        "CN": "成员交换",
+        "TW": "成員交換",
+        "NA": "Replace Member"
+      },
       "resurrection": {},
       "revival": {},
       "sendSupportFriendPoint": {},
@@ -73512,9 +73523,15 @@
         "KR": "마술예장 EXP"
       },
       "withdraw": {},
-      "addFieldChangeToField": {},
+      "addFieldChangeToField": {
+        "CN": "(场地)改变场地",
+        "NA": "(Field)Field Change"
+      },
       "subFieldBuff": {},
-      "eventFortificationPointUp": {},
+      "eventFortificationPointUp": {
+        "CN": "Fortification点数",
+        "NA": "Fortification Point"
+      },
       "gainNpIndividualSum": {}
     },
     "buff_type": {
@@ -73683,7 +73700,10 @@
         "NA": "NP Seal",
         "KR": "보구 봉인"
       },
-      "donotNobleCondMismatch": {},
+      "donotNobleCondMismatch": {
+        "CN": "宝具封印(若条件不符)",
+        "NA": "NP Seal if Condition Mismatch"
+      },
       "donotRecovery": {
         "JP": "HP回復不能",
         "CN": "无法回复生命值",
@@ -73764,7 +73784,13 @@
         "NA": "Chance of Receiving Critical Attack Down",
         "KR": "크리티컬 내성 다운"
       },
-      "downCriticalStarDamageTaken": {},
+      "downCriticalStarDamageTaken": {
+        "JP": "被スター発生耐性アップ",
+        "CN": "被暴击星掉落耐性提升",
+        "TW": "被爆擊星掉落耐性提升",
+        "NA": "Resistance Up when C. Star Drops",
+        "KR": "받는 스타 발생 내성 UP"
+      },
       "downDamage": {},
       "downDamagedropnp": {},
       "downDamageIndividuality": {},
@@ -73950,7 +73976,10 @@
         "NA": "Ignore Invincible",
         "KR": "무적 관통"
       },
-      "preventDeathByDamage": {},
+      "preventDeathByDamage": {
+        "CN": "受到伤害时防止死亡",
+        "NA": "Prevent Death By Damage"
+      },
       "reduceHp": {
         "JP": "HP減少(毒/呪/やけど)",
         "CN": "HP减少(毒/诅咒/灼烧)",
@@ -74039,15 +74068,33 @@
         "KR": "대미지 컷"
       },
       "tdTypeChange": {
-        "JP": "宝具カードのタイプ変化",
+        "JP": "宝具タイプチェンジ",
         "CN": "宝具类型变更",
         "TW": "寶具類型變更",
-        "NA": "Change Noble Phantasm",
-        "KR": "보구카드의 타입을 변화시킨다"
+        "NA": "NP Type Change",
+        "KR": "보구 타입 체인지"
       },
-      "tdTypeChangeArts": {},
-      "tdTypeChangeBuster": {},
-      "tdTypeChangeQuick": {},
+      "tdTypeChangeArts": {
+        "JP": "宝具タイプチェンジ:Arts",
+        "CN": "宝具类型变更:Arts",
+        "TW": "寶具類型變更:Arts",
+        "NA": "NP Type Change:Arts",
+        "KR": "보구 타입 체인지:Arts"
+      },
+      "tdTypeChangeBuster": {
+        "JP": "宝具タイプチェンジ:Buster",
+        "CN": "宝具类型变更:Buster",
+        "TW": "寶具類型變更:Buster",
+        "NA": "NP Type Change:Buster",
+        "KR": "보구 타입 체인지:Buster"
+      },
+      "tdTypeChangeQuick": {
+        "JP": "宝具タイプチェンジ:Quick",
+        "CN": "宝具类型变更:Quick",
+        "TW": "寶具類型變更:Quick",
+        "NA": "NP Type Change:Quick",
+        "KR": "보구 타입 체인지:Quick"
+      },
       "upAtk": {
         "JP": "攻撃力アップ",
         "CN": "攻击力提升",
@@ -74270,7 +74317,11 @@
       },
       "wavestartFunction": {},
       "notTargetSkill": {},
-      "toFieldChangeField": {},
+      "toFieldChangeField": {
+        "JP": "フィールド変化",
+        "CN": "场地变化",
+        "NA": "Filed Change"
+      },
       "toFieldAvoidBuff": {},
       "hpReduceToRegain": {},
       "selfturnstartFunction": {}
