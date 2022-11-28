@@ -83058,7 +83058,7 @@
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
-      "priority": 880899,
+      "priority": 880998,
       "noticeAt": 1653642000,
       "openedAt": 1653642000,
       "closedAt": 1924873199
@@ -83585,7 +83585,7 @@
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
-      "priority": 880799,
+      "priority": 880997,
       "noticeAt": 1664614800,
       "openedAt": 1664614800,
       "closedAt": 1924873199
@@ -83681,6 +83681,96 @@
       "priority": 830997,
       "noticeAt": 1667206800,
       "openedAt": 1667206800,
+      "closedAt": 1924873199
+    }, {
+      "id": 94079201,
+      "name": "我は求め訴えたり",
+      "type": "event",
+      "flags": ["noContinue", "dropFirstTimeOnly", "eventDeckNoSupport", "notRetrievable"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "90+",
+      "spotId": 100601,
+      "spotName": "アドバンスドクエスト",
+      "warId": 1006,
+      "warLongName": "アドバンスドクエスト",
+      "gifts": [{
+        "type": "servant",
+        "objectId": 9406730,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 1000011
+      }, {
+        "type": "questClear",
+        "targetId": 2000118,
+        "closedMessage": "亜種特異点Ⅰクリアで開放"
+      }],
+      "phases": [1],
+      "priority": 820998,
+      "noticeAt": 1669626000,
+      "openedAt": 1669626000,
+      "closedAt": 1924873199
+    }, {
+      "id": 94079202,
+      "name": "ケンタウロスの嫁取り",
+      "type": "event",
+      "flags": ["noContinue", "dropFirstTimeOnly", "eventDeckNoSupport", "notRetrievable"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "45+",
+      "spotId": 100601,
+      "spotName": "アドバンスドクエスト",
+      "warId": 1006,
+      "warLongName": "アドバンスドクエスト",
+      "gifts": [{
+        "type": "servant",
+        "objectId": 9406720,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 1000011
+      }, {
+        "type": "questClear",
+        "targetId": 1000314,
+        "closedMessage": "第三特異点クリアで開放"
+      }],
+      "phases": [1],
+      "priority": 880996,
+      "noticeAt": 1669626000,
+      "openedAt": 1669626000,
+      "closedAt": 1924873199
+    }, {
+      "id": 94079203,
+      "name": "天地天空大回転！",
+      "type": "event",
+      "flags": ["noContinue", "dropFirstTimeOnly", "eventDeckNoSupport", "notRetrievable"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "90+",
+      "spotId": 100601,
+      "spotName": "アドバンスドクエスト",
+      "warId": 1006,
+      "warLongName": "アドバンスドクエスト",
+      "gifts": [{
+        "type": "servant",
+        "objectId": 9406110,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 1000011
+      }, {
+        "type": "questClear",
+        "targetId": 2000216,
+        "closedMessage": "亜種特異点Ⅱクリアで開放"
+      }],
+      "phases": [1],
+      "priority": 810999,
+      "noticeAt": 1669626000,
+      "openedAt": 1669626000,
       "closedAt": 1924873199
     }]
   }]
@@ -84815,6 +84905,17 @@
     "value": 0,
     "startedAt": 1667379600,
     "endedAt": 1667966399
+  }, {
+    "warId": 9999,
+    "type": "banner",
+    "priority": 80398,
+    "overwriteId": 80398,
+    "overwriteBanner": "https://static.atlasacademy.io/JP/Banner/chaldea_category_80398.png",
+    "condType": "none",
+    "targetId": 0,
+    "value": 0,
+    "startedAt": 1669626000,
+    "endedAt": 1669867199
   }, {
     "warId": 9999,
     "type": "banner",
@@ -87662,6 +87763,41 @@
       "phases": [1],
       "phasesWithEnemies": [1],
       "priority": 94052398,
+      "noticeAt": 1597051800,
+      "openedAt": 1597051800,
+      "closedAt": 1901199599
+    }, {
+      "id": 94052303,
+      "name": "レオナルド・ダ・ヴィンチ霊衣獲得クエスト",
+      "type": "event",
+      "flags": ["noDisplayRemain"],
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "15",
+      "spotId": 999999,
+      "spotName": "カルデアゲート",
+      "warId": 9999,
+      "warLongName": "カルデアゲート",
+      "gifts": [{
+        "objectId": 4001,
+        "num": 1
+      }, {
+        "type": "costumeRelease",
+        "objectId": 40350011,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 1000011
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "purchaseShop",
+        "targetId": 6000728
+      }],
+      "phases": [1],
+      "priority": 94052397,
       "noticeAt": 1597051800,
       "openedAt": 1597051800,
       "closedAt": 1901199599
