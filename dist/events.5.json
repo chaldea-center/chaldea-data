@@ -2358,12 +2358,12 @@
   "finishedAt": 1496822399,
   "materialOpenedAt": 1751295600,
   "campaigns": [{
-    "target": "svtequipLargeSuccess",
+    "target": "svtequipSuperSuccess",
     "idx": 1,
     "value": 2000,
     "calcType": "multiplication"
   }, {
-    "target": "svtequipSuperSuccess",
+    "target": "svtequipLargeSuccess",
     "idx": 1,
     "value": 2000,
     "calcType": "multiplication"
@@ -64748,6 +64748,234 @@
     "value": 2000,
     "calcType": "multiplication",
     "entryCondMessage": "第2部 第6章 プロローグ 序クリアで 強化『大＆極大成功』率2倍！"
+  }]
+}, {
+  "id": 20128,
+  "type": "combineCampaign",
+  "name": "「Lostbelt No.6」関連サーヴァント 獲得経験値2倍！",
+  "detail": "「Lostbelt No.6」関連サーヴァント 獲得経験値2倍！",
+  "noticeAt": 1669885200,
+  "startedAt": 1669885200,
+  "endedAt": 1671785999,
+  "finishedAt": 1671785999,
+  "materialOpenedAt": 1751295600,
+  "campaigns": [{
+    "targetIds": [104900, 304800, 403500, 504500, 704000, 2800100, 105000, 200800, 204300, 304700, 404200, 403100, 502100, 303900],
+    "target": "combineExp",
+    "idx": 1,
+    "value": 2000,
+    "calcType": "multiplication"
+  }]
+}, {
+  "id": 20129,
+  "type": "combineCampaign",
+  "name": "「Lostbelt No.6」関連サーヴァント強化『大成功＆極大成功』率2倍！",
+  "detail": "「Lostbelt No.6」関連サーヴァント強化『大成功＆極大成功』率2倍！",
+  "noticeAt": 1669885200,
+  "startedAt": 1669885200,
+  "endedAt": 1671785999,
+  "finishedAt": 1671785999,
+  "materialOpenedAt": 1751295600,
+  "campaigns": [{
+    "targetIds": [104900, 304800, 403500, 504500, 704000, 2800100, 105000, 200800, 204300, 304700, 404200, 403100, 502100, 303900],
+    "target": "largeSuccess",
+    "idx": 1,
+    "value": 2000,
+    "calcType": "multiplication"
+  }, {
+    "targetIds": [104900, 304800, 403500, 504500, 704000, 2800100, 105000, 200800, 204300, 304700, 404200, 403100, 502100, 303900],
+    "target": "superSuccess",
+    "idx": 1,
+    "value": 2000,
+    "calcType": "multiplication"
+  }]
+}, {
+  "id": 71319,
+  "type": "questCampaign",
+  "name": "初回クリアまで消費AP 50%DOWN",
+  "detail": "消費AP 半減キャンペーン",
+  "noticeAt": 1669885200,
+  "startedAt": 1669885200,
+  "endedAt": 1671076799,
+  "finishedAt": 1671076799,
+  "materialOpenedAt": 1751295600,
+  "campaigns": [{
+    "target": "questApFirstTime",
+    "idx": 1,
+    "value": 500,
+    "calcType": "multiplication"
+  }],
+  "campaignQuests": [{
+    "questId": 93031000
+  }, {
+    "questId": 93031001
+  }, {
+    "questId": 93031002
+  }, {
+    "questId": 93031003
+  }, {
+    "questId": 93031004
+  }, {
+    "questId": 93031005
+  }, {
+    "questId": 93031006
+  }, {
+    "questId": 93031007
+  }, {
+    "questId": 93031008
+  }, {
+    "questId": 93031009
+  }, {
+    "questId": 93031010
+  }, {
+    "questId": 93031011
+  }, {
+    "questId": 93031012
+  }, {
+    "questId": 93031013
+  }, {
+    "questId": 93031014
+  }, {
+    "questId": 93031015
+  }]
+}, {
+  "id": 71320,
+  "type": "questCampaign",
+  "name": "消費AP 50%DOWN",
+  "detail": "消費AP 50%DOWN",
+  "noticeAt": 1669885200,
+  "startedAt": 1669885200,
+  "endedAt": 1671076799,
+  "finishedAt": 1671076799,
+  "materialOpenedAt": 1751295600,
+  "campaigns": [{
+    "target": "questAp",
+    "idx": 1,
+    "value": 500,
+    "calcType": "multiplication"
+  }],
+  "campaignQuests": [{
+    "questId": 91200801
+  }, {
+    "questId": 91303901
+  }, {
+    "questId": 91304701
+  }, {
+    "questId": 91403101
+  }, {
+    "questId": 91502101
+  }]
+}, {
+  "id": 71321,
+  "type": "questCampaign",
+  "name": "消費AP 50%DOWN",
+  "detail": "消費AP 50%DOWN",
+  "noticeAt": 1669885200,
+  "startedAt": 1669885200,
+  "endedAt": 1671076799,
+  "finishedAt": 1671076799,
+  "materialOpenedAt": 1751295600,
+  "campaigns": [{
+    "target": "questAp",
+    "idx": 1,
+    "value": 500,
+    "calcType": "multiplication"
+  }],
+  "campaignQuests": [{
+    "questId": 94008004
+  }, {
+    "questId": 94026507
+  }, {
+    "questId": 94058982
+  }, {
+    "questId": 94060390
+  }]
+}, {
+  "id": 71322,
+  "type": "questCampaign",
+  "name": "「Lostbelt No.6」関連サーヴァント 獲得絆ポイント 30%UP",
+  "detail": "「Lostbelt No.6」関連サーヴァント 獲得絆ポイント 30%UP",
+  "noticeAt": 1669885200,
+  "startedAt": 1669885200,
+  "endedAt": 1671076799,
+  "finishedAt": 1671076799,
+  "materialOpenedAt": 1751295600,
+  "campaigns": [{
+    "targetIds": [104900, 304800, 403500, 504500, 704000, 2800100, 105000, 200800, 204300, 304700, 404200, 403100, 502100, 303900],
+    "target": "questFriendship",
+    "idx": 1,
+    "value": 1300,
+    "calcType": "multiplication"
+  }],
+  "campaignQuests": [{
+    "questId": 93031000
+  }, {
+    "questId": 93031001
+  }, {
+    "questId": 93031002
+  }, {
+    "questId": 93031003
+  }, {
+    "questId": 93031004
+  }, {
+    "questId": 93031005
+  }, {
+    "questId": 93031006
+  }, {
+    "questId": 93031007
+  }, {
+    "questId": 93031008
+  }, {
+    "questId": 93031009
+  }, {
+    "questId": 93031010
+  }, {
+    "questId": 93031011
+  }, {
+    "questId": 93031012
+  }, {
+    "questId": 93031013
+  }, {
+    "questId": 93031014
+  }, {
+    "questId": 93031015
+  }]
+}, {
+  "id": 71323,
+  "type": "questCampaign",
+  "name": "「Lostbelt No.6」関連サーヴァントサポート時 獲得FP2倍！",
+  "detail": "「Lostbelt No.6」関連サーヴァントサポート時 獲得FP2倍！",
+  "noticeAt": 1669885200,
+  "startedAt": 1669885200,
+  "endedAt": 1671076799,
+  "finishedAt": 1671076799,
+  "materialOpenedAt": 1751295600,
+  "campaigns": [{
+    "targetIds": [104900, 304800, 403500, 504500, 704000, 2800100, 105000, 200800, 204300, 304700, 404200, 403100, 502100, 303900],
+    "target": "questFp",
+    "idx": 1,
+    "value": 2000,
+    "calcType": "multiplication"
+  }],
+  "campaignQuests": [{
+    "questId": 0
+  }]
+}, {
+  "id": 71324,
+  "type": "questCampaign",
+  "name": "絆獲得量アップ",
+  "detail": "絆獲得量アップ",
+  "noticeAt": 1669885200,
+  "startedAt": 1669885200,
+  "endedAt": 1672498799,
+  "finishedAt": 1672498799,
+  "materialOpenedAt": 1751295600,
+  "campaigns": [{
+    "targetIds": [94079401],
+    "target": "questUseFriendshipUpItem",
+    "idx": 1,
+    "value": 2000,
+    "calcType": "multiplication"
   }]
 }, {
   "id": 71235,
