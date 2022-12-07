@@ -2358,12 +2358,12 @@
   "finishedAt": 1496822399,
   "materialOpenedAt": 1751295600,
   "campaigns": [{
-    "target": "svtequipSuperSuccess",
+    "target": "svtequipLargeSuccess",
     "idx": 1,
     "value": 2000,
     "calcType": "multiplication"
   }, {
-    "target": "svtequipLargeSuccess",
+    "target": "svtequipSuperSuccess",
     "idx": 1,
     "value": 2000,
     "calcType": "multiplication"
@@ -64973,6 +64973,23 @@
   "campaigns": [{
     "targetIds": [94079401],
     "target": "questUseFriendshipUpItem",
+    "idx": 1,
+    "value": 2000,
+    "calcType": "multiplication"
+  }]
+}, {
+  "id": 20130,
+  "type": "combineCampaign",
+  "name": "カルナ〔サンタ〕獲得経験値2倍！",
+  "detail": "カルナ〔サンタ〕獲得経験値2倍！",
+  "noticeAt": 1670403600,
+  "startedAt": 1670403600,
+  "endedAt": 1671422399,
+  "finishedAt": 1671422399,
+  "materialOpenedAt": 1751295600,
+  "campaigns": [{
+    "targetIds": [104800],
+    "target": "combineExp",
     "idx": 1,
     "value": 2000,
     "calcType": "multiplication"
