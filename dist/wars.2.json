@@ -67401,6 +67401,7 @@
         "closedMessage": "ブラックプレゼント20個獲得かつ12月10日18時00分以降に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "phaseScripts": [{
         "phase": 1,
         "scripts": [{
@@ -67464,6 +67465,55 @@
       "priority": 94054393,
       "noticeAt": 1670662800,
       "openedAt": 1670749200,
+      "closedAt": 1671422399
+    }, {
+      "id": 94078507,
+      "name": "第6R「愛は凍らない」",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "40",
+      "spotId": 838001,
+      "spotName": "カルデアゲート",
+      "warId": 8380,
+      "warLongName": "カルデアゲート",
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94078506
+      }, {
+        "type": "itemGet",
+        "targetId": 94078506,
+        "value": 40,
+        "closedMessage": "ブラックプレゼント40個獲得かつ12月12日18時00分以降に開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "ブラックプレゼント40個獲得かつ12月12日18時00分以降に開放"
+      }],
+      "phases": [1, 2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9405420710",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9405/9405420710.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9405420720",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9405/9405420720.txt"
+        }, {
+          "scriptId": "9405420721",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9405/9405420721.txt"
+        }]
+      }],
+      "priority": 94054392,
+      "noticeAt": 1670749200,
+      "openedAt": 1670835600,
       "closedAt": 1671422399
     }, {
       "id": 94078601,
@@ -67652,6 +67702,7 @@
         "closedMessage": "第４Rクリアかつ12月10日18時00分以降に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94054284,
       "noticeAt": 1670576400,
       "openedAt": 1670662800,
@@ -67685,9 +67736,43 @@
         "closedMessage": "第５Rクリアかつ12月11日18時00分以降に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94054283,
       "noticeAt": 1670662800,
       "openedAt": 1670749200,
+      "closedAt": 1671422399
+    }, {
+      "id": 94078608,
+      "name": "メリー・ロードワーク ヘビー級",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90",
+      "spotId": 838001,
+      "spotName": "カルデアゲート",
+      "warId": 8380,
+      "warLongName": "カルデアゲート",
+      "gifts": [{
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94078506
+      }, {
+        "type": "questClear",
+        "targetId": 94078507,
+        "closedMessage": "第６Rクリアかつ12月12日18時00分以降に開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "第６Rクリアかつ12月12日18時00分以降に開放"
+      }],
+      "phases": [1],
+      "priority": 94054282,
+      "noticeAt": 1670749200,
+      "openedAt": 1670835600,
       "closedAt": 1671422399
     }, {
       "id": 94078630,
@@ -67871,6 +67956,7 @@
         "closedMessage": "第４Rクリアかつ12月10日18時00分以降に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94054356,
       "noticeAt": 1670576400,
       "openedAt": 1670662800,
@@ -67912,6 +67998,44 @@
       "priority": 94054355,
       "noticeAt": 1670662800,
       "openedAt": 1670749200,
+      "closedAt": 1671422399
+    }, {
+      "id": 94078675,
+      "name": "ファイティング・サンタマッチⅥ 夢幻の策略",
+      "type": "event",
+      "flags": ["userEventDeck", "actConsumeBattleWin"],
+      "consumeType": "item",
+      "consume": 6,
+      "consumeItem": [{
+        "itemId": 94078504,
+        "amount": 6
+      }],
+      "afterClear": "close",
+      "recommendLv": "75",
+      "spotId": 838001,
+      "spotName": "カルデアゲート",
+      "warId": 8380,
+      "warLongName": "カルデアゲート",
+      "gifts": [{
+        "objectId": 6546,
+        "num": 5
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94078506
+      }, {
+        "type": "questClear",
+        "targetId": 94078507,
+        "closedMessage": "第６Rクリアかつ12月12日18時00分以降に開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "第６Rクリアかつ12月12日18時00分以降に開放"
+      }],
+      "phases": [1],
+      "priority": 94054354,
+      "noticeAt": 1670749200,
+      "openedAt": 1670835600,
       "closedAt": 1671422399
     }]
   }]
