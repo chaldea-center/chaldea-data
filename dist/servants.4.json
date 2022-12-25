@@ -8507,6 +8507,9 @@
         "2": "https://static.atlasacademy.io/JP/CharaGraph/604200/604200a@2.png",
         "3": "https://static.atlasacademy.io/JP/CharaGraph/604200/604200b@1.png",
         "4": "https://static.atlasacademy.io/JP/CharaGraph/604200/604200b@2.png"
+      },
+      "costume": {
+        "604230": "https://static.atlasacademy.io/JP/CharaGraph/604230/604230a.png"
       }
     },
     "faces": {
@@ -8515,6 +8518,9 @@
         "2": "https://static.atlasacademy.io/JP/Faces/f_6042001.png",
         "3": "https://static.atlasacademy.io/JP/Faces/f_6042002.png",
         "4": "https://static.atlasacademy.io/JP/Faces/f_6042003.png"
+      },
+      "costume": {
+        "604230": "https://static.atlasacademy.io/JP/Faces/f_6042300.png"
       }
     },
     "narrowFigure": {
@@ -8523,6 +8529,9 @@
         "2": "https://static.atlasacademy.io/JP/NarrowFigure/604200/604200@1.png",
         "3": "https://static.atlasacademy.io/JP/NarrowFigure/604200/604200@2.png",
         "4": "https://static.atlasacademy.io/JP/NarrowFigure/604200/604200_2@0.png"
+      },
+      "costume": {
+        "604230": "https://static.atlasacademy.io/JP/NarrowFigure/604230/604230@0.png"
       }
     },
     "charaFigure": {
@@ -8547,6 +8556,9 @@
         "1098230600": "https://static.atlasacademy.io/JP/CharaFigure/1098230600/1098230600_merged.png",
         "1098230610": "https://static.atlasacademy.io/JP/CharaFigure/1098230610/1098230610_merged.png",
         "1098230630": "https://static.atlasacademy.io/JP/CharaFigure/1098230630/1098230630_merged.png"
+      },
+      "costume": {
+        "604230": "https://static.atlasacademy.io/JP/CharaFigure/6042300/6042300_merged.png"
       }
     },
     "commands": {
@@ -8554,6 +8566,9 @@
         "1": "https://static.atlasacademy.io/JP/Servants/Commands/604200/card_servant_1.png",
         "2": "https://static.atlasacademy.io/JP/Servants/Commands/604200/card_servant_2.png",
         "3": "https://static.atlasacademy.io/JP/Servants/Commands/604200/card_servant_3.png"
+      },
+      "costume": {
+        "604230": "https://static.atlasacademy.io/JP/Servants/Commands/604200/card_servant_11.png"
       }
     },
     "status": {
@@ -8561,6 +8576,9 @@
         "1": "https://static.atlasacademy.io/JP/Servants/Status/604200/status_servant_1.png",
         "2": "https://static.atlasacademy.io/JP/Servants/Status/604200/status_servant_2.png",
         "3": "https://static.atlasacademy.io/JP/Servants/Status/604200/status_servant_3.png"
+      },
+      "costume": {
+        "604230": "https://static.atlasacademy.io/JP/Servants/Status/604200/status_servant_11.png"
       }
     },
     "spriteModel": {
@@ -8570,6 +8588,9 @@
         "2": "https://static.atlasacademy.io/JP/Servants/604210/manifest.json",
         "3": "https://static.atlasacademy.io/JP/Servants/604220/manifest.json",
         "4": "https://static.atlasacademy.io/JP/Servants/604220/manifest.json"
+      },
+      "costume": {
+        "604230": "https://static.atlasacademy.io/JP/Servants/604230/manifest.json"
       }
     }
   },
@@ -8601,6 +8622,8 @@
     "id": 2040
   }, {
     "id": 2632
+  }, {
+    "id": 2780
   }, {
     "id": 5000
   }, {
@@ -8667,6 +8690,9 @@
         "2": [],
         "3": [],
         "4": []
+      },
+      "costume": {
+        "604230": []
       }
     },
     "voicePrefix": {
@@ -8676,6 +8702,9 @@
         "2": 0,
         "3": 2,
         "4": 2
+      },
+      "costume": {
+        "604230": 0
       }
     },
     "lvMax": {
@@ -8903,7 +8932,24 @@
       "qp": 20000000
     }
   },
-  "costumeMaterials": {},
+  "costumeMaterials": {
+    "604230": {
+      "items": [{
+        "itemId": 6505,
+        "amount": 10
+      }, {
+        "itemId": 6553,
+        "amount": 5
+      }, {
+        "itemId": 6539,
+        "amount": 5
+      }, {
+        "itemId": 6529,
+        "amount": 5
+      }],
+      "qp": 3000000
+    }
+  },
   "coin": {
     "summonNum": 90,
     "item": {
@@ -9114,6 +9160,17 @@
       "np": "A",
       "policy": "lawful",
       "personality": "evil"
+    },
+    "costume": {
+      "604230": {
+        "id": 11,
+        "costumeCollectionNo": 98,
+        "battleCharaId": 604230,
+        "name": "簡易霊衣：ＮＦＦバニー",
+        "shortName": "ＮＦＦバニー",
+        "detail": "寒冷地用の白コートを脱いだ姿\n敏腕秘書はＴＰＯを弁えるのである",
+        "priority": 99
+      }
     }
   }
 }, {
@@ -9300,7 +9357,16 @@
       }
     }
   },
-  "traitAdd": [],
+  "traitAdd": [{
+    "idx": 1,
+    "trait": [{
+      "id": 2847
+    }],
+    "limitCount": -1,
+    "condType": "none",
+    "condId": 0,
+    "condNum": 0
+  }],
   "ascensionMaterials": {
     "0": {
       "items": [{
@@ -13080,7 +13146,25 @@
       }
     }
   },
-  "traitAdd": [],
+  "traitAdd": [{
+    "idx": 1,
+    "trait": [{
+      "id": 2847
+    }],
+    "limitCount": 3,
+    "condType": "none",
+    "condId": 0,
+    "condNum": 0
+  }, {
+    "idx": 2,
+    "trait": [{
+      "id": 2847
+    }],
+    "limitCount": 4,
+    "condType": "none",
+    "condId": 0,
+    "condNum": 0
+  }],
   "ascensionMaterials": {
     "0": {
       "items": [{
@@ -17235,7 +17319,16 @@
       }
     }
   },
-  "traitAdd": [],
+  "traitAdd": [{
+    "idx": 1,
+    "trait": [{
+      "id": 2847
+    }],
+    "limitCount": -1,
+    "condType": "none",
+    "condId": 0,
+    "condNum": 0
+  }],
   "ascensionMaterials": {
     "0": {
       "items": [{
@@ -22078,7 +22171,16 @@
       }
     }
   },
-  "traitAdd": [],
+  "traitAdd": [{
+    "idx": 1,
+    "trait": [{
+      "id": 2849
+    }],
+    "limitCount": -1,
+    "condType": "none",
+    "condId": 0,
+    "condNum": 0
+  }],
   "ascensionMaterials": {
     "0": {
       "items": [{
@@ -24964,7 +25066,16 @@
       }
     }
   },
-  "traitAdd": [],
+  "traitAdd": [{
+    "idx": 1,
+    "trait": [{
+      "id": 2849
+    }],
+    "limitCount": -1,
+    "condType": "none",
+    "condId": 0,
+    "condNum": 0
+  }],
   "ascensionMaterials": {
     "0": {
       "items": [{
@@ -32504,7 +32615,25 @@
       }
     }
   },
-  "traitAdd": [],
+  "traitAdd": [{
+    "idx": 1,
+    "trait": [{
+      "id": 2847
+    }],
+    "limitCount": -1,
+    "condType": "none",
+    "condId": 0,
+    "condNum": 0
+  }, {
+    "idx": 2,
+    "trait": [{
+      "id": 2850
+    }],
+    "limitCount": -1,
+    "condType": "none",
+    "condId": 0,
+    "condNum": 0
+  }],
   "ascensionMaterials": {
     "0": {
       "items": [{
@@ -34913,7 +35042,16 @@
       }
     }
   },
-  "traitAdd": [],
+  "traitAdd": [{
+    "idx": 1,
+    "trait": [{
+      "id": 2847
+    }],
+    "limitCount": -1,
+    "condType": "none",
+    "condId": 0,
+    "condNum": 0
+  }],
   "ascensionMaterials": {
     "0": {
       "items": [{
@@ -35524,7 +35662,16 @@
       }
     }
   },
-  "traitAdd": [],
+  "traitAdd": [{
+    "idx": 1,
+    "trait": [{
+      "id": 2847
+    }],
+    "limitCount": -1,
+    "condType": "none",
+    "condId": 0,
+    "condNum": 0
+  }],
   "ascensionMaterials": {
     "0": {
       "items": [{
@@ -36135,7 +36282,16 @@
       }
     }
   },
-  "traitAdd": [],
+  "traitAdd": [{
+    "idx": 1,
+    "trait": [{
+      "id": 2847
+    }],
+    "limitCount": -1,
+    "condType": "none",
+    "condId": 0,
+    "condNum": 0
+  }],
   "ascensionMaterials": {
     "0": {
       "items": [{
@@ -36734,7 +36890,16 @@
       }
     }
   },
-  "traitAdd": [],
+  "traitAdd": [{
+    "idx": 1,
+    "trait": [{
+      "id": 2847
+    }],
+    "limitCount": -1,
+    "condType": "none",
+    "condId": 0,
+    "condNum": 0
+  }],
   "ascensionImage": [{
     "limitCount": 3,
     "defaultLimitCount": 2,

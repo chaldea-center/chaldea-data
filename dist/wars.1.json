@@ -58595,7 +58595,7 @@
   "name": "-",
   "longName": "死想顕現界域 トラオム",
   "originalLongName": "死想顕現界域 トラオム",
-  "flags": ["mainScenario", "dispFirstQuest", "effectDisappearBanner"],
+  "flags": ["mainScenario", "dispFirstQuest", "effectDisappearBanner", "isWarIconFree", "isWarIconCenter"],
   "banner": "https://static.atlasacademy.io/JP/Banner/questboard_cap315.png",
   "priority": 312,
   "bgm": {
@@ -58620,7 +58620,7 @@
     "warId": 310,
     "type": "flag",
     "priority": 1,
-    "overwriteId": 65666,
+    "overwriteId": 6357122,
     "condType": "questClearPhase",
     "targetId": 3001201,
     "value": 1,
@@ -61380,33 +61380,74 @@
 }, {
   "id": 311,
   "coordinates": [
-    [],
-    []
+    [-3.4653056, -62.21588],
+    [-17.26166, -76.369026]
   ],
   "age": "-",
-  "name": "Lostbelt No.?",
-  "longName": "Lostbelt No.?",
-  "originalLongName": "Lostbelt No.?",
-  "flags": ["withMap", "mainScenario", "whiteMarkUnderBoard"],
-  "banner": "https://static.atlasacademy.io/JP/Banner/questboard_cap_closed.png",
+  "name": "Lostbelt No.7",
+  "longName": "Lostbelt No.7\n黄金樹海紀行 ナウイ・ミクトラン",
+  "originalLongName": "Lostbelt No.7\n黄金樹海紀行 ナウイ・ミクトラン",
+  "flags": ["mainScenario", "isWarIconLeft", "dispFirstQuest"],
+  "banner": "https://static.atlasacademy.io/JP/Banner/questboard_cap317.png",
   "priority": 313,
   "bgm": {
     "id": 0
   },
   "scriptId": "NONE",
   "script": "https://static.atlasacademy.io/JP/Script/Common/NONE.txt",
-  "startType": "none",
-  "targetId": 0,
+  "startType": "quest",
+  "targetId": 3001300,
   "lastQuestId": 0,
   "warAdds": [{
     "warId": 311,
-    "type": "flag",
-    "priority": 1,
-    "overwriteId": 130,
-    "condType": "questClear",
-    "targetId": 3001101,
+    "type": "bgImage",
+    "priority": 0,
+    "overwriteId": 57400,
+    "condType": "none",
+    "targetId": 3001300,
     "value": 0,
-    "startedAt": 1654086600,
+    "startedAt": 1671958800,
+    "endedAt": 1893423600
+  }, {
+    "warId": 311,
+    "type": "masterFaceIcon",
+    "priority": 0,
+    "overwriteId": 251,
+    "condType": "commonRelease",
+    "targetId": 10080903,
+    "value": 0,
+    "startedAt": 1671958800,
+    "endedAt": 1893423600
+  }, {
+    "warId": 311,
+    "type": "commandSpellIcon",
+    "priority": 0,
+    "overwriteId": 1,
+    "overwriteStr": "251",
+    "condType": "commonRelease",
+    "targetId": 10080903,
+    "value": 0,
+    "startedAt": 1671958800,
+    "endedAt": 1893423600
+  }, {
+    "warId": 311,
+    "type": "baseMapId",
+    "priority": 1,
+    "overwriteId": 31102,
+    "condType": "questClearPhase",
+    "targetId": 3001302,
+    "value": 1,
+    "startedAt": 1671958800,
+    "endedAt": 1893423600
+  }, {
+    "warId": 311,
+    "type": "bgImage",
+    "priority": 1,
+    "overwriteId": 57400,
+    "condType": "none",
+    "targetId": 3001302,
+    "value": 1,
+    "startedAt": 1671958800,
     "endedAt": 1893423600
   }, {
     "warId": 311,
@@ -61420,15 +61461,1694 @@
     "endedAt": 1893423600
   }, {
     "warId": 311,
-    "type": "banner",
-    "priority": 2,
-    "overwriteId": 317,
-    "overwriteBanner": "https://static.atlasacademy.io/JP/Banner/questboard_cap_closed.png",
+    "type": "flag",
+    "priority": 1,
+    "overwriteId": 262274,
     "condType": "questNotClear",
     "targetId": 3001101,
     "value": 0,
     "startedAt": 1654086600,
     "endedAt": 1893423600
+  }, {
+    "warId": 311,
+    "type": "commandSpellIcon",
+    "priority": 1,
+    "overwriteId": 1,
+    "overwriteStr": "252",
+    "condType": "commonRelease",
+    "targetId": 10080904,
+    "value": 0,
+    "startedAt": 1671958800,
+    "endedAt": 1893423600
+  }, {
+    "warId": 311,
+    "type": "masterFaceIcon",
+    "priority": 1,
+    "overwriteId": 252,
+    "condType": "commonRelease",
+    "targetId": 10080904,
+    "value": 0,
+    "startedAt": 1671958800,
+    "endedAt": 1893423600
+  }, {
+    "warId": 311,
+    "type": "banner",
+    "priority": 2,
+    "overwriteId": 317,
+    "overwriteBanner": "https://static.atlasacademy.io/JP/Banner/questboard_cap317.png",
+    "condType": "questNotClear",
+    "targetId": 3001101,
+    "value": 0,
+    "startedAt": 1654086600,
+    "endedAt": 1893423600
+  }, {
+    "warId": 311,
+    "type": "flag",
+    "priority": 2,
+    "overwriteId": 386,
+    "condType": "questClear",
+    "targetId": 3001301,
+    "value": 0,
+    "startedAt": 1671958800,
+    "endedAt": 1893423600
+  }, {
+    "warId": 311,
+    "type": "materialParentWar",
+    "priority": 2,
+    "overwriteId": 13000,
+    "condType": "questClear",
+    "targetId": 3000008,
+    "value": 0,
+    "startedAt": 1671958800,
+    "endedAt": 1893423600
+  }, {
+    "warId": 311,
+    "type": "coordinates",
+    "priority": 2,
+    "overwriteId": 11,
+    "overwriteStr": "[[17.217602, -94.401559],[2.106410, -102.345708]]",
+    "condType": "questClear",
+    "targetId": 3001301,
+    "value": 0,
+    "startedAt": 1671958800,
+    "endedAt": 1893423600
+  }, {
+    "warId": 311,
+    "type": "commandSpellIcon",
+    "priority": 2,
+    "overwriteId": 2,
+    "overwriteStr": "251",
+    "condType": "commonRelease",
+    "targetId": 10080905,
+    "value": 0,
+    "startedAt": 1671958800,
+    "endedAt": 1893423600
+  }, {
+    "warId": 311,
+    "type": "masterFaceIcon",
+    "priority": 2,
+    "overwriteId": 253,
+    "condType": "commonRelease",
+    "targetId": 10080905,
+    "value": 0,
+    "startedAt": 1671958800,
+    "endedAt": 1893423600
+  }, {
+    "warId": 311,
+    "type": "flag",
+    "priority": 3,
+    "overwriteId": 386,
+    "condType": "questClearPhase",
+    "targetId": 3001302,
+    "value": 1,
+    "startedAt": 1671958800,
+    "endedAt": 1893423600
+  }, {
+    "warId": 311,
+    "type": "commandSpellIcon",
+    "priority": 3,
+    "overwriteId": 2,
+    "overwriteStr": "252",
+    "condType": "commonRelease",
+    "targetId": 10080906,
+    "value": 0,
+    "startedAt": 1671958800,
+    "endedAt": 1893423600
+  }, {
+    "warId": 311,
+    "type": "masterFaceIcon",
+    "priority": 3,
+    "overwriteId": 254,
+    "condType": "commonRelease",
+    "targetId": 10080906,
+    "value": 0,
+    "startedAt": 1671958800,
+    "endedAt": 1893423600
+  }, {
+    "warId": 311,
+    "type": "masterFaceIcon",
+    "priority": 4,
+    "overwriteId": 255,
+    "condType": "commonRelease",
+    "targetId": 10080907,
+    "value": 0,
+    "startedAt": 1671958800,
+    "endedAt": 1893423600
+  }, {
+    "warId": 311,
+    "type": "commandSpellIcon",
+    "priority": 4,
+    "overwriteId": 3,
+    "overwriteStr": "251",
+    "condType": "commonRelease",
+    "targetId": 10080907,
+    "value": 0,
+    "startedAt": 1671958800,
+    "endedAt": 1893423600
+  }, {
+    "warId": 311,
+    "type": "masterFaceIcon",
+    "priority": 5,
+    "overwriteId": 256,
+    "condType": "commonRelease",
+    "targetId": 10080908,
+    "value": 0,
+    "startedAt": 1671958800,
+    "endedAt": 1893423600
+  }, {
+    "warId": 311,
+    "type": "commandSpellIcon",
+    "priority": 5,
+    "overwriteId": 3,
+    "overwriteStr": "252",
+    "condType": "commonRelease",
+    "targetId": 10080908,
+    "value": 0,
+    "startedAt": 1671958800,
+    "endedAt": 1893423600
+  }],
+  "maps": [{
+    "id": 31101,
+    "mapImage": "https://static.atlasacademy.io/JP/Terminal/MapImgs/img_questmap_031101/img_questmap_031101.png",
+    "mapImageW": 2048,
+    "mapImageH": 1440,
+    "mapGimmicks": [{
+      "id": 31101,
+      "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0311/QMap_Cap0311_Atlas/gimmick_031101.png",
+      "x": 1024,
+      "y": 720,
+      "depthOffset": 0,
+      "scale": 1000,
+      "dispCondType": "itemGet",
+      "dispTargetId": 3001301,
+      "dispTargetValue": 3,
+      "dispCondType2": "useItemEternity",
+      "dispTargetId2": 3001302,
+      "dispTargetValue2": 1
+    }],
+    "headerImage": "https://static.atlasacademy.io/JP/Banner/img_title_header_30.png",
+    "bgm": {
+      "id": 229
+    }
+  }, {
+    "id": 31102,
+    "mapImage": "https://static.atlasacademy.io/JP/Terminal/MapImgs/img_questmap_031102/img_questmap_031102.png",
+    "mapImageW": 2048,
+    "mapImageH": 1440,
+    "mapGimmicks": [{
+      "id": 31102,
+      "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0311/QMap_Cap0311_Atlas/gimmick_031102.png",
+      "x": 0,
+      "y": 0,
+      "depthOffset": 0,
+      "scale": 1000,
+      "dispCondType": "itemGet",
+      "dispTargetId": 3001302,
+      "dispTargetValue": 1,
+      "dispCondType2": "useItemEternity",
+      "dispTargetId2": 3001303,
+      "dispTargetValue2": 6
+    }, {
+      "id": 31103,
+      "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0311/QMap_Cap0311_Atlas/gimmick_031103.png",
+      "x": 0,
+      "y": 0,
+      "depthOffset": 0,
+      "scale": 1000,
+      "dispCondType": "itemGet",
+      "dispTargetId": 3001302,
+      "dispTargetValue": 1,
+      "dispCondType2": "useItemEternity",
+      "dispTargetId2": 3001309,
+      "dispTargetValue2": 5
+    }, {
+      "id": 31104,
+      "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0311/QMap_Cap0311_Atlas/gimmick_031104.png",
+      "x": 0,
+      "y": 0,
+      "depthOffset": 0,
+      "scale": 1000,
+      "dispCondType": "itemGet",
+      "dispTargetId": 3001302,
+      "dispTargetValue": 1,
+      "dispCondType2": "questClear",
+      "dispTargetId2": 0,
+      "dispTargetValue2": 0
+    }, {
+      "id": 31105,
+      "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0311/QMap_Cap0311_Atlas/gimmick_031105.png",
+      "x": 0,
+      "y": 0,
+      "depthOffset": 0,
+      "scale": 1000,
+      "dispCondType": "itemGet",
+      "dispTargetId": 3001302,
+      "dispTargetValue": 1,
+      "dispCondType2": "questClear",
+      "dispTargetId2": 0,
+      "dispTargetValue2": 0
+    }, {
+      "id": 31107,
+      "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0311/QMap_Cap0311_Atlas/gimmick_031107.png",
+      "x": 0,
+      "y": 0,
+      "depthOffset": 0,
+      "scale": 1000,
+      "dispCondType": "itemGet",
+      "dispTargetId": 3001302,
+      "dispTargetValue": 1,
+      "dispCondType2": "questClear",
+      "dispTargetId2": 0,
+      "dispTargetValue2": 0
+    }, {
+      "id": 31108,
+      "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0311/QMap_Cap0311_Atlas/gimmick_031108.png",
+      "x": 0,
+      "y": 0,
+      "depthOffset": 0,
+      "scale": 1000,
+      "dispCondType": "itemGet",
+      "dispTargetId": 3001302,
+      "dispTargetValue": 1,
+      "dispCondType2": "questClear",
+      "dispTargetId2": 0,
+      "dispTargetValue2": 0
+    }, {
+      "id": 31109,
+      "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0311/QMap_Cap0311_Atlas/gimmick_031109.png",
+      "x": 0,
+      "y": 0,
+      "depthOffset": 0,
+      "scale": 1000,
+      "dispCondType": "itemGet",
+      "dispTargetId": 3001302,
+      "dispTargetValue": 1,
+      "dispCondType2": "questClear",
+      "dispTargetId2": 0,
+      "dispTargetValue2": 0
+    }, {
+      "id": 31110,
+      "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0311/QMap_Cap0311_Atlas/gimmick_031110.png",
+      "x": 0,
+      "y": 0,
+      "depthOffset": 0,
+      "scale": 1000,
+      "dispCondType": "itemGet",
+      "dispTargetId": 3001302,
+      "dispTargetValue": 1,
+      "dispCondType2": "questClear",
+      "dispTargetId2": 0,
+      "dispTargetValue2": 0
+    }, {
+      "id": 31114,
+      "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0311/QMap_Cap0311_Atlas/gimmick_031114.png",
+      "x": 0,
+      "y": 0,
+      "depthOffset": 0,
+      "scale": 1000,
+      "dispCondType": "itemGet",
+      "dispTargetId": 3001302,
+      "dispTargetValue": 1,
+      "dispCondType2": "questClear",
+      "dispTargetId2": 0,
+      "dispTargetValue2": 0
+    }, {
+      "id": 31116,
+      "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0311/QMap_Cap0311_Atlas/gimmick_031116.png",
+      "x": 0,
+      "y": 0,
+      "depthOffset": 0,
+      "scale": 1000,
+      "dispCondType": "itemGet",
+      "dispTargetId": 3001302,
+      "dispTargetValue": 1,
+      "dispCondType2": "useItemEternity",
+      "dispTargetId2": 3001311,
+      "dispTargetValue2": 1
+    }, {
+      "id": 31118,
+      "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0311/QMap_Cap0311_Atlas/gimmick_031118.png",
+      "x": 0,
+      "y": 0,
+      "depthOffset": 0,
+      "scale": 1000,
+      "dispCondType": "itemGet",
+      "dispTargetId": 3001311,
+      "dispTargetValue": 1,
+      "dispCondType2": "questClear",
+      "dispTargetId2": 0,
+      "dispTargetValue2": 0
+    }, {
+      "id": 31119,
+      "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0311/QMap_Cap0311_Atlas/gimmick_031119.png",
+      "x": 0,
+      "y": 0,
+      "depthOffset": 0,
+      "scale": 1000,
+      "dispCondType": "itemGet",
+      "dispTargetId": 3001302,
+      "dispTargetValue": 1,
+      "dispCondType2": "questClear",
+      "dispTargetId2": 0,
+      "dispTargetValue2": 0
+    }, {
+      "id": 31120,
+      "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0311/QMap_Cap0311_Atlas/gimmick_031120.png",
+      "x": 0,
+      "y": 0,
+      "depthOffset": 0,
+      "scale": 1000,
+      "dispCondType": "itemGet",
+      "dispTargetId": 3001302,
+      "dispTargetValue": 1,
+      "dispCondType2": "questClear",
+      "dispTargetId2": 0,
+      "dispTargetValue2": 0
+    }, {
+      "id": 31122,
+      "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0311/QMap_Cap0311_Atlas/gimmick_031122.png",
+      "x": 0,
+      "y": 0,
+      "depthOffset": 0,
+      "scale": 1000,
+      "dispCondType": "itemGet",
+      "dispTargetId": 3001302,
+      "dispTargetValue": 1,
+      "dispCondType2": "questClear",
+      "dispTargetId2": 0,
+      "dispTargetValue2": 0
+    }],
+    "headerImage": "https://static.atlasacademy.io/JP/Banner/img_title_header_30.png",
+    "bgm": {
+      "id": 628
+    }
+  }],
+  "spots": [{
+    "id": 31101,
+    "mapId": 31101,
+    "name": "？？？",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0311/QMap_Cap0311_Atlas/spot_031101.png",
+    "x": 1024,
+    "y": 720,
+    "nameOfsY": -7,
+    "questOfsX": 32,
+    "questOfsY": -52,
+    "quests": [{
+      "id": 3001302,
+      "name": "黄金樹海",
+      "type": "main",
+      "flags": ["enableFollowQuest"],
+      "consume": 22,
+      "afterClear": "close",
+      "recommendLv": "70",
+      "spotId": 31101,
+      "spotName": "？？？",
+      "warId": 311,
+      "warLongName": "Lostbelt No.7\n黄金樹海紀行 ナウイ・ミクトラン",
+      "chapterId": 314,
+      "chapterSubId": 2,
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }, {
+        "objectId": 6554,
+        "num": 2
+      }, {
+        "objectId": 46,
+        "num": 2
+      }, {
+        "type": "servant",
+        "objectId": 9770500,
+        "num": 2
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 3001301
+      }],
+      "phases": [1, 2, 3, 4, 5, 6, 7],
+      "phasesWithEnemies": [2, 3, 6],
+      "phasesNoBattle": [1, 4, 5, 7],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "0300130210",
+          "script": "https://static.atlasacademy.io/JP/Script/03/0300130210.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "0300130220",
+          "script": "https://static.atlasacademy.io/JP/Script/03/0300130220.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "0300130230",
+          "script": "https://static.atlasacademy.io/JP/Script/03/0300130230.txt"
+        }, {
+          "scriptId": "0300130231",
+          "script": "https://static.atlasacademy.io/JP/Script/03/0300130231.txt"
+        }]
+      }, {
+        "phase": 4,
+        "scripts": [{
+          "scriptId": "0300130240",
+          "script": "https://static.atlasacademy.io/JP/Script/03/0300130240.txt"
+        }]
+      }, {
+        "phase": 5,
+        "scripts": [{
+          "scriptId": "0300130250",
+          "script": "https://static.atlasacademy.io/JP/Script/03/0300130250.txt"
+        }]
+      }, {
+        "phase": 6,
+        "scripts": [{
+          "scriptId": "0300130260",
+          "script": "https://static.atlasacademy.io/JP/Script/03/0300130260.txt"
+        }, {
+          "scriptId": "0300130261",
+          "script": "https://static.atlasacademy.io/JP/Script/03/0300130261.txt"
+        }]
+      }, {
+        "phase": 7,
+        "scripts": [{
+          "scriptId": "0300130270",
+          "script": "https://static.atlasacademy.io/JP/Script/03/0300130270.txt"
+        }]
+      }],
+      "priority": 900097,
+      "noticeAt": 1671958800,
+      "openedAt": 1671958800,
+      "closedAt": 1893423600
+    }]
+  }, {
+    "id": 31102,
+    "mapId": 31102,
+    "name": "チコモストク",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0311/QMap_Cap0311_Atlas/spot_031102.png",
+    "x": 215,
+    "y": -1099,
+    "nameOfsY": -6,
+    "questOfsX": 31,
+    "questOfsY": -65
+  }, {
+    "id": 31103,
+    "mapId": 31102,
+    "name": "黄金樹海",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0311/QMap_Cap0311_Atlas/spot_031103.png",
+    "x": 189,
+    "y": -1095,
+    "nameOfsY": -6,
+    "questOfsX": 32,
+    "questOfsY": -52
+  }, {
+    "id": 31104,
+    "mapId": 31102,
+    "name": "角のような岩山",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0311/QMap_Cap0311_Atlas/spot_031104.png",
+    "x": 164,
+    "y": -1091,
+    "nameOfsY": -4,
+    "questOfsX": 36,
+    "questOfsY": -62
+  }, {
+    "id": 31105,
+    "mapId": 31102,
+    "name": "トウモロコシ畑",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0311/QMap_Cap0311_Atlas/spot_031105.png",
+    "x": 33,
+    "y": -1127,
+    "nameOfsY": -4,
+    "questOfsX": 31,
+    "questOfsY": -65,
+    "quests": [{
+      "id": 3001306,
+      "name": "燃えろ炎のストライカー",
+      "type": "main",
+      "flags": ["enableFollowQuest"],
+      "consume": 24,
+      "afterClear": "close",
+      "recommendLv": "82",
+      "spotId": 31105,
+      "spotName": "トウモロコシ畑",
+      "warId": 311,
+      "warLongName": "Lostbelt No.7\n黄金樹海紀行 ナウイ・ミクトラン",
+      "chapterId": 314,
+      "chapterSubId": 6,
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }, {
+        "objectId": 6553,
+        "num": 3
+      }, {
+        "objectId": 46,
+        "num": 3
+      }, {
+        "type": "servant",
+        "objectId": 9770500,
+        "num": 3
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 3001305
+      }],
+      "phases": [1, 2, 3, 4, 5],
+      "phasesNoBattle": [3, 5],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "0300130611",
+          "script": "https://static.atlasacademy.io/JP/Script/03/0300130611.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "0300130620",
+          "script": "https://static.atlasacademy.io/JP/Script/03/0300130620.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "0300130630",
+          "script": "https://static.atlasacademy.io/JP/Script/03/0300130630.txt"
+        }]
+      }, {
+        "phase": 4,
+        "scripts": [{
+          "scriptId": "0300130640",
+          "script": "https://static.atlasacademy.io/JP/Script/03/0300130640.txt"
+        }]
+      }, {
+        "phase": 5,
+        "scripts": [{
+          "scriptId": "0300130650",
+          "script": "https://static.atlasacademy.io/JP/Script/03/0300130650.txt"
+        }]
+      }],
+      "priority": 900093,
+      "noticeAt": 1671958800,
+      "openedAt": 1671958800,
+      "closedAt": 1893423600
+    }]
+  }, {
+    "id": 31106,
+    "mapId": 31102,
+    "name": "トラトラウキ",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0311/QMap_Cap0311_Atlas/spot_031106.png",
+    "x": -133,
+    "y": -1140,
+    "nameOfsY": -1,
+    "questOfsX": 37,
+    "questOfsY": -75,
+    "quests": [{
+      "id": 3001303,
+      "name": "第一冥界トラトラウキ",
+      "type": "main",
+      "flags": ["enableFollowQuest"],
+      "consume": 23,
+      "afterClear": "close",
+      "recommendLv": "76",
+      "spotId": 31106,
+      "spotName": "トラトラウキ",
+      "warId": 311,
+      "warLongName": "Lostbelt No.7\n黄金樹海紀行 ナウイ・ミクトラン",
+      "chapterId": 314,
+      "chapterSubId": 3,
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }, {
+        "objectId": 6516,
+        "num": 5
+      }, {
+        "objectId": 46,
+        "num": 5
+      }, {
+        "type": "servant",
+        "objectId": 9770500,
+        "num": 5
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 3001302
+      }],
+      "phases": [1, 2, 3, 4, 5, 6],
+      "phasesWithEnemies": [1, 2, 3, 5],
+      "phasesNoBattle": [4],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "0300130310",
+          "script": "https://static.atlasacademy.io/JP/Script/03/0300130310.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "0300130320",
+          "script": "https://static.atlasacademy.io/JP/Script/03/0300130320.txt"
+        }, {
+          "scriptId": "0300130321",
+          "script": "https://static.atlasacademy.io/JP/Script/03/0300130321.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "0300130330",
+          "script": "https://static.atlasacademy.io/JP/Script/03/0300130330.txt"
+        }, {
+          "scriptId": "0300130331",
+          "script": "https://static.atlasacademy.io/JP/Script/03/0300130331.txt"
+        }]
+      }, {
+        "phase": 4,
+        "scripts": [{
+          "scriptId": "0300130340",
+          "script": "https://static.atlasacademy.io/JP/Script/03/0300130340.txt"
+        }]
+      }, {
+        "phase": 5,
+        "scripts": [{
+          "scriptId": "0300130350",
+          "script": "https://static.atlasacademy.io/JP/Script/03/0300130350.txt"
+        }, {
+          "scriptId": "0300130351",
+          "script": "https://static.atlasacademy.io/JP/Script/03/0300130351.txt"
+        }]
+      }, {
+        "phase": 6,
+        "scripts": [{
+          "scriptId": "0300130360",
+          "script": "https://static.atlasacademy.io/JP/Script/03/0300130360.txt"
+        }, {
+          "scriptId": "0300130361",
+          "script": "https://static.atlasacademy.io/JP/Script/03/0300130361.txt"
+        }]
+      }],
+      "priority": 900096,
+      "noticeAt": 1671958800,
+      "openedAt": 1671958800,
+      "closedAt": 1893423600
+    }]
+  }, {
+    "id": 31107,
+    "mapId": 31102,
+    "name": "黄金樹海",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0311/QMap_Cap0311_Atlas/spot_031103.png",
+    "x": -142,
+    "y": -1149,
+    "nameOfsY": -6,
+    "questOfsX": 32,
+    "questOfsY": -52,
+    "quests": [{
+      "id": 3001304,
+      "name": "黄金都市にて",
+      "type": "main",
+      "flags": ["enableFollowQuest"],
+      "consume": 22,
+      "afterClear": "close",
+      "recommendLv": "73",
+      "spotId": 31107,
+      "spotName": "黄金樹海",
+      "warId": 311,
+      "warLongName": "Lostbelt No.7\n黄金樹海紀行 ナウイ・ミクトラン",
+      "chapterId": 314,
+      "chapterSubId": 4,
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }, {
+        "objectId": 6553,
+        "num": 2
+      }, {
+        "objectId": 46,
+        "num": 2
+      }, {
+        "type": "servant",
+        "objectId": 9770500,
+        "num": 2
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 3001303
+      }],
+      "phases": [1, 2, 3, 4],
+      "phasesNoBattle": [3],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "0300130410",
+          "script": "https://static.atlasacademy.io/JP/Script/03/0300130410.txt"
+        }, {
+          "scriptId": "0300130411",
+          "script": "https://static.atlasacademy.io/JP/Script/03/0300130411.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "0300130420",
+          "script": "https://static.atlasacademy.io/JP/Script/03/0300130420.txt"
+        }, {
+          "scriptId": "0300130421",
+          "script": "https://static.atlasacademy.io/JP/Script/03/0300130421.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "0300130430",
+          "script": "https://static.atlasacademy.io/JP/Script/03/0300130430.txt"
+        }]
+      }, {
+        "phase": 4,
+        "scripts": [{
+          "scriptId": "0300130440",
+          "script": "https://static.atlasacademy.io/JP/Script/03/0300130440.txt"
+        }, {
+          "scriptId": "0300130441",
+          "script": "https://static.atlasacademy.io/JP/Script/03/0300130441.txt"
+        }]
+      }],
+      "priority": 900095,
+      "noticeAt": 1671958800,
+      "openedAt": 1671958800,
+      "closedAt": 1893423600
+    }]
+  }, {
+    "id": 31108,
+    "mapId": 31102,
+    "name": "大平原",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0311/QMap_Cap0311_Atlas/spot_031108.png",
+    "x": -159,
+    "y": -1166,
+    "nameOfsY": -6,
+    "questOfsX": 34,
+    "questOfsY": -54,
+    "quests": [{
+      "id": 3001308,
+      "name": "銃、戦争、死別",
+      "type": "main",
+      "flags": ["enableFollowQuest"],
+      "consume": 22,
+      "afterClear": "close",
+      "recommendLv": "72",
+      "spotId": 31108,
+      "spotName": "大平原",
+      "warId": 311,
+      "warLongName": "Lostbelt No.7\n黄金樹海紀行 ナウイ・ミクトラン",
+      "chapterId": 314,
+      "chapterSubId": 7,
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }, {
+        "objectId": 6554,
+        "num": 2
+      }, {
+        "objectId": 46,
+        "num": 2
+      }, {
+        "type": "servant",
+        "objectId": 9770500,
+        "num": 2
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 3001307
+      }],
+      "phases": [1, 2, 3, 4, 5],
+      "phasesNoBattle": [3, 4, 5],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "0300130810",
+          "script": "https://static.atlasacademy.io/JP/Script/03/0300130810.txt"
+        }, {
+          "scriptId": "0300130811",
+          "script": "https://static.atlasacademy.io/JP/Script/03/0300130811.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "0300130820",
+          "script": "https://static.atlasacademy.io/JP/Script/03/0300130820.txt"
+        }, {
+          "scriptId": "0300130821",
+          "script": "https://static.atlasacademy.io/JP/Script/03/0300130821.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "0300130830",
+          "script": "https://static.atlasacademy.io/JP/Script/03/0300130830.txt"
+        }]
+      }, {
+        "phase": 4,
+        "scripts": [{
+          "scriptId": "0300130840",
+          "script": "https://static.atlasacademy.io/JP/Script/03/0300130840.txt"
+        }]
+      }, {
+        "phase": 5,
+        "scripts": [{
+          "scriptId": "0300130850",
+          "script": "https://static.atlasacademy.io/JP/Script/03/0300130850.txt"
+        }]
+      }],
+      "priority": 900091,
+      "noticeAt": 1671958800,
+      "openedAt": 1671958800,
+      "closedAt": 1893423600
+    }, {
+      "id": 3001398,
+      "name": "銃、戦争、死別",
+      "type": "main",
+      "flags": ["branch", "enableFollowQuest"],
+      "consume": 22,
+      "afterClear": "close",
+      "recommendLv": "72",
+      "spotId": 31108,
+      "spotName": "大平原",
+      "warId": 311,
+      "warLongName": "Lostbelt No.7\n黄金樹海紀行 ナウイ・ミクトラン",
+      "chapterId": 314,
+      "chapterSubId": 98,
+      "chapterSubStr": "第7節",
+      "phases": [2],
+      "phaseScripts": [{
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "0300139821",
+          "script": "https://static.atlasacademy.io/JP/Script/03/0300139821.txt"
+        }]
+      }],
+      "priority": 900090,
+      "noticeAt": 1671958800,
+      "openedAt": 1671958800,
+      "closedAt": 1893423600
+    }]
+  }, {
+    "id": 31109,
+    "mapId": 31102,
+    "name": "チチェン・イツァー",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0311/QMap_Cap0311_Atlas/spot_031109.png",
+    "x": -5,
+    "y": -1149,
+    "nameOfsY": -5,
+    "questOfsX": 39,
+    "questOfsY": -81,
+    "quests": [{
+      "id": 3001305,
+      "name": "チチェン・イツァーの生活（Ⅰ）",
+      "type": "main",
+      "flags": ["enableFollowQuest"],
+      "consume": 23,
+      "afterClear": "close",
+      "recommendLv": "75",
+      "spotId": 31109,
+      "spotName": "チチェン・イツァー",
+      "warId": 311,
+      "warLongName": "Lostbelt No.7\n黄金樹海紀行 ナウイ・ミクトラン",
+      "chapterId": 314,
+      "chapterSubId": 5,
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }, {
+        "objectId": 6553,
+        "num": 3
+      }, {
+        "objectId": 46,
+        "num": 3
+      }, {
+        "type": "servant",
+        "objectId": 9770500,
+        "num": 3
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 3001304
+      }],
+      "phases": [1, 2, 3, 4, 5],
+      "phasesNoBattle": [1, 3, 5],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "0300130510",
+          "script": "https://static.atlasacademy.io/JP/Script/03/0300130510.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "0300130520",
+          "script": "https://static.atlasacademy.io/JP/Script/03/0300130520.txt"
+        }, {
+          "scriptId": "0300130521",
+          "script": "https://static.atlasacademy.io/JP/Script/03/0300130521.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "0300130530",
+          "script": "https://static.atlasacademy.io/JP/Script/03/0300130530.txt"
+        }]
+      }, {
+        "phase": 4,
+        "scripts": [{
+          "scriptId": "0300130540",
+          "script": "https://static.atlasacademy.io/JP/Script/03/0300130540.txt"
+        }, {
+          "scriptId": "0300130541",
+          "script": "https://static.atlasacademy.io/JP/Script/03/0300130541.txt"
+        }]
+      }, {
+        "phase": 5,
+        "scripts": [{
+          "scriptId": "0300130550",
+          "script": "https://static.atlasacademy.io/JP/Script/03/0300130550.txt"
+        }]
+      }],
+      "priority": 900094,
+      "noticeAt": 1671958800,
+      "openedAt": 1671958800,
+      "closedAt": 1893423600
+    }, {
+      "id": 3001312,
+      "name": "",
+      "type": "main",
+      "flags": ["enableFollowQuest"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "",
+      "spotId": 31109,
+      "spotName": "チチェン・イツァー",
+      "warId": 311,
+      "warLongName": "Lostbelt No.7\n黄金樹海紀行 ナウイ・ミクトラン",
+      "chapterId": 310,
+      "chapterSubId": 11,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 3001311
+      }, {
+        "type": "forceFalse",
+        "targetId": 0,
+        "closedMessage": "後編リリース時に開放"
+      }],
+      "phases": [1],
+      "priority": 900085,
+      "noticeAt": 1671958800,
+      "openedAt": 1893423600,
+      "closedAt": 1893423600
+    }]
+  }, {
+    "id": 31111,
+    "mapId": 31102,
+    "name": "クラッシュポイント",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0311/QMap_Cap0311_Atlas/spot_031111.png",
+    "x": -173,
+    "y": -1140,
+    "nameOfsY": -6,
+    "questOfsX": 33,
+    "questOfsY": -64,
+    "quests": [{
+      "id": 3001307,
+      "name": "断章（Ⅰ）",
+      "type": "main",
+      "flags": ["enableFollowQuest"],
+      "consume": 23,
+      "afterClear": "close",
+      "recommendLv": "76",
+      "spotId": 31111,
+      "spotName": "クラッシュポイント",
+      "warId": 311,
+      "warLongName": "Lostbelt No.7\n黄金樹海紀行 ナウイ・ミクトラン",
+      "chapterId": 314,
+      "chapterSubId": 87,
+      "chapterSubStr": " ",
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }, {
+        "objectId": 6554,
+        "num": 2
+      }, {
+        "objectId": 46,
+        "num": 2
+      }, {
+        "type": "servant",
+        "objectId": 9770500,
+        "num": 2
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 3001306
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "0300130710",
+          "script": "https://static.atlasacademy.io/JP/Script/03/0300130710.txt"
+        }, {
+          "scriptId": "0300130711",
+          "script": "https://static.atlasacademy.io/JP/Script/03/0300130711.txt"
+        }]
+      }],
+      "priority": 900092,
+      "noticeAt": 1671958800,
+      "openedAt": 1671958800,
+      "closedAt": 1893423600
+    }]
+  }, {
+    "id": 31112,
+    "mapId": 31102,
+    "name": "イスタウキ",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0311/QMap_Cap0311_Atlas/spot_031112.png",
+    "x": -1,
+    "y": -1041,
+    "nameOfsY": -6,
+    "questOfsX": 40,
+    "questOfsY": -74,
+    "quests": [{
+      "id": 3001309,
+      "name": "第二冥界イスタウキ",
+      "type": "main",
+      "flags": ["enableFollowQuest"],
+      "consume": 23,
+      "afterClear": "close",
+      "recommendLv": "80",
+      "spotId": 31112,
+      "spotName": "イスタウキ",
+      "warId": 311,
+      "warLongName": "Lostbelt No.7\n黄金樹海紀行 ナウイ・ミクトラン",
+      "chapterId": 314,
+      "chapterSubId": 8,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/3.png",
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }, {
+        "objectId": 46,
+        "num": 1
+      }, {
+        "type": "costumeRelease",
+        "objectId": 60420011,
+        "num": 1
+      }, {
+        "type": "servant",
+        "objectId": 9770500,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 3001308
+      }],
+      "phases": [1, 2, 3, 4, 5],
+      "phasesNoBattle": [4],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "0300130910",
+          "script": "https://static.atlasacademy.io/JP/Script/03/0300130910.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "0300130920",
+          "script": "https://static.atlasacademy.io/JP/Script/03/0300130920.txt"
+        }, {
+          "scriptId": "0300130921",
+          "script": "https://static.atlasacademy.io/JP/Script/03/0300130921.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "0300130930",
+          "script": "https://static.atlasacademy.io/JP/Script/03/0300130930.txt"
+        }, {
+          "scriptId": "0300130931",
+          "script": "https://static.atlasacademy.io/JP/Script/03/0300130931.txt"
+        }]
+      }, {
+        "phase": 4,
+        "scripts": [{
+          "scriptId": "0300130940",
+          "script": "https://static.atlasacademy.io/JP/Script/03/0300130940.txt"
+        }]
+      }, {
+        "phase": 5,
+        "scripts": [{
+          "scriptId": "0300130950",
+          "script": "https://static.atlasacademy.io/JP/Script/03/0300130950.txt"
+        }, {
+          "scriptId": "0300130951",
+          "script": "https://static.atlasacademy.io/JP/Script/03/0300130951.txt"
+        }]
+      }],
+      "priority": 900089,
+      "noticeAt": 1671958800,
+      "openedAt": 1671958800,
+      "closedAt": 1893423600
+    }]
+  }, {
+    "id": 31113,
+    "mapId": 31102,
+    "name": "黄金樹海",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0311/QMap_Cap0311_Atlas/spot_031103.png",
+    "x": 218,
+    "y": -1099,
+    "nameOfsY": -6,
+    "questOfsX": 32,
+    "questOfsY": -52,
+    "quests": [{
+      "id": 3001310,
+      "name": "失われた水の都",
+      "type": "main",
+      "flags": ["enableFollowQuest"],
+      "consume": 23,
+      "afterClear": "close",
+      "recommendLv": "79",
+      "spotId": 31113,
+      "spotName": "黄金樹海",
+      "warId": 311,
+      "warLongName": "Lostbelt No.7\n黄金樹海紀行 ナウイ・ミクトラン",
+      "chapterId": 314,
+      "chapterSubId": 9,
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }, {
+        "objectId": 6554,
+        "num": 3
+      }, {
+        "objectId": 46,
+        "num": 3
+      }, {
+        "type": "servant",
+        "objectId": 9770500,
+        "num": 3
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 3001309
+      }],
+      "phases": [1, 2, 3, 4],
+      "phasesNoBattle": [2, 3],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "0300131011",
+          "script": "https://static.atlasacademy.io/JP/Script/03/0300131011.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "0300131020",
+          "script": "https://static.atlasacademy.io/JP/Script/03/0300131020.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "0300131030",
+          "script": "https://static.atlasacademy.io/JP/Script/03/0300131030.txt"
+        }]
+      }, {
+        "phase": 4,
+        "scripts": [{
+          "scriptId": "0300131040",
+          "script": "https://static.atlasacademy.io/JP/Script/03/0300131040.txt"
+        }, {
+          "scriptId": "0300131041",
+          "script": "https://static.atlasacademy.io/JP/Script/03/0300131041.txt"
+        }]
+      }],
+      "priority": 900088,
+      "noticeAt": 1671958800,
+      "openedAt": 1671958800,
+      "closedAt": 1893423600
+    }]
+  }, {
+    "id": 31114,
+    "mapId": 31102,
+    "name": "メヒコシティ",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0311/QMap_Cap0311_Atlas/spot_031114.png",
+    "x": 331,
+    "y": -1129,
+    "nameOfsY": -4,
+    "questOfsX": 42,
+    "questOfsY": -64,
+    "quests": [{
+      "id": 3001311,
+      "name": "ＯＲＴの日",
+      "type": "main",
+      "flags": ["enableFollowQuest"],
+      "consume": 24,
+      "afterClear": "close",
+      "recommendLv": "81",
+      "spotId": 31114,
+      "spotName": "メヒコシティ",
+      "warId": 311,
+      "warLongName": "Lostbelt No.7\n黄金樹海紀行 ナウイ・ミクトラン",
+      "chapterId": 314,
+      "chapterSubId": 10,
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }, {
+        "objectId": 6554,
+        "num": 3
+      }, {
+        "objectId": 46,
+        "num": 3
+      }, {
+        "type": "servant",
+        "objectId": 9770500,
+        "num": 3
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 3001310
+      }],
+      "phases": [1, 2, 3, 4, 5, 6],
+      "phasesNoBattle": [1, 6],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "0300131110",
+          "script": "https://static.atlasacademy.io/JP/Script/03/0300131110.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "0300131120",
+          "script": "https://static.atlasacademy.io/JP/Script/03/0300131120.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "0300131130",
+          "script": "https://static.atlasacademy.io/JP/Script/03/0300131130.txt"
+        }]
+      }, {
+        "phase": 4,
+        "scripts": [{
+          "scriptId": "0300131140",
+          "script": "https://static.atlasacademy.io/JP/Script/03/0300131140.txt"
+        }, {
+          "scriptId": "0300131141",
+          "script": "https://static.atlasacademy.io/JP/Script/03/0300131141.txt"
+        }]
+      }, {
+        "phase": 5,
+        "scripts": [{
+          "scriptId": "0300131150",
+          "script": "https://static.atlasacademy.io/JP/Script/03/0300131150.txt"
+        }, {
+          "scriptId": "0300131151",
+          "script": "https://static.atlasacademy.io/JP/Script/03/0300131151.txt"
+        }]
+      }, {
+        "phase": 6,
+        "scripts": [{
+          "scriptId": "0300131160",
+          "script": "https://static.atlasacademy.io/JP/Script/03/0300131160.txt"
+        }]
+      }],
+      "priority": 900087,
+      "noticeAt": 1671958800,
+      "openedAt": 1671958800,
+      "closedAt": 1893423600
+    }, {
+      "id": 3001399,
+      "name": "ＯＲＴの日",
+      "type": "main",
+      "flags": ["branch", "enableFollowQuest"],
+      "consume": 24,
+      "afterClear": "close",
+      "recommendLv": "81",
+      "spotId": 31114,
+      "spotName": "メヒコシティ",
+      "warId": 311,
+      "warLongName": "Lostbelt No.7\n黄金樹海紀行 ナウイ・ミクトラン",
+      "chapterId": 314,
+      "chapterSubId": 99,
+      "phases": [3],
+      "priority": 900086,
+      "noticeAt": 1671958800,
+      "openedAt": 1671958800,
+      "closedAt": 1893423600
+    }]
+  }, {
+    "id": 31130,
+    "mapId": 31102,
+    "name": "メヒコシティ",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0311/QMap_Cap0311_Atlas/spot_031130.png",
+    "x": 331,
+    "y": -1129,
+    "nameOfsY": -4,
+    "questOfsX": 42,
+    "questOfsY": -64
+  }, {
+    "id": 31137,
+    "mapId": 31102,
+    "name": "トラトラウキ",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0311/QMap_Cap0311_Atlas/spot_031137.png",
+    "x": -133,
+    "y": -1140,
+    "nameOfsY": -3,
+    "questOfsX": 37,
+    "questOfsY": -77
+  }, {
+    "id": 31138,
+    "mapId": 31102,
+    "name": "チチェン・イツァー",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0311/QMap_Cap0311_Atlas/spot_031138.png",
+    "x": -5,
+    "y": -1149,
+    "nameOfsY": -5,
+    "questOfsX": 39,
+    "questOfsY": -81
+  }, {
+    "id": 31199,
+    "mapId": 31101,
+    "name": "",
+    "x": 999999,
+    "y": 999999,
+    "quests": [{
+      "id": 3001300,
+      "name": "オープニング",
+      "type": "main",
+      "flags": ["enableFollowQuest"],
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 31199,
+      "spotName": "",
+      "warId": 311,
+      "warLongName": "Lostbelt No.7\n黄金樹海紀行 ナウイ・ミクトラン",
+      "chapterId": 314,
+      "chapterSubStr": " ",
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 3001101
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "0300130010",
+          "script": "https://static.atlasacademy.io/JP/Script/03/0300130010.txt"
+        }]
+      }],
+      "priority": 900099,
+      "noticeAt": 1671958800,
+      "openedAt": 1671958800,
+      "closedAt": 1893423600
+    }, {
+      "id": 3001301,
+      "name": "死の国へ",
+      "type": "main",
+      "flags": ["enableFollowQuest"],
+      "consume": 26,
+      "afterClear": "close",
+      "recommendLv": "90+",
+      "spotId": 31199,
+      "spotName": "",
+      "warId": 311,
+      "warLongName": "Lostbelt No.7\n黄金樹海紀行 ナウイ・ミクトラン",
+      "chapterId": 314,
+      "chapterSubId": 1,
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }, {
+        "objectId": 6545,
+        "num": 5
+      }, {
+        "objectId": 46,
+        "num": 5
+      }, {
+        "type": "servant",
+        "objectId": 9770500,
+        "num": 5
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 3001300
+      }],
+      "phases": [1, 2, 3],
+      "phasesWithEnemies": [2],
+      "phasesNoBattle": [1, 3],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "0300130110",
+          "script": "https://static.atlasacademy.io/JP/Script/03/0300130110.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "0300130120",
+          "script": "https://static.atlasacademy.io/JP/Script/03/0300130120.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "0300130130",
+          "script": "https://static.atlasacademy.io/JP/Script/03/0300130130.txt"
+        }]
+      }],
+      "priority": 900098,
+      "noticeAt": 1671958800,
+      "openedAt": 1671958800,
+      "closedAt": 1893423600
+    }]
+  }],
+  "spotRoads": [{
+    "id": 31101,
+    "warId": 311,
+    "mapId": 31102,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0311/QMap_Cap0311_Atlas/img_road0311_00.png",
+    "srcSpotId": 31102,
+    "dstSpotId": 31103,
+    "dispCondType": "itemGet",
+    "dispTargetId": 3001302,
+    "dispTargetValue": 2,
+    "dispCondType2": "useItemEternity",
+    "dispTargetId2": 3001302,
+    "dispTargetValue2": 4,
+    "activeCondType": "itemGet",
+    "activeTargetId": 3001302,
+    "activeTargetValue": 2
+  }, {
+    "id": 31102,
+    "warId": 311,
+    "mapId": 31102,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0311/QMap_Cap0311_Atlas/img_road0311_00.png",
+    "srcSpotId": 31103,
+    "dstSpotId": 31104,
+    "dispCondType": "useItemTime",
+    "dispTargetId": 0,
+    "dispTargetValue": 0,
+    "dispCondType2": "useItemTime",
+    "dispTargetId2": 0,
+    "dispTargetValue2": 0,
+    "activeCondType": "useItemTime",
+    "activeTargetId": 0,
+    "activeTargetValue": 0
+  }, {
+    "id": 31103,
+    "warId": 311,
+    "mapId": 31102,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0311/QMap_Cap0311_Atlas/img_road0311_00.png",
+    "srcSpotId": 31102,
+    "dstSpotId": 31104,
+    "dispCondType": "itemGet",
+    "dispTargetId": 3001302,
+    "dispTargetValue": 4,
+    "dispCondType2": "questClear",
+    "dispTargetId2": 0,
+    "dispTargetValue2": 0,
+    "activeCondType": "itemGet",
+    "activeTargetId": 3001302,
+    "activeTargetValue": 4
+  }, {
+    "id": 31104,
+    "warId": 311,
+    "mapId": 31102,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0311/QMap_Cap0311_Atlas/img_road0311_00.png",
+    "srcSpotId": 31104,
+    "dstSpotId": 31105,
+    "dispCondType": "itemGet",
+    "dispTargetId": 3001302,
+    "dispTargetValue": 5,
+    "dispCondType2": "questClear",
+    "dispTargetId2": 0,
+    "dispTargetValue2": 0,
+    "activeCondType": "itemGet",
+    "activeTargetId": 3001302,
+    "activeTargetValue": 5
+  }, {
+    "id": 31105,
+    "warId": 311,
+    "mapId": 31102,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0311/QMap_Cap0311_Atlas/img_road0311_00.png",
+    "srcSpotId": 31105,
+    "dstSpotId": 31106,
+    "dispCondType": "itemGet",
+    "dispTargetId": 3001302,
+    "dispTargetValue": 7,
+    "dispCondType2": "questClear",
+    "dispTargetId2": 0,
+    "dispTargetValue2": 0,
+    "activeCondType": "itemGet",
+    "activeTargetId": 3001302,
+    "activeTargetValue": 7
+  }, {
+    "id": 31106,
+    "warId": 311,
+    "mapId": 31102,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0311/QMap_Cap0311_Atlas/img_road0311_00.png",
+    "srcSpotId": 31106,
+    "dstSpotId": 31107,
+    "dispCondType": "itemGet",
+    "dispTargetId": 3001303,
+    "dispTargetValue": 6,
+    "dispCondType2": "useItemEternity",
+    "dispTargetId2": 3001304,
+    "dispTargetValue2": 1,
+    "activeCondType": "itemGet",
+    "activeTargetId": 3001303,
+    "activeTargetValue": 6
+  }, {
+    "id": 31107,
+    "warId": 311,
+    "mapId": 31102,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0311/QMap_Cap0311_Atlas/img_road0311_00.png",
+    "srcSpotId": 31106,
+    "dstSpotId": 31108,
+    "dispCondType": "itemGet",
+    "dispTargetId": 3001304,
+    "dispTargetValue": 1,
+    "dispCondType2": "questClear",
+    "dispTargetId2": 0,
+    "dispTargetValue2": 0,
+    "activeCondType": "itemGet",
+    "activeTargetId": 3001304,
+    "activeTargetValue": 1
+  }, {
+    "id": 31108,
+    "warId": 311,
+    "mapId": 31102,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0311/QMap_Cap0311_Atlas/img_road0311_00.png",
+    "srcSpotId": 31107,
+    "dstSpotId": 31108,
+    "dispCondType": "useItemTime",
+    "dispTargetId": 0,
+    "dispTargetValue": 0,
+    "dispCondType2": "useItemTime",
+    "dispTargetId2": 0,
+    "dispTargetValue2": 0,
+    "activeCondType": "useItemTime",
+    "activeTargetId": 0,
+    "activeTargetValue": 0
+  }, {
+    "id": 31109,
+    "warId": 311,
+    "mapId": 31102,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0311/QMap_Cap0311_Atlas/img_road0311_00.png",
+    "srcSpotId": 31108,
+    "dstSpotId": 31109,
+    "dispCondType": "itemGet",
+    "dispTargetId": 3001304,
+    "dispTargetValue": 2,
+    "dispCondType2": "questClear",
+    "dispTargetId2": 0,
+    "dispTargetValue2": 0,
+    "activeCondType": "itemGet",
+    "activeTargetId": 3001304,
+    "activeTargetValue": 2
+  }, {
+    "id": 31113,
+    "warId": 311,
+    "mapId": 31102,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0311/QMap_Cap0311_Atlas/img_road0311_00.png",
+    "srcSpotId": 31111,
+    "dstSpotId": 31112,
+    "dispCondType": "itemGet",
+    "dispTargetId": 3001308,
+    "dispTargetValue": 5,
+    "dispCondType2": "questClear",
+    "dispTargetId2": 0,
+    "dispTargetValue2": 0,
+    "activeCondType": "itemGet",
+    "activeTargetId": 3001308,
+    "activeTargetValue": 5
+  }, {
+    "id": 31114,
+    "warId": 311,
+    "mapId": 31102,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0311/QMap_Cap0311_Atlas/img_road0311_00.png",
+    "srcSpotId": 31112,
+    "dstSpotId": 31113,
+    "dispCondType": "itemGet",
+    "dispTargetId": 3001309,
+    "dispTargetValue": 5,
+    "dispCondType2": "useItemEternity",
+    "dispTargetId2": 3001310,
+    "dispTargetValue2": 1,
+    "activeCondType": "itemGet",
+    "activeTargetId": 3001309,
+    "activeTargetValue": 5
+  }, {
+    "id": 31115,
+    "warId": 311,
+    "mapId": 31102,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0311/QMap_Cap0311_Atlas/img_road0311_00.png",
+    "srcSpotId": 31112,
+    "dstSpotId": 31114,
+    "dispCondType": "itemGet",
+    "dispTargetId": 3001310,
+    "dispTargetValue": 1,
+    "dispCondType2": "questClear",
+    "dispTargetId2": 0,
+    "dispTargetValue2": 0,
+    "activeCondType": "itemGet",
+    "activeTargetId": 3001310,
+    "activeTargetValue": 1
+  }, {
+    "id": 31116,
+    "warId": 311,
+    "mapId": 31102,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0311/QMap_Cap0311_Atlas/img_road0311_00.png",
+    "srcSpotId": 31108,
+    "dstSpotId": 31111,
+    "dispCondType": "itemGet",
+    "dispTargetId": 3001308,
+    "dispTargetValue": 1,
+    "dispCondType2": "questClear",
+    "dispTargetId2": 0,
+    "dispTargetValue2": 0,
+    "activeCondType": "itemGet",
+    "activeTargetId": 3001308,
+    "activeTargetValue": 1
+  }, {
+    "id": 31117,
+    "warId": 311,
+    "mapId": 31102,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0311/QMap_Cap0311_Atlas/img_road0311_00.png",
+    "srcSpotId": 31113,
+    "dstSpotId": 31114,
+    "dispCondType": "useItemTime",
+    "dispTargetId": 0,
+    "dispTargetValue": 0,
+    "dispCondType2": "useItemTime",
+    "dispTargetId2": 0,
+    "dispTargetValue2": 0,
+    "activeCondType": "useItemTime",
+    "activeTargetId": 0,
+    "activeTargetValue": 0
   }]
 }, {
   "id": 1001,
