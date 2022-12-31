@@ -72662,7 +72662,7 @@
         "targetId": 0
       }],
       "phases": [1, 2, 3],
-      "phasesWithEnemies": [1],
+      "phasesWithEnemies": [1, 2, 3],
       "priority": 94081799,
       "noticeAt": 1672477200,
       "openedAt": 1672477200,
@@ -72698,6 +72698,7 @@
         "targetId": 0
       }],
       "phases": [1, 2, 3],
+      "phasesWithEnemies": [1, 2, 3],
       "priority": 94081798,
       "noticeAt": 1672477200,
       "openedAt": 1672477200,
@@ -87124,6 +87125,17 @@
   }, {
     "warId": 9999,
     "type": "banner",
+    "priority": 80400,
+    "overwriteId": 80400,
+    "overwriteBanner": "https://static.atlasacademy.io/JP/Banner/chaldea_category_80400.png",
+    "condType": "none",
+    "targetId": 0,
+    "value": 0,
+    "startedAt": 1672498800,
+    "endedAt": 1673409599
+  }, {
+    "warId": 9999,
+    "type": "banner",
     "priority": 800620,
     "overwriteId": 80078,
     "overwriteBanner": "https://static.atlasacademy.io/JP/Banner/chaldea_category_80078.png",
@@ -92817,6 +92829,63 @@
       "noticeAt": 1660888800,
       "openedAt": 1660888800,
       "closedAt": 1901199599
+    }, {
+      "id": 94079801,
+      "name": "グレゴリー・ラスプーチン体験クエスト",
+      "type": "event",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "15",
+      "spotId": 999999,
+      "spotName": "カルデアゲート",
+      "warId": 9999,
+      "warLongName": "カルデアゲート",
+      "gifts": [{
+        "objectId": 4001,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 1000011,
+        "closedMessage": "{0}をクリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "priority": 94079899,
+      "noticeAt": 1672498800,
+      "openedAt": 1672498800,
+      "closedAt": 1673409599
+    }, {
+      "id": 94081301,
+      "name": "魔術礼装クエスト・新春の装い",
+      "type": "event",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "15",
+      "spotId": 999999,
+      "spotName": "カルデアゲート",
+      "warId": 9999,
+      "warLongName": "カルデアゲート",
+      "gifts": [{
+        "type": "equip",
+        "objectId": 260,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 1000011,
+        "closedMessage": "{0}をクリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "priority": 94081399,
+      "noticeAt": 1672498800,
+      "openedAt": 1672498800,
+      "closedAt": 1673409599
     }]
   }]
 }, {

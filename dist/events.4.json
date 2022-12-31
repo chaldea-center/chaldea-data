@@ -22894,6 +22894,478 @@
   "materialOpenedAt": 1751295600,
   "warIds": [8381]
 }, {
+  "id": 80413,
+  "type": "eventQuest",
+  "name": "グレゴリー・ラスプーチン体験クエスト",
+  "detail": "グレゴリー・ラスプーチン体験クエスト",
+  "noticeBanner": "https://static.atlasacademy.io/JP/Banner/event_war_80400.png",
+  "banner": "https://static.atlasacademy.io/JP/Banner/event_war_80400.png",
+  "icon": "https://static.atlasacademy.io/JP/Banner/banner_icon_80400.png",
+  "bannerPriority": 940020,
+  "noticeAt": 1672498800,
+  "startedAt": 1672498800,
+  "endedAt": 1673409599,
+  "finishedAt": 1673409599,
+  "materialOpenedAt": 1751295600,
+  "missions": [{
+    "id": 8041301,
+    "type": "complete",
+    "dispNo": 1,
+    "name": "パネルミッションをコンプリートせよ",
+    "rewardType": "gift",
+    "gifts": [{
+      "objectId": 4001,
+      "num": 5
+    }, {
+      "objectId": 6999,
+      "num": 1
+    }],
+    "bannerGroup": 8041302,
+    "priority": 80413,
+    "conds": [{
+      "id": 80413001,
+      "missionProgressType": "clear",
+      "condGroup": 1,
+      "condType": "eventMissionAchieve",
+      "targetIds": [8041302, 8041303, 8041304, 8041305, 8041306, 8041307, 8041308, 8041309, 8041310, 8041311, 8041312, 8041313, 8041314, 8041315, 8041316, 8041317],
+      "targetNum": 16,
+      "conditionMessage": "パネルミッションをコンプリートせよ"
+    }]
+  }, {
+    "id": 8041302,
+    "type": "complete",
+    "dispNo": 3,
+    "name": "【②】敵を23体倒せ(サーヴァント及び一部ボス、バトル中に召喚された敵などは除く)",
+    "rewardType": "gift",
+    "gifts": [{
+      "type": "servant",
+      "objectId": 9808370,
+      "num": 1
+    }, {
+      "objectId": 2,
+      "num": 1
+    }],
+    "bannerGroup": 8041303,
+    "priority": 80415,
+    "conds": [{
+      "id": 80413002,
+      "missionProgressType": "clear",
+      "condGroup": 1,
+      "condType": "missionConditionDetail",
+      "targetIds": [80413001],
+      "targetNum": 23,
+      "conditionMessage": "【②】敵を23体倒せ(サーヴァント及び一部ボス、バトル中に召喚された敵などは除く)",
+      "details": [{
+        "id": 80413001,
+        "missionTargetId": 80413,
+        "missionCondType": 2,
+        "logicType": 1,
+        "targetIds": [5010],
+        "conditionLinkType": "masterMissionStart"
+      }]
+    }]
+  }, {
+    "id": 8041303,
+    "type": "complete",
+    "dispNo": 17,
+    "name": "【⑯】『陽射し』のあるフリークエストを１回クリアせよ",
+    "rewardType": "gift",
+    "gifts": [{
+      "type": "servant",
+      "objectId": 9808370,
+      "num": 1
+    }, {
+      "objectId": 7998,
+      "num": 1
+    }],
+    "bannerGroup": 8041303,
+    "priority": 80429,
+    "conds": [{
+      "id": 80413003,
+      "missionProgressType": "clear",
+      "condGroup": 1,
+      "condType": "missionConditionDetail",
+      "targetIds": [80413002],
+      "targetNum": 1,
+      "conditionMessage": "【⑯】『陽射し』のあるフリークエストを１回クリアせよ",
+      "details": [{
+        "id": 80413002,
+        "missionTargetId": 80413,
+        "missionCondType": 24,
+        "logicType": 1,
+        "targetIds": [93000101, 93000102, 93000103, 93000104, 93000105, 93000108, 93000201, 93000202, 93000205, 93000206, 93000209, 93000301, 93000302, 93000303, 93000306, 93000308, 93000310, 93000311, 93000501, 93000504, 93000507, 93000508, 93000509, 93000510, 93000513, 93000601, 93000602, 93000603, 93000604, 93000605, 93000606, 93000609, 93000611, 93000612, 93000701, 93000702, 93000703, 93000706, 93000707, 93000708, 93000709, 93000711, 93000712, 93000713, 93030306, 93030303, 93030301, 93030307, 93030308, 93030304, 93030302, 93030401, 93030404, 93030406, 93030409, 93030410, 93030504, 93030510, 93030501, 93030502, 93030505, 93030506, 93030509, 93030508, 93030607, 93030606, 93030605, 93030604, 93030603, 93030602, 93030601, 93030701, 93030702, 93030708, 93031000, 93031005, 93031006, 93031007, 93031009, 93031010, 93031014, 93031015, 93031201, 93031202, 93031203, 93031204, 93031205, 93031206, 93031207, 93031209, 93031210, 93031211, 93031212, 93031214, 93031215, 93000109, 93000110, 93000203, 93000210, 93000305, 93000312, 93000502, 93000506, 93000511, 93000704, 93000714, 93000715, 93020409, 94006801, 94006803, 94006804, 94006805, 94006806, 94006808, 94006809, 94006810, 94006811, 94006817, 94006819, 94006820, 94066101, 94066107, 94061601, 94061602, 94061603, 94061604, 94061605, 94061606, 94061607, 94061608, 94061609, 94061610, 94061616, 94061617, 94061618, 94061619, 94061620, 94061621, 94061622, 94061623, 94061624, 94061625],
+        "conditionLinkType": "masterMissionStart"
+      }]
+    }]
+  }, {
+    "id": 8041304,
+    "type": "complete",
+    "dispNo": 10,
+    "name": "【⑨】『悪』属性を持つ敵を3体倒せ",
+    "rewardType": "gift",
+    "gifts": [{
+      "type": "servant",
+      "objectId": 9808370,
+      "num": 1
+    }, {
+      "objectId": 7998,
+      "num": 1
+    }],
+    "bannerGroup": 8041303,
+    "priority": 80422,
+    "conds": [{
+      "id": 80413004,
+      "missionProgressType": "clear",
+      "condGroup": 1,
+      "condType": "missionConditionDetail",
+      "targetIds": [80413005],
+      "targetNum": 3,
+      "conditionMessage": "【⑨】『悪』属性を持つ敵を3体倒せ",
+      "details": [{
+        "id": 80413005,
+        "missionTargetId": 80413,
+        "missionCondType": 2,
+        "logicType": 1,
+        "targetIds": [304],
+        "conditionLinkType": "masterMissionStart"
+      }]
+    }]
+  }, {
+    "id": 8041305,
+    "type": "complete",
+    "dispNo": 5,
+    "name": "【④】『秩序』かつ『悪』属性のサーヴァントを1騎以上編成して、いずれかのクエストを1回クリアせよ",
+    "rewardType": "gift",
+    "gifts": [{
+      "type": "servant",
+      "objectId": 9808370,
+      "num": 1
+    }, {
+      "type": "commandCode",
+      "objectId": 8401380,
+      "num": 1
+    }],
+    "bannerGroup": 8041303,
+    "priority": 80417,
+    "conds": [{
+      "id": 80413005,
+      "missionProgressType": "clear",
+      "condGroup": 1,
+      "condType": "missionConditionDetail",
+      "targetIds": [80413007],
+      "targetNum": 1,
+      "conditionMessage": "【④】『秩序』かつ『悪』属性のサーヴァントを1騎以上編成して、いずれかのクエストを1回クリアせよ",
+      "details": [{
+        "id": 80413007,
+        "missionTargetId": 80413,
+        "missionCondType": 22,
+        "logicType": 1,
+        "targetIds": [100200, 202900, 304400, 402700, 402800, 505200, 602500, 603200, 604200, 602700, 603500, 600200, 600300, 600900, 601200, 702500, 703300, 704000, 901500, 1100900, 2300400, 2500700, 1001500],
+        "conditionLinkType": "masterMissionStart"
+      }]
+    }]
+  }, {
+    "id": 8041306,
+    "type": "complete",
+    "dispNo": 15,
+    "name": "【⑭】フレンドポイント召喚を23回実行せよ",
+    "rewardType": "gift",
+    "gifts": [{
+      "type": "servant",
+      "objectId": 9808370,
+      "num": 1
+    }, {
+      "objectId": 2,
+      "num": 1
+    }],
+    "bannerGroup": 8041303,
+    "priority": 80427,
+    "conds": [{
+      "id": 80413006,
+      "missionProgressType": "openCondition",
+      "condGroup": 1,
+      "condType": "date",
+      "targetIds": [0],
+      "targetNum": 1672585200,
+      "conditionMessage": "???\n※「1/2 00:00」に開放"
+    }]
+  }, {
+    "id": 8041307,
+    "type": "complete",
+    "dispNo": 13,
+    "name": "【⑫】『神性』特性を持つサーヴァントを1騎倒せ",
+    "rewardType": "gift",
+    "gifts": [{
+      "type": "servant",
+      "objectId": 9808370,
+      "num": 1
+    }, {
+      "objectId": 7998,
+      "num": 1
+    }],
+    "bannerGroup": 8041303,
+    "priority": 80425,
+    "conds": [{
+      "id": 80413007,
+      "missionProgressType": "openCondition",
+      "condGroup": 1,
+      "condType": "date",
+      "targetIds": [0],
+      "targetNum": 1672585200,
+      "conditionMessage": "???\n※「1/2 00:00」に開放"
+    }]
+  }, {
+    "id": 8041308,
+    "type": "complete",
+    "dispNo": 7,
+    "name": "【⑥】戦利品で『赤い』アイテムを1個獲得せよ",
+    "rewardType": "gift",
+    "gifts": [{
+      "type": "servant",
+      "objectId": 9808370,
+      "num": 1
+    }, {
+      "objectId": 100,
+      "num": 3
+    }],
+    "bannerGroup": 8041303,
+    "priority": 80419,
+    "conds": [{
+      "id": 80413008,
+      "missionProgressType": "openCondition",
+      "condGroup": 1,
+      "condType": "date",
+      "targetIds": [0],
+      "targetNum": 1672585200,
+      "conditionMessage": "???\n※「1/2 00:00」に開放"
+    }]
+  }, {
+    "id": 8041309,
+    "type": "complete",
+    "dispNo": 4,
+    "name": "【③】『幸運A+』以上のサーヴァントを1騎以上編成して、いずれかのクエストを1回クリアせよ",
+    "rewardType": "gift",
+    "gifts": [{
+      "type": "servant",
+      "objectId": 9808370,
+      "num": 1
+    }, {
+      "objectId": 2,
+      "num": 1
+    }],
+    "bannerGroup": 8041303,
+    "priority": 80416,
+    "conds": [{
+      "id": 80413009,
+      "missionProgressType": "openCondition",
+      "condGroup": 1,
+      "condType": "date",
+      "targetIds": [0],
+      "targetNum": 1672671600,
+      "conditionMessage": "???\n※「1/3 00:00」に開放"
+    }]
+  }, {
+    "id": 8041310,
+    "type": "complete",
+    "dispNo": 2,
+    "name": "【①】『地』の力を持つサーヴァントを1騎倒せ",
+    "rewardType": "gift",
+    "gifts": [{
+      "type": "servant",
+      "objectId": 9808370,
+      "num": 1
+    }, {
+      "objectId": 7998,
+      "num": 1
+    }],
+    "bannerGroup": 8041303,
+    "priority": 80414,
+    "conds": [{
+      "id": 80413010,
+      "missionProgressType": "openCondition",
+      "condGroup": 1,
+      "condType": "date",
+      "targetIds": [0],
+      "targetNum": 1672671600,
+      "conditionMessage": "???\n※「1/3 00:00」に開放"
+    }]
+  }, {
+    "id": 8041311,
+    "type": "complete",
+    "dispNo": 11,
+    "name": "【⑩】戦利品で『玉』のアイテムを1個獲得せよ",
+    "rewardType": "gift",
+    "gifts": [{
+      "type": "servant",
+      "objectId": 9808370,
+      "num": 1
+    }, {
+      "objectId": 2000,
+      "num": 1
+    }],
+    "bannerGroup": 8041303,
+    "priority": 80423,
+    "conds": [{
+      "id": 80413011,
+      "missionProgressType": "openCondition",
+      "condGroup": 1,
+      "condType": "date",
+      "targetIds": [0],
+      "targetNum": 1672671600,
+      "conditionMessage": "???\n※「1/3 00:00」に開放"
+    }]
+  }, {
+    "id": 8041312,
+    "type": "complete",
+    "dispNo": 14,
+    "name": "【⑬】戦利品で『金色』のアイテムを1個獲得せよ",
+    "rewardType": "gift",
+    "gifts": [{
+      "type": "servant",
+      "objectId": 9808370,
+      "num": 1
+    }, {
+      "objectId": 2,
+      "num": 1
+    }],
+    "bannerGroup": 8041303,
+    "priority": 80426,
+    "conds": [{
+      "id": 80413012,
+      "missionProgressType": "openCondition",
+      "condGroup": 1,
+      "condType": "date",
+      "targetIds": [0],
+      "targetNum": 1672758000,
+      "conditionMessage": "???\n※「1/4 00:00」に開放"
+    }]
+  }, {
+    "id": 8041313,
+    "type": "complete",
+    "dispNo": 16,
+    "name": "【⑮】『敏捷A』以上のサーヴァントを1騎以上編成して、いずれかのクエストを1回クリアせよ",
+    "rewardType": "gift",
+    "gifts": [{
+      "type": "servant",
+      "objectId": 9808370,
+      "num": 1
+    }, {
+      "objectId": 7998,
+      "num": 1
+    }],
+    "bannerGroup": 8041303,
+    "priority": 80428,
+    "conds": [{
+      "id": 80413013,
+      "missionProgressType": "openCondition",
+      "condGroup": 1,
+      "condType": "date",
+      "targetIds": [0],
+      "targetNum": 1672758000,
+      "conditionMessage": "???\n※「1/4 00:00」に開放"
+    }]
+  }, {
+    "id": 8041314,
+    "type": "complete",
+    "dispNo": 9,
+    "name": "【⑧】戦利品で『白い』アイテムを1個獲得せよ",
+    "rewardType": "gift",
+    "gifts": [{
+      "type": "servant",
+      "objectId": 9808370,
+      "num": 1
+    }, {
+      "objectId": 2,
+      "num": 1
+    }],
+    "bannerGroup": 8041303,
+    "priority": 80421,
+    "conds": [{
+      "id": 80413014,
+      "missionProgressType": "openCondition",
+      "condGroup": 1,
+      "condType": "date",
+      "targetIds": [0],
+      "targetNum": 1672844400,
+      "conditionMessage": "???\n※「1/5 00:00」に開放"
+    }]
+  }, {
+    "id": 8041315,
+    "type": "complete",
+    "dispNo": 6,
+    "name": "【⑤】『神性』特性を持つサーヴァントを1騎以上編成して、いずれかのクエストを1回クリアせよ",
+    "rewardType": "gift",
+    "gifts": [{
+      "type": "servant",
+      "objectId": 9808370,
+      "num": 1
+    }, {
+      "objectId": 7998,
+      "num": 1
+    }],
+    "bannerGroup": 8041303,
+    "priority": 80418,
+    "conds": [{
+      "id": 80413015,
+      "missionProgressType": "openCondition",
+      "condGroup": 1,
+      "condType": "date",
+      "targetIds": [0],
+      "targetNum": 1672844400,
+      "conditionMessage": "???\n※「1/5 00:00」に開放"
+    }]
+  }, {
+    "id": 8041316,
+    "type": "complete",
+    "dispNo": 8,
+    "name": "【⑦】『山』のフリークエストを１回クリアせよ",
+    "rewardType": "gift",
+    "gifts": [{
+      "type": "servant",
+      "objectId": 9808370,
+      "num": 1
+    }, {
+      "objectId": 2,
+      "num": 1
+    }],
+    "bannerGroup": 8041303,
+    "priority": 80420,
+    "conds": [{
+      "id": 80413016,
+      "missionProgressType": "openCondition",
+      "condGroup": 1,
+      "condType": "date",
+      "targetIds": [0],
+      "targetNum": 1672930800,
+      "conditionMessage": "???\n※「1/6 00:00」に開放"
+    }]
+  }, {
+    "id": 8041317,
+    "type": "complete",
+    "dispNo": 12,
+    "name": "【⑪】『ケモノ科』特性を持つサーヴァントを1騎以上編成して、いずれかのクエストを1回クリアせよ",
+    "rewardType": "gift",
+    "gifts": [{
+      "type": "servant",
+      "objectId": 9808370,
+      "num": 1
+    }, {
+      "objectId": 7998,
+      "num": 1
+    }],
+    "bannerGroup": 8041303,
+    "priority": 80424,
+    "conds": [{
+      "id": 80413017,
+      "missionProgressType": "openCondition",
+      "condGroup": 1,
+      "condType": "date",
+      "targetIds": [0],
+      "targetNum": 1672930800,
+      "conditionMessage": "???\n※「1/6 00:00」に開放"
+    }]
+  }]
+}, {
   "id": 80415,
   "type": "interludeCampaign",
   "name": "[FFFF00]開放条件緩和中！[-]",
@@ -22932,5 +23404,16 @@
   "startedAt": 1672390800,
   "endedAt": 1893423600,
   "finishedAt": 1893423600,
+  "materialOpenedAt": 1751295600
+}, {
+  "id": 80420,
+  "type": "eventQuest",
+  "name": "魔術礼装クエスト・新春の装い",
+  "detail": "魔術礼装クエスト・新春の装い",
+  "bannerPriority": 940010,
+  "noticeAt": 1672498800,
+  "startedAt": 1672498800,
+  "endedAt": 1673409599,
+  "finishedAt": 1673409599,
   "materialOpenedAt": 1751295600
 }]

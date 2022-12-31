@@ -36103,6 +36103,25 @@
     "maxRate": 0
   }]
 }, {
+  "funcId": 9861,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "buffs": [{
+    "id": 1548,
+    "name": "やけど無効",
+    "detail": "やけどを受けなくなる",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_322.png",
+    "type": "avoidState",
+    "tvals": [{
+      "id": 3015
+    }],
+    "ckOpIndv": [{
+      "id": 3015
+    }],
+    "maxRate": 0
+  }]
+}, {
   "funcId": 9963,
   "funcType": "addStateShort",
   "funcTargetType": "ptAll",
@@ -36126,6 +36145,149 @@
       "id": 3030
     }],
     "maxRate": 5000
+  }]
+}, {
+  "funcId": 9964,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "毒無効",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_322.png",
+  "buffs": [{
+    "id": 5245,
+    "name": "毒無効",
+    "detail": "毒を受けなくなる",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_322.png",
+    "type": "avoidState",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3061
+    }],
+    "tvals": [{
+      "id": 3011
+    }],
+    "ckOpIndv": [{
+      "id": 3011
+    }],
+    "maxRate": 0
+  }]
+}, {
+  "funcId": 9965,
+  "funcType": "gainNp",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "player",
+  "funcPopupText": "NP増加",
+  "functvals": [{
+    "id": 304
+  }]
+}, {
+  "funcId": 9967,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "ガッツ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_304.png",
+  "buffs": [{
+    "id": 5246,
+    "name": "ガッツ",
+    "detail": "HPが0になった時、HPを回復して耐える(他のガッツ状態と重複可能)",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_304.png",
+    "type": "guts",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3024
+    }],
+    "maxRate": 0
+  }]
+}, {
+  "funcId": 9968,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "ガッツ時発動",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_365.png",
+  "buffs": [{
+    "id": 5247,
+    "name": "ガッツ時発動",
+    "detail": "ガッツ発動時、宝具で与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_365.png",
+    "type": "gutsFunction",
+    "vals": [{
+      "id": 3004
+    }],
+    "maxRate": 0
+  }]
+}, {
+  "funcId": 9969,
+  "funcType": "instantDeath",
+  "funcTargetType": "enemyAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "即死",
+  "functvals": [{
+    "id": 303
+  }]
+}, {
+  "funcId": 9970,
+  "funcType": "hastenNpturn",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "enemy",
+  "funcPopupText": "チャージ増加",
+  "functvals": [{
+    "id": 304
+  }]
+}, {
+  "funcId": 9971,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "アーツアップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_313.png",
+  "functvals": [{
+    "id": 304
+  }],
+  "buffs": [{
+    "id": 101,
+    "name": "Artsアップ",
+    "detail": "Artsカードの性能をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_313.png",
+    "type": "upCommandall",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }],
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4001
+    }],
+    "ckSelfIndv": [{
+      "id": 4001
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 9972,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "ガッツ<高確率>",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_304.png",
+  "buffs": [{
+    "id": 5248,
+    "name": "ガッツ<高確率>",
+    "detail": "HPが0になった時、高確率でHPを回復して耐える",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_304.png",
+    "type": "guts",
+    "buffGroup": 600,
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3024
+    }],
+    "maxRate": 0
   }]
 }, {
   "funcId": 30003,

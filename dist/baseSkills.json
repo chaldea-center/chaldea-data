@@ -13622,7 +13622,7 @@
       "AddLinkageTargetIndividualty": 2371
     }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
   }, {
-    "funcId": 1893,
+    "funcId": 9861,
     "svals": [{
       "Rate": -1000,
       "Turn": 5,
@@ -13679,7 +13679,7 @@
       "AddLinkageTargetIndividualty": 2372
     }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
   }, {
-    "funcId": 1893,
+    "funcId": 9861,
     "svals": [{
       "Rate": -1000,
       "Turn": 5,
@@ -30390,7 +30390,7 @@
       "AddLinkageTargetIndividualty": 2373
     }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
   }, {
-    "funcId": 1893,
+    "funcId": 9861,
     "svals": [{
       "Rate": -1000,
       "Turn": 5,
@@ -46611,7 +46611,7 @@
       "AddLinkageTargetIndividualty": 2452
     }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
   }, {
-    "funcId": 1893,
+    "funcId": 9861,
     "svals": [{
       "Rate": -1000,
       "Turn": 3,
@@ -60693,7 +60693,7 @@
       "AddLinkageTargetIndividualty": 2371
     }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
   }, {
-    "funcId": 1893,
+    "funcId": 9861,
     "svals": [{
       "Rate": -1000,
       "Turn": 5,
@@ -82779,6 +82779,21 @@
     }]
   }]
 }, {
+  "id": 970058,
+  "name": "",
+  "type": "active",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00302.png",
+  "coolDown": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+  "functions": [{
+    "funcId": 7220,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 5,
+      "Count": -1,
+      "Value": 200
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }]
+}, {
   "id": 980001,
   "name": "応急手当",
   "ruby": "おうきゅうてあて",
@@ -84648,6 +84663,136 @@
       "Rate": 1000,
       "Value": 1000
     }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }]
+}, {
+  "id": 980079,
+  "name": "除災招福",
+  "ruby": "じょさいしょうふく",
+  "unmodifiedDetail": "味方全体の宝具威力をアップ[{0}](1ターン)＆NP獲得量をアップ[{0}](1ターン)",
+  "type": "active",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00302.png",
+  "coolDown": [12, 12, 12, 12, 12, 11, 11, 11, 11, 10],
+  "functions": [{
+    "funcId": 254,
+    "svals": [{
+      "Rate": 5000,
+      "Turn": 1,
+      "Count": -1,
+      "Value": 150
+    }, {
+      "Value": 160
+    }, {
+      "Value": 170
+    }, {
+      "Value": 180
+    }, {
+      "Value": 190
+    }, {
+      "Value": 200
+    }, {
+      "Value": 210
+    }, {
+      "Value": 220
+    }, {
+      "Value": 230
+    }, {
+      "Value": 250
+    }]
+  }, {
+    "funcId": 339,
+    "svals": [{
+      "Rate": 5000,
+      "Turn": 1,
+      "Count": -1,
+      "Value": 100
+    }, {
+      "Value": 110
+    }, {
+      "Value": 120
+    }, {
+      "Value": 130
+    }, {
+      "Value": 140
+    }, {
+      "Value": 150
+    }, {
+      "Value": 160
+    }, {
+      "Value": 170
+    }, {
+      "Value": 180
+    }, {
+      "Value": 200
+    }]
+  }]
+}, {
+  "id": 980080,
+  "name": "心願成就",
+  "ruby": "しんがんじょうじゅ",
+  "unmodifiedDetail": "味方単体に宝具使用時のチャージ段階を1段階引き上げる状態を付与(1ターン)＆NPを増やす",
+  "type": "active",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00313.png",
+  "coolDown": [12, 12, 12, 12, 12, 11, 11, 11, 11, 10],
+  "functions": [{
+    "funcId": 756,
+    "svals": [{
+      "Rate": 5000,
+      "Turn": 1,
+      "Count": -1,
+      "Value": 1
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 462,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 1000
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }]
+}, {
+  "id": 980081,
+  "name": "無病息災",
+  "ruby": "むびょうそくさい",
+  "unmodifiedDetail": "味方単体に弱体無効状態を付与(1回・3ターン) ＋ スターを獲得[{0}]",
+  "type": "active",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00411.png",
+  "coolDown": [12, 12, 12, 12, 12, 11, 11, 11, 11, 10],
+  "functions": [{
+    "funcId": 628,
+    "svals": [{
+      "Rate": 5000,
+      "Turn": 3,
+      "Count": 1
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 650,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 0
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 673,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 5
+    }, {
+      "Value": 6
+    }, {
+      "Value": 7
+    }, {
+      "Value": 8
+    }, {
+      "Value": 9
+    }, {
+      "Value": 10
+    }, {
+      "Value": 11
+    }, {
+      "Value": 12
+    }, {
+      "Value": 13
+    }, {
+      "Value": 15
+    }]
   }]
 }, {
   "id": 990001,
@@ -153851,6 +153996,247 @@
     }]
   }]
 }, {
+  "id": 993447,
+  "name": "花咲ける雪に尊し",
+  "ruby": "-",
+  "unmodifiedDetail": "自身のArtsカード性能を8%アップ＆NPを40%チャージした状態でバトルを開始する ＋ 登場時にスターを12個獲得(1回)",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00305.png",
+  "coolDown": [0],
+  "functions": [{
+    "funcId": 109,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 80
+    }]
+  }, {
+    "funcId": 460,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 4000
+    }]
+  }, {
+    "funcId": 3408,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": 1,
+      "Value": 993458,
+      "Value2": 1
+    }]
+  }]
+}, {
+  "id": 993448,
+  "name": "花咲ける雪に尊し",
+  "ruby": "-",
+  "unmodifiedDetail": "自身のArtsカード性能を10%アップ＆NPを50%チャージした状態でバトルを開始する ＋ 登場時にスターを15個獲得(1回)[最大解放]",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00305.png",
+  "coolDown": [0],
+  "functions": [{
+    "funcId": 109,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 100
+    }]
+  }, {
+    "funcId": 460,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 5000
+    }]
+  }, {
+    "funcId": 3408,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": 1,
+      "Value": 993458,
+      "Value2": 2
+    }]
+  }]
+}, {
+  "id": 993449,
+  "name": "ファースト・セール",
+  "ruby": "-",
+  "unmodifiedDetail": "自身のArtsカードのスター集中度を300%アップ＆NP獲得量を10%アップ",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00309.png",
+  "coolDown": [0],
+  "functions": [{
+    "funcId": 1859,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 3000
+    }]
+  }, {
+    "funcId": 336,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 100
+    }]
+  }]
+}, {
+  "id": 993450,
+  "name": "ファースト・セール",
+  "ruby": "-",
+  "unmodifiedDetail": "自身のArtsカードのスター集中度を400%アップ＆NP獲得量を15%アップ[最大解放]",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00309.png",
+  "coolDown": [0],
+  "functions": [{
+    "funcId": 1859,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 4000
+    }]
+  }, {
+    "funcId": 336,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 150
+    }]
+  }]
+}, {
+  "id": 993451,
+  "name": "兎人間の呪い",
+  "ruby": "-",
+  "unmodifiedDetail": "クエストクリアで得られるQPを2023増やす",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00201.png",
+  "coolDown": [0],
+  "functions": [{
+    "funcId": 91,
+    "svals": [{
+      "AddCount": 2023
+    }]
+  }]
+}, {
+  "id": 993452,
+  "name": "兎人間の呪い",
+  "ruby": "-",
+  "unmodifiedDetail": "クエストクリアで得られるQPを2023増やす ＋ 自身の宝具威力を2.3%アップ[最大解放]",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00201.png",
+  "coolDown": [0],
+  "functions": [{
+    "funcId": 91,
+    "svals": [{
+      "AddCount": 2023
+    }]
+  }, {
+    "funcId": 247,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 23
+    }]
+  }]
+}, {
+  "id": 993453,
+  "name": "ラヴ・イット",
+  "ruby": "-",
+  "unmodifiedDetail": "自身のクリティカル威力を15%アップ",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00303.png",
+  "coolDown": [0],
+  "functions": [{
+    "funcId": 200,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 150
+    }]
+  }]
+}, {
+  "id": 993455,
+  "name": "概念礼装EXPカード：私にだけ見える兎",
+  "ruby": "-",
+  "unmodifiedDetail": "効果なし",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_999999.png",
+  "coolDown": [0],
+  "functions": [{
+    "funcId": 3643,
+    "svals": [{}]
+  }]
+}, {
+  "id": 993456,
+  "name": "倒し得ぬもの",
+  "ruby": "-",
+  "unmodifiedDetail": "[servantName 1001500](アルターエゴ)装備時のみ、自身の宝具威力を30%アップ＆ガッツ発動時にスターを20個獲得する状態を付与",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00603.png",
+  "coolDown": [0],
+  "actIndividuality": [{
+    "id": 1001500
+  }],
+  "functions": [{
+    "funcId": 248,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 300
+    }]
+  }, {
+    "funcId": 9043,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 993489,
+      "Value2": 1
+    }]
+  }]
+}, {
+  "id": 993457,
+  "name": "イノベイター・イヤー",
+  "ruby": "いのべいたー・いやー",
+  "unmodifiedDetail": "刻印されたカードに〔人間〕特攻効果を10%付与",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00301.png",
+  "coolDown": [0],
+  "functions": [{
+    "funcId": 238,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 100,
+      "ShowState": 1
+    }]
+  }]
+}, {
+  "id": 993458,
+  "name": "",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00603.png",
+  "coolDown": [0, 0],
+  "functions": [{
+    "funcId": 476,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 12
+    }, {
+      "Value": 15
+    }]
+  }]
+}, {
   "id": 993459,
   "name": "月の断片",
   "ruby": "-",
@@ -153954,6 +154340,22 @@
       "Individuality": 20063,
       "EventId": 0,
       "DropRateCount": 250
+    }]
+  }]
+}, {
+  "id": 993489,
+  "name": "",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00603.png",
+  "coolDown": [0],
+  "actIndividuality": [{
+    "id": 1001500
+  }],
+  "functions": [{
+    "funcId": 476,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 20
     }]
   }]
 }, {
@@ -165821,6 +166223,306 @@
       "Turn": 2,
       "Count": -1,
       "Value": 200
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }]
+}, {
+  "id": 2168450,
+  "name": "代行者 B",
+  "ruby": "だいこうしゃ",
+  "unmodifiedDetail": "自身のクリティカル威力をアップ＆スター発生率をアップ",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00303.png",
+  "coolDown": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+  "functions": [{
+    "funcId": 199,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 80
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 295,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 80
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 214,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 80
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }]
+}, {
+  "id": 2169550,
+  "name": "洗礼秘蹟 A",
+  "ruby": "せんれいひせき",
+  "unmodifiedDetail": "自身の精神異常耐性をアップ",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00401.png",
+  "coolDown": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+  "functions": [{
+    "funcId": 410,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 300
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }]
+}, {
+  "id": 2170450,
+  "name": "耐毒（機密） B",
+  "ruby": "たいどく（きみつ）",
+  "unmodifiedDetail": "自身に毒無効状態を付与",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00411.png",
+  "coolDown": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+  "functions": [{
+    "funcId": 9964,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }]
+}, {
+  "id": 2171551,
+  "name": "信仰の加護（独） A+",
+  "ruby": "しんこうのかご（どく）",
+  "unmodifiedDetail": "味方単体のHPを回復[{0}]＆弱体状態を解除 ＋ 自身の攻撃力をアップ[{0}](3ターン)",
+  "type": "active",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00600.png",
+  "coolDown": [6, 6, 6, 6, 6, 5, 5, 5, 5, 4],
+  "functions": [{
+    "funcId": 442,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 1000
+    }, {
+      "Value": 1100
+    }, {
+      "Value": 1200
+    }, {
+      "Value": 1300
+    }, {
+      "Value": 1400
+    }, {
+      "Value": 1500
+    }, {
+      "Value": 1600
+    }, {
+      "Value": 1700
+    }, {
+      "Value": 1800
+    }, {
+      "Value": 2000
+    }]
+  }, {
+    "funcId": 435,
+    "svals": [{
+      "Rate": 1000
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 146,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 200
+    }, {
+      "Value": 210
+    }, {
+      "Value": 220
+    }, {
+      "Value": 230
+    }, {
+      "Value": 240
+    }, {
+      "Value": 250
+    }, {
+      "Value": 260
+    }, {
+      "Value": 270
+    }, {
+      "Value": 280
+    }, {
+      "Value": 300
+    }]
+  }]
+}, {
+  "id": 2172550,
+  "name": "悪心祝祭 A",
+  "ruby": "あんりまゆ",
+  "unmodifiedDetail": "自身のNPを増やす[{0}]＆HPを2000減らす【デメリット】 ＋ 〔悪〕特性の味方全体のNPを増やす[{0}]＆Artsカード性能をアップ[{0}](3ターン)",
+  "type": "active",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00601.png",
+  "coolDown": [8, 8, 8, 8, 8, 7, 7, 7, 7, 6],
+  "functions": [{
+    "funcId": 460,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 2000
+    }, {
+      "Value": 2100
+    }, {
+      "Value": 2200
+    }, {
+      "Value": 2300
+    }, {
+      "Value": 2400
+    }, {
+      "Value": 2500
+    }, {
+      "Value": 2600
+    }, {
+      "Value": 2700
+    }, {
+      "Value": 2800
+    }, {
+      "Value": 3000
+    }]
+  }, {
+    "funcId": 470,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 1
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 709,
+    "svals": [{
+      "Rate": 5000,
+      "Value": 2000
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 9965,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 1000
+    }, {
+      "Value": 1100
+    }, {
+      "Value": 1200
+    }, {
+      "Value": 1300
+    }, {
+      "Value": 1400
+    }, {
+      "Value": 1500
+    }, {
+      "Value": 1600
+    }, {
+      "Value": 1700
+    }, {
+      "Value": 1800
+    }, {
+      "Value": 2000
+    }]
+  }, {
+    "funcId": 9970,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 1
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 9971,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 100
+    }, {
+      "Value": 110
+    }, {
+      "Value": 120
+    }, {
+      "Value": 130
+    }, {
+      "Value": 140
+    }, {
+      "Value": 150
+    }, {
+      "Value": 160
+    }, {
+      "Value": 170
+    }, {
+      "Value": 180
+    }, {
+      "Value": 200
+    }]
+  }]
+}, {
+  "id": 2173650,
+  "name": "死なずのバールー EX",
+  "ruby": "しなずのバールー",
+  "unmodifiedDetail": "自身にガッツ状態を付与(1回・3ターン・他のガッツ状態と重複可能)＆高確率[{0}]で発動するガッツ状態を付与(3ターン)＆「ガッツ発動時に自身の宝具威力をアップ(5ターン)する状態」を付与(3ターン)＆ターゲット集中状態を付与(3ターン)",
+  "type": "active",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00404.png",
+  "coolDown": [9, 9, 9, 9, 9, 8, 8, 8, 8, 7],
+  "functions": [{
+    "funcId": 9967,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": 1,
+      "Value": 1
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 9972,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 1,
+      "UseRate": 600
+    }, {
+      "UseRate": 620
+    }, {
+      "UseRate": 640
+    }, {
+      "UseRate": 660
+    }, {
+      "UseRate": 680
+    }, {
+      "UseRate": 700
+    }, {
+      "UseRate": 720
+    }, {
+      "UseRate": 740
+    }, {
+      "UseRate": 760
+    }, {
+      "UseRate": 800
+    }]
+  }, {
+    "funcId": 9968,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 970058,
+      "Value2": 1
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 358,
+    "svals": [{
+      "Rate": 5000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 3000
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 2195,
+    "svals": [{
+      "Rate": 5000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 3000
     }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
   }]
 }, {
