@@ -23081,13 +23081,21 @@
     "bannerGroup": 8041303,
     "priority": 80427,
     "conds": [{
-      "id": 80413006,
-      "missionProgressType": "openCondition",
+      "id": 80413018,
+      "missionProgressType": "clear",
       "condGroup": 1,
-      "condType": "date",
-      "targetIds": [0],
-      "targetNum": 1672585200,
-      "conditionMessage": "???\n※「1/2 00:00」に開放"
+      "condType": "missionConditionDetail",
+      "targetIds": [80413010],
+      "targetNum": 23,
+      "conditionMessage": "【⑭】フレンドポイント召喚を23回実行せよ",
+      "details": [{
+        "id": 80413010,
+        "missionTargetId": 80413,
+        "missionCondType": 21,
+        "logicType": 1,
+        "targetIds": [1],
+        "conditionLinkType": "masterMissionStart"
+      }]
     }]
   }, {
     "id": 8041307,
@@ -23113,6 +23121,22 @@
       "targetIds": [0],
       "targetNum": 1672585200,
       "conditionMessage": "???\n※「1/2 00:00」に開放"
+    }, {
+      "id": 80413019,
+      "missionProgressType": "clear",
+      "condGroup": 1,
+      "condType": "missionConditionDetail",
+      "targetIds": [80413006],
+      "targetNum": 1,
+      "conditionMessage": "【⑫】『神性』特性を持つサーヴァントを1騎倒せ",
+      "details": [{
+        "id": 80413006,
+        "missionTargetId": 80413,
+        "missionCondType": 13,
+        "logicType": 1,
+        "targetIds": [2000, 1000],
+        "conditionLinkType": "masterMissionStart"
+      }]
     }]
   }, {
     "id": 8041308,
@@ -23138,6 +23162,22 @@
       "targetIds": [0],
       "targetNum": 1672585200,
       "conditionMessage": "???\n※「1/2 00:00」に開放"
+    }, {
+      "id": 80413020,
+      "missionProgressType": "clear",
+      "condGroup": 1,
+      "condType": "missionConditionDetail",
+      "targetIds": [80413003],
+      "targetNum": 1,
+      "conditionMessage": "【⑥】戦利品で『赤い』アイテムを1個獲得せよ",
+      "details": [{
+        "id": 80413003,
+        "missionTargetId": 80413,
+        "missionCondType": 12,
+        "logicType": 1,
+        "targetIds": [6516, 6530, 6501, 6514, 6541, 6520, 6546, 6548, 6101, 6102, 6103, 6104, 6105, 6106, 6107, 6551],
+        "conditionLinkType": "masterMissionStart"
+      }]
     }]
   }, {
     "id": 8041309,
