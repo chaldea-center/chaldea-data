@@ -12125,26 +12125,6 @@
     "maxRate": 5000
   }]
 }, {
-  "funcId": 1384,
-  "funcType": "addState",
-  "funcTargetType": "ptAll",
-  "funcTargetTeam": "playerAndEnemy",
-  "funcPopupText": "防御力ダウン",
-  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_504.png",
-  "buffs": [{
-    "id": 148,
-    "name": "防御力ダウン",
-    "detail": "防御力をダウン",
-    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_504.png",
-    "type": "downDefence",
-    "vals": [{
-      "id": 3005
-    }, {
-      "id": 3009
-    }],
-    "maxRate": 5000
-  }]
-}, {
   "funcId": 1396,
   "funcType": "addStateShort",
   "funcTargetType": "ptAll",
@@ -19723,29 +19703,6 @@
     "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
     "type": "upDamage",
     "maxRate": 10000
-  }]
-}, {
-  "funcId": 4210,
-  "funcType": "addState",
-  "funcTargetType": "ptAll",
-  "funcTargetTeam": "playerAndEnemy",
-  "funcPopupText": "呪厄",
-  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_547.png",
-  "buffs": [{
-    "id": 1115,
-    "name": "呪厄",
-    "detail": "呪いの効果量アップ",
-    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_547.png",
-    "type": "upFuncHpReduce",
-    "vals": [{
-      "id": 3005
-    }, {
-      "id": 3048
-    }],
-    "ckSelfIndv": [{
-      "id": 3026
-    }],
-    "maxRate": 5000
   }]
 }, {
   "funcId": 4758,
@@ -32444,28 +32401,6 @@
     "maxRate": 0
   }]
 }, {
-  "funcId": 8495,
-  "funcType": "addState",
-  "funcTargetType": "ptAll",
-  "funcTargetTeam": "playerAndEnemy",
-  "funcPopupText": "呪い",
-  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_521.png",
-  "buffs": [{
-    "id": 125,
-    "name": "呪い",
-    "detail": "ターン終了時にHPが減る",
-    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_521.png",
-    "type": "reduceHp",
-    "vals": [{
-      "id": 3005
-    }, {
-      "id": 3026
-    }, {
-      "id": 2729
-    }],
-    "maxRate": 0
-  }]
-}, {
   "funcId": 8512,
   "funcType": "servantFriendshipUp",
   "funcTargetType": "ptFull",
@@ -36120,6 +36055,92 @@
       "id": 3015
     }],
     "maxRate": 0
+  }]
+}, {
+  "funcId": 9862,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "タゲ集中アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_323.png",
+  "buffs": [{
+    "id": 181,
+    "name": "タゲ集中アップ",
+    "detail": "敵からの狙われやすさをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_323.png",
+    "type": "upHate",
+    "buffGroup": 700,
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3023
+    }],
+    "maxRate": 50000
+  }]
+}, {
+  "funcId": 9926,
+  "funcType": "addState",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "防御力ダウン",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_504.png",
+  "buffs": [{
+    "id": 148,
+    "name": "防御力ダウン",
+    "detail": "防御力をダウン",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_504.png",
+    "type": "downDefence",
+    "vals": [{
+      "id": 3005
+    }, {
+      "id": 3009
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 9927,
+  "funcType": "addState",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "呪い",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_521.png",
+  "buffs": [{
+    "id": 125,
+    "name": "呪い",
+    "detail": "ターン終了時にHPが減る",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_521.png",
+    "type": "reduceHp",
+    "vals": [{
+      "id": 3005
+    }, {
+      "id": 3026
+    }, {
+      "id": 2729
+    }],
+    "maxRate": 0
+  }]
+}, {
+  "funcId": 9928,
+  "funcType": "addState",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "呪厄",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_547.png",
+  "buffs": [{
+    "id": 1115,
+    "name": "呪厄",
+    "detail": "呪いの効果量アップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_547.png",
+    "type": "upFuncHpReduce",
+    "vals": [{
+      "id": 3005
+    }, {
+      "id": 3048
+    }],
+    "ckSelfIndv": [{
+      "id": 3026
+    }],
+    "maxRate": 5000
   }]
 }, {
   "funcId": 9963,
