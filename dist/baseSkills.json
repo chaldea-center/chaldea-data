@@ -16397,6 +16397,31 @@
     }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
   }]
 }, {
+  "id": 169252,
+  "name": "復讐者 D++",
+  "ruby": "ふくしゅうしゃ",
+  "unmodifiedDetail": "自身の被ダメージ時に獲得するNPアップ ＋ 自身を除く味方全体<控え含む>の弱体耐性をダウン【デメリット】",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00107.png",
+  "coolDown": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+  "functions": [{
+    "funcId": 726,
+    "svals": [{
+      "Rate": 5000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 50
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 768,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 150
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }]
+}, {
   "id": 169350,
   "name": "復讐者 C",
   "ruby": "ふくしゅうしゃ",
@@ -154401,6 +154426,36 @@
     }]
   }]
 }, {
+  "id": 993490,
+  "name": "アメミット",
+  "ruby": "-",
+  "unmodifiedDetail": "[servantName 1101500](アヴェンジャー)装備時のみ、自身がフィールドにいる間、味方全体の即死付与成功率を10%アップ＆Artsカード性能を10%アップ",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00522.png",
+  "coolDown": [0],
+  "actIndividuality": [{
+    "id": 1101500
+  }],
+  "functions": [{
+    "funcId": 882,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 100,
+      "OnField": 1
+    }]
+  }, {
+    "funcId": 836,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 100,
+      "OnField": 1
+    }]
+  }]
+}, {
   "id": 2000550,
   "name": "維新の龍 A",
   "ruby": "いしんのりゅう",
@@ -166633,6 +166688,256 @@
     "svals": [{
       "Rate": 1000,
       "Value": 1
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }]
+}, {
+  "id": 2179550,
+  "name": "葬礼文書 A",
+  "ruby": "ピラミッド・テキスト",
+  "unmodifiedDetail": "自身のArtsカード性能をアップ[{0}](3ターン)＆Busterカード性能をアップ[{0}](3ターン)＆毎ターンHP回復状態を付与[{0}](3ターン)",
+  "type": "active",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00315.png",
+  "coolDown": [8, 8, 8, 8, 8, 7, 7, 7, 7, 6],
+  "functions": [{
+    "funcId": 110,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 200
+    }, {
+      "Value": 210
+    }, {
+      "Value": 220
+    }, {
+      "Value": 230
+    }, {
+      "Value": 240
+    }, {
+      "Value": 250
+    }, {
+      "Value": 260
+    }, {
+      "Value": 270
+    }, {
+      "Value": 280
+    }, {
+      "Value": 300
+    }]
+  }, {
+    "funcId": 119,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 200
+    }, {
+      "Value": 210
+    }, {
+      "Value": 220
+    }, {
+      "Value": 230
+    }, {
+      "Value": 240
+    }, {
+      "Value": 250
+    }, {
+      "Value": 260
+    }, {
+      "Value": 270
+    }, {
+      "Value": 280
+    }, {
+      "Value": 300
+    }]
+  }, {
+    "funcId": 312,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 1000
+    }, {
+      "Value": 1100
+    }, {
+      "Value": 1200
+    }, {
+      "Value": 1300
+    }, {
+      "Value": 1400
+    }, {
+      "Value": 1500
+    }, {
+      "Value": 1600
+    }, {
+      "Value": 1700
+    }, {
+      "Value": 1800
+    }, {
+      "Value": 2000
+    }]
+  }]
+}, {
+  "id": 2180550,
+  "name": "冥府神の裁定 A",
+  "ruby": "めいふしんのさいてい",
+  "unmodifiedDetail": "自身のNPをものすごく増やす[{0}] ＋ 味方全体に〔善〕特性を付与(1ターン)＆被強化成功率をアップ[{0}](1ターン) ＋ 敵全体に〔悪〕特性を付与(1ターン)＆被強化成功率をダウン[{0}](1ターン)",
+  "type": "active",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00601.png",
+  "coolDown": [9, 9, 9, 9, 9, 8, 8, 8, 8, 7],
+  "functions": [{
+    "funcId": 461,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 5000
+    }, {
+      "Value": 5500
+    }, {
+      "Value": 6000
+    }, {
+      "Value": 6500
+    }, {
+      "Value": 7000
+    }, {
+      "Value": 7500
+    }, {
+      "Value": 8000
+    }, {
+      "Value": 8500
+    }, {
+      "Value": 9000
+    }, {
+      "Value": 10000
+    }]
+  }, {
+    "funcId": 470,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 2
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 20766,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 1,
+      "Count": -1,
+      "Value": 303
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 20783,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 1,
+      "Count": -1,
+      "Value": 200
+    }, {
+      "Value": 220
+    }, {
+      "Value": 240
+    }, {
+      "Value": 260
+    }, {
+      "Value": 280
+    }, {
+      "Value": 300
+    }, {
+      "Value": 320
+    }, {
+      "Value": 340
+    }, {
+      "Value": 360
+    }, {
+      "Value": 400
+    }]
+  }, {
+    "funcId": 8691,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 1,
+      "Count": -1,
+      "Value": 304
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 1128,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 1,
+      "Count": -1,
+      "Value": 100
+    }, {
+      "Value": 110
+    }, {
+      "Value": 120
+    }, {
+      "Value": 130
+    }, {
+      "Value": 140
+    }, {
+      "Value": 150
+    }, {
+      "Value": 160
+    }, {
+      "Value": 170
+    }, {
+      "Value": 180
+    }, {
+      "Value": 200
+    }]
+  }]
+}, {
+  "id": 2181550,
+  "name": "砂漠の夜の風 A",
+  "ruby": "さばくのよるのかぜ",
+  "unmodifiedDetail": "味方全体のArtsカード性能をアップ[{0}](3ターン) ＋ 〔善〕特性の味方全体に確率で回避状態を付与(1回・3ターン)＆確率で弱体無効状態を付与(1回・3ターン)＆確率で即死無効状態を付与(1回・3ターン)",
+  "type": "active",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00305.png",
+  "coolDown": [7, 7, 7, 7, 7, 6, 6, 6, 6, 5],
+  "functions": [{
+    "funcId": 116,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 100
+    }, {
+      "Value": 110
+    }, {
+      "Value": 120
+    }, {
+      "Value": 130
+    }, {
+      "Value": 140
+    }, {
+      "Value": 150
+    }, {
+      "Value": 160
+    }, {
+      "Value": 170
+    }, {
+      "Value": 180
+    }, {
+      "Value": 200
+    }]
+  }, {
+    "funcId": 20767,
+    "svals": [{
+      "Rate": 600,
+      "Turn": 3,
+      "Count": 1
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 20768,
+    "svals": [{
+      "Rate": 600,
+      "Turn": 3,
+      "Count": 1
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 20769,
+    "svals": [{
+      "Rate": 600,
+      "Turn": 3,
+      "Count": 1
     }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
   }]
 }, {

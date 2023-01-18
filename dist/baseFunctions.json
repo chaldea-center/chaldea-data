@@ -10879,15 +10879,15 @@
   "funcPopupText": "チャージ増加"
 }, {
   "funcId": 1128,
-  "funcType": "addStateShort",
+  "funcType": "addState",
   "funcTargetType": "enemyAll",
   "funcTargetTeam": "playerAndEnemy",
-  "funcPopupText": "強化成功率ダウン",
+  "funcPopupText": "被強化成功率ダウン",
   "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_506.png",
   "buffs": [{
     "id": 167,
-    "name": "強化成功率ダウン",
-    "detail": "強化成功率をダウン",
+    "name": "被強化成功率ダウン",
+    "detail": "被強化成功率をダウン",
     "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_506.png",
     "type": "upTolerance",
     "vals": [{
@@ -36330,6 +36330,132 @@
       "id": 3024
     }],
     "maxRate": 0
+  }]
+}, {
+  "funcId": 20766,
+  "funcType": "addState",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "善特性付与",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_520.png",
+  "buffs": [{
+    "id": 4165,
+    "name": "特性付与〔善〕",
+    "detail": "〔善〕特性を付与する",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_520.png",
+    "type": "addIndividuality",
+    "maxRate": 0
+  }]
+}, {
+  "funcId": 20767,
+  "funcType": "addState",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "回避",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_305.png",
+  "functvals": [{
+    "id": 303
+  }],
+  "buffs": [{
+    "id": 151,
+    "name": "回避",
+    "detail": "攻撃によるダメージを0にする",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_305.png",
+    "type": "avoidance",
+    "buffGroup": 200,
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3018
+    }, {
+      "id": 3021
+    }, {
+      "id": 3007
+    }],
+    "maxRate": 0
+  }]
+}, {
+  "funcId": 20768,
+  "funcType": "addState",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "弱体無効",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_322.png",
+  "functvals": [{
+    "id": 303
+  }],
+  "buffs": [{
+    "id": 171,
+    "name": "弱体無効",
+    "detail": "弱体を受けなくなる",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_322.png",
+    "type": "avoidState",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3061
+    }],
+    "tvals": [{
+      "id": 3005
+    }],
+    "ckOpIndv": [{
+      "id": 3005
+    }],
+    "maxRate": 0
+  }]
+}, {
+  "funcId": 20769,
+  "funcType": "addState",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "即死無効",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_340.png",
+  "functvals": [{
+    "id": 303
+  }],
+  "buffs": [{
+    "id": 341,
+    "name": "即死無効",
+    "detail": "即死効果を無効にする",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_340.png",
+    "type": "avoidInstantdeath",
+    "vals": [{
+      "id": 3004
+    }],
+    "maxRate": 0
+  }]
+}, {
+  "funcId": 20770,
+  "funcType": "instantDeath",
+  "funcTargetType": "enemyAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "即死",
+  "functvals": [{
+    "id": 304
+  }]
+}, {
+  "funcId": 20783,
+  "funcType": "addState",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "被強化成功率アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_306.png",
+  "buffs": [{
+    "id": 950,
+    "name": "被強化成功率アップ",
+    "detail": "被強化成功率をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_306.png",
+    "type": "downTolerance",
+    "vals": [{
+      "id": 3004
+    }],
+    "tvals": [{
+      "id": 3004
+    }],
+    "ckOpIndv": [{
+      "id": 3004
+    }],
+    "maxRate": 5000
   }]
 }, {
   "funcId": 30003,
