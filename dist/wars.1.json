@@ -85969,6 +85969,96 @@
       "noticeAt": 1672390800,
       "openedAt": 1672390800,
       "closedAt": 1924873199
+    }, {
+      "id": 94082201,
+      "name": "呪いの屋敷",
+      "type": "event",
+      "flags": ["noContinue", "dropFirstTimeOnly", "eventDeckNoSupport", "notRetrievable"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "35+",
+      "spotId": 100601,
+      "spotName": "アドバンスドクエスト",
+      "warId": 1006,
+      "warLongName": "アドバンスドクエスト",
+      "gifts": [{
+        "type": "servant",
+        "objectId": 9406810,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 1000011
+      }, {
+        "type": "questClear",
+        "targetId": 1000215,
+        "closedMessage": "第二特異点クリアで開放"
+      }],
+      "phases": [1],
+      "priority": 890998,
+      "noticeAt": 1675155600,
+      "openedAt": 1675155600,
+      "closedAt": 1924873199
+    }, {
+      "id": 94082202,
+      "name": "森の女王、強かに戦術を練る",
+      "type": "event",
+      "flags": ["noContinue", "dropFirstTimeOnly", "eventDeckNoSupport", "notRetrievable"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "90+",
+      "spotId": 100601,
+      "spotName": "アドバンスドクエスト",
+      "warId": 1006,
+      "warLongName": "アドバンスドクエスト",
+      "gifts": [{
+        "type": "servant",
+        "objectId": 9406130,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 1000011
+      }, {
+        "type": "questClear",
+        "targetId": 3000125,
+        "closedMessage": "Lostbelt No.1クリアで開放"
+      }],
+      "phases": [1],
+      "priority": 780998,
+      "noticeAt": 1675155600,
+      "openedAt": 1675155600,
+      "closedAt": 1924873199
+    }, {
+      "id": 94082203,
+      "name": "武を以て天下を制す",
+      "type": "event",
+      "flags": ["noContinue", "dropFirstTimeOnly", "eventDeckNoSupport", "notRetrievable"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "90+",
+      "spotId": 100601,
+      "spotName": "アドバンスドクエスト",
+      "warId": 1006,
+      "warLongName": "アドバンスドクエスト",
+      "gifts": [{
+        "type": "servant",
+        "objectId": 9405960,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 1000011
+      }, {
+        "type": "questClear",
+        "targetId": 3000320,
+        "closedMessage": "Lostbelt No.3クリアで開放"
+      }],
+      "phases": [1],
+      "priority": 760998,
+      "noticeAt": 1675155600,
+      "openedAt": 1675155600,
+      "closedAt": 1924873199
     }]
   }]
 }, {
@@ -92895,5 +92985,16 @@
   "script": "https://static.atlasacademy.io/JP/Script/Common/NONE.txt",
   "startType": "none",
   "targetId": 0,
-  "lastQuestId": 0
+  "lastQuestId": 0,
+  "warAdds": [{
+    "warId": 13000,
+    "type": "warForceHide",
+    "priority": 1,
+    "overwriteId": 0,
+    "condType": "questClear",
+    "targetId": 3000008,
+    "value": 0,
+    "startedAt": 1675155600,
+    "endedAt": 1893423600
+  }]
 }]
