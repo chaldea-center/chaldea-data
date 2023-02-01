@@ -10164,6 +10164,26 @@
     "maxRate": 0
   }]
 }, {
+  "funcId": 953,
+  "funcType": "addStateShort",
+  "funcTargetType": "enemy",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "被ダメージプラス",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_504.png",
+  "buffs": [{
+    "id": 150,
+    "name": "ダメージアップ",
+    "detail": "被ダメージが増える",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_504.png",
+    "type": "addSelfdamage",
+    "vals": [{
+      "id": 3005
+    }, {
+      "id": 3009
+    }],
+    "maxRate": 0
+  }]
+}, {
   "funcId": 954,
   "funcType": "addStateShort",
   "funcTargetType": "enemy",
@@ -21584,6 +21604,15 @@
   "funcTargetTeam": "enemy",
   "funcPopupText": "チャージ減少"
 }, {
+  "funcId": 5073,
+  "funcType": "subState",
+  "funcTargetType": "enemy",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "防御強化解除",
+  "traitVals": [{
+    "id": 3007
+  }]
+}, {
   "funcId": 5098,
   "funcType": "eventDropUp",
   "funcTargetType": "self",
@@ -26197,6 +26226,42 @@
   "funcType": "forceInstantDeath",
   "funcTargetType": "self",
   "funcTargetTeam": "playerAndEnemy"
+}, {
+  "funcId": 6352,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "攻撃時発動(Quickカード性能ダウン)",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_528.png",
+  "buffs": [{
+    "id": 3236,
+    "name": "攻撃時発動(Quickカード性能ダウン)",
+    "detail": "自身の攻撃時に敵単体にQuickカード性能ダウンを付与する",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_528.png",
+    "type": "attackFunction",
+    "vals": [{
+      "id": 3004
+    }],
+    "maxRate": 0
+  }]
+}, {
+  "funcId": 6353,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "攻撃時発動(Busterカード性能ダウン)",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_528.png",
+  "buffs": [{
+    "id": 3237,
+    "name": "攻撃時発動(Busterカード性能ダウン)",
+    "detail": "自身の攻撃時に敵単体にBusterカード性能ダウンを付与する",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_528.png",
+    "type": "attackFunction",
+    "vals": [{
+      "id": 3004
+    }],
+    "maxRate": 0
+  }]
 }, {
   "funcId": 6359,
   "funcType": "addStateShort",
@@ -36314,6 +36379,70 @@
     }],
     "ckSelfIndv": [{
       "id": 4100
+    }],
+    "maxRate": 0
+  }]
+}, {
+  "funcId": 9781,
+  "funcType": "addStateShort",
+  "funcTargetType": "enemy",
+  "funcTargetTeam": "player",
+  "funcPopupText": "被クリティカル発生耐性ダウン",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_559.png",
+  "buffs": [{
+    "id": 4779,
+    "name": "被クリティカル発生耐性ダウン",
+    "detail": "クリティカル攻撃を受ける確率を増やす",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_559.png",
+    "type": "upCriticalRateDamageTaken",
+    "vals": [{
+      "id": 3005
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 9783,
+  "funcType": "addState",
+  "funcTargetType": "enemy",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "攻撃時追加効果",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_549.png",
+  "buffs": [{
+    "id": 4780,
+    "name": "攻撃時追加効果",
+    "detail": "攻撃時、自身のHPが減少する",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_549.png",
+    "type": "attackFunction",
+    "vals": [{
+      "id": 3005
+    }],
+    "tvals": [{
+      "id": 5000
+    }],
+    "maxRate": 0
+  }]
+}, {
+  "funcId": 9786,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "毎ターンHP回復",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_318.png",
+  "buffs": [{
+    "id": 4781,
+    "name": "毎ターンHP回復",
+    "detail": "〔陽射し〕のあるフィールドにおいてのみ、ターン終了時にHPが回復する",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_318.png",
+    "type": "regainHp",
+    "script": {
+      "INDIVIDUALITIE": {
+        "id": 2038
+      }
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3060
     }],
     "maxRate": 0
   }]
