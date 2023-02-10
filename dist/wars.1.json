@@ -69882,7 +69882,96 @@
     "activeTargetValue": 3
   }]
 }, {
-  "id": 312,
+  "id": 400,
+  "coordinates": [
+    [],
+    []
+  ],
+  "age": "-",
+  "name": "奏章プロローグ",
+  "longName": "奏章プロローグ",
+  "originalLongName": "奏章プロローグ",
+  "flags": ["mainScenario", "isWarIconLeft", "dispFirstQuest"],
+  "banner": "https://static.atlasacademy.io/JP/Banner/questboard_cap400.png",
+  "priority": 400,
+  "bgm": {
+    "id": 0
+  },
+  "scriptId": "NONE",
+  "script": "https://static.atlasacademy.io/JP/Script/Common/NONE.txt",
+  "startType": "quest",
+  "targetId": 4000000,
+  "lastQuestId": 4000000,
+  "warAdds": [{
+    "warId": 400,
+    "type": "warForceHide",
+    "priority": 1,
+    "overwriteId": 0,
+    "condType": "questClear",
+    "targetId": 4000000,
+    "value": 0,
+    "startedAt": 1676019600,
+    "endedAt": 1893423600
+  }, {
+    "warId": 400,
+    "type": "materialParentWar",
+    "priority": 2,
+    "overwriteId": 13000,
+    "condType": "questClear",
+    "targetId": 3000008,
+    "value": 0,
+    "startedAt": 1676019600,
+    "endedAt": 1893423600
+  }],
+  "maps": [{
+    "id": 400,
+    "mapImage": "https://static.atlasacademy.io/JP/Terminal/MapImgs/img_questmap_000400/img_questmap_000400.png",
+    "mapImageW": 0,
+    "mapImageH": 0,
+    "bgm": {
+      "id": 0
+    }
+  }],
+  "spots": [{
+    "id": 40001,
+    "mapId": 400,
+    "name": "奏章プロローグ",
+    "x": 0,
+    "y": 0,
+    "quests": [{
+      "id": 4000000,
+      "name": "オーディール・コール　序",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 40001,
+      "spotName": "奏章プロローグ",
+      "warId": 400,
+      "warLongName": "奏章プロローグ",
+      "chapterId": 400,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 3001327
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "0400000110",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400000110.txt"
+        }]
+      }],
+      "priority": 4000000,
+      "noticeAt": 1676019600,
+      "openedAt": 1676019600,
+      "closedAt": 1893423600
+    }]
+  }]
+}, {
+  "id": 401,
   "coordinates": [
     [],
     []
@@ -69893,7 +69982,7 @@
   "originalLongName": "-",
   "flags": ["mainScenario"],
   "banner": "https://static.atlasacademy.io/JP/Banner/questboard_cap_closed.png",
-  "priority": 314,
+  "priority": 401,
   "bgm": {
     "id": 0
   },
@@ -69901,7 +69990,18 @@
   "script": "https://static.atlasacademy.io/JP/Script/Common/NONE.txt",
   "startType": "none",
   "targetId": 0,
-  "lastQuestId": 0
+  "lastQuestId": 0,
+  "warAdds": [{
+    "warId": 401,
+    "type": "warForceHide",
+    "priority": 1,
+    "overwriteId": 0,
+    "condType": "notQuestClearPhase",
+    "targetId": 4000000,
+    "value": 1,
+    "startedAt": 1676019600,
+    "endedAt": 1893423600
+  }]
 }, {
   "id": 1001,
   "coordinates": [
