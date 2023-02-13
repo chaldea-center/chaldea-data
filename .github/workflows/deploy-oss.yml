@@ -14,12 +14,11 @@ jobs:
         uses: actions/setup-python@v2
         with:
           python-version: "3.10"
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
       - uses: yizhoumo/setup-ossutil@v1
         if: github.ref == 'refs/heads/main'
         with:
-          ossutil-version: "1.7.9"
           endpoint: ${{ secrets.OSS_ENDPOINT }}
           access-key-id: ${{ secrets.OSS_ACCESS_KEY_ID }}
           access-key-secret: ${{ secrets.OSS_ACCESS_KEY_SECRET }}

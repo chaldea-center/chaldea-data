@@ -17,7 +17,9 @@ def _call_oss(*args) -> str:
         print(output)
         return output
     except subprocess.CalledProcessError as e:
-        logging.exception(f'CalledProcessError: {e}\nstderr:\n{e.stderr}\nstdout:\n{e.stdout}')
+        logging.exception(
+            f"CalledProcessError: {e}\nstderr:\n{e.stderr}\nstdout:\n{e.stdout}"
+        )
         raise
     except Exception as e:
         logging.exception(f"Call ossutil failed: {e}")
@@ -32,7 +34,10 @@ def main(bucket_name: str, folder: Path, *args):
     for match in re.findall(
         r"(?<=\n)(.{29})\s+(\d+)\s+(.+)\s+([0-9A-Z]{32})\s+(oss://.+)\n", list_result
     ):
-        remote_etags[match[4][len(f"oss://{bucket_name}/") :]] = str(match[3]).upper()
+        key = match[4][len(f"oss://{bucket_name}/") :]
+        if "/" in key:
+            continue
+        remote_etags[key] = str(match[3]).upper()
     print(f"Found {len(remote_etags)} files at remote")
 
     uploaded, deleted, unchanged = 0, 0, 0
