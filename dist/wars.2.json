@@ -68905,4 +68905,454 @@
     "shortcutBanner": "https://static.atlasacademy.io/JP/EventUI/img_questboard_94079402.png",
     "priority": 15
   }]
+}, {
+  "id": 8382,
+  "coordinates": [
+    [],
+    []
+  ],
+  "age": "-",
+  "name": "ヨハンナさんと未確認の愛 ぶっ壊せ☆らぶらぶはぁと大石像",
+  "longName": "ヨハンナさんと未確認の愛 ぶっ壊せ☆らぶらぶはぁと大石像",
+  "originalLongName": "ヨハンナさんと未確認の愛 ぶっ壊せ☆らぶらぶはぁと大石像",
+  "flags": ["isEvent", "noClearMarkWithComplete"],
+  "banner": "https://static.atlasacademy.io/JP/Banner/event_war_80402.png",
+  "priority": 8382,
+  "bgm": {
+    "id": 0
+  },
+  "scriptId": "NONE",
+  "script": "https://static.atlasacademy.io/JP/Script/Common/NONE.txt",
+  "startType": "none",
+  "targetId": 94080001,
+  "eventId": 80414,
+  "eventName": "ヨハンナさんと未確認の愛\nぶっ壊せ☆らぶらぶはぁと大石像",
+  "lastQuestId": 0,
+  "warAdds": [{
+    "warId": 8382,
+    "type": "bgImage",
+    "priority": 1,
+    "overwriteId": 178701,
+    "condType": "questClear",
+    "targetId": 94080003,
+    "value": 0,
+    "startedAt": 1676624400,
+    "endedAt": 1678420799
+  }],
+  "maps": [{
+    "id": 8382,
+    "mapImage": "https://static.atlasacademy.io/JP/Terminal/MapImgs/img_questmap_008382/img_questmap_008382.png",
+    "mapImageW": 0,
+    "mapImageH": 0,
+    "bgm": {
+      "id": 0
+    }
+  }],
+  "spots": [{
+    "id": 838201,
+    "mapId": 8382,
+    "name": "カルデアゲート",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter8382/QMap_Cap8382_Atlas/spot_835801.png",
+    "x": 0,
+    "y": 0,
+    "quests": [{
+      "id": 94080001,
+      "name": "プロローグ",
+      "type": "main",
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 838201,
+      "spotName": "カルデアゲート",
+      "warId": 8382,
+      "warLongName": "ヨハンナさんと未確認の愛 ぶっ壊せ☆らぶらぶはぁと大石像",
+      "gifts": [{
+        "type": "servant",
+        "objectId": 9406840,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 1000011
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408000110",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408000110.txt"
+        }]
+      }],
+      "priority": 94080399,
+      "noticeAt": 1676624400,
+      "openedAt": 1676624400,
+      "closedAt": 1678420799
+    }, {
+      "id": 94080002,
+      "name": "第一節『祝福あれと私は願うけど』",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "15",
+      "spotId": 838201,
+      "spotName": "カルデアゲート",
+      "warId": 8382,
+      "warLongName": "ヨハンナさんと未確認の愛 ぶっ壊せ☆らぶらぶはぁと大石像",
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94080001
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408000210",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408000210.txt"
+        }, {
+          "scriptId": "9408000211",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408000211.txt"
+        }]
+      }],
+      "priority": 94080398,
+      "noticeAt": 1676624400,
+      "openedAt": 1676624400,
+      "closedAt": 1678420799
+    }, {
+      "id": 94080003,
+      "name": "第二節『テンシとアクマと願い事』",
+      "type": "main",
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 838201,
+      "spotName": "カルデアゲート",
+      "warId": 8382,
+      "warLongName": "ヨハンナさんと未確認の愛 ぶっ壊せ☆らぶらぶはぁと大石像",
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }, {
+        "objectId": 94080007,
+        "num": 1
+      }, {
+        "objectId": 94080008,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94080002
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1, 2],
+      "phasesNoBattle": [1, 2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408000310",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408000310.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9408000320",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408000320.txt"
+        }]
+      }],
+      "priority": 94080397,
+      "noticeAt": 1676624400,
+      "openedAt": 1676624400,
+      "closedAt": 1678420799
+    }, {
+      "id": 94080004,
+      "name": "",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "25",
+      "spotId": 838201,
+      "spotName": "カルデアゲート",
+      "warId": 8382,
+      "warLongName": "ヨハンナさんと未確認の愛 ぶっ壊せ☆らぶらぶはぁと大石像",
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94080003
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "forceFalse",
+        "targetId": 0,
+        "closedMessage": "データ更新後に開放"
+      }],
+      "phases": [1],
+      "priority": 94080396,
+      "noticeAt": 1676624400,
+      "openedAt": 1676710800,
+      "closedAt": 1678420799
+    }, {
+      "id": 94080042,
+      "name": "第一節『祝福あれと私は願うけど』",
+      "type": "main",
+      "flags": ["branch"],
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "15",
+      "spotId": 838201,
+      "spotName": "カルデアゲート",
+      "warId": 8382,
+      "warLongName": "ヨハンナさんと未確認の愛 ぶっ壊せ☆らぶらぶはぁと大石像",
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408000210",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408000210.txt"
+        }, {
+          "scriptId": "9408000211",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408000211.txt"
+        }]
+      }],
+      "priority": 94080398,
+      "noticeAt": 1676624400,
+      "openedAt": 1676624400,
+      "closedAt": 1678420799
+    }, {
+      "id": 94080101,
+      "name": "らぶらぶ鎮圧戦 似ていない人形を回収せよ！",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 30,
+      "afterClear": "repeatLast",
+      "recommendLv": "15",
+      "spotId": 838201,
+      "spotName": "カルデアゲート",
+      "warId": 8382,
+      "warLongName": "ヨハンナさんと未確認の愛 ぶっ壊せ☆らぶらぶはぁと大石像",
+      "gifts": [{
+        "objectId": 102,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94080003
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "priority": 94080199,
+      "noticeAt": 1676624400,
+      "openedAt": 1676624400,
+      "closedAt": 1678420799
+    }, {
+      "id": 94080102,
+      "name": "らぶらぶ鎮圧戦 ヨハンナ頌歌の拡散を防げ！",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 35,
+      "afterClear": "repeatLast",
+      "recommendLv": "25",
+      "spotId": 838201,
+      "spotName": "カルデアゲート",
+      "warId": 8382,
+      "warLongName": "ヨハンナさんと未確認の愛 ぶっ壊せ☆らぶらぶはぁと大石像",
+      "gifts": [{
+        "objectId": 102,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94080003
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "priority": 94080198,
+      "noticeAt": 1676624400,
+      "openedAt": 1676624400,
+      "closedAt": 1678420799
+    }, {
+      "id": 94080103,
+      "name": "らぶらぶ鎮圧戦 町の門を突破せよ！",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "40",
+      "spotId": 838201,
+      "spotName": "カルデアゲート",
+      "warId": 8382,
+      "warLongName": "ヨハンナさんと未確認の愛 ぶっ壊せ☆らぶらぶはぁと大石像",
+      "gifts": [{
+        "objectId": 101,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94080003
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "priority": 94080197,
+      "noticeAt": 1676624400,
+      "openedAt": 1676624400,
+      "closedAt": 1678420799
+    }, {
+      "id": 94080104,
+      "name": "らぶらぶ鎮圧戦 傭兵団を倒せ！",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "50",
+      "spotId": 838201,
+      "spotName": "カルデアゲート",
+      "warId": 8382,
+      "warLongName": "ヨハンナさんと未確認の愛 ぶっ壊せ☆らぶらぶはぁと大石像",
+      "gifts": [{
+        "objectId": 101,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94080003
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "priority": 94080196,
+      "noticeAt": 1676624400,
+      "openedAt": 1676624400,
+      "closedAt": 1678420799
+    }, {
+      "id": 94080105,
+      "name": "",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "60",
+      "spotId": 838201,
+      "spotName": "カルデアゲート",
+      "warId": 8382,
+      "warLongName": "ヨハンナさんと未確認の愛 ぶっ壊せ☆らぶらぶはぁと大石像",
+      "gifts": [{
+        "objectId": 101,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94080003
+      }, {
+        "type": "questClear",
+        "targetId": 94080004,
+        "closedMessage": "第三節クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "第三節クリアかつ2月18日18時00分以降に開放"
+      }, {
+        "type": "forceFalse",
+        "targetId": 0,
+        "closedMessage": "データ更新後に開放"
+      }],
+      "phases": [1],
+      "priority": 94080195,
+      "noticeAt": 1676624400,
+      "openedAt": 1676710800,
+      "closedAt": 1678420799
+    }, {
+      "id": 94080301,
+      "name": "【祝福ティーパーティークエスト】出来立て生チョコレート",
+      "type": "event",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "20",
+      "spotId": 838201,
+      "spotName": "カルデアゲート",
+      "warId": 8382,
+      "warLongName": "ヨハンナさんと未確認の愛 ぶっ壊せ☆らぶらぶはぁと大石像",
+      "gifts": [{
+        "objectId": 94080009,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94080003
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "priority": 94080299,
+      "noticeAt": 1676624400,
+      "openedAt": 1676624400,
+      "closedAt": 1678420799
+    }, {
+      "id": 94080302,
+      "name": "",
+      "type": "event",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "30",
+      "spotId": 838201,
+      "spotName": "カルデアゲート",
+      "warId": 8382,
+      "warLongName": "ヨハンナさんと未確認の愛 ぶっ壊せ☆らぶらぶはぁと大石像",
+      "gifts": [{
+        "objectId": 94080009,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94080003
+      }, {
+        "type": "questClear",
+        "targetId": 94080004,
+        "closedMessage": "第三節クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "第三節クリアかつ2月18日18時00分以降に開放"
+      }, {
+        "type": "forceFalse",
+        "targetId": 0,
+        "closedMessage": "データ更新後に開放"
+      }],
+      "phases": [1],
+      "priority": 94080298,
+      "noticeAt": 1676624400,
+      "openedAt": 1676710800,
+      "closedAt": 1678420799
+    }]
+  }]
 }]
