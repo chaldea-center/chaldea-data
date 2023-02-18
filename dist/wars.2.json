@@ -69081,7 +69081,7 @@
       "closedAt": 1678420799
     }, {
       "id": 94080004,
-      "name": "",
+      "name": "第三節『第一の鎖：インドの超英雄』",
       "type": "main",
       "consume": 5,
       "afterClear": "close",
@@ -69095,8 +69095,50 @@
         "num": 1
       }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 94080003
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408000410",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408000410.txt"
+        }, {
+          "scriptId": "9408000411",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408000411.txt"
+        }]
+      }],
+      "priority": 94080396,
+      "noticeAt": 1676624400,
+      "openedAt": 1676710800,
+      "closedAt": 1678420799
+    }, {
+      "id": 94080005,
+      "name": "",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "30",
+      "spotId": 838201,
+      "spotName": "カルデアゲート",
+      "warId": 8382,
+      "warLongName": "ヨハンナさんと未確認の愛 ぶっ壊せ☆らぶらぶはぁと大石像",
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94080004
       }, {
         "type": "date",
         "targetId": 0,
@@ -69106,10 +69148,11 @@
         "targetId": 0,
         "closedMessage": "データ更新後に開放"
       }],
-      "phases": [1],
-      "priority": 94080396,
-      "noticeAt": 1676624400,
-      "openedAt": 1676710800,
+      "phases": [1, 2],
+      "phasesNoBattle": [2],
+      "priority": 94080395,
+      "noticeAt": 1676710800,
+      "openedAt": 1676797200,
       "closedAt": 1678420799
     }, {
       "id": 94080042,
@@ -69260,7 +69303,7 @@
       "closedAt": 1678420799
     }, {
       "id": 94080105,
-      "name": "",
+      "name": "らぶらぶ鎮圧戦 自警団から逃げろ！",
       "type": "event",
       "flags": ["displayLoopmark"],
       "consume": 40,
@@ -69275,6 +69318,9 @@
         "num": 1
       }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 94080003
       }, {
@@ -69285,15 +69331,49 @@
         "type": "date",
         "targetId": 0,
         "closedMessage": "第三節クリアかつ2月18日18時00分以降に開放"
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94080195,
+      "noticeAt": 1676624400,
+      "openedAt": 1676710800,
+      "closedAt": 1678420799
+    }, {
+      "id": 94080106,
+      "name": "",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "70",
+      "spotId": 838201,
+      "spotName": "カルデアゲート",
+      "warId": 8382,
+      "warLongName": "ヨハンナさんと未確認の愛 ぶっ壊せ☆らぶらぶはぁと大石像",
+      "gifts": [{
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94080004
+      }, {
+        "type": "questClear",
+        "targetId": 94080005,
+        "closedMessage": "第四節クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "第四節クリアかつ2月19日18時00分以降に開放"
       }, {
         "type": "forceFalse",
         "targetId": 0,
         "closedMessage": "データ更新後に開放"
       }],
       "phases": [1],
-      "priority": 94080195,
-      "noticeAt": 1676624400,
-      "openedAt": 1676710800,
+      "priority": 94080194,
+      "noticeAt": 1676710800,
+      "openedAt": 1676797200,
       "closedAt": 1678420799
     }, {
       "id": 94080301,
@@ -69325,7 +69405,7 @@
       "closedAt": 1678420799
     }, {
       "id": 94080302,
-      "name": "",
+      "name": "【祝福ティーパーティークエスト】さくさくスコーンとジャム",
       "type": "event",
       "consume": 5,
       "afterClear": "close",
@@ -69339,6 +69419,9 @@
         "num": 1
       }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 94080003
       }, {
@@ -69349,15 +69432,48 @@
         "type": "date",
         "targetId": 0,
         "closedMessage": "第三節クリアかつ2月18日18時00分以降に開放"
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94080298,
+      "noticeAt": 1676624400,
+      "openedAt": 1676710800,
+      "closedAt": 1678420799
+    }, {
+      "id": 94080303,
+      "name": "",
+      "type": "event",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "40",
+      "spotId": 838201,
+      "spotName": "カルデアゲート",
+      "warId": 8382,
+      "warLongName": "ヨハンナさんと未確認の愛 ぶっ壊せ☆らぶらぶはぁと大石像",
+      "gifts": [{
+        "objectId": 94080009,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94080004
+      }, {
+        "type": "questClear",
+        "targetId": 94080005,
+        "closedMessage": "第四節クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "第四節クリアかつ2月19日18時00分以降に開放"
       }, {
         "type": "forceFalse",
         "targetId": 0,
         "closedMessage": "データ更新後に開放"
       }],
       "phases": [1],
-      "priority": 94080298,
-      "noticeAt": 1676624400,
-      "openedAt": 1676710800,
+      "priority": 94080297,
+      "noticeAt": 1676710800,
+      "openedAt": 1676797200,
       "closedAt": 1678420799
     }]
   }]
