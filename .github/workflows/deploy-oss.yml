@@ -8,6 +8,7 @@ on:
 
 jobs:
   deploy:
+    if: github.repository_owner == 'chaldea-center'
     runs-on: ubuntu-latest
     steps:
       - name: Setup Python 3.10
