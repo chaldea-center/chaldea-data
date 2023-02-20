@@ -69165,6 +69165,7 @@
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "phaseScripts": [{
         "phase": 1,
         "scripts": [{
@@ -69178,6 +69179,44 @@
       "priority": 94080394,
       "noticeAt": 1676797200,
       "openedAt": 1676883600,
+      "closedAt": 1678420799
+    }, {
+      "id": 94080007,
+      "name": "第六節『第四の鎖：道化の怪物は虚無を穿つ』",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "50",
+      "spotId": 838201,
+      "spotName": "カルデアゲート",
+      "warId": 8382,
+      "warLongName": "ヨハンナさんと未確認の愛 ぶっ壊せ☆らぶらぶはぁと大石像",
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94080006
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408000710",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408000710.txt"
+        }, {
+          "scriptId": "9408000711",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408000711.txt"
+        }]
+      }],
+      "priority": 94080393,
+      "noticeAt": 1676883600,
+      "openedAt": 1676970000,
       "closedAt": 1678420799
     }, {
       "id": 94080042,
@@ -69429,9 +69468,43 @@
         "closedMessage": "第五節クリアかつ2月20日18時00分以降に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94080193,
       "noticeAt": 1676797200,
       "openedAt": 1676883600,
+      "closedAt": 1678420799
+    }, {
+      "id": 94080108,
+      "name": "らぶらぶ鎮圧戦 黄金式場を破壊せよ！",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90",
+      "spotId": 838201,
+      "spotName": "カルデアゲート",
+      "warId": 8382,
+      "warLongName": "ヨハンナさんと未確認の愛 ぶっ壊せ☆らぶらぶはぁと大石像",
+      "gifts": [{
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94080006
+      }, {
+        "type": "questClear",
+        "targetId": 94080007,
+        "closedMessage": "第六節クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "第六節クリアかつ2月21日18時00分以降に開放"
+      }],
+      "phases": [1],
+      "priority": 94080192,
+      "noticeAt": 1676883600,
+      "openedAt": 1676970000,
       "closedAt": 1678420799
     }, {
       "id": 94080301,
@@ -69561,9 +69634,42 @@
         "closedMessage": "第五節クリアかつ2月20日18時00分以降に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94080296,
       "noticeAt": 1676797200,
       "openedAt": 1676883600,
+      "closedAt": 1678420799
+    }, {
+      "id": 94080305,
+      "name": "【祝福ティーパーティークエスト】極彩色のドライフルーツ",
+      "type": "event",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "60",
+      "spotId": 838201,
+      "spotName": "カルデアゲート",
+      "warId": 8382,
+      "warLongName": "ヨハンナさんと未確認の愛 ぶっ壊せ☆らぶらぶはぁと大石像",
+      "gifts": [{
+        "objectId": 94080009,
+        "num": 2
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94080006
+      }, {
+        "type": "questClear",
+        "targetId": 94080007,
+        "closedMessage": "第六節クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "第六節クリアかつ2月21日18時00分以降に開放"
+      }],
+      "phases": [1],
+      "priority": 94080295,
+      "noticeAt": 1676883600,
+      "openedAt": 1676970000,
       "closedAt": 1678420799
     }]
   }]
