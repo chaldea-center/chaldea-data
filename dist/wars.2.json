@@ -69204,6 +69204,7 @@
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "phaseScripts": [{
         "phase": 1,
         "scripts": [{
@@ -69217,6 +69218,35 @@
       "priority": 94080393,
       "noticeAt": 1676883600,
       "openedAt": 1676970000,
+      "closedAt": 1678420799
+    }, {
+      "id": 94080008,
+      "name": "",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "60",
+      "spotId": 838201,
+      "spotName": "カルデアゲート",
+      "warId": 8382,
+      "warLongName": "ヨハンナさんと未確認の愛 ぶっ壊せ☆らぶらぶはぁと大石像",
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/3.png",
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94080007
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "forceFalse",
+        "targetId": 0,
+        "closedMessage": "データ更新後に開放"
+      }],
+      "phases": [1],
+      "priority": 94080392,
+      "noticeAt": 1676970000,
+      "openedAt": 1677056400,
       "closedAt": 1678420799
     }, {
       "id": 94080042,
@@ -69502,9 +69532,84 @@
         "closedMessage": "第六節クリアかつ2月21日18時00分以降に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94080192,
       "noticeAt": 1676883600,
       "openedAt": 1676970000,
+      "closedAt": 1678420799
+    }, {
+      "id": 94080109,
+      "name": "",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90+",
+      "spotId": 838201,
+      "spotName": "カルデアゲート",
+      "warId": 8382,
+      "warLongName": "ヨハンナさんと未確認の愛 ぶっ壊せ☆らぶらぶはぁと大石像",
+      "gifts": [{
+        "objectId": 3,
+        "num": 100
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94080007
+      }, {
+        "type": "questClear",
+        "targetId": 94080008,
+        "closedMessage": "第七節クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "第七節クリアかつ2月22日18時00分以降に開放"
+      }, {
+        "type": "forceFalse",
+        "targetId": 0,
+        "closedMessage": "データ更新後に開放"
+      }],
+      "phases": [1],
+      "priority": 94080191,
+      "noticeAt": 1676970000,
+      "openedAt": 1677056400,
+      "closedAt": 1678420799
+    }, {
+      "id": 94080110,
+      "name": "",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90++",
+      "spotId": 838201,
+      "spotName": "カルデアゲート",
+      "warId": 8382,
+      "warLongName": "ヨハンナさんと未確認の愛 ぶっ壊せ☆らぶらぶはぁと大石像",
+      "gifts": [{
+        "objectId": 3,
+        "num": 200
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94080007
+      }, {
+        "type": "questClear",
+        "targetId": 94080008,
+        "closedMessage": "第七節クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "第七節クリアかつ2月22日18時00分以降に開放"
+      }, {
+        "type": "forceFalse",
+        "targetId": 0,
+        "closedMessage": "データ更新後に開放"
+      }],
+      "phases": [1],
+      "priority": 94080190,
+      "noticeAt": 1676970000,
+      "openedAt": 1677056400,
       "closedAt": 1678420799
     }, {
       "id": 94080301,
@@ -69667,9 +69772,82 @@
         "closedMessage": "第六節クリアかつ2月21日18時00分以降に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94080295,
       "noticeAt": 1676883600,
       "openedAt": 1676970000,
+      "closedAt": 1678420799
+    }, {
+      "id": 94080306,
+      "name": "",
+      "type": "event",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "70",
+      "spotId": 838201,
+      "spotName": "カルデアゲート",
+      "warId": 8382,
+      "warLongName": "ヨハンナさんと未確認の愛 ぶっ壊せ☆らぶらぶはぁと大石像",
+      "gifts": [{
+        "objectId": 94080009,
+        "num": 2
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94080007
+      }, {
+        "type": "questClear",
+        "targetId": 94080008,
+        "closedMessage": "第七節クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "第七節クリアかつ2月22日18時00分以降に開放"
+      }, {
+        "type": "forceFalse",
+        "targetId": 0,
+        "closedMessage": "データ更新後に開放"
+      }],
+      "phases": [1],
+      "priority": 94080294,
+      "noticeAt": 1676970000,
+      "openedAt": 1677056400,
+      "closedAt": 1678420799
+    }, {
+      "id": 94080307,
+      "name": "",
+      "type": "event",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "80",
+      "spotId": 838201,
+      "spotName": "カルデアゲート",
+      "warId": 8382,
+      "warLongName": "ヨハンナさんと未確認の愛 ぶっ壊せ☆らぶらぶはぁと大石像",
+      "gifts": [{
+        "objectId": 94080009,
+        "num": 3
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94080007
+      }, {
+        "type": "questClear",
+        "targetId": 94080008,
+        "closedMessage": "第七節クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "第七節クリアかつ2月22日18時00分以降に開放"
+      }, {
+        "type": "forceFalse",
+        "targetId": 0,
+        "closedMessage": "データ更新後に開放"
+      }],
+      "phases": [1],
+      "priority": 94080293,
+      "noticeAt": 1676970000,
+      "openedAt": 1677056400,
       "closedAt": 1678420799
     }]
   }]
