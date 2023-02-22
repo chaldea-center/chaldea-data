@@ -68909,6 +68909,16 @@
     "value": 0,
     "startedAt": 1676970000,
     "endedAt": 1678420799
+  }, {
+    "warId": 8382,
+    "type": "bgImage",
+    "priority": 5,
+    "overwriteId": 178700,
+    "condType": "questClear",
+    "targetId": 94080008,
+    "value": 0,
+    "startedAt": 1677056400,
+    "endedAt": 1678420799
   }],
   "maps": [{
     "id": 8382,
@@ -69221,7 +69231,7 @@
       "closedAt": 1678420799
     }, {
       "id": 94080008,
-      "name": "",
+      "name": "第七節『第一の鎖：インドの超英雄、話し合いリターンズ』",
       "type": "main",
       "consume": 5,
       "afterClear": "close",
@@ -69231,19 +69241,37 @@
       "warId": 8382,
       "warLongName": "ヨハンナさんと未確認の愛 ぶっ壊せ☆らぶらぶはぁと大石像",
       "giftIcon": "https://static.atlasacademy.io/JP/Items/3.png",
+      "gifts": [{
+        "type": "servant",
+        "objectId": 9808760,
+        "num": 1
+      }, {
+        "objectId": 7999,
+        "num": 1
+      }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 94080007
       }, {
         "type": "date",
         "targetId": 0,
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
-      }, {
-        "type": "forceFalse",
-        "targetId": 0,
-        "closedMessage": "データ更新後に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408000810",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408000810.txt"
+        }, {
+          "scriptId": "9408000811",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408000811.txt"
+        }]
+      }],
       "priority": 94080392,
       "noticeAt": 1676970000,
       "openedAt": 1677056400,
@@ -69539,7 +69567,7 @@
       "closedAt": 1678420799
     }, {
       "id": 94080109,
-      "name": "",
+      "name": "らぶらぶ鎮圧戦 若き富豪の野望を阻止せよ！",
       "type": "event",
       "flags": ["displayLoopmark"],
       "consume": 40,
@@ -69554,6 +69582,9 @@
         "num": 100
       }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 94080007
       }, {
@@ -69564,19 +69595,16 @@
         "type": "date",
         "targetId": 0,
         "closedMessage": "第七節クリアかつ2月22日18時00分以降に開放"
-      }, {
-        "type": "forceFalse",
-        "targetId": 0,
-        "closedMessage": "データ更新後に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94080191,
       "noticeAt": 1676970000,
       "openedAt": 1677056400,
       "closedAt": 1678420799
     }, {
       "id": 94080110,
-      "name": "",
+      "name": "らぶらぶ鎮圧戦 新たな石像の建立を妨害しろ！",
       "type": "event",
       "flags": ["displayLoopmark"],
       "consume": 40,
@@ -69591,6 +69619,9 @@
         "num": 200
       }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 94080007
       }, {
@@ -69601,15 +69632,45 @@
         "type": "date",
         "targetId": 0,
         "closedMessage": "第七節クリアかつ2月22日18時00分以降に開放"
-      }, {
-        "type": "forceFalse",
-        "targetId": 0,
-        "closedMessage": "データ更新後に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94080190,
       "noticeAt": 1676970000,
       "openedAt": 1677056400,
+      "closedAt": 1678420799
+    }, {
+      "id": 94080201,
+      "name": "【高難易度】テンシとアクマに願いを",
+      "type": "event",
+      "flags": ["dropFirstTimeOnly", "notRetrievable"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "90+",
+      "spotId": 838201,
+      "spotName": "カルデアゲート",
+      "warId": 8382,
+      "warLongName": "ヨハンナさんと未確認の愛 ぶっ壊せ☆らぶらぶはぁと大石像",
+      "gifts": [{
+        "objectId": 6999,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 1000822,
+        "closedMessage": "終局特異点クリアで開放"
+      }, {
+        "type": "questClear",
+        "targetId": 94080008
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "終局特異点クリアかつ2月24日18時00分以降に開放"
+      }],
+      "phases": [1],
+      "priority": 94080360,
+      "noticeAt": 1677056400,
+      "openedAt": 1677229200,
       "closedAt": 1678420799
     }, {
       "id": 94080301,
@@ -69779,7 +69840,7 @@
       "closedAt": 1678420799
     }, {
       "id": 94080306,
-      "name": "",
+      "name": "【祝福ティーパーティークエスト】本場仕込のバタークッキー",
       "type": "event",
       "consume": 5,
       "afterClear": "close",
@@ -69793,6 +69854,9 @@
         "num": 2
       }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 94080007
       }, {
@@ -69803,10 +69867,6 @@
         "type": "date",
         "targetId": 0,
         "closedMessage": "第七節クリアかつ2月22日18時00分以降に開放"
-      }, {
-        "type": "forceFalse",
-        "targetId": 0,
-        "closedMessage": "データ更新後に開放"
       }],
       "phases": [1],
       "priority": 94080294,
@@ -69815,7 +69875,7 @@
       "closedAt": 1678420799
     }, {
       "id": 94080307,
-      "name": "",
+      "name": "【祝福ティーパーティークエスト】パンケーキ・バイキング",
       "type": "event",
       "consume": 5,
       "afterClear": "close",
@@ -69829,6 +69889,9 @@
         "num": 3
       }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 94080007
       }, {
@@ -69839,10 +69902,6 @@
         "type": "date",
         "targetId": 0,
         "closedMessage": "第七節クリアかつ2月22日18時00分以降に開放"
-      }, {
-        "type": "forceFalse",
-        "targetId": 0,
-        "closedMessage": "データ更新後に開放"
       }],
       "phases": [1],
       "priority": 94080293,
