@@ -50,11 +50,16 @@ def main(bucket_name: str, folder: Path, *args):
             unchanged += 1
             continue
         print(f">>> Uploading {key} ...")
+        if key.endswith(".json"):
+            meta = ["--meta", "Content-Type:application/json;charset=utf-8"]
+        else:
+            meta = []
         _call_oss(
             "cp",
             str(file.absolute()),
             f"oss://{bucket_name}/{key}",
             "-f",
+            *meta,
             *args,
         )
         uploaded += 1
