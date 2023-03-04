@@ -258,6 +258,9 @@
       "NA": "The Dantès Files: A Nightmare Returns",
       "KR": "탐정 에드몽 ~되살아나는 악몽편~"
     },
+    "概念礼装EXPカード：二代目は壱与！": {
+      "NA": "CE EXP Card: Yamatai Queen the Second, Iyo!"
+    },
     "百鬼夜行": {
       "NA": "Demonic Parade",
       "KR": "백귀야행"
@@ -279,6 +282,9 @@
   "event_names": {
     "15人の理知的なメガネたち": {
       "CN": "15位理智性眼镜们"
+    },
+    "アドバンスドクエスト 第14弾": {
+      "CN": "进阶关卡 第14弹"
     },
     "カルデアボーイズコレクション2020": {
       "NA": "Chaldea Boys Collection 2022"
@@ -558,6 +564,10 @@
       "NA": "Timeless Worldwide Exhibition, Sculpture Zone",
       "KR": "고금동서전・조각 존"
     },
+    "古今東西展 模型ゾーン": {
+      "NA": "Timeless Worldwide Exhibition, Model Zone",
+      "KR": "고금동서전・모형 존"
+    },
     "商店街でゲリラライブ〔パフォーマンスUP〕": {
       "TW": "在商店街舉辦突擊演唱會〔表演UP〕"
     },
@@ -744,6 +754,10 @@
     },
     "第三節　ハートを磨くっきゃない": {
       "TW": "第三節　心靈必須磨練"
+    },
+    "第三節『前菜・食前酒、あるいはお通し』": {
+      "NA": "Section 3: Hors d'oeuvre, Aperitif, or Appetizer",
+      "KR": "제3절 ‘전채・식전주, 또는 주전부리’"
     },
     "第三節『第一の鎖：インドの超英雄』": {
       "NA": "Act 3 \"The First Chain: India's Superhero\""
@@ -1822,7 +1836,257 @@
       "TW": 1676955600
     }
   },
-  "misc2": {
+  "enums": {
+    "svt_class": {
+      "1": {},
+      "2": {},
+      "3": {},
+      "4": {},
+      "5": {},
+      "6": {},
+      "7": {},
+      "8": {},
+      "9": {},
+      "10": {},
+      "11": {},
+      "12": {},
+      "13": {},
+      "14": {},
+      "15": {},
+      "16": {},
+      "17": {},
+      "18": {},
+      "19": {},
+      "20": {},
+      "21": {},
+      "22": {},
+      "23": {},
+      "24": {},
+      "25": {},
+      "26": {},
+      "27": {},
+      "28": {},
+      "29": {},
+      "30": {},
+      "31": {},
+      "32": {},
+      "97": {},
+      "98": {},
+      "99": {},
+      "100": {},
+      "107": {},
+      "124": {},
+      "125": {},
+      "1000": {},
+      "1001": {},
+      "1002": {},
+      "1003": {}
+    }
+  },
+  "misc": {
+    "$default": {
+      "__COMMENT__": {
+        "JP": "",
+        "CN": "",
+        "TW": "",
+        "NA": "TowerName",
+        "KR": "TowerName"
+      },
+      "Fujimaru": {
+        "JP": "藤丸",
+        "CN": "藤丸",
+        "TW": "藤丸",
+        "NA": "Fujimaru"
+      }
+    },
+    "Function": {
+      "ifPrevFuncSucceed": {
+        "JP": "前の効果が成功時",
+        "CN": "前一个效果成功时",
+        "TW": "前一個效果成功時",
+        "NA": "If previous func succeeds"
+      },
+      "ActSelectIndex": {
+        "JP": "{0}を選ぶ時",
+        "CN": "选择{0}时",
+        "TW": "選擇{0}時",
+        "NA": "If select {0}"
+      },
+      "CopyTargetBuffType": {
+        "JP": "Buffs",
+        "TW": "Buffs",
+        "NA": "Buffs"
+      },
+      "CopyTargetFunctionType": {
+        "JP": "Funcs",
+        "TW": "Funcs",
+        "NA": "Funcs"
+      },
+      "CopyFunctionTargetPTOnly": {
+        "CN": "仅目标为自身或队友的效果",
+        "TW": "僅目標為自身或隊友的效果",
+        "NA": "Only ally/self targeted function"
+      }
+    },
+    "RecipeName": {
+      "甘いお茶": {},
+      "渋いお茶": {},
+      "ほうじ茶": {},
+      "抹茶": {},
+      "邪馬台茶": {},
+      "新選茶": {},
+      "ノブ茶": {},
+      "コーラ茶": {},
+      "沢庵茶": {},
+      "キュケ茶": {},
+      "ハーゲン茶": {}
+    },
+    "SelectAddInfo": {
+      "Optional": {
+        "CN": "可选",
+        "TW": "可選",
+        "NA": "Optional"
+      },
+      "Option": {
+        "CN": "选项",
+        "TW": "選項",
+        "NA": "Option"
+      },
+      "スターを消費して追加の効果を得るか選択してください": {
+        "CN": "消耗暴击星以获得额外的效果",
+        "TW": "消耗爆擊星以獲得額外的效果",
+        "NA": "Consume C. Stars to get additional effects"
+      },
+      "消費しない": {
+        "CN": "不消耗",
+        "TW": "不消耗",
+        "NA": "Don't consume"
+      },
+      "10個消費する": {
+        "CN": "消耗10个",
+        "TW": "消耗10個",
+        "NA": "Consume 10"
+      }
+    },
+    "SkillScript": {
+      "actIndividuality": {
+        "JP": "{0}装備時のみ",
+        "CN": "仅{0}装备时生效",
+        "TW": "僅{0}裝備時生效",
+        "NA": "Only if {0} equipped"
+      },
+      "actIndividuality2": {
+        "JP": "{0}装備時のみ",
+        "CN": "仅持有{0}特性时生效",
+        "TW": "僅持有{0}特性時生效",
+        "NA": "Only if has {0} trait"
+      },
+      "HP_PER_HIGHER": {
+        "JP": "<HPが{0}%以上の場合のみ使用可能>",
+        "CN": "<仅在生命值大于{0}时可使用>",
+        "TW": "<僅在HP大於{0}%時可使用>",
+        "NA": "<Useable only if HP is below {0}>"
+      },
+      "HP_PER_LOWER": {
+        "JP": "<HPが{0}%以下の場合のみ使用可能>",
+        "CN": "<仅在生命值低于{0}时可使用>",
+        "TW": "<僅在HP低於{0}%時可使用>",
+        "NA": "<Useable only if HP is below {0}>",
+        "KR": "<HP가 {0}% 이하인 경우에만 사용 가능>"
+      },
+      "HP_VAL_HIGHER": {
+        "JP": "<HPが{0}以上ある場合のみ使用可能>",
+        "CN": "<仅当生命值大于{0}时可使用>",
+        "TW": "<僅當HP大於{0}時可使用>",
+        "NA": "<Usable only if HP is {0} or higher>",
+        "KR": "<HP가 {0} 이상 있는 경우 사용 가능>"
+      },
+      "HP_VAL_LOWER": {
+        "JP": "<HPが{0}以下ある場合のみ使用可能>",
+        "CN": "<仅当生命值低于{0}时可使用>",
+        "TW": "<僅當HP大於{0}時可使用>",
+        "NA": "<Usable only if HP is below {0}>"
+      },
+      "NP_HIGHER": {
+        "JP": "<NPが{0}以上ある場合のみ使用可能>",
+        "CN": "<仅限NP在{0}以上时能使用>",
+        "TW": "<僅限NP在{0}以上時能使用>",
+        "NA": "<Usable only when NP gauge is {0} or higher>",
+        "KR": "<NP {0} 이상인 경우에만 사용 가능>"
+      },
+      "NP_LOWER": {
+        "JP": "<NPが{0}以下ある場合のみ使用可能>",
+        "CN": "<仅限NP在{0}以下时能使用>",
+        "TW": "<僅限NP在{0}以下時能使用>",
+        "NA": "<Usable only when NP gauge is below {0}>"
+      },
+      "STAR_HIGHER": {
+        "JP": "<スターが{0}個以上ある場合のみ使用可能>",
+        "CN": "<仅在暴击星为{0}个以上时可使用>",
+        "TW": "<僅在爆擊星為{0}個以上時可使用>",
+        "NA": "<Usable only when there are {0} C. Stars or more>",
+        "KR": "<스타가 {0}개 이상 있는 경우 사용 가능>"
+      },
+      "STAR_LOWER": {
+        "JP": "<スターが{0}個以下ある場合のみ使用可能>",
+        "CN": "<仅在暴击星为{0}个以下时可使用>",
+        "TW": "<僅在爆擊星為{0}個以下時可使用>",
+        "NA": "<Usable only when there are less than {0} C. Stars>"
+      },
+      "additionalSkillId": {
+        "JP": "追加スキル: ",
+        "CN": "额外技能: ",
+        "TW": "額外技能: ",
+        "NA": "Additional Skill: "
+      },
+      "additionalSkillActorType": {},
+      "excludeTdChangeTypes": {},
+      "tdTypeChangeIDs": {
+        "JP": "変更可能な宝具カードのタイプ: ",
+        "CN": "可变更宝具卡类型: ",
+        "TW": "可變更寶具卡類型: ",
+        "NA": "Changeable NP Card Type: "
+      }
+    },
+    "TowerName": {
+      "百重塔": {
+        "CN": "百重塔",
+        "TW": "百重塔",
+        "NA": "Oni Pagoda"
+      },
+      "百重塔（陽炎）": {
+        "CN": "百重塔（阳炎）",
+        "TW": "百重塔（陽炎）",
+        "NA": "Oni Pagoda (Mirage)"
+      },
+      "アマゾネス倉庫": {
+        "CN": "Amazones仓库",
+        "TW": "Amazones倉庫",
+        "NA": "Amazones Warehouse"
+      },
+      "アルテミス神殿タワー": {
+        "CN": "阿耳忒弥斯神殿塔",
+        "TW": "阿耳忒彌斯神殿塔",
+        "NA": "Artemis Tower"
+      },
+      "極・アルテミス神殿タワー": {
+        "CN": "极·阿耳忒弥斯神殿塔",
+        "TW": "極．阿耳忒彌斯神殿塔",
+        "NA": "Extreme Artemis Tower"
+      },
+      "ウィッシュメンカード": {
+        "CN": "Wish men card",
+        "TW": "Wish men card"
+      },
+      "秋葉原タワー会館": {
+        "CN": "秋叶原tower会馆",
+        "TW": "秋葉原tower會館"
+      },
+      "ミートタワー": {
+        "CN": "Meat tower",
+        "TW": "Meat tower"
+      }
+    },
     "master_name": {
       "カドック・ゼムルプス": {
         "CN": "卡多克·泽姆露普斯",
