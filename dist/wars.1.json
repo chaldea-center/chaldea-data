@@ -92734,6 +92734,54 @@
     }
   }],
   "spots": [{
+    "id": 838302,
+    "mapId": 9999,
+    "name": "",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9999/QMap_Cap9999_Atlas/spot_838302.png",
+    "x": 0,
+    "y": 0,
+    "quests": [{
+      "id": 94082101,
+      "name": "「高杉晋作からのメッセージ ホワイトデー当日」",
+      "type": "event",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 838302,
+      "spotName": "",
+      "warId": 9999,
+      "warLongName": "カルデアゲート",
+      "gifts": [{
+        "objectId": 4001,
+        "num": 1
+      }, {
+        "objectId": 1,
+        "num": 500000
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 1000011
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408210110",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408210110.txt"
+        }]
+      }],
+      "priority": 94081899,
+      "noticeAt": 1678719600,
+      "openedAt": 1678719600,
+      "closedAt": 1678805999
+    }]
+  }, {
     "id": 999999,
     "mapId": 9999,
     "name": "カルデアゲート",
