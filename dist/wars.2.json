@@ -70038,7 +70038,7 @@
       "closedAt": 1680839999
     }, {
       "id": 94081803,
-      "name": "",
+      "name": "02：「アットホームな職場です」",
       "type": "main",
       "consume": 5,
       "afterClear": "close",
@@ -70052,6 +70052,9 @@
         "num": 1
       }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 94081802
       }, {
@@ -70061,16 +70064,66 @@
       }, {
         "type": "eventTotalPoint",
         "targetId": 80422,
-        "value": 40000
-      }, {
-        "type": "forceFalse",
-        "targetId": 0,
-        "closedMessage": "データ更新後に開放"
+        "value": 40000,
+        "closedMessage": "ＴＡＫＡＳＵＧＩポイント40,000以上で開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408180310",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408180310.txt"
+        }, {
+          "scriptId": "9408180311",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408180311.txt"
+        }]
+      }],
       "priority": 94082097,
       "noticeAt": 1679043600,
       "openedAt": 1679130000,
+      "closedAt": 1680839999
+    }, {
+      "id": 94081804,
+      "name": "03：「諸行無常のM&A」",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 838301,
+      "spotName": "カルデアゲート",
+      "warId": 8383,
+      "warLongName": "CBC2023 カルデア重工物語 ～君と僕のBtoB～",
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94081803
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "ＴＡＫＡＳＵＧＩポイント100,000以上＆3月19日18時以降に開放"
+      }, {
+        "type": "eventTotalPoint",
+        "targetId": 80422,
+        "value": 100000,
+        "closedMessage": "ＴＡＫＡＳＵＧＩポイント100,000以上で開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408180410",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408180410.txt"
+        }]
+      }],
+      "priority": 94082096,
+      "noticeAt": 1679130000,
+      "openedAt": 1679216400,
       "closedAt": 1680839999
     }, {
       "id": 94081901,
@@ -70161,7 +70214,7 @@
       "closedAt": 1680839999
     }, {
       "id": 94081904,
-      "name": "",
+      "name": "企業訪問 『トモエごはん』",
       "type": "event",
       "flags": ["displayLoopmark"],
       "consume": 40,
@@ -70176,24 +70229,58 @@
         "num": 1
       }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 94081802
       }, {
         "type": "questClear",
-        "targetId": 94081803
+        "targetId": 94081803,
+        "closedMessage": "第二節クリアで開放"
       }, {
         "type": "date",
         "targetId": 0,
         "closedMessage": "第二節クリアかつ3月18日18時00分以降に開放"
-      }, {
-        "type": "forceFalse",
-        "targetId": 0,
-        "closedMessage": "データ更新後に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94081996,
       "noticeAt": 1679043600,
       "openedAt": 1679130000,
+      "closedAt": 1680839999
+    }, {
+      "id": 94081905,
+      "name": "企業訪問 『欧風居酒屋ツェペシュ』",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "60",
+      "spotId": 838301,
+      "spotName": "カルデアゲート",
+      "warId": 8383,
+      "warLongName": "CBC2023 カルデア重工物語 ～君と僕のBtoB～",
+      "gifts": [{
+        "objectId": 101,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94081803
+      }, {
+        "type": "questClear",
+        "targetId": 94081804,
+        "closedMessage": "第三節クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "第三節クリアかつ3月19日18時00分以降に開放"
+      }],
+      "phases": [1],
+      "priority": 94081995,
+      "noticeAt": 1679130000,
+      "openedAt": 1679216400,
       "closedAt": 1680839999
     }]
   }]
