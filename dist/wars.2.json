@@ -70126,6 +70126,48 @@
       "openedAt": 1679216400,
       "closedAt": 1680839999
     }, {
+      "id": 94081805,
+      "name": "04：「さよなら社長」",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 838301,
+      "spotName": "カルデアゲート",
+      "warId": 8383,
+      "warLongName": "CBC2023 カルデア重工物語 ～君と僕のBtoB～",
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94081804
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "ＴＡＫＡＳＵＧＩポイント180,000以上＆3月20日18時以降に開放"
+      }, {
+        "type": "eventTotalPoint",
+        "targetId": 80422,
+        "value": 180000,
+        "closedMessage": "ＴＡＫＡＳＵＧＩポイント180,000以上で開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408180510",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408180510.txt"
+        }]
+      }],
+      "priority": 94082095,
+      "noticeAt": 1679216400,
+      "openedAt": 1679302800,
+      "closedAt": 1680839999
+    }, {
       "id": 94081901,
       "name": "企業訪問 『アロンダイト鉄工』",
       "type": "event",
@@ -70278,9 +70320,43 @@
         "closedMessage": "第三節クリアかつ3月19日18時00分以降に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94081995,
       "noticeAt": 1679130000,
       "openedAt": 1679216400,
+      "closedAt": 1680839999
+    }, {
+      "id": 94081906,
+      "name": "企業訪問 『ひみつ会社アサシン』",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "70",
+      "spotId": 838301,
+      "spotName": "カルデアゲート",
+      "warId": 8383,
+      "warLongName": "CBC2023 カルデア重工物語 ～君と僕のBtoB～",
+      "gifts": [{
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94081804
+      }, {
+        "type": "questClear",
+        "targetId": 94081805,
+        "closedMessage": "第四節クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "第四節クリアかつ3月20日18時00分以降に開放"
+      }],
+      "phases": [1],
+      "priority": 94081994,
+      "noticeAt": 1679216400,
+      "openedAt": 1679302800,
       "closedAt": 1680839999
     }]
   }]
