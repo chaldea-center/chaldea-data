@@ -70168,6 +70168,43 @@
       "openedAt": 1679302800,
       "closedAt": 1680839999
     }, {
+      "id": 94081806,
+      "name": "",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "40",
+      "spotId": 838301,
+      "spotName": "カルデアゲート",
+      "warId": 8383,
+      "warLongName": "CBC2023 カルデア重工物語 ～君と僕のBtoB～",
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94081805
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "ＴＡＫＡＳＵＧＩポイント280,000以上＆3月21日18時以降に開放"
+      }, {
+        "type": "eventTotalPoint",
+        "targetId": 80422,
+        "value": 280000
+      }, {
+        "type": "forceFalse",
+        "targetId": 0,
+        "closedMessage": "データ更新後に開放"
+      }],
+      "phases": [1, 2],
+      "phasesNoBattle": [2],
+      "priority": 94082094,
+      "noticeAt": 1679302800,
+      "openedAt": 1679389200,
+      "closedAt": 1680839999
+    }, {
       "id": 94081901,
       "name": "企業訪問 『アロンダイト鉄工』",
       "type": "event",
@@ -70354,9 +70391,46 @@
         "closedMessage": "第四節クリアかつ3月20日18時00分以降に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94081994,
       "noticeAt": 1679216400,
       "openedAt": 1679302800,
+      "closedAt": 1680839999
+    }, {
+      "id": 94081907,
+      "name": "",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "80",
+      "spotId": 838301,
+      "spotName": "カルデアゲート",
+      "warId": 8383,
+      "warLongName": "CBC2023 カルデア重工物語 ～君と僕のBtoB～",
+      "gifts": [{
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94081805
+      }, {
+        "type": "questClear",
+        "targetId": 94081806
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "第五節クリアかつ3月21日18時00分以降に開放"
+      }, {
+        "type": "forceFalse",
+        "targetId": 0,
+        "closedMessage": "データ更新後に開放"
+      }],
+      "phases": [1],
+      "priority": 94081993,
+      "noticeAt": 1679302800,
+      "openedAt": 1679389200,
       "closedAt": 1680839999
     }]
   }]
