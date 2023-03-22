@@ -70220,7 +70220,7 @@
       "closedAt": 1680839999
     }, {
       "id": 94081807,
-      "name": "",
+      "name": "06：「開国してください」",
       "type": "main",
       "consume": 5,
       "afterClear": "close",
@@ -70234,6 +70234,9 @@
         "num": 1
       }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 94081806
       }, {
@@ -70243,16 +70246,60 @@
       }, {
         "type": "eventTotalPoint",
         "targetId": 80422,
-        "value": 405000
+        "value": 405000,
+        "closedMessage": "ＴＡＫＡＳＵＧＩポイント405,000以上で開放"
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408180710",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408180710.txt"
+        }, {
+          "scriptId": "9408180711",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408180711.txt"
+        }]
+      }],
+      "priority": 94082093,
+      "noticeAt": 1679389200,
+      "openedAt": 1679475600,
+      "closedAt": 1680839999
+    }, {
+      "id": 94081808,
+      "name": "",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "60",
+      "spotId": 838301,
+      "spotName": "カルデアゲート",
+      "warId": 8383,
+      "warLongName": "CBC2023 カルデア重工物語 ～君と僕のBtoB～",
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94081807
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "ＴＡＫＡＳＵＧＩポイント555,000以上＆3月23日18時以降に開放"
+      }, {
+        "type": "eventTotalPoint",
+        "targetId": 80422,
+        "value": 555000
       }, {
         "type": "forceFalse",
         "targetId": 0,
         "closedMessage": "データ更新後に開放"
       }],
       "phases": [1],
-      "priority": 94082093,
-      "noticeAt": 1679389200,
-      "openedAt": 1679475600,
+      "priority": 94082092,
+      "noticeAt": 1679475600,
+      "openedAt": 1679562000,
       "closedAt": 1680839999
     }, {
       "id": 94081901,
@@ -70485,7 +70532,7 @@
       "closedAt": 1680839999
     }, {
       "id": 94081908,
-      "name": "",
+      "name": "企業訪問 『ヘアサロン・ブラックバート』",
       "type": "event",
       "flags": ["displayLoopmark"],
       "consume": 40,
@@ -70500,24 +70547,99 @@
         "num": 1
       }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 94081806
       }, {
         "type": "questClear",
-        "targetId": 94081807
+        "targetId": 94081807,
+        "closedMessage": "第六節クリアで開放"
       }, {
         "type": "date",
         "targetId": 0,
         "closedMessage": "第六節クリアかつ3月22日18時00分以降に開放"
+      }],
+      "phases": [1],
+      "priority": 94081992,
+      "noticeAt": 1679389200,
+      "openedAt": 1679475600,
+      "closedAt": 1680839999
+    }, {
+      "id": 94081909,
+      "name": "",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90+",
+      "spotId": 838301,
+      "spotName": "カルデアゲート",
+      "warId": 8383,
+      "warLongName": "CBC2023 カルデア重工物語 ～君と僕のBtoB～",
+      "gifts": [{
+        "objectId": 3,
+        "num": 100
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94081807
+      }, {
+        "type": "questClear",
+        "targetId": 94081808
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "第七節クリアかつ3月23日18時00分以降に開放"
       }, {
         "type": "forceFalse",
         "targetId": 0,
         "closedMessage": "データ更新後に開放"
       }],
       "phases": [1],
-      "priority": 94081992,
-      "noticeAt": 1679389200,
-      "openedAt": 1679475600,
+      "priority": 94081991,
+      "noticeAt": 1679475600,
+      "openedAt": 1679562000,
+      "closedAt": 1680839999
+    }, {
+      "id": 94081910,
+      "name": "",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90++",
+      "spotId": 838301,
+      "spotName": "カルデアゲート",
+      "warId": 8383,
+      "warLongName": "CBC2023 カルデア重工物語 ～君と僕のBtoB～",
+      "gifts": [{
+        "objectId": 3,
+        "num": 200
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94081807
+      }, {
+        "type": "questClear",
+        "targetId": 94081808
+      }, {
+        "type": "questClear",
+        "targetId": 94081809
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "エピローグクリアかつ3月23日18時00分以降に開放"
+      }, {
+        "type": "forceFalse",
+        "targetId": 0,
+        "closedMessage": "データ更新後に開放"
+      }],
+      "phases": [1],
+      "priority": 94081990,
+      "noticeAt": 1679475600,
+      "openedAt": 1679562000,
       "closedAt": 1680839999
     }]
   }]
