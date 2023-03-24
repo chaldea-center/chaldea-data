@@ -70169,7 +70169,7 @@
       "closedAt": 1680839999
     }, {
       "id": 94081806,
-      "name": "",
+      "name": "05：「黒船サイタマに現る」",
       "type": "main",
       "consume": 5,
       "afterClear": "close",
@@ -70183,6 +70183,9 @@
         "num": 1
       }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 94081805
       }, {
@@ -70192,17 +70195,163 @@
       }, {
         "type": "eventTotalPoint",
         "targetId": 80422,
-        "value": 280000
-      }, {
-        "type": "forceFalse",
-        "targetId": 0,
-        "closedMessage": "データ更新後に開放"
+        "value": 280000,
+        "closedMessage": "ＴＡＫＡＳＵＧＩポイント280,000以上で開放"
       }],
       "phases": [1, 2],
+      "phasesWithEnemies": [1],
       "phasesNoBattle": [2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408180610",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408180610.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9408180620",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408180620.txt"
+        }]
+      }],
       "priority": 94082094,
       "noticeAt": 1679302800,
       "openedAt": 1679389200,
+      "closedAt": 1680839999
+    }, {
+      "id": 94081807,
+      "name": "06：「開国してください」",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "50",
+      "spotId": 838301,
+      "spotName": "カルデアゲート",
+      "warId": 8383,
+      "warLongName": "CBC2023 カルデア重工物語 ～君と僕のBtoB～",
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
+        "type": "questClear",
+        "targetId": 94081806
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "ＴＡＫＡＳＵＧＩポイント405,000以上＆3月22日18時以降に開放"
+      }, {
+        "type": "eventTotalPoint",
+        "targetId": 80422,
+        "value": 405000,
+        "closedMessage": "ＴＡＫＡＳＵＧＩポイント405,000以上で開放"
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408180710",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408180710.txt"
+        }, {
+          "scriptId": "9408180711",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408180711.txt"
+        }]
+      }],
+      "priority": 94082093,
+      "noticeAt": 1679389200,
+      "openedAt": 1679475600,
+      "closedAt": 1680839999
+    }, {
+      "id": 94081808,
+      "name": "07：「立ち上がれ奇神」",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "60",
+      "spotId": 838301,
+      "spotName": "カルデアゲート",
+      "warId": 8383,
+      "warLongName": "CBC2023 カルデア重工物語 ～君と僕のBtoB～",
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
+        "type": "questClear",
+        "targetId": 94081807
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "ＴＡＫＡＳＵＧＩポイント555,000以上＆3月23日18時以降に開放"
+      }, {
+        "type": "eventTotalPoint",
+        "targetId": 80422,
+        "value": 555000,
+        "closedMessage": "ＴＡＫＡＳＵＧＩポイント555,000以上で開放"
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408180810",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408180810.txt"
+        }, {
+          "scriptId": "9408180811",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408180811.txt"
+        }, {
+          "scriptId": "9408180812",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408180812.txt"
+        }]
+      }],
+      "priority": 94082092,
+      "noticeAt": 1679475600,
+      "openedAt": 1679562000,
+      "closedAt": 1680839999
+    }, {
+      "id": 94081809,
+      "name": "エピローグ　「武蔵の野辺に朽ちぬとも」",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 838301,
+      "spotName": "カルデアゲート",
+      "warId": 8383,
+      "warLongName": "CBC2023 カルデア重工物語 ～君と僕のBtoB～",
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/3.png",
+      "gifts": [{
+        "objectId": 7999,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94081808
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "ＴＡＫＡＳＵＧＩポイント555,000以上＆3月23日18時以降に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408180910",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408180910.txt"
+        }]
+      }],
+      "priority": 94082091,
+      "noticeAt": 1679475600,
+      "openedAt": 1679562000,
       "closedAt": 1680839999
     }, {
       "id": 94081901,
@@ -70398,7 +70547,7 @@
       "closedAt": 1680839999
     }, {
       "id": 94081907,
-      "name": "",
+      "name": "企業訪問 『大江山酒造』",
       "type": "event",
       "flags": ["displayLoopmark"],
       "consume": 40,
@@ -70413,24 +70562,174 @@
         "num": 1
       }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 94081805
       }, {
         "type": "questClear",
-        "targetId": 94081806
+        "targetId": 94081806,
+        "closedMessage": "第五節クリアで開放"
       }, {
         "type": "date",
         "targetId": 0,
         "closedMessage": "第五節クリアかつ3月21日18時00分以降に開放"
-      }, {
-        "type": "forceFalse",
-        "targetId": 0,
-        "closedMessage": "データ更新後に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94081993,
       "noticeAt": 1679302800,
       "openedAt": 1679389200,
+      "closedAt": 1680839999
+    }, {
+      "id": 94081908,
+      "name": "企業訪問 『ヘアサロン・ブラックバート』",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90",
+      "spotId": 838301,
+      "spotName": "カルデアゲート",
+      "warId": 8383,
+      "warLongName": "CBC2023 カルデア重工物語 ～君と僕のBtoB～",
+      "gifts": [{
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
+        "type": "questClear",
+        "targetId": 94081806
+      }, {
+        "type": "questClear",
+        "targetId": 94081807,
+        "closedMessage": "第六節クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "第六節クリアかつ3月22日18時00分以降に開放"
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94081992,
+      "noticeAt": 1679389200,
+      "openedAt": 1679475600,
+      "closedAt": 1680839999
+    }, {
+      "id": 94081909,
+      "name": "企業訪問 『アルゴノーツ・トイ OMIYA支店』",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90+",
+      "spotId": 838301,
+      "spotName": "カルデアゲート",
+      "warId": 8383,
+      "warLongName": "CBC2023 カルデア重工物語 ～君と僕のBtoB～",
+      "gifts": [{
+        "objectId": 3,
+        "num": 100
+      }],
+      "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
+        "type": "questClear",
+        "targetId": 94081807
+      }, {
+        "type": "questClear",
+        "targetId": 94081808,
+        "closedMessage": "第七節クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "第七節クリアかつ3月23日18時00分以降に開放"
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94081991,
+      "noticeAt": 1679475600,
+      "openedAt": 1679562000,
+      "closedAt": 1680839999
+    }, {
+      "id": 94081910,
+      "name": "企業訪問 『アルゴノーツ・トイ URAWA本店』",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90++",
+      "spotId": 838301,
+      "spotName": "カルデアゲート",
+      "warId": 8383,
+      "warLongName": "CBC2023 カルデア重工物語 ～君と僕のBtoB～",
+      "gifts": [{
+        "objectId": 3,
+        "num": 200
+      }],
+      "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
+        "type": "questClear",
+        "targetId": 94081807
+      }, {
+        "type": "questClear",
+        "targetId": 94081808,
+        "closedMessage": "エピローグクリアで開放"
+      }, {
+        "type": "questClear",
+        "targetId": 94081809,
+        "closedMessage": "エピローグクリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "エピローグクリアかつ3月23日18時00分以降に開放"
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94081990,
+      "noticeAt": 1679475600,
+      "openedAt": 1679562000,
+      "closedAt": 1680839999
+    }, {
+      "id": 94082001,
+      "name": "【高難易度】高杉重工特別優待",
+      "type": "event",
+      "flags": ["dropFirstTimeOnly", "notRetrievable", "notDisplayResultGetPoint"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "90+",
+      "spotId": 838301,
+      "spotName": "カルデアゲート",
+      "warId": 8383,
+      "warLongName": "CBC2023 カルデア重工物語 ～君と僕のBtoB～",
+      "gifts": [{
+        "objectId": 6999,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 1000822,
+        "closedMessage": "終局特異点クリアで開放"
+      }, {
+        "type": "questClear",
+        "targetId": 94081809
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94082199,
+      "noticeAt": 1679475600,
+      "openedAt": 1679562000,
       "closedAt": 1680839999
     }]
   }]
