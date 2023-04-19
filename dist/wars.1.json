@@ -72590,7 +72590,7 @@
       "closedAt": 1893510000
     }, {
       "id": 94046801,
-      "name": "強化クエスト \"山の翁\"",
+      "name": "強化クエスト “山の翁”",
       "type": "event",
       "consume": 23,
       "afterClear": "close",
@@ -78090,6 +78090,76 @@
       "priority": 94082099,
       "noticeAt": 1679043600,
       "openedAt": 1679043600,
+      "closedAt": 1893423600
+    }, {
+      "id": 94084501,
+      "name": "強化クエスト レオナルド・ダ・ヴィンチ 2",
+      "type": "event",
+      "flags": ["noDisplayRemain"],
+      "consume": 23,
+      "afterClear": "close",
+      "recommendLv": "90",
+      "spotId": 99001,
+      "spotName": "強化クエスト",
+      "warId": 1001,
+      "warLongName": "強化クエスト",
+      "gifts": [{
+        "objectId": 2,
+        "num": 2
+      }, {
+        "type": "questRewardIcon",
+        "objectId": 9,
+        "num": 0
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94056771
+      }, {
+        "type": "svtGet",
+        "targetId": 500900
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1, 2, 3],
+      "priority": 94084599,
+      "noticeAt": 1681894800,
+      "openedAt": 1681894800,
+      "closedAt": 1893423600
+    }, {
+      "id": 94084502,
+      "name": "強化クエスト “山の翁” 2",
+      "type": "event",
+      "flags": ["noDisplayRemain"],
+      "consume": 23,
+      "afterClear": "close",
+      "recommendLv": "90",
+      "spotId": 99001,
+      "spotName": "強化クエスト",
+      "warId": 1001,
+      "warLongName": "強化クエスト",
+      "gifts": [{
+        "objectId": 2,
+        "num": 2
+      }, {
+        "type": "questRewardIcon",
+        "objectId": 9,
+        "num": 0
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94046801
+      }, {
+        "type": "svtGet",
+        "targetId": 602500
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1, 2, 3],
+      "priority": 94084598,
+      "noticeAt": 1681894800,
+      "openedAt": 1681894800,
       "closedAt": 1893423600
     }]
   }]
@@ -92729,6 +92799,17 @@
   }, {
     "warId": 9999,
     "type": "banner",
+    "priority": 80412,
+    "overwriteId": 80412,
+    "overwriteBanner": "https://static.atlasacademy.io/JP/Banner/chaldea_category_80412.png",
+    "condType": "none",
+    "targetId": 0,
+    "value": 0,
+    "startedAt": 1681894800,
+    "endedAt": 1682481599
+  }, {
+    "warId": 9999,
+    "type": "banner",
     "priority": 800620,
     "overwriteId": 80078,
     "overwriteBanner": "https://static.atlasacademy.io/JP/Banner/chaldea_category_80078.png",
@@ -93889,6 +93970,35 @@
       "noticeAt": 1518685200,
       "openedAt": 1518685200,
       "closedAt": 1519790399
+    }, {
+      "id": 94026401,
+      "name": "Fate/Grand Order Arcade稼働記念クエスト",
+      "type": "event",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "15",
+      "spotId": 999999,
+      "spotName": "カルデアゲート",
+      "warId": 9999,
+      "warLongName": "カルデアゲート",
+      "gifts": [{
+        "type": "servant",
+        "objectId": 9302870,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 1000011,
+        "closedMessage": "{0}をクリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "priority": 94028598,
+      "noticeAt": 1681894800,
+      "openedAt": 1681894800,
+      "closedAt": 1682481599
     }, {
       "id": 94028401,
       "name": "スカサハ＝スカディ体験クエスト",

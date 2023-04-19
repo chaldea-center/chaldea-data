@@ -8393,6 +8393,28 @@
     "maxRate": 5000
   }]
 }, {
+  "funcId": 707,
+  "funcType": "addStateShort",
+  "funcTargetType": "enemyAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "即死耐性ダウン",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_506.png",
+  "buffs": [{
+    "id": 219,
+    "name": "即死耐性ダウン",
+    "detail": "即死耐性をダウン",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_506.png",
+    "type": "upNonresistInstantdeath",
+    "vals": [{
+      "id": 3005
+    }, {
+      "id": 3009
+    }, {
+      "id": 3039
+    }],
+    "maxRate": 5000
+  }]
+}, {
   "funcId": 708,
   "funcType": "lossNp",
   "funcTargetType": "self",
@@ -15095,6 +15117,24 @@
     "maxRate": 0
   }]
 }, {
+  "funcId": 2395,
+  "funcType": "addState",
+  "funcTargetType": "enemyAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "HP回復不能",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_567.png",
+  "buffs": [{
+    "id": 1054,
+    "name": "HP回復不能",
+    "detail": "HPが回復しなくなる",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_567.png",
+    "type": "donotRecovery",
+    "vals": [{
+      "id": 3005
+    }],
+    "maxRate": 0
+  }]
+}, {
   "funcId": 2416,
   "funcType": "addStateShort",
   "funcTargetType": "self",
@@ -17127,6 +17167,26 @@
       "id": 2019
     }],
     "maxRate": 10000
+  }]
+}, {
+  "funcId": 3345,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptFull",
+  "funcTargetTeam": "player",
+  "funcPopupText": "毎ターンNP獲得",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_319.png",
+  "buffs": [{
+    "id": 119,
+    "name": "毎ターンNP獲得",
+    "detail": "ターン終了時にNPが増える",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_319.png",
+    "type": "regainNp",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3080
+    }],
+    "maxRate": 0
   }]
 }, {
   "funcId": 3366,
@@ -38732,6 +38792,66 @@
     }],
     "ckOpIndv": [{
       "id": 120
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 30134,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "攻撃力アップ〔対ビースト〕",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_300.png",
+  "buffs": [{
+    "id": 30031,
+    "name": "攻撃力アップ〔対ビースト〕",
+    "detail": "〔ビースト〕クラスに対する攻撃力をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_300.png",
+    "type": "upAtk",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3027
+    }],
+    "tvals": [{
+      "id": 111
+    }, {
+      "id": 113
+    }, {
+      "id": 114
+    }, {
+      "id": 116
+    }, {
+      "id": 118
+    }, {
+      "id": 119
+    }, {
+      "id": 121
+    }, {
+      "id": 123
+    }, {
+      "id": 122
+    }],
+    "ckOpIndv": [{
+      "id": 111
+    }, {
+      "id": 113
+    }, {
+      "id": 114
+    }, {
+      "id": 116
+    }, {
+      "id": 118
+    }, {
+      "id": 119
+    }, {
+      "id": 121
+    }, {
+      "id": 123
+    }, {
+      "id": 122
     }],
     "maxRate": 5000
   }]
