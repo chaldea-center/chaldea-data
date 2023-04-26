@@ -10274,7 +10274,7 @@
   "buffs": [{
     "id": 250,
     "name": "威力アップ〔天と地のサーヴァント〕",
-    "detail": "〔天と地の力を持つサーヴァント(擬似サーヴァント、デミ・サーヴァントは除く)〕に与えるダメージをアップ",
+    "detail": "〔天と地の力を持つサーヴァント(疑似サーヴァント、デミ・サーヴァントは除く)〕に与えるダメージをアップ",
     "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
     "type": "upDamage",
     "vals": [{
@@ -10302,7 +10302,7 @@
   "buffs": [{
     "id": 250,
     "name": "威力アップ〔天と地のサーヴァント〕",
-    "detail": "〔天と地の力を持つサーヴァント(擬似サーヴァント、デミ・サーヴァントは除く)〕に与えるダメージをアップ",
+    "detail": "〔天と地の力を持つサーヴァント(疑似サーヴァント、デミ・サーヴァントは除く)〕に与えるダメージをアップ",
     "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
     "type": "upDamage",
     "vals": [{
@@ -20699,6 +20699,10 @@
             "uOlgaMarieAlienGod": {
               "damageRate": 2000,
               "type": "overwriteForce"
+            },
+            "atlasUnmappedClass": {
+              "damageRate": 2000,
+              "type": "overwriteForce"
             }
           }
         },
@@ -20813,6 +20817,12 @@
             }
           },
           "pretender": {
+            "caster": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            }
+          },
+          "atlasUnmappedClass": {
             "caster": {
               "damageRate": 1000,
               "type": "overwriteMoreThanTarget"
@@ -20973,6 +20983,10 @@
             "pretender": {
               "damageRate": 1000,
               "type": "overwriteMoreThanTarget"
+            },
+            "atlasUnmappedClass": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
             }
           },
           "archer": {
@@ -21025,6 +21039,10 @@
               "type": "overwriteMoreThanTarget"
             },
             "pretender": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "atlasUnmappedClass": {
               "damageRate": 1000,
               "type": "overwriteMoreThanTarget"
             }
@@ -21137,6 +21155,10 @@
             "moonCancer": {
               "damageRate": 1000,
               "type": "overwriteForce"
+            },
+            "atlasUnmappedClass": {
+              "damageRate": 1000,
+              "type": "overwriteForce"
             }
           },
           "alterEgo": {
@@ -21163,6 +21185,10 @@
             "foreigner": {
               "damageRate": 1000,
               "type": "overwriteForce"
+            },
+            "atlasUnmappedClass": {
+              "damageRate": 1000,
+              "type": "overwriteForce"
             }
           },
           "avenger": {
@@ -21171,6 +21197,10 @@
               "type": "overwriteForce"
             },
             "ruler": {
+              "damageRate": 1000,
+              "type": "overwriteForce"
+            },
+            "atlasUnmappedClass": {
               "damageRate": 1000,
               "type": "overwriteForce"
             }
@@ -21219,6 +21249,10 @@
             "avenger": {
               "damageRate": 1000,
               "type": "overwriteForce"
+            },
+            "atlasUnmappedClass": {
+              "damageRate": 1000,
+              "type": "overwriteForce"
             }
           },
           "foreigner": {
@@ -21231,6 +21265,10 @@
               "type": "overwriteForce"
             },
             "pretender": {
+              "damageRate": 1000,
+              "type": "overwriteForce"
+            },
+            "atlasUnmappedClass": {
               "damageRate": 1000,
               "type": "overwriteForce"
             }
@@ -21291,6 +21329,10 @@
             "pretender": {
               "damageRate": 1000,
               "type": "overwriteMoreThanTarget"
+            },
+            "atlasUnmappedClass": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
             }
           },
           "pretender": {
@@ -21317,6 +21359,10 @@
             "alterEgo": {
               "damageRate": 1000,
               "type": "overwriteMoreThanTarget"
+            },
+            "atlasUnmappedClass": {
+              "damageRate": 1000,
+              "type": "overwriteForce"
             }
           },
           "beastIV": {
@@ -21431,6 +21477,36 @@
               "type": "overwriteMoreThanTarget"
             },
             "pretender": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            }
+          },
+          "atlasUnmappedClass": {
+            "saber": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "archer": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "lancer": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "rider": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "caster": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "assassin": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "berserker": {
               "damageRate": 1000,
               "type": "overwriteMoreThanTarget"
             }
@@ -37965,6 +38041,134 @@
     "isDispValue": true
   }]
 }, {
+  "funcId": 20838,
+  "funcType": "eventDropUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "なし",
+  "funcGroup": [{
+    "eventId": 80424,
+    "baseFuncId": 0,
+    "nameTotal": "{0}\n獲得数ボーナス合計",
+    "name": "{0}獲得数アップ",
+    "icon": "https://static.atlasacademy.io/JP/Items/94082501.png",
+    "priority": 1000,
+    "isDispValue": true
+  }]
+}, {
+  "funcId": 20839,
+  "funcType": "eventDropUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "なし",
+  "funcGroup": [{
+    "eventId": 80424,
+    "baseFuncId": 0,
+    "nameTotal": "{0}\n獲得数ボーナス合計",
+    "name": "{0}獲得数アップ",
+    "icon": "https://static.atlasacademy.io/JP/Items/94082502.png",
+    "priority": 2000,
+    "isDispValue": true
+  }]
+}, {
+  "funcId": 20840,
+  "funcType": "eventDropUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "なし",
+  "funcGroup": [{
+    "eventId": 80424,
+    "baseFuncId": 0,
+    "nameTotal": "{0}\n獲得数ボーナス合計",
+    "name": "{0}獲得数アップ",
+    "icon": "https://static.atlasacademy.io/JP/Items/94082503.png",
+    "priority": 3000,
+    "isDispValue": true
+  }]
+}, {
+  "funcId": 20841,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "なし",
+  "funcquestTvals": [{
+    "id": 94000142
+  }],
+  "funcGroup": [{
+    "eventId": 80424,
+    "baseFuncId": 20842,
+    "nameTotal": "{1} \n攻撃の威力アップ合計",
+    "name": "攻撃の威力アップ合計",
+    "icon": "https://static.atlasacademy.io/JP/EventUI/func_group_icon_302.png",
+    "priority": 1,
+    "isDispValue": true
+  }],
+  "buffs": [{
+    "id": 5339,
+    "name": "威力アップ",
+    "detail": "『螺旋証明世界 リリムハーロット』において与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamage",
+    "maxRate": 10000
+  }]
+}, {
+  "funcId": 20844,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "存在証明",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+  "funcquestTvals": [{
+    "id": 94000142
+  }],
+  "funcGroup": [{
+    "eventId": 80424,
+    "baseFuncId": 20842,
+    "nameTotal": "{1} \n攻撃の威力アップ合計",
+    "name": "攻撃の威力アップ",
+    "icon": "https://static.atlasacademy.io/JP/EventUI/func_group_icon_302.png",
+    "priority": 1,
+    "isDispValue": true
+  }],
+  "buffs": [{
+    "id": 5340,
+    "name": "存在証明",
+    "detail": "『螺旋証明世界 リリムハーロット』において与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamage",
+    "maxRate": 10000
+  }]
+}, {
+  "funcId": 20845,
+  "funcType": "servantFriendshipUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "なし",
+  "funcGroup": [{
+    "eventId": 80424,
+    "baseFuncId": 0,
+    "nameTotal": "{1}\n得られる自身の絆ボーナス合計",
+    "name": "得られる自身の絆アップ",
+    "icon": "https://static.atlasacademy.io/JP/EventUI/func_group_icon_1009.png",
+    "priority": 1,
+    "isDispValue": true
+  }]
+}, {
+  "funcId": 20846,
+  "funcType": "servantFriendshipUp",
+  "funcTargetType": "ptFull",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "なし",
+  "funcGroup": [{
+    "eventId": 80424,
+    "baseFuncId": 0,
+    "nameTotal": "{1}\n得られる自身の絆ボーナス合計",
+    "name": "得られる自身の絆アップ",
+    "icon": "https://static.atlasacademy.io/JP/EventUI/func_group_icon_1023.png",
+    "priority": 1,
+    "isDispValue": true
+  }]
+}, {
   "funcId": 20850,
   "funcType": "addStateShort",
   "funcTargetType": "self",
@@ -37977,6 +38181,388 @@
     "detail": "与えるダメージをアップ",
     "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
     "type": "upDamage",
+    "maxRate": 10000
+  }]
+}, {
+  "funcId": 20860,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "弱体耐性無視",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_389.png",
+  "buffs": [{
+    "id": 5347,
+    "name": "弱体耐性無視",
+    "detail": "弱体耐性アップを無視して弱体効果を付与する",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_389.png",
+    "type": "upGrantstate",
+    "vals": [{
+      "id": 3004
+    }],
+    "tvals": [{
+      "id": 3005
+    }],
+    "ckSelfIndv": [{
+      "id": 3005
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 20862,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "毒付与アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_307.png",
+  "buffs": [{
+    "id": 5348,
+    "name": "毒付与アップ",
+    "detail": "毒付与率をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_307.png",
+    "type": "upGrantstate",
+    "vals": [{
+      "id": 3004
+    }],
+    "tvals": [{
+      "id": 3011
+    }],
+    "ckSelfIndv": [{
+      "id": 3011
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 20864,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "聖杯所持",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_1004.png",
+  "buffs": [{
+    "id": 5349,
+    "name": "聖杯所持",
+    "detail": "〔聖杯所持〕状態を付与する",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_1004.png",
+    "type": "addIndividuality",
+    "maxRate": 0
+  }]
+}, {
+  "funcId": 20865,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "威力アップ・対竜",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+  "functvals": [{
+    "id": 2857
+  }],
+  "buffs": [{
+    "id": 134,
+    "name": "威力アップ〔竜〕",
+    "detail": "〔竜〕特性に与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamage",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3028
+    }, {
+      "id": 2802
+    }],
+    "tvals": [{
+      "id": 2002
+    }],
+    "ckOpIndv": [{
+      "id": 2002
+    }],
+    "maxRate": 10000
+  }]
+}, {
+  "funcId": 20866,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "威力アップ・対ローマ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+  "functvals": [{
+    "id": 2857
+  }],
+  "buffs": [{
+    "id": 133,
+    "name": "威力アップ〔ローマ〕",
+    "detail": "〔ローマ〕特性に与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamage",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3028
+    }],
+    "tvals": [{
+      "id": 2004
+    }],
+    "ckOpIndv": [{
+      "id": 2004
+    }],
+    "maxRate": 10000
+  }]
+}, {
+  "funcId": 20867,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "毎ターンスター獲得",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_320.png",
+  "functvals": [{
+    "id": 2857
+  }],
+  "buffs": [{
+    "id": 121,
+    "name": "毎ターンスター獲得",
+    "detail": "ターン終了時にスターを獲得する",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_320.png",
+    "type": "regainStar",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3081
+    }],
+    "maxRate": 0
+  }]
+}, {
+  "funcId": 20868,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "enemy",
+  "funcPopupText": "クリティカル発生アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_327.png",
+  "functvals": [{
+    "id": 2857
+  }],
+  "buffs": [{
+    "id": 144,
+    "name": "クリティカル発生アップ",
+    "detail": "クリティカルの発生率をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_327.png",
+    "type": "upCriticalrate",
+    "script": {
+      "ProgressSelfTurn": 1
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3032
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 20869,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "弱体無効",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_322.png",
+  "functvals": [{
+    "id": 2857
+  }],
+  "buffs": [{
+    "id": 171,
+    "name": "弱体無効",
+    "detail": "弱体を受けなくなる",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_322.png",
+    "type": "avoidState",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3061
+    }],
+    "tvals": [{
+      "id": 3005
+    }],
+    "ckOpIndv": [{
+      "id": 3005
+    }],
+    "maxRate": 0
+  }]
+}, {
+  "funcId": 20870,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "防御無視",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_351.png",
+  "functvals": [{
+    "id": 2857
+  }],
+  "buffs": [{
+    "id": 510,
+    "name": "防御無視",
+    "detail": "防御力アップを無視してダメージを与える",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_351.png",
+    "type": "pierceDefence",
+    "buffGroup": 450,
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }],
+    "maxRate": 0
+  }]
+}, {
+  "funcId": 20871,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "HP回復量アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_328.png",
+  "functvals": [{
+    "id": 2857
+  }],
+  "buffs": [{
+    "id": 188,
+    "name": "HP回復量アップ",
+    "detail": "HPの回復効果量をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_328.png",
+    "type": "upGainHp",
+    "script": {
+      "ProgressSelfTurn": 1
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3082
+    }],
+    "maxRate": 50000
+  }]
+}, {
+  "funcId": 20872,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "毎ターンNP獲得",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_319.png",
+  "functvals": [{
+    "id": 2857
+  }],
+  "buffs": [{
+    "id": 119,
+    "name": "毎ターンNP獲得",
+    "detail": "ターン終了時にNPが増える",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_319.png",
+    "type": "regainNp",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3080
+    }],
+    "maxRate": 0
+  }]
+}, {
+  "funcId": 20873,
+  "funcType": "hastenNpturn",
+  "funcTargetType": "self",
+  "funcTargetTeam": "enemy",
+  "funcPopupText": "チャージ増加",
+  "functvals": [{
+    "id": 2857
+  }]
+}, {
+  "funcId": 20874,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "通常攻撃時追加効果",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_528.png",
+  "buffs": [{
+    "id": 5350,
+    "name": "通常攻撃時追加効果",
+    "detail": "通常攻撃時に対象に毒状態を付与",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_528.png",
+    "type": "commandattackFunction",
+    "vals": [{
+      "id": 3004
+    }],
+    "tvals": [{
+      "id": 5000
+    }],
+    "maxRate": 0
+  }]
+}, {
+  "funcId": 20875,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "〔毒〕回復化",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_373.png",
+  "buffs": [{
+    "id": 5351,
+    "name": "〔毒〕回復化",
+    "detail": "毒によるダメージをHP回復効果に変換する",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_373.png",
+    "type": "hpReduceToRegain",
+    "vals": [{
+      "id": 3004
+    }],
+    "maxRate": 0
+  }]
+}, {
+  "funcId": 20876,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "通常攻撃時追加効果",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_333.png",
+  "buffs": [{
+    "id": 5352,
+    "name": "通常攻撃時追加効果",
+    "detail": "〔聖杯所持〕状態中の通常攻撃時に確率で自身の宝具威力をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_333.png",
+    "type": "commandattackFunction",
+    "script": {
+      "INDIVIDUALITIE": {
+        "id": 2857
+      }
+    },
+    "vals": [{
+      "id": 3004
+    }],
+    "tvals": [{
+      "id": 5000
+    }],
+    "maxRate": 0
+  }]
+}, {
+  "funcId": 20878,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptFull",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "威力アップ・対毒状態",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+  "buffs": [{
+    "id": 5353,
+    "name": "威力アップ〔毒〕",
+    "detail": "〔毒〕状態の敵に与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamageIndividuality",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3028
+    }],
+    "tvals": [{
+      "id": 3011
+    }],
+    "ckOpIndv": [{
+      "id": 3011
+    }],
     "maxRate": 10000
   }]
 }, {
@@ -38467,6 +39053,8 @@
       "id": 123
     }, {
       "id": 122
+    }, {
+      "id": 124
     }],
     "ckOpIndv": [{
       "id": 107
@@ -38500,6 +39088,8 @@
       "id": 123
     }, {
       "id": 122
+    }, {
+      "id": 124
     }],
     "maxRate": 5000
   }]
@@ -38833,6 +39423,8 @@
       "id": 123
     }, {
       "id": 122
+    }, {
+      "id": 124
     }],
     "ckOpIndv": [{
       "id": 111
@@ -38852,6 +39444,8 @@
       "id": 123
     }, {
       "id": 122
+    }, {
+      "id": 124
     }],
     "maxRate": 5000
   }]
