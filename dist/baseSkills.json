@@ -173503,7 +173503,7 @@
   "id": 2210450,
   "name": "赤枝の騎士 B",
   "ruby": "あかえだのきし",
-  "unmodifiedDetail": "自身の攻撃力をアップ[{0}](3ターン)＆Quickカード性能をアップ[{0}](3ターン)",
+  "unmodifiedDetail": "自身の攻撃力をアップ[{0}](3ターン)＆弱体状態を解除 ＋ スターを獲得[{0}]",
   "type": "active",
   "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00300.png",
   "coolDown": [7, 7, 7, 7, 7, 6, 6, 6, 6, 5],
@@ -173575,7 +173575,7 @@
   "id": 2211550,
   "name": "猛犬殺し A",
   "ruby": "もうけんごろし",
-  "unmodifiedDetail": "自身に〔猛獣〕特攻状態を付与[{0}](3ターン) ＋ スターを獲得[{0}](3ターン)",
+  "unmodifiedDetail": "自身に〔猛獣〕特攻状態を付与[{0}](3ターン)＆Quickカード性能をアップ[{0}](3ターン)",
   "type": "active",
   "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00301.png",
   "coolDown": [7, 7, 7, 7, 7, 6, 6, 6, 6, 5],
@@ -173606,7 +173606,7 @@
       "Value": 1000
     }]
   }, {
-    "funcId": 100,
+    "funcId": 101,
     "svals": [{
       "Rate": 1000,
       "Turn": 3,
@@ -174864,5 +174864,340 @@
     "svals": [{
       "AddCount": 10
     }]
+  }]
+}, {
+  "id": 94082901,
+  "name": "",
+  "ruby": "-",
+  "unmodifiedDetail": "付与されたカードによる攻撃時に、敵単体の防御力をダウン[{0}](1ターン)",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00504.png",
+  "coolDown": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+  "functions": [{
+    "funcId": 3600,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 94082902,
+      "Value2": 1,
+      "ShowState": -1
+    }, {
+      "Value2": 2
+    }, {
+      "Value2": 3
+    }, {
+      "Value2": 4
+    }, {
+      "Value2": 5
+    }, {
+      "Value2": 6
+    }, {
+      "Value2": 7
+    }, {
+      "Value2": 8
+    }, {
+      "Value2": 9
+    }, {
+      "Value2": 10
+    }]
+  }]
+}, {
+  "id": 94082903,
+  "name": "",
+  "ruby": "-",
+  "unmodifiedDetail": "付与されたカードによる攻撃時に、敵単体に確率[{0}]でスタン状態を付与(1ターン)<1度使用すると再使用に3ターン必要>",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00508.png",
+  "coolDown": [3, 3, 3, 3, 3, 3, 3, 3, 3, 3],
+  "functions": [{
+    "funcId": 3600,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 94082904,
+      "Value2": 1,
+      "ShowState": -1
+    }, {
+      "Value2": 2
+    }, {
+      "Value2": 3
+    }, {
+      "Value2": 4
+    }, {
+      "Value2": 5
+    }, {
+      "Value2": 6
+    }, {
+      "Value2": 7
+    }, {
+      "Value2": 8
+    }, {
+      "Value2": 9
+    }, {
+      "Value2": 10
+    }]
+  }]
+}, {
+  "id": 94082905,
+  "name": "",
+  "ruby": "-",
+  "unmodifiedDetail": "付与されたカードによる攻撃時に、自身のクリティカル威力をアップ[{0}](1ターン)",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00303.png",
+  "coolDown": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+  "functions": [{
+    "funcId": 3600,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 94082919,
+      "Value2": 1,
+      "ShowState": -1
+    }, {
+      "Value2": 2
+    }, {
+      "Value2": 3
+    }, {
+      "Value2": 4
+    }, {
+      "Value2": 5
+    }, {
+      "Value2": 6
+    }, {
+      "Value2": 7
+    }, {
+      "Value2": 8
+    }, {
+      "Value2": 9
+    }, {
+      "Value2": 10
+    }]
+  }]
+}, {
+  "id": 94082906,
+  "name": "",
+  "ruby": "-",
+  "unmodifiedDetail": "付与されたカードによる攻撃時に、敵単体の攻撃力をダウン[{0}](1ターン)",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00503.png",
+  "coolDown": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+  "functions": [{
+    "funcId": 3600,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 94082907,
+      "Value2": 1,
+      "ShowState": -1
+    }, {
+      "Value2": 2
+    }, {
+      "Value2": 3
+    }, {
+      "Value2": 4
+    }, {
+      "Value2": 5
+    }, {
+      "Value2": 6
+    }, {
+      "Value2": 7
+    }, {
+      "Value2": 8
+    }, {
+      "Value2": 9
+    }, {
+      "Value2": 10
+    }]
+  }]
+}, {
+  "id": 94082908,
+  "name": "",
+  "ruby": "-",
+  "unmodifiedDetail": "付与されたカードによる攻撃時に、自身の宝具威力をアップ[{0}](1回・2ターン)",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00302.png",
+  "coolDown": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+  "functions": [{
+    "funcId": 3600,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 94082920,
+      "Value2": 1,
+      "ShowState": -1
+    }, {
+      "Value2": 2
+    }, {
+      "Value2": 3
+    }, {
+      "Value2": 4
+    }, {
+      "Value2": 5
+    }, {
+      "Value2": 6
+    }, {
+      "Value2": 7
+    }, {
+      "Value2": 8
+    }, {
+      "Value2": 9
+    }, {
+      "Value2": 10
+    }]
+  }]
+}, {
+  "id": 94082909,
+  "name": "",
+  "ruby": "-",
+  "unmodifiedDetail": "付与されたカードによる攻撃時に、スターを獲得[{0}]",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00603.png",
+  "coolDown": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+  "functions": [{
+    "funcId": 3600,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 94082921,
+      "Value2": 1,
+      "ShowState": -1
+    }, {
+      "Value2": 2
+    }, {
+      "Value2": 3
+    }, {
+      "Value2": 4
+    }, {
+      "Value2": 5
+    }, {
+      "Value2": 6
+    }, {
+      "Value2": 7
+    }, {
+      "Value2": 8
+    }, {
+      "Value2": 9
+    }, {
+      "Value2": 10
+    }]
+  }]
+}, {
+  "id": 94082910,
+  "name": "",
+  "ruby": "-",
+  "unmodifiedDetail": "付与されたカードによる攻撃時に、自身の攻撃力をアップ[{0}](1ターン)",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00300.png",
+  "coolDown": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+  "functions": [{
+    "funcId": 3600,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 94082922,
+      "Value2": 1,
+      "ShowState": -1
+    }, {
+      "Value2": 2
+    }, {
+      "Value2": 3
+    }, {
+      "Value2": 4
+    }, {
+      "Value2": 5
+    }, {
+      "Value2": 6
+    }, {
+      "Value2": 7
+    }, {
+      "Value2": 8
+    }, {
+      "Value2": 9
+    }, {
+      "Value2": 10
+    }]
+  }]
+}, {
+  "id": 94082911,
+  "name": "",
+  "ruby": "-",
+  "unmodifiedDetail": "付与されたカードによる攻撃時に、自身のNPを増やす[{0}]<1度使用すると再使用に3ターン必要>",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00601.png",
+  "coolDown": [3, 3, 3, 3, 3, 3, 3, 3, 3, 3],
+  "functions": [{
+    "funcId": 3897,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 94082912,
+      "Value2": 1,
+      "ShowState": -1
+    }, {
+      "Value2": 2
+    }, {
+      "Value2": 3
+    }, {
+      "Value2": 4
+    }, {
+      "Value2": 5
+    }, {
+      "Value2": 6
+    }, {
+      "Value2": 7
+    }, {
+      "Value2": 8
+    }, {
+      "Value2": 9
+    }, {
+      "Value2": 10
+    }]
+  }]
+}, {
+  "id": 94082913,
+  "name": "",
+  "ruby": "-",
+  "unmodifiedDetail": "",
+  "type": "passive",
+  "coolDown": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+  "functions": [{
+    "funcId": 0,
+    "svals": [{
+      "ShowState": -1
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }]
+}, {
+  "id": 94082915,
+  "name": "",
+  "ruby": "-",
+  "unmodifiedDetail": "",
+  "type": "passive",
+  "coolDown": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+  "functions": [{
+    "funcId": 0,
+    "svals": [{
+      "ShowState": -1
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }]
+}, {
+  "id": 94082917,
+  "name": "",
+  "ruby": "-",
+  "unmodifiedDetail": "",
+  "type": "passive",
+  "coolDown": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+  "functions": [{
+    "funcId": 0,
+    "svals": [{
+      "ShowState": -1
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
   }]
 }]
