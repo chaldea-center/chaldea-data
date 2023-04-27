@@ -100938,6 +100938,7 @@
         "closedMessage": "ミッションNo.12達成かつ4月27日18時00分以降に開放"
       }],
       "phases": [1, 2],
+      "phasesWithEnemies": [1],
       "phasesNoBattle": [2],
       "phaseScripts": [{
         "phase": 1,
@@ -100966,7 +100967,279 @@
     "y": 1510,
     "nameOfsY": 1,
     "questOfsX": 41,
-    "questOfsY": -102
+    "questOfsY": -102,
+    "quests": [{
+      "id": 94082506,
+      "name": "第4節 臨界観光都市バビロン（1/2）",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "35",
+      "spotId": 914645,
+      "spotName": "バビロン",
+      "warId": 9151,
+      "warLongName": "螺旋証明世界 リリムハーロット",
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94082505
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1, 2],
+      "phasesWithEnemies": [1],
+      "phasesNoBattle": [2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408250610",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408250610.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9408250620",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408250620.txt"
+        }]
+      }],
+      "priority": 94082894,
+      "noticeAt": 1682586000,
+      "openedAt": 1682586000,
+      "closedAt": 1684295999
+    }, {
+      "id": 94082507,
+      "name": "第4節 臨界観光都市バビロン（2/2）",
+      "type": "main",
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 914645,
+      "spotName": "バビロン",
+      "warId": 9151,
+      "warLongName": "螺旋証明世界 リリムハーロット",
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94082506
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "eventMissionAchieve",
+        "targetId": 80424013,
+        "closedMessage": "ミッションNo.13達成で開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408250710",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408250710.txt"
+        }]
+      }],
+      "priority": 94082893,
+      "noticeAt": 1682586000,
+      "openedAt": 1682586000,
+      "closedAt": 1684295999
+    }, {
+      "id": 94082508,
+      "name": "第5節 ピントもチューニングもズレてる",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "40",
+      "spotId": 914645,
+      "spotName": "バビロン",
+      "warId": 9151,
+      "warLongName": "螺旋証明世界 リリムハーロット",
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94082507
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "eventMissionAchieve",
+        "targetId": 80424014,
+        "closedMessage": "ミッションNo.14達成で開放"
+      }],
+      "phases": [1, 2],
+      "phasesNoBattle": [2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408250810",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408250810.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9408250820",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408250820.txt"
+        }]
+      }],
+      "priority": 94082892,
+      "noticeAt": 1682586000,
+      "openedAt": 1682586000,
+      "closedAt": 1684295999
+    }, {
+      "id": 94082605,
+      "name": "ジグラット９９階攻略ツアー",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "50",
+      "spotId": 914645,
+      "spotName": "バビロン",
+      "warId": 9151,
+      "warLongName": "螺旋証明世界 リリムハーロット",
+      "gifts": [{
+        "objectId": 101,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "commonRelease",
+        "targetId": 94082613
+      }],
+      "phases": [1],
+      "priority": 94082595,
+      "noticeAt": 1682586000,
+      "openedAt": 1682586000,
+      "closedAt": 1684295999
+    }, {
+      "id": 94082606,
+      "name": "市内観光ツアー",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "55",
+      "spotId": 914645,
+      "spotName": "バビロン",
+      "warId": 9151,
+      "warLongName": "螺旋証明世界 リリムハーロット",
+      "gifts": [{
+        "objectId": 101,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "commonRelease",
+        "targetId": 94082614
+      }],
+      "phases": [1],
+      "priority": 94082594,
+      "noticeAt": 1682586000,
+      "openedAt": 1682586000,
+      "closedAt": 1684295999
+    }, {
+      "id": 94082905,
+      "name": "バビロン・バトル・サマーリーグ",
+      "type": "event",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "40",
+      "spotId": 914645,
+      "spotName": "バビロン",
+      "warId": 9151,
+      "warLongName": "螺旋証明世界 リリムハーロット",
+      "gifts": [{
+        "objectId": 6526,
+        "num": 3
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94082506
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "priority": 94082795,
+      "noticeAt": 1682586000,
+      "openedAt": 1682586000,
+      "closedAt": 1684295999
+    }, {
+      "id": 94082906,
+      "name": "サマーバカンス武者修行",
+      "type": "event",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "40",
+      "spotId": 914645,
+      "spotName": "バビロン",
+      "warId": 9151,
+      "warLongName": "螺旋証明世界 リリムハーロット",
+      "gifts": [{
+        "objectId": 6532,
+        "num": 3
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94082506
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "priority": 94082794,
+      "noticeAt": 1682586000,
+      "openedAt": 1682586000,
+      "closedAt": 1684295999
+    }, {
+      "id": 94082907,
+      "name": "サーヴァント・ブートキャンプ！",
+      "type": "event",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "40",
+      "spotId": 914645,
+      "spotName": "バビロン",
+      "warId": 9151,
+      "warLongName": "螺旋証明世界 リリムハーロット",
+      "gifts": [{
+        "objectId": 6533,
+        "num": 3
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94082506
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "priority": 94082793,
+      "noticeAt": 1682586000,
+      "openedAt": 1682586000,
+      "closedAt": 1684295999
+    }]
   }, {
     "id": 914646,
     "mapId": 9151,
@@ -100976,7 +101249,45 @@
     "y": 1462,
     "nameOfsY": -31,
     "questOfsX": 24,
-    "questOfsY": -113
+    "questOfsY": -113,
+    "quests": [{
+      "id": 94082509,
+      "name": "",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "40",
+      "spotId": 914646,
+      "spotName": "トワイライト・ラダー",
+      "warId": 9151,
+      "warLongName": "螺旋証明世界 リリムハーロット",
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94082508
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "eventMissionAchieve",
+        "targetId": 80424015,
+        "closedMessage": "ミッションNo.15達成かつ4月28日18時00分以降に開放"
+      }, {
+        "type": "forceFalse",
+        "targetId": 0,
+        "closedMessage": "データ更新後に開放"
+      }],
+      "phases": [1, 2],
+      "phasesNoBattle": [2],
+      "priority": 94082891,
+      "noticeAt": 1682586000,
+      "openedAt": 1682672400,
+      "closedAt": 1684295999
+    }]
   }, {
     "id": 914647,
     "mapId": 9151,
