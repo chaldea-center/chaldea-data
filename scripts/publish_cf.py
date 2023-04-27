@@ -6,6 +6,7 @@ import compress_dist
 
 def copy_functions():
     root = Path(__file__).parents[1]
+    shutil.copy(root / "functions" / "_routes.json", root / "dist" / "_routes.json")
     shutil.copytree(root / "functions", root / "dist" / "functions")
 
 
