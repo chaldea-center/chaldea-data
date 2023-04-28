@@ -100336,6 +100336,19 @@
       "dispTargetId2": 94082521,
       "dispTargetValue2": 3
     }, {
+      "id": 915103,
+      "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9151/QMap_Cap9151_Atlas/gimmick_915103.png",
+      "x": 1024,
+      "y": 1024,
+      "depthOffset": -100,
+      "scale": 1000,
+      "dispCondType": "itemGet",
+      "dispTargetId": 94082509,
+      "dispTargetValue": 1,
+      "dispCondType2": "useItemEternity",
+      "dispTargetId2": 94082521,
+      "dispTargetValue2": 3
+    }, {
       "id": 915122,
       "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9151/QMap_Cap9151_Atlas/gimmick_915122.png",
       "x": 1024,
@@ -100397,6 +100410,19 @@
       "dispTargetId2": 94082505,
       "dispTargetValue2": 2
     }, {
+      "id": 915131,
+      "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9151/QMap_Cap9151_Atlas/gimmick_915131.png",
+      "x": 1024,
+      "y": 1024,
+      "depthOffset": 0,
+      "scale": 1000,
+      "dispCondType": "itemGet",
+      "dispTargetId": 94082509,
+      "dispTargetValue": 1,
+      "dispCondType2": "useItemEternity",
+      "dispTargetId2": 94082509,
+      "dispTargetValue2": 1
+    }, {
       "id": 915137,
       "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9151/QMap_Cap9151_Atlas/gimmick_915137.png",
       "x": 1020,
@@ -100419,6 +100445,19 @@
       "dispCondType": "itemGet",
       "dispTargetId": 94082505,
       "dispTargetValue": 2,
+      "dispCondType2": "useItemEternity",
+      "dispTargetId2": 94082521,
+      "dispTargetValue2": 3
+    }, {
+      "id": 915139,
+      "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9151/QMap_Cap9151_Atlas/gimmick_915139.png",
+      "x": 1024,
+      "y": 1024,
+      "depthOffset": 0,
+      "scale": 1000,
+      "dispCondType": "itemGet",
+      "dispTargetId": 94082509,
+      "dispTargetValue": 1,
       "dispCondType2": "useItemEternity",
       "dispTargetId2": 94082521,
       "dispTargetValue2": 3
@@ -101258,7 +101297,7 @@
     "questOfsY": -113,
     "quests": [{
       "id": 94082509,
-      "name": "",
+      "name": "第6節 魔宴渇望遠征ロスト･エルサレム",
       "type": "main",
       "consume": 5,
       "afterClear": "close",
@@ -101272,6 +101311,9 @@
         "num": 1
       }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 94082508
       }, {
@@ -101282,13 +101324,23 @@
         "type": "eventMissionAchieve",
         "targetId": 80424015,
         "closedMessage": "ミッションNo.15達成かつ4月28日18時00分以降に開放"
-      }, {
-        "type": "forceFalse",
-        "targetId": 0,
-        "closedMessage": "データ更新後に開放"
       }],
       "phases": [1, 2],
+      "phasesWithEnemies": [1],
       "phasesNoBattle": [2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408250910",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408250910.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9408250920",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408250920.txt"
+        }]
+      }],
       "priority": 94082891,
       "noticeAt": 1682586000,
       "openedAt": 1682672400,
@@ -101297,13 +101349,263 @@
   }, {
     "id": 914647,
     "mapId": 9151,
-    "name": "",
+    "name": "ロスト・エルサレム",
     "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9151/QMap_Cap9151_Atlas/spot_914647.png",
     "x": 821,
     "y": 1392,
     "nameOfsY": 1,
     "questOfsX": 41,
-    "questOfsY": -102
+    "questOfsY": -102,
+    "quests": [{
+      "id": 94082510,
+      "name": "第7節 手にした聖地ぶち壊して（1/2）",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "45",
+      "spotId": 914647,
+      "spotName": "ロスト・エルサレム",
+      "warId": 9151,
+      "warLongName": "螺旋証明世界 リリムハーロット",
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94082509
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "eventMissionAchieve",
+        "targetId": 80424016,
+        "closedMessage": "ミッションNo.16達成で開放"
+      }],
+      "phases": [1, 2],
+      "phasesNoBattle": [2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408251010",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408251010.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9408251020",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408251020.txt"
+        }]
+      }],
+      "priority": 94082890,
+      "noticeAt": 1682672400,
+      "openedAt": 1682672400,
+      "closedAt": 1684295999
+    }, {
+      "id": 94082511,
+      "name": "第7節 手にした聖地ぶち壊して（2/2）",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "45",
+      "spotId": 914647,
+      "spotName": "ロスト・エルサレム",
+      "warId": 9151,
+      "warLongName": "螺旋証明世界 リリムハーロット",
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94082510
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "eventMissionAchieve",
+        "targetId": 80424018,
+        "closedMessage": "「『聖墓隠し通路』をクリアせよ」ミッション達成で開放"
+      }],
+      "phases": [1, 2, 3, 4],
+      "phasesNoBattle": [4],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408251110",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408251110.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9408251120",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408251120.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9408251130",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408251130.txt"
+        }]
+      }, {
+        "phase": 4,
+        "scripts": [{
+          "scriptId": "9408251140",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408251140.txt"
+        }]
+      }],
+      "priority": 94082889,
+      "noticeAt": 1682672400,
+      "openedAt": 1682672400,
+      "closedAt": 1684295999
+    }, {
+      "id": 94082607,
+      "name": "仮装パレード",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "60",
+      "spotId": 914647,
+      "spotName": "ロスト・エルサレム",
+      "warId": 9151,
+      "warLongName": "螺旋証明世界 リリムハーロット",
+      "gifts": [{
+        "objectId": 101,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "commonRelease",
+        "targetId": 94082616
+      }],
+      "phases": [1],
+      "priority": 94082593,
+      "noticeAt": 1682672400,
+      "openedAt": 1682672400,
+      "closedAt": 1684295999
+    }, {
+      "id": 94082608,
+      "name": "サバト会場",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "65",
+      "spotId": 914647,
+      "spotName": "ロスト・エルサレム",
+      "warId": 9151,
+      "warLongName": "螺旋証明世界 リリムハーロット",
+      "gifts": [{
+        "objectId": 101,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "commonRelease",
+        "targetId": 94082617
+      }],
+      "phases": [1],
+      "priority": 94082592,
+      "noticeAt": 1682672400,
+      "openedAt": 1682672400,
+      "closedAt": 1684295999
+    }, {
+      "id": 94082908,
+      "name": "聖墓隠し通路",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "45",
+      "spotId": 914647,
+      "spotName": "ロスト・エルサレム",
+      "warId": 9151,
+      "warLongName": "螺旋証明世界 リリムハーロット",
+      "gifts": [{
+        "objectId": 6508,
+        "num": 3
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94082510
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "eventMissionAchieve",
+        "targetId": 80424017,
+        "closedMessage": "聖墓隠し通路(ミッションNo.17達成で開放)"
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408290811",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408290811.txt"
+        }]
+      }],
+      "priority": 94082792,
+      "noticeAt": 1682672400,
+      "openedAt": 1682672400,
+      "closedAt": 1684295999
+    }]
+  }, {
+    "id": 914648,
+    "mapId": 9151,
+    "name": "トワイライト・ラダー",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9151/QMap_Cap9151_Atlas/spot_914644.png",
+    "x": 1028,
+    "y": 1339,
+    "nameOfsY": -31,
+    "questOfsX": 24,
+    "questOfsY": -113,
+    "quests": [{
+      "id": 94082512,
+      "name": "",
+      "type": "main",
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 914648,
+      "spotName": "トワイライト・ラダー",
+      "warId": 9151,
+      "warLongName": "螺旋証明世界 リリムハーロット",
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94082511
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "eventMissionAchieve",
+        "targetId": 80424019,
+        "closedMessage": "ミッションNo.19達成かつ4月29日18時00分以降に開放"
+      }, {
+        "type": "forceFalse",
+        "targetId": 0,
+        "closedMessage": "データ更新後に開放"
+      }],
+      "phases": [1, 2, 3, 4],
+      "phasesNoBattle": [1, 4],
+      "priority": 94082888,
+      "noticeAt": 1682672400,
+      "openedAt": 1682758800,
+      "closedAt": 1684295999
+    }]
   }, {
     "id": 914649,
     "mapId": 9151,
@@ -101444,6 +101746,26 @@
     "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9151/QMap_Cap9151_Atlas/img_road9151_00.png",
     "srcSpotId": 914646,
     "dstSpotId": 914647,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "questClear"
+  }, {
+    "id": 915105,
+    "warId": 9151,
+    "mapId": 9151,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9151/QMap_Cap9151_Atlas/img_road9151_00.png",
+    "srcSpotId": 914647,
+    "dstSpotId": 914648,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "questClear"
+  }, {
+    "id": 915106,
+    "warId": 9151,
+    "mapId": 9151,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9151/QMap_Cap9151_Atlas/img_road9151_00.png",
+    "srcSpotId": 914648,
+    "dstSpotId": 914649,
     "dispCondType": "useItemTime",
     "dispCondType2": "useItemTime",
     "activeCondType": "questClear"
