@@ -100349,6 +100349,19 @@
       "dispTargetId2": 94082521,
       "dispTargetValue2": 3
     }, {
+      "id": 915104,
+      "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9151/QMap_Cap9151_Atlas/gimmick_915104.png",
+      "x": 1024,
+      "y": 1024,
+      "depthOffset": -100,
+      "scale": 1000,
+      "dispCondType": "itemGet",
+      "dispTargetId": 94082512,
+      "dispTargetValue": 2,
+      "dispCondType2": "useItemEternity",
+      "dispTargetId2": 94082521,
+      "dispTargetValue2": 3
+    }, {
       "id": 915122,
       "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9151/QMap_Cap9151_Atlas/gimmick_915122.png",
       "x": 1024,
@@ -100423,6 +100436,19 @@
       "dispTargetId2": 94082509,
       "dispTargetValue2": 1
     }, {
+      "id": 915132,
+      "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9151/QMap_Cap9151_Atlas/gimmick_915132.png",
+      "x": 1024,
+      "y": 1024,
+      "depthOffset": 0,
+      "scale": 1000,
+      "dispCondType": "itemGet",
+      "dispTargetId": 94082512,
+      "dispTargetValue": 2,
+      "dispCondType2": "useItemEternity",
+      "dispTargetId2": 94082512,
+      "dispTargetValue2": 2
+    }, {
       "id": 915137,
       "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9151/QMap_Cap9151_Atlas/gimmick_915137.png",
       "x": 1020,
@@ -100458,6 +100484,19 @@
       "dispCondType": "itemGet",
       "dispTargetId": 94082509,
       "dispTargetValue": 1,
+      "dispCondType2": "useItemEternity",
+      "dispTargetId2": 94082521,
+      "dispTargetValue2": 3
+    }, {
+      "id": 915140,
+      "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9151/QMap_Cap9151_Atlas/gimmick_915140.png",
+      "x": 1024,
+      "y": 1024,
+      "depthOffset": 0,
+      "scale": 1000,
+      "dispCondType": "itemGet",
+      "dispTargetId": 94082512,
+      "dispTargetValue": 2,
       "dispCondType2": "useItemEternity",
       "dispTargetId2": 94082521,
       "dispTargetValue2": 3
@@ -101384,6 +101423,7 @@
         "closedMessage": "ミッションNo.16達成で開放"
       }],
       "phases": [1, 2],
+      "phasesWithEnemies": [1],
       "phasesNoBattle": [2],
       "phaseScripts": [{
         "phase": 1,
@@ -101430,6 +101470,7 @@
         "closedMessage": "「『聖墓隠し通路』をクリアせよ」ミッション達成で開放"
       }],
       "phases": [1, 2, 3, 4],
+      "phasesWithEnemies": [1, 2, 3],
       "phasesNoBattle": [4],
       "phaseScripts": [{
         "phase": 1,
@@ -101485,6 +101526,7 @@
         "targetId": 94082616
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94082593,
       "noticeAt": 1682672400,
       "openedAt": 1682672400,
@@ -101514,6 +101556,7 @@
         "targetId": 94082617
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94082592,
       "noticeAt": 1682672400,
       "openedAt": 1682672400,
@@ -101546,6 +101589,7 @@
         "closedMessage": "聖墓隠し通路(ミッションNo.17達成で開放)"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "phaseScripts": [{
         "phase": 1,
         "scripts": [{
@@ -101570,7 +101614,7 @@
     "questOfsY": -113,
     "quests": [{
       "id": 94082512,
-      "name": "",
+      "name": "第8節 北米神話大殲イ・プルーリバス・ウナム",
       "type": "main",
       "consume": 0,
       "afterClear": "close",
@@ -101584,6 +101628,9 @@
         "num": 1
       }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 94082511
       }, {
@@ -101594,13 +101641,35 @@
         "type": "eventMissionAchieve",
         "targetId": 80424019,
         "closedMessage": "ミッションNo.19達成かつ4月29日18時00分以降に開放"
-      }, {
-        "type": "forceFalse",
-        "targetId": 0,
-        "closedMessage": "データ更新後に開放"
       }],
       "phases": [1, 2, 3, 4],
+      "phasesWithEnemies": [2, 3],
       "phasesNoBattle": [1, 4],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408251210",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408251210.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9408251220",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408251220.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9408251230",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408251230.txt"
+        }]
+      }, {
+        "phase": 4,
+        "scripts": [{
+          "scriptId": "9408251240",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408251240.txt"
+        }]
+      }],
       "priority": 94082888,
       "noticeAt": 1682672400,
       "openedAt": 1682758800,
@@ -101609,23 +101678,257 @@
   }, {
     "id": 914649,
     "mapId": 9151,
-    "name": "",
+    "name": "イ・プルーリバス・ウナム",
     "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9151/QMap_Cap9151_Atlas/spot_914649.png",
     "x": 1217,
     "y": 1111,
     "nameOfsY": 1,
     "questOfsX": 41,
-    "questOfsY": -102
+    "questOfsY": -102,
+    "quests": [{
+      "id": 94082513,
+      "name": "第9節 病めるものも、繋ぐものも",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "50",
+      "spotId": 914649,
+      "spotName": "イ・プルーリバス・ウナム",
+      "warId": 9151,
+      "warLongName": "螺旋証明世界 リリムハーロット",
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94082512
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "eventMissionAchieve",
+        "targetId": 80424020,
+        "closedMessage": "ミッションNo.20達成で開放"
+      }],
+      "phases": [1, 2],
+      "phasesNoBattle": [2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408251310",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408251310.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9408251320",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408251320.txt"
+        }]
+      }],
+      "priority": 94082887,
+      "noticeAt": 1682758800,
+      "openedAt": 1682758800,
+      "closedAt": 1684295999
+    }, {
+      "id": 94082609,
+      "name": "エルロンド会議",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "70",
+      "spotId": 914649,
+      "spotName": "イ・プルーリバス・ウナム",
+      "warId": 9151,
+      "warLongName": "螺旋証明世界 リリムハーロット",
+      "gifts": [{
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "commonRelease",
+        "targetId": 94082618
+      }],
+      "phases": [1],
+      "priority": 94082591,
+      "noticeAt": 1682758800,
+      "openedAt": 1682758800,
+      "closedAt": 1684295999
+    }, {
+      "id": 94082610,
+      "name": "マイ・フェア・レディ",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "75",
+      "spotId": 914649,
+      "spotName": "イ・プルーリバス・ウナム",
+      "warId": 9151,
+      "warLongName": "螺旋証明世界 リリムハーロット",
+      "gifts": [{
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "commonRelease",
+        "targetId": 94082619
+      }],
+      "phases": [1],
+      "priority": 94082590,
+      "noticeAt": 1682758800,
+      "openedAt": 1682758800,
+      "closedAt": 1684295999
+    }, {
+      "id": 94082909,
+      "name": "闇の底はまだ知れない",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "55",
+      "spotId": 914649,
+      "spotName": "イ・プルーリバス・ウナム",
+      "warId": 9151,
+      "warLongName": "螺旋証明世界 リリムハーロット",
+      "gifts": [{
+        "objectId": 6528,
+        "num": 3
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94082514
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408290911",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408290911.txt"
+        }]
+      }],
+      "priority": 94082791,
+      "noticeAt": 1682758800,
+      "openedAt": 1682758800,
+      "closedAt": 1684295999
+    }]
+  }, {
+    "id": 914650,
+    "mapId": 9151,
+    "name": "トワイライト・ラダー",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9151/QMap_Cap9151_Atlas/spot_914644.png",
+    "x": 1028,
+    "y": 1080,
+    "nameOfsY": -31,
+    "questOfsX": 24,
+    "questOfsY": -113,
+    "quests": [{
+      "id": 94082514,
+      "name": "第10節 願わくば我が手でその胸を貫いて",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "50",
+      "spotId": 914650,
+      "spotName": "トワイライト・ラダー",
+      "warId": 9151,
+      "warLongName": "螺旋証明世界 リリムハーロット",
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94082513
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "eventMissionAchieve",
+        "targetId": 80424021,
+        "closedMessage": "ミッションNo.21達成で開放"
+      }],
+      "phases": [1, 2],
+      "phasesNoBattle": [2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408251410",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408251410.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9408251420",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408251420.txt"
+        }]
+      }],
+      "priority": 94082886,
+      "noticeAt": 1682758800,
+      "openedAt": 1682758800,
+      "closedAt": 1684295999
+    }]
   }, {
     "id": 914651,
     "mapId": 9151,
-    "name": "",
+    "name": "ロンドン",
     "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9151/QMap_Cap9151_Atlas/spot_914651.png",
     "x": 858,
     "y": 966,
     "nameOfsY": 1,
     "questOfsX": 41,
-    "questOfsY": -102
+    "questOfsY": -102,
+    "quests": [{
+      "id": 94082515,
+      "name": "",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "55",
+      "spotId": 914651,
+      "spotName": "ロンドン",
+      "warId": 9151,
+      "warLongName": "螺旋証明世界 リリムハーロット",
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94082514
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "eventMissionAchieve",
+        "targetId": 80424022,
+        "closedMessage": "ミッションNo.22達成かつ4月30日18時00分以降に開放"
+      }, {
+        "type": "forceFalse",
+        "targetId": 0,
+        "closedMessage": "データ更新後に開放"
+      }],
+      "phases": [1],
+      "priority": 94082885,
+      "noticeAt": 1682758800,
+      "openedAt": 1682845200,
+      "closedAt": 1684295999
+    }]
   }, {
     "id": 914653,
     "mapId": 9151,
@@ -101766,6 +102069,26 @@
     "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9151/QMap_Cap9151_Atlas/img_road9151_00.png",
     "srcSpotId": 914648,
     "dstSpotId": 914649,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "questClear"
+  }, {
+    "id": 915107,
+    "warId": 9151,
+    "mapId": 9151,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9151/QMap_Cap9151_Atlas/img_road9151_00.png",
+    "srcSpotId": 914649,
+    "dstSpotId": 914650,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "questClear"
+  }, {
+    "id": 915108,
+    "warId": 9151,
+    "mapId": 9151,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9151/QMap_Cap9151_Atlas/img_road9151_00.png",
+    "srcSpotId": 914650,
+    "dstSpotId": 914651,
     "dispCondType": "useItemTime",
     "dispCondType2": "useItemTime",
     "activeCondType": "questClear"
