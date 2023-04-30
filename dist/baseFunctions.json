@@ -20704,7 +20704,7 @@
               "damageRate": 2000,
               "type": "overwriteForce"
             },
-            "atlasUnmappedClass": {
+            "beastVI": {
               "damageRate": 2000,
               "type": "overwriteForce"
             }
@@ -20832,7 +20832,7 @@
               "type": "overwriteMoreThanTarget"
             }
           },
-          "atlasUnmappedClass": {
+          "beastVI": {
             "caster": {
               "damageRate": 1000,
               "type": "overwriteMoreThanTarget"
@@ -21521,7 +21521,7 @@
               "type": "overwriteMoreThanTarget"
             }
           },
-          "atlasUnmappedClass": {
+          "beastVI": {
             "saber": {
               "damageRate": 1000,
               "type": "overwriteMoreThanTarget"
@@ -38604,6 +38604,34 @@
       "id": 3011
     }],
     "maxRate": 10000
+  }]
+}, {
+  "funcId": 20880,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "通常攻撃ダメージ前追加効果",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_528.png",
+  "buffs": [{
+    "id": 5354,
+    "name": "通常攻撃ダメージ前追加効果",
+    "detail": "通常攻撃時ダメージ前に、敵単体に呪い状態を付与",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_528.png",
+    "type": "commandattackBeforeFunction",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }],
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4008
+    }],
+    "ckSelfIndv": [{
+      "id": 4008
+    }],
+    "maxRate": 0
   }]
 }, {
   "funcId": 30003,
