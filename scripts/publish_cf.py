@@ -1,4 +1,5 @@
 import shutil
+import sys
 from pathlib import Path
 
 import compress_dist
@@ -12,4 +13,5 @@ def copy_functions():
 
 if __name__ == "__main__":
     compress_dist.main()
-    copy_functions()
+    if "--function" in sys.argv[1:]:
+        copy_functions()
