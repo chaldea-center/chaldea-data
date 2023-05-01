@@ -102542,6 +102542,7 @@
         "closedMessage": "ミッションNo.24達成かつ5月1日18時00分以降に開放"
       }],
       "phases": [1, 2, 3, 4, 5],
+      "phasesWithEnemies": [2, 3, 4],
       "phasesNoBattle": [1, 5],
       "phaseScripts": [{
         "phase": 1,
@@ -102591,7 +102592,89 @@
     "y": 527,
     "nameOfsY": 1,
     "questOfsX": 41,
-    "questOfsY": -102
+    "questOfsY": -102,
+    "quests": [{
+      "id": 94082521,
+      "name": "第15節 傷を焼べて、愛も焼べて",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "65",
+      "spotId": 914655,
+      "spotName": "セプテム",
+      "warId": 9151,
+      "warLongName": "螺旋証明世界 リリムハーロット",
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94082520
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "eventMissionAchieve",
+        "targetId": 80424025,
+        "closedMessage": "ミッションNo.25達成で開放"
+      }],
+      "phases": [1, 2, 3],
+      "phasesNoBattle": [2, 3],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408252110",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408252110.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9408252120",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408252120.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9408252130",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408252130.txt"
+        }]
+      }],
+      "priority": 94082879,
+      "noticeAt": 1682931600,
+      "openedAt": 1682931600,
+      "closedAt": 1684295999
+    }, {
+      "id": 94082613,
+      "name": "役者はいなくなった",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90",
+      "spotId": 914655,
+      "spotName": "セプテム",
+      "warId": 9151,
+      "warLongName": "螺旋証明世界 リリムハーロット",
+      "gifts": [{
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "commonRelease",
+        "targetId": 94082621
+      }],
+      "phases": [1],
+      "priority": 94082587,
+      "noticeAt": 1682931600,
+      "openedAt": 1682931600,
+      "closedAt": 1684295999
+    }]
   }, {
     "id": 914656,
     "mapId": 9151,
@@ -102611,7 +102694,45 @@
     "y": 327,
     "nameOfsY": 1,
     "questOfsX": 41,
-    "questOfsY": -102
+    "questOfsY": -102,
+    "quests": [{
+      "id": 94082522,
+      "name": "",
+      "type": "main",
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 914657,
+      "spotName": "オルレアン",
+      "warId": 9151,
+      "warLongName": "螺旋証明世界 リリムハーロット",
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94082521
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "eventMissionAchieve",
+        "targetId": 80424026,
+        "closedMessage": "ミッションNo.26達成かつ5月2日18時00分以降に開放"
+      }, {
+        "type": "forceFalse",
+        "targetId": 0,
+        "closedMessage": "データ更新後に開放"
+      }],
+      "phases": [1, 2, 3],
+      "phasesNoBattle": [1, 2, 3],
+      "priority": 94082878,
+      "noticeAt": 1682931600,
+      "openedAt": 1683018000,
+      "closedAt": 1684295999
+    }]
   }, {
     "id": 915101,
     "mapId": 9151,
