@@ -20707,6 +20707,10 @@
             "beastVI": {
               "damageRate": 2000,
               "type": "overwriteForce"
+            },
+            "atlasUnmappedClass": {
+              "damageRate": 2000,
+              "type": "overwriteForce"
             }
           }
         },
@@ -20833,6 +20837,12 @@
             }
           },
           "beastVI": {
+            "caster": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            }
+          },
+          "atlasUnmappedClass": {
             "caster": {
               "damageRate": 1000,
               "type": "overwriteMoreThanTarget"
@@ -21547,6 +21557,60 @@
               "type": "overwriteMoreThanTarget"
             },
             "berserker": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            }
+          },
+          "atlasUnmappedClass": {
+            "saber": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "archer": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "lancer": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "rider": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "caster": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "assassin": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "berserker": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "ruler": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "alterEgo": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "avenger": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "moonCancer": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "foreigner": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "pretender": {
               "damageRate": 1000,
               "type": "overwriteMoreThanTarget"
             }
@@ -38634,6 +38698,33 @@
     "maxRate": 0
   }]
 }, {
+  "funcId": 20884,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptOne",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "クリティカル威力アップ：Buster",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_324.png",
+  "buffs": [{
+    "id": 952,
+    "name": "クリティカル威力アップ",
+    "detail": "Busterカードのクリティカル時のダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_324.png",
+    "type": "upCriticaldamage",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3031
+    }, {
+      "id": 2852
+    }],
+    "ckSelfIndv": [{
+      "id": 4002
+    }],
+    "maxRate": 5000
+  }]
+}, {
   "funcId": 30003,
   "funcType": "addStateShort",
   "funcTargetType": "self",
@@ -39125,6 +39216,8 @@
       "id": 124
     }, {
       "id": 125
+    }, {
+      "id": 126
     }],
     "ckOpIndv": [{
       "id": 107
@@ -39162,6 +39255,8 @@
       "id": 124
     }, {
       "id": 125
+    }, {
+      "id": 126
     }],
     "maxRate": 5000
   }]
@@ -39499,6 +39594,8 @@
       "id": 124
     }, {
       "id": 125
+    }, {
+      "id": 126
     }],
     "ckOpIndv": [{
       "id": 111
@@ -39522,6 +39619,8 @@
       "id": 124
     }, {
       "id": 125
+    }, {
+      "id": 126
     }],
     "maxRate": 5000
   }]
