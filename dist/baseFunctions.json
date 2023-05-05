@@ -14829,6 +14829,33 @@
     "maxRate": 5000
   }]
 }, {
+  "funcId": 2230,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "クリティカル威力アップ：Buster",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_324.png",
+  "buffs": [{
+    "id": 952,
+    "name": "クリティカル威力アップ",
+    "detail": "Busterカードのクリティカル時のダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_324.png",
+    "type": "upCriticaldamage",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3031
+    }, {
+      "id": 2852
+    }],
+    "ckSelfIndv": [{
+      "id": 4002
+    }],
+    "maxRate": 5000
+  }]
+}, {
   "funcId": 2231,
   "funcType": "addStateShort",
   "funcTargetType": "self",
@@ -28766,6 +28793,34 @@
     "icon": "https://static.atlasacademy.io/JP/EventUI/func_group_icon_1023.png",
     "priority": 100,
     "isDispValue": true
+  }]
+}, {
+  "funcId": 7036,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "威力アップ・対善",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+  "buffs": [{
+    "id": 3560,
+    "name": "威力アップ〔善〕",
+    "detail": "〔善〕特性に与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamage",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3028
+    }],
+    "tvals": [{
+      "id": 303
+    }],
+    "ckOpIndv": [{
+      "id": 303
+    }],
+    "maxRate": 10000
   }]
 }, {
   "funcId": 7037,
