@@ -38780,6 +38780,121 @@
     "maxRate": 5000
   }]
 }, {
+  "funcId": 20885,
+  "funcType": "addState",
+  "funcTargetType": "enemyAll",
+  "funcTargetTeam": "enemy",
+  "funcPopupText": "ハッピーハロウィン",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_523.png",
+  "buffs": [{
+    "id": 5357,
+    "name": "ハッピーハロウィン",
+    "detail": "クリティカルの発生率をダウン",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_523.png",
+    "type": "downCriticalrate",
+    "script": {
+      "missText": "クリティカル MISS"
+    },
+    "vals": [{
+      "id": 3005
+    }, {
+      "id": 3008
+    }, {
+      "id": 3038
+    }, {
+      "id": 2859
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 20886,
+  "funcType": "addState",
+  "funcTargetType": "enemyAll",
+  "funcTargetTeam": "player",
+  "funcPopupText": "ハッピーハロウィン",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_510.png",
+  "buffs": [{
+    "id": 5358,
+    "name": "ハッピーハロウィン",
+    "detail": "スター発生率をダウン",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_510.png",
+    "type": "downCriticalpoint",
+    "vals": [{
+      "id": 3005
+    }, {
+      "id": 2859
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 20887,
+  "funcType": "addState",
+  "funcTargetType": "enemyAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "functvals": [{
+    "id": 2859
+  }],
+  "buffs": [{
+    "id": 5359,
+    "name": "",
+    "detail": "",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_520.png",
+    "type": "addIndividuality",
+    "vals": [{
+      "id": 2860
+    }],
+    "maxRate": 0
+  }]
+}, {
+  "funcId": 20888,
+  "funcType": "subState",
+  "funcTargetType": "enemyAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "traitVals": [{
+    "id": 2860
+  }]
+}, {
+  "funcId": 20889,
+  "funcType": "gainNpIndividualSum",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "NP増加",
+  "buffs": [{
+    "id": 2860,
+    "name": "形状変化・枝剣",
+    "detail": "宇津見エリセのクリティカル発生率をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_327.png",
+    "type": "upCriticalrate",
+    "vals": [{
+      "id": 2648
+    }],
+    "tvals": [{
+      "id": 2646
+    }],
+    "ckOpIndv": [{
+      "id": 2646
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 20890,
+  "funcType": "subState",
+  "funcTargetType": "enemyAll",
+  "funcTargetTeam": "player",
+  "funcPopupText": "強化解除",
+  "traitVals": [{
+    "id": 3004
+  }]
+}, {
+  "funcId": 20891,
+  "funcType": "subState",
+  "funcTargetType": "enemyAll",
+  "funcTargetTeam": "enemy",
+  "funcPopupText": "強化解除",
+  "traitVals": [{
+    "id": 3004
+  }]
+}, {
   "funcId": 30003,
   "funcType": "addStateShort",
   "funcTargetType": "self",
