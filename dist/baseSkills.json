@@ -9835,6 +9835,100 @@
     }]
   }]
 }, {
+  "id": 93450,
+  "name": "魔眼 B",
+  "ruby": "まがん",
+  "unmodifiedDetail": "敵単体に確率[{0}]で拘束状態を付与(1ターン) ＋ 自身のスター集中度をアップ[{0}](1ターン)＆クリティカル威力をアップ[{0}](1ターン)",
+  "type": "active",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00508.png",
+  "coolDown": [9, 9, 9, 9, 9, 8, 8, 8, 8, 7],
+  "functions": [{
+    "funcId": 20902,
+    "svals": [{
+      "Rate": 500,
+      "Turn": 1,
+      "Count": -1
+    }, {
+      "Rate": 550
+    }, {
+      "Rate": 600
+    }, {
+      "Rate": 650
+    }, {
+      "Rate": 700
+    }, {
+      "Rate": 750
+    }, {
+      "Rate": 800
+    }, {
+      "Rate": 850
+    }, {
+      "Rate": 900
+    }, {
+      "Rate": 1000
+    }]
+  }, {
+    "funcId": 365,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 1,
+      "Count": -1,
+      "Value": 3000
+    }, {
+      "Value": 3200
+    }, {
+      "Value": 3400
+    }, {
+      "Value": 3600
+    }, {
+      "Value": 3800
+    }, {
+      "Value": 4000
+    }, {
+      "Value": 4200
+    }, {
+      "Value": 4400
+    }, {
+      "Value": 4600
+    }, {
+      "Value": 5000
+    }]
+  }, {
+    "funcId": 215,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 1,
+      "Count": -1,
+      "Value": 200
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 201,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 1,
+      "Count": -1,
+      "Value": 500
+    }, {
+      "Value": 550
+    }, {
+      "Value": 600
+    }, {
+      "Value": 650
+    }, {
+      "Value": 700
+    }, {
+      "Value": 750
+    }, {
+      "Value": 800
+    }, {
+      "Value": 850
+    }, {
+      "Value": 900
+    }, {
+      "Value": 1000
+    }]
+  }]
+}, {
   "id": 93451,
   "name": "魔眼 B+",
   "ruby": "まがん",
@@ -73642,6 +73736,56 @@
     }]
   }]
 }, {
+  "id": 940286,
+  "name": "風雲パワー EX",
+  "ruby": "ふううんぱわー",
+  "unmodifiedDetail": "自身の『風雲からくりイリヤ城』における攻撃の威力を100%アップ＆クエストクリア時に得られる絆を50%増やす【『風雲からくりイリヤ城』イベント期間限定】",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00301.png",
+  "coolDown": [0],
+  "functions": [{
+    "funcId": 20892,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 1000
+    }]
+  }, {
+    "funcId": 20901,
+    "svals": [{
+      "Target": 1,
+      "Individuality": 0,
+      "EventId": 80429,
+      "RateCount": 500
+    }]
+  }]
+}, {
+  "id": 940288,
+  "name": "風雲パワー A",
+  "ruby": "ふううんぱわー",
+  "unmodifiedDetail": "自身の『風雲からくりイリヤ城』における攻撃の威力を50%アップ＆クエストクリア時に得られる絆を20%増やす【『風雲からくりイリヤ城』イベント期間限定】",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00301.png",
+  "coolDown": [0],
+  "functions": [{
+    "funcId": 20892,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 500
+    }]
+  }, {
+    "funcId": 20901,
+    "svals": [{
+      "Target": 1,
+      "Individuality": 0,
+      "EventId": 80429,
+      "RateCount": 200
+    }]
+  }]
+}, {
   "id": 940450,
   "name": "トレジャー・チェッカー B",
   "ruby": "とれじゃー・ちぇっかー",
@@ -83914,6 +84058,37 @@
       "Turn": 3,
       "Count": -1,
       "Value": 500
+    }]
+  }]
+}, {
+  "id": 970274,
+  "name": "",
+  "type": "active",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00601.png",
+  "coolDown": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+  "functions": [{
+    "funcId": 459,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 500
+    }, {
+      "Value": 550
+    }, {
+      "Value": 600
+    }, {
+      "Value": 650
+    }, {
+      "Value": 700
+    }, {
+      "Value": 750
+    }, {
+      "Value": 800
+    }, {
+      "Value": 850
+    }, {
+      "Value": 900
+    }, {
+      "Value": 1000
     }]
   }]
 }, {
@@ -158401,6 +158576,560 @@
     }]
   }]
 }, {
+  "id": 993629,
+  "name": "錦の姫",
+  "ruby": "-",
+  "unmodifiedDetail": "自身のArtsカード性能を6%アップ＆Busterカード性能を6%アップ＆クリティカル威力を10%アップ＆毎ターンスター3個獲得状態を付与",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00315.png",
+  "coolDown": [0],
+  "functions": [{
+    "funcId": 109,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 60
+    }]
+  }, {
+    "funcId": 118,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 60
+    }]
+  }, {
+    "funcId": 200,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 100
+    }]
+  }, {
+    "funcId": 333,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 3
+    }]
+  }]
+}, {
+  "id": 993630,
+  "name": "錦の姫",
+  "ruby": "-",
+  "unmodifiedDetail": "自身のArtsカード性能を8%アップ＆Busterカード性能を8%アップ＆クリティカル威力を15%アップ＆毎ターンスター4個獲得状態を付与[最大解放]",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00315.png",
+  "coolDown": [0],
+  "functions": [{
+    "funcId": 109,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 80
+    }]
+  }, {
+    "funcId": 118,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 80
+    }]
+  }, {
+    "funcId": 200,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 150
+    }]
+  }, {
+    "funcId": 333,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 4
+    }]
+  }]
+}, {
+  "id": 993631,
+  "name": "からくり水鉄砲のドロップ獲得数アップ",
+  "ruby": "-",
+  "unmodifiedDetail": "からくり水鉄砲のドロップ獲得数を1個増やす【『風雲からくりイリヤ城』イベント期間限定】",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00200.png",
+  "coolDown": [0],
+  "functions": [{
+    "funcId": 20853,
+    "svals": [{
+      "Individuality": 10788,
+      "EventId": 80429,
+      "AddCount": 1
+    }]
+  }]
+}, {
+  "id": 993632,
+  "name": "からくり水鉄砲のドロップ獲得数アップ",
+  "ruby": "-",
+  "unmodifiedDetail": "からくり水鉄砲のドロップ獲得数を2個増やす[最大解放]【『風雲からくりイリヤ城』イベント期間限定】",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00200.png",
+  "coolDown": [0],
+  "functions": [{
+    "funcId": 20853,
+    "svals": [{
+      "Individuality": 10788,
+      "EventId": 80429,
+      "AddCount": 2
+    }]
+  }]
+}, {
+  "id": 993633,
+  "name": "巫覡八石跳",
+  "ruby": "-",
+  "unmodifiedDetail": "自身の登場時にスターを10個獲得(1回)＆Quickカード性能を3%アップ＆Artsカード性能を3%アップ",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00603.png",
+  "coolDown": [0],
+  "functions": [{
+    "funcId": 3408,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": 1,
+      "Value": 993680,
+      "Value2": 1
+    }]
+  }, {
+    "funcId": 100,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 30
+    }]
+  }, {
+    "funcId": 109,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 30
+    }]
+  }]
+}, {
+  "id": 993634,
+  "name": "巫覡八石跳",
+  "ruby": "-",
+  "unmodifiedDetail": "自身の登場時にスターを12個獲得(1回)＆Quickカード性能を5%アップ＆Artsカード性能を5%アップ[最大解放]",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00603.png",
+  "coolDown": [0],
+  "functions": [{
+    "funcId": 3408,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": 1,
+      "Value": 993680,
+      "Value2": 2
+    }]
+  }, {
+    "funcId": 100,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 50
+    }]
+  }, {
+    "funcId": 109,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 50
+    }]
+  }]
+}, {
+  "id": 993635,
+  "name": "からくりヘルメットのドロップ獲得数アップ",
+  "ruby": "-",
+  "unmodifiedDetail": "からくりヘルメットのドロップ獲得数を1個増やす【『風雲からくりイリヤ城』イベント期間限定】",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00200.png",
+  "coolDown": [0],
+  "functions": [{
+    "funcId": 20852,
+    "svals": [{
+      "Individuality": 10787,
+      "EventId": 80429,
+      "AddCount": 1
+    }]
+  }]
+}, {
+  "id": 993636,
+  "name": "からくりヘルメットのドロップ獲得数アップ",
+  "ruby": "-",
+  "unmodifiedDetail": "からくりヘルメットのドロップ獲得数を2個増やす[最大解放]【『風雲からくりイリヤ城』イベント期間限定】",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00200.png",
+  "coolDown": [0],
+  "functions": [{
+    "funcId": 20852,
+    "svals": [{
+      "Individuality": 10787,
+      "EventId": 80429,
+      "AddCount": 2
+    }]
+  }]
+}, {
+  "id": 993637,
+  "name": "ギミック・マスター",
+  "ruby": "-",
+  "unmodifiedDetail": "自身の被ダメージを100カットする状態を付与＆NP獲得量を5%アップ",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00400.png",
+  "coolDown": [0],
+  "functions": [{
+    "funcId": 274,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 100
+    }]
+  }, {
+    "funcId": 336,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 50
+    }]
+  }]
+}, {
+  "id": 993638,
+  "name": "ギミック・マスター",
+  "ruby": "-",
+  "unmodifiedDetail": "自身の被ダメージを200カットする状態を付与＆NP獲得量を10%アップ[最大解放]",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00400.png",
+  "coolDown": [0],
+  "functions": [{
+    "funcId": 274,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 200
+    }]
+  }, {
+    "funcId": 336,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 100
+    }]
+  }]
+}, {
+  "id": 993639,
+  "name": "からくりプロテクターのドロップ獲得数アップ",
+  "ruby": "-",
+  "unmodifiedDetail": "からくりプロテクターのドロップ獲得数を1個増やす【『風雲からくりイリヤ城』イベント期間限定】",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00200.png",
+  "coolDown": [0],
+  "functions": [{
+    "funcId": 20851,
+    "svals": [{
+      "Individuality": 10786,
+      "EventId": 80429,
+      "AddCount": 1
+    }]
+  }]
+}, {
+  "id": 993640,
+  "name": "からくりプロテクターのドロップ獲得数アップ",
+  "ruby": "-",
+  "unmodifiedDetail": "からくりプロテクターのドロップ獲得数を2個増やす[最大解放]【『風雲からくりイリヤ城』イベント期間限定】",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00200.png",
+  "coolDown": [0],
+  "functions": [{
+    "funcId": 20851,
+    "svals": [{
+      "Individuality": 10786,
+      "EventId": 80429,
+      "AddCount": 2
+    }]
+  }]
+}, {
+  "id": 993641,
+  "name": "安息の館",
+  "ruby": "-",
+  "unmodifiedDetail": "自身にガッツ状態を付与(1回・HP1回復)＆HP回復量を10%アップ",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00404.png",
+  "coolDown": [0],
+  "functions": [{
+    "funcId": 292,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": 1,
+      "Value": 1
+    }]
+  }, {
+    "funcId": 492,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 100
+    }]
+  }]
+}, {
+  "id": 993642,
+  "name": "安息の館",
+  "ruby": "-",
+  "unmodifiedDetail": "自身にガッツ状態を付与(1回・HP1回復)＆HP回復量を20%アップ[最大解放]",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00404.png",
+  "coolDown": [0],
+  "functions": [{
+    "funcId": 292,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": 1,
+      "Value": 1
+    }]
+  }, {
+    "funcId": 492,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 200
+    }]
+  }]
+}, {
+  "id": 993643,
+  "name": "攻撃の威力アップ",
+  "ruby": "-",
+  "unmodifiedDetail": "『風雲からくりイリヤ城』において、自身の攻撃の威力を100%アップ【『風雲からくりイリヤ城』イベント期間限定】",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00301.png",
+  "coolDown": [0],
+  "functions": [{
+    "funcId": 20855,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 1000
+    }]
+  }]
+}, {
+  "id": 993644,
+  "name": "攻撃の威力アップ",
+  "ruby": "-",
+  "unmodifiedDetail": "『風雲からくりイリヤ城』において、自身の攻撃の威力を200%アップ[最大解放]【『風雲からくりイリヤ城』イベント期間限定】",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00301.png",
+  "coolDown": [0],
+  "functions": [{
+    "funcId": 20855,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 2000
+    }]
+  }]
+}, {
+  "id": 993645,
+  "name": "ウィナーズ・アイ",
+  "ruby": "-",
+  "unmodifiedDetail": "自身に〔騎乗スキル〕特攻状態を25%付与＆NPを30%チャージした状態でバトルを開始する",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00301.png",
+  "coolDown": [0],
+  "functions": [{
+    "funcId": 9710,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 250
+    }]
+  }, {
+    "funcId": 460,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 3000
+    }]
+  }]
+}, {
+  "id": 993646,
+  "name": "ウィナーズ・アイ",
+  "ruby": "-",
+  "unmodifiedDetail": "自身に〔騎乗スキル〕特攻状態を30%付与＆NPを50%チャージした状態でバトルを開始する[最大解放]",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00301.png",
+  "coolDown": [0],
+  "functions": [{
+    "funcId": 9710,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 300
+    }]
+  }, {
+    "funcId": 460,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 5000
+    }]
+  }]
+}, {
+  "id": 993647,
+  "name": "風雲からくりイリヤ城通行手形のドロップ獲得数アップ",
+  "ruby": "-",
+  "unmodifiedDetail": "風雲からくりイリヤ城通行手形のドロップ獲得数を1個増やす【『風雲からくりイリヤ城』イベント期間限定】",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00200.png",
+  "coolDown": [0],
+  "functions": [{
+    "funcId": 20854,
+    "svals": [{
+      "Individuality": 10790,
+      "EventId": 80429,
+      "AddCount": 1
+    }]
+  }]
+}, {
+  "id": 993648,
+  "name": "風雲からくりイリヤ城通行手形のドロップ獲得数アップ",
+  "ruby": "-",
+  "unmodifiedDetail": "風雲からくりイリヤ城通行手形のドロップ獲得数を2個増やす[最大解放]【『風雲からくりイリヤ城』イベント期間限定】",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00200.png",
+  "coolDown": [0],
+  "functions": [{
+    "funcId": 20854,
+    "svals": [{
+      "Individuality": 10790,
+      "EventId": 80429,
+      "AddCount": 2
+    }]
+  }]
+}, {
+  "id": 993649,
+  "name": "瞼に浮かぶ",
+  "ruby": "-",
+  "unmodifiedDetail": "[servantName 604900](アサシン)装備時のみ、自身がフィールドにいる間、味方全体に〔拘束〕状態特攻状態を30%付与",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00301.png",
+  "coolDown": [0],
+  "actIndividuality": [{
+    "id": 604900
+  }],
+  "functions": [{
+    "funcId": 20904,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 300,
+      "OnField": 1,
+      "IncludeIgnoreIndividuality": 1
+    }]
+  }]
+}, {
+  "id": 993650,
+  "name": "雪の嬰児の戦友",
+  "ruby": "ゆきのえいじのせんゆう",
+  "unmodifiedDetail": "Artsカードに刻印時のみ、刻印されたカードのクリティカル威力を15%アップ",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00303.png",
+  "coolDown": [0],
+  "functions": [{
+    "funcId": 3894,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 150,
+      "ShowState": 1
+    }]
+  }]
+}, {
+  "id": 993651,
+  "name": "理想を刻する王の鑿",
+  "ruby": "ピグマリオン・チーゼルアウト",
+  "unmodifiedDetail": "刻印されたカードのクリティカル威力を10%アップ ＋ 刻印されたカードによる攻撃時に自身のHPを200回復",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00303.png",
+  "coolDown": [0],
+  "functions": [{
+    "funcId": 199,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 100,
+      "ShowState": 1
+    }]
+  }, {
+    "funcId": 3600,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 993678,
+      "Value2": 1,
+      "ShowState": -1
+    }]
+  }]
+}, {
+  "id": 993652,
+  "name": "人造くのいち",
+  "ruby": "じんぞうくのいち",
+  "unmodifiedDetail": "刻印されたカードに〔魔性〕特攻効果を15%付与 ＋ 刻印されたカードによる攻撃時にスターを2個獲得",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00301.png",
+  "coolDown": [0],
+  "functions": [{
+    "funcId": 907,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 150,
+      "ShowState": 1
+    }]
+  }, {
+    "funcId": 3600,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 993679,
+      "Value2": 1,
+      "ShowState": -1
+    }]
+  }]
+}, {
   "id": 993653,
   "name": "",
   "type": "passive",
@@ -158443,6 +159172,47 @@
       "Turn": 3,
       "Count": -1,
       "Value": 100
+    }]
+  }]
+}, {
+  "id": 993678,
+  "name": "",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00600.png",
+  "coolDown": [0],
+  "functions": [{
+    "funcId": 438,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 200
+    }]
+  }]
+}, {
+  "id": 993679,
+  "name": "",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00603.png",
+  "coolDown": [0],
+  "functions": [{
+    "funcId": 475,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 2
+    }]
+  }]
+}, {
+  "id": 993680,
+  "name": "",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00603.png",
+  "coolDown": [0, 0],
+  "functions": [{
+    "funcId": 476,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 10
+    }, {
+      "Value": 12
     }]
   }]
 }, {
@@ -174640,6 +175410,228 @@
       "HideMiss": 1,
       "HideNoEffect": 1,
       "ForceSubState": 1
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }]
+}, {
+  "id": 2219650,
+  "name": "絡繰作成 EX",
+  "ruby": "からくりさくせい",
+  "unmodifiedDetail": "自身の弱体付与成功率を少しアップ＆Quickカード性能を少しアップ",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00103.png",
+  "coolDown": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+  "functions": [{
+    "funcId": 373,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 60
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 100,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 60
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }]
+}, {
+  "id": 2220650,
+  "name": "精神改造 EX",
+  "ruby": "せいしんかいぞう",
+  "unmodifiedDetail": "自身のクリティカル威力をアップ＆弱体耐性をアップ",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00303.png",
+  "coolDown": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+  "functions": [{
+    "funcId": 199,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 100
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 388,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 100
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }]
+}, {
+  "id": 2221650,
+  "name": "幻術（外術） EX",
+  "ruby": "げんじゅつ（げじゅつ）",
+  "unmodifiedDetail": "味方全体に無敵状態を付与(1回・3ターン) ＋ 自身のNPを増やす[{0}] ＋ スターを獲得[{0}]",
+  "type": "active",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00403.png",
+  "coolDown": [9, 9, 9, 9, 9, 8, 8, 8, 8, 7],
+  "functions": [{
+    "funcId": 291,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": 1
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 460,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 2000
+    }, {
+      "Value": 2100
+    }, {
+      "Value": 2200
+    }, {
+      "Value": 2300
+    }, {
+      "Value": 2400
+    }, {
+      "Value": 2500
+    }, {
+      "Value": 2600
+    }, {
+      "Value": 2700
+    }, {
+      "Value": 2800
+    }, {
+      "Value": 3000
+    }]
+  }, {
+    "funcId": 470,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 1
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 476,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 10
+    }, {
+      "Value": 11
+    }, {
+      "Value": 12
+    }, {
+      "Value": 13
+    }, {
+      "Value": 14
+    }, {
+      "Value": 15
+    }, {
+      "Value": 16
+    }, {
+      "Value": 17
+    }, {
+      "Value": 18
+    }, {
+      "Value": 20
+    }]
+  }, {
+    "funcId": 215,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 2,
+      "Count": -1,
+      "Value": 200
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }]
+}, {
+  "id": 2222451,
+  "name": "殺戮機巧 B+",
+  "ruby": "さつりくきこう",
+  "unmodifiedDetail": "自身のQuickカード性能をアップ[{0}](3ターン)＆攻撃力をアップ[{0}](3ターン)＆「Quick通常攻撃時に自身のNPを増やす[{0}]状態」を付与(3ターン) ",
+  "type": "active",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00304.png",
+  "coolDown": [8, 8, 8, 8, 8, 7, 7, 7, 7, 6],
+  "functions": [{
+    "funcId": 101,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 200
+    }, {
+      "Value": 210
+    }, {
+      "Value": 220
+    }, {
+      "Value": 230
+    }, {
+      "Value": 240
+    }, {
+      "Value": 250
+    }, {
+      "Value": 260
+    }, {
+      "Value": 270
+    }, {
+      "Value": 280
+    }, {
+      "Value": 300
+    }]
+  }, {
+    "funcId": 146,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 100
+    }, {
+      "Value": 110
+    }, {
+      "Value": 120
+    }, {
+      "Value": 130
+    }, {
+      "Value": 140
+    }, {
+      "Value": 150
+    }, {
+      "Value": 160
+    }, {
+      "Value": 170
+    }, {
+      "Value": 180
+    }, {
+      "Value": 200
+    }]
+  }, {
+    "funcId": 20899,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 970274,
+      "Value2": 1
+    }, {
+      "Value2": 2
+    }, {
+      "Value2": 3
+    }, {
+      "Value2": 4
+    }, {
+      "Value2": 5
+    }, {
+      "Value2": 6
+    }, {
+      "Value2": 7
+    }, {
+      "Value2": 8
+    }, {
+      "Value2": 9
+    }, {
+      "Value2": 10
+    }]
+  }, {
+    "funcId": 470,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 1
     }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
   }]
 }, {

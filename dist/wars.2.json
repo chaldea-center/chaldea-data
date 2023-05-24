@@ -70733,4 +70733,400 @@
       "closedAt": 1680839999
     }]
   }]
+}, {
+  "id": 8384,
+  "coordinates": [
+    [],
+    []
+  ],
+  "age": "-",
+  "name": "風雲からくりイリヤ城 ～果心居士のささやかな野望～",
+  "longName": "風雲からくりイリヤ城 ～果心居士のささやかな野望～",
+  "flags": ["isEvent", "noClearMarkWithComplete"],
+  "banner": "https://static.atlasacademy.io/JP/Banner/event_war_80411.png",
+  "priority": 8384,
+  "bgm": {
+    "id": 0
+  },
+  "scriptId": "NONE",
+  "script": "https://static.atlasacademy.io/JP/Script/Common/NONE.txt",
+  "startType": "none",
+  "targetId": 0,
+  "eventId": 80429,
+  "eventName": "風雲からくりイリヤ城\n～果心居士のささやかな野望～",
+  "lastQuestId": 0,
+  "warAdds": [{
+    "warId": 8384,
+    "type": "bgImage",
+    "priority": 1,
+    "overwriteId": 186800,
+    "condType": "questClear",
+    "targetId": 1000011,
+    "value": 0,
+    "startedAt": 1684926000,
+    "endedAt": 1686110399
+  }],
+  "maps": [{
+    "id": 8384,
+    "mapImage": "https://static.atlasacademy.io/JP/Terminal/MapImgs/img_questmap_008384/img_questmap_008384.png",
+    "mapImageW": 0,
+    "mapImageH": 0,
+    "bgm": {
+      "id": 0
+    }
+  }],
+  "spots": [{
+    "id": 838499,
+    "mapId": 8384,
+    "name": "カルデアゲート",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter8384/QMap_Cap8384_Atlas/spot_835801.png",
+    "x": 0,
+    "y": 0,
+    "quests": [{
+      "id": 94083601,
+      "name": "驚嘆！ 風雲からくりイリヤ城！",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "20",
+      "spotId": 838499,
+      "spotName": "カルデアゲート",
+      "warId": 8384,
+      "warLongName": "風雲からくりイリヤ城 ～果心居士のささやかな野望～",
+      "gifts": [{
+        "type": "servant",
+        "objectId": 9407030,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 1000011
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1, 2, 3],
+      "phasesWithEnemies": [1],
+      "phasesNoBattle": [2, 3],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408360110",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408360110.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9408360120",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408360120.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9408360130",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408360130.txt"
+        }]
+      }],
+      "priority": 94083999,
+      "noticeAt": 1684926000,
+      "openedAt": 1684926000,
+      "closedAt": 1686110399
+    }, {
+      "id": 94083602,
+      "name": "",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "60",
+      "spotId": 838499,
+      "spotName": "カルデアゲート",
+      "warId": 8384,
+      "warLongName": "風雲からくりイリヤ城 ～果心居士のささやかな野望～",
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/3.png",
+      "gifts": [{
+        "objectId": 7999,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94083601
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "超難関ステージ全クリア＆5月30日18時00分に開放"
+      }, {
+        "type": "forceFalse",
+        "targetId": 0,
+        "closedMessage": "データ更新後に開放"
+      }],
+      "phases": [1, 2],
+      "phasesNoBattle": [2],
+      "priority": 94083998,
+      "noticeAt": 1684926000,
+      "openedAt": 1685437200,
+      "closedAt": 1686110399
+    }, {
+      "id": 94083701,
+      "name": "第一関門 登竜滝",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 30,
+      "afterClear": "repeatLast",
+      "recommendLv": "25",
+      "spotId": 838499,
+      "spotName": "カルデアゲート",
+      "warId": 8384,
+      "warLongName": "風雲からくりイリヤ城 ～果心居士のささやかな野望～",
+      "gifts": [{
+        "objectId": 102,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94083601
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "priority": 94083799,
+      "noticeAt": 1684926000,
+      "openedAt": 1684926000,
+      "closedAt": 1685177999
+    }, {
+      "id": 94083702,
+      "name": "第一関門 けものバスター",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 35,
+      "afterClear": "repeatLast",
+      "recommendLv": "40",
+      "spotId": 838499,
+      "spotName": "カルデアゲート",
+      "warId": 8384,
+      "warLongName": "風雲からくりイリヤ城 ～果心居士のささやかな野望～",
+      "gifts": [{
+        "objectId": 101,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94083601
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "priority": 94083798,
+      "noticeAt": 1684926000,
+      "openedAt": 1684926000,
+      "closedAt": 1685177999
+    }, {
+      "id": 94083703,
+      "name": "第一関門 解放への扉",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "60",
+      "spotId": 838499,
+      "spotName": "カルデアゲート",
+      "warId": 8384,
+      "warLongName": "風雲からくりイリヤ城 ～果心居士のささやかな野望～",
+      "gifts": [{
+        "objectId": 101,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94083601
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "priority": 94083797,
+      "noticeAt": 1684926000,
+      "openedAt": 1684926000,
+      "closedAt": 1685177999
+    }, {
+      "id": 94083704,
+      "name": "第一関門 ザ・ファーストダウン",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "80",
+      "spotId": 838499,
+      "spotName": "カルデアゲート",
+      "warId": 8384,
+      "warLongName": "風雲からくりイリヤ城 ～果心居士のささやかな野望～",
+      "gifts": [{
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94083601
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "priority": 94083796,
+      "noticeAt": 1684926000,
+      "openedAt": 1684926000,
+      "closedAt": 1685177999
+    }, {
+      "id": 94083705,
+      "name": "第一関門 あやかし屋敷",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90",
+      "spotId": 838499,
+      "spotName": "カルデアゲート",
+      "warId": 8384,
+      "warLongName": "風雲からくりイリヤ城 ～果心居士のささやかな野望～",
+      "gifts": [{
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94083601
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "priority": 94083795,
+      "noticeAt": 1684926000,
+      "openedAt": 1684926000,
+      "closedAt": 1685177999
+    }, {
+      "id": 94083706,
+      "name": "第一関門 序の関所・陽の道",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90+",
+      "spotId": 838499,
+      "spotName": "カルデアゲート",
+      "warId": 8384,
+      "warLongName": "風雲からくりイリヤ城 ～果心居士のささやかな野望～",
+      "gifts": [{
+        "objectId": 3,
+        "num": 100
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94083601
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "priority": 94083794,
+      "noticeAt": 1684926000,
+      "openedAt": 1684926000,
+      "closedAt": 1685177999
+    }, {
+      "id": 94083707,
+      "name": "第一関門 序の関所・陰の道",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90++",
+      "spotId": 838499,
+      "spotName": "カルデアゲート",
+      "warId": 8384,
+      "warLongName": "風雲からくりイリヤ城 ～果心居士のささやかな野望～",
+      "gifts": [{
+        "objectId": 3,
+        "num": 200
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94083601
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94083793,
+      "noticeAt": 1684926000,
+      "openedAt": 1684926000,
+      "closedAt": 1685177999
+    }, {
+      "id": 94083801,
+      "name": "【超難関ステージ】ノッブでちゅどーん！",
+      "type": "main",
+      "flags": ["dropFirstTimeOnly", "notRetrievable"],
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "80",
+      "spotId": 838499,
+      "spotName": "カルデアゲート",
+      "warId": 8384,
+      "warLongName": "風雲からくりイリヤ城 ～果心居士のささやかな野望～",
+      "gifts": [{
+        "objectId": 4001,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94083601
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "priority": 94083899,
+      "noticeAt": 1684926000,
+      "openedAt": 1684926000,
+      "closedAt": 1686110399
+    }, {
+      "id": 94083802,
+      "name": "",
+      "type": "main",
+      "flags": ["dropFirstTimeOnly", "notRetrievable"],
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "80",
+      "spotId": 838499,
+      "spotName": "カルデアゲート",
+      "warId": 8384,
+      "warLongName": "風雲からくりイリヤ城 ～果心居士のささやかな野望～",
+      "gifts": [{
+        "objectId": 4001,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94083601
+      }, {
+        "type": "questClear",
+        "targetId": 94083801,
+        "closedMessage": "「ノッブでちゅどーん！」クリア＆5月25日18時00分に開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "forceFalse",
+        "targetId": 0,
+        "closedMessage": "データ更新後に開放"
+      }],
+      "phases": [1],
+      "priority": 94083898,
+      "noticeAt": 1684926000,
+      "openedAt": 1685005200,
+      "closedAt": 1686110399
+    }]
+  }]
 }]

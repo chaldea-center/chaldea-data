@@ -5286,6 +5286,8 @@
     "vals": [{
       "id": 3005
     }, {
+      "id": 3087
+    }, {
       "id": 3045
     }],
     "maxRate": 0
@@ -37062,6 +37064,34 @@
     "isDispValue": true
   }]
 }, {
+  "funcId": 9710,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "威力アップ・対騎乗スキル",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+  "buffs": [{
+    "id": 4753,
+    "name": "威力アップ〔騎乗スキル〕",
+    "detail": "〔騎乗スキル〕を持つ敵に与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamage",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3028
+    }],
+    "tvals": [{
+      "id": 2009
+    }],
+    "ckOpIndv": [{
+      "id": 2009
+    }],
+    "maxRate": 10000
+  }]
+}, {
   "funcId": 9711,
   "funcType": "addStateShort",
   "funcTargetType": "self",
@@ -38343,6 +38373,93 @@
     "maxRate": 10000
   }]
 }, {
+  "funcId": 20851,
+  "funcType": "eventDropUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "なし",
+  "funcGroup": [{
+    "eventId": 80429,
+    "baseFuncId": 0,
+    "nameTotal": "{0}\n獲得数ボーナス合計",
+    "name": "{0}獲得数アップ",
+    "icon": "https://static.atlasacademy.io/JP/Items/94083601.png",
+    "priority": 1000,
+    "isDispValue": true
+  }]
+}, {
+  "funcId": 20852,
+  "funcType": "eventDropUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "なし",
+  "funcGroup": [{
+    "eventId": 80429,
+    "baseFuncId": 0,
+    "nameTotal": "{0}\n獲得数ボーナス合計",
+    "name": "{0}獲得数アップ",
+    "icon": "https://static.atlasacademy.io/JP/Items/94083602.png",
+    "priority": 2000,
+    "isDispValue": true
+  }]
+}, {
+  "funcId": 20853,
+  "funcType": "eventDropUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "なし",
+  "funcGroup": [{
+    "eventId": 80429,
+    "baseFuncId": 0,
+    "nameTotal": "{0}\n獲得数ボーナス合計",
+    "name": "{0}獲得数アップ",
+    "icon": "https://static.atlasacademy.io/JP/Items/94083603.png",
+    "priority": 3000,
+    "isDispValue": true
+  }]
+}, {
+  "funcId": 20854,
+  "funcType": "eventDropUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "なし",
+  "funcGroup": [{
+    "eventId": 80429,
+    "baseFuncId": 0,
+    "nameTotal": "{0}\n獲得数ボーナス合計",
+    "name": "{0}獲得数アップ",
+    "icon": "https://static.atlasacademy.io/JP/Items/94083605.png",
+    "priority": 4000,
+    "isDispValue": true
+  }]
+}, {
+  "funcId": 20855,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "なし",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+  "funcquestTvals": [{
+    "id": 94000143
+  }],
+  "funcGroup": [{
+    "eventId": 80429,
+    "baseFuncId": 20892,
+    "nameTotal": "{1} \n攻撃の威力アップ合計",
+    "name": "攻撃の威力アップ",
+    "icon": "https://static.atlasacademy.io/JP/EventUI/func_group_icon_302.png",
+    "priority": 1,
+    "isDispValue": true
+  }],
+  "buffs": [{
+    "id": 5343,
+    "name": "威力アップ",
+    "detail": "『風雲からくりイリヤ城』において与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamage",
+    "maxRate": 10000
+  }]
+}, {
   "funcId": 20860,
   "funcType": "addStateShort",
   "funcTargetType": "self",
@@ -38879,6 +38996,148 @@
   "funcPopupText": "強化解除",
   "traitVals": [{
     "id": 3004
+  }]
+}, {
+  "funcId": 20892,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "風雲パワー",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+  "funcquestTvals": [{
+    "id": 94000143
+  }],
+  "funcGroup": [{
+    "eventId": 80429,
+    "baseFuncId": 20892,
+    "nameTotal": "{1} \n攻撃の威力アップ合計",
+    "name": "攻撃の威力アップ",
+    "icon": "https://static.atlasacademy.io/JP/EventUI/func_group_icon_302.png",
+    "priority": 1,
+    "isDispValue": true
+  }],
+  "buffs": [{
+    "id": 5360,
+    "name": "風雲パワー",
+    "detail": "『風雲からくりイリヤ城』において与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamage",
+    "maxRate": 10000
+  }]
+}, {
+  "funcId": 20899,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "Quick通常攻撃時追加効果",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_333.png",
+  "buffs": [{
+    "id": 5363,
+    "name": "Quick通常攻撃時追加効果",
+    "detail": "Quickカードでの通常攻撃時に自身のNPを増やす",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_333.png",
+    "type": "commandattackFunction",
+    "vals": [{
+      "id": 3004
+    }],
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4003
+    }],
+    "ckSelfIndv": [{
+      "id": 4003
+    }],
+    "maxRate": 0
+  }]
+}, {
+  "funcId": 20900,
+  "funcType": "addState",
+  "funcTargetType": "enemyAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "拘束",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_501.png",
+  "buffs": [{
+    "id": 177,
+    "name": "拘束",
+    "detail": "行動不能になる",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_501.png",
+    "type": "donotAct",
+    "buffGroup": 500,
+    "vals": [{
+      "id": 3005
+    }, {
+      "id": 3087
+    }, {
+      "id": 3045
+    }],
+    "maxRate": 0
+  }]
+}, {
+  "funcId": 20901,
+  "funcType": "servantFriendshipUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "なし",
+  "funcGroup": [{
+    "eventId": 80429,
+    "baseFuncId": 0,
+    "nameTotal": "{1}\n得られる自身の絆ボーナス合計",
+    "name": "得られる自身の絆アップ",
+    "icon": "https://static.atlasacademy.io/JP/EventUI/func_group_icon_1009.png",
+    "priority": 1,
+    "isDispValue": true
+  }]
+}, {
+  "funcId": 20902,
+  "funcType": "addState",
+  "funcTargetType": "enemy",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "拘束",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_501.png",
+  "buffs": [{
+    "id": 177,
+    "name": "拘束",
+    "detail": "行動不能になる",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_501.png",
+    "type": "donotAct",
+    "buffGroup": 500,
+    "vals": [{
+      "id": 3005
+    }, {
+      "id": 3087
+    }, {
+      "id": 3045
+    }],
+    "maxRate": 0
+  }]
+}, {
+  "funcId": 20904,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptFull",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "威力アップ・対拘束状態",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+  "buffs": [{
+    "id": 5364,
+    "name": "威力アップ〔拘束〕",
+    "detail": "〔拘束〕状態の敵に与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamageIndividuality",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3028
+    }],
+    "tvals": [{
+      "id": 3087
+    }],
+    "ckOpIndv": [{
+      "id": 3087
+    }],
+    "maxRate": 10000
   }]
 }, {
   "funcId": 30003,
