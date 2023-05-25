@@ -70889,6 +70889,7 @@
         "targetId": 0
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94083799,
       "noticeAt": 1684926000,
       "openedAt": 1684926000,
@@ -70917,6 +70918,7 @@
         "targetId": 0
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94083798,
       "noticeAt": 1684926000,
       "openedAt": 1684926000,
@@ -70945,6 +70947,7 @@
         "targetId": 0
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94083797,
       "noticeAt": 1684926000,
       "openedAt": 1684926000,
@@ -70973,6 +70976,7 @@
         "targetId": 0
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94083796,
       "noticeAt": 1684926000,
       "openedAt": 1684926000,
@@ -71001,6 +71005,7 @@
         "targetId": 0
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94083795,
       "noticeAt": 1684926000,
       "openedAt": 1684926000,
@@ -71029,6 +71034,7 @@
         "targetId": 0
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94083794,
       "noticeAt": 1684926000,
       "openedAt": 1684926000,
@@ -71086,12 +71092,50 @@
         "targetId": 0
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94083899,
       "noticeAt": 1684926000,
       "openedAt": 1684926000,
       "closedAt": 1686110399
     }, {
       "id": 94083802,
+      "name": "【超難関ステージ】幽谷ヶ淵",
+      "type": "main",
+      "flags": ["dropFirstTimeOnly", "notRetrievable"],
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "80",
+      "spotId": 838499,
+      "spotName": "カルデアゲート",
+      "warId": 8384,
+      "warLongName": "風雲からくりイリヤ城 ～果心居士のささやかな野望～",
+      "gifts": [{
+        "objectId": 4001,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
+        "type": "questClear",
+        "targetId": 94083601
+      }, {
+        "type": "questClear",
+        "targetId": 94083801,
+        "closedMessage": "「ノッブでちゅどーん！」クリア＆5月25日18時00分に開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94083898,
+      "noticeAt": 1684926000,
+      "openedAt": 1685005200,
+      "closedAt": 1686110399
+    }, {
+      "id": 94083803,
       "name": "",
       "type": "main",
       "flags": ["dropFirstTimeOnly", "notRetrievable"],
@@ -71108,11 +71152,11 @@
       }],
       "releaseConditions": [{
         "type": "questClear",
-        "targetId": 94083601
+        "targetId": 94083801
       }, {
         "type": "questClear",
-        "targetId": 94083801,
-        "closedMessage": "「ノッブでちゅどーん！」クリア＆5月25日18時00分に開放"
+        "targetId": 94083802,
+        "closedMessage": "「幽谷ヶ淵」クリア＆5月26日18時00分に開放"
       }, {
         "type": "date",
         "targetId": 0,
@@ -71123,9 +71167,9 @@
         "closedMessage": "データ更新後に開放"
       }],
       "phases": [1],
-      "priority": 94083898,
-      "noticeAt": 1684926000,
-      "openedAt": 1685005200,
+      "priority": 94083897,
+      "noticeAt": 1685005200,
+      "openedAt": 1685091600,
       "closedAt": 1686110399
     }]
   }]
