@@ -70851,9 +70851,13 @@
         "type": "questClear",
         "targetId": 94083601
       }, {
+        "type": "questClear",
+        "targetId": 94083806,
+        "closedMessage": "超難関ステージ全クリア＆5月30日18時00分に開放"
+      }, {
         "type": "date",
         "targetId": 0,
-        "closedMessage": "超難関ステージ全クリア＆5月30日18時00分に開放"
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
       }, {
         "type": "forceFalse",
         "targetId": 0,
@@ -71150,6 +71154,7 @@
         "targetId": 0
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94083787,
       "noticeAt": 1685178000,
       "openedAt": 1685178000,
@@ -71178,6 +71183,7 @@
         "targetId": 0
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94083786,
       "noticeAt": 1685178000,
       "openedAt": 1685178000,
@@ -71404,12 +71410,49 @@
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94083896,
       "noticeAt": 1685091600,
       "openedAt": 1685178000,
       "closedAt": 1686110399
     }, {
       "id": 94083805,
+      "name": "【超難関ステージ】アンメア海戦",
+      "type": "main",
+      "flags": ["dropFirstTimeOnly", "notRetrievable"],
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "80",
+      "spotId": 838499,
+      "spotName": "カルデアゲート",
+      "warId": 8384,
+      "warLongName": "風雲からくりイリヤ城 ～果心居士のささやかな野望～",
+      "gifts": [{
+        "objectId": 4001,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
+        "type": "questClear",
+        "targetId": 94083803
+      }, {
+        "type": "questClear",
+        "targetId": 94083804,
+        "closedMessage": "「バクダン 危機一髪」クリア＆5月28日18時00分に開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "priority": 94083895,
+      "noticeAt": 1685178000,
+      "openedAt": 1685264400,
+      "closedAt": 1686110399
+    }, {
+      "id": 94083806,
       "name": "",
       "type": "main",
       "flags": ["dropFirstTimeOnly", "notRetrievable"],
@@ -71426,11 +71469,11 @@
       }],
       "releaseConditions": [{
         "type": "questClear",
-        "targetId": 94083803
+        "targetId": 94083804
       }, {
         "type": "questClear",
-        "targetId": 94083804,
-        "closedMessage": "「バクダン 危機一髪」クリア＆5月28日18時00分に開放"
+        "targetId": 94083805,
+        "closedMessage": "「アンメア海戦」クリア＆5月29日18時00分に開放"
       }, {
         "type": "date",
         "targetId": 0,
@@ -71441,9 +71484,9 @@
         "closedMessage": "データ更新後に開放"
       }],
       "phases": [1],
-      "priority": 94083895,
-      "noticeAt": 1685178000,
-      "openedAt": 1685264400,
+      "priority": 94083894,
+      "noticeAt": 1685264400,
+      "openedAt": 1685350800,
       "closedAt": 1686110399
     }]
   }]
