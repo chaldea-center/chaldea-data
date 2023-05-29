@@ -71447,13 +71447,14 @@
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94083895,
       "noticeAt": 1685178000,
       "openedAt": 1685264400,
       "closedAt": 1686110399
     }, {
       "id": 94083806,
-      "name": "",
+      "name": "【超難関ステージ】まぼろし岐路",
       "type": "main",
       "flags": ["dropFirstTimeOnly", "notRetrievable"],
       "consume": 5,
@@ -71468,6 +71469,9 @@
         "num": 1
       }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 94083804
       }, {
@@ -71478,12 +71482,9 @@
         "type": "date",
         "targetId": 0,
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
-      }, {
-        "type": "forceFalse",
-        "targetId": 0,
-        "closedMessage": "データ更新後に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94083894,
       "noticeAt": 1685264400,
       "openedAt": 1685350800,
