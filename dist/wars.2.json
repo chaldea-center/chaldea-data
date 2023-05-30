@@ -70833,7 +70833,7 @@
       "closedAt": 1686110399
     }, {
       "id": 94083602,
-      "name": "",
+      "name": "決着！ 風雲からくりイリヤ城！",
       "type": "main",
       "consume": 5,
       "afterClear": "close",
@@ -70848,6 +70848,9 @@
         "num": 1
       }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 94083601
       }, {
@@ -70858,13 +70861,23 @@
         "type": "date",
         "targetId": 0,
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
-      }, {
-        "type": "forceFalse",
-        "targetId": 0,
-        "closedMessage": "データ更新後に開放"
       }],
       "phases": [1, 2],
+      "phasesWithEnemies": [1],
       "phasesNoBattle": [2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408360210",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408360210.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9408360220",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408360220.txt"
+        }]
+      }],
       "priority": 94083998,
       "noticeAt": 1684926000,
       "openedAt": 1685437200,
@@ -71276,6 +71289,206 @@
       "openedAt": 1685178000,
       "closedAt": 1685437199
     }, {
+      "id": 94083715,
+      "name": "第三関門 ゲット・ザ・ボール",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 30,
+      "afterClear": "repeatLast",
+      "recommendLv": "25",
+      "spotId": 838499,
+      "spotName": "カルデアゲート",
+      "warId": 8384,
+      "warLongName": "風雲からくりイリヤ城 ～果心居士のささやかな野望～",
+      "gifts": [{
+        "objectId": 102,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94083601
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94083782,
+      "noticeAt": 1685437200,
+      "openedAt": 1685437200,
+      "closedAt": 1686110399
+    }, {
+      "id": 94083716,
+      "name": "第三関門 サーチ・ザ・ボール",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 35,
+      "afterClear": "repeatLast",
+      "recommendLv": "40",
+      "spotId": 838499,
+      "spotName": "カルデアゲート",
+      "warId": 8384,
+      "warLongName": "風雲からくりイリヤ城 ～果心居士のささやかな野望～",
+      "gifts": [{
+        "objectId": 101,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94083601
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "priority": 94083781,
+      "noticeAt": 1685437200,
+      "openedAt": 1685437200,
+      "closedAt": 1686110399
+    }, {
+      "id": 94083717,
+      "name": "第三関門 ローリングロード",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "60",
+      "spotId": 838499,
+      "spotName": "カルデアゲート",
+      "warId": 8384,
+      "warLongName": "風雲からくりイリヤ城 ～果心居士のささやかな野望～",
+      "gifts": [{
+        "objectId": 101,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94083601
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "priority": 94083780,
+      "noticeAt": 1685437200,
+      "openedAt": 1685437200,
+      "closedAt": 1686110399
+    }, {
+      "id": 94083718,
+      "name": "第三関門 ザ・マッシュルーム",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "80",
+      "spotId": 838499,
+      "spotName": "カルデアゲート",
+      "warId": 8384,
+      "warLongName": "風雲からくりイリヤ城 ～果心居士のささやかな野望～",
+      "gifts": [{
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94083601
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94083779,
+      "noticeAt": 1685437200,
+      "openedAt": 1685437200,
+      "closedAt": 1686110399
+    }, {
+      "id": 94083719,
+      "name": "第三関門 ガーディアンズ・メイズ",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90",
+      "spotId": 838499,
+      "spotName": "カルデアゲート",
+      "warId": 8384,
+      "warLongName": "風雲からくりイリヤ城 ～果心居士のささやかな野望～",
+      "gifts": [{
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94083601
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "priority": 94083778,
+      "noticeAt": 1685437200,
+      "openedAt": 1685437200,
+      "closedAt": 1686110399
+    }, {
+      "id": 94083720,
+      "name": "第三関門 急の関所・勇者の道",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90+",
+      "spotId": 838499,
+      "spotName": "カルデアゲート",
+      "warId": 8384,
+      "warLongName": "風雲からくりイリヤ城 ～果心居士のささやかな野望～",
+      "gifts": [{
+        "objectId": 3,
+        "num": 100
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94083601
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94083777,
+      "noticeAt": 1685437200,
+      "openedAt": 1685437200,
+      "closedAt": 1686110399
+    }, {
+      "id": 94083721,
+      "name": "第三関門 急の関所・王者の道",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90++",
+      "spotId": 838499,
+      "spotName": "カルデアゲート",
+      "warId": 8384,
+      "warLongName": "風雲からくりイリヤ城 ～果心居士のささやかな野望～",
+      "gifts": [{
+        "objectId": 3,
+        "num": 200
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94083601
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94083776,
+      "noticeAt": 1685437200,
+      "openedAt": 1685437200,
+      "closedAt": 1686110399
+    }, {
       "id": 94083801,
       "name": "【超難関ステージ】ノッブでちゅどーん！",
       "type": "main",
@@ -71488,6 +71701,38 @@
       "priority": 94083894,
       "noticeAt": 1685264400,
       "openedAt": 1685350800,
+      "closedAt": 1686110399
+    }, {
+      "id": 94084401,
+      "name": "【高難易度】風雲後夜祭 ～覇者の陣～",
+      "type": "event",
+      "flags": ["dropFirstTimeOnly", "notRetrievable"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "90+",
+      "spotId": 838499,
+      "spotName": "カルデアゲート",
+      "warId": 8384,
+      "warLongName": "風雲からくりイリヤ城 ～果心居士のささやかな野望～",
+      "gifts": [{
+        "objectId": 6999,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 1000822,
+        "closedMessage": "終局特異点クリアで開放"
+      }, {
+        "type": "questClear",
+        "targetId": 94083602
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "priority": 94083893,
+      "noticeAt": 1685437200,
+      "openedAt": 1685437200,
       "closedAt": 1686110399
     }]
   }]
