@@ -68445,7 +68445,7 @@
   "spots": [{
     "id": 40001,
     "mapId": 400,
-    "name": "奏章プロローグ",
+    "name": "",
     "x": 0,
     "y": 0,
     "quests": [{
@@ -68457,7 +68457,7 @@
       "afterClear": "close",
       "recommendLv": "1",
       "spotId": 40001,
-      "spotName": "奏章プロローグ",
+      "spotName": "",
       "warId": 400,
       "warLongName": "奏章プロローグ",
       "chapterId": 400,
@@ -68478,6 +68478,37 @@
       "noticeAt": 1676019600,
       "openedAt": 1676019600,
       "closedAt": 1893423600
+    }, {
+      "id": 4000199,
+      "name": "オーディール・コール　０",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 40001,
+      "spotName": "",
+      "warId": 400,
+      "warLongName": "奏章プロローグ",
+      "chapterId": 401,
+      "chapterSubId": 99,
+      "releaseConditions": [{
+        "type": "forceFalse",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "0400019910",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400019910.txt"
+        }]
+      }],
+      "priority": 3999999,
+      "noticeAt": 1686128400,
+      "openedAt": 1686128400,
+      "closedAt": 1893423600
     }]
   }]
 }, {
@@ -68488,18 +68519,18 @@
   ],
   "age": "-",
   "name": "-",
-  "longName": "-",
-  "flags": ["mainScenario", "noticeBoard"],
-  "banner": "https://static.atlasacademy.io/JP/Banner/questboard_cap_closed.png",
+  "longName": "オーディール・コール",
+  "flags": ["folderSortPrior", "mainScenario", "noClearMarkWithClear", "noClearMarkWithComplete", "dispFirstQuest"],
+  "banner": "https://static.atlasacademy.io/JP/Banner/questboard_cap401.png",
   "priority": 401,
   "bgm": {
     "id": 0
   },
   "scriptId": "NONE",
   "script": "https://static.atlasacademy.io/JP/Script/Common/NONE.txt",
-  "startType": "none",
-  "targetId": 0,
-  "lastQuestId": 0,
+  "startType": "quest",
+  "targetId": 4000100,
+  "lastQuestId": 4000100,
   "warAdds": [{
     "warId": 401,
     "type": "warForceHide",
@@ -68509,6 +68540,100 @@
     "targetId": 4000000,
     "value": 1,
     "startedAt": 1676019600,
+    "endedAt": 1893423600
+  }, {
+    "warId": 401,
+    "type": "materialParentWar",
+    "priority": 2,
+    "overwriteId": 13000,
+    "condType": "questClear",
+    "targetId": 4000000,
+    "value": 0,
+    "startedAt": 1686128400,
+    "endedAt": 1893423600
+  }],
+  "maps": [{
+    "id": 401,
+    "mapImage": "https://static.atlasacademy.io/JP/Terminal/MapImgs/img_questmap_000401/img_questmap_000401.png",
+    "mapImageW": 0,
+    "mapImageH": 0,
+    "headerImage": "https://static.atlasacademy.io/JP/Banner/img_title_header_33.png",
+    "bgm": {
+      "id": 0
+    }
+  }],
+  "spots": [{
+    "id": 40101,
+    "mapId": 401,
+    "name": "",
+    "x": 0,
+    "y": 0,
+    "quests": [{
+      "id": 4000100,
+      "name": "オーディール・コール　０",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 40101,
+      "spotName": "",
+      "warId": 401,
+      "warLongName": "オーディール・コール",
+      "chapterId": 401,
+      "gifts": [{
+        "objectId": 49,
+        "num": 3
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000000
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "0400010110",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400010110.txt"
+        }]
+      }],
+      "priority": 4000100,
+      "noticeAt": 1686128400,
+      "openedAt": 1686128400,
+      "closedAt": 1893423600
+    }]
+  }]
+}, {
+  "id": 402,
+  "coordinates": [
+    [],
+    []
+  ],
+  "age": "-",
+  "name": "-",
+  "longName": "-",
+  "flags": ["mainScenario", "noticeBoard"],
+  "banner": "https://static.atlasacademy.io/JP/Banner/questboard_cap_closed.png",
+  "priority": 402,
+  "parentWarId": 401,
+  "bgm": {
+    "id": 0
+  },
+  "scriptId": "NONE",
+  "script": "https://static.atlasacademy.io/JP/Script/Common/NONE.txt",
+  "startType": "none",
+  "targetId": 0,
+  "lastQuestId": 0,
+  "warAdds": [{
+    "warId": 402,
+    "type": "warForceHide",
+    "priority": 1,
+    "overwriteId": 0,
+    "condType": "notQuestClearPhase",
+    "targetId": 4000100,
+    "value": 1,
+    "startedAt": 1686128400,
     "endedAt": 1893423600
   }]
 }, {
