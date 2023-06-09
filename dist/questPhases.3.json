@@ -45924,6 +45924,2755 @@
     }]
   }]
 }, {
+  "id": 93040101,
+  "name": "凍土の試練",
+  "type": "free",
+  "flags": ["displayLoopmark"],
+  "consumeType": "apAndItem",
+  "consume": 40,
+  "afterClear": "repeatLast",
+  "recommendLv": "90++",
+  "spotId": 1040101,
+  "spotName": "ロシアエリア",
+  "warId": 401,
+  "warLongName": "オーディール・コール",
+  "chapterId": 401,
+  "chapterSubId": 1,
+  "gifts": [{
+    "objectId": 50,
+    "num": 10
+  }],
+  "releaseConditions": [{
+    "type": "questClear",
+    "targetId": 4000100
+  }],
+  "phases": [1],
+  "phasesWithEnemies": [1],
+  "priority": 4000099,
+  "noticeAt": 1686128400,
+  "openedAt": 1686128400,
+  "closedAt": 1893423600,
+  "phase": 1,
+  "className": ["assassin", "lancer", "berserker"],
+  "qp": 270720,
+  "exp": 109988,
+  "bond": 2636,
+  "battleBgId": 39300,
+  "enemyHash": "1_0581_54f7e12",
+  "availableEnemyHashes": ["1_0581_54f7e12"],
+  "dropsFromAllHashes": true,
+  "drops": [{
+    "type": "item",
+    "objectId": 6534,
+    "num": 1,
+    "dropCount": 56,
+    "runs": 112
+  }, {
+    "type": "item",
+    "objectId": 6535,
+    "num": 1,
+    "dropCount": 145,
+    "runs": 112
+  }],
+  "stages": [{
+    "wave": 1,
+    "bgm": {
+      "id": 234
+    },
+    "originalScript": {},
+    "enemies": [{
+      "deck": "enemy",
+      "deckId": 1,
+      "npcId": 3002182,
+      "roleType": "normal",
+      "name": "ラズルシャーチ",
+      "svt": {
+        "id": 9941140,
+        "collectionNo": 0,
+        "name": "ラズルシャーチ",
+        "type": "enemy",
+        "flag": "normal",
+        "classId": 7,
+        "className": "berserker",
+        "attribute": "earth",
+        "rarity": 2,
+        "atkMax": 11232,
+        "hpMax": 54540,
+        "face": "https://static.atlasacademy.io/JP/Enemys/99411401.png"
+      },
+      "lv": 55,
+      "atk": 6367,
+      "hp": 108774,
+      "deathRate": 800,
+      "criticalRate": 100,
+      "chargeTurn": 5,
+      "traits": [{
+        "id": 5000
+      }, {
+        "id": 5010
+      }, {
+        "id": 106
+      }, {
+        "id": 201
+      }, {
+        "id": 2019
+      }],
+      "skills": {
+        "skillId1": 961418,
+        "skill1": {
+          "id": 961418,
+          "num": -1,
+          "svtId": -1,
+          "strengthStatus": -1,
+          "priority": -1,
+          "condQuestId": -1,
+          "condQuestPhase": -1,
+          "condLv": -1,
+          "condLimitCount": -1
+        },
+        "skillLv1": 1
+      },
+      "noblePhantasm": {
+        "noblePhantasmId": 562,
+        "noblePhantasm": {
+          "id": 562,
+          "num": 1,
+          "svtId": 9941140,
+          "priority": 536
+        },
+        "noblePhantasmLv": 1
+      },
+      "serverMod": {
+        "tdRate": 800,
+        "tdAttackRate": 800,
+        "starRate": 0
+      },
+      "ai": {
+        "aiId": 105370,
+        "actPriority": 500,
+        "maxActNum": 2
+      }
+    }, {
+      "deck": "enemy",
+      "deckId": 3,
+      "npcId": 3002183,
+      "roleType": "normal",
+      "name": "クリチャーチ",
+      "svt": {
+        "id": 9941150,
+        "collectionNo": 0,
+        "name": "クリチャーチ",
+        "type": "enemy",
+        "flag": "normal",
+        "classId": 3,
+        "className": "lancer",
+        "attribute": "earth",
+        "rarity": 3,
+        "atkMax": 12093,
+        "hpMax": 64902,
+        "face": "https://static.atlasacademy.io/JP/Enemys/99411501.png"
+      },
+      "lv": 65,
+      "atk": 8017,
+      "hp": 127143,
+      "deathRate": 800,
+      "criticalRate": 100,
+      "chargeTurn": 4,
+      "traits": [{
+        "id": 5000
+      }, {
+        "id": 5010
+      }, {
+        "id": 101
+      }, {
+        "id": 201
+      }, {
+        "id": 2002
+      }],
+      "skills": {
+        "skillId1": 961419,
+        "skill1": {
+          "id": 961419,
+          "num": -1,
+          "svtId": -1,
+          "strengthStatus": -1,
+          "priority": -1,
+          "condQuestId": -1,
+          "condQuestPhase": -1,
+          "condLv": -1,
+          "condLimitCount": -1
+        },
+        "skillLv1": 1
+      },
+      "noblePhantasm": {
+        "noblePhantasmId": 563,
+        "noblePhantasm": {
+          "id": 563,
+          "num": 1,
+          "svtId": 9941150,
+          "priority": 537
+        },
+        "noblePhantasmLv": 1
+      },
+      "serverMod": {
+        "tdRate": 1000,
+        "tdAttackRate": 1000,
+        "starRate": -50
+      },
+      "ai": {
+        "aiId": 105370,
+        "actPriority": 1500,
+        "maxActNum": 2
+      }
+    }]
+  }, {
+    "wave": 2,
+    "bgm": {
+      "id": 233
+    },
+    "originalScript": {},
+    "enemies": [{
+      "deck": "enemy",
+      "deckId": 1,
+      "npcId": 3002180,
+      "roleType": "normal",
+      "name": "殺戮猟兵Ａ",
+      "svt": {
+        "id": 9941010,
+        "collectionNo": 0,
+        "name": "殺戮猟兵",
+        "type": "enemy",
+        "flag": "normal",
+        "classId": 6,
+        "className": "assassin",
+        "attribute": "human",
+        "rarity": 3,
+        "atkMax": 14623,
+        "hpMax": 135826,
+        "face": "https://static.atlasacademy.io/JP/Enemys/99410101.png",
+        "costume": {
+          "9941010": {
+            "id": 1,
+            "costumeCollectionNo": 0,
+            "battleCharaId": 9941010,
+            "shortName": ""
+          }
+        }
+      },
+      "lv": 60,
+      "atk": 9023,
+      "hp": 146573,
+      "deathRate": 500,
+      "criticalRate": 300,
+      "chargeTurn": 3,
+      "traits": [{
+        "id": 5000
+      }, {
+        "id": 5010
+      }, {
+        "id": 1
+      }, {
+        "id": 105
+      }, {
+        "id": 202
+      }, {
+        "id": 1112
+      }, {
+        "id": 2001
+      }, {
+        "id": 304
+      }],
+      "skills": {
+        "skillId1": 961307,
+        "skill1": {
+          "id": 961307,
+          "num": -1,
+          "svtId": -1,
+          "strengthStatus": -1,
+          "priority": -1,
+          "condQuestId": -1,
+          "condQuestPhase": -1,
+          "condLv": -1,
+          "condLimitCount": -1
+        },
+        "skillLv1": 1
+      },
+      "classPassive": {
+        "addPassive": [{
+          "id": 961308,
+          "num": -1,
+          "svtId": -1,
+          "strengthStatus": -1,
+          "priority": -1,
+          "condQuestId": -1,
+          "condQuestPhase": -1,
+          "condLv": -1,
+          "condLimitCount": -1
+        }]
+      },
+      "noblePhantasm": {
+        "noblePhantasmId": 553,
+        "noblePhantasm": {
+          "id": 553,
+          "num": 1,
+          "svtId": 9941010,
+          "priority": 527
+        },
+        "noblePhantasmLv": 1
+      },
+      "serverMod": {
+        "tdRate": 900,
+        "tdAttackRate": 900,
+        "starRate": -100
+      },
+      "ai": {
+        "aiId": 1000000,
+        "actPriority": 1000,
+        "maxActNum": 2
+      }
+    }, {
+      "deck": "enemy",
+      "deckId": 2,
+      "npcId": 3002180,
+      "roleType": "normal",
+      "name": "殺戮猟兵Ｂ",
+      "svt": {
+        "id": 9941010,
+        "collectionNo": 0,
+        "name": "殺戮猟兵",
+        "type": "enemy",
+        "flag": "normal",
+        "classId": 6,
+        "className": "assassin",
+        "attribute": "human",
+        "rarity": 3,
+        "atkMax": 14623,
+        "hpMax": 135826,
+        "face": "https://static.atlasacademy.io/JP/Enemys/99410101.png",
+        "costume": {
+          "9941010": {
+            "id": 1,
+            "costumeCollectionNo": 0,
+            "battleCharaId": 9941010,
+            "shortName": ""
+          }
+        }
+      },
+      "lv": 70,
+      "atk": 10420,
+      "hp": 237564,
+      "deathRate": 500,
+      "criticalRate": 300,
+      "chargeTurn": 3,
+      "traits": [{
+        "id": 5000
+      }, {
+        "id": 5010
+      }, {
+        "id": 1
+      }, {
+        "id": 105
+      }, {
+        "id": 202
+      }, {
+        "id": 1112
+      }, {
+        "id": 2001
+      }, {
+        "id": 304
+      }],
+      "skills": {
+        "skillId1": 961307,
+        "skill1": {
+          "id": 961307,
+          "num": -1,
+          "svtId": -1,
+          "strengthStatus": -1,
+          "priority": -1,
+          "condQuestId": -1,
+          "condQuestPhase": -1,
+          "condLv": -1,
+          "condLimitCount": -1
+        },
+        "skillLv1": 1
+      },
+      "classPassive": {
+        "addPassive": [{
+          "id": 961308,
+          "num": -1,
+          "svtId": -1,
+          "strengthStatus": -1,
+          "priority": -1,
+          "condQuestId": -1,
+          "condQuestPhase": -1,
+          "condLv": -1,
+          "condLimitCount": -1
+        }]
+      },
+      "noblePhantasm": {
+        "noblePhantasmId": 553,
+        "noblePhantasm": {
+          "id": 553,
+          "num": 1,
+          "svtId": 9941010,
+          "priority": 527
+        },
+        "noblePhantasmLv": 1
+      },
+      "serverMod": {
+        "tdRate": 900,
+        "tdAttackRate": 900,
+        "starRate": -100
+      },
+      "ai": {
+        "aiId": 1000000,
+        "actPriority": 1000,
+        "maxActNum": 2
+      }
+    }, {
+      "deck": "enemy",
+      "deckId": 3,
+      "npcId": 3002181,
+      "roleType": "danger",
+      "name": "殺戮猟兵Ｃ",
+      "svt": {
+        "id": 9941010,
+        "collectionNo": 0,
+        "name": "殺戮猟兵",
+        "type": "enemy",
+        "flag": "normal",
+        "classId": 6,
+        "className": "assassin",
+        "attribute": "human",
+        "rarity": 3,
+        "atkMax": 14623,
+        "hpMax": 135826,
+        "face": "https://static.atlasacademy.io/JP/Enemys/99410101.png",
+        "costume": {
+          "9941010": {
+            "id": 1,
+            "costumeCollectionNo": 0,
+            "battleCharaId": 9941010,
+            "shortName": ""
+          }
+        }
+      },
+      "lv": 80,
+      "atk": 11750,
+      "hp": 537564,
+      "deathRate": 500,
+      "criticalRate": 300,
+      "chargeTurn": 3,
+      "traits": [{
+        "id": 5000
+      }, {
+        "id": 5010
+      }, {
+        "id": 1
+      }, {
+        "id": 105
+      }, {
+        "id": 202
+      }, {
+        "id": 1112
+      }, {
+        "id": 2001
+      }, {
+        "id": 304
+      }],
+      "skills": {
+        "skillId1": 961307,
+        "skill1": {
+          "id": 961307,
+          "num": -1,
+          "svtId": -1,
+          "strengthStatus": -1,
+          "priority": -1,
+          "condQuestId": -1,
+          "condQuestPhase": -1,
+          "condLv": -1,
+          "condLimitCount": -1
+        },
+        "skillLv1": 1
+      },
+      "classPassive": {
+        "addPassive": [{
+          "id": 961308,
+          "num": -1,
+          "svtId": -1,
+          "strengthStatus": -1,
+          "priority": -1,
+          "condQuestId": -1,
+          "condQuestPhase": -1,
+          "condLv": -1,
+          "condLimitCount": -1
+        }]
+      },
+      "noblePhantasm": {
+        "noblePhantasmId": 553,
+        "noblePhantasm": {
+          "id": 553,
+          "num": 1,
+          "svtId": 9941010,
+          "priority": 527
+        },
+        "noblePhantasmLv": 1
+      },
+      "serverMod": {
+        "tdRate": 900,
+        "tdAttackRate": 900,
+        "starRate": -100
+      },
+      "ai": {
+        "aiId": 1000000,
+        "actPriority": 1000,
+        "maxActNum": 2
+      },
+      "enemyScript": {
+        "appear": true
+      },
+      "originalEnemyScript": {
+        "appear": 1
+      }
+    }]
+  }]
+}, {
+  "id": 93040102,
+  "name": "悪夢のカボチャ",
+  "type": "free",
+  "flags": ["displayLoopmark"],
+  "consumeType": "apAndItem",
+  "consume": 40,
+  "afterClear": "repeatLast",
+  "recommendLv": "90++",
+  "spotId": 1040102,
+  "spotName": "東欧エリア",
+  "warId": 401,
+  "warLongName": "オーディール・コール",
+  "chapterId": 401,
+  "chapterSubId": 2,
+  "gifts": [{
+    "objectId": 50,
+    "num": 10
+  }],
+  "releaseConditions": [{
+    "type": "questClear",
+    "targetId": 4000100
+  }],
+  "phases": [1],
+  "phasesWithEnemies": [1],
+  "priority": 4000098,
+  "noticeAt": 1686128400,
+  "openedAt": 1686128400,
+  "closedAt": 1893423600,
+  "phase": 1,
+  "className": ["caster"],
+  "qp": 270720,
+  "exp": 109988,
+  "bond": 2636,
+  "battleBgId": 32600,
+  "enemyHash": "1_0184_ddac797",
+  "availableEnemyHashes": ["1_0184_ddac797"],
+  "dropsFromAllHashes": true,
+  "drops": [{
+    "type": "item",
+    "objectId": 7005,
+    "num": 1,
+    "dropCount": 557,
+    "runs": 228
+  }],
+  "stages": [{
+    "wave": 1,
+    "bgm": {
+      "id": 98
+    },
+    "originalScript": {},
+    "enemies": [{
+      "deck": "enemy",
+      "deckId": 2,
+      "npcId": 3002184,
+      "roleType": "servant",
+      "name": "エリザベート",
+      "svt": {
+        "id": 502600,
+        "collectionNo": 61,
+        "name": "エリザベート・バートリー〔ハロウィン〕",
+        "type": "normal",
+        "flag": "ignoreCombineLimitSpecial",
+        "classId": 5,
+        "className": "caster",
+        "attribute": "human",
+        "rarity": 4,
+        "atkMax": 8616,
+        "hpMax": 11404,
+        "face": "https://static.atlasacademy.io/JP/Faces/f_5026001.png"
+      },
+      "lv": 90,
+      "atk": 11750,
+      "hp": 1103462,
+      "deathRate": 2,
+      "criticalRate": 100,
+      "chargeTurn": 5,
+      "traits": [{
+        "id": 5000
+      }, {
+        "id": 502600
+      }, {
+        "id": 2
+      }, {
+        "id": 104
+      }, {
+        "id": 202
+      }, {
+        "id": 301
+      }, {
+        "id": 304
+      }, {
+        "id": 1000
+      }, {
+        "id": 2001
+      }, {
+        "id": 2002
+      }, {
+        "id": 2008
+      }, {
+        "id": 2858
+      }, {
+        "id": 2631
+      }, {
+        "id": 2847
+      }],
+      "skills": {
+        "skillId1": 53650,
+        "skillId2": 106550,
+        "skillId3": 107550,
+        "skill1": {
+          "id": 53650,
+          "num": 1,
+          "svtId": 502600,
+          "strengthStatus": 1,
+          "priority": 1
+        },
+        "skill2": {
+          "id": 106550,
+          "num": 2,
+          "svtId": 502600,
+          "priority": 1,
+          "condLimitCount": 1
+        },
+        "skill3": {
+          "id": 107550,
+          "num": 3,
+          "svtId": 502600,
+          "strengthStatus": 1,
+          "priority": 1,
+          "condLimitCount": 3
+        },
+        "skillLv1": 5,
+        "skillLv2": 5,
+        "skillLv3": 5
+      },
+      "classPassive": {
+        "classPassive": [{
+          "id": 83450,
+          "num": -1,
+          "svtId": -1,
+          "strengthStatus": -1,
+          "priority": -1,
+          "condQuestId": -1,
+          "condQuestPhase": -1,
+          "condLv": -1,
+          "condLimitCount": -1
+        }, {
+          "id": 80550,
+          "num": -1,
+          "svtId": -1,
+          "strengthStatus": -1,
+          "priority": -1,
+          "condQuestId": -1,
+          "condQuestPhase": -1,
+          "condLv": -1,
+          "condLimitCount": -1
+        }]
+      },
+      "noblePhantasm": {
+        "noblePhantasmId": 502601,
+        "noblePhantasm": {
+          "id": 502601,
+          "num": 1,
+          "svtId": 502600,
+          "priority": 101
+        },
+        "noblePhantasmLv": 3
+      },
+      "serverMod": {
+        "tdRate": 1200,
+        "tdAttackRate": 1200,
+        "starRate": 0
+      },
+      "ai": {
+        "aiId": 308200,
+        "actPriority": 250,
+        "maxActNum": 2
+      },
+      "enemyScript": {
+        "appear": true
+      },
+      "originalEnemyScript": {
+        "appear": 1
+      },
+      "misc": {
+        "npcSvtType": 1
+      }
+    }]
+  }]
+}, {
+  "id": 93040103,
+  "name": "常夏の休暇",
+  "type": "free",
+  "flags": ["displayLoopmark"],
+  "consumeType": "apAndItem",
+  "consume": 40,
+  "afterClear": "repeatLast",
+  "recommendLv": "90++",
+  "spotId": 1040103,
+  "spotName": "ハワイエリア",
+  "warId": 401,
+  "warLongName": "オーディール・コール",
+  "chapterId": 401,
+  "chapterSubId": 3,
+  "gifts": [{
+    "objectId": 50,
+    "num": 10
+  }],
+  "releaseConditions": [{
+    "type": "questClear",
+    "targetId": 4000100
+  }],
+  "phases": [1],
+  "phasesWithEnemies": [1],
+  "priority": 4000097,
+  "noticeAt": 1686128400,
+  "openedAt": 1686128400,
+  "closedAt": 1893423600,
+  "phase": 1,
+  "className": ["lancer", "unknown"],
+  "individuality": [{
+    "id": 2039
+  }, {
+    "id": 2392
+  }],
+  "qp": 270720,
+  "exp": 109988,
+  "bond": 2636,
+  "battleBgId": 43510,
+  "enemyHash": "1_0888_9132d9a",
+  "availableEnemyHashes": ["1_0888_9132d9a"],
+  "dropsFromAllHashes": true,
+  "drops": [{
+    "type": "item",
+    "objectId": 6501,
+    "num": 1,
+    "dropCount": 38,
+    "runs": 161
+  }, {
+    "type": "item",
+    "objectId": 6526,
+    "num": 1,
+    "dropCount": 202,
+    "runs": 161
+  }],
+  "stages": [{
+    "wave": 1,
+    "bgm": {
+      "id": 277
+    },
+    "originalScript": {},
+    "enemies": [{
+      "deck": "enemy",
+      "deckId": 1,
+      "npcId": 3002191,
+      "roleType": "normal",
+      "name": "ボーパルチキンＡ",
+      "svt": {
+        "id": 9941410,
+        "collectionNo": 0,
+        "name": "ボーパルチキン",
+        "type": "enemy",
+        "flag": "normal",
+        "classId": 7,
+        "className": "berserker",
+        "attribute": "earth",
+        "rarity": 3,
+        "atkMax": 12355,
+        "hpMax": 49086,
+        "face": "https://static.atlasacademy.io/JP/Enemys/99414101.png",
+        "costume": {
+          "9941410": {
+            "id": 1,
+            "costumeCollectionNo": 0,
+            "battleCharaId": 9941410,
+            "shortName": ""
+          }
+        }
+      },
+      "lv": 48,
+      "atk": 6168,
+      "hp": 95112,
+      "deathRate": 800,
+      "criticalRate": 100,
+      "chargeTurn": 5,
+      "traits": [{
+        "id": 5000
+      }, {
+        "id": 5010
+      }, {
+        "id": 106
+      }, {
+        "id": 201
+      }, {
+        "id": 2005
+      }],
+      "skills": {
+        "skillId1": 961710,
+        "skill1": {
+          "id": 961710,
+          "num": -1,
+          "svtId": -1,
+          "strengthStatus": -1,
+          "priority": -1,
+          "condQuestId": -1,
+          "condQuestPhase": -1,
+          "condLv": -1,
+          "condLimitCount": -1
+        },
+        "skillLv1": 1
+      },
+      "noblePhantasm": {
+        "noblePhantasmId": 588,
+        "noblePhantasm": {
+          "id": 588,
+          "num": 1,
+          "svtId": 9941410,
+          "priority": 563
+        },
+        "noblePhantasmLv": 1
+      },
+      "serverMod": {
+        "tdRate": 800,
+        "tdAttackRate": 800,
+        "starRate": 0
+      },
+      "ai": {
+        "aiId": 1000000,
+        "actPriority": 500,
+        "maxActNum": 2
+      }
+    }, {
+      "deck": "enemy",
+      "deckId": 2,
+      "npcId": 3002185,
+      "roleType": "normal",
+      "name": "オオヤドカリ",
+      "svt": {
+        "id": 9936810,
+        "collectionNo": 0,
+        "name": "オオヤドカリ",
+        "type": "enemy",
+        "flag": "normal",
+        "classId": 1,
+        "className": "saber",
+        "attribute": "earth",
+        "rarity": 2,
+        "atkMax": 11974,
+        "hpMax": 64266,
+        "face": "https://static.atlasacademy.io/JP/Enemys/99368101.png"
+      },
+      "lv": 63,
+      "atk": 7710,
+      "hp": 101765,
+      "deathRate": 800,
+      "criticalRate": 100,
+      "chargeTurn": 4,
+      "traits": [{
+        "id": 5000
+      }, {
+        "id": 5010
+      }, {
+        "id": 100
+      }, {
+        "id": 201
+      }, {
+        "id": 2019
+      }],
+      "skills": {
+        "skillId1": 960267,
+        "skill1": {
+          "id": 960267,
+          "num": -1,
+          "svtId": -1,
+          "strengthStatus": -1,
+          "priority": -1,
+          "condQuestId": -1,
+          "condQuestPhase": -1,
+          "condLv": -1,
+          "condLimitCount": -1
+        },
+        "skillLv1": 1
+      },
+      "noblePhantasm": {
+        "noblePhantasmId": 407,
+        "noblePhantasm": {
+          "id": 407,
+          "num": 1,
+          "svtId": 9936810,
+          "priority": 385
+        },
+        "noblePhantasmLv": 1
+      },
+      "serverMod": {
+        "tdRate": 1000,
+        "tdAttackRate": 1000,
+        "starRate": 0
+      },
+      "ai": {
+        "aiId": 1000000,
+        "actPriority": 500,
+        "maxActNum": 2
+      }
+    }, {
+      "deck": "enemy",
+      "deckId": 3,
+      "npcId": 3002191,
+      "roleType": "normal",
+      "name": "ボーパルチキンＢ",
+      "svt": {
+        "id": 9941410,
+        "collectionNo": 0,
+        "name": "ボーパルチキン",
+        "type": "enemy",
+        "flag": "normal",
+        "classId": 7,
+        "className": "berserker",
+        "attribute": "earth",
+        "rarity": 3,
+        "atkMax": 12355,
+        "hpMax": 49086,
+        "face": "https://static.atlasacademy.io/JP/Enemys/99414101.png",
+        "costume": {
+          "9941410": {
+            "id": 1,
+            "costumeCollectionNo": 0,
+            "battleCharaId": 9941410,
+            "shortName": ""
+          }
+        }
+      },
+      "lv": 49,
+      "atk": 6286,
+      "hp": 97036,
+      "deathRate": 800,
+      "criticalRate": 100,
+      "chargeTurn": 5,
+      "traits": [{
+        "id": 5000
+      }, {
+        "id": 5010
+      }, {
+        "id": 106
+      }, {
+        "id": 201
+      }, {
+        "id": 2005
+      }],
+      "skills": {
+        "skillId1": 961710,
+        "skill1": {
+          "id": 961710,
+          "num": -1,
+          "svtId": -1,
+          "strengthStatus": -1,
+          "priority": -1,
+          "condQuestId": -1,
+          "condQuestPhase": -1,
+          "condLv": -1,
+          "condLimitCount": -1
+        },
+        "skillLv1": 1
+      },
+      "noblePhantasm": {
+        "noblePhantasmId": 588,
+        "noblePhantasm": {
+          "id": 588,
+          "num": 1,
+          "svtId": 9941410,
+          "priority": 563
+        },
+        "noblePhantasmLv": 1
+      },
+      "serverMod": {
+        "tdRate": 800,
+        "tdAttackRate": 800,
+        "starRate": 0
+      },
+      "ai": {
+        "aiId": 1000000,
+        "actPriority": 500,
+        "maxActNum": 2
+      }
+    }]
+  }, {
+    "wave": 2,
+    "bgm": {
+      "id": 277
+    },
+    "originalScript": {},
+    "enemies": [{
+      "deck": "enemy",
+      "deckId": 1,
+      "npcId": 3002185,
+      "roleType": "normal",
+      "name": "オオヤドカリＡ",
+      "svt": {
+        "id": 9936810,
+        "collectionNo": 0,
+        "name": "オオヤドカリ",
+        "type": "enemy",
+        "flag": "normal",
+        "classId": 1,
+        "className": "saber",
+        "attribute": "earth",
+        "rarity": 2,
+        "atkMax": 11974,
+        "hpMax": 64266,
+        "face": "https://static.atlasacademy.io/JP/Enemys/99368101.png"
+      },
+      "lv": 64,
+      "atk": 7824,
+      "hp": 124008,
+      "deathRate": 800,
+      "criticalRate": 100,
+      "chargeTurn": 4,
+      "traits": [{
+        "id": 5000
+      }, {
+        "id": 5010
+      }, {
+        "id": 100
+      }, {
+        "id": 201
+      }, {
+        "id": 2019
+      }],
+      "skills": {
+        "skillId1": 960267,
+        "skill1": {
+          "id": 960267,
+          "num": -1,
+          "svtId": -1,
+          "strengthStatus": -1,
+          "priority": -1,
+          "condQuestId": -1,
+          "condQuestPhase": -1,
+          "condLv": -1,
+          "condLimitCount": -1
+        },
+        "skillLv1": 1
+      },
+      "noblePhantasm": {
+        "noblePhantasmId": 407,
+        "noblePhantasm": {
+          "id": 407,
+          "num": 1,
+          "svtId": 9936810,
+          "priority": 385
+        },
+        "noblePhantasmLv": 1
+      },
+      "serverMod": {
+        "tdRate": 1000,
+        "tdAttackRate": 1000,
+        "starRate": 0
+      },
+      "ai": {
+        "aiId": 1000000,
+        "actPriority": 500,
+        "maxActNum": 2
+      }
+    }, {
+      "deck": "enemy",
+      "deckId": 2,
+      "npcId": 3002191,
+      "roleType": "normal",
+      "name": "ボーパルチキン",
+      "svt": {
+        "id": 9941410,
+        "collectionNo": 0,
+        "name": "ボーパルチキン",
+        "type": "enemy",
+        "flag": "normal",
+        "classId": 7,
+        "className": "berserker",
+        "attribute": "earth",
+        "rarity": 3,
+        "atkMax": 12355,
+        "hpMax": 49086,
+        "face": "https://static.atlasacademy.io/JP/Enemys/99414101.png",
+        "costume": {
+          "9941410": {
+            "id": 1,
+            "costumeCollectionNo": 0,
+            "battleCharaId": 9941410,
+            "shortName": ""
+          }
+        }
+      },
+      "lv": 50,
+      "atk": 6403,
+      "hp": 111330,
+      "deathRate": 800,
+      "criticalRate": 100,
+      "chargeTurn": 5,
+      "traits": [{
+        "id": 5000
+      }, {
+        "id": 5010
+      }, {
+        "id": 106
+      }, {
+        "id": 201
+      }, {
+        "id": 2005
+      }],
+      "skills": {
+        "skillId1": 961710,
+        "skill1": {
+          "id": 961710,
+          "num": -1,
+          "svtId": -1,
+          "strengthStatus": -1,
+          "priority": -1,
+          "condQuestId": -1,
+          "condQuestPhase": -1,
+          "condLv": -1,
+          "condLimitCount": -1
+        },
+        "skillLv1": 1
+      },
+      "noblePhantasm": {
+        "noblePhantasmId": 588,
+        "noblePhantasm": {
+          "id": 588,
+          "num": 1,
+          "svtId": 9941410,
+          "priority": 563
+        },
+        "noblePhantasmLv": 1
+      },
+      "serverMod": {
+        "tdRate": 800,
+        "tdAttackRate": 800,
+        "starRate": 0
+      },
+      "ai": {
+        "aiId": 1000000,
+        "actPriority": 500,
+        "maxActNum": 2
+      }
+    }, {
+      "deck": "enemy",
+      "deckId": 3,
+      "npcId": 3002185,
+      "roleType": "normal",
+      "name": "オオヤドカリＢ",
+      "svt": {
+        "id": 9936810,
+        "collectionNo": 0,
+        "name": "オオヤドカリ",
+        "type": "enemy",
+        "flag": "normal",
+        "classId": 1,
+        "className": "saber",
+        "attribute": "earth",
+        "rarity": 2,
+        "atkMax": 11974,
+        "hpMax": 64266,
+        "face": "https://static.atlasacademy.io/JP/Enemys/99368101.png"
+      },
+      "lv": 66,
+      "atk": 8052,
+      "hp": 127788,
+      "deathRate": 800,
+      "criticalRate": 100,
+      "chargeTurn": 4,
+      "traits": [{
+        "id": 5000
+      }, {
+        "id": 5010
+      }, {
+        "id": 100
+      }, {
+        "id": 201
+      }, {
+        "id": 2019
+      }],
+      "skills": {
+        "skillId1": 960267,
+        "skill1": {
+          "id": 960267,
+          "num": -1,
+          "svtId": -1,
+          "strengthStatus": -1,
+          "priority": -1,
+          "condQuestId": -1,
+          "condQuestPhase": -1,
+          "condLv": -1,
+          "condLimitCount": -1
+        },
+        "skillLv1": 1
+      },
+      "noblePhantasm": {
+        "noblePhantasmId": 407,
+        "noblePhantasm": {
+          "id": 407,
+          "num": 1,
+          "svtId": 9936810,
+          "priority": 385
+        },
+        "noblePhantasmLv": 1
+      },
+      "serverMod": {
+        "tdRate": 1000,
+        "tdAttackRate": 1000,
+        "starRate": 0
+      },
+      "ai": {
+        "aiId": 1000000,
+        "actPriority": 500,
+        "maxActNum": 2
+      }
+    }]
+  }, {
+    "wave": 3,
+    "bgm": {
+      "id": 535
+    },
+    "originalScript": {},
+    "enemies": [{
+      "deck": "enemy",
+      "deckId": 1,
+      "npcId": 3002191,
+      "roleType": "normal",
+      "name": "ボーパルチキン",
+      "svt": {
+        "id": 9941410,
+        "collectionNo": 0,
+        "name": "ボーパルチキン",
+        "type": "enemy",
+        "flag": "normal",
+        "classId": 7,
+        "className": "berserker",
+        "attribute": "earth",
+        "rarity": 3,
+        "atkMax": 12355,
+        "hpMax": 49086,
+        "face": "https://static.atlasacademy.io/JP/Enemys/99414101.png",
+        "costume": {
+          "9941410": {
+            "id": 1,
+            "costumeCollectionNo": 0,
+            "battleCharaId": 9941410,
+            "shortName": ""
+          }
+        }
+      },
+      "lv": 51,
+      "atk": 6533,
+      "hp": 126345,
+      "deathRate": 800,
+      "criticalRate": 100,
+      "chargeTurn": 5,
+      "traits": [{
+        "id": 5000
+      }, {
+        "id": 5010
+      }, {
+        "id": 106
+      }, {
+        "id": 201
+      }, {
+        "id": 2005
+      }],
+      "skills": {
+        "skillId1": 961710,
+        "skill1": {
+          "id": 961710,
+          "num": -1,
+          "svtId": -1,
+          "strengthStatus": -1,
+          "priority": -1,
+          "condQuestId": -1,
+          "condQuestPhase": -1,
+          "condLv": -1,
+          "condLimitCount": -1
+        },
+        "skillLv1": 1
+      },
+      "noblePhantasm": {
+        "noblePhantasmId": 588,
+        "noblePhantasm": {
+          "id": 588,
+          "num": 1,
+          "svtId": 9941410,
+          "priority": 563
+        },
+        "noblePhantasmLv": 1
+      },
+      "serverMod": {
+        "tdRate": 800,
+        "tdAttackRate": 800,
+        "starRate": 0
+      },
+      "ai": {
+        "aiId": 1000000,
+        "actPriority": 500,
+        "maxActNum": 2
+      }
+    }, {
+      "deck": "enemy",
+      "deckId": 3,
+      "npcId": 3002192,
+      "roleType": "servant",
+      "name": "茨木童子",
+      "svt": {
+        "id": 303400,
+        "collectionNo": 217,
+        "name": "茨木童子",
+        "type": "normal",
+        "flag": "normal",
+        "classId": 3,
+        "className": "lancer",
+        "attribute": "earth",
+        "rarity": 4,
+        "atkMax": 9133,
+        "hpMax": 12354,
+        "face": "https://static.atlasacademy.io/JP/Faces/f_3034001.png"
+      },
+      "lv": 60,
+      "atk": 11750,
+      "hp": 423614,
+      "deathRate": 2,
+      "criticalRate": 100,
+      "chargeTurn": 4,
+      "traits": [{
+        "id": 5000
+      }, {
+        "id": 303400
+      }, {
+        "id": 2
+      }, {
+        "id": 101
+      }, {
+        "id": 201
+      }, {
+        "id": 301
+      }, {
+        "id": 304
+      }, {
+        "id": 1000
+      }, {
+        "id": 2001
+      }, {
+        "id": 2019
+      }, {
+        "id": 2008
+      }, {
+        "id": 2011
+      }, {
+        "id": 2037
+      }, {
+        "id": 2858
+      }, {
+        "id": 1004
+      }, {
+        "id": 1132
+      }, {
+        "id": 2667
+      }, {
+        "id": 2838
+      }],
+      "skills": {
+        "skillId1": 507450,
+        "skillId2": 508452,
+        "skillId3": 509550,
+        "skill1": {
+          "id": 507450,
+          "num": 1,
+          "svtId": 303400,
+          "priority": 1
+        },
+        "skill2": {
+          "id": 508452,
+          "num": 2,
+          "svtId": 303400,
+          "priority": 1,
+          "condLimitCount": 1
+        },
+        "skill3": {
+          "id": 509550,
+          "num": 3,
+          "svtId": 303400,
+          "priority": 1,
+          "condLimitCount": 3
+        },
+        "skillLv1": 5,
+        "skillLv2": 5,
+        "skillLv3": 5
+      },
+      "classPassive": {
+        "classPassive": [{
+          "id": 34350,
+          "num": -1,
+          "svtId": -1,
+          "strengthStatus": -1,
+          "priority": -1,
+          "condQuestId": -1,
+          "condQuestPhase": -1,
+          "condLv": -1,
+          "condLimitCount": -1
+        }, {
+          "id": 54250,
+          "num": -1,
+          "svtId": -1,
+          "strengthStatus": -1,
+          "priority": -1,
+          "condQuestId": -1,
+          "condQuestPhase": -1,
+          "condLv": -1,
+          "condLimitCount": -1
+        }]
+      },
+      "noblePhantasm": {
+        "noblePhantasmId": 303401,
+        "noblePhantasm": {
+          "id": 303401,
+          "num": 1,
+          "svtId": 303400,
+          "priority": 101
+        },
+        "noblePhantasmLv": 3
+      },
+      "serverMod": {
+        "tdRate": 1000,
+        "tdAttackRate": 1000,
+        "starRate": -50
+      },
+      "ai": {
+        "aiId": 308205,
+        "actPriority": 1500,
+        "maxActNum": 3
+      },
+      "enemyScript": {
+        "appear": true
+      },
+      "originalEnemyScript": {
+        "appear": 1
+      },
+      "misc": {
+        "npcSvtType": 1
+      }
+    }]
+  }]
+}, {
+  "id": 93040104,
+  "name": "荒野の歓楽",
+  "type": "free",
+  "flags": ["displayLoopmark"],
+  "consumeType": "apAndItem",
+  "consume": 40,
+  "afterClear": "repeatLast",
+  "recommendLv": "90++",
+  "spotId": 1040104,
+  "spotName": "西アメリカエリア",
+  "warId": 401,
+  "warLongName": "オーディール・コール",
+  "chapterId": 401,
+  "chapterSubId": 4,
+  "gifts": [{
+    "objectId": 50,
+    "num": 10
+  }],
+  "releaseConditions": [{
+    "type": "questClear",
+    "targetId": 4000100
+  }],
+  "phases": [1],
+  "phasesWithEnemies": [1],
+  "priority": 4000096,
+  "noticeAt": 1686128400,
+  "openedAt": 1686128400,
+  "closedAt": 1893423600,
+  "phase": 1,
+  "className": ["lancer"],
+  "individuality": [{
+    "id": 2392
+  }],
+  "qp": 270720,
+  "exp": 109988,
+  "bond": 2636,
+  "battleBgId": 56300,
+  "enemyHash": "1_0793_38cc13a",
+  "availableEnemyHashes": ["1_0793_38cc13a"],
+  "dropsFromAllHashes": true,
+  "drops": [{
+    "type": "item",
+    "objectId": 1,
+    "num": 270000,
+    "dropCount": 827,
+    "runs": 201
+  }, {
+    "type": "item",
+    "objectId": 1,
+    "num": 405000,
+    "dropCount": 379,
+    "runs": 201
+  }, {
+    "type": "item",
+    "objectId": 1,
+    "num": 1500000,
+    "dropCount": 201,
+    "runs": 201
+  }],
+  "stages": [{
+    "wave": 1,
+    "bgm": {
+      "id": 353
+    },
+    "originalScript": {},
+    "enemies": [{
+      "deck": "enemy",
+      "deckId": 1,
+      "npcId": 3002193,
+      "roleType": "normal",
+      "name": "ダンシングコインＡ",
+      "svt": {
+        "id": 9942120,
+        "collectionNo": 0,
+        "name": "ダンシングコイン",
+        "type": "enemy",
+        "flag": "normal",
+        "classId": 3,
+        "className": "lancer",
+        "attribute": "sky",
+        "rarity": 4,
+        "atkMax": 14002,
+        "hpMax": 55630,
+        "face": "https://static.atlasacademy.io/JP/Enemys/99421201.png",
+        "costume": {
+          "9942120": {
+            "id": 1,
+            "costumeCollectionNo": 0,
+            "battleCharaId": 9942120,
+            "shortName": ""
+          }
+        }
+      },
+      "lv": 50,
+      "atk": 7257,
+      "hp": 55555,
+      "deathRate": 800,
+      "criticalRate": 100,
+      "chargeTurn": 4,
+      "traits": [{
+        "id": 5000
+      }, {
+        "id": 5010
+      }, {
+        "id": 101
+      }, {
+        "id": 200
+      }, {
+        "id": 1003
+      }],
+      "skills": {
+        "skillId1": 962846,
+        "skill1": {
+          "id": 962846,
+          "num": -1,
+          "svtId": -1,
+          "strengthStatus": -1,
+          "priority": -1,
+          "condQuestId": -1,
+          "condQuestPhase": -1,
+          "condLv": -1,
+          "condLimitCount": -1
+        },
+        "skillLv1": 1
+      },
+      "noblePhantasm": {
+        "noblePhantasmId": 644,
+        "noblePhantasm": {
+          "id": 644,
+          "num": 1,
+          "svtId": 9942120,
+          "priority": 604
+        },
+        "noblePhantasmLv": 1
+      },
+      "serverMod": {
+        "tdRate": 1000,
+        "tdAttackRate": 1000,
+        "starRate": -50
+      },
+      "ai": {
+        "aiId": 1000000,
+        "actPriority": 1500,
+        "maxActNum": 2
+      }
+    }, {
+      "deck": "enemy",
+      "deckId": 2,
+      "npcId": 3002193,
+      "roleType": "normal",
+      "name": "ダンシングコインＢ",
+      "svt": {
+        "id": 9942120,
+        "collectionNo": 0,
+        "name": "ダンシングコイン",
+        "type": "enemy",
+        "flag": "normal",
+        "classId": 3,
+        "className": "lancer",
+        "attribute": "sky",
+        "rarity": 4,
+        "atkMax": 14002,
+        "hpMax": 55630,
+        "face": "https://static.atlasacademy.io/JP/Enemys/99421201.png",
+        "costume": {
+          "9942120": {
+            "id": 1,
+            "costumeCollectionNo": 0,
+            "battleCharaId": 9942120,
+            "shortName": ""
+          }
+        }
+      },
+      "lv": 52,
+      "atk": 7537,
+      "hp": 77777,
+      "deathRate": 800,
+      "criticalRate": 100,
+      "chargeTurn": 4,
+      "traits": [{
+        "id": 5000
+      }, {
+        "id": 5010
+      }, {
+        "id": 101
+      }, {
+        "id": 200
+      }, {
+        "id": 1003
+      }],
+      "skills": {
+        "skillId1": 962846,
+        "skill1": {
+          "id": 962846,
+          "num": -1,
+          "svtId": -1,
+          "strengthStatus": -1,
+          "priority": -1,
+          "condQuestId": -1,
+          "condQuestPhase": -1,
+          "condLv": -1,
+          "condLimitCount": -1
+        },
+        "skillLv1": 1
+      },
+      "noblePhantasm": {
+        "noblePhantasmId": 644,
+        "noblePhantasm": {
+          "id": 644,
+          "num": 1,
+          "svtId": 9942120,
+          "priority": 604
+        },
+        "noblePhantasmLv": 1
+      },
+      "serverMod": {
+        "tdRate": 1000,
+        "tdAttackRate": 1000,
+        "starRate": -50
+      },
+      "ai": {
+        "aiId": 1000000,
+        "actPriority": 1500,
+        "maxActNum": 2
+      }
+    }, {
+      "deck": "enemy",
+      "deckId": 3,
+      "npcId": 3002193,
+      "roleType": "normal",
+      "name": "ダンシングコインＣ",
+      "svt": {
+        "id": 9942120,
+        "collectionNo": 0,
+        "name": "ダンシングコイン",
+        "type": "enemy",
+        "flag": "normal",
+        "classId": 3,
+        "className": "lancer",
+        "attribute": "sky",
+        "rarity": 4,
+        "atkMax": 14002,
+        "hpMax": 55630,
+        "face": "https://static.atlasacademy.io/JP/Enemys/99421201.png",
+        "costume": {
+          "9942120": {
+            "id": 1,
+            "costumeCollectionNo": 0,
+            "battleCharaId": 9942120,
+            "shortName": ""
+          }
+        }
+      },
+      "lv": 51,
+      "atk": 7404,
+      "hp": 66666,
+      "deathRate": 800,
+      "criticalRate": 100,
+      "chargeTurn": 4,
+      "traits": [{
+        "id": 5000
+      }, {
+        "id": 5010
+      }, {
+        "id": 101
+      }, {
+        "id": 200
+      }, {
+        "id": 1003
+      }],
+      "skills": {
+        "skillId1": 962846,
+        "skill1": {
+          "id": 962846,
+          "num": -1,
+          "svtId": -1,
+          "strengthStatus": -1,
+          "priority": -1,
+          "condQuestId": -1,
+          "condQuestPhase": -1,
+          "condLv": -1,
+          "condLimitCount": -1
+        },
+        "skillLv1": 1
+      },
+      "noblePhantasm": {
+        "noblePhantasmId": 644,
+        "noblePhantasm": {
+          "id": 644,
+          "num": 1,
+          "svtId": 9942120,
+          "priority": 604
+        },
+        "noblePhantasmLv": 1
+      },
+      "serverMod": {
+        "tdRate": 1000,
+        "tdAttackRate": 1000,
+        "starRate": -50
+      },
+      "ai": {
+        "aiId": 1000000,
+        "actPriority": 1500,
+        "maxActNum": 2
+      }
+    }]
+  }, {
+    "wave": 2,
+    "bgm": {
+      "id": 353
+    },
+    "originalScript": {},
+    "enemies": [{
+      "deck": "enemy",
+      "deckId": 1,
+      "npcId": 3002193,
+      "roleType": "normal",
+      "name": "ダンシングコインＡ",
+      "svt": {
+        "id": 9942120,
+        "collectionNo": 0,
+        "name": "ダンシングコイン",
+        "type": "enemy",
+        "flag": "normal",
+        "classId": 3,
+        "className": "lancer",
+        "attribute": "sky",
+        "rarity": 4,
+        "atkMax": 14002,
+        "hpMax": 55630,
+        "face": "https://static.atlasacademy.io/JP/Enemys/99421201.png",
+        "costume": {
+          "9942120": {
+            "id": 1,
+            "costumeCollectionNo": 0,
+            "battleCharaId": 9942120,
+            "shortName": ""
+          }
+        }
+      },
+      "lv": 56,
+      "atk": 8070,
+      "hp": 99999,
+      "deathRate": 800,
+      "criticalRate": 100,
+      "chargeTurn": 4,
+      "traits": [{
+        "id": 5000
+      }, {
+        "id": 5010
+      }, {
+        "id": 101
+      }, {
+        "id": 200
+      }, {
+        "id": 1003
+      }],
+      "skills": {
+        "skillId1": 962846,
+        "skill1": {
+          "id": 962846,
+          "num": -1,
+          "svtId": -1,
+          "strengthStatus": -1,
+          "priority": -1,
+          "condQuestId": -1,
+          "condQuestPhase": -1,
+          "condLv": -1,
+          "condLimitCount": -1
+        },
+        "skillLv1": 1
+      },
+      "noblePhantasm": {
+        "noblePhantasmId": 644,
+        "noblePhantasm": {
+          "id": 644,
+          "num": 1,
+          "svtId": 9942120,
+          "priority": 604
+        },
+        "noblePhantasmLv": 1
+      },
+      "serverMod": {
+        "tdRate": 1000,
+        "tdAttackRate": 1000,
+        "starRate": -50
+      },
+      "ai": {
+        "aiId": 1000000,
+        "actPriority": 1500,
+        "maxActNum": 2
+      }
+    }, {
+      "deck": "enemy",
+      "deckId": 2,
+      "npcId": 3002193,
+      "roleType": "normal",
+      "name": "ダンシングコインＢ",
+      "svt": {
+        "id": 9942120,
+        "collectionNo": 0,
+        "name": "ダンシングコイン",
+        "type": "enemy",
+        "flag": "normal",
+        "classId": 3,
+        "className": "lancer",
+        "attribute": "sky",
+        "rarity": 4,
+        "atkMax": 14002,
+        "hpMax": 55630,
+        "face": "https://static.atlasacademy.io/JP/Enemys/99421201.png",
+        "costume": {
+          "9942120": {
+            "id": 1,
+            "costumeCollectionNo": 0,
+            "battleCharaId": 9942120,
+            "shortName": ""
+          }
+        }
+      },
+      "lv": 58,
+      "atk": 8337,
+      "hp": 333333,
+      "deathRate": 800,
+      "criticalRate": 100,
+      "chargeTurn": 4,
+      "traits": [{
+        "id": 5000
+      }, {
+        "id": 5010
+      }, {
+        "id": 101
+      }, {
+        "id": 200
+      }, {
+        "id": 1003
+      }],
+      "skills": {
+        "skillId1": 962846,
+        "skill1": {
+          "id": 962846,
+          "num": -1,
+          "svtId": -1,
+          "strengthStatus": -1,
+          "priority": -1,
+          "condQuestId": -1,
+          "condQuestPhase": -1,
+          "condLv": -1,
+          "condLimitCount": -1
+        },
+        "skillLv1": 1
+      },
+      "noblePhantasm": {
+        "noblePhantasmId": 644,
+        "noblePhantasm": {
+          "id": 644,
+          "num": 1,
+          "svtId": 9942120,
+          "priority": 604
+        },
+        "noblePhantasmLv": 1
+      },
+      "serverMod": {
+        "tdRate": 1000,
+        "tdAttackRate": 1000,
+        "starRate": -50
+      },
+      "ai": {
+        "aiId": 1000000,
+        "actPriority": 1500,
+        "maxActNum": 2
+      }
+    }, {
+      "deck": "enemy",
+      "deckId": 3,
+      "npcId": 3002193,
+      "roleType": "normal",
+      "name": "ダンシングコインＣ",
+      "svt": {
+        "id": 9942120,
+        "collectionNo": 0,
+        "name": "ダンシングコイン",
+        "type": "enemy",
+        "flag": "normal",
+        "classId": 3,
+        "className": "lancer",
+        "attribute": "sky",
+        "rarity": 4,
+        "atkMax": 14002,
+        "hpMax": 55630,
+        "face": "https://static.atlasacademy.io/JP/Enemys/99421201.png",
+        "costume": {
+          "9942120": {
+            "id": 1,
+            "costumeCollectionNo": 0,
+            "battleCharaId": 9942120,
+            "shortName": ""
+          }
+        }
+      },
+      "lv": 57,
+      "atk": 8203,
+      "hp": 111111,
+      "deathRate": 800,
+      "criticalRate": 100,
+      "chargeTurn": 4,
+      "traits": [{
+        "id": 5000
+      }, {
+        "id": 5010
+      }, {
+        "id": 101
+      }, {
+        "id": 200
+      }, {
+        "id": 1003
+      }],
+      "skills": {
+        "skillId1": 962846,
+        "skill1": {
+          "id": 962846,
+          "num": -1,
+          "svtId": -1,
+          "strengthStatus": -1,
+          "priority": -1,
+          "condQuestId": -1,
+          "condQuestPhase": -1,
+          "condLv": -1,
+          "condLimitCount": -1
+        },
+        "skillLv1": 1
+      },
+      "noblePhantasm": {
+        "noblePhantasmId": 644,
+        "noblePhantasm": {
+          "id": 644,
+          "num": 1,
+          "svtId": 9942120,
+          "priority": 604
+        },
+        "noblePhantasmLv": 1
+      },
+      "serverMod": {
+        "tdRate": 1000,
+        "tdAttackRate": 1000,
+        "starRate": -50
+      },
+      "ai": {
+        "aiId": 1000000,
+        "actPriority": 1500,
+        "maxActNum": 2
+      }
+    }]
+  }, {
+    "wave": 3,
+    "bgm": {
+      "id": 59
+    },
+    "originalScript": {},
+    "enemies": [{
+      "deck": "enemy",
+      "deckId": 2,
+      "npcId": 3002194,
+      "roleType": "danger",
+      "name": "ダンシングコイン",
+      "svt": {
+        "id": 9942120,
+        "collectionNo": 0,
+        "name": "ダンシングコイン",
+        "type": "enemy",
+        "flag": "normal",
+        "classId": 3,
+        "className": "lancer",
+        "attribute": "sky",
+        "rarity": 4,
+        "atkMax": 14002,
+        "hpMax": 55630,
+        "face": "https://static.atlasacademy.io/JP/Enemys/99421201.png",
+        "costume": {
+          "9942120": {
+            "id": 1,
+            "costumeCollectionNo": 0,
+            "battleCharaId": 9942120,
+            "shortName": ""
+          }
+        }
+      },
+      "lv": 65,
+      "atk": 11750,
+      "hp": 555555,
+      "deathRate": 800,
+      "criticalRate": 100,
+      "chargeTurn": 4,
+      "traits": [{
+        "id": 5000
+      }, {
+        "id": 5010
+      }, {
+        "id": 101
+      }, {
+        "id": 200
+      }, {
+        "id": 1003
+      }],
+      "skills": {
+        "skillId1": 962846,
+        "skill1": {
+          "id": 962846,
+          "num": -1,
+          "svtId": -1,
+          "strengthStatus": -1,
+          "priority": -1,
+          "condQuestId": -1,
+          "condQuestPhase": -1,
+          "condLv": -1,
+          "condLimitCount": -1
+        },
+        "skillLv1": 1
+      },
+      "noblePhantasm": {
+        "noblePhantasmId": 644,
+        "noblePhantasm": {
+          "id": 644,
+          "num": 1,
+          "svtId": 9942120,
+          "priority": 604
+        },
+        "noblePhantasmLv": 1
+      },
+      "serverMod": {
+        "tdRate": 1000,
+        "tdAttackRate": 1000,
+        "starRate": -50
+      },
+      "ai": {
+        "aiId": 1000000,
+        "actPriority": 1500,
+        "maxActNum": 2
+      },
+      "enemyScript": {
+        "appear": true
+      },
+      "originalEnemyScript": {
+        "appear": 1
+      }
+    }]
+  }]
+}, {
+  "id": 93040105,
+  "name": "大堡礁の卵",
+  "type": "free",
+  "flags": ["displayLoopmark"],
+  "consumeType": "apAndItem",
+  "consume": 40,
+  "afterClear": "repeatLast",
+  "recommendLv": "90++",
+  "spotId": 1040105,
+  "spotName": "オセアニア北部エリア",
+  "warId": 401,
+  "warLongName": "オーディール・コール",
+  "chapterId": 401,
+  "chapterSubId": 5,
+  "gifts": [{
+    "objectId": 50,
+    "num": 10
+  }],
+  "releaseConditions": [{
+    "type": "questClear",
+    "targetId": 4000100
+  }],
+  "phases": [1],
+  "phasesWithEnemies": [1],
+  "priority": 4000095,
+  "noticeAt": 1686128400,
+  "openedAt": 1686128400,
+  "closedAt": 1893423600,
+  "phase": 1,
+  "className": ["rider", "unknown"],
+  "individuality": [{
+    "id": 2038
+  }, {
+    "id": 2039
+  }],
+  "qp": 270720,
+  "exp": 109988,
+  "bond": 2636,
+  "battleBgId": 58700,
+  "enemyHash": "1_0632_994e7eb",
+  "availableEnemyHashes": ["1_0632_276d8cf", "1_0632_38d0e29", "1_0632_3fddd23", "1_0632_7184c51", "1_0632_919076b", "1_0632_994e7eb", "1_0632_c020142", "1_0632_e452d39", "1_0633_0330556", "1_0633_265bb5b", "1_0633_26d6bfc", "1_0633_48dcbf6", "1_0633_4a42344", "1_0633_7a08b06", "1_0633_7cb1ac0", "1_0633_91cd41b", "1_0633_9da6b31", "1_0633_a950f53", "1_0633_ae3026f", "1_0633_ba0b333", "1_0633_bedb894", "1_0633_d2452b5", "1_0633_d6e5ae1", "1_0633_e4f4957", "1_0633_fbc5bb0", "1_0633_fe06d8e", "1_0634_3281a39", "1_0648_4ac97e4", "1_0649_0f2a49d", "1_0649_11873dd", "1_0649_1233878", "1_0649_13a74fe", "1_0649_199f140", "1_0649_19c88f7", "1_0649_1b9c969", "1_0649_1eb9c88", "1_0649_20d58ec", "1_0649_25da08f", "1_0649_30f53aa", "1_0649_368ccb5", "1_0649_4684664", "1_0649_47c44b1", "1_0649_6d20b74", "1_0649_6eacc5c", "1_0649_7209bbf", "1_0649_762b26a", "1_0649_7b1e06b", "1_0649_80c3803", "1_0649_924a80e", "1_0649_983da5f", "1_0649_9f38bba", "1_0649_a189eb6", "1_0649_a2902f4", "1_0649_a30a9fb", "1_0649_ad62996", "1_0649_b0f754f", "1_0649_b3ce696", "1_0649_b579b39", "1_0649_c39923d", "1_0649_c40a915", "1_0649_ce9baf3", "1_0649_d2ec5d9", "1_0649_d66dfe7", "1_0649_e773ac1", "1_0649_f067aaa", "1_0649_f6d3897", "1_0649_fa4bcf8", "1_0650_108de0d", "1_0650_73da8e5", "1_0650_8722c73", "1_0650_d38423c", "1_0665_12481ce", "1_0665_335abaa", "1_0665_7f8b78f", "1_0665_80daca0", "1_0665_92b193a", "1_0665_b421446", "1_0665_dd69129", "1_0665_eb912bf", "1_0666_4790904", "1_0666_87b5372", "1_0666_9f38df5", "1_0666_a4f7711", "1_0666_b7af2b8", "1_0666_f89e1d0", "1_0681_827dea9", "1_0682_0ddd0ca", "1_0682_2dc4654", "1_0682_550545d", "1_0682_748ce1f", "1_0682_acdbb19"],
+  "dropsFromAllHashes": true,
+  "drops": [{
+    "type": "item",
+    "objectId": 6004,
+    "num": 1,
+    "dropCount": 164,
+    "runs": 95
+  }, {
+    "type": "item",
+    "objectId": 6005,
+    "num": 1,
+    "dropCount": 61,
+    "runs": 95
+  }, {
+    "type": "item",
+    "objectId": 6006,
+    "num": 1,
+    "dropCount": 59,
+    "runs": 95
+  }, {
+    "type": "item",
+    "objectId": 6007,
+    "num": 1,
+    "dropCount": 46,
+    "runs": 95
+  }],
+  "stages": [{
+    "wave": 1,
+    "bgm": {
+      "id": 287
+    },
+    "originalScript": {},
+    "enemies": [{
+      "deck": "enemy",
+      "deckId": 1,
+      "npcId": 3002201,
+      "roleType": "normal",
+      "name": "小魔Ａ",
+      "svt": {
+        "id": 9940300,
+        "collectionNo": 0,
+        "name": "海魔",
+        "type": "enemy",
+        "flag": "normal",
+        "classId": 5,
+        "className": "caster",
+        "attribute": "earth",
+        "rarity": 1,
+        "atkMax": 12230,
+        "hpMax": 59388,
+        "face": "https://static.atlasacademy.io/JP/Enemys/99403001.png"
+      },
+      "lv": 50,
+      "atk": 6339,
+      "hp": 119728,
+      "deathRate": 800,
+      "criticalRate": 100,
+      "chargeTurn": 5,
+      "traits": [{
+        "id": 5000
+      }, {
+        "id": 5010
+      }, {
+        "id": 201
+      }, {
+        "id": 2019
+      }, {
+        "id": 104
+      }],
+      "skills": {
+        "skillId1": 960172,
+        "skill1": {
+          "id": 960172,
+          "num": -1,
+          "svtId": -1,
+          "strengthStatus": -1,
+          "priority": -1,
+          "condQuestId": -1,
+          "condQuestPhase": -1,
+          "condLv": -1,
+          "condLimitCount": -1
+        },
+        "skillLv1": 1
+      },
+      "noblePhantasm": {
+        "noblePhantasmId": 371,
+        "noblePhantasm": {
+          "id": 371,
+          "num": 1,
+          "svtId": 9940300,
+          "priority": 347
+        },
+        "noblePhantasmLv": 1
+      },
+      "serverMod": {
+        "tdRate": 1200,
+        "tdAttackRate": 1200,
+        "starRate": 0
+      },
+      "ai": {
+        "aiId": 1000000,
+        "actPriority": 250,
+        "maxActNum": 2
+      },
+      "misc": {
+        "npcSvtClassId": 5
+      }
+    }, {
+      "deck": "enemy",
+      "deckId": 2,
+      "npcId": 3002200,
+      "roleType": "normal",
+      "name": "小魔Ｂ",
+      "svt": {
+        "id": 9940300,
+        "collectionNo": 0,
+        "name": "海魔",
+        "type": "enemy",
+        "flag": "normal",
+        "classId": 6,
+        "className": "assassin",
+        "attribute": "earth",
+        "rarity": 1,
+        "atkMax": 12230,
+        "hpMax": 59388,
+        "face": "https://static.atlasacademy.io/JP/Enemys/99403001.png"
+      },
+      "lv": 51,
+      "atk": 6467,
+      "hp": 122292,
+      "deathRate": 800,
+      "criticalRate": 300,
+      "chargeTurn": 3,
+      "traits": [{
+        "id": 5000
+      }, {
+        "id": 5010
+      }, {
+        "id": 201
+      }, {
+        "id": 2019
+      }, {
+        "id": 105
+      }],
+      "skills": {
+        "skillId1": 960172,
+        "skill1": {
+          "id": 960172,
+          "num": -1,
+          "svtId": -1,
+          "strengthStatus": -1,
+          "priority": -1,
+          "condQuestId": -1,
+          "condQuestPhase": -1,
+          "condLv": -1,
+          "condLimitCount": -1
+        },
+        "skillLv1": 1
+      },
+      "noblePhantasm": {
+        "noblePhantasmId": 371,
+        "noblePhantasm": {
+          "id": 371,
+          "num": 1,
+          "svtId": 9940300,
+          "priority": 347
+        },
+        "noblePhantasmLv": 1
+      },
+      "serverMod": {
+        "tdRate": 900,
+        "tdAttackRate": 900,
+        "starRate": -100
+      },
+      "ai": {
+        "aiId": 1000000,
+        "actPriority": 1000,
+        "maxActNum": 2
+      },
+      "misc": {
+        "npcSvtClassId": 6
+      }
+    }, {
+      "deck": "enemy",
+      "deckId": 3,
+      "npcId": 3002200,
+      "roleType": "normal",
+      "name": "小魔Ｃ",
+      "svt": {
+        "id": 9940300,
+        "collectionNo": 0,
+        "name": "海魔",
+        "type": "enemy",
+        "flag": "normal",
+        "classId": 6,
+        "className": "assassin",
+        "attribute": "earth",
+        "rarity": 1,
+        "atkMax": 12230,
+        "hpMax": 59388,
+        "face": "https://static.atlasacademy.io/JP/Enemys/99403001.png"
+      },
+      "lv": 52,
+      "atk": 6583,
+      "hp": 124620,
+      "deathRate": 800,
+      "criticalRate": 300,
+      "chargeTurn": 3,
+      "traits": [{
+        "id": 5000
+      }, {
+        "id": 5010
+      }, {
+        "id": 201
+      }, {
+        "id": 2019
+      }, {
+        "id": 105
+      }],
+      "skills": {
+        "skillId1": 960172,
+        "skill1": {
+          "id": 960172,
+          "num": -1,
+          "svtId": -1,
+          "strengthStatus": -1,
+          "priority": -1,
+          "condQuestId": -1,
+          "condQuestPhase": -1,
+          "condLv": -1,
+          "condLimitCount": -1
+        },
+        "skillLv1": 1
+      },
+      "noblePhantasm": {
+        "noblePhantasmId": 371,
+        "noblePhantasm": {
+          "id": 371,
+          "num": 1,
+          "svtId": 9940300,
+          "priority": 347
+        },
+        "noblePhantasmLv": 1
+      },
+      "serverMod": {
+        "tdRate": 900,
+        "tdAttackRate": 900,
+        "starRate": -100
+      },
+      "ai": {
+        "aiId": 1000000,
+        "actPriority": 1000,
+        "maxActNum": 2
+      },
+      "misc": {
+        "npcSvtClassId": 6
+      }
+    }]
+  }, {
+    "wave": 2,
+    "bgm": {
+      "id": 287
+    },
+    "originalScript": {},
+    "enemies": [{
+      "deck": "enemy",
+      "deckId": 1,
+      "npcId": 3002195,
+      "roleType": "normal",
+      "name": "シャークパイレーツＡ",
+      "svt": {
+        "id": 9943140,
+        "collectionNo": 0,
+        "name": "シャークパイレーツ",
+        "type": "enemy",
+        "flag": "normal",
+        "classId": 4,
+        "className": "rider",
+        "attribute": "earth",
+        "rarity": 2,
+        "atkMax": 11793,
+        "hpMax": 51813,
+        "face": "https://static.atlasacademy.io/JP/Enemys/99431401.png",
+        "costume": {
+          "9943140": {
+            "id": 1,
+            "costumeCollectionNo": 0,
+            "battleCharaId": 9943140,
+            "shortName": ""
+          }
+        }
+      },
+      "lv": 53,
+      "atk": 8000,
+      "hp": 207667,
+      "deathRate": 800,
+      "criticalRate": 150,
+      "chargeTurn": 5,
+      "traits": [{
+        "id": 5000
+      }, {
+        "id": 5010
+      }, {
+        "id": 201
+      }, {
+        "id": 2005
+      }, {
+        "id": 103
+      }],
+      "skills": {
+        "skillId1": 965939,
+        "skill1": {
+          "id": 965939,
+          "num": -1,
+          "svtId": -1,
+          "strengthStatus": -1,
+          "priority": -1,
+          "condQuestId": -1,
+          "condQuestPhase": -1,
+          "condLv": -1,
+          "condLimitCount": -1
+        },
+        "skillLv1": 1
+      },
+      "noblePhantasm": {
+        "noblePhantasmId": 729,
+        "noblePhantasm": {
+          "id": 729,
+          "num": 1,
+          "svtId": 9943140,
+          "priority": 1
+        },
+        "noblePhantasmLv": 1
+      },
+      "serverMod": {
+        "tdRate": 1100,
+        "tdAttackRate": 1100,
+        "starRate": 100
+      },
+      "ai": {
+        "aiId": 1000000,
+        "actPriority": 500,
+        "maxActNum": 2
+      },
+      "misc": {
+        "npcSvtClassId": 4
+      }
+    }, {
+      "deck": "enemy",
+      "deckId": 3,
+      "npcId": 3002196,
+      "roleType": "normal",
+      "name": "シャークパイレーツＢ",
+      "svt": {
+        "id": 9943140,
+        "collectionNo": 0,
+        "name": "シャークパイレーツ",
+        "type": "enemy",
+        "flag": "normal",
+        "classId": 6,
+        "className": "assassin",
+        "attribute": "earth",
+        "rarity": 2,
+        "atkMax": 11793,
+        "hpMax": 51813,
+        "face": "https://static.atlasacademy.io/JP/Enemys/99431401.png",
+        "costume": {
+          "9943140": {
+            "id": 1,
+            "costumeCollectionNo": 0,
+            "battleCharaId": 9943140,
+            "shortName": ""
+          }
+        }
+      },
+      "lv": 54,
+      "atk": 8000,
+      "hp": 211477,
+      "deathRate": 800,
+      "criticalRate": 300,
+      "chargeTurn": 3,
+      "traits": [{
+        "id": 5000
+      }, {
+        "id": 5010
+      }, {
+        "id": 201
+      }, {
+        "id": 2005
+      }, {
+        "id": 105
+      }],
+      "skills": {
+        "skillId1": 965939,
+        "skill1": {
+          "id": 965939,
+          "num": -1,
+          "svtId": -1,
+          "strengthStatus": -1,
+          "priority": -1,
+          "condQuestId": -1,
+          "condQuestPhase": -1,
+          "condLv": -1,
+          "condLimitCount": -1
+        },
+        "skillLv1": 1
+      },
+      "noblePhantasm": {
+        "noblePhantasmId": 729,
+        "noblePhantasm": {
+          "id": 729,
+          "num": 1,
+          "svtId": 9943140,
+          "priority": 1
+        },
+        "noblePhantasmLv": 1
+      },
+      "serverMod": {
+        "tdRate": 900,
+        "tdAttackRate": 900,
+        "starRate": -100
+      },
+      "ai": {
+        "aiId": 1000000,
+        "actPriority": 1000,
+        "maxActNum": 2
+      },
+      "misc": {
+        "npcSvtClassId": 6
+      }
+    }]
+  }, {
+    "wave": 3,
+    "bgm": {
+      "id": 286
+    },
+    "originalScript": {},
+    "enemies": [{
+      "deck": "enemy",
+      "deckId": 2,
+      "npcId": 3002203,
+      "roleType": "servant",
+      "name": "コロンブス",
+      "svt": {
+        "id": 402500,
+        "collectionNo": 172,
+        "name": "クリストファー・コロンブス",
+        "type": "normal",
+        "flag": "normal",
+        "classId": 4,
+        "className": "rider",
+        "attribute": "human",
+        "rarity": 3,
+        "atkMax": 6552,
+        "hpMax": 9600,
+        "face": "https://static.atlasacademy.io/JP/Faces/f_4025001.png"
+      },
+      "lv": 60,
+      "atk": 11750,
+      "hp": 418958,
+      "deathRate": 2,
+      "criticalRate": 150,
+      "chargeTurn": 5,
+      "traits": [{
+        "id": 5000
+      }, {
+        "id": 402500
+      }, {
+        "id": 1
+      }, {
+        "id": 103
+      }, {
+        "id": 202
+      }, {
+        "id": 302
+      }, {
+        "id": 304
+      }, {
+        "id": 2009
+      }, {
+        "id": 1000
+      }, {
+        "id": 2001
+      }, {
+        "id": 2008
+      }, {
+        "id": 2858
+      }, {
+        "id": 2631
+      }],
+      "skills": {
+        "skillId1": 35450,
+        "skillId2": 98350,
+        "skillId3": 370650,
+        "skill1": {
+          "id": 35450,
+          "num": 1,
+          "svtId": 402500,
+          "priority": 1
+        },
+        "skill2": {
+          "id": 98350,
+          "num": 2,
+          "svtId": 402500,
+          "priority": 1,
+          "condLimitCount": 1
+        },
+        "skill3": {
+          "id": 370650,
+          "num": 3,
+          "svtId": 402500,
+          "priority": 1,
+          "condLimitCount": 3
+        },
+        "skillLv1": 5,
+        "skillLv2": 5,
+        "skillLv3": 5
+      },
+      "classPassive": {
+        "classPassive": [{
+          "id": 34250,
+          "num": -1,
+          "svtId": -1,
+          "strengthStatus": -1,
+          "priority": -1,
+          "condQuestId": -1,
+          "condQuestPhase": -1,
+          "condLv": -1,
+          "condLimitCount": -1
+        }, {
+          "id": 88450,
+          "num": -1,
+          "svtId": -1,
+          "strengthStatus": -1,
+          "priority": -1,
+          "condQuestId": -1,
+          "condQuestPhase": -1,
+          "condLv": -1,
+          "condLimitCount": -1
+        }]
+      },
+      "noblePhantasm": {
+        "noblePhantasmId": 402502,
+        "noblePhantasm": {
+          "id": 402502,
+          "num": 1,
+          "svtId": 402500,
+          "strengthStatus": 1,
+          "priority": 102,
+          "condQuestId": 2000214,
+          "condQuestPhase": 2
+        },
+        "noblePhantasmLv": 3
+      },
+      "serverMod": {
+        "tdRate": 1100,
+        "tdAttackRate": 1100,
+        "starRate": 100
+      },
+      "ai": {
+        "aiId": 308210,
+        "actPriority": 500,
+        "maxActNum": 3
+      },
+      "enemyScript": {
+        "appear": true,
+        "svtVoiceId": 402500
+      },
+      "originalEnemyScript": {
+        "appear": 1,
+        "svtVoiceId": 402500,
+        "svt_change": {
+          "td": [{
+            "value": 402502,
+            "priority": 2
+          }, {
+            "value": "402502",
+            "priority": 1
+          }, {
+            "value": 402502,
+            "priority": 0
+          }],
+          "battle_svt_id": [{
+            "value": 402500,
+            "priority": 2
+          }, {
+            "value": "402500",
+            "priority": 1
+          }, {
+            "value": 402500,
+            "priority": 0
+          }]
+        }
+      },
+      "misc": {
+        "npcSvtType": 1
+      }
+    }]
+  }]
+}, {
   "id": 94061636,
   "name": "宝物庫の扉を開け 初級",
   "type": "event",
