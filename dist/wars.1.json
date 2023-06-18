@@ -20788,7 +20788,7 @@
     "id": 10721,
     "mapId": 107,
     "name": "鮮血神殿",
-    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/spot_010721.png",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/spot_010722.png",
     "x": 381,
     "y": 271,
     "nameOfsY": -5,
@@ -68432,6 +68432,16 @@
     "value": 0,
     "startedAt": 1676019600,
     "endedAt": 1893423600
+  }, {
+    "warId": 400,
+    "type": "materialParentWar",
+    "priority": 3,
+    "overwriteId": 14000,
+    "condType": "questClear",
+    "targetId": 4000200,
+    "value": 0,
+    "startedAt": 1687078800,
+    "endedAt": 1893423600
   }],
   "maps": [{
     "id": 400,
@@ -68550,6 +68560,16 @@
     "targetId": 4000000,
     "value": 0,
     "startedAt": 1686128400,
+    "endedAt": 1893423600
+  }, {
+    "warId": 401,
+    "type": "materialParentWar",
+    "priority": 3,
+    "overwriteId": 14000,
+    "condType": "questClear",
+    "targetId": 4000200,
+    "value": 0,
+    "startedAt": 1687078800,
     "endedAt": 1893423600
   }],
   "maps": [{
@@ -68906,6 +68926,13 @@
     "name": "エジプトエリア",
     "x": 28,
     "y": 33
+  }, {
+    "id": 1040301,
+    "blankEarth": true,
+    "mapId": 401,
+    "name": "日本エリア",
+    "x": 35,
+    "y": 139
   }]
 }, {
   "id": 402,
@@ -68914,10 +68941,10 @@
     []
   ],
   "age": "-",
-  "name": "-",
-  "longName": "-",
-  "flags": ["mainScenario", "noticeBoard"],
-  "banner": "https://static.atlasacademy.io/JP/Banner/questboard_cap_closed.png",
+  "name": "奏章Ⅰ",
+  "longName": "虚数羅針内界 ペーパームーン",
+  "flags": ["withMap", "mainScenario", "dispFirstQuest"],
+  "banner": "https://static.atlasacademy.io/JP/Banner/questboard_cap402.png",
   "priority": 402,
   "parentWarId": 401,
   "parentBlankEarthSpotId": 1040201,
@@ -68926,9 +68953,9 @@
   },
   "scriptId": "NONE",
   "script": "https://static.atlasacademy.io/JP/Script/Common/NONE.txt",
-  "startType": "none",
-  "targetId": 0,
-  "lastQuestId": 0,
+  "startType": "quest",
+  "targetId": 4000200,
+  "lastQuestId": 4000217,
   "warAdds": [{
     "warId": 402,
     "type": "warForceHide",
@@ -68938,6 +68965,2708 @@
     "targetId": 4000100,
     "value": 1,
     "startedAt": 1686128400,
+    "endedAt": 1893423600
+  }, {
+    "warId": 402,
+    "type": "materialParentWar",
+    "priority": 2,
+    "overwriteId": 14000,
+    "condType": "questClear",
+    "targetId": 4000200,
+    "value": 0,
+    "startedAt": 1687078800,
+    "endedAt": 1893423600
+  }, {
+    "warId": 402,
+    "type": "baseMapId",
+    "priority": 2,
+    "overwriteId": 404,
+    "condType": "questClearPhase",
+    "targetId": 4000215,
+    "value": 1,
+    "startedAt": 1687078800,
+    "endedAt": 1893423600
+  }, {
+    "warId": 402,
+    "type": "flag",
+    "priority": 3,
+    "overwriteId": 128,
+    "condType": "questClear",
+    "targetId": 4000216,
+    "value": 0,
+    "startedAt": 1687078800,
+    "endedAt": 1893423600
+  }, {
+    "warId": 402,
+    "type": "baseMapId",
+    "priority": 3,
+    "overwriteId": 402,
+    "condType": "questClear",
+    "targetId": 4000215,
+    "value": 0,
+    "startedAt": 1687078800,
+    "endedAt": 1893423600
+  }, {
+    "warId": 402,
+    "type": "baseMapId",
+    "priority": 4,
+    "overwriteId": 0,
+    "condType": "questClear",
+    "targetId": 4000216,
+    "value": 0,
+    "startedAt": 1687078800,
+    "endedAt": 1893423600
+  }, {
+    "warId": 402,
+    "type": "flag",
+    "priority": 4,
+    "overwriteId": 130,
+    "condType": "questClear",
+    "targetId": 4000217,
+    "value": 0,
+    "startedAt": 1687078800,
+    "endedAt": 1893423600
+  }, {
+    "warId": 402,
+    "type": "baseMapId",
+    "priority": 5,
+    "overwriteId": 402,
+    "condType": "questClear",
+    "targetId": 4000217,
+    "value": 0,
+    "startedAt": 1687078800,
+    "endedAt": 1893423600
+  }],
+  "maps": [{
+    "id": 402,
+    "mapImage": "https://static.atlasacademy.io/JP/Terminal/MapImgs/img_questmap_000402/img_questmap_000402.png",
+    "mapImageW": 2048,
+    "mapImageH": 2048,
+    "mapGimmicks": [{
+      "id": 40201,
+      "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/gimmick_040201.png",
+      "x": 1024,
+      "y": 1024,
+      "depthOffset": -600,
+      "scale": 1000,
+      "dispCondType": "itemGet",
+      "dispTargetId": 4000200,
+      "dispTargetValue": 1,
+      "dispCondType2": "useItemEternity",
+      "dispTargetId2": 4000208,
+      "dispTargetValue2": 5
+    }, {
+      "id": 40202,
+      "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/gimmick_040202.png",
+      "x": 1024,
+      "y": 1024,
+      "depthOffset": -600,
+      "scale": 1000,
+      "dispCondType": "itemGet",
+      "dispTargetId": 4000208,
+      "dispTargetValue": 5,
+      "dispCondType2": "useItemEternity",
+      "dispTargetId2": 4000210,
+      "dispTargetValue2": 3
+    }, {
+      "id": 40203,
+      "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/gimmick_040203.png",
+      "x": 1024,
+      "y": 1024,
+      "depthOffset": -600,
+      "scale": 1000,
+      "dispCondType": "itemGet",
+      "dispTargetId": 4000210,
+      "dispTargetValue": 3,
+      "dispCondType2": "useItemEternity",
+      "dispTargetId2": 4000212,
+      "dispTargetValue2": 3
+    }, {
+      "id": 40204,
+      "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/gimmick_040204.png",
+      "x": 1024,
+      "y": 1024,
+      "depthOffset": -600,
+      "scale": 1000,
+      "dispCondType": "itemGet",
+      "dispTargetId": 4000212,
+      "dispTargetValue": 3,
+      "dispCondType2": "useItemEternity",
+      "dispTargetId2": 4000215,
+      "dispTargetValue2": 1
+    }, {
+      "id": 40212,
+      "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/gimmick_040212.png",
+      "x": 1024,
+      "y": 1024,
+      "depthOffset": 0,
+      "scale": 1000,
+      "dispCondType": "itemGet",
+      "dispTargetId": 4000200,
+      "dispTargetValue": 1,
+      "dispCondType2": "useItemEternity",
+      "dispTargetId2": 4000215,
+      "dispTargetValue2": 1
+    }, {
+      "id": 40213,
+      "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/gimmick_040213.png",
+      "x": 1024,
+      "y": 1024,
+      "depthOffset": 0,
+      "scale": 1000,
+      "dispCondType": "itemGet",
+      "dispTargetId": 4000200,
+      "dispTargetValue": 1,
+      "dispCondType2": "useItemEternity",
+      "dispTargetId2": 4000215,
+      "dispTargetValue2": 1
+    }, {
+      "id": 40214,
+      "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/gimmick_040214.png",
+      "x": 1024,
+      "y": 1024,
+      "depthOffset": 0,
+      "scale": 1000,
+      "dispCondType": "itemGet",
+      "dispTargetId": 4000200,
+      "dispTargetValue": 1,
+      "dispCondType2": "useItemEternity",
+      "dispTargetId2": 4000215,
+      "dispTargetValue2": 1
+    }, {
+      "id": 40215,
+      "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/gimmick_040215.png",
+      "x": 1024,
+      "y": 1024,
+      "depthOffset": -450,
+      "scale": 1000,
+      "dispCondType": "itemGet",
+      "dispTargetId": 4000200,
+      "dispTargetValue": 1,
+      "dispCondType2": "questClear"
+    }, {
+      "id": 40216,
+      "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/gimmick_040216.png",
+      "x": 1024,
+      "y": 1024,
+      "depthOffset": -600,
+      "scale": 1000,
+      "dispCondType": "itemGet",
+      "dispTargetId": 4000217,
+      "dispTargetValue": 3,
+      "dispCondType2": "questClear"
+    }, {
+      "id": 40217,
+      "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/gimmick_040217.png",
+      "x": 1024,
+      "y": 1024,
+      "depthOffset": -550,
+      "scale": 1000,
+      "dispCondType": "itemGet",
+      "dispTargetId": 4000200,
+      "dispTargetValue": 1,
+      "dispCondType2": "questClear"
+    }, {
+      "id": 40218,
+      "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/gimmick_040218.png",
+      "x": 1024,
+      "y": 1024,
+      "depthOffset": -500,
+      "scale": 1000,
+      "dispCondType": "itemGet",
+      "dispTargetId": 4000200,
+      "dispTargetValue": 1,
+      "dispCondType2": "questClear"
+    }, {
+      "id": 40220,
+      "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/gimmick_040220.png",
+      "x": 1024,
+      "y": 1024,
+      "depthOffset": -600,
+      "scale": 1000,
+      "dispCondType": "itemGet",
+      "dispTargetId": 4000215,
+      "dispTargetValue": 7,
+      "dispCondType2": "useItemEternity",
+      "dispTargetId2": 4000217,
+      "dispTargetValue2": 3
+    }, {
+      "id": 40223,
+      "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/gimmick_040223.png",
+      "x": 1024,
+      "y": 1024,
+      "depthOffset": 0,
+      "scale": 1000,
+      "dispCondType": "itemGet",
+      "dispTargetId": 4000215,
+      "dispTargetValue": 7,
+      "dispCondType2": "useItemEternity",
+      "dispTargetId2": 4000217,
+      "dispTargetValue2": 3
+    }, {
+      "id": 40228,
+      "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/gimmick_040228.png",
+      "x": 1024,
+      "y": 1024,
+      "depthOffset": 0,
+      "scale": 1000,
+      "dispCondType": "itemGet",
+      "dispTargetId": 4000217,
+      "dispTargetValue": 3,
+      "dispCondType2": "questClear"
+    }, {
+      "id": 40229,
+      "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/gimmick_040229.png",
+      "x": 1024,
+      "y": 1024,
+      "depthOffset": 0,
+      "scale": 1000,
+      "dispCondType": "itemGet",
+      "dispTargetId": 4000217,
+      "dispTargetValue": 3,
+      "dispCondType2": "questClear"
+    }, {
+      "id": 40230,
+      "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/gimmick_040230.png",
+      "x": 1024,
+      "y": 1024,
+      "depthOffset": 0,
+      "scale": 1000,
+      "dispCondType": "itemGet",
+      "dispTargetId": 4000217,
+      "dispTargetValue": 3,
+      "dispCondType2": "questClear"
+    }, {
+      "id": 40231,
+      "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/gimmick_040231.png",
+      "x": 1024,
+      "y": 1024,
+      "depthOffset": 100,
+      "scale": 1000,
+      "dispCondType": "useItemTime",
+      "dispCondType2": "useItemTime"
+    }, {
+      "id": 40232,
+      "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/gimmick_040232.png",
+      "x": 1024,
+      "y": 1024,
+      "depthOffset": 0,
+      "scale": 1000,
+      "dispCondType": "itemGet",
+      "dispTargetId": 4000215,
+      "dispTargetValue": 7,
+      "dispCondType2": "useItemEternity",
+      "dispTargetId2": 4000217,
+      "dispTargetValue2": 3
+    }, {
+      "id": 40233,
+      "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/gimmick_040233.png",
+      "x": 1024,
+      "y": 1024,
+      "depthOffset": 0,
+      "scale": 1000,
+      "dispCondType": "itemGet",
+      "dispTargetId": 4000215,
+      "dispTargetValue": 7,
+      "dispCondType2": "useItemEternity",
+      "dispTargetId2": 4000217,
+      "dispTargetValue2": 3
+    }, {
+      "id": 40234,
+      "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/gimmick_040234.png",
+      "x": 1024,
+      "y": 1024,
+      "depthOffset": 0,
+      "scale": 1000,
+      "dispCondType": "itemGet",
+      "dispTargetId": 4000215,
+      "dispTargetValue": 7,
+      "dispCondType2": "useItemEternity",
+      "dispTargetId2": 4000217,
+      "dispTargetValue2": 3
+    }],
+    "headerImage": "https://static.atlasacademy.io/JP/Banner/img_title_header_34.png",
+    "bgm": {
+      "id": 0
+    }
+  }, {
+    "id": 404,
+    "mapImage": "https://static.atlasacademy.io/JP/Terminal/MapImgs/img_questmap_000404/img_questmap_000404.png",
+    "mapImageW": 2048,
+    "mapImageH": 2048,
+    "mapGimmicks": [{
+      "id": 40205,
+      "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/gimmick_040205.png",
+      "x": 1024,
+      "y": 1024,
+      "depthOffset": -600,
+      "scale": 1000,
+      "dispCondType": "itemGet",
+      "dispTargetId": 4000215,
+      "dispTargetValue": 1,
+      "dispCondType2": "useItemEternity",
+      "dispTargetId2": 4000215,
+      "dispTargetValue2": 7
+    }, {
+      "id": 40211,
+      "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/gimmick_040211.png",
+      "x": 1024,
+      "y": 1024,
+      "depthOffset": 0,
+      "scale": 1000,
+      "dispCondType": "itemGet",
+      "dispTargetId": 4000215,
+      "dispTargetValue": 1,
+      "dispCondType2": "useItemEternity",
+      "dispTargetId2": 4000215,
+      "dispTargetValue2": 7
+    }, {
+      "id": 40219,
+      "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/gimmick_040219.png",
+      "x": 1024,
+      "y": 1024,
+      "depthOffset": -550,
+      "scale": 1000,
+      "dispCondType": "itemGet",
+      "dispTargetId": 4000215,
+      "dispTargetValue": 1,
+      "dispCondType2": "useItemEternity",
+      "dispTargetId2": 4000215,
+      "dispTargetValue2": 7
+    }, {
+      "id": 40221,
+      "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/gimmick_040221.png",
+      "x": 1024,
+      "y": 1024,
+      "depthOffset": -450,
+      "scale": 1000,
+      "dispCondType": "itemGet",
+      "dispTargetId": 4000215,
+      "dispTargetValue": 1,
+      "dispCondType2": "useItemEternity",
+      "dispTargetId2": 4000215,
+      "dispTargetValue2": 7
+    }, {
+      "id": 40222,
+      "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/gimmick_040222.png",
+      "x": 1024,
+      "y": 1024,
+      "depthOffset": -500,
+      "scale": 1000,
+      "dispCondType": "itemGet",
+      "dispTargetId": 4000215,
+      "dispTargetValue": 1,
+      "dispCondType2": "useItemEternity",
+      "dispTargetId2": 4000215,
+      "dispTargetValue2": 7
+    }, {
+      "id": 40224,
+      "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/gimmick_040224.png",
+      "x": 1024,
+      "y": 1024,
+      "depthOffset": 0,
+      "scale": 1000,
+      "dispCondType": "itemGet",
+      "dispTargetId": 4000215,
+      "dispTargetValue": 1,
+      "dispCondType2": "useItemEternity",
+      "dispTargetId2": 4000215,
+      "dispTargetValue2": 7
+    }, {
+      "id": 40225,
+      "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/gimmick_040225.png",
+      "x": 1024,
+      "y": 1024,
+      "depthOffset": 0,
+      "scale": 1000,
+      "dispCondType": "itemGet",
+      "dispTargetId": 4000215,
+      "dispTargetValue": 1,
+      "dispCondType2": "useItemEternity",
+      "dispTargetId2": 4000215,
+      "dispTargetValue2": 7
+    }, {
+      "id": 40226,
+      "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/gimmick_040226.png",
+      "x": 1024,
+      "y": 1024,
+      "depthOffset": 0,
+      "scale": 1000,
+      "dispCondType": "itemGet",
+      "dispTargetId": 4000215,
+      "dispTargetValue": 1,
+      "dispCondType2": "useItemEternity",
+      "dispTargetId2": 4000215,
+      "dispTargetValue2": 7
+    }, {
+      "id": 40235,
+      "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/gimmick_040235.png",
+      "x": 1024,
+      "y": 1024,
+      "depthOffset": 100,
+      "scale": 1000,
+      "dispCondType": "useItemTime",
+      "dispCondType2": "useItemTime"
+    }],
+    "headerImage": "https://static.atlasacademy.io/JP/Banner/img_title_header_34.png",
+    "bgm": {
+      "id": 689
+    }
+  }],
+  "spots": [{
+    "id": 40201,
+    "mapId": 402,
+    "name": "？？？",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/spot_040201.png",
+    "x": 707,
+    "y": 1450,
+    "nameOfsY": -18,
+    "questOfsX": 33,
+    "questOfsY": -109,
+    "spotAdds": [{
+      "priority": 1,
+      "overrideType": "name",
+      "targetText": "修理部郊外",
+      "condType": "questClearPhase",
+      "condTargetId": 4000202,
+      "condNum": 1
+    }],
+    "quests": [{
+      "id": 4000201,
+      "name": "羅針内界/meet AI.",
+      "type": "main",
+      "consume": 23,
+      "afterClear": "close",
+      "recommendLv": "76",
+      "spotId": 40201,
+      "spotName": "？？？",
+      "warId": 402,
+      "warLongName": "虚数羅針内界 ペーパームーン",
+      "chapterId": 402,
+      "chapterSubId": 1,
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }, {
+        "objectId": 6555,
+        "num": 3
+      }, {
+        "objectId": 46,
+        "num": 3
+      }, {
+        "type": "servant",
+        "objectId": 9770500,
+        "num": 3
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000200
+      }],
+      "phases": [1, 2, 3],
+      "phasesWithEnemies": [1, 2, 3],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "0400020110",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400020110.txt"
+        }, {
+          "scriptId": "0400020111",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400020111.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "0400020120",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400020120.txt"
+        }, {
+          "scriptId": "0400020121",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400020121.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "0400020130",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400020130.txt"
+        }, {
+          "scriptId": "0400020131",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400020131.txt"
+        }]
+      }],
+      "priority": 4000199,
+      "noticeAt": 1687078800,
+      "openedAt": 1687078800,
+      "closedAt": 1893423600
+    }, {
+      "id": 4000204,
+      "name": "願望中枢神経/reasons",
+      "type": "main",
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 40201,
+      "spotName": "？？？",
+      "warId": 402,
+      "warLongName": "虚数羅針内界 ペーパームーン",
+      "chapterId": 402,
+      "chapterSubId": 4,
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }, {
+        "objectId": 6555,
+        "num": 3
+      }, {
+        "objectId": 46,
+        "num": 3
+      }, {
+        "type": "servant",
+        "objectId": 9770500,
+        "num": 3
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000203
+      }],
+      "phases": [1, 2, 3, 4, 5, 6, 7],
+      "phasesWithEnemies": [2, 6, 7],
+      "phasesNoBattle": [1, 3, 4, 5],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "0400020410",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400020410.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "0400020420",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400020420.txt"
+        }, {
+          "scriptId": "0400020421",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400020421.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "0400020430",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400020430.txt"
+        }]
+      }, {
+        "phase": 4,
+        "scripts": [{
+          "scriptId": "0400020440",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400020440.txt"
+        }]
+      }, {
+        "phase": 5,
+        "scripts": [{
+          "scriptId": "0400020450",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400020450.txt"
+        }]
+      }, {
+        "phase": 6,
+        "scripts": [{
+          "scriptId": "0400020460",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400020460.txt"
+        }]
+      }, {
+        "phase": 7,
+        "scripts": [{
+          "scriptId": "0400020470",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400020470.txt"
+        }, {
+          "scriptId": "0400020471",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400020471.txt"
+        }]
+      }],
+      "priority": 4000196,
+      "noticeAt": 1687078800,
+      "openedAt": 1687078800,
+      "closedAt": 1893423600
+    }]
+  }, {
+    "id": 40202,
+    "mapId": 402,
+    "name": "？？？",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/spot_040202.png",
+    "x": 1040,
+    "y": 1483,
+    "nameOfsY": -18,
+    "questOfsX": 33,
+    "questOfsY": -109,
+    "spotAdds": [{
+      "priority": 1,
+      "overrideType": "name",
+      "targetText": "修理部本部",
+      "condType": "questClearPhase",
+      "condTargetId": 4000202,
+      "condNum": 1
+    }],
+    "quests": [{
+      "id": 4000202,
+      "name": "糸と恩寵/Rani(ment)",
+      "type": "main",
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 40202,
+      "spotName": "？？？",
+      "warId": 402,
+      "warLongName": "虚数羅針内界 ペーパームーン",
+      "chapterId": 402,
+      "chapterSubId": 2,
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }, {
+        "objectId": 6541,
+        "num": 2
+      }, {
+        "objectId": 46,
+        "num": 2
+      }, {
+        "type": "servant",
+        "objectId": 9770500,
+        "num": 2
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000201
+      }],
+      "phases": [1, 2, 3, 4],
+      "phasesWithEnemies": [3],
+      "phasesNoBattle": [1, 2, 4],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "0400020210",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400020210.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "0400020220",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400020220.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "0400020230",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400020230.txt"
+        }]
+      }, {
+        "phase": 4,
+        "scripts": [{
+          "scriptId": "0400020240",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400020240.txt"
+        }]
+      }],
+      "priority": 4000198,
+      "noticeAt": 1687078800,
+      "openedAt": 1687078800,
+      "closedAt": 1893423600
+    }]
+  }, {
+    "id": 40203,
+    "mapId": 402,
+    "name": "警防部本部",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/spot_040203.png",
+    "x": 1020,
+    "y": 1165,
+    "nameOfsY": -18,
+    "questOfsX": 33,
+    "questOfsY": -109,
+    "quests": [{
+      "id": 4000203,
+      "name": "聖杯戦争/your starlit",
+      "type": "main",
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 40203,
+      "spotName": "警防部本部",
+      "warId": 402,
+      "warLongName": "虚数羅針内界 ペーパームーン",
+      "chapterId": 402,
+      "chapterSubId": 3,
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }, {
+        "objectId": 6556,
+        "num": 2
+      }, {
+        "objectId": 46,
+        "num": 2
+      }, {
+        "type": "servant",
+        "objectId": 9770500,
+        "num": 2
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000202
+      }],
+      "phases": [1, 2, 3],
+      "phasesWithEnemies": [3],
+      "phasesNoBattle": [1, 2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "0400020310",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400020310.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "0400020320",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400020320.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "0400020330",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400020330.txt"
+        }, {
+          "scriptId": "0400020331",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400020331.txt"
+        }]
+      }],
+      "priority": 4000197,
+      "noticeAt": 1687078800,
+      "openedAt": 1687078800,
+      "closedAt": 1893423600
+    }]
+  }, {
+    "id": 40204,
+    "mapId": 402,
+    "name": "生産部農地",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/spot_040204.png",
+    "x": 847,
+    "y": 947,
+    "nameOfsY": -18,
+    "questOfsX": 33,
+    "questOfsY": -109,
+    "quests": [{
+      "id": 4000205,
+      "name": "密室禁忌/do not enter.",
+      "type": "main",
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 40204,
+      "spotName": "生産部農地",
+      "warId": 402,
+      "warLongName": "虚数羅針内界 ペーパームーン",
+      "chapterId": 402,
+      "chapterSubId": 5,
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }, {
+        "objectId": 6555,
+        "num": 3
+      }, {
+        "objectId": 46,
+        "num": 3
+      }, {
+        "type": "servant",
+        "objectId": 9770500,
+        "num": 3
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000204
+      }],
+      "phases": [1, 2, 3, 4],
+      "phasesWithEnemies": [2, 3, 4],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "0400020510",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400020510.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "0400020520",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400020520.txt"
+        }, {
+          "scriptId": "0400020521",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400020521.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "0400020530",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400020530.txt"
+        }, {
+          "scriptId": "0400020531",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400020531.txt"
+        }]
+      }, {
+        "phase": 4,
+        "scripts": [{
+          "scriptId": "0400020541",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400020541.txt"
+        }]
+      }],
+      "priority": 4000195,
+      "noticeAt": 1687078800,
+      "openedAt": 1687078800,
+      "closedAt": 1893423600
+    }, {
+      "id": 4000206,
+      "name": "貪欲なる礼讃/for eating",
+      "type": "main",
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 40204,
+      "spotName": "生産部農地",
+      "warId": 402,
+      "warLongName": "虚数羅針内界 ペーパームーン",
+      "chapterId": 402,
+      "chapterSubId": 6,
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }, {
+        "objectId": 6555,
+        "num": 3
+      }, {
+        "objectId": 46,
+        "num": 3
+      }, {
+        "type": "servant",
+        "objectId": 9770500,
+        "num": 3
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000205
+      }],
+      "phases": [1, 2, 3, 4, 5, 6],
+      "phasesWithEnemies": [3, 4, 5],
+      "phasesNoBattle": [1, 2, 6],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "0400020610",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400020610.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "0400020620",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400020620.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "0400020630",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400020630.txt"
+        }]
+      }, {
+        "phase": 4,
+        "scripts": [{
+          "scriptId": "0400020640",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400020640.txt"
+        }, {
+          "scriptId": "0400020641",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400020641.txt"
+        }]
+      }, {
+        "phase": 5,
+        "scripts": [{
+          "scriptId": "0400020650",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400020650.txt"
+        }, {
+          "scriptId": "0400020651",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400020651.txt"
+        }]
+      }, {
+        "phase": 6,
+        "scripts": [{
+          "scriptId": "0400020660",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400020660.txt"
+        }]
+      }],
+      "priority": 4000194,
+      "noticeAt": 1687078800,
+      "openedAt": 1687078800,
+      "closedAt": 1893423600
+    }, {
+      "id": 4000208,
+      "name": "悪性再起動/fireworks(not starmine)",
+      "type": "main",
+      "consume": 23,
+      "afterClear": "close",
+      "recommendLv": "80",
+      "spotId": 40204,
+      "spotName": "生産部農地",
+      "warId": 402,
+      "warLongName": "虚数羅針内界 ペーパームーン",
+      "chapterId": 402,
+      "chapterSubId": 8,
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }, {
+        "objectId": 6555,
+        "num": 5
+      }, {
+        "objectId": 46,
+        "num": 5
+      }, {
+        "type": "servant",
+        "objectId": 9770500,
+        "num": 5
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000207
+      }],
+      "phases": [1, 2, 3, 4, 5],
+      "phasesWithEnemies": [1, 2, 3],
+      "phasesNoBattle": [4, 5],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "0400020810",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400020810.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "0400020820",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400020820.txt"
+        }, {
+          "scriptId": "0400020821",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400020821.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "0400020830",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400020830.txt"
+        }]
+      }, {
+        "phase": 4,
+        "scripts": [{
+          "scriptId": "0400020840",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400020840.txt"
+        }]
+      }, {
+        "phase": 5,
+        "scripts": [{
+          "scriptId": "0400020850",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400020850.txt"
+        }]
+      }],
+      "priority": 4000192,
+      "noticeAt": 1687078800,
+      "openedAt": 1687078800,
+      "closedAt": 1893423600
+    }]
+  }, {
+    "id": 40205,
+    "mapId": 402,
+    "name": "緊急避難エリア",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/spot_040205.png",
+    "x": 1020,
+    "y": 1006,
+    "nameOfsY": -19,
+    "questOfsX": 31,
+    "questOfsY": -96
+  }, {
+    "id": 40206,
+    "mapId": 402,
+    "name": "警防部広場",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/spot_040206.png",
+    "x": 872,
+    "y": 1100,
+    "nameOfsY": -18,
+    "questOfsX": 33,
+    "questOfsY": -109
+  }, {
+    "id": 40207,
+    "mapId": 402,
+    "name": "維持部本部",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/spot_040207.png",
+    "x": 1176,
+    "y": 954,
+    "nameOfsY": -18,
+    "questOfsX": 33,
+    "questOfsY": -109,
+    "quests": [{
+      "id": 4000207,
+      "name": "鈍痛はいつも見えない/re-construction",
+      "type": "main",
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 40207,
+      "spotName": "維持部本部",
+      "warId": 402,
+      "warLongName": "虚数羅針内界 ペーパームーン",
+      "chapterId": 402,
+      "chapterSubId": 7,
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }, {
+        "objectId": 6556,
+        "num": 2
+      }, {
+        "objectId": 46,
+        "num": 2
+      }, {
+        "type": "servant",
+        "objectId": 9770500,
+        "num": 2
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000206
+      }],
+      "phases": [1, 2, 3, 4, 5, 6],
+      "phasesWithEnemies": [3, 4, 5],
+      "phasesNoBattle": [1, 2, 6],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "0400020710",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400020710.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "0400020720",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400020720.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "0400020730",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400020730.txt"
+        }, {
+          "scriptId": "0400020731",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400020731.txt"
+        }]
+      }, {
+        "phase": 4,
+        "scripts": [{
+          "scriptId": "0400020740",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400020740.txt"
+        }, {
+          "scriptId": "0400020741",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400020741.txt"
+        }]
+      }, {
+        "phase": 5,
+        "scripts": [{
+          "scriptId": "0400020750",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400020750.txt"
+        }, {
+          "scriptId": "0400020751",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400020751.txt"
+        }]
+      }, {
+        "phase": 6,
+        "scripts": [{
+          "scriptId": "0400020760",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400020760.txt"
+        }]
+      }],
+      "priority": 4000193,
+      "noticeAt": 1687078800,
+      "openedAt": 1687078800,
+      "closedAt": 1893423600
+    }]
+  }, {
+    "id": 40208,
+    "mapId": 402,
+    "name": "外周部",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/spot_040208.png",
+    "x": 775,
+    "y": 869,
+    "nameOfsY": -18,
+    "questOfsX": 33,
+    "questOfsY": -109,
+    "quests": [{
+      "id": 4000209,
+      "name": "廻転という罪/『future』",
+      "type": "main",
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 40208,
+      "spotName": "外周部",
+      "warId": 402,
+      "warLongName": "虚数羅針内界 ペーパームーン",
+      "chapterId": 402,
+      "chapterSubId": 9,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/6.png",
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000208
+      }],
+      "phases": [1, 2],
+      "phasesNoBattle": [1, 2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "0400020910",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400020910.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "0400020920",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400020920.txt"
+        }]
+      }],
+      "priority": 4000191,
+      "noticeAt": 1687078800,
+      "openedAt": 1687078800,
+      "closedAt": 1893423600
+    }]
+  }, {
+    "id": 40209,
+    "mapId": 402,
+    "name": "移送部本部",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/spot_040209.png",
+    "x": 512,
+    "y": 1204,
+    "nameOfsY": -18,
+    "questOfsX": 33,
+    "questOfsY": -109
+  }, {
+    "id": 40210,
+    "mapId": 402,
+    "name": "維持部モール",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/spot_040210.png",
+    "x": 1388,
+    "y": 1047,
+    "nameOfsY": -18,
+    "questOfsX": 33,
+    "questOfsY": -109,
+    "quests": [{
+      "id": 4000210,
+      "name": "花弁薄命/red lotus flower",
+      "type": "main",
+      "consume": 24,
+      "afterClear": "close",
+      "recommendLv": "83",
+      "spotId": 40210,
+      "spotName": "維持部モール",
+      "warId": 402,
+      "warLongName": "虚数羅針内界 ペーパームーン",
+      "chapterId": 402,
+      "chapterSubId": 10,
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }, {
+        "objectId": 6503,
+        "num": 3
+      }, {
+        "objectId": 46,
+        "num": 3
+      }, {
+        "type": "servant",
+        "objectId": 9770500,
+        "num": 3
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000209
+      }],
+      "phases": [1, 2, 3],
+      "phasesWithEnemies": [1, 2],
+      "phasesNoBattle": [3],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "0400021010",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400021010.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "0400021020",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400021020.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "0400021030",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400021030.txt"
+        }]
+      }],
+      "priority": 4000190,
+      "noticeAt": 1687078800,
+      "openedAt": 1687078800,
+      "closedAt": 1893423600
+    }]
+  }, {
+    "id": 40212,
+    "mapId": 402,
+    "name": "生産部本部",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/spot_040212.png",
+    "x": 1170,
+    "y": 1400,
+    "nameOfsY": -18,
+    "questOfsX": 33,
+    "questOfsY": -109
+  }, {
+    "id": 40213,
+    "mapId": 402,
+    "name": "修理部内区画",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/spot_040213.png",
+    "x": 1144,
+    "y": 1339,
+    "nameOfsY": -19,
+    "questOfsX": 31,
+    "questOfsY": -96
+  }, {
+    "id": 40214,
+    "mapId": 402,
+    "name": "警防部の外れ",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/spot_040213.png",
+    "x": 1144,
+    "y": 1248,
+    "nameOfsY": -19,
+    "questOfsX": 31,
+    "questOfsY": -96
+  }, {
+    "id": 40215,
+    "mapId": 402,
+    "name": "修理部内区画",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/spot_040213.png",
+    "x": 1144,
+    "y": 1366,
+    "nameOfsY": -19,
+    "questOfsX": 31,
+    "questOfsY": -96
+  }, {
+    "id": 40234,
+    "mapId": 402,
+    "name": "修理部郊外",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/spot_040201.png",
+    "x": 707,
+    "y": 1450,
+    "nameOfsY": -18,
+    "questOfsX": 33,
+    "questOfsY": -109
+  }, {
+    "id": 40235,
+    "mapId": 402,
+    "name": "修理部本部",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/spot_040202.png",
+    "x": 1040,
+    "y": 1483,
+    "nameOfsY": -18,
+    "questOfsX": 33,
+    "questOfsY": -109
+  }, {
+    "id": 40236,
+    "mapId": 402,
+    "name": "警防部本部",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/spot_040203.png",
+    "x": 1020,
+    "y": 1165,
+    "nameOfsY": -18,
+    "questOfsX": 33,
+    "questOfsY": -109
+  }, {
+    "id": 40237,
+    "mapId": 402,
+    "name": "生産部農地",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/spot_040204.png",
+    "x": 1450,
+    "y": 1228,
+    "nameOfsY": -18,
+    "questOfsX": 33,
+    "questOfsY": -109
+  }, {
+    "id": 40239,
+    "mapId": 402,
+    "name": "警防部広場",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/spot_040206.png",
+    "x": 872,
+    "y": 1100,
+    "nameOfsY": -18,
+    "questOfsX": 33,
+    "questOfsY": -109
+  }, {
+    "id": 40240,
+    "mapId": 402,
+    "name": "維持部本部",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/spot_040207.png",
+    "x": 1176,
+    "y": 954,
+    "nameOfsY": -18,
+    "questOfsX": 33,
+    "questOfsY": -109
+  }, {
+    "id": 40243,
+    "mapId": 402,
+    "name": "修理部郊外",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/spot_040201.png",
+    "x": 490,
+    "y": 1098,
+    "nameOfsY": -18,
+    "questOfsX": 33,
+    "questOfsY": -109
+  }, {
+    "id": 40244,
+    "mapId": 402,
+    "name": "修理部本部",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/spot_040202.png",
+    "x": 539,
+    "y": 1250,
+    "nameOfsY": -18,
+    "questOfsX": 33,
+    "questOfsY": -109
+  }, {
+    "id": 40245,
+    "mapId": 402,
+    "name": "警防部本部",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/spot_040203.png",
+    "x": 1020,
+    "y": 1165,
+    "nameOfsY": -18,
+    "questOfsX": 33,
+    "questOfsY": -109
+  }, {
+    "id": 40246,
+    "mapId": 402,
+    "name": "生産部農地",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/spot_040204.png",
+    "x": 947,
+    "y": 1381,
+    "nameOfsY": -18,
+    "questOfsX": 33,
+    "questOfsY": -109
+  }, {
+    "id": 40247,
+    "mapId": 402,
+    "name": "エラーポイント",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/spot_040205.png",
+    "x": 828,
+    "y": 1234,
+    "nameOfsY": -19,
+    "questOfsX": 31,
+    "questOfsY": -96,
+    "quests": [{
+      "id": 4000212,
+      "name": "サクラの夢/I hate love.",
+      "type": "main",
+      "consume": 24,
+      "afterClear": "close",
+      "recommendLv": "85",
+      "spotId": 40247,
+      "spotName": "エラーポイント",
+      "warId": 402,
+      "warLongName": "虚数羅針内界 ペーパームーン",
+      "chapterId": 402,
+      "chapterSubId": 12,
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }, {
+        "objectId": 6509,
+        "num": 3
+      }, {
+        "objectId": 46,
+        "num": 3
+      }, {
+        "type": "servant",
+        "objectId": 9770500,
+        "num": 3
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000211
+      }],
+      "phases": [1, 2, 3],
+      "phasesWithEnemies": [1, 2],
+      "phasesNoBattle": [3],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "0400021210",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400021210.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "0400021220",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400021220.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "0400021230",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400021230.txt"
+        }]
+      }],
+      "priority": 4000188,
+      "noticeAt": 1687078800,
+      "openedAt": 1687078800,
+      "closedAt": 1893423600
+    }]
+  }, {
+    "id": 40248,
+    "mapId": 402,
+    "name": "警防部広場",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/spot_040206.png",
+    "x": 872,
+    "y": 1100,
+    "nameOfsY": -18,
+    "questOfsX": 33,
+    "questOfsY": -109
+  }, {
+    "id": 40249,
+    "mapId": 402,
+    "name": "維持部本部",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/spot_040207.png",
+    "x": 1508,
+    "y": 1150,
+    "nameOfsY": -18,
+    "questOfsX": 33,
+    "questOfsY": -109
+  }, {
+    "id": 40250,
+    "mapId": 402,
+    "name": "外周部",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/spot_040208.png",
+    "x": 1552,
+    "y": 979,
+    "nameOfsY": -18,
+    "questOfsX": 33,
+    "questOfsY": -109,
+    "quests": [{
+      "id": 4000211,
+      "name": "揺籃遺言/whoever",
+      "type": "main",
+      "consume": 23,
+      "afterClear": "close",
+      "recommendLv": "78",
+      "spotId": 40250,
+      "spotName": "外周部",
+      "warId": 402,
+      "warLongName": "虚数羅針内界 ペーパームーン",
+      "chapterId": 402,
+      "chapterSubId": 11,
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }, {
+        "objectId": 6544,
+        "num": 3
+      }, {
+        "objectId": 46,
+        "num": 3
+      }, {
+        "type": "servant",
+        "objectId": 9770500,
+        "num": 3
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000210
+      }],
+      "phases": [1, 2, 3, 4],
+      "phasesWithEnemies": [1, 2, 3, 4],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "0400021110",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400021110.txt"
+        }, {
+          "scriptId": "0400021111",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400021111.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "0400021121",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400021121.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "0400021131",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400021131.txt"
+        }]
+      }, {
+        "phase": 4,
+        "scripts": [{
+          "scriptId": "0400021140",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400021140.txt"
+        }, {
+          "scriptId": "0400021141",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400021141.txt"
+        }]
+      }],
+      "priority": 4000189,
+      "noticeAt": 1687078800,
+      "openedAt": 1687078800,
+      "closedAt": 1893423600
+    }]
+  }, {
+    "id": 40251,
+    "mapId": 402,
+    "name": "移送部本部",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/spot_040209.png",
+    "x": 761,
+    "y": 954,
+    "nameOfsY": -18,
+    "questOfsX": 33,
+    "questOfsY": -109
+  }, {
+    "id": 40252,
+    "mapId": 402,
+    "name": "維持部モール",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/spot_040210.png",
+    "x": 1383,
+    "y": 1326,
+    "nameOfsY": -18,
+    "questOfsX": 33,
+    "questOfsY": -109
+  }, {
+    "id": 40253,
+    "mapId": 402,
+    "name": "修理部郊外",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/spot_040201.png",
+    "x": 490,
+    "y": 1098,
+    "nameOfsY": -18,
+    "questOfsX": 33,
+    "questOfsY": -109
+  }, {
+    "id": 40254,
+    "mapId": 402,
+    "name": "修理部本部",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/spot_040202.png",
+    "x": 539,
+    "y": 1250,
+    "nameOfsY": -18,
+    "questOfsX": 33,
+    "questOfsY": -109
+  }, {
+    "id": 40255,
+    "mapId": 402,
+    "name": "警防部本部",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/spot_040203.png",
+    "x": 1020,
+    "y": 1165,
+    "nameOfsY": -18,
+    "questOfsX": 33,
+    "questOfsY": -109,
+    "quests": [{
+      "id": 4000214,
+      "name": "殲滅女神/how to avoid destruction",
+      "type": "main",
+      "consume": 25,
+      "afterClear": "close",
+      "recommendLv": "90",
+      "spotId": 40255,
+      "spotName": "警防部本部",
+      "warId": 402,
+      "warLongName": "虚数羅針内界 ペーパームーン",
+      "chapterId": 402,
+      "chapterSubId": 14,
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }, {
+        "objectId": 6556,
+        "num": 3
+      }, {
+        "objectId": 46,
+        "num": 3
+      }, {
+        "type": "servant",
+        "objectId": 9770500,
+        "num": 3
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000213
+      }],
+      "phases": [1, 2, 3, 4],
+      "phasesWithEnemies": [1, 2, 3],
+      "phasesNoBattle": [4],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "0400021410",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400021410.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "0400021420",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400021420.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "0400021430",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400021430.txt"
+        }]
+      }, {
+        "phase": 4,
+        "scripts": [{
+          "scriptId": "0400021440",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400021440.txt"
+        }]
+      }],
+      "priority": 4000186,
+      "noticeAt": 1687078800,
+      "openedAt": 1687078800,
+      "closedAt": 1893423600
+    }]
+  }, {
+    "id": 40256,
+    "mapId": 402,
+    "name": "生産部農地",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/spot_040204.png",
+    "x": 847,
+    "y": 947,
+    "nameOfsY": -18,
+    "questOfsX": 33,
+    "questOfsY": -109
+  }, {
+    "id": 40258,
+    "mapId": 402,
+    "name": "警防部広場",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/spot_040206.png",
+    "x": 872,
+    "y": 1100,
+    "nameOfsY": -18,
+    "questOfsX": 33,
+    "questOfsY": -109
+  }, {
+    "id": 40259,
+    "mapId": 402,
+    "name": "維持部本部",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/spot_040207.png",
+    "x": 1134,
+    "y": 1439,
+    "nameOfsY": -18,
+    "questOfsX": 33,
+    "questOfsY": -109
+  }, {
+    "id": 40260,
+    "mapId": 402,
+    "name": "外周部",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/spot_040208.png",
+    "x": 1237,
+    "y": 1585,
+    "nameOfsY": -18,
+    "questOfsX": 33,
+    "questOfsY": -109,
+    "quests": [{
+      "id": 4000213,
+      "name": "瞳の行く先/centrifuge",
+      "type": "main",
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 40260,
+      "spotName": "外周部",
+      "warId": 402,
+      "warLongName": "虚数羅針内界 ペーパームーン",
+      "chapterId": 402,
+      "chapterSubId": 13,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/6.png",
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000212
+      }],
+      "phases": [1, 2],
+      "phasesNoBattle": [1, 2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "0400021310",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400021310.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "0400021320",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400021320.txt"
+        }]
+      }],
+      "priority": 4000187,
+      "noticeAt": 1687078800,
+      "openedAt": 1687078800,
+      "closedAt": 1893423600
+    }]
+  }, {
+    "id": 40261,
+    "mapId": 402,
+    "name": "移送部本部",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/spot_040209.png",
+    "x": 1258,
+    "y": 945,
+    "nameOfsY": -18,
+    "questOfsX": 33,
+    "questOfsY": -109
+  }, {
+    "id": 40262,
+    "mapId": 402,
+    "name": "維持部モール",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/spot_040210.png",
+    "x": 789,
+    "y": 1389,
+    "nameOfsY": -18,
+    "questOfsX": 33,
+    "questOfsY": -109
+  }, {
+    "id": 40264,
+    "mapId": 402,
+    "name": "生産部本部",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/spot_040212.png",
+    "x": 697,
+    "y": 1006,
+    "nameOfsY": -18,
+    "questOfsX": 33,
+    "questOfsY": -109
+  }, {
+    "id": 40265,
+    "mapId": 404,
+    "name": "警防部本部",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/spot_040233.png",
+    "x": 1020,
+    "y": 1165,
+    "nameOfsY": -18,
+    "questOfsX": 33,
+    "questOfsY": -109,
+    "quests": [{
+      "id": 4000215,
+      "name": "愛を望むもの/Even if the world breaks",
+      "type": "main",
+      "consume": 25,
+      "afterClear": "close",
+      "recommendLv": "90",
+      "spotId": 40265,
+      "spotName": "警防部本部",
+      "warId": 402,
+      "warLongName": "虚数羅針内界 ペーパームーン",
+      "chapterId": 402,
+      "chapterSubId": 15,
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }, {
+        "objectId": 6556,
+        "num": 5
+      }, {
+        "objectId": 46,
+        "num": 5
+      }, {
+        "type": "servant",
+        "objectId": 9770500,
+        "num": 5
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000214
+      }],
+      "phases": [1, 2, 3, 4, 5, 6, 7],
+      "phasesWithEnemies": [1, 6],
+      "phasesNoBattle": [2, 3, 4, 5, 7],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "0400021510",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400021510.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "0400021520",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400021520.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "0400021530",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400021530.txt"
+        }]
+      }, {
+        "phase": 4,
+        "scripts": [{
+          "scriptId": "0400021540",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400021540.txt"
+        }]
+      }, {
+        "phase": 5,
+        "scripts": [{
+          "scriptId": "0400021550",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400021550.txt"
+        }]
+      }, {
+        "phase": 6,
+        "scripts": [{
+          "scriptId": "0400021560",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400021560.txt"
+        }]
+      }, {
+        "phase": 7,
+        "scripts": [{
+          "scriptId": "0400021570",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400021570.txt"
+        }]
+      }],
+      "priority": 4000185,
+      "noticeAt": 1687078800,
+      "openedAt": 1687078800,
+      "closedAt": 1893423600
+    }]
+  }, {
+    "id": 40266,
+    "mapId": 402,
+    "name": "修理部郊外",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/spot_040201.png",
+    "x": 707,
+    "y": 1450,
+    "nameOfsY": -18,
+    "questOfsX": 33,
+    "questOfsY": -109,
+    "quests": [{
+      "id": 93040201,
+      "name": "隔離施設",
+      "type": "free",
+      "flags": ["displayLoopmark"],
+      "consume": 21,
+      "afterClear": "repeatLast",
+      "recommendLv": "75",
+      "spotId": 40266,
+      "spotName": "修理部郊外",
+      "warId": 402,
+      "warLongName": "虚数羅針内界 ペーパームーン",
+      "chapterId": 402,
+      "chapterSubId": 1,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/6.png",
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000217
+      }],
+      "phases": [1, 2, 3],
+      "priority": 4000182,
+      "noticeAt": 1687078800,
+      "openedAt": 1687078800,
+      "closedAt": 1893423600
+    }]
+  }, {
+    "id": 40267,
+    "mapId": 402,
+    "name": "修理部本部",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/spot_040202.png",
+    "x": 1040,
+    "y": 1483,
+    "nameOfsY": -18,
+    "questOfsX": 33,
+    "questOfsY": -109,
+    "quests": [{
+      "id": 93040202,
+      "name": "救命救急講習",
+      "type": "free",
+      "flags": ["displayLoopmark"],
+      "consume": 21,
+      "afterClear": "repeatLast",
+      "recommendLv": "75",
+      "spotId": 40267,
+      "spotName": "修理部本部",
+      "warId": 402,
+      "warLongName": "虚数羅針内界 ペーパームーン",
+      "chapterId": 402,
+      "chapterSubId": 2,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/6.png",
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000217
+      }],
+      "phases": [1, 2, 3],
+      "priority": 4000181,
+      "noticeAt": 1687078800,
+      "openedAt": 1687078800,
+      "closedAt": 1893423600
+    }]
+  }, {
+    "id": 40268,
+    "mapId": 402,
+    "name": "警防部本部",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/spot_040203.png",
+    "x": 1020,
+    "y": 1165,
+    "nameOfsY": -18,
+    "questOfsX": 33,
+    "questOfsY": -109,
+    "quests": [{
+      "id": 93040203,
+      "name": "中央教会",
+      "type": "free",
+      "flags": ["displayLoopmark"],
+      "consume": 21,
+      "afterClear": "repeatLast",
+      "recommendLv": "75",
+      "spotId": 40268,
+      "spotName": "警防部本部",
+      "warId": 402,
+      "warLongName": "虚数羅針内界 ペーパームーン",
+      "chapterId": 402,
+      "chapterSubId": 3,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/6.png",
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000217
+      }],
+      "phases": [1, 2, 3],
+      "priority": 4000180,
+      "noticeAt": 1687078800,
+      "openedAt": 1687078800,
+      "closedAt": 1893423600
+    }]
+  }, {
+    "id": 40269,
+    "mapId": 402,
+    "name": "生産部農地",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/spot_040204.png",
+    "x": 847,
+    "y": 947,
+    "nameOfsY": -18,
+    "questOfsX": 33,
+    "questOfsY": -109,
+    "quests": [{
+      "id": 93040204,
+      "name": "マテリアルファーム",
+      "type": "free",
+      "flags": ["displayLoopmark"],
+      "consume": 21,
+      "afterClear": "repeatLast",
+      "recommendLv": "77",
+      "spotId": 40269,
+      "spotName": "生産部農地",
+      "warId": 402,
+      "warLongName": "虚数羅針内界 ペーパームーン",
+      "chapterId": 402,
+      "chapterSubId": 4,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/6.png",
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000217
+      }],
+      "phases": [1, 2, 3],
+      "priority": 4000179,
+      "noticeAt": 1687078800,
+      "openedAt": 1687078800,
+      "closedAt": 1893423600
+    }]
+  }, {
+    "id": 40271,
+    "mapId": 402,
+    "name": "警防部広場",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/spot_040206.png",
+    "x": 872,
+    "y": 1100,
+    "nameOfsY": -18,
+    "questOfsX": 33,
+    "questOfsY": -109,
+    "quests": [{
+      "id": 93040205,
+      "name": "警備訓練プログラム",
+      "type": "free",
+      "flags": ["displayLoopmark"],
+      "consume": 21,
+      "afterClear": "repeatLast",
+      "recommendLv": "77",
+      "spotId": 40271,
+      "spotName": "警防部広場",
+      "warId": 402,
+      "warLongName": "虚数羅針内界 ペーパームーン",
+      "chapterId": 402,
+      "chapterSubId": 5,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/6.png",
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000217
+      }],
+      "phases": [1, 2, 3],
+      "priority": 4000178,
+      "noticeAt": 1687078800,
+      "openedAt": 1687078800,
+      "closedAt": 1893423600
+    }]
+  }, {
+    "id": 40272,
+    "mapId": 402,
+    "name": "維持部本部",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/spot_040207.png",
+    "x": 1176,
+    "y": 954,
+    "nameOfsY": -18,
+    "questOfsX": 33,
+    "questOfsY": -109,
+    "quests": [{
+      "id": 93040206,
+      "name": "バトルキッチン",
+      "type": "free",
+      "flags": ["displayLoopmark"],
+      "consume": 21,
+      "afterClear": "repeatLast",
+      "recommendLv": "77",
+      "spotId": 40272,
+      "spotName": "維持部本部",
+      "warId": 402,
+      "warLongName": "虚数羅針内界 ペーパームーン",
+      "chapterId": 402,
+      "chapterSubId": 6,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/6.png",
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000217
+      }],
+      "phases": [1, 2, 3],
+      "priority": 4000177,
+      "noticeAt": 1687078800,
+      "openedAt": 1687078800,
+      "closedAt": 1893423600
+    }]
+  }, {
+    "id": 40273,
+    "mapId": 402,
+    "name": "外周部",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/spot_040208.png",
+    "x": 723,
+    "y": 852,
+    "nameOfsY": -18,
+    "questOfsX": 33,
+    "questOfsY": -109,
+    "quests": [{
+      "id": 93040207,
+      "name": "アンダーコンストラクション",
+      "type": "free",
+      "flags": ["displayLoopmark"],
+      "consume": 21,
+      "afterClear": "repeatLast",
+      "recommendLv": "79",
+      "spotId": 40273,
+      "spotName": "外周部",
+      "warId": 402,
+      "warLongName": "虚数羅針内界 ペーパームーン",
+      "chapterId": 402,
+      "chapterSubId": 7,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/6.png",
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000217
+      }],
+      "phases": [1, 2, 3],
+      "phasesWithEnemies": [1],
+      "priority": 4000176,
+      "noticeAt": 1687078800,
+      "openedAt": 1687078800,
+      "closedAt": 1893423600
+    }]
+  }, {
+    "id": 40274,
+    "mapId": 402,
+    "name": "移送部本部",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/spot_040209.png",
+    "x": 1528,
+    "y": 1191,
+    "nameOfsY": -18,
+    "questOfsX": 33,
+    "questOfsY": -109,
+    "quests": [{
+      "id": 93040208,
+      "name": "ガレージエリア",
+      "type": "free",
+      "flags": ["displayLoopmark"],
+      "consume": 21,
+      "afterClear": "repeatLast",
+      "recommendLv": "79",
+      "spotId": 40274,
+      "spotName": "移送部本部",
+      "warId": 402,
+      "warLongName": "虚数羅針内界 ペーパームーン",
+      "chapterId": 402,
+      "chapterSubId": 8,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/6.png",
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000217
+      }],
+      "phases": [1, 2, 3],
+      "priority": 4000175,
+      "noticeAt": 1687078800,
+      "openedAt": 1687078800,
+      "closedAt": 1893423600
+    }]
+  }, {
+    "id": 40275,
+    "mapId": 402,
+    "name": "維持部モール",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/spot_040210.png",
+    "x": 1388,
+    "y": 1047,
+    "nameOfsY": -18,
+    "questOfsX": 33,
+    "questOfsY": -109,
+    "quests": [{
+      "id": 93040209,
+      "name": "屋台ストリート",
+      "type": "free",
+      "flags": ["displayLoopmark"],
+      "consume": 22,
+      "afterClear": "repeatLast",
+      "recommendLv": "81",
+      "spotId": 40275,
+      "spotName": "維持部モール",
+      "warId": 402,
+      "warLongName": "虚数羅針内界 ペーパームーン",
+      "chapterId": 402,
+      "chapterSubId": 9,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/6.png",
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000217
+      }],
+      "phases": [1, 2, 3],
+      "priority": 4000174,
+      "noticeAt": 1687078800,
+      "openedAt": 1687078800,
+      "closedAt": 1893423600
+    }]
+  }, {
+    "id": 40276,
+    "mapId": 402,
+    "name": "構築部本部",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/spot_040211.png",
+    "x": 513,
+    "y": 1205,
+    "nameOfsY": -18,
+    "questOfsX": 33,
+    "questOfsY": -109,
+    "quests": [{
+      "id": 93040210,
+      "name": "デバッギング",
+      "type": "free",
+      "flags": ["displayLoopmark"],
+      "consume": 22,
+      "afterClear": "repeatLast",
+      "recommendLv": "81",
+      "spotId": 40276,
+      "spotName": "構築部本部",
+      "warId": 402,
+      "warLongName": "虚数羅針内界 ペーパームーン",
+      "chapterId": 402,
+      "chapterSubId": 10,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/6.png",
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 93040203
+      }],
+      "phases": [1, 2, 3],
+      "priority": 4000173,
+      "noticeAt": 1687078800,
+      "openedAt": 1687078800,
+      "closedAt": 1893423600
+    }]
+  }, {
+    "id": 40277,
+    "mapId": 402,
+    "name": "生産部本部",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/spot_040212.png",
+    "x": 697,
+    "y": 1006,
+    "nameOfsY": -18,
+    "questOfsX": 33,
+    "questOfsY": -109,
+    "quests": [{
+      "id": 93040211,
+      "name": "ビッグストレージ",
+      "type": "free",
+      "flags": ["displayLoopmark"],
+      "consume": 22,
+      "afterClear": "repeatLast",
+      "recommendLv": "83",
+      "spotId": 40277,
+      "spotName": "生産部本部",
+      "warId": 402,
+      "warLongName": "虚数羅針内界 ペーパームーン",
+      "chapterId": 402,
+      "chapterSubId": 11,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/6.png",
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000217
+      }],
+      "phases": [1, 2, 3],
+      "phasesWithEnemies": [1, 2],
+      "priority": 4000172,
+      "noticeAt": 1687078800,
+      "openedAt": 1687078800,
+      "closedAt": 1893423600
+    }]
+  }, {
+    "id": 40278,
+    "mapId": 402,
+    "name": "警防部本部",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/spot_040278.png",
+    "x": 1020,
+    "y": 1165,
+    "nameOfsY": -18,
+    "questOfsX": 33,
+    "questOfsY": -109,
+    "quests": [{
+      "id": 4000216,
+      "name": "純粋である歪/Alter Ego",
+      "type": "main",
+      "consume": 23,
+      "afterClear": "close",
+      "recommendLv": "80",
+      "spotId": 40278,
+      "spotName": "警防部本部",
+      "warId": 402,
+      "warLongName": "虚数羅針内界 ペーパームーン",
+      "chapterId": 402,
+      "chapterSubId": 16,
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }, {
+        "objectId": 6552,
+        "num": 5
+      }, {
+        "objectId": 46,
+        "num": 5
+      }, {
+        "type": "servant",
+        "objectId": 9770500,
+        "num": 5
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000215
+      }],
+      "phases": [1, 2, 3, 4, 5],
+      "phasesWithEnemies": [1, 3],
+      "phasesNoBattle": [2, 4, 5],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "0400021610",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400021610.txt"
+        }, {
+          "scriptId": "0400021611",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400021611.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "0400021620",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400021620.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "0400021630",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400021630.txt"
+        }, {
+          "scriptId": "0400021631",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400021631.txt"
+        }]
+      }, {
+        "phase": 4,
+        "scripts": [{
+          "scriptId": "0400021640",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400021640.txt"
+        }]
+      }, {
+        "phase": 5,
+        "scripts": [{
+          "scriptId": "0400021650",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400021650.txt"
+        }]
+      }],
+      "priority": 4000184,
+      "noticeAt": 1687078800,
+      "openedAt": 1687078800,
+      "closedAt": 1893423600
+    }]
+  }, {
+    "id": 40299,
+    "mapId": 402,
+    "name": "",
+    "x": 999999,
+    "y": 999999,
+    "quests": [{
+      "id": 4000200,
+      "name": "プロローグ",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 40299,
+      "spotName": "",
+      "warId": 402,
+      "warLongName": "虚数羅針内界 ペーパームーン",
+      "chapterId": 402,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000100
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "0400020010",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400020010.txt"
+        }]
+      }],
+      "priority": 4000200,
+      "noticeAt": 1687078800,
+      "openedAt": 1687078800,
+      "closedAt": 1893423600
+    }, {
+      "id": 4000217,
+      "name": "エピローグ",
+      "type": "main",
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 40299,
+      "spotName": "",
+      "warId": 402,
+      "warLongName": "虚数羅針内界 ペーパームーン",
+      "chapterId": 402,
+      "chapterSubId": 17,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/3.png",
+      "gifts": [{
+        "objectId": 53,
+        "num": 1
+      }, {
+        "objectId": 7999,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000216
+      }],
+      "phases": [1, 2, 3],
+      "phasesNoBattle": [1, 2, 3],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "0400021710",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400021710.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "0400021720",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400021720.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "0400021730",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400021730.txt"
+        }]
+      }],
+      "priority": 4000183,
+      "noticeAt": 1687078800,
+      "openedAt": 1687078800,
+      "closedAt": 1893423600
+    }]
+  }],
+  "spotRoads": [{
+    "id": 40201,
+    "warId": 402,
+    "mapId": 402,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/img_road0402_00.png",
+    "srcSpotId": 40201,
+    "dstSpotId": 40202,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "useItemTime"
+  }, {
+    "id": 40202,
+    "warId": 402,
+    "mapId": 402,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/img_road0402_00.png",
+    "srcSpotId": 40202,
+    "dstSpotId": 40213,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "useItemTime"
+  }, {
+    "id": 40203,
+    "warId": 402,
+    "mapId": 402,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/img_road0402_00.png",
+    "srcSpotId": 40213,
+    "dstSpotId": 40203,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "useItemTime"
+  }, {
+    "id": 40204,
+    "warId": 402,
+    "mapId": 402,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/img_road0402_00.png",
+    "srcSpotId": 40203,
+    "dstSpotId": 40214,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "useItemTime"
+  }, {
+    "id": 40205,
+    "warId": 402,
+    "mapId": 402,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/img_road0402_00.png",
+    "srcSpotId": 40214,
+    "dstSpotId": 40215,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "useItemTime"
+  }, {
+    "id": 40206,
+    "warId": 402,
+    "mapId": 402,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/img_road0402_00.png",
+    "srcSpotId": 40215,
+    "dstSpotId": 40202,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "useItemTime"
+  }, {
+    "id": 40207,
+    "warId": 402,
+    "mapId": 402,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/img_road0402_00.png",
+    "srcSpotId": 40201,
+    "dstSpotId": 40204,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "useItemTime"
+  }, {
+    "id": 40209,
+    "warId": 402,
+    "mapId": 402,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/img_road0402_00.png",
+    "srcSpotId": 40204,
+    "dstSpotId": 40205,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "useItemTime"
+  }, {
+    "id": 40210,
+    "warId": 402,
+    "mapId": 402,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/img_road0402_00.png",
+    "srcSpotId": 40205,
+    "dstSpotId": 40203,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "useItemTime"
+  }, {
+    "id": 40211,
+    "warId": 402,
+    "mapId": 402,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/img_road0402_00.png",
+    "srcSpotId": 40203,
+    "dstSpotId": 40206,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "useItemTime"
+  }, {
+    "id": 40212,
+    "warId": 402,
+    "mapId": 402,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/img_road0402_00.png",
+    "srcSpotId": 40206,
+    "dstSpotId": 40207,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "useItemTime"
+  }, {
+    "id": 40213,
+    "warId": 402,
+    "mapId": 402,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/img_road0402_00.png",
+    "srcSpotId": 40206,
+    "dstSpotId": 40204,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "useItemTime"
+  }, {
+    "id": 40214,
+    "warId": 402,
+    "mapId": 402,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/img_road0402_00.png",
+    "srcSpotId": 40237,
+    "dstSpotId": 40208,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "useItemTime"
+  }, {
+    "id": 40215,
+    "warId": 402,
+    "mapId": 402,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/img_road0402_00.png",
+    "srcSpotId": 40208,
+    "dstSpotId": 40209,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "useItemTime"
+  }, {
+    "id": 40216,
+    "warId": 402,
+    "mapId": 402,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/img_road0402_00.png",
+    "srcSpotId": 40208,
+    "dstSpotId": 40210,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "useItemTime"
+  }, {
+    "id": 40219,
+    "warId": 402,
+    "mapId": 402,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/img_road0402_00.png",
+    "srcSpotId": 40251,
+    "dstSpotId": 40243,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "useItemTime"
+  }, {
+    "id": 40220,
+    "warId": 402,
+    "mapId": 402,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/img_road0402_00.png",
+    "srcSpotId": 40243,
+    "dstSpotId": 40247,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "useItemTime"
+  }, {
+    "id": 40221,
+    "warId": 402,
+    "mapId": 402,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/img_road0402_00.png",
+    "srcSpotId": 40247,
+    "dstSpotId": 40212,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "useItemTime"
+  }, {
+    "id": 40222,
+    "warId": 402,
+    "mapId": 402,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0402/QMap_Cap0402_Atlas/img_road0402_00.png",
+    "srcSpotId": 40260,
+    "dstSpotId": 40255,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "useItemTime"
+  }]
+}, {
+  "id": 403,
+  "coordinates": [
+    [],
+    []
+  ],
+  "age": "-",
+  "name": "-",
+  "longName": "-",
+  "flags": ["mainScenario", "noticeBoard"],
+  "banner": "https://static.atlasacademy.io/JP/Banner/questboard_cap_closed.png",
+  "priority": 403,
+  "parentWarId": 401,
+  "parentBlankEarthSpotId": 1040301,
+  "bgm": {
+    "id": 0
+  },
+  "scriptId": "NONE",
+  "script": "https://static.atlasacademy.io/JP/Script/Common/NONE.txt",
+  "startType": "none",
+  "targetId": 0,
+  "lastQuestId": 0,
+  "warAdds": [{
+    "warId": 403,
+    "type": "warForceHide",
+    "priority": 1,
+    "overwriteId": 0,
+    "condType": "notQuestClearPhase",
+    "targetId": 4000217,
+    "value": 0,
+    "startedAt": 1687078800,
     "endedAt": 1893423600
   }]
 }, {
@@ -99509,6 +102238,26 @@
   "flags": ["mainScenario"],
   "banner": "https://static.atlasacademy.io/JP/Banner/questboard_cap13000.png",
   "priority": 299,
+  "bgm": {
+    "id": 0
+  },
+  "scriptId": "NONE",
+  "script": "https://static.atlasacademy.io/JP/Script/Common/NONE.txt",
+  "startType": "none",
+  "targetId": 0,
+  "lastQuestId": 0
+}, {
+  "id": 14000,
+  "coordinates": [
+    [],
+    []
+  ],
+  "age": "-",
+  "name": "-",
+  "longName": "奏章／Ordeal Call",
+  "flags": ["mainScenario"],
+  "banner": "https://static.atlasacademy.io/JP/Banner/questboard_cap14000.png",
+  "priority": 300,
   "bgm": {
     "id": 0
   },

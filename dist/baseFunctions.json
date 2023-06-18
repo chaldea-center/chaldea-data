@@ -13511,6 +13511,27 @@
     "maxRate": 5000
   }]
 }, {
+  "funcId": 1858,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "スター集中アップ：Arts",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_325.png",
+  "buffs": [{
+    "id": 722,
+    "name": "スター集中アップ：Arts",
+    "detail": "Artsカードへのスターの集まりやすさをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_325.png",
+    "type": "upStarweight",
+    "vals": [{
+      "id": 3004
+    }],
+    "ckSelfIndv": [{
+      "id": 4001
+    }],
+    "maxRate": 500000
+  }]
+}, {
   "funcId": 1859,
   "funcType": "addStateShort",
   "funcTargetType": "self",
@@ -39140,6 +39161,127 @@
     "maxRate": 10000
   }]
 }, {
+  "funcId": 20955,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "Quick攻撃ダメージ前追加効果",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_333.png",
+  "buffs": [{
+    "id": 5404,
+    "name": "Quick攻撃ダメージ前追加効果",
+    "detail": "Quick攻撃時、ダメージ前に自身のクリティカル威力をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_333.png",
+    "type": "attackBeforeFunction",
+    "vals": [{
+      "id": 3004
+    }],
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4003
+    }],
+    "ckSelfIndv": [{
+      "id": 4003
+    }],
+    "maxRate": 0
+  }]
+}, {
+  "funcId": 20956,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "Buster攻撃時追加効果",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_333.png",
+  "buffs": [{
+    "id": 5405,
+    "name": "Buster攻撃時追加効果",
+    "detail": "Buster攻撃時、スターを獲得する",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_333.png",
+    "type": "attackFunction",
+    "vals": [{
+      "id": 3004
+    }],
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4002
+    }],
+    "ckSelfIndv": [{
+      "id": 4002
+    }],
+    "maxRate": 0
+  }]
+}, {
+  "funcId": 20957,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "enemy",
+  "funcPopupText": "Buster攻撃時追加効果",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_333.png",
+  "buffs": [{
+    "id": 5406,
+    "name": "Buster攻撃時追加効果",
+    "detail": "Buster攻撃時、自身のクリティカル発生率をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_333.png",
+    "type": "attackFunction",
+    "vals": [{
+      "id": 3004
+    }],
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4002
+    }],
+    "ckSelfIndv": [{
+      "id": 4002
+    }],
+    "maxRate": 0
+  }]
+}, {
+  "funcId": 20960,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptRandom",
+  "funcTargetTeam": "player",
+  "funcPopupText": "スター集中アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_325.png",
+  "buffs": [{
+    "id": 115,
+    "name": "スター集中アップ",
+    "detail": "スターの集まりやすさをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_325.png",
+    "type": "upStarweight",
+    "vals": [{
+      "id": 3004
+    }],
+    "maxRate": 500000
+  }]
+}, {
+  "funcId": 20963,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptRandom",
+  "funcTargetTeam": "enemy",
+  "funcPopupText": "クリティカル発生アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_327.png",
+  "buffs": [{
+    "id": 144,
+    "name": "クリティカル発生アップ",
+    "detail": "クリティカルの発生率をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_327.png",
+    "type": "upCriticalrate",
+    "script": {
+      "ProgressSelfTurn": 1
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3032
+    }],
+    "maxRate": 5000
+  }]
+}, {
   "funcId": 30003,
   "funcType": "addStateShort",
   "funcTargetType": "self",
@@ -41014,6 +41156,96 @@
       "id": 3006
     }, {
       "id": 3031
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 30162,
+  "funcType": "addState",
+  "funcTargetType": "ptOne",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "令呪励起",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_386.png",
+  "buffs": [{
+    "id": 30042,
+    "name": "令呪励起",
+    "detail": "攻撃力をアップ＆防御力をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_386.png",
+    "type": "upAtk",
+    "buffGroup": 30042,
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3027
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 30163,
+  "funcType": "addState",
+  "funcTargetType": "ptOne",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "令呪励起",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_387.png",
+  "buffs": [{
+    "id": 30043,
+    "name": "令呪励起",
+    "detail": "攻撃力をアップ＆防御力をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_387.png",
+    "type": "upAtk",
+    "buffGroup": 30043,
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3027
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 30164,
+  "funcType": "addState",
+  "funcTargetType": "ptOne",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_386.png",
+  "buffs": [{
+    "id": 30044,
+    "name": "",
+    "detail": "",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_386.png",
+    "type": "upDefence",
+    "buffGroup": 30044,
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3007
+    }, {
+      "id": 3040
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 30165,
+  "funcType": "addState",
+  "funcTargetType": "ptOne",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_387.png",
+  "buffs": [{
+    "id": 30058,
+    "name": "",
+    "detail": "",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_387.png",
+    "type": "upDefence",
+    "buffGroup": 30058,
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3007
+    }, {
+      "id": 3040
     }],
     "maxRate": 5000
   }]
