@@ -56635,7 +56635,7 @@
       "Value": 300
     }]
   }, {
-    "funcId": 5606,
+    "funcId": 20965,
     "svals": [{
       "Rate": 1000,
       "Turn": 1,
@@ -159910,6 +159910,36 @@
     }]
   }]
 }, {
+  "id": 993691,
+  "name": "勇猛なる神獣",
+  "ruby": "-",
+  "unmodifiedDetail": "[servantName 204800](アーチャー)装備時のみ、自身がフィールドにいる間、味方全体に〔天の力を持つ敵〕特攻状態を15%付与＆〔魔性〕特攻状態を15%付与",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00301.png",
+  "coolDown": [0],
+  "actIndividuality": [{
+    "id": 204800
+  }],
+  "functions": [{
+    "funcId": 5528,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 150,
+      "OnField": 1
+    }]
+  }, {
+    "funcId": 3476,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 150,
+      "OnField": 1
+    }]
+  }]
+}, {
   "id": 993699,
   "name": "",
   "type": "passive",
@@ -176352,6 +176382,222 @@
     "svals": [{
       "Rate": 1000,
       "Value": 1
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }]
+}, {
+  "id": 2223650,
+  "name": "神授の武具 EX",
+  "ruby": "しんじゅのぶぐ",
+  "unmodifiedDetail": "自身のArtsカード性能をアップ＆クリティカル威力をアップ",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00305.png",
+  "coolDown": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+  "functions": [{
+    "funcId": 109,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 100
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 199,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 100
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }]
+}, {
+  "id": 2224650,
+  "name": "マハーマーヤー EX",
+  "ruby": "まはーまーやー",
+  "unmodifiedDetail": "自身のNPを増やす[{0}] ＋ 味方全体に宝具使用時のチャージ段階を1段階引き上げる状態を付与(1回・3ターン)",
+  "type": "active",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00601.png",
+  "coolDown": [8, 8, 8, 8, 8, 7, 7, 7, 7, 6],
+  "functions": [{
+    "funcId": 460,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 3000
+    }, {
+      "Value": 3200
+    }, {
+      "Value": 3400
+    }, {
+      "Value": 3600
+    }, {
+      "Value": 3800
+    }, {
+      "Value": 4000
+    }, {
+      "Value": 4200
+    }, {
+      "Value": 4400
+    }, {
+      "Value": 4600
+    }, {
+      "Value": 5000
+    }]
+  }, {
+    "funcId": 470,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 1
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 759,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": 1,
+      "Value": 1
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }]
+}, {
+  "id": 2225550,
+  "name": "近付き難い者 A",
+  "ruby": "ちかづきがたいもの",
+  "unmodifiedDetail": "自身に無敵状態を付与(3回・3ターン)＆Quickカード性能をアップ[{0}](3ターン)＆Artsカード性能をアップ[{0}](3ターン)＆Busterカード性能をアップ[{0}](3ターン)",
+  "type": "active",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00403.png",
+  "coolDown": [8, 8, 8, 8, 8, 7, 7, 7, 7, 6],
+  "functions": [{
+    "funcId": 289,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": 3
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 101,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 100
+    }, {
+      "Value": 110
+    }, {
+      "Value": 120
+    }, {
+      "Value": 130
+    }, {
+      "Value": 140
+    }, {
+      "Value": 150
+    }, {
+      "Value": 160
+    }, {
+      "Value": 170
+    }, {
+      "Value": 180
+    }, {
+      "Value": 200
+    }]
+  }, {
+    "funcId": 110,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 100
+    }, {
+      "Value": 110
+    }, {
+      "Value": 120
+    }, {
+      "Value": 130
+    }, {
+      "Value": 140
+    }, {
+      "Value": 150
+    }, {
+      "Value": 160
+    }, {
+      "Value": 170
+    }, {
+      "Value": 180
+    }, {
+      "Value": 200
+    }]
+  }, {
+    "funcId": 119,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 100
+    }, {
+      "Value": 110
+    }, {
+      "Value": 120
+    }, {
+      "Value": 130
+    }, {
+      "Value": 140
+    }, {
+      "Value": 150
+    }, {
+      "Value": 160
+    }, {
+      "Value": 170
+    }, {
+      "Value": 180
+    }, {
+      "Value": 200
+    }]
+  }]
+}, {
+  "id": 2226650,
+  "name": "第三の目 EX",
+  "ruby": "だいさんのめ",
+  "unmodifiedDetail": "自身の宝具威力をアップ[{0}](3ターン)＆すべてのコマンドカードをArtsタイプに変化させる(1ターン)＆無敵貫通状態を付与(1ターン)",
+  "type": "active",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00302.png",
+  "coolDown": [7, 7, 7, 7, 7, 6, 6, 6, 6, 5],
+  "functions": [{
+    "funcId": 248,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 200
+    }, {
+      "Value": 210
+    }, {
+      "Value": 220
+    }, {
+      "Value": 230
+    }, {
+      "Value": 240
+    }, {
+      "Value": 250
+    }, {
+      "Value": 260
+    }, {
+      "Value": 270
+    }, {
+      "Value": 280
+    }, {
+      "Value": 300
+    }]
+  }, {
+    "funcId": 20965,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 1,
+      "Count": -1,
+      "Value": 1
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 510,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 1,
+      "Count": -1
     }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
   }]
 }, {
