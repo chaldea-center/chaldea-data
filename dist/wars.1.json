@@ -113308,6 +113308,66 @@
       "noticeAt": 1672498800,
       "openedAt": 1672498800,
       "closedAt": 1673409599
+    }, {
+      "id": 94088401,
+      "name": "2016年イベント メモリアルクエスト",
+      "type": "event",
+      "flags": ["dropFirstTimeOnly", "notRetrievable"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "32",
+      "spotId": 999999,
+      "warId": 9999,
+      "gifts": [{
+        "objectId": 94084401,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 1000011,
+        "closedMessage": "特異点Fクリアで開放可能"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94088499,
+      "noticeAt": 1690448400,
+      "openedAt": 1690448400,
+      "closedAt": 1691553599
+    }, {
+      "id": 94088402,
+      "name": "2017年イベント メモリアルクエスト",
+      "type": "event",
+      "flags": ["dropFirstTimeOnly", "notRetrievable"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "80",
+      "spotId": 999999,
+      "warId": 9999,
+      "gifts": [{
+        "objectId": 4001,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 1000011,
+        "closedMessage": "特異点Fクリア後、2016年イベント メモリアルクエストクリアで開放可能"
+      }, {
+        "type": "questClear",
+        "targetId": 94088401,
+        "closedMessage": "2016年イベント メモリアルクエストクリアで開放可能"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94088498,
+      "noticeAt": 1690448400,
+      "openedAt": 1690448400,
+      "closedAt": 1691553599
     }]
   }]
 }, {
