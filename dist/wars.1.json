@@ -113368,6 +113368,73 @@
       "noticeAt": 1690448400,
       "openedAt": 1690448400,
       "closedAt": 1691553599
+    }, {
+      "id": 94088403,
+      "name": "2018年イベント メモリアルクエスト",
+      "type": "event",
+      "flags": ["dropFirstTimeOnly", "notRetrievable"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "80",
+      "spotId": 999999,
+      "warId": 9999,
+      "gifts": [{
+        "objectId": 4001,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 1000011,
+        "closedMessage": "特異点Fクリアで開放可能"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94088497,
+      "noticeAt": 1690534800,
+      "openedAt": 1690534800,
+      "closedAt": 1691553599
+    }, {
+      "id": 94088404,
+      "name": "2019年イベント メモリアルクエスト",
+      "type": "event",
+      "flags": ["dropFirstTimeOnly", "notRetrievable"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "80",
+      "spotId": 999999,
+      "warId": 9999,
+      "gifts": [{
+        "objectId": 94084401,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 1000011,
+        "closedMessage": "特異点Fクリア後、2018年イベント メモリアルクエストクリアで開放可能"
+      }, {
+        "type": "questClear",
+        "targetId": 94088403,
+        "closedMessage": "2018年イベント メモリアルクエストクリアで開放可能"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408840410",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408840410.txt"
+        }]
+      }],
+      "priority": 94088496,
+      "noticeAt": 1690534800,
+      "openedAt": 1690534800,
+      "closedAt": 1691553599
     }]
   }]
 }, {
