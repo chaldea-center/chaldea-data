@@ -39497,6 +39497,160 @@
     "maxRate": 5000
   }]
 }, {
+  "funcId": 21023,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "攻撃力アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_300.png",
+  "buffs": [{
+    "id": 5423,
+    "name": "攻撃力アップ",
+    "detail": "HPが75%以下の間、攻撃力をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_300.png",
+    "type": "upAtk",
+    "script": {
+      "HP_LOWER": 750
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3027
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 21026,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "攻撃力アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_300.png",
+  "buffs": [{
+    "id": 5424,
+    "name": "攻撃力アップ",
+    "detail": "HPが50%以下の間、攻撃力をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_300.png",
+    "type": "upAtk",
+    "script": {
+      "HP_LOWER": 500
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3027
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 21029,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "攻撃力アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_300.png",
+  "buffs": [{
+    "id": 5425,
+    "name": "攻撃力アップ",
+    "detail": "HPが25%以下の間、攻撃力をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_300.png",
+    "type": "upAtk",
+    "script": {
+      "HP_LOWER": 250
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3027
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 21032,
+  "funcType": "shortenSkill",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "スキルターン減少"
+}, {
+  "funcId": 21038,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "毎ターン発動",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_343.png",
+  "buffs": [{
+    "id": 5426,
+    "name": "毎ターン発動",
+    "detail": "ターン終了時に味方全体のHPが100%の時、スターを獲得する",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_343.png",
+    "type": "selfturnendFunction",
+    "vals": [{
+      "id": 3004
+    }],
+    "maxRate": 0
+  }]
+}, {
+  "funcId": 21039,
+  "funcType": "displayBuffstring",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "playerAndEnemy"
+}, {
+  "funcId": 21041,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptFull",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "宝具威力アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_310.png",
+  "buffs": [{
+    "id": 5427,
+    "name": "宝具威力アップ",
+    "detail": "HPが50%以下の間、宝具で与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_310.png",
+    "type": "upNpdamage",
+    "script": {
+      "HP_LOWER": 500
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3030
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 21071,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "攻撃力アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_300.png",
+  "buffs": [{
+    "id": 5431,
+    "name": "攻撃力アップ",
+    "detail": "HPが99%以下の間、攻撃力をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_300.png",
+    "type": "upAtk",
+    "script": {
+      "HP_LOWER": 990
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3027
+    }],
+    "maxRate": 5000
+  }]
+}, {
   "funcId": 30003,
   "funcType": "addStateShort",
   "funcTargetType": "self",
