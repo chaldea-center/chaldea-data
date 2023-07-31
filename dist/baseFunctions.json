@@ -32967,6 +32967,28 @@
     "maxRate": 10000
   }]
 }, {
+  "funcId": 8221,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "フィールドセット〔森〕",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_355.png",
+  "buffs": [{
+    "id": 4079,
+    "name": "フィールドセット〔森〕",
+    "detail": "フィールドを〔森〕にする",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_355.png",
+    "type": "fieldIndividuality",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3057
+    }, {
+      "id": 2073
+    }],
+    "maxRate": 0
+  }]
+}, {
   "funcId": 8224,
   "funcType": "addState",
   "funcTargetType": "self",
@@ -39624,6 +39646,32 @@
       "id": 3030
     }],
     "maxRate": 5000
+  }]
+}, {
+  "funcId": 21043,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "Buster攻撃時追加効果",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_333.png",
+  "buffs": [{
+    "id": 5428,
+    "name": "Buster攻撃時追加効果",
+    "detail": "Buster攻撃時、自身のNPを増やす",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_333.png",
+    "type": "attackFunction",
+    "vals": [{
+      "id": 3004
+    }],
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4002
+    }],
+    "ckSelfIndv": [{
+      "id": 4002
+    }],
+    "maxRate": 0
   }]
 }, {
   "funcId": 21071,
