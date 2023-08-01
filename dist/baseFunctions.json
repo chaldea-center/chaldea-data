@@ -33367,6 +33367,34 @@
     "isDispValue": true
   }]
 }, {
+  "funcId": 8445,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "威力アップ・対 地の力",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+  "buffs": [{
+    "id": 4207,
+    "name": "威力アップ〔地の力〕",
+    "detail": "〔地の力〕に与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamage",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3028
+    }],
+    "tvals": [{
+      "id": 201
+    }],
+    "ckOpIndv": [{
+      "id": 201
+    }],
+    "maxRate": 10000
+  }]
+}, {
   "funcId": 8450,
   "funcType": "addStateShort",
   "funcTargetType": "self",
@@ -39674,6 +39702,29 @@
     "maxRate": 0
   }]
 }, {
+  "funcId": 21044,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "マーキング",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_520.png",
+  "functvals": [{
+    "id": 3021
+  }],
+  "buffs": [{
+    "id": 5429,
+    "name": "マーキング",
+    "detail": "〔ウィリアム・テル〕の宝具による回避状態特攻の対象となる状態(弱体扱い)",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_520.png",
+    "type": "addIndividuality",
+    "vals": [{
+      "id": 3005
+    }, {
+      "id": 3088
+    }],
+    "maxRate": 0
+  }]
+}, {
   "funcId": 21071,
   "funcType": "addStateShort",
   "funcTargetType": "ptAll",
@@ -39697,6 +39748,58 @@
       "id": 3027
     }],
     "maxRate": 5000
+  }]
+}, {
+  "funcId": 21096,
+  "funcType": "addState",
+  "funcTargetType": "enemyAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "回避トラップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_537.png",
+  "functvals": [{
+    "id": 3088,
+    "negative": true
+  }],
+  "buffs": [{
+    "id": 5436,
+    "name": "回避トラップ",
+    "detail": "ターン終了時に回避状態(解除不能な状態は除く)の時、対象に〔マーキング〕状態を付与する",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_537.png",
+    "type": "selfturnendFunction",
+    "script": {
+      "INDIVIDUALITIE": {
+        "id": 3021
+      }
+    },
+    "vals": [{
+      "id": 3005
+    }, {
+      "id": 3063
+    }],
+    "maxRate": 0
+  }]
+}, {
+  "funcId": 21097,
+  "funcType": "addState",
+  "funcTargetType": "enemyAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "マーキング",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_520.png",
+  "functvals": [{
+    "id": 3021
+  }],
+  "buffs": [{
+    "id": 5429,
+    "name": "マーキング",
+    "detail": "〔ウィリアム・テル〕の宝具による回避状態特攻の対象となる状態(弱体扱い)",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_520.png",
+    "type": "addIndividuality",
+    "vals": [{
+      "id": 3005
+    }, {
+      "id": 3088
+    }],
+    "maxRate": 0
   }]
 }, {
   "funcId": 30003,

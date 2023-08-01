@@ -24194,7 +24194,7 @@
   "id": 278551,
   "name": "サマー・スプラッシュ！ A+",
   "ruby": "さまー・すぷらっしゅ！",
-  "unmodifiedDetail": "自身のArtsカード性能をアップ[{0}](3ターン)＋味方全体の防御力をアップ[{0}](3ターン)",
+  "unmodifiedDetail": "自身のArtsカード性能をアップ[{0}](3ターン) ＋ 味方全体の防御力をアップ[{0}](3ターン)",
   "type": "active",
   "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00305.png",
   "coolDown": [8, 8, 8, 8, 8, 7, 7, 7, 7, 6],
@@ -46119,7 +46119,7 @@
   "id": 601650,
   "name": "エイミング EX",
   "ruby": "えいみんぐ",
-  "unmodifiedDetail": "自身にスター集中状態を付与[{0}](1ターン)＆クリティカル威力をアップ[{0}](1ターン)",
+  "unmodifiedDetail": "自身のスター集中度をアップ[{0}](1ターン)＆クリティカル威力をアップ[{0}](1ターン)",
   "type": "active",
   "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00311.png",
   "coolDown": [7, 7, 7, 7, 7, 6, 6, 6, 6, 5],
@@ -84648,6 +84648,21 @@
     "svals": [{
       "Rate": 1000,
       "Value": 1000
+    }]
+  }]
+}, {
+  "id": 970403,
+  "name": "",
+  "type": "active",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00531.png",
+  "coolDown": [1],
+  "functions": [{
+    "funcId": 21044,
+    "svals": [{
+      "Rate": 5000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 3088
     }]
   }]
 }, {
@@ -179535,6 +179550,167 @@
       "Rate": 1000,
       "Turn": 3,
       "Count": -1
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }]
+}, {
+  "id": 2242450,
+  "name": "機へ至る忍耐 B",
+  "ruby": "きへいたるにんたい",
+  "unmodifiedDetail": "自身のArtsカード性能をアップ[{0}](3ターン)＆弱体無効状態を付与(3ターン) ＋ 敵全体の回避状態(解除不能な状態は除く)の対象に〔マーキング〕状態を付与(3ターン)[g][o]▲[/o][/g] ＋ 敵全体の〔マーキング〕状態でない対象に回避トラップ状態「ターン終了時に回避状態(解除不能な状態は除く)の時、〔マーキング〕状態を付与(3ターン)する状態」を付与(1回・5ターン)[g][o]▲[/o][/g]<〔マーキング〕状態は弱体扱いで宝具の回避状態特攻の対象となる>",
+  "type": "active",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00305.png",
+  "coolDown": [7, 7, 7, 7, 7, 6, 6, 6, 6, 5],
+  "functions": [{
+    "funcId": 110,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 200
+    }, {
+      "Value": 210
+    }, {
+      "Value": 220
+    }, {
+      "Value": 230
+    }, {
+      "Value": 240
+    }, {
+      "Value": 250
+    }, {
+      "Value": 260
+    }, {
+      "Value": 270
+    }, {
+      "Value": 280
+    }, {
+      "Value": 300
+    }]
+  }, {
+    "funcId": 627,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 21097,
+    "svals": [{
+      "Rate": 5000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 3088
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 21096,
+    "svals": [{
+      "Rate": 5000,
+      "Turn": 5,
+      "Count": 1,
+      "Value": 970403,
+      "Value2": 1
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }]
+}, {
+  "id": 2243350,
+  "name": "麗しきは美姫の指輪 C",
+  "ruby": "アンジェリカ・カタイ",
+  "unmodifiedDetail": "味方単体のNPを増やす[g][o]▲[/o][/g][{0}]＆弱体状態を解除 ＋ 自身に〔地の力を持つ敵〕特攻状態を付与[{0}](3ターン)[g][o]▲[/o][/g]＆NP獲得量をアップ[{0}](3ターン)[g][o]▲[/o][/g]",
+  "type": "active",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00601.png",
+  "coolDown": [7, 7, 7, 7, 7, 6, 6, 6, 6, 5],
+  "functions": [{
+    "funcId": 463,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 2000
+    }, {
+      "Value": 2100
+    }, {
+      "Value": 2200
+    }, {
+      "Value": 2300
+    }, {
+      "Value": 2400
+    }, {
+      "Value": 2500
+    }, {
+      "Value": 2600
+    }, {
+      "Value": 2700
+    }, {
+      "Value": 2800
+    }, {
+      "Value": 3000
+    }]
+  }, {
+    "funcId": 471,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 1
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 435,
+    "svals": [{
+      "Rate": 1000
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 8445,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 200
+    }, {
+      "Value": 210
+    }, {
+      "Value": 220
+    }, {
+      "Value": 230
+    }, {
+      "Value": 240
+    }, {
+      "Value": 250
+    }, {
+      "Value": 260
+    }, {
+      "Value": 270
+    }, {
+      "Value": 280
+    }, {
+      "Value": 300
+    }]
+  }, {
+    "funcId": 337,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 200
+    }, {
+      "Value": 210
+    }, {
+      "Value": 220
+    }, {
+      "Value": 230
+    }, {
+      "Value": 240
+    }, {
+      "Value": 250
+    }, {
+      "Value": 260
+    }, {
+      "Value": 270
+    }, {
+      "Value": 280
+    }, {
+      "Value": 300
+    }]
+  }, {
+    "funcId": 470,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 1
     }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
   }]
 }, {
