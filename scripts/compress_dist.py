@@ -1,7 +1,5 @@
-"""
-CF runtime: python 3.7
-"""
 import json
+import shutil
 from hashlib import md5
 from pathlib import Path
 
@@ -31,6 +29,9 @@ def clean_mappings(data: dict) -> dict:
 
 def main():
     dist_dir = project_root / "dist"
+    # publish static folder
+    shutil.copytree(project_root / "static", project_root / "dist", dirs_exist_ok=True)
+    # compress json files
     fp_version = dist_dir / "version.json"
     version = load_json(fp_version)
     for file_version in version["files"].values():

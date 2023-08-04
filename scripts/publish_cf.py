@@ -1,17 +1,17 @@
+"""
+CF Python default version: 3.11.4
+"""
 import shutil
-import sys
 from pathlib import Path
 
 import compress_dist
 
 
-def copy_functions():
+def copy_cf():
     root = Path(__file__).parents[1]
-    shutil.copy(root / "functions" / "_routes.json", root / "dist" / "_routes.json")
-    shutil.copytree(root / "functions", root / "dist" / "functions")
+    shutil.copytree(root / "cf", root / "dist", dirs_exist_ok=True)
 
 
 if __name__ == "__main__":
     compress_dist.main()
-    if "--function" in sys.argv[1:]:
-        copy_functions()
+    copy_cf()
