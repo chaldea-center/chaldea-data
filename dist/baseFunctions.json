@@ -39966,6 +39966,43 @@
     "maxRate": 0
   }]
 }, {
+  "funcId": 21106,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "遅延発動",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_525.png",
+  "buffs": [{
+    "id": 5441,
+    "name": "遅延発動",
+    "detail": "ターン終了時に即死する状態<強化扱い>を付与【デメリット】",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_525.png",
+    "type": "delayFunction",
+    "buffGroup": 507,
+    "vals": [{
+      "id": 3004
+    }],
+    "maxRate": 0
+  }]
+}, {
+  "funcId": 21107,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "攻撃時追加効果",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_528.png",
+  "buffs": [{
+    "id": 5442,
+    "name": "攻撃時追加効果",
+    "detail": "攻撃時に敵単体の防御強化状態を解除＋自身に『ターン終了時に即死する状態』<強化扱い>【デメリット】を付与する",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_528.png",
+    "type": "attackFunction",
+    "vals": [{
+      "id": 3004
+    }],
+    "maxRate": 0
+  }]
+}, {
   "funcId": 30003,
   "funcType": "addStateShort",
   "funcTargetType": "self",

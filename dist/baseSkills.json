@@ -53742,7 +53742,7 @@
   "id": 706350,
   "name": "間際の一撃 C",
   "ruby": "まぎわのいちげき",
-  "unmodifiedDetail": "<HPが50%以下の場合のみ使用可能>自身の攻撃力をアップ[{0}](1回・1ターン)＆クリティカル威力をアップ[{0}](1回・1ターン)＆「攻撃時に敵単体の防御強化状態を解除＋自身に即死効果【デメリット】を付与する状態(1ターン)<強化扱い>」を付与",
+  "unmodifiedDetail": "<HPが50%以下の場合のみ使用可能>自身の攻撃力をアップ[{0}](1回・1ターン)＆クリティカル威力をアップ[{0}](1回・1ターン)＆「攻撃時に敵単体の防御強化状態を解除＋自身に即死効果【デメリット】を付与する状態」を付与(1ターン)<強化扱い>",
   "type": "active",
   "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00300.png",
   "coolDown": [8, 8, 8, 8, 8, 7, 7, 7, 7, 6],
@@ -53808,6 +53808,80 @@
       "Turn": 1,
       "Count": -1,
       "Value": 964096,
+      "Value2": 1,
+      "ShowState": 1
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }]
+}, {
+  "id": 706353,
+  "name": "間際の一撃 C+++",
+  "ruby": "まぎわのいちげき",
+  "unmodifiedDetail": "<HPが50%以下の場合のみ使用可能>自身の攻撃力をアップ[{0}](1ターン[g][o]▲[/o][/g])＆クリティカル威力をアップ[{0}](1ターン[g][o]▲[/o][/g])＆「攻撃時に敵単体の防御強化状態を解除＋自身に『ターン終了時に即死する状態』<強化扱い>【デメリット】を付与[g][o]▲[/o][/g]する状態」を付与(1ターン)<強化扱い>",
+  "type": "active",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00300.png",
+  "coolDown": [8, 8, 8, 8, 8, 7, 7, 7, 7, 6],
+  "script": {
+    "HP_PER_LOWER": [500, 500, 500, 500, 500, 500, 500, 500, 500, 500]
+  },
+  "functions": [{
+    "funcId": 146,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 1,
+      "Count": -1,
+      "Value": 300
+    }, {
+      "Value": 320
+    }, {
+      "Value": 340
+    }, {
+      "Value": 360
+    }, {
+      "Value": 380
+    }, {
+      "Value": 400
+    }, {
+      "Value": 420
+    }, {
+      "Value": 440
+    }, {
+      "Value": 460
+    }, {
+      "Value": 500
+    }]
+  }, {
+    "funcId": 200,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 1,
+      "Count": -1,
+      "Value": 500
+    }, {
+      "Value": 550
+    }, {
+      "Value": 600
+    }, {
+      "Value": 650
+    }, {
+      "Value": 700
+    }, {
+      "Value": 750
+    }, {
+      "Value": 800
+    }, {
+      "Value": 850
+    }, {
+      "Value": 900
+    }, {
+      "Value": 1000
+    }]
+  }, {
+    "funcId": 21107,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 1,
+      "Count": -1,
+      "Value": 970404,
       "Value2": 1,
       "ShowState": 1
     }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
@@ -85011,6 +85085,36 @@
       "Turn": 3,
       "Count": -1,
       "Value": 3088
+    }]
+  }]
+}, {
+  "id": 970404,
+  "name": "",
+  "type": "active",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00516.png",
+  "coolDown": [1],
+  "functions": [{
+    "funcId": 5029,
+    "svals": [{
+      "Rate": 5000,
+      "Turn": 1,
+      "Count": 1,
+      "HideNoEffect": 1,
+      "ShowState": -1
+    }]
+  }, {
+    "funcId": 1541,
+    "svals": [{
+      "Rate": 1000
+    }]
+  }, {
+    "funcId": 21106,
+    "svals": [{
+      "Rate": 5000,
+      "Turn": 1,
+      "Count": 1,
+      "Value": 970405,
+      "Value2": 1
     }]
   }]
 }, {
@@ -180233,6 +180337,104 @@
       "ParamAdd": 200,
       "ParamMax": 500
     }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }]
+}, {
+  "id": 2246550,
+  "name": "ミッドサマー・ナイツ A",
+  "ruby": "みっどさまー・ないつ",
+  "unmodifiedDetail": "敵全体に恐怖状態を付与[{0}](3ターン)＆防御力をダウン[{0}](3ターン) ＋ 自身のBusterカード性能をアップ[{0}](3ターン)[g][o]▲[/o][/g]",
+  "type": "active",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00508.png",
+  "coolDown": [8, 8, 8, 8, 8, 7, 7, 7, 7, 6],
+  "functions": [{
+    "funcId": 855,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": 1,
+      "Value": 964646,
+      "Value2": 1,
+      "UseRate": 350
+    }, {
+      "Value2": 2,
+      "UseRate": 370
+    }, {
+      "Value2": 3,
+      "UseRate": 390
+    }, {
+      "Value2": 4,
+      "UseRate": 410
+    }, {
+      "Value2": 5,
+      "UseRate": 430
+    }, {
+      "Value2": 6,
+      "UseRate": 450
+    }, {
+      "Value2": 7,
+      "UseRate": 470
+    }, {
+      "Value2": 8,
+      "UseRate": 490
+    }, {
+      "Value2": 9,
+      "UseRate": 510
+    }, {
+      "Value2": 10,
+      "UseRate": 550
+    }]
+  }, {
+    "funcId": 197,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 100
+    }, {
+      "Value": 110
+    }, {
+      "Value": 120
+    }, {
+      "Value": 130
+    }, {
+      "Value": 140
+    }, {
+      "Value": 150
+    }, {
+      "Value": 160
+    }, {
+      "Value": 170
+    }, {
+      "Value": 180
+    }, {
+      "Value": 200
+    }]
+  }, {
+    "funcId": 119,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 200
+    }, {
+      "Value": 210
+    }, {
+      "Value": 220
+    }, {
+      "Value": 230
+    }, {
+      "Value": 240
+    }, {
+      "Value": 250
+    }, {
+      "Value": 260
+    }, {
+      "Value": 270
+    }, {
+      "Value": 280
+    }, {
+      "Value": 300
+    }]
   }]
 }, {
   "id": 2247000,
