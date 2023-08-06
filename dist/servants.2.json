@@ -14914,7 +14914,7 @@
   "atkMax": 10173,
   "hpBase": 1827,
   "hpMax": 11419,
-  "relateQuestIds": [91100701, 94040514],
+  "relateQuestIds": [91100701, 94040514, 94088502],
   "growthCurve": 4,
   "bondGrowth": [3500, 12000, 19000, 25000, 27500, 300000, 630000, 940000, 1230000, 1516000, 2606000, 3836000, 5196000, 6696000, 8336000],
   "bondEquip": 9301230,
@@ -15461,8 +15461,18 @@
   }],
   "noblePhantasms": [{
     "id": 100701,
+    "npNum": 2,
     "svtId": 100700,
+    "strengthStatus": 1,
     "priority": 101
+  }, {
+    "id": 100702,
+    "npNum": 2,
+    "svtId": 100700,
+    "strengthStatus": 99,
+    "priority": 102,
+    "condQuestId": 94088502,
+    "condQuestPhase": 3
   }],
   "profile": {
     "cv": "水島大宙",
@@ -19249,6 +19259,7 @@
   "atkMax": 11276,
   "hpBase": 2134,
   "hpMax": 14553,
+  "relateQuestIds": [94088503],
   "growthCurve": 5,
   "bondGrowth": [3000, 9125, 15250, 21375, 27500, 310000, 610000, 930000, 1270000, 1640000, 2730000, 3960000, 5320000, 6820000, 8460000],
   "bondEquip": 9301380,
@@ -19527,6 +19538,7 @@
     "id": 278551,
     "num": 1,
     "svtId": 202600,
+    "strengthStatus": 1,
     "priority": 1
   }, {
     "id": 279650,
@@ -19540,6 +19552,14 @@
     "svtId": 202600,
     "priority": 1,
     "condLimitCount": 3
+  }, {
+    "id": 278650,
+    "num": 1,
+    "svtId": 202600,
+    "strengthStatus": 99,
+    "priority": 2,
+    "condQuestId": 94088503,
+    "condQuestPhase": 3
   }],
   "classPassive": [{
     "id": 34550
