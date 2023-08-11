@@ -99491,4 +99491,2104 @@
     "dispCondType2": "useItemTime",
     "activeCondType": "questClear"
   }]
+}, {
+  "id": 9160,
+  "coordinates": [
+    [21.318611, -157.92223],
+    [6.4474, -169.99678]
+  ],
+  "age": "-",
+  "name": "永久常夏祭壇　ルルハワ　ver.2.0",
+  "longName": "永久常夏祭壇　ルルハワ　ver.2.0",
+  "flags": ["isEvent", "noClearMarkWithComplete"],
+  "banner": "https://static.atlasacademy.io/JP/Banner/event_war_80422.png",
+  "priority": 9160,
+  "bgm": {
+    "id": 0
+  },
+  "script": "https://static.atlasacademy.io/JP/Script/Common/NONE.txt",
+  "eventId": 80442,
+  "eventName": "サーヴァント・サマー・フェスティバル2023！",
+  "warAdds": [{
+    "warId": 9160,
+    "type": "flag",
+    "priority": 2,
+    "overwriteId": 2082,
+    "condType": "questClearPhase",
+    "targetId": 94087901,
+    "value": 1,
+    "startedAt": 1691744400,
+    "endedAt": 1893423600
+  }],
+  "maps": [{
+    "id": 9160,
+    "mapImage": "https://static.atlasacademy.io/JP/Terminal/MapImgs/img_questmap_009160/img_questmap_009160.png",
+    "mapImageW": 3360,
+    "mapImageH": 2048,
+    "mapGimmicks": [{
+      "id": 916003,
+      "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9160/QMap_Cap9160_Atlas/gimmick_916003.png",
+      "x": 1680,
+      "y": 1024,
+      "depthOffset": -1,
+      "scale": 1000,
+      "dispCondType": "itemGet",
+      "dispTargetId": 94087901,
+      "dispTargetValue": 1,
+      "dispCondType2": "questClear"
+    }, {
+      "id": 916005,
+      "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9160/QMap_Cap9160_Atlas/gimmick_916005.png",
+      "x": 1680,
+      "y": 1024,
+      "depthOffset": -1,
+      "scale": 1000,
+      "dispCondType": "itemGet",
+      "dispTargetId": 94087901,
+      "dispTargetValue": 1,
+      "dispCondType2": "useItemEternity",
+      "dispTargetId2": 94087920,
+      "dispTargetValue2": 1
+    }, {
+      "id": 916013,
+      "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9160/QMap_Cap9160_Atlas/gimmick_916013.png",
+      "x": 1680,
+      "y": 1024,
+      "depthOffset": -800,
+      "scale": 1000,
+      "dispCondType": "itemGet",
+      "dispTargetId": 94087901,
+      "dispTargetValue": 1,
+      "dispCondType2": "questClear"
+    }, {
+      "id": 916014,
+      "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9160/QMap_Cap9160_Atlas/gimmick_916014.png",
+      "x": 1680,
+      "y": 1024,
+      "depthOffset": -801,
+      "scale": 1000,
+      "dispCondType": "itemGet",
+      "dispTargetId": 94087901,
+      "dispTargetValue": 1,
+      "dispCondType2": "questClear"
+    }],
+    "bgm": {
+      "id": 0
+    }
+  }],
+  "spots": [{
+    "id": 916004,
+    "mapId": 9160,
+    "name": "ルルハワ空港",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9160/QMap_Cap9160_Atlas/spot_916004.png",
+    "x": 1680,
+    "y": 1079,
+    "questOfsX": 37,
+    "questOfsY": -74
+  }, {
+    "id": 916005,
+    "mapId": 9160,
+    "name": "ホテル",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9160/QMap_Cap9160_Atlas/spot_916005.png",
+    "x": 1855,
+    "y": 1173,
+    "questOfsX": 34,
+    "questOfsY": -87,
+    "quests": [{
+      "id": 94087902,
+      "name": "２．クエスチョンが多すぎる",
+      "type": "main",
+      "consume": 30,
+      "afterClear": "close",
+      "recommendLv": "20",
+      "spotId": 916005,
+      "warId": 9160,
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94087901
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1, 2, 3, 4, 5, 6, 7],
+      "phasesWithEnemies": [3, 5, 6],
+      "phasesNoBattle": [1, 2, 4, 7],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408790210",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408790210.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9408790220",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408790220.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9408790230",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408790230.txt"
+        }]
+      }, {
+        "phase": 4,
+        "scripts": [{
+          "scriptId": "9408790240",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408790240.txt"
+        }]
+      }, {
+        "phase": 5,
+        "scripts": [{
+          "scriptId": "9408790250",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408790250.txt"
+        }, {
+          "scriptId": "9408790251",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408790251.txt"
+        }]
+      }, {
+        "phase": 6,
+        "scripts": [{
+          "scriptId": "9408790260",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408790260.txt"
+        }, {
+          "scriptId": "9408790261",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408790261.txt"
+        }]
+      }, {
+        "phase": 7,
+        "scripts": [{
+          "scriptId": "9408790270",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408790270.txt"
+        }]
+      }],
+      "priority": 94088396,
+      "noticeAt": 1691744400,
+      "openedAt": 1691744400,
+      "closedAt": 1693540799
+    }, {
+      "id": 94087905,
+      "name": "３．同盟の逆襲（Ⅰ）　3/4",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "30",
+      "spotId": 916005,
+      "warId": 9160,
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94087904
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "questGroupClear",
+        "targetId": 94088001,
+        "value": 1,
+        "closedMessage": "１つのサークル進捗度をLv.3で開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408790510",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408790510.txt"
+        }]
+      }],
+      "priority": 94088393,
+      "noticeAt": 1691744400,
+      "openedAt": 1691744400,
+      "closedAt": 1693540799
+    }, {
+      "id": 94087907,
+      "name": "",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "35",
+      "spotId": 916005,
+      "warId": 9160,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/3.png",
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94087906
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "forceFalse",
+        "targetId": 0,
+        "closedMessage": "データ更新後に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94088391,
+      "noticeAt": 1691744400,
+      "openedAt": 1691917200,
+      "closedAt": 1693540799
+    }, {
+      "id": 94088000,
+      "name": "『カルデアゲーム部』に差し入れする",
+      "type": "event",
+      "flags": ["noBattle"],
+      "consumeType": "item",
+      "consume": 0,
+      "consumeItem": [{
+        "itemId": 94087911,
+        "amount": 10
+      }],
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 916005,
+      "warId": 9160,
+      "gifts": [{
+        "objectId": 6503,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94088020
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94088159,
+      "noticeAt": 1691744400,
+      "openedAt": 1691744400,
+      "closedAt": 1693540799
+    }, {
+      "id": 94088001,
+      "name": "『カルデアゲーム部』に差し入れする",
+      "type": "event",
+      "flags": ["noBattle"],
+      "consumeType": "item",
+      "consume": 0,
+      "consumeItem": [{
+        "itemId": 94087911,
+        "amount": 15
+      }],
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 916005,
+      "warId": 9160,
+      "gifts": [{
+        "objectId": 6503,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94088000
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94088158,
+      "noticeAt": 1691744400,
+      "openedAt": 1691744400,
+      "closedAt": 1693540799
+    }, {
+      "id": 94088002,
+      "name": "『カルデアゲーム部』に差し入れする",
+      "type": "event",
+      "flags": ["noBattle"],
+      "consumeType": "item",
+      "consume": 0,
+      "consumeItem": [{
+        "itemId": 94087911,
+        "amount": 20
+      }],
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 916005,
+      "warId": 9160,
+      "gifts": [{
+        "objectId": 6503,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94088067
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94088157,
+      "noticeAt": 1691744400,
+      "openedAt": 1691744400,
+      "closedAt": 1693540799
+    }, {
+      "id": 94088003,
+      "name": "『カルデアゲーム部』に差し入れする",
+      "type": "event",
+      "flags": ["noBattle"],
+      "consumeType": "item",
+      "consume": 0,
+      "consumeItem": [{
+        "itemId": 94087911,
+        "amount": 20
+      }, {
+        "itemId": 94087912,
+        "amount": 5
+      }, {
+        "itemId": 94087913,
+        "amount": 5
+      }],
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 916005,
+      "warId": 9160,
+      "gifts": [{
+        "objectId": 6503,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94088002
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94088156,
+      "noticeAt": 1691744400,
+      "openedAt": 1691744400,
+      "closedAt": 1693540799
+    }, {
+      "id": 94088004,
+      "name": "『ハタオリヤ』に差し入れする",
+      "type": "event",
+      "flags": ["noBattle"],
+      "consumeType": "item",
+      "consume": 0,
+      "consumeItem": [{
+        "itemId": 94087912,
+        "amount": 10
+      }],
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 916005,
+      "warId": 9160,
+      "gifts": [{
+        "objectId": 6549,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94088021
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94088176,
+      "noticeAt": 1691744400,
+      "openedAt": 1691744400,
+      "closedAt": 1693540799
+    }, {
+      "id": 94088005,
+      "name": "『ハタオリヤ』に差し入れする",
+      "type": "event",
+      "flags": ["noBattle"],
+      "consumeType": "item",
+      "consume": 0,
+      "consumeItem": [{
+        "itemId": 94087912,
+        "amount": 15
+      }],
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 916005,
+      "warId": 9160,
+      "gifts": [{
+        "objectId": 6549,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94088004
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94088175,
+      "noticeAt": 1691744400,
+      "openedAt": 1691744400,
+      "closedAt": 1693540799
+    }, {
+      "id": 94088006,
+      "name": "『ハタオリヤ』に差し入れする",
+      "type": "event",
+      "flags": ["noBattle"],
+      "consumeType": "item",
+      "consume": 0,
+      "consumeItem": [{
+        "itemId": 94087912,
+        "amount": 20
+      }],
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 916005,
+      "warId": 9160,
+      "gifts": [{
+        "objectId": 6549,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94088069
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94088174,
+      "noticeAt": 1691744400,
+      "openedAt": 1691744400,
+      "closedAt": 1693540799
+    }, {
+      "id": 94088007,
+      "name": "『ハタオリヤ』に差し入れする",
+      "type": "event",
+      "flags": ["noBattle"],
+      "consumeType": "item",
+      "consume": 0,
+      "consumeItem": [{
+        "itemId": 94087911,
+        "amount": 5
+      }, {
+        "itemId": 94087912,
+        "amount": 20
+      }, {
+        "itemId": 94087913,
+        "amount": 5
+      }],
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 916005,
+      "warId": 9160,
+      "gifts": [{
+        "objectId": 6549,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94088006
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94088173,
+      "noticeAt": 1691744400,
+      "openedAt": 1691744400,
+      "closedAt": 1693540799
+    }, {
+      "id": 94088008,
+      "name": "『ヨロシク梁山泊』に差し入れする",
+      "type": "event",
+      "flags": ["noBattle"],
+      "consumeType": "item",
+      "consume": 0,
+      "consumeItem": [{
+        "itemId": 94087913,
+        "amount": 10
+      }],
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 916005,
+      "warId": 9160,
+      "gifts": [{
+        "objectId": 6512,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94088022
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94088191,
+      "noticeAt": 1691744400,
+      "openedAt": 1691744400,
+      "closedAt": 1693540799
+    }, {
+      "id": 94088009,
+      "name": "『ヨロシク梁山泊』に差し入れする",
+      "type": "event",
+      "flags": ["noBattle"],
+      "consumeType": "item",
+      "consume": 0,
+      "consumeItem": [{
+        "itemId": 94087913,
+        "amount": 15
+      }],
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 916005,
+      "warId": 9160,
+      "gifts": [{
+        "objectId": 6512,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94088008
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94088190,
+      "noticeAt": 1691744400,
+      "openedAt": 1691744400,
+      "closedAt": 1693540799
+    }, {
+      "id": 94088010,
+      "name": "『ヨロシク梁山泊』に差し入れする",
+      "type": "event",
+      "flags": ["noBattle"],
+      "consumeType": "item",
+      "consume": 0,
+      "consumeItem": [{
+        "itemId": 94087913,
+        "amount": 20
+      }],
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 916005,
+      "warId": 9160,
+      "gifts": [{
+        "objectId": 6512,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94088071
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94088189,
+      "noticeAt": 1691744400,
+      "openedAt": 1691744400,
+      "closedAt": 1693540799
+    }, {
+      "id": 94088011,
+      "name": "『ヨロシク梁山泊』に差し入れする",
+      "type": "event",
+      "flags": ["noBattle"],
+      "consumeType": "item",
+      "consume": 0,
+      "consumeItem": [{
+        "itemId": 94087911,
+        "amount": 5
+      }, {
+        "itemId": 94087912,
+        "amount": 5
+      }, {
+        "itemId": 94087913,
+        "amount": 20
+      }],
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 916005,
+      "warId": 9160,
+      "gifts": [{
+        "objectId": 6512,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94088010
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94088188,
+      "noticeAt": 1691744400,
+      "openedAt": 1691744400,
+      "closedAt": 1693540799
+    }, {
+      "id": 94088012,
+      "name": "『たのしい保健室』に差し入れする",
+      "type": "event",
+      "flags": ["noBattle"],
+      "consumeType": "item",
+      "consume": 0,
+      "consumeItem": [{
+        "itemId": 94087912,
+        "amount": 5
+      }, {
+        "itemId": 94087913,
+        "amount": 5
+      }],
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 916005,
+      "warId": 9160,
+      "gifts": [{
+        "objectId": 6530,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94088023
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94088130,
+      "noticeAt": 1691744400,
+      "openedAt": 1691744400,
+      "closedAt": 1693540799
+    }, {
+      "id": 94088013,
+      "name": "『たのしい保健室』に差し入れする",
+      "type": "event",
+      "flags": ["noBattle"],
+      "consumeType": "item",
+      "consume": 0,
+      "consumeItem": [{
+        "itemId": 94087912,
+        "amount": 8
+      }, {
+        "itemId": 94087913,
+        "amount": 8
+      }],
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 916005,
+      "warId": 9160,
+      "gifts": [{
+        "objectId": 6530,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94088012
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94088129,
+      "noticeAt": 1691744400,
+      "openedAt": 1691744400,
+      "closedAt": 1693540799
+    }, {
+      "id": 94088014,
+      "name": "『たのしい保健室』に差し入れする",
+      "type": "event",
+      "flags": ["noBattle"],
+      "consumeType": "item",
+      "consume": 0,
+      "consumeItem": [{
+        "itemId": 94087912,
+        "amount": 10
+      }, {
+        "itemId": 94087913,
+        "amount": 10
+      }],
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 916005,
+      "warId": 9160,
+      "gifts": [{
+        "objectId": 6530,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94088013
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94088128,
+      "noticeAt": 1691744400,
+      "openedAt": 1691744400,
+      "closedAt": 1693540799
+    }, {
+      "id": 94088015,
+      "name": "『たのしい保健室』に差し入れする",
+      "type": "event",
+      "flags": ["noBattle"],
+      "consumeType": "item",
+      "consume": 0,
+      "consumeItem": [{
+        "itemId": 94087911,
+        "amount": 5
+      }, {
+        "itemId": 94087912,
+        "amount": 12
+      }, {
+        "itemId": 94087913,
+        "amount": 12
+      }],
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 916005,
+      "warId": 9160,
+      "gifts": [{
+        "objectId": 6530,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94088014
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94088127,
+      "noticeAt": 1691744400,
+      "openedAt": 1691744400,
+      "closedAt": 1693540799
+    }, {
+      "id": 94088016,
+      "name": "『美少年』に差し入れする",
+      "type": "event",
+      "flags": ["noBattle"],
+      "consumeType": "item",
+      "consume": 0,
+      "consumeItem": [{
+        "itemId": 94087911,
+        "amount": 5
+      }, {
+        "itemId": 94087912,
+        "amount": 5
+      }],
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 916005,
+      "warId": 9160,
+      "gifts": [{
+        "objectId": 6552,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94088024
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94088143,
+      "noticeAt": 1691744400,
+      "openedAt": 1691744400,
+      "closedAt": 1693540799
+    }, {
+      "id": 94088017,
+      "name": "『美少年』に差し入れする",
+      "type": "event",
+      "flags": ["noBattle"],
+      "consumeType": "item",
+      "consume": 0,
+      "consumeItem": [{
+        "itemId": 94087911,
+        "amount": 8
+      }, {
+        "itemId": 94087912,
+        "amount": 8
+      }],
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 916005,
+      "warId": 9160,
+      "gifts": [{
+        "objectId": 6552,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94088016
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94088142,
+      "noticeAt": 1691744400,
+      "openedAt": 1691744400,
+      "closedAt": 1693540799
+    }, {
+      "id": 94088018,
+      "name": "『美少年』に差し入れする",
+      "type": "event",
+      "flags": ["noBattle"],
+      "consumeType": "item",
+      "consume": 0,
+      "consumeItem": [{
+        "itemId": 94087911,
+        "amount": 10
+      }, {
+        "itemId": 94087912,
+        "amount": 10
+      }],
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 916005,
+      "warId": 9160,
+      "gifts": [{
+        "objectId": 6552,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94088073
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94088141,
+      "noticeAt": 1691744400,
+      "openedAt": 1691744400,
+      "closedAt": 1693540799
+    }, {
+      "id": 94088019,
+      "name": "『美少年』に差し入れする",
+      "type": "event",
+      "flags": ["noBattle"],
+      "consumeType": "item",
+      "consume": 0,
+      "consumeItem": [{
+        "itemId": 94087911,
+        "amount": 12
+      }, {
+        "itemId": 94087912,
+        "amount": 12
+      }, {
+        "itemId": 94087913,
+        "amount": 5
+      }],
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 916005,
+      "warId": 9160,
+      "gifts": [{
+        "objectId": 6552,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94088018
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94088140,
+      "noticeAt": 1691744400,
+      "openedAt": 1691744400,
+      "closedAt": 1693540799
+    }, {
+      "id": 94088020,
+      "name": "カルデアゲーム三昧 ～アルトリアさんと遊ぼう～　１",
+      "type": "event",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 916005,
+      "warId": 9160,
+      "gifts": [{
+        "objectId": 6503,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94087904
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1, 2],
+      "phasesWithEnemies": [2],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408802010",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408802010.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9408802020",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408802020.txt"
+        }, {
+          "scriptId": "9408802021",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408802021.txt"
+        }]
+      }],
+      "priority": 94088167,
+      "noticeAt": 1691744400,
+      "openedAt": 1691744400,
+      "closedAt": 1693540799
+    }, {
+      "id": 94088021,
+      "name": "夏が来た！　１",
+      "type": "event",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 916005,
+      "warId": 9160,
+      "gifts": [{
+        "objectId": 6549,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94087904
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1, 2],
+      "phasesNoBattle": [1, 2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408802110",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408802110.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9408802120",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408802120.txt"
+        }]
+      }],
+      "priority": 94088182,
+      "noticeAt": 1691744400,
+      "openedAt": 1691744400,
+      "closedAt": 1693540799
+    }, {
+      "id": 94088022,
+      "name": "１０８人アルトリア大同人本　１",
+      "type": "event",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 916005,
+      "warId": 9160,
+      "gifts": [{
+        "objectId": 6512,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94087904
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408802210",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408802210.txt"
+        }]
+      }],
+      "priority": 94088198,
+      "noticeAt": 1691744400,
+      "openedAt": 1691744400,
+      "closedAt": 1693540799
+    }, {
+      "id": 94088067,
+      "name": "カルデアゲーム三昧 ～アルトリアさんと遊ぼう～　２",
+      "type": "event",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "40",
+      "spotId": 916005,
+      "warId": 9160,
+      "gifts": [{
+        "objectId": 6503,
+        "num": 2
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94088001
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408806710",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408806710.txt"
+        }, {
+          "scriptId": "9408806711",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408806711.txt"
+        }]
+      }],
+      "priority": 94088166,
+      "noticeAt": 1691744400,
+      "openedAt": 1691744400,
+      "closedAt": 1693540799
+    }, {
+      "id": 94088068,
+      "name": "カルデアゲーム三昧 ～アルトリアさんと遊ぼう～　３",
+      "type": "event",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "40",
+      "spotId": 916005,
+      "warId": 9160,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/3.png",
+      "gifts": [{
+        "type": "servant",
+        "objectId": 9808770,
+        "num": 1
+      }, {
+        "objectId": 6503,
+        "num": 2
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94088003
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408806810",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408806810.txt"
+        }, {
+          "scriptId": "9408806811",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408806811.txt"
+        }]
+      }],
+      "priority": 94088165,
+      "noticeAt": 1691744400,
+      "openedAt": 1691744400,
+      "closedAt": 1693540799
+    }, {
+      "id": 94088069,
+      "name": "夏が来た！　２",
+      "type": "event",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 916005,
+      "warId": 9160,
+      "gifts": [{
+        "objectId": 6549,
+        "num": 2
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94088005
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1, 2, 3],
+      "phasesNoBattle": [1, 2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408806910",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408806910.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9408806920",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408806920.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9408806930",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408806930.txt"
+        }]
+      }],
+      "priority": 94088181,
+      "noticeAt": 1691744400,
+      "openedAt": 1691744400,
+      "closedAt": 1693540799
+    }, {
+      "id": 94088070,
+      "name": "夏が来た！　３",
+      "type": "event",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 916005,
+      "warId": 9160,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/3.png",
+      "gifts": [{
+        "type": "servant",
+        "objectId": 9808850,
+        "num": 1
+      }, {
+        "objectId": 6549,
+        "num": 2
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94088007
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408807010",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408807010.txt"
+        }]
+      }],
+      "priority": 94088180,
+      "noticeAt": 1691744400,
+      "openedAt": 1691744400,
+      "closedAt": 1693540799
+    }, {
+      "id": 94088071,
+      "name": "１０８人アルトリア大同人本　２",
+      "type": "event",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 916005,
+      "warId": 9160,
+      "gifts": [{
+        "objectId": 6512,
+        "num": 2
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94088009
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408807110",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408807110.txt"
+        }]
+      }],
+      "priority": 94088197,
+      "noticeAt": 1691744400,
+      "openedAt": 1691744400,
+      "closedAt": 1693540799
+    }, {
+      "id": 94088072,
+      "name": "１０８人アルトリア大同人本　３",
+      "type": "event",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "40",
+      "spotId": 916005,
+      "warId": 9160,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/3.png",
+      "gifts": [{
+        "type": "servant",
+        "objectId": 9808790,
+        "num": 1
+      }, {
+        "objectId": 6512,
+        "num": 2
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94088011
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408807210",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408807210.txt"
+        }, {
+          "scriptId": "9408807211",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408807211.txt"
+        }]
+      }],
+      "priority": 94088196,
+      "noticeAt": 1691744400,
+      "openedAt": 1691744400,
+      "closedAt": 1693540799
+    }, {
+      "id": 94088074,
+      "name": "寄せ返す渚に惑い戯れる　３",
+      "type": "event",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 916005,
+      "warId": 9160,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/3.png",
+      "gifts": [{
+        "type": "servant",
+        "objectId": 9808830,
+        "num": 1
+      }, {
+        "objectId": 6552,
+        "num": 2
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94088019
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1, 2],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408807410",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408807410.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9408807420",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408807420.txt"
+        }, {
+          "scriptId": "9408807421",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408807421.txt"
+        }]
+      }],
+      "priority": 94088148,
+      "noticeAt": 1691744400,
+      "openedAt": 1691744400,
+      "closedAt": 1693540799
+    }]
+  }, {
+    "id": 916006,
+    "mapId": 9160,
+    "name": "サバフェス会場",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9160/QMap_Cap9160_Atlas/spot_916006.png",
+    "x": 1699,
+    "y": 1083,
+    "nameOfsY": -1,
+    "questOfsX": 45,
+    "questOfsY": -65,
+    "quests": [{
+      "id": 94087950,
+      "name": "",
+      "type": "event",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 916006,
+      "warId": 9160,
+      "releaseConditions": [{
+        "type": "questClearPhase",
+        "targetId": 94087901,
+        "value": 1
+      }, {
+        "type": "notQuestClearPhase",
+        "targetId": 94087917,
+        "value": 1
+      }, {
+        "type": "forceFalse",
+        "targetId": 0,
+        "closedMessage": "【正常化委員会本部】ＤＡＹ１のみ営業"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94088381,
+      "noticeAt": 1691744400,
+      "openedAt": 1691744400,
+      "closedAt": 1693540799
+    }, {
+      "id": 94088023,
+      "name": "健康の大切さを知る処方箋　１",
+      "type": "event",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "40",
+      "spotId": 916006,
+      "warId": 9160,
+      "gifts": [{
+        "objectId": 6530,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94087904
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1, 2],
+      "phasesWithEnemies": [1, 2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408802310",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408802310.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9408802320",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408802320.txt"
+        }, {
+          "scriptId": "9408802321",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408802321.txt"
+        }]
+      }],
+      "priority": 94088134,
+      "noticeAt": 1691744400,
+      "openedAt": 1691744400,
+      "closedAt": 1693540799
+    }, {
+      "id": 94088066,
+      "name": "健康の大切さを知る処方箋　２",
+      "type": "event",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 916006,
+      "warId": 9160,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/3.png",
+      "gifts": [{
+        "type": "servant",
+        "objectId": 9808810,
+        "num": 1
+      }, {
+        "objectId": 6530,
+        "num": 4
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94088015
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408806610",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408806610.txt"
+        }]
+      }],
+      "priority": 94088133,
+      "noticeAt": 1691744400,
+      "openedAt": 1691744400,
+      "closedAt": 1693540799
+    }, {
+      "id": 94088104,
+      "name": "調査せよ！ 大手サークルのサボリ現場！",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "60",
+      "spotId": 916006,
+      "warId": 9160,
+      "gifts": [{
+        "objectId": 101,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94087906
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "priority": 94087994,
+      "noticeAt": 1691744400,
+      "openedAt": 1691744400,
+      "closedAt": 1693540799
+    }]
+  }, {
+    "id": 916007,
+    "mapId": 9160,
+    "name": "ワイキキストリート",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9160/QMap_Cap9160_Atlas/spot_916007.png",
+    "x": 2038,
+    "y": 1110,
+    "questOfsX": 43,
+    "questOfsY": -70,
+    "quests": [{
+      "id": 94088073,
+      "name": "寄せ返す渚に惑い戯れる　２",
+      "type": "event",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "40",
+      "spotId": 916007,
+      "warId": 9160,
+      "gifts": [{
+        "objectId": 6552,
+        "num": 2
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94088017
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1, 2],
+      "phasesNoBattle": [2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408807310",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408807310.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9408807320",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408807320.txt"
+        }]
+      }],
+      "priority": 94088149,
+      "noticeAt": 1691744400,
+      "openedAt": 1691744400,
+      "closedAt": 1693540799
+    }, {
+      "id": 94088100,
+      "name": "調査せよ！ 華麗なるコスプレ強制紳士！",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 30,
+      "afterClear": "repeatLast",
+      "recommendLv": "20",
+      "spotId": 916007,
+      "warId": 9160,
+      "gifts": [{
+        "objectId": 102,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94087903
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94087998,
+      "noticeAt": 1691744400,
+      "openedAt": 1691744400,
+      "closedAt": 1693540799
+    }]
+  }, {
+    "id": 916008,
+    "mapId": 9160,
+    "name": "ダイヤモンドヘッド",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9160/QMap_Cap9160_Atlas/spot_916008.png",
+    "x": 2186,
+    "y": 1255,
+    "nameOfsY": -3,
+    "questOfsX": 37,
+    "questOfsY": -60,
+    "quests": [{
+      "id": 94088101,
+      "name": "調査せよ！ 山から響く謎の美声！",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 35,
+      "afterClear": "repeatLast",
+      "recommendLv": "30",
+      "spotId": 916008,
+      "warId": 9160,
+      "gifts": [{
+        "objectId": 102,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94087903
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94087997,
+      "noticeAt": 1691744400,
+      "openedAt": 1691744400,
+      "closedAt": 1693540799
+    }]
+  }, {
+    "id": 916009,
+    "mapId": 9160,
+    "name": "ワイキキビーチ",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9160/QMap_Cap9160_Atlas/spot_916009.png",
+    "x": 1961,
+    "y": 1242,
+    "nameOfsY": -7,
+    "questOfsX": 40,
+    "questOfsY": -74,
+    "quests": [{
+      "id": 94088024,
+      "name": "寄せ返す渚に惑い戯れる　１",
+      "type": "event",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 916009,
+      "warId": 9160,
+      "gifts": [{
+        "objectId": 6552,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94087904
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1, 2],
+      "phasesNoBattle": [1, 2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408802410",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408802410.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9408802420",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408802420.txt"
+        }]
+      }],
+      "priority": 94088150,
+      "noticeAt": 1691744400,
+      "openedAt": 1691744400,
+      "closedAt": 1693540799
+    }, {
+      "id": 94088102,
+      "name": "調査せよ！ バナナの消費が爆上がり！？",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "40",
+      "spotId": 916009,
+      "warId": 9160,
+      "gifts": [{
+        "objectId": 101,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94087903
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94087996,
+      "noticeAt": 1691744400,
+      "openedAt": 1691744400,
+      "closedAt": 1693540799
+    }]
+  }, {
+    "id": 916010,
+    "mapId": 9160,
+    "name": "ちゅんちゅん亭",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9160/QMap_Cap9160_Atlas/spot_916010.png",
+    "x": 1878,
+    "y": 1018,
+    "nameOfsY": -7,
+    "questOfsX": 31,
+    "questOfsY": -91,
+    "quests": [{
+      "id": 94087903,
+      "name": "３．同盟の逆襲（Ⅰ）　1/4",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "30",
+      "spotId": 916010,
+      "warId": 9160,
+      "gifts": [{
+        "type": "servant",
+        "objectId": 9407250,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94087902
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1, 2, 3],
+      "phasesWithEnemies": [1],
+      "phasesNoBattle": [2, 3],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408790310",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408790310.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9408790320",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408790320.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9408790330",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408790330.txt"
+        }]
+      }],
+      "priority": 94088395,
+      "noticeAt": 1691744400,
+      "openedAt": 1691744400,
+      "closedAt": 1693540799
+    }, {
+      "id": 94087904,
+      "name": "３．同盟の逆襲（Ⅰ）　2/4",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "30",
+      "spotId": 916010,
+      "warId": 9160,
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94087903
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1, 2, 3],
+      "phasesWithEnemies": [2],
+      "phasesNoBattle": [1, 3],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408790410",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408790410.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9408790420",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408790420.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9408790430",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408790430.txt"
+        }]
+      }],
+      "priority": 94088394,
+      "noticeAt": 1691744400,
+      "openedAt": 1691744400,
+      "closedAt": 1693540799
+    }, {
+      "id": 94087906,
+      "name": "３．同盟の逆襲（Ⅰ）　4/4",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "30",
+      "spotId": 916010,
+      "warId": 9160,
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94087905
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "questGroupClear",
+        "targetId": 94088002,
+        "value": 3,
+        "closedMessage": "同人誌を3冊入手で開放"
+      }],
+      "phases": [1, 2],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408790610",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408790610.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9408790620",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408790620.txt"
+        }, {
+          "scriptId": "9408790621",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408790621.txt"
+        }]
+      }],
+      "priority": 94088392,
+      "noticeAt": 1691744400,
+      "openedAt": 1691744400,
+      "closedAt": 1693540799
+    }, {
+      "id": 94088103,
+      "name": "調査せよ！ お宿に出てくる百鬼夜行！",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "50",
+      "spotId": 916010,
+      "warId": 9160,
+      "gifts": [{
+        "objectId": 101,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94087903
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94087995,
+      "noticeAt": 1691744400,
+      "openedAt": 1691744400,
+      "closedAt": 1693540799
+    }]
+  }, {
+    "id": 916099,
+    "mapId": 9160,
+    "name": "",
+    "nameOfsY": 3,
+    "questOfsX": 41,
+    "questOfsY": -71,
+    "quests": [{
+      "id": 94087900,
+      "name": "０．マスターはルルハワの夢を見るか？（序）",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 916099,
+      "warId": 9160,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/3.png",
+      "gifts": [{
+        "type": "equip",
+        "objectId": 330,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 1000011
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408790010",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408790010.txt"
+        }]
+      }],
+      "priority": 94088398,
+      "noticeAt": 1691744400,
+      "openedAt": 1691744400,
+      "closedAt": 1693540799
+    }, {
+      "id": 94087901,
+      "name": "１．マスターはルルハワの夢を見るか？",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "15",
+      "spotId": 916099,
+      "warId": 9160,
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94087900
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1, 2, 3, 4, 5],
+      "phasesWithEnemies": [2, 3, 4, 5],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408790110",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408790110.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9408790120",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408790120.txt"
+        }, {
+          "scriptId": "9408790121",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408790121.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9408790130",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408790130.txt"
+        }]
+      }, {
+        "phase": 4,
+        "scripts": [{
+          "scriptId": "9408790140",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408790140.txt"
+        }]
+      }, {
+        "phase": 5,
+        "scripts": [{
+          "scriptId": "9408790150",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408790150.txt"
+        }, {
+          "scriptId": "9408790151",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408790151.txt"
+        }]
+      }],
+      "priority": 94088397,
+      "noticeAt": 1691744400,
+      "openedAt": 1691744400,
+      "closedAt": 1693540799
+    }]
+  }],
+  "spotRoads": [{
+    "id": 916001,
+    "warId": 9160,
+    "mapId": 9160,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9160/QMap_Cap9160_Atlas/img_road9160_00.png",
+    "srcSpotId": 916004,
+    "dstSpotId": 916007,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "questClear"
+  }, {
+    "id": 916002,
+    "warId": 9160,
+    "mapId": 9160,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9160/QMap_Cap9160_Atlas/img_road9160_00.png",
+    "srcSpotId": 916007,
+    "dstSpotId": 916005,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "questClear"
+  }, {
+    "id": 916003,
+    "warId": 9160,
+    "mapId": 9160,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9160/QMap_Cap9160_Atlas/img_road9160_00.png",
+    "srcSpotId": 916007,
+    "dstSpotId": 916008,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "questClear"
+  }, {
+    "id": 916004,
+    "warId": 9160,
+    "mapId": 9160,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9160/QMap_Cap9160_Atlas/img_road9160_00.png",
+    "srcSpotId": 916008,
+    "dstSpotId": 916009,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "questClear"
+  }, {
+    "id": 916005,
+    "warId": 9160,
+    "mapId": 9160,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9160/QMap_Cap9160_Atlas/img_road9160_00.png",
+    "srcSpotId": 916009,
+    "dstSpotId": 916005,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "questClear"
+  }, {
+    "id": 916006,
+    "warId": 9160,
+    "mapId": 9160,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9160/QMap_Cap9160_Atlas/img_road9160_00.png",
+    "srcSpotId": 916005,
+    "dstSpotId": 916010,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "questClear"
+  }, {
+    "id": 916007,
+    "warId": 9160,
+    "mapId": 9160,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9160/QMap_Cap9160_Atlas/img_road9160_00.png",
+    "srcSpotId": 916010,
+    "dstSpotId": 916009,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "questClear"
+  }, {
+    "id": 916008,
+    "warId": 9160,
+    "mapId": 9160,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9160/QMap_Cap9160_Atlas/img_road9160_00.png",
+    "srcSpotId": 916010,
+    "dstSpotId": 916006,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "questClear"
+  }, {
+    "id": 916009,
+    "warId": 9160,
+    "mapId": 9160,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9160/QMap_Cap9160_Atlas/img_road9160_00.png",
+    "srcSpotId": 916006,
+    "dstSpotId": 916005,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "questClear"
+  }]
 }]
