@@ -9651,6 +9651,29 @@
     "maxRate": 0
   }]
 }, {
+  "funcId": 842,
+  "funcType": "addState",
+  "funcTargetType": "ptFull",
+  "funcTargetTeam": "player",
+  "funcPopupText": "スター発生アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_321.png",
+  "buffs": [{
+    "id": 117,
+    "name": "スター発生アップ",
+    "detail": "スター発生率をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_321.png",
+    "type": "upCriticalpoint",
+    "script": {
+      "ProgressSelfTurn": 1
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3083
+    }],
+    "maxRate": 5000
+  }]
+}, {
   "funcId": 843,
   "funcType": "addState",
   "funcTargetType": "ptFull",
@@ -35302,6 +35325,31 @@
     "id": 117
   }]
 }, {
+  "funcId": 9077,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptFull",
+  "funcTargetTeam": "enemy",
+  "funcPopupText": "クリティカル発生アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_327.png",
+  "buffs": [{
+    "id": 144,
+    "name": "クリティカル発生アップ",
+    "detail": "クリティカルの発生率をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_327.png",
+    "type": "upCriticalrate",
+    "script": {
+      "ProgressSelfTurn": 1
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3032
+    }],
+    "maxRate": 5000
+  }]
+}, {
   "funcId": 9124,
   "funcType": "eventDropUp",
   "funcTargetType": "self",
@@ -40632,6 +40680,157 @@
     "id": 2872
   }]
 }, {
+  "funcId": 21115,
+  "funcType": "addState",
+  "funcTargetType": "ptOther",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "マイフェアソルジャー",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_511.png",
+  "buffs": [{
+    "id": 5448,
+    "name": "マイフェアソルジャー",
+    "detail": "スキルを使用できなくなる",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_511.png",
+    "type": "donotSkill",
+    "buffGroup": 5448,
+    "script": {
+      "ProgressSelfTurn": 1
+    },
+    "vals": [{
+      "id": 3005
+    }, {
+      "id": 3025
+    }, {
+      "id": 2873
+    }],
+    "maxRate": 0
+  }]
+}, {
+  "funcId": 21116,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptOther",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "攻撃力アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_300.png",
+  "buffs": [{
+    "id": 5449,
+    "name": "攻撃力アップ",
+    "detail": "〔マイフェアソルジャー〕状態の間、攻撃力をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_300.png",
+    "type": "upAtk",
+    "script": {
+      "INDIVIDUALITIE": {
+        "id": 2873
+      },
+      "ProgressSelfTurn": 1
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3027
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 21117,
+  "funcType": "addState",
+  "funcTargetType": "ptOther",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "防御力アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_301.png",
+  "buffs": [{
+    "id": 5450,
+    "name": "防御力アップ",
+    "detail": "〔マイフェアソルジャー〕状態の間、防御力をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_301.png",
+    "type": "upDefence",
+    "script": {
+      "INDIVIDUALITIE": {
+        "id": 2873
+      }
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3007
+    }, {
+      "id": 3040
+    }, {
+      "id": 3058
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 21118,
+  "funcType": "gainNp",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "player",
+  "funcPopupText": "NP増加",
+  "functvals": [{
+    "id": 2873
+  }]
+}, {
+  "funcId": 21119,
+  "funcType": "hastenNpturn",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "enemy",
+  "funcPopupText": "チャージ増加",
+  "functvals": [{
+    "id": 2873
+  }]
+}, {
+  "funcId": 21120,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "アーツ封印",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_552.png",
+  "functvals": [{
+    "id": 704700,
+    "negative": true
+  }, {
+    "id": 504500,
+    "negative": true
+  }, {
+    "id": 9943080,
+    "negative": true
+  }, {
+    "id": 9943090,
+    "negative": true
+  }, {
+    "id": 2501200,
+    "negative": true
+  }, {
+    "id": 9945150,
+    "negative": true
+  }],
+  "buffs": [{
+    "id": 1136,
+    "name": "Arts封印",
+    "detail": "Artsカードを使用できなくする",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_552.png",
+    "type": "donotActCommandtype",
+    "buffGroup": 41,
+    "vals": [{
+      "id": 3005
+    }, {
+      "id": 3056
+    }, {
+      "id": 3045
+    }],
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4001
+    }],
+    "ckSelfIndv": [{
+      "id": 4001
+    }],
+    "maxRate": 0
+  }]
+}, {
   "funcId": 21121,
   "funcType": "addStateShort",
   "funcTargetType": "ptAll",
@@ -40718,6 +40917,31 @@
       "id": 3004
     }],
     "maxRate": 0
+  }]
+}, {
+  "funcId": 21163,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptOtherFull",
+  "funcTargetTeam": "player",
+  "funcPopupText": "NP獲得アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_303.png",
+  "buffs": [{
+    "id": 5466,
+    "name": "NP獲得アップ",
+    "detail": "NP獲得量をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_303.png",
+    "type": "upDropnp",
+    "script": {
+      "INDIVIDUALITIE": {
+        "id": 2873
+      }
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3084
+    }],
+    "maxRate": 5000
   }]
 }, {
   "funcId": 30003,

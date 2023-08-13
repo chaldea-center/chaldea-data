@@ -99712,7 +99712,7 @@
       "closedAt": 1693540799
     }, {
       "id": 94087907,
-      "name": "",
+      "name": "４．ハワトリアのひみつ（そのいち）",
       "type": "main",
       "flags": ["noBattle"],
       "consume": 5,
@@ -99721,22 +99721,74 @@
       "spotId": 916005,
       "warId": 9160,
       "giftIcon": "https://static.atlasacademy.io/JP/Items/3.png",
+      "gifts": [{
+        "objectId": 94087900,
+        "num": 1
+      }, {
+        "type": "eventSvtJoin",
+        "objectId": 2501200,
+        "num": 1
+      }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 94087906
       }, {
         "type": "date",
         "targetId": 0,
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
-      }, {
-        "type": "forceFalse",
-        "targetId": 0,
-        "closedMessage": "データ更新後に開放"
       }],
       "phases": [1],
       "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408790710",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408790710.txt"
+        }]
+      }],
       "priority": 94088391,
       "noticeAt": 1691744400,
+      "openedAt": 1691917200,
+      "closedAt": 1693540799
+    }, {
+      "id": 94087909,
+      "name": "４．ハワトリアのひみつ（そのさん）",
+      "type": "main",
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 916005,
+      "warId": 9160,
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94087908
+      }, {
+        "type": "itemGet",
+        "targetId": 94087914,
+        "closedMessage": "ソーダアイスを所持で開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408790910",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408790910.txt"
+        }]
+      }],
+      "priority": 94088389,
+      "noticeAt": 1691917200,
       "openedAt": 1691917200,
       "closedAt": 1693540799
     }, {
@@ -100940,6 +100992,12 @@
           "scriptId": "9408802321",
           "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408802321.txt"
         }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9408802330",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408802330.txt"
+        }]
       }],
       "priority": 94088134,
       "noticeAt": 1691744400,
@@ -101178,6 +101236,33 @@
           "scriptId": "9408802420",
           "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408802420.txt"
         }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9408802430",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408802430.txt"
+        }]
+      }, {
+        "phase": 4,
+        "scripts": [{
+          "scriptId": "9408802440",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408802440.txt"
+        }]
+      }, {
+        "phase": 5,
+        "scripts": [{
+          "scriptId": "9408802450",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408802450.txt"
+        }]
+      }, {
+        "phase": 6,
+        "scripts": [{
+          "scriptId": "9408802460",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408802460.txt"
+        }, {
+          "scriptId": "9408802461",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408802461.txt"
+        }]
       }],
       "priority": 94088150,
       "noticeAt": 1691744400,
@@ -101396,6 +101481,284 @@
       "closedAt": 1693540799
     }]
   }, {
+    "id": 916011,
+    "mapId": 9160,
+    "name": "日照りの荒野",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9160/QMap_Cap9160_Atlas/spot_916011.png",
+    "x": 1360,
+    "y": 560,
+    "nameOfsY": -7,
+    "questOfsX": 36,
+    "questOfsY": -59,
+    "quests": [{
+      "id": 94087908,
+      "name": "４．ハワトリアのひみつ（そのに）",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "35",
+      "spotId": 916011,
+      "warId": 9160,
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94087907
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1, 2, 3],
+      "phasesWithEnemies": [1],
+      "phasesNoBattle": [2, 3],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408790810",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408790810.txt"
+        }, {
+          "scriptId": "9408790811",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408790811.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9408790820",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408790820.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9408790830",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408790830.txt"
+        }]
+      }],
+      "priority": 94088390,
+      "noticeAt": 1691917200,
+      "openedAt": 1691917200,
+      "closedAt": 1693540799
+    }]
+  }, {
+    "id": 916012,
+    "mapId": 9160,
+    "name": "西部の森",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9160/QMap_Cap9160_Atlas/spot_916012.png",
+    "x": 1289,
+    "y": 688,
+    "nameOfsY": -8,
+    "questOfsX": 35,
+    "questOfsY": -82,
+    "quests": [{
+      "id": 94087910,
+      "name": "５．夜の森に雨の降る",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "35",
+      "spotId": 916012,
+      "warId": 9160,
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94087909
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1, 2, 3, 4],
+      "phasesWithEnemies": [1],
+      "phasesNoBattle": [2, 4],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408791010",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408791010.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9408791020",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408791020.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9408791030",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408791030.txt"
+        }]
+      }, {
+        "phase": 4,
+        "scripts": [{
+          "scriptId": "9408791040",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408791040.txt"
+        }]
+      }],
+      "priority": 94088388,
+      "noticeAt": 1691917200,
+      "openedAt": 1691917200,
+      "closedAt": 1693540799
+    }, {
+      "id": 94088105,
+      "name": "調査せよ！ 森のヌシを操る謎の影！",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "70",
+      "spotId": 916012,
+      "warId": 9160,
+      "gifts": [{
+        "objectId": 101,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94087908
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "priority": 94087993,
+      "noticeAt": 1691917200,
+      "openedAt": 1691917200,
+      "closedAt": 1693540799
+    }]
+  }, {
+    "id": 916013,
+    "mapId": 9160,
+    "name": "魔女の家",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9160/QMap_Cap9160_Atlas/spot_916013.png",
+    "x": 1162,
+    "y": 656,
+    "nameOfsY": -11,
+    "questOfsX": 39,
+    "questOfsY": -99,
+    "quests": [{
+      "id": 94087911,
+      "name": "６．同盟の逆襲（Ⅱ）",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 916013,
+      "warId": 9160,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/3.png",
+      "gifts": [{
+        "objectId": 4001,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94087910
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "questGroupClear",
+        "targetId": 94088002,
+        "value": 5,
+        "closedMessage": "同人誌を5冊入手で開放"
+      }],
+      "phases": [1, 2],
+      "phasesNoBattle": [1, 2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408791110",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408791110.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9408791120",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408791120.txt"
+        }]
+      }],
+      "priority": 94088387,
+      "noticeAt": 1691917200,
+      "openedAt": 1691917200,
+      "closedAt": 1693540799
+    }, {
+      "id": 94088106,
+      "name": "調査せよ！ 魔女の家に住む本の虫？",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "75",
+      "spotId": 916013,
+      "warId": 9160,
+      "gifts": [{
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94087910
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "priority": 94087992,
+      "noticeAt": 1691917200,
+      "openedAt": 1691917200,
+      "closedAt": 1693540799
+    }]
+  }, {
+    "id": 916014,
+    "mapId": 9160,
+    "name": "ブリスティンホテル",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9160/QMap_Cap9160_Atlas/spot_916014.png",
+    "x": 655,
+    "y": 1034,
+    "questOfsX": 45,
+    "questOfsY": -80,
+    "quests": [{
+      "id": 94087912,
+      "name": "",
+      "type": "main",
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 916014,
+      "warId": 9160,
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94087911
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "forceFalse",
+        "targetId": 0,
+        "closedMessage": "データ更新後に開放"
+      }],
+      "phases": [1, 2, 3, 4, 5, 6, 7],
+      "phasesNoBattle": [1, 4, 7],
+      "priority": 94088386,
+      "noticeAt": 1691917200,
+      "openedAt": 1692090000,
+      "closedAt": 1693540799
+    }]
+  }, {
     "id": 916099,
     "mapId": 9160,
     "name": "",
@@ -101593,6 +101956,76 @@
     "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9160/QMap_Cap9160_Atlas/img_road9160_00.png",
     "srcSpotId": 916006,
     "dstSpotId": 916005,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "questClear"
+  }, {
+    "id": 916010,
+    "warId": 9160,
+    "mapId": 9160,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9160/QMap_Cap9160_Atlas/img_road9160_00.png",
+    "srcSpotId": 916005,
+    "dstSpotId": 916011,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "questClear"
+  }, {
+    "id": 916011,
+    "warId": 9160,
+    "mapId": 9160,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9160/QMap_Cap9160_Atlas/img_road9160_00.png",
+    "srcSpotId": 916011,
+    "dstSpotId": 916012,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "questClear"
+  }, {
+    "id": 916012,
+    "warId": 9160,
+    "mapId": 9160,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9160/QMap_Cap9160_Atlas/img_road9160_00.png",
+    "srcSpotId": 916012,
+    "dstSpotId": 916005,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "questClear"
+  }, {
+    "id": 916013,
+    "warId": 9160,
+    "mapId": 9160,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9160/QMap_Cap9160_Atlas/img_road9160_00.png",
+    "srcSpotId": 916009,
+    "dstSpotId": 916012,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "questClear"
+  }, {
+    "id": 916014,
+    "warId": 9160,
+    "mapId": 9160,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9160/QMap_Cap9160_Atlas/img_road9160_00.png",
+    "srcSpotId": 916012,
+    "dstSpotId": 916013,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "questClear"
+  }, {
+    "id": 916015,
+    "warId": 9160,
+    "mapId": 9160,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9160/QMap_Cap9160_Atlas/img_road9160_00.png",
+    "srcSpotId": 916013,
+    "dstSpotId": 916006,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "questClear"
+  }, {
+    "id": 916016,
+    "warId": 9160,
+    "mapId": 9160,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9160/QMap_Cap9160_Atlas/img_road9160_00.png",
+    "srcSpotId": 916006,
+    "dstSpotId": 916014,
     "dispCondType": "useItemTime",
     "dispCondType2": "useItemTime",
     "activeCondType": "questClear"
