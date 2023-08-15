@@ -101452,6 +101452,38 @@
       "openedAt": 1691744400,
       "closedAt": 1693540799
     }, {
+      "id": 94087914,
+      "name": "",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 916010,
+      "warId": 9160,
+      "gifts": [{
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94087913
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "forceFalse",
+        "targetId": 0,
+        "closedMessage": "データ更新後に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94088384,
+      "noticeAt": 1692090000,
+      "openedAt": 1692176400,
+      "closedAt": 1693540799
+    }, {
       "id": 94088103,
       "name": "調査せよ！ お宿に出てくる百鬼夜行！",
       "type": "event",
@@ -101730,7 +101762,7 @@
     "questOfsY": -80,
     "quests": [{
       "id": 94087912,
-      "name": "",
+      "name": "７．Brilliant Week (Ⅰ)",
       "type": "main",
       "consume": 0,
       "afterClear": "close",
@@ -101742,24 +101774,261 @@
         "num": 1
       }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 94087911
       }, {
         "type": "date",
         "targetId": 0,
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
-      }, {
-        "type": "forceFalse",
-        "targetId": 0,
-        "closedMessage": "データ更新後に開放"
       }],
       "phases": [1, 2, 3, 4, 5, 6, 7],
+      "phasesWithEnemies": [2, 3, 5],
       "phasesNoBattle": [1, 4, 7],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408791210",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408791210.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9408791220",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408791220.txt"
+        }, {
+          "scriptId": "9408791221",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408791221.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9408791230",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408791230.txt"
+        }, {
+          "scriptId": "9408791231",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408791231.txt"
+        }]
+      }, {
+        "phase": 4,
+        "scripts": [{
+          "scriptId": "9408791240",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408791240.txt"
+        }]
+      }, {
+        "phase": 5,
+        "scripts": [{
+          "scriptId": "9408791250",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408791250.txt"
+        }, {
+          "scriptId": "9408791251",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408791251.txt"
+        }]
+      }, {
+        "phase": 6,
+        "scripts": [{
+          "scriptId": "9408791260",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408791260.txt"
+        }, {
+          "scriptId": "9408791261",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408791261.txt"
+        }]
+      }, {
+        "phase": 7,
+        "scripts": [{
+          "scriptId": "9408791270",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408791270.txt"
+        }]
+      }],
       "priority": 94088386,
       "noticeAt": 1691917200,
       "openedAt": 1692090000,
       "closedAt": 1693540799
+    }, {
+      "id": 94088107,
+      "name": "調査せよ！ 高級ホテルの怪奇！",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "80",
+      "spotId": 916014,
+      "warId": 9160,
+      "gifts": [{
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94087912
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "priority": 94087991,
+      "noticeAt": 1692090000,
+      "openedAt": 1692090000,
+      "closedAt": 1693540799
     }]
+  }, {
+    "id": 916015,
+    "mapId": 9160,
+    "name": "ブリスティンビーチ",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9160/QMap_Cap9160_Atlas/spot_916015.png",
+    "x": 704,
+    "y": 1170,
+    "nameOfsY": -6,
+    "questOfsX": 45,
+    "questOfsY": -84
+  }, {
+    "id": 916016,
+    "mapId": 9160,
+    "name": "レース会場",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9160/QMap_Cap9160_Atlas/spot_916016.png",
+    "x": 446,
+    "y": 726,
+    "nameOfsY": -3,
+    "questOfsX": 37,
+    "questOfsY": -60,
+    "quests": [{
+      "id": 94087913,
+      "name": "\t８．Brilliant Week (Ⅱ)",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "45",
+      "spotId": 916016,
+      "warId": 9160,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/3.png",
+      "gifts": [{
+        "objectId": 1,
+        "num": 100000000
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94087912
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1, 2, 3, 4, 5, 6, 7],
+      "phasesNoBattle": [1, 7],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408791310",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408791310.txt"
+        }]
+      }, {
+        "phase": 5,
+        "scripts": [{
+          "scriptId": "9408791350",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408791350.txt"
+        }]
+      }, {
+        "phase": 6,
+        "scripts": [{
+          "scriptId": "9408791360",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408791360.txt"
+        }, {
+          "scriptId": "9408791361",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408791361.txt"
+        }]
+      }, {
+        "phase": 7,
+        "scripts": [{
+          "scriptId": "9408791370",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408791370.txt"
+        }]
+      }],
+      "priority": 94088385,
+      "noticeAt": 1692090000,
+      "openedAt": 1692090000,
+      "closedAt": 1693540799
+    }, {
+      "id": 94088108,
+      "name": "調査せよ！ レースに蔓延る闇賭博！",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "85",
+      "spotId": 916016,
+      "warId": 9160,
+      "gifts": [{
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94087913
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "priority": 94087990,
+      "noticeAt": 1692090000,
+      "openedAt": 1692090000,
+      "closedAt": 1693540799
+    }]
+  }, {
+    "id": 916017,
+    "mapId": 9160,
+    "name": "山岳コース",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9160/QMap_Cap9160_Atlas/spot_916017.png",
+    "x": 1047,
+    "y": 816,
+    "nameOfsX": 1,
+    "nameOfsY": -23,
+    "questOfsX": 24,
+    "questOfsY": -91
+  }, {
+    "id": 916018,
+    "mapId": 9160,
+    "name": "溶岩コース",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9160/QMap_Cap9160_Atlas/spot_916017.png",
+    "x": 808,
+    "y": 868,
+    "nameOfsY": -23,
+    "questOfsX": 24,
+    "questOfsY": -91
+  }, {
+    "id": 916019,
+    "mapId": 9160,
+    "name": "海岸コース",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9160/QMap_Cap9160_Atlas/spot_916017.png",
+    "x": 886,
+    "y": 1152,
+    "nameOfsY": -23,
+    "questOfsX": 24,
+    "questOfsY": -91
+  }, {
+    "id": 916020,
+    "mapId": 9160,
+    "name": "海上コース",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9160/QMap_Cap9160_Atlas/spot_916017.png",
+    "x": 426,
+    "y": 973,
+    "nameOfsY": -23,
+    "questOfsX": 24,
+    "questOfsY": -91
+  }, {
+    "id": 916023,
+    "mapId": 9160,
+    "name": "ダイヤモンドヘッド",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9160/QMap_Cap9160_Atlas/spot_916023.png",
+    "x": 2186,
+    "y": 1255,
+    "nameOfsY": -3,
+    "questOfsX": 37,
+    "questOfsY": -60
   }, {
     "id": 916099,
     "mapId": 9160,
@@ -102028,6 +102297,106 @@
     "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9160/QMap_Cap9160_Atlas/img_road9160_00.png",
     "srcSpotId": 916006,
     "dstSpotId": 916014,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "questClear"
+  }, {
+    "id": 916017,
+    "warId": 9160,
+    "mapId": 9160,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9160/QMap_Cap9160_Atlas/img_road9160_00.png",
+    "srcSpotId": 916014,
+    "dstSpotId": 916015,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "questClear"
+  }, {
+    "id": 916018,
+    "warId": 9160,
+    "mapId": 9160,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9160/QMap_Cap9160_Atlas/img_road9160_00.png",
+    "srcSpotId": 916015,
+    "dstSpotId": 916016,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "questClear"
+  }, {
+    "id": 916019,
+    "warId": 9160,
+    "mapId": 9160,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9160/QMap_Cap9160_Atlas/img_road9160_00.png",
+    "srcSpotId": 916016,
+    "dstSpotId": 916014,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "questClear"
+  }, {
+    "id": 916020,
+    "warId": 9160,
+    "mapId": 9160,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9160/QMap_Cap9160_Atlas/img_road9160_00.png",
+    "srcSpotId": 916016,
+    "dstSpotId": 916017,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "questClear"
+  }, {
+    "id": 916021,
+    "warId": 9160,
+    "mapId": 9160,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9160/QMap_Cap9160_Atlas/img_road9160_00.png",
+    "srcSpotId": 916017,
+    "dstSpotId": 916018,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "questClear"
+  }, {
+    "id": 916022,
+    "warId": 9160,
+    "mapId": 9160,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9160/QMap_Cap9160_Atlas/img_road9160_00.png",
+    "srcSpotId": 916018,
+    "dstSpotId": 916019,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "questClear"
+  }, {
+    "id": 916023,
+    "warId": 9160,
+    "mapId": 9160,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9160/QMap_Cap9160_Atlas/img_road9160_00.png",
+    "srcSpotId": 916019,
+    "dstSpotId": 916020,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "questClear"
+  }, {
+    "id": 916024,
+    "warId": 9160,
+    "mapId": 9160,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9160/QMap_Cap9160_Atlas/img_road9160_00.png",
+    "srcSpotId": 916020,
+    "dstSpotId": 916016,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "questClear"
+  }, {
+    "id": 916025,
+    "warId": 9160,
+    "mapId": 9160,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9160/QMap_Cap9160_Atlas/img_road9160_00.png",
+    "srcSpotId": 916016,
+    "dstSpotId": 916007,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "questClear"
+  }, {
+    "id": 916026,
+    "warId": 9160,
+    "mapId": 9160,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9160/QMap_Cap9160_Atlas/img_road9160_00.png",
+    "srcSpotId": 916007,
+    "dstSpotId": 916010,
     "dispCondType": "useItemTime",
     "dispCondType2": "useItemTime",
     "activeCondType": "questClear"
