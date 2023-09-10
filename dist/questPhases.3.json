@@ -43953,6 +43953,221 @@
     }]
   }]
 }, {
+  "id": 94086402,
+  "name": "【期間限定】オルガマリークエスト_１・リプレイ",
+  "type": "free",
+  "flags": ["eventDeckNoSupport", "forceDisplayEnemyInfo", "forceToNoDrop", "noContinue", "noDisplayMissionNotify", "notRetrievable", "userEventDeck"],
+  "consume": 5,
+  "afterClear": "repeatLast",
+  "recommendLv": "90★",
+  "spotId": 1040106,
+  "warId": 401,
+  "releaseConditions": [{
+    "type": "questClear",
+    "targetId": 94086401
+  }, {
+    "type": "date",
+    "targetId": 0
+  }],
+  "phases": [1],
+  "priority": 907298,
+  "noticeAt": 1694336400,
+  "openedAt": 1694336400,
+  "closedAt": 1695787199,
+  "phase": 1,
+  "className": ["unknown"],
+  "qp": 0,
+  "exp": 0,
+  "bond": 0,
+  "isNpcOnly": true,
+  "battleBgId": 61120,
+  "messages": [{
+    "idx": 0,
+    "message": "～ 注意 ～\n\nこのクエストは繰り返し挑戦可能ですが、\n絆ポイント、EXP、戦利品、クリア報酬は\n獲得できません。\n\nそれでも挑戦しますか？",
+    "condType": "none",
+    "targetId": 0,
+    "targetNum": 0
+  }],
+  "hints": [{
+    "title": "攻略のヒント",
+    "message": "\n・〔フレアマリー〕は特殊なクラス相性を持つ。\n　優位なクラスで挑もう。\n\n　[F15B47]【攻撃優位】[-](推奨)\n　　…アサシン、バーサーカー、アルターエゴ\n\n　[F15B47]【防御優位】[-](推奨)\n　　…ライダー、ムーンキャンサー、フォーリナー、\n　　　シールダー\n\n　[659AD2]【攻撃劣位】[-]\n　　…ライダー、ムーンキャンサー、フォーリナー\n\n　[659AD2]【防御劣位】[-]\n　　…アサシン、バーサーカー、アルターエゴ\n",
+    "leftIndent": 10
+  }],
+  "restrictions": [{
+    "restriction": {
+      "id": 94086401,
+      "name": "3騎編成必須",
+      "type": "svtNum",
+      "rangeType": "equal",
+      "targetVals": [3],
+      "targetVals2": []
+    },
+    "frequencyType": "once",
+    "dialogMessage": "このクエストではBATTLE毎に\n所持サーヴァントから3騎の編成が必要です。",
+    "noticeMessage": "",
+    "title": ""
+  }, {
+    "restriction": {
+      "id": 94086402,
+      "name": "所持サーヴァント\n3騎まで選択可能",
+      "type": "mySvtNum",
+      "rangeType": "equal",
+      "targetVals": [3],
+      "targetVals2": []
+    },
+    "frequencyType": "none",
+    "dialogMessage": "",
+    "noticeMessage": "",
+    "title": ""
+  }],
+  "stages": [{
+    "wave": 1,
+    "bgm": {
+      "id": 390
+    },
+    "originalScript": {
+      "priorityBG": 100,
+      "priorityBgm": 100,
+      "disableUniqueFieldMotion": 1
+    }
+  }, {
+    "wave": 2,
+    "bgm": {
+      "id": 390
+    },
+    "originalScript": {
+      "priorityBG": 100,
+      "priorityBgm": 100,
+      "waveStartPlayVoice": 1,
+      "disableUniqueFieldMotion": 1
+    }
+  }, {
+    "wave": 3,
+    "bgm": {
+      "id": 390
+    },
+    "originalScript": {
+      "priorityBG": 100,
+      "priorityBgm": 100,
+      "waveStartPlayVoice": 1,
+      "disableUniqueFieldMotion": 1
+    }
+  }, {
+    "wave": 4,
+    "bgm": {
+      "id": 390
+    },
+    "fieldAis": [{
+      "day": 0,
+      "id": 94086500
+    }],
+    "call": [94086414, 94086417],
+    "NoEntryIds": [2],
+    "originalScript": {
+      "call": [94086414, 94086417],
+      "NoEntryIds": [2],
+      "aiFieldIds": [{
+        "id": 94086500,
+        "day": 0
+      }],
+      "changeBgId": 61130,
+      "priorityBG": 100,
+      "priorityBgm": 100,
+      "changeBgType": 0,
+      "waveStartPlayVoice": 1,
+      "disableUniqueFieldMotion": 1
+    }
+  }, {
+    "wave": 5,
+    "bgm": {
+      "id": 390
+    },
+    "originalScript": {
+      "changeBgId": 61130,
+      "priorityBG": 100,
+      "priorityBgm": 100,
+      "changeBgType": 0,
+      "waveStartPlayVoice": 1,
+      "disableUniqueFieldMotion": 1
+    }
+  }, {
+    "wave": 6,
+    "bgm": {
+      "id": 390
+    },
+    "originalScript": {
+      "changeBgId": 61130,
+      "priorityBG": 100,
+      "priorityBgm": 100,
+      "changeBgType": 0,
+      "waveStartPlayVoice": 1,
+      "disableUniqueFieldMotion": 1
+    }
+  }, {
+    "wave": 7,
+    "bgm": {
+      "id": 390
+    },
+    "originalScript": {
+      "changeBgId": 61140,
+      "priorityBG": 100,
+      "priorityBgm": 100,
+      "changeBgType": 0,
+      "waveStartPlayVoice": 1,
+      "disableUniqueFieldMotion": 1
+    }
+  }, {
+    "wave": 8,
+    "bgm": {
+      "id": 390
+    },
+    "originalScript": {
+      "changeBgId": 61140,
+      "priorityBG": 100,
+      "priorityBgm": 100,
+      "changeBgType": 0,
+      "waveStartPlayVoice": 1,
+      "disableUniqueFieldMotion": 1
+    }
+  }, {
+    "wave": 9,
+    "bgm": {
+      "id": 390
+    },
+    "fieldAis": [{
+      "day": 0,
+      "id": 94086505
+    }],
+    "originalScript": {
+      "aiFieldIds": [{
+        "id": 94086505,
+        "day": 0
+      }],
+      "changeBgId": 61140,
+      "priorityBG": 100,
+      "priorityBgm": 100,
+      "changeBgType": 0,
+      "waveStartPlayVoice": 1,
+      "disableUniqueFieldMotion": 1
+    }
+  }, {
+    "wave": 10,
+    "bgm": {
+      "id": 704
+    },
+    "waveStartMovies": [{
+      "waveStartMovie": "https://static.atlasacademy.io/JP/Movie/battle_mov008.mp4"
+    }],
+    "originalScript": {
+      "changeBgId": 61140,
+      "priorityBG": 100,
+      "priorityBgm": 100,
+      "changeBgType": 0,
+      "waveStartPlayVoice": 1,
+      "battleStartFadeType": 2
+    }
+  }]
+}, {
   "id": 94086601,
   "name": "残された神話",
   "type": "free",
@@ -43993,12 +44208,12 @@
   "dropsFromAllHashes": true,
   "drops": [{
     "objectId": 6536,
-    "dropCount": 94,
-    "runs": 73
+    "dropCount": 112,
+    "runs": 88
   }, {
     "objectId": 6537,
-    "dropCount": 18,
-    "runs": 73
+    "dropCount": 21,
+    "runs": 88
   }],
   "stages": [{
     "wave": 1,
@@ -44423,8 +44638,8 @@
   "dropsFromAllHashes": true,
   "drops": [{
     "objectId": 7004,
-    "dropCount": 314,
-    "runs": 128
+    "dropCount": 414,
+    "runs": 170
   }],
   "stages": [{
     "wave": 1,

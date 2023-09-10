@@ -66296,7 +66296,7 @@
     "priority": 3,
     "overwriteId": 14000,
     "condType": "questClear",
-    "targetId": 4000200,
+    "targetId": 4000000,
     "startedAt": 1687078800,
     "endedAt": 1893423600
   }],
@@ -66414,7 +66414,7 @@
     "priority": 3,
     "overwriteId": 14000,
     "condType": "questClear",
-    "targetId": 4000200,
+    "targetId": 4000000,
     "startedAt": 1687078800,
     "endedAt": 1893423600
   }],
@@ -66742,6 +66742,79 @@
       "noticeAt": 1686128400,
       "openedAt": 1686128400,
       "closedAt": 1893423600
+    }]
+  }, {
+    "id": 1040106,
+    "blankEarth": true,
+    "mapId": 401,
+    "name": "北大西洋エリア",
+    "x": 41.656,
+    "y": -38.441,
+    "quests": [{
+      "id": 94086401,
+      "name": "オルガマリークエスト_１",
+      "type": "free",
+      "flags": ["noContinue", "noDisplayRemain", "forceDisplayEnemyInfo"],
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "90★",
+      "spotId": 1040106,
+      "warId": 401,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/3.png",
+      "gifts": [{
+        "objectId": 53,
+        "num": 1
+      }, {
+        "objectId": 7999,
+        "num": 1
+      }, {
+        "objectId": 200,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000100
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408640110",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408640110.txt"
+        }, {
+          "scriptId": "9408640111",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408640111.txt"
+        }]
+      }],
+      "priority": 907299,
+      "noticeAt": 1694336400,
+      "openedAt": 1694336400,
+      "closedAt": 1893423600
+    }, {
+      "id": 94086402,
+      "name": "【期間限定】オルガマリークエスト_１・リプレイ",
+      "type": "free",
+      "flags": ["noContinue", "notRetrievable", "forceToNoDrop", "forceDisplayEnemyInfo"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "90★",
+      "spotId": 1040106,
+      "warId": 401,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94086401
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "priority": 907298,
+      "noticeAt": 1694336400,
+      "openedAt": 1694336400,
+      "closedAt": 1695787199
     }]
   }, {
     "id": 1040107,
