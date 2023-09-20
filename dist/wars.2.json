@@ -78870,4 +78870,307 @@
       "closedAt": 1690343999
     }]
   }]
+}, {
+  "id": 8386,
+  "coordinates": [
+    [-33.87587, 151.19261],
+    [-53.421135, 140.18533]
+  ],
+  "age": "-",
+  "name": "ワンジナ・ワールドツアー！",
+  "longName": "ワンジナ・ワールドツアー！",
+  "flags": ["isEvent", "noClearMarkWithComplete", "dispEarthPointWithoutMap"],
+  "banner": "https://static.atlasacademy.io/JP/Banner/event_war_80430.png",
+  "priority": 8386,
+  "bgm": {
+    "id": 0
+  },
+  "script": "https://static.atlasacademy.io/JP/Script/Common/NONE.txt",
+  "eventId": 80448,
+  "eventName": "ワンジナ・ワールドツアー！\n～大精霊と巡る世界一周～",
+  "warAdds": [{
+    "warId": 8386,
+    "type": "bgImage",
+    "priority": 1,
+    "overwriteId": 109701,
+    "condType": "questClear",
+    "targetId": 94088801,
+    "startedAt": 1695200400,
+    "endedAt": 1696996799
+  }],
+  "maps": [{
+    "id": 8386,
+    "mapImage": "https://static.atlasacademy.io/JP/Terminal/MapImgs/img_questmap_008386/img_questmap_008386.png",
+    "bgm": {
+      "id": 0
+    }
+  }],
+  "spots": [{
+    "id": 838601,
+    "mapId": 8386,
+    "name": "カルデアゲート",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter8386/QMap_Cap8386_Atlas/spot_838601.png",
+    "quests": [{
+      "id": 94088801,
+      "name": "プロローグ",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "15",
+      "spotId": 838601,
+      "warId": 8386,
+      "gifts": [{
+        "id": 42094,
+        "type": "servant",
+        "objectId": 9407390,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 1000011
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408880110",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408880110.txt"
+        }, {
+          "scriptId": "9408880111",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408880111.txt"
+        }]
+      }],
+      "priority": 94089098,
+      "noticeAt": 1695200400,
+      "openedAt": 1695200400,
+      "closedAt": 1696996799
+    }, {
+      "id": 94088802,
+      "name": "第1節 ワンジナと走れ聖杯走れ！",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "15",
+      "spotId": 838601,
+      "warId": 8386,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94088801
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1, 2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408880210",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408880210.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9408880220",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408880220.txt"
+        }, {
+          "scriptId": "9408880221",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408880221.txt"
+        }]
+      }],
+      "priority": 94089097,
+      "noticeAt": 1695200400,
+      "openedAt": 1695200400,
+      "closedAt": 1696996799
+    }, {
+      "id": 94088803,
+      "name": "",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "20",
+      "spotId": 838601,
+      "warId": 8386,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94088802
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "forceFalse",
+        "targetId": 0,
+        "closedMessage": "データ更新後に開放"
+      }],
+      "phases": [1, 2],
+      "priority": 94089096,
+      "noticeAt": 1695200400,
+      "openedAt": 1695286800,
+      "closedAt": 1696996799
+    }, {
+      "id": 94088901,
+      "name": "現地調査！ 聖杯の行方！",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 30,
+      "afterClear": "repeatLast",
+      "recommendLv": "15",
+      "spotId": 838601,
+      "warId": 8386,
+      "gifts": [{
+        "id": 14000,
+        "objectId": 102,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94088801
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "priority": 94088998,
+      "noticeAt": 1695200400,
+      "openedAt": 1695200400,
+      "closedAt": 1696996799
+    }, {
+      "id": 94088902,
+      "name": "現地調査！ 街中の騒動！",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 35,
+      "afterClear": "repeatLast",
+      "recommendLv": "25",
+      "spotId": 838601,
+      "warId": 8386,
+      "gifts": [{
+        "id": 14000,
+        "objectId": 102,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94088801
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "priority": 94088997,
+      "noticeAt": 1695200400,
+      "openedAt": 1695200400,
+      "closedAt": 1696996799
+    }, {
+      "id": 94088903,
+      "name": "現地調査！ 魔獣襲来！",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "40",
+      "spotId": 838601,
+      "warId": 8386,
+      "gifts": [{
+        "id": 13000,
+        "objectId": 101,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94088801
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "priority": 94088996,
+      "noticeAt": 1695200400,
+      "openedAt": 1695200400,
+      "closedAt": 1696996799
+    }, {
+      "id": 94088904,
+      "name": "現地調査！ 闇夜の訪れ！",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "50",
+      "spotId": 838601,
+      "warId": 8386,
+      "gifts": [{
+        "id": 13000,
+        "objectId": 101,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94088801
+      }, {
+        "type": "questClear",
+        "targetId": 94088802,
+        "closedMessage": "第1節クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "第1節クリアで開放"
+      }],
+      "phases": [1],
+      "priority": 94088995,
+      "noticeAt": 1695200400,
+      "openedAt": 1695200400,
+      "closedAt": 1696996799
+    }, {
+      "id": 94088905,
+      "name": "",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "60",
+      "spotId": 838601,
+      "warId": 8386,
+      "gifts": [{
+        "id": 13000,
+        "objectId": 101,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94088802
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "第2節クリアかつ9月21日18時00分以降に開放"
+      }, {
+        "type": "forceFalse",
+        "targetId": 0,
+        "closedMessage": "データ更新後に開放"
+      }],
+      "phases": [1],
+      "priority": 94088994,
+      "noticeAt": 1695200400,
+      "openedAt": 1695286800,
+      "closedAt": 1696996799
+    }]
+  }]
 }]
