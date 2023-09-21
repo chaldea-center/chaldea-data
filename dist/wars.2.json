@@ -78995,7 +78995,54 @@
       "closedAt": 1696996799
     }, {
       "id": 94088803,
-      "name": "",
+      "name": "第2節 ワンジナとグランドキャニオン・レース",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "20",
+      "spotId": 838601,
+      "warId": 8386,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
+        "type": "questClear",
+        "targetId": 94088802
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1, 2],
+      "phasesWithEnemies": [1, 2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408880310",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408880310.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9408880320",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408880320.txt"
+        }, {
+          "scriptId": "9408880321",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408880321.txt"
+        }]
+      }],
+      "priority": 94089095,
+      "noticeAt": 1695200400,
+      "openedAt": 1695286800,
+      "closedAt": 1696996799
+    }, {
+      "id": 94088804,
+      "name": "第3節 ワンジナとトロピカル・スターリースカイ",
       "type": "main",
       "consume": 5,
       "afterClear": "close",
@@ -79009,20 +79056,69 @@
       }],
       "releaseConditions": [{
         "type": "questClear",
-        "targetId": 94088802
+        "targetId": 94088803
       }, {
         "type": "date",
         "targetId": 0,
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408880410",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408880410.txt"
+        }, {
+          "scriptId": "9408880411",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408880411.txt"
+        }]
+      }],
+      "priority": 94089094,
+      "noticeAt": 1695286800,
+      "openedAt": 1695373200,
+      "closedAt": 1696996799
+    }, {
+      "id": 94088805,
+      "name": "第4節 ワンジナとトロピカル・ハンティング",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "30",
+      "spotId": 838601,
+      "warId": 8386,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94088804
       }, {
-        "type": "forceFalse",
+        "type": "date",
         "targetId": 0,
-        "closedMessage": "データ更新後に開放"
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
       }],
       "phases": [1, 2],
-      "priority": 94089096,
-      "noticeAt": 1695200400,
-      "openedAt": 1695286800,
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408880510",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408880510.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9408880520",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408880520.txt"
+        }, {
+          "scriptId": "9408880521",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408880521.txt"
+        }]
+      }],
+      "priority": 94089093,
+      "noticeAt": 1695286800,
+      "openedAt": 1695373200,
       "closedAt": 1696996799
     }, {
       "id": 94088901,
@@ -79146,7 +79242,7 @@
       "closedAt": 1696996799
     }, {
       "id": 94088905,
-      "name": "",
+      "name": "世界旅行！ 灼熱の常夏ビーチ！",
       "type": "event",
       "flags": ["displayLoopmark"],
       "consume": 40,
@@ -79160,21 +79256,56 @@
         "num": 1
       }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 94088802
+      }, {
+        "type": "questClear",
+        "targetId": 94088803,
+        "closedMessage": "第2節クリアで開放"
       }, {
         "type": "date",
         "targetId": 0,
         "closedMessage": "第2節クリアかつ9月21日18時00分以降に開放"
-      }, {
-        "type": "forceFalse",
-        "targetId": 0,
-        "closedMessage": "データ更新後に開放"
       }],
       "phases": [1],
-      "priority": 94088994,
+      "priority": 94088993,
       "noticeAt": 1695200400,
       "openedAt": 1695286800,
+      "closedAt": 1696996799
+    }, {
+      "id": 94088906,
+      "name": "世界旅行！ キャンプ地の怨霊！",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "70",
+      "spotId": 838601,
+      "warId": 8386,
+      "gifts": [{
+        "id": 12000,
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94088803
+      }, {
+        "type": "questClear",
+        "targetId": 94088805,
+        "closedMessage": "第4節クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "第4節クリアかつ9月22日18時00分以降に開放"
+      }],
+      "phases": [1],
+      "priority": 94088992,
+      "noticeAt": 1695286800,
+      "openedAt": 1695373200,
       "closedAt": 1696996799
     }]
   }]
