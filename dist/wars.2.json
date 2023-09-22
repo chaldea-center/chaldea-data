@@ -79063,6 +79063,7 @@
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "phaseScripts": [{
         "phase": 1,
         "scripts": [{
@@ -79100,6 +79101,7 @@
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
       }],
       "phases": [1, 2],
+      "phasesWithEnemies": [1],
       "phaseScripts": [{
         "phase": 1,
         "scripts": [{
@@ -79119,6 +79121,61 @@
       "priority": 94089093,
       "noticeAt": 1695286800,
       "openedAt": 1695373200,
+      "closedAt": 1696996799
+    }, {
+      "id": 94088806,
+      "name": "第5節 ワンジナと砂漠に君臨する太陽王（テンション高）",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "35",
+      "spotId": 838601,
+      "warId": 8386,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94088805
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1, 2, 3],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408880610",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408880610.txt"
+        }, {
+          "scriptId": "9408880611",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408880611.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9408880620",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408880620.txt"
+        }, {
+          "scriptId": "9408880621",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408880621.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9408880630",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408880630.txt"
+        }, {
+          "scriptId": "9408880631",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408880631.txt"
+        }]
+      }],
+      "priority": 94089092,
+      "noticeAt": 1695373200,
+      "openedAt": 1695459600,
       "closedAt": 1696996799
     }, {
       "id": 94088901,
@@ -79271,6 +79328,7 @@
         "closedMessage": "第2節クリアかつ9月21日18時00分以降に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94088993,
       "noticeAt": 1695200400,
       "openedAt": 1695286800,
@@ -79306,6 +79364,38 @@
       "priority": 94088992,
       "noticeAt": 1695286800,
       "openedAt": 1695373200,
+      "closedAt": 1696996799
+    }, {
+      "id": 94088907,
+      "name": "世界旅行！ 砂塵舞う砂漠にて！",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "75",
+      "spotId": 838601,
+      "warId": 8386,
+      "gifts": [{
+        "id": 12000,
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94088805
+      }, {
+        "type": "questClear",
+        "targetId": 94088806,
+        "closedMessage": "第5節クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "第5節クリアかつ9月23日18時00分以降に開放"
+      }],
+      "phases": [1],
+      "priority": 94088991,
+      "noticeAt": 1695373200,
+      "openedAt": 1695459600,
       "closedAt": 1696996799
     }]
   }]
