@@ -79180,7 +79180,57 @@
       "closedAt": 1696996799
     }, {
       "id": 94088807,
-      "name": "",
+      "name": "第6節 浮遊特異点○○○○",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "40",
+      "spotId": 838601,
+      "warId": 8386,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
+        "type": "questClear",
+        "targetId": 94088806
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1, 2],
+      "phasesWithEnemies": [1, 2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408880710",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408880710.txt"
+        }, {
+          "scriptId": "9408880711",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408880711.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9408880720",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408880720.txt"
+        }, {
+          "scriptId": "9408880721",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408880721.txt"
+        }]
+      }],
+      "priority": 94089090,
+      "noticeAt": 1695459600,
+      "openedAt": 1695546000,
+      "closedAt": 1696996799
+    }, {
+      "id": 94088808,
+      "name": "第7節 ワンジナと楽しいハロウィン前夜祭",
       "type": "main",
       "consume": 5,
       "afterClear": "close",
@@ -79194,20 +79244,78 @@
       }],
       "releaseConditions": [{
         "type": "questClear",
-        "targetId": 94088806
+        "targetId": 94088807
       }, {
         "type": "date",
         "targetId": 0,
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
-      }, {
-        "type": "forceFalse",
-        "targetId": 0,
-        "closedMessage": "データ更新後に開放"
       }],
-      "phases": [1, 2],
-      "priority": 94089091,
-      "noticeAt": 1695459600,
-      "openedAt": 1695546000,
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408880810",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408880810.txt"
+        }]
+      }],
+      "priority": 94089089,
+      "noticeAt": 1695546000,
+      "openedAt": 1695632400,
+      "closedAt": 1696996799
+    }, {
+      "id": 94088809,
+      "name": "第8節 ワンジナと物足りないお年頃",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "50",
+      "spotId": 838601,
+      "warId": 8386,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94088808
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1, 2, 3],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408880910",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408880910.txt"
+        }, {
+          "scriptId": "9408880911",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408880911.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9408880920",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408880920.txt"
+        }, {
+          "scriptId": "9408880921",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408880921.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9408880930",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408880930.txt"
+        }, {
+          "scriptId": "9408880931",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408880931.txt"
+        }]
+      }],
+      "priority": 94089088,
+      "noticeAt": 1695546000,
+      "openedAt": 1695632400,
       "closedAt": 1696996799
     }, {
       "id": 94088901,
@@ -79426,13 +79534,14 @@
         "closedMessage": "第5節クリアかつ9月23日18時00分以降に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94088991,
       "noticeAt": 1695373200,
       "openedAt": 1695459600,
       "closedAt": 1696996799
     }, {
       "id": 94088908,
-      "name": "",
+      "name": "世界旅行！ ハロウィンの騒動！",
       "type": "event",
       "flags": ["displayLoopmark"],
       "consume": 40,
@@ -79446,6 +79555,9 @@
         "num": 1
       }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 94088806
       }, {
@@ -79456,15 +79568,44 @@
         "type": "date",
         "targetId": 0,
         "closedMessage": "第6節クリアかつ9月24日18時00分以降に開放"
-      }, {
-        "type": "forceFalse",
-        "targetId": 0,
-        "closedMessage": "データ更新後に開放"
       }],
       "phases": [1],
-      "priority": 94088990,
+      "phasesWithEnemies": [1],
+      "priority": 94088989,
       "noticeAt": 1695459600,
       "openedAt": 1695546000,
+      "closedAt": 1696996799
+    }, {
+      "id": 94088909,
+      "name": "世界旅行！ 城への侵入者！",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90",
+      "spotId": 838601,
+      "warId": 8386,
+      "gifts": [{
+        "id": 12000,
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94088807
+      }, {
+        "type": "questClear",
+        "targetId": 94088809,
+        "closedMessage": "第8節クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "第8節クリアかつ9月25日18時00分以降に開放"
+      }],
+      "phases": [1],
+      "priority": 94088988,
+      "noticeAt": 1695546000,
+      "openedAt": 1695632400,
       "closedAt": 1696996799
     }]
   }]
