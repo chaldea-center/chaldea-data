@@ -79251,6 +79251,7 @@
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "phaseScripts": [{
         "phase": 1,
         "scripts": [{
@@ -79285,6 +79286,7 @@
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
       }],
       "phases": [1, 2, 3],
+      "phasesWithEnemies": [1, 2],
       "phaseScripts": [{
         "phase": 1,
         "scripts": [{
@@ -79316,6 +79318,38 @@
       "priority": 94089088,
       "noticeAt": 1695546000,
       "openedAt": 1695632400,
+      "closedAt": 1696996799
+    }, {
+      "id": 94088810,
+      "name": "",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "60",
+      "spotId": 838601,
+      "warId": 8386,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/3.png",
+      "gifts": [{
+        "id": 20058,
+        "objectId": 7999,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94088809
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "forceFalse",
+        "targetId": 0,
+        "closedMessage": "データ更新後に開放"
+      }],
+      "phases": [1],
+      "priority": 94089087,
+      "noticeAt": 1695632400,
+      "openedAt": 1695718800,
       "closedAt": 1696996799
     }, {
       "id": 94088901,
@@ -79606,6 +79640,78 @@
       "priority": 94088988,
       "noticeAt": 1695546000,
       "openedAt": 1695632400,
+      "closedAt": 1696996799
+    }, {
+      "id": 94088910,
+      "name": "",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90+",
+      "spotId": 838601,
+      "warId": 8386,
+      "gifts": [{
+        "id": 327,
+        "objectId": 3,
+        "num": 100
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94088809
+      }, {
+        "type": "questClear",
+        "targetId": 94088810,
+        "closedMessage": "エピローグクリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "エピローグクリアかつ9月26日18時00分以降に開放"
+      }, {
+        "type": "forceFalse",
+        "targetId": 0,
+        "closedMessage": "データ更新後に開放"
+      }],
+      "phases": [1],
+      "priority": 94088987,
+      "noticeAt": 1695632400,
+      "openedAt": 1695718800,
+      "closedAt": 1696996799
+    }, {
+      "id": 94088911,
+      "name": "",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90++",
+      "spotId": 838601,
+      "warId": 8386,
+      "gifts": [{
+        "id": 337,
+        "objectId": 3,
+        "num": 200
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94088809
+      }, {
+        "type": "questClear",
+        "targetId": 94088810,
+        "closedMessage": "エピローグクリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "エピローグクリアかつ9月26日18時00分以降に開放"
+      }, {
+        "type": "forceFalse",
+        "targetId": 0,
+        "closedMessage": "データ更新後に開放"
+      }],
+      "phases": [1],
+      "priority": 94088986,
+      "noticeAt": 1695632400,
+      "openedAt": 1695718800,
       "closedAt": 1696996799
     }]
   }]
