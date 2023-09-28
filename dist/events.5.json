@@ -51809,12 +51809,12 @@
   "endedAt": 1641787199,
   "finishedAt": 1641787199,
   "campaigns": [{
-    "target": "svtequipLargeSuccess",
+    "target": "svtequipSuperSuccess",
     "idx": 1,
     "value": 2000,
     "calcType": "multiplication"
   }, {
-    "target": "svtequipSuperSuccess",
+    "target": "svtequipLargeSuccess",
     "idx": 1,
     "value": 2000,
     "calcType": "multiplication"
@@ -55357,12 +55357,12 @@
   "endedAt": 1652846399,
   "finishedAt": 1652846399,
   "campaigns": [{
-    "target": "svtequipSuperSuccess",
+    "target": "svtequipLargeSuccess",
     "idx": 1,
     "value": 2000,
     "calcType": "multiplication"
   }, {
-    "target": "svtequipLargeSuccess",
+    "target": "svtequipSuperSuccess",
     "idx": 1,
     "value": 2000,
     "calcType": "multiplication"
@@ -79439,5 +79439,92 @@
   }],
   "campaignQuests": [{
     "questId": 0
+  }]
+}, {
+  "id": 20155,
+  "type": "combineCampaign",
+  "name": "特定サーヴァント強化『大成功&極大成功』率2倍！",
+  "detail": "特定サーヴァント強化『大成功&極大成功』率2倍！",
+  "noticeAt": 1695891600,
+  "startedAt": 1695891600,
+  "endedAt": 1696478399,
+  "finishedAt": 1696478399,
+  "campaigns": [{
+    "targetIds": [101700, 201500, 603600, 1100300, 503300, 300100],
+    "target": "largeSuccess",
+    "idx": 1,
+    "value": 2000,
+    "calcType": "multiplication"
+  }, {
+    "targetIds": [101700, 201500, 603600, 1100300, 503300, 300100],
+    "target": "superSuccess",
+    "idx": 1,
+    "value": 2000,
+    "calcType": "multiplication"
+  }]
+}, {
+  "id": 71368,
+  "type": "questCampaign",
+  "name": "「Samurai Remnant」関連サーヴァントサポート時 獲得FP2倍！",
+  "detail": "「Samurai Remnant」関連サーヴァントサポート時 獲得FP2倍！",
+  "noticeAt": 1695891600,
+  "startedAt": 1695891600,
+  "endedAt": 1696478399,
+  "finishedAt": 1696478399,
+  "campaigns": [{
+    "targetIds": [101700, 201500, 603600, 1100300, 503300, 300100],
+    "target": "questFp",
+    "idx": 1,
+    "value": 2000,
+    "calcType": "multiplication"
+  }],
+  "campaignQuests": [{
+    "questId": 0
+  }]
+}, {
+  "id": 71369,
+  "type": "questCampaign",
+  "name": "消費AP 50%DOWN",
+  "detail": "消費AP 50%DOWN",
+  "noticeAt": 1695891600,
+  "startedAt": 1695891600,
+  "endedAt": 1696478399,
+  "finishedAt": 1696478399,
+  "campaigns": [{
+    "target": "questAp",
+    "idx": 1,
+    "value": 500,
+    "calcType": "multiplication"
+  }],
+  "campaignQuests": [{
+    "questId": 91201501
+  }, {
+    "questId": 91201502
+  }, {
+    "questId": 91300101
+  }, {
+    "questId": 91503301
+  }, {
+    "questId": 91603601
+  }, {
+    "questId": 91603602
+  }, {
+    "questId": 94026504
+  }, {
+    "questId": 94052293
+  }, {
+    "questId": 94052295
+  }, {
+    "questId": 94052296
+  }, {
+    "questId": 94061501
+  }, {
+    "questId": 94061507
+  }, {
+    "questId": 94078401
+  }, {
+    "questId": 911100301
+  }, {
+    "questId": 911100302
   }]
 }]

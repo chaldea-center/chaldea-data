@@ -7433,6 +7433,16 @@
         "value": 1,
         "closedMessage": "第二特異点をクリア＆霊基再臨1段階目＆絆Lv.1で開放"
       }],
+      "releaseOverwrites": [{
+        "priority": 1,
+        "condType": "questClear",
+        "condId": 1000215,
+        "closedMessage": "第二特異点をクリア＆霊基再臨1段階目＆絆Lv.1で開放",
+        "overlayClosedMessage": "第二特異点をクリアで開放",
+        "eventId": 80446,
+        "startedAt": 1695891600,
+        "endedAt": 1696478399
+      }],
       "phases": [1, 2],
       "phasesWithEnemies": [1, 2],
       "phaseScripts": [{
@@ -7823,6 +7833,16 @@
         "targetId": 201500,
         "value": 2,
         "closedMessage": "第三特異点をクリア＆霊基再臨1段階目＆絆Lv.2で開放"
+      }],
+      "releaseOverwrites": [{
+        "priority": 1,
+        "condType": "questClear",
+        "condId": 1000314,
+        "closedMessage": "第三特異点をクリア＆霊基再臨1段階目＆絆Lv.2で開放",
+        "overlayClosedMessage": "第三特異点をクリアで開放",
+        "eventId": 80446,
+        "startedAt": 1695891600,
+        "endedAt": 1696478399
       }],
       "phases": [1, 2, 3, 4],
       "phasesWithEnemies": [1, 2, 3, 4],
@@ -83147,13 +83167,6 @@
         "type": "weekdays",
         "targetId": 146
       }],
-      "releaseOverwrites": [{
-        "priority": 10,
-        "condType": "weekdays",
-        "condId": 254,
-        "startedAt": 1694595600,
-        "endedAt": 1695787199
-      }],
       "phases": [1],
       "phasesWithEnemies": [1],
       "priority": 802479,
@@ -83172,13 +83185,6 @@
       "releaseConditions": [{
         "type": "weekdays",
         "targetId": 146
-      }],
-      "releaseOverwrites": [{
-        "priority": 10,
-        "condType": "weekdays",
-        "condId": 254,
-        "startedAt": 1694595600,
-        "endedAt": 1695787199
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -83199,13 +83205,6 @@
         "type": "weekdays",
         "targetId": 146
       }],
-      "releaseOverwrites": [{
-        "priority": 10,
-        "condType": "weekdays",
-        "condId": 254,
-        "startedAt": 1694595600,
-        "endedAt": 1695787199
-      }],
       "phases": [1],
       "phasesWithEnemies": [1],
       "priority": 802477,
@@ -83225,13 +83224,6 @@
         "type": "weekdays",
         "targetId": 146
       }],
-      "releaseOverwrites": [{
-        "priority": 10,
-        "condType": "weekdays",
-        "condId": 254,
-        "startedAt": 1694595600,
-        "endedAt": 1695787199
-      }],
       "phases": [1],
       "phasesWithEnemies": [1],
       "priority": 802476,
@@ -83250,13 +83242,6 @@
       "releaseConditions": [{
         "type": "weekdays",
         "targetId": 146
-      }],
-      "releaseOverwrites": [{
-        "priority": 10,
-        "condType": "weekdays",
-        "condId": 254,
-        "startedAt": 1694595600,
-        "endedAt": 1695787199
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -83467,13 +83452,6 @@
         "type": "weekdays",
         "targetId": 138
       }],
-      "releaseOverwrites": [{
-        "priority": 10,
-        "condType": "weekdays",
-        "condId": 254,
-        "startedAt": 1694595600,
-        "endedAt": 1695787199
-      }],
       "phases": [1],
       "phasesWithEnemies": [1],
       "priority": 802494,
@@ -83492,13 +83470,6 @@
       "releaseConditions": [{
         "type": "weekdays",
         "targetId": 138
-      }],
-      "releaseOverwrites": [{
-        "priority": 10,
-        "condType": "weekdays",
-        "condId": 254,
-        "startedAt": 1694595600,
-        "endedAt": 1695787199
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -83519,13 +83490,6 @@
         "type": "weekdays",
         "targetId": 138
       }],
-      "releaseOverwrites": [{
-        "priority": 10,
-        "condType": "weekdays",
-        "condId": 254,
-        "startedAt": 1694595600,
-        "endedAt": 1695787199
-      }],
       "phases": [1],
       "phasesWithEnemies": [1],
       "priority": 802492,
@@ -83545,13 +83509,6 @@
         "type": "weekdays",
         "targetId": 138
       }],
-      "releaseOverwrites": [{
-        "priority": 10,
-        "condType": "weekdays",
-        "condId": 254,
-        "startedAt": 1694595600,
-        "endedAt": 1695787199
-      }],
       "phases": [1],
       "phasesWithEnemies": [1],
       "priority": 802491,
@@ -83570,13 +83527,6 @@
       "releaseConditions": [{
         "type": "weekdays",
         "targetId": 138
-      }],
-      "releaseOverwrites": [{
-        "priority": 10,
-        "condType": "weekdays",
-        "condId": 254,
-        "startedAt": 1694595600,
-        "endedAt": 1695787199
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -85573,10 +85523,31 @@
         "value": 2,
         "closedMessage": "第五特異点をクリア＆霊基再臨2段階目＆絆Lv.4で開放"
       }, {
+        "type": "svtGet",
+        "targetId": 201500
+      }, {
         "type": "svtFriendship",
         "targetId": 201500,
         "value": 4,
         "closedMessage": "第五特異点をクリア＆霊基再臨2段階目＆絆Lv.4で開放"
+      }],
+      "releaseOverwrites": [{
+        "priority": 1,
+        "condType": "questClear",
+        "condId": 1000522,
+        "closedMessage": "第五特異点をクリア＆霊基再臨2段階目＆絆Lv.4で開放",
+        "overlayClosedMessage": "一つ前の幕間の物語をクリア＆第五特異点をクリアで開放",
+        "eventId": 80446,
+        "startedAt": 1695891600,
+        "endedAt": 1696478399
+      }, {
+        "priority": 1,
+        "condType": "questClear",
+        "condId": 91201501,
+        "overlayClosedMessage": "一つ前の幕間の物語をクリア＆第五特異点をクリアで開放",
+        "eventId": 80446,
+        "startedAt": 1695891600,
+        "endedAt": 1696478399
       }],
       "phases": [1, 2, 3, 4, 5],
       "phasesWithEnemies": [1, 2, 3, 4, 5],
@@ -89995,6 +89966,16 @@
         "value": 5,
         "closedMessage": "亜種特異点Ⅳをクリア＆霊基再臨3段階目＆絆Lv.5で開放"
       }],
+      "releaseOverwrites": [{
+        "priority": 1,
+        "condType": "questClear",
+        "condId": 2000410,
+        "closedMessage": "亜種特異点Ⅳをクリア＆霊基再臨3段階目＆絆Lv.5で開放",
+        "overlayClosedMessage": "亜種特異点Ⅳをクリアで開放",
+        "eventId": 80446,
+        "startedAt": 1695891600,
+        "endedAt": 1696478399
+      }],
       "phases": [1, 2, 3, 4],
       "phasesWithEnemies": [3, 4],
       "phasesNoBattle": [1, 2],
@@ -91773,6 +91754,15 @@
         "eventId": 80382,
         "startedAt": 1655888400,
         "endedAt": 1656475199
+      }, {
+        "priority": 2,
+        "condType": "questClear",
+        "condId": 1000011,
+        "closedMessage": "特異点Fをクリア＆霊基再臨2段階目＆絆Lv.5で開放",
+        "overlayClosedMessage": "特異点Fをクリアで開放",
+        "eventId": 80446,
+        "startedAt": 1695891600,
+        "endedAt": 1696478399
       }],
       "phases": [1, 2],
       "phasesWithEnemies": [1, 2],
@@ -91849,6 +91839,23 @@
         "eventId": 80382,
         "startedAt": 1655888400,
         "endedAt": 1656475199
+      }, {
+        "priority": 2,
+        "condType": "questClear",
+        "condId": 1000011,
+        "closedMessage": "特異点Fをクリア＆霊基再臨3段階目＆絆Lv.5で開放",
+        "overlayClosedMessage": "一つ前の幕間の物語をクリア＆特異点Fをクリアで開放",
+        "eventId": 80446,
+        "startedAt": 1695891600,
+        "endedAt": 1696478399
+      }, {
+        "priority": 2,
+        "condType": "questClear",
+        "condId": 91603601,
+        "overlayClosedMessage": "一つ前の幕間の物語をクリア＆特異点Fをクリアで開放",
+        "eventId": 80446,
+        "startedAt": 1695891600,
+        "endedAt": 1696478399
       }],
       "phases": [1, 2, 3, 4, 5],
       "phasesWithEnemies": [1, 2, 3, 4, 5],
@@ -93977,6 +93984,15 @@
         "eventId": 80396,
         "startedAt": 1667034000,
         "endedAt": 1667620799
+      }, {
+        "priority": 2,
+        "condType": "questClear",
+        "condId": 1000722,
+        "closedMessage": "第七特異点をクリア＆霊基再臨2段階目＆絆Lv.2で開放",
+        "overlayClosedMessage": "第七特異点をクリアで開放",
+        "eventId": 80446,
+        "startedAt": 1695891600,
+        "endedAt": 1696478399
       }],
       "phases": [1, 2, 3],
       "phasesWithEnemies": [1, 2, 3],
@@ -94038,6 +94054,9 @@
         "value": 4,
         "closedMessage": "亜種特異点Ⅰをクリア＆霊基再臨4段階目＆絆Lv.5で開放"
       }, {
+        "type": "svtGet",
+        "targetId": 1100300
+      }, {
         "type": "svtFriendship",
         "targetId": 1100300,
         "value": 5,
@@ -94060,6 +94079,23 @@
         "eventId": 80396,
         "startedAt": 1667034000,
         "endedAt": 1667620799
+      }, {
+        "priority": 2,
+        "condType": "questClear",
+        "condId": 2000118,
+        "closedMessage": "亜種特異点Ⅰをクリア＆霊基再臨4段階目＆絆Lv.5で開放",
+        "overlayClosedMessage": "一つ前の幕間の物語をクリア＆亜種特異点Ⅰをクリアで開放",
+        "eventId": 80446,
+        "startedAt": 1695891600,
+        "endedAt": 1696478399
+      }, {
+        "priority": 2,
+        "condType": "questClear",
+        "condId": 911100301,
+        "overlayClosedMessage": "一つ前の幕間の物語をクリア＆亜種特異点Ⅰをクリアで開放",
+        "eventId": 80446,
+        "startedAt": 1695891600,
+        "endedAt": 1696478399
       }],
       "phases": [1, 2, 3],
       "phasesWithEnemies": [1, 2, 3],
@@ -97280,6 +97316,14 @@
     "overwriteBanner": "https://static.atlasacademy.io/JP/Banner/chaldea_category_80424.png",
     "startedAt": 1690707600,
     "endedAt": 1691726399
+  }, {
+    "warId": 9999,
+    "type": "banner",
+    "priority": 80426,
+    "overwriteId": 80426,
+    "overwriteBanner": "https://static.atlasacademy.io/JP/Banner/chaldea_category_80426.png",
+    "startedAt": 1695891600,
+    "endedAt": 1696478399
   }, {
     "warId": 9999,
     "type": "banner",
