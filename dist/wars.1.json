@@ -1484,6 +1484,15 @@
         "eventId": 80438,
         "startedAt": 1688115600,
         "endedAt": 1688702399
+      }, {
+        "priority": 2,
+        "condType": "questClear",
+        "condId": 1000011,
+        "closedMessage": "特異点Fをクリア＆霊基再臨1段階目＆絆Lv.1で開放",
+        "overlayClosedMessage": "特異点Fをクリアで開放",
+        "eventId": 80446,
+        "startedAt": 1696237200,
+        "endedAt": 1696478399
       }],
       "phases": [1, 2, 3, 4],
       "phasesWithEnemies": [1, 2, 3, 4],
@@ -9396,6 +9405,23 @@
         "eventId": 80438,
         "startedAt": 1688115600,
         "endedAt": 1688702399
+      }, {
+        "priority": 2,
+        "condType": "questClear",
+        "condId": 1000522,
+        "closedMessage": "第五特異点をクリア＆霊基再臨3段階目＆絆Lv.5で開放",
+        "overlayClosedMessage": "一つ前の幕間の物語をクリア＆第五特異点をクリアで開放",
+        "eventId": 80446,
+        "startedAt": 1696237200,
+        "endedAt": 1696478399
+      }, {
+        "priority": 2,
+        "condType": "questClear",
+        "condId": 91200202,
+        "overlayClosedMessage": "一つ前の幕間の物語をクリア＆第五特異点をクリアで開放",
+        "eventId": 80446,
+        "startedAt": 1696237200,
+        "endedAt": 1696478399
       }],
       "phases": [1, 2, 3],
       "phasesWithEnemies": [1, 2, 3],
@@ -12089,6 +12115,23 @@
         "eventId": 80438,
         "startedAt": 1688115600,
         "endedAt": 1688702399
+      }, {
+        "priority": 2,
+        "condType": "questClear",
+        "condId": 1000413,
+        "closedMessage": "第四特異点をクリア＆霊基再臨2段階目＆絆Lv.3で開放",
+        "overlayClosedMessage": "一つ前の幕間の物語をクリア＆第四特異点をクリアで開放",
+        "eventId": 80446,
+        "startedAt": 1696237200,
+        "endedAt": 1696478399
+      }, {
+        "priority": 2,
+        "condType": "questClear",
+        "condId": 91200201,
+        "overlayClosedMessage": "一つ前の幕間の物語をクリア＆第四特異点をクリアで開放",
+        "eventId": 80446,
+        "startedAt": 1696237200,
+        "endedAt": 1696478399
       }],
       "phases": [1, 2, 3, 4],
       "phasesWithEnemies": [1, 2, 3, 4],
@@ -93168,6 +93211,16 @@
         "value": 2,
         "closedMessage": "第一特異点をクリア＆霊基再臨1段階目＆絆Lv.2で開放"
       }],
+      "releaseOverwrites": [{
+        "priority": 1,
+        "condType": "questClear",
+        "condId": 1000115,
+        "closedMessage": "第一特異点をクリア＆霊基再臨1段階目＆絆Lv.2で開放",
+        "overlayClosedMessage": "第一特異点をクリアで開放",
+        "eventId": 80446,
+        "startedAt": 1696237200,
+        "endedAt": 1696478399
+      }],
       "phases": [1, 2, 3],
       "phasesWithEnemies": [1, 2, 3],
       "phaseScripts": [{
@@ -93221,10 +93274,31 @@
         "value": 3,
         "closedMessage": "第四特異点をクリア＆霊基再臨3段階目＆絆Lv.4で開放"
       }, {
+        "type": "svtGet",
+        "targetId": 900100
+      }, {
         "type": "svtFriendship",
         "targetId": 900100,
         "value": 4,
         "closedMessage": "第四特異点をクリア＆霊基再臨3段階目＆絆Lv.4で開放"
+      }],
+      "releaseOverwrites": [{
+        "priority": 1,
+        "condType": "questClear",
+        "condId": 1000413,
+        "closedMessage": "第四特異点をクリア＆霊基再臨3段階目＆絆Lv.4で開放",
+        "overlayClosedMessage": "一つ前の幕間の物語をクリア＆第四特異点をクリアで開放",
+        "eventId": 80446,
+        "startedAt": 1696237200,
+        "endedAt": 1696478399
+      }, {
+        "priority": 1,
+        "condType": "questClear",
+        "condId": 91900101,
+        "overlayClosedMessage": "一つ前の幕間の物語をクリア＆第四特異点をクリアで開放",
+        "eventId": 80446,
+        "startedAt": 1696237200,
+        "endedAt": 1696478399
       }],
       "phases": [1, 2],
       "phasesWithEnemies": [1, 2],
@@ -93277,10 +93351,31 @@
         "value": 3,
         "closedMessage": "第四特異点をクリア＆霊基再臨3段階目＆絆Lv.5で開放"
       }, {
+        "type": "svtGet",
+        "targetId": 900100
+      }, {
         "type": "svtFriendship",
         "targetId": 900100,
         "value": 5,
         "closedMessage": "第四特異点をクリア＆霊基再臨3段階目＆絆Lv.5で開放"
+      }],
+      "releaseOverwrites": [{
+        "priority": 1,
+        "condType": "questClear",
+        "condId": 1000413,
+        "closedMessage": "第四特異点をクリア＆霊基再臨3段階目＆絆Lv.5で開放",
+        "overlayClosedMessage": "一つ前の幕間の物語をクリア＆第四特異点をクリアで開放",
+        "eventId": 80446,
+        "startedAt": 1696237200,
+        "endedAt": 1696478399
+      }, {
+        "priority": 1,
+        "condType": "questClear",
+        "condId": 91900102,
+        "overlayClosedMessage": "一つ前の幕間の物語をクリア＆第四特異点をクリアで開放",
+        "eventId": 80446,
+        "startedAt": 1696237200,
+        "endedAt": 1696478399
       }],
       "phases": [1, 2, 3],
       "phasesWithEnemies": [1, 2, 3],
