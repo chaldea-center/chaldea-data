@@ -62951,7 +62951,7 @@
   "atkMax": 10721,
   "hpBase": 2266,
   "hpMax": 15453,
-  "relateQuestIds": [94037801, 94074108],
+  "relateQuestIds": [94037801, 94074108, 94089902],
   "growthCurve": 15,
   "bondGrowth": [5000, 20000, 30000, 32000, 50000, 200000, 630000, 970000, 1290000, 1695000, 2785000, 4015000, 5375000, 6875000, 8515000],
   "bondEquip": 9300810,
@@ -63383,6 +63383,7 @@
     "id": 164350,
     "num": 1,
     "svtId": 102800,
+    "strengthStatus": 1,
     "priority": 1
   }, {
     "id": 163450,
@@ -63397,6 +63398,14 @@
     "strengthStatus": 1,
     "priority": 1,
     "condLimitCount": 3
+  }, {
+    "id": 2279350,
+    "num": 1,
+    "svtId": 102800,
+    "strengthStatus": 99,
+    "priority": 2,
+    "condQuestId": 94089902,
+    "condQuestPhase": 3
   }, {
     "id": 165551,
     "num": 3,
@@ -63776,7 +63785,7 @@
   "atkMax": 8867,
   "hpBase": 1768,
   "hpMax": 11055,
-  "relateQuestIds": [94037802],
+  "relateQuestIds": [94037802, 94089901],
   "growthCurve": 4,
   "bondGrowth": [6000, 30000, 45000, 47500, 50000, 200000, 600000, 910000, 1230000, 1565000, 2655000, 3885000, 5245000, 6745000, 8385000],
   "bondEquip": 9300850,
@@ -64043,6 +64052,7 @@
     "id": 36550,
     "num": 2,
     "svtId": 602300,
+    "strengthStatus": 1,
     "priority": 1,
     "condLimitCount": 1
   }, {
@@ -64051,6 +64061,15 @@
     "svtId": 602300,
     "priority": 1,
     "condLimitCount": 3
+  }, {
+    "id": 2280450,
+    "num": 2,
+    "svtId": 602300,
+    "strengthStatus": 99,
+    "priority": 2,
+    "condQuestId": 94089901,
+    "condQuestPhase": 3,
+    "condLimitCount": 1
   }],
   "classPassive": [{
     "id": 50350
@@ -64110,6 +64129,14 @@
       "eventId": 80424,
       "startedAt": 1682506800,
       "endedAt": 1684295999
+    }]
+  }, {
+    "id": 940302,
+    "extraPassive": [{
+      "num": 17,
+      "priority": 1,
+      "startedAt": 1697014800,
+      "endedAt": 1700060399
     }]
   }, {
     "id": 960502,
