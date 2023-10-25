@@ -101369,6 +101369,1295 @@
     "activeCondType": "questClear"
   }]
 }, {
+  "id": 9152,
+  "coordinates": [
+    [],
+    []
+  ],
+  "age": "-",
+  "name": "聖杯戦線",
+  "longName": "聖杯戦線 ～白天の城、黒夜の城～",
+  "flags": ["isEvent", "noClearMarkWithComplete", "dispFirstQuest"],
+  "banner": "https://static.atlasacademy.io/JP/Banner/event_war_80419.png",
+  "priority": 9152,
+  "bgm": {
+    "id": 0
+  },
+  "script": "https://static.atlasacademy.io/JP/Script/Common/NONE.txt",
+  "startType": "quest",
+  "targetId": 94086900,
+  "eventId": 80439,
+  "eventName": "聖杯戦線 ～白天の城、黒夜の城～",
+  "warAdds": [{
+    "warId": 9152,
+    "type": "flag",
+    "priority": 1,
+    "overwriteId": 34850,
+    "condType": "questClear",
+    "targetId": 94086900,
+    "startedAt": 1698231600,
+    "endedAt": 1700020799
+  }, {
+    "warId": 9152,
+    "type": "baseMapId",
+    "priority": 1,
+    "overwriteId": 9153,
+    "condType": "questClear",
+    "targetId": 94086902,
+    "startedAt": 1698231600,
+    "endedAt": 1700020799
+  }, {
+    "warId": 9152,
+    "type": "baseMapId",
+    "priority": 2,
+    "overwriteId": 9152,
+    "condType": "questClear",
+    "targetId": 94086904,
+    "startedAt": 1698231600,
+    "endedAt": 1700020799
+  }, {
+    "warId": 9152,
+    "type": "baseMapId",
+    "priority": 3,
+    "overwriteId": 9153,
+    "condType": "questClear",
+    "targetId": 94086956,
+    "startedAt": 1698231600,
+    "endedAt": 1700020799
+  }, {
+    "warId": 9152,
+    "type": "baseMapId",
+    "priority": 4,
+    "overwriteId": 9154,
+    "condType": "questClear",
+    "targetId": 94086907,
+    "startedAt": 1698231600,
+    "endedAt": 1700020799
+  }, {
+    "warId": 9152,
+    "type": "baseMapId",
+    "priority": 5,
+    "overwriteId": 9154,
+    "condType": "questClear",
+    "targetId": 94086957,
+    "startedAt": 1698231600,
+    "endedAt": 1700020799
+  }, {
+    "warId": 9152,
+    "type": "baseMapId",
+    "priority": 6,
+    "overwriteId": 9155,
+    "condType": "questClear",
+    "targetId": 94086959,
+    "startedAt": 1698310800,
+    "endedAt": 1700020799
+  }, {
+    "warId": 9152,
+    "type": "baseMapId",
+    "priority": 7,
+    "overwriteId": 9155,
+    "condType": "questClear",
+    "targetId": 94086911,
+    "startedAt": 1698310800,
+    "endedAt": 1700020799
+  }],
+  "maps": [{
+    "id": 9152,
+    "mapImage": "https://static.atlasacademy.io/JP/Terminal/MapImgs/img_questmap_009152/img_questmap_009152.png",
+    "mapImageW": 2048,
+    "mapImageH": 1440,
+    "bgm": {
+      "id": 0
+    }
+  }, {
+    "id": 9153,
+    "mapImage": "https://static.atlasacademy.io/JP/Terminal/MapImgs/img_questmap_009153/img_questmap_009153.png",
+    "mapImageW": 2048,
+    "mapImageH": 1440,
+    "bgm": {
+      "id": 718
+    }
+  }, {
+    "id": 9154,
+    "mapImage": "https://static.atlasacademy.io/JP/Terminal/MapImgs/img_questmap_009154/img_questmap_009154.png",
+    "mapImageW": 2048,
+    "mapImageH": 1440,
+    "bgm": {
+      "id": 717
+    }
+  }, {
+    "id": 9155,
+    "mapImage": "https://static.atlasacademy.io/JP/Terminal/MapImgs/img_questmap_009155/img_questmap_009155.png",
+    "mapImageW": 2048,
+    "mapImageH": 1440,
+    "bgm": {
+      "id": 718
+    }
+  }],
+  "spots": [{
+    "id": 914701,
+    "mapId": 9154,
+    "name": "中央の城 城門",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9152/QMap_Cap9152_Atlas/spot_914701.png",
+    "x": 1597,
+    "y": 903,
+    "nameOfsY": 1,
+    "questOfsX": 32,
+    "questOfsY": -75
+  }, {
+    "id": 914702,
+    "mapId": 9154,
+    "name": "中央の城 城内",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9152/QMap_Cap9152_Atlas/spot_914702.png",
+    "x": 1272,
+    "y": 702,
+    "nameOfsY": 1,
+    "questOfsX": 32,
+    "questOfsY": -75,
+    "quests": [{
+      "id": 94087104,
+      "name": "尽くせぬ忠誠の残滓",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "75",
+      "spotId": 914702,
+      "warId": 9152,
+      "gifts": [{
+        "id": 12000,
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "commonRelease",
+        "targetId": 94087102
+      }],
+      "phases": [1],
+      "priority": 94087237,
+      "noticeAt": 1698231600,
+      "openedAt": 1698231600,
+      "closedAt": 1700020799
+    }]
+  }, {
+    "id": 914703,
+    "mapId": 9154,
+    "name": "北の城 城内",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9152/QMap_Cap9152_Atlas/spot_914703.png",
+    "x": 1127,
+    "y": 370,
+    "nameOfsY": 1,
+    "questOfsX": 32,
+    "questOfsY": -82,
+    "quests": [{
+      "id": 94086908,
+      "name": "第8節 三人の城主",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 914703,
+      "warId": 9152,
+      "gifts": [{
+        "id": 101,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "questGroupClear",
+        "targetId": 94086901,
+        "value": 1
+      }],
+      "phases": [1, 2],
+      "phasesNoBattle": [1, 2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408690810",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408690810.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9408690820",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408690820.txt"
+        }]
+      }],
+      "priority": 94087287,
+      "noticeAt": 1698231600,
+      "openedAt": 1698310800,
+      "closedAt": 1700020799
+    }]
+  }, {
+    "id": 914708,
+    "mapId": 9155,
+    "name": "中央の城 城門",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9152/QMap_Cap9152_Atlas/spot_914708.png",
+    "x": 1597,
+    "y": 903,
+    "nameOfsY": 1,
+    "questOfsX": 32,
+    "questOfsY": -75
+  }, {
+    "id": 914709,
+    "mapId": 9155,
+    "name": "中央の城 城内",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9152/QMap_Cap9152_Atlas/spot_914709.png",
+    "x": 1272,
+    "y": 702,
+    "nameOfsY": 1,
+    "questOfsX": 32,
+    "questOfsY": -75
+  }, {
+    "id": 914710,
+    "mapId": 9155,
+    "name": "北の城 城内",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9152/QMap_Cap9152_Atlas/spot_914710.png",
+    "x": 1127,
+    "y": 370,
+    "nameOfsY": 1,
+    "questOfsX": 32,
+    "questOfsY": -82
+  }, {
+    "id": 914720,
+    "mapId": 9152,
+    "name": "城門",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9152/QMap_Cap9152_Atlas/spot_914701.png",
+    "x": 1597,
+    "y": 903,
+    "nameOfsY": 1,
+    "questOfsX": 32,
+    "questOfsY": -75,
+    "spotAdds": [{
+      "priority": 1,
+      "overrideType": "name",
+      "targetText": "中央の城 城門",
+      "condType": "questClear",
+      "condTargetId": 94086907
+    }, {
+      "priority": 2,
+      "overrideType": "name",
+      "targetText": "中央の城 城門",
+      "condType": "questClear",
+      "condTargetId": 94086957
+    }],
+    "quests": [{
+      "id": 94086902,
+      "name": "第2節 霧の城 後",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 914720,
+      "warId": 9152,
+      "gifts": [{
+        "id": 101,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94087001
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408690210",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408690210.txt"
+        }]
+      }],
+      "priority": 94087297,
+      "noticeAt": 1698231600,
+      "openedAt": 1698231600,
+      "closedAt": 1700020799
+    }, {
+      "id": 94087001,
+      "name": "聖杯戦線1 影の騎士",
+      "type": "warBoard",
+      "flags": ["dropFirstTimeOnly", "notRetrievable", "battleResultLoseQuestClear"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "70",
+      "spotId": 914720,
+      "warId": 9152,
+      "gifts": [{
+        "id": 94087001,
+        "objectId": 4001,
+        "num": 1
+      }, {
+        "id": 94087001,
+        "objectId": 6555,
+        "num": 5
+      }, {
+        "id": 94087001,
+        "objectId": 94086901,
+        "num": 200
+      }, {
+        "id": 94087001,
+        "objectId": 1,
+        "num": 3000000
+      }],
+      "releaseConditions": [{
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "commonRelease",
+        "targetId": 94087001
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408700110",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408700110.txt"
+        }, {
+          "scriptId": "9408700111",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408700111.txt"
+        }, {
+          "scriptId": "9408700112",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408700112.txt"
+        }, {
+          "scriptId": "9408700113",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408700113.txt"
+        }, {
+          "scriptId": "9408700114",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408700114.txt"
+        }, {
+          "scriptId": "9408700115",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408700115.txt"
+        }, {
+          "scriptId": "9408700116",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408700116.txt"
+        }, {
+          "scriptId": "9408700117",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408700117.txt"
+        }, {
+          "scriptId": "9408700118",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408700118.txt"
+        }, {
+          "scriptId": "9408700119",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408700119.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9408700120",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408700120.txt"
+        }, {
+          "scriptId": "9408700121",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408700121.txt"
+        }, {
+          "scriptId": "9408700122",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408700122.txt"
+        }, {
+          "scriptId": "9408700123",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408700123.txt"
+        }, {
+          "scriptId": "9408700124",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408700124.txt"
+        }]
+      }],
+      "priority": 94087255,
+      "noticeAt": 1698231600,
+      "openedAt": 1698231600,
+      "closedAt": 1700020799
+    }]
+  }, {
+    "id": 914721,
+    "mapId": 9152,
+    "name": "城内",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9152/QMap_Cap9152_Atlas/spot_914702.png",
+    "x": 1272,
+    "y": 702,
+    "nameOfsY": 1,
+    "questOfsX": 32,
+    "questOfsY": -75,
+    "spotAdds": [{
+      "priority": 1,
+      "overrideType": "name",
+      "targetText": "中央の城 城内",
+      "condType": "questClear",
+      "condTargetId": 94086907
+    }, {
+      "priority": 2,
+      "overrideType": "name",
+      "targetText": "中央の城 城内",
+      "condType": "questClear",
+      "condTargetId": 94086957
+    }],
+    "quests": [{
+      "id": 94086905,
+      "name": "第5節 昼と夜の選択",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 914721,
+      "warId": 9152,
+      "gifts": [{
+        "id": 101,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94086904
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408690510",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408690510.txt"
+        }]
+      }],
+      "priority": 94087292,
+      "noticeAt": 1698231600,
+      "openedAt": 1698231600,
+      "closedAt": 1700020799
+    }, {
+      "id": 94086906,
+      "name": "第6節 昼の進撃 前",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 914721,
+      "warId": 9152,
+      "gifts": [{
+        "id": 101,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94087201
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408690610",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408690610.txt"
+        }]
+      }],
+      "priority": 94087291,
+      "noticeAt": 1698231600,
+      "openedAt": 1698231600,
+      "closedAt": 1700020799
+    }, {
+      "id": 94086907,
+      "name": "第7節 昼の進撃 後",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 914721,
+      "warId": 9152,
+      "gifts": [{
+        "id": 94086912,
+        "objectId": 7998,
+        "num": 3
+      }],
+      "releaseConditions": [{
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "commonRelease",
+        "targetId": 94086901
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408690710",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408690710.txt"
+        }]
+      }],
+      "priority": 94087289,
+      "noticeAt": 1698231600,
+      "openedAt": 1698231600,
+      "closedAt": 1700020799
+    }, {
+      "id": 94087003,
+      "name": "聖杯戦線3 攻略戦（昼）",
+      "type": "warBoard",
+      "flags": ["dropFirstTimeOnly", "notRetrievable", "battleResultLoseQuestClear"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "70",
+      "spotId": 914721,
+      "warId": 9152,
+      "gifts": [{
+        "id": 94087003,
+        "objectId": 4001,
+        "num": 1
+      }, {
+        "id": 94087003,
+        "objectId": 6523,
+        "num": 5
+      }, {
+        "id": 94087003,
+        "objectId": 94086903,
+        "num": 200
+      }, {
+        "id": 94087003,
+        "objectId": 1,
+        "num": 3000000
+      }],
+      "releaseConditions": [{
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "commonRelease",
+        "targetId": 94087003
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408700310",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408700310.txt"
+        }, {
+          "scriptId": "9408700311",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408700311.txt"
+        }, {
+          "scriptId": "9408700312",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408700312.txt"
+        }, {
+          "scriptId": "9408700313",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408700313.txt"
+        }]
+      }],
+      "priority": 94087253,
+      "noticeAt": 1698231600,
+      "openedAt": 1698231600,
+      "closedAt": 1700020799
+    }, {
+      "id": 94087201,
+      "name": "【分岐選択】昼の戦場へ",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 914721,
+      "warId": 9152,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94086905
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "notQuestGroupClear",
+        "targetId": 94087201,
+        "value": 1
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94087263,
+      "noticeAt": 1698231600,
+      "openedAt": 1698231600,
+      "closedAt": 1700020799
+    }, {
+      "id": 94087202,
+      "name": "【分岐選択】夜の戦場へ",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 914721,
+      "warId": 9152,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94086905
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "notQuestGroupClear",
+        "targetId": 94087201,
+        "value": 1
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94087262,
+      "noticeAt": 1698231600,
+      "openedAt": 1698231600,
+      "closedAt": 1700020799
+    }]
+  }, {
+    "id": 914722,
+    "mapId": 9153,
+    "name": "城門",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9152/QMap_Cap9152_Atlas/spot_914708.png",
+    "x": 1597,
+    "y": 903,
+    "nameOfsY": 1,
+    "questOfsX": 32,
+    "questOfsY": -75,
+    "spotAdds": [{
+      "priority": 1,
+      "overrideType": "name",
+      "targetText": "中央の城 城門",
+      "condType": "questClear",
+      "condTargetId": 94086907
+    }, {
+      "priority": 2,
+      "overrideType": "name",
+      "targetText": "中央の城 城門",
+      "condType": "questClear",
+      "condTargetId": 94086957
+    }],
+    "quests": [{
+      "id": 94086903,
+      "name": "第3節 夜の顔 前",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 914722,
+      "warId": 9152,
+      "gifts": [{
+        "id": 101,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94086902
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408690310",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408690310.txt"
+        }]
+      }],
+      "priority": 94087296,
+      "noticeAt": 1698231600,
+      "openedAt": 1698231600,
+      "closedAt": 1700020799
+    }, {
+      "id": 94087101,
+      "name": "不動たる信仰の末",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "70",
+      "spotId": 914722,
+      "warId": 9152,
+      "gifts": [{
+        "id": 13000,
+        "objectId": 101,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "commonRelease",
+        "targetId": 94087101
+      }],
+      "phases": [1],
+      "priority": 94087240,
+      "noticeAt": 1698231600,
+      "openedAt": 1698231600,
+      "closedAt": 1700020799
+    }, {
+      "id": 94087102,
+      "name": "確固たる決意の果て",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "70",
+      "spotId": 914722,
+      "warId": 9152,
+      "gifts": [{
+        "id": 13000,
+        "objectId": 101,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "commonRelease",
+        "targetId": 94087101
+      }],
+      "phases": [1],
+      "priority": 94087239,
+      "noticeAt": 1698231600,
+      "openedAt": 1698231600,
+      "closedAt": 1700020799
+    }, {
+      "id": 94087103,
+      "name": "破りし忠義の残火",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "70",
+      "spotId": 914722,
+      "warId": 9152,
+      "gifts": [{
+        "id": 13000,
+        "objectId": 101,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "commonRelease",
+        "targetId": 94087101
+      }],
+      "phases": [1],
+      "priority": 94087238,
+      "noticeAt": 1698231600,
+      "openedAt": 1698231600,
+      "closedAt": 1700020799
+    }]
+  }, {
+    "id": 914723,
+    "mapId": 9153,
+    "name": "城内",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9152/QMap_Cap9152_Atlas/spot_914709.png",
+    "x": 1272,
+    "y": 702,
+    "nameOfsY": 1,
+    "questOfsX": 32,
+    "questOfsY": -75,
+    "spotAdds": [{
+      "priority": 1,
+      "overrideType": "name",
+      "targetText": "中央の城 城内",
+      "condType": "questClear",
+      "condTargetId": 94086907
+    }, {
+      "priority": 2,
+      "overrideType": "name",
+      "targetText": "中央の城 城内",
+      "condType": "questClear",
+      "condTargetId": 94086957
+    }],
+    "quests": [{
+      "id": 94086904,
+      "name": "第4節 夜の顔 後",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 914723,
+      "warId": 9152,
+      "gifts": [{
+        "id": 101,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94087002
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408690410",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408690410.txt"
+        }]
+      }],
+      "priority": 94087295,
+      "noticeAt": 1698231600,
+      "openedAt": 1698231600,
+      "closedAt": 1700020799
+    }, {
+      "id": 94086956,
+      "name": "第6節 夜の軍略 前",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 914723,
+      "warId": 9152,
+      "gifts": [{
+        "id": 101,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94087202
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408695610",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408695610.txt"
+        }]
+      }],
+      "priority": 94087290,
+      "noticeAt": 1698231600,
+      "openedAt": 1698231600,
+      "closedAt": 1700020799
+    }, {
+      "id": 94086957,
+      "name": "第7節 夜の軍略 後",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 914723,
+      "warId": 9152,
+      "gifts": [{
+        "id": 94086912,
+        "objectId": 7998,
+        "num": 3
+      }],
+      "releaseConditions": [{
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "commonRelease",
+        "targetId": 94086902
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408695710",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408695710.txt"
+        }]
+      }],
+      "priority": 94087288,
+      "noticeAt": 1698231600,
+      "openedAt": 1698231600,
+      "closedAt": 1700020799
+    }, {
+      "id": 94087002,
+      "name": "聖杯戦線2 銃火と獣",
+      "type": "warBoard",
+      "flags": ["dropFirstTimeOnly", "notRetrievable", "battleResultLoseQuestClear"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "70",
+      "spotId": 914723,
+      "warId": 9152,
+      "gifts": [{
+        "id": 94087002,
+        "objectId": 4001,
+        "num": 1
+      }, {
+        "id": 94087002,
+        "objectId": 6553,
+        "num": 5
+      }, {
+        "id": 94087002,
+        "objectId": 94086902,
+        "num": 200
+      }, {
+        "id": 94087002,
+        "objectId": 1,
+        "num": 3000000
+      }],
+      "releaseConditions": [{
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "commonRelease",
+        "targetId": 94087002
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408700210",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408700210.txt"
+        }, {
+          "scriptId": "9408700211",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408700211.txt"
+        }, {
+          "scriptId": "9408700212",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408700212.txt"
+        }, {
+          "scriptId": "9408700213",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408700213.txt"
+        }, {
+          "scriptId": "9408700214",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408700214.txt"
+        }, {
+          "scriptId": "9408700215",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408700215.txt"
+        }, {
+          "scriptId": "9408700216",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408700216.txt"
+        }, {
+          "scriptId": "9408700217",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408700217.txt"
+        }, {
+          "scriptId": "9408700218",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408700218.txt"
+        }, {
+          "scriptId": "9408700219",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408700219.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9408700220",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408700220.txt"
+        }]
+      }],
+      "priority": 94087254,
+      "noticeAt": 1698231600,
+      "openedAt": 1698231600,
+      "closedAt": 1700020799
+    }, {
+      "id": 94087053,
+      "name": "聖杯戦線3 攻略戦（夜）",
+      "type": "warBoard",
+      "flags": ["dropFirstTimeOnly", "notRetrievable", "battleResultLoseQuestClear"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "70",
+      "spotId": 914723,
+      "warId": 9152,
+      "gifts": [{
+        "id": 94087003,
+        "objectId": 4001,
+        "num": 1
+      }, {
+        "id": 94087003,
+        "objectId": 6523,
+        "num": 5
+      }, {
+        "id": 94087003,
+        "objectId": 94086903,
+        "num": 200
+      }, {
+        "id": 94087003,
+        "objectId": 1,
+        "num": 3000000
+      }],
+      "releaseConditions": [{
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "commonRelease",
+        "targetId": 94087053
+      }],
+      "phases": [1],
+      "priority": 94087252,
+      "noticeAt": 1698231600,
+      "openedAt": 1698231600,
+      "closedAt": 1700020799
+    }]
+  }, {
+    "id": 914724,
+    "mapId": 9152,
+    "name": "？？？",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9152/QMap_Cap9152_Atlas/spot_914724.png",
+    "x": 1671,
+    "y": 736,
+    "nameOfsY": 1,
+    "questOfsX": 32,
+    "questOfsY": -60,
+    "spotAdds": [{
+      "priority": 1,
+      "overrideType": "name",
+      "targetText": "霞んだ山地",
+      "condType": "questClear",
+      "condTargetId": 94086901
+    }],
+    "quests": [{
+      "id": 94086901,
+      "name": "第1節 霧の城 前",
+      "type": "main",
+      "flags": ["supportSelectAfterScript"],
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "70",
+      "spotId": 914724,
+      "warId": 9152,
+      "gifts": [{
+        "id": 94086910,
+        "type": "servant",
+        "objectId": 9407210,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94086900
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408690110",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408690110.txt"
+        }, {
+          "scriptId": "9408690111",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408690111.txt"
+        }]
+      }],
+      "priority": 94087298,
+      "noticeAt": 1698231600,
+      "openedAt": 1698231600,
+      "closedAt": 1700020799
+    }]
+  }, {
+    "id": 914725,
+    "mapId": 9154,
+    "name": "北の城 城門",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9152/QMap_Cap9152_Atlas/spot_914725.png",
+    "x": 1217,
+    "y": 498,
+    "nameOfsY": 1,
+    "questOfsX": 32,
+    "questOfsY": -86
+  }, {
+    "id": 914726,
+    "mapId": 9155,
+    "name": "北の城 城門",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9152/QMap_Cap9152_Atlas/spot_914726.png",
+    "x": 1217,
+    "y": 498,
+    "nameOfsY": 1,
+    "questOfsX": 32,
+    "questOfsY": -86
+  }, {
+    "id": 914729,
+    "mapId": 9153,
+    "name": "霞んだ山地",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9152/QMap_Cap9152_Atlas/spot_914729.png",
+    "x": 1671,
+    "y": 736,
+    "nameOfsY": 1,
+    "questOfsX": 32,
+    "questOfsY": -60
+  }, {
+    "id": 914730,
+    "mapId": 9154,
+    "name": "霞んだ山地",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9152/QMap_Cap9152_Atlas/spot_914724.png",
+    "x": 1671,
+    "y": 736,
+    "nameOfsY": 1,
+    "questOfsX": 32,
+    "questOfsY": -60
+  }, {
+    "id": 914731,
+    "mapId": 9155,
+    "name": "霞んだ山地",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9152/QMap_Cap9152_Atlas/spot_914729.png",
+    "x": 1671,
+    "y": 736,
+    "nameOfsY": 1,
+    "questOfsX": 32,
+    "questOfsY": -60
+  }, {
+    "id": 914732,
+    "mapId": 9154,
+    "name": "北の城 城門",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9152/QMap_Cap9152_Atlas/spot_914732.png",
+    "x": 1217,
+    "y": 498,
+    "nameOfsY": 1,
+    "questOfsX": 32,
+    "questOfsY": -82
+  }, {
+    "id": 914733,
+    "mapId": 9155,
+    "name": "北の城 城門",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9152/QMap_Cap9152_Atlas/spot_914733.png",
+    "x": 1217,
+    "y": 498,
+    "nameOfsY": 1,
+    "questOfsX": 32,
+    "questOfsY": -82
+  }, {
+    "id": 914799,
+    "mapId": 9152,
+    "name": "",
+    "x": 999999,
+    "y": 999999,
+    "quests": [{
+      "id": 94086900,
+      "name": "プロローグ",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 914799,
+      "warId": 9152,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 3000125
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408690010",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408690010.txt"
+        }]
+      }],
+      "priority": 94087299,
+      "noticeAt": 1698231600,
+      "openedAt": 1698231600,
+      "closedAt": 1700020799
+    }]
+  }],
+  "spotRoads": [{
+    "id": 914701,
+    "warId": 9152,
+    "mapId": 9152,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9152/QMap_Cap9152_Atlas/img_road9152_00.png",
+    "srcSpotId": 914724,
+    "dstSpotId": 914720,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "useItemTime"
+  }, {
+    "id": 914702,
+    "warId": 9152,
+    "mapId": 9153,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9152/QMap_Cap9152_Atlas/img_road9152_00.png",
+    "srcSpotId": 914722,
+    "dstSpotId": 914723,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "useItemTime"
+  }, {
+    "id": 914703,
+    "warId": 9152,
+    "mapId": 9154,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9152/QMap_Cap9152_Atlas/img_road9152_00.png",
+    "srcSpotId": 914702,
+    "dstSpotId": 914703,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "useItemTime"
+  }, {
+    "id": 914704,
+    "warId": 9152,
+    "mapId": 9154,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9152/QMap_Cap9152_Atlas/img_road9152_00.png",
+    "srcSpotId": 914702,
+    "dstSpotId": 914725,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "useItemTime"
+  }, {
+    "id": 914705,
+    "warId": 9152,
+    "mapId": 9154,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9152/QMap_Cap9152_Atlas/img_road9152_00.png",
+    "srcSpotId": 914725,
+    "dstSpotId": 914703,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "useItemTime"
+  }, {
+    "id": 914706,
+    "warId": 9152,
+    "mapId": 9155,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9152/QMap_Cap9152_Atlas/img_road9152_00.png",
+    "srcSpotId": 914726,
+    "dstSpotId": 914710,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "useItemTime"
+  }, {
+    "id": 914715,
+    "warId": 9152,
+    "mapId": 9155,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9152/QMap_Cap9152_Atlas/img_road9152_00.png",
+    "srcSpotId": 914709,
+    "dstSpotId": 914726,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "useItemTime"
+  }]
+}, {
   "id": 9160,
   "coordinates": [
     [21.318611, -157.92223],
