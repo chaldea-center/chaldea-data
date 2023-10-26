@@ -101543,6 +101543,62 @@
       "noticeAt": 1698231600,
       "openedAt": 1698231600,
       "closedAt": 1700020799
+    }, {
+      "id": 94087203,
+      "name": "【分岐選択】昼に北の城へ向かう",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 914702,
+      "warId": 9152,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94086908
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "notQuestGroupClear",
+        "targetId": 94087202,
+        "value": 1
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94087261,
+      "noticeAt": 1698310800,
+      "openedAt": 1698310800,
+      "closedAt": 1700020799
+    }, {
+      "id": 94087204,
+      "name": "【分岐選択】夜に北の城へ向かう",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 914702,
+      "warId": 9152,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94086908
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "notQuestGroupClear",
+        "targetId": 94087202,
+        "value": 1
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94087260,
+      "noticeAt": 1698310800,
+      "openedAt": 1698310800,
+      "closedAt": 1700020799
     }]
   }, {
     "id": 914703,
@@ -101597,6 +101653,149 @@
       "noticeAt": 1698231600,
       "openedAt": 1698310800,
       "closedAt": 1700020799
+    }, {
+      "id": 94086910,
+      "name": "第10節 東の軍師と西の猛将 中",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 914703,
+      "warId": 9152,
+      "gifts": [{
+        "id": 101,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "commonRelease",
+        "targetId": 94086904
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408691010",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408691010.txt"
+        }]
+      }],
+      "priority": 94087284,
+      "noticeAt": 1698310800,
+      "openedAt": 1698310800,
+      "closedAt": 1700020799
+    }, {
+      "id": 94086911,
+      "name": "第11節 東の軍師と西の猛将 後",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 914703,
+      "warId": 9152,
+      "gifts": [{
+        "id": 101,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "commonRelease",
+        "targetId": 94086906
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408691110",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408691110.txt"
+        }]
+      }],
+      "priority": 94087282,
+      "noticeAt": 1698310800,
+      "openedAt": 1698310800,
+      "closedAt": 1700020799
+    }, {
+      "id": 94087005,
+      "name": "聖杯戦線5 封神の軍（昼）",
+      "type": "warBoard",
+      "flags": ["dropFirstTimeOnly", "notRetrievable", "battleResultLoseQuestClear"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "80",
+      "spotId": 914703,
+      "warId": 9152,
+      "gifts": [{
+        "id": 94087005,
+        "objectId": 4001,
+        "num": 1
+      }, {
+        "id": 94087005,
+        "objectId": 6546,
+        "num": 5
+      }, {
+        "id": 94087005,
+        "objectId": 94086902,
+        "num": 400
+      }, {
+        "id": 94087005,
+        "objectId": 1,
+        "num": 3000000
+      }],
+      "releaseConditions": [{
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "commonRelease",
+        "targetId": 94087005
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408700510",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408700510.txt"
+        }, {
+          "scriptId": "9408700511",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408700511.txt"
+        }, {
+          "scriptId": "9408700512",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408700512.txt"
+        }, {
+          "scriptId": "9408700513",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408700513.txt"
+        }, {
+          "scriptId": "9408700514",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408700514.txt"
+        }, {
+          "scriptId": "9408700515",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408700515.txt"
+        }, {
+          "scriptId": "9408700516",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408700516.txt"
+        }, {
+          "scriptId": "9408700517",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408700517.txt"
+        }, {
+          "scriptId": "9408700518",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408700518.txt"
+        }]
+      }],
+      "priority": 94087249,
+      "noticeAt": 1698310800,
+      "openedAt": 1698310800,
+      "closedAt": 1700020799
     }]
   }, {
     "id": 914708,
@@ -101627,7 +101826,154 @@
     "y": 370,
     "nameOfsY": 1,
     "questOfsX": 32,
-    "questOfsY": -82
+    "questOfsY": -82,
+    "quests": [{
+      "id": 94086912,
+      "name": "",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 914710,
+      "warId": 9152,
+      "gifts": [{
+        "id": 101,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "questGroupClear",
+        "targetId": 94086902,
+        "value": 1
+      }, {
+        "type": "forceFalse",
+        "targetId": 0,
+        "closedMessage": "データ更新後に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94087280,
+      "noticeAt": 1698310800,
+      "openedAt": 1698397200,
+      "closedAt": 1700020799
+    }, {
+      "id": 94086960,
+      "name": "第10節 東の軍師と西の老王 中",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 914710,
+      "warId": 9152,
+      "gifts": [{
+        "id": 101,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "commonRelease",
+        "targetId": 94086905
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408696010",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408696010.txt"
+        }]
+      }],
+      "priority": 94087283,
+      "noticeAt": 1698310800,
+      "openedAt": 1698310800,
+      "closedAt": 1700020799
+    }, {
+      "id": 94086961,
+      "name": "第11節 東の軍師と西の老王 後",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 914710,
+      "warId": 9152,
+      "gifts": [{
+        "id": 101,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "commonRelease",
+        "targetId": 94086907
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408696110",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408696110.txt"
+        }]
+      }],
+      "priority": 94087281,
+      "noticeAt": 1698310800,
+      "openedAt": 1698310800,
+      "closedAt": 1700020799
+    }, {
+      "id": 94087055,
+      "name": "聖杯戦線5 封神の軍（夜）",
+      "type": "warBoard",
+      "flags": ["dropFirstTimeOnly", "notRetrievable", "battleResultLoseQuestClear"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "80",
+      "spotId": 914710,
+      "warId": 9152,
+      "gifts": [{
+        "id": 94087005,
+        "objectId": 4001,
+        "num": 1
+      }, {
+        "id": 94087005,
+        "objectId": 6546,
+        "num": 5
+      }, {
+        "id": 94087005,
+        "objectId": 94086902,
+        "num": 400
+      }, {
+        "id": 94087005,
+        "objectId": 1,
+        "num": 3000000
+      }],
+      "releaseConditions": [{
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "commonRelease",
+        "targetId": 94087055
+      }],
+      "phases": [1],
+      "priority": 94087248,
+      "noticeAt": 1698310800,
+      "openedAt": 1698310800,
+      "closedAt": 1700020799
+    }]
   }, {
     "id": 914720,
     "mapId": 9152,
@@ -102494,7 +102840,127 @@
     "y": 498,
     "nameOfsY": 1,
     "questOfsX": 32,
-    "questOfsY": -86
+    "questOfsY": -86,
+    "quests": [{
+      "id": 94086909,
+      "name": "第9節 東の軍師と西の猛将 前",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 914725,
+      "warId": 9152,
+      "gifts": [{
+        "id": 101,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94087203
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408690910",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408690910.txt"
+        }]
+      }],
+      "priority": 94087286,
+      "noticeAt": 1698310800,
+      "openedAt": 1698310800,
+      "closedAt": 1700020799
+    }, {
+      "id": 94087004,
+      "name": "聖杯戦線4 天運の戦場（昼）",
+      "type": "warBoard",
+      "flags": ["dropFirstTimeOnly", "notRetrievable", "battleResultLoseQuestClear"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "75",
+      "spotId": 914725,
+      "warId": 9152,
+      "gifts": [{
+        "id": 94087004,
+        "objectId": 4001,
+        "num": 1
+      }, {
+        "id": 94087004,
+        "objectId": 6525,
+        "num": 5
+      }, {
+        "id": 94087004,
+        "objectId": 94086901,
+        "num": 400
+      }, {
+        "id": 94087004,
+        "objectId": 1,
+        "num": 3000000
+      }],
+      "releaseConditions": [{
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "commonRelease",
+        "targetId": 94087004
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408700410",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408700410.txt"
+        }, {
+          "scriptId": "9408700411",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408700411.txt"
+        }, {
+          "scriptId": "9408700412",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408700412.txt"
+        }, {
+          "scriptId": "9408700413",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408700413.txt"
+        }, {
+          "scriptId": "9408700414",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408700414.txt"
+        }, {
+          "scriptId": "9408700415",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408700415.txt"
+        }, {
+          "scriptId": "9408700416",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408700416.txt"
+        }, {
+          "scriptId": "9408700417",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408700417.txt"
+        }, {
+          "scriptId": "9408700418",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408700418.txt"
+        }, {
+          "scriptId": "9408700419",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408700419.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9408700420",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408700420.txt"
+        }, {
+          "scriptId": "9408700421",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408700421.txt"
+        }]
+      }],
+      "priority": 94087251,
+      "noticeAt": 1698310800,
+      "openedAt": 1698310800,
+      "closedAt": 1700020799
+    }]
   }, {
     "id": 914726,
     "mapId": 9155,
@@ -102504,7 +102970,112 @@
     "y": 498,
     "nameOfsY": 1,
     "questOfsX": 32,
-    "questOfsY": -86
+    "questOfsY": -86,
+    "quests": [{
+      "id": 94086959,
+      "name": "第9節 東の軍師と西の老王 前",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 914726,
+      "warId": 9152,
+      "gifts": [{
+        "id": 101,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94087204
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408695910",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408695910.txt"
+        }]
+      }],
+      "priority": 94087285,
+      "noticeAt": 1698310800,
+      "openedAt": 1698310800,
+      "closedAt": 1700020799
+    }, {
+      "id": 94087054,
+      "name": "聖杯戦線4 天運の戦場（夜）",
+      "type": "warBoard",
+      "flags": ["dropFirstTimeOnly", "notRetrievable", "battleResultLoseQuestClear"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "75",
+      "spotId": 914726,
+      "warId": 9152,
+      "gifts": [{
+        "id": 94087004,
+        "objectId": 4001,
+        "num": 1
+      }, {
+        "id": 94087004,
+        "objectId": 6525,
+        "num": 5
+      }, {
+        "id": 94087004,
+        "objectId": 94086901,
+        "num": 400
+      }, {
+        "id": 94087004,
+        "objectId": 1,
+        "num": 3000000
+      }],
+      "releaseConditions": [{
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "commonRelease",
+        "targetId": 94087054
+      }],
+      "phases": [1],
+      "priority": 94087250,
+      "noticeAt": 1698310800,
+      "openedAt": 1698310800,
+      "closedAt": 1700020799
+    }, {
+      "id": 94087105,
+      "name": "愚かな儀式の痕",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "75",
+      "spotId": 914726,
+      "warId": 9152,
+      "gifts": [{
+        "id": 12000,
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "commonRelease",
+        "targetId": 94087103
+      }],
+      "phases": [1],
+      "priority": 94087236,
+      "noticeAt": 1698310800,
+      "openedAt": 1698310800,
+      "closedAt": 1700020799
+    }]
   }, {
     "id": 914729,
     "mapId": 9153,
