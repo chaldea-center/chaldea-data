@@ -101460,6 +101460,15 @@
     "targetId": 94086911,
     "startedAt": 1698310800,
     "endedAt": 1700020799
+  }, {
+    "warId": 9152,
+    "type": "baseMapId",
+    "priority": 8,
+    "overwriteId": 9154,
+    "condType": "questClear",
+    "targetId": 94086912,
+    "startedAt": 1698397200,
+    "endedAt": 1700020799
   }],
   "maps": [{
     "id": 9152,
@@ -101598,6 +101607,70 @@
       "priority": 94087260,
       "noticeAt": 1698310800,
       "openedAt": 1698310800,
+      "closedAt": 1700020799
+    }, {
+      "id": 94087205,
+      "name": "",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 914702,
+      "warId": 9152,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94086913
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "notQuestGroupClear",
+        "targetId": 94087203,
+        "value": 1
+      }, {
+        "type": "forceFalse",
+        "targetId": 0,
+        "closedMessage": "データ更新後に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94087259,
+      "noticeAt": 1698397200,
+      "openedAt": 1698483600,
+      "closedAt": 1700020799
+    }, {
+      "id": 94087206,
+      "name": "",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 914702,
+      "warId": 9152,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94086913
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "notQuestGroupClear",
+        "targetId": 94087203,
+        "value": 1
+      }, {
+        "type": "forceFalse",
+        "targetId": 0,
+        "closedMessage": "データ更新後に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94087258,
+      "noticeAt": 1698397200,
+      "openedAt": 1698483600,
       "closedAt": 1700020799
     }]
   }, {
@@ -101761,6 +101834,7 @@
         "targetId": 94087005
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "phaseScripts": [{
         "phase": 1,
         "scripts": [{
@@ -101796,7 +101870,105 @@
       "noticeAt": 1698310800,
       "openedAt": 1698310800,
       "closedAt": 1700020799
+    }, {
+      "id": 94087106,
+      "name": "黒き感情の揺らぎ",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "80",
+      "spotId": 914703,
+      "warId": 9152,
+      "gifts": [{
+        "id": 12000,
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "commonRelease",
+        "targetId": 94087104
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94087235,
+      "noticeAt": 1698397200,
+      "openedAt": 1698397200,
+      "closedAt": 1700020799
     }]
+  }, {
+    "id": 914705,
+    "mapId": 9154,
+    "name": "西の城 城内",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9152/QMap_Cap9152_Atlas/spot_914705.png",
+    "x": 575,
+    "y": 718,
+    "nameOfsY": 1,
+    "questOfsX": 32,
+    "questOfsY": -76,
+    "quests": [{
+      "id": 94086913,
+      "name": "第13節 二つ玉にて打申候",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 914705,
+      "warId": 9152,
+      "gifts": [{
+        "id": 101,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94086912
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1, 2, 3],
+      "phasesNoBattle": [1, 2, 3],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408691310",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408691310.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9408691320",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408691320.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9408691330",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408691330.txt"
+        }]
+      }],
+      "priority": 94087279,
+      "noticeAt": 1698397200,
+      "openedAt": 1698397200,
+      "closedAt": 1700020799
+    }]
+  }, {
+    "id": 914707,
+    "mapId": 9154,
+    "name": "西の城 城門",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9152/QMap_Cap9152_Atlas/spot_914707.png",
+    "x": 733,
+    "y": 852,
+    "nameOfsY": 1,
+    "questOfsX": 37,
+    "questOfsY": -79
   }, {
     "id": 914708,
     "mapId": 9155,
@@ -101829,7 +102001,7 @@
     "questOfsY": -82,
     "quests": [{
       "id": 94086912,
-      "name": "",
+      "name": "第12節 罪と影の迷宮",
       "type": "main",
       "flags": ["noBattle"],
       "consume": 0,
@@ -101843,6 +102015,9 @@
         "num": 1
       }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "date",
         "targetId": 0,
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
@@ -101850,13 +102025,16 @@
         "type": "questGroupClear",
         "targetId": 94086902,
         "value": 1
-      }, {
-        "type": "forceFalse",
-        "targetId": 0,
-        "closedMessage": "データ更新後に開放"
       }],
       "phases": [1],
       "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408691210",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408691210.txt"
+        }]
+      }],
       "priority": 94087280,
       "noticeAt": 1698310800,
       "openedAt": 1698397200,
@@ -101969,11 +102147,32 @@
         "targetId": 94087055
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94087248,
       "noticeAt": 1698310800,
       "openedAt": 1698310800,
       "closedAt": 1700020799
     }]
+  }, {
+    "id": 914712,
+    "mapId": 9155,
+    "name": "西の城 城内",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9152/QMap_Cap9152_Atlas/spot_914712.png",
+    "x": 575,
+    "y": 718,
+    "nameOfsY": 1,
+    "questOfsX": 32,
+    "questOfsY": -76
+  }, {
+    "id": 914714,
+    "mapId": 9155,
+    "name": "西の城 城門",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9152/QMap_Cap9152_Atlas/spot_914714.png",
+    "x": 733,
+    "y": 852,
+    "nameOfsY": 1,
+    "questOfsX": 37,
+    "questOfsY": -79
   }, {
     "id": 914720,
     "mapId": 9152,
@@ -102913,6 +103112,7 @@
         "targetId": 94087004
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "phaseScripts": [{
         "phase": 1,
         "scripts": [{
@@ -103043,6 +103243,7 @@
         "targetId": 94087054
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94087250,
       "noticeAt": 1698310800,
       "openedAt": 1698310800,
@@ -103071,6 +103272,7 @@
         "targetId": 94087103
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94087236,
       "noticeAt": 1698310800,
       "openedAt": 1698310800,
