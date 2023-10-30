@@ -101408,6 +101408,16 @@
     "endedAt": 1700020799
   }, {
     "warId": 9152,
+    "type": "flag",
+    "priority": 2,
+    "overwriteId": 34848,
+    "condType": "questClearPhase",
+    "targetId": 94086920,
+    "value": 2,
+    "startedAt": 1698656400,
+    "endedAt": 1700020799
+  }, {
+    "warId": 9152,
     "type": "baseMapId",
     "priority": 2,
     "overwriteId": 9152,
@@ -101426,12 +101436,31 @@
     "endedAt": 1700020799
   }, {
     "warId": 9152,
+    "type": "flag",
+    "priority": 3,
+    "overwriteId": 34848,
+    "condType": "questClearPhase",
+    "targetId": 94086970,
+    "value": 2,
+    "startedAt": 1698656400,
+    "endedAt": 1700020799
+  }, {
+    "warId": 9152,
     "type": "baseMapId",
     "priority": 4,
     "overwriteId": 9154,
     "condType": "questClear",
     "targetId": 94086907,
     "startedAt": 1698231600,
+    "endedAt": 1700020799
+  }, {
+    "warId": 9152,
+    "type": "flag",
+    "priority": 4,
+    "overwriteId": 34850,
+    "condType": "questClear",
+    "targetId": 94086921,
+    "startedAt": 1698656400,
     "endedAt": 1700020799
   }, {
     "warId": 9152,
@@ -101559,6 +101588,17 @@
     "mapImageW": 2048,
     "mapImageH": 1440,
     "mapGimmicks": [{
+      "id": 914719,
+      "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9152/QMap_Cap9152_Atlas/gimmick_914719.png",
+      "x": 1024,
+      "y": 720,
+      "depthOffset": 0,
+      "scale": 1000,
+      "dispCondType": "masterMission",
+      "dispTargetId": 94087111,
+      "dispTargetValue": 1,
+      "dispCondType2": "questClear"
+    }, {
       "id": 914720,
       "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9152/QMap_Cap9152_Atlas/gimmick_914720.png",
       "x": 1024,
@@ -103026,6 +103066,293 @@
       "closedAt": 1700020799
     }]
   }, {
+    "id": 914718,
+    "mapId": 9156,
+    "name": "繭の跡地",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9152/QMap_Cap9152_Atlas/spot_914718.png",
+    "x": 962,
+    "y": 730,
+    "nameOfsY": 1,
+    "questOfsX": 32,
+    "questOfsY": -55,
+    "quests": [{
+      "id": 94087110,
+      "name": "敢え無き文明の終わり",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90++",
+      "spotId": 914718,
+      "warId": 9152,
+      "gifts": [{
+        "id": 337,
+        "objectId": 3,
+        "num": 200
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94086921
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "priority": 94087231,
+      "noticeAt": 1698656400,
+      "openedAt": 1698656400,
+      "closedAt": 1700020799
+    }]
+  }, {
+    "id": 914719,
+    "mapId": 9156,
+    "name": "テュフォンの繭",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9152/QMap_Cap9152_Atlas/spot_914719.png",
+    "x": 998,
+    "y": 548,
+    "nameOfsY": 1,
+    "questOfsX": 37,
+    "questOfsY": -102,
+    "quests": [{
+      "id": 94086920,
+      "name": "第20節 夢の果て",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 914719,
+      "warId": 9152,
+      "gifts": [{
+        "id": 101,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "commonRelease",
+        "targetId": 94086913
+      }],
+      "phases": [1, 2],
+      "phasesNoBattle": [1, 2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408692010",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408692010.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9408692020",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408692020.txt"
+        }]
+      }],
+      "priority": 94087266,
+      "noticeAt": 1698656400,
+      "openedAt": 1698656400,
+      "closedAt": 1700020799
+    }, {
+      "id": 94086970,
+      "name": "第20節 いつか、夢のように",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 914719,
+      "warId": 9152,
+      "gifts": [{
+        "id": 101,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "commonRelease",
+        "targetId": 94086914
+      }],
+      "phases": [1, 2],
+      "phasesNoBattle": [1, 2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408697010",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408697010.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9408697020",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408697020.txt"
+        }]
+      }],
+      "priority": 94087265,
+      "noticeAt": 1698656400,
+      "openedAt": 1698656400,
+      "closedAt": 1700020799
+    }, {
+      "id": 94087009,
+      "name": "聖杯戦線9 無常の果実と久遠の光",
+      "type": "warBoard",
+      "flags": ["dropFirstTimeOnly", "notRetrievable", "battleResultLoseQuestClear"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "90",
+      "spotId": 914719,
+      "warId": 9152,
+      "gifts": [{
+        "id": 94087009,
+        "objectId": 7998,
+        "num": 4
+      }, {
+        "id": 94087009,
+        "objectId": 4001,
+        "num": 1
+      }, {
+        "id": 94087009,
+        "objectId": 6542,
+        "num": 5
+      }, {
+        "id": 94087009,
+        "objectId": 1,
+        "num": 3000000
+      }],
+      "releaseConditions": [{
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "commonRelease",
+        "targetId": 94087009
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408700910",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408700910.txt"
+        }, {
+          "scriptId": "9408700911",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408700911.txt"
+        }, {
+          "scriptId": "9408700912",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408700912.txt"
+        }, {
+          "scriptId": "9408700913",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408700913.txt"
+        }, {
+          "scriptId": "9408700914",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408700914.txt"
+        }, {
+          "scriptId": "9408700915",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408700915.txt"
+        }, {
+          "scriptId": "9408700916",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408700916.txt"
+        }, {
+          "scriptId": "9408700917",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408700917.txt"
+        }, {
+          "scriptId": "9408700918",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408700918.txt"
+        }, {
+          "scriptId": "9408700919",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408700919.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9408700920",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408700920.txt"
+        }, {
+          "scriptId": "9408700921",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408700921.txt"
+        }, {
+          "scriptId": "9408700922",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408700922.txt"
+        }, {
+          "scriptId": "9408700923",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408700923.txt"
+        }, {
+          "scriptId": "9408700924",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408700924.txt"
+        }, {
+          "scriptId": "9408700925",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408700925.txt"
+        }, {
+          "scriptId": "9408700926",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408700926.txt"
+        }, {
+          "scriptId": "9408700927",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408700927.txt"
+        }, {
+          "scriptId": "9408700928",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408700928.txt"
+        }, {
+          "scriptId": "9408700929",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408700929.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9408700930",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408700930.txt"
+        }]
+      }],
+      "priority": 94087242,
+      "noticeAt": 1698656400,
+      "openedAt": 1698656400,
+      "closedAt": 1700020799
+    }, {
+      "id": 94087059,
+      "name": "聖杯戦線9 無常の果実と王の書庫",
+      "type": "warBoard",
+      "flags": ["dropFirstTimeOnly", "notRetrievable", "battleResultLoseQuestClear"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "90",
+      "spotId": 914719,
+      "warId": 9152,
+      "gifts": [{
+        "id": 94087009,
+        "objectId": 7998,
+        "num": 4
+      }, {
+        "id": 94087009,
+        "objectId": 4001,
+        "num": 1
+      }, {
+        "id": 94087009,
+        "objectId": 6542,
+        "num": 5
+      }, {
+        "id": 94087009,
+        "objectId": 1,
+        "num": 3000000
+      }],
+      "releaseConditions": [{
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "commonRelease",
+        "targetId": 94087059
+      }],
+      "phases": [1],
+      "priority": 94087241,
+      "noticeAt": 1698656400,
+      "openedAt": 1698656400,
+      "closedAt": 1700020799
+    }]
+  }, {
     "id": 914720,
     "mapId": 9152,
     "name": "城門",
@@ -103283,6 +103610,7 @@
       "recommendLv": "1",
       "spotId": 914721,
       "warId": 9152,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/3.png",
       "gifts": [{
         "id": 94086912,
         "objectId": 7998,
@@ -103675,6 +104003,7 @@
       "recommendLv": "1",
       "spotId": 914723,
       "warId": 9152,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/3.png",
       "gifts": [{
         "id": 94086912,
         "objectId": 7998,
@@ -104211,8 +104540,128 @@
     "questOfsX": 32,
     "questOfsY": -56,
     "quests": [{
+      "id": 94086919,
+      "name": "第19節 旅の終わり",
+      "type": "main",
+      "flags": ["supportSelectAfterScript"],
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "80",
+      "spotId": 914734,
+      "warId": 9152,
+      "gifts": [{
+        "id": 101,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94087207
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1, 2],
+      "phasesWithEnemies": [1],
+      "phasesNoBattle": [2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408691910",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408691910.txt"
+        }, {
+          "scriptId": "9408691911",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408691911.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9408691920",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408691920.txt"
+        }]
+      }],
+      "priority": 94087268,
+      "noticeAt": 1698656400,
+      "openedAt": 1698656400,
+      "closedAt": 1700020799
+    }, {
+      "id": 94086969,
+      "name": "第19節 見果てぬ海",
+      "type": "main",
+      "flags": ["supportSelectAfterScript"],
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "80",
+      "spotId": 914734,
+      "warId": 9152,
+      "gifts": [{
+        "id": 101,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94087208
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1, 2],
+      "phasesWithEnemies": [1],
+      "phasesNoBattle": [2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408696910",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408696910.txt"
+        }, {
+          "scriptId": "9408696911",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408696911.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9408696920",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408696920.txt"
+        }]
+      }],
+      "priority": 94087267,
+      "noticeAt": 1698656400,
+      "openedAt": 1698656400,
+      "closedAt": 1700020799
+    }, {
+      "id": 94087109,
+      "name": "燃える情念の裏",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90+",
+      "spotId": 914734,
+      "warId": 9152,
+      "gifts": [{
+        "id": 327,
+        "objectId": 3,
+        "num": 100
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94086921
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "priority": 94087232,
+      "noticeAt": 1698656400,
+      "openedAt": 1698656400,
+      "closedAt": 1700020799
+    }, {
       "id": 94087207,
-      "name": "",
+      "name": "【分岐選択】猛将と共に決戦へ",
       "type": "main",
       "flags": ["noBattle"],
       "consume": 0,
@@ -104221,6 +104670,9 @@
       "spotId": 914734,
       "warId": 9152,
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 94086918
       }, {
@@ -104231,10 +104683,6 @@
         "type": "notQuestGroupClear",
         "targetId": 94087204,
         "value": 1
-      }, {
-        "type": "forceFalse",
-        "targetId": 0,
-        "closedMessage": "データ更新後に開放"
       }],
       "phases": [1],
       "phasesNoBattle": [1],
@@ -104244,7 +104692,7 @@
       "closedAt": 1700020799
     }, {
       "id": 94087208,
-      "name": "",
+      "name": "【分岐選択】老王と共に決戦へ",
       "type": "main",
       "flags": ["noBattle"],
       "consume": 0,
@@ -104253,6 +104701,9 @@
       "spotId": 914734,
       "warId": 9152,
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 94086918
       }, {
@@ -104263,10 +104714,6 @@
         "type": "notQuestGroupClear",
         "targetId": 94087204,
         "value": 1
-      }, {
-        "type": "forceFalse",
-        "targetId": 0,
-        "closedMessage": "データ更新後に開放"
       }],
       "phases": [1],
       "phasesNoBattle": [1],
@@ -104321,6 +104768,43 @@
       "priority": 94087299,
       "noticeAt": 1698231600,
       "openedAt": 1698231600,
+      "closedAt": 1700020799
+    }, {
+      "id": 94086921,
+      "name": "エピローグ",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 914799,
+      "warId": 9152,
+      "gifts": [{
+        "id": 21701,
+        "objectId": 6999,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "questGroupClear",
+        "targetId": 94086904,
+        "value": 1
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408692110",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408692110.txt"
+        }]
+      }],
+      "priority": 94087264,
+      "noticeAt": 1698656400,
+      "openedAt": 1698656400,
       "closedAt": 1700020799
     }]
   }],
@@ -104415,12 +104899,42 @@
     "dispCondType2": "useItemTime",
     "activeCondType": "useItemTime"
   }, {
+    "id": 914711,
+    "warId": 9152,
+    "mapId": 9156,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9152/QMap_Cap9152_Atlas/img_road9152_00.png",
+    "srcSpotId": 914717,
+    "dstSpotId": 914718,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "useItemTime"
+  }, {
+    "id": 914712,
+    "warId": 9152,
+    "mapId": 9156,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9152/QMap_Cap9152_Atlas/img_road9152_00.png",
+    "srcSpotId": 914718,
+    "dstSpotId": 914719,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "useItemTime"
+  }, {
     "id": 914713,
     "warId": 9152,
     "mapId": 9156,
     "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9152/QMap_Cap9152_Atlas/img_road9152_00.png",
     "srcSpotId": 914717,
     "dstSpotId": 914715,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "useItemTime"
+  }, {
+    "id": 914714,
+    "warId": 9152,
+    "mapId": 9156,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9152/QMap_Cap9152_Atlas/img_road9152_00.png",
+    "srcSpotId": 914715,
+    "dstSpotId": 914719,
     "dispCondType": "useItemTime",
     "dispCondType2": "useItemTime",
     "activeCondType": "useItemTime"
@@ -104441,6 +104955,16 @@
     "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9152/QMap_Cap9152_Atlas/img_road9152_00.png",
     "srcSpotId": 914709,
     "dstSpotId": 914714,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "useItemTime"
+  }, {
+    "id": 914717,
+    "warId": 9152,
+    "mapId": 9156,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9152/QMap_Cap9152_Atlas/img_road9152_00.png",
+    "srcSpotId": 914734,
+    "dstSpotId": 914719,
     "dispCondType": "useItemTime",
     "dispCondType2": "useItemTime",
     "activeCondType": "useItemTime"
