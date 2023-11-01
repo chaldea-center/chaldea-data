@@ -103415,6 +103415,42 @@
       "openedAt": 1698231600,
       "closedAt": 1700020799
     }, {
+      "id": 94086906,
+      "name": "第6節 昼の進撃 前",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 914720,
+      "warId": 9152,
+      "gifts": [{
+        "id": 101,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94087201
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408690610",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408690610.txt"
+        }]
+      }],
+      "priority": 94087291,
+      "noticeAt": 1698231600,
+      "openedAt": 1698231600,
+      "closedAt": 1700020799
+    }, {
       "id": 94087001,
       "name": "聖杯戦線1 影の騎士",
       "type": "warBoard",
@@ -103507,6 +103543,62 @@
       "noticeAt": 1698231600,
       "openedAt": 1698231600,
       "closedAt": 1700020799
+    }, {
+      "id": 94087201,
+      "name": "【分岐選択】昼の戦場へ",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 914720,
+      "warId": 9152,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94086905
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "notQuestGroupClear",
+        "targetId": 94087201,
+        "value": 1
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94087263,
+      "noticeAt": 1698231600,
+      "openedAt": 1698231600,
+      "closedAt": 1700020799
+    }, {
+      "id": 94087202,
+      "name": "【分岐選択】夜の戦場へ",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 914720,
+      "warId": 9152,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94086905
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "notQuestGroupClear",
+        "targetId": 94087201,
+        "value": 1
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94087262,
+      "noticeAt": 1698231600,
+      "openedAt": 1698231600,
+      "closedAt": 1700020799
     }]
   }, {
     "id": 914721,
@@ -103564,42 +103656,6 @@
         }]
       }],
       "priority": 94087292,
-      "noticeAt": 1698231600,
-      "openedAt": 1698231600,
-      "closedAt": 1700020799
-    }, {
-      "id": 94086906,
-      "name": "第6節 昼の進撃 前",
-      "type": "main",
-      "flags": ["noBattle"],
-      "consume": 0,
-      "afterClear": "close",
-      "recommendLv": "1",
-      "spotId": 914721,
-      "warId": 9152,
-      "gifts": [{
-        "id": 101,
-        "objectId": 2,
-        "num": 1
-      }],
-      "releaseConditions": [{
-        "type": "questClear",
-        "targetId": 94087201
-      }, {
-        "type": "date",
-        "targetId": 0,
-        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
-      }],
-      "phases": [1],
-      "phasesNoBattle": [1],
-      "phaseScripts": [{
-        "phase": 1,
-        "scripts": [{
-          "scriptId": "9408690610",
-          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408690610.txt"
-        }]
-      }],
-      "priority": 94087291,
       "noticeAt": 1698231600,
       "openedAt": 1698231600,
       "closedAt": 1700020799
@@ -103697,62 +103753,6 @@
       "noticeAt": 1698231600,
       "openedAt": 1698231600,
       "closedAt": 1700020799
-    }, {
-      "id": 94087201,
-      "name": "【分岐選択】昼の戦場へ",
-      "type": "main",
-      "flags": ["noBattle"],
-      "consume": 0,
-      "afterClear": "close",
-      "recommendLv": "1",
-      "spotId": 914721,
-      "warId": 9152,
-      "releaseConditions": [{
-        "type": "questClear",
-        "targetId": 94086905
-      }, {
-        "type": "date",
-        "targetId": 0,
-        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
-      }, {
-        "type": "notQuestGroupClear",
-        "targetId": 94087201,
-        "value": 1
-      }],
-      "phases": [1],
-      "phasesNoBattle": [1],
-      "priority": 94087263,
-      "noticeAt": 1698231600,
-      "openedAt": 1698231600,
-      "closedAt": 1700020799
-    }, {
-      "id": 94087202,
-      "name": "【分岐選択】夜の戦場へ",
-      "type": "main",
-      "flags": ["noBattle"],
-      "consume": 0,
-      "afterClear": "close",
-      "recommendLv": "1",
-      "spotId": 914721,
-      "warId": 9152,
-      "releaseConditions": [{
-        "type": "questClear",
-        "targetId": 94086905
-      }, {
-        "type": "date",
-        "targetId": 0,
-        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
-      }, {
-        "type": "notQuestGroupClear",
-        "targetId": 94087201,
-        "value": 1
-      }],
-      "phases": [1],
-      "phasesNoBattle": [1],
-      "priority": 94087262,
-      "noticeAt": 1698231600,
-      "openedAt": 1698231600,
-      "closedAt": 1700020799
     }]
   }, {
     "id": 914722,
@@ -103810,6 +103810,42 @@
         }]
       }],
       "priority": 94087296,
+      "noticeAt": 1698231600,
+      "openedAt": 1698231600,
+      "closedAt": 1700020799
+    }, {
+      "id": 94086956,
+      "name": "第6節 夜の軍略 前",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 914722,
+      "warId": 9152,
+      "gifts": [{
+        "id": 101,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94087202
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408695610",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408695610.txt"
+        }]
+      }],
+      "priority": 94087290,
       "noticeAt": 1698231600,
       "openedAt": 1698231600,
       "closedAt": 1700020799
@@ -103957,42 +103993,6 @@
         }]
       }],
       "priority": 94087295,
-      "noticeAt": 1698231600,
-      "openedAt": 1698231600,
-      "closedAt": 1700020799
-    }, {
-      "id": 94086956,
-      "name": "第6節 夜の軍略 前",
-      "type": "main",
-      "flags": ["noBattle"],
-      "consume": 0,
-      "afterClear": "close",
-      "recommendLv": "1",
-      "spotId": 914723,
-      "warId": 9152,
-      "gifts": [{
-        "id": 101,
-        "objectId": 2,
-        "num": 1
-      }],
-      "releaseConditions": [{
-        "type": "questClear",
-        "targetId": 94087202
-      }, {
-        "type": "date",
-        "targetId": 0,
-        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
-      }],
-      "phases": [1],
-      "phasesNoBattle": [1],
-      "phaseScripts": [{
-        "phase": 1,
-        "scripts": [{
-          "scriptId": "9408695610",
-          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408695610.txt"
-        }]
-      }],
-      "priority": 94087290,
       "noticeAt": 1698231600,
       "openedAt": 1698231600,
       "closedAt": 1700020799
@@ -104969,6 +104969,16 @@
     "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9152/QMap_Cap9152_Atlas/img_road9152_00.png",
     "srcSpotId": 914734,
     "dstSpotId": 914719,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "useItemTime"
+  }, {
+    "id": 914718,
+    "warId": 9152,
+    "mapId": 9152,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9152/QMap_Cap9152_Atlas/img_road9152_00.png",
+    "srcSpotId": 914720,
+    "dstSpotId": 914721,
     "dispCondType": "useItemTime",
     "dispCondType2": "useItemTime",
     "activeCondType": "useItemTime"
