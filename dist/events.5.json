@@ -84726,4 +84726,59 @@
   }, {
     "questId": 94061635
   }]
+}, {
+  "id": 20166,
+  "type": "combineCampaign",
+  "name": "「巡霊の祝祭 第6弾」関連サーヴァント 獲得経験値2倍！",
+  "detail": "「巡霊の祝祭 第6弾」関連サーヴァント 獲得経験値2倍！",
+  "noticeAt": 1700643600,
+  "startedAt": 1700643600,
+  "endedAt": 1701835199,
+  "finishedAt": 1701835199,
+  "campaigns": [{
+    "targetIds": [702600, 403000, 203900],
+    "target": "combineExp",
+    "idx": 1,
+    "value": 2000,
+    "calcType": "multiplication"
+  }]
+}, {
+  "id": 71397,
+  "type": "questCampaign",
+  "name": "消費AP 50%DOWN",
+  "detail": "消費AP 半減キャンペーン",
+  "noticeAt": 1700643600,
+  "startedAt": 1700643600,
+  "endedAt": 1701835199,
+  "finishedAt": 1701835199,
+  "campaigns": [{
+    "target": "questAp",
+    "idx": 1,
+    "value": 500,
+    "calcType": "multiplication"
+  }],
+  "campaignQuests": [{
+    "questId": 94091301
+  }, {
+    "questId": 94091302
+  }]
+}, {
+  "id": 71398,
+  "type": "questCampaign",
+  "name": "「巡霊の祝祭 第6弾」関連サーヴァント 獲得絆ポイント 20%UP",
+  "detail": "「巡霊の祝祭 第6弾」関連サーヴァント 獲得絆ポイント 20%UP",
+  "noticeAt": 1700643600,
+  "startedAt": 1700643600,
+  "endedAt": 1701835199,
+  "finishedAt": 1701835199,
+  "campaigns": [{
+    "targetIds": [702600, 403000, 203900],
+    "target": "questFriendship",
+    "idx": 1,
+    "value": 1200,
+    "calcType": "multiplication"
+  }],
+  "campaignQuests": [{
+    "questId": 0
+  }]
 }]
