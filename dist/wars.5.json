@@ -111127,4 +111127,412 @@
     "dispCondType2": "useItemTime",
     "activeCondType": "questClear"
   }]
+}, {
+  "id": 9163,
+  "coordinates": [
+    [35.051693, 136.97261],
+    [21.200916, 129.42914]
+  ],
+  "age": "-",
+  "name": "戦国暴走高道・MAKAI",
+  "longName": "戦国暴走高道・MAKAI",
+  "flags": ["isEvent", "noClearMarkWithComplete"],
+  "banner": "https://static.atlasacademy.io/JP/Banner/event_war_80436.png",
+  "priority": 9163,
+  "bgm": {
+    "id": 0
+  },
+  "script": "https://static.atlasacademy.io/JP/Script/Common/NONE.txt",
+  "eventId": 80451,
+  "eventName": "激走！川中島24時 ぐだぐだ超五稜郭\n殺しのサインはM51",
+  "warAdds": [{
+    "warId": 9163,
+    "type": "flag",
+    "priority": 2,
+    "overwriteId": 2082,
+    "condType": "questClearPhase",
+    "targetId": 94090001,
+    "value": 1,
+    "startedAt": 1701255600,
+    "endedAt": 1893423600
+  }],
+  "maps": [{
+    "id": 9163,
+    "mapImage": "https://static.atlasacademy.io/JP/Terminal/MapImgs/img_questmap_009163/img_questmap_009163.png",
+    "mapImageW": 2048,
+    "mapImageH": 2048,
+    "bgm": {
+      "id": 0
+    }
+  }],
+  "spots": [{
+    "id": 916301,
+    "mapId": 9163,
+    "name": "神坂",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9163/QMap_Cap9163_Atlas/spot_916301.png",
+    "x": 725,
+    "y": 1252,
+    "nameOfsY": -28,
+    "questOfsX": 28,
+    "questOfsY": -102,
+    "quests": [{
+      "id": 94090002,
+      "name": "第一節「殺しのライセンスＭ５１」",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "20",
+      "spotId": 916301,
+      "warId": 9163,
+      "gifts": [{
+        "id": 94090024,
+        "type": "servant",
+        "objectId": 9407430,
+        "num": 1
+      }, {
+        "id": 94090024,
+        "type": "servant",
+        "objectId": 9808900,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94090001
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9409000210",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409000210.txt"
+        }, {
+          "scriptId": "9409000211",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409000211.txt"
+        }]
+      }],
+      "priority": 94090498,
+      "noticeAt": 1701255600,
+      "openedAt": 1701255600,
+      "closedAt": 1702958399
+    }, {
+      "id": 94090201,
+      "name": "バイク乗り達のオアシス",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 30,
+      "afterClear": "repeatLast",
+      "recommendLv": "15",
+      "spotId": 916301,
+      "warId": 9163,
+      "gifts": [{
+        "id": 14000,
+        "objectId": 102,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94090002
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "priority": 94090199,
+      "noticeAt": 1701255600,
+      "openedAt": 1701255600,
+      "closedAt": 1702958399
+    }, {
+      "id": 94090202,
+      "name": "ご当地B級グルメフードバトル！",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 35,
+      "afterClear": "repeatLast",
+      "recommendLv": "25",
+      "spotId": 916301,
+      "warId": 9163,
+      "gifts": [{
+        "id": 14000,
+        "objectId": 102,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94090002
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "priority": 94090198,
+      "noticeAt": 1701255600,
+      "openedAt": 1701255600,
+      "closedAt": 1702958399
+    }, {
+      "id": 94090203,
+      "name": "名物お土産に思わずイチコロ？",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "40",
+      "spotId": 916301,
+      "warId": 9163,
+      "gifts": [{
+        "id": 13000,
+        "objectId": 101,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94090002
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "priority": 94090197,
+      "noticeAt": 1701255600,
+      "openedAt": 1701255600,
+      "closedAt": 1702958399
+    }]
+  }, {
+    "id": 916302,
+    "mapId": 9163,
+    "name": "桶狭間",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9163/QMap_Cap9163_Atlas/spot_916302.png",
+    "x": 413,
+    "y": 1429,
+    "nameOfsY": -28,
+    "questOfsX": 28,
+    "questOfsY": -102,
+    "quests": [{
+      "id": 94090003,
+      "name": "第二節「ナイス甲斐」",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "30",
+      "spotId": 916302,
+      "warId": 9163,
+      "gifts": [{
+        "id": 94090025,
+        "type": "servant",
+        "objectId": 9808900,
+        "num": 1
+      }, {
+        "id": 94090025,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94090002
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "＜条件を満たしていません＞"
+      }, {
+        "type": "eventTotalPoint",
+        "targetId": 80451,
+        "value": 25000,
+        "closedMessage": "魔甲斐レージポイント25,000以上で開放"
+      }],
+      "phases": [1, 2, 3, 4],
+      "phasesNoBattle": [3, 4],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9409000310",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409000310.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9409000320",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409000320.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9409000330",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409000330.txt"
+        }]
+      }, {
+        "phase": 4,
+        "scripts": [{
+          "scriptId": "9409000340",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409000340.txt"
+        }]
+      }],
+      "priority": 94090497,
+      "noticeAt": 1701255600,
+      "openedAt": 1701255600,
+      "closedAt": 1702958399
+    }]
+  }, {
+    "id": 916303,
+    "mapId": 9163,
+    "name": "園原IC",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9163/QMap_Cap9163_Atlas/spot_916303.png",
+    "x": 821,
+    "y": 1220,
+    "nameOfsY": -28,
+    "questOfsX": 28,
+    "questOfsY": -102
+  }, {
+    "id": 916304,
+    "mapId": 9163,
+    "name": "高遠",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9163/QMap_Cap9163_Atlas/spot_916304.png",
+    "x": 1090,
+    "y": 1031,
+    "nameOfsY": -28,
+    "questOfsX": 27,
+    "questOfsY": -98,
+    "quests": [{
+      "id": 94090004,
+      "name": "",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 916304,
+      "warId": 9163,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/3.png",
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94090003
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "魔甲斐レージポイント60,000以上＆11月30日18時以降に開放"
+      }, {
+        "type": "eventTotalPoint",
+        "targetId": 80451,
+        "value": 60000,
+        "closedMessage": "魔甲斐レージポイント60,000以上で開放"
+      }, {
+        "type": "forceFalse",
+        "targetId": 0,
+        "closedMessage": "データ更新後に開放"
+      }],
+      "phases": [1, 2],
+      "phasesNoBattle": [1, 2],
+      "priority": 94090496,
+      "noticeAt": 1701255600,
+      "openedAt": 1701334800,
+      "closedAt": 1702958399
+    }]
+  }, {
+    "id": 916305,
+    "mapId": 9163,
+    "name": "金沢峠",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9163/QMap_Cap9163_Atlas/spot_916304.png",
+    "x": 1157,
+    "y": 962,
+    "nameOfsY": -28,
+    "questOfsX": 27,
+    "questOfsY": -98
+  }, {
+    "id": 916306,
+    "mapId": 9163,
+    "name": "",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9163/QMap_Cap9163_Atlas/spot_916306.png",
+    "x": 1417,
+    "y": 1207,
+    "nameOfsY": -28,
+    "questOfsX": 28,
+    "questOfsY": -102
+  }, {
+    "id": 916399,
+    "mapId": 9163,
+    "name": "",
+    "nameOfsY": 3,
+    "questOfsX": 41,
+    "questOfsY": -71,
+    "quests": [{
+      "id": 94090001,
+      "name": "プロローグ「逆転オケハザマ」",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 916399,
+      "warId": 9163,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 1000011
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9409000110",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409000110.txt"
+        }]
+      }],
+      "priority": 94090499,
+      "noticeAt": 1701255600,
+      "openedAt": 1701255600,
+      "closedAt": 1702958399
+    }]
+  }],
+  "spotRoads": [{
+    "id": 916301,
+    "warId": 9163,
+    "mapId": 9163,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9163/QMap_Cap9163_Atlas/img_road9163_00.png",
+    "srcSpotId": 916301,
+    "dstSpotId": 916302,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "questClear"
+  }, {
+    "id": 916302,
+    "warId": 9163,
+    "mapId": 9163,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9163/QMap_Cap9163_Atlas/img_road9163_00.png",
+    "srcSpotId": 916302,
+    "dstSpotId": 916303,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "questClear"
+  }, {
+    "id": 916303,
+    "warId": 9163,
+    "mapId": 9163,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9163/QMap_Cap9163_Atlas/img_road9163_00.png",
+    "srcSpotId": 916303,
+    "dstSpotId": 916304,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "questClear"
+  }, {
+    "id": 916304,
+    "warId": 9163,
+    "mapId": 9163,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9163/QMap_Cap9163_Atlas/img_road9163_00.png",
+    "srcSpotId": 916304,
+    "dstSpotId": 916305,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "questClear"
+  }]
 }]

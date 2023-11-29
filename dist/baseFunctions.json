@@ -23113,6 +23113,31 @@
     "id": 2613
   }]
 }, {
+  "funcId": 5224,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "クリティカル発生アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_327.png",
+  "buffs": [{
+    "id": 144,
+    "name": "クリティカル発生アップ",
+    "detail": "クリティカルの発生率をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_327.png",
+    "type": "upCriticalrate",
+    "originalScript": {
+      "ProgressSelfTurn": 1
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3032
+    }],
+    "maxRate": 5000
+  }]
+}, {
   "funcId": 5229,
   "funcType": "addState",
   "funcTargetType": "self",
@@ -42737,6 +42762,147 @@
     "maxRate": 10000
   }]
 }, {
+  "funcId": 21194,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "ぐだぐだ激走パワー",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+  "funcquestTvals": [{
+    "id": 94000149
+  }],
+  "funcGroup": [{
+    "eventId": 80451,
+    "baseFuncId": 21193,
+    "nameTotal": "{1} \n攻撃の威力アップ合計",
+    "name": "攻撃の威力アップ",
+    "icon": "https://static.atlasacademy.io/JP/EventUI/func_group_icon_302.png",
+    "priority": 1,
+    "isDispValue": true
+  }],
+  "buffs": [{
+    "id": 5481,
+    "name": "ぐだぐだ激走パワー",
+    "detail": "『ぐだぐだ超五稜郭』において与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamage",
+    "maxRate": 10000
+  }]
+}, {
+  "funcId": 21195,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "ぐだぐだ激走パワー",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+  "funcquestTvals": [{
+    "id": 94000149
+  }],
+  "funcGroup": [{
+    "eventId": 80451,
+    "baseFuncId": 21193,
+    "nameTotal": "{1} \n攻撃の威力アップ合計",
+    "name": "攻撃の威力アップ",
+    "icon": "https://static.atlasacademy.io/JP/EventUI/func_group_icon_302.png",
+    "priority": 1,
+    "isDispValue": true
+  }],
+  "buffs": [{
+    "id": 5481,
+    "name": "ぐだぐだ激走パワー",
+    "detail": "『ぐだぐだ超五稜郭』において与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamage",
+    "maxRate": 10000
+  }]
+}, {
+  "funcId": 21196,
+  "funcType": "servantFriendshipUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "なし",
+  "funcGroup": [{
+    "eventId": 80451,
+    "baseFuncId": 0,
+    "nameTotal": "{1}\n得られる自身の絆ボーナス合計",
+    "name": "得られる自身の絆アップ",
+    "icon": "https://static.atlasacademy.io/JP/EventUI/func_group_icon_1009.png",
+    "priority": 1,
+    "isDispValue": true
+  }]
+}, {
+  "funcId": 21197,
+  "funcType": "servantFriendshipUp",
+  "funcTargetType": "ptFull",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "なし",
+  "funcGroup": [{
+    "eventId": 80451,
+    "baseFuncId": 0,
+    "nameTotal": "{1}\n得られる自身の絆ボーナス合計",
+    "name": "得られる自身の絆アップ",
+    "icon": "https://static.atlasacademy.io/JP/EventUI/func_group_icon_1023.png",
+    "priority": 1,
+    "isDispValue": true
+  }]
+}, {
+  "funcId": 21198,
+  "funcType": "eventDropUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcGroup": [{
+    "eventId": 80451,
+    "baseFuncId": 0,
+    "nameTotal": "{0}\n獲得数ボーナス合計",
+    "name": "{0}獲得数アップ",
+    "icon": "https://static.atlasacademy.io/JP/Items/94090001.png",
+    "priority": 1000,
+    "isDispValue": true
+  }]
+}, {
+  "funcId": 21199,
+  "funcType": "eventDropUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcGroup": [{
+    "eventId": 80451,
+    "baseFuncId": 0,
+    "nameTotal": "{0}\n獲得数ボーナス合計",
+    "name": "{0}獲得数アップ",
+    "icon": "https://static.atlasacademy.io/JP/Items/94090002.png",
+    "priority": 2000,
+    "isDispValue": true
+  }]
+}, {
+  "funcId": 21200,
+  "funcType": "eventDropUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcGroup": [{
+    "eventId": 80451,
+    "baseFuncId": 0,
+    "nameTotal": "{0}\n獲得数ボーナス合計",
+    "name": "{0}獲得数アップ",
+    "icon": "https://static.atlasacademy.io/JP/Items/94090003.png",
+    "priority": 3000,
+    "isDispValue": true
+  }]
+}, {
+  "funcId": 21201,
+  "funcType": "eventPointUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "なし",
+  "funcGroup": [{
+    "eventId": 80451,
+    "baseFuncId": 0,
+    "nameTotal": "{0}\n獲得量ボーナス合計",
+    "name": "{0}獲得量アップ",
+    "icon": "https://static.atlasacademy.io/JP/Items/94090004.png",
+    "priority": 4000,
+    "isDispValue": true
+  }]
+}, {
   "funcId": 21207,
   "funcType": "addStateShort",
   "funcTargetType": "self",
@@ -42947,6 +43113,42 @@
       "id": 4002
     }],
     "maxRate": 5000
+  }]
+}, {
+  "funcId": 21277,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "被ダメージ時発動",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_331.png",
+  "buffs": [{
+    "id": 5507,
+    "name": "被ダメージ時発動",
+    "detail": "攻撃を受けるとスターを獲得する",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_331.png",
+    "type": "damageFunction",
+    "vals": [{
+      "id": 3004
+    }],
+    "maxRate": 0
+  }]
+}, {
+  "funcId": 21278,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "enemy",
+  "funcPopupText": "被ダメージ時発動",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_331.png",
+  "buffs": [{
+    "id": 5508,
+    "name": "被ダメージ時発動",
+    "detail": "攻撃を受けると自身のクリティカル発生率をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_331.png",
+    "type": "damageFunction",
+    "vals": [{
+      "id": 3004
+    }],
+    "maxRate": 0
   }]
 }, {
   "funcId": 30003,
