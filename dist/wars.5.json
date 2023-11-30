@@ -111347,6 +111347,7 @@
         "closedMessage": "魔甲斐レージポイント25,000以上で開放"
       }],
       "phases": [1, 2, 3, 4],
+      "phasesWithEnemies": [1, 2],
       "phasesNoBattle": [3, 4],
       "phaseScripts": [{
         "phase": 1,
@@ -111400,7 +111401,7 @@
     "questOfsY": -98,
     "quests": [{
       "id": 94090004,
-      "name": "",
+      "name": "第三節「北のグンシン」",
       "type": "main",
       "flags": ["noBattle"],
       "consume": 5,
@@ -111409,25 +111410,48 @@
       "spotId": 916304,
       "warId": 9163,
       "giftIcon": "https://static.atlasacademy.io/JP/Items/3.png",
+      "gifts": [{
+        "id": 94090026,
+        "type": "servant",
+        "objectId": 9808900,
+        "num": 1
+      }, {
+        "id": 94090026,
+        "type": "eventSvtJoin",
+        "objectId": 205200,
+        "num": 1
+      }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 94090003
       }, {
         "type": "date",
         "targetId": 0,
-        "closedMessage": "魔甲斐レージポイント60,000以上＆11月30日18時以降に開放"
+        "closedMessage": "魔甲斐レージポイント60,000以上で開放"
       }, {
         "type": "eventTotalPoint",
         "targetId": 80451,
         "value": 60000,
         "closedMessage": "魔甲斐レージポイント60,000以上で開放"
-      }, {
-        "type": "forceFalse",
-        "targetId": 0,
-        "closedMessage": "データ更新後に開放"
       }],
       "phases": [1, 2],
       "phasesNoBattle": [1, 2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9409000410",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409000410.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9409000420",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409000420.txt"
+        }]
+      }],
       "priority": 94090496,
       "noticeAt": 1701255600,
       "openedAt": 1701334800,
@@ -111446,13 +111470,242 @@
   }, {
     "id": 916306,
     "mapId": 9163,
-    "name": "",
+    "name": "甲府",
     "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9163/QMap_Cap9163_Atlas/spot_916306.png",
     "x": 1417,
     "y": 1207,
     "nameOfsY": -28,
     "questOfsX": 28,
-    "questOfsY": -102
+    "questOfsY": -102,
+    "quests": [{
+      "id": 94090005,
+      "name": "第四節「ワチャワチャ油小路」",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 916306,
+      "warId": 9163,
+      "gifts": [{
+        "id": 94090027,
+        "type": "servant",
+        "objectId": 9808900,
+        "num": 1
+      }, {
+        "id": 94090027,
+        "objectId": 94090005,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94090004
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9409000510",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409000510.txt"
+        }]
+      }],
+      "priority": 94090495,
+      "noticeAt": 1701334800,
+      "openedAt": 1701334800,
+      "closedAt": 1702958399
+    }, {
+      "id": 94090204,
+      "name": "地獄の武田ブートキャンプ：訓練編",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "60",
+      "spotId": 916306,
+      "warId": 9163,
+      "gifts": [{
+        "id": 13000,
+        "objectId": 101,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
+        "type": "questClear",
+        "targetId": 94090003
+      }, {
+        "type": "questClear",
+        "targetId": 94090004
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "priority": 94090196,
+      "noticeAt": 1701334800,
+      "openedAt": 1701334800,
+      "closedAt": 1702958399
+    }]
+  }, {
+    "id": 916307,
+    "mapId": 9163,
+    "name": "須玉IC",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9163/QMap_Cap9163_Atlas/spot_916307.png",
+    "x": 1341,
+    "y": 1105,
+    "nameOfsY": -28,
+    "questOfsX": 28,
+    "questOfsY": -102,
+    "quests": [{
+      "id": 94090006,
+      "name": "第五節「甲斐でサイカイ」",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "50",
+      "spotId": 916307,
+      "warId": 9163,
+      "gifts": [{
+        "id": 94090025,
+        "type": "servant",
+        "objectId": 9808900,
+        "num": 1
+      }, {
+        "id": 94090025,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94090005
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1, 2],
+      "phasesNoBattle": [2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9409000610",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409000610.txt"
+        }, {
+          "scriptId": "9409000611",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409000611.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9409000620",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409000620.txt"
+        }]
+      }],
+      "priority": 94090494,
+      "noticeAt": 1701334800,
+      "openedAt": 1701334800,
+      "closedAt": 1702958399
+    }, {
+      "id": 94090205,
+      "name": "激闘！危険な道路パトロール24時！",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "70",
+      "spotId": 916307,
+      "warId": 9163,
+      "gifts": [{
+        "id": 12000,
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94090005
+      }, {
+        "type": "questClear",
+        "targetId": 94090006
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "priority": 94090195,
+      "noticeAt": 1701334800,
+      "openedAt": 1701334800,
+      "closedAt": 1702958399
+    }]
+  }, {
+    "id": 916308,
+    "mapId": 9163,
+    "name": "佐久",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9163/QMap_Cap9163_Atlas/spot_916304.png",
+    "x": 1435,
+    "y": 759,
+    "nameOfsY": -28,
+    "questOfsX": 27,
+    "questOfsY": -98
+  }, {
+    "id": 916309,
+    "mapId": 9163,
+    "name": "千曲",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9163/QMap_Cap9163_Atlas/spot_916309.png",
+    "x": 1279,
+    "y": 594,
+    "nameOfsY": -28,
+    "questOfsX": 28,
+    "questOfsY": -102,
+    "quests": [{
+      "id": 94090007,
+      "name": "",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 916309,
+      "warId": 9163,
+      "gifts": [{
+        "id": 94090025,
+        "type": "servant",
+        "objectId": 9808900,
+        "num": 1
+      }, {
+        "id": 94090025,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94090006
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "魔甲斐レージポイント160,000以上＆12月1日18時以降に開放"
+      }, {
+        "type": "eventTotalPoint",
+        "targetId": 80451,
+        "value": 160000,
+        "closedMessage": "魔甲斐レージポイント160,000以上で開放"
+      }, {
+        "type": "forceFalse",
+        "targetId": 0,
+        "closedMessage": "データ更新後に開放"
+      }],
+      "phases": [1, 2],
+      "phasesNoBattle": [1],
+      "priority": 94090493,
+      "noticeAt": 1701334800,
+      "openedAt": 1701421200,
+      "closedAt": 1702958399
+    }]
   }, {
     "id": 916399,
     "mapId": 9163,
@@ -111535,6 +111788,46 @@
     "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9163/QMap_Cap9163_Atlas/img_road9163_00.png",
     "srcSpotId": 916304,
     "dstSpotId": 916305,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "questClear"
+  }, {
+    "id": 916305,
+    "warId": 9163,
+    "mapId": 9163,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9163/QMap_Cap9163_Atlas/img_road9163_00.png",
+    "srcSpotId": 916305,
+    "dstSpotId": 916306,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "questClear"
+  }, {
+    "id": 916306,
+    "warId": 9163,
+    "mapId": 9163,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9163/QMap_Cap9163_Atlas/img_road9163_00.png",
+    "srcSpotId": 916306,
+    "dstSpotId": 916307,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "questClear"
+  }, {
+    "id": 916307,
+    "warId": 9163,
+    "mapId": 9163,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9163/QMap_Cap9163_Atlas/img_road9163_00.png",
+    "srcSpotId": 916307,
+    "dstSpotId": 916308,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "questClear"
+  }, {
+    "id": 916308,
+    "warId": 9163,
+    "mapId": 9163,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9163/QMap_Cap9163_Atlas/img_road9163_00.png",
+    "srcSpotId": 916308,
+    "dstSpotId": 916309,
     "dispCondType": "useItemTime",
     "dispCondType2": "useItemTime",
     "activeCondType": "questClear"
