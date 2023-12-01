@@ -111161,6 +111161,44 @@
     "mapImage": "https://static.atlasacademy.io/JP/Terminal/MapImgs/img_questmap_009163/img_questmap_009163.png",
     "mapImageW": 2048,
     "mapImageH": 2048,
+    "mapGimmicks": [{
+      "id": 916303,
+      "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9163/QMap_Cap9163_Atlas/gimmick_916303.png",
+      "x": 1024,
+      "y": 1024,
+      "depthOffset": -210,
+      "scale": 1000,
+      "dispCondType": "itemGet",
+      "dispTargetId": 94090008,
+      "dispTargetValue": 2,
+      "dispCondType2": "questClear"
+    }, {
+      "id": 916310,
+      "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9163/QMap_Cap9163_Atlas/gimmick_916310.png",
+      "x": 844,
+      "y": 1228,
+      "depthOffset": 0,
+      "scale": 1000,
+      "dispCondType": "itemGet",
+      "dispTargetId": 94090009,
+      "dispTargetValue": 2,
+      "dispCondType2": "useItemEternity",
+      "dispTargetId2": 94090011,
+      "dispTargetValue2": 1
+    }, {
+      "id": 916351,
+      "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9163/QMap_Cap9163_Atlas/gimmick_916351.png",
+      "x": 844,
+      "y": 1228,
+      "depthOffset": 0,
+      "scale": 1000,
+      "dispCondType": "itemGet",
+      "dispTargetId": 94090008,
+      "dispTargetValue": 2,
+      "dispCondType2": "useItemEternity",
+      "dispTargetId2": 94090009,
+      "dispTargetValue2": 2
+    }],
     "bgm": {
       "id": 0
     }
@@ -111667,7 +111705,66 @@
     "questOfsY": -102,
     "quests": [{
       "id": 94090007,
-      "name": "",
+      "name": "第六節「塩と刀とビシャモンテン」",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "60",
+      "spotId": 916309,
+      "warId": 9163,
+      "gifts": [{
+        "id": 94090025,
+        "type": "servant",
+        "objectId": 9808900,
+        "num": 1
+      }, {
+        "id": 94090025,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
+        "type": "questClear",
+        "targetId": 94090006
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "魔甲斐レージポイント160,000以上＆12月1日18時以降に開放"
+      }, {
+        "type": "eventTotalPoint",
+        "targetId": 80451,
+        "value": 160000,
+        "closedMessage": "魔甲斐レージポイント160,000以上で開放"
+      }],
+      "phases": [1, 2],
+      "phasesWithEnemies": [2],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9409000710",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409000710.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9409000720",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409000720.txt"
+        }, {
+          "scriptId": "9409000721",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409000721.txt"
+        }]
+      }],
+      "priority": 94090493,
+      "noticeAt": 1701334800,
+      "openedAt": 1701421200,
+      "closedAt": 1702958399
+    }, {
+      "id": 94090008,
+      "name": "第七節「雑賀エレジー」",
       "type": "main",
       "flags": ["noBattle"],
       "consume": 5,
@@ -111687,28 +111784,224 @@
       }],
       "releaseConditions": [{
         "type": "questClear",
-        "targetId": 94090006
+        "targetId": 94090007
       }, {
         "type": "date",
         "targetId": 0,
-        "closedMessage": "魔甲斐レージポイント160,000以上＆12月1日18時以降に開放"
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1, 2],
+      "phasesNoBattle": [1, 2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9409000810",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409000810.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9409000820",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409000820.txt"
+        }]
+      }],
+      "priority": 94090492,
+      "noticeAt": 1701421200,
+      "openedAt": 1701421200,
+      "closedAt": 1702958399
+    }, {
+      "id": 94090206,
+      "name": "地獄の武田ブートキャンプ：実戦編",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "80",
+      "spotId": 916309,
+      "warId": 9163,
+      "gifts": [{
+        "id": 12000,
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94090007
+      }, {
+        "type": "questClear",
+        "targetId": 94090008
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "priority": 94090194,
+      "noticeAt": 1701421200,
+      "openedAt": 1701421200,
+      "closedAt": 1702958399
+    }]
+  }, {
+    "id": 916310,
+    "mapId": 9163,
+    "name": "信州峠",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9163/QMap_Cap9163_Atlas/spot_916304.png",
+    "x": 1418,
+    "y": 1042,
+    "nameOfsY": -28,
+    "questOfsX": 27,
+    "questOfsY": -98
+  }, {
+    "id": 916311,
+    "mapId": 9163,
+    "name": "超五稜郭",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9163/QMap_Cap9163_Atlas/spot_916311.png",
+    "x": 839,
+    "y": 1220,
+    "nameOfsY": -28,
+    "questOfsX": 28,
+    "questOfsY": -102,
+    "quests": [{
+      "id": 94090009,
+      "name": "第八節「海道覇皇ヨシモト」",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 916311,
+      "warId": 9163,
+      "gifts": [{
+        "id": 94090025,
+        "type": "servant",
+        "objectId": 9808900,
+        "num": 1
+      }, {
+        "id": 94090025,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94090008
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1, 2],
+      "phasesNoBattle": [1, 2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9409000910",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409000910.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9409000920",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409000920.txt"
+        }]
+      }],
+      "priority": 94090491,
+      "noticeAt": 1701421200,
+      "openedAt": 1701421200,
+      "closedAt": 1702958399
+    }]
+  }, {
+    "id": 916312,
+    "mapId": 9163,
+    "name": "武田の隠し湯",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9163/QMap_Cap9163_Atlas/spot_916312.png",
+    "x": 1529,
+    "y": 1105,
+    "nameOfsY": -28,
+    "questOfsX": 28,
+    "questOfsY": -102,
+    "quests": [{
+      "id": 94090010,
+      "name": "",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 916312,
+      "warId": 9163,
+      "gifts": [{
+        "id": 94090025,
+        "type": "servant",
+        "objectId": 9808900,
+        "num": 1
+      }, {
+        "id": 94090025,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94090009
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "魔甲斐レージポイント300,000以上＆12月2日18時以降に開放"
       }, {
         "type": "eventTotalPoint",
         "targetId": 80451,
-        "value": 160000,
-        "closedMessage": "魔甲斐レージポイント160,000以上で開放"
+        "value": 300000,
+        "closedMessage": "魔甲斐レージポイント300,000以上で開放"
       }, {
         "type": "forceFalse",
         "targetId": 0,
         "closedMessage": "データ更新後に開放"
       }],
-      "phases": [1, 2],
+      "phases": [1],
       "phasesNoBattle": [1],
-      "priority": 94090493,
-      "noticeAt": 1701334800,
+      "priority": 94090490,
+      "noticeAt": 1701421200,
+      "openedAt": 1701507600,
+      "closedAt": 1702958399
+    }, {
+      "id": 94090207,
+      "name": "ローマよりテルマエに愛をこめて",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90",
+      "spotId": 916312,
+      "warId": 9163,
+      "gifts": [{
+        "id": 12000,
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94090008
+      }, {
+        "type": "questClear",
+        "targetId": 94090009
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "priority": 94090193,
+      "noticeAt": 1701421200,
       "openedAt": 1701421200,
       "closedAt": 1702958399
     }]
+  }, {
+    "id": 916324,
+    "mapId": 9163,
+    "name": "園原IC",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9163/QMap_Cap9163_Atlas/spot_916303.png",
+    "x": 821,
+    "y": 1220,
+    "nameOfsY": -28,
+    "questOfsX": 28,
+    "questOfsY": -102
   }, {
     "id": 916399,
     "mapId": 9163,
@@ -111831,6 +112124,46 @@
     "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9163/QMap_Cap9163_Atlas/img_road9163_00.png",
     "srcSpotId": 916308,
     "dstSpotId": 916309,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "questClear"
+  }, {
+    "id": 916309,
+    "warId": 9163,
+    "mapId": 9163,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9163/QMap_Cap9163_Atlas/img_road9163_00.png",
+    "srcSpotId": 916309,
+    "dstSpotId": 916310,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "questClear"
+  }, {
+    "id": 916310,
+    "warId": 9163,
+    "mapId": 9163,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9163/QMap_Cap9163_Atlas/img_road9163_00.png",
+    "srcSpotId": 916310,
+    "dstSpotId": 916311,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "questClear"
+  }, {
+    "id": 916311,
+    "warId": 9163,
+    "mapId": 9163,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9163/QMap_Cap9163_Atlas/img_road9163_00.png",
+    "srcSpotId": 916311,
+    "dstSpotId": 916312,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "questClear"
+  }, {
+    "id": 916312,
+    "warId": 9163,
+    "mapId": 9163,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9163/QMap_Cap9163_Atlas/img_road9163_00.png",
+    "srcSpotId": 916312,
+    "dstSpotId": 916306,
     "dispCondType": "useItemTime",
     "dispCondType2": "useItemTime",
     "activeCondType": "questClear"
