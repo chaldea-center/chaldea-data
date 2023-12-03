@@ -111647,6 +111647,19 @@
       "dispTargetId2": 94090009,
       "dispTargetValue2": 2
     }, {
+      "id": 916352,
+      "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9163/QMap_Cap9163_Atlas/gimmick_916352.png",
+      "x": 1024,
+      "y": 1024,
+      "depthOffset": -10,
+      "scale": 1000,
+      "dispCondType": "itemGet",
+      "dispTargetId": 94090012,
+      "dispTargetValue": 1,
+      "dispCondType2": "useItemEternity",
+      "dispTargetId2": 94090101,
+      "dispTargetValue2": 1
+    }, {
       "id": 916354,
       "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9163/QMap_Cap9163_Atlas/gimmick_916354.png",
       "x": 1024,
@@ -111936,6 +111949,36 @@
       "noticeAt": 1701255600,
       "openedAt": 1701255600,
       "closedAt": 1702958399
+    }, {
+      "id": 94090209,
+      "name": "決戦！第二次桶狭間の戦い",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90++",
+      "spotId": 916302,
+      "warId": 9163,
+      "gifts": [{
+        "id": 337,
+        "objectId": 3,
+        "num": 200
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94090012
+      }, {
+        "type": "questClear",
+        "targetId": 94090013
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "priority": 94090191,
+      "noticeAt": 1701594000,
+      "openedAt": 1701594000,
+      "closedAt": 1702958399
     }]
   }, {
     "id": 916303,
@@ -112075,6 +112118,33 @@
       "priority": 94090495,
       "noticeAt": 1701334800,
       "openedAt": 1701334800,
+      "closedAt": 1702958399
+    }, {
+      "id": 94090101,
+      "name": "",
+      "type": "main",
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 916306,
+      "warId": 9163,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94090013
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "12月6日18時00分以降に開放"
+      }, {
+        "type": "forceFalse",
+        "targetId": 0,
+        "closedMessage": "データ更新後に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94090299,
+      "noticeAt": 1701594000,
+      "openedAt": 1701853200,
       "closedAt": 1702958399
     }, {
       "id": 94090204,
@@ -112219,7 +112289,7 @@
     "name": "千曲",
     "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9163/QMap_Cap9163_Atlas/spot_916309.png",
     "x": 1279,
-    "y": 594,
+    "y": 601,
     "nameOfsY": -28,
     "questOfsX": 28,
     "questOfsY": -102,
@@ -112526,13 +112596,13 @@
     "name": "川中島",
     "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9163/QMap_Cap9163_Atlas/spot_916313.png",
     "x": 1269,
-    "y": 472,
+    "y": 491,
     "nameOfsY": -28,
     "questOfsX": 28,
     "questOfsY": -102,
     "quests": [{
       "id": 94090011,
-      "name": "",
+      "name": "第十節「魔甲斐大戦カワナカジマ」",
       "type": "main",
       "consume": 5,
       "afterClear": "close",
@@ -112550,23 +112620,173 @@
         "num": 1
       }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 94090355
       }, {
         "type": "date",
         "targetId": 0,
+        "closedMessage": "＜条件を満たしていません＞"
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9409001110",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409001110.txt"
+        }, {
+          "scriptId": "9409001111",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409001111.txt"
+        }]
+      }],
+      "priority": 94090489,
+      "noticeAt": 1701507600,
+      "openedAt": 1701594000,
+      "closedAt": 1702958399
+    }, {
+      "id": 94090012,
+      "name": "第十一節「決戦スーパー五稜郭」",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "70",
+      "spotId": 916313,
+      "warId": 9163,
+      "gifts": [{
+        "id": 94090025,
+        "type": "servant",
+        "objectId": 9808900,
+        "num": 1
+      }, {
+        "id": 94090025,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94090011
+      }, {
+        "type": "date",
+        "targetId": 0,
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1, 2, 3],
+      "phasesWithEnemies": [1],
+      "phasesNoBattle": [2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9409001210",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409001210.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9409001220",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409001220.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9409001230",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409001230.txt"
+        }, {
+          "scriptId": "9409001231",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409001231.txt"
+        }]
+      }],
+      "priority": 94090488,
+      "noticeAt": 1701507600,
+      "openedAt": 1701594000,
+      "closedAt": 1702958399
+    }, {
+      "id": 94090013,
+      "name": "第十二節「赤と白のシンフォニア」",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 916313,
+      "warId": 9163,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/3.png",
+      "gifts": [{
+        "id": 94090029,
+        "objectId": 7999,
+        "num": 1
+      }, {
+        "id": 94090029,
+        "type": "eventSvtGet",
+        "objectId": 205200,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94090012
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9409001310",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409001310.txt"
+        }]
+      }],
+      "priority": 94090487,
+      "noticeAt": 1701507600,
+      "openedAt": 1701594000,
+      "closedAt": 1702958399
+    }, {
+      "id": 94090401,
+      "name": "",
+      "type": "event",
+      "flags": ["dropFirstTimeOnly", "notRetrievable", "notDisplayResultGetPoint"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "90+",
+      "spotId": 916313,
+      "warId": 9163,
+      "gifts": [{
+        "id": 21701,
+        "objectId": 6999,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94090013
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "終局特異点をクリア＆12月6日18時00分以降に開放される全てのクエストをクリアで開放"
       }, {
         "type": "forceFalse",
         "targetId": 0,
         "closedMessage": "データ更新後に開放"
       }],
       "phases": [1],
-      "priority": 94090489,
-      "noticeAt": 1701507600,
-      "openedAt": 1701594000,
+      "priority": 94090486,
+      "noticeAt": 1701594000,
+      "openedAt": 1701853200,
       "closedAt": 1702958399
     }]
+  }, {
+    "id": 916315,
+    "mapId": 9163,
+    "name": "千曲",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9163/QMap_Cap9163_Atlas/spot_916315.png",
+    "x": 1279,
+    "y": 601,
+    "nameOfsY": -28,
+    "questOfsX": 28,
+    "questOfsY": -102
   }, {
     "id": 916324,
     "mapId": 9163,
@@ -112576,7 +112796,38 @@
     "y": 1220,
     "nameOfsY": -28,
     "questOfsX": 28,
-    "questOfsY": -102
+    "questOfsY": -102,
+    "quests": [{
+      "id": 94090208,
+      "name": "出張！護法少女スペシャルヒーローショー",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90+",
+      "spotId": 916324,
+      "warId": 9163,
+      "gifts": [{
+        "id": 327,
+        "objectId": 3,
+        "num": 100
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94090012
+      }, {
+        "type": "questClear",
+        "targetId": 94090013
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "priority": 94090192,
+      "noticeAt": 1701594000,
+      "openedAt": 1701594000,
+      "closedAt": 1702958399
+    }]
   }, {
     "id": 916350,
     "mapId": 9163,
@@ -113651,6 +113902,7 @@
         "value": 5
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94090304,
       "noticeAt": 1701507600,
       "openedAt": 1701507600,
@@ -113898,6 +114150,16 @@
     "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9163/QMap_Cap9163_Atlas/img_road9163_00.png",
     "srcSpotId": 916355,
     "dstSpotId": 916313,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "questClear"
+  }, {
+    "id": 916321,
+    "warId": 9163,
+    "mapId": 9163,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9163/QMap_Cap9163_Atlas/img_road9163_00.png",
+    "srcSpotId": 916313,
+    "dstSpotId": 916306,
     "dispCondType": "useItemTime",
     "dispCondType2": "useItemTime",
     "activeCondType": "questClear"
