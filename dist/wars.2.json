@@ -79832,4 +79832,379 @@
       "closedAt": 1696996799
     }]
   }]
+}, {
+  "id": 8387,
+  "coordinates": [
+    [],
+    []
+  ],
+  "age": "-",
+  "name": "クリスマス2023",
+  "longName": "クリスマス2023",
+  "flags": ["isEvent", "noClearMarkWithComplete"],
+  "banner": "https://static.atlasacademy.io/JP/Banner/event_war_80440.png",
+  "priority": 8387,
+  "bgm": {
+    "id": 0
+  },
+  "script": "https://static.atlasacademy.io/JP/Script/Common/NONE.txt",
+  "eventId": 80455,
+  "eventName": "雪原のメリー・クリスマス2023\n～7days / 8years Snow Carol～",
+  "warAdds": [{
+    "warId": 8387,
+    "type": "bgImage",
+    "priority": 1,
+    "overwriteId": 204400,
+    "startedAt": 1703030400,
+    "endedAt": 1703995199
+  }],
+  "maps": [{
+    "id": 8387,
+    "mapImage": "https://static.atlasacademy.io/JP/Terminal/MapImgs/img_questmap_008387/img_questmap_008387.png",
+    "bgm": {
+      "id": 0
+    }
+  }],
+  "spots": [{
+    "id": 838701,
+    "mapId": 8387,
+    "name": "カルデアゲート",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter8387/QMap_Cap8387_Atlas/spot_838601.png",
+    "quests": [{
+      "id": 94090901,
+      "name": "０．トランスポーター・サンタクロース",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "70",
+      "spotId": 838701,
+      "warId": 8387,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/3.png",
+      "gifts": [{
+        "id": 94090916,
+        "type": "equip",
+        "objectId": 340,
+        "num": 1,
+        "giftAdds": [{
+          "priority": 1,
+          "replacementGiftIcon": "https://static.atlasacademy.io/JP/Items/3.png",
+          "condType": "purchaseShop",
+          "targetId": 80455043,
+          "targetNum": 1,
+          "replacementGifts": [{
+            "id": 94090919,
+            "objectId": 94090904,
+            "priority": 0,
+            "num": 2
+          }, {
+            "id": 94090919,
+            "type": "eventSvtJoin",
+            "objectId": 405300,
+            "priority": 0,
+            "num": 1
+          }]
+        }]
+      }, {
+        "id": 94090916,
+        "type": "eventSvtJoin",
+        "objectId": 405300,
+        "num": 1,
+        "giftAdds": [{
+          "priority": 1,
+          "replacementGiftIcon": "https://static.atlasacademy.io/JP/Items/3.png",
+          "condType": "purchaseShop",
+          "targetId": 80455043,
+          "targetNum": 1,
+          "replacementGifts": [{
+            "id": 94090919,
+            "objectId": 94090904,
+            "priority": 0,
+            "num": 2
+          }, {
+            "id": 94090919,
+            "type": "eventSvtJoin",
+            "objectId": 405300,
+            "priority": 0,
+            "num": 1
+          }]
+        }]
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 1000011
+      }, {
+        "type": "questClear",
+        "targetId": 3001222,
+        "closedMessage": "「死想顕現界域 トラオム」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1, 2],
+      "phasesNoBattle": [1, 2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9409090110",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409090110.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9409090120",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409090120.txt"
+        }]
+      }],
+      "priority": 94091099,
+      "noticeAt": 1703030400,
+      "openedAt": 1703030400,
+      "closedAt": 1703995199
+    }, {
+      "id": 94090902,
+      "name": "ＤＡＹ１",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "70",
+      "spotId": 838701,
+      "warId": 8387,
+      "gifts": [{
+        "id": 94090917,
+        "type": "servant",
+        "objectId": 9407510,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94090901
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9409090210",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409090210.txt"
+        }, {
+          "scriptId": "9409090211",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409090211.txt"
+        }]
+      }],
+      "priority": 94091098,
+      "noticeAt": 1703030400,
+      "openedAt": 1703062800,
+      "closedAt": 1703995199
+    }, {
+      "id": 94091001,
+      "name": "ルート整備大作戦！ 初級",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 30,
+      "afterClear": "repeatLast",
+      "recommendLv": "20",
+      "spotId": 838701,
+      "warId": 8387,
+      "gifts": [{
+        "id": 14000,
+        "objectId": 102,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "commonRelease",
+        "targetId": 10091001
+      }],
+      "phases": [1],
+      "priority": 94090999,
+      "noticeAt": 1703030400,
+      "openedAt": 1703030400,
+      "closedAt": 1703995199
+    }, {
+      "id": 94091002,
+      "name": "ルート整備大作戦！ 中級",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 35,
+      "afterClear": "repeatLast",
+      "recommendLv": "40",
+      "spotId": 838701,
+      "warId": 8387,
+      "gifts": [{
+        "id": 13000,
+        "objectId": 101,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "commonRelease",
+        "targetId": 10091001
+      }],
+      "phases": [1],
+      "priority": 94090998,
+      "noticeAt": 1703030400,
+      "openedAt": 1703030400,
+      "closedAt": 1703995199
+    }, {
+      "id": 94091003,
+      "name": "ルート整備大作戦！ 上級",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "60",
+      "spotId": 838701,
+      "warId": 8387,
+      "gifts": [{
+        "id": 13000,
+        "objectId": 101,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "commonRelease",
+        "targetId": 10091001
+      }],
+      "phases": [1],
+      "priority": 94090997,
+      "noticeAt": 1703030400,
+      "openedAt": 1703030400,
+      "closedAt": 1703995199
+    }, {
+      "id": 94091004,
+      "name": "ルート整備大作戦！ 超級",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "80",
+      "spotId": 838701,
+      "warId": 8387,
+      "gifts": [{
+        "id": 12000,
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "commonRelease",
+        "targetId": 10091001
+      }],
+      "phases": [1],
+      "priority": 94090996,
+      "noticeAt": 1703030400,
+      "openedAt": 1703030400,
+      "closedAt": 1703995199
+    }, {
+      "id": 94091011,
+      "name": "【日替わり】ルート整備大作戦！ パウダーダスト級（1日目）",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90",
+      "spotId": 838701,
+      "warId": 8387,
+      "gifts": [{
+        "id": 12000,
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "commonRelease",
+        "targetId": 10091001
+      }],
+      "phases": [1],
+      "priority": 94090995,
+      "noticeAt": 1703030400,
+      "openedAt": 1703030400,
+      "closedAt": 1703149199
+    }, {
+      "id": 94091012,
+      "name": "【日替わり】ルート整備大作戦！ フレークダスト級（1日目）",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90+",
+      "spotId": 838701,
+      "warId": 8387,
+      "gifts": [{
+        "id": 327,
+        "objectId": 3,
+        "num": 100
+      }],
+      "releaseConditions": [{
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "commonRelease",
+        "targetId": 10091001
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94090994,
+      "noticeAt": 1703030400,
+      "openedAt": 1703030400,
+      "closedAt": 1703149199
+    }, {
+      "id": 94091101,
+      "name": "ルート整備大作戦！ スノークリスタル級",
+      "type": "event",
+      "flags": ["actConsumeBattleWin", "displayLoopmark"],
+      "consumeType": "item",
+      "consume": 5,
+      "consumeItem": [{
+        "itemId": 94090904,
+        "amount": 5
+      }],
+      "afterClear": "repeatLast",
+      "recommendLv": "60",
+      "spotId": 838701,
+      "warId": 8387,
+      "gifts": [{
+        "id": 15000,
+        "objectId": 4001,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "commonRelease",
+        "targetId": 10091001
+      }, {
+        "type": "commonRelease",
+        "targetId": 10091003,
+        "closedMessage": "「ＤＡＹ１」クリア＆12月20日18時00分に開放"
+      }],
+      "phases": [1],
+      "priority": 94090970,
+      "noticeAt": 1703030400,
+      "openedAt": 1703062800,
+      "closedAt": 1703995199
+    }]
+  }]
 }]
