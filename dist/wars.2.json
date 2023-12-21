@@ -80002,7 +80002,48 @@
       "closedAt": 1703995199
     }, {
       "id": 94090903,
-      "name": "",
+      "name": "ＤＡＹ２",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "70",
+      "spotId": 838701,
+      "warId": 8387,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
+        "type": "questClear",
+        "targetId": 94090902
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9409090310",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409090310.txt"
+        }, {
+          "scriptId": "9409090311",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409090311.txt"
+        }]
+      }],
+      "priority": 94091097,
+      "noticeAt": 1703062800,
+      "openedAt": 1703149200,
+      "closedAt": 1703995199
+    }, {
+      "id": 94090904,
+      "name": "ＤＡＹ３",
       "type": "main",
       "consume": 5,
       "afterClear": "close",
@@ -80016,20 +80057,26 @@
       }],
       "releaseConditions": [{
         "type": "questClear",
-        "targetId": 94090902
+        "targetId": 94090903
       }, {
         "type": "date",
         "targetId": 0,
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
-      }, {
-        "type": "forceFalse",
-        "targetId": 0,
-        "closedMessage": "データ更新後に開放"
       }],
       "phases": [1],
-      "priority": 94091097,
-      "noticeAt": 1703062800,
-      "openedAt": 1703149200,
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9409090410",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409090410.txt"
+        }, {
+          "scriptId": "9409090411",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409090411.txt"
+        }]
+      }],
+      "priority": 94091096,
+      "noticeAt": 1703149200,
+      "openedAt": 1703235600,
       "closedAt": 1703995199
     }, {
       "id": 94091001,
@@ -80206,6 +80253,64 @@
       "openedAt": 1703030400,
       "closedAt": 1703149199
     }, {
+      "id": 94091021,
+      "name": "【日替わり】ルート整備大作戦！ パウダーダスト級（2日目）",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90",
+      "spotId": 838701,
+      "warId": 8387,
+      "gifts": [{
+        "id": 12000,
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "commonRelease",
+        "targetId": 10091001
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94090992,
+      "noticeAt": 1703149200,
+      "openedAt": 1703149200,
+      "closedAt": 1703235599
+    }, {
+      "id": 94091022,
+      "name": "【日替わり】ルート整備大作戦！ フレークダスト級（2日目）",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90+",
+      "spotId": 838701,
+      "warId": 8387,
+      "gifts": [{
+        "id": 327,
+        "objectId": 3,
+        "num": 100
+      }],
+      "releaseConditions": [{
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "commonRelease",
+        "targetId": 10091001
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94090991,
+      "noticeAt": 1703149200,
+      "openedAt": 1703149200,
+      "closedAt": 1703235599
+    }, {
       "id": 94091101,
       "name": "ルート整備大作戦！ スノークリスタル級",
       "type": "event",
@@ -80238,6 +80343,7 @@
         "closedMessage": "「ＤＡＹ１」クリア＆12月20日18時00分に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94090970,
       "noticeAt": 1703030400,
       "openedAt": 1703062800,
