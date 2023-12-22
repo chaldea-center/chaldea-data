@@ -80064,6 +80064,7 @@
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "phaseScripts": [{
         "phase": 1,
         "scripts": [{
@@ -80077,6 +80078,43 @@
       "priority": 94091096,
       "noticeAt": 1703149200,
       "openedAt": 1703235600,
+      "closedAt": 1703995199
+    }, {
+      "id": 94090905,
+      "name": "ＤＡＹ４",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "80",
+      "spotId": 838701,
+      "warId": 8387,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94090904
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9409090510",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409090510.txt"
+        }, {
+          "scriptId": "9409090511",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409090511.txt"
+        }]
+      }],
+      "priority": 94091095,
+      "noticeAt": 1703235600,
+      "openedAt": 1703322000,
       "closedAt": 1703995199
     }, {
       "id": 94091001,
@@ -80310,6 +80348,64 @@
       "noticeAt": 1703149200,
       "openedAt": 1703149200,
       "closedAt": 1703235599
+    }, {
+      "id": 94091031,
+      "name": "【日替わり】ルート整備大作戦！ パウダーダスト級（3日目）",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90",
+      "spotId": 838701,
+      "warId": 8387,
+      "gifts": [{
+        "id": 12000,
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "commonRelease",
+        "targetId": 10091001
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94090990,
+      "noticeAt": 1703235600,
+      "openedAt": 1703235600,
+      "closedAt": 1703321999
+    }, {
+      "id": 94091032,
+      "name": "【日替わり】ルート整備大作戦！ フレークダスト級（3日目）",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90+",
+      "spotId": 838701,
+      "warId": 8387,
+      "gifts": [{
+        "id": 327,
+        "objectId": 3,
+        "num": 100
+      }],
+      "releaseConditions": [{
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "commonRelease",
+        "targetId": 10091001
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94090989,
+      "noticeAt": 1703235600,
+      "openedAt": 1703235600,
+      "closedAt": 1703321999
     }, {
       "id": 94091101,
       "name": "ルート整備大作戦！ スノークリスタル級",
