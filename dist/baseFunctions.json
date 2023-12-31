@@ -13169,6 +13169,34 @@
     "maxRate": 5000
   }]
 }, {
+  "funcId": 1600,
+  "funcType": "addStateShort",
+  "funcTargetType": "enemy",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "アーツ耐性ダウン",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_540.png",
+  "buffs": [{
+    "id": 505,
+    "name": "Artsカード耐性ダウン",
+    "detail": "Artsカードの攻撃による被ダメージ、被NP発生量、被スター発生率が増加する",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_540.png",
+    "type": "downDefencecommandall",
+    "vals": [{
+      "id": 3005
+    }, {
+      "id": 3009
+    }],
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4001
+    }],
+    "ckOpIndv": [{
+      "id": 4001
+    }],
+    "maxRate": 5000
+  }]
+}, {
   "funcId": 1601,
   "funcType": "addStateShort",
   "funcTargetType": "enemyAll",
@@ -43505,6 +43533,93 @@
       "id": 3027
     }],
     "maxRate": 5000
+  }]
+}, {
+  "funcId": 21300,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "血塗れの皇子",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_350.png",
+  "buffs": [{
+    "id": 5512,
+    "name": "血塗れの皇子",
+    "detail": "味方がやられた時、自身のNPを増やす",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_350.png",
+    "type": "addIndividuality",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3091
+    }],
+    "maxRate": 0
+  }]
+}, {
+  "funcId": 21301,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "enemy",
+  "funcPopupText": "血塗れの皇子",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_350.png",
+  "buffs": [{
+    "id": 5514,
+    "name": "血塗れの皇子",
+    "detail": "味方がやられた時、自身のチャージを増やす",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_350.png",
+    "type": "addIndividuality",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3091
+    }],
+    "maxRate": 0
+  }]
+}, {
+  "funcId": 21302,
+  "funcType": "addState",
+  "funcTargetType": "ptFull",
+  "funcTargetTeam": "player",
+  "buffs": [{
+    "id": 5513,
+    "name": "",
+    "detail": "",
+    "type": "deadFunction",
+    "buffGroup": 5513,
+    "maxRate": 0
+  }]
+}, {
+  "funcId": 21303,
+  "funcType": "addState",
+  "funcTargetType": "ptFull",
+  "funcTargetTeam": "enemy",
+  "buffs": [{
+    "id": 5513,
+    "name": "",
+    "detail": "",
+    "type": "deadFunction",
+    "buffGroup": 5513,
+    "maxRate": 0
+  }]
+}, {
+  "funcId": 21304,
+  "funcType": "gainNpBuffIndividualSum",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "player",
+  "funcPopupText": "NP増加",
+  "functvals": [{
+    "id": 3091
+  }],
+  "traitVals": [{
+    "id": 3091
+  }]
+}, {
+  "funcId": 21305,
+  "funcType": "hastenNpturn",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "enemy",
+  "funcPopupText": "チャージ増加",
+  "functvals": [{
+    "id": 3091
   }]
 }, {
   "funcId": 30003,

@@ -96942,6 +96942,7 @@
         "closedMessage": "第七特異点クリアで開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 840995,
       "noticeAt": 1704013200,
       "openedAt": 1704013200,
@@ -96971,6 +96972,7 @@
         "closedMessage": "Lostbelt No.2クリアで開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 770999,
       "noticeAt": 1704013200,
       "openedAt": 1704013200,
@@ -97000,6 +97002,7 @@
         "closedMessage": "Lostbelt No.5 オリュンポスクリアで開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 730997,
       "noticeAt": 1704013200,
       "openedAt": 1704013200,
@@ -97981,6 +97984,14 @@
     "overwriteBanner": "https://static.atlasacademy.io/JP/Banner/chaldea_category_80442.png",
     "startedAt": 1703754000,
     "endedAt": 1704027599
+  }, {
+    "warId": 9999,
+    "type": "banner",
+    "priority": 80447,
+    "overwriteId": 80447,
+    "overwriteBanner": "https://static.atlasacademy.io/JP/Banner/chaldea_category_80447.png",
+    "startedAt": 1704034800,
+    "endedAt": 1704859199
   }, {
     "warId": 9999,
     "type": "banner",
@@ -118426,9 +118437,9 @@
       "phases": [1],
       "phasesWithEnemies": [1],
       "priority": 94081399,
-      "noticeAt": 1672498800,
-      "openedAt": 1672498800,
-      "closedAt": 1673409599
+      "noticeAt": 1704034800,
+      "openedAt": 1704034800,
+      "closedAt": 1704859199
     }, {
       "id": 94088401,
       "name": "2016年イベント メモリアルクエスト",
@@ -119480,6 +119491,33 @@
       "noticeAt": 1697014800,
       "openedAt": 1697014800,
       "closedAt": 1697619599
+    }, {
+      "id": 94092201,
+      "name": "ヤマトタケル体験クエスト",
+      "type": "event",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "15",
+      "spotId": 999999,
+      "warId": 9999,
+      "gifts": [{
+        "id": 15000,
+        "objectId": 4001,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 1000011,
+        "closedMessage": "特異点Fクリアで開放可能"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "priority": 94092299,
+      "noticeAt": 1704034800,
+      "openedAt": 1704034800,
+      "closedAt": 1704859199
     }]
   }]
 }, {
