@@ -84406,6 +84406,22 @@
       "targetIds": [0],
       "targetNum": 1704294000,
       "conditionMessage": "???\n※「1/4 00:00」に開放"
+    }, {
+      "id": 80458024,
+      "missionProgressType": "clear",
+      "condGroup": 1,
+      "condType": "missionConditionDetail",
+      "targetIds": [80458011],
+      "targetNum": 1,
+      "conditionMessage": "【③】戦利品で『赤い』アイテムを1個獲得せよ",
+      "details": [{
+        "id": 80458011,
+        "missionTargetId": 80458,
+        "missionCondType": 12,
+        "logicType": 1,
+        "targetIds": [6516, 6530, 6501, 6514, 6541, 6520, 6546, 6548, 6101, 6102, 6103, 6104, 6105, 6106, 6107, 6551],
+        "conditionLinkType": "masterMissionStart"
+      }]
     }]
   }, {
     "id": 8045813,
@@ -84430,13 +84446,21 @@
     "bannerGroup": 8045803,
     "priority": 80472,
     "conds": [{
-      "id": 80458013,
-      "missionProgressType": "openCondition",
+      "id": 80458025,
+      "missionProgressType": "clear",
       "condGroup": 1,
-      "condType": "date",
-      "targetIds": [0],
-      "targetNum": 1704294000,
-      "conditionMessage": "???\n※「1/4 00:00」に開放"
+      "condType": "missionConditionDetail",
+      "targetIds": [80458012],
+      "targetNum": 3,
+      "conditionMessage": "【⑭】『天』の力を持つ敵を3体倒せ",
+      "details": [{
+        "id": 80458012,
+        "missionTargetId": 80458,
+        "missionCondType": 2,
+        "logicType": 1,
+        "targetIds": [200],
+        "conditionLinkType": "masterMissionStart"
+      }]
     }]
   }, {
     "id": 8045814,
