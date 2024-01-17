@@ -37691,12 +37691,12 @@
   "endedAt": 1600055999,
   "finishedAt": 1600055999,
   "campaigns": [{
-    "target": "svtequipLargeSuccess",
+    "target": "svtequipSuperSuccess",
     "idx": 1,
     "value": 2000,
     "calcType": "multiplication"
   }, {
-    "target": "svtequipSuperSuccess",
+    "target": "svtequipLargeSuccess",
     "idx": 1,
     "value": 2000,
     "calcType": "multiplication"
@@ -90093,5 +90093,21 @@
     "questId": 911100301
   }, {
     "questId": 911100302
+  }]
+}, {
+  "id": 20171,
+  "type": "combineCampaign",
+  "name": "宮本伊織 獲得経験値2倍！",
+  "detail": "宮本伊織 獲得経験値2倍！",
+  "noticeAt": 1705482000,
+  "startedAt": 1705482000,
+  "endedAt": 1707278399,
+  "finishedAt": 1707278399,
+  "campaigns": [{
+    "targetIds": [106000],
+    "target": "combineExp",
+    "idx": 1,
+    "value": 2000,
+    "calcType": "multiplication"
   }]
 }]
