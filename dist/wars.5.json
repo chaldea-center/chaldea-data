@@ -115831,6 +115831,42 @@
       "openedAt": 1705568400,
       "closedAt": 1707278399
     }, {
+      "id": 94091507,
+      "name": "",
+      "type": "main",
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 916401,
+      "warId": 9164,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94091804
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "eventMissionAchieve",
+        "targetId": 80457006,
+        "closedMessage": "ミッションNo.6達成＆1月20日18時に開放"
+      }, {
+        "type": "forceFalse",
+        "targetId": 0,
+        "closedMessage": "データ更新後に開放"
+      }],
+      "phases": [1, 2],
+      "phasesNoBattle": [1],
+      "priority": 94091989,
+      "noticeAt": 1705654800,
+      "openedAt": 1705741200,
+      "closedAt": 1707278399
+    }, {
       "id": 94091530,
       "name": "異傳 幻想に咲く 一条の剣",
       "type": "main",
@@ -115865,6 +115901,42 @@
       "priority": 94091996,
       "noticeAt": 1705568400,
       "openedAt": 1705568400,
+      "closedAt": 1707278399
+    }, {
+      "id": 94091531,
+      "name": "異傳 地獄に仏の 南無阿弥陀仏",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 916401,
+      "warId": 9164,
+      "gifts": [{
+        "id": 25552,
+        "objectId": 6545,
+        "num": 2
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94091505
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9409153110",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409153110.txt"
+        }]
+      }],
+      "priority": 94091993,
+      "noticeAt": 1705654800,
+      "openedAt": 1705654800,
       "closedAt": 1707278399
     }, {
       "id": 94091600,
@@ -116132,7 +116204,78 @@
     "y": 1100,
     "nameOfsY": -5,
     "questOfsX": 29,
-    "questOfsY": -63
+    "questOfsY": -63,
+    "quests": [{
+      "id": 94091532,
+      "name": "異傳 剣戟の音が眩しくて",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "35",
+      "spotId": 916404,
+      "warId": 9164,
+      "gifts": [{
+        "id": 20502,
+        "objectId": 6502,
+        "num": 2
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94091801
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "eventMissionAchieve",
+        "targetId": 80457005,
+        "closedMessage": "ミッションNo.5達成で開放"
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9409153210",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409153210.txt"
+        }, {
+          "scriptId": "9409153211",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409153211.txt"
+        }]
+      }],
+      "priority": 94091992,
+      "noticeAt": 1705654800,
+      "openedAt": 1705654800,
+      "closedAt": 1707278399
+    }, {
+      "id": 94091604,
+      "name": "怪異退治 増上寺 消えた禁呪書",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "60",
+      "spotId": 916404,
+      "warId": 9164,
+      "gifts": [{
+        "id": 13000,
+        "objectId": 101,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94091532
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "priority": 94091596,
+      "noticeAt": 1705654800,
+      "openedAt": 1705654800,
+      "closedAt": 1707278399
+    }]
   }, {
     "id": 916405,
     "mapId": 9164,
@@ -116142,7 +116285,99 @@
     "y": 1221,
     "nameOfsY": -6,
     "questOfsX": 30,
-    "questOfsY": -64
+    "questOfsY": -64,
+    "quests": [{
+      "id": 94091506,
+      "name": "第六幕 さながら戦国乱世の如く",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "35",
+      "spotId": 916405,
+      "warId": 9164,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94091532
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "questGroupClear",
+        "targetId": 94091500,
+        "value": 2
+      }],
+      "phases": [1, 2, 3, 4],
+      "phasesNoBattle": [4],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9409150610",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409150610.txt"
+        }, {
+          "scriptId": "9409150611",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409150611.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9409150620",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409150620.txt"
+        }, {
+          "scriptId": "9409150621",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409150621.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9409150630",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409150630.txt"
+        }]
+      }, {
+        "phase": 4,
+        "scripts": [{
+          "scriptId": "9409150640",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409150640.txt"
+        }]
+      }],
+      "priority": 94091991,
+      "noticeAt": 1705654800,
+      "openedAt": 1705654800,
+      "closedAt": 1707278399
+    }, {
+      "id": 94091605,
+      "name": "怪異退治 赤坂 乱世の軍勢",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "70",
+      "spotId": 916405,
+      "warId": 9164,
+      "gifts": [{
+        "id": 12000,
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94091506
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "priority": 94091595,
+      "noticeAt": 1705654800,
+      "openedAt": 1705654800,
+      "closedAt": 1707278399
+    }]
   }, {
     "id": 916406,
     "mapId": 9164,
@@ -116152,7 +116387,43 @@
     "y": 586,
     "nameOfsY": -2,
     "questOfsX": 32,
-    "questOfsY": -61
+    "questOfsY": -61,
+    "quests": [{
+      "id": 94091533,
+      "name": "異傳 どこ吹く風の 猫じゃらし",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "35",
+      "spotId": 916406,
+      "warId": 9164,
+      "gifts": [{
+        "id": 25577,
+        "objectId": 6547,
+        "num": 2
+      }],
+      "releaseConditions": [{
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "questGroupClear",
+        "targetId": 94091508,
+        "value": 2
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9409153311",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409153311.txt"
+        }]
+      }],
+      "priority": 94091990,
+      "noticeAt": 1705654800,
+      "openedAt": 1705654800,
+      "closedAt": 1707278399
+    }]
   }, {
     "id": 916408,
     "mapId": 9164,
@@ -116162,7 +116433,36 @@
     "y": 464,
     "nameOfsY": -2,
     "questOfsX": 32,
-    "questOfsY": -61
+    "questOfsY": -61,
+    "quests": [{
+      "id": 94091804,
+      "name": "霊地獲得戦 御徒町",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "35",
+      "spotId": 916408,
+      "warId": 9164,
+      "gifts": [{
+        "id": 30063,
+        "type": "servant",
+        "objectId": 9770400,
+        "num": 5
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94091533
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "priority": 94091746,
+      "noticeAt": 1705654800,
+      "openedAt": 1705654800,
+      "closedAt": 1707278399
+    }]
   }, {
     "id": 916409,
     "mapId": 9164,
@@ -116212,7 +116512,36 @@
     "y": 882,
     "nameOfsY": -2,
     "questOfsX": 23,
-    "questOfsY": -53
+    "questOfsY": -53,
+    "quests": [{
+      "id": 94091801,
+      "name": "霊地獲得戦 日本橋",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "35",
+      "spotId": 916410,
+      "warId": 9164,
+      "gifts": [{
+        "id": 10074,
+        "objectId": 1,
+        "num": 1000000
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94091531
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94091749,
+      "noticeAt": 1705654800,
+      "openedAt": 1705654800,
+      "closedAt": 1707278399
+    }]
   }, {
     "id": 916412,
     "mapId": 9164,
@@ -116222,7 +116551,35 @@
     "y": 1488,
     "nameOfsY": -2,
     "questOfsX": 32,
-    "questOfsY": -61
+    "questOfsY": -61,
+    "quests": [{
+      "id": 94091802,
+      "name": "霊地獲得戦 川崎大師",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "35",
+      "spotId": 916412,
+      "warId": 9164,
+      "gifts": [{
+        "id": 10074,
+        "objectId": 1,
+        "num": 1000000
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94091506
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "priority": 94091748,
+      "noticeAt": 1705654800,
+      "openedAt": 1705654800,
+      "closedAt": 1707278399
+    }]
   }, {
     "id": 916413,
     "mapId": 9164,
@@ -116232,7 +116589,36 @@
     "y": 1365,
     "nameOfsY": -2,
     "questOfsX": 36,
-    "questOfsY": -58
+    "questOfsY": -58,
+    "quests": [{
+      "id": 94091803,
+      "name": "霊地獲得戦 六郷大橋",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "35",
+      "spotId": 916413,
+      "warId": 9164,
+      "gifts": [{
+        "id": 30063,
+        "type": "servant",
+        "objectId": 9770400,
+        "num": 5
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94091506
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "priority": 94091747,
+      "noticeAt": 1705654800,
+      "openedAt": 1705654800,
+      "closedAt": 1707278399
+    }]
   }, {
     "id": 916499,
     "mapId": 9164,
