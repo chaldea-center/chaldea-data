@@ -116940,6 +116940,58 @@
       "openedAt": 1705741200,
       "closedAt": 1707278399
     }, {
+      "id": 94091511,
+      "name": "第十一幕 夢を見て 運命を想う",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 916401,
+      "warId": 9164,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94091510
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "eventMissionAchieve",
+        "targetId": 80457008,
+        "closedMessage": "ミッションNo.8達成＆1月22日18時に開放"
+      }],
+      "phases": [1, 2, 3],
+      "phasesNoBattle": [1, 2, 3],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9409151110",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409151110.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9409151120",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409151120.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9409151130",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409151130.txt"
+        }]
+      }],
+      "priority": 94091983,
+      "noticeAt": 1705827600,
+      "openedAt": 1705914000,
+      "closedAt": 1707278399
+    }, {
       "id": 94091530,
       "name": "異傳 幻想に咲く 一条の剣",
       "type": "main",
@@ -117533,6 +117585,33 @@
       "openedAt": 1705654800,
       "closedAt": 1707278399
     }, {
+      "id": 94091580,
+      "name": "霊地争奪戦 赤坂",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "50",
+      "spotId": 916405,
+      "warId": 9164,
+      "gifts": [{
+        "id": 25475,
+        "objectId": 6538,
+        "num": 3
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94091509
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "priority": 94091700,
+      "noticeAt": 1705827600,
+      "openedAt": 1705827600,
+      "closedAt": 1707278399
+    }, {
       "id": 94091605,
       "name": "怪異退治 赤坂 乱世の軍勢",
       "type": "event",
@@ -117740,6 +117819,34 @@
       "openedAt": 1705741200,
       "closedAt": 1707278399
     }, {
+      "id": 94091607,
+      "name": "怪異退治 鳥越神社 霊魂漂う巡礼路",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "80",
+      "spotId": 916409,
+      "warId": 9164,
+      "gifts": [{
+        "id": 12000,
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94091509
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "priority": 94091593,
+      "noticeAt": 1705827600,
+      "openedAt": 1705827600,
+      "closedAt": 1707278399
+    }, {
       "id": 94091800,
       "name": "霊地獲得戦 鳥越神社",
       "type": "main",
@@ -117780,6 +117887,73 @@
     "questOfsX": 23,
     "questOfsY": -53,
     "quests": [{
+      "id": 94091510,
+      "name": "第十幕 地獄の地右衛門 怨讐の焔",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "55",
+      "spotId": 916410,
+      "warId": 9164,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94091509
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "questGroupClear",
+        "targetId": 94091504,
+        "value": 6,
+        "closedMessage": "全ての霊地争奪戦＆「異傳 一筋の閃光」クリアで開放"
+      }],
+      "phases": [1, 2, 3, 4, 5],
+      "phasesNoBattle": [2, 5],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9409151010",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409151010.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9409151020",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409151020.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9409151030",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409151030.txt"
+        }, {
+          "scriptId": "9409151031",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409151031.txt"
+        }]
+      }, {
+        "phase": 4,
+        "scripts": [{
+          "scriptId": "9409151040",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409151040.txt"
+        }]
+      }, {
+        "phase": 5,
+        "scripts": [{
+          "scriptId": "9409151050",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409151050.txt"
+        }]
+      }],
+      "priority": 94091984,
+      "noticeAt": 1705827600,
+      "openedAt": 1705827600,
+      "closedAt": 1707278399
+    }, {
       "id": 94091552,
       "name": "迎撃戦 日本橋",
       "type": "event",
@@ -117813,6 +117987,61 @@
       "priority": 94091798,
       "noticeAt": 1705741200,
       "openedAt": 1705741200,
+      "closedAt": 1707278399
+    }, {
+      "id": 94091581,
+      "name": "霊地争奪戦 日本橋",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "50",
+      "spotId": 916410,
+      "warId": 9164,
+      "gifts": [{
+        "id": 20503,
+        "objectId": 6502,
+        "num": 3
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94091509
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "priority": 94091699,
+      "noticeAt": 1705827600,
+      "openedAt": 1705827600,
+      "closedAt": 1707278399
+    }, {
+      "id": 94091608,
+      "name": "怪異退治 日本橋 この橋渡るべからず",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "85",
+      "spotId": 916410,
+      "warId": 9164,
+      "gifts": [{
+        "id": 12000,
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94091510
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "priority": 94091592,
+      "noticeAt": 1705827600,
+      "openedAt": 1705827600,
       "closedAt": 1707278399
     }, {
       "id": 94091801,
@@ -118193,6 +118422,7 @@
         "closedMessage": "ミッションNo.7達成＆1月21日18時に開放"
       }],
       "phases": [1, 2, 3],
+      "phasesWithEnemies": [2, 3],
       "phasesNoBattle": [1],
       "phaseScripts": [{
         "phase": 1,
@@ -118234,7 +118464,35 @@
     "nameOfsX": 1,
     "nameOfsY": -6,
     "questOfsX": 30,
-    "questOfsY": -64
+    "questOfsY": -64,
+    "quests": [{
+      "id": 94091582,
+      "name": "霊地争奪戦 水道橋",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "50",
+      "spotId": 916416,
+      "warId": 9164,
+      "gifts": [{
+        "id": 25397,
+        "objectId": 6535,
+        "num": 3
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94091509
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "priority": 94091698,
+      "noticeAt": 1705827600,
+      "openedAt": 1705827600,
+      "closedAt": 1707278399
+    }]
   }, {
     "id": 916417,
     "mapId": 9164,
@@ -118244,7 +118502,35 @@
     "y": 1157,
     "nameOfsY": -10,
     "questOfsX": 31,
-    "questOfsY": -64
+    "questOfsY": -64,
+    "quests": [{
+      "id": 94091583,
+      "name": "霊地争奪戦 等々力",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "50",
+      "spotId": 916417,
+      "warId": 9164,
+      "gifts": [{
+        "id": 25612,
+        "objectId": 6550,
+        "num": 3
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94091509
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "priority": 94091697,
+      "noticeAt": 1705827600,
+      "openedAt": 1705827600,
+      "closedAt": 1707278399
+    }]
   }, {
     "id": 916418,
     "mapId": 9164,
@@ -118254,7 +118540,42 @@
     "y": 795,
     "nameOfsY": -2,
     "questOfsX": 32,
-    "questOfsY": -61
+    "questOfsY": -61,
+    "quests": [{
+      "id": 94091535,
+      "name": "異傳 一筋の閃光",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "50",
+      "spotId": 916418,
+      "warId": 9164,
+      "gifts": [{
+        "id": 25530,
+        "objectId": 6543,
+        "num": 2
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94091509
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9409153511",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409153511.txt"
+        }]
+      }],
+      "priority": 94091985,
+      "noticeAt": 1705827600,
+      "openedAt": 1705827600,
+      "closedAt": 1707278399
+    }]
   }, {
     "id": 916419,
     "mapId": 9164,
@@ -118432,7 +118753,35 @@
     "y": 368,
     "nameOfsY": -5,
     "questOfsX": 29,
-    "questOfsY": -63
+    "questOfsY": -63,
+    "quests": [{
+      "id": 94091805,
+      "name": "霊地争奪戦 寛永寺",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "50",
+      "spotId": 916438,
+      "warId": 9164,
+      "gifts": [{
+        "id": 25375,
+        "objectId": 6533,
+        "num": 3
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94091509
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "priority": 94091746,
+      "noticeAt": 1705827600,
+      "openedAt": 1705827600,
+      "closedAt": 1707278399
+    }]
   }, {
     "id": 916439,
     "mapId": 9165,
