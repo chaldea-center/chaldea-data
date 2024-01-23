@@ -117056,6 +117056,7 @@
         "closedMessage": "ミッションNo.9達成＆1月23日18時に開放"
       }],
       "phases": [1, 2, 3],
+      "phasesWithEnemies": [1, 2],
       "phasesNoBattle": [3],
       "phaseScripts": [{
         "phase": 1,
@@ -118694,7 +118695,46 @@
     "y": 1032,
     "nameOfsY": -15,
     "questOfsX": 30,
-    "questOfsY": -74
+    "questOfsY": -74,
+    "quests": [{
+      "id": 94091584,
+      "name": "盈月攻城戦 半蔵門",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "60",
+      "spotId": 916420,
+      "warId": 9164,
+      "gifts": [{
+        "id": 21203,
+        "objectId": 6514,
+        "num": 3
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94091514
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9409158410",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409158410.txt"
+        }, {
+          "scriptId": "9409158411",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409158411.txt"
+        }]
+      }],
+      "priority": 94091696,
+      "noticeAt": 1706000400,
+      "openedAt": 1706000400,
+      "closedAt": 1707278399
+    }]
   }, {
     "id": 916422,
     "mapId": 9165,
@@ -118704,7 +118744,45 @@
     "y": 923,
     "nameOfsY": -15,
     "questOfsX": 30,
-    "questOfsY": -74
+    "questOfsY": -74,
+    "quests": [{
+      "id": 94091586,
+      "name": "盈月攻城戦 大手門",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "60",
+      "spotId": 916422,
+      "warId": 9164,
+      "gifts": [{
+        "id": 25364,
+        "objectId": 6532,
+        "num": 3
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94091514
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9409158610",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409158610.txt"
+        }, {
+          "scriptId": "9409158611",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409158611.txt"
+        }]
+      }],
+      "priority": 94091694,
+      "noticeAt": 1706000400,
+      "openedAt": 1706000400,
+      "closedAt": 1707278399
+    }]
   }, {
     "id": 916423,
     "mapId": 9165,
@@ -118714,7 +118792,45 @@
     "y": 1050,
     "nameOfsY": -15,
     "questOfsX": 30,
-    "questOfsY": -74
+    "questOfsY": -74,
+    "quests": [{
+      "id": 94091587,
+      "name": "盈月攻城戦 桜田門",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "60",
+      "spotId": 916423,
+      "warId": 9164,
+      "gifts": [{
+        "id": 20603,
+        "objectId": 6508,
+        "num": 3
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94091514
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9409158710",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409158710.txt"
+        }, {
+          "scriptId": "9409158711",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409158711.txt"
+        }]
+      }],
+      "priority": 94091693,
+      "noticeAt": 1706000400,
+      "openedAt": 1706000400,
+      "closedAt": 1707278399
+    }]
   }, {
     "id": 916424,
     "mapId": 9165,
@@ -118733,7 +118849,54 @@
     "y": 254,
     "nameOfsY": -2,
     "questOfsX": 33,
-    "questOfsY": -62
+    "questOfsY": -62,
+    "quests": [{
+      "id": 94091514,
+      "name": "第十四幕 剣客残影 煉獄篇",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 916425,
+      "warId": 9164,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94091513
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "eventMissionAchieve",
+        "targetId": 80457010,
+        "closedMessage": "ミッションNo.10達成で開放"
+      }],
+      "phases": [1, 2],
+      "phasesNoBattle": [1, 2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9409151410",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409151410.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9409151420",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409151420.txt"
+        }]
+      }],
+      "priority": 94091980,
+      "noticeAt": 1706000400,
+      "openedAt": 1706000400,
+      "closedAt": 1707278399
+    }]
   }, {
     "id": 916426,
     "mapId": 9165,
@@ -118813,7 +118976,81 @@
     "y": 923,
     "nameOfsY": -15,
     "questOfsX": 30,
-    "questOfsY": -74
+    "questOfsY": -74,
+    "quests": [{
+      "id": 94091515,
+      "name": "",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "65",
+      "spotId": 916433,
+      "warId": 9164,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94091514
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "questGroupClear",
+        "targetId": 94091505,
+        "value": 4,
+        "closedMessage": "全ての盈月攻城戦をクリア＆1月24日18時に開放"
+      }, {
+        "type": "forceFalse",
+        "targetId": 0,
+        "closedMessage": "データ更新後に開放"
+      }],
+      "phases": [1, 2, 3],
+      "priority": 94091985,
+      "noticeAt": 1706000400,
+      "openedAt": 1706086800,
+      "closedAt": 1707278399
+    }, {
+      "id": 94091585,
+      "name": "盈月攻城戦 田安門",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "60",
+      "spotId": 916433,
+      "warId": 9164,
+      "gifts": [{
+        "id": 21103,
+        "objectId": 6511,
+        "num": 3
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94091514
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9409158510",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409158510.txt"
+        }, {
+          "scriptId": "9409158511",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409158511.txt"
+        }]
+      }],
+      "priority": 94091695,
+      "noticeAt": 1706000400,
+      "openedAt": 1706000400,
+      "closedAt": 1707278399
+    }]
   }, {
     "id": 916435,
     "mapId": 9165,
