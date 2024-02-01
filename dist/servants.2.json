@@ -29142,6 +29142,7 @@
   "atkMax": 9261,
   "hpBase": 1899,
   "hpMax": 11870,
+  "relateQuestIds": [94093802],
   "growthCurve": 9,
   "bondGrowth": [1000, 2500, 4500, 7000, 10000, 235000, 490000, 775000, 1090000, 1455000, 2545000, 3775000, 5135000, 6635000, 8275000],
   "bondEquip": 9301500,
@@ -29551,6 +29552,14 @@
       "endedAt": 1703995199
     }]
   }, {
+    "id": 940322,
+    "extraPassive": [{
+      "num": 17,
+      "priority": 1,
+      "startedAt": 1706778000,
+      "endedAt": 1709218799
+    }]
+  }, {
     "id": 960502,
     "extraPassive": [{
       "num": 10,
@@ -29678,8 +29687,18 @@
   }],
   "noblePhantasms": [{
     "id": 302601,
+    "npNum": 2,
     "svtId": 302600,
+    "strengthStatus": 1,
     "priority": 101
+  }, {
+    "id": 302602,
+    "npNum": 2,
+    "svtId": 302600,
+    "strengthStatus": 99,
+    "priority": 102,
+    "condQuestId": 94093802,
+    "condQuestPhase": 3
   }],
   "profile": {
     "cv": "坂本真綾",
@@ -67626,6 +67645,14 @@
       "eventId": 80455,
       "startedAt": 1703030400,
       "endedAt": 1703995199
+    }]
+  }, {
+    "id": 940322,
+    "extraPassive": [{
+      "num": 17,
+      "priority": 1,
+      "startedAt": 1706778000,
+      "endedAt": 1709218799
     }]
   }, {
     "id": 960502,
