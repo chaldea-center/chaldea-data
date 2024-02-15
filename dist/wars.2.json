@@ -81061,6 +81061,7 @@
         "closedMessage": "ストーンチョコポイント25,000以上\n＆新たにフリークエストを1回クリア\n＆2月15日18時00分以降に開放"
       }],
       "phases": [1, 2, 3],
+      "phasesWithEnemies": [2],
       "phasesNoBattle": [1, 3],
       "phaseScripts": [{
         "phase": 1,
@@ -81084,6 +81085,114 @@
       "priority": 94092996,
       "noticeAt": 1707901200,
       "openedAt": 1707987600,
+      "closedAt": 1709697599
+    }, {
+      "id": 94092703,
+      "name": "第３節「愛のかたちのかたち」",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "30",
+      "spotId": 838801,
+      "warId": 8388,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94092702
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分以降に開放"
+      }, {
+        "type": "eventTotalPoint",
+        "targetId": 80460,
+        "value": 75000,
+        "closedMessage": "ストーンチョコポイント75,000以上\n＆2月16日18時00分以降に開放"
+      }, {
+        "type": "commonValueAbove",
+        "targetId": 94092700,
+        "value": 1,
+        "closedMessage": "ストーンチョコポイント75,000以上\n＆新たにフリークエストを1回クリア\n＆2月16日18時00分以降に開放"
+      }],
+      "phases": [1, 2],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9409270310",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409270310.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9409270320",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409270320.txt"
+        }, {
+          "scriptId": "9409270321",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409270321.txt"
+        }]
+      }],
+      "priority": 94092995,
+      "noticeAt": 1707987600,
+      "openedAt": 1708074000,
+      "closedAt": 1709697599
+    }, {
+      "id": 94092709,
+      "name": "第３節「愛のかたちのかたち」選択肢2",
+      "type": "main",
+      "flags": ["branch"],
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "30",
+      "spotId": 838801,
+      "warId": 8388,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94092709
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分以降に開放"
+      }, {
+        "type": "eventTotalPoint",
+        "targetId": 80460,
+        "value": 75000,
+        "closedMessage": "ストーンチョコポイント75,000以上\n＆2月16日18時00分以降に開放"
+      }, {
+        "type": "commonValueAbove",
+        "targetId": 94092700,
+        "value": 1,
+        "closedMessage": "ストーンチョコポイント75,000以上\n＆新たにフリークエストを1回クリア\n＆2月16日18時00分以降に開放"
+      }],
+      "phases": [2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9409270310",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409270310.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9409270320",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409270320.txt"
+        }, {
+          "scriptId": "9409270321",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409270321.txt"
+        }]
+      }],
+      "priority": 94092990,
+      "noticeAt": 1707987600,
+      "openedAt": 1708074000,
       "closedAt": 1709697599
     }, {
       "id": 94092800,
