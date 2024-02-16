@@ -15922,12 +15922,12 @@
   "funcType": "addStateShort",
   "funcTargetType": "self",
   "funcTargetTeam": "player",
-  "funcPopupText": "毎ターンNP獲得",
+  "funcPopupText": "毎ターンNP獲得〔水辺〕",
   "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_319.png",
   "buffs": [{
     "id": 1856,
-    "name": "毎ターンNP獲得",
-    "detail": "ターン終了時にNPが増える",
+    "name": "毎ターンNP獲得〔水辺〕",
+    "detail": "〔水辺〕のあるフィールドにおいてのみ、ターン終了時にNPが増える",
     "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_319.png",
     "type": "regainNp",
     "script": {
@@ -16651,6 +16651,31 @@
     "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_520.png",
     "type": "addIndividuality",
     "maxRate": 0
+  }]
+}, {
+  "funcId": 3194,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "攻撃力アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_300.png",
+  "buffs": [{
+    "id": 126,
+    "name": "攻撃力アップ",
+    "detail": "攻撃力をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_300.png",
+    "type": "upAtk",
+    "originalScript": {
+      "ProgressSelfTurn": 1
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3027
+    }],
+    "maxRate": 5000
   }]
 }, {
   "funcId": 3195,
@@ -23339,6 +23364,28 @@
       "id": 3006
     }, {
       "id": 3032
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 5227,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "クリティカル威力アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_324.png",
+  "buffs": [{
+    "id": 142,
+    "name": "クリティカル威力アップ",
+    "detail": "クリティカル時のダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_324.png",
+    "type": "upCriticaldamage",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3031
     }],
     "maxRate": 5000
   }]
@@ -43808,6 +43855,108 @@
     "maxRate": 5000
   }]
 }, {
+  "funcId": 21291,
+  "funcType": "eventDropUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "なし",
+  "funcGroup": [{
+    "eventId": 80460,
+    "baseFuncId": 0,
+    "nameTotal": "{0}\n獲得数ボーナス合計",
+    "name": "{0}獲得数アップ",
+    "icon": "https://static.atlasacademy.io/JP/Items/94092701.png",
+    "priority": 1000,
+    "isDispValue": true
+  }]
+}, {
+  "funcId": 21292,
+  "funcType": "eventDropUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "なし",
+  "funcGroup": [{
+    "eventId": 80460,
+    "baseFuncId": 0,
+    "nameTotal": "{0}\n獲得数ボーナス合計",
+    "name": "{0}獲得数アップ",
+    "icon": "https://static.atlasacademy.io/JP/Items/94092702.png",
+    "priority": 2000,
+    "isDispValue": true
+  }]
+}, {
+  "funcId": 21293,
+  "funcType": "eventDropUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "なし",
+  "funcGroup": [{
+    "eventId": 80460,
+    "baseFuncId": 0,
+    "nameTotal": "{0}\n獲得数ボーナス合計",
+    "name": "{0}獲得数アップ",
+    "icon": "https://static.atlasacademy.io/JP/Items/94092703.png",
+    "priority": 3000,
+    "isDispValue": true
+  }]
+}, {
+  "funcId": 21294,
+  "funcType": "eventPointUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "なし",
+  "funcGroup": [{
+    "eventId": 80460,
+    "baseFuncId": 0,
+    "nameTotal": "{0}\n獲得量ボーナス合計",
+    "name": "{0}獲得量アップ",
+    "icon": "https://static.atlasacademy.io/JP/Items/94092704.png",
+    "priority": 4000,
+    "isDispValue": true
+  }]
+}, {
+  "funcId": 21298,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "チョコラフター",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+  "funcquestTvals": [{
+    "id": 94000152
+  }],
+  "funcGroup": [{
+    "eventId": 80460,
+    "baseFuncId": 21296,
+    "nameTotal": "{1} \n攻撃の威力アップ合計",
+    "name": "攻撃の威力アップ",
+    "icon": "https://static.atlasacademy.io/JP/EventUI/func_group_icon_302.png",
+    "priority": 1,
+    "isDispValue": true
+  }],
+  "buffs": [{
+    "id": 5511,
+    "name": "チョコラフター",
+    "detail": "『バレンタイン2024』において与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamage",
+    "maxRate": 10000
+  }]
+}, {
+  "funcId": 21299,
+  "funcType": "servantFriendshipUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "なし",
+  "funcGroup": [{
+    "eventId": 80460,
+    "baseFuncId": 0,
+    "nameTotal": "{1}\n得られる自身の絆ボーナス合計",
+    "name": "得られる自身の絆アップ",
+    "icon": "https://static.atlasacademy.io/JP/EventUI/func_group_icon_1009.png",
+    "priority": 1,
+    "isDispValue": true
+  }]
+}, {
   "funcId": 21300,
   "funcType": "addState",
   "funcTargetType": "self",
@@ -44037,6 +44186,21 @@
     "maxRate": 5000
   }]
 }, {
+  "funcId": 21324,
+  "funcType": "servantFriendshipUp",
+  "funcTargetType": "ptFull",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "なし",
+  "funcGroup": [{
+    "eventId": 80460,
+    "baseFuncId": 0,
+    "nameTotal": "{1}\n得られる自身の絆ボーナス合計",
+    "name": "得られる自身の絆アップ",
+    "icon": "https://static.atlasacademy.io/JP/EventUI/func_group_icon_1023.png",
+    "priority": 1,
+    "isDispValue": true
+  }]
+}, {
   "funcId": 21326,
   "funcType": "addStateShort",
   "funcTargetType": "ptAll",
@@ -44091,6 +44255,60 @@
       "id": 303
     }],
     "maxRate": 10000
+  }]
+}, {
+  "funcId": 21331,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "ガッツ時発動",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_365.png",
+  "buffs": [{
+    "id": 5521,
+    "name": "ガッツ時発動",
+    "detail": "ガッツ発動時、自身の攻撃力をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_365.png",
+    "type": "gutsFunction",
+    "vals": [{
+      "id": 3004
+    }],
+    "maxRate": 0
+  }]
+}, {
+  "funcId": 21333,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "被ダメージ時発動",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_331.png",
+  "buffs": [{
+    "id": 5523,
+    "name": "被ダメージ時発動",
+    "detail": "攻撃を受けると自身のNPを増やす＆クリティカル威力をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_331.png",
+    "type": "damageFunction",
+    "vals": [{
+      "id": 3004
+    }],
+    "maxRate": 0
+  }]
+}, {
+  "funcId": 21334,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "enemy",
+  "funcPopupText": "被ダメージ時発動",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_331.png",
+  "buffs": [{
+    "id": 5524,
+    "name": "被ダメージ時発動",
+    "detail": "攻撃を受けると自身のチャージを低確率で増やす＆クリティカル威力をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_331.png",
+    "type": "damageFunction",
+    "vals": [{
+      "id": 3004
+    }],
+    "maxRate": 0
   }]
 }, {
   "funcId": 30003,
