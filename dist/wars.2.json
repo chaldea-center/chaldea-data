@@ -81174,6 +81174,7 @@
         "closedMessage": "ストーンチョコポイント150,000以上\n＆新たにフリークエストを1回クリア\n＆2月17日18時00分以降に開放"
       }],
       "phases": [1, 2, 3],
+      "phasesWithEnemies": [1, 2, 3],
       "phaseScripts": [{
         "phase": 1,
         "scripts": [{
@@ -81199,6 +81200,53 @@
       "priority": 94092994,
       "noticeAt": 1708074000,
       "openedAt": 1708160400,
+      "closedAt": 1709697599
+    }, {
+      "id": 94092705,
+      "name": "第５節「隣にいるということ」",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "50",
+      "spotId": 838801,
+      "warId": 8388,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94092704
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分以降に開放"
+      }, {
+        "type": "eventTotalPoint",
+        "targetId": 80460,
+        "value": 250000,
+        "closedMessage": "ストーンチョコポイント250,000以上\n＆2月18日18時00分以降に開放"
+      }, {
+        "type": "commonValueAbove",
+        "targetId": 94092700,
+        "value": 1,
+        "closedMessage": "ストーンチョコポイント250,000以上\n＆新たにフリークエストを1回クリア\n＆2月18日18時00分以降に開放"
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9409270510",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409270510.txt"
+        }, {
+          "scriptId": "9409270511",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409270511.txt"
+        }]
+      }],
+      "priority": 94092993,
+      "noticeAt": 1708160400,
+      "openedAt": 1708246800,
       "closedAt": 1709697599
     }, {
       "id": 94092709,
