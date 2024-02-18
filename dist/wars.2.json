@@ -81234,6 +81234,7 @@
         "closedMessage": "ストーンチョコポイント250,000以上\n＆新たにフリークエストを1回クリア\n＆2月18日18時00分以降に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "phaseScripts": [{
         "phase": 1,
         "scripts": [{
@@ -81247,6 +81248,59 @@
       "priority": 94092993,
       "noticeAt": 1708160400,
       "openedAt": 1708246800,
+      "closedAt": 1709697599
+    }, {
+      "id": 94092706,
+      "name": "第６節「理想のあなたに会う日まで」",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "50",
+      "spotId": 838801,
+      "warId": 8388,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94092705
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分以降に開放"
+      }, {
+        "type": "eventTotalPoint",
+        "targetId": 80460,
+        "value": 370000,
+        "closedMessage": "ストーンチョコポイント370,000以上\n＆2月19日18時00分以降に開放"
+      }, {
+        "type": "commonValueAbove",
+        "targetId": 94092700,
+        "value": 1,
+        "closedMessage": "ストーンチョコポイント370,000以上\n＆新たにフリークエストを1回クリア\n＆2月19日18時00分以降に開放"
+      }],
+      "phases": [1, 2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9409270610",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409270610.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9409270620",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409270620.txt"
+        }, {
+          "scriptId": "9409270621",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409270621.txt"
+        }]
+      }],
+      "priority": 94092992,
+      "noticeAt": 1708246800,
+      "openedAt": 1708333200,
       "closedAt": 1709697599
     }, {
       "id": 94092709,
