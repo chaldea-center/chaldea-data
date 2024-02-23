@@ -12,12 +12,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Setup Python 3.10
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: "3.10"
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
-      - uses: yizhoumo/setup-ossutil@v1
+      - uses: yizhoumo/setup-ossutil@v2
         if: github.ref == 'refs/heads/main'
         with:
           endpoint: ${{ secrets.OSS_ENDPOINT }}
