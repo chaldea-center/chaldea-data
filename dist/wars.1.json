@@ -3304,6 +3304,16 @@
         "value": 2,
         "closedMessage": "第一特異点をクリア＆霊基再臨1段階目＆絆Lv.2で開放"
       }],
+      "releaseOverwrites": [{
+        "priority": 1,
+        "condType": "questClear",
+        "condId": 1000115,
+        "closedMessage": "第一特異点をクリア＆霊基再臨1段階目＆絆Lv.2で開放",
+        "overlayClosedMessage": "第一特異点をクリアで開放",
+        "eventId": 80470,
+        "startedAt": 1709110800,
+        "endedAt": 1710320399
+      }],
       "phases": [1, 2, 3],
       "phasesWithEnemies": [1, 2, 3],
       "phaseScripts": [{
@@ -85624,6 +85634,15 @@
         "eventId": 80382,
         "startedAt": 1655888400,
         "endedAt": 1656475199
+      }, {
+        "priority": 2,
+        "condType": "questClear",
+        "condId": 1000011,
+        "closedMessage": "特異点Fをクリア＆霊基再臨2段階目＆絆Lv.3で開放",
+        "overlayClosedMessage": "特異点Fをクリアで開放",
+        "eventId": 80470,
+        "startedAt": 1709110800,
+        "endedAt": 1710320399
       }],
       "phases": [1, 2, 3],
       "phasesWithEnemies": [1, 2, 3],
@@ -85692,6 +85711,16 @@
         "targetId": 103700,
         "value": 4,
         "closedMessage": "Lostbelt No.3をクリア＆霊基再臨2段階目＆絆Lv.4で開放"
+      }],
+      "releaseOverwrites": [{
+        "priority": 1,
+        "condType": "questClear",
+        "condId": 3000320,
+        "closedMessage": "Lostbelt No.3をクリア＆霊基再臨2段階目＆絆Lv.4で開放",
+        "overlayClosedMessage": "Lostbelt No.3をクリアで開放",
+        "eventId": 80470,
+        "startedAt": 1709110800,
+        "endedAt": 1710320399
       }],
       "phases": [1, 2, 3],
       "phasesWithEnemies": [2, 3],
@@ -90239,6 +90268,16 @@
         "value": 4,
         "closedMessage": "第六特異点をクリア＆霊基再臨2段階目＆絆Lv.4で開放"
       }],
+      "releaseOverwrites": [{
+        "priority": 1,
+        "condType": "questClear",
+        "condId": 1000632,
+        "closedMessage": "第六特異点をクリア＆霊基再臨2段階目＆絆Lv.4で開放",
+        "overlayClosedMessage": "第六特異点をクリアで開放",
+        "eventId": 80470,
+        "startedAt": 1709110800,
+        "endedAt": 1710320399
+      }],
       "phases": [1],
       "phasesWithEnemies": [1],
       "phaseScripts": [{
@@ -92721,6 +92760,16 @@
         "value": 4,
         "closedMessage": "特異点Fをクリア＆霊基再臨3段階目＆絆Lv.4で開放"
       }],
+      "releaseOverwrites": [{
+        "priority": 1,
+        "condType": "questClear",
+        "condId": 1000011,
+        "closedMessage": "特異点Fをクリア＆霊基再臨3段階目＆絆Lv.4で開放",
+        "overlayClosedMessage": "特異点Fをクリアで開放",
+        "eventId": 80470,
+        "startedAt": 1709110800,
+        "endedAt": 1710320399
+      }],
       "phases": [1, 2, 3],
       "phasesWithEnemies": [1, 2, 3],
       "phaseScripts": [{
@@ -92784,10 +92833,31 @@
         "value": 3,
         "closedMessage": "Lostbelt No.6 アヴァロン・ル・フェクリア＆霊基再臨3段階目＆絆Lv.5で開放"
       }, {
+        "type": "svtGet",
+        "targetId": 603700
+      }, {
         "type": "svtFriendship",
         "targetId": 603700,
         "value": 5,
         "closedMessage": "Lostbelt No.6 アヴァロン・ル・フェクリア＆霊基再臨3段階目＆絆Lv.5で開放"
+      }],
+      "releaseOverwrites": [{
+        "priority": 1,
+        "condType": "questClear",
+        "condId": 3001009,
+        "closedMessage": "Lostbelt No.6 アヴァロン・ル・フェクリア＆霊基再臨3段階目＆絆Lv.5で開放",
+        "overlayClosedMessage": "一つ前の幕間の物語をクリア＆Lostbelt No.6をクリアで開放",
+        "eventId": 80470,
+        "startedAt": 1709110800,
+        "endedAt": 1710320399
+      }, {
+        "priority": 1,
+        "condType": "questClear",
+        "condId": 91603701,
+        "overlayClosedMessage": "一つ前の幕間の物語をクリア＆Lostbelt No.6をクリアで開放",
+        "eventId": 80470,
+        "startedAt": 1709110800,
+        "endedAt": 1710320399
       }],
       "phases": [1, 2, 3],
       "phasesWithEnemies": [3],
