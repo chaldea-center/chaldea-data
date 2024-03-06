@@ -81823,4 +81823,296 @@
       "closedAt": 1709697599
     }]
   }]
+}, {
+  "id": 8389,
+  "coordinates": [
+    [],
+    []
+  ],
+  "age": "-",
+  "name": "CBC2024 シャルルマーニュのモンジョワ・騎士道！",
+  "longName": "CBC2024 シャルルマーニュのモンジョワ・騎士道！",
+  "flags": ["isEvent", "noClearMarkWithComplete", "changeDispClosedMessage"],
+  "banner": "https://static.atlasacademy.io/JP/Banner/event_war_80449.png",
+  "priority": 8389,
+  "bgm": {
+    "id": 0
+  },
+  "script": "https://static.atlasacademy.io/JP/Script/Common/NONE.txt",
+  "eventId": 80462,
+  "eventName": "CBC2024 \nシャルルマーニュのモンジョワ・騎士道！",
+  "warAdds": [{
+    "warId": 8389,
+    "type": "bgImage",
+    "priority": 1,
+    "overwriteId": 209700,
+    "condType": "questClear",
+    "targetId": 94093300,
+    "startedAt": 1709715600,
+    "endedAt": 1711511999
+  }],
+  "maps": [{
+    "id": 8389,
+    "mapImage": "https://static.atlasacademy.io/JP/Terminal/MapImgs/img_questmap_008389/img_questmap_008389.png",
+    "bgm": {
+      "id": 0
+    }
+  }],
+  "spots": [{
+    "id": 838901,
+    "mapId": 8389,
+    "name": "カルデアゲート",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter8389/QMap_Cap8389_Atlas/spot_838901.png",
+    "quests": [{
+      "id": 94093300,
+      "name": "プロローグ 常ならぬ幕が開き",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 838901,
+      "warId": 8389,
+      "gifts": [{
+        "id": 101,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 1000011
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9409330010",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409330010.txt"
+        }]
+      }],
+      "priority": 94093499,
+      "noticeAt": 1709715600,
+      "openedAt": 1709715600,
+      "closedAt": 1711511999
+    }, {
+      "id": 94093301,
+      "name": "第1節 幕開けまであとわずか",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "15",
+      "spotId": 838901,
+      "warId": 8389,
+      "gifts": [{
+        "id": 101,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94093300
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1, 2],
+      "phasesWithEnemies": [1, 2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9409330110",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409330110.txt"
+        }, {
+          "scriptId": "9409330111",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409330111.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9409330120",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409330120.txt"
+        }, {
+          "scriptId": "9409330121",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409330121.txt"
+        }]
+      }],
+      "priority": 94093498,
+      "noticeAt": 1709715600,
+      "openedAt": 1709715600,
+      "closedAt": 1711511999
+    }, {
+      "id": 94093302,
+      "name": "第2節 『シラノ・ド・ベルジュラック』第31回公演",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "20",
+      "spotId": 838901,
+      "warId": 8389,
+      "gifts": [{
+        "id": 101,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94093301
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1, 2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9409330210",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409330210.txt"
+        }, {
+          "scriptId": "9409330211",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409330211.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9409330220",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409330220.txt"
+        }, {
+          "scriptId": "9409330221",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409330221.txt"
+        }]
+      }],
+      "priority": 94093497,
+      "noticeAt": 1709715600,
+      "openedAt": 1709802000,
+      "closedAt": 1711511999
+    }, {
+      "id": 94093401,
+      "name": "アントラクト・お芝居特訓！ 初級",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 30,
+      "afterClear": "repeatLast",
+      "recommendLv": "15",
+      "spotId": 838901,
+      "warId": 8389,
+      "gifts": [{
+        "id": 14000,
+        "objectId": 102,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94093301
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94093399,
+      "noticeAt": 1709715600,
+      "openedAt": 1709715600,
+      "closedAt": 1711511999
+    }, {
+      "id": 94093402,
+      "name": "アントラクト・お芝居特訓！ 中級",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 35,
+      "afterClear": "repeatLast",
+      "recommendLv": "25",
+      "spotId": 838901,
+      "warId": 8389,
+      "gifts": [{
+        "id": 14000,
+        "objectId": 102,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94093301
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94093398,
+      "noticeAt": 1709715600,
+      "openedAt": 1709715600,
+      "closedAt": 1711511999
+    }, {
+      "id": 94093403,
+      "name": "アントラクト・お芝居特訓！ 上級",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "40",
+      "spotId": 838901,
+      "warId": 8389,
+      "gifts": [{
+        "id": 13000,
+        "objectId": 101,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94093301
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94093397,
+      "noticeAt": 1709715600,
+      "openedAt": 1709715600,
+      "closedAt": 1711511999
+    }, {
+      "id": 94093404,
+      "name": "アントラクト・お芝居特訓！ 超級",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "50",
+      "spotId": 838901,
+      "warId": 8389,
+      "gifts": [{
+        "id": 13000,
+        "objectId": 101,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94093301
+      }, {
+        "type": "questClear",
+        "targetId": 94093302,
+        "closedMessage": "第2節クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "第2節クリア\n＆3月7日18時00分以降に開放"
+      }],
+      "phases": [1],
+      "priority": 94093396,
+      "noticeAt": 1709715600,
+      "openedAt": 1709802000,
+      "closedAt": 1711511999
+    }]
+  }, {
+    "id": 838902,
+    "mapId": 8389,
+    "name": "",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter8389/QMap_Cap8389_Atlas/spot_838902.png"
+  }]
 }]

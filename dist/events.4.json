@@ -107756,8 +107756,8 @@
     "slot": 3,
     "type": 1,
     "guides": [{
-      "imageId": 109828810,
-      "image": "https://static.atlasacademy.io/JP/CharaFigure/1098288100/1098288100_merged.png"
+      "imageId": 109828811,
+      "image": "https://static.atlasacademy.io/JP/CharaFigure/1098288110/1098288110_merged.png"
     }],
     "tabOnImage": "https://static.atlasacademy.io/JP/EventReward/btn_txt_on_80460_3.png",
     "tabOffImage": "https://static.atlasacademy.io/JP/EventReward/btn_txt_off_80460_3.png",
@@ -107843,6 +107843,41 @@
         "condType": "eventNoend",
         "value": 80460
       }]
+    }, {
+      "name": "イベントについて 6",
+      "condType": "eventEnd",
+      "priority": 6940,
+      "svtVoiceType": "eventReward",
+      "overwriteName": "バレンタイン2024\n～チョコレート・リバーのその先に～ 6",
+      "id": ["0_N060", "0_N061", "0_N062", "0_N063"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_405500/0_N060.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_405500/0_N061.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_405500/0_N062.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_405500/0_N063.mp3"],
+      "delay": [0.0, 0.3, 0.1, 0.1],
+      "face": [8, 6, 5, 1],
+      "conds": [{
+        "condType": "eventEnd",
+        "value": 80460
+      }]
+    }, {
+      "name": "イベントについて 7",
+      "condType": "eventEnd",
+      "priority": 6930,
+      "svtVoiceType": "eventReward",
+      "overwriteName": "バレンタイン2024\n～チョコレート・リバーのその先に～ 7",
+      "id": ["0_N070", "0_N071", "0_N072", "0_N073"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_405500/0_N070.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_405500/0_N071.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_405500/0_N072.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_405500/0_N073.mp3"],
+      "delay": [0.0, 0.3, 0.1, 0.3],
+      "face": [0, 5, 1, 3],
+      "conds": [{
+        "condType": "eventEnd",
+        "value": 80460
+      }],
+      "playConds": [{
+        "condGroup": 1,
+        "condType": "questClear",
+        "targetId": 94092708,
+        "condValue": 0,
+        "condValues": [0]
+      }]
     }]
   }, {
     "svtId": 405500,
@@ -107904,6 +107939,41 @@
         "value": 80460
       }]
     }, {
+      "name": "ショップついて 31",
+      "condType": "eventEnd",
+      "priority": 6180,
+      "svtVoiceType": "eventShop",
+      "overwriteName": "バレンタイン2024\n～チョコレート・リバーのその先に～ 12",
+      "id": ["0_I310", "0_I311", "0_I312", "0_I313", "0_I314", "0_I315"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_405500/0_I310.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_405500/0_I311.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_405500/0_I312.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_405500/0_I313.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_405500/0_I314.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_405500/0_I315.mp3"],
+      "delay": [0.0, 0.3, 0.1, 0.1, 0.1, 0.3],
+      "face": [25, 12, 18, 5, 21, 0],
+      "conds": [{
+        "condType": "eventEnd",
+        "value": 80460
+      }]
+    }, {
+      "name": "ショップついて 32",
+      "condType": "eventEnd",
+      "priority": 6179,
+      "svtVoiceType": "eventShop",
+      "overwriteName": "バレンタイン2024\n～チョコレート・リバーのその先に～ 13",
+      "id": ["0_I320", "0_I321", "0_I322"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_405500/0_I320.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_405500/0_I321.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_405500/0_I322.mp3"],
+      "delay": [0.0, 0.1, 0.3],
+      "face": [11, 12, 21],
+      "conds": [{
+        "condType": "eventEnd",
+        "value": 80460
+      }],
+      "playConds": [{
+        "condGroup": 1,
+        "condType": "purchaseValidShopGroup",
+        "targetId": 8046002,
+        "condValue": 0,
+        "condValues": [0]
+      }]
+    }, {
       "name": "ショップついて 32",
       "condType": "eventEnd",
       "priority": 6170,
@@ -107958,6 +108028,41 @@
       "conds": [{
         "condType": "eventNoend",
         "value": 80460
+      }]
+    }, {
+      "name": "ショップついて 34",
+      "condType": "eventEnd",
+      "priority": 6140,
+      "svtVoiceType": "eventShop",
+      "overwriteName": "バレンタイン2024\n～チョコレート・リバーのその先に～ 18",
+      "id": ["0_I510", "0_I511", "0_I512"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_405500/0_I510.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_405500/0_I511.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_405500/0_I512.mp3"],
+      "delay": [0.0, 0.1, 0.1],
+      "face": [12, 1, 5],
+      "conds": [{
+        "condType": "eventEnd",
+        "value": 80460
+      }]
+    }, {
+      "name": "ショップついて 35",
+      "condType": "eventEnd",
+      "priority": 6130,
+      "svtVoiceType": "eventShop",
+      "overwriteName": "バレンタイン2024\n～チョコレート・リバーのその先に～ 19",
+      "id": ["0_I520", "0_I521", "0_I522"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_405500/0_I520.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_405500/0_I521.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_405500/0_I522.mp3"],
+      "delay": [0.0, 0.3, 0.3],
+      "face": [11, 20, 3],
+      "conds": [{
+        "condType": "eventEnd",
+        "value": 80460
+      }],
+      "playConds": [{
+        "condGroup": 1,
+        "condType": "purchaseValidShopGroup",
+        "targetId": 8046001,
+        "condValue": 0,
+        "condValues": [0]
       }]
     }]
   }, {
@@ -108056,7 +108161,1466 @@
         "condType": "eventPeriod",
         "value": 80460
       }]
+    }, {
+      "name": "ショップついて 7",
+      "condType": "eventEnd",
+      "priority": 6430,
+      "svtVoiceType": "eventShop",
+      "overwriteName": "バレンタイン2024\n～チョコレート・リバーのその先に～ 7",
+      "id": ["0_I070", "0_I071", "0_I072", "0_I073", "0_I074"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_109828810/0_I070.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109828810/0_I071.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109828810/0_I072.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109828810/0_I073.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109828810/0_I074.mp3"],
+      "delay": [0.0, 0.1, 0.1, 0.1, 0.1],
+      "face": [0, 0, 4, 4, 4],
+      "conds": [{
+        "condType": "eventEnd",
+        "value": 80460
+      }]
+    }, {
+      "name": "ショップついて 8",
+      "condType": "eventEnd",
+      "priority": 6420,
+      "svtVoiceType": "eventShop",
+      "overwriteName": "バレンタイン2024\n～チョコレート・リバーのその先に～ 8",
+      "id": ["0_I080", "0_I081", "0_I082"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_109828810/0_I080.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109828810/0_I081.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109828810/0_I082.mp3"],
+      "delay": [0.0, 0.1, 0.1],
+      "face": [2, 1, 0],
+      "form": [1, 0, 0],
+      "conds": [{
+        "condType": "eventEnd",
+        "value": 80460
+      }]
     }]
+  }, {
+    "svtId": 109828811,
+    "type": "eventShop",
+    "voiceLines": [{
+      "name": "ショップついて 4",
+      "condType": "eventEnd",
+      "priority": 6460,
+      "svtVoiceType": "eventShop",
+      "id": ["0_I040", "0_I041"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_109828811/0_I040.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109828811/0_I041.mp3"],
+      "delay": [0.0, 0.1],
+      "face": [7, 3],
+      "conds": [{
+        "condType": "eventShopPurchase",
+        "value": 80460
+      }, {
+        "condType": "eventPeriod",
+        "value": 80460
+      }]
+    }, {
+      "name": "ショップついて 5",
+      "condType": "eventEnd",
+      "priority": 6450,
+      "svtVoiceType": "eventShop",
+      "id": ["0_I050", "0_I051"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_109828811/0_I050.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109828811/0_I051.mp3"],
+      "delay": [0.0, 0.1],
+      "face": [0, 4],
+      "conds": [{
+        "condType": "eventShopPurchase",
+        "value": 80460
+      }, {
+        "condType": "eventPeriod",
+        "value": 80460
+      }]
+    }, {
+      "name": "ショップついて 6",
+      "condType": "eventEnd",
+      "priority": 6440,
+      "svtVoiceType": "eventShop",
+      "id": ["0_I060", "0_I061"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_109828811/0_I060.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109828811/0_I061.mp3"],
+      "delay": [0.0, 0.1],
+      "face": [0, 0],
+      "conds": [{
+        "condType": "eventShopPurchase",
+        "value": 80460
+      }, {
+        "condType": "eventPeriod",
+        "value": 80460
+      }]
+    }, {
+      "name": "ショップついて 7",
+      "condType": "eventEnd",
+      "priority": 6430,
+      "svtVoiceType": "eventShop",
+      "id": ["0_I070", "0_I071", "0_I072", "0_I073", "0_I074"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_109828811/0_I070.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109828811/0_I071.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109828811/0_I072.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109828811/0_I073.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109828811/0_I074.mp3"],
+      "delay": [0.0, 0.1, 0.1, 0.1, 0.1],
+      "face": [0, 0, 4, 4, 4],
+      "conds": [{
+        "condType": "eventEnd",
+        "value": 80460
+      }]
+    }, {
+      "name": "ショップついて 8",
+      "condType": "eventEnd",
+      "priority": 6420,
+      "svtVoiceType": "eventShop",
+      "id": ["0_I080", "0_I081", "0_I082"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_109828811/0_I080.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109828811/0_I081.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109828811/0_I082.mp3"],
+      "delay": [0.0, 0.1, 0.1],
+      "face": [2, 1, 0],
+      "form": [1, 0, 0],
+      "conds": [{
+        "condType": "eventEnd",
+        "value": 80460
+      }]
+    }]
+  }]
+}, {
+  "id": 80462,
+  "type": "eventQuest",
+  "name": "CBC2024 \nシャルルマーニュのモンジョワ・騎士道！",
+  "detail": "CBC2024 \nシャルルマーニュのモンジョワ・騎士道！",
+  "noticeBanner": "https://static.atlasacademy.io/JP/Banner/event_war_80448.png",
+  "banner": "https://static.atlasacademy.io/JP/Banner/event_war_80449.png",
+  "icon": "https://static.atlasacademy.io/JP/Banner/banner_icon_80449.png",
+  "bannerPriority": 940180,
+  "noticeAt": 1709715600,
+  "startedAt": 1709715600,
+  "endedAt": 1711511999,
+  "finishedAt": 1712116799,
+  "warIds": [8389],
+  "shop": [{
+    "id": 80462001,
+    "releaseConditions": [{
+      "condValues": [94093303],
+      "shopId": 80462001,
+      "condType": "questClear",
+      "condNum": 1
+    }],
+    "eventId": 80462,
+    "priority": 10,
+    "name": "霊衣「ディスガイズ・コスチューム」開放権",
+    "infoMessage": "霊衣「ディスガイズ・コスチューム」の開放権を獲得できます。",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94093303,
+      "amount": 200
+    },
+    "purchaseType": "costumeRelease",
+    "targetIds": [10520011],
+    "limitNum": 1,
+    "openedAt": 1709715600,
+    "closedAt": 1712116799
+  }, {
+    "id": 80462003,
+    "releaseConditions": [{
+      "condValues": [94093308],
+      "shopId": 80462003,
+      "condType": "questClear",
+      "condNum": 1
+    }],
+    "eventId": 80462,
+    "priority": 100,
+    "name": "伝承結晶",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94093303,
+      "amount": 400
+    },
+    "purchaseType": "item",
+    "targetIds": [6999],
+    "limitNum": 1,
+    "openedAt": 1709715600,
+    "closedAt": 1712116799
+  }, {
+    "id": 80462004,
+    "eventId": 80462,
+    "priority": 300,
+    "name": "巡霊の葉",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94093303,
+      "amount": 10
+    },
+    "purchaseType": "item",
+    "targetIds": [48],
+    "setNum": 10,
+    "limitNum": 40,
+    "openedAt": 1709715600,
+    "closedAt": 1712116799
+  }, {
+    "id": 80462005,
+    "releaseConditions": [{
+      "condValues": [94093308],
+      "shopId": 80462005,
+      "condType": "questClear",
+      "condNum": 1
+    }],
+    "eventId": 80462,
+    "priority": 200,
+    "name": "英霊結晶・流星のフォウくん",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94093303,
+      "amount": 200
+    },
+    "purchaseType": "servant",
+    "targetIds": [9570400],
+    "limitNum": 2,
+    "defaultLv": 1,
+    "openedAt": 1709715600,
+    "closedAt": 1712116799
+  }, {
+    "id": 80462006,
+    "releaseConditions": [{
+      "condValues": [94093308],
+      "shopId": 80462006,
+      "condType": "questClear",
+      "condNum": 1
+    }],
+    "eventId": 80462,
+    "priority": 220,
+    "name": "英霊結晶・日輪のフォウくん",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94093303,
+      "amount": 200
+    },
+    "purchaseType": "servant",
+    "targetIds": [9670400],
+    "limitNum": 2,
+    "defaultLv": 1,
+    "openedAt": 1709715600,
+    "closedAt": 1712116799
+  }, {
+    "id": 80462007,
+    "eventId": 80462,
+    "priority": 600,
+    "name": "煌星のカケラ",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94093303,
+      "amount": 30
+    },
+    "purchaseType": "item",
+    "targetIds": [6544],
+    "limitNum": 10,
+    "openedAt": 1709715600,
+    "closedAt": 1712116799
+  }, {
+    "id": 80462008,
+    "eventId": 80462,
+    "priority": 605,
+    "name": "竜の逆鱗",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94093303,
+      "amount": 30
+    },
+    "purchaseType": "item",
+    "targetIds": [6506],
+    "limitNum": 10,
+    "openedAt": 1709715600,
+    "closedAt": 1712116799
+  }, {
+    "id": 80462009,
+    "eventId": 80462,
+    "priority": 610,
+    "name": "戦馬の幼角",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94093303,
+      "amount": 20
+    },
+    "purchaseType": "item",
+    "targetIds": [6519],
+    "limitNum": 20,
+    "openedAt": 1709715600,
+    "closedAt": 1712116799
+  }, {
+    "id": 80462010,
+    "eventId": 80462,
+    "priority": 615,
+    "name": "神脈霊子",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94093303,
+      "amount": 15
+    },
+    "purchaseType": "item",
+    "targetIds": [6545],
+    "limitNum": 20,
+    "openedAt": 1709715600,
+    "closedAt": 1712116799
+  }, {
+    "id": 80462011,
+    "eventId": 80462,
+    "priority": 620,
+    "name": "黒曜鋭刃",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94093303,
+      "amount": 10
+    },
+    "purchaseType": "item",
+    "targetIds": [6554],
+    "limitNum": 30,
+    "openedAt": 1709715600,
+    "closedAt": 1712116799
+  }, {
+    "id": 80462012,
+    "eventId": 80462,
+    "priority": 700,
+    "name": "セイバーモニュメント",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94093303,
+      "amount": 20
+    },
+    "purchaseType": "item",
+    "targetIds": [7101],
+    "limitNum": 20,
+    "openedAt": 1709715600,
+    "closedAt": 1712116799
+  }, {
+    "id": 80462013,
+    "eventId": 80462,
+    "priority": 710,
+    "name": "ランサーモニュメント",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94093303,
+      "amount": 20
+    },
+    "purchaseType": "item",
+    "targetIds": [7103],
+    "limitNum": 20,
+    "openedAt": 1709715600,
+    "closedAt": 1712116799
+  }, {
+    "id": 80462014,
+    "eventId": 80462,
+    "priority": 720,
+    "name": "キャスターモニュメント",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94093303,
+      "amount": 20
+    },
+    "purchaseType": "item",
+    "targetIds": [7105],
+    "limitNum": 20,
+    "openedAt": 1709715600,
+    "closedAt": 1712116799
+  }, {
+    "id": 80462015,
+    "eventId": 80462,
+    "priority": 730,
+    "name": "バーサーカーモニュメント",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94093303,
+      "amount": 20
+    },
+    "purchaseType": "item",
+    "targetIds": [7107],
+    "limitNum": 20,
+    "openedAt": 1709715600,
+    "closedAt": 1712116799
+  }, {
+    "id": 80462017,
+    "releaseConditions": [{
+      "condValues": [94093308],
+      "shopId": 80462017,
+      "condType": "questClear",
+      "condNum": 1
+    }],
+    "eventId": 80462,
+    "priority": 110,
+    "name": "伝承結晶",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94093302,
+      "amount": 400
+    },
+    "purchaseType": "item",
+    "targetIds": [6999],
+    "limitNum": 1,
+    "openedAt": 1709715600,
+    "closedAt": 1712116799
+  }, {
+    "id": 80462018,
+    "eventId": 80462,
+    "priority": 310,
+    "name": "巡霊の葉",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94093302,
+      "amount": 10
+    },
+    "purchaseType": "item",
+    "targetIds": [48],
+    "setNum": 10,
+    "limitNum": 30,
+    "openedAt": 1709715600,
+    "closedAt": 1712116799
+  }, {
+    "id": 80462019,
+    "releaseConditions": [{
+      "condValues": [94093308],
+      "shopId": 80462019,
+      "condType": "questClear",
+      "condNum": 1
+    }],
+    "eventId": 80462,
+    "priority": 230,
+    "name": "英霊結晶・日輪のフォウくん",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94093302,
+      "amount": 200
+    },
+    "purchaseType": "servant",
+    "targetIds": [9670400],
+    "limitNum": 1,
+    "defaultLv": 1,
+    "openedAt": 1709715600,
+    "closedAt": 1712116799
+  }, {
+    "id": 80462020,
+    "eventId": 80462,
+    "priority": 625,
+    "name": "蛇の宝玉",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94093302,
+      "amount": 20
+    },
+    "purchaseType": "item",
+    "targetIds": [6509],
+    "limitNum": 20,
+    "openedAt": 1709715600,
+    "closedAt": 1712116799
+  }, {
+    "id": 80462021,
+    "eventId": 80462,
+    "priority": 630,
+    "name": "無間の歯車",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94093302,
+      "amount": 15
+    },
+    "purchaseType": "item",
+    "targetIds": [6510],
+    "limitNum": 20,
+    "openedAt": 1709715600,
+    "closedAt": 1712116799
+  }, {
+    "id": 80462022,
+    "eventId": 80462,
+    "priority": 635,
+    "name": "巨人の指輪",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94093302,
+      "amount": 15
+    },
+    "purchaseType": "item",
+    "targetIds": [6537],
+    "limitNum": 20,
+    "openedAt": 1709715600,
+    "closedAt": 1712116799
+  }, {
+    "id": 80462023,
+    "eventId": 80462,
+    "priority": 640,
+    "name": "虚影の塵",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94093302,
+      "amount": 15
+    },
+    "purchaseType": "item",
+    "targetIds": [6505],
+    "limitNum": 30,
+    "openedAt": 1709715600,
+    "closedAt": 1712116799
+  }, {
+    "id": 80462024,
+    "eventId": 80462,
+    "priority": 645,
+    "name": "黄昏の儀式剣",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94093302,
+      "amount": 10
+    },
+    "purchaseType": "item",
+    "targetIds": [6551],
+    "limitNum": 30,
+    "openedAt": 1709715600,
+    "closedAt": 1712116799
+  }, {
+    "id": 80462025,
+    "eventId": 80462,
+    "priority": 740,
+    "name": "セイバーピース",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94093302,
+      "amount": 20
+    },
+    "purchaseType": "item",
+    "targetIds": [7001],
+    "limitNum": 20,
+    "openedAt": 1709715600,
+    "closedAt": 1712116799
+  }, {
+    "id": 80462026,
+    "eventId": 80462,
+    "priority": 750,
+    "name": "ランサーピース",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94093302,
+      "amount": 20
+    },
+    "purchaseType": "item",
+    "targetIds": [7003],
+    "limitNum": 20,
+    "openedAt": 1709715600,
+    "closedAt": 1712116799
+  }, {
+    "id": 80462027,
+    "eventId": 80462,
+    "priority": 760,
+    "name": "キャスターピース",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94093302,
+      "amount": 20
+    },
+    "purchaseType": "item",
+    "targetIds": [7005],
+    "limitNum": 20,
+    "openedAt": 1709715600,
+    "closedAt": 1712116799
+  }, {
+    "id": 80462028,
+    "eventId": 80462,
+    "priority": 770,
+    "name": "バーサーカーピース",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94093302,
+      "amount": 20
+    },
+    "purchaseType": "item",
+    "targetIds": [7007],
+    "limitNum": 20,
+    "openedAt": 1709715600,
+    "closedAt": 1712116799
+  }, {
+    "id": 80462030,
+    "releaseConditions": [{
+      "condValues": [94093308],
+      "shopId": 80462030,
+      "condType": "questClear",
+      "condNum": 1
+    }],
+    "eventId": 80462,
+    "priority": 120,
+    "name": "伝承結晶",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94093301,
+      "amount": 400
+    },
+    "purchaseType": "item",
+    "targetIds": [6999],
+    "limitNum": 1,
+    "openedAt": 1709715600,
+    "closedAt": 1712116799
+  }, {
+    "id": 80462031,
+    "eventId": 80462,
+    "priority": 320,
+    "name": "巡霊の葉",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94093301,
+      "amount": 10
+    },
+    "purchaseType": "item",
+    "targetIds": [48],
+    "setNum": 10,
+    "limitNum": 30,
+    "openedAt": 1709715600,
+    "closedAt": 1712116799
+  }, {
+    "id": 80462032,
+    "releaseConditions": [{
+      "condValues": [94093308],
+      "shopId": 80462032,
+      "condType": "questClear",
+      "condNum": 1
+    }],
+    "eventId": 80462,
+    "priority": 210,
+    "name": "英霊結晶・流星のフォウくん",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94093301,
+      "amount": 200
+    },
+    "purchaseType": "servant",
+    "targetIds": [9570400],
+    "limitNum": 1,
+    "defaultLv": 1,
+    "openedAt": 1709715600,
+    "closedAt": 1712116799
+  }, {
+    "id": 80462033,
+    "eventId": 80462,
+    "priority": 650,
+    "name": "光銀の冠",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94093301,
+      "amount": 15
+    },
+    "purchaseType": "item",
+    "targetIds": [6543],
+    "limitNum": 20,
+    "openedAt": 1709715600,
+    "closedAt": 1712116799
+  }, {
+    "id": 80462034,
+    "eventId": 80462,
+    "priority": 655,
+    "name": "夢幻の鱗粉",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94093301,
+      "amount": 15
+    },
+    "purchaseType": "item",
+    "targetIds": [6550],
+    "limitNum": 20,
+    "openedAt": 1709715600,
+    "closedAt": 1712116799
+  }, {
+    "id": 80462035,
+    "eventId": 80462,
+    "priority": 660,
+    "name": "隕蹄鉄",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94093301,
+      "amount": 15
+    },
+    "purchaseType": "item",
+    "targetIds": [6513],
+    "limitNum": 20,
+    "openedAt": 1709715600,
+    "closedAt": 1712116799
+  }, {
+    "id": 80462036,
+    "eventId": 80462,
+    "priority": 665,
+    "name": "大騎士勲章",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94093301,
+      "amount": 15
+    },
+    "purchaseType": "item",
+    "targetIds": [6524],
+    "limitNum": 20,
+    "openedAt": 1709715600,
+    "closedAt": 1712116799
+  }, {
+    "id": 80462037,
+    "eventId": 80462,
+    "priority": 670,
+    "name": "英雄の証",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94093301,
+      "amount": 10
+    },
+    "purchaseType": "item",
+    "targetIds": [6503],
+    "limitNum": 30,
+    "openedAt": 1709715600,
+    "closedAt": 1712116799
+  }, {
+    "id": 80462038,
+    "eventId": 80462,
+    "priority": 400,
+    "name": "英霊結晶・星のフォウくん",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94093301,
+      "amount": 20
+    },
+    "purchaseType": "servant",
+    "targetIds": [9570300],
+    "limitNum": 20,
+    "defaultLv": 1,
+    "openedAt": 1709715600,
+    "closedAt": 1712116799
+  }, {
+    "id": 80462039,
+    "eventId": 80462,
+    "priority": 410,
+    "name": "英霊結晶・太陽のフォウくん",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94093301,
+      "amount": 20
+    },
+    "purchaseType": "servant",
+    "targetIds": [9670300],
+    "limitNum": 20,
+    "defaultLv": 1,
+    "openedAt": 1709715600,
+    "closedAt": 1712116799
+  }, {
+    "id": 80462040,
+    "eventId": 80462,
+    "priority": 500,
+    "name": "叡智の業火",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94093301,
+      "amount": 10
+    },
+    "purchaseType": "servant",
+    "targetIds": [9770500],
+    "limitNum": 50,
+    "defaultLv": 1,
+    "openedAt": 1709715600,
+    "closedAt": 1712116799
+  }, {
+    "id": 80462041,
+    "eventId": 80462,
+    "priority": 510,
+    "name": "叡智の猛火",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94093301,
+      "amount": 6
+    },
+    "purchaseType": "servant",
+    "targetIds": [9770400],
+    "limitNum": 100,
+    "defaultLv": 1,
+    "openedAt": 1709715600,
+    "closedAt": 1712116799
+  }, {
+    "id": 80462042,
+    "eventId": 80462,
+    "priority": 520,
+    "name": "叡智の大火",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94093301,
+      "amount": 3
+    },
+    "purchaseType": "servant",
+    "targetIds": [9770300],
+    "limitNum": 100,
+    "defaultLv": 1,
+    "openedAt": 1709715600,
+    "closedAt": 1712116799
+  }, {
+    "id": 80462043,
+    "eventId": 80462,
+    "priority": 800,
+    "name": "博愛のマカロン",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94093302,
+      "amount": 10
+    },
+    "purchaseType": "item",
+    "targetIds": [94093303],
+    "limitNum": 0,
+    "openedAt": 1709715600,
+    "closedAt": 1712116799
+  }, {
+    "id": 80462044,
+    "eventId": 80462,
+    "priority": 810,
+    "name": "信念のゼリー",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94093301,
+      "amount": 10
+    },
+    "purchaseType": "item",
+    "targetIds": [94093302],
+    "limitNum": 0,
+    "openedAt": 1709715600,
+    "closedAt": 1712116799
+  }, {
+    "id": 80462045,
+    "eventId": 80462,
+    "priority": 900,
+    "name": "10,000 QP",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94093303,
+      "amount": 2
+    },
+    "purchaseType": "item",
+    "targetIds": [1],
+    "setNum": 10000,
+    "limitNum": 0,
+    "openedAt": 1709715600,
+    "closedAt": 1712116799
+  }, {
+    "id": 80462101,
+    "releaseConditions": [{
+      "condValues": [94093301],
+      "shopId": 80462101,
+      "condType": "questClear",
+      "condNum": 1
+    }],
+    "eventId": 80462,
+    "slot": 1,
+    "priority": 10,
+    "name": "ＢＲＤ",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94093304,
+      "amount": 1
+    },
+    "purchaseType": "servant",
+    "targetIds": [9407640],
+    "limitNum": 1,
+    "defaultLv": 1,
+    "openedAt": 1709715600,
+    "closedAt": 1712116799
+  }, {
+    "id": 80462102,
+    "releaseConditions": [{
+      "condValues": [94093301],
+      "shopId": 80462102,
+      "condType": "questClear",
+      "condNum": 1
+    }],
+    "eventId": 80462,
+    "slot": 1,
+    "priority": 11,
+    "name": "カプリシャス",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94093304,
+      "amount": 1
+    },
+    "purchaseType": "servant",
+    "targetIds": [9407650],
+    "limitNum": 1,
+    "defaultLv": 1,
+    "openedAt": 1709715600,
+    "closedAt": 1712116799
+  }, {
+    "id": 80462103,
+    "releaseConditions": [{
+      "condValues": [94093301],
+      "shopId": 80462103,
+      "condType": "questClear",
+      "condNum": 1
+    }],
+    "eventId": 80462,
+    "slot": 1,
+    "priority": 12,
+    "name": "弧悦同舟",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94093304,
+      "amount": 1
+    },
+    "purchaseType": "servant",
+    "targetIds": [9407660],
+    "limitNum": 1,
+    "defaultLv": 1,
+    "openedAt": 1709715600,
+    "closedAt": 1712116799
+  }, {
+    "id": 80462104,
+    "releaseConditions": [{
+      "condValues": [94093301],
+      "shopId": 80462104,
+      "condType": "questClear",
+      "condNum": 1
+    }],
+    "eventId": 80462,
+    "slot": 1,
+    "priority": 13,
+    "name": "魔術の嗜み",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94093304,
+      "amount": 1
+    },
+    "purchaseType": "servant",
+    "targetIds": [9407670],
+    "limitNum": 1,
+    "defaultLv": 1,
+    "openedAt": 1709715600,
+    "closedAt": 1712116799
+  }, {
+    "id": 80462105,
+    "releaseConditions": [{
+      "condValues": [94093301],
+      "shopId": 80462105,
+      "condType": "questClear",
+      "condNum": 1
+    }],
+    "eventId": 80462,
+    "slot": 1,
+    "priority": 14,
+    "name": "カルデア刑事",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94093304,
+      "amount": 1
+    },
+    "purchaseType": "servant",
+    "targetIds": [9407680],
+    "limitNum": 1,
+    "defaultLv": 1,
+    "openedAt": 1709715600,
+    "closedAt": 1712116799
+  }, {
+    "id": 80462106,
+    "releaseConditions": [{
+      "condValues": [94093301],
+      "shopId": 80462106,
+      "condType": "questClear",
+      "condNum": 1
+    }],
+    "eventId": 80462,
+    "slot": 1,
+    "priority": 15,
+    "name": "グリーディー・ダイス",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94093304,
+      "amount": 1
+    },
+    "purchaseType": "servant",
+    "targetIds": [9407690],
+    "limitNum": 1,
+    "defaultLv": 1,
+    "openedAt": 1709715600,
+    "closedAt": 1712116799
+  }, {
+    "id": 80462107,
+    "releaseConditions": [{
+      "condValues": [94093301],
+      "shopId": 80462107,
+      "condType": "questClear",
+      "condNum": 1
+    }],
+    "eventId": 80462,
+    "slot": 1,
+    "priority": 16,
+    "name": "クリスタル・オブ・ウィズダム",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94093304,
+      "amount": 1
+    },
+    "purchaseType": "servant",
+    "targetIds": [9407700],
+    "limitNum": 1,
+    "defaultLv": 1,
+    "openedAt": 1709715600,
+    "closedAt": 1712116799
+  }, {
+    "id": 80462108,
+    "releaseConditions": [{
+      "condValues": [94093301],
+      "shopId": 80462108,
+      "condType": "questClear",
+      "condNum": 1
+    }],
+    "eventId": 80462,
+    "slot": 1,
+    "priority": 17,
+    "name": "スムース・セーリング",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94093304,
+      "amount": 1
+    },
+    "purchaseType": "servant",
+    "targetIds": [9407710],
+    "limitNum": 1,
+    "defaultLv": 1,
+    "openedAt": 1709715600,
+    "closedAt": 1712116799
+  }, {
+    "id": 80462109,
+    "releaseConditions": [{
+      "condValues": [94093301],
+      "shopId": 80462109,
+      "condType": "questClear",
+      "condNum": 1
+    }],
+    "eventId": 80462,
+    "slot": 1,
+    "priority": 18,
+    "name": "デイ・オフ・マスター",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94093304,
+      "amount": 1
+    },
+    "purchaseType": "servant",
+    "targetIds": [9407720],
+    "limitNum": 1,
+    "defaultLv": 1,
+    "openedAt": 1709715600,
+    "closedAt": 1712116799
+  }],
+  "rewardScenes": [{
+    "type": 1,
+    "guides": [{
+      "imageId": 305100,
+      "limitCount": 1,
+      "image": "https://static.atlasacademy.io/JP/CharaFigure/3051001/3051001_merged.png"
+    }],
+    "tabOnImage": "https://static.atlasacademy.io/JP/EventReward/btn_txt_on_80462_0.png",
+    "tabOffImage": "https://static.atlasacademy.io/JP/EventReward/btn_txt_off_80462_0.png",
+    "bg": "https://static.atlasacademy.io/JP/Back/back209800.png",
+    "bgm": {
+      "id": 777
+    },
+    "afterBgm": {
+      "id": 777
+    },
+    "flags": []
+  }, {
+    "slot": 1,
+    "type": 1,
+    "guides": [{
+      "imageId": 105200,
+      "limitCount": 11,
+      "image": "https://static.atlasacademy.io/JP/CharaFigure/1052300/1052300_merged.png"
+    }],
+    "tabOnImage": "https://static.atlasacademy.io/JP/EventReward/btn_txt_on_80462_1.png",
+    "tabOffImage": "https://static.atlasacademy.io/JP/EventReward/btn_txt_off_80462_1.png",
+    "bg": "https://static.atlasacademy.io/JP/Back/back209700.png",
+    "bgm": {
+      "id": 777
+    },
+    "afterBgm": {
+      "id": 777
+    },
+    "flags": []
+  }],
+  "voices": [{
+    "svtId": 105200,
+    "type": "eventShop",
+    "voiceLines": [{
+      "name": "ショップボイス〔第二ブロック〕 1",
+      "condType": "eventEnd",
+      "priority": 4000,
+      "svtVoiceType": "eventShop",
+      "overwriteName": "CBC2024 シャルルマーニュのモンジョワ・騎士道！ 1",
+      "id": ["0_I1010"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_105200/0_I1010.mp3"],
+      "delay": [0.0],
+      "face": [2],
+      "conds": [{
+        "condType": "eventNoend",
+        "value": 80462
+      }]
+    }, {
+      "name": "ショップボイス〔第二ブロック〕 2",
+      "condType": "eventEnd",
+      "priority": 3999,
+      "svtVoiceType": "eventShop",
+      "overwriteName": "CBC2024 シャルルマーニュのモンジョワ・騎士道！ 2",
+      "id": ["0_I1020", "0_I1021"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_105200/0_I1020.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_105200/0_I1021.mp3"],
+      "delay": [0.0, 0.1],
+      "face": [5, 2],
+      "conds": [{
+        "condType": "eventNoend",
+        "value": 80462
+      }]
+    }, {
+      "name": "ショップボイス〔第二ブロック〕 3",
+      "condType": "eventEnd",
+      "priority": 3998,
+      "svtVoiceType": "eventShop",
+      "overwriteName": "CBC2024 シャルルマーニュのモンジョワ・騎士道！ 3",
+      "id": ["0_I1030", "0_I1031", "0_I1032"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_105200/0_I1030.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_105200/0_I1031.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_105200/0_I1032.mp3"],
+      "delay": [0.0, 0.1, 0.1],
+      "face": [0, 2, 3],
+      "conds": [{
+        "condType": "spacificShopPurchase",
+        "value": 80462
+      }, {
+        "condType": "eventPeriod",
+        "value": 80462
+      }]
+    }]
+  }, {
+    "svtId": 105200,
+    "voicePrefix": 11,
+    "type": "eventShop",
+    "voiceLines": [{
+      "name": "ショップボイス〔第二ブロック〕 1",
+      "condType": "eventEnd",
+      "priority": 4000,
+      "svtVoiceType": "eventShop",
+      "overwriteName": "CBC2024 シャルルマーニュのモンジョワ・騎士道！ 1",
+      "id": ["0_I1010"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_105200/0_I1010.mp3"],
+      "delay": [0.0],
+      "face": [2],
+      "conds": [{
+        "condType": "eventNoend",
+        "value": 80462
+      }]
+    }, {
+      "name": "ショップボイス〔第二ブロック〕 2",
+      "condType": "eventEnd",
+      "priority": 3999,
+      "svtVoiceType": "eventShop",
+      "overwriteName": "CBC2024 シャルルマーニュのモンジョワ・騎士道！ 2",
+      "id": ["0_I1020", "0_I1021"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_105200/0_I1020.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_105200/0_I1021.mp3"],
+      "delay": [0.0, 0.1],
+      "face": [5, 2],
+      "conds": [{
+        "condType": "eventNoend",
+        "value": 80462
+      }]
+    }, {
+      "name": "ショップボイス〔第二ブロック〕 3",
+      "condType": "eventEnd",
+      "priority": 3998,
+      "svtVoiceType": "eventShop",
+      "overwriteName": "CBC2024 シャルルマーニュのモンジョワ・騎士道！ 3",
+      "id": ["0_I1030", "0_I1031", "0_I1032"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_105200/0_I1030.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_105200/0_I1031.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_105200/0_I1032.mp3"],
+      "delay": [0.0, 0.1, 0.1],
+      "face": [0, 2, 3],
+      "conds": [{
+        "condType": "spacificShopPurchase",
+        "value": 80462
+      }, {
+        "condType": "eventPeriod",
+        "value": 80462
+      }]
+    }]
+  }, {
+    "svtId": 305100,
+    "type": "eventShop",
+    "voiceLines": [{
+      "name": "ショップついて 1",
+      "condType": "eventEnd",
+      "priority": 6490,
+      "svtVoiceType": "eventShop",
+      "overwriteName": "CBC2024 シャルルマーニュのモンジョワ・騎士道！ 1",
+      "id": ["0_I010", "0_I011", "0_I012"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_305100/0_I010.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_305100/0_I011.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_305100/0_I012.mp3"],
+      "delay": [0.0, 0.1, 0.1],
+      "face": [0, 0, 0],
+      "conds": [{
+        "condType": "eventNoend",
+        "value": 80462
+      }]
+    }, {
+      "name": "ショップついて 2",
+      "condType": "eventEnd",
+      "priority": 6480,
+      "svtVoiceType": "eventShop",
+      "overwriteName": "CBC2024 シャルルマーニュのモンジョワ・騎士道！ 2",
+      "id": ["0_I020", "0_I021", "0_I022"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_305100/0_I020.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_305100/0_I021.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_305100/0_I022.mp3"],
+      "delay": [0.0, 0.3, 0.1],
+      "face": [0, 0, 0],
+      "conds": [{
+        "condType": "eventNoend",
+        "value": 80462
+      }]
+    }, {
+      "name": "ショップついて 3",
+      "condType": "eventEnd",
+      "priority": 6470,
+      "svtVoiceType": "eventShop",
+      "overwriteName": "CBC2024 シャルルマーニュのモンジョワ・騎士道！ 3",
+      "id": ["0_I030", "0_I031"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_305100/0_I030.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_305100/0_I031.mp3"],
+      "delay": [0.0, 0.1],
+      "face": [0, 0],
+      "conds": [{
+        "condType": "eventShopPurchase",
+        "value": 80462
+      }, {
+        "condType": "eventPeriod",
+        "value": 80462
+      }]
+    }, {
+      "name": "ショップついて 4",
+      "condType": "eventEnd",
+      "priority": 6460,
+      "svtVoiceType": "eventShop",
+      "overwriteName": "CBC2024 シャルルマーニュのモンジョワ・騎士道！ 4",
+      "id": ["0_I040", "0_I041", "0_I042"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_305100/0_I040.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_305100/0_I041.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_305100/0_I042.mp3"],
+      "delay": [0.0, 0.1, 0.3],
+      "face": [0, 0, 0],
+      "conds": [{
+        "condType": "eventShopPurchase",
+        "value": 80462
+      }, {
+        "condType": "eventPeriod",
+        "value": 80462
+      }]
+    }, {
+      "name": "ショップついて 5",
+      "condType": "eventEnd",
+      "priority": 6450,
+      "svtVoiceType": "eventShop",
+      "overwriteName": "CBC2024 シャルルマーニュのモンジョワ・騎士道！ 5",
+      "id": ["0_I050", "0_I051"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_305100/0_I050.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_305100/0_I051.mp3"],
+      "delay": [0.0, 0.1],
+      "face": [0, 0],
+      "conds": [{
+        "condType": "eventShopPurchase",
+        "value": 80462
+      }, {
+        "condType": "eventPeriod",
+        "value": 80462
+      }]
+    }]
+  }]
+}, {
+  "id": 80463,
+  "type": "eventQuest",
+  "name": "カルデアボーイズコレクション2023",
+  "detail": "カルデアボーイズコレクション2023",
+  "bannerPriority": 940185,
+  "noticeAt": 1709715600,
+  "startedAt": 1709715600,
+  "endedAt": 1709715600,
+  "finishedAt": 1709715600,
+  "shop": [{
+    "id": 80463001,
+    "releaseConditions": [{
+      "condValues": [1000011],
+      "shopId": 80463001,
+      "condType": "questClear",
+      "condNum": 1,
+      "priority": 100
+    }],
+    "eventId": 80463,
+    "priority": 10,
+    "name": "スリー・イン・ザ・ブラック",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94093305,
+      "amount": 1
+    },
+    "purchaseType": "servant",
+    "targetIds": [9406860],
+    "limitNum": 1,
+    "defaultLv": 1,
+    "openedAt": 1709715600,
+    "closedAt": 1709715600
+  }, {
+    "id": 80463002,
+    "releaseConditions": [{
+      "condValues": [1000011],
+      "shopId": 80463002,
+      "condType": "questClear",
+      "condNum": 1,
+      "priority": 100
+    }],
+    "eventId": 80463,
+    "priority": 11,
+    "name": "エターナル・ローマ",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94093305,
+      "amount": 1
+    },
+    "purchaseType": "servant",
+    "targetIds": [9406870],
+    "limitNum": 1,
+    "defaultLv": 1,
+    "openedAt": 1709715600,
+    "closedAt": 1709715600
+  }, {
+    "id": 80463003,
+    "releaseConditions": [{
+      "condValues": [1000011],
+      "shopId": 80463003,
+      "condType": "questClear",
+      "condNum": 1,
+      "priority": 100
+    }],
+    "eventId": 80463,
+    "priority": 12,
+    "name": "証明と反証",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94093305,
+      "amount": 1
+    },
+    "purchaseType": "servant",
+    "targetIds": [9406880],
+    "limitNum": 1,
+    "defaultLv": 1,
+    "openedAt": 1709715600,
+    "closedAt": 1709715600
+  }, {
+    "id": 80463004,
+    "releaseConditions": [{
+      "condValues": [1000011],
+      "shopId": 80463004,
+      "condType": "questClear",
+      "condNum": 1,
+      "priority": 100
+    }],
+    "eventId": 80463,
+    "priority": 13,
+    "name": "教授たちのランチタイム",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94093305,
+      "amount": 1
+    },
+    "purchaseType": "servant",
+    "targetIds": [9406890],
+    "limitNum": 1,
+    "defaultLv": 1,
+    "openedAt": 1709715600,
+    "closedAt": 1709715600
+  }, {
+    "id": 80463005,
+    "releaseConditions": [{
+      "condValues": [1000011],
+      "shopId": 80463005,
+      "condType": "questClear",
+      "condNum": 1,
+      "priority": 100
+    }],
+    "eventId": 80463,
+    "priority": 14,
+    "name": "春陽燦々",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94093305,
+      "amount": 1
+    },
+    "purchaseType": "servant",
+    "targetIds": [9406900],
+    "limitNum": 1,
+    "defaultLv": 1,
+    "openedAt": 1709715600,
+    "closedAt": 1709715600
+  }, {
+    "id": 80463006,
+    "releaseConditions": [{
+      "condValues": [1000011],
+      "shopId": 80463006,
+      "condType": "questClear",
+      "condNum": 1,
+      "priority": 100
+    }],
+    "eventId": 80463,
+    "priority": 15,
+    "name": "フォー・ユア・レターズ",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94093305,
+      "amount": 1
+    },
+    "purchaseType": "servant",
+    "targetIds": [9406910],
+    "limitNum": 1,
+    "defaultLv": 1,
+    "openedAt": 1709715600,
+    "closedAt": 1709715600
+  }, {
+    "id": 80463007,
+    "releaseConditions": [{
+      "condValues": [1000011],
+      "shopId": 80463007,
+      "condType": "questClear",
+      "condNum": 1,
+      "priority": 100
+    }],
+    "eventId": 80463,
+    "priority": 16,
+    "name": "オールウェイ・バーン",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94093305,
+      "amount": 1
+    },
+    "purchaseType": "servant",
+    "targetIds": [9406920],
+    "limitNum": 1,
+    "defaultLv": 1,
+    "openedAt": 1709715600,
+    "closedAt": 1709715600
+  }, {
+    "id": 80463008,
+    "releaseConditions": [{
+      "condValues": [1000011],
+      "shopId": 80463008,
+      "condType": "questClear",
+      "condNum": 1,
+      "priority": 100
+    }],
+    "eventId": 80463,
+    "priority": 17,
+    "name": "宵に潤い話は枯れず",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94093305,
+      "amount": 1
+    },
+    "purchaseType": "servant",
+    "targetIds": [9406930],
+    "limitNum": 1,
+    "defaultLv": 1,
+    "openedAt": 1709715600,
+    "closedAt": 1709715600
+  }, {
+    "id": 80463009,
+    "releaseConditions": [{
+      "condValues": [1000011],
+      "shopId": 80463009,
+      "condType": "questClear",
+      "condNum": 1,
+      "priority": 100
+    }],
+    "eventId": 80463,
+    "priority": 18,
+    "name": "夜の帳に灯を",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94093305,
+      "amount": 1
+    },
+    "purchaseType": "servant",
+    "targetIds": [9406940],
+    "limitNum": 1,
+    "defaultLv": 1,
+    "openedAt": 1709715600,
+    "closedAt": 1709715600
   }]
 }, {
   "id": 80465,
