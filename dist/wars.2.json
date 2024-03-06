@@ -82113,6 +82113,47 @@
     "id": 838902,
     "mapId": 8389,
     "name": "",
-    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter8389/QMap_Cap8389_Atlas/spot_838902.png"
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter8389/QMap_Cap8389_Atlas/spot_838902.png",
+    "quests": [{
+      "id": 94093601,
+      "name": "「シャルルマーニュからのメッセージ 1日目」",
+      "type": "event",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 838902,
+      "warId": 8389,
+      "gifts": [{
+        "id": 94093308,
+        "objectId": 4001,
+        "num": 1
+      }, {
+        "id": 94093308,
+        "objectId": 94093306,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 1000011
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9409360110",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409360110.txt"
+        }]
+      }],
+      "priority": 94093299,
+      "noticeAt": 1709751600,
+      "openedAt": 1709751600,
+      "closedAt": 1709837999
+    }]
   }]
 }]
