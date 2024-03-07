@@ -81969,6 +81969,7 @@
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
       }],
       "phases": [1, 2],
+      "phasesWithEnemies": [1, 2],
       "phaseScripts": [{
         "phase": 1,
         "scripts": [{
@@ -81991,6 +81992,37 @@
       "priority": 94093497,
       "noticeAt": 1709715600,
       "openedAt": 1709802000,
+      "closedAt": 1711511999
+    }, {
+      "id": 94093303,
+      "name": "",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "30",
+      "spotId": 838901,
+      "warId": 8389,
+      "gifts": [{
+        "id": 101,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94093302
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "forceFalse",
+        "targetId": 0,
+        "closedMessage": "データ更新後に開放"
+      }],
+      "phases": [1],
+      "priority": 94093496,
+      "noticeAt": 1709802000,
+      "openedAt": 1709888400,
       "closedAt": 1711511999
     }, {
       "id": 94093401,
@@ -82104,9 +82136,42 @@
         "closedMessage": "第2節クリア\n＆3月7日18時00分以降に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94093396,
       "noticeAt": 1709715600,
       "openedAt": 1709802000,
+      "closedAt": 1711511999
+    }, {
+      "id": 94093405,
+      "name": "",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "60",
+      "spotId": 838901,
+      "warId": 8389,
+      "gifts": [{
+        "id": 13000,
+        "objectId": 101,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94093302
+      }, {
+        "type": "questClear",
+        "targetId": 94093303,
+        "closedMessage": "第3節クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "第3節クリア\n＆3月8日18時00分以降に開放"
+      }],
+      "phases": [1],
+      "priority": 94093395,
+      "noticeAt": 1709802000,
+      "openedAt": 1709888400,
       "closedAt": 1711511999
     }]
   }, {
