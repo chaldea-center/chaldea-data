@@ -81995,7 +81995,7 @@
       "closedAt": 1711511999
     }, {
       "id": 94093303,
-      "name": "",
+      "name": "第3節 くじけず前を向いて",
       "type": "main",
       "consume": 5,
       "afterClear": "close",
@@ -82008,21 +82008,65 @@
         "num": 1
       }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 94093302
       }, {
         "type": "date",
         "targetId": 0,
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
-      }, {
-        "type": "forceFalse",
-        "targetId": 0,
-        "closedMessage": "データ更新後に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9409330310",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409330310.txt"
+        }, {
+          "scriptId": "9409330311",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409330311.txt"
+        }]
+      }],
       "priority": 94093496,
       "noticeAt": 1709802000,
       "openedAt": 1709888400,
+      "closedAt": 1711511999
+    }, {
+      "id": 94093304,
+      "name": "第4節 立ち上がっては打ち倒されて",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "35",
+      "spotId": 838901,
+      "warId": 8389,
+      "gifts": [{
+        "id": 101,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94093303
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9409330411",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409330411.txt"
+        }]
+      }],
+      "priority": 94093495,
+      "noticeAt": 1709888400,
+      "openedAt": 1709974800,
       "closedAt": 1711511999
     }, {
       "id": 94093401,
@@ -82143,7 +82187,7 @@
       "closedAt": 1711511999
     }, {
       "id": 94093405,
-      "name": "",
+      "name": "アントラクト・お芝居特訓！ スタジオ級",
       "type": "event",
       "flags": ["displayLoopmark"],
       "consume": 40,
@@ -82169,9 +82213,42 @@
         "closedMessage": "第3節クリア\n＆3月8日18時00分以降に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94093395,
       "noticeAt": 1709802000,
       "openedAt": 1709888400,
+      "closedAt": 1711511999
+    }, {
+      "id": 94093406,
+      "name": "アントラクト・お芝居特訓！ シアター級",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "70",
+      "spotId": 838901,
+      "warId": 8389,
+      "gifts": [{
+        "id": 12000,
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94093303
+      }, {
+        "type": "questClear",
+        "targetId": 94093304,
+        "closedMessage": "第4節クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "第4節クリア\n＆3月9日18時00分以降に開放"
+      }],
+      "phases": [1],
+      "priority": 94093394,
+      "noticeAt": 1709888400,
+      "openedAt": 1709974800,
       "closedAt": 1711511999
     }]
   }, {
