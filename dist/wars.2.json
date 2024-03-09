@@ -82057,6 +82057,7 @@
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "phaseScripts": [{
         "phase": 1,
         "scripts": [{
@@ -82067,6 +82068,37 @@
       "priority": 94093495,
       "noticeAt": 1709888400,
       "openedAt": 1709974800,
+      "closedAt": 1711511999
+    }, {
+      "id": 94093305,
+      "name": "",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "40",
+      "spotId": 838901,
+      "warId": 8389,
+      "gifts": [{
+        "id": 101,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94093304
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "forceFalse",
+        "targetId": 0,
+        "closedMessage": "データ更新後に開放"
+      }],
+      "phases": [1, 2, 3, 4],
+      "priority": 94093494,
+      "noticeAt": 1709974800,
+      "openedAt": 1710061200,
       "closedAt": 1711511999
     }, {
       "id": 94093401,
@@ -82246,9 +82278,42 @@
         "closedMessage": "第4節クリア\n＆3月9日18時00分以降に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94093394,
       "noticeAt": 1709888400,
       "openedAt": 1709974800,
+      "closedAt": 1711511999
+    }, {
+      "id": 94093407,
+      "name": "",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "80",
+      "spotId": 838901,
+      "warId": 8389,
+      "gifts": [{
+        "id": 12000,
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94093304
+      }, {
+        "type": "questClear",
+        "targetId": 94093305,
+        "closedMessage": "第5節クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "第5節クリア\n＆3月10日18時00分以降に開放"
+      }],
+      "phases": [1],
+      "priority": 94093393,
+      "noticeAt": 1709974800,
+      "openedAt": 1710061200,
       "closedAt": 1711511999
     }]
   }, {
