@@ -82071,7 +82071,7 @@
       "closedAt": 1711511999
     }, {
       "id": 94093305,
-      "name": "",
+      "name": "第5節 『シラノ・ド・ベルジュラック』第32回公演",
       "type": "main",
       "consume": 5,
       "afterClear": "close",
@@ -82084,21 +82084,106 @@
         "num": 1
       }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 94093304
       }, {
         "type": "date",
         "targetId": 0,
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
-      }, {
-        "type": "forceFalse",
-        "targetId": 0,
-        "closedMessage": "データ更新後に開放"
       }],
       "phases": [1, 2, 3, 4],
+      "phasesWithEnemies": [1, 2, 3],
+      "phasesNoBattle": [4],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9409330510",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409330510.txt"
+        }, {
+          "scriptId": "9409330511",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409330511.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9409330520",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409330520.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9409330530",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409330530.txt"
+        }, {
+          "scriptId": "9409330531",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409330531.txt"
+        }]
+      }, {
+        "phase": 4,
+        "scripts": [{
+          "scriptId": "9409330540",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409330540.txt"
+        }]
+      }],
       "priority": 94093494,
       "noticeAt": 1709974800,
       "openedAt": 1710061200,
+      "closedAt": 1711511999
+    }, {
+      "id": 94093306,
+      "name": "第6節 夢の狭間と現実の隙間",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "50",
+      "spotId": 838901,
+      "warId": 8389,
+      "gifts": [{
+        "id": 101,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94093305
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1, 2, 3],
+      "phasesNoBattle": [3],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9409330610",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409330610.txt"
+        }, {
+          "scriptId": "9409330611",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409330611.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9409330620",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409330620.txt"
+        }, {
+          "scriptId": "9409330621",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409330621.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9409330630",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409330630.txt"
+        }]
+      }],
+      "priority": 94093493,
+      "noticeAt": 1710061200,
+      "openedAt": 1710147600,
       "closedAt": 1711511999
     }, {
       "id": 94093401,
@@ -82285,7 +82370,7 @@
       "closedAt": 1711511999
     }, {
       "id": 94093407,
-      "name": "",
+      "name": "アントラクト・お芝居特訓！ プレイハウス級",
       "type": "event",
       "flags": ["displayLoopmark"],
       "consume": 40,
@@ -82311,9 +82396,42 @@
         "closedMessage": "第5節クリア\n＆3月10日18時00分以降に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94093393,
       "noticeAt": 1709974800,
       "openedAt": 1710061200,
+      "closedAt": 1711511999
+    }, {
+      "id": 94093408,
+      "name": "アントラクト・お芝居特訓！ ホール級",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90",
+      "spotId": 838901,
+      "warId": 8389,
+      "gifts": [{
+        "id": 12000,
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94093305
+      }, {
+        "type": "questClear",
+        "targetId": 94093306,
+        "closedMessage": "第6節クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "第6節クリア\n＆3月11日18時00分以降に開放"
+      }],
+      "phases": [1],
+      "priority": 94093392,
+      "noticeAt": 1710061200,
+      "openedAt": 1710147600,
       "closedAt": 1711511999
     }]
   }, {
