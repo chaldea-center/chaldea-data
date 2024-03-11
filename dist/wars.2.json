@@ -82155,6 +82155,7 @@
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
       }],
       "phases": [1, 2, 3],
+      "phasesWithEnemies": [1, 2],
       "phasesNoBattle": [3],
       "phaseScripts": [{
         "phase": 1,
@@ -82184,6 +82185,38 @@
       "priority": 94093493,
       "noticeAt": 1710061200,
       "openedAt": 1710147600,
+      "closedAt": 1711511999
+    }, {
+      "id": 94093307,
+      "name": "",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "80",
+      "spotId": 838901,
+      "warId": 8389,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/3.png",
+      "gifts": [{
+        "id": 20058,
+        "objectId": 7999,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94093306
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "forceFalse",
+        "targetId": 0,
+        "closedMessage": "データ更新後に開放"
+      }],
+      "phases": [1, 2, 3],
+      "priority": 94093492,
+      "noticeAt": 1710147600,
+      "openedAt": 1710234000,
       "closedAt": 1711511999
     }, {
       "id": 94093401,
@@ -82429,9 +82462,74 @@
         "closedMessage": "第6節クリア\n＆3月11日18時00分以降に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94093392,
       "noticeAt": 1710061200,
       "openedAt": 1710147600,
+      "closedAt": 1711511999
+    }, {
+      "id": 94093409,
+      "name": "",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90+",
+      "spotId": 838901,
+      "warId": 8389,
+      "gifts": [{
+        "id": 327,
+        "objectId": 3,
+        "num": 100
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94093306
+      }, {
+        "type": "questClear",
+        "targetId": 94093308,
+        "closedMessage": "エピローグクリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "エピローグクリア\n＆3月12日18時00分以降に開放"
+      }],
+      "phases": [1],
+      "priority": 94093391,
+      "noticeAt": 1710147600,
+      "openedAt": 1710234000,
+      "closedAt": 1711511999
+    }, {
+      "id": 94093410,
+      "name": "",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90++",
+      "spotId": 838901,
+      "warId": 8389,
+      "gifts": [{
+        "id": 337,
+        "objectId": 3,
+        "num": 200
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94093306
+      }, {
+        "type": "questClear",
+        "targetId": 94093308,
+        "closedMessage": "エピローグクリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "エピローグクリア\n＆3月12日18時00分以降に開放"
+      }],
+      "phases": [1],
+      "priority": 94093390,
+      "noticeAt": 1710147600,
+      "openedAt": 1710234000,
       "closedAt": 1711511999
     }]
   }, {
