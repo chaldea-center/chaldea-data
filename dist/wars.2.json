@@ -82188,7 +82188,7 @@
       "closedAt": 1711511999
     }, {
       "id": 94093307,
-      "name": "",
+      "name": "第7節 『シラノ・ド・ベルジュラック』最終公演",
       "type": "main",
       "consume": 5,
       "afterClear": "close",
@@ -82202,20 +82202,84 @@
         "num": 1
       }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 94093306
       }, {
         "type": "date",
         "targetId": 0,
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
-      }, {
-        "type": "forceFalse",
-        "targetId": 0,
-        "closedMessage": "データ更新後に開放"
       }],
       "phases": [1, 2, 3],
+      "phasesWithEnemies": [1, 2],
+      "phasesNoBattle": [3],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9409330710",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409330710.txt"
+        }, {
+          "scriptId": "9409330711",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409330711.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9409330720",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409330720.txt"
+        }, {
+          "scriptId": "9409330721",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409330721.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9409330730",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409330730.txt"
+        }]
+      }],
       "priority": 94093492,
       "noticeAt": 1710147600,
+      "openedAt": 1710234000,
+      "closedAt": 1711511999
+    }, {
+      "id": 94093308,
+      "name": "エピローグ",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 838901,
+      "warId": 8389,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/3.png",
+      "gifts": [{
+        "id": 94093307,
+        "type": "servant",
+        "objectId": 9407730,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94093307
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9409330810",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409330810.txt"
+        }]
+      }],
+      "priority": 94093491,
+      "noticeAt": 1710234000,
       "openedAt": 1710234000,
       "closedAt": 1711511999
     }, {
@@ -82469,7 +82533,7 @@
       "closedAt": 1711511999
     }, {
       "id": 94093409,
-      "name": "",
+      "name": "アントラクト・お芝居特訓！ グランドホール級",
       "type": "event",
       "flags": ["displayLoopmark"],
       "consume": 40,
@@ -82495,13 +82559,14 @@
         "closedMessage": "エピローグクリア\n＆3月12日18時00分以降に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94093391,
       "noticeAt": 1710147600,
       "openedAt": 1710234000,
       "closedAt": 1711511999
     }, {
       "id": 94093410,
-      "name": "",
+      "name": "アントラクト・お芝居特訓！ オペラ座級",
       "type": "event",
       "flags": ["displayLoopmark"],
       "consume": 40,
@@ -82527,9 +82592,46 @@
         "closedMessage": "エピローグクリア\n＆3月12日18時00分以降に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94093390,
       "noticeAt": 1710147600,
       "openedAt": 1710234000,
+      "closedAt": 1711511999
+    }, {
+      "id": 94093501,
+      "name": "",
+      "type": "event",
+      "flags": ["dropFirstTimeOnly", "notRetrievable"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "90+",
+      "spotId": 838901,
+      "warId": 8389,
+      "gifts": [{
+        "id": 21701,
+        "objectId": 6999,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 1000822,
+        "closedMessage": "終局特異点クリア\n＆3月13日18時00分以降に開放"
+      }, {
+        "type": "questClear",
+        "targetId": 94093308
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "forceFalse",
+        "targetId": 0,
+        "closedMessage": "データ更新後に開放"
+      }],
+      "phases": [1],
+      "priority": 94093599,
+      "noticeAt": 1710234000,
+      "openedAt": 1710320400,
       "closedAt": 1711511999
     }]
   }, {
