@@ -34823,7 +34823,7 @@
   "funcType": "addStateShort",
   "funcTargetType": "self",
   "funcTargetTeam": "playerAndEnemy",
-  "funcPopupText": "クリティカル威力アップ〔悪〕",
+  "funcPopupText": "クリティカル威力アップ・対悪",
   "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_324.png",
   "buffs": [{
     "id": 4342,
@@ -44404,6 +44404,34 @@
   "funcTargetTeam": "playerAndEnemy",
   "functvals": [{
     "id": 2654
+  }]
+}, {
+  "funcId": 21340,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "クリティカル威力アップ・対悪",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_324.png",
+  "buffs": [{
+    "id": 4342,
+    "name": "クリティカル威力アップ〔悪〕",
+    "detail": "〔悪〕特性に与えるクリティカル時のダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_324.png",
+    "type": "upCriticaldamage",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3031
+    }],
+    "tvals": [{
+      "id": 304
+    }],
+    "ckOpIndv": [{
+      "id": 304
+    }],
+    "maxRate": 5000
   }]
 }, {
   "funcId": 21351,
