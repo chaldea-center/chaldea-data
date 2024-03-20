@@ -69387,7 +69387,51 @@
     "mapId": 401,
     "name": "日本エリア",
     "x": 35.69,
-    "y": 139.692
+    "y": 139.692,
+    "quests": [{
+      "id": 4000327,
+      "name": "appendix",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 1040301,
+      "warId": 401,
+      "chapterId": 403,
+      "chapterSubId": 27,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/6.png",
+      "gifts": [{
+        "id": 101,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "elapsedTimeAfterQuestClear",
+        "targetId": 4000326,
+        "value": 10800
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "0400032710",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400032710.txt"
+        }]
+      }],
+      "priority": 4000273,
+      "noticeAt": 1710932400,
+      "openedAt": 1710932400,
+      "closedAt": 1893423600
+    }]
+  }, {
+    "id": 1040401,
+    "blankEarth": true,
+    "mapId": 401,
+    "name": "南欧エリア",
+    "x": 43.782,
+    "y": 11.248
   }]
 }, {
   "id": 402,
@@ -72113,10 +72157,10 @@
     []
   ],
   "age": "-",
-  "name": "-",
-  "longName": "-",
-  "flags": ["mainScenario", "noticeBoard"],
-  "banner": "https://static.atlasacademy.io/JP/Banner/questboard_cap_closed.png",
+  "name": "奏章Ⅱ",
+  "longName": "不可逆廃棄孔 イド",
+  "flags": ["mainScenario", "isWarIconLeft", "dispFirstQuest", "chapterSubIdJapaneseNumeralsNormal"],
+  "banner": "https://static.atlasacademy.io/JP/Banner/questboard_cap403.png",
   "priority": 403,
   "parentWarId": 401,
   "parentBlankEarthSpotId": 1040301,
@@ -72124,7 +72168,28 @@
     "id": 0
   },
   "script": "https://static.atlasacademy.io/JP/Script/Common/NONE.txt",
+  "startType": "quest",
+  "targetId": 4000301,
+  "lastQuestId": 4000326,
   "warAdds": [{
+    "warId": 403,
+    "type": "masterFaceIcon",
+    "priority": 1,
+    "overwriteId": 351,
+    "condType": "commonRelease",
+    "targetId": 10094802,
+    "startedAt": 1710932400,
+    "endedAt": 1893423600
+  }, {
+    "warId": 403,
+    "type": "baseMapId",
+    "priority": 1,
+    "overwriteId": 40301,
+    "condType": "questClear",
+    "targetId": 4000302,
+    "startedAt": 1710932400,
+    "endedAt": 1893423600
+  }, {
     "warId": 403,
     "type": "warForceHide",
     "priority": 1,
@@ -72132,6 +72197,2840 @@
     "condType": "notQuestClearPhase",
     "targetId": 4000217,
     "startedAt": 1687078800,
+    "endedAt": 1893423600
+  }, {
+    "warId": 403,
+    "type": "flag",
+    "priority": 1,
+    "overwriteId": 33587586,
+    "condType": "questClear",
+    "targetId": 4000302,
+    "startedAt": 1710932400,
+    "endedAt": 1893423600
+  }, {
+    "warId": 403,
+    "type": "masterFaceIcon",
+    "priority": 2,
+    "overwriteId": 352,
+    "condType": "commonRelease",
+    "targetId": 10094803,
+    "startedAt": 1710932400,
+    "endedAt": 1893423600
+  }, {
+    "warId": 403,
+    "type": "flag",
+    "priority": 2,
+    "overwriteId": 33587584,
+    "condType": "questClear",
+    "targetId": 4000322,
+    "startedAt": 1710932400,
+    "endedAt": 1893423600
+  }, {
+    "warId": 403,
+    "type": "baseMapId",
+    "priority": 2,
+    "overwriteId": 40302,
+    "condType": "questClearPhase",
+    "targetId": 4000321,
+    "value": 2,
+    "startedAt": 1710932400,
+    "endedAt": 1893423600
+  }, {
+    "warId": 403,
+    "type": "materialParentWar",
+    "priority": 2,
+    "overwriteId": 14000,
+    "condType": "questClear",
+    "targetId": 4000301,
+    "startedAt": 1710932400,
+    "endedAt": 1893423600
+  }, {
+    "warId": 403,
+    "type": "masterFaceIcon",
+    "priority": 3,
+    "overwriteId": 353,
+    "condType": "commonRelease",
+    "targetId": 10094804,
+    "startedAt": 1710932400,
+    "endedAt": 1893423600
+  }, {
+    "warId": 403,
+    "type": "flag",
+    "priority": 3,
+    "overwriteId": 33587586,
+    "condType": "questClear",
+    "targetId": 4000323,
+    "startedAt": 1710932400,
+    "endedAt": 1893423600
+  }, {
+    "warId": 403,
+    "type": "baseMapId",
+    "priority": 3,
+    "overwriteId": 0,
+    "condType": "questClear",
+    "targetId": 4000322,
+    "startedAt": 1710932400,
+    "endedAt": 1893423600
+  }, {
+    "warId": 403,
+    "type": "baseMapId",
+    "priority": 4,
+    "overwriteId": 40302,
+    "condType": "questClear",
+    "targetId": 4000323,
+    "startedAt": 1710932400,
+    "endedAt": 1893423600
+  }, {
+    "warId": 403,
+    "type": "flag",
+    "priority": 4,
+    "overwriteId": 33587584,
+    "condType": "questClear",
+    "targetId": 4000325,
+    "startedAt": 1710932400,
+    "endedAt": 1893423600
+  }, {
+    "warId": 403,
+    "type": "masterFaceIcon",
+    "priority": 4,
+    "overwriteId": 354,
+    "condType": "commonRelease",
+    "targetId": 10094805,
+    "startedAt": 1710932400,
+    "endedAt": 1893423600
+  }, {
+    "warId": 403,
+    "type": "baseMapId",
+    "priority": 5,
+    "overwriteId": 0,
+    "condType": "questClear",
+    "targetId": 4000325,
+    "startedAt": 1710932400,
+    "endedAt": 1893423600
+  }, {
+    "warId": 403,
+    "type": "flag",
+    "priority": 5,
+    "overwriteId": 33587586,
+    "condType": "questClear",
+    "targetId": 4000326,
+    "startedAt": 1710932400,
+    "endedAt": 1893423600
+  }, {
+    "warId": 403,
+    "type": "masterFaceIcon",
+    "priority": 5,
+    "overwriteId": 355,
+    "condType": "commonRelease",
+    "targetId": 10094806,
+    "startedAt": 1710932400,
+    "endedAt": 1893423600
+  }, {
+    "warId": 403,
+    "type": "masterFaceIcon",
+    "priority": 6,
+    "overwriteId": 356,
+    "condType": "commonRelease",
+    "targetId": 10094807,
+    "startedAt": 1710932400,
+    "endedAt": 1893423600
+  }, {
+    "warId": 403,
+    "type": "baseMapId",
+    "priority": 6,
+    "overwriteId": 40301,
+    "condType": "questClear",
+    "targetId": 4000326,
+    "startedAt": 1710932400,
+    "endedAt": 1893423600
+  }],
+  "maps": [{
+    "id": 40301,
+    "mapImage": "https://static.atlasacademy.io/JP/Terminal/MapImgs/img_questmap_040301/img_questmap_040301.png",
+    "mapImageW": 2048,
+    "mapImageH": 1440,
+    "mapGimmicks": [{
+      "id": 40301,
+      "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0403/QMap_Cap0403_Atlas/gimmick_040301.png",
+      "x": 1024,
+      "y": 720,
+      "depthOffset": 0,
+      "scale": 1000,
+      "dispCondType": "itemGet",
+      "dispTargetId": 4000304,
+      "dispTargetValue": 4,
+      "dispCondType2": "useItemEternity",
+      "dispTargetId2": 4000306,
+      "dispTargetValue2": 5
+    }, {
+      "id": 40302,
+      "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0403/QMap_Cap0403_Atlas/gimmick_040302.png",
+      "x": 1024,
+      "y": 720,
+      "depthOffset": 0,
+      "scale": 1000,
+      "dispCondType": "itemGet",
+      "dispTargetId": 4000311,
+      "dispTargetValue": 2,
+      "dispCondType2": "useItemEternity",
+      "dispTargetId2": 4000312,
+      "dispTargetValue2": 7
+    }, {
+      "id": 40303,
+      "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0403/QMap_Cap0403_Atlas/gimmick_040303.png",
+      "x": 1024,
+      "y": 720,
+      "depthOffset": 0,
+      "scale": 1000,
+      "dispCondType": "itemGet",
+      "dispTargetId": 4000316,
+      "dispTargetValue": 7,
+      "dispCondType2": "useItemEternity",
+      "dispTargetId2": 4000317,
+      "dispTargetValue2": 5
+    }, {
+      "id": 40305,
+      "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0403/QMap_Cap0403_Atlas/gimmick_040305.png",
+      "x": 1024,
+      "y": 720,
+      "depthOffset": 0,
+      "scale": 1000,
+      "dispCondType": "itemGet",
+      "dispTargetId": 4000319,
+      "dispTargetValue": 1,
+      "dispCondType2": "useItemEternity",
+      "dispTargetId2": 4000319,
+      "dispTargetValue2": 8
+    }],
+    "headerImage": "https://static.atlasacademy.io/JP/Banner/img_title_header_35.png",
+    "bgm": {
+      "id": 667
+    }
+  }, {
+    "id": 40302,
+    "mapImage": "https://static.atlasacademy.io/JP/Terminal/MapImgs/img_questmap_040302/img_questmap_040302.png",
+    "mapImageW": 2048,
+    "mapImageH": 1440,
+    "mapGimmicks": [{
+      "id": 40304,
+      "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0403/QMap_Cap0403_Atlas/gimmick_040304.png",
+      "x": 1024,
+      "y": 720,
+      "depthOffset": 0,
+      "scale": 1000,
+      "dispCondType": "questClear",
+      "dispCondType2": "questClear"
+    }, {
+      "id": 40306,
+      "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0403/QMap_Cap0403_Atlas/gimmick_040306.png",
+      "x": 1024,
+      "y": 720,
+      "depthOffset": -600,
+      "scale": 1000,
+      "dispCondType": "questClear",
+      "dispCondType2": "questClear"
+    }, {
+      "id": 40307,
+      "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0403/QMap_Cap0403_Atlas/gimmick_040307.png",
+      "x": 1024,
+      "y": 720,
+      "depthOffset": -800,
+      "scale": 1000,
+      "dispCondType": "questClear",
+      "dispCondType2": "questClear"
+    }, {
+      "id": 40308,
+      "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0403/QMap_Cap0403_Atlas/gimmick_040308.png",
+      "x": 1024,
+      "y": 720,
+      "depthOffset": 0,
+      "scale": 1000,
+      "dispCondType": "useItemTime",
+      "dispCondType2": "useItemTime"
+    }],
+    "headerImage": "https://static.atlasacademy.io/JP/Banner/img_title_header_35.png",
+    "bgm": {
+      "id": 789
+    }
+  }, {
+    "id": 40303,
+    "mapImage": "https://static.atlasacademy.io/JP/Terminal/MapImgs/img_questmap_040303/img_questmap_040303.png",
+    "mapImageW": 2048,
+    "mapImageH": 1440,
+    "headerImage": "https://static.atlasacademy.io/JP/Banner/img_title_header_35.png",
+    "bgm": {
+      "id": 780
+    }
+  }, {
+    "id": 40304,
+    "mapImage": "https://static.atlasacademy.io/JP/Terminal/MapImgs/img_questmap_040304/img_questmap_040304.png",
+    "mapImageW": 2048,
+    "mapImageH": 1440,
+    "headerImage": "https://static.atlasacademy.io/JP/Banner/img_title_header_35.png",
+    "bgm": {
+      "id": 780
+    }
+  }],
+  "spots": [{
+    "id": 40301,
+    "mapId": 40301,
+    "name": "繁華街",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0403/QMap_Cap0403_Atlas/spot_040301.png",
+    "x": 679,
+    "y": 715,
+    "nameOfsY": -5,
+    "questOfsX": 43,
+    "questOfsY": -84,
+    "quests": [{
+      "id": 4000303,
+      "name": "其処は、見知った街に似て",
+      "type": "main",
+      "consume": 23,
+      "afterClear": "close",
+      "recommendLv": "76",
+      "spotId": 40301,
+      "warId": 403,
+      "chapterId": 403,
+      "chapterSubId": 3,
+      "gifts": [{
+        "id": 321200,
+        "objectId": 2,
+        "num": 1
+      }, {
+        "id": 321200,
+        "objectId": 6557,
+        "num": 2
+      }, {
+        "id": 321200,
+        "objectId": 46,
+        "num": 2
+      }, {
+        "id": 321200,
+        "type": "servant",
+        "objectId": 9770500,
+        "num": 2
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000302
+      }],
+      "phases": [1, 2],
+      "phasesWithEnemies": [1],
+      "phasesNoBattle": [2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "0400030310",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400030310.txt"
+        }, {
+          "scriptId": "0400030311",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400030311.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "0400030320",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400030320.txt"
+        }]
+      }],
+      "priority": 4000297,
+      "noticeAt": 1710932400,
+      "openedAt": 1710932400,
+      "closedAt": 1893423600
+    }, {
+      "id": 93040301,
+      "name": "かいもの帰り",
+      "type": "free",
+      "flags": ["displayLoopmark"],
+      "consume": 21,
+      "afterClear": "repeatLast",
+      "recommendLv": "75",
+      "spotId": 40301,
+      "warId": 403,
+      "chapterId": 403,
+      "chapterSubId": 1,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/6.png",
+      "gifts": [{
+        "id": 101,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000326
+      }],
+      "phases": [1, 2, 3],
+      "priority": 4000272,
+      "noticeAt": 1710932400,
+      "openedAt": 1710932400,
+      "closedAt": 1893423600
+    }]
+  }, {
+    "id": 40302,
+    "mapId": 40301,
+    "name": "自宅",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0403/QMap_Cap0403_Atlas/spot_040302.png",
+    "x": 584,
+    "y": 809,
+    "nameOfsY": -6,
+    "questOfsX": 32,
+    "questOfsY": -72,
+    "quests": [{
+      "id": 4000304,
+      "name": "きみは、見知った人に似て",
+      "type": "main",
+      "consume": 23,
+      "afterClear": "close",
+      "recommendLv": "76",
+      "spotId": 40302,
+      "warId": 403,
+      "chapterId": 403,
+      "chapterSubId": 4,
+      "gifts": [{
+        "id": 321201,
+        "objectId": 2,
+        "num": 1
+      }, {
+        "id": 321201,
+        "objectId": 6502,
+        "num": 2
+      }, {
+        "id": 321201,
+        "objectId": 46,
+        "num": 2
+      }, {
+        "id": 321201,
+        "type": "servant",
+        "objectId": 9770500,
+        "num": 2
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000303
+      }],
+      "phases": [1, 2, 3, 4],
+      "phasesWithEnemies": [4],
+      "phasesNoBattle": [1, 2, 3],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "0400030410",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400030410.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "0400030420",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400030420.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "0400030430",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400030430.txt"
+        }]
+      }, {
+        "phase": 4,
+        "scripts": [{
+          "scriptId": "0400030440",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400030440.txt"
+        }, {
+          "scriptId": "0400030441",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400030441.txt"
+        }]
+      }],
+      "priority": 4000296,
+      "noticeAt": 1710932400,
+      "openedAt": 1710932400,
+      "closedAt": 1893423600
+    }, {
+      "id": 4000307,
+      "name": "夢／現実",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 40302,
+      "warId": 403,
+      "chapterId": 403,
+      "chapterSubId": 7,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/6.png",
+      "gifts": [{
+        "id": 101,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000306
+      }],
+      "phases": [1, 2, 3],
+      "phasesNoBattle": [1, 2, 3],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "0400030710",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400030710.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "0400030720",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400030720.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "0400030730",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400030730.txt"
+        }]
+      }],
+      "priority": 4000293,
+      "noticeAt": 1710932400,
+      "openedAt": 1710932400,
+      "closedAt": 1893423600
+    }, {
+      "id": 4000311,
+      "name": "冥獄天秤（前編）",
+      "type": "main",
+      "consume": 24,
+      "afterClear": "close",
+      "recommendLv": "83",
+      "spotId": 40302,
+      "warId": 403,
+      "chapterId": 403,
+      "chapterSubId": 11,
+      "gifts": [{
+        "id": 321206,
+        "objectId": 2,
+        "num": 1
+      }, {
+        "id": 321206,
+        "objectId": 6525,
+        "num": 3
+      }, {
+        "id": 321206,
+        "objectId": 46,
+        "num": 3
+      }, {
+        "id": 321206,
+        "type": "servant",
+        "objectId": 9770500,
+        "num": 3
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000310
+      }],
+      "phases": [1, 2, 3, 4, 5],
+      "phasesNoBattle": [1, 5],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "0400031110",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400031110.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "0400031120",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400031120.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "0400031130",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400031130.txt"
+        }]
+      }, {
+        "phase": 4,
+        "scripts": [{
+          "scriptId": "0400031141",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400031141.txt"
+        }]
+      }, {
+        "phase": 5,
+        "scripts": [{
+          "scriptId": "0400031150",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400031150.txt"
+        }]
+      }],
+      "priority": 4000289,
+      "noticeAt": 1710932400,
+      "openedAt": 1710932400,
+      "closedAt": 1893423600
+    }, {
+      "id": 4000313,
+      "name": "もしも、きみを失ったとしたら",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 40302,
+      "warId": 403,
+      "chapterId": 403,
+      "chapterSubId": 13,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/6.png",
+      "gifts": [{
+        "id": 101,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000312
+      }],
+      "phases": [1, 2, 3, 4, 5],
+      "phasesNoBattle": [1, 2, 3, 4, 5],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "0400031310",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400031310.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "0400031320",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400031320.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "0400031330",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400031330.txt"
+        }]
+      }, {
+        "phase": 4,
+        "scripts": [{
+          "scriptId": "0400031340",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400031340.txt"
+        }]
+      }, {
+        "phase": 5,
+        "scripts": [{
+          "scriptId": "0400031350",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400031350.txt"
+        }]
+      }],
+      "priority": 4000287,
+      "noticeAt": 1710932400,
+      "openedAt": 1710932400,
+      "closedAt": 1893423600
+    }, {
+      "id": 4000314,
+      "name": "たとえ、それが贋物だとしても",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 40302,
+      "warId": 403,
+      "chapterId": 403,
+      "chapterSubId": 14,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/6.png",
+      "gifts": [{
+        "id": 101,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000313
+      }],
+      "phases": [1, 2, 3],
+      "phasesNoBattle": [1, 2, 3],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "0400031410",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400031410.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "0400031420",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400031420.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "0400031430",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400031430.txt"
+        }]
+      }],
+      "priority": 4000286,
+      "noticeAt": 1710932400,
+      "openedAt": 1710932400,
+      "closedAt": 1893423600
+    }, {
+      "id": 4000320,
+      "name": "さよならは言わずに",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 40302,
+      "warId": 403,
+      "chapterId": 403,
+      "chapterSubId": 20,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/6.png",
+      "gifts": [{
+        "id": 101,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000319
+      }],
+      "phases": [1, 2, 3, 4],
+      "phasesNoBattle": [1, 2, 3, 4],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "0400032010",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400032010.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "0400032020",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400032020.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "0400032030",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400032030.txt"
+        }]
+      }, {
+        "phase": 4,
+        "scripts": [{
+          "scriptId": "0400032040",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400032040.txt"
+        }]
+      }],
+      "priority": 4000280,
+      "noticeAt": 1710932400,
+      "openedAt": 1710932400,
+      "closedAt": 1893423600
+    }, {
+      "id": 93040302,
+      "name": "ないしょの待ち合わせ",
+      "type": "free",
+      "flags": ["displayLoopmark"],
+      "consume": 21,
+      "afterClear": "repeatLast",
+      "recommendLv": "78",
+      "spotId": 40302,
+      "warId": 403,
+      "chapterId": 403,
+      "chapterSubId": 2,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/6.png",
+      "gifts": [{
+        "id": 101,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000326
+      }],
+      "phases": [1, 2, 3],
+      "priority": 4000271,
+      "noticeAt": 1710932400,
+      "openedAt": 1710932400,
+      "closedAt": 1893423600
+    }]
+  }, {
+    "id": 40303,
+    "mapId": 40301,
+    "name": "学校",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0403/QMap_Cap0403_Atlas/spot_040303.png",
+    "x": 867,
+    "y": 767,
+    "questOfsX": 42,
+    "questOfsY": -74,
+    "quests": [{
+      "id": 4000308,
+      "name": "転校生",
+      "type": "main",
+      "consume": 23,
+      "afterClear": "close",
+      "recommendLv": "80",
+      "spotId": 40303,
+      "warId": 403,
+      "chapterId": 403,
+      "chapterSubId": 8,
+      "gifts": [{
+        "id": 321204,
+        "objectId": 2,
+        "num": 1
+      }, {
+        "id": 321204,
+        "objectId": 6548,
+        "num": 3
+      }, {
+        "id": 321204,
+        "objectId": 46,
+        "num": 3
+      }, {
+        "id": 321204,
+        "type": "servant",
+        "objectId": 9770500,
+        "num": 3
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000307
+      }],
+      "phases": [1, 2, 3],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "0400030810",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400030810.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "0400030820",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400030820.txt"
+        }, {
+          "scriptId": "0400030821",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400030821.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "0400030831",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400030831.txt"
+        }]
+      }],
+      "priority": 4000292,
+      "noticeAt": 1710932400,
+      "openedAt": 1710932400,
+      "closedAt": 1893423600
+    }, {
+      "id": 4000309,
+      "name": "忘れえぬもの",
+      "type": "main",
+      "consume": 23,
+      "afterClear": "close",
+      "recommendLv": "80",
+      "spotId": 40303,
+      "warId": 403,
+      "chapterId": 403,
+      "chapterSubId": 9,
+      "gifts": [{
+        "id": 321205,
+        "objectId": 2,
+        "num": 1
+      }, {
+        "id": 321205,
+        "objectId": 6513,
+        "num": 3
+      }, {
+        "id": 321205,
+        "objectId": 46,
+        "num": 3
+      }, {
+        "id": 321205,
+        "type": "servant",
+        "objectId": 9770500,
+        "num": 3
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000308
+      }],
+      "phases": [1, 2, 3],
+      "phasesNoBattle": [1, 3],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "0400030910",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400030910.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "0400030920",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400030920.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "0400030930",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400030930.txt"
+        }]
+      }],
+      "priority": 4000291,
+      "noticeAt": 1710932400,
+      "openedAt": 1710932400,
+      "closedAt": 1893423600
+    }, {
+      "id": 4000315,
+      "name": "たとえ、それが　　だとしても",
+      "type": "main",
+      "consume": 23,
+      "afterClear": "close",
+      "recommendLv": "77",
+      "spotId": 40303,
+      "warId": 403,
+      "chapterId": 403,
+      "chapterSubId": 15,
+      "gifts": [{
+        "id": 321208,
+        "objectId": 2,
+        "num": 1
+      }, {
+        "id": 321208,
+        "objectId": 6529,
+        "num": 2
+      }, {
+        "id": 321208,
+        "objectId": 46,
+        "num": 2
+      }, {
+        "id": 321208,
+        "type": "servant",
+        "objectId": 9770500,
+        "num": 2
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000314
+      }],
+      "phases": [1, 2, 3],
+      "phasesNoBattle": [1, 3],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "0400031510",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400031510.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "0400031520",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400031520.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "0400031530",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400031530.txt"
+        }]
+      }],
+      "priority": 4000285,
+      "noticeAt": 1710932400,
+      "openedAt": 1710932400,
+      "closedAt": 1893423600
+    }, {
+      "id": 4000316,
+      "name": "憎悪の炎、この胸を永遠に",
+      "type": "main",
+      "consume": 23,
+      "afterClear": "close",
+      "recommendLv": "77",
+      "spotId": 40303,
+      "warId": 403,
+      "chapterId": 403,
+      "chapterSubId": 16,
+      "gifts": [{
+        "id": 321209,
+        "objectId": 2,
+        "num": 1
+      }, {
+        "id": 321209,
+        "objectId": 6511,
+        "num": 3
+      }, {
+        "id": 321209,
+        "objectId": 46,
+        "num": 3
+      }, {
+        "id": 321209,
+        "type": "servant",
+        "objectId": 9770500,
+        "num": 3
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000315
+      }],
+      "phases": [1, 2, 3, 4, 5, 6, 7],
+      "phasesNoBattle": [3, 7],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "0400031610",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400031610.txt"
+        }, {
+          "scriptId": "0400031611",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400031611.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "0400031620",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400031620.txt"
+        }, {
+          "scriptId": "0400031621",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400031621.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "0400031630",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400031630.txt"
+        }]
+      }, {
+        "phase": 4,
+        "scripts": [{
+          "scriptId": "0400031640",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400031640.txt"
+        }, {
+          "scriptId": "0400031641",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400031641.txt"
+        }]
+      }, {
+        "phase": 5,
+        "scripts": [{
+          "scriptId": "0400031650",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400031650.txt"
+        }, {
+          "scriptId": "0400031651",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400031651.txt"
+        }]
+      }, {
+        "phase": 6,
+        "scripts": [{
+          "scriptId": "0400031660",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400031660.txt"
+        }]
+      }, {
+        "phase": 7,
+        "scripts": [{
+          "scriptId": "0400031670",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400031670.txt"
+        }]
+      }],
+      "priority": 4000284,
+      "noticeAt": 1710932400,
+      "openedAt": 1710932400,
+      "closedAt": 1893423600
+    }, {
+      "id": 4000317,
+      "name": "絶望王権・混沌機構",
+      "type": "main",
+      "consume": 23,
+      "afterClear": "close",
+      "recommendLv": "80",
+      "spotId": 40303,
+      "warId": 403,
+      "chapterId": 403,
+      "chapterSubId": 17,
+      "gifts": [{
+        "id": 321210,
+        "objectId": 2,
+        "num": 1
+      }, {
+        "id": 321210,
+        "objectId": 6557,
+        "num": 3
+      }, {
+        "id": 321210,
+        "objectId": 46,
+        "num": 3
+      }, {
+        "id": 321210,
+        "type": "servant",
+        "objectId": 9770500,
+        "num": 3
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000316
+      }],
+      "phases": [1, 2, 3, 4, 5],
+      "phasesNoBattle": [5],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "0400031710",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400031710.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "0400031720",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400031720.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "0400031730",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400031730.txt"
+        }]
+      }, {
+        "phase": 4,
+        "scripts": [{
+          "scriptId": "0400031740",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400031740.txt"
+        }, {
+          "scriptId": "0400031741",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400031741.txt"
+        }]
+      }, {
+        "phase": 5,
+        "scripts": [{
+          "scriptId": "0400031750",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400031750.txt"
+        }]
+      }],
+      "priority": 4000283,
+      "noticeAt": 1710932400,
+      "openedAt": 1710932400,
+      "closedAt": 1893423600
+    }, {
+      "id": 4000318,
+      "name": "此処は再びの監獄なれば",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 40303,
+      "warId": 403,
+      "chapterId": 403,
+      "chapterSubId": 18,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/6.png",
+      "gifts": [{
+        "id": 101,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000317
+      }],
+      "phases": [1, 2],
+      "phasesNoBattle": [1, 2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "0400031810",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400031810.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "0400031820",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400031820.txt"
+        }]
+      }],
+      "priority": 4000282,
+      "noticeAt": 1710932400,
+      "openedAt": 1710932400,
+      "closedAt": 1893423600
+    }, {
+      "id": 93040303,
+      "name": "しずかな放課後",
+      "type": "free",
+      "flags": ["displayLoopmark"],
+      "consume": 21,
+      "afterClear": "repeatLast",
+      "recommendLv": "78",
+      "spotId": 40303,
+      "warId": 403,
+      "chapterId": 403,
+      "chapterSubId": 3,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/6.png",
+      "gifts": [{
+        "id": 101,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000326
+      }],
+      "phases": [1, 2, 3],
+      "priority": 4000270,
+      "noticeAt": 1710932400,
+      "openedAt": 1710932400,
+      "closedAt": 1893423600
+    }, {
+      "id": 93040304,
+      "name": "ななふしぎ調査",
+      "type": "free",
+      "flags": ["displayLoopmark"],
+      "consume": 22,
+      "afterClear": "repeatLast",
+      "recommendLv": "82",
+      "spotId": 40303,
+      "warId": 403,
+      "chapterId": 403,
+      "chapterSubId": 4,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/6.png",
+      "gifts": [{
+        "id": 101,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000326
+      }],
+      "phases": [1, 2, 3],
+      "priority": 4000269,
+      "noticeAt": 1710932400,
+      "openedAt": 1710932400,
+      "closedAt": 1893423600
+    }, {
+      "id": 93040305,
+      "name": "とつぜんの呼び出し",
+      "type": "free",
+      "flags": ["displayLoopmark"],
+      "consume": 21,
+      "afterClear": "repeatLast",
+      "recommendLv": "79",
+      "spotId": 40303,
+      "warId": 403,
+      "chapterId": 403,
+      "chapterSubId": 5,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/6.png",
+      "gifts": [{
+        "id": 101,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000326
+      }],
+      "phases": [1, 2, 3],
+      "priority": 4000268,
+      "noticeAt": 1710932400,
+      "openedAt": 1710932400,
+      "closedAt": 1893423600
+    }, {
+      "id": 93040306,
+      "name": "いのこり特訓",
+      "type": "free",
+      "flags": ["displayLoopmark"],
+      "consume": 22,
+      "afterClear": "repeatLast",
+      "recommendLv": "82",
+      "spotId": 40303,
+      "warId": 403,
+      "chapterId": 403,
+      "chapterSubId": 6,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/6.png",
+      "gifts": [{
+        "id": 101,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000326
+      }],
+      "phases": [1, 2, 3],
+      "priority": 4000267,
+      "noticeAt": 1710932400,
+      "openedAt": 1710932400,
+      "closedAt": 1893423600
+    }]
+  }, {
+    "id": 40304,
+    "mapId": 40301,
+    "name": "通学路",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0403/QMap_Cap0403_Atlas/spot_040304.png",
+    "x": 734,
+    "y": 812,
+    "nameOfsY": -9,
+    "questOfsX": 26,
+    "questOfsY": -73,
+    "quests": [{
+      "id": 4000305,
+      "name": "慟哭城塞（前編）",
+      "type": "main",
+      "consume": 24,
+      "afterClear": "close",
+      "recommendLv": "83",
+      "spotId": 40304,
+      "warId": 403,
+      "chapterId": 403,
+      "chapterSubId": 5,
+      "gifts": [{
+        "id": 321202,
+        "objectId": 2,
+        "num": 1
+      }, {
+        "id": 321202,
+        "objectId": 6524,
+        "num": 3
+      }, {
+        "id": 321202,
+        "objectId": 46,
+        "num": 3
+      }, {
+        "id": 321202,
+        "type": "servant",
+        "objectId": 9770500,
+        "num": 3
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000304
+      }],
+      "phases": [1, 2, 3],
+      "phasesWithEnemies": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "0400030510",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400030510.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "0400030520",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400030520.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "0400030531",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400030531.txt"
+        }]
+      }],
+      "priority": 4000295,
+      "noticeAt": 1710932400,
+      "openedAt": 1710932400,
+      "closedAt": 1893423600
+    }, {
+      "id": 4000310,
+      "name": "昏き炎",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 40304,
+      "warId": 403,
+      "chapterId": 403,
+      "chapterSubId": 10,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/6.png",
+      "gifts": [{
+        "id": 101,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000309
+      }],
+      "phases": [1, 2],
+      "phasesNoBattle": [1, 2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "0400031010",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400031010.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "0400031020",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400031020.txt"
+        }]
+      }],
+      "priority": 4000290,
+      "noticeAt": 1710932400,
+      "openedAt": 1710932400,
+      "closedAt": 1893423600
+    }, {
+      "id": 93040307,
+      "name": "いつもの通い道",
+      "type": "free",
+      "flags": ["displayLoopmark"],
+      "consume": 21,
+      "afterClear": "repeatLast",
+      "recommendLv": "76",
+      "spotId": 40304,
+      "warId": 403,
+      "chapterId": 403,
+      "chapterSubId": 7,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/6.png",
+      "gifts": [{
+        "id": 101,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000326
+      }],
+      "phases": [1, 2, 3],
+      "priority": 4000266,
+      "noticeAt": 1710932400,
+      "openedAt": 1710932400,
+      "closedAt": 1893423600
+    }]
+  }, {
+    "id": 40305,
+    "mapId": 40301,
+    "name": "東京駅",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0403/QMap_Cap0403_Atlas/spot_040305.png",
+    "x": 1036,
+    "y": 538,
+    "questOfsX": 51,
+    "questOfsY": -61,
+    "quests": [{
+      "id": 4000306,
+      "name": "慟哭城塞（後編）",
+      "type": "main",
+      "consume": 23,
+      "afterClear": "close",
+      "recommendLv": "76",
+      "spotId": 40305,
+      "warId": 403,
+      "chapterId": 403,
+      "chapterSubId": 6,
+      "gifts": [{
+        "id": 321203,
+        "objectId": 2,
+        "num": 1
+      }, {
+        "id": 321203,
+        "objectId": 6557,
+        "num": 3
+      }, {
+        "id": 321203,
+        "objectId": 46,
+        "num": 3
+      }, {
+        "id": 321203,
+        "type": "servant",
+        "objectId": 9770500,
+        "num": 3
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000305
+      }],
+      "phases": [1, 2, 3, 4, 5],
+      "phasesNoBattle": [4],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "0400030611",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400030611.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "0400030621",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400030621.txt"
+        }]
+      }, {
+        "phase": 4,
+        "scripts": [{
+          "scriptId": "0400030640",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400030640.txt"
+        }]
+      }, {
+        "phase": 5,
+        "scripts": [{
+          "scriptId": "0400030650",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400030650.txt"
+        }, {
+          "scriptId": "0400030651",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400030651.txt"
+        }]
+      }],
+      "priority": 4000294,
+      "noticeAt": 1710932400,
+      "openedAt": 1710932400,
+      "closedAt": 1893423600
+    }, {
+      "id": 93040308,
+      "name": "たびだちの駅",
+      "type": "free",
+      "flags": ["displayLoopmark"],
+      "consume": 21,
+      "afterClear": "repeatLast",
+      "recommendLv": "80",
+      "spotId": 40305,
+      "warId": 403,
+      "chapterId": 403,
+      "chapterSubId": 8,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/6.png",
+      "gifts": [{
+        "id": 101,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000326
+      }],
+      "phases": [1, 2, 3],
+      "priority": 4000265,
+      "noticeAt": 1710932400,
+      "openedAt": 1710932400,
+      "closedAt": 1893423600
+    }]
+  }, {
+    "id": 40306,
+    "mapId": 40301,
+    "name": "西新宿",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0403/QMap_Cap0403_Atlas/spot_040306.png",
+    "x": 307,
+    "y": 668,
+    "questOfsX": 50,
+    "questOfsY": -91,
+    "quests": [{
+      "id": 4000312,
+      "name": "冥獄天秤（後編）",
+      "type": "main",
+      "consume": 23,
+      "afterClear": "close",
+      "recommendLv": "76",
+      "spotId": 40306,
+      "warId": 403,
+      "chapterId": 403,
+      "chapterSubId": 12,
+      "gifts": [{
+        "id": 321207,
+        "objectId": 2,
+        "num": 1
+      }, {
+        "id": 321207,
+        "objectId": 6557,
+        "num": 3
+      }, {
+        "id": 321207,
+        "objectId": 46,
+        "num": 3
+      }, {
+        "id": 321207,
+        "type": "servant",
+        "objectId": 9770500,
+        "num": 3
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000311
+      }],
+      "phases": [1, 2, 3, 4, 5, 6, 7],
+      "phasesNoBattle": [4, 7],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "0400031210",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400031210.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "0400031220",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400031220.txt"
+        }, {
+          "scriptId": "0400031221",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400031221.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "0400031231",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400031231.txt"
+        }]
+      }, {
+        "phase": 4,
+        "scripts": [{
+          "scriptId": "0400031240",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400031240.txt"
+        }]
+      }, {
+        "phase": 5,
+        "scripts": [{
+          "scriptId": "0400031250",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400031250.txt"
+        }]
+      }, {
+        "phase": 6,
+        "scripts": [{
+          "scriptId": "0400031260",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400031260.txt"
+        }]
+      }, {
+        "phase": 7,
+        "scripts": [{
+          "scriptId": "0400031270",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400031270.txt"
+        }]
+      }],
+      "priority": 4000288,
+      "noticeAt": 1710932400,
+      "openedAt": 1710932400,
+      "closedAt": 1893423600
+    }, {
+      "id": 93040309,
+      "name": "であいの交差点",
+      "type": "free",
+      "flags": ["displayLoopmark"],
+      "consume": 21,
+      "afterClear": "repeatLast",
+      "recommendLv": "77",
+      "spotId": 40306,
+      "warId": 403,
+      "chapterId": 403,
+      "chapterSubId": 9,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/6.png",
+      "gifts": [{
+        "id": 101,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000326
+      }],
+      "phases": [1, 2, 3],
+      "priority": 4000264,
+      "noticeAt": 1710932400,
+      "openedAt": 1710932400,
+      "closedAt": 1893423600
+    }, {
+      "id": 93040310,
+      "name": "たたずむ摩天楼",
+      "type": "free",
+      "flags": ["displayLoopmark"],
+      "consume": 22,
+      "afterClear": "repeatLast",
+      "recommendLv": "81",
+      "spotId": 40306,
+      "warId": 403,
+      "chapterId": 403,
+      "chapterSubId": 10,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/6.png",
+      "gifts": [{
+        "id": 101,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000326
+      }],
+      "phases": [1, 2, 3],
+      "priority": 4000263,
+      "noticeAt": 1710932400,
+      "openedAt": 1710932400,
+      "closedAt": 1893423600
+    }]
+  }, {
+    "id": 40307,
+    "mapId": 40301,
+    "name": "お台場",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0403/QMap_Cap0403_Atlas/spot_040307.png",
+    "x": 1637,
+    "y": 607,
+    "nameOfsY": -1,
+    "questOfsX": 47,
+    "questOfsY": -58,
+    "quests": [{
+      "id": 4000319,
+      "name": "死嵐大王・殲滅妖獣",
+      "type": "main",
+      "consume": 23,
+      "afterClear": "close",
+      "recommendLv": "78",
+      "spotId": 40307,
+      "warId": 403,
+      "chapterId": 403,
+      "chapterSubId": 19,
+      "gifts": [{
+        "id": 321211,
+        "objectId": 2,
+        "num": 1
+      }, {
+        "id": 321211,
+        "objectId": 6558,
+        "num": 3
+      }, {
+        "id": 321211,
+        "objectId": 46,
+        "num": 3
+      }, {
+        "id": 321211,
+        "type": "servant",
+        "objectId": 9770500,
+        "num": 3
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000318
+      }],
+      "phases": [1, 2, 3, 4, 5, 6, 7, 8],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "0400031910",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400031910.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "0400031920",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400031920.txt"
+        }, {
+          "scriptId": "0400031921",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400031921.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "0400031931",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400031931.txt"
+        }]
+      }, {
+        "phase": 4,
+        "scripts": [{
+          "scriptId": "0400031940",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400031940.txt"
+        }]
+      }, {
+        "phase": 5,
+        "scripts": [{
+          "scriptId": "0400031950",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400031950.txt"
+        }]
+      }, {
+        "phase": 6,
+        "scripts": [{
+          "scriptId": "0400031961",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400031961.txt"
+        }]
+      }, {
+        "phase": 7,
+        "scripts": [{
+          "scriptId": "0400031970",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400031970.txt"
+        }]
+      }, {
+        "phase": 8,
+        "scripts": [{
+          "scriptId": "0400031980",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400031980.txt"
+        }, {
+          "scriptId": "0400031981",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400031981.txt"
+        }]
+      }],
+      "priority": 4000281,
+      "noticeAt": 1710932400,
+      "openedAt": 1710932400,
+      "closedAt": 1893423600
+    }, {
+      "id": 4000321,
+      "name": "伯爵",
+      "type": "main",
+      "consume": 23,
+      "afterClear": "close",
+      "recommendLv": "78",
+      "spotId": 40307,
+      "warId": 403,
+      "chapterId": 403,
+      "chapterSubId": 21,
+      "gifts": [{
+        "id": 321212,
+        "objectId": 2,
+        "num": 1
+      }, {
+        "id": 321212,
+        "objectId": 6558,
+        "num": 3
+      }, {
+        "id": 321212,
+        "objectId": 46,
+        "num": 3
+      }, {
+        "id": 321212,
+        "type": "servant",
+        "objectId": 9770500,
+        "num": 3
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000320
+      }],
+      "phases": [1, 2, 3, 4],
+      "phasesNoBattle": [1, 4],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "0400032110",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400032110.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "0400032120",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400032120.txt"
+        }, {
+          "scriptId": "0400032121",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400032121.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "0400032130",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400032130.txt"
+        }]
+      }, {
+        "phase": 4,
+        "scripts": [{
+          "scriptId": "0400032140",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400032140.txt"
+        }]
+      }],
+      "priority": 4000279,
+      "noticeAt": 1710932400,
+      "openedAt": 1710932400,
+      "closedAt": 1893423600
+    }, {
+      "id": 93040311,
+      "name": "あいにくの空模様",
+      "type": "free",
+      "flags": ["displayLoopmark"],
+      "consume": 21,
+      "afterClear": "repeatLast",
+      "recommendLv": "80",
+      "spotId": 40307,
+      "warId": 403,
+      "chapterId": 403,
+      "chapterSubId": 11,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/6.png",
+      "gifts": [{
+        "id": 101,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000326
+      }],
+      "phases": [1, 2, 3],
+      "priority": 4000262,
+      "noticeAt": 1710932400,
+      "openedAt": 1710932400,
+      "closedAt": 1893423600
+    }]
+  }, {
+    "id": 40308,
+    "mapId": 40302,
+    "name": "暗黒の螺旋",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0403/QMap_Cap0403_Atlas/spot_040308.png",
+    "x": 305,
+    "y": 611,
+    "questOfsX": 34,
+    "questOfsY": -80,
+    "quests": [{
+      "id": 4000322,
+      "name": "決戦／決別",
+      "type": "main",
+      "consume": 23,
+      "afterClear": "close",
+      "recommendLv": "80",
+      "spotId": 40308,
+      "warId": 403,
+      "chapterId": 403,
+      "chapterSubId": 22,
+      "gifts": [{
+        "id": 321213,
+        "objectId": 2,
+        "num": 1
+      }, {
+        "id": 321213,
+        "objectId": 6557,
+        "num": 5
+      }, {
+        "id": 321213,
+        "objectId": 46,
+        "num": 5
+      }, {
+        "id": 321213,
+        "type": "servant",
+        "objectId": 9770500,
+        "num": 5
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000321
+      }],
+      "phases": [1, 2, 3, 4, 5, 6, 7],
+      "phasesNoBattle": [6],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "0400032210",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400032210.txt"
+        }]
+      }, {
+        "phase": 5,
+        "scripts": [{
+          "scriptId": "0400032250",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400032250.txt"
+        }, {
+          "scriptId": "0400032251",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400032251.txt"
+        }]
+      }, {
+        "phase": 6,
+        "scripts": [{
+          "scriptId": "0400032260",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400032260.txt"
+        }]
+      }, {
+        "phase": 7,
+        "scripts": [{
+          "scriptId": "0400032270",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400032270.txt"
+        }, {
+          "scriptId": "0400032271",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400032271.txt"
+        }]
+      }],
+      "priority": 4000278,
+      "noticeAt": 1710932400,
+      "openedAt": 1710932400,
+      "closedAt": 1893423600
+    }, {
+      "id": 4000324,
+      "name": "不可逆廃棄孔 イド",
+      "type": "main",
+      "consume": 23,
+      "afterClear": "close",
+      "recommendLv": "78",
+      "spotId": 40308,
+      "warId": 403,
+      "chapterId": 403,
+      "chapterSubId": 24,
+      "gifts": [{
+        "id": 321214,
+        "objectId": 2,
+        "num": 1
+      }, {
+        "id": 321214,
+        "objectId": 6557,
+        "num": 3
+      }, {
+        "id": 321214,
+        "objectId": 46,
+        "num": 3
+      }, {
+        "id": 321214,
+        "type": "servant",
+        "objectId": 9770500,
+        "num": 3
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000323
+      }],
+      "phases": [1, 2, 3, 4],
+      "phasesNoBattle": [3, 4],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "0400032410",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400032410.txt"
+        }, {
+          "scriptId": "0400032411",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400032411.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "0400032421",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400032421.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "0400032430",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400032430.txt"
+        }]
+      }, {
+        "phase": 4,
+        "scripts": [{
+          "scriptId": "0400032440",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400032440.txt"
+        }]
+      }],
+      "priority": 4000276,
+      "noticeAt": 1710932400,
+      "openedAt": 1710932400,
+      "closedAt": 1893423600
+    }, {
+      "id": 4000325,
+      "name": "決戦／最終使徒カリオストロ",
+      "type": "main",
+      "consume": 24,
+      "afterClear": "close",
+      "recommendLv": "85",
+      "spotId": 40308,
+      "warId": 403,
+      "chapterId": 403,
+      "chapterSubId": 25,
+      "gifts": [{
+        "id": 321215,
+        "objectId": 2,
+        "num": 1
+      }, {
+        "id": 321215,
+        "objectId": 6558,
+        "num": 5
+      }, {
+        "id": 321215,
+        "objectId": 46,
+        "num": 5
+      }, {
+        "id": 321215,
+        "type": "servant",
+        "objectId": 9770500,
+        "num": 5
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000324
+      }],
+      "phases": [1, 2, 3, 4],
+      "phasesNoBattle": [4],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "0400032510",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400032510.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "0400032520",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400032520.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "0400032530",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400032530.txt"
+        }, {
+          "scriptId": "0400032531",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400032531.txt"
+        }]
+      }, {
+        "phase": 4,
+        "scripts": [{
+          "scriptId": "0400032540",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400032540.txt"
+        }]
+      }],
+      "priority": 4000275,
+      "noticeAt": 1710932400,
+      "openedAt": 1710932400,
+      "closedAt": 1893423600
+    }]
+  }, {
+    "id": 40309,
+    "mapId": 40302,
+    "name": "暗黒の果て",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0403/QMap_Cap0403_Atlas/spot_040309.png",
+    "x": 1028,
+    "y": 885,
+    "nameOfsY": -5,
+    "questOfsX": 34,
+    "questOfsY": -66
+  }, {
+    "id": 40310,
+    "mapId": 40301,
+    "name": "繁華街",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0403/QMap_Cap0403_Atlas/spot_040310.png",
+    "x": 679,
+    "y": 715,
+    "nameOfsY": -5,
+    "questOfsX": 43,
+    "questOfsY": -84
+  }, {
+    "id": 40311,
+    "mapId": 40301,
+    "name": "自宅",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0403/QMap_Cap0403_Atlas/spot_040311.png",
+    "x": 584,
+    "y": 809,
+    "nameOfsY": -6,
+    "questOfsX": 32,
+    "questOfsY": -72
+  }, {
+    "id": 40312,
+    "mapId": 40301,
+    "name": "学校",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0403/QMap_Cap0403_Atlas/spot_040312.png",
+    "x": 867,
+    "y": 767,
+    "questOfsX": 42,
+    "questOfsY": -74
+  }, {
+    "id": 40313,
+    "mapId": 40301,
+    "name": "通学路",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0403/QMap_Cap0403_Atlas/spot_040313.png",
+    "x": 734,
+    "y": 812,
+    "nameOfsY": -9,
+    "questOfsX": 26,
+    "questOfsY": -73
+  }, {
+    "id": 40314,
+    "mapId": 40301,
+    "name": "東京駅",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0403/QMap_Cap0403_Atlas/spot_040314.png",
+    "x": 1036,
+    "y": 538,
+    "questOfsX": 51,
+    "questOfsY": -61
+  }, {
+    "id": 40315,
+    "mapId": 40301,
+    "name": "新宿",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0403/QMap_Cap0403_Atlas/spot_040315.png",
+    "x": 307,
+    "y": 668,
+    "questOfsX": 50,
+    "questOfsY": -91
+  }, {
+    "id": 40316,
+    "mapId": 40301,
+    "name": "お台場",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0403/QMap_Cap0403_Atlas/spot_040316.png",
+    "x": 1637,
+    "y": 607,
+    "nameOfsY": -1,
+    "questOfsX": 47,
+    "questOfsY": -58
+  }, {
+    "id": 40317,
+    "mapId": 40302,
+    "name": "暗黒の螺旋",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0403/QMap_Cap0403_Atlas/spot_040308.png",
+    "x": 1037,
+    "y": 170,
+    "nameOfsY": -17,
+    "questOfsX": 30,
+    "questOfsY": -70
+  }, {
+    "id": 40318,
+    "mapId": 40302,
+    "name": "暗黒の螺旋",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0403/QMap_Cap0403_Atlas/spot_040308.png",
+    "x": 1600,
+    "y": 702,
+    "nameOfsY": -17,
+    "questOfsX": 30,
+    "questOfsY": -70
+  }, {
+    "id": 40319,
+    "mapId": 40302,
+    "name": "暗黒の螺旋",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0403/QMap_Cap0403_Atlas/spot_040308.png",
+    "x": 1211,
+    "y": 1034,
+    "nameOfsY": -17,
+    "questOfsX": 30,
+    "questOfsY": -70
+  }, {
+    "id": 40320,
+    "mapId": 40302,
+    "name": "暗黒の螺旋",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0403/QMap_Cap0403_Atlas/spot_040308.png",
+    "x": 707,
+    "y": 927,
+    "nameOfsY": -17,
+    "questOfsX": 30,
+    "questOfsY": -70
+  }, {
+    "id": 40321,
+    "mapId": 40302,
+    "name": "暗黒の螺旋",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0403/QMap_Cap0403_Atlas/spot_040308.png",
+    "x": 653,
+    "y": 589,
+    "nameOfsY": -17,
+    "questOfsX": 30,
+    "questOfsY": -70
+  }, {
+    "id": 40322,
+    "mapId": 40302,
+    "name": "暗黒の螺旋",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0403/QMap_Cap0403_Atlas/spot_040308.png",
+    "x": 1210,
+    "y": 476,
+    "nameOfsY": -17,
+    "questOfsX": 30,
+    "questOfsY": -70
+  }, {
+    "id": 40323,
+    "mapId": 40302,
+    "name": "暗黒の螺旋",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0403/QMap_Cap0403_Atlas/spot_040308.png",
+    "x": 857,
+    "y": 629,
+    "nameOfsY": -17,
+    "questOfsX": 30,
+    "questOfsY": -70
+  }, {
+    "id": 40324,
+    "mapId": 40302,
+    "name": "暗黒の螺旋",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0403/QMap_Cap0403_Atlas/spot_040308.png",
+    "x": 1147,
+    "y": 724,
+    "nameOfsY": -17,
+    "questOfsX": 30,
+    "questOfsY": -70
+  }, {
+    "id": 40325,
+    "mapId": 40301,
+    "name": "新宿御苑",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0403/QMap_Cap0403_Atlas/spot_040325.png",
+    "x": 546,
+    "y": 640,
+    "nameOfsY": -3,
+    "questOfsX": 36,
+    "questOfsY": -65,
+    "quests": [{
+      "id": 93040312,
+      "name": "バードウォッチング",
+      "type": "free",
+      "flags": ["displayLoopmark"],
+      "consume": 22,
+      "afterClear": "repeatLast",
+      "recommendLv": "83",
+      "spotId": 40325,
+      "warId": 403,
+      "chapterId": 403,
+      "chapterSubId": 12,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/6.png",
+      "gifts": [{
+        "id": 101,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "commonRelease",
+        "targetId": 10094808
+      }],
+      "phases": [1, 2, 3],
+      "priority": 4000261,
+      "noticeAt": 1710932400,
+      "openedAt": 1710932400,
+      "closedAt": 1893423600
+    }]
+  }, {
+    "id": 40326,
+    "mapId": 40302,
+    "name": "暗黒の螺旋",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0403/QMap_Cap0403_Atlas/spot_040326.png",
+    "x": 622,
+    "y": 234,
+    "nameOfsY": -17,
+    "questOfsX": 30,
+    "questOfsY": -70
+  }, {
+    "id": 40327,
+    "mapId": 40302,
+    "name": "暗黒の螺旋",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0403/QMap_Cap0403_Atlas/spot_040326.png",
+    "x": 1448,
+    "y": 325,
+    "nameOfsY": -17,
+    "questOfsX": 30,
+    "questOfsY": -70
+  }, {
+    "id": 40328,
+    "mapId": 40302,
+    "name": "暗黒の螺旋",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0403/QMap_Cap0403_Atlas/spot_040326.png",
+    "x": 911,
+    "y": 437,
+    "nameOfsY": -17,
+    "questOfsX": 30,
+    "questOfsY": -70
+  }, {
+    "id": 40329,
+    "mapId": 40302,
+    "name": "暗黒の螺旋",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0403/QMap_Cap0403_Atlas/spot_040326.png",
+    "x": 1388,
+    "y": 680,
+    "nameOfsY": -17,
+    "questOfsX": 30,
+    "questOfsY": -70
+  }, {
+    "id": 40330,
+    "mapId": 40302,
+    "name": "暗黒の螺旋",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0403/QMap_Cap0403_Atlas/spot_040326.png",
+    "x": 1254,
+    "y": 943,
+    "nameOfsY": -17,
+    "questOfsX": 30,
+    "questOfsY": -70
+  }, {
+    "id": 40331,
+    "mapId": 40302,
+    "name": "暗黒の螺旋",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0403/QMap_Cap0403_Atlas/spot_040326.png",
+    "x": 939,
+    "y": 979,
+    "nameOfsY": -17,
+    "questOfsX": 30,
+    "questOfsY": -70
+  }, {
+    "id": 40332,
+    "mapId": 40302,
+    "name": "暗黒の螺旋",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0403/QMap_Cap0403_Atlas/spot_040326.png",
+    "x": 770,
+    "y": 803,
+    "nameOfsY": -17,
+    "questOfsX": 30,
+    "questOfsY": -70
+  }, {
+    "id": 40399,
+    "mapId": 40301,
+    "name": "",
+    "x": 999999,
+    "y": 999999,
+    "quests": [{
+      "id": 4000301,
+      "name": "血の旅路",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 40399,
+      "warId": 403,
+      "chapterId": 403,
+      "chapterSubId": 1,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/6.png",
+      "gifts": [{
+        "id": 101,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000217
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "0400030110",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400030110.txt"
+        }]
+      }],
+      "priority": 4000299,
+      "noticeAt": 1710932400,
+      "openedAt": 1710932400,
+      "closedAt": 1893423600
+    }, {
+      "id": 4000302,
+      "name": "東京／責務の呼び声 caseⅡ",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 40399,
+      "warId": 403,
+      "chapterId": 403,
+      "chapterSubId": 2,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/6.png",
+      "gifts": [{
+        "id": 101,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000301
+      }],
+      "phases": [1, 2],
+      "phasesNoBattle": [1, 2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "0400030210",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400030210.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "0400030220",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400030220.txt"
+        }]
+      }],
+      "priority": 4000298,
+      "noticeAt": 1710932400,
+      "openedAt": 1710932400,
+      "closedAt": 1893423600
+    }, {
+      "id": 4000323,
+      "name": "帰還",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 40399,
+      "warId": 403,
+      "chapterId": 403,
+      "chapterSubId": 23,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/6.png",
+      "gifts": [{
+        "id": 101,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000322
+      }],
+      "phases": [1, 2, 3, 4],
+      "phasesNoBattle": [1, 2, 3, 4],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "0400032310",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400032310.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "0400032320",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400032320.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "0400032330",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400032330.txt"
+        }]
+      }, {
+        "phase": 4,
+        "scripts": [{
+          "scriptId": "0400032340",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400032340.txt"
+        }]
+      }],
+      "priority": 4000277,
+      "noticeAt": 1710932400,
+      "openedAt": 1710932400,
+      "closedAt": 1893423600
+    }, {
+      "id": 4000326,
+      "name": "───そしてキミは、旅の果てへ",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 40399,
+      "warId": 403,
+      "chapterId": 403,
+      "chapterSubId": 26,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/3.png",
+      "gifts": [{
+        "id": 321216,
+        "objectId": 53,
+        "num": 1
+      }, {
+        "id": 321216,
+        "objectId": 7999,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000325
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "0400032610",
+          "script": "https://static.atlasacademy.io/JP/Script/04/0400032610.txt"
+        }]
+      }],
+      "priority": 4000274,
+      "noticeAt": 1710932400,
+      "openedAt": 1710932400,
+      "closedAt": 1893423600
+    }]
+  }],
+  "spotRoads": [{
+    "id": 40301,
+    "warId": 403,
+    "mapId": 40301,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0403/QMap_Cap0403_Atlas/img_road0403_00.png",
+    "srcSpotId": 40301,
+    "dstSpotId": 40302,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "useItemTime"
+  }, {
+    "id": 40302,
+    "warId": 403,
+    "mapId": 40301,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0403/QMap_Cap0403_Atlas/img_road0403_00.png",
+    "srcSpotId": 40302,
+    "dstSpotId": 40303,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "useItemTime"
+  }, {
+    "id": 40303,
+    "warId": 403,
+    "mapId": 40301,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0403/QMap_Cap0403_Atlas/img_road0403_00.png",
+    "srcSpotId": 40303,
+    "dstSpotId": 40304,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "useItemTime"
+  }, {
+    "id": 40304,
+    "warId": 403,
+    "mapId": 40301,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0403/QMap_Cap0403_Atlas/img_road0403_00.png",
+    "srcSpotId": 40304,
+    "dstSpotId": 40305,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "useItemTime"
+  }, {
+    "id": 40305,
+    "warId": 403,
+    "mapId": 40301,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0403/QMap_Cap0403_Atlas/img_road0403_00.png",
+    "srcSpotId": 40305,
+    "dstSpotId": 40302,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "useItemTime"
+  }, {
+    "id": 40306,
+    "warId": 403,
+    "mapId": 40301,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0403/QMap_Cap0403_Atlas/img_road0403_00.png",
+    "srcSpotId": 40304,
+    "dstSpotId": 40302,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "useItemTime"
+  }, {
+    "id": 40307,
+    "warId": 403,
+    "mapId": 40301,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0403/QMap_Cap0403_Atlas/img_road0403_00.png",
+    "srcSpotId": 40302,
+    "dstSpotId": 40306,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "useItemTime"
+  }, {
+    "id": 40308,
+    "warId": 403,
+    "mapId": 40301,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0403/QMap_Cap0403_Atlas/img_road0403_00.png",
+    "srcSpotId": 40303,
+    "dstSpotId": 40301,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "useItemTime"
+  }, {
+    "id": 40309,
+    "warId": 403,
+    "mapId": 40301,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0403/QMap_Cap0403_Atlas/img_road0403_00.png",
+    "srcSpotId": 40303,
+    "dstSpotId": 40307,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "useItemTime"
+  }, {
+    "id": 40310,
+    "warId": 403,
+    "mapId": 40301,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0403/QMap_Cap0403_Atlas/img_road0403_00.png",
+    "srcSpotId": 40307,
+    "dstSpotId": 40302,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "useItemTime"
+  }, {
+    "id": 40311,
+    "warId": 403,
+    "mapId": 40302,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0403/QMap_Cap0403_Atlas/img_road0403_00.png",
+    "srcSpotId": 40308,
+    "dstSpotId": 40317,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "useItemTime"
+  }, {
+    "id": 40312,
+    "warId": 403,
+    "mapId": 40302,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0403/QMap_Cap0403_Atlas/img_road0403_00.png",
+    "srcSpotId": 40317,
+    "dstSpotId": 40318,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "useItemTime"
+  }, {
+    "id": 40313,
+    "warId": 403,
+    "mapId": 40302,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0403/QMap_Cap0403_Atlas/img_road0403_00.png",
+    "srcSpotId": 40318,
+    "dstSpotId": 40319,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "useItemTime"
+  }, {
+    "id": 40314,
+    "warId": 403,
+    "mapId": 40302,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0403/QMap_Cap0403_Atlas/img_road0403_00.png",
+    "srcSpotId": 40319,
+    "dstSpotId": 40320,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "useItemTime"
+  }, {
+    "id": 40315,
+    "warId": 403,
+    "mapId": 40302,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0403/QMap_Cap0403_Atlas/img_road0403_00.png",
+    "srcSpotId": 40320,
+    "dstSpotId": 40321,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "useItemTime"
+  }, {
+    "id": 40316,
+    "warId": 403,
+    "mapId": 40302,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0403/QMap_Cap0403_Atlas/img_road0403_00.png",
+    "srcSpotId": 40321,
+    "dstSpotId": 40322,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "useItemTime"
+  }, {
+    "id": 40317,
+    "warId": 403,
+    "mapId": 40302,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0403/QMap_Cap0403_Atlas/img_road0403_00.png",
+    "srcSpotId": 40322,
+    "dstSpotId": 40323,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "useItemTime"
+  }, {
+    "id": 40318,
+    "warId": 403,
+    "mapId": 40302,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0403/QMap_Cap0403_Atlas/img_road0403_00.png",
+    "srcSpotId": 40323,
+    "dstSpotId": 40324,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "useItemTime"
+  }, {
+    "id": 40319,
+    "warId": 403,
+    "mapId": 40302,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0403/QMap_Cap0403_Atlas/img_road0403_00.png",
+    "srcSpotId": 40324,
+    "dstSpotId": 40309,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "useItemTime"
+  }, {
+    "id": 40320,
+    "warId": 403,
+    "mapId": 40301,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0403/QMap_Cap0403_Atlas/img_road0403_00.png",
+    "srcSpotId": 40306,
+    "dstSpotId": 40325,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "useItemTime"
+  }, {
+    "id": 40321,
+    "warId": 403,
+    "mapId": 40302,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0403/QMap_Cap0403_Atlas/img_road0403_00.png",
+    "srcSpotId": 40308,
+    "dstSpotId": 40326,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "useItemTime"
+  }, {
+    "id": 40322,
+    "warId": 403,
+    "mapId": 40302,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0403/QMap_Cap0403_Atlas/img_road0403_00.png",
+    "srcSpotId": 40326,
+    "dstSpotId": 40317,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "useItemTime"
+  }, {
+    "id": 40323,
+    "warId": 403,
+    "mapId": 40302,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0403/QMap_Cap0403_Atlas/img_road0403_00.png",
+    "srcSpotId": 40317,
+    "dstSpotId": 40327,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "useItemTime"
+  }, {
+    "id": 40324,
+    "warId": 403,
+    "mapId": 40302,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0403/QMap_Cap0403_Atlas/img_road0403_00.png",
+    "srcSpotId": 40327,
+    "dstSpotId": 40318,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "useItemTime"
+  }, {
+    "id": 40325,
+    "warId": 403,
+    "mapId": 40302,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0403/QMap_Cap0403_Atlas/img_road0403_00.png",
+    "srcSpotId": 40321,
+    "dstSpotId": 40328,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "useItemTime"
+  }, {
+    "id": 40326,
+    "warId": 403,
+    "mapId": 40302,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0403/QMap_Cap0403_Atlas/img_road0403_00.png",
+    "srcSpotId": 40328,
+    "dstSpotId": 40322,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "useItemTime"
+  }, {
+    "id": 40327,
+    "warId": 403,
+    "mapId": 40302,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0403/QMap_Cap0403_Atlas/img_road0403_00.png",
+    "srcSpotId": 40322,
+    "dstSpotId": 40329,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "useItemTime"
+  }, {
+    "id": 40328,
+    "warId": 403,
+    "mapId": 40302,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0403/QMap_Cap0403_Atlas/img_road0403_00.png",
+    "srcSpotId": 40329,
+    "dstSpotId": 40330,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "useItemTime"
+  }, {
+    "id": 40329,
+    "warId": 403,
+    "mapId": 40302,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0403/QMap_Cap0403_Atlas/img_road0403_00.png",
+    "srcSpotId": 40330,
+    "dstSpotId": 40331,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "useItemTime"
+  }, {
+    "id": 40330,
+    "warId": 403,
+    "mapId": 40302,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0403/QMap_Cap0403_Atlas/img_road0403_00.png",
+    "srcSpotId": 40331,
+    "dstSpotId": 40332,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "useItemTime"
+  }, {
+    "id": 40331,
+    "warId": 403,
+    "mapId": 40302,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0403/QMap_Cap0403_Atlas/img_road0403_00.png",
+    "srcSpotId": 40332,
+    "dstSpotId": 40323,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "useItemTime"
+  }]
+}, {
+  "id": 404,
+  "coordinates": [
+    [],
+    []
+  ],
+  "age": "-",
+  "name": "-",
+  "longName": "-",
+  "flags": ["mainScenario", "noticeBoard"],
+  "banner": "https://static.atlasacademy.io/JP/Banner/questboard_cap_closed.png",
+  "priority": 404,
+  "parentWarId": 401,
+  "parentBlankEarthSpotId": 1040401,
+  "bgm": {
+    "id": 0
+  },
+  "script": "https://static.atlasacademy.io/JP/Script/Common/NONE.txt",
+  "warAdds": [{
+    "warId": 404,
+    "type": "warForceHide",
+    "priority": 1,
+    "overwriteId": 0,
+    "condType": "notQuestClearPhase",
+    "targetId": 4000326,
+    "startedAt": 1710932400,
     "endedAt": 1893423600
   }]
 }, {

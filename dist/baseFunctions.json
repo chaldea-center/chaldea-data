@@ -44457,6 +44457,125 @@
     "maxRate": 0
   }]
 }, {
+  "funcId": 21378,
+  "funcType": "addState",
+  "funcTargetType": "enemyOneNoTargetNoAction",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "スキル封印",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_511.png",
+  "buffs": [{
+    "id": 182,
+    "name": "スキル封印",
+    "detail": "スキルを使用できなくなる",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_511.png",
+    "type": "donotSkill",
+    "buffGroup": 800,
+    "originalScript": {
+      "ProgressSelfTurn": 1
+    },
+    "vals": [{
+      "id": 3005
+    }, {
+      "id": 3025
+    }],
+    "maxRate": 0
+  }]
+}, {
+  "funcId": 21381,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "攻撃力アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_300.png",
+  "funcquestTvals": [{
+    "id": 2884
+  }],
+  "buffs": [{
+    "id": 5541,
+    "name": "攻撃力アップ",
+    "detail": "〔暗闇〕のフィールドにおいてのみ、攻撃力をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_300.png",
+    "type": "upAtk",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3027
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 21383,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "Quick攻撃ダメージ前追加効果",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_333.png",
+  "buffs": [{
+    "id": 5542,
+    "name": "Quick攻撃ダメージ前追加効果",
+    "detail": "Quick攻撃時、ダメージ前に自身のクリティカル威力をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_333.png",
+    "type": "attackBeforeFunction",
+    "vals": [{
+      "id": 3004
+    }],
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4003
+    }],
+    "ckSelfIndv": [{
+      "id": 4003
+    }],
+    "maxRate": 0
+  }]
+}, {
+  "funcId": 21384,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "Quick攻撃時追加効果",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_333.png",
+  "buffs": [{
+    "id": 5543,
+    "name": "Quick攻撃時追加効果",
+    "detail": "Quick攻撃時、自身のNPを増やす",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_333.png",
+    "type": "attackFunction",
+    "vals": [{
+      "id": 3004
+    }],
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4003
+    }],
+    "ckSelfIndv": [{
+      "id": 4003
+    }],
+    "maxRate": 0
+  }]
+}, {
+  "funcId": 21390,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "被ダメージ時発動",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_331.png",
+  "buffs": [{
+    "id": 5546,
+    "name": "被ダメージ時発動",
+    "detail": "攻撃を受けると自身のNPを増やす",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_331.png",
+    "type": "damageFunction",
+    "vals": [{
+      "id": 3004
+    }],
+    "maxRate": 0
+  }]
+}, {
   "funcId": 30003,
   "funcType": "addStateShort",
   "funcTargetType": "self",
@@ -46438,6 +46557,96 @@
   }]
 }, {
   "funcId": 30165,
+  "funcType": "addState",
+  "funcTargetType": "ptOne",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_387.png",
+  "buffs": [{
+    "id": 30058,
+    "name": "",
+    "detail": "",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_387.png",
+    "type": "upDefence",
+    "buffGroup": 30058,
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3007
+    }, {
+      "id": 3040
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 30166,
+  "funcType": "addState",
+  "funcTargetType": "ptOne",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "令呪励起",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_386.png",
+  "buffs": [{
+    "id": 30042,
+    "name": "令呪励起",
+    "detail": "攻撃力をアップ＆防御力をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_386.png",
+    "type": "upAtk",
+    "buffGroup": 30042,
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3027
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 30167,
+  "funcType": "addState",
+  "funcTargetType": "ptOne",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "令呪励起",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_387.png",
+  "buffs": [{
+    "id": 30043,
+    "name": "令呪励起",
+    "detail": "攻撃力をアップ＆防御力をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_387.png",
+    "type": "upAtk",
+    "buffGroup": 30043,
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3027
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 30168,
+  "funcType": "addState",
+  "funcTargetType": "ptOne",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_386.png",
+  "buffs": [{
+    "id": 30044,
+    "name": "",
+    "detail": "",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_386.png",
+    "type": "upDefence",
+    "buffGroup": 30044,
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3007
+    }, {
+      "id": 3040
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 30169,
   "funcType": "addState",
   "funcTargetType": "ptOne",
   "funcTargetTeam": "playerAndEnemy",
