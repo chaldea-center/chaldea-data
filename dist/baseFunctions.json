@@ -2558,6 +2558,28 @@
     "maxRate": 5000
   }]
 }, {
+  "funcId": 212,
+  "funcType": "addState",
+  "funcTargetType": "enemyAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "クリティカル威力ダウン",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_514.png",
+  "buffs": [{
+    "id": 143,
+    "name": "クリティカル威力ダウン",
+    "detail": "クリティカル時のダメージをダウン",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_514.png",
+    "type": "downCriticaldamage",
+    "vals": [{
+      "id": 3005
+    }, {
+      "id": 3008
+    }, {
+      "id": 3037
+    }],
+    "maxRate": 5000
+  }]
+}, {
   "funcId": 213,
   "funcType": "addState",
   "funcTargetType": "enemyAll",
@@ -4814,6 +4836,24 @@
   "funcId": 322,
   "funcType": "addState",
   "funcTargetType": "enemy",
+  "funcTargetTeam": "player",
+  "funcPopupText": "毎ターンNP減少",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_519.png",
+  "buffs": [{
+    "id": 120,
+    "name": "毎ターンNP減少",
+    "detail": "ターン終了時にNPが減る",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_519.png",
+    "type": "reduceNp",
+    "vals": [{
+      "id": 3005
+    }],
+    "maxRate": 0
+  }]
+}, {
+  "funcId": 323,
+  "funcType": "addState",
+  "funcTargetType": "enemyAll",
   "funcTargetTeam": "player",
   "funcPopupText": "毎ターンNP減少",
   "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_519.png",
@@ -34278,6 +34318,28 @@
     "isDispValue": true
   }]
 }, {
+  "funcId": 8514,
+  "funcType": "addStateShort",
+  "funcTargetType": "enemyAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "帯電",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_525.png",
+  "buffs": [{
+    "id": 4239,
+    "name": "帯電",
+    "detail": "ターン終了時に自身を除く味方全体に低確率でスタン",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_525.png",
+    "type": "delayFunction",
+    "vals": [{
+      "id": 3005
+    }, {
+      "id": 3063
+    }, {
+      "id": 2826
+    }],
+    "maxRate": 0
+  }]
+}, {
   "funcId": 8541,
   "funcType": "addStateShort",
   "funcTargetType": "ptAll",
@@ -37047,6 +37109,26 @@
     "maxRate": 5000
   }]
 }, {
+  "funcId": 9482,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "enemy",
+  "buffs": [{
+    "id": 4670,
+    "name": "",
+    "detail": "",
+    "type": "downCommandall",
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4006
+    }],
+    "ckSelfIndv": [{
+      "id": 4006
+    }],
+    "maxRate": 5000
+  }]
+}, {
   "funcId": 9485,
   "funcType": "addStateShort",
   "funcTargetType": "ptFull",
@@ -38098,6 +38180,19 @@
     }, {
       "id": 3060
     }],
+    "maxRate": 0
+  }]
+}, {
+  "funcId": 9800,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "buffs": [{
+    "id": 4286,
+    "name": "",
+    "detail": "",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_520.png",
+    "type": "addIndividuality",
     "maxRate": 0
   }]
 }, {
@@ -44411,6 +44506,24 @@
     "maxRate": 0
   }]
 }, {
+  "funcId": 21337,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "被ダメージ時発動",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_331.png",
+  "buffs": [{
+    "id": 5527,
+    "name": "被ダメージ時発動",
+    "detail": "攻撃を受けると敵単体に帯電状態を付与",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_331.png",
+    "type": "damageFunction",
+    "vals": [{
+      "id": 3004
+    }],
+    "maxRate": 0
+  }]
+}, {
   "funcId": 21339,
   "funcType": "servantFriendshipUp",
   "funcTargetType": "ptFull",
@@ -44574,6 +44687,45 @@
     "maxRate": 0
   }]
 }, {
+  "funcId": 21385,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "ガッツ時発動",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_365.png",
+  "buffs": [{
+    "id": 5544,
+    "name": "ガッツ時発動",
+    "detail": "ガッツ発動時、自身のNPを増やす",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_365.png",
+    "type": "gutsFunction",
+    "vals": [{
+      "id": 3004
+    }],
+    "maxRate": 0
+  }]
+}, {
+  "funcId": 21386,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "通常攻撃時追加効果",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_528.png",
+  "buffs": [{
+    "id": 5545,
+    "name": "通常攻撃時追加効果",
+    "detail": "通常攻撃時、対象の被強化成功率をダウン",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_528.png",
+    "type": "commandattackFunction",
+    "vals": [{
+      "id": 3004
+    }],
+    "tvals": [{
+      "id": 5000
+    }],
+    "maxRate": 0
+  }]
+}, {
   "funcId": 21390,
   "funcType": "addState",
   "funcTargetType": "self",
@@ -44586,6 +44738,24 @@
     "detail": "攻撃を受けると自身のNPを増やす",
     "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_331.png",
     "type": "damageFunction",
+    "vals": [{
+      "id": 3004
+    }],
+    "maxRate": 0
+  }]
+}, {
+  "funcId": 21394,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "enemy",
+  "funcPopupText": "ガッツ時発動",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_365.png",
+  "buffs": [{
+    "id": 5547,
+    "name": "ガッツ時発動",
+    "detail": "ガッツ発動時、自身のチャージを増やす",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_365.png",
+    "type": "gutsFunction",
     "vals": [{
       "id": 3004
     }],
