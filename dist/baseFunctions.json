@@ -7865,6 +7865,26 @@
     "maxRate": 0
   }]
 }, {
+  "funcId": 630,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "やけど",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_513.png",
+  "buffs": [{
+    "id": 124,
+    "name": "やけど",
+    "detail": "ターン終了時にHPが減る",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_513.png",
+    "type": "reduceHp",
+    "vals": [{
+      "id": 3005
+    }, {
+      "id": 3015
+    }],
+    "maxRate": 0
+  }]
+}, {
   "funcId": 631,
   "funcType": "instantDeath",
   "funcTargetType": "enemyAll",
@@ -44610,6 +44630,27 @@
     "maxRate": 0
   }]
 }, {
+  "funcId": 21379,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "攻撃時追加効果",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_528.png",
+  "buffs": [{
+    "id": 5540,
+    "name": "攻撃時追加効果",
+    "detail": "攻撃時、対象にやけど状態を付与",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_528.png",
+    "type": "attackFunction",
+    "vals": [{
+      "id": 3004
+    }],
+    "tvals": [{
+      "id": 5000
+    }],
+    "maxRate": 0
+  }]
+}, {
   "funcId": 21381,
   "funcType": "addStateShort",
   "funcTargetType": "self",
@@ -44726,6 +44767,30 @@
     "maxRate": 0
   }]
 }, {
+  "funcId": 21387,
+  "funcType": "addState",
+  "funcTargetType": "enemy",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "被強化成功率ダウン",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_506.png",
+  "buffs": [{
+    "id": 4051,
+    "name": "被強化成功率ダウン",
+    "detail": "被強化成功率をダウン",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_506.png",
+    "type": "upTolerance",
+    "vals": [{
+      "id": 3005
+    }],
+    "tvals": [{
+      "id": 3005
+    }],
+    "ckOpIndv": [{
+      "id": 3005
+    }],
+    "maxRate": 5000
+  }]
+}, {
   "funcId": 21390,
   "funcType": "addState",
   "funcTargetType": "self",
@@ -44742,6 +44807,34 @@
       "id": 3004
     }],
     "maxRate": 0
+  }]
+}, {
+  "funcId": 21392,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptFull",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "威力アップ・対やけど",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+  "buffs": [{
+    "id": 4695,
+    "name": "威力アップ〔やけど〕",
+    "detail": "〔やけど〕状態の敵に与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamageIndividuality",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3028
+    }],
+    "tvals": [{
+      "id": 3015
+    }],
+    "ckOpIndv": [{
+      "id": 3015
+    }],
+    "maxRate": 10000
   }]
 }, {
   "funcId": 21394,
