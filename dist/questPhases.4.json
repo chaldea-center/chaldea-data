@@ -1,0 +1,175 @@
+[{
+  "id": 94095302,
+  "name": "女神像を求めて",
+  "type": "free",
+  "flags": ["displayLoopmark"],
+  "consumeType": "apAndItem",
+  "consume": 40,
+  "consumeItem": [{
+    "itemId": 49,
+    "amount": 1
+  }],
+  "afterClear": "repeatLast",
+  "recommendLv": "90++",
+  "spotId": 1040187,
+  "warId": 401,
+  "chapterId": 953,
+  "chapterSubId": 2,
+  "gifts": [{
+    "id": 478,
+    "objectId": 50,
+    "num": 10
+  }],
+  "releaseConditions": [{
+    "type": "questClear",
+    "targetId": 4000100
+  }],
+  "phases": [1],
+  "priority": 807398,
+  "noticeAt": 1712739600,
+  "openedAt": 1712739600,
+  "closedAt": 1893423600,
+  "phase": 1,
+  "className": ["berserker"],
+  "individuality": [{
+    "id": 2038
+  }, {
+    "id": 2392
+  }],
+  "qp": 270720,
+  "exp": 109988,
+  "bond": 2636,
+  "battleBgId": 15400,
+  "enemyHash": "1_0118_6c947d7",
+  "availableEnemyHashes": ["1_0118_6c947d7"],
+  "dropsFromAllHashes": true,
+  "battleBg": {
+    "id": 15400,
+    "individuality": [{
+      "id": 2038
+    }, {
+      "id": 2392
+    }]
+  },
+  "drops": [{
+    "objectId": 7007,
+    "dropCount": 3,
+    "runs": 1
+  }],
+  "stages": [{
+    "wave": 1,
+    "bgm": {
+      "id": 535
+    },
+    "startEffectId": 2,
+    "enemies": [{
+      "deckId": 2,
+      "npcId": 94095318,
+      "roleType": "servant",
+      "name": "ガラテア",
+      "svt": {
+        "id": 703900
+      },
+      "lv": 62,
+      "atk": 9377,
+      "hp": 1124722,
+      "deathRate": 4,
+      "criticalRate": 100,
+      "chargeTurn": 5,
+      "traits": [{
+        "id": 5000
+      }, {
+        "id": 703900
+      }, {
+        "id": 2
+      }, {
+        "id": 201
+      }, {
+        "id": 2011
+      }, {
+        "id": 2037
+      }, {
+        "id": 301
+      }, {
+        "id": 305
+      }, {
+        "id": 2008
+      }, {
+        "id": 1000
+      }, {
+        "id": 2001
+      }, {
+        "id": 405
+      }, {
+        "id": 2781
+      }, {
+        "id": 2858
+      }, {
+        "id": 106
+      }],
+      "skills": {
+        "skillId1": 854650,
+        "skillId2": 855550,
+        "skillId3": 856650,
+        "skill1": {
+          "id": 854650,
+          "num": 1,
+          "svtId": 703900,
+          "priority": 1
+        },
+        "skill2": {
+          "id": 855550,
+          "num": 2,
+          "svtId": 703900,
+          "priority": 1,
+          "condLimitCount": 1
+        },
+        "skill3": {
+          "id": 856650,
+          "num": 3,
+          "svtId": 703900,
+          "strengthStatus": 1,
+          "priority": 1,
+          "condLimitCount": 3
+        },
+        "skillLv1": 1,
+        "skillLv2": 1,
+        "skillLv3": 1
+      },
+      "classPassive": {
+        "classPassive": [{
+          "id": 54650
+        }, {
+          "id": 34450
+        }]
+      },
+      "noblePhantasm": {
+        "noblePhantasmId": 703901,
+        "noblePhantasm": {
+          "id": 703901,
+          "svtId": 703900,
+          "priority": 101
+        },
+        "noblePhantasmLv": 1
+      },
+      "serverMod": {
+        "tdRate": 800,
+        "tdAttackRate": 800
+      },
+      "ai": {
+        "aiId": 1104510,
+        "actPriority": 500,
+        "maxActNum": 2
+      },
+      "enemyScript": {
+        "appear": true
+      },
+      "originalEnemyScript": {
+        "appear": 1
+      },
+      "misc": {
+        "npcSvtType": 1
+      }
+    }]
+  }]
+}]
