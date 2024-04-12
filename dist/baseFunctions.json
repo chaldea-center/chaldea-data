@@ -22139,6 +22139,20 @@
               "damageRate": 1000,
               "type": "overwriteMoreThanTarget"
             }
+          },
+          "37": {
+            "archer": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "rider": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "avenger": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            }
           }
         }
       }
@@ -38459,6 +38473,34 @@
     "isDispValue": true
   }]
 }, {
+  "funcId": 9951,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "Extra Attackアップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+  "buffs": [{
+    "id": 5242,
+    "name": "Extra Attackアップ",
+    "detail": "Extra Attackカードの性能をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upCommandall",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }],
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4004
+    }],
+    "ckSelfIndv": [{
+      "id": 4004
+    }],
+    "maxRate": 5000
+  }]
+}, {
   "funcId": 9961,
   "funcType": "addStateShort",
   "funcTargetType": "self",
@@ -45365,6 +45407,8 @@
       "id": 126
     }, {
       "id": 127
+    }, {
+      "id": 128
     }],
     "ckOpIndv": [{
       "id": 107
@@ -45406,6 +45450,8 @@
       "id": 126
     }, {
       "id": 127
+    }, {
+      "id": 128
     }],
     "maxRate": 5000
   }]

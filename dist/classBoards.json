@@ -16096,7 +16096,7 @@
   }, {
     "id": 53
   }],
-  "closedMessage": "「奏章Ⅱ 不可逆廃棄孔 イド」\nクエストクリアで開放",
+  "closedMessage": "「奏章Ⅱ 不可逆廃棄孔 イド」\nクリアで開放",
   "condType": "questClear",
   "condTargetId": 4000326,
   "classes": [{
@@ -18572,9 +18572,9 @@
   }, {
     "id": 53
   }],
-  "closedMessage": "「奏章Ⅰ 虚数羅針内界 ペーパームーン」\nクエストクリアで開放",
-  "condType": "questClear",
-  "condTargetId": 4000217,
+  "closedMessage": "「奏章Ⅰ 虚数羅針内界 ペーパームーン」\nまたは\n「オルガマリークエスト_２」\nクリアで解放",
+  "condType": "commonRelease",
+  "condTargetId": 20094402,
   "classes": [{
     "classId": 10,
     "className": "alterEgo",
@@ -18587,7 +18587,8 @@
   }, {
     "classId": 28,
     "className": "pretender",
-    "condType": "forceFalse"
+    "condType": "questClear",
+    "condTargetId": 94094401
   }, {
     "classId": 33,
     "className": "beast",

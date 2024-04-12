@@ -69220,9 +69220,83 @@
     "id": 1040109,
     "blankEarth": true,
     "mapId": 401,
-    "name": "",
+    "name": "バミューダ海域エリア",
     "x": 25.074,
-    "y": -72.859
+    "y": -72.859,
+    "quests": [{
+      "id": 94094401,
+      "name": "オルガマリークエスト_２",
+      "type": "free",
+      "flags": ["noContinue", "noDisplayRemain", "forceDisplayEnemyInfo"],
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "90★",
+      "spotId": 1040109,
+      "warId": 401,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/3.png",
+      "gifts": [{
+        "id": 94094401,
+        "objectId": 53,
+        "num": 1
+      }, {
+        "id": 94094401,
+        "objectId": 7999,
+        "num": 1
+      }, {
+        "id": 94094401,
+        "objectId": 201,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94086401
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1, 2, 3],
+      "phasesWithEnemies": [2],
+      "phasesNoBattle": [1, 3],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9409440110",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409440110.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9409440130",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409440130.txt"
+        }]
+      }],
+      "priority": 907297,
+      "noticeAt": 1712912400,
+      "openedAt": 1712912400,
+      "closedAt": 1893423600
+    }, {
+      "id": 94094402,
+      "name": "【期間限定】オルガマリークエスト_２・リプレイ",
+      "type": "free",
+      "flags": ["noContinue", "notRetrievable", "forceToNoDrop", "forceDisplayEnemyInfo"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "90★",
+      "spotId": 1040109,
+      "warId": 401,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94094401
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "priority": 907296,
+      "noticeAt": 1712912400,
+      "openedAt": 1712912400,
+      "closedAt": 1713931199
+    }]
   }, {
     "id": 1040175,
     "blankEarth": true,
