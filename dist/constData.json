@@ -199,6 +199,26 @@
       "plusAction": 0,
       "maxRate": [0]
     },
+    "receiveDamagePierce": {
+      "limit": "none",
+      "plusTypes": ["addSelfdamage"],
+      "minusTypes": [],
+      "baseParam": 0,
+      "baseValue": 0,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": [0]
+    },
+    "specialReceiveDamage": {
+      "limit": "none",
+      "plusTypes": ["addSpecialdamage"],
+      "minusTypes": ["subSpecialdamage"],
+      "baseParam": 0,
+      "baseValue": 0,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": [0]
+    },
     "pierceInvincible": {
       "limit": "none",
       "plusTypes": ["pierceInvincible"],
@@ -388,6 +408,16 @@
       "isRec": false,
       "plusAction": 72,
       "maxRate": [0]
+    },
+    "funcHpReduceValue": {
+      "limit": "none",
+      "plusTypes": ["addFuncHpReduce"],
+      "minusTypes": ["subFuncHpReduce"],
+      "baseParam": 0,
+      "baseValue": 0,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": []
     },
     "gainHp": {
       "limit": "normal",
@@ -1319,6 +1349,26 @@
       "plusAction": 0,
       "maxRate": [0]
     },
+    "avoidanceAttackDeathDamage": {
+      "limit": "none",
+      "plusTypes": ["avoidanceAttackDeathDamage"],
+      "minusTypes": [],
+      "baseParam": 1000,
+      "baseValue": 0,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": [0]
+    },
+    "avoidFunctionExecuteSelf": {
+      "limit": "none",
+      "plusTypes": ["avoidFunctionExecuteSelf"],
+      "minusTypes": [],
+      "baseParam": 1000,
+      "baseValue": 0,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": [0]
+    },
     "guts": {
       "limit": "none",
       "plusTypes": ["guts", "gutsRatio"],
@@ -1328,6 +1378,36 @@
       "isRec": true,
       "plusAction": 0,
       "maxRate": [0, 1000]
+    },
+    "functionContinue": {
+      "limit": "none",
+      "plusTypes": ["continueFunction"],
+      "minusTypes": [],
+      "baseParam": 1000,
+      "baseValue": 0,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": []
+    },
+    "changeBgm": {
+      "limit": "none",
+      "plusTypes": ["changeBgm"],
+      "minusTypes": [],
+      "baseParam": 1000,
+      "baseValue": 0,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": [0]
+    },
+    "pierceSubdamage": {
+      "limit": "none",
+      "plusTypes": ["pierceSubdamage"],
+      "minusTypes": [],
+      "baseParam": 1000,
+      "baseValue": 0,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": [0]
     }
   },
   "classInfo": {

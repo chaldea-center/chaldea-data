@@ -15143,6 +15143,19 @@
     "isDispValue": true
   }]
 }, {
+  "funcId": 2451,
+  "funcType": "subState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "毒・呪い・やけど解除",
+  "traitVals": [{
+    "id": 3011
+  }, {
+    "id": 3026
+  }, {
+    "id": 3015
+  }]
+}, {
   "funcId": 2452,
   "funcType": "addState",
   "funcTargetType": "enemyAll",
@@ -15689,6 +15702,15 @@
   "funcType": "gainHp",
   "funcTargetType": "enemy",
   "funcTargetTeam": "playerAndEnemy"
+}, {
+  "funcId": 2994,
+  "funcType": "subState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "弱体解除",
+  "traitVals": [{
+    "id": 3005
+  }]
 }, {
   "funcId": 2995,
   "funcType": "addStateShort",
@@ -16537,6 +16559,32 @@
       "id": 304
     }],
     "maxRate": 10000
+  }]
+}, {
+  "funcId": 3252,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "行動不能無効",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_322.png",
+  "buffs": [{
+    "id": 1461,
+    "name": "行動不能無効",
+    "detail": "行動不能を受けなくなる",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_322.png",
+    "type": "avoidState",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3061
+    }],
+    "tvals": [{
+      "id": 3045
+    }],
+    "ckOpIndv": [{
+      "id": 3045
+    }],
+    "maxRate": 0
   }]
 }, {
   "funcId": 3259,
@@ -23882,6 +23930,11 @@
   "funcTargetTeam": "playerAndEnemy",
   "funcPopupText": "やけど",
   "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_513.png",
+  "script": {
+    "funcIndividuality": [{
+      "id": 3098
+    }]
+  },
   "buffs": [{
     "id": 2897,
     "name": "やけど(自己・非重複)",
@@ -25082,6 +25135,15 @@
     "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
     "type": "upDamage",
     "maxRate": 10000
+  }]
+}, {
+  "funcId": 5806,
+  "funcType": "subState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "防御弱体解除",
+  "traitVals": [{
+    "id": 3009
   }]
 }, {
   "funcId": 5807,
@@ -27737,6 +27799,15 @@
       "id": 3024
     }],
     "maxRate": 0
+  }]
+}, {
+  "funcId": 6561,
+  "funcType": "subState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "攻撃弱体解除",
+  "traitVals": [{
+    "id": 3008
   }]
 }, {
   "funcId": 6588,
@@ -36016,6 +36087,40 @@
     "maxRate": 5000
   }]
 }, {
+  "funcId": 9416,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "封印無効",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_322.png",
+  "buffs": [{
+    "id": 4639,
+    "name": "封印無効",
+    "detail": "スキル封印・宝具封印・カード封印を受けなくなる",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_322.png",
+    "type": "avoidState",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3061
+    }],
+    "tvals": [{
+      "id": 3025
+    }, {
+      "id": 3020
+    }, {
+      "id": 3056
+    }],
+    "ckOpIndv": [{
+      "id": 3025
+    }, {
+      "id": 3020
+    }, {
+      "id": 3056
+    }],
+    "maxRate": 0
+  }]
+}, {
   "funcId": 9471,
   "funcType": "addStateShort",
   "funcTargetType": "self",
@@ -42943,6 +43048,19 @@
     "maxRate": 10000
   }]
 }, {
+  "funcId": 21287,
+  "funcType": "subState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "封印解除",
+  "traitVals": [{
+    "id": 3025
+  }, {
+    "id": 3020
+  }, {
+    "id": 3056
+  }]
+}, {
   "funcId": 21289,
   "funcType": "addStateShort",
   "funcTargetType": "ptAll",
@@ -44063,7 +44181,12 @@
   "funcType": "lossHpSafe",
   "funcTargetType": "self",
   "funcTargetTeam": "playerAndEnemy",
-  "funcPopupText": "HP減少"
+  "funcPopupText": "HP減少",
+  "script": {
+    "funcIndividuality": [{
+      "id": 3098
+    }]
+  }
 }, {
   "funcId": 21450,
   "funcType": "addState",
@@ -44071,6 +44194,11 @@
   "funcTargetTeam": "playerAndEnemy",
   "funcPopupText": "防御力ダウン",
   "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_504.png",
+  "script": {
+    "funcIndividuality": [{
+      "id": 3098
+    }]
+  },
   "buffs": [{
     "id": 148,
     "name": "防御力ダウン",
@@ -44094,6 +44222,11 @@
   "funcTargetTeam": "playerAndEnemy",
   "funcPopupText": "スタン",
   "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_501.png",
+  "script": {
+    "funcIndividuality": [{
+      "id": 3098
+    }]
+  },
   "buffs": [{
     "id": 178,
     "name": "スタン",
@@ -44118,7 +44251,12 @@
   "funcType": "lossHp",
   "funcTargetType": "self",
   "funcTargetTeam": "playerAndEnemy",
-  "funcPopupText": "HP減少"
+  "funcPopupText": "HP減少",
+  "script": {
+    "funcIndividuality": [{
+      "id": 3098
+    }]
+  }
 }, {
   "funcId": 21457,
   "funcType": "servantFriendshipUp",
@@ -44152,6 +44290,11 @@
   "funcTargetTeam": "playerAndEnemy",
   "funcPopupText": "防御力ダウン",
   "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_504.png",
+  "script": {
+    "funcIndividuality": [{
+      "id": 3098
+    }]
+  },
   "buffs": [{
     "id": 148,
     "name": "防御力ダウン",
@@ -44175,6 +44318,11 @@
   "funcTargetTeam": "playerAndEnemy",
   "funcPopupText": "防御力ダウン",
   "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_504.png",
+  "script": {
+    "funcIndividuality": [{
+      "id": 3098
+    }]
+  },
   "buffs": [{
     "id": 148,
     "name": "防御力ダウン",
@@ -44198,6 +44346,11 @@
   "funcTargetTeam": "playerAndEnemy",
   "funcPopupText": "防御力ダウン",
   "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_504.png",
+  "script": {
+    "funcIndividuality": [{
+      "id": 3098
+    }]
+  },
   "buffs": [{
     "id": 148,
     "name": "防御力ダウン",
@@ -44221,6 +44374,11 @@
   "funcTargetTeam": "playerAndEnemy",
   "funcPopupText": "防御力ダウン",
   "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_504.png",
+  "script": {
+    "funcIndividuality": [{
+      "id": 3098
+    }]
+  },
   "buffs": [{
     "id": 148,
     "name": "防御力ダウン",
@@ -44244,6 +44402,11 @@
   "funcTargetTeam": "playerAndEnemy",
   "funcPopupText": "弱体耐性ダウン",
   "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_506.png",
+  "script": {
+    "funcIndividuality": [{
+      "id": 3098
+    }]
+  },
   "buffs": [{
     "id": 169,
     "name": "弱体耐性ダウン",
@@ -44268,6 +44431,11 @@
   "funcTargetTeam": "playerAndEnemy",
   "funcPopupText": "弱体耐性ダウン",
   "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_506.png",
+  "script": {
+    "funcIndividuality": [{
+      "id": 3098
+    }]
+  },
   "buffs": [{
     "id": 169,
     "name": "弱体耐性ダウン",
@@ -44292,6 +44460,11 @@
   "funcTargetTeam": "playerAndEnemy",
   "funcPopupText": "弱体耐性ダウン",
   "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_506.png",
+  "script": {
+    "funcIndividuality": [{
+      "id": 3098
+    }]
+  },
   "buffs": [{
     "id": 169,
     "name": "弱体耐性ダウン",
@@ -44316,6 +44489,11 @@
   "funcTargetTeam": "playerAndEnemy",
   "funcPopupText": "弱体耐性ダウン",
   "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_506.png",
+  "script": {
+    "funcIndividuality": [{
+      "id": 3098
+    }]
+  },
   "buffs": [{
     "id": 169,
     "name": "弱体耐性ダウン",
@@ -44340,6 +44518,11 @@
   "funcTargetTeam": "playerAndEnemy",
   "funcPopupText": "攻撃強化成功率ダウン",
   "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_506.png",
+  "script": {
+    "funcIndividuality": [{
+      "id": 3098
+    }]
+  },
   "buffs": [{
     "id": 168,
     "name": "攻撃強化成功率ダウン",
@@ -44362,19 +44545,34 @@
   "funcType": "lossHpSafe",
   "funcTargetType": "ptOne",
   "funcTargetTeam": "playerAndEnemy",
-  "funcPopupText": "HP減少"
+  "funcPopupText": "HP減少",
+  "script": {
+    "funcIndividuality": [{
+      "id": 3098
+    }]
+  }
 }, {
   "funcId": 21495,
   "funcType": "lossHpSafe",
   "funcTargetType": "ptAll",
   "funcTargetTeam": "playerAndEnemy",
-  "funcPopupText": "HP減少"
+  "funcPopupText": "HP減少",
+  "script": {
+    "funcIndividuality": [{
+      "id": 3098
+    }]
+  }
 }, {
   "funcId": 21496,
   "funcType": "lossHpSafe",
   "funcTargetType": "ptOther",
   "funcTargetTeam": "playerAndEnemy",
-  "funcPopupText": "HP減少"
+  "funcPopupText": "HP減少",
+  "script": {
+    "funcIndividuality": [{
+      "id": 3098
+    }]
+  }
 }, {
   "funcId": 21497,
   "funcType": "addStateShort",
@@ -44382,6 +44580,11 @@
   "funcTargetTeam": "playerAndEnemy",
   "funcPopupText": "やけど",
   "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_513.png",
+  "script": {
+    "funcIndividuality": [{
+      "id": 3098
+    }]
+  },
   "buffs": [{
     "id": 1464,
     "name": "やけど(自己・非重複)",
@@ -44403,6 +44606,11 @@
   "funcTargetTeam": "playerAndEnemy",
   "funcPopupText": "やけど",
   "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_513.png",
+  "script": {
+    "funcIndividuality": [{
+      "id": 3098
+    }]
+  },
   "buffs": [{
     "id": 1465,
     "name": "やけど(自己・非重複)",
@@ -44424,6 +44632,11 @@
   "funcTargetTeam": "playerAndEnemy",
   "funcPopupText": "やけど",
   "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_513.png",
+  "script": {
+    "funcIndividuality": [{
+      "id": 3098
+    }]
+  },
   "buffs": [{
     "id": 1466,
     "name": "やけど(自己・非重複)",
@@ -44445,6 +44658,11 @@
   "funcTargetTeam": "playerAndEnemy",
   "funcPopupText": "魅了耐性ダウン・対女性",
   "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_506.png",
+  "script": {
+    "funcIndividuality": [{
+      "id": 3098
+    }]
+  },
   "buffs": [{
     "id": 213,
     "name": "魅了耐性ダウン(精神異常)",
@@ -44469,19 +44687,34 @@
   "funcType": "lossNp",
   "funcTargetType": "self",
   "funcTargetTeam": "player",
-  "funcPopupText": "NP減少"
+  "funcPopupText": "NP減少",
+  "script": {
+    "funcIndividuality": [{
+      "id": 3098
+    }]
+  }
 }, {
   "funcId": 21510,
   "funcType": "lossNp",
   "funcTargetType": "ptOne",
   "funcTargetTeam": "player",
-  "funcPopupText": "NP減少"
+  "funcPopupText": "NP減少",
+  "script": {
+    "funcIndividuality": [{
+      "id": 3098
+    }]
+  }
 }, {
   "funcId": 21513,
   "funcType": "subState",
   "funcTargetType": "self",
   "funcTargetTeam": "playerAndEnemy",
   "funcPopupText": "強化解除",
+  "script": {
+    "funcIndividuality": [{
+      "id": 3098
+    }]
+  },
   "traitVals": [{
     "id": 3004
   }]
@@ -44492,6 +44725,11 @@
   "funcTargetTeam": "playerAndEnemy",
   "funcPopupText": "宝具封印",
   "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_512.png",
+  "script": {
+    "funcIndividuality": [{
+      "id": 3098
+    }]
+  },
   "buffs": [{
     "id": 183,
     "name": "宝具封印",
@@ -44516,6 +44754,11 @@
   "funcTargetTeam": "playerAndEnemy",
   "funcPopupText": "1ターン後スタン",
   "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_525.png",
+  "script": {
+    "funcIndividuality": [{
+      "id": 3098
+    }]
+  },
   "buffs": [{
     "id": 293,
     "name": "1ターン後スタン",
@@ -44532,7 +44775,12 @@
   "funcType": "lossStar",
   "funcTargetType": "self",
   "funcTargetTeam": "player",
-  "funcPopupText": "スター減少"
+  "funcPopupText": "スター減少",
+  "script": {
+    "funcIndividuality": [{
+      "id": 3098
+    }]
+  }
 }, {
   "funcId": 21525,
   "funcType": "addStateShort",
@@ -44540,6 +44788,11 @@
   "funcTargetTeam": "enemy",
   "funcPopupText": "クリティカル発生ダウン",
   "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_523.png",
+  "script": {
+    "funcIndividuality": [{
+      "id": 3098
+    }]
+  },
   "buffs": [{
     "id": 145,
     "name": "クリティカル発生ダウン",
@@ -44568,6 +44821,11 @@
   "funcTargetTeam": "enemy",
   "funcPopupText": "クリティカル発生ダウン",
   "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_523.png",
+  "script": {
+    "funcIndividuality": [{
+      "id": 3098
+    }]
+  },
   "buffs": [{
     "id": 145,
     "name": "クリティカル発生ダウン",
@@ -44596,6 +44854,11 @@
   "funcTargetTeam": "enemy",
   "funcPopupText": "クリティカル発生ダウン",
   "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_523.png",
+  "script": {
+    "funcIndividuality": [{
+      "id": 3098
+    }]
+  },
   "buffs": [{
     "id": 145,
     "name": "クリティカル発生ダウン",
@@ -44624,6 +44887,11 @@
   "funcTargetTeam": "playerAndEnemy",
   "funcPopupText": "宝具威力ダウン",
   "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_508.png",
+  "script": {
+    "funcIndividuality": [{
+      "id": 3098
+    }]
+  },
   "buffs": [{
     "id": 139,
     "name": "宝具威力ダウン",
@@ -44644,19 +44912,34 @@
   "funcType": "delayNpturn",
   "funcTargetType": "self",
   "funcTargetTeam": "enemy",
-  "funcPopupText": "チャージ減少"
+  "funcPopupText": "チャージ減少",
+  "script": {
+    "funcIndividuality": [{
+      "id": 3098
+    }]
+  }
 }, {
   "funcId": 21552,
   "funcType": "delayNpturn",
   "funcTargetType": "ptOne",
   "funcTargetTeam": "enemy",
-  "funcPopupText": "チャージ減少"
+  "funcPopupText": "チャージ減少",
+  "script": {
+    "funcIndividuality": [{
+      "id": 3098
+    }]
+  }
 }, {
   "funcId": 21555,
   "funcType": "subState",
   "funcTargetType": "self",
   "funcTargetTeam": "playerAndEnemy",
   "funcPopupText": "防御強化解除",
+  "script": {
+    "funcIndividuality": [{
+      "id": 3098
+    }]
+  },
   "traitVals": [{
     "id": 3007
   }]
@@ -44667,6 +44950,11 @@
   "funcTargetTeam": "playerAndEnemy",
   "funcPopupText": "アルテラタイマー",
   "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_525.png",
+  "script": {
+    "funcIndividuality": [{
+      "id": 3098
+    }]
+  },
   "buffs": [{
     "id": 880,
     "name": "アルテラタイマー",
@@ -44685,6 +44973,11 @@
   "funcTargetTeam": "playerAndEnemy",
   "funcPopupText": "最大HPマイナス",
   "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_522.png",
+  "script": {
+    "funcIndividuality": [{
+      "id": 3098
+    }]
+  },
   "buffs": [{
     "id": 202,
     "name": "最大HPマイナス",
@@ -44705,6 +44998,11 @@
   "funcTargetTeam": "playerAndEnemy",
   "funcPopupText": "最大HPマイナス",
   "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_522.png",
+  "script": {
+    "funcIndividuality": [{
+      "id": 3098
+    }]
+  },
   "buffs": [{
     "id": 202,
     "name": "最大HPマイナス",
@@ -44725,6 +45023,11 @@
   "funcTargetTeam": "playerAndEnemy",
   "funcPopupText": "攻撃力ダウン",
   "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_503.png",
+  "script": {
+    "funcIndividuality": [{
+      "id": 3098
+    }]
+  },
   "buffs": [{
     "id": 127,
     "name": "攻撃力ダウン",
@@ -44747,6 +45050,11 @@
   "funcTargetTeam": "playerAndEnemy",
   "funcPopupText": "攻撃力ダウン",
   "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_503.png",
+  "script": {
+    "funcIndividuality": [{
+      "id": 3098
+    }]
+  },
   "buffs": [{
     "id": 127,
     "name": "攻撃力ダウン",
@@ -44769,6 +45077,11 @@
   "funcTargetTeam": "playerAndEnemy",
   "funcPopupText": "攻撃力ダウン",
   "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_503.png",
+  "script": {
+    "funcIndividuality": [{
+      "id": 3098
+    }]
+  },
   "buffs": [{
     "id": 127,
     "name": "攻撃力ダウン",
@@ -44791,6 +45104,11 @@
   "funcTargetTeam": "playerAndEnemy",
   "funcPopupText": "やけど",
   "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_513.png",
+  "script": {
+    "funcIndividuality": [{
+      "id": 3098
+    }]
+  },
   "buffs": [{
     "id": 1687,
     "name": "やけど(自己・非重複)",
@@ -44812,6 +45130,11 @@
   "funcTargetTeam": "playerAndEnemy",
   "funcPopupText": "淫蕩の舞",
   "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_537.png",
+  "script": {
+    "funcIndividuality": [{
+      "id": 3098
+    }]
+  },
   "buffs": [{
     "id": 1737,
     "name": "淫蕩の舞",
@@ -44829,6 +45152,11 @@
   "funcTargetType": "self",
   "funcTargetTeam": "playerAndEnemy",
   "funcPopupText": "防御強化解除",
+  "script": {
+    "funcIndividuality": [{
+      "id": 3098
+    }]
+  },
   "traitVals": [{
     "id": 3007
   }]
@@ -44839,6 +45167,11 @@
   "funcTargetTeam": "playerAndEnemy",
   "funcPopupText": "呪い",
   "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_521.png",
+  "script": {
+    "funcIndividuality": [{
+      "id": 3098
+    }]
+  },
   "buffs": [{
     "id": 125,
     "name": "呪い",
@@ -44861,6 +45194,11 @@
   "funcTargetTeam": "playerAndEnemy",
   "funcPopupText": "毒",
   "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_500.png",
+  "script": {
+    "funcIndividuality": [{
+      "id": 3098
+    }]
+  },
   "buffs": [{
     "id": 123,
     "name": "毒",
@@ -44881,6 +45219,11 @@
   "funcTargetTeam": "playerAndEnemy",
   "funcPopupText": "スキル封印",
   "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_511.png",
+  "script": {
+    "funcIndividuality": [{
+      "id": 3098
+    }]
+  },
   "buffs": [{
     "id": 182,
     "name": "スキル封印",
@@ -44905,6 +45248,11 @@
   "funcTargetTeam": "playerAndEnemy",
   "funcPopupText": "スキル封印",
   "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_511.png",
+  "script": {
+    "funcIndividuality": [{
+      "id": 3098
+    }]
+  },
   "buffs": [{
     "id": 182,
     "name": "スキル封印",
@@ -44932,6 +45280,11 @@
   "functvals": [{
     "id": 3022
   }],
+  "script": {
+    "funcIndividuality": [{
+      "id": 3098
+    }]
+  },
   "buffs": [{
     "id": 183,
     "name": "宝具封印",
@@ -44956,6 +45309,11 @@
   "funcTargetTeam": "playerAndEnemy",
   "funcPopupText": "魅了耐性ダウン",
   "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_506.png",
+  "script": {
+    "funcIndividuality": [{
+      "id": 3098
+    }]
+  },
   "buffs": [{
     "id": 217,
     "name": "魅了耐性ダウン(精神異常)",
@@ -44985,6 +45343,11 @@
   "functvals": [{
     "id": 2840
   }],
+  "script": {
+    "funcIndividuality": [{
+      "id": 3098
+    }]
+  },
   "buffs": [{
     "id": 169,
     "name": "弱体耐性ダウン",
@@ -45009,6 +45372,11 @@
   "funcTargetTeam": "playerAndEnemy",
   "funcPopupText": "無敵無効",
   "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_531.png",
+  "script": {
+    "funcIndividuality": [{
+      "id": 3098
+    }]
+  },
   "buffs": [{
     "id": 5324,
     "name": "無敵無効",
@@ -45054,6 +45422,11 @@
     "id": 9945150,
     "negative": true
   }],
+  "script": {
+    "funcIndividuality": [{
+      "id": 3098
+    }]
+  },
   "buffs": [{
     "id": 1136,
     "name": "Arts封印",
@@ -45085,6 +45458,11 @@
   "funcTargetTeam": "playerAndEnemy",
   "funcPopupText": "防御力ダウン",
   "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_504.png",
+  "script": {
+    "funcIndividuality": [{
+      "id": 3098
+    }]
+  },
   "buffs": [{
     "id": 1833,
     "name": "防御力ダウン（強化扱い）",
@@ -45103,6 +45481,11 @@
   "funcTargetTeam": "playerAndEnemy",
   "funcPopupText": "強化成功率ダウン",
   "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_506.png",
+  "script": {
+    "funcIndividuality": [{
+      "id": 3098
+    }]
+  },
   "buffs": [{
     "id": 1724,
     "name": "強化成功率ダウン（強化扱い）",
@@ -45127,6 +45510,11 @@
   "funcTargetTeam": "playerAndEnemy",
   "funcPopupText": "夜更かし",
   "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_525.png",
+  "script": {
+    "funcIndividuality": [{
+      "id": 3098
+    }]
+  },
   "buffs": [{
     "id": 2940,
     "name": "夜更かし",
@@ -45145,6 +45533,11 @@
   "funcTargetTeam": "player",
   "funcPopupText": "朝のひばり",
   "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_525.png",
+  "script": {
+    "funcIndividuality": [{
+      "id": 3098
+    }]
+  },
   "buffs": [{
     "id": 3709,
     "name": "朝のひばり",
@@ -45163,6 +45556,11 @@
   "funcTargetTeam": "enemy",
   "funcPopupText": "朝のひばり",
   "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_525.png",
+  "script": {
+    "funcIndividuality": [{
+      "id": 3098
+    }]
+  },
   "buffs": [{
     "id": 3756,
     "name": "朝のひばり",
@@ -45342,6 +45740,11 @@
   "funcTargetTeam": "player",
   "funcPopupText": "スター発生ダウン",
   "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_510.png",
+  "script": {
+    "funcIndividuality": [{
+      "id": 3098
+    }]
+  },
   "buffs": [{
     "id": 118,
     "name": "スター発生ダウン",
@@ -45360,6 +45763,11 @@
   "funcTargetTeam": "player",
   "funcPopupText": "スター発生ダウン",
   "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_510.png",
+  "script": {
+    "funcIndividuality": [{
+      "id": 3098
+    }]
+  },
   "buffs": [{
     "id": 118,
     "name": "スター発生ダウン",
@@ -45377,6 +45785,11 @@
   "funcTargetType": "self",
   "funcTargetTeam": "playerAndEnemy",
   "funcPopupText": "強化付与アップ解除",
+  "script": {
+    "funcIndividuality": [{
+      "id": 3098
+    }]
+  },
   "traitVals": [{
     "id": 3090
   }]
@@ -45387,6 +45800,11 @@
   "funcTargetTeam": "playerAndEnemy",
   "funcPopupText": "やけど",
   "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_513.png",
+  "script": {
+    "funcIndividuality": [{
+      "id": 3098
+    }]
+  },
   "buffs": [{
     "id": 124,
     "name": "やけど",
@@ -45959,7 +46377,12 @@
   "funcType": "moveState",
   "funcTargetType": "self",
   "funcTargetTeam": "playerAndEnemy",
-  "funcPopupText": "呪い吸収"
+  "funcPopupText": "呪い吸収",
+  "script": {
+    "funcIndividuality": [{
+      "id": 3098
+    }]
+  }
 }, {
   "funcId": 30003,
   "funcType": "addStateShort",
