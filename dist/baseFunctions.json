@@ -45527,6 +45527,62 @@
     "maxRate": 0
   }]
 }, {
+  "funcId": 21661,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "魔弾消費",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_300.png",
+  "buffs": [{
+    "id": 5587,
+    "name": "攻撃力アップ",
+    "detail": "攻撃力をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_300.png",
+    "type": "upAtk",
+    "originalScript": {
+      "DisplayPriority": 500,
+      "ProgressSelfTurn": 1
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3027
+    }, {
+      "id": 2912
+    }],
+    "maxRate": 10000
+  }]
+}, {
+  "funcId": 21662,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "魔弾全消費",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_300.png",
+  "buffs": [{
+    "id": 5587,
+    "name": "攻撃力アップ",
+    "detail": "攻撃力をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_300.png",
+    "type": "upAtk",
+    "originalScript": {
+      "DisplayPriority": 500,
+      "ProgressSelfTurn": 1
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3027
+    }, {
+      "id": 2912
+    }],
+    "maxRate": 10000
+  }]
+}, {
   "funcId": 21663,
   "funcType": "addStateShort",
   "funcTargetType": "self",
@@ -45580,6 +45636,14 @@
       "id": 4004
     }],
     "maxRate": 0
+  }]
+}, {
+  "funcId": 21665,
+  "funcType": "subState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "traitVals": [{
+    "id": 2885
   }]
 }, {
   "funcId": 21667,
@@ -45731,6 +45795,32 @@
     "id": 2911
   }]
 }, {
+  "funcId": 21688,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "buffs": [{
+    "id": 5587,
+    "name": "攻撃力アップ",
+    "detail": "攻撃力をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_300.png",
+    "type": "upAtk",
+    "originalScript": {
+      "DisplayPriority": 500,
+      "ProgressSelfTurn": 1
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3027
+    }, {
+      "id": 2912
+    }],
+    "maxRate": 10000
+  }]
+}, {
   "funcId": 21695,
   "funcType": "addStateShort",
   "funcTargetType": "self",
@@ -45810,6 +45900,14 @@
       "id": 5000
     }],
     "maxRate": 0
+  }]
+}, {
+  "funcId": 21698,
+  "funcType": "subState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "traitVals": [{
+    "id": 2912
   }]
 }, {
   "funcId": 21716,
