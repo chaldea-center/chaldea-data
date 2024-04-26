@@ -37503,6 +37503,36 @@
     "maxRate": 5000
   }]
 }, {
+  "funcId": 9952,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "Extra Attackアップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+  "buffs": [{
+    "id": 5242,
+    "name": "Extra Attackアップ",
+    "detail": "Extra Attackカードの性能をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_388.png",
+    "type": "upCommandall",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3100
+    }],
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4004
+    }],
+    "ckSelfIndv": [{
+      "id": 4004
+    }],
+    "maxRate": 5000
+  }]
+}, {
   "funcId": 9961,
   "funcType": "addStateShort",
   "funcTargetType": "self",
@@ -45819,6 +45849,21 @@
       "id": 2912
     }],
     "maxRate": 10000
+  }]
+}, {
+  "funcId": 21693,
+  "funcType": "lossNp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "NP消費"
+}, {
+  "funcId": 21694,
+  "funcType": "subState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "魔弾消費",
+  "traitVals": [{
+    "id": 2885
   }]
 }, {
   "funcId": 21695,

@@ -74377,6 +74377,79 @@
     }]
   }]
 }, {
+  "id": 600711,
+  "card": "buster",
+  "name": "密やかなる罪の遊戯",
+  "ruby": "デンジャラス・ゲーム",
+  "icon": "https://static.atlasacademy.io/JP/Servants/Commands/600710/card_servant_np.png",
+  "rank": "C",
+  "type": "対人宝具",
+  "effectFlags": ["support"],
+  "unmodifiedDetail": "使用不能",
+  "npGain": {
+    "buster": [102, 102, 102, 102, 102],
+    "arts": [102, 102, 102, 102, 102],
+    "quick": [102, 102, 102, 102, 102],
+    "extra": [102, 102, 102, 102, 102],
+    "defence": [500, 500, 500, 500, 500],
+    "np": [102, 102, 102, 102, 102]
+  },
+  "npDistribution": [100],
+  "individuality": [{
+    "id": 3002
+  }, {
+    "id": 4002
+  }, {
+    "id": 4007
+  }],
+  "npSvts": [{
+    "svtId": 600710,
+    "npNum": 2,
+    "priority": 101,
+    "damage": [100],
+    "strengthStatus": 1,
+    "card": "buster"
+  }],
+  "functions": []
+}, {
+  "id": 600712,
+  "card": "buster",
+  "name": "密やかなる罪の遊戯",
+  "ruby": "デンジャラス・ゲーム",
+  "icon": "https://static.atlasacademy.io/JP/Servants/Commands/600710/card_servant_np.png",
+  "rank": "C+",
+  "type": "対人宝具",
+  "effectFlags": ["support"],
+  "unmodifiedDetail": "使用不能",
+  "npGain": {
+    "buster": [102, 102, 102, 102, 102],
+    "arts": [102, 102, 102, 102, 102],
+    "quick": [102, 102, 102, 102, 102],
+    "extra": [102, 102, 102, 102, 102],
+    "defence": [500, 500, 500, 500, 500],
+    "np": [102, 102, 102, 102, 102]
+  },
+  "npDistribution": [100],
+  "individuality": [{
+    "id": 3002
+  }, {
+    "id": 4002
+  }, {
+    "id": 4007
+  }],
+  "npSvts": [{
+    "svtId": 600710,
+    "npNum": 2,
+    "priority": 102,
+    "damage": [100],
+    "strengthStatus": 99,
+    "flag": 4,
+    "condQuestId": 91600701,
+    "condQuestPhase": 1,
+    "card": "buster"
+  }],
+  "functions": []
+}, {
   "id": 600801,
   "card": "buster",
   "name": "暁の時を終える蛇よ、此処に",
@@ -109348,6 +109421,182 @@
       "BgmId": 797,
       "PriorityBgm": 150,
       "ResetBgmPriorityAtWaveStart": 50
+    }, {}, {}, {}, {}],
+    "svals2": [{}, {}, {}, {}, {}],
+    "svals3": [{}, {}, {}, {}, {}],
+    "svals4": [{}, {}, {}, {}, {}],
+    "svals5": [{}, {}, {}, {}, {}]
+  }]
+}, {
+  "id": 2501501,
+  "card": "arts",
+  "name": "アースライト・スターボゥ",
+  "ruby": "",
+  "icon": "https://static.atlasacademy.io/JP/Servants/Commands/2501500/card_servant_np.png",
+  "rank": "A+",
+  "type": "対軍宝具",
+  "effectFlags": ["attackEnemyAll"],
+  "unmodifiedDetail": "自身に無敵貫通状態を付与(1ターン)＆防御無視状態を付与(1ターン) ＋ 敵全体の防御力をダウン(3ターン)<オーバーチャージで効果アップ>＆強力な攻撃[{0}]<自身に付与されている〔魔弾〕状態の数に応じて威力がアップ(最大10個)> ＋ 自身の〔魔弾〕状態を最大10個消費",
+  "npGain": {
+    "buster": [33, 33, 33, 33, 33],
+    "arts": [33, 33, 33, 33, 33],
+    "quick": [33, 33, 33, 33, 33],
+    "extra": [33, 33, 33, 33, 33],
+    "defence": [300, 300, 300, 300, 300],
+    "np": [33, 33, 33, 33, 33]
+  },
+  "npDistribution": [6, 13, 20, 26, 35],
+  "individuality": [{
+    "id": 3002
+  }, {
+    "id": 4001
+  }, {
+    "id": 4007
+  }, {
+    "id": 4101
+  }],
+  "npSvts": [{
+    "svtId": 2501500,
+    "priority": 101,
+    "damage": [6, 13, 20, 26, 35],
+    "card": "arts"
+  }],
+  "functions": [{
+    "funcId": 510,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 1,
+      "Count": -1
+    }, {}, {}, {}, {}],
+    "svals2": [{}, {}, {}, {}, {}],
+    "svals3": [{}, {}, {}, {}, {}],
+    "svals4": [{}, {}, {}, {}, {}],
+    "svals5": [{}, {}, {}, {}, {}]
+  }, {
+    "funcId": 1588,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 1,
+      "Count": -1
+    }, {}, {}, {}, {}],
+    "svals2": [{}, {}, {}, {}, {}],
+    "svals3": [{}, {}, {}, {}, {}],
+    "svals4": [{}, {}, {}, {}, {}],
+    "svals5": [{}, {}, {}, {}, {}]
+  }, {
+    "funcId": 197,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 100
+    }, {}, {}, {}, {}],
+    "svals2": [{
+      "Value": 150
+    }, {
+      "Value": 150
+    }, {
+      "Value": 150
+    }, {
+      "Value": 150
+    }, {
+      "Value": 150
+    }],
+    "svals3": [{
+      "Value": 200
+    }, {
+      "Value": 200
+    }, {
+      "Value": 200
+    }, {
+      "Value": 200
+    }, {
+      "Value": 200
+    }],
+    "svals4": [{
+      "Value": 250
+    }, {
+      "Value": 250
+    }, {
+      "Value": 250
+    }, {
+      "Value": 250
+    }, {
+      "Value": 250
+    }],
+    "svals5": [{
+      "Value": 300
+    }, {
+      "Value": 300
+    }, {
+      "Value": 300
+    }, {
+      "Value": 300
+    }, {
+      "Value": 300
+    }]
+  }, {
+    "funcId": 5337,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 4500,
+      "Value2": 1000,
+      "Target": 0,
+      "Correction": 100,
+      "TargetList": [2885],
+      "ParamAddMaxCount": 10,
+      "IncludeIgnoreIndividuality": 1
+    }, {
+      "Value": 6000
+    }, {
+      "Value": 6750
+    }, {
+      "Value": 7125
+    }, {
+      "Value": 7500
+    }],
+    "svals2": [{}, {
+      "Value": 6000
+    }, {
+      "Value": 6750
+    }, {
+      "Value": 7125
+    }, {
+      "Value": 7500
+    }],
+    "svals3": [{}, {
+      "Value": 6000
+    }, {
+      "Value": 6750
+    }, {
+      "Value": 7125
+    }, {
+      "Value": 7500
+    }],
+    "svals4": [{}, {
+      "Value": 6000
+    }, {
+      "Value": 6750
+    }, {
+      "Value": 7125
+    }, {
+      "Value": 7500
+    }],
+    "svals5": [{}, {
+      "Value": 6000
+    }, {
+      "Value": 6750
+    }, {
+      "Value": 7125
+    }, {
+      "Value": 7500
+    }]
+  }, {
+    "funcId": 21694,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 10,
+      "Value2": 0
     }, {}, {}, {}, {}],
     "svals2": [{}, {}, {}, {}, {}],
     "svals3": [{}, {}, {}, {}, {}],
