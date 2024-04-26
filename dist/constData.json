@@ -71,8 +71,8 @@
     },
     "commandDef": {
       "limit": "upper",
-      "plusTypes": ["upDefencecommandall", "upDefencecommanDamage"],
-      "minusTypes": ["downDefencecommandall", "downDefencecommanDamage"],
+      "plusTypes": ["upDefencecommandall", "upDefenceCommanddamage"],
+      "minusTypes": ["downDefencecommandall", "downDefenceCommanddamage"],
       "baseParam": 1000,
       "baseValue": 0,
       "isRec": true,
@@ -629,9 +629,9 @@
       "plusAction": 0,
       "maxRate": [50000]
     },
-    "functionCommandattack": {
+    "functionCommandattackAfter": {
       "limit": "none",
-      "plusTypes": ["commandattackFunction"],
+      "plusTypes": ["commandattackAfterFunction"],
       "minusTypes": [],
       "baseParam": 1000,
       "baseValue": 0,
@@ -859,9 +859,9 @@
       "plusAction": 0,
       "maxRate": [10000]
     },
-    "functionAttack": {
+    "functionAttackAfter": {
       "limit": "none",
-      "plusTypes": ["attackFunction"],
+      "plusTypes": ["attackAfterFunction"],
       "minusTypes": [],
       "baseParam": 1000,
       "baseValue": 0,
@@ -869,9 +869,9 @@
       "plusAction": 0,
       "maxRate": [0]
     },
-    "functionCommandcodeattack": {
+    "functionCommandcodeattackBefore": {
       "limit": "none",
-      "plusTypes": ["commandcodeattackFunction"],
+      "plusTypes": ["commandcodeattackBeforeFunction"],
       "minusTypes": [],
       "baseParam": 1000,
       "baseValue": 0,
