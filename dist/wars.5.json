@@ -121067,7 +121067,7 @@
         "closedMessage": "ミッションNo.11達成で開放"
       }],
       "phases": [1, 2, 3, 4, 5, 6, 7, 8, 9],
-      "phasesWithEnemies": [1],
+      "phasesWithEnemies": [1, 7, 8],
       "phasesNoBattle": [2, 3, 4, 5, 6, 9],
       "phaseScripts": [{
         "phase": 1,
@@ -121247,6 +121247,7 @@
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94095896,
       "noticeAt": 1714208400,
       "openedAt": 1714208400,
@@ -121301,7 +121302,77 @@
     "y": 472,
     "nameOfsY": -21,
     "questOfsX": 34,
-    "questOfsY": -83
+    "questOfsY": -83,
+    "quests": [{
+      "id": 94095801,
+      "name": "【怪異大量発生中！】闇夜の牙は森の中 淀ミ級",
+      "type": "event",
+      "flags": ["displayLoopmark", "notDisplayResultGetPoint"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "40",
+      "spotId": 916620,
+      "warId": 9166,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94095602
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94095800,
+      "noticeAt": 1714215600,
+      "openedAt": 1714215600,
+      "closedAt": 1714222799
+    }, {
+      "id": 94095802,
+      "name": "【怪異大量発生中！】闇夜の牙は森の中 穢レ級",
+      "type": "event",
+      "flags": ["displayLoopmark", "notDisplayResultGetPoint"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "70",
+      "spotId": 916620,
+      "warId": 9166,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94095602
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94095799,
+      "noticeAt": 1714215600,
+      "openedAt": 1714215600,
+      "closedAt": 1714222799
+    }, {
+      "id": 94095803,
+      "name": "【怪異大量発生中！】闇夜の牙は森の中 蝕ミ級",
+      "type": "event",
+      "flags": ["displayLoopmark", "notDisplayResultGetPoint"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90",
+      "spotId": 916620,
+      "warId": 9166,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94095602
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94095798,
+      "noticeAt": 1714215600,
+      "openedAt": 1714215600,
+      "closedAt": 1714222799
+    }]
   }, {
     "id": 916621,
     "mapId": 9166,
