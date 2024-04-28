@@ -417,7 +417,7 @@
       "baseValue": 0,
       "isRec": true,
       "plusAction": 0,
-      "maxRate": []
+      "maxRate": [0]
     },
     "gainHp": {
       "limit": "normal",
@@ -817,7 +817,7 @@
       "baseValue": 0,
       "isRec": true,
       "plusAction": 0,
-      "maxRate": [5000]
+      "maxRate": [5000, 10000]
     },
     "functionNpattack": {
       "limit": "none",
@@ -1387,7 +1387,7 @@
       "baseValue": 0,
       "isRec": true,
       "plusAction": 0,
-      "maxRate": []
+      "maxRate": [0]
     },
     "changeBgm": {
       "limit": "none",
@@ -5500,6 +5500,13 @@
       "funcType": "shortenSkill",
       "ignoreValueUp": true
     },
+    "13": {
+      "funcType": "instantDeath",
+      "ignoreValueUp": true,
+      "individuality": [{
+        "id": 3096
+      }]
+    },
     "20": {
       "funcType": "delayNpturn",
       "ignoreValueUp": true
@@ -5511,6 +5518,13 @@
     "24": {
       "funcType": "replaceMember",
       "ignoreValueUp": true
+    },
+    "46": {
+      "funcType": "forceInstantDeath",
+      "ignoreValueUp": true,
+      "individuality": [{
+        "id": 3097
+      }]
     },
     "119": {
       "funcType": "movePosition",

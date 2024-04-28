@@ -120221,6 +120221,39 @@
       "dispTargetId": 94095601,
       "dispCondType2": "questClear"
     }, {
+      "id": 916575,
+      "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9166/QMap_Cap9166_Atlas/gimmick_916575.png",
+      "x": 1024,
+      "y": 720,
+      "depthOffset": -400,
+      "scale": 1000,
+      "dispCondType": "masterMission",
+      "dispTargetId": 94095605,
+      "dispCondType2": "questClear"
+    }, {
+      "id": 916576,
+      "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9166/QMap_Cap9166_Atlas/gimmick_916576.png",
+      "x": 1024,
+      "y": 720,
+      "depthOffset": -400,
+      "scale": 1000,
+      "dispCondType": "masterMission",
+      "dispTargetId": 94095606,
+      "dispCondType2": "questClear"
+    }, {
+      "id": 916580,
+      "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9166/QMap_Cap9166_Atlas/gimmick_916580.png",
+      "x": 1024,
+      "y": 720,
+      "depthOffset": -200,
+      "scale": 1250,
+      "dispCondType": "itemGet",
+      "dispTargetId": 94095604,
+      "dispTargetValue": 9,
+      "dispCondType2": "useItemEternity",
+      "dispTargetId2": 94095605,
+      "dispTargetValue2": 7
+    }, {
       "id": 916581,
       "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9166/QMap_Cap9166_Atlas/gimmick_916581.png",
       "x": 1024,
@@ -120489,6 +120522,26 @@
       "scale": 1000,
       "dispCondType": "masterMission",
       "dispTargetId": 94095609,
+      "dispCondType2": "questClear"
+    }, {
+      "id": 916628,
+      "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9166/QMap_Cap9166_Atlas/gimmick_916628.png",
+      "x": 1024,
+      "y": 720,
+      "depthOffset": -400,
+      "scale": 1000,
+      "dispCondType": "masterMission",
+      "dispTargetId": 94095602,
+      "dispCondType2": "questClear"
+    }, {
+      "id": 916629,
+      "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9166/QMap_Cap9166_Atlas/gimmick_916629.png",
+      "x": 1024,
+      "y": 720,
+      "depthOffset": -400,
+      "scale": 1000,
+      "dispCondType": "masterMission",
+      "dispTargetId": 94095603,
       "dispCondType2": "questClear"
     }, {
       "id": 916631,
@@ -120769,6 +120822,17 @@
       "scale": 1000,
       "dispCondType": "masterMission",
       "dispTargetId": 94095637,
+      "dispCondType2": "questClear"
+    }, {
+      "id": 916664,
+      "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9166/QMap_Cap9166_Atlas/gimmick_916664.png",
+      "x": 1024,
+      "y": 720,
+      "depthOffset": -1,
+      "scale": 1000,
+      "dispCondType": "itemGet",
+      "dispTargetId": 94095604,
+      "dispTargetValue": 1,
       "dispCondType2": "questClear"
     }],
     "bgm": {
@@ -121133,7 +121197,7 @@
       "closedAt": 1715918399
     }, {
       "id": 94095604,
-      "name": "",
+      "name": "３．温泉では治せない",
       "type": "main",
       "consume": 5,
       "afterClear": "close",
@@ -121151,6 +121215,9 @@
         "num": 1
       }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 94095603
       }, {
@@ -121162,12 +121229,81 @@
         "targetId": 80472012,
         "closedMessage": "ミッションNo.12達成\n＆4月28日18時に開放"
       }, {
-        "type": "forceFalse",
-        "targetId": 0,
-        "closedMessage": "データ更新後に開放"
+        "type": "commonRelease",
+        "targetId": 94095804,
+        "closedMessage": "ミッションNo.13達成で開放"
+      }, {
+        "type": "commonRelease",
+        "targetId": 94095805,
+        "closedMessage": "ミッションNo.14達成で開放"
       }],
       "phases": [1, 2, 3, 4, 5, 6, 7, 8, 9],
+      "phasesWithEnemies": [3, 6],
       "phasesNoBattle": [1, 2, 4, 5, 9],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9409560410",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409560410.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9409560420",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409560420.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9409560430",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409560430.txt"
+        }, {
+          "scriptId": "9409560431",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409560431.txt"
+        }]
+      }, {
+        "phase": 4,
+        "scripts": [{
+          "scriptId": "9409560440",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409560440.txt"
+        }]
+      }, {
+        "phase": 5,
+        "scripts": [{
+          "scriptId": "9409560450",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409560450.txt"
+        }]
+      }, {
+        "phase": 6,
+        "scripts": [{
+          "scriptId": "9409560460",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409560460.txt"
+        }]
+      }, {
+        "phase": 7,
+        "scripts": [{
+          "scriptId": "9409560470",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409560470.txt"
+        }, {
+          "scriptId": "9409560471",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409560471.txt"
+        }]
+      }, {
+        "phase": 8,
+        "scripts": [{
+          "scriptId": "9409560480",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409560480.txt"
+        }, {
+          "scriptId": "9409560481",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409560481.txt"
+        }]
+      }, {
+        "phase": 9,
+        "scripts": [{
+          "scriptId": "9409560490",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409560490.txt"
+        }]
+      }],
       "priority": 94095996,
       "noticeAt": 1714208400,
       "openedAt": 1714294800,
@@ -121192,7 +121328,36 @@
     "y": 680,
     "nameOfsY": -9,
     "questOfsX": 31,
-    "questOfsY": -76
+    "questOfsY": -76,
+    "quests": [{
+      "id": 94095706,
+      "name": "隈乃温泉十怪談 その陸 狂信の人形師",
+      "type": "event",
+      "flags": ["displayLoopmark", "notDisplayResultGetPoint"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "70",
+      "spotId": 916606,
+      "warId": 9166,
+      "gifts": [{
+        "id": 12000,
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94095604
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "priority": 94095895,
+      "noticeAt": 1714294800,
+      "openedAt": 1714294800,
+      "closedAt": 1715918399
+    }]
   }, {
     "id": 916607,
     "mapId": 9166,
@@ -121212,7 +121377,49 @@
     "y": 877,
     "nameOfsY": -28,
     "questOfsX": 38,
-    "questOfsY": -96
+    "questOfsY": -96,
+    "quests": [{
+      "id": 94095605,
+      "name": "",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "50",
+      "spotId": 916608,
+      "warId": 9166,
+      "gifts": [{
+        "id": 94095702,
+        "type": "servant",
+        "objectId": 9809270,
+        "num": 1
+      }, {
+        "id": 94095702,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94095604
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "eventMissionAchieve",
+        "targetId": 80472015,
+        "closedMessage": "ミッションNo.15達成\n＆4月29日18時に開放"
+      }, {
+        "type": "forceFalse",
+        "targetId": 0,
+        "closedMessage": "データ更新後に開放"
+      }],
+      "phases": [1, 2, 3, 4, 5, 6, 7, 8, 9],
+      "phasesNoBattle": [1, 2, 3, 4, 5, 6, 8, 9],
+      "priority": 94095995,
+      "noticeAt": 1714294800,
+      "openedAt": 1714381200,
+      "closedAt": 1715918399
+    }]
   }, {
     "id": 916609,
     "mapId": 9166,
@@ -121264,6 +121471,26 @@
     "questOfsX": 31,
     "questOfsY": -92
   }, {
+    "id": 916611,
+    "mapId": 9166,
+    "name": "お土産売り場",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9166/QMap_Cap9166_Atlas/spot_916611.png",
+    "x": 1270,
+    "y": 841,
+    "nameOfsY": -15,
+    "questOfsX": 32,
+    "questOfsY": -87
+  }, {
+    "id": 916612,
+    "mapId": 9166,
+    "name": "逆写しの間",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9166/QMap_Cap9166_Atlas/spot_916612.png",
+    "x": 1226,
+    "y": 598,
+    "nameOfsY": -5,
+    "questOfsX": 46,
+    "questOfsY": -73
+  }, {
     "id": 916616,
     "mapId": 9166,
     "name": "隈乃温泉入口",
@@ -121294,6 +121521,16 @@
     "questOfsX": 39,
     "questOfsY": -71
   }, {
+    "id": 916619,
+    "mapId": 9166,
+    "name": "逆写しの間",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9166/QMap_Cap9166_Atlas/spot_916619.png",
+    "x": 1226,
+    "y": 598,
+    "nameOfsY": -5,
+    "questOfsX": 46,
+    "questOfsY": -73
+  }, {
     "id": 916620,
     "mapId": 9166,
     "name": "不浄な森",
@@ -121314,11 +121551,12 @@
       "spotId": 916620,
       "warId": 9166,
       "releaseConditions": [{
-        "type": "questClear",
-        "targetId": 94095602
-      }, {
         "type": "date",
         "targetId": 0
+      }, {
+        "type": "questClearPhase",
+        "targetId": 94095602,
+        "value": 1
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -121337,11 +121575,12 @@
       "spotId": 916620,
       "warId": 9166,
       "releaseConditions": [{
-        "type": "questClear",
-        "targetId": 94095602
-      }, {
         "type": "date",
         "targetId": 0
+      }, {
+        "type": "questClearPhase",
+        "targetId": 94095602,
+        "value": 1
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -121360,11 +121599,12 @@
       "spotId": 916620,
       "warId": 9166,
       "releaseConditions": [{
-        "type": "questClear",
-        "targetId": 94095602
-      }, {
         "type": "date",
         "targetId": 0
+      }, {
+        "type": "questClearPhase",
+        "targetId": 94095602,
+        "value": 1
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -121714,6 +121954,86 @@
     "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9166/QMap_Cap9166_Atlas/img_road9166_00.png",
     "srcSpotId": 916610,
     "dstSpotId": 916604,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "questClear"
+  }, {
+    "id": 916615,
+    "warId": 9166,
+    "mapId": 9166,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9166/QMap_Cap9166_Atlas/img_road9166_00.png",
+    "srcSpotId": 916604,
+    "dstSpotId": 916611,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "questClear"
+  }, {
+    "id": 916616,
+    "warId": 9166,
+    "mapId": 9166,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9166/QMap_Cap9166_Atlas/img_road9166_00.png",
+    "srcSpotId": 916611,
+    "dstSpotId": 916601,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "questClear"
+  }, {
+    "id": 916617,
+    "warId": 9166,
+    "mapId": 9166,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9166/QMap_Cap9166_Atlas/img_road9166_00.png",
+    "srcSpotId": 916601,
+    "dstSpotId": 916612,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "questClear"
+  }, {
+    "id": 916618,
+    "warId": 9166,
+    "mapId": 9166,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9166/QMap_Cap9166_Atlas/img_road9166_00.png",
+    "srcSpotId": 916612,
+    "dstSpotId": 916604,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "questClear"
+  }, {
+    "id": 916619,
+    "warId": 9166,
+    "mapId": 9166,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9166/QMap_Cap9166_Atlas/img_road9166_00.png",
+    "srcSpotId": 916604,
+    "dstSpotId": 916606,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "questClear"
+  }, {
+    "id": 916620,
+    "warId": 9166,
+    "mapId": 9166,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9166/QMap_Cap9166_Atlas/img_road9166_00.png",
+    "srcSpotId": 916606,
+    "dstSpotId": 916602,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "questClear"
+  }, {
+    "id": 916621,
+    "warId": 9166,
+    "mapId": 9166,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9166/QMap_Cap9166_Atlas/img_road9166_00.png",
+    "srcSpotId": 916602,
+    "dstSpotId": 916604,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "questClear"
+  }, {
+    "id": 916625,
+    "warId": 9166,
+    "mapId": 9166,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9166/QMap_Cap9166_Atlas/img_road9166_00.png",
+    "srcSpotId": 916608,
+    "dstSpotId": 916612,
     "dispCondType": "useItemTime",
     "dispCondType2": "useItemTime",
     "activeCondType": "questClear"
