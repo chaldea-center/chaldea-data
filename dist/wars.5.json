@@ -121238,7 +121238,7 @@
         "closedMessage": "ミッションNo.14達成で開放"
       }],
       "phases": [1, 2, 3, 4, 5, 6, 7, 8, 9],
-      "phasesWithEnemies": [3, 6],
+      "phasesWithEnemies": [3, 6, 7, 8],
       "phasesNoBattle": [1, 2, 4, 5, 9],
       "phaseScripts": [{
         "phase": 1,
@@ -121353,6 +121353,7 @@
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94095895,
       "noticeAt": 1714294800,
       "openedAt": 1714294800,
@@ -121642,7 +121643,80 @@
     "y": 241,
     "nameOfsY": -21,
     "questOfsX": 34,
-    "questOfsY": -83
+    "questOfsY": -83,
+    "quests": [{
+      "id": 94095804,
+      "name": "【怪異大量発生中！】白煙を舞い上げる翼 淀ミ級",
+      "type": "event",
+      "flags": ["displayLoopmark", "notDisplayResultGetPoint"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "40",
+      "spotId": 916624,
+      "warId": 9166,
+      "releaseConditions": [{
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "questClearPhase",
+        "targetId": 94095602,
+        "value": 1
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94095797,
+      "noticeAt": 1714309200,
+      "openedAt": 1714309200,
+      "closedAt": 1714316399
+    }, {
+      "id": 94095805,
+      "name": "【怪異大量発生中！】白煙を舞い上げる翼 穢レ級",
+      "type": "event",
+      "flags": ["displayLoopmark", "notDisplayResultGetPoint"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "70",
+      "spotId": 916624,
+      "warId": 9166,
+      "releaseConditions": [{
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "questClearPhase",
+        "targetId": 94095602,
+        "value": 1
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94095796,
+      "noticeAt": 1714309200,
+      "openedAt": 1714309200,
+      "closedAt": 1714316399
+    }, {
+      "id": 94095806,
+      "name": "【怪異大量発生中！】白煙を舞い上げる翼 蝕ミ級",
+      "type": "event",
+      "flags": ["displayLoopmark", "notDisplayResultGetPoint"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90",
+      "spotId": 916624,
+      "warId": 9166,
+      "releaseConditions": [{
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "questClearPhase",
+        "targetId": 94095602,
+        "value": 1
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94095795,
+      "noticeAt": 1714309200,
+      "openedAt": 1714309200,
+      "closedAt": 1714316399
+    }]
   }, {
     "id": 916625,
     "mapId": 9166,
