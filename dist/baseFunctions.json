@@ -37291,6 +37291,9 @@
     "tvals": [{
       "id": 5000
     }],
+    "ckSelfIndv": [{
+      "id": 4007
+    }],
     "maxRate": 0
   }]
 }, {
@@ -44205,6 +44208,15 @@
     "maxRate": 0
   }]
 }, {
+  "funcId": 21448,
+  "funcType": "subState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "主人公補正解除",
+  "traitVals": [{
+    "id": 2888
+  }]
+}, {
   "funcId": 21449,
   "funcType": "lossHpSafe",
   "funcTargetType": "self",
@@ -46427,6 +46439,30 @@
   "funcTargetTeam": "playerAndEnemy",
   "traitVals": [{
     "id": 2912
+  }]
+}, {
+  "funcId": 21704,
+  "funcType": "addState",
+  "funcTargetType": "enemy",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "攻撃時追加効果",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_549.png",
+  "buffs": [{
+    "id": 5618,
+    "name": "攻撃時追加効果",
+    "detail": "攻撃時、自身のHPが減少する",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_549.png",
+    "type": "attackAfterFunction",
+    "vals": [{
+      "id": 3005
+    }],
+    "tvals": [{
+      "id": 5000
+    }],
+    "ckSelfIndv": [{
+      "id": 4008
+    }],
+    "maxRate": 0
   }]
 }, {
   "funcId": 21716,
