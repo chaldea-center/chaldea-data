@@ -120241,6 +120241,16 @@
       "dispTargetId": 94095606,
       "dispCondType2": "questClear"
     }, {
+      "id": 916577,
+      "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9166/QMap_Cap9166_Atlas/gimmick_916577.png",
+      "x": 1024,
+      "y": 720,
+      "depthOffset": -400,
+      "scale": 1000,
+      "dispCondType": "masterMission",
+      "dispTargetId": 94095607,
+      "dispCondType2": "questClear"
+    }, {
       "id": 916580,
       "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9166/QMap_Cap9166_Atlas/gimmick_916580.png",
       "x": 1024,
@@ -120542,6 +120552,16 @@
       "scale": 1000,
       "dispCondType": "masterMission",
       "dispTargetId": 94095603,
+      "dispCondType2": "questClear"
+    }, {
+      "id": 916630,
+      "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9166/QMap_Cap9166_Atlas/gimmick_916630.png",
+      "x": 1024,
+      "y": 720,
+      "depthOffset": -400,
+      "scale": 1000,
+      "dispCondType": "masterMission",
+      "dispTargetId": 94095604,
       "dispCondType2": "questClear"
     }, {
       "id": 916631,
@@ -121381,7 +121401,7 @@
     "questOfsY": -96,
     "quests": [{
       "id": 94095605,
-      "name": "",
+      "name": "４．そして誰もいなくなったッス",
       "type": "main",
       "consume": 5,
       "afterClear": "close",
@@ -121399,6 +121419,9 @@
         "num": 1
       }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 94095604
       }, {
@@ -121410,15 +121433,116 @@
         "targetId": 80472015,
         "closedMessage": "ミッションNo.15達成\n＆4月29日18時に開放"
       }, {
+        "type": "commonRelease",
+        "targetId": 94095806,
+        "closedMessage": "ミッションNo.16達成で開放"
+      }, {
+        "type": "commonRelease",
+        "targetId": 94095807,
+        "closedMessage": "ミッションNo.17達成で開放"
+      }],
+      "phases": [1, 2, 3, 4, 5, 6, 7, 8, 9],
+      "phasesWithEnemies": [7],
+      "phasesNoBattle": [1, 2, 3, 4, 5, 6, 8, 9],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9409560510",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409560510.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9409560520",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409560520.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9409560530",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409560530.txt"
+        }]
+      }, {
+        "phase": 4,
+        "scripts": [{
+          "scriptId": "9409560540",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409560540.txt"
+        }]
+      }, {
+        "phase": 5,
+        "scripts": [{
+          "scriptId": "9409560550",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409560550.txt"
+        }]
+      }, {
+        "phase": 6,
+        "scripts": [{
+          "scriptId": "9409560560",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409560560.txt"
+        }]
+      }, {
+        "phase": 7,
+        "scripts": [{
+          "scriptId": "9409560570",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409560570.txt"
+        }]
+      }, {
+        "phase": 8,
+        "scripts": [{
+          "scriptId": "9409560580",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409560580.txt"
+        }]
+      }, {
+        "phase": 9,
+        "scripts": [{
+          "scriptId": "9409560590",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409560590.txt"
+        }]
+      }],
+      "priority": 94095995,
+      "noticeAt": 1714294800,
+      "openedAt": 1714381200,
+      "closedAt": 1715918399
+    }, {
+      "id": 94095606,
+      "name": "",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "60",
+      "spotId": 916608,
+      "warId": 9166,
+      "gifts": [{
+        "id": 94095804,
+        "type": "servant",
+        "objectId": 9809260,
+        "num": 1
+      }, {
+        "id": 94095804,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94095605
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "eventMissionAchieve",
+        "targetId": 80472018,
+        "closedMessage": "ミッションNo.18達成\n＆4月30日18時に開放"
+      }, {
         "type": "forceFalse",
         "targetId": 0,
         "closedMessage": "データ更新後に開放"
       }],
-      "phases": [1, 2, 3, 4, 5, 6, 7, 8, 9],
-      "phasesNoBattle": [1, 2, 3, 4, 5, 6, 8, 9],
-      "priority": 94095995,
-      "noticeAt": 1714294800,
-      "openedAt": 1714381200,
+      "phases": [1, 2, 3, 4, 5, 6, 7, 8],
+      "phasesNoBattle": [1, 2, 3, 5, 7, 8],
+      "priority": 94095993,
+      "noticeAt": 1714381200,
+      "openedAt": 1714467600,
       "closedAt": 1715918399
     }]
   }, {
@@ -121490,7 +121614,83 @@
     "y": 598,
     "nameOfsY": -5,
     "questOfsX": 46,
-    "questOfsY": -73
+    "questOfsY": -73,
+    "quests": [{
+      "id": 94095630,
+      "name": "４．そして誰もいなくなったッス",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "50",
+      "spotId": 916612,
+      "warId": 9166,
+      "gifts": [{
+        "id": 94095702,
+        "type": "servant",
+        "objectId": 9809270,
+        "num": 1
+      }, {
+        "id": 94095702,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "questClearPhase",
+        "targetId": 94095605,
+        "value": 2
+      }, {
+        "type": "notQuestClearPhase",
+        "targetId": 94095605,
+        "value": 5
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9409563018",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409563018.txt"
+        }]
+      }],
+      "priority": 94095994,
+      "noticeAt": 1714294800,
+      "openedAt": 1714381200,
+      "closedAt": 1715918399
+    }, {
+      "id": 94095707,
+      "name": "隈乃温泉十怪談 その漆 鏡の中の彼女",
+      "type": "event",
+      "flags": ["displayLoopmark", "notDisplayResultGetPoint"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "80",
+      "spotId": 916612,
+      "warId": 9166,
+      "gifts": [{
+        "id": 12000,
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "questClearPhase",
+        "targetId": 94095605,
+        "value": 7
+      }],
+      "phases": [1],
+      "priority": 94095894,
+      "noticeAt": 1714381200,
+      "openedAt": 1714381200,
+      "closedAt": 1715918399
+    }]
   }, {
     "id": 916616,
     "mapId": 9166,
@@ -121621,6 +121821,16 @@
     "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9166/QMap_Cap9166_Atlas/spot_916605.png",
     "x": 569,
     "y": 616,
+    "nameOfsY": -19,
+    "questOfsX": 27,
+    "questOfsY": -74
+  }, {
+    "id": 916622,
+    "mapId": 9166,
+    "name": "2階廊下",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9166/QMap_Cap9166_Atlas/spot_916605.png",
+    "x": 790,
+    "y": 679,
     "nameOfsY": -19,
     "questOfsX": 27,
     "questOfsY": -74
@@ -121774,6 +121984,16 @@
     "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9166/QMap_Cap9166_Atlas/spot_916605.png",
     "x": 953,
     "y": 763,
+    "nameOfsY": -19,
+    "questOfsX": 27,
+    "questOfsY": -74
+  }, {
+    "id": 916631,
+    "mapId": 9166,
+    "name": "5階廊下",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9166/QMap_Cap9166_Atlas/spot_916605.png",
+    "x": 790,
+    "y": 557,
     "nameOfsY": -19,
     "questOfsX": 27,
     "questOfsY": -74
@@ -122102,6 +122322,36 @@
     "dispCondType2": "useItemTime",
     "activeCondType": "questClear"
   }, {
+    "id": 916622,
+    "warId": 9166,
+    "mapId": 9166,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9166/QMap_Cap9166_Atlas/img_road9166_00.png",
+    "srcSpotId": 916608,
+    "dstSpotId": 916622,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "questClear"
+  }, {
+    "id": 916623,
+    "warId": 9166,
+    "mapId": 9166,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9166/QMap_Cap9166_Atlas/img_road9166_00.png",
+    "srcSpotId": 916622,
+    "dstSpotId": 916631,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "questClear"
+  }, {
+    "id": 916624,
+    "warId": 9166,
+    "mapId": 9166,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9166/QMap_Cap9166_Atlas/img_road9166_00.png",
+    "srcSpotId": 916631,
+    "dstSpotId": 916604,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "questClear"
+  }, {
     "id": 916625,
     "warId": 9166,
     "mapId": 9166,
@@ -122178,6 +122428,26 @@
     "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9166/QMap_Cap9166_Atlas/img_road9166_00.png",
     "srcSpotId": 916604,
     "dstSpotId": 916607,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "questClear"
+  }, {
+    "id": 916637,
+    "warId": 9166,
+    "mapId": 9166,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9166/QMap_Cap9166_Atlas/img_road9166_00.png",
+    "srcSpotId": 916631,
+    "dstSpotId": 916612,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "questClear"
+  }, {
+    "id": 916638,
+    "warId": 9166,
+    "mapId": 9166,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9166/QMap_Cap9166_Atlas/img_road9166_00.png",
+    "srcSpotId": 916604,
+    "dstSpotId": 916612,
     "dispCondType": "useItemTime",
     "dispCondType2": "useItemTime",
     "activeCondType": "questClear"
