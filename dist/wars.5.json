@@ -121686,6 +121686,7 @@
         "value": 7
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94095894,
       "noticeAt": 1714381200,
       "openedAt": 1714381200,
@@ -121936,7 +121937,80 @@
     "y": 1020,
     "nameOfsY": -21,
     "questOfsX": 34,
-    "questOfsY": -83
+    "questOfsY": -83,
+    "quests": [{
+      "id": 94095807,
+      "name": "【怪異大量発生中！】彷徨うは意思なき妖 淀ミ級",
+      "type": "event",
+      "flags": ["displayLoopmark", "notDisplayResultGetPoint"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "40",
+      "spotId": 916625,
+      "warId": 9166,
+      "releaseConditions": [{
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "questClearPhase",
+        "targetId": 94095602,
+        "value": 1
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94095794,
+      "noticeAt": 1714392000,
+      "openedAt": 1714392000,
+      "closedAt": 1714399199
+    }, {
+      "id": 94095808,
+      "name": "【怪異大量発生中！】彷徨うは意思なき妖 穢レ級",
+      "type": "event",
+      "flags": ["displayLoopmark", "notDisplayResultGetPoint"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "70",
+      "spotId": 916625,
+      "warId": 9166,
+      "releaseConditions": [{
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "questClearPhase",
+        "targetId": 94095602,
+        "value": 1
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94095793,
+      "noticeAt": 1714392000,
+      "openedAt": 1714392000,
+      "closedAt": 1714399199
+    }, {
+      "id": 94095809,
+      "name": "【怪異大量発生中！】彷徨うは意思なき妖 蝕ミ級",
+      "type": "event",
+      "flags": ["displayLoopmark", "notDisplayResultGetPoint"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90",
+      "spotId": 916625,
+      "warId": 9166,
+      "releaseConditions": [{
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "questClearPhase",
+        "targetId": 94095602,
+        "value": 1
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94095792,
+      "noticeAt": 1714392000,
+      "openedAt": 1714392000,
+      "closedAt": 1714399199
+    }]
   }, {
     "id": 916626,
     "mapId": 9166,
