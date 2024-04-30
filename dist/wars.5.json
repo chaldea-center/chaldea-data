@@ -121505,7 +121505,7 @@
       "closedAt": 1715918399
     }, {
       "id": 94095606,
-      "name": "",
+      "name": "５．名探偵一刀両断",
       "type": "main",
       "consume": 5,
       "afterClear": "close",
@@ -121523,6 +121523,9 @@
         "num": 1
       }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 94095605
       }, {
@@ -121534,15 +121537,107 @@
         "targetId": 80472018,
         "closedMessage": "ミッションNo.18達成\n＆4月30日18時に開放"
       }, {
+        "type": "commonRelease",
+        "targetId": 94095808,
+        "closedMessage": "ミッションNo.19達成で開放"
+      }],
+      "phases": [1, 2, 3, 4, 5, 6, 7, 8],
+      "phasesWithEnemies": [4, 6],
+      "phasesNoBattle": [1, 2, 3, 5, 7, 8],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9409560610",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409560610.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9409560620",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409560620.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9409560630",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409560630.txt"
+        }]
+      }, {
+        "phase": 4,
+        "scripts": [{
+          "scriptId": "9409560640",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409560640.txt"
+        }]
+      }, {
+        "phase": 5,
+        "scripts": [{
+          "scriptId": "9409560650",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409560650.txt"
+        }]
+      }, {
+        "phase": 6,
+        "scripts": [{
+          "scriptId": "9409560660",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409560660.txt"
+        }]
+      }, {
+        "phase": 7,
+        "scripts": [{
+          "scriptId": "9409560670",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409560670.txt"
+        }]
+      }, {
+        "phase": 8,
+        "scripts": [{
+          "scriptId": "9409560680",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409560680.txt"
+        }]
+      }],
+      "priority": 94095993,
+      "noticeAt": 1714381200,
+      "openedAt": 1714467600,
+      "closedAt": 1715918399
+    }, {
+      "id": 94095607,
+      "name": "",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 916608,
+      "warId": 9166,
+      "gifts": [{
+        "id": 94095804,
+        "type": "servant",
+        "objectId": 9809260,
+        "num": 1
+      }, {
+        "id": 94095804,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94095606
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "eventMissionAchieve",
+        "targetId": 80472020,
+        "closedMessage": "ミッションNo.20達成\n＆5月1日18時に開放"
+      }, {
         "type": "forceFalse",
         "targetId": 0,
         "closedMessage": "データ更新後に開放"
       }],
-      "phases": [1, 2, 3, 4, 5, 6, 7, 8],
-      "phasesNoBattle": [1, 2, 3, 5, 7, 8],
-      "priority": 94095993,
-      "noticeAt": 1714381200,
-      "openedAt": 1714467600,
+      "phases": [1, 2, 3],
+      "phasesNoBattle": [1, 2, 3],
+      "priority": 94095992,
+      "noticeAt": 1714467600,
+      "openedAt": 1714554000,
       "closedAt": 1715918399
     }]
   }, {
@@ -121690,6 +121785,45 @@
       "priority": 94095894,
       "noticeAt": 1714381200,
       "openedAt": 1714381200,
+      "closedAt": 1715918399
+    }]
+  }, {
+    "id": 916613,
+    "mapId": 9166,
+    "name": "椿の間",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9166/QMap_Cap9166_Atlas/spot_916613.png",
+    "x": 848,
+    "y": 678,
+    "nameOfsY": -7,
+    "questOfsX": 39,
+    "questOfsY": -69,
+    "quests": [{
+      "id": 94095708,
+      "name": "隈乃温泉十怪談 その捌 納期に囚われし魂",
+      "type": "event",
+      "flags": ["displayLoopmark", "notDisplayResultGetPoint"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "85",
+      "spotId": 916613,
+      "warId": 9166,
+      "gifts": [{
+        "id": 12000,
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94095606
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "priority": 94095893,
+      "noticeAt": 1714467600,
+      "openedAt": 1714467600,
       "closedAt": 1715918399
     }]
   }, {
@@ -122063,6 +122197,16 @@
     "questOfsY": -74
   }, {
     "id": 916631,
+    "mapId": 9166,
+    "name": "5階廊下",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9166/QMap_Cap9166_Atlas/spot_916605.png",
+    "x": 790,
+    "y": 557,
+    "nameOfsY": -19,
+    "questOfsX": 27,
+    "questOfsY": -74
+  }, {
+    "id": 916632,
     "mapId": 9166,
     "name": "5階廊下",
     "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9166/QMap_Cap9166_Atlas/spot_916605.png",
@@ -122472,6 +122616,26 @@
     "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9166/QMap_Cap9166_Atlas/img_road9166_00.png",
     "srcSpotId": 916605,
     "dstSpotId": 916603,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "questClear"
+  }, {
+    "id": 916630,
+    "warId": 9166,
+    "mapId": 9166,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9166/QMap_Cap9166_Atlas/img_road9166_00.png",
+    "srcSpotId": 916603,
+    "dstSpotId": 916613,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "questClear"
+  }, {
+    "id": 916631,
+    "warId": 9166,
+    "mapId": 9166,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9166/QMap_Cap9166_Atlas/img_road9166_00.png",
+    "srcSpotId": 916613,
+    "dstSpotId": 916607,
     "dispCondType": "useItemTime",
     "dispCondType2": "useItemTime",
     "activeCondType": "questClear"
