@@ -44129,6 +44129,44 @@
     "maxRate": 0
   }]
 }, {
+  "funcId": 21418,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "即死時ガッツ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_402.png",
+  "buffs": [{
+    "id": 5559,
+    "name": "即死時ガッツ",
+    "detail": "即死効果を受けた時、HPを回復して耐える",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_402.png",
+    "type": "guts",
+    "buffGroup": 5559,
+    "script": {
+      "INDIVIDUALITIE": {
+        "id": 3086,
+        "negative": true
+      }
+    },
+    "originalScript": {
+      "INDIVIDUALITIE": -3086,
+      "DisplayPriority": 600
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3024
+    }, {
+      "id": 2914
+    }],
+    "ckOpIndv": [{
+      "id": 3096
+    }, {
+      "id": 3097
+    }],
+    "maxRate": 0
+  }]
+}, {
   "funcId": 21422,
   "funcType": "addStateShort",
   "funcTargetType": "self",
@@ -44149,6 +44187,96 @@
     }],
     "maxRate": 0
   }]
+}, {
+  "funcId": 21425,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "functvals": [{
+    "id": 2913
+  }, {
+    "id": 2887,
+    "negative": true
+  }],
+  "buffs": [{
+    "id": 5561,
+    "name": "コマドリカウンター",
+    "detail": "スキル〔駒鳥の殺人〕の残り使用可能回数を表す",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_401.png",
+    "type": "addIndividuality",
+    "buffGroup": 5561,
+    "originalScript": {
+      "DisplayPriority": 500
+    },
+    "vals": [{
+      "id": 2886
+    }],
+    "maxRate": 0
+  }]
+}, {
+  "funcId": 21426,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_401.png",
+  "buffs": [{
+    "id": 5562,
+    "name": "",
+    "detail": "",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_511.png",
+    "type": "donotSkillSelect",
+    "script": {
+      "INDIVIDUALITIE": {
+        "id": 2887
+      }
+    },
+    "originalScript": {
+      "INDIVIDUALITIE": 2887
+    },
+    "maxRate": 0
+  }]
+}, {
+  "funcId": 21427,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "buffs": [{
+    "id": 5563,
+    "name": "",
+    "detail": "",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_331.png",
+    "type": "continueFunction",
+    "maxRate": 0
+  }]
+}, {
+  "funcId": 21428,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "身代わり",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_400.png",
+  "buffs": [{
+    "id": 5564,
+    "name": "身代わり",
+    "detail": "無敵貫通を無視して、攻撃によるダメージを0にする(強化解除で解除不能)",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_400.png",
+    "type": "specialInvincible",
+    "buffGroup": 5564,
+    "originalScript": {
+      "effectText": "身代わり"
+    },
+    "vals": [{
+      "id": 3099
+    }],
+    "maxRate": 0
+  }]
+}, {
+  "funcId": 21429,
+  "funcType": "shortenBuffcount",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "コマドリカウンター回数減少",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_401.png"
 }, {
   "funcId": 21440,
   "funcType": "gainMultiplyNp",
@@ -44180,6 +44308,99 @@
       "id": 3021
     }, {
       "id": 3007
+    }],
+    "maxRate": 0
+  }]
+}, {
+  "funcId": 21443,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "functvals": [{
+    "id": 2913
+  }],
+  "buffs": [{
+    "id": 5561,
+    "name": "コマドリカウンター",
+    "detail": "スキル〔駒鳥の殺人〕の残り使用可能回数を表す",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_401.png",
+    "type": "addIndividuality",
+    "buffGroup": 5561,
+    "originalScript": {
+      "DisplayPriority": 500
+    },
+    "vals": [{
+      "id": 2886
+    }],
+    "maxRate": 0
+  }]
+}, {
+  "funcId": 21444,
+  "funcType": "subState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "traitVals": [{
+    "id": 2886
+  }]
+}, {
+  "funcId": 21445,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "ダメージカット",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_301.png",
+  "buffs": [{
+    "id": 5568,
+    "name": "ダメージカット",
+    "detail": "宝具以外の攻撃による被ダメージを減らす",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_301.png",
+    "type": "subSelfdamage",
+    "script": {
+      "checkIndvType": 2
+    },
+    "originalScript": {
+      "checkIndvType": 2
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3007
+    }, {
+      "id": 3085
+    }, {
+      "id": 3040
+    }],
+    "tvals": [{
+      "id": 4007,
+      "negative": true
+    }],
+    "ckOpIndv": [{
+      "id": 4007,
+      "negative": true
+    }],
+    "maxRate": 0
+  }]
+}, {
+  "funcId": 21446,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_301.png",
+  "buffs": [{
+    "id": 5569,
+    "name": "",
+    "detail": "",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_301.png",
+    "type": "subFuncHpReduce",
+    "vals": [{
+      "id": 3004
+    }],
+    "ckSelfIndv": [{
+      "id": 3011
+    }, {
+      "id": 3015
+    }, {
+      "id": 3026
     }],
     "maxRate": 0
   }]
@@ -46311,6 +46532,200 @@
     "id": 2911
   }]
 }, {
+  "funcId": 21675,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "buffs": [{
+    "id": 5598,
+    "name": "",
+    "detail": "",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_520.png",
+    "type": "overwriteSubattribute",
+    "buffGroup": 2000,
+    "script": {
+      "INDIVIDUALITIE": {
+        "id": 2903
+      }
+    },
+    "originalScript": {
+      "INDIVIDUALITIE": 2903
+    },
+    "vals": [{
+      "id": 3095
+    }],
+    "maxRate": 0
+  }]
+}, {
+  "funcId": 21676,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "buffs": [{
+    "id": 5599,
+    "name": "",
+    "detail": "",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_520.png",
+    "type": "addIndividuality",
+    "script": {
+      "INDIVIDUALITIE": {
+        "id": 2903
+      }
+    },
+    "originalScript": {
+      "INDIVIDUALITIE": 2903
+    },
+    "vals": [{
+      "id": 3095
+    }],
+    "maxRate": 0
+  }]
+}, {
+  "funcId": 21677,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "buffs": [{
+    "id": 5600,
+    "name": "",
+    "detail": "",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_520.png",
+    "type": "subIndividuality",
+    "script": {
+      "INDIVIDUALITIE": {
+        "id": 2903
+      }
+    },
+    "originalScript": {
+      "INDIVIDUALITIE": 2903
+    },
+    "vals": [{
+      "id": 3095
+    }],
+    "maxRate": 0
+  }]
+}, {
+  "funcId": 21678,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "buffs": [{
+    "id": 5601,
+    "name": "",
+    "detail": "",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_365.png",
+    "type": "gutsFunction",
+    "vals": [{
+      "id": 3004
+    }],
+    "maxRate": 0
+  }]
+}, {
+  "funcId": 21680,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "攻撃力アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_300.png",
+  "funcquestTvals": [{
+    "id": 2073
+  }, {
+    "id": 2392
+  }, {
+    "id": 2884
+  }],
+  "buffs": [{
+    "id": 5602,
+    "name": "攻撃力アップ",
+    "detail": "〔森〕〔都市〕〔暗闇〕のフィールドにおいてのみ、攻撃力をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_300.png",
+    "type": "upAtk",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3027
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 21683,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "防御力アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_301.png",
+  "funcquestTvals": [{
+    "id": 2073
+  }, {
+    "id": 2392
+  }, {
+    "id": 2884
+  }],
+  "buffs": [{
+    "id": 5603,
+    "name": "防御力アップ",
+    "detail": "〔森〕〔都市〕〔暗闇〕のフィールドにおいてのみ、防御力をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_301.png",
+    "type": "upDefence",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3007
+    }, {
+      "id": 3040
+    }, {
+      "id": 3058
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 21686,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "弱体無効",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_322.png",
+  "buffs": [{
+    "id": 5605,
+    "name": "弱体無効",
+    "detail": "〔身代わり〕状態が付与されている間、弱体を受けなくなる",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_322.png",
+    "type": "avoidState",
+    "script": {
+      "INDIVIDUALITIE": {
+        "id": 3099
+      }
+    },
+    "originalScript": {
+      "INDIVIDUALITIE": 3099
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3061
+    }],
+    "tvals": [{
+      "id": 3005
+    }],
+    "ckOpIndv": [{
+      "id": 3005
+    }],
+    "maxRate": 0
+  }]
+}, {
+  "funcId": 21687,
+  "funcType": "displayBuffstring",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "スキル3使用不能",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_511.png",
+  "functvals": [{
+    "id": 2886,
+    "negative": true
+  }]
+}, {
   "funcId": 21688,
   "funcType": "addStateShort",
   "funcTargetType": "self",
@@ -46475,6 +46890,98 @@
       "id": 3098
     }]
   }
+}, {
+  "funcId": 21717,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "buffs": [{
+    "id": 5629,
+    "name": "",
+    "detail": "",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_520.png",
+    "type": "addIndividuality",
+    "script": {
+      "INDIVIDUALITIE": {
+        "id": 2886,
+        "negative": true
+      }
+    },
+    "originalScript": {
+      "INDIVIDUALITIE": -2886
+    },
+    "maxRate": 0
+  }]
+}, {
+  "funcId": 21718,
+  "funcType": "subState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "traitVals": [{
+    "id": 2914
+  }]
+}, {
+  "funcId": 21719,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "enemy",
+  "buffs": [{
+    "id": 5630,
+    "name": "",
+    "detail": "",
+    "type": "attackBeforeFunction",
+    "script": {
+      "INDIVIDUALITIE": {
+        "id": 2885
+      }
+    },
+    "originalScript": {
+      "INDIVIDUALITIE": 2885
+    },
+    "tvals": [{
+      "id": 5000
+    }],
+    "ckSelfIndv": [{
+      "id": 4004
+    }],
+    "maxRate": 0
+  }]
+}, {
+  "funcId": 21720,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "enemy",
+  "buffs": [{
+    "id": 5631,
+    "name": "",
+    "detail": "",
+    "type": "attackAfterFunction",
+    "tvals": [{
+      "id": 5000
+    }],
+    "ckSelfIndv": [{
+      "id": 4004
+    }],
+    "maxRate": 0
+  }]
+}, {
+  "funcId": 21721,
+  "funcType": "servantFriendshipUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "なし",
+  "functvals": [{
+    "id": 2903
+  }],
+  "funcGroup": [{
+    "eventId": 80044,
+    "baseFuncId": 0,
+    "nameTotal": "{1}\n得られる自身の絆ボーナス合計",
+    "name": "得られる自身の絆アップ",
+    "icon": "https://static.atlasacademy.io/JP/EventUI/func_group_icon_1009.png",
+    "priority": 1,
+    "isDispValue": true
+  }]
 }, {
   "funcId": 30003,
   "funcType": "addStateShort",

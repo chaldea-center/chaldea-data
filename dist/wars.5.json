@@ -120134,6 +120134,46 @@
     "value": 3,
     "startedAt": 1714129200,
     "endedAt": 1893423600
+  }, {
+    "warId": 9166,
+    "type": "baseMapId",
+    "priority": 2,
+    "overwriteId": 9167,
+    "condType": "questClearPhase",
+    "targetId": 94095609,
+    "value": 1,
+    "startedAt": 1714129200,
+    "endedAt": 1893423600
+  }, {
+    "warId": 9166,
+    "type": "flag",
+    "priority": 3,
+    "overwriteId": 16779296,
+    "condType": "questClearPhase",
+    "targetId": 94095610,
+    "value": 1,
+    "startedAt": 1714129200,
+    "endedAt": 1893423600
+  }, {
+    "warId": 9166,
+    "type": "baseMapId",
+    "priority": 3,
+    "overwriteId": 9166,
+    "condType": "questClearPhase",
+    "targetId": 94095609,
+    "value": 6,
+    "startedAt": 1714129200,
+    "endedAt": 1893423600
+  }, {
+    "warId": 9166,
+    "type": "flag",
+    "priority": 4,
+    "overwriteId": 16779298,
+    "condType": "questClearPhase",
+    "targetId": 94095610,
+    "value": 2,
+    "startedAt": 1714129200,
+    "endedAt": 1893423600
   }],
   "maps": [{
     "id": 9166,
@@ -120574,6 +120614,17 @@
       "dispTargetId": 94095624,
       "dispCondType2": "questClear"
     }, {
+      "id": 916634,
+      "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9166/QMap_Cap9166_Atlas/gimmick_916634.png",
+      "x": 1024,
+      "y": 720,
+      "depthOffset": -400,
+      "scale": 1000,
+      "dispCondType": "itemGet",
+      "dispTargetId": 94095610,
+      "dispTargetValue": 2,
+      "dispCondType2": "questClear"
+    }, {
       "id": 916635,
       "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9166/QMap_Cap9166_Atlas/gimmick_916635.png",
       "x": 1024,
@@ -120858,6 +120909,70 @@
     "bgm": {
       "id": 0
     }
+  }, {
+    "id": 9167,
+    "mapImage": "https://static.atlasacademy.io/JP/Terminal/MapImgs/img_questmap_009168/img_questmap_009168.png",
+    "mapImageW": 2048,
+    "mapImageH": 1440,
+    "mapGimmicks": [{
+      "id": 916578,
+      "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9166/QMap_Cap9166_Atlas/gimmick_916578.png",
+      "x": 1024,
+      "y": 720,
+      "depthOffset": -800,
+      "scale": 1000,
+      "dispCondType": "itemGet",
+      "dispTargetId": 94095609,
+      "dispTargetValue": 1,
+      "dispCondType2": "questClear"
+    }, {
+      "id": 916579,
+      "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9166/QMap_Cap9166_Atlas/gimmick_916579.png",
+      "x": 1024,
+      "y": 720,
+      "depthOffset": -900,
+      "scale": 1000,
+      "dispCondType": "itemGet",
+      "dispTargetId": 94095609,
+      "dispTargetValue": 1,
+      "dispCondType2": "questClear"
+    }, {
+      "id": 916632,
+      "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9166/QMap_Cap9166_Atlas/gimmick_916632.png",
+      "x": 1024,
+      "y": 720,
+      "depthOffset": -1,
+      "scale": 1000,
+      "dispCondType": "itemGet",
+      "dispTargetId": 94095609,
+      "dispTargetValue": 1,
+      "dispCondType2": "questClear"
+    }, {
+      "id": 916647,
+      "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9166/QMap_Cap9166_Atlas/gimmick_916647.png",
+      "x": 1024,
+      "y": 720,
+      "depthOffset": -790,
+      "scale": 1000,
+      "dispCondType": "itemGet",
+      "dispTargetId": 94095609,
+      "dispTargetValue": 1,
+      "dispCondType2": "questClear"
+    }, {
+      "id": 916648,
+      "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9166/QMap_Cap9166_Atlas/gimmick_916648.png",
+      "x": 1024,
+      "y": 720,
+      "depthOffset": -890,
+      "scale": 1000,
+      "dispCondType": "itemGet",
+      "dispTargetId": 94095609,
+      "dispTargetValue": 1,
+      "dispCondType2": "questClear"
+    }],
+    "bgm": {
+      "id": 0
+    }
   }],
   "spots": [{
     "id": 916601,
@@ -120998,6 +121113,43 @@
       "priority": 94095897,
       "noticeAt": 1714129200,
       "openedAt": 1714129200,
+      "closedAt": 1715918399
+    }, {
+      "id": 94095902,
+      "name": "【大怪異出現！】悪い小人に惑わされ",
+      "type": "event",
+      "flags": ["notDisplayResultGetPoint"],
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "90",
+      "spotId": 916602,
+      "warId": 9166,
+      "gifts": [{
+        "id": 94096002,
+        "type": "servant",
+        "objectId": 9809260,
+        "num": 1
+      }, {
+        "id": 94096002,
+        "objectId": 6546,
+        "num": 5
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94095610
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "eventMissionAchieve",
+        "targetId": 80472022,
+        "closedMessage": "ミッションNo.22達成で開放"
+      }],
+      "phases": [1],
+      "priority": 94095699,
+      "noticeAt": 1714554000,
+      "openedAt": 1714554000,
       "closedAt": 1715918399
     }]
   }, {
@@ -121328,6 +121480,112 @@
       "noticeAt": 1714208400,
       "openedAt": 1714294800,
       "closedAt": 1715918399
+    }, {
+      "id": 94095608,
+      "name": "６．あなたがここにいる理由（後編）",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 916604,
+      "warId": 9166,
+      "gifts": [{
+        "id": 94095804,
+        "type": "servant",
+        "objectId": 9809260,
+        "num": 1
+      }, {
+        "id": 94095804,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94095607
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1, 2, 3, 4],
+      "phasesNoBattle": [1, 2, 3, 4],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9409560810",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409560810.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9409560820",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409560820.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9409560830",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409560830.txt"
+        }]
+      }, {
+        "phase": 4,
+        "scripts": [{
+          "scriptId": "9409560840",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409560840.txt"
+        }]
+      }],
+      "priority": 94095991,
+      "noticeAt": 1714467600,
+      "openedAt": 1714554000,
+      "closedAt": 1715918399
+    }, {
+      "id": 94095610,
+      "name": "８．やがて、星は願いに",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 916604,
+      "warId": 9166,
+      "gifts": [{
+        "id": 94095804,
+        "type": "servant",
+        "objectId": 9809260,
+        "num": 1
+      }, {
+        "id": 94095804,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94095609
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1, 2],
+      "phasesNoBattle": [1, 2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9409561010",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409561010.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9409561020",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409561020.txt"
+        }]
+      }],
+      "priority": 94095989,
+      "noticeAt": 1714467600,
+      "openedAt": 1714554000,
+      "closedAt": 1715918399
     }]
   }, {
     "id": 916605,
@@ -121388,7 +121646,73 @@
     "y": 792,
     "nameOfsY": -1,
     "questOfsX": 35,
-    "questOfsY": -78
+    "questOfsY": -78,
+    "quests": [{
+      "id": 94095710,
+      "name": "隈乃温泉十怪談 その什 崇め奉るは新たな牛",
+      "type": "event",
+      "flags": ["displayLoopmark", "notDisplayResultGetPoint"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90+",
+      "spotId": 916607,
+      "warId": 9166,
+      "gifts": [{
+        "id": 327,
+        "objectId": 3,
+        "num": 100
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94095610
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "priority": 94095892,
+      "noticeAt": 1714554000,
+      "openedAt": 1714554000,
+      "closedAt": 1715918399
+    }, {
+      "id": 94095903,
+      "name": "【大怪異出現！】呪われし16人の魂",
+      "type": "event",
+      "flags": ["notDisplayResultGetPoint"],
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "90",
+      "spotId": 916607,
+      "warId": 9166,
+      "gifts": [{
+        "id": 94096003,
+        "type": "servant",
+        "objectId": 9809260,
+        "num": 1
+      }, {
+        "id": 94096003,
+        "objectId": 6531,
+        "num": 5
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94095610
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "eventMissionAchieve",
+        "targetId": 80472023,
+        "closedMessage": "ミッションNo.23達成で開放"
+      }],
+      "phases": [1],
+      "priority": 94095698,
+      "noticeAt": 1714554000,
+      "openedAt": 1714554000,
+      "closedAt": 1715918399
+    }]
   }, {
     "id": 916608,
     "mapId": 9166,
@@ -121599,7 +121923,7 @@
       "closedAt": 1715918399
     }, {
       "id": 94095607,
-      "name": "",
+      "name": "６．あなたがここにいる理由（前編）",
       "type": "main",
       "flags": ["noBattle"],
       "consume": 0,
@@ -121618,6 +121942,9 @@
         "num": 1
       }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 94095606
       }, {
@@ -121628,13 +121955,28 @@
         "type": "eventMissionAchieve",
         "targetId": 80472020,
         "closedMessage": "ミッションNo.20達成\n＆5月1日18時に開放"
-      }, {
-        "type": "forceFalse",
-        "targetId": 0,
-        "closedMessage": "データ更新後に開放"
       }],
       "phases": [1, 2, 3],
       "phasesNoBattle": [1, 2, 3],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9409560710",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409560710.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9409560720",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409560720.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9409560730",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409560730.txt"
+        }]
+      }],
       "priority": 94095992,
       "noticeAt": 1714467600,
       "openedAt": 1714554000,
@@ -121689,7 +122031,109 @@
     "y": 323,
     "nameOfsY": -29,
     "questOfsX": 31,
-    "questOfsY": -92
+    "questOfsY": -92,
+    "quests": [{
+      "id": 94095711,
+      "name": "隈乃温泉十怪談 その零 百怪夜行決起会",
+      "type": "event",
+      "flags": ["displayLoopmark", "notDisplayResultGetPoint"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90++",
+      "spotId": 916610,
+      "warId": 9166,
+      "gifts": [{
+        "id": 337,
+        "objectId": 3,
+        "num": 200
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94095610
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "priority": 94095891,
+      "noticeAt": 1714554000,
+      "openedAt": 1714554000,
+      "closedAt": 1715918399
+    }, {
+      "id": 94095901,
+      "name": "【大怪異出現！】舌斬りの悪狐",
+      "type": "event",
+      "flags": ["notDisplayResultGetPoint"],
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "90",
+      "spotId": 916610,
+      "warId": 9166,
+      "gifts": [{
+        "id": 94096001,
+        "type": "servant",
+        "objectId": 9809260,
+        "num": 1
+      }, {
+        "id": 94096001,
+        "objectId": 6528,
+        "num": 5
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94095610
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "eventMissionAchieve",
+        "targetId": 80472021,
+        "closedMessage": "ミッションNo.21達成で開放"
+      }],
+      "phases": [1],
+      "priority": 94095700,
+      "noticeAt": 1714554000,
+      "openedAt": 1714554000,
+      "closedAt": 1715918399
+    }, {
+      "id": 94096001,
+      "name": "【高難易度】Extra Magic Number !",
+      "type": "event",
+      "flags": ["dropFirstTimeOnly", "notRetrievable", "notDisplayResultGetPoint"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "90+",
+      "spotId": 916610,
+      "warId": 9166,
+      "gifts": [{
+        "id": 21701,
+        "objectId": 6999,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 1000822,
+        "closedMessage": "終局特異点クリア\n＆ミッションNo.100達成で開放"
+      }, {
+        "type": "questClear",
+        "targetId": 94095610
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "eventMissionAchieve",
+        "targetId": 80472100,
+        "closedMessage": "ミッションNo.100達成で開放"
+      }],
+      "phases": [1],
+      "priority": 94095600,
+      "noticeAt": 1714554000,
+      "openedAt": 1714554000,
+      "closedAt": 1715918399
+    }]
   }, {
     "id": 916611,
     "mapId": 9166,
@@ -121825,6 +122269,160 @@
       "priority": 94095893,
       "noticeAt": 1714467600,
       "openedAt": 1714467600,
+      "closedAt": 1715918399
+    }]
+  }, {
+    "id": 916614,
+    "mapId": 9166,
+    "name": "裏庭",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9166/QMap_Cap9166_Atlas/spot_916614.png",
+    "x": 433,
+    "y": 674,
+    "nameOfsY": -7,
+    "questOfsX": 34,
+    "questOfsY": -63,
+    "quests": [{
+      "id": 94095609,
+      "name": "７．星は願いに",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "70",
+      "spotId": 916614,
+      "warId": 9166,
+      "gifts": [{
+        "id": 94095804,
+        "type": "servant",
+        "objectId": 9809260,
+        "num": 1
+      }, {
+        "id": 94095804,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94095608
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1, 2, 3, 4, 5, 6],
+      "phasesWithEnemies": [2, 5],
+      "phasesNoBattle": [1, 3, 4, 6],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9409560910",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409560910.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9409560920",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409560920.txt"
+        }, {
+          "scriptId": "9409560921",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409560921.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9409560930",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409560930.txt"
+        }]
+      }, {
+        "phase": 4,
+        "scripts": [{
+          "scriptId": "9409560940",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409560940.txt"
+        }]
+      }, {
+        "phase": 5,
+        "scripts": [{
+          "scriptId": "9409560950",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409560950.txt"
+        }]
+      }, {
+        "phase": 6,
+        "scripts": [{
+          "scriptId": "9409560960",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409560960.txt"
+        }]
+      }],
+      "priority": 94095990,
+      "noticeAt": 1714467600,
+      "openedAt": 1714554000,
+      "closedAt": 1715918399
+    }, {
+      "id": 94095709,
+      "name": "隈乃温泉十怪談 その玖 神隠しの裏山",
+      "type": "event",
+      "flags": ["displayLoopmark", "notDisplayResultGetPoint"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90",
+      "spotId": 916614,
+      "warId": 9166,
+      "gifts": [{
+        "id": 12000,
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94095608
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94095893,
+      "noticeAt": 1714554000,
+      "openedAt": 1714554000,
+      "closedAt": 1715918399
+    }]
+  }, {
+    "id": 916615,
+    "mapId": 9167,
+    "name": "クレーター",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9166/QMap_Cap9166_Atlas/spot_916615.png",
+    "x": 1024,
+    "y": 1004,
+    "nameOfsY": -3,
+    "questOfsX": 41,
+    "questOfsY": -57,
+    "quests": [{
+      "id": 94095904,
+      "name": "【超高難易度】オンリーワン／ナンバーワン・シャイニースター",
+      "type": "event",
+      "flags": ["dropFirstTimeOnly", "notRetrievable", "notDisplayResultGetPoint"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "90++",
+      "spotId": 916615,
+      "warId": 9166,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/3.png",
+      "gifts": [{
+        "id": 20058,
+        "objectId": 7999,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94096001
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "priority": 94095697,
+      "noticeAt": 1714554000,
+      "openedAt": 1714554000,
       "closedAt": 1715918399
     }]
   }, {
@@ -122740,6 +123338,26 @@
     "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9166/QMap_Cap9166_Atlas/img_road9166_00.png",
     "srcSpotId": 916604,
     "dstSpotId": 916607,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "questClear"
+  }, {
+    "id": 916635,
+    "warId": 9166,
+    "mapId": 9166,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9166/QMap_Cap9166_Atlas/img_road9166_00.png",
+    "srcSpotId": 916607,
+    "dstSpotId": 916614,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "questClear"
+  }, {
+    "id": 916636,
+    "warId": 9166,
+    "mapId": 9166,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9166/QMap_Cap9166_Atlas/img_road9166_00.png",
+    "srcSpotId": 916614,
+    "dstSpotId": 916611,
     "dispCondType": "useItemTime",
     "dispCondType2": "useItemTime",
     "activeCondType": "questClear"
