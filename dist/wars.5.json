@@ -121147,6 +121147,7 @@
         "closedMessage": "ミッションNo.22達成で開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94095699,
       "noticeAt": 1714554000,
       "openedAt": 1714554000,
@@ -121671,6 +121672,7 @@
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94095892,
       "noticeAt": 1714554000,
       "openedAt": 1714554000,
@@ -121708,6 +121710,7 @@
         "closedMessage": "ミッションNo.23達成で開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94095698,
       "noticeAt": 1714554000,
       "openedAt": 1714554000,
@@ -122056,6 +122059,7 @@
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94095891,
       "noticeAt": 1714554000,
       "openedAt": 1714554000,
@@ -122093,6 +122097,7 @@
         "closedMessage": "ミッションNo.21達成で開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94095700,
       "noticeAt": 1714554000,
       "openedAt": 1714554000,
@@ -122129,6 +122134,7 @@
         "closedMessage": "ミッションNo.100達成で開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94095600,
       "noticeAt": 1714554000,
       "openedAt": 1714554000,
@@ -122420,6 +122426,7 @@
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94095697,
       "noticeAt": 1714554000,
       "openedAt": 1714554000,
@@ -122836,7 +122843,79 @@
     "y": 389,
     "nameOfsY": -21,
     "questOfsX": 34,
-    "questOfsY": -83
+    "questOfsY": -83,
+    "quests": [{
+      "id": 94095813,
+      "name": "【怪異大量発生中！】廻り蠢く呪物と共に 淀ミ級",
+      "type": "event",
+      "flags": ["displayLoopmark", "notDisplayResultGetPoint"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "40",
+      "spotId": 916627,
+      "warId": 9166,
+      "releaseConditions": [{
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "questClearPhase",
+        "targetId": 94095602,
+        "value": 1
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94095788,
+      "noticeAt": 1714561200,
+      "openedAt": 1714561200,
+      "closedAt": 1714568399
+    }, {
+      "id": 94095814,
+      "name": "【怪異大量発生中！】廻り蠢く呪物と共に 穢レ級",
+      "type": "event",
+      "flags": ["displayLoopmark", "notDisplayResultGetPoint"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "70",
+      "spotId": 916627,
+      "warId": 9166,
+      "releaseConditions": [{
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "questClearPhase",
+        "targetId": 94095602,
+        "value": 1
+      }],
+      "phases": [1],
+      "priority": 94095787,
+      "noticeAt": 1714561200,
+      "openedAt": 1714561200,
+      "closedAt": 1714568399
+    }, {
+      "id": 94095815,
+      "name": "【怪異大量発生中！】廻り蠢く呪物と共に 蝕ミ級",
+      "type": "event",
+      "flags": ["displayLoopmark", "notDisplayResultGetPoint"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90",
+      "spotId": 916627,
+      "warId": 9166,
+      "releaseConditions": [{
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "questClearPhase",
+        "targetId": 94095602,
+        "value": 1
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94095786,
+      "noticeAt": 1714561200,
+      "openedAt": 1714561200,
+      "closedAt": 1714568399
+    }]
   }, {
     "id": 916628,
     "mapId": 9166,
