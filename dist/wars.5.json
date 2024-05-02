@@ -121199,6 +121199,16 @@
         "targetId": 94095802,
         "closedMessage": "ミッションNo.9達成で開放"
       }],
+      "presents": [{
+        "phase": 2,
+        "gifts": [{
+          "id": 94095703,
+          "type": "eventSvtGet",
+          "objectId": 704900,
+          "num": 1
+        }],
+        "giftIcon": "https://static.atlasacademy.io/JP/Items/3.png"
+      }],
       "phases": [1, 2, 3, 4, 5, 6, 7, 8],
       "phasesNoBattle": [1, 2, 3, 4, 5, 6, 7, 8],
       "phaseScripts": [{
@@ -121567,6 +121577,15 @@
         "type": "date",
         "targetId": 0,
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "presents": [{
+        "phase": 1,
+        "gifts": [{
+          "id": 94095802,
+          "objectId": 7999,
+          "num": 1
+        }],
+        "giftIcon": "https://static.atlasacademy.io/JP/Items/3.png"
       }],
       "phases": [1, 2],
       "phasesNoBattle": [1, 2],
@@ -122926,7 +122945,78 @@
     "y": 813,
     "nameOfsY": -21,
     "questOfsX": 34,
-    "questOfsY": -83
+    "questOfsY": -83,
+    "quests": [{
+      "id": 94095816,
+      "name": "【怪異大量発生中！】異形異類も温浴したい 淀ミ級",
+      "type": "event",
+      "flags": ["displayLoopmark", "notDisplayResultGetPoint"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "40",
+      "spotId": 916628,
+      "warId": 9166,
+      "releaseConditions": [{
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "questClearPhase",
+        "targetId": 94095602,
+        "value": 1
+      }],
+      "phases": [1],
+      "priority": 94095785,
+      "noticeAt": 1714651200,
+      "openedAt": 1714651200,
+      "closedAt": 1714658399
+    }, {
+      "id": 94095817,
+      "name": "【怪異大量発生中！】異形異類も温浴したい 穢レ級",
+      "type": "event",
+      "flags": ["displayLoopmark", "notDisplayResultGetPoint"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "70",
+      "spotId": 916628,
+      "warId": 9166,
+      "releaseConditions": [{
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "questClearPhase",
+        "targetId": 94095602,
+        "value": 1
+      }],
+      "phases": [1],
+      "priority": 94095784,
+      "noticeAt": 1714651200,
+      "openedAt": 1714651200,
+      "closedAt": 1714658399
+    }, {
+      "id": 94095818,
+      "name": "【怪異大量発生中！】異形異類も温浴したい 蝕ミ級",
+      "type": "event",
+      "flags": ["displayLoopmark", "notDisplayResultGetPoint"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90",
+      "spotId": 916628,
+      "warId": 9166,
+      "releaseConditions": [{
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "questClearPhase",
+        "targetId": 94095602,
+        "value": 1
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94095783,
+      "noticeAt": 1714651200,
+      "openedAt": 1714651200,
+      "closedAt": 1714658399
+    }]
   }, {
     "id": 916629,
     "mapId": 9166,
