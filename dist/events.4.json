@@ -110127,24 +110127,12 @@
   "warIds": [9166],
   "svts": [{
     "svtId": 704900,
-    "script": {
-      "isProtectedDuringEvent": true
-    },
-    "originalScript": {
-      "isProtectedDuringEvent": 1
-    },
     "type": "directJoin",
     "getMessage": "静希草十郎が\n加入しました。\n\nなおイベントで特定のミッションを\nさらにクリアすることで\n宝具Lv.を上げる\n宝具強化専用霊基が手に入ります。",
     "startedAt": 1714129200,
     "endedAt": 1715918399
   }, {
     "svtId": 704901,
-    "script": {
-      "isProtectedDuringEvent": true
-    },
-    "originalScript": {
-      "isProtectedDuringEvent": 1
-    },
     "getMessage": "静希草十郎の\n宝具強化専用霊基を手に入れました。\n\n宝具強化専用霊基を使うと\n宝具Lv.を上げることができます。\nサーヴァント宝具強化で、サーヴァントの宝具Lv.を上げましょう！\n\n宝具強化専用霊基は\n強化対象とすることやクエストに同行させることはできません。",
     "startedAt": 1714129200,
     "endedAt": 1715918399
@@ -111011,10 +110999,6 @@
     "guides": [{
       "imageId": 109829600,
       "image": "https://static.atlasacademy.io/JP/CharaFigure/1098296000/1098296000_merged.png"
-    }, {
-      "imageId": 2501400,
-      "image": "https://static.atlasacademy.io/JP/CharaFigure/25014000/25014000_merged.png",
-      "faceId": 25
     }],
     "tabOnImage": "https://static.atlasacademy.io/JP/EventReward/btn_txt_on_80472_1.png",
     "tabOffImage": "https://static.atlasacademy.io/JP/EventReward/btn_txt_off_80472_1.png",
@@ -115420,6 +115404,7 @@
       "condType": "eventEnd",
       "priority": 6990,
       "svtVoiceType": "eventReward",
+      "overwriteName": "魔法使いの夜アフターナイト 1",
       "id": ["0_N010"],
       "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_704900/0_N010.mp3"],
       "delay": [0.0],
@@ -115433,6 +115418,7 @@
       "condType": "eventEnd",
       "priority": 6980,
       "svtVoiceType": "eventReward",
+      "overwriteName": "魔法使いの夜アフターナイト 2",
       "id": ["0_N020", "0_N021", "0_N022"],
       "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_704900/0_N020.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_704900/0_N021.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_704900/0_N022.mp3"],
       "delay": [0.0, 0.1, 0.1],
@@ -115446,6 +115432,7 @@
       "condType": "eventEnd",
       "priority": 6970,
       "svtVoiceType": "eventReward",
+      "overwriteName": "魔法使いの夜アフターナイト 3",
       "id": ["0_N030", "0_N031", "0_N032"],
       "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_704900/0_N030.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_704900/0_N031.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_704900/0_N032.mp3"],
       "delay": [0.0, 0.1, 0.3],
@@ -115459,6 +115446,7 @@
       "condType": "eventEnd",
       "priority": 6950,
       "svtVoiceType": "eventReward",
+      "overwriteName": "魔法使いの夜アフターナイト 4",
       "id": ["0_N050", "0_N051"],
       "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_704900/0_N050.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_704900/0_N051.mp3"],
       "delay": [0.0, 0.1],
@@ -115468,10 +115456,39 @@
         "value": 80472
       }]
     }, {
+      "name": "イベントについて 6",
+      "condType": "eventEnd",
+      "priority": 6940,
+      "svtVoiceType": "eventReward",
+      "overwriteName": "魔法使いの夜アフターナイト 5",
+      "id": ["0_N060", "0_N061", "0_N062", "0_N063", "0_N064"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_704900/0_N060.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_704900/0_N061.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_704900/0_N062.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_704900/0_N063.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_704900/0_N064.mp3"],
+      "delay": [0.0, 0.1, 0.1, 0.1, 0.1],
+      "face": [2, 7, 2, 15, 6],
+      "conds": [{
+        "condType": "eventEnd",
+        "value": 80472
+      }]
+    }, {
+      "name": "イベントについて 7",
+      "condType": "eventEnd",
+      "priority": 6930,
+      "svtVoiceType": "eventReward",
+      "overwriteName": "魔法使いの夜アフターナイト 6",
+      "id": ["0_N070", "0_N071", "0_N072", "0_N073"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_704900/0_N070.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_704900/0_N071.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_704900/0_N072.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_704900/0_N073.mp3"],
+      "delay": [0.0, 0.1, 0.1, 0.1],
+      "face": [2, 17, 6, 2],
+      "conds": [{
+        "condType": "eventEnd",
+        "value": 80472
+      }]
+    }, {
       "name": "ミッションについて 1",
       "condType": "eventEnd",
       "priority": 6890,
       "svtVoiceType": "eventReward",
+      "overwriteName": "魔法使いの夜アフターナイト 7",
       "id": ["0_M010", "0_M011"],
       "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_704900/0_M010.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_704900/0_M011.mp3"],
       "delay": [0.0, 0.1],
@@ -115485,6 +115502,7 @@
       "condType": "eventEnd",
       "priority": 6880,
       "svtVoiceType": "eventReward",
+      "overwriteName": "魔法使いの夜アフターナイト 8",
       "id": ["0_M020", "0_M021"],
       "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_704900/0_M020.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_704900/0_M021.mp3"],
       "delay": [0.0, 0.1],
@@ -115498,6 +115516,7 @@
       "condType": "eventEnd",
       "priority": 6870,
       "svtVoiceType": "eventReward",
+      "overwriteName": "魔法使いの夜アフターナイト 9",
       "id": ["0_M030", "0_M031"],
       "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_704900/0_M030.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_704900/0_M031.mp3"],
       "delay": [0.0, 0.1],
@@ -115511,6 +115530,7 @@
       "condType": "eventEnd",
       "priority": 6860,
       "svtVoiceType": "eventReward",
+      "overwriteName": "魔法使いの夜アフターナイト 10",
       "id": ["0_M040"],
       "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_704900/0_M040.mp3"],
       "delay": [0.0],
@@ -115524,6 +115544,7 @@
       "condType": "eventEnd",
       "priority": 6850,
       "svtVoiceType": "eventReward",
+      "overwriteName": "魔法使いの夜アフターナイト 11",
       "id": ["0_M050"],
       "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_704900/0_M050.mp3"],
       "delay": [0.0],
@@ -115537,6 +115558,7 @@
       "condType": "eventEnd",
       "priority": 6840,
       "svtVoiceType": "eventReward",
+      "overwriteName": "魔法使いの夜アフターナイト 12",
       "id": ["0_M060", "0_M061", "0_M062"],
       "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_704900/0_M060.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_704900/0_M061.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_704900/0_M062.mp3"],
       "delay": [0.0, 0.1, 0.3],
@@ -115557,6 +115579,7 @@
       "condType": "eventEnd",
       "priority": 6830,
       "svtVoiceType": "eventReward",
+      "overwriteName": "魔法使いの夜アフターナイト 13",
       "id": ["0_M070", "0_M071", "0_M072"],
       "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_704900/0_M070.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_704900/0_M071.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_704900/0_M072.mp3"],
       "delay": [0.0, 0.1, 0.1],
@@ -115581,6 +115604,7 @@
       "condType": "eventEnd",
       "priority": 6990,
       "svtVoiceType": "eventReward",
+      "overwriteName": "魔法使いの夜アフターナイト 1",
       "id": ["0_N010", "0_N011"],
       "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_2501400/0_N010.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_2501400/0_N011.mp3"],
       "delay": [0.0, 0.1],
@@ -115594,6 +115618,7 @@
       "condType": "eventEnd",
       "priority": 6980,
       "svtVoiceType": "eventReward",
+      "overwriteName": "魔法使いの夜アフターナイト 2",
       "id": ["0_N020", "0_N021", "0_N022"],
       "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_2501400/0_N020.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_2501400/0_N021.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_2501400/0_N022.mp3"],
       "delay": [0.0, 0.1, 0.1],
@@ -115607,6 +115632,7 @@
       "condType": "eventEnd",
       "priority": 6970,
       "svtVoiceType": "eventReward",
+      "overwriteName": "魔法使いの夜アフターナイト 3",
       "id": ["0_N030", "0_N031", "0_N032"],
       "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_2501400/0_N030.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_2501400/0_N031.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_2501400/0_N032.mp3"],
       "delay": [0.0, 0.1, 0.1],
@@ -115620,6 +115646,7 @@
       "condType": "eventEnd",
       "priority": 6950,
       "svtVoiceType": "eventReward",
+      "overwriteName": "魔法使いの夜アフターナイト 4",
       "id": ["0_N050", "0_N051", "0_N052"],
       "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_2501400/0_N050.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_2501400/0_N051.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_2501400/0_N052.mp3"],
       "delay": [0.0, 0.1, 0.1],
@@ -115629,10 +115656,39 @@
         "value": 80472
       }]
     }, {
+      "name": "イベントについて 6",
+      "condType": "eventEnd",
+      "priority": 6940,
+      "svtVoiceType": "eventReward",
+      "overwriteName": "魔法使いの夜アフターナイト 5",
+      "id": ["0_N060", "0_N061", "0_N062", "0_N063"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_2501400/0_N060.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_2501400/0_N061.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_2501400/0_N062.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_2501400/0_N063.mp3"],
+      "delay": [0.0, 0.1, 0.1, 0.1],
+      "face": [1, 13, 0, 2],
+      "conds": [{
+        "condType": "eventEnd",
+        "value": 80472
+      }]
+    }, {
+      "name": "イベントについて 7",
+      "condType": "eventEnd",
+      "priority": 6930,
+      "svtVoiceType": "eventReward",
+      "overwriteName": "魔法使いの夜アフターナイト 6",
+      "id": ["0_N070", "0_N071", "0_N072", "0_N073", "0_N074"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_2501400/0_N070.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_2501400/0_N071.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_2501400/0_N072.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_2501400/0_N073.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_2501400/0_N074.mp3"],
+      "delay": [0.0, 0.3, 0.1, 0.1, 0.1],
+      "face": [32, 25, 7, 4, 29],
+      "conds": [{
+        "condType": "eventEnd",
+        "value": 80472
+      }]
+    }, {
       "name": "ミッションについて 1",
       "condType": "eventEnd",
       "priority": 6890,
       "svtVoiceType": "eventReward",
+      "overwriteName": "魔法使いの夜アフターナイト 7",
       "id": ["0_M010", "0_M011"],
       "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_2501400/0_M010.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_2501400/0_M011.mp3"],
       "delay": [0.0, 0.1],
@@ -115646,6 +115702,7 @@
       "condType": "eventEnd",
       "priority": 6880,
       "svtVoiceType": "eventReward",
+      "overwriteName": "魔法使いの夜アフターナイト 8",
       "id": ["0_M020", "0_M021"],
       "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_2501400/0_M020.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_2501400/0_M021.mp3"],
       "delay": [0.0, 0.1],
@@ -115659,6 +115716,7 @@
       "condType": "eventEnd",
       "priority": 6870,
       "svtVoiceType": "eventReward",
+      "overwriteName": "魔法使いの夜アフターナイト 9",
       "id": ["0_M030", "0_M031"],
       "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_2501400/0_M030.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_2501400/0_M031.mp3"],
       "delay": [0.0, 0.1],
@@ -115672,6 +115730,7 @@
       "condType": "eventEnd",
       "priority": 6860,
       "svtVoiceType": "eventReward",
+      "overwriteName": "魔法使いの夜アフターナイト 10",
       "id": ["0_M040"],
       "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_2501400/0_M040.mp3"],
       "delay": [0.0],
@@ -115685,6 +115744,7 @@
       "condType": "eventEnd",
       "priority": 6850,
       "svtVoiceType": "eventReward",
+      "overwriteName": "魔法使いの夜アフターナイト 11",
       "id": ["0_M050"],
       "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_2501400/0_M050.mp3"],
       "delay": [0.0],
@@ -115698,6 +115758,7 @@
       "condType": "eventEnd",
       "priority": 6840,
       "svtVoiceType": "eventReward",
+      "overwriteName": "魔法使いの夜アフターナイト 12",
       "id": ["0_M060"],
       "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_2501400/0_M060.mp3"],
       "delay": [0.0],
@@ -115718,6 +115779,7 @@
       "condType": "eventEnd",
       "priority": 6830,
       "svtVoiceType": "eventReward",
+      "overwriteName": "魔法使いの夜アフターナイト 13",
       "id": ["0_M070", "0_M071", "0_M072", "0_M073"],
       "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_2501400/0_M070.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_2501400/0_M071.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_2501400/0_M072.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_2501400/0_M073.mp3"],
       "delay": [0.0, 0.1, 0.3, 0.1],
@@ -115738,10 +115800,11 @@
       "condType": "eventEnd",
       "priority": 6820,
       "svtVoiceType": "eventReward",
-      "id": ["0_M080", "0_M081", "0_M082"],
-      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_2501400/0_M080.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_2501400/0_M081.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_2501400/0_M082.mp3"],
-      "delay": [0.0, 0.1, 0.1],
-      "face": [2, 1, 9],
+      "overwriteName": "魔法使いの夜アフターナイト 14",
+      "id": ["0_M080"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_2501400/0_M080.mp3"],
+      "delay": [0.0],
+      "face": [2],
       "conds": [{
         "condType": "eventMissionAction",
         "value": 80472
@@ -115755,6 +115818,7 @@
       "condType": "eventEnd",
       "priority": 6490,
       "svtVoiceType": "eventShop",
+      "overwriteName": "魔法使いの夜アフターナイト 15",
       "id": ["0_I010", "0_I011", "0_I012", "0_I013"],
       "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_2501400/0_I010.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_2501400/0_I011.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_2501400/0_I012.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_2501400/0_I013.mp3"],
       "delay": [0.0, 0.1, 0.1, 0.1],
@@ -115768,6 +115832,7 @@
       "condType": "eventEnd",
       "priority": 6480,
       "svtVoiceType": "eventShop",
+      "overwriteName": "魔法使いの夜アフターナイト 16",
       "id": ["0_I020", "0_I021", "0_I022"],
       "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_2501400/0_I020.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_2501400/0_I021.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_2501400/0_I022.mp3"],
       "delay": [0.0, 0.1, 0.3],
@@ -115781,6 +115846,7 @@
       "condType": "eventEnd",
       "priority": 6470,
       "svtVoiceType": "eventShop",
+      "overwriteName": "魔法使いの夜アフターナイト 17",
       "id": ["0_I030", "0_I031"],
       "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_2501400/0_I030.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_2501400/0_I031.mp3"],
       "delay": [0.0, 0.1],
@@ -115797,6 +115863,7 @@
       "condType": "eventEnd",
       "priority": 6460,
       "svtVoiceType": "eventShop",
+      "overwriteName": "魔法使いの夜アフターナイト 18",
       "id": ["0_I040", "0_I041"],
       "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_2501400/0_I040.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_2501400/0_I041.mp3"],
       "delay": [0.0, 0.3],
@@ -115813,6 +115880,7 @@
       "condType": "eventEnd",
       "priority": 6450,
       "svtVoiceType": "eventShop",
+      "overwriteName": "魔法使いの夜アフターナイト 19",
       "id": ["0_I050", "0_I051"],
       "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_2501400/0_I050.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_2501400/0_I051.mp3"],
       "delay": [0.0, 0.1],
@@ -115833,7 +115901,7 @@
       "condType": "eventEnd",
       "priority": 6490,
       "svtVoiceType": "eventShop",
-      "overwriteName": "魔法使いの夜 アフターナイト 1",
+      "overwriteName": "魔法使いの夜アフターナイト 1",
       "id": ["0_I010", "0_I011"],
       "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_109829600/0_I010.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109829600/0_I011.mp3"],
       "delay": [0.0, 0.1],
@@ -115847,7 +115915,7 @@
       "condType": "eventEnd",
       "priority": 6480,
       "svtVoiceType": "eventShop",
-      "overwriteName": "魔法使いの夜 アフターナイト 2",
+      "overwriteName": "魔法使いの夜アフターナイト 2",
       "id": ["0_I020", "0_I021", "0_I022"],
       "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_109829600/0_I020.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109829600/0_I021.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109829600/0_I022.mp3"],
       "delay": [0.0, 0.1, 0.1],
@@ -115861,7 +115929,7 @@
       "condType": "eventEnd",
       "priority": 6470,
       "svtVoiceType": "eventShop",
-      "overwriteName": "魔法使いの夜 アフターナイト 3",
+      "overwriteName": "魔法使いの夜アフターナイト 3",
       "id": ["0_I030", "0_I031", "0_I032"],
       "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_109829600/0_I030.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109829600/0_I031.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109829600/0_I032.mp3"],
       "delay": [0.0, 0.1, 0.1],
@@ -115876,7 +115944,7 @@
       "condType": "eventEnd",
       "priority": 6460,
       "svtVoiceType": "eventShop",
-      "overwriteName": "魔法使いの夜 アフターナイト 4",
+      "overwriteName": "魔法使いの夜アフターナイト 4",
       "id": ["0_I040"],
       "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_109829600/0_I040.mp3"],
       "delay": [0.0],
@@ -115893,7 +115961,7 @@
       "condType": "eventEnd",
       "priority": 6450,
       "svtVoiceType": "eventShop",
-      "overwriteName": "魔法使いの夜 アフターナイト 5",
+      "overwriteName": "魔法使いの夜アフターナイト 5",
       "id": ["0_I050"],
       "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_109829600/0_I050.mp3"],
       "delay": [0.0],
@@ -115910,7 +115978,7 @@
       "condType": "eventEnd",
       "priority": 6440,
       "svtVoiceType": "eventShop",
-      "overwriteName": "魔法使いの夜 アフターナイト 6",
+      "overwriteName": "魔法使いの夜アフターナイト 6",
       "id": ["0_I060"],
       "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_109829600/0_I060.mp3"],
       "delay": [0.0],
@@ -115927,7 +115995,7 @@
       "condType": "eventEnd",
       "priority": 6430,
       "svtVoiceType": "eventShop",
-      "overwriteName": "魔法使いの夜 アフターナイト 7",
+      "overwriteName": "魔法使いの夜アフターナイト 7",
       "id": ["0_I070", "0_I071", "0_I072"],
       "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_109829600/0_I070.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109829600/0_I071.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109829600/0_I072.mp3"],
       "delay": [0.0, 0.3, 0.1],
@@ -115952,7 +116020,7 @@
       "condType": "eventEnd",
       "priority": 6420,
       "svtVoiceType": "eventShop",
-      "overwriteName": "魔法使いの夜 アフターナイト 8",
+      "overwriteName": "魔法使いの夜アフターナイト 8",
       "id": ["0_I080", "0_I081"],
       "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_109829600/0_I080.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109829600/0_I081.mp3"],
       "delay": [0.0, 0.1],
@@ -115972,6 +116040,35 @@
         "condValue": 0,
         "condValues": [0]
       }]
+    }, {
+      "name": "ショップついて 9",
+      "condType": "eventEnd",
+      "priority": 6410,
+      "svtVoiceType": "eventShop",
+      "overwriteName": "魔法使いの夜アフターナイト 9",
+      "id": ["0_I090", "0_I091", "0_I092", "0_I093", "0_I094"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_109829600/0_I090.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109829600/0_I091.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109829600/0_I092.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109829600/0_I093.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109829600/0_I094.mp3"],
+      "delay": [0.0, 0.1, 0.3, 0.1, 0.1],
+      "face": [0, 18, 20, 1, 6],
+      "conds": [{
+        "condType": "eventEnd",
+        "value": 80472
+      }]
+    }, {
+      "name": "ショップついて 10",
+      "condType": "eventEnd",
+      "priority": 6400,
+      "svtVoiceType": "eventShop",
+      "overwriteName": "魔法使いの夜アフターナイト 10",
+      "id": ["0_I100", "0_I101", "0_I102", "0_I103"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_109829600/0_I100.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109829600/0_I101.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109829600/0_I102.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109829600/0_I103.mp3"],
+      "delay": [0.0, 0.1, 0.1, 0.1],
+      "face": [0, 0, 0, 0],
+      "form": [2, 2, 2, 3],
+      "conds": [{
+        "condType": "eventEnd",
+        "value": 80472
+      }]
     }]
   }, {
     "svtId": 109829780,
@@ -115981,6 +116078,7 @@
       "condType": "eventEnd",
       "priority": 6990,
       "svtVoiceType": "eventReward",
+      "overwriteName": "魔法使いの夜アフターナイト 11",
       "id": ["0_N010", "0_N011", "0_N012"],
       "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_109829780/0_N010.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109829780/0_N011.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109829780/0_N012.mp3"],
       "delay": [0.0, 0.1, 0.1],
@@ -115994,6 +116092,7 @@
       "condType": "eventEnd",
       "priority": 6980,
       "svtVoiceType": "eventReward",
+      "overwriteName": "魔法使いの夜アフターナイト 12",
       "id": ["0_N020", "0_N021"],
       "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_109829780/0_N020.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109829780/0_N021.mp3"],
       "delay": [0.0, 0.1],
@@ -116008,6 +116107,7 @@
       "condType": "eventEnd",
       "priority": 6970,
       "svtVoiceType": "eventReward",
+      "overwriteName": "魔法使いの夜アフターナイト 13",
       "id": ["0_N030", "0_N031", "0_N032"],
       "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_109829780/0_N030.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109829780/0_N031.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109829780/0_N032.mp3"],
       "delay": [0.0, 0.3, 0.1],
@@ -116021,6 +116121,7 @@
       "condType": "eventEnd",
       "priority": 6950,
       "svtVoiceType": "eventReward",
+      "overwriteName": "魔法使いの夜アフターナイト 14",
       "id": ["0_N050", "0_N051", "0_N052"],
       "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_109829780/0_N050.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109829780/0_N051.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109829780/0_N052.mp3"],
       "delay": [0.0, 0.3, 0.1],
@@ -116031,10 +116132,25 @@
         "value": 80472
       }]
     }, {
+      "name": "イベントについて 6",
+      "condType": "eventEnd",
+      "priority": 6940,
+      "svtVoiceType": "eventReward",
+      "overwriteName": "魔法使いの夜アフターナイト 15",
+      "id": ["0_N060", "0_N061", "0_N062"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_109829780/0_N060.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109829780/0_N061.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109829780/0_N062.mp3"],
+      "delay": [0.0, 0.1, 0.1],
+      "face": [0, 0, 0],
+      "conds": [{
+        "condType": "eventEnd",
+        "value": 80472
+      }]
+    }, {
       "name": "ミッションについて 1",
       "condType": "eventEnd",
       "priority": 6890,
       "svtVoiceType": "eventReward",
+      "overwriteName": "魔法使いの夜アフターナイト 16",
       "id": ["0_M010", "0_M011"],
       "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_109829780/0_M010.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109829780/0_M011.mp3"],
       "delay": [0.0, 0.1],
@@ -116048,6 +116164,7 @@
       "condType": "eventEnd",
       "priority": 6880,
       "svtVoiceType": "eventReward",
+      "overwriteName": "魔法使いの夜アフターナイト 17",
       "id": ["0_M020", "0_M021"],
       "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_109829780/0_M020.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109829780/0_M021.mp3"],
       "delay": [0.0, 0.1],
@@ -116061,6 +116178,7 @@
       "condType": "eventEnd",
       "priority": 6870,
       "svtVoiceType": "eventReward",
+      "overwriteName": "魔法使いの夜アフターナイト 18",
       "id": ["0_M030", "0_M031"],
       "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_109829780/0_M030.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109829780/0_M031.mp3"],
       "delay": [0.0, 0.1],
@@ -116074,6 +116192,7 @@
       "condType": "eventEnd",
       "priority": 6860,
       "svtVoiceType": "eventReward",
+      "overwriteName": "魔法使いの夜アフターナイト 19",
       "id": ["0_M040"],
       "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_109829780/0_M040.mp3"],
       "delay": [0.0],
@@ -116087,6 +116206,7 @@
       "condType": "eventEnd",
       "priority": 6850,
       "svtVoiceType": "eventReward",
+      "overwriteName": "魔法使いの夜アフターナイト 20",
       "id": ["0_M050"],
       "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_109829780/0_M050.mp3"],
       "delay": [0.0],
@@ -116100,6 +116220,7 @@
       "condType": "eventEnd",
       "priority": 6840,
       "svtVoiceType": "eventReward",
+      "overwriteName": "魔法使いの夜アフターナイト 21",
       "id": ["0_M060"],
       "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_109829780/0_M060.mp3"],
       "delay": [0.1],
@@ -116128,5 +116249,3464 @@
   "finishedAt": 1714575599,
   "campaignQuests": [{
     "questId": 0
+  }]
+}, {
+  "id": 80474,
+  "type": "eventQuest",
+  "name": "カルデア・サマーアドベンチャー！\n～夢追う少年と夢見る少女～ アンケート復刻版",
+  "detail": "カルデア・サマーアドベンチャー！\n～夢追う少年と夢見る少女～ アンケート復刻版",
+  "noticeBanner": "https://static.atlasacademy.io/JP/Banner/event_war_80457.png",
+  "banner": "https://static.atlasacademy.io/JP/Banner/event_war_80458.png",
+  "icon": "https://static.atlasacademy.io/JP/Banner/banner_icon_80458.png",
+  "bannerPriority": 940200,
+  "noticeAt": 1715936400,
+  "startedAt": 1715936400,
+  "endedAt": 1717732799,
+  "finishedAt": 1718337599,
+  "warIds": [9168],
+  "svts": [{
+    "svtId": 901200,
+    "type": "join",
+    "joinMessage": "レオナルド・ダ・ヴィンチ（ルーラー）は\n「カルデア・サマーアドベンチャー！\n～夢追う少年と夢見る少女～\nアンケート復刻版」の\nイベント期間限定で加入します。\n\nイベントで特定のクエストをクリアすることで\n正式加入となります。",
+    "getMessage": "レオナルド・ダ・ヴィンチ（ルーラー）が\n正式加入となりました。\nこれによりイベント終了後も\nサーヴァントとして残り続けます。\n\nなおイベントで特定のクエストを\nクリアすることで2枚目以降の\nレオナルド・ダ・ヴィンチ（ルーラー）が\n手に入ります。",
+    "leaveMessage": "～仮加入状態サーヴァントの離脱について～\n\nイベント期間終了に伴い\n正式加入条件を満たせなかった\nレオナルド・ダ・ヴィンチ（ルーラー）は\n離脱しました。\n\nレオナルド・ダ・ヴィンチ（ルーラー）が\n装備していた概念礼装は\n自動的にはずれます。",
+    "startedAt": 1715936400,
+    "endedAt": 1717732799
+  }],
+  "shop": [{
+    "id": 80474001,
+    "eventId": 80474,
+    "slot": 2,
+    "priority": 100,
+    "name": "シンク・ディーパー",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94096703,
+      "amount": 100
+    },
+    "purchaseType": "servant",
+    "targetIds": [9405310],
+    "limitNum": 2,
+    "defaultLv": 1,
+    "openedAt": 1715936400,
+    "closedAt": 1718337599
+  }, {
+    "id": 80474002,
+    "eventId": 80474,
+    "slot": 2,
+    "priority": 110,
+    "name": "シンク・ディーパー",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94096702,
+      "amount": 100
+    },
+    "purchaseType": "servant",
+    "targetIds": [9405310],
+    "limitNum": 1,
+    "defaultLv": 1,
+    "openedAt": 1715936400,
+    "closedAt": 1718337599
+  }, {
+    "id": 80474003,
+    "eventId": 80474,
+    "slot": 2,
+    "priority": 120,
+    "name": "シンク・ディーパー",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94096701,
+      "amount": 100
+    },
+    "purchaseType": "servant",
+    "targetIds": [9405310],
+    "limitNum": 1,
+    "defaultLv": 1,
+    "openedAt": 1715936400,
+    "closedAt": 1718337599
+  }, {
+    "id": 80474004,
+    "releaseConditions": [{
+      "condValues": [80331004],
+      "shopId": 80474004,
+      "condType": "notShopPurchase",
+      "condNum": 1
+    }],
+    "eventId": 80474,
+    "slot": 2,
+    "priority": 10,
+    "name": "霊衣「フィアレス・ダイバー」開放権",
+    "infoMessage": "霊衣「フィアレス・ダイバー」開放権を\n獲得できます。",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94096703,
+      "amount": 200
+    },
+    "purchaseType": "costumeRelease",
+    "targetIds": [40290011],
+    "limitNum": 1,
+    "defaultLv": 1,
+    "openedAt": 1715936400,
+    "closedAt": 1718337599
+  }, {
+    "id": 80474005,
+    "releaseConditions": [{
+      "condValues": [80331005],
+      "shopId": 80474005,
+      "condType": "notShopPurchase",
+      "condNum": 1
+    }],
+    "eventId": 80474,
+    "slot": 2,
+    "priority": 20,
+    "name": "霊衣「サマー・スポーツウェア」開放権",
+    "infoMessage": "霊衣「サマー・スポーツウェア」開放権を\n獲得できます。",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94096702,
+      "amount": 200
+    },
+    "purchaseType": "costumeRelease",
+    "targetIds": [40390011],
+    "limitNum": 1,
+    "defaultLv": 1,
+    "openedAt": 1715936400,
+    "closedAt": 1718337599
+  }, {
+    "id": 80474006,
+    "releaseConditions": [{
+      "condValues": [80331006],
+      "shopId": 80474006,
+      "condType": "notShopPurchase",
+      "condNum": 1
+    }],
+    "eventId": 80474,
+    "slot": 2,
+    "priority": 30,
+    "name": "霊衣「盛夏の紳士」開放権",
+    "infoMessage": "霊衣「盛夏の紳士」開放権を獲得できます。",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94096701,
+      "amount": 200
+    },
+    "purchaseType": "costumeRelease",
+    "targetIds": [40080011],
+    "limitNum": 1,
+    "defaultLv": 1,
+    "openedAt": 1715936400,
+    "closedAt": 1718337599
+  }, {
+    "id": 80474007,
+    "releaseConditions": [{
+      "condValues": [901200],
+      "shopId": 80474007,
+      "condType": "svtGet",
+      "condNum": 1
+    }],
+    "eventId": 80474,
+    "slot": 2,
+    "priority": 200,
+    "name": "サーヴァントコイン(レオナルド・ダ・ヴィンチ（ルーラー）)",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94096703,
+      "amount": 20
+    },
+    "purchaseType": "item",
+    "targetIds": [90120001],
+    "setNum": 10,
+    "limitNum": 10,
+    "defaultLv": 1,
+    "openedAt": 1715936400,
+    "closedAt": 1718337599
+  }, {
+    "id": 80474008,
+    "releaseConditions": [{
+      "condValues": [901200],
+      "shopId": 80474008,
+      "condType": "svtGet",
+      "condNum": 1
+    }],
+    "eventId": 80474,
+    "slot": 2,
+    "priority": 210,
+    "name": "サーヴァントコイン(レオナルド・ダ・ヴィンチ（ルーラー）)",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94096702,
+      "amount": 20
+    },
+    "purchaseType": "item",
+    "targetIds": [90120001],
+    "setNum": 10,
+    "limitNum": 10,
+    "defaultLv": 1,
+    "openedAt": 1715936400,
+    "closedAt": 1718337599
+  }, {
+    "id": 80474009,
+    "releaseConditions": [{
+      "condValues": [901200],
+      "shopId": 80474009,
+      "condType": "svtGet",
+      "condNum": 1
+    }],
+    "eventId": 80474,
+    "slot": 2,
+    "priority": 220,
+    "name": "サーヴァントコイン(レオナルド・ダ・ヴィンチ（ルーラー）)",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94096701,
+      "amount": 20
+    },
+    "purchaseType": "item",
+    "targetIds": [90120001],
+    "setNum": 10,
+    "limitNum": 10,
+    "defaultLv": 1,
+    "openedAt": 1715936400,
+    "closedAt": 1718337599
+  }, {
+    "id": 80474010,
+    "releaseConditions": [{
+      "condValues": [94096712],
+      "shopId": 80474010,
+      "condType": "questClear",
+      "condNum": 1
+    }],
+    "eventId": 80474,
+    "slot": 2,
+    "priority": 500,
+    "name": "伝承結晶",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94096703,
+      "amount": 400
+    },
+    "purchaseType": "item",
+    "targetIds": [6999],
+    "limitNum": 1,
+    "openedAt": 1715936400,
+    "closedAt": 1718337599
+  }, {
+    "id": 80474011,
+    "eventId": 80474,
+    "slot": 2,
+    "priority": 630,
+    "name": "コード・リムーバー",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94096703,
+      "amount": 30
+    },
+    "purchaseType": "item",
+    "targetIds": [5003],
+    "limitNum": 1,
+    "openedAt": 1715936400,
+    "closedAt": 1718337599
+  }, {
+    "id": 80474012,
+    "eventId": 80474,
+    "slot": 2,
+    "priority": 640,
+    "name": "コード・リムーバー",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94096702,
+      "amount": 30
+    },
+    "purchaseType": "item",
+    "targetIds": [5003],
+    "limitNum": 1,
+    "openedAt": 1715936400,
+    "closedAt": 1718337599
+  }, {
+    "id": 80474013,
+    "eventId": 80474,
+    "slot": 2,
+    "priority": 650,
+    "name": "コード・リムーバー",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94096701,
+      "amount": 30
+    },
+    "purchaseType": "item",
+    "targetIds": [5003],
+    "limitNum": 1,
+    "openedAt": 1715936400,
+    "closedAt": 1718337599
+  }, {
+    "id": 80474014,
+    "eventId": 80474,
+    "slot": 2,
+    "priority": 660,
+    "name": "英霊結晶・星のフォウくん",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94096701,
+      "amount": 20
+    },
+    "purchaseType": "servant",
+    "targetIds": [9570300],
+    "limitNum": 20,
+    "defaultLv": 1,
+    "openedAt": 1715936400,
+    "closedAt": 1718337599
+  }, {
+    "id": 80474015,
+    "eventId": 80474,
+    "slot": 2,
+    "priority": 670,
+    "name": "英霊結晶・太陽のフォウくん",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94096701,
+      "amount": 20
+    },
+    "purchaseType": "servant",
+    "targetIds": [9670300],
+    "limitNum": 20,
+    "defaultLv": 1,
+    "openedAt": 1715936400,
+    "closedAt": 1718337599
+  }, {
+    "id": 80474016,
+    "eventId": 80474,
+    "slot": 2,
+    "priority": 680,
+    "name": "叡智の業火",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94096701,
+      "amount": 10
+    },
+    "purchaseType": "servant",
+    "targetIds": [9770500],
+    "limitNum": 50,
+    "defaultLv": 1,
+    "openedAt": 1715936400,
+    "closedAt": 1718337599
+  }, {
+    "id": 80474017,
+    "eventId": 80474,
+    "slot": 2,
+    "priority": 690,
+    "name": "叡智の猛火",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94096701,
+      "amount": 6
+    },
+    "purchaseType": "servant",
+    "targetIds": [9770400],
+    "limitNum": 100,
+    "defaultLv": 1,
+    "openedAt": 1715936400,
+    "closedAt": 1718337599
+  }, {
+    "id": 80474018,
+    "eventId": 80474,
+    "slot": 2,
+    "priority": 700,
+    "name": "叡智の大火",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94096701,
+      "amount": 3
+    },
+    "purchaseType": "servant",
+    "targetIds": [9770300],
+    "limitNum": 100,
+    "defaultLv": 1,
+    "openedAt": 1715936400,
+    "closedAt": 1718337599
+  }, {
+    "id": 80474019,
+    "eventId": 80474,
+    "slot": 2,
+    "priority": 800,
+    "name": "蛮神の心臓",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94096703,
+      "amount": 30
+    },
+    "purchaseType": "item",
+    "targetIds": [6517],
+    "limitNum": 10,
+    "openedAt": 1715936400,
+    "closedAt": 1718337599
+  }, {
+    "id": 80474020,
+    "eventId": 80474,
+    "slot": 2,
+    "priority": 810,
+    "name": "暁光炉心",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94096703,
+      "amount": 20
+    },
+    "purchaseType": "item",
+    "targetIds": [6539],
+    "limitNum": 20,
+    "openedAt": 1715936400,
+    "closedAt": 1718337599
+  }, {
+    "id": 80474021,
+    "eventId": 80474,
+    "slot": 2,
+    "priority": 820,
+    "name": "封魔のランプ",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94096703,
+      "amount": 20
+    },
+    "purchaseType": "item",
+    "targetIds": [6523],
+    "limitNum": 20,
+    "openedAt": 1715936400,
+    "closedAt": 1718337599
+  }, {
+    "id": 80474022,
+    "eventId": 80474,
+    "slot": 2,
+    "priority": 830,
+    "name": "枯淡勾玉",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94096703,
+      "amount": 15
+    },
+    "purchaseType": "item",
+    "targetIds": [6532],
+    "limitNum": 20,
+    "openedAt": 1715936400,
+    "closedAt": 1718337599
+  }, {
+    "id": 80474023,
+    "eventId": 80474,
+    "slot": 2,
+    "priority": 840,
+    "name": "戦馬の幼角",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94096702,
+      "amount": 20
+    },
+    "purchaseType": "item",
+    "targetIds": [6519],
+    "limitNum": 20,
+    "openedAt": 1715936400,
+    "closedAt": 1718337599
+  }, {
+    "id": 80474024,
+    "eventId": 80474,
+    "slot": 2,
+    "priority": 850,
+    "name": "永遠結氷",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94096702,
+      "amount": 15
+    },
+    "purchaseType": "item",
+    "targetIds": [6535],
+    "limitNum": 20,
+    "openedAt": 1715936400,
+    "closedAt": 1718337599
+  }, {
+    "id": 80474025,
+    "eventId": 80474,
+    "slot": 2,
+    "priority": 860,
+    "name": "ホムンクルスベビー",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94096702,
+      "amount": 15
+    },
+    "purchaseType": "item",
+    "targetIds": [6514],
+    "limitNum": 20,
+    "openedAt": 1715936400,
+    "closedAt": 1718337599
+  }, {
+    "id": 80474026,
+    "eventId": 80474,
+    "slot": 2,
+    "priority": 870,
+    "name": "無間の歯車",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94096702,
+      "amount": 15
+    },
+    "purchaseType": "item",
+    "targetIds": [6510],
+    "limitNum": 20,
+    "openedAt": 1715936400,
+    "closedAt": 1718337599
+  }, {
+    "id": 80474027,
+    "eventId": 80474,
+    "slot": 2,
+    "priority": 880,
+    "name": "追憶の貝殻",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94096701,
+      "amount": 15
+    },
+    "purchaseType": "item",
+    "targetIds": [6526],
+    "limitNum": 20,
+    "openedAt": 1715936400,
+    "closedAt": 1718337599
+  }, {
+    "id": 80474028,
+    "eventId": 80474,
+    "slot": 2,
+    "priority": 890,
+    "name": "世界樹の種",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94096701,
+      "amount": 15
+    },
+    "purchaseType": "item",
+    "targetIds": [6502],
+    "limitNum": 20,
+    "openedAt": 1715936400,
+    "closedAt": 1718337599
+  }, {
+    "id": 80474029,
+    "eventId": 80474,
+    "slot": 2,
+    "priority": 900,
+    "name": "赦免の小鐘",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94096701,
+      "amount": 10
+    },
+    "purchaseType": "item",
+    "targetIds": [6549],
+    "limitNum": 30,
+    "openedAt": 1715936400,
+    "closedAt": 1718337599
+  }, {
+    "id": 80474030,
+    "eventId": 80474,
+    "slot": 2,
+    "priority": 910,
+    "name": "愚者の鎖",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94096701,
+      "amount": 10
+    },
+    "purchaseType": "item",
+    "targetIds": [6522],
+    "limitNum": 30,
+    "openedAt": 1715936400,
+    "closedAt": 1718337599
+  }, {
+    "id": 80474031,
+    "eventId": 80474,
+    "slot": 2,
+    "priority": 1000,
+    "name": "セイバーモニュメント",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94096703,
+      "amount": 20
+    },
+    "purchaseType": "item",
+    "targetIds": [7101],
+    "limitNum": 20,
+    "openedAt": 1715936400,
+    "closedAt": 1718337599
+  }, {
+    "id": 80474032,
+    "eventId": 80474,
+    "slot": 2,
+    "priority": 1010,
+    "name": "アーチャーモニュメント",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94096703,
+      "amount": 20
+    },
+    "purchaseType": "item",
+    "targetIds": [7102],
+    "limitNum": 20,
+    "openedAt": 1715936400,
+    "closedAt": 1718337599
+  }, {
+    "id": 80474033,
+    "eventId": 80474,
+    "slot": 2,
+    "priority": 1020,
+    "name": "ランサーモニュメント",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94096703,
+      "amount": 20
+    },
+    "purchaseType": "item",
+    "targetIds": [7103],
+    "limitNum": 20,
+    "openedAt": 1715936400,
+    "closedAt": 1718337599
+  }, {
+    "id": 80474034,
+    "eventId": 80474,
+    "slot": 2,
+    "priority": 1030,
+    "name": "ライダーモニュメント",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94096703,
+      "amount": 20
+    },
+    "purchaseType": "item",
+    "targetIds": [7104],
+    "limitNum": 20,
+    "openedAt": 1715936400,
+    "closedAt": 1718337599
+  }, {
+    "id": 80474035,
+    "eventId": 80474,
+    "slot": 2,
+    "priority": 1040,
+    "name": "キャスターモニュメント",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94096703,
+      "amount": 20
+    },
+    "purchaseType": "item",
+    "targetIds": [7105],
+    "limitNum": 20,
+    "openedAt": 1715936400,
+    "closedAt": 1718337599
+  }, {
+    "id": 80474036,
+    "eventId": 80474,
+    "slot": 2,
+    "priority": 1050,
+    "name": "アサシンモニュメント",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94096703,
+      "amount": 20
+    },
+    "purchaseType": "item",
+    "targetIds": [7106],
+    "limitNum": 20,
+    "openedAt": 1715936400,
+    "closedAt": 1718337599
+  }, {
+    "id": 80474037,
+    "eventId": 80474,
+    "slot": 2,
+    "priority": 1060,
+    "name": "バーサーカーモニュメント",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94096703,
+      "amount": 20
+    },
+    "purchaseType": "item",
+    "targetIds": [7107],
+    "limitNum": 20,
+    "openedAt": 1715936400,
+    "closedAt": 1718337599
+  }, {
+    "id": 80474038,
+    "eventId": 80474,
+    "slot": 2,
+    "priority": 1070,
+    "name": "セイバーピース",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94096702,
+      "amount": 20
+    },
+    "purchaseType": "item",
+    "targetIds": [7001],
+    "limitNum": 20,
+    "openedAt": 1715936400,
+    "closedAt": 1718337599
+  }, {
+    "id": 80474039,
+    "releaseConditions": [{
+      "condValues": [94096703],
+      "shopId": 80474039,
+      "condType": "questClear",
+      "condNum": 1
+    }],
+    "eventId": 80474,
+    "slot": 2,
+    "priority": 300,
+    "name": "秘密の地図〔廃墟の財宝〕",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94096701,
+      "amount": 10
+    },
+    "purchaseType": "item",
+    "targetIds": [94096704],
+    "limitNum": 1,
+    "openedAt": 1715936400,
+    "closedAt": 1717732799
+  }, {
+    "id": 80474040,
+    "releaseConditions": [{
+      "condValues": [94096703],
+      "shopId": 80474040,
+      "condType": "questClear",
+      "condNum": 1
+    }],
+    "eventId": 80474,
+    "slot": 2,
+    "priority": 310,
+    "name": "秘密の地図〔ほら穴の財宝〕",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94096702,
+      "amount": 20
+    },
+    "purchaseType": "item",
+    "targetIds": [94096710],
+    "limitNum": 1,
+    "openedAt": 1715936400,
+    "closedAt": 1717732799
+  }, {
+    "id": 80474041,
+    "releaseConditions": [{
+      "condValues": [94096704],
+      "shopId": 80474041,
+      "condType": "questClear",
+      "condNum": 1
+    }],
+    "eventId": 80474,
+    "slot": 2,
+    "priority": 320,
+    "name": "秘密の地図〔ドクロ島の財宝〕",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94096703,
+      "amount": 20
+    },
+    "purchaseType": "item",
+    "targetIds": [94096711],
+    "limitNum": 1,
+    "openedAt": 1715936400,
+    "closedAt": 1717732799
+  }, {
+    "id": 80474042,
+    "releaseConditions": [{
+      "condValues": [94096704],
+      "shopId": 80474042,
+      "condType": "questClear",
+      "condNum": 1
+    }],
+    "eventId": 80474,
+    "slot": 2,
+    "priority": 330,
+    "name": "秘密の地図〔サカズキ島の財宝〕",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94096701,
+      "amount": 30
+    },
+    "purchaseType": "item",
+    "targetIds": [94096712],
+    "limitNum": 1,
+    "openedAt": 1715936400,
+    "closedAt": 1717732799
+  }, {
+    "id": 80474043,
+    "releaseConditions": [{
+      "condValues": [94096705],
+      "shopId": 80474043,
+      "condType": "questClear",
+      "condNum": 1
+    }],
+    "eventId": 80474,
+    "slot": 2,
+    "priority": 340,
+    "name": "秘密の地図〔トクガワ島の財宝〕",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94096702,
+      "amount": 30
+    },
+    "purchaseType": "item",
+    "targetIds": [94096713],
+    "limitNum": 1,
+    "openedAt": 1715936400,
+    "closedAt": 1717732799
+  }, {
+    "id": 80474044,
+    "releaseConditions": [{
+      "condValues": [94096705],
+      "shopId": 80474044,
+      "condType": "questClear",
+      "condNum": 1
+    }],
+    "eventId": 80474,
+    "slot": 2,
+    "priority": 350,
+    "name": "秘密の地図〔ミズウミ島の財宝〕",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94096703,
+      "amount": 30
+    },
+    "purchaseType": "item",
+    "targetIds": [94096714],
+    "limitNum": 1,
+    "openedAt": 1715936400,
+    "closedAt": 1717732799
+  }, {
+    "id": 80474045,
+    "releaseConditions": [{
+      "condValues": [94096707],
+      "shopId": 80474045,
+      "condType": "questClear",
+      "condNum": 1
+    }],
+    "eventId": 80474,
+    "slot": 2,
+    "priority": 360,
+    "name": "秘密の地図〔スリスリ島の財宝〕",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94096701,
+      "amount": 40
+    },
+    "purchaseType": "item",
+    "targetIds": [94096715],
+    "limitNum": 1,
+    "openedAt": 1715936400,
+    "closedAt": 1717732799
+  }, {
+    "id": 80474046,
+    "releaseConditions": [{
+      "condValues": [94096707],
+      "shopId": 80474046,
+      "condType": "questClear",
+      "condNum": 1
+    }],
+    "eventId": 80474,
+    "slot": 2,
+    "priority": 370,
+    "name": "秘密の地図〔海底城の財宝〕",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94096702,
+      "amount": 40
+    },
+    "purchaseType": "item",
+    "targetIds": [94096716],
+    "limitNum": 1,
+    "openedAt": 1715936400,
+    "closedAt": 1717732799
+  }, {
+    "id": 80474047,
+    "releaseConditions": [{
+      "condValues": [94096708],
+      "shopId": 80474047,
+      "condType": "questClear",
+      "condNum": 1
+    }],
+    "eventId": 80474,
+    "slot": 2,
+    "priority": 380,
+    "name": "秘密の地図〔海蛇の巣の財宝〕",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94096703,
+      "amount": 40
+    },
+    "purchaseType": "item",
+    "targetIds": [94096717],
+    "limitNum": 1,
+    "openedAt": 1715936400,
+    "closedAt": 1717732799
+  }, {
+    "id": 80474048,
+    "releaseConditions": [{
+      "condValues": [94096708],
+      "shopId": 80474048,
+      "condType": "questClear",
+      "condNum": 1
+    }],
+    "eventId": 80474,
+    "slot": 2,
+    "priority": 390,
+    "name": "秘密の地図〔グツグツ島の財宝〕",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94096701,
+      "amount": 50
+    },
+    "purchaseType": "item",
+    "targetIds": [94096718],
+    "limitNum": 1,
+    "openedAt": 1715936400,
+    "closedAt": 1717732799
+  }, {
+    "id": 80474049,
+    "releaseConditions": [{
+      "condValues": [94096709],
+      "shopId": 80474049,
+      "condType": "questClear",
+      "condNum": 1
+    }],
+    "eventId": 80474,
+    "slot": 2,
+    "priority": 400,
+    "name": "秘密の地図〔滝つぼの財宝〕",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94096702,
+      "amount": 50
+    },
+    "purchaseType": "item",
+    "targetIds": [94096719],
+    "limitNum": 1,
+    "openedAt": 1715936400,
+    "closedAt": 1717732799
+  }, {
+    "id": 80474050,
+    "releaseConditions": [{
+      "condValues": [94096709],
+      "shopId": 80474050,
+      "condType": "questClear",
+      "condNum": 1
+    }],
+    "eventId": 80474,
+    "slot": 2,
+    "priority": 410,
+    "name": "秘密の地図〔雲の上の財宝〕",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94096703,
+      "amount": 50
+    },
+    "purchaseType": "item",
+    "targetIds": [94096720],
+    "limitNum": 1,
+    "openedAt": 1715936400,
+    "closedAt": 1717732799
+  }, {
+    "id": 80474051,
+    "releaseConditions": [{
+      "condValues": [94096712],
+      "shopId": 80474051,
+      "condType": "questClear",
+      "condNum": 1
+    }],
+    "eventId": 80474,
+    "slot": 2,
+    "priority": 420,
+    "name": "秘密の地図〔大海原の財宝〕",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94096701,
+      "amount": 60
+    },
+    "purchaseType": "item",
+    "targetIds": [94096721],
+    "limitNum": 1,
+    "openedAt": 1715936400,
+    "closedAt": 1717732799
+  }, {
+    "id": 80474052,
+    "releaseConditions": [{
+      "condValues": [94096712],
+      "shopId": 80474052,
+      "condType": "questClear",
+      "condNum": 1
+    }],
+    "eventId": 80474,
+    "slot": 2,
+    "priority": 430,
+    "name": "秘密の地図〔幽霊船の財宝〕",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94096702,
+      "amount": 60
+    },
+    "purchaseType": "item",
+    "targetIds": [94096722],
+    "limitNum": 1,
+    "openedAt": 1715936400,
+    "closedAt": 1717732799
+  }, {
+    "id": 80474053,
+    "releaseConditions": [{
+      "condValues": [94096712],
+      "shopId": 80474053,
+      "condType": "questClear",
+      "condNum": 1
+    }],
+    "eventId": 80474,
+    "slot": 2,
+    "priority": 440,
+    "name": "秘密の地図〔果ての財宝〕",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94096703,
+      "amount": 60
+    },
+    "purchaseType": "item",
+    "targetIds": [94096723],
+    "limitNum": 1,
+    "openedAt": 1715936400,
+    "closedAt": 1717732799
+  }, {
+    "id": 80474054,
+    "releaseConditions": [{
+      "condValues": [94096807],
+      "shopId": 80474054,
+      "condType": "questClear",
+      "condNum": 1
+    }],
+    "eventId": 80474,
+    "slot": 2,
+    "priority": 450,
+    "name": "秘密の地図〔北の財宝〕",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94096702,
+      "amount": 80
+    },
+    "purchaseType": "item",
+    "targetIds": [94096724],
+    "limitNum": 1,
+    "openedAt": 1715936400,
+    "closedAt": 1717732799
+  }, {
+    "id": 80474055,
+    "releaseConditions": [{
+      "condValues": [94096808],
+      "shopId": 80474055,
+      "condType": "questClear",
+      "condNum": 1,
+      "priority": 1
+    }, {
+      "condValues": [94096807],
+      "shopId": 80474055,
+      "condType": "questClear",
+      "condNum": 1,
+      "priority": 10
+    }],
+    "eventId": 80474,
+    "slot": 2,
+    "priority": 460,
+    "name": "秘密の地図〔南の財宝〕",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94096703,
+      "amount": 80
+    },
+    "purchaseType": "item",
+    "targetIds": [94096725],
+    "limitNum": 1,
+    "openedAt": 1715936400,
+    "closedAt": 1717732799
+  }, {
+    "id": 80474056,
+    "releaseConditions": [{
+      "condValues": [94096808],
+      "shopId": 80474056,
+      "condType": "questClear",
+      "condNum": 1,
+      "priority": 1
+    }, {
+      "condValues": [94096807],
+      "shopId": 80474056,
+      "condType": "questClear",
+      "condNum": 1,
+      "priority": 10
+    }],
+    "eventId": 80474,
+    "slot": 2,
+    "priority": 470,
+    "name": "秘密の地図〔東の財宝〕",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94096702,
+      "amount": 80
+    },
+    "purchaseType": "item",
+    "targetIds": [94096726],
+    "limitNum": 1,
+    "openedAt": 1715936400,
+    "closedAt": 1717732799
+  }, {
+    "id": 80474057,
+    "releaseConditions": [{
+      "condValues": [94096808],
+      "shopId": 80474057,
+      "condType": "questClear",
+      "condNum": 1,
+      "priority": 1
+    }, {
+      "condValues": [94096807],
+      "shopId": 80474057,
+      "condType": "questClear",
+      "condNum": 1,
+      "priority": 10
+    }],
+    "eventId": 80474,
+    "slot": 2,
+    "priority": 480,
+    "name": "秘密の地図〔西の財宝〕",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94096701,
+      "amount": 80
+    },
+    "purchaseType": "item",
+    "targetIds": [94096727],
+    "limitNum": 1,
+    "openedAt": 1715936400,
+    "closedAt": 1717732799
+  }, {
+    "id": 80474058,
+    "releaseConditions": [{
+      "condValues": [20096703],
+      "shopId": 80474058,
+      "condType": "commonRelease",
+      "condNum": 1
+    }],
+    "eventId": 80474,
+    "slot": 2,
+    "priority": 490,
+    "name": "秘密の地図〔最後の財宝〕",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94096703,
+      "amount": 100
+    },
+    "purchaseType": "item",
+    "targetIds": [94096728],
+    "limitNum": 1,
+    "openedAt": 1715936400,
+    "closedAt": 1717732799
+  }, {
+    "id": 80474059,
+    "eventId": 80474,
+    "slot": 2,
+    "priority": 1080,
+    "name": "アーチャーピース",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94096702,
+      "amount": 20
+    },
+    "purchaseType": "item",
+    "targetIds": [7002],
+    "limitNum": 20,
+    "openedAt": 1715936400,
+    "closedAt": 1718337599
+  }, {
+    "id": 80474060,
+    "eventId": 80474,
+    "slot": 2,
+    "priority": 1090,
+    "name": "ランサーピース",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94096702,
+      "amount": 20
+    },
+    "purchaseType": "item",
+    "targetIds": [7003],
+    "limitNum": 20,
+    "openedAt": 1715936400,
+    "closedAt": 1718337599
+  }, {
+    "id": 80474061,
+    "eventId": 80474,
+    "slot": 2,
+    "priority": 1100,
+    "name": "ライダーピース",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94096702,
+      "amount": 20
+    },
+    "purchaseType": "item",
+    "targetIds": [7004],
+    "limitNum": 20,
+    "openedAt": 1715936400,
+    "closedAt": 1718337599
+  }, {
+    "id": 80474062,
+    "eventId": 80474,
+    "slot": 2,
+    "priority": 1110,
+    "name": "キャスターピース",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94096702,
+      "amount": 20
+    },
+    "purchaseType": "item",
+    "targetIds": [7005],
+    "limitNum": 20,
+    "openedAt": 1715936400,
+    "closedAt": 1718337599
+  }, {
+    "id": 80474063,
+    "eventId": 80474,
+    "slot": 2,
+    "priority": 1120,
+    "name": "アサシンピース",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94096702,
+      "amount": 20
+    },
+    "purchaseType": "item",
+    "targetIds": [7006],
+    "limitNum": 20,
+    "openedAt": 1715936400,
+    "closedAt": 1718337599
+  }, {
+    "id": 80474064,
+    "eventId": 80474,
+    "slot": 2,
+    "priority": 1130,
+    "name": "バーサーカーピース",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94096702,
+      "amount": 20
+    },
+    "purchaseType": "item",
+    "targetIds": [7007],
+    "limitNum": 20,
+    "openedAt": 1715936400,
+    "closedAt": 1718337599
+  }, {
+    "id": 80474065,
+    "eventId": 80474,
+    "slot": 2,
+    "priority": 1200,
+    "name": "海賊サーベル",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94096702,
+      "amount": 10
+    },
+    "purchaseType": "item",
+    "targetIds": [94096703],
+    "limitNum": 0,
+    "openedAt": 1715936400,
+    "closedAt": 1718337599
+  }, {
+    "id": 80474066,
+    "eventId": 80474,
+    "slot": 2,
+    "priority": 1210,
+    "name": "海賊ジョッキ",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94096701,
+      "amount": 10
+    },
+    "purchaseType": "item",
+    "targetIds": [94096702],
+    "limitNum": 0,
+    "openedAt": 1715936400,
+    "closedAt": 1718337599
+  }, {
+    "id": 80474067,
+    "eventId": 80474,
+    "slot": 2,
+    "priority": 1220,
+    "name": "10,000 QP",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94096703,
+      "amount": 2
+    },
+    "purchaseType": "item",
+    "targetIds": [1],
+    "setNum": 10000,
+    "limitNum": 0,
+    "openedAt": 1715936400,
+    "closedAt": 1718337599
+  }, {
+    "id": 80474068,
+    "eventId": 80474,
+    "slot": 2,
+    "priority": 600,
+    "name": "巡霊の葉",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94096703,
+      "amount": 10
+    },
+    "purchaseType": "item",
+    "targetIds": [48],
+    "setNum": 10,
+    "limitNum": 40,
+    "openedAt": 1715936400,
+    "closedAt": 1718337599
+  }, {
+    "id": 80474069,
+    "eventId": 80474,
+    "slot": 2,
+    "priority": 610,
+    "name": "巡霊の葉",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94096702,
+      "amount": 10
+    },
+    "purchaseType": "item",
+    "targetIds": [48],
+    "setNum": 10,
+    "limitNum": 30,
+    "openedAt": 1715936400,
+    "closedAt": 1718337599
+  }, {
+    "id": 80474070,
+    "eventId": 80474,
+    "slot": 2,
+    "priority": 620,
+    "name": "巡霊の葉",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94096701,
+      "amount": 10
+    },
+    "purchaseType": "item",
+    "targetIds": [48],
+    "setNum": 10,
+    "limitNum": 30,
+    "openedAt": 1715936400,
+    "closedAt": 1718337599
+  }],
+  "rewards": [{
+    "groupId": 0,
+    "point": 300,
+    "gifts": [{
+      "id": 30063,
+      "type": "servant",
+      "objectId": 9770400,
+      "num": 5
+    }]
+  }, {
+    "groupId": 0,
+    "point": 600,
+    "gifts": [{
+      "id": 10064,
+      "objectId": 1,
+      "num": 500000
+    }]
+  }, {
+    "groupId": 0,
+    "point": 1000,
+    "gifts": [{
+      "id": 14000,
+      "objectId": 102,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 1500,
+    "gifts": [{
+      "id": 25475,
+      "objectId": 6538,
+      "num": 3
+    }]
+  }, {
+    "groupId": 0,
+    "point": 2000,
+    "gifts": [{
+      "id": 10074,
+      "objectId": 1,
+      "num": 1000000
+    }]
+  }, {
+    "groupId": 0,
+    "point": 2400,
+    "gifts": [{
+      "id": 309,
+      "objectId": 3,
+      "num": 10
+    }]
+  }, {
+    "groupId": 0,
+    "point": 2900,
+    "gifts": [{
+      "id": 21303,
+      "objectId": 6501,
+      "num": 3
+    }]
+  }, {
+    "groupId": 0,
+    "point": 3500,
+    "gifts": [{
+      "id": 10064,
+      "objectId": 1,
+      "num": 500000
+    }]
+  }, {
+    "groupId": 0,
+    "point": 4000,
+    "gifts": [{
+      "id": 94060459,
+      "objectId": 94060409,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 4300,
+    "gifts": [{
+      "id": 80314004,
+      "objectId": 90120001,
+      "num": 5
+    }]
+  }, {
+    "groupId": 0,
+    "point": 4800,
+    "gifts": [{
+      "id": 14000,
+      "objectId": 102,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 5400,
+    "gifts": [{
+      "id": 10078,
+      "objectId": 1,
+      "num": 2000000
+    }]
+  }, {
+    "groupId": 0,
+    "point": 5900,
+    "gifts": [{
+      "id": 30063,
+      "type": "servant",
+      "objectId": 9770400,
+      "num": 5
+    }]
+  }, {
+    "groupId": 0,
+    "point": 6500,
+    "gifts": [{
+      "id": 13000,
+      "objectId": 101,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 7000,
+    "gifts": [{
+      "id": 94060459,
+      "objectId": 94060409,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 7600,
+    "gifts": [{
+      "id": 319,
+      "objectId": 3,
+      "num": 20
+    }]
+  }, {
+    "groupId": 0,
+    "point": 8100,
+    "gifts": [{
+      "id": 25475,
+      "objectId": 6538,
+      "num": 3
+    }]
+  }, {
+    "groupId": 0,
+    "point": 8700,
+    "gifts": [{
+      "id": 10064,
+      "objectId": 1,
+      "num": 500000
+    }]
+  }, {
+    "groupId": 0,
+    "point": 9300,
+    "gifts": [{
+      "id": 21303,
+      "objectId": 6501,
+      "num": 3
+    }]
+  }, {
+    "groupId": 0,
+    "point": 10000,
+    "gifts": [{
+      "id": 41526,
+      "type": "servant",
+      "objectId": 9405300,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 10500,
+    "gifts": [{
+      "id": 30063,
+      "type": "servant",
+      "objectId": 9770400,
+      "num": 5
+    }]
+  }, {
+    "groupId": 0,
+    "point": 11000,
+    "gifts": [{
+      "id": 94060459,
+      "objectId": 94060409,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 11400,
+    "gifts": [{
+      "id": 10078,
+      "objectId": 1,
+      "num": 2000000
+    }]
+  }, {
+    "groupId": 0,
+    "point": 11800,
+    "gifts": [{
+      "id": 309,
+      "objectId": 3,
+      "num": 10
+    }]
+  }, {
+    "groupId": 0,
+    "point": 12400,
+    "gifts": [{
+      "id": 80314004,
+      "objectId": 90120001,
+      "num": 5
+    }]
+  }, {
+    "groupId": 0,
+    "point": 13000,
+    "gifts": [{
+      "id": 25520,
+      "objectId": 6542,
+      "num": 3
+    }]
+  }, {
+    "groupId": 0,
+    "point": 13300,
+    "gifts": [{
+      "id": 10080,
+      "objectId": 1,
+      "num": 3000000
+    }]
+  }, {
+    "groupId": 0,
+    "point": 13600,
+    "gifts": [{
+      "id": 14000,
+      "objectId": 102,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 14000,
+    "gifts": [{
+      "id": 30064,
+      "type": "servant",
+      "objectId": 9770500,
+      "num": 5
+    }]
+  }, {
+    "groupId": 0,
+    "point": 14500,
+    "gifts": [{
+      "id": 80314004,
+      "objectId": 90120001,
+      "num": 5
+    }]
+  }, {
+    "groupId": 0,
+    "point": 15000,
+    "gifts": [{
+      "id": 94060459,
+      "objectId": 94060409,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 15600,
+    "gifts": [{
+      "id": 30063,
+      "type": "servant",
+      "objectId": 9770400,
+      "num": 5
+    }]
+  }, {
+    "groupId": 0,
+    "point": 16000,
+    "gifts": [{
+      "id": 10064,
+      "objectId": 1,
+      "num": 500000
+    }]
+  }, {
+    "groupId": 0,
+    "point": 16500,
+    "gifts": [{
+      "id": 25475,
+      "objectId": 6538,
+      "num": 3
+    }]
+  }, {
+    "groupId": 0,
+    "point": 17200,
+    "gifts": [{
+      "id": 30063,
+      "type": "servant",
+      "objectId": 9770400,
+      "num": 5
+    }]
+  }, {
+    "groupId": 0,
+    "point": 17800,
+    "gifts": [{
+      "id": 10078,
+      "objectId": 1,
+      "num": 2000000
+    }]
+  }, {
+    "groupId": 0,
+    "point": 18300,
+    "gifts": [{
+      "id": 80314004,
+      "objectId": 90120001,
+      "num": 5
+    }]
+  }, {
+    "groupId": 0,
+    "point": 18800,
+    "gifts": [{
+      "id": 12000,
+      "objectId": 100,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 19400,
+    "gifts": [{
+      "id": 10086,
+      "objectId": 1,
+      "num": 6000000
+    }]
+  }, {
+    "groupId": 0,
+    "point": 20000,
+    "gifts": [{
+      "id": 41526,
+      "type": "servant",
+      "objectId": 9405300,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 20500,
+    "gifts": [{
+      "id": 21303,
+      "objectId": 6501,
+      "num": 3
+    }]
+  }, {
+    "groupId": 0,
+    "point": 21100,
+    "gifts": [{
+      "id": 10074,
+      "objectId": 1,
+      "num": 1000000
+    }]
+  }, {
+    "groupId": 0,
+    "point": 21600,
+    "gifts": [{
+      "id": 25475,
+      "objectId": 6538,
+      "num": 3
+    }]
+  }, {
+    "groupId": 0,
+    "point": 22100,
+    "gifts": [{
+      "id": 322,
+      "objectId": 3,
+      "num": 50
+    }]
+  }, {
+    "groupId": 0,
+    "point": 22600,
+    "gifts": [{
+      "id": 80314004,
+      "objectId": 90120001,
+      "num": 5
+    }]
+  }, {
+    "groupId": 0,
+    "point": 23100,
+    "gifts": [{
+      "id": 30064,
+      "type": "servant",
+      "objectId": 9770500,
+      "num": 5
+    }]
+  }, {
+    "groupId": 0,
+    "point": 23600,
+    "gifts": [{
+      "id": 14000,
+      "objectId": 102,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 24100,
+    "gifts": [{
+      "id": 10078,
+      "objectId": 1,
+      "num": 2000000
+    }]
+  }, {
+    "groupId": 0,
+    "point": 24600,
+    "gifts": [{
+      "id": 319,
+      "objectId": 3,
+      "num": 20
+    }]
+  }, {
+    "groupId": 0,
+    "point": 25000,
+    "gifts": [{
+      "id": 25440,
+      "objectId": 5001,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 25700,
+    "gifts": [{
+      "id": 30063,
+      "type": "servant",
+      "objectId": 9770400,
+      "num": 5
+    }]
+  }, {
+    "groupId": 0,
+    "point": 26400,
+    "gifts": [{
+      "id": 13000,
+      "objectId": 101,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 27000,
+    "gifts": [{
+      "id": 10080,
+      "objectId": 1,
+      "num": 3000000
+    }]
+  }, {
+    "groupId": 0,
+    "point": 27700,
+    "gifts": [{
+      "id": 30063,
+      "type": "servant",
+      "objectId": 9770400,
+      "num": 5
+    }]
+  }, {
+    "groupId": 0,
+    "point": 28300,
+    "gifts": [{
+      "id": 80314004,
+      "objectId": 90120001,
+      "num": 5
+    }]
+  }, {
+    "groupId": 0,
+    "point": 29000,
+    "gifts": [{
+      "id": 322,
+      "objectId": 3,
+      "num": 50
+    }]
+  }, {
+    "groupId": 0,
+    "point": 29600,
+    "gifts": [{
+      "id": 21303,
+      "objectId": 6501,
+      "num": 3
+    }]
+  }, {
+    "groupId": 0,
+    "point": 30000,
+    "gifts": [{
+      "id": 41526,
+      "type": "servant",
+      "objectId": 9405300,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 30700,
+    "gifts": [{
+      "id": 10074,
+      "objectId": 1,
+      "num": 1000000
+    }]
+  }, {
+    "groupId": 0,
+    "point": 31400,
+    "gifts": [{
+      "id": 80314004,
+      "objectId": 90120001,
+      "num": 5
+    }]
+  }, {
+    "groupId": 0,
+    "point": 32000,
+    "gifts": [{
+      "id": 14000,
+      "objectId": 102,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 32500,
+    "gifts": [{
+      "id": 25520,
+      "objectId": 6542,
+      "num": 3
+    }]
+  }, {
+    "groupId": 0,
+    "point": 33000,
+    "gifts": [{
+      "id": 319,
+      "objectId": 3,
+      "num": 20
+    }]
+  }, {
+    "groupId": 0,
+    "point": 33500,
+    "gifts": [{
+      "id": 10078,
+      "objectId": 1,
+      "num": 2000000
+    }]
+  }, {
+    "groupId": 0,
+    "point": 34000,
+    "gifts": [{
+      "id": 319,
+      "objectId": 3,
+      "num": 20
+    }]
+  }, {
+    "groupId": 0,
+    "point": 34500,
+    "gifts": [{
+      "id": 30064,
+      "type": "servant",
+      "objectId": 9770500,
+      "num": 5
+    }]
+  }, {
+    "groupId": 0,
+    "point": 35000,
+    "gifts": [{
+      "id": 25429,
+      "objectId": 5000,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 35700,
+    "gifts": [{
+      "id": 10086,
+      "objectId": 1,
+      "num": 6000000
+    }]
+  }, {
+    "groupId": 0,
+    "point": 36400,
+    "gifts": [{
+      "id": 25475,
+      "objectId": 6538,
+      "num": 3
+    }]
+  }, {
+    "groupId": 0,
+    "point": 37000,
+    "gifts": [{
+      "id": 12000,
+      "objectId": 100,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 37500,
+    "gifts": [{
+      "id": 25451,
+      "objectId": 5002,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 38100,
+    "gifts": [{
+      "id": 30063,
+      "type": "servant",
+      "objectId": 9770400,
+      "num": 5
+    }]
+  }, {
+    "groupId": 0,
+    "point": 38700,
+    "gifts": [{
+      "id": 327,
+      "objectId": 3,
+      "num": 100
+    }]
+  }, {
+    "groupId": 0,
+    "point": 39500,
+    "gifts": [{
+      "id": 10074,
+      "objectId": 1,
+      "num": 1000000
+    }]
+  }, {
+    "groupId": 0,
+    "point": 40000,
+    "gifts": [{
+      "id": 41527,
+      "type": "servant",
+      "objectId": 9405310,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 40800,
+    "gifts": [{
+      "id": 21303,
+      "objectId": 6501,
+      "num": 3
+    }]
+  }, {
+    "groupId": 0,
+    "point": 41400,
+    "gifts": [{
+      "id": 14000,
+      "objectId": 102,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 42000,
+    "gifts": [{
+      "id": 10078,
+      "objectId": 1,
+      "num": 2000000
+    }]
+  }, {
+    "groupId": 0,
+    "point": 42700,
+    "gifts": [{
+      "id": 13000,
+      "objectId": 101,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 43500,
+    "gifts": [{
+      "id": 80314004,
+      "objectId": 90120001,
+      "num": 5
+    }]
+  }, {
+    "groupId": 0,
+    "point": 43900,
+    "gifts": [{
+      "id": 30064,
+      "type": "servant",
+      "objectId": 9770500,
+      "num": 5
+    }]
+  }, {
+    "groupId": 0,
+    "point": 44500,
+    "gifts": [{
+      "id": 10086,
+      "objectId": 1,
+      "num": 6000000
+    }]
+  }, {
+    "groupId": 0,
+    "point": 45000,
+    "gifts": [{
+      "id": 21701,
+      "objectId": 6999,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 45600,
+    "gifts": [{
+      "id": 14000,
+      "objectId": 102,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 46000,
+    "gifts": [{
+      "id": 25520,
+      "objectId": 6542,
+      "num": 3
+    }]
+  }, {
+    "groupId": 0,
+    "point": 46700,
+    "gifts": [{
+      "id": 10078,
+      "objectId": 1,
+      "num": 2000000
+    }]
+  }, {
+    "groupId": 0,
+    "point": 47300,
+    "gifts": [{
+      "id": 25475,
+      "objectId": 6538,
+      "num": 3
+    }]
+  }, {
+    "groupId": 0,
+    "point": 48000,
+    "gifts": [{
+      "id": 80314004,
+      "objectId": 90120001,
+      "num": 5
+    }]
+  }, {
+    "groupId": 0,
+    "point": 48600,
+    "gifts": [{
+      "id": 12000,
+      "objectId": 100,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 49200,
+    "gifts": [{
+      "id": 319,
+      "objectId": 3,
+      "num": 20
+    }]
+  }, {
+    "groupId": 0,
+    "point": 50000,
+    "gifts": [{
+      "id": 41526,
+      "type": "servant",
+      "objectId": 9405300,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 50600,
+    "gifts": [{
+      "id": 322,
+      "objectId": 3,
+      "num": 50
+    }]
+  }, {
+    "groupId": 0,
+    "point": 51100,
+    "gifts": [{
+      "id": 10086,
+      "objectId": 1,
+      "num": 6000000
+    }]
+  }, {
+    "groupId": 0,
+    "point": 51600,
+    "gifts": [{
+      "id": 25520,
+      "objectId": 6542,
+      "num": 3
+    }]
+  }, {
+    "groupId": 0,
+    "point": 52100,
+    "gifts": [{
+      "id": 21303,
+      "objectId": 6501,
+      "num": 3
+    }]
+  }, {
+    "groupId": 0,
+    "point": 52700,
+    "gifts": [{
+      "id": 14000,
+      "objectId": 102,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 53300,
+    "gifts": [{
+      "id": 319,
+      "objectId": 3,
+      "num": 20
+    }]
+  }, {
+    "groupId": 0,
+    "point": 53900,
+    "gifts": [{
+      "id": 10078,
+      "objectId": 1,
+      "num": 2000000
+    }]
+  }, {
+    "groupId": 0,
+    "point": 54500,
+    "gifts": [{
+      "id": 25475,
+      "objectId": 6538,
+      "num": 3
+    }]
+  }, {
+    "groupId": 0,
+    "point": 55000,
+    "gifts": [{
+      "id": 31043,
+      "type": "servant",
+      "objectId": 9570400,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 55600,
+    "gifts": [{
+      "id": 80314004,
+      "objectId": 90120001,
+      "num": 5
+    }]
+  }, {
+    "groupId": 0,
+    "point": 56200,
+    "gifts": [{
+      "id": 319,
+      "objectId": 3,
+      "num": 20
+    }]
+  }, {
+    "groupId": 0,
+    "point": 56700,
+    "gifts": [{
+      "id": 13000,
+      "objectId": 101,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 57300,
+    "gifts": [{
+      "id": 10086,
+      "objectId": 1,
+      "num": 6000000
+    }]
+  }, {
+    "groupId": 0,
+    "point": 57900,
+    "gifts": [{
+      "id": 322,
+      "objectId": 3,
+      "num": 50
+    }]
+  }, {
+    "groupId": 0,
+    "point": 58600,
+    "gifts": [{
+      "id": 10080,
+      "objectId": 1,
+      "num": 3000000
+    }]
+  }, {
+    "groupId": 0,
+    "point": 59300,
+    "gifts": [{
+      "id": 80314004,
+      "objectId": 90120001,
+      "num": 5
+    }]
+  }, {
+    "groupId": 0,
+    "point": 60000,
+    "gifts": [{
+      "id": 32043,
+      "type": "servant",
+      "objectId": 9670400,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 60500,
+    "gifts": [{
+      "id": 21303,
+      "objectId": 6501,
+      "num": 3
+    }]
+  }, {
+    "groupId": 0,
+    "point": 61000,
+    "gifts": [{
+      "id": 12000,
+      "objectId": 100,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 61500,
+    "gifts": [{
+      "id": 319,
+      "objectId": 3,
+      "num": 20
+    }]
+  }, {
+    "groupId": 0,
+    "point": 62000,
+    "gifts": [{
+      "id": 10086,
+      "objectId": 1,
+      "num": 6000000
+    }]
+  }, {
+    "groupId": 0,
+    "point": 62700,
+    "gifts": [{
+      "id": 80314004,
+      "objectId": 90120001,
+      "num": 5
+    }]
+  }, {
+    "groupId": 0,
+    "point": 63300,
+    "gifts": [{
+      "id": 319,
+      "objectId": 3,
+      "num": 20
+    }]
+  }, {
+    "groupId": 0,
+    "point": 64000,
+    "gifts": [{
+      "id": 25520,
+      "objectId": 6542,
+      "num": 3
+    }]
+  }, {
+    "groupId": 0,
+    "point": 64500,
+    "gifts": [{
+      "id": 13000,
+      "objectId": 101,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 65000,
+    "gifts": [{
+      "id": 21701,
+      "objectId": 6999,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 65600,
+    "gifts": [{
+      "id": 327,
+      "objectId": 3,
+      "num": 100
+    }]
+  }, {
+    "groupId": 0,
+    "point": 66200,
+    "gifts": [{
+      "id": 13000,
+      "objectId": 101,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 67000,
+    "gifts": [{
+      "id": 319,
+      "objectId": 3,
+      "num": 20
+    }]
+  }, {
+    "groupId": 0,
+    "point": 67600,
+    "gifts": [{
+      "id": 10080,
+      "objectId": 1,
+      "num": 3000000
+    }]
+  }, {
+    "groupId": 0,
+    "point": 68200,
+    "gifts": [{
+      "id": 30064,
+      "type": "servant",
+      "objectId": 9770500,
+      "num": 5
+    }]
+  }, {
+    "groupId": 0,
+    "point": 68700,
+    "gifts": [{
+      "id": 25475,
+      "objectId": 6538,
+      "num": 3
+    }]
+  }, {
+    "groupId": 0,
+    "point": 69300,
+    "gifts": [{
+      "id": 12000,
+      "objectId": 100,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 70000,
+    "gifts": [{
+      "id": 41526,
+      "type": "servant",
+      "objectId": 9405300,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 70500,
+    "gifts": [{
+      "id": 319,
+      "objectId": 3,
+      "num": 20
+    }]
+  }, {
+    "groupId": 0,
+    "point": 71000,
+    "gifts": [{
+      "id": 10086,
+      "objectId": 1,
+      "num": 6000000
+    }]
+  }, {
+    "groupId": 0,
+    "point": 71600,
+    "gifts": [{
+      "id": 13000,
+      "objectId": 101,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 72300,
+    "gifts": [{
+      "id": 319,
+      "objectId": 3,
+      "num": 20
+    }]
+  }, {
+    "groupId": 0,
+    "point": 73000,
+    "gifts": [{
+      "id": 30064,
+      "type": "servant",
+      "objectId": 9770500,
+      "num": 5
+    }]
+  }, {
+    "groupId": 0,
+    "point": 73600,
+    "gifts": [{
+      "id": 322,
+      "objectId": 3,
+      "num": 50
+    }]
+  }, {
+    "groupId": 0,
+    "point": 74200,
+    "gifts": [{
+      "id": 10080,
+      "objectId": 1,
+      "num": 3000000
+    }]
+  }, {
+    "groupId": 0,
+    "point": 75000,
+    "gifts": [{
+      "id": 31043,
+      "type": "servant",
+      "objectId": 9570400,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 75500,
+    "gifts": [{
+      "id": 319,
+      "objectId": 3,
+      "num": 20
+    }]
+  }, {
+    "groupId": 0,
+    "point": 76000,
+    "gifts": [{
+      "id": 13000,
+      "objectId": 101,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 76600,
+    "gifts": [{
+      "id": 30064,
+      "type": "servant",
+      "objectId": 9770500,
+      "num": 5
+    }]
+  }, {
+    "groupId": 0,
+    "point": 77300,
+    "gifts": [{
+      "id": 319,
+      "objectId": 3,
+      "num": 20
+    }]
+  }, {
+    "groupId": 0,
+    "point": 78000,
+    "gifts": [{
+      "id": 12000,
+      "objectId": 100,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 78500,
+    "gifts": [{
+      "id": 319,
+      "objectId": 3,
+      "num": 20
+    }]
+  }, {
+    "groupId": 0,
+    "point": 79000,
+    "gifts": [{
+      "id": 25520,
+      "objectId": 6542,
+      "num": 3
+    }]
+  }, {
+    "groupId": 0,
+    "point": 79600,
+    "gifts": [{
+      "id": 322,
+      "objectId": 3,
+      "num": 50
+    }]
+  }, {
+    "groupId": 0,
+    "point": 80000,
+    "gifts": [{
+      "id": 32043,
+      "type": "servant",
+      "objectId": 9670400,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 80700,
+    "gifts": [{
+      "id": 12000,
+      "objectId": 100,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 81400,
+    "gifts": [{
+      "id": 319,
+      "objectId": 3,
+      "num": 20
+    }]
+  }, {
+    "groupId": 0,
+    "point": 82000,
+    "gifts": [{
+      "id": 21303,
+      "objectId": 6501,
+      "num": 3
+    }]
+  }, {
+    "groupId": 0,
+    "point": 82700,
+    "gifts": [{
+      "id": 319,
+      "objectId": 3,
+      "num": 20
+    }]
+  }, {
+    "groupId": 0,
+    "point": 83300,
+    "gifts": [{
+      "id": 10086,
+      "objectId": 1,
+      "num": 6000000
+    }]
+  }, {
+    "groupId": 0,
+    "point": 84000,
+    "gifts": [{
+      "id": 30064,
+      "type": "servant",
+      "objectId": 9770500,
+      "num": 5
+    }]
+  }, {
+    "groupId": 0,
+    "point": 84500,
+    "gifts": [{
+      "id": 319,
+      "objectId": 3,
+      "num": 20
+    }]
+  }, {
+    "groupId": 0,
+    "point": 85000,
+    "gifts": [{
+      "id": 31043,
+      "type": "servant",
+      "objectId": 9570400,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 85700,
+    "gifts": [{
+      "id": 25520,
+      "objectId": 6542,
+      "num": 3
+    }]
+  }, {
+    "groupId": 0,
+    "point": 86400,
+    "gifts": [{
+      "id": 12000,
+      "objectId": 100,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 87000,
+    "gifts": [{
+      "id": 319,
+      "objectId": 3,
+      "num": 20
+    }]
+  }, {
+    "groupId": 0,
+    "point": 87500,
+    "gifts": [{
+      "id": 32043,
+      "type": "servant",
+      "objectId": 9670400,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 88100,
+    "gifts": [{
+      "id": 10086,
+      "objectId": 1,
+      "num": 6000000
+    }]
+  }, {
+    "groupId": 0,
+    "point": 88700,
+    "gifts": [{
+      "id": 327,
+      "objectId": 3,
+      "num": 100
+    }]
+  }, {
+    "groupId": 0,
+    "point": 89300,
+    "gifts": [{
+      "id": 25520,
+      "objectId": 6542,
+      "num": 3
+    }]
+  }, {
+    "groupId": 0,
+    "point": 90000,
+    "gifts": [{
+      "id": 21701,
+      "objectId": 6999,
+      "num": 1
+    }]
+  }],
+  "rewardScenes": [{
+    "type": 3,
+    "guides": [{
+      "imageId": 109822140,
+      "image": "https://static.atlasacademy.io/JP/CharaFigure/1098221400/1098221400_merged.png",
+      "faceId": 11
+    }, {
+      "imageId": 109822141,
+      "image": "https://static.atlasacademy.io/JP/CharaFigure/1098221410/1098221410_merged.png",
+      "faceId": 11
+    }, {
+      "imageId": 109822061,
+      "image": "https://static.atlasacademy.io/JP/CharaFigure/1098220610/1098220610_merged.png",
+      "faceId": 7
+    }, {
+      "imageId": 109822060,
+      "image": "https://static.atlasacademy.io/JP/CharaFigure/1098220600/1098220600_merged.png",
+      "faceId": 7
+    }],
+    "tabOnImage": "https://static.atlasacademy.io/JP/EventReward/btn_txt_on_80474_0.png",
+    "tabOffImage": "https://static.atlasacademy.io/JP/EventReward/btn_txt_off_80474_0.png",
+    "bg": "https://static.atlasacademy.io/JP/Back/back129703.png",
+    "bgm": {
+      "id": 533
+    },
+    "afterBgm": {
+      "id": 533
+    },
+    "flags": ["npcGuide"]
+  }, {
+    "slot": 1,
+    "type": 10,
+    "guides": [{
+      "imageId": 901200,
+      "image": "https://static.atlasacademy.io/JP/CharaFigure/9012000/9012000_merged.png",
+      "faceId": 10
+    }],
+    "tabOnImage": "https://static.atlasacademy.io/JP/EventReward/btn_txt_on_80474_1.png",
+    "tabOffImage": "https://static.atlasacademy.io/JP/EventReward/btn_txt_off_80474_1.png",
+    "bg": "https://static.atlasacademy.io/JP/Back/back129703.png",
+    "bgm": {
+      "id": 533
+    },
+    "afterBgm": {
+      "id": 533
+    },
+    "flags": []
+  }, {
+    "slot": 2,
+    "type": 1,
+    "guides": [{
+      "imageId": 901200,
+      "image": "https://static.atlasacademy.io/JP/CharaFigure/9012000/9012000_merged.png",
+      "faceId": 10
+    }],
+    "tabOnImage": "https://static.atlasacademy.io/JP/EventReward/btn_txt_on_80474_2.png",
+    "tabOffImage": "https://static.atlasacademy.io/JP/EventReward/btn_txt_off_80474_2.png",
+    "bg": "https://static.atlasacademy.io/JP/Back/back129703.png",
+    "bgm": {
+      "id": 533
+    },
+    "afterBgm": {
+      "id": 533
+    },
+    "flags": []
+  }],
+  "treasureBoxes": [{
+    "slot": 1,
+    "id": 804741,
+    "idx": 0,
+    "treasureBoxGifts": [{
+      "id": 8047401,
+      "idx": 1,
+      "gifts": [{
+        "id": 20201,
+        "objectId": 6516,
+        "num": 1
+      }],
+      "collateralUpperLimit": 15
+    }, {
+      "id": 8047401,
+      "idx": 2,
+      "gifts": [{
+        "id": 20301,
+        "objectId": 6512,
+        "num": 1
+      }],
+      "collateralUpperLimit": 15
+    }, {
+      "id": 8047401,
+      "idx": 3,
+      "gifts": [{
+        "id": 25384,
+        "objectId": 6534,
+        "num": 1
+      }],
+      "collateralUpperLimit": 15
+    }, {
+      "id": 8047401,
+      "idx": 4,
+      "gifts": [{
+        "id": 25309,
+        "objectId": 6527,
+        "num": 1
+      }],
+      "collateralUpperLimit": 15
+    }, {
+      "id": 8047401,
+      "idx": 5,
+      "gifts": [{
+        "id": 25340,
+        "objectId": 6530,
+        "num": 1
+      }],
+      "collateralUpperLimit": 15
+    }],
+    "maxDrawNumOnce": 100,
+    "extraGifts": [{
+      "id": 94096725,
+      "objectId": 94096708,
+      "num": 100
+    }],
+    "consumes": [{
+      "id": 20096701,
+      "priority": 3,
+      "type": "item",
+      "objectId": 94096705,
+      "num": 1
+    }]
+  }, {
+    "slot": 1,
+    "id": 804742,
+    "idx": 1,
+    "treasureBoxGifts": [{
+      "id": 8047402,
+      "idx": 1,
+      "gifts": [{
+        "id": 20801,
+        "objectId": 6509,
+        "num": 1
+      }],
+      "collateralUpperLimit": 15
+    }, {
+      "id": 8047402,
+      "idx": 2,
+      "gifts": [{
+        "id": 25299,
+        "objectId": 6526,
+        "num": 1
+      }],
+      "collateralUpperLimit": 15
+    }, {
+      "id": 8047402,
+      "idx": 3,
+      "gifts": [{
+        "id": 20601,
+        "objectId": 6508,
+        "num": 1
+      }],
+      "collateralUpperLimit": 15
+    }, {
+      "id": 8047402,
+      "idx": 4,
+      "gifts": [{
+        "id": 25407,
+        "objectId": 6537,
+        "num": 1
+      }],
+      "collateralUpperLimit": 15
+    }, {
+      "id": 8047402,
+      "idx": 5,
+      "gifts": [{
+        "id": 25576,
+        "objectId": 6547,
+        "num": 1
+      }],
+      "collateralUpperLimit": 15
+    }],
+    "maxDrawNumOnce": 100,
+    "extraGifts": [{
+      "id": 94096725,
+      "objectId": 94096708,
+      "num": 100
+    }],
+    "consumes": [{
+      "id": 20096702,
+      "priority": 2,
+      "type": "item",
+      "objectId": 94096706,
+      "num": 1
+    }]
+  }, {
+    "slot": 1,
+    "id": 804743,
+    "idx": 2,
+    "treasureBoxGifts": [{
+      "id": 8047403,
+      "idx": 1,
+      "gifts": [{
+        "id": 21601,
+        "objectId": 6506,
+        "num": 1
+      }],
+      "collateralUpperLimit": 15
+    }, {
+      "id": 8047403,
+      "idx": 2,
+      "gifts": [{
+        "id": 25562,
+        "objectId": 6546,
+        "num": 1
+      }],
+      "collateralUpperLimit": 15
+    }, {
+      "id": 8047403,
+      "idx": 3,
+      "gifts": [{
+        "id": 25319,
+        "objectId": 6528,
+        "num": 1
+      }],
+      "collateralUpperLimit": 15
+    }, {
+      "id": 8047403,
+      "idx": 4,
+      "gifts": [{
+        "id": 25351,
+        "objectId": 6531,
+        "num": 1
+      }],
+      "collateralUpperLimit": 15
+    }, {
+      "id": 8047403,
+      "idx": 5,
+      "gifts": [{
+        "id": 25540,
+        "objectId": 6544,
+        "num": 1
+      }],
+      "collateralUpperLimit": 15
+    }],
+    "maxDrawNumOnce": 100,
+    "extraGifts": [{
+      "id": 94096725,
+      "objectId": 94096708,
+      "num": 100
+    }],
+    "consumes": [{
+      "id": 20096703,
+      "priority": 1,
+      "type": "item",
+      "objectId": 94096707,
+      "num": 1
+    }]
+  }],
+  "voices": [{
+    "svtId": 901200,
+    "type": "eventReward",
+    "voiceLines": [{
+      "name": "イベントについて 1",
+      "condType": "eventEnd",
+      "priority": 6990,
+      "svtVoiceType": "eventReward",
+      "overwriteName": "カルデア・サマーアドベンチャー！\n～夢追う少年と夢見る少女～ 1",
+      "id": ["0_N010", "0_N011"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_901200/0_N010.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_901200/0_N011.mp3"],
+      "delay": [0.0, 0.1],
+      "face": [1, 29],
+      "conds": [{
+        "condType": "eventNoend",
+        "value": 80474
+      }]
+    }, {
+      "name": "イベントについて 3",
+      "condType": "eventEnd",
+      "priority": 6970,
+      "svtVoiceType": "eventReward",
+      "overwriteName": "カルデア・サマーアドベンチャー！\n～夢追う少年と夢見る少女～ 2",
+      "id": ["0_N030", "0_N031"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_901200/0_N030.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_901200/0_N031.mp3"],
+      "delay": [0.0, 0.1],
+      "face": [25, 13],
+      "conds": [{
+        "condType": "eventNoend",
+        "value": 80474
+      }]
+    }, {
+      "name": "イベントについて 4",
+      "condType": "eventEnd",
+      "priority": 6960,
+      "svtVoiceType": "eventReward",
+      "overwriteName": "カルデア・サマーアドベンチャー！\n～夢追う少年と夢見る少女～ 3",
+      "id": ["0_N040", "0_N041"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_901200/0_N040.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_901200/0_N041.mp3"],
+      "delay": [0.0, 0.1],
+      "face": [23, 10],
+      "conds": [{
+        "condType": "eventEnd",
+        "value": 80474
+      }]
+    }, {
+      "name": "イベントについて 5",
+      "condType": "eventEnd",
+      "priority": 6950,
+      "svtVoiceType": "eventReward",
+      "overwriteName": "カルデア・サマーアドベンチャー！\n～夢追う少年と夢見る少女～ 4",
+      "id": ["0_N050", "0_N051"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_901200/0_N050.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_901200/0_N051.mp3"],
+      "delay": [0.0, 0.1],
+      "face": [6, 7],
+      "conds": [{
+        "condType": "eventEnd",
+        "value": 80474
+      }]
+    }]
+  }, {
+    "svtId": 901200,
+    "type": "eventShop",
+    "voiceLines": [{
+      "name": "ショップついて 1",
+      "condType": "eventEnd",
+      "priority": 6490,
+      "svtVoiceType": "eventShop",
+      "overwriteName": "カルデア・サマーアドベンチャー！\n～夢追う少年と夢見る少女～ 5",
+      "id": ["0_I010", "0_I011"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_901200/0_I010.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_901200/0_I011.mp3"],
+      "delay": [0.0, 0.1],
+      "face": [1, 19],
+      "conds": [{
+        "condType": "eventNoend",
+        "value": 80474
+      }]
+    }, {
+      "name": "ショップついて 2",
+      "condType": "eventEnd",
+      "priority": 6480,
+      "svtVoiceType": "eventShop",
+      "overwriteName": "カルデア・サマーアドベンチャー！\n～夢追う少年と夢見る少女～ 6",
+      "id": ["0_I020"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_901200/0_I020.mp3"],
+      "delay": [0.0],
+      "face": [9],
+      "conds": [{
+        "condType": "eventNoend",
+        "value": 80474
+      }]
+    }, {
+      "name": "ショップついて 3",
+      "condType": "eventEnd",
+      "priority": 6470,
+      "svtVoiceType": "eventShop",
+      "overwriteName": "カルデア・サマーアドベンチャー！\n～夢追う少年と夢見る少女～ 7",
+      "id": ["0_I030", "0_I031"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_901200/0_I030.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_901200/0_I031.mp3"],
+      "delay": [0.0, 0.1],
+      "face": [9, 1],
+      "conds": [{
+        "condType": "eventShopPurchase",
+        "value": 80474
+      }, {
+        "condType": "eventPeriod",
+        "value": 80474
+      }]
+    }, {
+      "name": "ショップついて 4",
+      "condType": "eventEnd",
+      "priority": 6460,
+      "svtVoiceType": "eventShop",
+      "overwriteName": "カルデア・サマーアドベンチャー！\n～夢追う少年と夢見る少女～ 8",
+      "id": ["0_I040", "0_I041"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_901200/0_I040.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_901200/0_I041.mp3"],
+      "delay": [0.0, 0.1],
+      "face": [10, 11],
+      "conds": [{
+        "condType": "eventShopPurchase",
+        "value": 80474
+      }, {
+        "condType": "eventPeriod",
+        "value": 80474
+      }]
+    }, {
+      "name": "ショップついて 5",
+      "condType": "eventEnd",
+      "priority": 6450,
+      "svtVoiceType": "eventShop",
+      "overwriteName": "カルデア・サマーアドベンチャー！\n～夢追う少年と夢見る少女～ 9",
+      "id": ["0_I050", "0_I051"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_901200/0_I050.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_901200/0_I051.mp3"],
+      "delay": [0.0, 0.1],
+      "face": [1, 12],
+      "conds": [{
+        "condType": "eventShopPurchase",
+        "value": 80474
+      }, {
+        "condType": "eventPeriod",
+        "value": 80474
+      }]
+    }, {
+      "name": "ショップついて 6",
+      "condType": "eventEnd",
+      "priority": 6440,
+      "svtVoiceType": "eventShop",
+      "overwriteName": "カルデア・サマーアドベンチャー！\n～夢追う少年と夢見る少女～ 10",
+      "id": ["0_I060", "0_I061", "0_I062"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_901200/0_I060.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_901200/0_I061.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_901200/0_I062.mp3"],
+      "delay": [0.0, 0.1, 0.1],
+      "face": [1, 26, 19],
+      "conds": [{
+        "condType": "eventShopPurchase",
+        "value": 80474
+      }, {
+        "condType": "eventPeriod",
+        "value": 80474
+      }]
+    }, {
+      "name": "ショップついて 7",
+      "condType": "eventEnd",
+      "priority": 6430,
+      "svtVoiceType": "eventShop",
+      "overwriteName": "カルデア・サマーアドベンチャー！\n～夢追う少年と夢見る少女～ 11",
+      "id": ["0_I070", "0_I071"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_901200/0_I070.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_901200/0_I071.mp3"],
+      "delay": [0.0, 0.1],
+      "face": [6, 1],
+      "conds": [{
+        "condType": "eventPeriod",
+        "value": 80474
+      }, {
+        "condType": "spacificShopPurchase",
+        "value": 80474
+      }]
+    }, {
+      "name": "ショップついて 8",
+      "condType": "eventEnd",
+      "priority": 6420,
+      "svtVoiceType": "eventShop",
+      "overwriteName": "カルデア・サマーアドベンチャー！\n～夢追う少年と夢見る少女～ 12",
+      "id": ["0_I080", "0_I081"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_901200/0_I080.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_901200/0_I081.mp3"],
+      "delay": [0.0, 0.1],
+      "face": [1, 9],
+      "conds": [{
+        "condType": "eventPeriod",
+        "value": 80474
+      }, {
+        "condType": "spacificShopPurchase",
+        "value": 80474
+      }]
+    }, {
+      "name": "ショップついて 9",
+      "condType": "eventEnd",
+      "priority": 6410,
+      "svtVoiceType": "eventShop",
+      "overwriteName": "カルデア・サマーアドベンチャー！\n～夢追う少年と夢見る少女～ 13",
+      "id": ["0_I090"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_901200/0_I090.mp3"],
+      "delay": [0.0],
+      "face": [10],
+      "conds": [{
+        "condType": "eventPeriod",
+        "value": 80474
+      }, {
+        "condType": "spacificShopPurchase",
+        "value": 80474
+      }]
+    }, {
+      "name": "ショップついて 10",
+      "condType": "eventEnd",
+      "priority": 6400,
+      "svtVoiceType": "eventShop",
+      "overwriteName": "カルデア・サマーアドベンチャー！\n～夢追う少年と夢見る少女～ 14",
+      "id": ["0_I100"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_901200/0_I100.mp3"],
+      "delay": [0.0],
+      "face": [23],
+      "conds": [{
+        "condType": "eventPeriod",
+        "value": 80474
+      }, {
+        "condType": "spacificShopPurchase",
+        "value": 80474
+      }]
+    }, {
+      "name": "ショップついて 11",
+      "condType": "eventEnd",
+      "priority": 6380,
+      "svtVoiceType": "eventShop",
+      "overwriteName": "カルデア・サマーアドベンチャー！\n～夢追う少年と夢見る少女～ 15",
+      "id": ["0_I110"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_901200/0_I110.mp3"],
+      "delay": [0.0],
+      "face": [5],
+      "conds": [{
+        "condType": "eventPeriod",
+        "value": 80474
+      }, {
+        "condType": "spacificShopPurchase",
+        "value": 80474
+      }]
+    }, {
+      "name": "ショップついて 12",
+      "condType": "eventEnd",
+      "priority": 6370,
+      "svtVoiceType": "eventShop",
+      "overwriteName": "カルデア・サマーアドベンチャー！\n～夢追う少年と夢見る少女～ 16",
+      "id": ["0_I120"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_901200/0_I120.mp3"],
+      "delay": [0.0],
+      "face": [9],
+      "conds": [{
+        "condType": "eventPeriod",
+        "value": 80474
+      }, {
+        "condType": "spacificShopPurchase",
+        "value": 80474
+      }]
+    }, {
+      "name": "ショップついて 13",
+      "condType": "eventEnd",
+      "priority": 6360,
+      "svtVoiceType": "eventShop",
+      "overwriteName": "カルデア・サマーアドベンチャー！\n～夢追う少年と夢見る少女～ 17",
+      "id": ["0_I130"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_901200/0_I130.mp3"],
+      "delay": [0.0],
+      "face": [12],
+      "conds": [{
+        "condType": "eventPeriod",
+        "value": 80474
+      }, {
+        "condType": "spacificShopPurchase",
+        "value": 80474
+      }]
+    }, {
+      "name": "ショップついて 14",
+      "condType": "eventEnd",
+      "priority": 6350,
+      "svtVoiceType": "eventShop",
+      "overwriteName": "カルデア・サマーアドベンチャー！\n～夢追う少年と夢見る少女～ 18",
+      "id": ["0_I140"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_901200/0_I140.mp3"],
+      "delay": [0.0],
+      "face": [27],
+      "conds": [{
+        "condType": "eventPeriod",
+        "value": 80474
+      }, {
+        "condType": "spacificShopPurchase",
+        "value": 80474
+      }]
+    }, {
+      "name": "ショップついて 15",
+      "condType": "eventEnd",
+      "priority": 6340,
+      "svtVoiceType": "eventShop",
+      "overwriteName": "カルデア・サマーアドベンチャー！\n～夢追う少年と夢見る少女～ 19",
+      "id": ["0_I150"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_901200/0_I150.mp3"],
+      "delay": [0.0],
+      "face": [19],
+      "conds": [{
+        "condType": "eventPeriod",
+        "value": 80474
+      }, {
+        "condType": "spacificShopPurchase",
+        "value": 80474
+      }]
+    }, {
+      "name": "ショップついて 16",
+      "condType": "eventEnd",
+      "priority": 6330,
+      "svtVoiceType": "eventShop",
+      "overwriteName": "カルデア・サマーアドベンチャー！\n～夢追う少年と夢見る少女～ 20",
+      "id": ["0_I160", "0_I161", "0_I162"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_901200/0_I160.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_901200/0_I161.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_901200/0_I162.mp3"],
+      "delay": [0.0, 0.1, 0.3],
+      "face": [0, 4, 3],
+      "conds": [{
+        "condType": "eventEnd",
+        "value": 80474
+      }]
+    }, {
+      "name": "ショップついて 17",
+      "condType": "eventEnd",
+      "priority": 6320,
+      "svtVoiceType": "eventShop",
+      "overwriteName": "カルデア・サマーアドベンチャー！\n～夢追う少年と夢見る少女～ 21",
+      "id": ["0_I170", "0_I171"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_901200/0_I170.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_901200/0_I171.mp3"],
+      "delay": [0.0, 0.1],
+      "face": [0, 1],
+      "conds": [{
+        "condType": "eventEnd",
+        "value": 80474
+      }]
+    }]
+  }, {
+    "svtId": 901200,
+    "type": "treasureBox",
+    "voiceLines": [{
+      "name": "宝箱開封ボイス 2",
+      "condType": "eventEnd",
+      "priority": 3469,
+      "svtVoiceType": "treasureBox",
+      "overwriteName": "カルデア・サマーアドベンチャー！\n～夢追う少年と夢見る少女～ 22",
+      "id": ["0_T020", "0_T021"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_901200/0_T020.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_901200/0_T021.mp3"],
+      "delay": [0.0, 0.1],
+      "face": [5, 1],
+      "conds": [{
+        "condType": "eventNoend",
+        "value": 80474
+      }]
+    }]
+  }, {
+    "svtId": 109822060,
+    "type": "eventReward",
+    "voiceLines": [{
+      "name": "イベントについて 1",
+      "condType": "eventEnd",
+      "priority": 6990,
+      "svtVoiceType": "eventReward",
+      "id": ["0_N010", "0_N011", "0_N012", "0_N013"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_109822060/0_N010.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109822060/0_N011.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109822060/0_N012.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109822060/0_N013.mp3"],
+      "delay": [0.0, 0.3, 0.1, 0.1],
+      "face": [1, 1, 8, 8],
+      "conds": [{
+        "condType": "eventNoend",
+        "value": 80474
+      }]
+    }, {
+      "name": "イベントについて 2",
+      "condType": "eventEnd",
+      "priority": 6980,
+      "svtVoiceType": "eventReward",
+      "id": ["0_N020", "0_N021", "0_N022"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_109822060/0_N020.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109822060/0_N021.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109822060/0_N022.mp3"],
+      "delay": [0.0, 0.1, 0.1],
+      "face": [8, 8, 1],
+      "conds": [{
+        "condType": "eventNoend",
+        "value": 80474
+      }]
+    }, {
+      "name": "イベントについて 6",
+      "condType": "eventEnd",
+      "priority": 6940,
+      "svtVoiceType": "eventReward",
+      "id": ["0_N060", "0_N061", "0_N062"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_109822060/0_N060.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109822060/0_N061.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109822060/0_N062.mp3"],
+      "delay": [0.0, 0.3, 0.1],
+      "face": [4, 8, 1],
+      "conds": [{
+        "condType": "eventEnd",
+        "value": 80474
+      }]
+    }]
+  }, {
+    "svtId": 109822061,
+    "type": "eventReward",
+    "voiceLines": [{
+      "name": "イベントについて 3",
+      "condType": "eventEnd",
+      "priority": 6970,
+      "svtVoiceType": "eventReward",
+      "id": ["0_N030", "0_N031", "0_N032", "0_N033"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_109822061/0_N030.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109822061/0_N031.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109822061/0_N032.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109822061/0_N033.mp3"],
+      "delay": [0.0, 0.1, 0.3, 0.1],
+      "face": [0, 0, 4, 2],
+      "form": [1, 1, 1, 1],
+      "conds": [{
+        "condType": "eventNoend",
+        "value": 80474
+      }]
+    }, {
+      "name": "イベントについて 4",
+      "condType": "eventEnd",
+      "priority": 6960,
+      "svtVoiceType": "eventReward",
+      "id": ["0_N040", "0_N041", "0_N042", "0_N043"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_109822061/0_N040.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109822061/0_N041.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109822061/0_N042.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109822061/0_N043.mp3"],
+      "delay": [0.0, 0.1, 0.3, 0.1],
+      "face": [1, 1, 8, 7],
+      "conds": [{
+        "condType": "eventNoend",
+        "value": 80474
+      }]
+    }, {
+      "name": "イベントについて 5",
+      "condType": "eventEnd",
+      "priority": 6950,
+      "svtVoiceType": "eventReward",
+      "id": ["0_N050", "0_N051"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_109822061/0_N050.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109822061/0_N051.mp3"],
+      "delay": [0.0, 0.1],
+      "face": [0, 1],
+      "conds": [{
+        "condType": "eventNoend",
+        "value": 80474
+      }]
+    }, {
+      "name": "イベントについて 7",
+      "condType": "eventEnd",
+      "priority": 6930,
+      "svtVoiceType": "eventReward",
+      "id": ["0_N070", "0_N071", "0_N072"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_109822061/0_N070.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109822061/0_N071.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109822061/0_N072.mp3"],
+      "delay": [0.0, 0.1, 0.1],
+      "face": [7, 7, 8],
+      "conds": [{
+        "condType": "eventEnd",
+        "value": 80474
+      }]
+    }]
+  }, {
+    "svtId": 109822140,
+    "type": "eventReward",
+    "voiceLines": [{
+      "name": "イベントについて 1",
+      "condType": "eventEnd",
+      "priority": 6990,
+      "svtVoiceType": "eventReward",
+      "id": ["0_N010", "0_N011", "0_N012", "0_N013", "0_N014"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_109822140/0_N010.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109822140/0_N011.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109822140/0_N012.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109822140/0_N013.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109822140/0_N014.mp3"],
+      "delay": [0.0, 0.1, 0.1, 0.1, 0.1],
+      "face": [1, 1, 14, 17, 16],
+      "conds": [{
+        "condType": "eventNoend",
+        "value": 80474
+      }]
+    }, {
+      "name": "イベントについて 3",
+      "condType": "eventEnd",
+      "priority": 6970,
+      "svtVoiceType": "eventReward",
+      "id": ["0_N030", "0_N031", "0_N032", "0_N033", "0_N034"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_109822140/0_N030.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109822140/0_N031.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109822140/0_N032.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109822140/0_N033.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109822140/0_N034.mp3"],
+      "delay": [0.0, 0.1, 0.1, 0.1, 0.1],
+      "face": [11, 18, 3, 3, 5],
+      "conds": [{
+        "condType": "eventNoend",
+        "value": 80474
+      }]
+    }, {
+      "name": "イベントについて 4",
+      "condType": "eventEnd",
+      "priority": 6960,
+      "svtVoiceType": "eventReward",
+      "id": ["0_N040", "0_N041", "0_N042", "0_N043", "0_N044"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_109822140/0_N040.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109822140/0_N041.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109822140/0_N042.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109822140/0_N043.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109822140/0_N044.mp3"],
+      "delay": [0.0, 0.1, 0.1, 0.1, 0.1],
+      "face": [3, 3, 2, 5, 26],
+      "conds": [{
+        "condType": "eventNoend",
+        "value": 80474
+      }]
+    }, {
+      "name": "イベントについて 5",
+      "condType": "eventEnd",
+      "priority": 6950,
+      "svtVoiceType": "eventReward",
+      "id": ["0_N050", "0_N051", "0_N052"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_109822140/0_N050.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109822140/0_N051.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109822140/0_N052.mp3"],
+      "delay": [0.0, 0.1, 0.1],
+      "face": [0, 4, 25],
+      "conds": [{
+        "condType": "eventNoend",
+        "value": 80474
+      }]
+    }, {
+      "name": "イベントについて 6",
+      "condType": "eventEnd",
+      "priority": 6940,
+      "svtVoiceType": "eventReward",
+      "id": ["0_N060", "0_N061", "0_N062", "0_N063"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_109822140/0_N060.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109822140/0_N061.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109822140/0_N062.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109822140/0_N063.mp3"],
+      "delay": [0.0, 0.3, 0.1, 0.1],
+      "face": [4, 24, 23, 36],
+      "conds": [{
+        "condType": "eventEnd",
+        "value": 80474
+      }]
+    }]
+  }, {
+    "svtId": 109822141,
+    "type": "eventReward",
+    "voiceLines": [{
+      "name": "イベントについて 2",
+      "condType": "eventEnd",
+      "priority": 6980,
+      "svtVoiceType": "eventReward",
+      "id": ["0_N020", "0_N021", "0_N022", "0_N023", "0_N024"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_109822141/0_N020.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109822141/0_N021.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109822141/0_N022.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109822141/0_N023.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109822141/0_N024.mp3"],
+      "delay": [0.0, 0.3, 0.1, 0.1, 0.1],
+      "face": [50, 51, 52, 52, 53],
+      "conds": [{
+        "condType": "eventNoend",
+        "value": 80474
+      }]
+    }, {
+      "name": "イベントについて 7",
+      "condType": "eventEnd",
+      "priority": 6930,
+      "svtVoiceType": "eventReward",
+      "id": ["0_N070", "0_N071", "0_N072", "0_N073", "0_N074", "0_N075", "0_N076", "0_N077"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_109822141/0_N070.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109822141/0_N071.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109822141/0_N072.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109822141/0_N073.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109822141/0_N074.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109822141/0_N075.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109822141/0_N076.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109822141/0_N077.mp3"],
+      "delay": [0.0, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1],
+      "face": [1, 1, 12, 54, 12, 12, 11, 40],
+      "conds": [{
+        "condType": "eventEnd",
+        "value": 80474
+      }]
+    }]
   }]
 }]
