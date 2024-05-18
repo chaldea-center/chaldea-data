@@ -125205,6 +125205,7 @@
         "targetId": 0
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94096899,
       "noticeAt": 1715936400,
       "openedAt": 1715936400,
@@ -125251,6 +125252,7 @@
         "closedMessage": "海賊の宝箱を開けてお宝ポイント3,500獲得で開放"
       }],
       "phases": [1, 2, 3, 4, 5, 6],
+      "phasesWithEnemies": [1, 2, 3, 4, 5],
       "phasesNoBattle": [6],
       "phaseScripts": [{
         "phase": 1,
@@ -125305,6 +125307,264 @@
       "noticeAt": 1715936400,
       "openedAt": 1716022800,
       "closedAt": 1717732799
+    }, {
+      "id": 94096705,
+      "name": "第四節『喪失は恐れるもので』",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "30",
+      "spotId": 916802,
+      "warId": 9168,
+      "gifts": [{
+        "id": 94096753,
+        "objectId": 2,
+        "num": 1
+      }, {
+        "id": 94096753,
+        "objectId": 94096705,
+        "num": 4
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94096704
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "海賊の宝箱を開けてお宝ポイント8,000獲得\n＆5月19日18時00分以降に開放"
+      }, {
+        "type": "eventTotalPoint",
+        "targetId": 80474,
+        "value": 8000,
+        "closedMessage": "海賊の宝箱を開けてお宝ポイント8,000獲得で開放"
+      }],
+      "phases": [1, 2, 3, 4],
+      "phasesNoBattle": [2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9406040510",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406040510.txt"
+        }, {
+          "scriptId": "9406040511",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406040511.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9406040520",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406040520.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9406040530",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406040530.txt"
+        }, {
+          "scriptId": "9406040531",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406040531.txt"
+        }]
+      }, {
+        "phase": 4,
+        "scripts": [{
+          "scriptId": "9406040540",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406040540.txt"
+        }, {
+          "scriptId": "9406040541",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406040541.txt"
+        }]
+      }],
+      "priority": 94097194,
+      "noticeAt": 1716022800,
+      "openedAt": 1716109200,
+      "closedAt": 1717732799
+    }, {
+      "id": 94096797,
+      "name": "第四節『喪失は恐れるもので』選択03",
+      "type": "main",
+      "flags": ["branch", "notDisplayResultGetPoint"],
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "30",
+      "spotId": 916802,
+      "warId": 9168,
+      "gifts": [{
+        "id": 101,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94096705
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [3],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9406040510",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406040510.txt"
+        }, {
+          "scriptId": "9406040511",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406040511.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9406040520",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406040520.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9406040530",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406040530.txt"
+        }, {
+          "scriptId": "9406040531",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406040531.txt"
+        }]
+      }, {
+        "phase": 4,
+        "scripts": [{
+          "scriptId": "9406040540",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406040540.txt"
+        }, {
+          "scriptId": "9406040541",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406040541.txt"
+        }]
+      }],
+      "priority": 94097192,
+      "noticeAt": 1716022800,
+      "openedAt": 1716109200,
+      "closedAt": 1717732799
+    }, {
+      "id": 94096798,
+      "name": "第四節『喪失は恐れるもので』選択02",
+      "type": "main",
+      "flags": ["branch", "notDisplayResultGetPoint"],
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "30",
+      "spotId": 916802,
+      "warId": 9168,
+      "gifts": [{
+        "id": 101,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94096705
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [3],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9406040510",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406040510.txt"
+        }, {
+          "scriptId": "9406040511",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406040511.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9406040520",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406040520.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9406040530",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406040530.txt"
+        }, {
+          "scriptId": "9406040531",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406040531.txt"
+        }]
+      }, {
+        "phase": 4,
+        "scripts": [{
+          "scriptId": "9406040540",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406040540.txt"
+        }, {
+          "scriptId": "9406040541",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406040541.txt"
+        }]
+      }],
+      "priority": 94097193,
+      "noticeAt": 1716022800,
+      "openedAt": 1716109200,
+      "closedAt": 1717732799
+    }, {
+      "id": 94096805,
+      "name": "臨時保安要員の夏",
+      "type": "event",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "30",
+      "spotId": 916802,
+      "warId": 9168,
+      "gifts": [{
+        "id": 101,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94096705
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "questGroupClear",
+        "targetId": 94097002,
+        "value": 5,
+        "closedMessage": "隠し財宝クエストを5箇所以上クリアで開放"
+      }],
+      "phases": [1, 2, 3, 4, 5],
+      "phasesNoBattle": [1, 5],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9406050510",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406050510.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9406050520",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406050520.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9406050530",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406050530.txt"
+        }]
+      }, {
+        "phase": 4,
+        "scripts": [{
+          "scriptId": "9406050540",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406050540.txt"
+        }]
+      }, {
+        "phase": 5,
+        "scripts": [{
+          "scriptId": "9406050550",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406050550.txt"
+        }]
+      }],
+      "priority": 94097098,
+      "noticeAt": 1716022800,
+      "openedAt": 1716109200,
+      "closedAt": 1717732799
     }]
   }, {
     "id": 916803,
@@ -125342,6 +125602,7 @@
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
       }],
       "phases": [1, 2, 3],
+      "phasesWithEnemies": [1, 2],
       "phasesNoBattle": [3],
       "phaseScripts": [{
         "phase": 1,
@@ -125395,6 +125656,7 @@
         "targetId": 0
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94096897,
       "noticeAt": 1715936400,
       "openedAt": 1715936400,
@@ -125418,7 +125680,35 @@
     "x": 603,
     "y": 558,
     "questOfsX": 27,
-    "questOfsY": -66
+    "questOfsY": -66,
+    "quests": [{
+      "id": 94096904,
+      "name": "カルデア探検隊！ 部族と交流を試みよ！",
+      "type": "event",
+      "flags": ["displayLoopmark", "notDisplayResultGetPoint"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "50",
+      "spotId": 916805,
+      "warId": 9168,
+      "gifts": [{
+        "id": 13000,
+        "objectId": 101,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94096704
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "priority": 94096896,
+      "noticeAt": 1716022800,
+      "openedAt": 1716022800,
+      "closedAt": 1717732799
+    }]
   }, {
     "id": 916806,
     "mapId": 9168,
@@ -125493,6 +125783,7 @@
         "targetId": 0
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94096898,
       "noticeAt": 1715936400,
       "openedAt": 1715936400,
@@ -125591,6 +125882,7 @@
         "targetId": 0
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94096999,
       "noticeAt": 1715936400,
       "openedAt": 1715936400,
@@ -125643,6 +125935,7 @@
         "targetId": 0
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94096998,
       "noticeAt": 1715936400,
       "openedAt": 1715936400,
@@ -125657,7 +125950,162 @@
     "y": 880,
     "nameOfsY": -4,
     "questOfsX": 31,
-    "questOfsY": -59
+    "questOfsY": -59,
+    "quests": [{
+      "id": 94097003,
+      "name": "【隠し財宝クエスト】ドクロ島の財宝",
+      "type": "event",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "40",
+      "spotId": 916818,
+      "warId": 9168,
+      "gifts": [{
+        "id": 94096738,
+        "type": "commandCode",
+        "objectId": 8400920,
+        "num": 1,
+        "giftAdds": [{
+          "priority": 0,
+          "replacementGiftIcon": "https://static.atlasacademy.io/JP/Items/80599.png",
+          "condType": "questClear",
+          "targetId": 94060703,
+          "targetNum": 1,
+          "replacementGifts": [{
+            "id": 94096760,
+            "objectId": 3,
+            "priority": 3,
+            "num": 100
+          }, {
+            "id": 94096760,
+            "objectId": 94096707,
+            "priority": 0,
+            "num": 1
+          }, {
+            "id": 94096760,
+            "objectId": 94096706,
+            "priority": 1,
+            "num": 4
+          }, {
+            "id": 94096760,
+            "objectId": 94096705,
+            "priority": 2,
+            "num": 5
+          }]
+        }]
+      }, {
+        "id": 94096738,
+        "objectId": 94096707,
+        "num": 1,
+        "giftAdds": [{
+          "priority": 0,
+          "replacementGiftIcon": "https://static.atlasacademy.io/JP/Items/0.png",
+          "condType": "questClear",
+          "targetId": 94060703,
+          "targetNum": 1,
+          "replacementGifts": [{
+            "id": 94096760,
+            "objectId": 3,
+            "priority": 3,
+            "num": 100
+          }, {
+            "id": 94096760,
+            "objectId": 94096707,
+            "priority": 0,
+            "num": 1
+          }, {
+            "id": 94096760,
+            "objectId": 94096706,
+            "priority": 1,
+            "num": 4
+          }, {
+            "id": 94096760,
+            "objectId": 94096705,
+            "priority": 2,
+            "num": 5
+          }]
+        }]
+      }, {
+        "id": 94096738,
+        "objectId": 94096706,
+        "num": 4,
+        "giftAdds": [{
+          "priority": 0,
+          "replacementGiftIcon": "https://static.atlasacademy.io/JP/Items/0.png",
+          "condType": "questClear",
+          "targetId": 94060703,
+          "targetNum": 1,
+          "replacementGifts": [{
+            "id": 94096760,
+            "objectId": 3,
+            "priority": 3,
+            "num": 100
+          }, {
+            "id": 94096760,
+            "objectId": 94096707,
+            "priority": 0,
+            "num": 1
+          }, {
+            "id": 94096760,
+            "objectId": 94096706,
+            "priority": 1,
+            "num": 4
+          }, {
+            "id": 94096760,
+            "objectId": 94096705,
+            "priority": 2,
+            "num": 5
+          }]
+        }]
+      }, {
+        "id": 94096738,
+        "objectId": 94096705,
+        "num": 5,
+        "giftAdds": [{
+          "priority": 0,
+          "replacementGiftIcon": "https://static.atlasacademy.io/JP/Items/0.png",
+          "condType": "questClear",
+          "targetId": 94060703,
+          "targetNum": 1,
+          "replacementGifts": [{
+            "id": 94096760,
+            "objectId": 3,
+            "priority": 3,
+            "num": 100
+          }, {
+            "id": 94096760,
+            "objectId": 94096707,
+            "priority": 0,
+            "num": 1
+          }, {
+            "id": 94096760,
+            "objectId": 94096706,
+            "priority": 1,
+            "num": 4
+          }, {
+            "id": 94096760,
+            "objectId": 94096705,
+            "priority": 2,
+            "num": 5
+          }]
+        }]
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94096704
+      }, {
+        "type": "itemGet",
+        "targetId": 94096711
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "priority": 94096997,
+      "noticeAt": 1716022800,
+      "openedAt": 1716022800,
+      "closedAt": 1717732799
+    }]
   }, {
     "id": 916819,
     "mapId": 9168,
@@ -125667,7 +126115,46 @@
     "y": 569,
     "nameOfsY": -4,
     "questOfsX": 31,
-    "questOfsY": -59
+    "questOfsY": -59,
+    "quests": [{
+      "id": 94097004,
+      "name": "【隠し財宝クエスト】サカズキ島の財宝",
+      "type": "event",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "40",
+      "spotId": 916819,
+      "warId": 9168,
+      "gifts": [{
+        "id": 94096739,
+        "type": "servant",
+        "objectId": 9570400,
+        "num": 1
+      }, {
+        "id": 94096739,
+        "objectId": 94096706,
+        "num": 3
+      }, {
+        "id": 94096739,
+        "objectId": 94096705,
+        "num": 8
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94096704
+      }, {
+        "type": "itemGet",
+        "targetId": 94096712
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "priority": 94096996,
+      "noticeAt": 1716022800,
+      "openedAt": 1716022800,
+      "closedAt": 1717732799
+    }]
   }, {
     "id": 916820,
     "mapId": 9168,
