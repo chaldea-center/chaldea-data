@@ -125412,6 +125412,7 @@
         "closedMessage": "海賊の宝箱を開けてお宝ポイント14,000獲得で開放"
       }],
       "phases": [1, 2],
+      "phasesWithEnemies": [1],
       "phasesNoBattle": [2],
       "phaseScripts": [{
         "phase": 1,
@@ -125429,6 +125430,160 @@
       "priority": 94097191,
       "noticeAt": 1716109200,
       "openedAt": 1716195600,
+      "closedAt": 1717732799
+    }, {
+      "id": 94096707,
+      "name": "第六節『サンクタム・ダイビング』",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "40",
+      "spotId": 916802,
+      "warId": 9168,
+      "gifts": [{
+        "id": 94096755,
+        "objectId": 2,
+        "num": 1
+      }, {
+        "id": 94096755,
+        "objectId": 94096707,
+        "num": 4
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94096706
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1, 2, 3, 4, 5],
+      "phasesWithEnemies": [2, 3, 4],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9406040710",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406040710.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9406040720",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406040720.txt"
+        }, {
+          "scriptId": "9406040721",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406040721.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9406040730",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406040730.txt"
+        }]
+      }, {
+        "phase": 4,
+        "scripts": [{
+          "scriptId": "9406040740",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406040740.txt"
+        }, {
+          "scriptId": "9406040741",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406040741.txt"
+        }]
+      }, {
+        "phase": 5,
+        "scripts": [{
+          "scriptId": "9406040750",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406040750.txt"
+        }, {
+          "scriptId": "9406040751",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406040751.txt"
+        }]
+      }],
+      "priority": 94097190,
+      "noticeAt": 1716195600,
+      "openedAt": 1716195600,
+      "closedAt": 1717732799
+    }, {
+      "id": 94096708,
+      "name": "第七節『海賊の山嶺』",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "45",
+      "spotId": 916802,
+      "warId": 9168,
+      "gifts": [{
+        "id": 94096733,
+        "objectId": 2,
+        "num": 1
+      }, {
+        "id": 94096733,
+        "objectId": 1,
+        "num": 3000000
+      }, {
+        "id": 94096733,
+        "objectId": 94096705,
+        "num": 5
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94096707
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "海賊の宝箱を開けてお宝ポイント20,000獲得\n＆5月21日18時00分以降に開放"
+      }, {
+        "type": "eventTotalPoint",
+        "targetId": 80474,
+        "value": 20000,
+        "closedMessage": "海賊の宝箱を開けてお宝ポイント20,000獲得で開放"
+      }],
+      "phases": [1, 2, 3, 4, 5],
+      "phasesNoBattle": [1, 2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9406040810",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406040810.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9406040820",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406040820.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9406040830",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406040830.txt"
+        }, {
+          "scriptId": "9406040831",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406040831.txt"
+        }]
+      }, {
+        "phase": 4,
+        "scripts": [{
+          "scriptId": "9406040840",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406040840.txt"
+        }, {
+          "scriptId": "9406040841",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406040841.txt"
+        }]
+      }, {
+        "phase": 5,
+        "scripts": [{
+          "scriptId": "9406040850",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406040850.txt"
+        }, {
+          "scriptId": "9406040851",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406040851.txt"
+        }]
+      }],
+      "priority": 94097189,
+      "noticeAt": 1716195600,
+      "openedAt": 1716282000,
       "closedAt": 1717732799
     }, {
       "id": 94096797,
@@ -125553,6 +125708,47 @@
       "priority": 94097193,
       "noticeAt": 1716022800,
       "openedAt": 1716109200,
+      "closedAt": 1717732799
+    }, {
+      "id": 94096802,
+      "name": "シャルロットは戸惑い、呆けて、悩んでいる",
+      "type": "event",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "50",
+      "spotId": 916802,
+      "warId": 9168,
+      "gifts": [{
+        "id": 101,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94096708
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "questGroupClear",
+        "targetId": 94097002,
+        "value": 9,
+        "closedMessage": "隠し財宝クエストを9箇所以上クリアで開放"
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9406050210",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406050210.txt"
+        }, {
+          "scriptId": "9406050211",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406050211.txt"
+        }]
+      }],
+      "priority": 94097096,
+      "noticeAt": 1716195600,
+      "openedAt": 1716282000,
       "closedAt": 1717732799
     }, {
       "id": 94096805,
@@ -125852,7 +126048,35 @@
     "y": 968,
     "nameOfsY": -2,
     "questOfsX": 29,
-    "questOfsY": -67
+    "questOfsY": -67,
+    "quests": [{
+      "id": 94096906,
+      "name": "カルデア探検隊！ 海底洞窟にお宝が！？",
+      "type": "event",
+      "flags": ["displayLoopmark", "notDisplayResultGetPoint"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "70",
+      "spotId": 916807,
+      "warId": 9168,
+      "gifts": [{
+        "id": 13000,
+        "objectId": 101,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94096707
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "priority": 94096894,
+      "noticeAt": 1716195600,
+      "openedAt": 1716195600,
+      "closedAt": 1717732799
+    }]
   }, {
     "id": 916808,
     "mapId": 9168,
@@ -126392,7 +126616,45 @@
     "y": 337,
     "nameOfsY": -4,
     "questOfsX": 31,
-    "questOfsY": -59
+    "questOfsY": -59,
+    "quests": [{
+      "id": 94097007,
+      "name": "【隠し財宝クエスト】スリスリ島の財宝",
+      "type": "event",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "60",
+      "spotId": 916822,
+      "warId": 9168,
+      "gifts": [{
+        "id": 94096742,
+        "objectId": 90120001,
+        "num": 20
+      }, {
+        "id": 94096742,
+        "objectId": 94096706,
+        "num": 5
+      }, {
+        "id": 94096742,
+        "objectId": 94096705,
+        "num": 7
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94096707
+      }, {
+        "type": "itemGet",
+        "targetId": 94096715
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "priority": 94096993,
+      "noticeAt": 1716195600,
+      "openedAt": 1716195600,
+      "closedAt": 1717732799
+    }]
   }, {
     "id": 916823,
     "mapId": 9168,
@@ -126402,7 +126664,162 @@
     "y": 834,
     "nameOfsY": -4,
     "questOfsX": 31,
-    "questOfsY": -59
+    "questOfsY": -59,
+    "quests": [{
+      "id": 94097008,
+      "name": "【隠し財宝クエスト】海底城の財宝",
+      "type": "event",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "60",
+      "spotId": 916823,
+      "warId": 9168,
+      "gifts": [{
+        "id": 94096743,
+        "type": "commandCode",
+        "objectId": 8400930,
+        "num": 1,
+        "giftAdds": [{
+          "priority": 0,
+          "replacementGiftIcon": "https://static.atlasacademy.io/JP/Items/80598.png",
+          "condType": "questClear",
+          "targetId": 94060708,
+          "targetNum": 1,
+          "replacementGifts": [{
+            "id": 94096761,
+            "objectId": 3,
+            "priority": 3,
+            "num": 200
+          }, {
+            "id": 94096761,
+            "objectId": 94096707,
+            "priority": 0,
+            "num": 1
+          }, {
+            "id": 94096761,
+            "objectId": 94096706,
+            "priority": 1,
+            "num": 3
+          }, {
+            "id": 94096761,
+            "objectId": 94096705,
+            "priority": 2,
+            "num": 8
+          }]
+        }]
+      }, {
+        "id": 94096743,
+        "objectId": 94096707,
+        "num": 1,
+        "giftAdds": [{
+          "priority": 0,
+          "replacementGiftIcon": "https://static.atlasacademy.io/JP/Items/0.png",
+          "condType": "questClear",
+          "targetId": 94060708,
+          "targetNum": 1,
+          "replacementGifts": [{
+            "id": 94096761,
+            "objectId": 3,
+            "priority": 3,
+            "num": 200
+          }, {
+            "id": 94096761,
+            "objectId": 94096707,
+            "priority": 0,
+            "num": 1
+          }, {
+            "id": 94096761,
+            "objectId": 94096706,
+            "priority": 1,
+            "num": 3
+          }, {
+            "id": 94096761,
+            "objectId": 94096705,
+            "priority": 2,
+            "num": 8
+          }]
+        }]
+      }, {
+        "id": 94096743,
+        "objectId": 94096706,
+        "num": 3,
+        "giftAdds": [{
+          "priority": 0,
+          "replacementGiftIcon": "https://static.atlasacademy.io/JP/Items/0.png",
+          "condType": "questClear",
+          "targetId": 94060708,
+          "targetNum": 1,
+          "replacementGifts": [{
+            "id": 94096761,
+            "objectId": 3,
+            "priority": 3,
+            "num": 200
+          }, {
+            "id": 94096761,
+            "objectId": 94096707,
+            "priority": 0,
+            "num": 1
+          }, {
+            "id": 94096761,
+            "objectId": 94096706,
+            "priority": 1,
+            "num": 3
+          }, {
+            "id": 94096761,
+            "objectId": 94096705,
+            "priority": 2,
+            "num": 8
+          }]
+        }]
+      }, {
+        "id": 94096743,
+        "objectId": 94096705,
+        "num": 8,
+        "giftAdds": [{
+          "priority": 0,
+          "replacementGiftIcon": "https://static.atlasacademy.io/JP/Items/0.png",
+          "condType": "questClear",
+          "targetId": 94060708,
+          "targetNum": 1,
+          "replacementGifts": [{
+            "id": 94096761,
+            "objectId": 3,
+            "priority": 3,
+            "num": 200
+          }, {
+            "id": 94096761,
+            "objectId": 94096707,
+            "priority": 0,
+            "num": 1
+          }, {
+            "id": 94096761,
+            "objectId": 94096706,
+            "priority": 1,
+            "num": 3
+          }, {
+            "id": 94096761,
+            "objectId": 94096705,
+            "priority": 2,
+            "num": 8
+          }]
+        }]
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94096707
+      }, {
+        "type": "itemGet",
+        "targetId": 94096716
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "priority": 94096992,
+      "noticeAt": 1716195600,
+      "openedAt": 1716195600,
+      "closedAt": 1717732799
+    }]
   }, {
     "id": 916824,
     "mapId": 9168,
