@@ -125180,6 +125180,72 @@
       "openedAt": 1716022800,
       "closedAt": 1717732799
     }, {
+      "id": 94096804,
+      "name": "夏休み特別企画 ぐだぐだスペシャル2021",
+      "type": "event",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "70",
+      "spotId": 916801,
+      "warId": 9168,
+      "gifts": [{
+        "id": 101,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94096712
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "questGroupClear",
+        "targetId": 94097002,
+        "value": 13,
+        "closedMessage": "隠し財宝クエストを13箇所以上クリアで開放"
+      }],
+      "phases": [1, 2, 3, 4, 5],
+      "phasesNoBattle": [5],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9406050410",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406050410.txt"
+        }, {
+          "scriptId": "9406050411",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406050411.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9406050421",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406050421.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9406050430",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406050430.txt"
+        }]
+      }, {
+        "phase": 4,
+        "scripts": [{
+          "scriptId": "9406050440",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406050440.txt"
+        }]
+      }, {
+        "phase": 5,
+        "scripts": [{
+          "scriptId": "9406050450",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406050450.txt"
+        }]
+      }],
+      "priority": 94097094,
+      "noticeAt": 1716368400,
+      "openedAt": 1716454800,
+      "closedAt": 1717732799
+    }, {
       "id": 94096901,
       "name": "カルデア探検隊！ 漂流してきた宝を探せ！",
       "type": "event",
@@ -125618,6 +125684,7 @@
         "closedMessage": "海賊の宝箱を開けてお宝ポイント27,000獲得で開放"
       }],
       "phases": [1, 2, 3, 4, 5, 6, 7],
+      "phasesWithEnemies": [1, 4, 5],
       "phasesNoBattle": [2, 3],
       "phaseScripts": [{
         "phase": 1,
@@ -125965,6 +126032,7 @@
         "closedMessage": "隠し財宝クエストを9箇所以上クリアで開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "phaseScripts": [{
         "phase": 1,
         "scripts": [{
@@ -126084,6 +126152,42 @@
       "priority": 94097097,
       "noticeAt": 1716109200,
       "openedAt": 1716195600,
+      "closedAt": 1717732799
+    }, {
+      "id": 94096807,
+      "name": "おまけ 夏の魔王と女神",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "80",
+      "spotId": 916802,
+      "warId": 9168,
+      "gifts": [{
+        "id": 101,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94096712
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9406050710",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406050710.txt"
+        }, {
+          "scriptId": "9406050711",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406050711.txt"
+        }]
+      }],
+      "priority": 94097180,
+      "noticeAt": 1716368400,
+      "openedAt": 1716454800,
       "closedAt": 1717732799
     }]
   }, {
@@ -126340,6 +126444,7 @@
         "targetId": 0
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94096893,
       "noticeAt": 1716282000,
       "openedAt": 1716282000,
@@ -126353,7 +126458,103 @@
     "x": 1181,
     "y": 895,
     "questOfsX": 30,
-    "questOfsY": -74
+    "questOfsY": -74,
+    "quests": [{
+      "id": 94096710,
+      "name": "第九節『コロンブス大戦』",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "60",
+      "spotId": 916809,
+      "warId": 9168,
+      "gifts": [{
+        "id": 94096757,
+        "objectId": 2,
+        "num": 1
+      }, {
+        "id": 94096757,
+        "objectId": 94096707,
+        "num": 5
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94096709
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "海賊の宝箱を開けてお宝ポイント34,000獲得\n＆5月23日18時00分以降に開放"
+      }, {
+        "type": "eventTotalPoint",
+        "targetId": 80474,
+        "value": 34000,
+        "closedMessage": "海賊の宝箱を開けてお宝ポイント34,000獲得で開放"
+      }],
+      "phases": [1, 2, 3, 4],
+      "phasesNoBattle": [4],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9406041010",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406041010.txt"
+        }, {
+          "scriptId": "9406041011",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406041011.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9406041020",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406041020.txt"
+        }, {
+          "scriptId": "9406041021",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406041021.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9406041030",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406041030.txt"
+        }]
+      }, {
+        "phase": 4,
+        "scripts": [{
+          "scriptId": "9406041040",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406041040.txt"
+        }]
+      }],
+      "priority": 94097186,
+      "noticeAt": 1716368400,
+      "openedAt": 1716454800,
+      "closedAt": 1717732799
+    }, {
+      "id": 94096908,
+      "name": "カルデア探検隊！ 巨大墳墓に眠る謎！",
+      "type": "event",
+      "flags": ["displayLoopmark", "notDisplayResultGetPoint"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "85",
+      "spotId": 916809,
+      "warId": 9168,
+      "gifts": [{
+        "id": 12000,
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94096709
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "priority": 94096892,
+      "noticeAt": 1716368400,
+      "openedAt": 1716368400,
+      "closedAt": 1717732799
+    }]
   }, {
     "id": 916810,
     "mapId": 9168,
@@ -127124,6 +127325,7 @@
         "targetId": 0
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94096991,
       "noticeAt": 1716282000,
       "openedAt": 1716282000,
@@ -127177,6 +127379,7 @@
         "targetId": 0
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94096990,
       "noticeAt": 1716282000,
       "openedAt": 1716282000,
@@ -127191,7 +127394,45 @@
     "y": 785,
     "nameOfsY": -4,
     "questOfsX": 31,
-    "questOfsY": -59
+    "questOfsY": -59,
+    "quests": [{
+      "id": 94097011,
+      "name": "【隠し財宝クエスト】滝つぼの財宝",
+      "type": "event",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "80",
+      "spotId": 916826,
+      "warId": 9168,
+      "gifts": [{
+        "id": 94096746,
+        "objectId": 90120001,
+        "num": 20
+      }, {
+        "id": 94096746,
+        "objectId": 94096707,
+        "num": 3
+      }, {
+        "id": 94096746,
+        "objectId": 94096705,
+        "num": 10
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94096709
+      }, {
+        "type": "itemGet",
+        "targetId": 94096719
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "priority": 94096989,
+      "noticeAt": 1716368400,
+      "openedAt": 1716368400,
+      "closedAt": 1717732799
+    }]
   }, {
     "id": 916827,
     "mapId": 9168,
@@ -127201,7 +127442,45 @@
     "y": 1026,
     "nameOfsY": -4,
     "questOfsX": 31,
-    "questOfsY": -59
+    "questOfsY": -59,
+    "quests": [{
+      "id": 94097012,
+      "name": "【隠し財宝クエスト】雲の上の財宝",
+      "type": "event",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "80",
+      "spotId": 916827,
+      "warId": 9168,
+      "gifts": [{
+        "id": 94096747,
+        "objectId": 6999,
+        "num": 1
+      }, {
+        "id": 94096747,
+        "objectId": 94096706,
+        "num": 6
+      }, {
+        "id": 94096747,
+        "objectId": 94096705,
+        "num": 8
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94096709
+      }, {
+        "type": "itemGet",
+        "targetId": 94096720
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "priority": 94096988,
+      "noticeAt": 1716368400,
+      "openedAt": 1716368400,
+      "closedAt": 1717732799
+    }]
   }, {
     "id": 916828,
     "mapId": 9168,
