@@ -125749,6 +125749,42 @@
       "openedAt": 1716368400,
       "closedAt": 1717732799
     }, {
+      "id": 94096712,
+      "name": "最終節『エピローグ』",
+      "type": "main",
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 916802,
+      "warId": 9168,
+      "gifts": [{
+        "id": 94096727,
+        "type": "eventSvtGet",
+        "objectId": 901200,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94096711
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9406041210",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406041210.txt"
+        }]
+      }],
+      "priority": 94097183,
+      "noticeAt": 1716454800,
+      "openedAt": 1716454800,
+      "closedAt": 1717732799
+    }, {
       "id": 94096796,
       "name": "第八節『海賊全力戦争』",
       "type": "main",
@@ -126296,7 +126332,35 @@
     "y": 682,
     "nameOfsY": -1,
     "questOfsX": 29,
-    "questOfsY": -81
+    "questOfsY": -81,
+    "quests": [{
+      "id": 94096909,
+      "name": "カルデア探検隊！ 座礁船に群がる巨大生物の謎！",
+      "type": "event",
+      "flags": ["displayLoopmark", "notDisplayResultGetPoint"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90",
+      "spotId": 916804,
+      "warId": 9168,
+      "gifts": [{
+        "id": 12000,
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94096710
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "priority": 94096891,
+      "noticeAt": 1716454800,
+      "openedAt": 1716454800,
+      "closedAt": 1717732799
+    }]
   }, {
     "id": 916805,
     "mapId": 9168,
@@ -126372,6 +126436,33 @@
       "priority": 94096895,
       "noticeAt": 1716109200,
       "openedAt": 1716109200,
+      "closedAt": 1717732799
+    }, {
+      "id": 94096911,
+      "name": "カルデア探検隊！劇場版！ 深奥に眠る古の財宝！",
+      "type": "event",
+      "flags": ["displayLoopmark", "notDisplayResultGetPoint"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90++",
+      "spotId": 916806,
+      "warId": 9168,
+      "gifts": [{
+        "id": 337,
+        "objectId": 3,
+        "num": 200
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94096712
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "priority": 94096889,
+      "noticeAt": 1716454800,
+      "openedAt": 1716454800,
       "closedAt": 1717732799
     }]
   }, {
@@ -126492,6 +126583,7 @@
         "closedMessage": "海賊の宝箱を開けてお宝ポイント34,000獲得で開放"
       }],
       "phases": [1, 2, 3, 4],
+      "phasesWithEnemies": [1, 2, 3],
       "phasesNoBattle": [4],
       "phaseScripts": [{
         "phase": 1,
@@ -126567,6 +126659,137 @@
     "questOfsX": 33,
     "questOfsY": -77,
     "quests": [{
+      "id": 94096711,
+      "name": "第十節『バイバイ、ジュラシック』",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "70",
+      "spotId": 916810,
+      "warId": 9168,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/3.png",
+      "gifts": [{
+        "id": 20058,
+        "objectId": 7999,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94096710
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "eventTotalPoint",
+        "targetId": 80474,
+        "value": 38000,
+        "closedMessage": "海賊の宝箱を開けてお宝ポイント38,000獲得で開放"
+      }],
+      "phases": [1, 2, 3, 4],
+      "phasesNoBattle": [4],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9409671110",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409671110.txt"
+        }, {
+          "scriptId": "9409671111",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409671111.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9409671120",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409671120.txt"
+        }, {
+          "scriptId": "9409671121",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409671121.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9409671130",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409671130.txt"
+        }, {
+          "scriptId": "9409671131",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409671131.txt"
+        }]
+      }, {
+        "phase": 4,
+        "scripts": [{
+          "scriptId": "9409671140",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409671140.txt"
+        }]
+      }],
+      "priority": 94097185,
+      "noticeAt": 1716454800,
+      "openedAt": 1716454800,
+      "closedAt": 1717732799
+    }, {
+      "id": 94096795,
+      "name": "第十節『バイバイ、ジュラシック』",
+      "type": "main",
+      "flags": ["branch", "notDisplayResultGetPoint"],
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "70",
+      "spotId": 916810,
+      "warId": 9168,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/3.png",
+      "gifts": [{
+        "id": 20058,
+        "objectId": 7999,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94096711
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9409671110",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409671110.txt"
+        }, {
+          "scriptId": "9409671111",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409671111.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9409671120",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409671120.txt"
+        }, {
+          "scriptId": "9409671121",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409671121.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9409671130",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409671130.txt"
+        }, {
+          "scriptId": "9409671131",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409671131.txt"
+        }]
+      }, {
+        "phase": 4,
+        "scripts": [{
+          "scriptId": "9409671140",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409671140.txt"
+        }]
+      }],
+      "priority": 94097184,
+      "noticeAt": 1716454800,
+      "openedAt": 1716454800,
+      "closedAt": 1717732799
+    }, {
       "id": 94096902,
       "name": "カルデア探検隊！ 海賊達と飲みニケーション！",
       "type": "event",
@@ -126598,6 +126821,65 @@
       "noticeAt": 1715936400,
       "openedAt": 1715936400,
       "closedAt": 1717732799
+    }, {
+      "id": 94096910,
+      "name": "カルデア探検隊！最終回！ 神秘はいつも足元に！？",
+      "type": "event",
+      "flags": ["displayLoopmark", "notDisplayResultGetPoint"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90+",
+      "spotId": 916810,
+      "warId": 9168,
+      "gifts": [{
+        "id": 327,
+        "objectId": 3,
+        "num": 100
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94096712
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "priority": 94096890,
+      "noticeAt": 1716454800,
+      "openedAt": 1716454800,
+      "closedAt": 1717732799
+    }, {
+      "id": 94097101,
+      "name": "【高難易度】焼け野の雉夜のティラノサウルス",
+      "type": "event",
+      "flags": ["dropFirstTimeOnly", "notRetrievable", "notDisplayResultGetPoint"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "90+",
+      "spotId": 916810,
+      "warId": 9168,
+      "gifts": [{
+        "id": 21701,
+        "objectId": 6999,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 1000822,
+        "closedMessage": "終局特異点クリアで開放"
+      }, {
+        "type": "questClear",
+        "targetId": 94096712
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "終局特異点クリア\n＆5月24日18時00分以降に開放"
+      }],
+      "phases": [1],
+      "priority": 94097199,
+      "noticeAt": 1716454800,
+      "openedAt": 1716541200,
+      "closedAt": 1717732799
     }]
   }, {
     "id": 916811,
@@ -126608,7 +126890,49 @@
     "y": 368,
     "nameOfsY": -5,
     "questOfsX": 33,
-    "questOfsY": -64
+    "questOfsY": -64,
+    "quests": [{
+      "id": 94096808,
+      "name": "おまけ 北の財宝",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "80",
+      "spotId": 916811,
+      "warId": 9168,
+      "gifts": [{
+        "id": 94096728,
+        "type": "servant",
+        "objectId": 901200,
+        "num": 1
+      }, {
+        "id": 94096728,
+        "objectId": 94096705,
+        "num": 15
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94096807
+      }, {
+        "type": "itemGet",
+        "targetId": 94096724
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9406050810",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406050810.txt"
+        }]
+      }],
+      "priority": 94097179,
+      "noticeAt": 1716454800,
+      "openedAt": 1716454800,
+      "closedAt": 1717732799
+    }]
   }, {
     "id": 916812,
     "mapId": 9168,
@@ -126618,7 +126942,49 @@
     "y": 1059,
     "nameOfsY": -5,
     "questOfsX": 33,
-    "questOfsY": -64
+    "questOfsY": -64,
+    "quests": [{
+      "id": 94096809,
+      "name": "おまけ 南の財宝",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "80",
+      "spotId": 916812,
+      "warId": 9168,
+      "gifts": [{
+        "id": 94096729,
+        "type": "servant",
+        "objectId": 901200,
+        "num": 1
+      }, {
+        "id": 94096729,
+        "objectId": 94096706,
+        "num": 15
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94096808
+      }, {
+        "type": "itemGet",
+        "targetId": 94096725
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9406050910",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406050910.txt"
+        }]
+      }],
+      "priority": 94097178,
+      "noticeAt": 1716454800,
+      "openedAt": 1716454800,
+      "closedAt": 1717732799
+    }]
   }, {
     "id": 916813,
     "mapId": 9168,
@@ -126628,7 +126994,53 @@
     "y": 637,
     "nameOfsY": -5,
     "questOfsX": 33,
-    "questOfsY": -64
+    "questOfsY": -64,
+    "quests": [{
+      "id": 94096810,
+      "name": "おまけ 東の財宝",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "80",
+      "spotId": 916813,
+      "warId": 9168,
+      "gifts": [{
+        "id": 94096730,
+        "type": "servant",
+        "objectId": 901200,
+        "num": 1
+      }, {
+        "id": 94096730,
+        "objectId": 94096707,
+        "num": 5
+      }, {
+        "id": 94096730,
+        "objectId": 94096706,
+        "num": 10
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94096808
+      }, {
+        "type": "itemGet",
+        "targetId": 94096726
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9406051010",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406051010.txt"
+        }]
+      }],
+      "priority": 94097177,
+      "noticeAt": 1716454800,
+      "openedAt": 1716454800,
+      "closedAt": 1717732799
+    }]
   }, {
     "id": 916814,
     "mapId": 9168,
@@ -126638,7 +127050,53 @@
     "y": 788,
     "nameOfsY": -5,
     "questOfsX": 33,
-    "questOfsY": -64
+    "questOfsY": -64,
+    "quests": [{
+      "id": 94096811,
+      "name": "おまけ 西の財宝",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "80",
+      "spotId": 916814,
+      "warId": 9168,
+      "gifts": [{
+        "id": 94096731,
+        "type": "servant",
+        "objectId": 901200,
+        "num": 1
+      }, {
+        "id": 94096731,
+        "objectId": 94096707,
+        "num": 5
+      }, {
+        "id": 94096731,
+        "objectId": 94096705,
+        "num": 10
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94096808
+      }, {
+        "type": "itemGet",
+        "targetId": 94096727
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9406051110",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406051110.txt"
+        }]
+      }],
+      "priority": 94097176,
+      "noticeAt": 1716454800,
+      "openedAt": 1716454800,
+      "closedAt": 1717732799
+    }]
   }, {
     "id": 916815,
     "mapId": 9168,
@@ -126648,7 +127106,56 @@
     "y": 702,
     "nameOfsY": -5,
     "questOfsX": 33,
-    "questOfsY": -64
+    "questOfsY": -64,
+    "quests": [{
+      "id": 94096812,
+      "name": "おまけ 最後の財宝",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "80",
+      "spotId": 916815,
+      "warId": 9168,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/3.png",
+      "gifts": [{
+        "id": 94096758,
+        "objectId": 7999,
+        "num": 1
+      }, {
+        "id": 94096758,
+        "objectId": 94096707,
+        "num": 15
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94096807
+      }, {
+        "type": "itemGet",
+        "targetId": 94096728
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1, 2],
+      "phasesNoBattle": [2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9406051210",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406051210.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9406051220",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9406/9406051220.txt"
+        }]
+      }],
+      "priority": 94097175,
+      "noticeAt": 1716454800,
+      "openedAt": 1716454800,
+      "closedAt": 1717732799
+    }]
   }, {
     "id": 916816,
     "mapId": 9168,
@@ -127494,7 +128001,49 @@
     "y": 892,
     "nameOfsY": -4,
     "questOfsX": 31,
-    "questOfsY": -59
+    "questOfsY": -59,
+    "quests": [{
+      "id": 94097013,
+      "name": "【隠し財宝クエスト】大海原の財宝",
+      "type": "event",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "90",
+      "spotId": 916828,
+      "warId": 9168,
+      "gifts": [{
+        "id": 94096748,
+        "objectId": 90120001,
+        "num": 20
+      }, {
+        "id": 94096748,
+        "objectId": 94096707,
+        "num": 3
+      }, {
+        "id": 94096748,
+        "objectId": 94096706,
+        "num": 5
+      }, {
+        "id": 94096748,
+        "objectId": 94096705,
+        "num": 6
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94096712
+      }, {
+        "type": "itemGet",
+        "targetId": 94096721
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "priority": 94096987,
+      "noticeAt": 1716454800,
+      "openedAt": 1716454800,
+      "closedAt": 1717732799
+    }]
   }, {
     "id": 916829,
     "mapId": 9168,
@@ -127504,7 +128053,115 @@
     "y": 415,
     "nameOfsY": -4,
     "questOfsX": 31,
-    "questOfsY": -59
+    "questOfsY": -59,
+    "quests": [{
+      "id": 94097014,
+      "name": "【隠し財宝クエスト】幽霊船の財宝",
+      "type": "event",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "90",
+      "spotId": 916829,
+      "warId": 9168,
+      "gifts": [{
+        "id": 94096749,
+        "type": "commandCode",
+        "objectId": 8400940,
+        "num": 1,
+        "giftAdds": [{
+          "priority": 0,
+          "replacementGiftIcon": "https://static.atlasacademy.io/JP/Items/80597.png",
+          "condType": "questClear",
+          "targetId": 94060714,
+          "targetNum": 1,
+          "replacementGifts": [{
+            "id": 94096762,
+            "objectId": 18,
+            "priority": 3,
+            "num": 1
+          }, {
+            "id": 94096762,
+            "objectId": 94096707,
+            "priority": 0,
+            "num": 5
+          }, {
+            "id": 94096762,
+            "objectId": 94096705,
+            "priority": 2,
+            "num": 10
+          }]
+        }]
+      }, {
+        "id": 94096749,
+        "objectId": 94096707,
+        "num": 5,
+        "giftAdds": [{
+          "priority": 0,
+          "replacementGiftIcon": "https://static.atlasacademy.io/JP/Items/0.png",
+          "condType": "questClear",
+          "targetId": 94060714,
+          "targetNum": 1,
+          "replacementGifts": [{
+            "id": 94096762,
+            "objectId": 18,
+            "priority": 3,
+            "num": 1
+          }, {
+            "id": 94096762,
+            "objectId": 94096707,
+            "priority": 0,
+            "num": 5
+          }, {
+            "id": 94096762,
+            "objectId": 94096705,
+            "priority": 2,
+            "num": 10
+          }]
+        }]
+      }, {
+        "id": 94096749,
+        "objectId": 94096705,
+        "num": 10,
+        "giftAdds": [{
+          "priority": 0,
+          "replacementGiftIcon": "https://static.atlasacademy.io/JP/Items/0.png",
+          "condType": "questClear",
+          "targetId": 94060714,
+          "targetNum": 1,
+          "replacementGifts": [{
+            "id": 94096762,
+            "objectId": 18,
+            "priority": 3,
+            "num": 1
+          }, {
+            "id": 94096762,
+            "objectId": 94096707,
+            "priority": 0,
+            "num": 5
+          }, {
+            "id": 94096762,
+            "objectId": 94096705,
+            "priority": 2,
+            "num": 10
+          }]
+        }]
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94096712
+      }, {
+        "type": "itemGet",
+        "targetId": 94096722
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "priority": 94096986,
+      "noticeAt": 1716454800,
+      "openedAt": 1716454800,
+      "closedAt": 1717732799
+    }]
   }, {
     "id": 916830,
     "mapId": 9168,
@@ -127514,7 +128171,45 @@
     "y": 951,
     "nameOfsY": -4,
     "questOfsX": 31,
-    "questOfsY": -59
+    "questOfsY": -59,
+    "quests": [{
+      "id": 94097015,
+      "name": "【隠し財宝クエスト】果ての財宝",
+      "type": "event",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "90",
+      "spotId": 916830,
+      "warId": 9168,
+      "gifts": [{
+        "id": 94096750,
+        "objectId": 6999,
+        "num": 1
+      }, {
+        "id": 94096750,
+        "objectId": 94096707,
+        "num": 5
+      }, {
+        "id": 94096750,
+        "objectId": 94096706,
+        "num": 10
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94096712
+      }, {
+        "type": "itemGet",
+        "targetId": 94096723
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "priority": 94096985,
+      "noticeAt": 1716454800,
+      "openedAt": 1716454800,
+      "closedAt": 1717732799
+    }]
   }, {
     "id": 916831,
     "mapId": 9168,
