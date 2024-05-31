@@ -27606,6 +27606,7 @@
   "atkMax": 10923,
   "hpBase": 2046,
   "hpMax": 13953,
+  "relateQuestIds": [91404701],
   "trialQuestIds": [94071701],
   "growthCurve": 5,
   "bondGrowth": [3000, 9125, 15250, 21375, 27500, 310000, 610000, 930000, 1270000, 1640000, 2730000, 3960000, 5320000, 6820000, 8460000],
@@ -28041,8 +28042,18 @@
   }],
   "noblePhantasms": [{
     "id": 404701,
+    "npNum": 2,
     "svtId": 404700,
+    "strengthStatus": 1,
     "priority": 101
+  }, {
+    "id": 404702,
+    "npNum": 2,
+    "svtId": 404700,
+    "strengthStatus": 99,
+    "priority": 102,
+    "condQuestId": 91404701,
+    "condQuestPhase": 3
   }],
   "profile": {
     "cv": "神尾晋一郎",
@@ -30848,6 +30859,7 @@
   "atkMax": 8643,
   "hpBase": 2019,
   "hpMax": 12622,
+  "relateQuestIds": [91305101],
   "growthCurve": 14,
   "bondGrowth": [1000, 2500, 4500, 7000, 10000, 235000, 490000, 775000, 1090000, 1455000, 2545000, 3775000, 5135000, 6635000, 8275000],
   "bondEquip": 9306440,
@@ -31133,7 +31145,17 @@
     "id": 2072150,
     "num": 3,
     "svtId": 305100,
+    "strengthStatus": 1,
     "priority": 1,
+    "condLimitCount": 3
+  }, {
+    "id": 2072650,
+    "num": 3,
+    "svtId": 305100,
+    "strengthStatus": 99,
+    "priority": 2,
+    "condQuestId": 91305101,
+    "condQuestPhase": 2,
     "condLimitCount": 3
   }],
   "classPassive": [{

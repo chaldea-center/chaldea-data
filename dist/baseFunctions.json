@@ -12199,6 +12199,34 @@
   "funcTargetTeam": "enemy",
   "funcPopupText": "チャージ増加"
 }, {
+  "funcId": 1332,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "威力アップ・対超巨大エネミー",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+  "buffs": [{
+    "id": 396,
+    "name": "威力アップ〔超巨大〕",
+    "detail": "〔超巨大〕なエネミーに与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamage",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3028
+    }],
+    "tvals": [{
+      "id": 2076
+    }],
+    "ckOpIndv": [{
+      "id": 2076
+    }],
+    "maxRate": 10000
+  }]
+}, {
   "funcId": 1333,
   "funcType": "addStateShort",
   "funcTargetType": "self",
@@ -38125,6 +38153,8 @@
         "convertType": "buff",
         "targets": [{
           "id": 155
+        }, {
+          "id": 4737
         }],
         "targetBuffs": [{
           "id": 155,
@@ -38133,6 +38163,33 @@
           "detail": "必中を無視して、攻撃によるダメージを0にする",
           "type": "invincible",
           "buffGroup": 400,
+          "originalScript": {},
+          "vals": [{
+            "id": 3004,
+            "name": "buffPositiveEffect"
+          }, {
+            "id": 3018,
+            "name": "buffEvadeAndInvincible"
+          }, {
+            "id": 3022,
+            "name": "buffInvincible"
+          }, {
+            "id": 3007,
+            "name": "buffIncreaseDefence"
+          }],
+          "tvals": [],
+          "ckSelfIndv": [],
+          "ckOpIndv": [],
+          "maxRate": 0,
+          "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_311.png",
+          "script": {}
+        }, {
+          "id": 4737,
+          "name": "無敵",
+          "originalName": "無敵",
+          "detail": "必中を無視して、攻撃によるダメージを0にする(他の無敵状態と重複可能)",
+          "type": "invincible",
+          "buffGroup": 0,
           "originalScript": {},
           "vals": [{
             "id": 3004,
@@ -38178,6 +38235,30 @@
           "maxRate": 0,
           "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_368.png",
           "script": {}
+        }, {
+          "id": 5638,
+          "name": "対粛正防御",
+          "originalName": "対粛正防御",
+          "detail": "無敵貫通を無視して、攻撃によるダメージを0にする(他の対粛正防御状態と重複可能)",
+          "type": "specialInvincible",
+          "buffGroup": 0,
+          "originalScript": {},
+          "vals": [{
+            "id": 3004,
+            "name": "buffPositiveEffect"
+          }, {
+            "id": 3064,
+            "name": "buffSpecialInvincible"
+          }, {
+            "id": 3007,
+            "name": "buffIncreaseDefence"
+          }],
+          "tvals": [],
+          "ckSelfIndv": [],
+          "ckOpIndv": [],
+          "maxRate": 0,
+          "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_368.png",
+          "script": {}
         }],
         "script": {
           "OverwritePopupText": ["対粛正防御"]
@@ -38192,7 +38273,7 @@
           "OverwritePopupText": ["対粛正防御"]
         },
         "effectId": 335,
-        "targetIds": [155],
+        "targetIds": [155, 4737],
         "convertType": 1,
         "targetBuffs": [{
           "id": 155,
@@ -38206,6 +38287,19 @@
           "maxRate": 0,
           "ckOpIndv": [],
           "buffGroup": 400,
+          "ckSelfIndv": []
+        }, {
+          "id": 4737,
+          "name": "無敵",
+          "type": 26,
+          "vals": [3004, 3018, 3022, 3007],
+          "tvals": [],
+          "detail": "必中を無視して、攻撃によるダメージを0にする(他の無敵状態と重複可能)",
+          "iconId": 311,
+          "script": {},
+          "maxRate": 0,
+          "ckOpIndv": [],
+          "buffGroup": 0,
           "ckSelfIndv": []
         }],
         "targetLimit": 0,
@@ -38222,8 +38316,21 @@
           "ckOpIndv": [],
           "buffGroup": 250,
           "ckSelfIndv": []
+        }, {
+          "id": 5638,
+          "name": "対粛正防御",
+          "type": 157,
+          "vals": [3004, 3064, 3007],
+          "tvals": [],
+          "detail": "無敵貫通を無視して、攻撃によるダメージを0にする(他の対粛正防御状態と重複可能)",
+          "iconId": 368,
+          "script": {},
+          "maxRate": 0,
+          "ckOpIndv": [],
+          "buffGroup": 0,
+          "ckSelfIndv": []
         }],
-        "convertBuffIds": [2926]
+        "convertBuffIds": [2926, 5638]
       }
     },
     "vals": [{
@@ -46357,6 +46464,8 @@
         "convertType": "buff",
         "targets": [{
           "id": 155
+        }, {
+          "id": 4737
         }],
         "targetBuffs": [{
           "id": 155,
@@ -46365,6 +46474,33 @@
           "detail": "必中を無視して、攻撃によるダメージを0にする",
           "type": "invincible",
           "buffGroup": 400,
+          "originalScript": {},
+          "vals": [{
+            "id": 3004,
+            "name": "buffPositiveEffect"
+          }, {
+            "id": 3018,
+            "name": "buffEvadeAndInvincible"
+          }, {
+            "id": 3022,
+            "name": "buffInvincible"
+          }, {
+            "id": 3007,
+            "name": "buffIncreaseDefence"
+          }],
+          "tvals": [],
+          "ckSelfIndv": [],
+          "ckOpIndv": [],
+          "maxRate": 0,
+          "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_311.png",
+          "script": {}
+        }, {
+          "id": 4737,
+          "name": "無敵",
+          "originalName": "無敵",
+          "detail": "必中を無視して、攻撃によるダメージを0にする(他の無敵状態と重複可能)",
+          "type": "invincible",
+          "buffGroup": 0,
           "originalScript": {},
           "vals": [{
             "id": 3004,
@@ -46410,6 +46546,30 @@
           "maxRate": 0,
           "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_368.png",
           "script": {}
+        }, {
+          "id": 5638,
+          "name": "対粛正防御",
+          "originalName": "対粛正防御",
+          "detail": "無敵貫通を無視して、攻撃によるダメージを0にする(他の対粛正防御状態と重複可能)",
+          "type": "specialInvincible",
+          "buffGroup": 0,
+          "originalScript": {},
+          "vals": [{
+            "id": 3004,
+            "name": "buffPositiveEffect"
+          }, {
+            "id": 3064,
+            "name": "buffSpecialInvincible"
+          }, {
+            "id": 3007,
+            "name": "buffIncreaseDefence"
+          }],
+          "tvals": [],
+          "ckSelfIndv": [],
+          "ckOpIndv": [],
+          "maxRate": 0,
+          "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_368.png",
+          "script": {}
         }],
         "script": {
           "OverwritePopupText": ["対粛正防御"]
@@ -46424,7 +46584,7 @@
           "OverwritePopupText": ["対粛正防御"]
         },
         "effectId": 335,
-        "targetIds": [155],
+        "targetIds": [155, 4737],
         "convertType": 1,
         "targetBuffs": [{
           "id": 155,
@@ -46438,6 +46598,19 @@
           "maxRate": 0,
           "ckOpIndv": [],
           "buffGroup": 400,
+          "ckSelfIndv": []
+        }, {
+          "id": 4737,
+          "name": "無敵",
+          "type": 26,
+          "vals": [3004, 3018, 3022, 3007],
+          "tvals": [],
+          "detail": "必中を無視して、攻撃によるダメージを0にする(他の無敵状態と重複可能)",
+          "iconId": 311,
+          "script": {},
+          "maxRate": 0,
+          "ckOpIndv": [],
+          "buffGroup": 0,
           "ckSelfIndv": []
         }],
         "targetLimit": 0,
@@ -46454,8 +46627,21 @@
           "ckOpIndv": [],
           "buffGroup": 250,
           "ckSelfIndv": []
+        }, {
+          "id": 5638,
+          "name": "対粛正防御",
+          "type": 157,
+          "vals": [3004, 3064, 3007],
+          "tvals": [],
+          "detail": "無敵貫通を無視して、攻撃によるダメージを0にする(他の対粛正防御状態と重複可能)",
+          "iconId": 368,
+          "script": {},
+          "maxRate": 0,
+          "ckOpIndv": [],
+          "buffGroup": 0,
+          "ckSelfIndv": []
         }],
-        "convertBuffIds": [2926]
+        "convertBuffIds": [2926, 5638]
       }
     },
     "vals": [{
@@ -47204,6 +47390,30 @@
     "icon": "https://static.atlasacademy.io/JP/EventUI/func_group_icon_1009.png",
     "priority": 1,
     "isDispValue": true
+  }]
+}, {
+  "funcId": 21753,
+  "funcType": "addState",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "無敵",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_311.png",
+  "buffs": [{
+    "id": 4737,
+    "name": "無敵",
+    "detail": "必中を無視して、攻撃によるダメージを0にする(他の無敵状態と重複可能)",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_311.png",
+    "type": "invincible",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3018
+    }, {
+      "id": 3022
+    }, {
+      "id": 3007
+    }],
+    "maxRate": 0
   }]
 }, {
   "funcId": 30003,
