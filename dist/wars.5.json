@@ -130328,7 +130328,143 @@
     "y": 1111.0,
     "nameOfsY": 1,
     "questOfsX": 41,
-    "questOfsY": -102
+    "questOfsY": -102,
+    "quests": [{
+      "id": 94097613,
+      "name": "第9節 病めるものも、繋ぐものも",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "50",
+      "spotId": 916949,
+      "warId": 9169,
+      "gifts": [{
+        "id": 94082540,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94097612
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "eventMissionAchieve",
+        "targetId": 80476020,
+        "closedMessage": "ミッションNo.20達成で開放"
+      }],
+      "phases": [1, 2],
+      "phasesNoBattle": [2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408251310",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408251310.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9408251320",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408251320.txt"
+        }]
+      }],
+      "priority": 94097987,
+      "noticeAt": 1718010000,
+      "openedAt": 1718010000,
+      "closedAt": 1719547199
+    }, {
+      "id": 94097709,
+      "name": "エルロンド会議",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "70",
+      "spotId": 916949,
+      "warId": 9169,
+      "gifts": [{
+        "id": 12000,
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "commonRelease",
+        "targetId": 94097718
+      }],
+      "phases": [1],
+      "priority": 94097691,
+      "noticeAt": 1718010000,
+      "openedAt": 1718010000,
+      "closedAt": 1719547199
+    }, {
+      "id": 94097710,
+      "name": "マイ・フェア・レディ",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "75",
+      "spotId": 916949,
+      "warId": 9169,
+      "gifts": [{
+        "id": 12000,
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "commonRelease",
+        "targetId": 94097719
+      }],
+      "phases": [1],
+      "priority": 94097690,
+      "noticeAt": 1718010000,
+      "openedAt": 1718010000,
+      "closedAt": 1719547199
+    }, {
+      "id": 94098009,
+      "name": "闇の底はまだ知れない",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "55",
+      "spotId": 916949,
+      "warId": 9169,
+      "gifts": [{
+        "id": 25321,
+        "objectId": 6528,
+        "num": 3
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94097614
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408290911",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408290911.txt"
+        }]
+      }],
+      "priority": 94097891,
+      "noticeAt": 1718010000,
+      "openedAt": 1718010000,
+      "closedAt": 1719547199
+    }]
   }, {
     "id": 916950,
     "mapId": 9169,
@@ -130338,7 +130474,53 @@
     "y": 1080.0,
     "nameOfsY": -31,
     "questOfsX": 24,
-    "questOfsY": -113
+    "questOfsY": -113,
+    "quests": [{
+      "id": 94097614,
+      "name": "第10節 願わくば我が手でその胸を貫いて",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "50",
+      "spotId": 916950,
+      "warId": 9169,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94097613
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "eventMissionAchieve",
+        "targetId": 80476021,
+        "closedMessage": "ミッションNo.21達成で開放"
+      }],
+      "phases": [1, 2],
+      "phasesNoBattle": [2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408251410",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408251410.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9408251420",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408251420.txt"
+        }]
+      }],
+      "priority": 94097986,
+      "noticeAt": 1718010000,
+      "openedAt": 1718010000,
+      "closedAt": 1719547199
+    }]
   }, {
     "id": 916951,
     "mapId": 9169,
@@ -130348,7 +130530,52 @@
     "y": 966.0,
     "nameOfsY": 1,
     "questOfsX": 41,
-    "questOfsY": -102
+    "questOfsY": -102,
+    "quests": [{
+      "id": 94097615,
+      "name": "第11節 死界■■都市ロンドン（1/2）",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "55",
+      "spotId": 916951,
+      "warId": 9169,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
+        "type": "questClear",
+        "targetId": 94097614
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "eventMissionAchieve",
+        "targetId": 80476022,
+        "closedMessage": "ミッションNo.22達成\n＆6月11日18時00分以降に開放"
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408251510",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408251510.txt"
+        }, {
+          "scriptId": "9408251511",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408251511.txt"
+        }]
+      }],
+      "priority": 94097985,
+      "noticeAt": 1718010000,
+      "openedAt": 1718096400,
+      "closedAt": 1719547199
+    }]
   }, {
     "id": 916952,
     "mapId": 9169,
