@@ -130288,6 +130288,7 @@
         "closedMessage": "ミッションNo.19達成\n＆6月10日18時00分以降に開放"
       }],
       "phases": [1, 2, 3, 4],
+      "phasesWithEnemies": [2, 3],
       "phasesNoBattle": [1, 4],
       "phaseScripts": [{
         "phase": 1,
@@ -130356,6 +130357,7 @@
         "closedMessage": "ミッションNo.20達成で開放"
       }],
       "phases": [1, 2],
+      "phasesWithEnemies": [1],
       "phasesNoBattle": [2],
       "phaseScripts": [{
         "phase": 1,
@@ -130398,6 +130400,7 @@
         "targetId": 94097718
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94097691,
       "noticeAt": 1718010000,
       "openedAt": 1718010000,
@@ -130426,6 +130429,7 @@
         "targetId": 94097719
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94097690,
       "noticeAt": 1718010000,
       "openedAt": 1718010000,
@@ -130453,6 +130457,7 @@
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "phaseScripts": [{
         "phase": 1,
         "scripts": [{
@@ -130502,6 +130507,7 @@
         "closedMessage": "ミッションNo.21達成で開放"
       }],
       "phases": [1, 2],
+      "phasesWithEnemies": [1],
       "phasesNoBattle": [2],
       "phaseScripts": [{
         "phase": 1,
@@ -130561,6 +130567,7 @@
         "closedMessage": "ミッションNo.22達成\n＆6月11日18時00分以降に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "phaseScripts": [{
         "phase": 1,
         "scripts": [{
@@ -130573,6 +130580,166 @@
       }],
       "priority": 94097985,
       "noticeAt": 1718010000,
+      "openedAt": 1718096400,
+      "closedAt": 1719547199
+    }, {
+      "id": 94097616,
+      "name": "第11節 死界■■都市ロンドン（2/2）",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "55",
+      "spotId": 916951,
+      "warId": 9169,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94097615
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "eventMissionAchieve",
+        "targetId": 80476023,
+        "closedMessage": "ミッションNo.23達成で開放"
+      }],
+      "phases": [1, 2],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408251610",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408251610.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9408251620",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408251620.txt"
+        }, {
+          "scriptId": "9408251621",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408251621.txt"
+        }]
+      }],
+      "priority": 94097984,
+      "noticeAt": 1718096400,
+      "openedAt": 1718096400,
+      "closedAt": 1719547199
+    }, {
+      "id": 94097617,
+      "name": "第12節 死界■■都市ロンドン（1/2）",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "55",
+      "spotId": 916951,
+      "warId": 9169,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94097616
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1, 2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408251710",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408251710.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9408251720",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408251720.txt"
+        }, {
+          "scriptId": "9408251721",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408251721.txt"
+        }]
+      }],
+      "priority": 94097983,
+      "noticeAt": 1718096400,
+      "openedAt": 1718096400,
+      "closedAt": 1719547199
+    }, {
+      "id": 94097618,
+      "name": "第12節 死界愁雨都市ロンドン（2/2）",
+      "type": "main",
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 916951,
+      "warId": 9169,
+      "gifts": [{
+        "id": 94082542,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94097617
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1, 2],
+      "phasesNoBattle": [1, 2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408251810",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408251810.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9408251820",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408251820.txt"
+        }]
+      }],
+      "priority": 94097982,
+      "noticeAt": 1718096400,
+      "openedAt": 1718096400,
+      "closedAt": 1719547199
+    }, {
+      "id": 94097711,
+      "name": "沈む魔術協会",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "80",
+      "spotId": 916951,
+      "warId": 9169,
+      "gifts": [{
+        "id": 12000,
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "commonRelease",
+        "targetId": 94097720
+      }],
+      "phases": [1],
+      "priority": 94097689,
+      "noticeAt": 1718096400,
       "openedAt": 1718096400,
       "closedAt": 1719547199
     }]
@@ -130595,7 +130762,77 @@
     "y": 739.0,
     "nameOfsY": 1,
     "questOfsX": 41,
-    "questOfsY": -102
+    "questOfsY": -102,
+    "quests": [{
+      "id": 94097619,
+      "name": "第13節 決壊終局絶海オケアノス",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "60",
+      "spotId": 916953,
+      "warId": 9169,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94097618
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1, 2],
+      "phasesNoBattle": [2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408251910",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408251910.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9408251920",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408251920.txt"
+        }]
+      }],
+      "priority": 94097981,
+      "noticeAt": 1718096400,
+      "openedAt": 1718096400,
+      "closedAt": 1719547199
+    }, {
+      "id": 94097712,
+      "name": "嵐の遭難者",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "85",
+      "spotId": 916953,
+      "warId": 9169,
+      "gifts": [{
+        "id": 12000,
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "commonRelease",
+        "targetId": 94097720
+      }],
+      "phases": [1],
+      "priority": 94097688,
+      "noticeAt": 1718096400,
+      "openedAt": 1718096400,
+      "closedAt": 1719547199
+    }]
   }, {
     "id": 916954,
     "mapId": 9169,
@@ -130605,7 +130842,74 @@
     "y": 686.0,
     "nameOfsY": -31,
     "questOfsX": 24,
-    "questOfsY": -113
+    "questOfsY": -113,
+    "quests": [{
+      "id": 94097620,
+      "name": "第14節 永続狂気劇場セプテム",
+      "type": "main",
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 916954,
+      "warId": 9169,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94097619
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "eventMissionAchieve",
+        "targetId": 80476024,
+        "closedMessage": "ミッションNo.24達成\n＆6月12日18時00分以降に開放"
+      }],
+      "phases": [1, 2, 3, 4, 5],
+      "phasesNoBattle": [1, 5],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408252010",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408252010.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9408252020",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408252020.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9408252030",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408252030.txt"
+        }]
+      }, {
+        "phase": 4,
+        "scripts": [{
+          "scriptId": "9408252040",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408252040.txt"
+        }, {
+          "scriptId": "9408252041",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408252041.txt"
+        }]
+      }, {
+        "phase": 5,
+        "scripts": [{
+          "scriptId": "9408252050",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408252050.txt"
+        }]
+      }],
+      "priority": 94097980,
+      "noticeAt": 1718096400,
+      "openedAt": 1718182800,
+      "closedAt": 1719547199
+    }]
   }, {
     "id": 916955,
     "mapId": 9169,
