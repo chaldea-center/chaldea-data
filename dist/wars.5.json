@@ -129220,6 +129220,47 @@
       "noticeAt": 1717750800,
       "openedAt": 1717750800,
       "closedAt": 1719547199
+    }, {
+      "id": 94097625,
+      "name": "アンコールは終わらない",
+      "type": "main",
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 916901,
+      "warId": 9169,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/3.png",
+      "gifts": [{
+        "id": 94082533,
+        "objectId": 7999,
+        "num": 1
+      }, {
+        "id": 94082533,
+        "type": "eventSvtGet",
+        "objectId": 105700,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94097624
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408252510",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408252510.txt"
+        }]
+      }],
+      "priority": 94097975,
+      "noticeAt": 1718269200,
+      "openedAt": 1718269200,
+      "closedAt": 1719547199
     }]
   }, {
     "id": 916943,
@@ -129495,6 +129536,42 @@
       "priority": 94097696,
       "noticeAt": 1717750800,
       "openedAt": 1717750800,
+      "closedAt": 1719547199
+    }, {
+      "id": 94097801,
+      "name": "【高難易度】イミテーション・グレイルウォー",
+      "type": "event",
+      "flags": ["dropFirstTimeOnly", "notRetrievable"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "90+",
+      "spotId": 916943,
+      "warId": 9169,
+      "gifts": [{
+        "id": 21701,
+        "objectId": 6999,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 1000822,
+        "closedMessage": "終局特異点クリアで開放"
+      }, {
+        "type": "questClear",
+        "targetId": 94097625
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "eventMissionAchieve",
+        "targetId": 80476100,
+        "closedMessage": "終局特異点クリア\n＆ミッションNo.100達成で開放"
+      }],
+      "phases": [1],
+      "priority": 94097799,
+      "noticeAt": 1718269200,
+      "openedAt": 1718269200,
       "closedAt": 1719547199
     }, {
       "id": 94098001,
@@ -130209,6 +130286,38 @@
       "openedAt": 1717923600,
       "closedAt": 1719547199
     }, {
+      "id": 94097901,
+      "name": "寄生キノコにご用心",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "80",
+      "spotId": 916947,
+      "warId": 9169,
+      "gifts": [{
+        "id": 94082532,
+        "type": "servant",
+        "objectId": 105701,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94097625
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "eventMissionAchieve",
+        "targetId": 80476028,
+        "closedMessage": "ミッションNo.28達成で開放"
+      }],
+      "phases": [1],
+      "priority": 94097798,
+      "noticeAt": 1718269200,
+      "openedAt": 1718269200,
+      "closedAt": 1719547199
+    }, {
       "id": 94098008,
       "name": "聖墓隠し通路",
       "type": "main",
@@ -130745,6 +130854,38 @@
       "noticeAt": 1718096400,
       "openedAt": 1718096400,
       "closedAt": 1719547199
+    }, {
+      "id": 94097902,
+      "name": "レアなキノコを探し出せ！",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "80",
+      "spotId": 916951,
+      "warId": 9169,
+      "gifts": [{
+        "id": 94082532,
+        "type": "servant",
+        "objectId": 105701,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94097625
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "eventMissionAchieve",
+        "targetId": 80476029,
+        "closedMessage": "ミッションNo.29達成で開放"
+      }],
+      "phases": [1],
+      "priority": 94097797,
+      "noticeAt": 1718269200,
+      "openedAt": 1718269200,
+      "closedAt": 1719547199
     }]
   }, {
     "id": 916952,
@@ -130875,6 +131016,7 @@
         "closedMessage": "ミッションNo.24達成\n＆6月12日18時00分以降に開放"
       }],
       "phases": [1, 2, 3, 4, 5],
+      "phasesWithEnemies": [2, 3, 4],
       "phasesNoBattle": [1, 5],
       "phaseScripts": [{
         "phase": 1,
@@ -130952,6 +131094,7 @@
         "closedMessage": "ミッションNo.25達成で開放"
       }],
       "phases": [1, 2, 3],
+      "phasesWithEnemies": [1],
       "phasesNoBattle": [2, 3],
       "phaseScripts": [{
         "phase": 1,
@@ -131000,6 +131143,7 @@
         "targetId": 94097721
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94097687,
       "noticeAt": 1718182800,
       "openedAt": 1718182800,
@@ -131087,6 +131231,196 @@
       }],
       "priority": 94097978,
       "noticeAt": 1718182800,
+      "openedAt": 1718269200,
+      "closedAt": 1719547199
+    }, {
+      "id": 94097623,
+      "name": "第16節 竜\t戦争\t\t\t\t（2/2）",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "65",
+      "spotId": 916958,
+      "warId": 9169,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94097622
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "eventMissionAchieve",
+        "targetId": 80476027,
+        "closedMessage": "ミッションNo.27達成で開放"
+      }],
+      "phases": [1, 2, 3],
+      "phasesWithEnemies": [1],
+      "phasesNoBattle": [3],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408252310",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408252310.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9408252320",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408252320.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9408252330",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408252330.txt"
+        }]
+      }],
+      "priority": 94097977,
+      "noticeAt": 1718269200,
+      "openedAt": 1718269200,
+      "closedAt": 1719547199
+    }, {
+      "id": 94097624,
+      "name": "第17節 声枯らした希望を、真実に",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "70",
+      "spotId": 916958,
+      "warId": 9169,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94097623
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1, 2, 3],
+      "phasesNoBattle": [3],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9408252410",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408252410.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9408252420",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408252420.txt"
+        }, {
+          "scriptId": "9408252421",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408252421.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9408252430",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9408/9408252430.txt"
+        }]
+      }],
+      "priority": 94097976,
+      "noticeAt": 1718269200,
+      "openedAt": 1718269200,
+      "closedAt": 1719547199
+    }, {
+      "id": 94097714,
+      "name": "ラ・シャリテの追憶",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90+",
+      "spotId": 916958,
+      "warId": 9169,
+      "gifts": [{
+        "id": 327,
+        "objectId": 3,
+        "num": 100
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94097625
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "priority": 94097686,
+      "noticeAt": 1718269200,
+      "openedAt": 1718269200,
+      "closedAt": 1719547199
+    }, {
+      "id": 94097715,
+      "name": "未完の馬再建計画",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90++",
+      "spotId": 916958,
+      "warId": 9169,
+      "gifts": [{
+        "id": 337,
+        "objectId": 3,
+        "num": 200
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94097625
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "priority": 94097685,
+      "noticeAt": 1718269200,
+      "openedAt": 1718269200,
+      "closedAt": 1719547199
+    }, {
+      "id": 94097903,
+      "name": "コンブチャ・パーティー",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "80",
+      "spotId": 916958,
+      "warId": 9169,
+      "gifts": [{
+        "id": 94082532,
+        "type": "servant",
+        "objectId": 105701,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94097625
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "eventMissionAchieve",
+        "targetId": 80476030,
+        "closedMessage": "ミッションNo.30達成で開放"
+      }],
+      "phases": [1],
+      "priority": 94097796,
+      "noticeAt": 1718269200,
       "openedAt": 1718269200,
       "closedAt": 1719547199
     }]
