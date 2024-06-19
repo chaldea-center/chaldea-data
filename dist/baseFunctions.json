@@ -10421,6 +10421,32 @@
     "maxRate": 5000
   }]
 }, {
+  "funcId": 947,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "強化付与アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_307.png",
+  "buffs": [{
+    "id": 159,
+    "name": "強化付与アップ",
+    "detail": "強化付与率をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_307.png",
+    "type": "upGrantstate",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3090
+    }],
+    "tvals": [{
+      "id": 3004
+    }],
+    "ckSelfIndv": [{
+      "id": 3004
+    }],
+    "maxRate": 5000
+  }]
+}, {
   "funcId": 949,
   "funcType": "addStateShort",
   "funcTargetType": "ptAll",
@@ -34735,7 +34761,7 @@
   "buffs": [{
     "id": 4407,
     "name": "ガッツ時発動(宝具威力アップ＆弱体解除)",
-    "detail": "ガッツ発動時、宝具威力をアップ＆弱体状態を解除",
+    "detail": "ガッツ発動時、自身の宝具威力をアップ＆弱体状態を解除",
     "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_365.png",
     "type": "gutsFunction",
     "vals": [{
@@ -47680,6 +47706,24 @@
     "detail": "攻撃時、自身のNPを増やす",
     "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_333.png",
     "type": "attackAfterFunction",
+    "vals": [{
+      "id": 3004
+    }],
+    "maxRate": 0
+  }]
+}, {
+  "funcId": 21758,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "ガッツ時発動",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_365.png",
+  "buffs": [{
+    "id": 5640,
+    "name": "ガッツ時発動",
+    "detail": "ガッツ発動時、自身の宝具威力をアップ＆弱体状態を解除",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_365.png",
+    "type": "gutsFunction",
     "vals": [{
       "id": 3004
     }],
