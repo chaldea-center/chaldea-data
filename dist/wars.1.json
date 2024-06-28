@@ -86863,6 +86863,47 @@
       "noticeAt": 1717750800,
       "openedAt": 1717750800,
       "closedAt": 1893423600
+    }, {
+      "id": 94099001,
+      "name": "強化クエスト 清姫 3",
+      "type": "event",
+      "flags": ["noDisplayRemain"],
+      "consume": 20,
+      "afterClear": "close",
+      "recommendLv": "70",
+      "spotId": 99001,
+      "warId": 1001,
+      "gifts": [{
+        "id": 94012504,
+        "objectId": 2,
+        "num": 2
+      }, {
+        "id": 94012504,
+        "type": "questRewardIcon",
+        "objectId": 9,
+        "num": 0
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94032704
+      }, {
+        "type": "svtLimit",
+        "targetId": 701300,
+        "value": 4,
+        "closedMessage": "霊基再臨{0}段階目で開放"
+      }, {
+        "type": "svtGet",
+        "targetId": 701300
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1, 2, 3],
+      "phasesWithEnemies": [1, 2],
+      "priority": 94099001,
+      "noticeAt": 1719572400,
+      "openedAt": 1719572400,
+      "closedAt": 1893423600
     }]
   }]
 }, {
@@ -99781,6 +99822,9 @@
         "targetId": 2500600,
         "value": 3,
         "closedMessage": "Lostbelt No.3 プロローグをクリア＆霊基再臨3段階目＆絆Lv.4で開放"
+      }, {
+        "type": "svtGet",
+        "targetId": 2500600
       }, {
         "type": "svtFriendship",
         "targetId": 2500600,
