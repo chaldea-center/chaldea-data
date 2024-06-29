@@ -131823,6 +131823,34 @@
       "noticeAt": 1719572400,
       "openedAt": 1719651600,
       "closedAt": 1721361599
+    }, {
+      "id": 94098806,
+      "name": "貿易戦略  新メニューのレシピを求めて",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "70",
+      "spotId": 917001,
+      "warId": 9170,
+      "gifts": [{
+        "id": 12000,
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94098705
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "priority": 94098694,
+      "noticeAt": 1719651600,
+      "openedAt": 1719738000,
+      "closedAt": 1721361599
     }]
   }, {
     "id": 917002,
@@ -132044,6 +132072,7 @@
         "closedMessage": "デジマスイーツポイント20,000以上\n＆6月29日18時00分以降に開放"
       }],
       "phases": [1, 2],
+      "phasesWithEnemies": [1, 2],
       "phaseScripts": [{
         "phase": 1,
         "scripts": [{
@@ -132063,6 +132092,67 @@
       "priority": 94098895,
       "noticeAt": 1719572400,
       "openedAt": 1719651600,
+      "closedAt": 1721361599
+    }, {
+      "id": 94098705,
+      "name": "第5節 扉をあけて",
+      "type": "main",
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 917005,
+      "warId": 9170,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94098704
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "eventTotalPoint",
+        "targetId": 80480,
+        "value": 50000,
+        "closedMessage": "デジマスイーツポイント50,000以上\n＆6月30日18時00分以降に開放"
+      }],
+      "phases": [1, 2, 3, 4],
+      "phasesNoBattle": [1, 2, 4],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9409870510",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409870510.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9409870520",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409870520.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9409870530",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409870530.txt"
+        }, {
+          "scriptId": "9409870531",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409870531.txt"
+        }]
+      }, {
+        "phase": 4,
+        "scripts": [{
+          "scriptId": "9409870540",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409870540.txt"
+        }]
+      }],
+      "priority": 94098894,
+      "noticeAt": 1719651600,
+      "openedAt": 1719738000,
       "closedAt": 1721361599
     }, {
       "id": 94098804,
