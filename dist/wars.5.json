@@ -131848,6 +131848,7 @@
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94098694,
       "noticeAt": 1719651600,
       "openedAt": 1719738000,
@@ -131920,6 +131921,54 @@
     "questOfsX": 60,
     "questOfsY": -85,
     "quests": [{
+      "id": 94098706,
+      "name": "第6節 美しい平和な国",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "40",
+      "spotId": 917003,
+      "warId": 9170,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94098705
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "eventTotalPoint",
+        "targetId": 80480,
+        "value": 130000,
+        "closedMessage": "デジマスイーツポイント130,000以上\n＆7月1日18時00分以降に開放"
+      }],
+      "phases": [1, 2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9409870611",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409870611.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9409870620",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409870620.txt"
+        }, {
+          "scriptId": "9409870621",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409870621.txt"
+        }]
+      }],
+      "priority": 94098893,
+      "noticeAt": 1719738000,
+      "openedAt": 1719824400,
+      "closedAt": 1721361599
+    }, {
       "id": 94098802,
       "name": "貿易戦略  物資運搬のノウハウを学ぶ",
       "type": "event",
@@ -131947,6 +131996,34 @@
       "priority": 94098698,
       "noticeAt": 1719572400,
       "openedAt": 1719572400,
+      "closedAt": 1721361599
+    }, {
+      "id": 94098807,
+      "name": "貿易戦略  龍宮城建て直し計画",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "80",
+      "spotId": 917003,
+      "warId": 9170,
+      "gifts": [{
+        "id": 12000,
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94098706
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "priority": 94098693,
+      "noticeAt": 1719738000,
+      "openedAt": 1719824400,
       "closedAt": 1721361599
     }]
   }, {
@@ -132122,6 +132199,7 @@
         "closedMessage": "デジマスイーツポイント50,000以上\n＆6月30日18時00分以降に開放"
       }],
       "phases": [1, 2, 3, 4],
+      "phasesWithEnemies": [3],
       "phasesNoBattle": [1, 2, 4],
       "phaseScripts": [{
         "phase": 1,
