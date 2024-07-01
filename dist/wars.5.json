@@ -131948,6 +131948,7 @@
         "closedMessage": "デジマスイーツポイント130,000以上\n＆7月1日18時00分以降に開放"
       }],
       "phases": [1, 2],
+      "phasesWithEnemies": [1, 2],
       "phaseScripts": [{
         "phase": 1,
         "scripts": [{
@@ -132272,7 +132273,77 @@
     "y": 907.0,
     "nameOfsY": -12,
     "questOfsX": 35,
-    "questOfsY": -65
+    "questOfsY": -65,
+    "quests": [{
+      "id": 94098707,
+      "name": "第7節 みなそこに眠れ",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 917006,
+      "warId": 9170,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94098706
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "eventTotalPoint",
+        "targetId": 80480,
+        "value": 270000,
+        "closedMessage": "デジマスイーツポイント270,000以上\n＆7月2日18時00分以降に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9409870710",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409870710.txt"
+        }]
+      }],
+      "priority": 94098892,
+      "noticeAt": 1719824400,
+      "openedAt": 1719910800,
+      "closedAt": 1721361599
+    }, {
+      "id": 94098808,
+      "name": "貿易戦略  新たな取引先を探して",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90",
+      "spotId": 917006,
+      "warId": 9170,
+      "gifts": [{
+        "id": 12000,
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94098707
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "priority": 94098692,
+      "noticeAt": 1719824400,
+      "openedAt": 1719910800,
+      "closedAt": 1721361599
+    }]
   }, {
     "id": 917007,
     "mapId": 9170,
