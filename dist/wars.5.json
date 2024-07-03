@@ -131602,6 +131602,24 @@
     "targetId": 94098700,
     "startedAt": 1719572400,
     "endedAt": 1721361599
+  }, {
+    "warId": 9170,
+    "type": "flag",
+    "priority": 2,
+    "overwriteId": 16812064,
+    "condType": "questClear",
+    "targetId": 94098708,
+    "startedAt": 1719572400,
+    "endedAt": 1721361599
+  }, {
+    "warId": 9170,
+    "type": "flag",
+    "priority": 3,
+    "overwriteId": 16812066,
+    "condType": "questClear",
+    "targetId": 94098709,
+    "startedAt": 1719572400,
+    "endedAt": 1721361599
   }],
   "maps": [{
     "id": 9170,
@@ -131634,6 +131652,17 @@
       "dispCondType2": "useItemEternity",
       "dispTargetId2": 94098709,
       "dispTargetValue2": 1
+    }, {
+      "id": 917003,
+      "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9170/QMap_Cap9170_Atlas/gimmick_917003.png",
+      "x": 1024,
+      "y": 1024,
+      "depthOffset": -900,
+      "scale": 1000,
+      "dispCondType": "itemGet",
+      "dispTargetId": 94098709,
+      "dispTargetValue": 1,
+      "dispCondType2": "questClear"
     }, {
       "id": 917004,
       "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9170/QMap_Cap9170_Atlas/gimmick_917004.png",
@@ -132358,7 +132387,7 @@
     "questOfsY": -87,
     "quests": [{
       "id": 94098708,
-      "name": "",
+      "name": "第8節 わたしのなかの星",
       "type": "main",
       "consume": 5,
       "afterClear": "close",
@@ -132371,21 +132400,76 @@
         "num": 1
       }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 94098707
       }, {
         "type": "date",
         "targetId": 0,
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
-      }, {
-        "type": "forceFalse",
-        "targetId": 0,
-        "closedMessage": "データ更新後に開放"
       }],
       "phases": [1, 2],
+      "phasesWithEnemies": [1],
       "phasesNoBattle": [2],
-      "priority": 94098891,
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9409870810",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409870810.txt"
+        }, {
+          "scriptId": "9409870811",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409870811.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9409870820",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409870820.txt"
+        }]
+      }],
+      "priority": 94098890,
       "noticeAt": 1719910800,
+      "openedAt": 1719997200,
+      "closedAt": 1721361599
+    }]
+  }, {
+    "id": 917008,
+    "mapId": 9170,
+    "name": "水門",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9170/QMap_Cap9170_Atlas/spot_917008.png",
+    "x": 1704.0,
+    "y": 1499.0,
+    "nameOfsY": -4,
+    "questOfsX": 45,
+    "questOfsY": -74,
+    "quests": [{
+      "id": 94098809,
+      "name": "貿易戦略  未知なるスイーツ材料の探求",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90+",
+      "spotId": 917008,
+      "warId": 9170,
+      "gifts": [{
+        "id": 327,
+        "objectId": 3,
+        "num": 100
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94098708
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "priority": 94098691,
+      "noticeAt": 1719997200,
       "openedAt": 1719997200,
       "closedAt": 1721361599
     }]
@@ -132394,6 +132478,87 @@
     "mapId": 9170,
     "name": "龍宮城",
     "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9170/QMap_Cap9170_Atlas/spot_917009.png",
+    "x": 1025.0,
+    "y": 675.0,
+    "nameOfsY": -29,
+    "questOfsX": 60,
+    "questOfsY": -85
+  }, {
+    "id": 917010,
+    "mapId": 9170,
+    "name": "脇荷蔵",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9170/QMap_Cap9170_Atlas/spot_917010.png",
+    "x": 1240.0,
+    "y": 1304.0,
+    "nameOfsY": -26,
+    "questOfsX": 59,
+    "questOfsY": -94,
+    "quests": [{
+      "id": 94098810,
+      "name": "貿易戦略  地球外への販路拡大",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90++",
+      "spotId": 917010,
+      "warId": 9170,
+      "gifts": [{
+        "id": 337,
+        "objectId": 3,
+        "num": 200
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94098708
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "priority": 94098690,
+      "noticeAt": 1719997200,
+      "openedAt": 1719997200,
+      "closedAt": 1721361599
+    }, {
+      "id": 94098901,
+      "name": "【高難易度】アーネンエルベへようこそ！（ドラゴン島出張店）",
+      "type": "event",
+      "flags": ["dropFirstTimeOnly", "notRetrievable", "notDisplayResultGetPoint"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "90+",
+      "spotId": 917010,
+      "warId": 9170,
+      "gifts": [{
+        "id": 21701,
+        "objectId": 6999,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 1000822,
+        "closedMessage": "終局特異点クリア\n＆7月4日18時00分以降に開放"
+      }, {
+        "type": "questClear",
+        "targetId": 94098708
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "priority": 94099000,
+      "noticeAt": 1719997200,
+      "openedAt": 1720083600,
+      "closedAt": 1721361599
+    }]
+  }, {
+    "id": 917011,
+    "mapId": 9170,
+    "name": "龍宮城",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9170/QMap_Cap9170_Atlas/spot_917011.png",
     "x": 1025.0,
     "y": 675.0,
     "nameOfsY": -29,
@@ -132433,6 +132598,43 @@
       "priority": 94098899,
       "noticeAt": 1719572400,
       "openedAt": 1719572400,
+      "closedAt": 1721361599
+    }, {
+      "id": 94098709,
+      "name": "エピローグ 鵲の橋を渡って",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 917099,
+      "warId": 9170,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/3.png",
+      "gifts": [{
+        "id": 20058,
+        "objectId": 7999,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94098708
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9409870910",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409870910.txt"
+        }]
+      }],
+      "priority": 94098889,
+      "noticeAt": 1719997200,
+      "openedAt": 1719997200,
       "closedAt": 1721361599
     }]
   }],
@@ -132493,6 +132695,26 @@
     "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9170/QMap_Cap9170_Atlas/img_road9170_00.png",
     "srcSpotId": 917006,
     "dstSpotId": 917007,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "questClear"
+  }, {
+    "id": 917007,
+    "warId": 9170,
+    "mapId": 9170,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9170/QMap_Cap9170_Atlas/img_road9170_00.png",
+    "srcSpotId": 917007,
+    "dstSpotId": 917008,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "questClear"
+  }, {
+    "id": 917008,
+    "warId": 9170,
+    "mapId": 9170,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9170/QMap_Cap9170_Atlas/img_road9170_00.png",
+    "srcSpotId": 917008,
+    "dstSpotId": 917010,
     "dispCondType": "useItemTime",
     "dispCondType2": "useItemTime",
     "activeCondType": "questClear"

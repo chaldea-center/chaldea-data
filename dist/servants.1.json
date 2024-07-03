@@ -47480,6 +47480,9 @@
         "2": "https://static.atlasacademy.io/JP/CharaGraph/701300/701300a@2.png",
         "3": "https://static.atlasacademy.io/JP/CharaGraph/701300/701300b@1.png",
         "4": "https://static.atlasacademy.io/JP/CharaGraph/701300/701300b@2.png"
+      },
+      "costume": {
+        "701330": "https://static.atlasacademy.io/JP/CharaGraph/701330/701330a.png"
       }
     },
     "faces": {
@@ -47488,6 +47491,9 @@
         "2": "https://static.atlasacademy.io/JP/Faces/f_7013001.png",
         "3": "https://static.atlasacademy.io/JP/Faces/f_7013002.png",
         "4": "https://static.atlasacademy.io/JP/Faces/f_7013003.png"
+      },
+      "costume": {
+        "701330": "https://static.atlasacademy.io/JP/Faces/f_7013300.png"
       }
     },
     "narrowFigure": {
@@ -47496,6 +47502,9 @@
         "2": "https://static.atlasacademy.io/JP/NarrowFigure/701300/701300@1.png",
         "3": "https://static.atlasacademy.io/JP/NarrowFigure/701300/701300@2.png",
         "4": "https://static.atlasacademy.io/JP/NarrowFigure/701300/701300_2@0.png"
+      },
+      "costume": {
+        "701330": "https://static.atlasacademy.io/JP/NarrowFigure/701330/701330@0.png"
       }
     },
     "charaFigure": {
@@ -47511,6 +47520,9 @@
         "1098157100": "https://static.atlasacademy.io/JP/CharaFigure/1098157100/1098157100_merged.png",
         "1098225200": "https://static.atlasacademy.io/JP/CharaFigure/1098225200/1098225200_merged.png",
         "1098261500": "https://static.atlasacademy.io/JP/CharaFigure/1098261500/1098261500_merged.png"
+      },
+      "costume": {
+        "701330": "https://static.atlasacademy.io/JP/CharaFigure/7013300/7013300_merged.png"
       }
     },
     "commands": {
@@ -47518,6 +47530,9 @@
         "1": "https://static.atlasacademy.io/JP/Servants/Commands/701300/card_servant_1.png",
         "2": "https://static.atlasacademy.io/JP/Servants/Commands/701300/card_servant_2.png",
         "3": "https://static.atlasacademy.io/JP/Servants/Commands/701300/card_servant_3.png"
+      },
+      "costume": {
+        "701330": "https://static.atlasacademy.io/JP/Servants/Commands/701300/card_servant_11.png"
       }
     },
     "status": {
@@ -47525,6 +47540,9 @@
         "1": "https://static.atlasacademy.io/JP/Servants/Status/701300/status_servant_1.png",
         "2": "https://static.atlasacademy.io/JP/Servants/Status/701300/status_servant_2.png",
         "3": "https://static.atlasacademy.io/JP/Servants/Status/701300/status_servant_3.png"
+      },
+      "costume": {
+        "701330": "https://static.atlasacademy.io/JP/Servants/Status/701300/status_servant_11.png"
       }
     },
     "image": {
@@ -47538,6 +47556,9 @@
     "spriteModel": {
       "ascension": {
         "0": "https://static.atlasacademy.io/JP/Servants/701300/manifest.json"
+      },
+      "costume": {
+        "701330": "https://static.atlasacademy.io/JP/Servants/701330/manifest.json"
       }
     }
   },
@@ -47716,6 +47737,11 @@
     "personality": "evil"
   }],
   "ascensionAdd": {
+    "voicePrefix": {
+      "costume": {
+        "701330": 11
+      }
+    },
     "lvMax": {
       "ascension": {
         "0": 30,
@@ -47994,7 +48020,24 @@
       "qp": 5000000
     }
   },
-  "costumeMaterials": {},
+  "costumeMaterials": {
+    "701330": {
+      "items": [{
+        "itemId": 6509,
+        "amount": 5
+      }, {
+        "itemId": 6526,
+        "amount": 5
+      }, {
+        "itemId": 6550,
+        "amount": 5
+      }, {
+        "itemId": 6548,
+        "amount": 5
+      }],
+      "qp": 3000000
+    }
+  },
   "coin": {
     "summonNum": 15,
     "item": {
@@ -48310,6 +48353,17 @@
       "np": "EX",
       "policy": "chaotic",
       "personality": "evil"
+    },
+    "costume": {
+      "701330": {
+        "id": 11,
+        "costumeCollectionNo": 112,
+        "battleCharaId": 701330,
+        "name": "乙姫清姫",
+        "shortName": "乙姫清姫",
+        "detail": "竜の少女の姫衣装\n見た目とは裏腹に相変わらずの強火属性",
+        "priority": 99
+      }
     }
   }
 }, {
