@@ -26788,6 +26788,24 @@
     "maxRate": 0
   }]
 }, {
+  "funcId": 6354,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "攻撃時発動(Artsカード性能ダウン)",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_528.png",
+  "buffs": [{
+    "id": 3238,
+    "name": "攻撃時発動(Artsカード性能ダウン)",
+    "detail": "自身の攻撃時に敵単体にArtsカード性能ダウンを付与する",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_528.png",
+    "type": "attackAfterFunction",
+    "vals": [{
+      "id": 3004
+    }],
+    "maxRate": 0
+  }]
+}, {
   "funcId": 6359,
   "funcType": "addStateShort",
   "funcTargetType": "self",
@@ -50148,5 +50166,34 @@
       "id": 3040
     }],
     "maxRate": 5000
+  }]
+}, {
+  "funcId": 94100501,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "buffs": [{
+    "id": 94100501,
+    "name": "対セイバー防御脆性",
+    "detail": "〔セイバー〕クラスに対する防御不利相性がより大きくなる",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_520.png",
+    "type": "overwriteClassRelation",
+    "script": {
+      "relationId": {
+        "atkSide": {},
+        "defSide": {
+          "saber": {
+            "lancer": {
+              "damageRate": 5000,
+              "type": "overwriteForce"
+            }
+          }
+        }
+      }
+    },
+    "originalScript": {
+      "relationId": 169
+    },
+    "maxRate": 0
   }]
 }]
