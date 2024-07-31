@@ -124313,6 +124313,63 @@
       "openedAt": 1704034800,
       "closedAt": 1704859199
     }, {
+      "id": 94099301,
+      "name": "ぐだぐだパビリオンクエスト1",
+      "type": "event",
+      "flags": ["dropFirstTimeOnly", "notRetrievable"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "20",
+      "spotId": 999999,
+      "warId": 9999,
+      "gifts": [{
+        "id": 700630,
+        "objectId": 94099301,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 1000011,
+        "closedMessage": "特異点Fクリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94099399,
+      "noticeAt": 1722416400,
+      "openedAt": 1722416400,
+      "closedAt": 1723607999
+    }, {
+      "id": 94099302,
+      "name": "ぐだぐだパビリオンクエスト2",
+      "type": "event",
+      "flags": ["dropFirstTimeOnly", "notRetrievable"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "80",
+      "spotId": 999999,
+      "warId": 9999,
+      "gifts": [{
+        "id": 103,
+        "objectId": 4001,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94099301,
+        "closedMessage": "ぐだぐだパビリオンクエスト1クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "priority": 94099398,
+      "noticeAt": 1722416400,
+      "openedAt": 1722416400,
+      "closedAt": 1723607999
+    }, {
       "id": 94100101,
       "name": "海賊・ハント 開位級",
       "type": "event",
