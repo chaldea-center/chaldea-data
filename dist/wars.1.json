@@ -124429,6 +124429,64 @@
       "openedAt": 1722502800,
       "closedAt": 1723607999
     }, {
+      "id": 94099305,
+      "name": "わかる！わからない？パビリオンクエスト1",
+      "type": "event",
+      "flags": ["dropFirstTimeOnly", "notRetrievable"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "90",
+      "spotId": 999999,
+      "warId": 9999,
+      "gifts": [{
+        "id": 103,
+        "objectId": 4001,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 1000011,
+        "closedMessage": "特異点Fクリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94099395,
+      "noticeAt": 1722675600,
+      "openedAt": 1722675600,
+      "closedAt": 1723607999
+    }, {
+      "id": 94099306,
+      "name": "わかる！わからない？パビリオンクエスト2",
+      "type": "event",
+      "flags": ["dropFirstTimeOnly", "notRetrievable"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "90",
+      "spotId": 999999,
+      "warId": 9999,
+      "gifts": [{
+        "id": 103,
+        "objectId": 4001,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94099305,
+        "closedMessage": "わかる！わからない？パビリオンクエスト1クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94099394,
+      "noticeAt": 1722675600,
+      "openedAt": 1722675600,
+      "closedAt": 1723607999
+    }, {
       "id": 94099309,
       "name": "S・W・P最大ダメージトライアル1日目",
       "type": "event",
