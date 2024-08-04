@@ -8263,6 +8263,28 @@
     "maxRate": 5000
   }]
 }, {
+  "funcId": 701,
+  "funcType": "addState",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "即死耐性アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_306.png",
+  "buffs": [{
+    "id": 218,
+    "name": "即死耐性アップ",
+    "detail": "即死耐性をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_306.png",
+    "type": "upResistInstantdeath",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3007
+    }, {
+      "id": 3040
+    }],
+    "maxRate": 5000
+  }]
+}, {
   "funcId": 703,
   "funcType": "addStateShort",
   "funcTargetType": "enemy",
@@ -20546,6 +20568,10 @@
             "beastVIBoss": {
               "damageRate": 2000,
               "type": "overwriteForce"
+            },
+            "beastEresh": {
+              "damageRate": 2000,
+              "type": "overwriteForce"
             }
           }
         },
@@ -21073,6 +21099,10 @@
             "beast": {
               "damageRate": 1000,
               "type": "overwriteForce"
+            },
+            "beastEresh": {
+              "damageRate": 1000,
+              "type": "overwriteForce"
             }
           },
           "demonGodPillar": {
@@ -21489,6 +21519,32 @@
               "type": "overwriteMoreThanTarget"
             },
             "avenger": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            }
+          },
+          "beastEresh": {
+            "berserker": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "ruler": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "alterEgo": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "moonCancer": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "foreigner": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "pretender": {
               "damageRate": 1000,
               "type": "overwriteMoreThanTarget"
             }
@@ -45928,6 +45984,31 @@
     "maxRate": 0
   }]
 }, {
+  "funcId": 21587,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "毒",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_500.png",
+  "script": {
+    "funcIndividuality": [{
+      "id": 3098
+    }]
+  },
+  "buffs": [{
+    "id": 123,
+    "name": "毒",
+    "detail": "ターン終了時にHPが減る",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_500.png",
+    "type": "reduceHp",
+    "vals": [{
+      "id": 3005
+    }, {
+      "id": 3011
+    }],
+    "maxRate": 0
+  }]
+}, {
   "funcId": 21589,
   "funcType": "addState",
   "funcTargetType": "self",
@@ -48072,6 +48153,382 @@
     "maxRate": 0
   }]
 }, {
+  "funcId": 21806,
+  "funcType": "addBattlePoint",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy"
+}, {
+  "funcId": 21807,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_331.png",
+  "buffs": [{
+    "id": 5650,
+    "name": "",
+    "detail": "",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_331.png",
+    "type": "confirmCommandFunction",
+    "script": {
+      "checkIndvType": 3
+    },
+    "originalScript": {
+      "checkIndvType": 3
+    },
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4001
+    }, {
+      "id": 4008
+    }],
+    "ckSelfIndv": [{
+      "id": 4001
+    }, {
+      "id": 4008
+    }],
+    "maxRate": 0
+  }]
+}, {
+  "funcId": 21808,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_331.png",
+  "buffs": [{
+    "id": 5651,
+    "name": "",
+    "detail": "",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_331.png",
+    "type": "confirmCommandFunction",
+    "script": {
+      "checkIndvType": 3
+    },
+    "originalScript": {
+      "checkIndvType": 3
+    },
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4003
+    }, {
+      "id": 4008
+    }],
+    "ckSelfIndv": [{
+      "id": 4003
+    }, {
+      "id": 4008
+    }],
+    "maxRate": 0
+  }]
+}, {
+  "funcId": 21809,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_331.png",
+  "buffs": [{
+    "id": 5652,
+    "name": "",
+    "detail": "",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_331.png",
+    "type": "confirmCommandFunction",
+    "script": {
+      "checkIndvType": 3
+    },
+    "originalScript": {
+      "checkIndvType": 3
+    },
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4002
+    }, {
+      "id": 4008
+    }],
+    "ckSelfIndv": [{
+      "id": 4002
+    }, {
+      "id": 4008
+    }],
+    "maxRate": 0
+  }]
+}, {
+  "funcId": 21810,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_331.png",
+  "buffs": [{
+    "id": 5653,
+    "name": "",
+    "detail": "",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_331.png",
+    "type": "confirmCommandFunction",
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4004
+    }],
+    "ckSelfIndv": [{
+      "id": 4004
+    }],
+    "maxRate": 0
+  }]
+}, {
+  "funcId": 21811,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_331.png",
+  "buffs": [{
+    "id": 5654,
+    "name": "",
+    "detail": "",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_331.png",
+    "type": "skillBeforeFunction",
+    "maxRate": 0
+  }]
+}, {
+  "funcId": 21812,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_331.png",
+  "buffs": [{
+    "id": 5655,
+    "name": "",
+    "detail": "",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_331.png",
+    "type": "skillBeforeFunction",
+    "originalScript": {
+      "useFirstTimeInTurn": 1
+    },
+    "maxRate": 0
+  }]
+}, {
+  "funcId": 21813,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_331.png",
+  "buffs": [{
+    "id": 5656,
+    "name": "",
+    "detail": "",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_331.png",
+    "type": "skillTargetedBeforeFunction",
+    "originalScript": {
+      "fromMasterEquip": 1
+    },
+    "maxRate": 0
+  }]
+}, {
+  "funcId": 21814,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_331.png",
+  "buffs": [{
+    "id": 5657,
+    "name": "",
+    "detail": "",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_331.png",
+    "type": "fieldIndividualityChangedFunction",
+    "script": {
+      "INDIVIDUALITIE": {
+        "id": 2039
+      }
+    },
+    "originalScript": {
+      "INDIVIDUALITIE": 2039
+    },
+    "maxRate": 0
+  }]
+}, {
+  "funcId": 21815,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_331.png",
+  "buffs": [{
+    "id": 5658,
+    "name": "",
+    "detail": "",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_331.png",
+    "type": "skillTargetedBeforeFunction",
+    "originalScript": {
+      "fromCommandSpell": 1
+    },
+    "maxRate": 0
+  }]
+}, {
+  "funcId": 21816,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_331.png",
+  "buffs": [{
+    "id": 5659,
+    "name": "",
+    "detail": "",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_331.png",
+    "type": "treasureDeviceBeforeFunction",
+    "maxRate": 0
+  }]
+}, {
+  "funcId": 21817,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "登場時攻撃力アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_331.png",
+  "buffs": [{
+    "id": 5660,
+    "name": "登場時発動",
+    "detail": "フィールドに登場した時、味方全体の攻撃力をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_331.png",
+    "type": "entryFunction",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }],
+    "maxRate": 0
+  }]
+}, {
+  "funcId": 21836,
+  "funcType": "damageNpBattlePointPhase",
+  "funcTargetType": "enemyAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "なし"
+}, {
+  "funcId": 21839,
+  "funcType": "displayBuffstring",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "マスター好感度アップ"
+}, {
+  "funcId": 21840,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "空間保存",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_333.png",
+  "buffs": [{
+    "id": 5661,
+    "name": "空間保存",
+    "detail": "通常攻撃時、自身のNPを増やす",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_333.png",
+    "type": "commandattackAfterFunction",
+    "vals": [{
+      "id": 3004
+    }],
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4008
+    }],
+    "ckSelfIndv": [{
+      "id": 4008
+    }],
+    "maxRate": 0
+  }]
+}, {
+  "funcId": 21842,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "クリティカル威力アップ〔サーヴァント〕",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_324.png",
+  "buffs": [{
+    "id": 5662,
+    "name": "クリティカル威力アップ〔サーヴァント〕",
+    "detail": "〔サーヴァント〕に与えるクリティカル時のダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_324.png",
+    "type": "upCriticaldamage",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3031
+    }],
+    "tvals": [{
+      "id": 1000
+    }],
+    "ckOpIndv": [{
+      "id": 1000
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 21844,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "通常攻撃ダメージ前追加効果",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_333.png",
+  "buffs": [{
+    "id": 5663,
+    "name": "通常攻撃ダメージ前追加効果",
+    "detail": "通常攻撃時、ダメージ前に自身のクリティカル威力をアップ ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_333.png",
+    "type": "commandattackBeforeFunction",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }],
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4008
+    }],
+    "ckSelfIndv": [{
+      "id": 4008
+    }],
+    "maxRate": 0
+  }]
+}, {
+  "funcId": 21845,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "スタン＆石化＆拘束＆豚化無効",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_322.png",
+  "buffs": [{
+    "id": 5664,
+    "name": "スタン・石化・拘束・豚化無効",
+    "detail": "スタン・石化・拘束・豚化を受けなくなる",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_322.png",
+    "type": "avoidState",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3061
+    }],
+    "tvals": [{
+      "id": 3014
+    }, {
+      "id": 3013
+    }, {
+      "id": 3087
+    }, {
+      "id": 3047
+    }],
+    "ckOpIndv": [{
+      "id": 3014
+    }, {
+      "id": 3013
+    }, {
+      "id": 3087
+    }, {
+      "id": 3047
+    }],
+    "maxRate": 0
+  }]
+}, {
   "funcId": 30003,
   "funcType": "addStateShort",
   "funcTargetType": "self",
@@ -48575,6 +49032,8 @@
       "id": 127
     }, {
       "id": 128
+    }, {
+      "id": 129
     }],
     "ckOpIndv": [{
       "id": 107
@@ -48618,6 +49077,8 @@
       "id": 127
     }, {
       "id": 128
+    }, {
+      "id": 129
     }],
     "maxRate": 5000
   }]
@@ -49338,6 +49799,8 @@
       "id": 125
     }, {
       "id": 126
+    }, {
+      "id": 129
     }],
     "ckOpIndv": [{
       "id": 111
@@ -49363,6 +49826,8 @@
       "id": 125
     }, {
       "id": 126
+    }, {
+      "id": 129
     }],
     "maxRate": 5000
   }]
@@ -50166,6 +50631,23 @@
       "id": 3040
     }],
     "maxRate": 5000
+  }]
+}, {
+  "funcId": 30170,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_404.png",
+  "buffs": [{
+    "id": 30059,
+    "name": "スキル使用後リチャージ",
+    "detail": "スキル使用後に使用したスキルのチャージを1進める<スキルごとに1回限り>",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_404.png",
+    "type": "shortenSkillAfterUseSkill",
+    "vals": [{
+      "id": 3004
+    }],
+    "maxRate": 0
   }]
 }, {
   "funcId": 94100501,
