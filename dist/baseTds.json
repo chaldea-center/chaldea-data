@@ -112357,6 +112357,252 @@
     "svals5": [{}, {}, {}, {}, {}]
   }]
 }, {
+  "id": 3300298,
+  "card": "arts",
+  "name": "終局宇宙に閃く獣冠",
+  "ruby": "エディン・シュグラ・コラプサー",
+  "icon": "https://static.atlasacademy.io/JP/Servants/Commands/3300200/card_servant_np.png",
+  "rank": "EX",
+  "type": "対人宝具",
+  "effectFlags": ["attackEnemyAll"],
+  "unmodifiedDetail": "オーバーチャージ時、自身のマスター好感度をアップ<オーバーチャージ段階に応じて効果アップ> ＋ マスター好感度レベルが4(Buddy)以上の時、自身の即死付与成功率をアップ(1ターン) ＋ マスター好感度レベルが7(Darling)以上の時、自身に防御無視状態を付与(1ターン)＆無敵貫通状態を付与(1ターン) ＋ マスター好感度レベルが10(Destiny)の時、スターを大量獲得 ＋ 敵全体に強力な攻撃[{0}]<マスター好感度レベルに応じて威力アップ>＆攻撃強化状態を解除＆中確率で即死効果",
+  "npGain": {
+    "buster": [33, 33, 33, 33, 33],
+    "arts": [33, 33, 33, 33, 33],
+    "quick": [33, 33, 33, 33, 33],
+    "extra": [33, 33, 33, 33, 33],
+    "defence": [300, 300, 300, 300, 300],
+    "np": [33, 33, 33, 33, 33]
+  },
+  "npDistribution": [6, 13, 20, 26, 35],
+  "individuality": [{
+    "id": 3002
+  }, {
+    "id": 4001
+  }, {
+    "id": 4007
+  }, {
+    "id": 4101
+  }],
+  "npSvts": [{
+    "svtId": 3300200,
+    "num": 98,
+    "damage": [6, 13, 20, 26, 35],
+    "card": "arts"
+  }],
+  "functions": [{
+    "funcId": 21839,
+    "svals": [{
+      "Rate": 1000,
+      "CheckOverChargeStageRange": ["1<="]
+    }, {}, {}, {}, {}],
+    "svals2": [{
+      "Rate": 2000
+    }, {
+      "Rate": 2000
+    }, {
+      "Rate": 2000
+    }, {
+      "Rate": 2000
+    }, {
+      "Rate": 2000
+    }],
+    "svals3": [{
+      "Rate": 3000
+    }, {
+      "Rate": 3000
+    }, {
+      "Rate": 3000
+    }, {
+      "Rate": 3000
+    }, {
+      "Rate": 3000
+    }],
+    "svals4": [{
+      "Rate": 4000
+    }, {
+      "Rate": 4000
+    }, {
+      "Rate": 4000
+    }, {
+      "Rate": 4000
+    }, {
+      "Rate": 4000
+    }],
+    "svals5": [{
+      "Rate": 5000
+    }, {
+      "Rate": 5000
+    }, {
+      "Rate": 5000
+    }, {
+      "Rate": 5000
+    }, {
+      "Rate": 5000
+    }]
+  }, {
+    "funcId": 878,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 1,
+      "Count": -1,
+      "Value": 1000,
+      "HideMiss": 1,
+      "HideNoEffect": 1,
+      "CheckBattlePointPhaseRange": [{
+        "battlePointId": 3300200,
+        "range": ["4<="]
+      }]
+    }, {}, {}, {}, {}],
+    "svals2": [{}, {}, {}, {}, {}],
+    "svals3": [{}, {}, {}, {}, {}],
+    "svals4": [{}, {}, {}, {}, {}],
+    "svals5": [{}, {}, {}, {}, {}]
+  }, {
+    "funcId": 1588,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 1,
+      "Count": -1,
+      "HideMiss": 1,
+      "HideNoEffect": 1,
+      "CheckBattlePointPhaseRange": [{
+        "battlePointId": 3300200,
+        "range": ["7<="]
+      }]
+    }, {}, {}, {}, {}],
+    "svals2": [{}, {}, {}, {}, {}],
+    "svals3": [{}, {}, {}, {}, {}],
+    "svals4": [{}, {}, {}, {}, {}],
+    "svals5": [{}, {}, {}, {}, {}]
+  }, {
+    "funcId": 510,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 1,
+      "Count": -1,
+      "HideMiss": 1,
+      "HideNoEffect": 1,
+      "CheckBattlePointPhaseRange": [{
+        "battlePointId": 3300200,
+        "range": ["7<="]
+      }]
+    }, {}, {}, {}, {}],
+    "svals2": [{}, {}, {}, {}, {}],
+    "svals3": [{}, {}, {}, {}, {}],
+    "svals4": [{}, {}, {}, {}, {}],
+    "svals5": [{}, {}, {}, {}, {}]
+  }, {
+    "funcId": 477,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 50,
+      "HideMiss": 1,
+      "HideNoEffect": 1,
+      "CheckBattlePointPhaseRange": [{
+        "battlePointId": 3300200,
+        "range": ["10<="]
+      }]
+    }, {}, {}, {}, {}],
+    "svals2": [{}, {}, {}, {}, {}],
+    "svals3": [{}, {}, {}, {}, {}],
+    "svals4": [{}, {}, {}, {}, {}],
+    "svals5": [{}, {}, {}, {}, {}]
+  }, {
+    "funcId": 216,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 2,
+      "Count": -1,
+      "Value": 300,
+      "HideMiss": 1,
+      "HideNoEffect": 1,
+      "CheckBattlePointPhaseRange": [{
+        "battlePointId": 3300200,
+        "range": ["10<="]
+      }]
+    }, {}, {}, {}, {}],
+    "svals2": [{}, {}, {}, {}, {}],
+    "svals3": [{}, {}, {}, {}, {}],
+    "svals4": [{}, {}, {}, {}, {}],
+    "svals5": [{}, {}, {}, {}, {}]
+  }, {
+    "funcId": 21836,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 4500,
+      "Value2": 1100,
+      "Target": 3300200,
+      "Correction": 100,
+      "DamageRateBattlePointPhase": [{
+        "battlePointPhase": 0,
+        "value": 1000
+      }]
+    }, {
+      "Value": 6000
+    }, {
+      "Value": 6750
+    }, {
+      "Value": 7125
+    }, {
+      "Value": 7500
+    }],
+    "svals2": [{}, {
+      "Value": 6000
+    }, {
+      "Value": 6750
+    }, {
+      "Value": 7125
+    }, {
+      "Value": 7500
+    }],
+    "svals3": [{}, {
+      "Value": 6000
+    }, {
+      "Value": 6750
+    }, {
+      "Value": 7125
+    }, {
+      "Value": 7500
+    }],
+    "svals4": [{}, {
+      "Value": 6000
+    }, {
+      "Value": 6750
+    }, {
+      "Value": 7125
+    }, {
+      "Value": 7500
+    }],
+    "svals5": [{}, {
+      "Value": 6000
+    }, {
+      "Value": 6750
+    }, {
+      "Value": 7125
+    }, {
+      "Value": 7500
+    }]
+  }, {
+    "funcId": 2212,
+    "svals": [{
+      "Rate": 1000
+    }, {}, {}, {}, {}],
+    "svals2": [{}, {}, {}, {}, {}],
+    "svals3": [{}, {}, {}, {}, {}],
+    "svals4": [{}, {}, {}, {}, {}],
+    "svals5": [{}, {}, {}, {}, {}]
+  }, {
+    "funcId": 632,
+    "svals": [{
+      "Rate": 600
+    }, {}, {}, {}, {}],
+    "svals2": [{}, {}, {}, {}, {}],
+    "svals3": [{}, {}, {}, {}, {}],
+    "svals4": [{}, {}, {}, {}, {}],
+    "svals5": [{}, {}, {}, {}, {}]
+  }]
+}, {
   "id": 9935531,
   "card": "buster",
   "name": "訣別の時きたれり、其は、世界を手放すもの",
