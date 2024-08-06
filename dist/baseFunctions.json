@@ -6905,6 +6905,29 @@
     "maxRate": 50000
   }]
 }, {
+  "funcId": 499,
+  "funcType": "addState",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "HP回復量アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_328.png",
+  "buffs": [{
+    "id": 188,
+    "name": "HP回復量アップ",
+    "detail": "HPの回復効果量をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_328.png",
+    "type": "upGainHp",
+    "originalScript": {
+      "ProgressSelfTurn": 1
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3082
+    }],
+    "maxRate": 50000
+  }]
+}, {
   "funcId": 500,
   "funcType": "shortenSkill",
   "funcTargetType": "self",
