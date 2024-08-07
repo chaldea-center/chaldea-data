@@ -5490,7 +5490,7 @@
   "atkMax": 11560,
   "hpBase": 1938,
   "hpMax": 13219,
-  "relateQuestIds": [91400201, 91400202, 94040505],
+  "relateQuestIds": [91400201, 91400202, 94040505, 94099428],
   "growthCurve": 10,
   "bondGrowth": [2000, 5000, 9000, 14000, 20000, 250000, 500000, 800000, 1180000, 1618000, 2708000, 3938000, 5298000, 6798000, 8438000],
   "bondEquip": 9301020,
@@ -5807,6 +5807,7 @@
     "id": 5550,
     "num": 1,
     "svtId": 400200,
+    "strengthStatus": 1,
     "priority": 1
   }, {
     "id": 77450,
@@ -5821,6 +5822,14 @@
     "svtId": 400200,
     "priority": 1,
     "condLimitCount": 3
+  }, {
+    "id": 2382550,
+    "num": 1,
+    "svtId": 400200,
+    "strengthStatus": 99,
+    "priority": 2,
+    "condQuestId": 94099428,
+    "condQuestPhase": 3
   }, {
     "id": 654550,
     "num": 2,
@@ -58298,6 +58307,7 @@
   "atkMax": 8812,
   "hpBase": 1843,
   "hpMax": 11518,
+  "relateQuestIds": [94099432],
   "growthCurve": 9,
   "bondGrowth": [4000, 16000, 19000, 32000, 35000, 190000, 530000, 840000, 1200000, 1530000, 2620000, 3850000, 5210000, 6710000, 8350000],
   "bondEquip": 9302330,
@@ -58937,8 +58947,18 @@
   }],
   "noblePhantasms": [{
     "id": 602801,
+    "npNum": 2,
     "svtId": 602800,
+    "strengthStatus": 1,
     "priority": 101
+  }, {
+    "id": 602802,
+    "npNum": 2,
+    "svtId": 602800,
+    "strengthStatus": 99,
+    "priority": 102,
+    "condQuestId": 94099432,
+    "condQuestPhase": 3
   }],
   "profile": {
     "cv": "田中美海",
