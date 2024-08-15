@@ -132846,6 +132846,18 @@
       "dispTargetValue": 1,
       "dispCondType2": "useItemEternity",
       "dispTargetId2": 94099701
+    }, {
+      "id": 917109,
+      "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9171/QMap_Cap9171_Atlas/gimmick_917108.png",
+      "x": 656,
+      "y": 669,
+      "depthOffset": 0,
+      "scale": 1000,
+      "dispCondType": "itemGet",
+      "dispTargetId": 94099503,
+      "dispTargetValue": 6,
+      "dispCondType2": "useItemEternity",
+      "dispTargetId2": 94099702
     }],
     "bgm": {
       "id": 0
@@ -133095,7 +133107,7 @@
       "closedAt": 1727841599
     }, {
       "id": 94099503,
-      "name": "",
+      "name": "第3節「Beach Area / Sea(Sky) Hoodlum」",
       "type": "main",
       "consume": 5,
       "afterClear": "close",
@@ -133108,6 +133120,9 @@
         "num": 1
       }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 94099502
       }, {
@@ -133119,16 +133134,58 @@
         "targetId": 8048501,
         "value": 500,
         "closedMessage": "【メインクエスト 第3節】\n幸せカウンター500以上\n＆8月15日18時00分以降に開放"
+      }],
+      "presents": [{
+        "phase": 3,
+        "gifts": [{
+          "id": 94099521,
+          "objectId": 94099504,
+          "num": 1470
+        }]
+      }],
+      "phases": [1, 2, 3, 4, 5, 6],
+      "phasesWithEnemies": [4],
+      "phasesNoBattle": [1, 2, 3, 5, 6],
+      "priority": 94099897,
+      "noticeAt": 1723633200,
+      "openedAt": 1723712400,
+      "closedAt": 1727841599
+    }, {
+      "id": 94099504,
+      "name": "",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "40",
+      "spotId": 917104,
+      "warId": 9171,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94099503
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "【メインクエスト 第4節】\n8月16日18時00分に開放"
+      }, {
+        "type": "eventGroupPoint",
+        "targetId": 8048501,
+        "value": 2000,
+        "closedMessage": "【メインクエスト 第4節】\n幸せカウンター2,000以上\n＆8月16日18時00分以降に開放"
       }, {
         "type": "forceFalse",
         "targetId": 0,
         "closedMessage": "データ更新後に開放"
       }],
-      "phases": [1, 2, 3, 4, 5, 6],
-      "phasesNoBattle": [1, 2, 3, 5, 6],
-      "priority": 94099897,
-      "noticeAt": 1723633200,
-      "openedAt": 1723712400,
+      "phases": [1, 2, 3, 4],
+      "phasesNoBattle": [1, 2, 4],
+      "priority": 94099896,
+      "noticeAt": 1723712400,
+      "openedAt": 1723798800,
       "closedAt": 1727841599
     }, {
       "id": 94099803,
@@ -133158,6 +133215,84 @@
       "priority": 94099598,
       "noticeAt": 1723633200,
       "openedAt": 1723633200,
+      "closedAt": 1727841599
+    }]
+  }, {
+    "id": 917105,
+    "mapId": 9171,
+    "name": "ドバイ・ビーチ",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9171/QMap_Cap9171_Atlas/spot_917105.png",
+    "x": 656.0,
+    "y": 752.0,
+    "nameOfsY": -7,
+    "questOfsX": 36,
+    "questOfsY": -55,
+    "quests": [{
+      "id": 94099702,
+      "name": "【特別観光クエスト】ドバイの海へダイビング！",
+      "type": "event",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "25",
+      "spotId": 917105,
+      "warId": 9171,
+      "gifts": [{
+        "id": 94099602,
+        "objectId": 6541,
+        "num": 3
+      }, {
+        "id": 94099602,
+        "objectId": 94099504,
+        "num": 410
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94099503,
+        "value": 6
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "eventGroupPoint",
+        "targetId": 8048502,
+        "value": 50000,
+        "closedMessage": "【特別観光クエスト】\nドバイ観光ポイント50,000以上で開放"
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94099699,
+      "noticeAt": 1723712400,
+      "openedAt": 1723712400,
+      "closedAt": 1727841599
+    }, {
+      "id": 94099804,
+      "name": "ドバイ観光 ３カウントが聞こえる",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "50",
+      "spotId": 917105,
+      "warId": 9171,
+      "gifts": [{
+        "id": 13000,
+        "objectId": 101,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94099503
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94099597,
+      "noticeAt": 1723712400,
+      "openedAt": 1723712400,
       "closedAt": 1727841599
     }]
   }, {
@@ -133245,6 +133380,16 @@
     "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9171/QMap_Cap9171_Atlas/img_road9171_00.png",
     "srcSpotId": 917103,
     "dstSpotId": 917104,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "questClear"
+  }, {
+    "id": 917105,
+    "warId": 9171,
+    "mapId": 9171,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9171/QMap_Cap9171_Atlas/img_road9171_00.png",
+    "srcSpotId": 917104,
+    "dstSpotId": 917105,
     "dispCondType": "useItemTime",
     "dispCondType2": "useItemTime",
     "activeCondType": "questClear"
