@@ -133189,7 +133189,7 @@
       "closedAt": 1727841599
     }, {
       "id": 94099504,
-      "name": "",
+      "name": "第4節「Downtown(Ⅰ)/ Dubai Mall」",
       "type": "main",
       "consume": 5,
       "afterClear": "close",
@@ -133202,6 +133202,9 @@
         "num": 1
       }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 94099503
       }, {
@@ -133214,12 +133217,41 @@
         "value": 2000,
         "closedMessage": "【メインクエスト 第4節】\n幸せカウンター2,000以上\n＆8月16日18時00分以降に開放"
       }, {
-        "type": "forceFalse",
-        "targetId": 0,
-        "closedMessage": "データ更新後に開放"
+        "type": "commonRelease",
+        "targetId": 94099501,
+        "closedMessage": "【メインクエスト 第4節 進行度4】\n幸せカウンター2,500以上で開放"
       }],
       "phases": [1, 2, 3, 4],
+      "phasesWithEnemies": [3],
       "phasesNoBattle": [1, 2, 4],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9409950410",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409950410.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9409950420",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409950420.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9409950430",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409950430.txt"
+        }, {
+          "scriptId": "9409950431",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409950431.txt"
+        }]
+      }, {
+        "phase": 4,
+        "scripts": [{
+          "scriptId": "9409950440",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409950440.txt"
+        }]
+      }],
       "priority": 94099896,
       "noticeAt": 1723712400,
       "openedAt": 1723798800,
@@ -133333,6 +133365,117 @@
       "closedAt": 1727841599
     }]
   }, {
+    "id": 917106,
+    "mapId": 9171,
+    "name": "ドバイ・モール",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9171/QMap_Cap9171_Atlas/spot_917106.png",
+    "x": 1163.0,
+    "y": 931.0,
+    "nameOfsY": -18,
+    "questOfsX": 42,
+    "questOfsY": -79,
+    "quests": [{
+      "id": 94099505,
+      "name": "",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "35",
+      "spotId": 917106,
+      "warId": 9171,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94099504
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "【メインクエスト 第5節】\n8月17日18時00分に開放"
+      }, {
+        "type": "forceFalse",
+        "targetId": 0,
+        "closedMessage": "データ更新後に開放"
+      }],
+      "phases": [1, 2, 3, 4, 5],
+      "phasesNoBattle": [3, 4, 5],
+      "priority": 94099895,
+      "noticeAt": 1723798800,
+      "openedAt": 1723885200,
+      "closedAt": 1727841599
+    }, {
+      "id": 94099703,
+      "name": "【特別観光クエスト】生物園で餌やり体験！",
+      "type": "event",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "30",
+      "spotId": 917106,
+      "warId": 9171,
+      "gifts": [{
+        "id": 94099603,
+        "objectId": 6517,
+        "num": 3
+      }, {
+        "id": 94099603,
+        "objectId": 94099504,
+        "num": 560
+      }],
+      "releaseConditions": [{
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "questClearPhase",
+        "targetId": 94099504,
+        "value": 3
+      }, {
+        "type": "eventGroupPoint",
+        "targetId": 8048502,
+        "value": 90000,
+        "closedMessage": "【特別観光クエスト】\nドバイ観光ポイント90,000以上で開放"
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94099698,
+      "noticeAt": 1723798800,
+      "openedAt": 1723798800,
+      "closedAt": 1727841599
+    }, {
+      "id": 94099805,
+      "name": "ドバイ観光 百面相の洋品店",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "60",
+      "spotId": 917106,
+      "warId": 9171,
+      "gifts": [{
+        "id": 13000,
+        "objectId": 101,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "questClearPhase",
+        "targetId": 94099504,
+        "value": 3
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94099596,
+      "noticeAt": 1723798800,
+      "openedAt": 1723798800,
+      "closedAt": 1727841599
+    }]
+  }, {
     "id": 917199,
     "mapId": 9171,
     "name": "",
@@ -133427,6 +133570,16 @@
     "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9171/QMap_Cap9171_Atlas/img_road9171_00.png",
     "srcSpotId": 917104,
     "dstSpotId": 917105,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "questClear"
+  }, {
+    "id": 917106,
+    "warId": 9171,
+    "mapId": 9171,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9171/QMap_Cap9171_Atlas/img_road9171_00.png",
+    "srcSpotId": 917104,
+    "dstSpotId": 917106,
     "dispCondType": "useItemTime",
     "dispCondType2": "useItemTime",
     "activeCondType": "questClear"
