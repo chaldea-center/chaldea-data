@@ -132858,6 +132858,18 @@
       "dispTargetValue": 6,
       "dispCondType2": "useItemEternity",
       "dispTargetId2": 94099702
+    }, {
+      "id": 917111,
+      "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9171/QMap_Cap9171_Atlas/gimmick_917108.png",
+      "x": 656,
+      "y": 669,
+      "depthOffset": 0,
+      "scale": 1000,
+      "dispCondType": "itemGet",
+      "dispTargetId": 94099505,
+      "dispTargetValue": 5,
+      "dispCondType2": "useItemEternity",
+      "dispTargetId2": 94099704
     }],
     "bgm": {
       "id": 0
@@ -133257,6 +133269,44 @@
       "openedAt": 1723798800,
       "closedAt": 1727841599
     }, {
+      "id": 94099506,
+      "name": "",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 917104,
+      "warId": 9171,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94099505
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "【メインクエスト 第6節】\n8月18日18時00分に開放"
+      }, {
+        "type": "eventGroupPoint",
+        "targetId": 8048501,
+        "value": 4500,
+        "closedMessage": "【メインクエスト 第6節】\n幸せカウンター4,500以上\n＆8月18日18時00分以降に開放"
+      }, {
+        "type": "forceFalse",
+        "targetId": 0,
+        "closedMessage": "データ更新後に開放"
+      }],
+      "phases": [1, 2],
+      "phasesNoBattle": [1, 2],
+      "priority": 94099894,
+      "noticeAt": 1723885200,
+      "openedAt": 1723971600,
+      "closedAt": 1727841599
+    }, {
       "id": 94099803,
       "name": "ドバイ観光 ハヌマーンも認めた味",
       "type": "event",
@@ -133335,6 +133385,43 @@
       "openedAt": 1723712400,
       "closedAt": 1727841599
     }, {
+      "id": 94099704,
+      "name": "【特別観光クエスト】巨大ウォータースライダーで遊ぼう！",
+      "type": "event",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "35",
+      "spotId": 917105,
+      "warId": 9171,
+      "gifts": [{
+        "id": 94099604,
+        "objectId": 6543,
+        "num": 3
+      }, {
+        "id": 94099604,
+        "objectId": 94099504,
+        "num": 290
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94099505
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "eventGroupPoint",
+        "targetId": 8048502,
+        "value": 140000,
+        "closedMessage": "【特別観光クエスト】\nドバイ観光ポイント140,000以上で開放"
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94099697,
+      "noticeAt": 1723885200,
+      "openedAt": 1723885200,
+      "closedAt": 1727841599
+    }, {
       "id": 94099804,
       "name": "ドバイ観光 ３カウントが聞こえる",
       "type": "event",
@@ -133376,7 +133463,7 @@
     "questOfsY": -79,
     "quests": [{
       "id": 94099505,
-      "name": "",
+      "name": "第5節「Downtown(Ⅱ)/ Present for you」",
       "type": "main",
       "consume": 5,
       "afterClear": "close",
@@ -133389,19 +133476,58 @@
         "num": 1
       }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 94099504
       }, {
         "type": "date",
         "targetId": 0,
         "closedMessage": "【メインクエスト 第5節】\n8月17日18時00分に開放"
-      }, {
-        "type": "forceFalse",
-        "targetId": 0,
-        "closedMessage": "データ更新後に開放"
+      }],
+      "presents": [{
+        "phase": 4,
+        "gifts": [{
+          "id": 94099522,
+          "objectId": 94099504,
+          "num": 1470
+        }]
       }],
       "phases": [1, 2, 3, 4, 5],
+      "phasesWithEnemies": [1, 2],
       "phasesNoBattle": [3, 4, 5],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9409950510",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409950510.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9409950521",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409950521.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9409950530",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409950530.txt"
+        }]
+      }, {
+        "phase": 4,
+        "scripts": [{
+          "scriptId": "9409950540",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409950540.txt"
+        }]
+      }, {
+        "phase": 5,
+        "scripts": [{
+          "scriptId": "9409950550",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409950550.txt"
+        }]
+      }],
       "priority": 94099895,
       "noticeAt": 1723798800,
       "openedAt": 1723885200,
@@ -133473,6 +133599,35 @@
       "priority": 94099596,
       "noticeAt": 1723798800,
       "openedAt": 1723798800,
+      "closedAt": 1727841599
+    }, {
+      "id": 94099806,
+      "name": "ドバイ観光 買うべきか買わざるべきか",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "70",
+      "spotId": 917106,
+      "warId": 9171,
+      "gifts": [{
+        "id": 12000,
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94099505
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94099595,
+      "noticeAt": 1723885200,
+      "openedAt": 1723885200,
       "closedAt": 1727841599
     }]
   }, {
