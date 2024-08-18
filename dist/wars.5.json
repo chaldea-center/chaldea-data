@@ -133270,7 +133270,7 @@
       "closedAt": 1727841599
     }, {
       "id": 94099506,
-      "name": "",
+      "name": "第6節「Business District(Ⅰ)/ Where is Beast?」",
       "type": "main",
       "flags": ["noBattle"],
       "consume": 5,
@@ -133284,6 +133284,9 @@
         "num": 1
       }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 94099505
       }, {
@@ -133295,15 +133298,97 @@
         "targetId": 8048501,
         "value": 4500,
         "closedMessage": "【メインクエスト 第6節】\n幸せカウンター4,500以上\n＆8月18日18時00分以降に開放"
+      }],
+      "phases": [1, 2],
+      "phasesNoBattle": [1, 2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9409950610",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409950610.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9409950620",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409950620.txt"
+        }]
+      }],
+      "priority": 94099894,
+      "noticeAt": 1723885200,
+      "openedAt": 1723971600,
+      "closedAt": 1727841599
+    }, {
+      "id": 94099508,
+      "name": "",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "45",
+      "spotId": 917104,
+      "warId": 9171,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94099507
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "【メインクエスト 第8節】\n8月19日18時00分に開放"
       }, {
         "type": "forceFalse",
         "targetId": 0,
         "closedMessage": "データ更新後に開放"
       }],
       "phases": [1, 2],
-      "phasesNoBattle": [1, 2],
-      "priority": 94099894,
-      "noticeAt": 1723885200,
+      "priority": 94099892,
+      "noticeAt": 1723971600,
+      "openedAt": 1724058000,
+      "closedAt": 1727841599
+    }, {
+      "id": 94099602,
+      "name": "ルギマートを追え！",
+      "type": "event",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "40",
+      "spotId": 917104,
+      "warId": 9171,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94099506
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1, 2],
+      "phasesWithEnemies": [1],
+      "phasesNoBattle": [2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9409960210",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409960210.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9409960220",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409960220.txt"
+        }]
+      }],
+      "priority": 94099800,
+      "noticeAt": 1723971600,
       "openedAt": 1723971600,
       "closedAt": 1727841599
     }, {
@@ -133631,6 +133716,167 @@
       "closedAt": 1727841599
     }]
   }, {
+    "id": 917107,
+    "mapId": 9171,
+    "name": "ビジネス街",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9171/QMap_Cap9171_Atlas/spot_917107.png",
+    "x": 1534.0,
+    "y": 816.0,
+    "nameOfsY": -1,
+    "questOfsX": 43,
+    "questOfsY": -83,
+    "quests": [{
+      "id": 94099507,
+      "name": "第7節「Business District(Ⅱ)/ From Beyond The Stars」",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "50",
+      "spotId": 917107,
+      "warId": 9171,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94099506
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "commonRelease",
+        "targetId": 94099502,
+        "closedMessage": "【メインクエスト 第7節 進行度2】\n幸せカウンター5,000以上で開放"
+      }],
+      "presents": [{
+        "phase": 3,
+        "gifts": [{
+          "id": 94099526,
+          "objectId": 94099504,
+          "num": 390
+        }]
+      }],
+      "phases": [1, 2, 3, 4],
+      "phasesWithEnemies": [1, 2],
+      "phasesNoBattle": [3, 4],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9409950710",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409950710.txt"
+        }, {
+          "scriptId": "9409950711",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409950711.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9409950720",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409950720.txt"
+        }, {
+          "scriptId": "9409950721",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409950721.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9409950730",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409950730.txt"
+        }]
+      }, {
+        "phase": 4,
+        "scripts": [{
+          "scriptId": "9409950740",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409950740.txt"
+        }]
+      }],
+      "priority": 94099893,
+      "noticeAt": 1723971600,
+      "openedAt": 1723971600,
+      "closedAt": 1727841599
+    }, {
+      "id": 94099705,
+      "name": "【特別観光クエスト】来たるミライのDNAライブラリー！",
+      "type": "event",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "40",
+      "spotId": 917107,
+      "warId": 9171,
+      "gifts": [{
+        "id": 94099605,
+        "objectId": 6525,
+        "num": 3
+      }, {
+        "id": 94099605,
+        "objectId": 94099504,
+        "num": 360
+      }],
+      "releaseConditions": [{
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "questClearPhase",
+        "targetId": 94099507,
+        "value": 1
+      }, {
+        "type": "eventGroupPoint",
+        "targetId": 8048502,
+        "value": 200000,
+        "closedMessage": "【特別観光クエスト】\nドバイ観光ポイント200,000以上で開放"
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94099696,
+      "noticeAt": 1723971600,
+      "openedAt": 1723971600,
+      "closedAt": 1727841599
+    }, {
+      "id": 94099807,
+      "name": "ドバイ観光 フードデリバリー戦争",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "75",
+      "spotId": 917107,
+      "warId": 9171,
+      "gifts": [{
+        "id": 12000,
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "questClearPhase",
+        "targetId": 94099507,
+        "value": 1
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94099594,
+      "noticeAt": 1723971600,
+      "openedAt": 1723971600,
+      "closedAt": 1727841599
+    }]
+  }, {
+    "id": 917108,
+    "mapId": 9171,
+    "name": "郊外の砂漠",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9171/QMap_Cap9171_Atlas/spot_917108.png",
+    "x": 1157.0,
+    "y": 1557.0,
+    "nameOfsY": -4,
+    "questOfsX": 36,
+    "questOfsY": -56
+  }, {
     "id": 917199,
     "mapId": 9171,
     "name": "",
@@ -133735,6 +133981,26 @@
     "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9171/QMap_Cap9171_Atlas/img_road9171_00.png",
     "srcSpotId": 917104,
     "dstSpotId": 917106,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "questClear"
+  }, {
+    "id": 917107,
+    "warId": 9171,
+    "mapId": 9171,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9171/QMap_Cap9171_Atlas/img_road9171_00.png",
+    "srcSpotId": 917104,
+    "dstSpotId": 917107,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "questClear"
+  }, {
+    "id": 917108,
+    "warId": 9171,
+    "mapId": 9171,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9171/QMap_Cap9171_Atlas/img_road9171_00.png",
+    "srcSpotId": 917104,
+    "dstSpotId": 917108,
     "dispCondType": "useItemTime",
     "dispCondType2": "useItemTime",
     "activeCondType": "questClear"
