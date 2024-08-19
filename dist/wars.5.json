@@ -133320,7 +133320,7 @@
       "closedAt": 1727841599
     }, {
       "id": 94099508,
-      "name": "",
+      "name": "第8節「Desert Dubai(Ⅰ)/ Bane」",
       "type": "main",
       "consume": 5,
       "afterClear": "close",
@@ -133333,18 +133333,37 @@
         "num": 1
       }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 94099507
       }, {
         "type": "date",
         "targetId": 0,
         "closedMessage": "【メインクエスト 第8節】\n8月19日18時00分に開放"
-      }, {
-        "type": "forceFalse",
-        "targetId": 0,
-        "closedMessage": "データ更新後に開放"
       }],
       "phases": [1, 2],
+      "phasesWithEnemies": [1, 2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9409950810",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409950810.txt"
+        }, {
+          "scriptId": "9409950811",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409950811.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9409950820",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409950820.txt"
+        }, {
+          "scriptId": "9409950821",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409950821.txt"
+        }]
+      }],
       "priority": 94099892,
       "noticeAt": 1723971600,
       "openedAt": 1724058000,
@@ -133875,7 +133894,116 @@
     "y": 1557.0,
     "nameOfsY": -4,
     "questOfsX": 36,
-    "questOfsY": -56
+    "questOfsY": -56,
+    "quests": [{
+      "id": 94099509,
+      "name": "",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "45",
+      "spotId": 917108,
+      "warId": 9171,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94099508
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "【メインクエスト 第9節】\n8月20日18時00分に開放"
+      }, {
+        "type": "eventGroupPoint",
+        "targetId": 8048501,
+        "value": 6000,
+        "closedMessage": "【メインクエスト 第9節】\n幸せカウンター6,000以上\n＆8月20日18時00分以降に開放"
+      }, {
+        "type": "forceFalse",
+        "targetId": 0,
+        "closedMessage": "データ更新後に開放"
+      }],
+      "presents": [{
+        "phase": 3,
+        "gifts": [],
+        "giftIcon": "https://static.atlasacademy.io/JP/Items/2.png"
+      }],
+      "phases": [1, 2, 3, 4, 5],
+      "phasesNoBattle": [1, 3, 4, 5],
+      "priority": 94099891,
+      "noticeAt": 1724058000,
+      "openedAt": 1724144400,
+      "closedAt": 1727841599
+    }, {
+      "id": 94099706,
+      "name": "【特別観光クエスト】テーマパークでアドベンチャー！",
+      "type": "event",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "45",
+      "spotId": 917108,
+      "warId": 9171,
+      "gifts": [{
+        "id": 94099606,
+        "objectId": 6551,
+        "num": 3
+      }, {
+        "id": 94099606,
+        "objectId": 94099504,
+        "num": 730
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94099508
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "eventGroupPoint",
+        "targetId": 8048502,
+        "value": 270000,
+        "closedMessage": "【特別観光クエスト】\nドバイ観光ポイント270,000以上で開放"
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94099695,
+      "noticeAt": 1724058000,
+      "openedAt": 1724058000,
+      "closedAt": 1727841599
+    }, {
+      "id": 94099808,
+      "name": "ドバイ観光 砂漠の愛の逃避行？",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "80",
+      "spotId": 917108,
+      "warId": 9171,
+      "gifts": [{
+        "id": 12000,
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94099508
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94099593,
+      "noticeAt": 1724058000,
+      "openedAt": 1724058000,
+      "closedAt": 1727841599
+    }]
   }, {
     "id": 917199,
     "mapId": 9171,
