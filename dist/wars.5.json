@@ -133003,7 +133003,7 @@
     "questOfsY": -89,
     "quests": [{
       "id": 94099510,
-      "name": "",
+      "name": "第10節「Old Dubai(Ⅰ)/ Golden Prince 」",
       "type": "main",
       "consume": 5,
       "afterClear": "close",
@@ -133016,6 +133016,9 @@
         "num": 1
       }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 94099509
       }, {
@@ -133027,14 +133030,26 @@
         "targetId": 8048501,
         "value": 8000,
         "closedMessage": "【メインクエスト 第10節】\n幸せカウンター8,000以上\n＆8月21日18時00分以降に開放"
-      }, {
-        "type": "forceFalse",
-        "targetId": 0,
-        "closedMessage": "データ更新後に開放"
       }],
       "phases": [1, 2],
       "phasesWithEnemies": [2],
       "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9409951010",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409951010.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9409951020",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409951020.txt"
+        }, {
+          "scriptId": "9409951021",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409951021.txt"
+        }]
+      }],
       "priority": 94099890,
       "noticeAt": 1724144400,
       "openedAt": 1724230800,
@@ -134205,6 +134220,124 @@
       "closedAt": 1727841599
     }]
   }, {
+    "id": 917109,
+    "mapId": 9171,
+    "name": "オールド・ドバイ",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9171/QMap_Cap9171_Atlas/spot_917109.png",
+    "x": 705.0,
+    "y": 1371.0,
+    "nameOfsY": -5,
+    "questOfsX": 36,
+    "questOfsY": -71,
+    "quests": [{
+      "id": 94099511,
+      "name": "",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "50",
+      "spotId": 917109,
+      "warId": 9171,
+      "gifts": [{
+        "id": 94099513,
+        "objectId": 2,
+        "num": 1
+      }, {
+        "id": 94099513,
+        "objectId": 94099504,
+        "num": 840
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94099510
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "【メインクエスト 第11節】\n8月22日18時00分に開放"
+      }, {
+        "type": "eventGroupPoint",
+        "targetId": 8048501,
+        "value": 8500,
+        "closedMessage": "【メインクエスト 第11節】\n幸せカウンター8,500以上\n＆8月22日18時00分以降に開放"
+      }, {
+        "type": "forceFalse",
+        "targetId": 0,
+        "closedMessage": "データ更新後に開放"
+      }],
+      "phases": [1, 2, 3],
+      "phasesNoBattle": [3],
+      "priority": 94099889,
+      "noticeAt": 1724230800,
+      "openedAt": 1724317200,
+      "closedAt": 1727841599
+    }, {
+      "id": 94099708,
+      "name": "【特別観光クエスト】神秘の庭園をまわろう！",
+      "type": "event",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "50",
+      "spotId": 917109,
+      "warId": 9171,
+      "gifts": [{
+        "id": 94099608,
+        "objectId": 6557,
+        "num": 3
+      }, {
+        "id": 94099608,
+        "objectId": 94099504,
+        "num": 330
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94099510
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "eventGroupPoint",
+        "targetId": 8048502,
+        "value": 460000,
+        "closedMessage": "【特別観光クエスト】\nドバイ観光ポイント460,000以上で開放"
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94099693,
+      "noticeAt": 1724230800,
+      "openedAt": 1724230800,
+      "closedAt": 1727841599
+    }, {
+      "id": 94099810,
+      "name": "ドバイ観光 落下した先で、わしは",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90",
+      "spotId": 917109,
+      "warId": 9171,
+      "gifts": [{
+        "id": 12000,
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94099510
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94099591,
+      "noticeAt": 1724230800,
+      "openedAt": 1724230800,
+      "closedAt": 1727841599
+    }]
+  }, {
     "id": 917199,
     "mapId": 9171,
     "name": "",
@@ -134329,6 +134462,36 @@
     "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9171/QMap_Cap9171_Atlas/img_road9171_00.png",
     "srcSpotId": 917104,
     "dstSpotId": 917108,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "questClear"
+  }, {
+    "id": 917109,
+    "warId": 9171,
+    "mapId": 9171,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9171/QMap_Cap9171_Atlas/img_road9171_00.png",
+    "srcSpotId": 917104,
+    "dstSpotId": 917109,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "questClear"
+  }, {
+    "id": 917110,
+    "warId": 9171,
+    "mapId": 9171,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9171/QMap_Cap9171_Atlas/img_road9171_00.png",
+    "srcSpotId": 917109,
+    "dstSpotId": 917104,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "questClear"
+  }, {
+    "id": 917111,
+    "warId": 9171,
+    "mapId": 9171,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9171/QMap_Cap9171_Atlas/img_road9171_00.png",
+    "srcSpotId": 917106,
+    "dstSpotId": 917109,
     "dispCondType": "useItemTime",
     "dispCondType2": "useItemTime",
     "activeCondType": "questClear"
