@@ -133434,6 +133434,89 @@
       "openedAt": 1724058000,
       "closedAt": 1727841599
     }, {
+      "id": 94099512,
+      "name": "第12節「Last Night/ Preparation 」",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 917104,
+      "warId": 9171,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94099511
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1, 2],
+      "phasesNoBattle": [1, 2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9409951210",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409951210.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9409951220",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409951220.txt"
+        }]
+      }],
+      "priority": 94099887,
+      "noticeAt": 1724317200,
+      "openedAt": 1724317200,
+      "closedAt": 1727841599
+    }, {
+      "id": 94099513,
+      "name": "",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "60",
+      "spotId": 917104,
+      "warId": 9171,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94099512
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "【メインクエスト 第13節】\n8月23日18時00分に開放"
+      }, {
+        "type": "eventGroupPoint",
+        "targetId": 8048501,
+        "value": 9998,
+        "closedMessage": "【メインクエスト 第13節】\n幸せカウンター9,998到達\n＆8月23日18時00分以降に開放"
+      }, {
+        "type": "forceFalse",
+        "targetId": 0,
+        "closedMessage": "データ更新後に開放"
+      }],
+      "presents": [{
+        "phase": 1,
+        "gifts": [{
+          "id": 94099525,
+          "objectId": 7999,
+          "num": 1
+        }],
+        "giftIcon": "https://static.atlasacademy.io/JP/Items/3.png"
+      }],
+      "phases": [1, 2],
+      "phasesNoBattle": [2],
+      "priority": 94099886,
+      "noticeAt": 1724317200,
+      "openedAt": 1724403600,
+      "closedAt": 1727841599
+    }, {
       "id": 94099601,
       "name": "対決！ マシュ・キリエライト",
       "type": "event",
@@ -133518,6 +133601,43 @@
       "openedAt": 1723971600,
       "closedAt": 1727841599
     }, {
+      "id": 94099709,
+      "name": "【特別観光クエスト】スペシャルなハマム・スパ！",
+      "type": "event",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "60",
+      "spotId": 917104,
+      "warId": 9171,
+      "gifts": [{
+        "id": 94099609,
+        "objectId": 6558,
+        "num": 3
+      }, {
+        "id": 94099609,
+        "objectId": 94099504,
+        "num": 628
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94099512
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "eventGroupPoint",
+        "targetId": 8048502,
+        "value": 600000,
+        "closedMessage": "【特別観光クエスト】\nドバイ観光ポイント600,000以上で開放"
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94099692,
+      "noticeAt": 1724317200,
+      "openedAt": 1724317200,
+      "closedAt": 1727841599
+    }, {
       "id": 94099803,
       "name": "ドバイ観光 ハヌマーンも認めた味",
       "type": "event",
@@ -133545,6 +133665,34 @@
       "priority": 94099598,
       "noticeAt": 1723633200,
       "openedAt": 1723633200,
+      "closedAt": 1727841599
+    }, {
+      "id": 94099811,
+      "name": "ドバイ観光 王の晩餐 ～準備中～",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90+",
+      "spotId": 917104,
+      "warId": 9171,
+      "gifts": [{
+        "id": 327,
+        "objectId": 3,
+        "num": 100
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94099512
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "priority": 94099590,
+      "noticeAt": 1724317200,
+      "openedAt": 1724317200,
       "closedAt": 1727841599
     }]
   }, {
@@ -133742,6 +133890,48 @@
       "priority": 94099895,
       "noticeAt": 1723798800,
       "openedAt": 1723885200,
+      "closedAt": 1727841599
+    }, {
+      "id": 94099603,
+      "name": "ドバイの白い壁とドライな黒ビキニ",
+      "type": "event",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "50",
+      "spotId": 917106,
+      "warId": 9171,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94099512
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1, 2],
+      "phasesWithEnemies": [1],
+      "phasesNoBattle": [2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9409960310",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409960310.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9409960320",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409960320.txt"
+        }]
+      }],
+      "priority": 94099798,
+      "noticeAt": 1724317200,
+      "openedAt": 1724317200,
       "closedAt": 1727841599
     }, {
       "id": 94099703,
@@ -134231,7 +134421,7 @@
     "questOfsY": -71,
     "quests": [{
       "id": 94099511,
-      "name": "",
+      "name": "第11節「Old Dubai(Ⅱ)/ Spicy Dish and... 」",
       "type": "main",
       "consume": 5,
       "afterClear": "close",
@@ -134248,6 +134438,9 @@
         "num": 840
       }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 94099510
       }, {
@@ -134259,15 +134452,88 @@
         "targetId": 8048501,
         "value": 8500,
         "closedMessage": "【メインクエスト 第11節】\n幸せカウンター8,500以上\n＆8月22日18時00分以降に開放"
-      }, {
-        "type": "forceFalse",
-        "targetId": 0,
-        "closedMessage": "データ更新後に開放"
       }],
       "phases": [1, 2, 3],
+      "phasesWithEnemies": [1, 2],
       "phasesNoBattle": [3],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9409951110",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409951110.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9409951120",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409951120.txt"
+        }, {
+          "scriptId": "9409951121",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409951121.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9409951130",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409951130.txt"
+        }]
+      }],
       "priority": 94099889,
       "noticeAt": 1724230800,
+      "openedAt": 1724317200,
+      "closedAt": 1727841599
+    }, {
+      "id": 94099599,
+      "name": "第11節「Old Dubai(Ⅱ)/ Spicy Dish and... 」分岐",
+      "type": "main",
+      "flags": ["branch"],
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "50",
+      "spotId": 917109,
+      "warId": 9171,
+      "gifts": [{
+        "id": 94099513,
+        "objectId": 2,
+        "num": 1
+      }, {
+        "id": 94099513,
+        "objectId": 94099504,
+        "num": 840
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94099599
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9409951110",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409951110.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9409951120",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409951120.txt"
+        }, {
+          "scriptId": "9409951121",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409951121.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9409951130",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409951130.txt"
+        }]
+      }],
+      "priority": 94099888,
+      "noticeAt": 1724317200,
       "openedAt": 1724317200,
       "closedAt": 1727841599
     }, {
