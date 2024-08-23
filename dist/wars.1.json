@@ -69850,6 +69850,11 @@
     "name": "南欧エリア",
     "x": 43.782,
     "y": 11.248
+  }, {
+    "id": 1040501,
+    "blankEarth": true,
+    "mapId": 401,
+    "name": "宇宙開発都市"
   }]
 }, {
   "id": 402,
@@ -75459,18 +75464,46 @@
   "banner": "https://static.atlasacademy.io/JP/Banner/questboard_cap_closed.png",
   "priority": 404,
   "parentWarId": 401,
+  "parentBlankEarthSpotId": 1040501,
+  "bgm": {
+    "id": 0
+  },
+  "script": "https://static.atlasacademy.io/JP/Script/Common/NONE.txt"
+}, {
+  "id": 405,
+  "coordinates": [
+    [],
+    []
+  ],
+  "age": "-",
+  "name": "-",
+  "longName": "-",
+  "flags": ["mainScenario", "noticeBoard"],
+  "banner": "https://static.atlasacademy.io/JP/Banner/questboard_cap_closed.png",
+  "priority": 405,
+  "parentWarId": 401,
   "parentBlankEarthSpotId": 1040401,
   "bgm": {
     "id": 0
   },
   "script": "https://static.atlasacademy.io/JP/Script/Common/NONE.txt",
   "warAdds": [{
-    "warId": 404,
+    "warId": 405,
     "type": "warForceHide",
     "priority": 1,
     "overwriteId": 0,
     "condType": "notQuestClearPhase",
     "targetId": 4000326,
+    "startedAt": 1710932400,
+    "endedAt": 1893423600
+  }, {
+    "warId": 405,
+    "type": "banner",
+    "priority": 2,
+    "overwriteId": 406,
+    "overwriteBanner": "https://static.atlasacademy.io/JP/Banner/questboard_cap_closed.png",
+    "condType": "questClear",
+    "targetId": 94099513,
     "startedAt": 1710932400,
     "endedAt": 1893423600
   }]
@@ -87609,6 +87642,44 @@
       "priority": 94100352,
       "noticeAt": 1724230800,
       "openedAt": 1724230800,
+      "closedAt": 1893423600
+    }, {
+      "id": 94100303,
+      "name": "強化クエスト イシュタル",
+      "type": "event",
+      "flags": ["noDisplayRemain"],
+      "consume": 21,
+      "afterClear": "close",
+      "recommendLv": "80",
+      "spotId": 99001,
+      "warId": 1001,
+      "gifts": [{
+        "id": 94012504,
+        "objectId": 2,
+        "num": 2
+      }, {
+        "id": 94012504,
+        "type": "questRewardIcon",
+        "objectId": 9,
+        "num": 0
+      }],
+      "releaseConditions": [{
+        "type": "svtLimit",
+        "targetId": 402600,
+        "value": 4,
+        "closedMessage": "霊基再臨{0}段階目で開放"
+      }, {
+        "type": "svtGet",
+        "targetId": 402600
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1, 2, 3],
+      "phasesWithEnemies": [1],
+      "priority": 94100353,
+      "noticeAt": 1724403600,
+      "openedAt": 1724403600,
       "closedAt": 1893423600
     }]
   }]

@@ -133130,7 +133130,37 @@
     "y": 971.0,
     "nameOfsY": -25,
     "questOfsX": 34,
-    "questOfsY": -79
+    "questOfsY": -79,
+    "quests": [{
+      "id": 94099812,
+      "name": "ドバイ観光 ドラゴンスレイヤーヒーローショー",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90++",
+      "spotId": 917103,
+      "warId": 9171,
+      "gifts": [{
+        "id": 337,
+        "objectId": 3,
+        "num": 200
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94099513
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94099589,
+      "noticeAt": 1724403600,
+      "openedAt": 1724403600,
+      "closedAt": 1727841599
+    }]
   }, {
     "id": 917104,
     "mapId": 9171,
@@ -133477,14 +133507,22 @@
       "closedAt": 1727841599
     }, {
       "id": 94099513,
-      "name": "",
+      "name": "第13節「Dubai Fountain/ or \"At The Top\"」",
       "type": "main",
       "consume": 5,
       "afterClear": "close",
       "recommendLv": "60",
       "spotId": 917104,
       "warId": 9171,
+      "gifts": [{
+        "id": 94099528,
+        "objectId": 94099504,
+        "num": 1
+      }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 94099512
       }, {
@@ -133496,10 +133534,6 @@
         "targetId": 8048501,
         "value": 9998,
         "closedMessage": "【メインクエスト 第13節】\n幸せカウンター9,998到達\n＆8月23日18時00分以降に開放"
-      }, {
-        "type": "forceFalse",
-        "targetId": 0,
-        "closedMessage": "データ更新後に開放"
       }],
       "presents": [{
         "phase": 1,
@@ -133511,7 +133545,21 @@
         "giftIcon": "https://static.atlasacademy.io/JP/Items/3.png"
       }],
       "phases": [1, 2],
+      "phasesWithEnemies": [1],
       "phasesNoBattle": [2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9409951310",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409951310.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9409951320",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409951320.txt"
+        }]
+      }],
       "priority": 94099886,
       "noticeAt": 1724317200,
       "openedAt": 1724403600,
@@ -133690,6 +133738,7 @@
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94099590,
       "noticeAt": 1724317200,
       "openedAt": 1724317200,
@@ -133808,6 +133857,38 @@
       "priority": 94099597,
       "noticeAt": 1723712400,
       "openedAt": 1723712400,
+      "closedAt": 1727841599
+    }, {
+      "id": 94099901,
+      "name": "【高難易度】海の家『エハングウェン』",
+      "type": "event",
+      "flags": ["dropFirstTimeOnly", "notRetrievable"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "90+",
+      "spotId": 917105,
+      "warId": 9171,
+      "gifts": [{
+        "id": 21701,
+        "objectId": 6999,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 1000822,
+        "closedMessage": "【チャレンジクエスト】\n終局特異点クリアで開放"
+      }, {
+        "type": "questClear",
+        "targetId": 94099513
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94099999,
+      "noticeAt": 1724403600,
+      "openedAt": 1724403600,
       "closedAt": 1727841599
     }]
   }, {
