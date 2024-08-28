@@ -13140,6 +13140,31 @@
     }]
   }]
 }, {
+  "funcId": 1629,
+  "funcType": "addState",
+  "funcTargetType": "enemyAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "攻撃力アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_300.png",
+  "buffs": [{
+    "id": 126,
+    "name": "攻撃力アップ",
+    "detail": "攻撃力をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_300.png",
+    "type": "upAtk",
+    "originalScript": {
+      "ProgressSelfTurn": 1
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3027
+    }],
+    "maxRate": 5000
+  }]
+}, {
   "funcId": 1636,
   "funcType": "addStateShort",
   "funcTargetType": "enemy",
@@ -16994,6 +17019,29 @@
     "maxRate": 10000
   }]
 }, {
+  "funcId": 3342,
+  "funcType": "addState",
+  "funcTargetType": "ptFull",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "ダメージカット",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_301.png",
+  "buffs": [{
+    "id": 149,
+    "name": "ダメージカット",
+    "detail": "被ダメージを減らす",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_301.png",
+    "type": "subSelfdamage",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3007
+    }, {
+      "id": 3085
+    }, {
+      "id": 3040
+    }]
+  }]
+}, {
   "funcId": 3345,
   "funcType": "addStateShort",
   "funcTargetType": "ptFull",
@@ -20561,6 +20609,12 @@
               "type": "overwriteForce"
             }
           },
+          "moonCancer": {
+            "caster": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            }
+          },
           "pretender": {
             "caster": {
               "damageRate": 1000,
@@ -21009,17 +21063,69 @@
             }
           },
           "moonCancer": {
+            "saber": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "archer": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "lancer": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "rider": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "caster": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "assassin": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
             "berserker": {
               "damageRate": 1000,
               "type": "overwriteForce"
+            },
+            "shielder": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "ruler": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "alterEgo": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
             },
             "avenger": {
               "damageRate": 1000,
               "type": "overwriteForce"
             },
+            "moonCancer": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "foreigner": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "pretender": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
             "beast": {
               "damageRate": 1000,
               "type": "overwriteForce"
+            },
+            "beastEresh": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
             }
           },
           "foreigner": {
@@ -21690,6 +21796,8 @@
       "id": 3007
     }, {
       "id": 3040
+    }, {
+      "id": 3058
     }],
     "maxRate": 5000
   }]
@@ -29495,6 +29603,31 @@
       "id": 3008
     }, {
       "id": 3038
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 7219,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "宝具威力アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_310.png",
+  "buffs": [{
+    "id": 138,
+    "name": "宝具威力アップ",
+    "detail": "宝具で与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_310.png",
+    "type": "upNpdamage",
+    "originalScript": {
+      "ProgressSelfTurn": 1
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3030
     }],
     "maxRate": 5000
   }]
@@ -43769,6 +43902,34 @@
     "maxRate": 5000
   }]
 }, {
+  "funcId": 21342,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "威力アップ・対 星の力",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+  "buffs": [{
+    "id": 5529,
+    "name": "威力アップ〔星の力〕",
+    "detail": "〔星の力〕に与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamage",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3028
+    }],
+    "tvals": [{
+      "id": 203
+    }],
+    "ckOpIndv": [{
+      "id": 203
+    }],
+    "maxRate": 10000
+  }]
+}, {
   "funcId": 21351,
   "funcType": "addStateShort",
   "funcTargetType": "self",
@@ -48056,6 +48217,31 @@
     "maxRate": 10000
   }]
 }, {
+  "funcId": 21804,
+  "funcType": "addStateShort",
+  "funcTargetType": "commandTypeSelfTreasureDevice",
+  "funcTargetTeam": "player",
+  "funcPopupText": "宝具タイプチェンジ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_361.png",
+  "buffs": [{
+    "id": 5649,
+    "name": "宝具タイプチェンジ",
+    "detail": "宝具のタイプをチェンジする",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_361.png",
+    "type": "tdTypeChange",
+    "script": {
+      "INDIVIDUALITIE": {
+        "id": 2300600
+      }
+    },
+    "originalScript": {
+      "INDIVIDUALITIE": 2300600
+    },
+    "vals": [{
+      "id": 3004
+    }]
+  }]
+}, {
   "funcId": 21806,
   "funcType": "addBattlePoint",
   "funcTargetType": "self",
@@ -48727,6 +48913,123 @@
     }]
   }]
 }, {
+  "funcId": 21930,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "被ダメージ時発動",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_331.png",
+  "buffs": [{
+    "id": 5674,
+    "name": "被ダメージ時発動",
+    "detail": "攻撃を受けると自身の宝具威力をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_331.png",
+    "type": "damageFunction",
+    "vals": [{
+      "id": 3004
+    }]
+  }]
+}, {
+  "funcId": 21931,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "クリティカル威力アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_324.png",
+  "functvals": [{
+    "id": 2919
+  }],
+  "buffs": [{
+    "id": 142,
+    "name": "クリティカル威力アップ",
+    "detail": "クリティカル時のダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_324.png",
+    "type": "upCriticaldamage",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3031
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 21932,
+  "funcType": "shortenSkill",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "player",
+  "funcPopupText": "スキルターン減少",
+  "functvals": [{
+    "id": 2919
+  }]
+}, {
+  "funcId": 21933,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "宝具威力アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_310.png",
+  "functvals": [{
+    "id": 115
+  }, {
+    "id": 2654
+  }],
+  "buffs": [{
+    "id": 138,
+    "name": "宝具威力アップ",
+    "detail": "宝具で与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_310.png",
+    "type": "upNpdamage",
+    "originalScript": {
+      "ProgressSelfTurn": 1
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3030
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 21934,
+  "funcType": "hastenNpturn",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "enemy",
+  "funcPopupText": "チャージ増加",
+  "functvals": [{
+    "id": 115
+  }, {
+    "id": 2654
+  }]
+}, {
+  "funcId": 21935,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "player",
+  "funcPopupText": "NP獲得アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_303.png",
+  "functvals": [{
+    "id": 115
+  }, {
+    "id": 2654
+  }],
+  "buffs": [{
+    "id": 140,
+    "name": "NP獲得アップ",
+    "detail": "NP獲得量をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_303.png",
+    "type": "upDropnp",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3084
+    }],
+    "maxRate": 5000
+  }]
+}, {
   "funcId": 21936,
   "funcType": "addStateShort",
   "funcTargetType": "self",
@@ -48810,6 +49113,358 @@
       "id": 3040
     }, {
       "id": 3058
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 21976,
+  "funcType": "gainNpIndividualSum",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "NP増加",
+  "traitVals": [{
+    "id": 5000
+  }]
+}, {
+  "funcId": 21978,
+  "funcType": "addState",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "player",
+  "funcPopupText": "スター発生アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_321.png",
+  "functvals": [{
+    "id": 115
+  }, {
+    "id": 2654
+  }],
+  "buffs": [{
+    "id": 117,
+    "name": "スター発生アップ",
+    "detail": "スター発生率をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_321.png",
+    "type": "upCriticalpoint",
+    "originalScript": {
+      "ProgressSelfTurn": 1
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3083
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 21979,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "enemy",
+  "funcPopupText": "クリティカル発生アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_327.png",
+  "functvals": [{
+    "id": 115
+  }, {
+    "id": 2654
+  }],
+  "buffs": [{
+    "id": 144,
+    "name": "クリティカル発生アップ",
+    "detail": "クリティカルの発生率をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_327.png",
+    "type": "upCriticalrate",
+    "originalScript": {
+      "ProgressSelfTurn": 1
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3032
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 21980,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "クリティカル威力アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_324.png",
+  "functvals": [{
+    "id": 115
+  }, {
+    "id": 2654
+  }],
+  "buffs": [{
+    "id": 142,
+    "name": "クリティカル威力アップ",
+    "detail": "クリティカル時のダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_324.png",
+    "type": "upCriticaldamage",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3031
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 21981,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptOther",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "保護対象",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_520.png",
+  "buffs": [{
+    "id": 5679,
+    "name": "保護対象",
+    "detail": "〔保護対象〕特性を付与する",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_520.png",
+    "type": "addIndividuality",
+    "vals": [{
+      "id": 3004
+    }]
+  }]
+}, {
+  "funcId": 21982,
+  "funcType": "addState",
+  "funcTargetType": "enemyAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "保護対象外",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_520.png",
+  "buffs": [{
+    "id": 5680,
+    "name": "保護対象外",
+    "detail": "〔保護対象外〕特性を付与する",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_520.png",
+    "type": "addIndividuality",
+    "vals": [{
+      "id": 3005
+    }]
+  }]
+}, {
+  "funcId": 21983,
+  "funcType": "gainNp",
+  "funcTargetType": "ptOther",
+  "funcTargetTeam": "player",
+  "funcPopupText": "NP増加",
+  "functvals": [{
+    "id": 3102
+  }]
+}, {
+  "funcId": 21984,
+  "funcType": "hastenNpturn",
+  "funcTargetType": "ptOther",
+  "funcTargetTeam": "enemy",
+  "funcPopupText": "チャージ増加",
+  "functvals": [{
+    "id": 3102
+  }]
+}, {
+  "funcId": 21985,
+  "funcType": "addStateShort",
+  "funcTargetType": "commandTypeSelfTreasureDevice",
+  "funcTargetTeam": "enemy",
+  "funcPopupText": "宝具タイプチェンジ：攻撃",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_361.png",
+  "buffs": [{
+    "id": 5681,
+    "name": "宝具タイプチェンジ：攻撃",
+    "detail": "宝具のタイプを攻撃タイプにチェンジする",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_361.png",
+    "type": "tdTypeChangeArts",
+    "script": {
+      "INDIVIDUALITIE": {
+        "id": 2300600
+      }
+    },
+    "originalScript": {
+      "INDIVIDUALITIE": 2300600
+    },
+    "vals": [{
+      "id": 3004
+    }]
+  }]
+}, {
+  "funcId": 21986,
+  "funcType": "addStateShort",
+  "funcTargetType": "commandTypeSelfTreasureDevice",
+  "funcTargetTeam": "enemy",
+  "funcPopupText": "宝具タイプチェンジ：防御",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_361.png",
+  "buffs": [{
+    "id": 5682,
+    "name": "宝具タイプチェンジ：防御",
+    "detail": "宝具のタイプを防御タイプにチェンジする",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_361.png",
+    "type": "tdTypeChangeBuster",
+    "script": {
+      "INDIVIDUALITIE": {
+        "id": 2300600
+      }
+    },
+    "originalScript": {
+      "INDIVIDUALITIE": 2300600
+    },
+    "vals": [{
+      "id": 3004
+    }]
+  }]
+}, {
+  "funcId": 21987,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "攻撃力アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_300.png",
+  "buffs": [{
+    "id": 5683,
+    "name": "攻撃力アップ",
+    "detail": "攻撃力をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_300.png",
+    "type": "upAtk",
+    "script": {
+      "checkIndvType": 4
+    },
+    "originalScript": {
+      "checkIndvType": 4,
+      "ProgressSelfTurn": 1,
+      "IndvAddBuffPassive": 1
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3027
+    }],
+    "tvals": [{
+      "id": 304
+    }, {
+      "id": 2920
+    }, {
+      "id": 2922
+    }, {
+      "id": 1000,
+      "negative": true
+    }],
+    "ckOpIndv": [{
+      "id": 304
+    }, {
+      "id": 2920
+    }, {
+      "id": 2922
+    }, {
+      "id": 1000,
+      "negative": true
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 21988,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "防御力アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_301.png",
+  "buffs": [{
+    "id": 5684,
+    "name": "防御力アップ",
+    "detail": "防御力をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_301.png",
+    "type": "upDefence",
+    "originalScript": {
+      "IndvAddBuffPassive": 1
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3007
+    }, {
+      "id": 3040
+    }, {
+      "id": 3058
+    }],
+    "tvals": [{
+      "id": 300
+    }, {
+      "id": 2921
+    }, {
+      "id": 2923
+    }, {
+      "id": 1000
+    }],
+    "ckOpIndv": [{
+      "id": 300
+    }, {
+      "id": 2921
+    }, {
+      "id": 2923
+    }, {
+      "id": 1000
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 21989,
+  "funcType": "damageNpAndCheckIndividuality",
+  "funcTargetType": "enemy",
+  "funcTargetTeam": "playerAndEnemy"
+}, {
+  "funcId": 22004,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "威力アップ・対保護対象外",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+  "buffs": [{
+    "id": 5687,
+    "name": "威力アップ〔保護対象外〕",
+    "detail": "〔保護対象外〕特性に与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamage",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3028
+    }],
+    "tvals": [{
+      "id": 3103
+    }],
+    "ckOpIndv": [{
+      "id": 3103
+    }],
+    "maxRate": 10000
+  }]
+}, {
+  "funcId": 22006,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptOtherFull",
+  "funcTargetTeam": "player",
+  "funcPopupText": "NP獲得アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_303.png",
+  "buffs": [{
+    "id": 5688,
+    "name": "NP獲得アップ",
+    "detail": "NP獲得量をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_303.png",
+    "type": "upDropnp",
+    "script": {
+      "INDIVIDUALITIE": {
+        "id": 3102
+      }
+    },
+    "originalScript": {
+      "INDIVIDUALITIE": 3102
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3084
     }],
     "maxRate": 5000
   }]
