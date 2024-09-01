@@ -40161,6 +40161,86 @@
       "noticeAt": 1560600000,
       "openedAt": 1560600000,
       "closedAt": 1893423600
+    }, {
+      "id": 94136001,
+      "name": "第3節 進行度4 リコレクションクエスト(1/6)",
+      "type": "event",
+      "flags": ["dropFirstTimeOnly", "notRetrievable", "recollection"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "86",
+      "spotId": 30407,
+      "warId": 304,
+      "gifts": [{
+        "id": 12000,
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 3000421
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9413600110",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413600110.txt"
+        }, {
+          "scriptId": "9413600111",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413600111.txt"
+        }]
+      }],
+      "priority": 94136005,
+      "noticeAt": 1725181200,
+      "openedAt": 1725181200,
+      "closedAt": 1727708399
+    }, {
+      "id": 94136002,
+      "name": "第3節 進行度4 スーパーリコレクションクエスト(1/6)",
+      "type": "event",
+      "flags": ["dropFirstTimeOnly", "notRetrievable", "recollection"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "90++",
+      "spotId": 30407,
+      "warId": 304,
+      "gifts": [{
+        "id": 327,
+        "objectId": 3,
+        "num": 100
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 3000421
+      }, {
+        "type": "questClear",
+        "targetId": 94136001,
+        "closedMessage": "「第3節 進行度4 リコレクションクエスト」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "「第3節 進行度4 リコレクションクエスト」クリアで開放"
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9413600210",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413600210.txt"
+        }, {
+          "scriptId": "9413600211",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413600211.txt"
+        }]
+      }],
+      "priority": 94136004,
+      "noticeAt": 1725181200,
+      "openedAt": 1725181200,
+      "closedAt": 1727708399
     }]
   }, {
     "id": 30408,
@@ -40469,6 +40549,90 @@
       "noticeAt": 1662541200,
       "openedAt": 1662541200,
       "closedAt": 1663127999
+    }, {
+      "id": 94136003,
+      "name": "第10節 進行度2 リコレクションクエスト(2/6)",
+      "type": "event",
+      "flags": ["dropFirstTimeOnly", "supportSelectAfterScript", "notRetrievable", "recollection"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "88",
+      "spotId": 30411,
+      "warId": 304,
+      "gifts": [{
+        "id": 12000,
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 3000421
+      }, {
+        "type": "questClear",
+        "targetId": 94136001,
+        "closedMessage": "「第3節 進行度4 リコレクションクエスト」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "「第3節 進行度4 リコレクションクエスト」クリア\n＆9月2日18時00分以降に開放"
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9413600310",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413600310.txt"
+        }, {
+          "scriptId": "9413600311",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413600311.txt"
+        }]
+      }],
+      "priority": 94136003,
+      "noticeAt": 1725181200,
+      "openedAt": 1725267600,
+      "closedAt": 1727708399
+    }, {
+      "id": 94136004,
+      "name": "第10節 進行度2 スーパーリコレクションクエスト(2/6)",
+      "type": "event",
+      "flags": ["dropFirstTimeOnly", "supportSelectAfterScript", "notRetrievable", "recollection"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "90++",
+      "spotId": 30411,
+      "warId": 304,
+      "gifts": [{
+        "id": 327,
+        "objectId": 3,
+        "num": 100
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 3000421
+      }, {
+        "type": "questClear",
+        "targetId": 94136003,
+        "closedMessage": "「第10節 進行度2 リコレクションクエスト」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "「第10節 進行度2 リコレクションクエスト」クリア\n＆9月2日18時00分以降に開放"
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9413600410",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413600410.txt"
+        }, {
+          "scriptId": "9413600411",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413600411.txt"
+        }]
+      }],
+      "priority": 94136002,
+      "noticeAt": 1725181200,
+      "openedAt": 1725267600,
+      "closedAt": 1727708399
     }]
   }, {
     "id": 30412,
@@ -88820,6 +88984,46 @@
       "priority": 94100353,
       "noticeAt": 1724403600,
       "openedAt": 1724403600,
+      "closedAt": 1893423600
+    }, {
+      "id": 94136050,
+      "name": "強化クエスト ラーマ 2",
+      "type": "event",
+      "flags": ["noDisplayRemain"],
+      "consume": 21,
+      "afterClear": "close",
+      "recommendLv": "80",
+      "spotId": 99001,
+      "warId": 1001,
+      "gifts": [{
+        "id": 94012504,
+        "objectId": 2,
+        "num": 2
+      }, {
+        "id": 94012504,
+        "type": "questRewardIcon",
+        "objectId": 9,
+        "num": 0
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94058605
+      }, {
+        "type": "svtLimit",
+        "targetId": 101900,
+        "value": 4,
+        "closedMessage": "霊基再臨{0}段階目で開放"
+      }, {
+        "type": "svtGet",
+        "targetId": 101900
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1, 2, 3],
+      "priority": 94136050,
+      "noticeAt": 1725181200,
+      "openedAt": 1725181200,
       "closedAt": 1893423600
     }]
   }]

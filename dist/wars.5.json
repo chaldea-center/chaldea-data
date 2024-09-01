@@ -134844,4 +134844,215 @@
     "dispCondType2": "useItemTime",
     "activeCondType": "questClear"
   }]
+}, {
+  "id": 9173,
+  "coordinates": [
+    [],
+    []
+  ],
+  "age": "-",
+  "name": "Road To 7",
+  "longName": "Road To 7",
+  "flags": ["isEvent", "noClearMarkWithComplete", "changeDispClosedMessage"],
+  "banner": "https://static.atlasacademy.io/JP/Banner/event_war_80473.png",
+  "priority": 9173,
+  "bgm": {
+    "id": 0
+  },
+  "script": "https://static.atlasacademy.io/JP/Script/Common/NONE.txt",
+  "eventId": 80492,
+  "eventName": "リコレクションクエスト",
+  "releaseConditions": [{
+    "priority": 10000,
+    "condType": "questNotClear",
+    "condId": 3000421,
+    "warDisplayType": "close",
+    "closedDialogMessage": "クエストがありません"
+  }, {
+    "priority": 11000,
+    "condType": "questClear",
+    "condId": 3000421,
+    "warDisplayType": "open"
+  }],
+  "questSelections": [{
+    "quest": {
+      "id": 94136004,
+      "name": "第10節 進行度2 スーパーリコレクションクエスト(2/6)",
+      "type": "event",
+      "flags": ["dropFirstTimeOnly", "supportSelectAfterScript", "notRetrievable", "recollection"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "90++",
+      "spotId": 30411,
+      "warId": 9173,
+      "gifts": [{
+        "id": 327,
+        "objectId": 3,
+        "num": 100
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 3000421
+      }, {
+        "type": "questClear",
+        "targetId": 94136003,
+        "closedMessage": "「第10節 進行度2 リコレクションクエスト」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "「第10節 進行度2 リコレクションクエスト」クリア\n＆9月2日18時00分以降に開放"
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9413600410",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413600410.txt"
+        }, {
+          "scriptId": "9413600411",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413600411.txt"
+        }]
+      }],
+      "priority": 94136002,
+      "noticeAt": 1725181200,
+      "openedAt": 1725267600,
+      "closedAt": 1727708399
+    },
+    "shortcutBanner": "https://static.atlasacademy.io/JP/EventUI/img_questboard_94075802.png",
+    "priority": 18
+  }, {
+    "quest": {
+      "id": 94136003,
+      "name": "第10節 進行度2 リコレクションクエスト(2/6)",
+      "type": "event",
+      "flags": ["dropFirstTimeOnly", "supportSelectAfterScript", "notRetrievable", "recollection"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "88",
+      "spotId": 30411,
+      "warId": 9173,
+      "gifts": [{
+        "id": 12000,
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 3000421
+      }, {
+        "type": "questClear",
+        "targetId": 94136001,
+        "closedMessage": "「第3節 進行度4 リコレクションクエスト」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "「第3節 進行度4 リコレクションクエスト」クリア\n＆9月2日18時00分以降に開放"
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9413600310",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413600310.txt"
+        }, {
+          "scriptId": "9413600311",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413600311.txt"
+        }]
+      }],
+      "priority": 94136003,
+      "noticeAt": 1725181200,
+      "openedAt": 1725267600,
+      "closedAt": 1727708399
+    },
+    "shortcutBanner": "https://static.atlasacademy.io/JP/EventUI/img_questboard_94075802.png",
+    "priority": 19
+  }, {
+    "quest": {
+      "id": 94136002,
+      "name": "第3節 進行度4 スーパーリコレクションクエスト(1/6)",
+      "type": "event",
+      "flags": ["dropFirstTimeOnly", "notRetrievable", "recollection"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "90++",
+      "spotId": 30407,
+      "warId": 9173,
+      "gifts": [{
+        "id": 327,
+        "objectId": 3,
+        "num": 100
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 3000421
+      }, {
+        "type": "questClear",
+        "targetId": 94136001,
+        "closedMessage": "「第3節 進行度4 リコレクションクエスト」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "「第3節 進行度4 リコレクションクエスト」クリアで開放"
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9413600210",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413600210.txt"
+        }, {
+          "scriptId": "9413600211",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413600211.txt"
+        }]
+      }],
+      "priority": 94136004,
+      "noticeAt": 1725181200,
+      "openedAt": 1725181200,
+      "closedAt": 1727708399
+    },
+    "shortcutBanner": "https://static.atlasacademy.io/JP/EventUI/img_questboard_94075802.png",
+    "priority": 20
+  }, {
+    "quest": {
+      "id": 94136001,
+      "name": "第3節 進行度4 リコレクションクエスト(1/6)",
+      "type": "event",
+      "flags": ["dropFirstTimeOnly", "notRetrievable", "recollection"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "86",
+      "spotId": 30407,
+      "warId": 9173,
+      "gifts": [{
+        "id": 12000,
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 3000421
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9413600110",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413600110.txt"
+        }, {
+          "scriptId": "9413600111",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413600111.txt"
+        }]
+      }],
+      "priority": 94136005,
+      "noticeAt": 1725181200,
+      "openedAt": 1725181200,
+      "closedAt": 1727708399
+    },
+    "shortcutBanner": "https://static.atlasacademy.io/JP/EventUI/img_questboard_94075802.png",
+    "priority": 21
+  }]
 }]
