@@ -39940,6 +39940,90 @@
       "noticeAt": 1560600000,
       "openedAt": 1560600000,
       "closedAt": 1893423600
+    }, {
+      "id": 94136005,
+      "name": "第13節 進行度4 リコレクションクエスト(3/6)",
+      "type": "event",
+      "flags": ["dropFirstTimeOnly", "supportSelectAfterScript", "notRetrievable", "recollection"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "86",
+      "spotId": 30404,
+      "warId": 304,
+      "gifts": [{
+        "id": 12000,
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 3000421
+      }, {
+        "type": "questClear",
+        "targetId": 94136003,
+        "closedMessage": "「第10節 進行度2 リコレクションクエスト」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "「第10節 進行度2 リコレクションクエスト」クリア\n＆9月3日18時00分以降に開放"
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9413600510",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413600510.txt"
+        }, {
+          "scriptId": "9413600511",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413600511.txt"
+        }]
+      }],
+      "priority": 94136001,
+      "noticeAt": 1725267600,
+      "openedAt": 1725354000,
+      "closedAt": 1727708399
+    }, {
+      "id": 94136006,
+      "name": "第13節 進行度4 スーパーリコレクションクエスト(3/6)",
+      "type": "event",
+      "flags": ["dropFirstTimeOnly", "supportSelectAfterScript", "notRetrievable", "recollection"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "90++",
+      "spotId": 30404,
+      "warId": 304,
+      "gifts": [{
+        "id": 327,
+        "objectId": 3,
+        "num": 100
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 3000421
+      }, {
+        "type": "questClear",
+        "targetId": 94136005,
+        "closedMessage": "「第13節 進行度4 リコレクションクエスト」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "「第13節 進行度4 リコレクションクエスト」クリア\n＆9月3日18時00分以降に開放"
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9413600610",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413600610.txt"
+        }, {
+          "scriptId": "9413600611",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413600611.txt"
+        }]
+      }],
+      "priority": 94136000,
+      "noticeAt": 1725267600,
+      "openedAt": 1725354000,
+      "closedAt": 1727708399
     }]
   }, {
     "id": 30405,
@@ -40578,6 +40662,7 @@
         "closedMessage": "「第3節 進行度4 リコレクションクエスト」クリア\n＆9月2日18時00分以降に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "phaseScripts": [{
         "phase": 1,
         "scripts": [{
@@ -40620,6 +40705,7 @@
         "closedMessage": "「第10節 進行度2 リコレクションクエスト」クリア\n＆9月2日18時00分以降に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "phaseScripts": [{
         "phase": 1,
         "scripts": [{
