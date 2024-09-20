@@ -1327,7 +1327,7 @@
       "baseValue": 0,
       "isRec": true,
       "plusAction": 0,
-      "maxRate": []
+      "maxRate": [0]
     },
     "preventInvisibleWhenInstantDeath": {
       "limit": "none",
@@ -5695,6 +5695,13 @@
     }
   },
   "funcTypeDetail": {
+    "1": {
+      "funcType": "addState",
+      "ignoreValueUp": true,
+      "individuality": [{
+        "id": 3107
+      }]
+    },
     "2": {
       "funcType": "subState",
       "ignoreValueUp": true
@@ -5710,9 +5717,19 @@
         "id": 3096
       }]
     },
+    "16": {
+      "funcType": "addStateShort",
+      "ignoreValueUp": true,
+      "individuality": [{
+        "id": 3108
+      }]
+    },
     "20": {
       "funcType": "delayNpturn",
-      "ignoreValueUp": true
+      "ignoreValueUp": true,
+      "individuality": [{
+        "id": 3106
+      }]
     },
     "23": {
       "funcType": "cardReset",

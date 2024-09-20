@@ -49485,6 +49485,207 @@
     "id": 104
   }]
 }, {
+  "funcId": 22011,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "対粛正防御貫通(回避貫通不能)",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_403.png",
+  "buffs": [{
+    "id": 5689,
+    "name": "対粛正防御貫通(回避貫通不能)",
+    "detail": "無敵と対粛正防御を無視して、攻撃によるダメージを与える<回避は貫通不能>",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_403.png",
+    "type": "pierceSpecialInvincible",
+    "script": {
+      "NotPierceIndividuality": [
+        [{
+          "id": 3021
+        }],
+        [{
+          "id": 3109
+        }]
+      ]
+    },
+    "originalScript": {
+      "NotPierceIndividuality": [
+        [3021],
+        [3109]
+      ]
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3104
+    }, {
+      "id": 3006
+    }]
+  }]
+}, {
+  "funcId": 22012,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "攻撃力アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_300.png",
+  "buffs": [{
+    "id": 5690,
+    "name": "攻撃力アップ",
+    "detail": "攻撃力をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_300.png",
+    "type": "upAtk",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3027
+    }],
+    "tvals": [{
+      "id": 100
+    }, {
+      "id": 101
+    }, {
+      "id": 102
+    }, {
+      "id": 103
+    }, {
+      "id": 104
+    }, {
+      "id": 105
+    }, {
+      "id": 106
+    }, {
+      "id": 108
+    }, {
+      "id": 110
+    }, {
+      "id": 109
+    }, {
+      "id": 115
+    }, {
+      "id": 120
+    }, {
+      "id": 107
+    }, {
+      "id": 124
+    }, {
+      "id": 129
+    }],
+    "ckOpIndv": [{
+      "id": 100
+    }, {
+      "id": 101
+    }, {
+      "id": 102
+    }, {
+      "id": 103
+    }, {
+      "id": 104
+    }, {
+      "id": 105
+    }, {
+      "id": 106
+    }, {
+      "id": 108
+    }, {
+      "id": 110
+    }, {
+      "id": 109
+    }, {
+      "id": 115
+    }, {
+      "id": 120
+    }, {
+      "id": 107
+    }, {
+      "id": 124
+    }, {
+      "id": 129
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 22016,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "Quick通常攻撃時追加効果",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_333.png",
+  "buffs": [{
+    "id": 5691,
+    "name": "Quick通常攻撃時追加効果",
+    "detail": "Quick通常攻撃時、自身に回避状態を付与",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_333.png",
+    "type": "commandattackAfterFunctionMainOnly",
+    "vals": [{
+      "id": 3004
+    }],
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4003
+    }],
+    "ckSelfIndv": [{
+      "id": 4003
+    }]
+  }]
+}, {
+  "funcId": 22017,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "Arts通常攻撃時追加効果",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_333.png",
+  "buffs": [{
+    "id": 5692,
+    "name": "Arts通常攻撃時追加効果",
+    "detail": "Arts通常攻撃時、自身のNPを増やす",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_333.png",
+    "type": "commandattackAfterFunctionMainOnly",
+    "vals": [{
+      "id": 3004
+    }],
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4001
+    }],
+    "ckSelfIndv": [{
+      "id": 4001
+    }]
+  }]
+}, {
+  "funcId": 22018,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "Buster通常攻撃ダメージ前追加効果",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_333.png",
+  "buffs": [{
+    "id": 5693,
+    "name": "Buster通常攻撃ダメージ前追加効果",
+    "detail": "Buster通常攻撃時、ダメージ前に自身のクリティカル威力をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_333.png",
+    "type": "commandattackBeforeFunctionMainOnly",
+    "vals": [{
+      "id": 3004
+    }],
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4002
+    }],
+    "ckSelfIndv": [{
+      "id": 4002
+    }]
+  }]
+}, {
+  "funcId": 22020,
+  "funcType": "displayBuffstring",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player"
+}, {
   "funcId": 22029,
   "funcType": "addState",
   "funcTargetType": "self",
@@ -49528,6 +49729,31 @@
       "id": 3019
     }],
     "maxRate": 5000
+  }]
+}, {
+  "funcId": 22030,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "Extra Attack時追加効果",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_333.png",
+  "buffs": [{
+    "id": 5697,
+    "name": "Extra Attack時追加効果",
+    "detail": "Extra Attack時にスターを獲得する",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_333.png",
+    "type": "commandattackAfterFunction",
+    "vals": [{
+      "id": 3004
+    }],
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4004
+    }],
+    "ckSelfIndv": [{
+      "id": 4004
+    }]
   }]
 }, {
   "funcId": 30003,

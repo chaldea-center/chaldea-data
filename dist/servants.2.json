@@ -48745,6 +48745,9 @@
         "2": "https://static.atlasacademy.io/JP/CharaGraph/1000100/1000100a@2.png",
         "3": "https://static.atlasacademy.io/JP/CharaGraph/1000100/1000100b@1.png",
         "4": "https://static.atlasacademy.io/JP/CharaGraph/1000100/1000100b@2.png"
+      },
+      "costume": {
+        "1000130": "https://static.atlasacademy.io/JP/CharaGraph/1000130/1000130a.png"
       }
     },
     "faces": {
@@ -48753,6 +48756,9 @@
         "2": "https://static.atlasacademy.io/JP/Faces/f_10001001.png",
         "3": "https://static.atlasacademy.io/JP/Faces/f_10001002.png",
         "4": "https://static.atlasacademy.io/JP/Faces/f_10001003.png"
+      },
+      "costume": {
+        "1000130": "https://static.atlasacademy.io/JP/Faces/f_10001300.png"
       }
     },
     "narrowFigure": {
@@ -48761,6 +48767,9 @@
         "2": "https://static.atlasacademy.io/JP/NarrowFigure/1000100/1000100@1.png",
         "3": "https://static.atlasacademy.io/JP/NarrowFigure/1000100/1000100@2.png",
         "4": "https://static.atlasacademy.io/JP/NarrowFigure/1000100/1000100_2@0.png"
+      },
+      "costume": {
+        "1000130": "https://static.atlasacademy.io/JP/NarrowFigure/1000130/1000130@0.png"
       }
     },
     "charaFigure": {
@@ -48771,6 +48780,9 @@
       },
       "story": {
         "98112700": "https://static.atlasacademy.io/JP/CharaFigure/98112700/98112700_merged.png"
+      },
+      "costume": {
+        "1000130": "https://static.atlasacademy.io/JP/CharaFigure/10001300/10001300_merged.png"
       }
     },
     "commands": {
@@ -48778,6 +48790,9 @@
         "1": "https://static.atlasacademy.io/JP/Servants/Commands/1000100/card_servant_1.png",
         "2": "https://static.atlasacademy.io/JP/Servants/Commands/1000100/card_servant_2.png",
         "3": "https://static.atlasacademy.io/JP/Servants/Commands/1000100/card_servant_3.png"
+      },
+      "costume": {
+        "1000130": "https://static.atlasacademy.io/JP/Servants/Commands/1000100/card_servant_11.png"
       }
     },
     "status": {
@@ -48785,6 +48800,9 @@
         "1": "https://static.atlasacademy.io/JP/Servants/Status/1000100/status_servant_1.png",
         "2": "https://static.atlasacademy.io/JP/Servants/Status/1000100/status_servant_2.png",
         "3": "https://static.atlasacademy.io/JP/Servants/Status/1000100/status_servant_3.png"
+      },
+      "costume": {
+        "1000130": "https://static.atlasacademy.io/JP/Servants/Status/1000100/status_servant_11.png"
       }
     },
     "image": {
@@ -48799,6 +48817,9 @@
         "2": "https://static.atlasacademy.io/JP/Servants/1000100/manifest.json",
         "3": "https://static.atlasacademy.io/JP/Servants/1000100/manifest.json",
         "4": "https://static.atlasacademy.io/JP/Servants/1000100/manifest.json"
+      },
+      "costume": {
+        "1000130": "https://static.atlasacademy.io/JP/Servants/1000130/manifest.json"
       }
     }
   },
@@ -48830,6 +48851,8 @@
     "id": 2037
   }, {
     "id": 2040
+  }, {
+    "id": 2780
   }, {
     "id": 2781
   }, {
@@ -48909,6 +48932,24 @@
         "2": 0,
         "3": 0,
         "4": 0
+      },
+      "costume": {
+        "1000130": 11
+      }
+    },
+    "overWriteTDName": {
+      "costume": {
+        "11": "死がふたりを分断つまで"
+      }
+    },
+    "overWriteTDRuby": {
+      "costume": {
+        "11": "ブリュンヒルデ・ロマシンア"
+      }
+    },
+    "overWriteTDFileName": {
+      "costume": {
+        "11": "https://static.atlasacademy.io/JP/Servants/Commands/1000100/1000110.png"
       }
     },
     "lvMax": {
@@ -49204,7 +49245,24 @@
       "qp": 10000000
     }
   },
-  "costumeMaterials": {},
+  "costumeMaterials": {
+    "1000130": {
+      "items": [{
+        "itemId": 6533,
+        "amount": 10
+      }, {
+        "itemId": 6556,
+        "amount": 5
+      }, {
+        "itemId": 6507,
+        "amount": 5
+      }, {
+        "itemId": 6517,
+        "amount": 5
+      }],
+      "qp": 3000000
+    }
+  },
   "coin": {
     "summonNum": 50,
     "item": {
@@ -49521,6 +49579,17 @@
       "policy": "lawful",
       "personality": "balanced",
       "deity": "C"
+    },
+    "costume": {
+      "1000130": {
+        "id": 11,
+        "costumeCollectionNo": 118,
+        "battleCharaId": 1000130,
+        "name": "簡易霊衣：イノセントフラワー",
+        "shortName": "イノセントフラワー",
+        "detail": "初期化状態で起動したパッションリップ\n片鱗はあるものの、まだエゴは持たない",
+        "priority": 99
+      }
     }
   }
 }, {
@@ -51202,10 +51271,10 @@
     "voicePrefix": {
       "ascension": {
         "0": 0,
-        "1": 0,
-        "2": 0,
-        "3": 0,
-        "4": 0
+        "1": 1,
+        "2": 1,
+        "3": 2,
+        "4": 2
       }
     },
     "lvMax": {
