@@ -51903,4 +51903,32 @@
       "relationId": 169
     }
   }]
+}, {
+  "funcId": 94100502,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "buffs": [{
+    "id": 94100502,
+    "name": "対ムーンキャンサー防御脆性",
+    "detail": "〔ムーンキャンサー〕クラスに対する防御不利相性がより大きくなる",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_520.png",
+    "type": "overwriteClassRelation",
+    "script": {
+      "relationId": {
+        "atkSide": {},
+        "defSide": {
+          "moonCancer": {
+            "avenger": {
+              "damageRate": 5000,
+              "type": "overwriteForce"
+            }
+          }
+        }
+      }
+    },
+    "originalScript": {
+      "relationId": 174
+    }
+  }]
 }]
