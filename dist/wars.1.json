@@ -5183,6 +5183,15 @@
         "eventId": 80402,
         "startedAt": 1664355600,
         "endedAt": 1664942399
+      }, {
+        "priority": 2,
+        "condType": "questClear",
+        "condId": 1000314,
+        "closedMessage": "第三特異点をクリア＆霊基再臨1段階目＆絆Lv.1で開放",
+        "overlayClosedMessage": "第三特異点をクリアで開放",
+        "eventId": 80497,
+        "startedAt": 1727773200,
+        "endedAt": 1730386799
       }],
       "phases": [1, 2, 3],
       "phasesWithEnemies": [1, 2, 3],
@@ -5535,6 +5544,15 @@
         "eventId": 80404,
         "startedAt": 1664960400,
         "endedAt": 1665547199
+      }, {
+        "priority": 2,
+        "condType": "questClear",
+        "condId": 1000215,
+        "closedMessage": "第二特異点をクリア＆霊基再臨1段階目＆絆Lv.3で開放",
+        "overlayClosedMessage": "第二特異点をクリアで開放",
+        "eventId": 80497,
+        "startedAt": 1727773200,
+        "endedAt": 1730386799
       }],
       "phases": [1, 2],
       "phasesWithEnemies": [1, 2],
@@ -45980,6 +45998,84 @@
       "noticeAt": 1664355600,
       "openedAt": 1664355600,
       "closedAt": 1664942399
+    }, {
+      "id": 94136501,
+      "name": "第11節 進行度2 リコレクションクエスト(1/4)",
+      "type": "event",
+      "flags": ["dropFirstTimeOnly", "supportSelectAfterScript", "notRetrievable", "recollection"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "90",
+      "spotId": 30563,
+      "warId": 305,
+      "gifts": [{
+        "id": 12000,
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 3000531
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9413650110",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413650110.txt"
+        }, {
+          "scriptId": "9413650111",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413650111.txt"
+        }]
+      }],
+      "priority": 94136500,
+      "noticeAt": 1727773200,
+      "openedAt": 1727773200,
+      "closedAt": 1730386799
+    }, {
+      "id": 94136502,
+      "name": "第11節 進行度2 スーパーリコレクションクエスト(1/4)",
+      "type": "event",
+      "flags": ["dropFirstTimeOnly", "supportSelectAfterScript", "notRetrievable", "recollection"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "90++",
+      "spotId": 30563,
+      "warId": 305,
+      "gifts": [{
+        "id": 327,
+        "objectId": 3,
+        "num": 100
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 3000531
+      }, {
+        "type": "questClear",
+        "targetId": 94136501,
+        "closedMessage": "「第11節 進行度2 リコレクションクエスト」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9413650210",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413650210.txt"
+        }, {
+          "scriptId": "9413650211",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413650211.txt"
+        }]
+      }],
+      "priority": 94136499,
+      "noticeAt": 1727773200,
+      "openedAt": 1727773200,
+      "closedAt": 1730386799
     }]
   }, {
     "id": 30564,
@@ -46280,6 +46376,48 @@
       "noticeAt": 1664355600,
       "openedAt": 1664355600,
       "closedAt": 1664942399
+    }, {
+      "id": 94136505,
+      "name": "第17節 進行度1 リコレクションクエスト(2/4)",
+      "type": "event",
+      "flags": ["dropFirstTimeOnly", "supportSelectAfterScript", "notRetrievable", "recollection"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "85",
+      "spotId": 30571,
+      "warId": 305,
+      "gifts": [{
+        "id": 12000,
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 3000531
+      }, {
+        "type": "questClear",
+        "targetId": 94136501,
+        "closedMessage": "「第11節 進行度2 リコレクションクエスト」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "「第11節 進行度2 リコレクションクエスト」クリア\n＆10月2日18時00分以降に開放"
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9413650510",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413650510.txt"
+        }, {
+          "scriptId": "9413650511",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413650511.txt"
+        }]
+      }],
+      "priority": 94136496,
+      "noticeAt": 1727773200,
+      "openedAt": 1727859600,
+      "closedAt": 1730386799
     }]
   }, {
     "id": 30572,
@@ -46376,6 +46514,16 @@
       "openedAt": 1664355600,
       "closedAt": 1664942399
     }]
+  }, {
+    "id": 30574,
+    "mapId": 30501,
+    "name": "ビッグホール",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0305/QMap_Cap0305_Atlas/spot_030574.png",
+    "x": 1025.0,
+    "y": 751.0,
+    "nameOfsY": -13,
+    "questOfsX": 34,
+    "questOfsY": -79
   }, {
     "id": 30599,
     "mapId": 30501,
@@ -91675,6 +91823,47 @@
       "noticeAt": 1725181200,
       "openedAt": 1725181200,
       "closedAt": 1893423600
+    }, {
+      "id": 94136551,
+      "name": "強化クエスト ヘクトール 2",
+      "type": "event",
+      "flags": ["noDisplayRemain"],
+      "consume": 20,
+      "afterClear": "close",
+      "recommendLv": "70",
+      "spotId": 99001,
+      "warId": 1001,
+      "gifts": [{
+        "id": 94012504,
+        "objectId": 2,
+        "num": 2
+      }, {
+        "id": 94012504,
+        "type": "questRewardIcon",
+        "objectId": 9,
+        "num": 0
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94045801
+      }, {
+        "type": "svtLimit",
+        "targetId": 301600,
+        "value": 4,
+        "closedMessage": "霊基再臨{0}段階目で開放"
+      }, {
+        "type": "svtGet",
+        "targetId": 301600
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1, 2, 3],
+      "phasesWithEnemies": [1, 2],
+      "priority": 94136551,
+      "noticeAt": 1727773200,
+      "openedAt": 1727773200,
+      "closedAt": 1893423600
     }]
   }]
 }, {
@@ -94271,12 +94460,12 @@
       "releaseConditions": [{
         "type": "questClear",
         "targetId": 3000531,
-        "closedMessage": "Lostbelt No.5 アトランティスクリア＆霊基再臨3段階目＆絆Lv.3で開放"
+        "closedMessage": "Lostbelt No.5 アトランティスをクリア＆霊基再臨3段階目＆絆Lv.3で開放"
       }, {
         "type": "svtLimit",
         "targetId": 103800,
         "value": 3,
-        "closedMessage": "Lostbelt No.5 アトランティスクリア＆霊基再臨3段階目＆絆Lv.3で開放"
+        "closedMessage": "Lostbelt No.5 アトランティスをクリア＆霊基再臨3段階目＆絆Lv.3で開放"
       }, {
         "type": "svtGet",
         "targetId": 103800
@@ -94284,17 +94473,26 @@
         "type": "svtFriendship",
         "targetId": 103800,
         "value": 3,
-        "closedMessage": "Lostbelt No.5 アトランティスクリア＆霊基再臨3段階目＆絆Lv.3で開放"
+        "closedMessage": "Lostbelt No.5 アトランティスをクリア＆霊基再臨3段階目＆絆Lv.3で開放"
       }],
       "releaseOverwrites": [{
         "priority": 1,
         "condType": "questClear",
         "condId": 3000531,
-        "closedMessage": "Lostbelt No.5 アトランティスクリア＆霊基再臨3段階目＆絆Lv.3で開放",
+        "closedMessage": "Lostbelt No.5 アトランティスをクリア＆霊基再臨3段階目＆絆Lv.3で開放",
         "overlayClosedMessage": "Lostbelt No.5 神代巨神海洋 アトランティスクリアで開放",
         "eventId": 80402,
         "startedAt": 1664355600,
         "endedAt": 1664942399
+      }, {
+        "priority": 2,
+        "condType": "questClear",
+        "condId": 3000531,
+        "closedMessage": "Lostbelt No.5 アトランティスをクリア＆霊基再臨3段階目＆絆Lv.3で開放",
+        "overlayClosedMessage": "Lostbelt No.5 アトランティスをクリアで開放",
+        "eventId": 80497,
+        "startedAt": 1727773200,
+        "endedAt": 1730386799
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -94504,6 +94702,15 @@
         "eventId": 80404,
         "startedAt": 1664960400,
         "endedAt": 1665547199
+      }, {
+        "priority": 2,
+        "condType": "questClear",
+        "condId": 1000011,
+        "closedMessage": "特異点Fをクリア＆霊基再臨2段階目＆絆Lv.5で開放",
+        "overlayClosedMessage": "特異点Fをクリアで開放",
+        "eventId": 80497,
+        "startedAt": 1727773200,
+        "endedAt": 1730386799
       }],
       "phases": [1, 2, 3],
       "phasesWithEnemies": [1, 2, 3],
@@ -95357,6 +95564,15 @@
         "eventId": 80402,
         "startedAt": 1664355600,
         "endedAt": 1664942399
+      }, {
+        "priority": 2,
+        "condType": "questClear",
+        "condId": 1000011,
+        "closedMessage": "特異点Fをクリア＆霊基再臨2段階目＆絆Lv.3で開放",
+        "overlayClosedMessage": "特異点Fをクリアで開放",
+        "eventId": 80497,
+        "startedAt": 1727773200,
+        "endedAt": 1730386799
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -95640,6 +95856,15 @@
         "eventId": 80402,
         "startedAt": 1664355600,
         "endedAt": 1664942399
+      }, {
+        "priority": 2,
+        "condType": "questClear",
+        "condId": 1000011,
+        "closedMessage": "特異点Fをクリア＆霊基再臨2段階目＆絆Lv.3で開放",
+        "overlayClosedMessage": "特異点Fをクリアで開放",
+        "eventId": 80497,
+        "startedAt": 1727773200,
+        "endedAt": 1730386799
       }],
       "phases": [1, 2],
       "phasesWithEnemies": [1, 2],
@@ -95682,12 +95907,12 @@
       "releaseConditions": [{
         "type": "questClear",
         "targetId": 3000531,
-        "closedMessage": "Lostbelt No.5 アトランティスクリア＆霊基再臨3段階目＆絆Lv.3で開放"
+        "closedMessage": "Lostbelt No.5 アトランティスをクリア＆霊基再臨3段階目＆絆Lv.3で開放"
       }, {
         "type": "svtLimit",
         "targetId": 203800,
         "value": 3,
-        "closedMessage": "Lostbelt No.5 アトランティスクリア＆霊基再臨3段階目＆絆Lv.3で開放"
+        "closedMessage": "Lostbelt No.5 アトランティスをクリア＆霊基再臨3段階目＆絆Lv.3で開放"
       }, {
         "type": "svtGet",
         "targetId": 203800
@@ -95695,17 +95920,26 @@
         "type": "svtFriendship",
         "targetId": 203800,
         "value": 3,
-        "closedMessage": "Lostbelt No.5 アトランティスクリア＆霊基再臨3段階目＆絆Lv.3で開放"
+        "closedMessage": "Lostbelt No.5 アトランティスをクリア＆霊基再臨3段階目＆絆Lv.3で開放"
       }],
       "releaseOverwrites": [{
         "priority": 1,
         "condType": "questClear",
         "condId": 3000531,
-        "closedMessage": "Lostbelt No.5 アトランティスクリア＆霊基再臨3段階目＆絆Lv.3で開放",
+        "closedMessage": "Lostbelt No.5 アトランティスをクリア＆霊基再臨3段階目＆絆Lv.3で開放",
         "overlayClosedMessage": "Lostbelt No.5 神代巨神海洋 アトランティスクリアで開放",
         "eventId": 80402,
         "startedAt": 1664355600,
         "endedAt": 1664942399
+      }, {
+        "priority": 2,
+        "condType": "questClear",
+        "condId": 3000531,
+        "closedMessage": "Lostbelt No.5 アトランティスをクリア＆霊基再臨3段階目＆絆Lv.3で開放",
+        "overlayClosedMessage": "Lostbelt No.5 アトランティスをクリアで開放",
+        "eventId": 80497,
+        "startedAt": 1727773200,
+        "endedAt": 1730386799
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -96375,6 +96609,15 @@
         "eventId": 80402,
         "startedAt": 1664355600,
         "endedAt": 1664942399
+      }, {
+        "priority": 2,
+        "condType": "questClear",
+        "condId": 1000314,
+        "closedMessage": "第三特異点をクリア＆霊基再臨1段階目＆絆Lv.3で開放",
+        "overlayClosedMessage": "第三特異点をクリアで開放",
+        "eventId": 80497,
+        "startedAt": 1727773200,
+        "endedAt": 1730386799
       }],
       "phases": [1, 2, 3],
       "phasesWithEnemies": [1, 2, 3],
@@ -97113,12 +97356,12 @@
       "releaseConditions": [{
         "type": "questClear",
         "targetId": 3000628,
-        "closedMessage": "Lostbelt No.5 オリュンポスクリア＆霊基再臨4段階目＆絆Lv.5で開放"
+        "closedMessage": "Lostbelt No.5 オリュンポスをクリア＆霊基再臨4段階目＆絆Lv.5で開放"
       }, {
         "type": "svtLimit",
         "targetId": 304100,
         "value": 4,
-        "closedMessage": "Lostbelt No.5 オリュンポスクリア＆霊基再臨4段階目＆絆Lv.5で開放"
+        "closedMessage": "Lostbelt No.5 オリュンポスをクリア＆霊基再臨4段階目＆絆Lv.5で開放"
       }, {
         "type": "svtGet",
         "targetId": 304100
@@ -97126,17 +97369,26 @@
         "type": "svtFriendship",
         "targetId": 304100,
         "value": 5,
-        "closedMessage": "Lostbelt No.5 オリュンポスクリア＆霊基再臨4段階目＆絆Lv.5で開放"
+        "closedMessage": "Lostbelt No.5 オリュンポスをクリア＆霊基再臨4段階目＆絆Lv.5で開放"
       }],
       "releaseOverwrites": [{
         "priority": 1,
         "condType": "questClear",
         "condId": 3000628,
-        "closedMessage": "Lostbelt No.5 オリュンポスクリア＆霊基再臨4段階目＆絆Lv.5で開放",
+        "closedMessage": "Lostbelt No.5 オリュンポスをクリア＆霊基再臨4段階目＆絆Lv.5で開放",
         "overlayClosedMessage": "Lostbelt No.5 星間都市山脈 オリュンポスクリアで開放",
         "eventId": 80404,
         "startedAt": 1664960400,
         "endedAt": 1665547199
+      }, {
+        "priority": 2,
+        "condType": "questClear",
+        "condId": 3000628,
+        "closedMessage": "Lostbelt No.5 オリュンポスをクリア＆霊基再臨4段階目＆絆Lv.5で開放",
+        "overlayClosedMessage": "Lostbelt No.5 オリュンポスをクリアで開放",
+        "eventId": 80497,
+        "startedAt": 1727773200,
+        "endedAt": 1730386799
       }],
       "phases": [1, 2],
       "phasesWithEnemies": [1, 2],
@@ -97200,6 +97452,15 @@
         "eventId": 80404,
         "startedAt": 1664960400,
         "endedAt": 1665547199
+      }, {
+        "priority": 2,
+        "condType": "questClear",
+        "condId": 1000822,
+        "closedMessage": "終局特異点をクリア＆霊基再臨3段階目＆絆Lv.5で開放",
+        "overlayClosedMessage": "終局特異点をクリアで開放",
+        "eventId": 80497,
+        "startedAt": 1727773200,
+        "endedAt": 1730386799
       }],
       "phases": [1, 2, 3, 4],
       "phasesWithEnemies": [1, 2, 3, 4],
@@ -97482,6 +97743,23 @@
         "eventId": 80402,
         "startedAt": 1664355600,
         "endedAt": 1664942399
+      }, {
+        "priority": 2,
+        "condType": "questClear",
+        "condId": 1000413,
+        "closedMessage": "第四特異点をクリア＆霊基再臨3段階目＆絆Lv.5で開放",
+        "overlayClosedMessage": "第四特異点をクリアで開放",
+        "eventId": 80497,
+        "startedAt": 1727773200,
+        "endedAt": 1730386799
+      }, {
+        "priority": 2,
+        "condType": "questClear",
+        "condId": 91400301,
+        "overlayClosedMessage": "第四特異点をクリアで開放",
+        "eventId": 80497,
+        "startedAt": 1727773200,
+        "endedAt": 1730386799
       }],
       "phases": [1, 2],
       "phasesWithEnemies": [1, 2],
@@ -98298,6 +98576,15 @@
         "eventId": 80402,
         "startedAt": 1664355600,
         "endedAt": 1664942399
+      }, {
+        "priority": 2,
+        "condType": "questClear",
+        "condId": 1000011,
+        "closedMessage": "特異点Fをクリア＆霊基再臨2段階目＆絆Lv.3で開放",
+        "overlayClosedMessage": "特異点Fをクリアで開放",
+        "eventId": 80497,
+        "startedAt": 1727773200,
+        "endedAt": 1730386799
       }],
       "phases": [1, 2],
       "phasesWithEnemies": [1, 2],
@@ -98367,6 +98654,15 @@
         "eventId": 80402,
         "startedAt": 1664528400,
         "endedAt": 1664942399
+      }, {
+        "priority": 2,
+        "condType": "questClear",
+        "condId": 1000011,
+        "closedMessage": "特異点Fをクリア＆霊基再臨3段階目＆絆Lv.5で開放",
+        "overlayClosedMessage": "特異点Fをクリアで開放",
+        "eventId": 80497,
+        "startedAt": 1727773200,
+        "endedAt": 1730386799
       }],
       "phases": [1, 2],
       "phasesWithEnemies": [1, 2],
@@ -98409,12 +98705,12 @@
       "releaseConditions": [{
         "type": "questClear",
         "targetId": 3000531,
-        "closedMessage": "Lostbelt No.5 アトランティスクリア＆霊基再臨3段階目＆絆Lv.3で開放"
+        "closedMessage": "Lostbelt No.5 アトランティスをクリア＆霊基再臨3段階目＆絆Lv.3で開放"
       }, {
         "type": "svtLimit",
         "targetId": 403900,
         "value": 3,
-        "closedMessage": "Lostbelt No.5 アトランティスクリア＆霊基再臨3段階目＆絆Lv.3で開放"
+        "closedMessage": "Lostbelt No.5 アトランティスをクリア＆霊基再臨3段階目＆絆Lv.3で開放"
       }, {
         "type": "svtGet",
         "targetId": 403900
@@ -98422,17 +98718,26 @@
         "type": "svtFriendship",
         "targetId": 403900,
         "value": 3,
-        "closedMessage": "Lostbelt No.5 アトランティスクリア＆霊基再臨3段階目＆絆Lv.3で開放"
+        "closedMessage": "Lostbelt No.5 アトランティスをクリア＆霊基再臨3段階目＆絆Lv.3で開放"
       }],
       "releaseOverwrites": [{
         "priority": 1,
         "condType": "questClear",
         "condId": 3000531,
-        "closedMessage": "Lostbelt No.5 アトランティスクリア＆霊基再臨3段階目＆絆Lv.3で開放",
+        "closedMessage": "Lostbelt No.5 アトランティスをクリア＆霊基再臨3段階目＆絆Lv.3で開放",
         "overlayClosedMessage": "Lostbelt No.5 神代巨神海洋 アトランティスクリアで開放",
         "eventId": 80402,
         "startedAt": 1664355600,
         "endedAt": 1664942399
+      }, {
+        "priority": 2,
+        "condType": "questClear",
+        "condId": 3000531,
+        "closedMessage": "Lostbelt No.5 アトランティスをクリア＆霊基再臨3段階目＆絆Lv.3で開放",
+        "overlayClosedMessage": "Lostbelt No.5 アトランティスをクリアで開放",
+        "eventId": 80497,
+        "startedAt": 1727773200,
+        "endedAt": 1730386799
       }],
       "phases": [1, 2],
       "phasesWithEnemies": [1, 2],
@@ -101176,6 +101481,15 @@
         "eventId": 80402,
         "startedAt": 1664355600,
         "endedAt": 1664942399
+      }, {
+        "priority": 2,
+        "condType": "questClear",
+        "condId": 2000316,
+        "closedMessage": "亜種特異点Ⅲをクリア＆霊基再臨2段階目＆絆Lv.3で開放",
+        "overlayClosedMessage": "亜種特異点Ⅲをクリアで開放",
+        "eventId": 80497,
+        "startedAt": 1727773200,
+        "endedAt": 1730386799
       }],
       "phases": [1, 2, 3],
       "phasesWithEnemies": [1, 2, 3],
@@ -101905,12 +102219,12 @@
       "releaseConditions": [{
         "type": "questClear",
         "targetId": 3000531,
-        "closedMessage": "Lostbelt No.5 アトランティスクリア＆霊基再臨2段階目＆絆Lv.3で開放"
+        "closedMessage": "Lostbelt No.5 アトランティスをクリア＆霊基再臨2段階目＆絆Lv.3で開放"
       }, {
         "type": "svtLimit",
         "targetId": 603800,
         "value": 2,
-        "closedMessage": "Lostbelt No.5 アトランティスクリア＆霊基再臨2段階目＆絆Lv.3で開放"
+        "closedMessage": "Lostbelt No.5 アトランティスをクリア＆霊基再臨2段階目＆絆Lv.3で開放"
       }, {
         "type": "svtGet",
         "targetId": 603800
@@ -101918,17 +102232,26 @@
         "type": "svtFriendship",
         "targetId": 603800,
         "value": 3,
-        "closedMessage": "Lostbelt No.5 アトランティスクリア＆霊基再臨2段階目＆絆Lv.3で開放"
+        "closedMessage": "Lostbelt No.5 アトランティスをクリア＆霊基再臨2段階目＆絆Lv.3で開放"
       }],
       "releaseOverwrites": [{
         "priority": 1,
         "condType": "questClear",
         "condId": 3000531,
-        "closedMessage": "Lostbelt No.5 アトランティスクリア＆霊基再臨2段階目＆絆Lv.3で開放",
+        "closedMessage": "Lostbelt No.5 アトランティスをクリア＆霊基再臨2段階目＆絆Lv.3で開放",
         "overlayClosedMessage": "Lostbelt No.5 神代巨神海洋 アトランティスクリアで開放",
         "eventId": 80402,
         "startedAt": 1664355600,
         "endedAt": 1664942399
+      }, {
+        "priority": 2,
+        "condType": "questClear",
+        "condId": 3000531,
+        "closedMessage": "Lostbelt No.5 アトランティスをクリア＆霊基再臨2段階目＆絆Lv.3で開放",
+        "overlayClosedMessage": "Lostbelt No.5 アトランティスをクリアで開放",
+        "eventId": 80497,
+        "startedAt": 1727773200,
+        "endedAt": 1730386799
       }],
       "phases": [1, 2],
       "phasesWithEnemies": [1, 2],
@@ -103286,6 +103609,15 @@
         "eventId": 80404,
         "startedAt": 1664960400,
         "endedAt": 1665547199
+      }, {
+        "priority": 2,
+        "condType": "questClear",
+        "condId": 3000303,
+        "closedMessage": "Lostbelt No.3 プロローグをクリア＆霊基再臨3段階目＆絆Lv.3で開放",
+        "overlayClosedMessage": "Lostbelt No.3 プロローグをクリアで開放",
+        "eventId": 80497,
+        "startedAt": 1727773200,
+        "endedAt": 1730386799
       }],
       "phases": [1, 2, 3],
       "phasesWithEnemies": [1, 2, 3],
@@ -103423,6 +103755,15 @@
         "eventId": 80402,
         "startedAt": 1664355600,
         "endedAt": 1664942399
+      }, {
+        "priority": 2,
+        "condType": "questClear",
+        "condId": 3000303,
+        "closedMessage": "Lostbelt No.3 プロローグをクリア＆霊基再臨2段階目＆絆Lv.4で開放",
+        "overlayClosedMessage": "Lostbelt No.3 プロローグをクリアで開放",
+        "eventId": 80497,
+        "startedAt": 1727773200,
+        "endedAt": 1730386799
       }],
       "phases": [1, 2, 3, 4],
       "phasesWithEnemies": [1, 2, 3, 4],
