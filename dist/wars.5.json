@@ -136898,6 +136898,52 @@
     "priority": 760
   }, {
     "quest": {
+      "id": 94136510,
+      "name": "第23節 進行度3 スーパーリコレクションクエスト(3/4)",
+      "type": "event",
+      "flags": ["dropFirstTimeOnly", "supportSelectAfterScript", "notRetrievable", "recollection"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "90++",
+      "spotId": 30572,
+      "warId": 9174,
+      "gifts": [{
+        "id": 327,
+        "objectId": 3,
+        "num": 100
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 3000531
+      }, {
+        "type": "questClear",
+        "targetId": 94136509,
+        "closedMessage": "「第23節 進行度3 リコレクションクエスト」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9413651010",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413651010.txt"
+        }, {
+          "scriptId": "9413651011",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413651011.txt"
+        }]
+      }],
+      "priority": 94136491,
+      "noticeAt": 1727946000,
+      "openedAt": 1727946000,
+      "closedAt": 1730386799
+    },
+    "shortcutBanner": "https://static.atlasacademy.io/JP/EventUI/img_questboard_94076902.png",
+    "priority": 900
+  }, {
+    "quest": {
       "id": 94136506,
       "name": "第17節 進行度1 スーパーリコレクションクエスト(2/4)",
       "type": "event",
@@ -136990,6 +137036,52 @@
     "priority": 940
   }, {
     "quest": {
+      "id": 94136511,
+      "name": "第26節 進行度4 リコレクションクエスト(4/4)",
+      "type": "event",
+      "flags": ["dropFirstTimeOnly", "supportSelectAfterScript", "notRetrievable", "recollection"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "90",
+      "spotId": 30574,
+      "warId": 9174,
+      "gifts": [{
+        "id": 12000,
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 3000531
+      }, {
+        "type": "questClear",
+        "targetId": 94136509,
+        "closedMessage": "「第23節 進行度3 リコレクションクエスト」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "「第23節 進行度3 リコレクションクエスト」クリア\n＆10月4日18時00分以降に開放"
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9413651110",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413651110.txt"
+        }, {
+          "scriptId": "9413651111",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413651111.txt"
+        }]
+      }],
+      "priority": 94136490,
+      "noticeAt": 1727946000,
+      "openedAt": 1728032400,
+      "closedAt": 1730386799
+    },
+    "shortcutBanner": "https://static.atlasacademy.io/JP/EventUI/img_questboard_94076902.png",
+    "priority": 950
+  }, {
+    "quest": {
       "id": 94136509,
       "name": "第23節 進行度3 リコレクションクエスト(3/4)",
       "type": "event",
@@ -137017,6 +137109,7 @@
         "closedMessage": "「第17節 進行度1 リコレクションクエスト」クリア\n＆10月3日18時00分以降に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "phaseScripts": [{
         "phase": 1,
         "scripts": [{
