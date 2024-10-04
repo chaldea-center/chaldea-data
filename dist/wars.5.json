@@ -136898,6 +136898,51 @@
     "priority": 760
   }, {
     "quest": {
+      "id": 94136512,
+      "name": "第26節 進行度4 スーパーリコレクションクエスト(4/4)",
+      "type": "event",
+      "flags": ["dropFirstTimeOnly", "supportSelectAfterScript", "notRetrievable", "recollection"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "90++",
+      "spotId": 30574,
+      "warId": 9174,
+      "gifts": [{
+        "id": 327,
+        "objectId": 3,
+        "num": 100
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 3000531
+      }, {
+        "type": "questClear",
+        "targetId": 94136511,
+        "closedMessage": "「第26節 進行度4 リコレクションクエスト」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9413651210",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413651210.txt"
+        }, {
+          "scriptId": "9413651211",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413651211.txt"
+        }]
+      }],
+      "priority": 94136489,
+      "noticeAt": 1728032400,
+      "openedAt": 1728032400,
+      "closedAt": 1730386799
+    },
+    "shortcutBanner": "https://static.atlasacademy.io/JP/EventUI/img_questboard_94076902.png",
+    "priority": 890
+  }, {
+    "quest": {
       "id": 94136510,
       "name": "第23節 進行度3 スーパーリコレクションクエスト(3/4)",
       "type": "event",
