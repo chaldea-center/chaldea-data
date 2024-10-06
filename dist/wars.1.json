@@ -49029,6 +49029,7 @@
         "targetId": 0
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "phaseScripts": [{
         "phase": 1,
         "scripts": [{
@@ -49068,6 +49069,7 @@
         "closedMessage": "「第11節 進行度3 リコレクションクエスト」クリア\n＆10月6日18時00分以降に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "phaseScripts": [{
         "phase": 1,
         "scripts": [{
@@ -49080,6 +49082,48 @@
       }],
       "priority": 94136485,
       "noticeAt": 1728118800,
+      "openedAt": 1728205200,
+      "closedAt": 1730386799
+    }, {
+      "id": 94136524,
+      "name": "第13節 進行度2 スーパーリコレクションクエスト(2/5)",
+      "type": "event",
+      "flags": ["dropFirstTimeOnly", "supportSelectAfterScript", "notRetrievable", "recollection"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "90++",
+      "spotId": 30605,
+      "warId": 306,
+      "gifts": [{
+        "id": 327,
+        "objectId": 3,
+        "num": 100
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 3000628
+      }, {
+        "type": "questClear",
+        "targetId": 94136523,
+        "closedMessage": "「第13節 進行度2 リコレクションクエスト」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9413652410",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413652410.txt"
+        }, {
+          "scriptId": "9413652411",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413652411.txt"
+        }]
+      }],
+      "priority": 94136484,
+      "noticeAt": 1728205200,
       "openedAt": 1728205200,
       "closedAt": 1730386799
     }]
@@ -49883,6 +49927,45 @@
       "noticeAt": 1586347200,
       "openedAt": 1586347200,
       "closedAt": 1893423600
+    }, {
+      "id": 94136527,
+      "name": "第20節 進行度4 リコレクションクエスト(3/5)",
+      "type": "event",
+      "flags": ["dropFirstTimeOnly", "supportSelectAfterScript", "notRetrievable", "recollection"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "85",
+      "spotId": 30612,
+      "warId": 306,
+      "gifts": [{
+        "id": 12000,
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 3000628
+      }, {
+        "type": "questClear",
+        "targetId": 94136523,
+        "closedMessage": "「第13節 進行度2 リコレクションクエスト」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "「第13節 進行度2 リコレクションクエスト」クリア\n＆10月7日18時00分以降に開放"
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9413652710",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413652710.txt"
+        }]
+      }],
+      "priority": 94136481,
+      "noticeAt": 1728205200,
+      "openedAt": 1728291600,
+      "closedAt": 1730386799
     }]
   }, {
     "id": 30613,
