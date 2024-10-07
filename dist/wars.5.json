@@ -136898,6 +136898,49 @@
     "priority": 760
   }, {
     "quest": {
+      "id": 94136528,
+      "name": "第20節 進行度4 スーパーリコレクションクエスト(3/5)",
+      "type": "event",
+      "flags": ["dropFirstTimeOnly", "supportSelectAfterScript", "notRetrievable", "recollection"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "90++",
+      "spotId": 30612,
+      "warId": 9174,
+      "gifts": [{
+        "id": 327,
+        "objectId": 3,
+        "num": 100
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 3000628
+      }, {
+        "type": "questClear",
+        "targetId": 94136527,
+        "closedMessage": "「第20節 進行度4 リコレクションクエスト」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9413652810",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413652810.txt"
+        }]
+      }],
+      "priority": 94136480,
+      "noticeAt": 1728291600,
+      "openedAt": 1728291600,
+      "closedAt": 1730386799
+    },
+    "shortcutBanner": "https://static.atlasacademy.io/JP/EventUI/img_questboard_94077302.png",
+    "priority": 790
+  }, {
+    "quest": {
       "id": 94136524,
       "name": "第13節 進行度2 スーパーリコレクションクエスト(2/5)",
       "type": "event",
@@ -136987,6 +137030,49 @@
     "priority": 820
   }, {
     "quest": {
+      "id": 94136529,
+      "name": "第23節 進行度2 リコレクションクエスト(4/5)",
+      "type": "event",
+      "flags": ["dropFirstTimeOnly", "supportSelectAfterScript", "notRetrievable", "recollection"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "90",
+      "spotId": 30680,
+      "warId": 9174,
+      "gifts": [{
+        "id": 12000,
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 3000628
+      }, {
+        "type": "questClear",
+        "targetId": 94136527,
+        "closedMessage": "「第20節 進行度4 リコレクションクエスト」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "「第20節 進行度4 リコレクションクエスト」クリア\n＆10月8日18時00分以降に開放"
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9413652910",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413652910.txt"
+        }]
+      }],
+      "priority": 94136479,
+      "noticeAt": 1728291600,
+      "openedAt": 1728378000,
+      "closedAt": 1730386799
+    },
+    "shortcutBanner": "https://static.atlasacademy.io/JP/EventUI/img_questboard_94077302.png",
+    "priority": 840
+  }, {
+    "quest": {
       "id": 94136527,
       "name": "第20節 進行度4 リコレクションクエスト(3/5)",
       "type": "event",
@@ -137014,6 +137100,7 @@
         "closedMessage": "「第13節 進行度2 リコレクションクエスト」クリア\n＆10月7日18時00分以降に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "phaseScripts": [{
         "phase": 1,
         "scripts": [{
