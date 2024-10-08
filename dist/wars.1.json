@@ -50457,6 +50457,7 @@
         "closedMessage": "「第20節 進行度4 リコレクションクエスト」クリア\n＆10月8日18時00分以降に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "phaseScripts": [{
         "phase": 1,
         "scripts": [{
@@ -50467,6 +50468,86 @@
       "priority": 94136479,
       "noticeAt": 1728291600,
       "openedAt": 1728378000,
+      "closedAt": 1730386799
+    }, {
+      "id": 94136530,
+      "name": "第23節 進行度2 スーパーリコレクションクエスト(4/5)",
+      "type": "event",
+      "flags": ["dropFirstTimeOnly", "supportSelectAfterScript", "notRetrievable", "recollection"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "90++",
+      "spotId": 30680,
+      "warId": 306,
+      "gifts": [{
+        "id": 327,
+        "objectId": 3,
+        "num": 100
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 3000628
+      }, {
+        "type": "questClear",
+        "targetId": 94136529,
+        "closedMessage": "「第23節 進行度2 リコレクションクエスト」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9413653010",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413653010.txt"
+        }]
+      }],
+      "priority": 94136478,
+      "noticeAt": 1728378000,
+      "openedAt": 1728378000,
+      "closedAt": 1730386799
+    }, {
+      "id": 94136531,
+      "name": "第23節 進行度3 リコレクションクエスト(5/5)",
+      "type": "event",
+      "flags": ["dropFirstTimeOnly", "supportSelectAfterScript", "notRetrievable", "recollection"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "90",
+      "spotId": 30680,
+      "warId": 306,
+      "gifts": [{
+        "id": 12000,
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 3000628
+      }, {
+        "type": "questClear",
+        "targetId": 94136529,
+        "closedMessage": "「第23節 進行度2 リコレクションクエスト」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "「第23節 進行度2 リコレクションクエスト」クリア\n＆10月9日18時00分以降に開放"
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9413653110",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413653110.txt"
+        }, {
+          "scriptId": "9413653111",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413653111.txt"
+        }]
+      }],
+      "priority": 94136477,
+      "noticeAt": 1728378000,
+      "openedAt": 1728464400,
       "closedAt": 1730386799
     }]
   }],
