@@ -2505,7 +2505,7 @@
   "atkMax": 6857,
   "hpBase": 1642,
   "hpMax": 9123,
-  "relateQuestIds": [91501601],
+  "relateQuestIds": [91501601, 94136204],
   "growthCurve": 3,
   "bondGrowth": [3500, 12000, 19000, 25000, 27500, 270000, 570000, 850000, 1120000, 1377000, 2467000, 3697000, 5057000, 6557000, 8197000],
   "bondEquip": 9301070,
@@ -2830,7 +2830,17 @@
     "id": 194450,
     "num": 3,
     "svtId": 501600,
+    "strengthStatus": 1,
     "priority": 1,
+    "condLimitCount": 3
+  }, {
+    "id": 194551,
+    "num": 3,
+    "svtId": 501600,
+    "strengthStatus": 99,
+    "priority": 2,
+    "condQuestId": 94136204,
+    "condQuestPhase": 3,
     "condLimitCount": 3
   }],
   "classPassive": [{
@@ -2921,6 +2931,15 @@
       "eventId": 80462,
       "startedAt": 1709715600,
       "endedAt": 1711511999
+    }]
+  }, {
+    "id": 940350,
+    "extraPassive": [{
+      "num": 16,
+      "priority": 208,
+      "eventId": 80490,
+      "startedAt": 1729076400,
+      "endedAt": 1730865599
     }]
   }, {
     "id": 960502,
@@ -5997,6 +6016,15 @@
       "endedAt": 1719547199
     }]
   }, {
+    "id": 940351,
+    "extraPassive": [{
+      "num": 16,
+      "priority": 208,
+      "eventId": 80490,
+      "startedAt": 1729076400,
+      "endedAt": 1730865599
+    }]
+  }, {
     "id": 960502,
     "extraPassive": [{
       "num": 10,
@@ -6728,6 +6756,15 @@
       "eventId": 80462,
       "startedAt": 1709715600,
       "endedAt": 1711511999
+    }]
+  }, {
+    "id": 940351,
+    "extraPassive": [{
+      "num": 16,
+      "priority": 208,
+      "eventId": 80490,
+      "startedAt": 1729076400,
+      "endedAt": 1730865599
     }]
   }, {
     "id": 960502,
@@ -16104,6 +16141,15 @@
       "eventId": 80485,
       "startedAt": 1723633200,
       "endedAt": 1727841599
+    }]
+  }, {
+    "id": 940351,
+    "extraPassive": [{
+      "num": 16,
+      "priority": 208,
+      "eventId": 80490,
+      "startedAt": 1729076400,
+      "endedAt": 1730865599
     }]
   }, {
     "id": 960502,
@@ -48156,6 +48202,8 @@
   }, {
     "id": 2850
   }, {
+    "id": 2925
+  }, {
     "id": 5000
   }, {
     "id": 1000200
@@ -48649,6 +48697,15 @@
       "endedAt": 1719547199
     }]
   }, {
+    "id": 940351,
+    "extraPassive": [{
+      "num": 16,
+      "priority": 208,
+      "eventId": 80490,
+      "startedAt": 1729076400,
+      "endedAt": 1730865599
+    }]
+  }, {
     "id": 960502,
     "extraPassive": [{
       "num": 10,
@@ -48934,6 +48991,8 @@
     "id": 2835
   }, {
     "id": 2850
+  }, {
+    "id": 2925
   }, {
     "id": 5000
   }, {
@@ -49490,6 +49549,15 @@
       "eventId": 80485,
       "startedAt": 1723633200,
       "endedAt": 1727841599
+    }]
+  }, {
+    "id": 940351,
+    "extraPassive": [{
+      "num": 16,
+      "priority": 208,
+      "eventId": 80490,
+      "startedAt": 1729076400,
+      "endedAt": 1730865599
     }]
   }, {
     "id": 960502,
@@ -50527,6 +50595,8 @@
   }, {
     "id": 2850
   }, {
+    "id": 2925
+  }, {
     "id": 5000
   }, {
     "id": 2300100
@@ -51011,6 +51081,15 @@
       "eventId": 80476,
       "startedAt": 1717750800,
       "endedAt": 1719547199
+    }]
+  }, {
+    "id": 940351,
+    "extraPassive": [{
+      "num": 16,
+      "priority": 208,
+      "eventId": 80490,
+      "startedAt": 1729076400,
+      "endedAt": 1730865599
     }]
   }, {
     "id": 960502,
@@ -66832,7 +66911,7 @@
   "atkMax": 9999,
   "hpBase": 1781,
   "hpMax": 11135,
-  "relateQuestIds": [91103201, 94054990],
+  "relateQuestIds": [91103201, 94054990, 94136202],
   "growthCurve": 4,
   "bondGrowth": [5000, 20000, 30000, 32000, 50000, 200000, 600000, 900000, 1180000, 1550000, 2640000, 3870000, 5230000, 6730000, 8370000],
   "bondEquip": 9302450,
@@ -67299,6 +67378,15 @@
       "endedAt": 1711511999
     }]
   }, {
+    "id": 940350,
+    "extraPassive": [{
+      "num": 16,
+      "priority": 208,
+      "eventId": 80490,
+      "startedAt": 1729076400,
+      "endedAt": 1730865599
+    }]
+  }, {
     "id": 960502,
     "extraPassive": [{
       "num": 10,
@@ -67453,8 +67541,18 @@
   }],
   "noblePhantasms": [{
     "id": 103201,
+    "npNum": 2,
     "svtId": 103200,
+    "strengthStatus": 1,
     "priority": 101
+  }, {
+    "id": 103202,
+    "npNum": 2,
+    "svtId": 103200,
+    "strengthStatus": 99,
+    "priority": 102,
+    "condQuestId": 94136202,
+    "condQuestPhase": 3
   }],
   "profile": {
     "cv": "山路和弘",
