@@ -135822,6 +135822,7 @@
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "phaseScripts": [{
         "phase": 1,
         "scripts": [{
@@ -135847,7 +135848,77 @@
     "imageOfsY": 32,
     "nameOfsY": 18,
     "questOfsX": 47,
-    "questOfsY": -64
+    "questOfsY": -64,
+    "quests": [{
+      "id": 94101203,
+      "name": "第3節 パパチェック３／クリーンアップ大作戦",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "70",
+      "spotId": 917204,
+      "warId": 9172,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94101202
+      }, {
+        "type": "questClear",
+        "targetId": 94101552,
+        "closedMessage": "ミッションNo.4達成で開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9410120310",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9410/9410120310.txt"
+        }, {
+          "scriptId": "9410120311",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9410/9410120311.txt"
+        }]
+      }],
+      "priority": 94101196,
+      "noticeAt": 1729155600,
+      "openedAt": 1729155600,
+      "closedAt": 1730865599
+    }, {
+      "id": 94101304,
+      "name": "特訓 効率的な掃除方法を考えよう",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "80",
+      "spotId": 917204,
+      "warId": 9172,
+      "gifts": [{
+        "id": 12000,
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94101203
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "priority": 94101155,
+      "noticeAt": 1729155600,
+      "openedAt": 1729155600,
+      "closedAt": 1730865599
+    }]
   }, {
     "id": 917205,
     "mapId": 9172,
@@ -135858,7 +135929,58 @@
     "imageOfsY": 32,
     "nameOfsY": 18,
     "questOfsX": 47,
-    "questOfsY": -64
+    "questOfsY": -64,
+    "quests": [{
+      "id": 94101204,
+      "name": "第4節 パパチェック４／熱気と蒸気の間に",
+      "type": "main",
+      "flags": ["noContinue"],
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "75",
+      "spotId": 917205,
+      "warId": 9172,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94101203
+      }, {
+        "type": "questClear",
+        "targetId": 94101501,
+        "closedMessage": "バトルマス：書斎に潜むナゾを解け！クリア\n＆10月18日18時00分に開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "eventMissionAchieve",
+        "targetId": 80490005,
+        "closedMessage": "ミッションNo.5達成\n＆10月18日18時00分に開放"
+      }],
+      "phases": [1, 2],
+      "phasesNoBattle": [2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9410120410",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9410/9410120410.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9410120420",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9410/9410120420.txt"
+        }]
+      }],
+      "priority": 94101195,
+      "noticeAt": 1729155600,
+      "openedAt": 1729242000,
+      "closedAt": 1730865599
+    }]
   }, {
     "id": 917206,
     "mapId": 9172,
@@ -135935,7 +136057,46 @@
     "x": 592.0,
     "y": 1274.0,
     "questOfsX": 37,
-    "questOfsY": -57
+    "questOfsY": -57,
+    "quests": [{
+      "id": 94101552,
+      "name": "",
+      "type": "autoExecute",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 917212,
+      "warId": 9172,
+      "gifts": [{
+        "id": 94101208,
+        "objectId": 1,
+        "num": 3000000,
+        "giftAdds": [{
+          "priority": 1,
+          "replacementGiftIcon": "https://static.atlasacademy.io/JP/Items/0.png",
+          "condType": "questClear",
+          "targetId": 94101200,
+          "targetNum": 1,
+          "replacementGifts": [{
+            "id": 94101208,
+            "objectId": 1,
+            "priority": 0,
+            "num": 3000000
+          }]
+        }]
+      }],
+      "releaseConditions": [{
+        "type": "eventMissionAchieve",
+        "targetId": 80490004
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94101109,
+      "noticeAt": 1729155600,
+      "openedAt": 1729155600,
+      "closedAt": 1730865599
+    }]
   }, {
     "id": 917213,
     "mapId": 9172,
@@ -135946,7 +136107,35 @@
     "imageOfsY": 32,
     "nameOfsY": 8,
     "questOfsX": 37,
-    "questOfsY": -57
+    "questOfsY": -57,
+    "quests": [{
+      "id": 94101501,
+      "name": "バトルマス：書斎に潜むナゾを解け！",
+      "type": "event",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "70",
+      "spotId": 917213,
+      "warId": 9172,
+      "gifts": [{
+        "id": 309,
+        "objectId": 3,
+        "num": 10
+      }],
+      "releaseConditions": [{
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "eventMissionAchieve",
+        "targetId": 80490005
+      }],
+      "phases": [1],
+      "priority": 94101299,
+      "noticeAt": 1729155600,
+      "openedAt": 1729155600,
+      "closedAt": 1730865599
+    }]
   }, {
     "id": 917214,
     "mapId": 9172,
