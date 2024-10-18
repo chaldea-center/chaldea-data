@@ -135634,7 +135634,44 @@
     "imageOfsY": 32,
     "nameOfsY": 18,
     "questOfsX": 47,
-    "questOfsY": -64
+    "questOfsY": -64,
+    "quests": [{
+      "id": 94101207,
+      "name": "第7節 小さな虫の些細な贈り物",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 917201,
+      "warId": 9172,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94101206
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9410120710",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9410/9410120710.txt"
+        }]
+      }],
+      "priority": 94101192,
+      "noticeAt": 1729242000,
+      "openedAt": 1729328400,
+      "closedAt": 1730865599
+    }]
   }, {
     "id": 917202,
     "mapId": 9172,
@@ -135964,6 +136001,7 @@
         "closedMessage": "ミッションNo.5達成\n＆10月18日18時00分に開放"
       }],
       "phases": [1, 2],
+      "phasesWithEnemies": [1],
       "phasesNoBattle": [2],
       "phaseScripts": [{
         "phase": 1,
@@ -135993,7 +136031,81 @@
     "imageOfsY": 32,
     "nameOfsY": 18,
     "questOfsX": 47,
-    "questOfsY": -64
+    "questOfsY": -64,
+    "quests": [{
+      "id": 94101205,
+      "name": "第5節 パパチェック５／プレゼント・フォー・ミー",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "75",
+      "spotId": 917206,
+      "warId": 9172,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94101204
+      }, {
+        "type": "questClear",
+        "targetId": 94101553,
+        "closedMessage": "ミッションNo.6達成で開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1, 2],
+      "phasesNoBattle": [2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9410120510",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9410/9410120510.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9410120520",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9410/9410120520.txt"
+        }]
+      }],
+      "priority": 94101194,
+      "noticeAt": 1729242000,
+      "openedAt": 1729242000,
+      "closedAt": 1730865599
+    }, {
+      "id": 94101305,
+      "name": "特訓 プレゼント選びは慎重に",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "80",
+      "spotId": 917206,
+      "warId": 9172,
+      "gifts": [{
+        "id": 12000,
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94101205
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "priority": 94101154,
+      "noticeAt": 1729242000,
+      "openedAt": 1729242000,
+      "closedAt": 1730865599
+    }]
   }, {
     "id": 917207,
     "mapId": 9172,
@@ -136004,7 +136116,52 @@
     "imageOfsY": 32,
     "nameOfsY": 18,
     "questOfsX": 47,
-    "questOfsY": -64
+    "questOfsY": -64,
+    "quests": [{
+      "id": 94101206,
+      "name": "第6節 フィニッシュライン（仮）",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 917207,
+      "warId": 9172,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94101205
+      }, {
+        "type": "questClear",
+        "targetId": 94101502,
+        "closedMessage": "バトルマス：呪われしおもちゃを祓え！\nクリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "eventMissionAchieve",
+        "targetId": 80490007,
+        "closedMessage": "ミッションNo.7達成で開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9410120610",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9410/9410120610.txt"
+        }]
+      }],
+      "priority": 94101193,
+      "noticeAt": 1729242000,
+      "openedAt": 1729242000,
+      "closedAt": 1730865599
+    }]
   }, {
     "id": 917211,
     "mapId": 9172,
@@ -136146,7 +136303,46 @@
     "x": 1232.0,
     "y": 868.0,
     "questOfsX": 37,
-    "questOfsY": -57
+    "questOfsY": -57,
+    "quests": [{
+      "id": 94101553,
+      "name": "",
+      "type": "autoExecute",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 917214,
+      "warId": 9172,
+      "gifts": [{
+        "id": 94101209,
+        "objectId": 6520,
+        "num": 5,
+        "giftAdds": [{
+          "priority": 1,
+          "replacementGiftIcon": "https://static.atlasacademy.io/JP/Items/0.png",
+          "condType": "questClear",
+          "targetId": 94101200,
+          "targetNum": 1,
+          "replacementGifts": [{
+            "id": 94101209,
+            "objectId": 6520,
+            "priority": 0,
+            "num": 5
+          }]
+        }]
+      }],
+      "releaseConditions": [{
+        "type": "eventMissionAchieve",
+        "targetId": 80490006
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94101108,
+      "noticeAt": 1729242000,
+      "openedAt": 1729242000,
+      "closedAt": 1730865599
+    }]
   }, {
     "id": 917215,
     "mapId": 9172,
@@ -136157,7 +136353,35 @@
     "imageOfsY": 32,
     "nameOfsY": 8,
     "questOfsX": 37,
-    "questOfsY": -57
+    "questOfsY": -57,
+    "quests": [{
+      "id": 94101502,
+      "name": "バトルマス：呪われしおもちゃを祓え！",
+      "type": "event",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "75",
+      "spotId": 917215,
+      "warId": 9172,
+      "gifts": [{
+        "id": 319,
+        "objectId": 3,
+        "num": 20
+      }],
+      "releaseConditions": [{
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "eventMissionAchieve",
+        "targetId": 80490007
+      }],
+      "phases": [1],
+      "priority": 94101298,
+      "noticeAt": 1729242000,
+      "openedAt": 1729242000,
+      "closedAt": 1730865599
+    }]
   }, {
     "id": 917216,
     "mapId": 9172,
