@@ -135734,6 +135734,52 @@
       "openedAt": 1729076400,
       "closedAt": 1730865599
     }, {
+      "id": 94101208,
+      "name": "第8節 2nd LAP A／第一の助っ人",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "75",
+      "spotId": 917202,
+      "warId": 9172,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94101207
+      }, {
+        "type": "questClear",
+        "targetId": 94101554,
+        "closedMessage": "ミッションNo.8達成で開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1, 2],
+      "phasesWithEnemies": [1],
+      "phasesNoBattle": [2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9410120810",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9410/9410120810.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9410120820",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9410/9410120820.txt"
+        }]
+      }],
+      "priority": 94101191,
+      "noticeAt": 1729328400,
+      "openedAt": 1729328400,
+      "closedAt": 1730865599
+    }, {
       "id": 94101301,
       "name": "特訓 優しいパパを目指して",
       "type": "event",
@@ -135820,6 +135866,35 @@
       "noticeAt": 1729076400,
       "openedAt": 1729076400,
       "closedAt": 1730865599
+    }, {
+      "id": 94101306,
+      "name": "特訓 最高の食材を求めて",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "80",
+      "spotId": 917202,
+      "warId": 9172,
+      "gifts": [{
+        "id": 12000,
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94101208
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94101153,
+      "noticeAt": 1729328400,
+      "openedAt": 1729328400,
+      "closedAt": 1730865599
     }]
   }, {
     "id": 917203,
@@ -135873,6 +135948,51 @@
       "priority": 94101197,
       "noticeAt": 1729076400,
       "openedAt": 1729155600,
+      "closedAt": 1730865599
+    }, {
+      "id": 94101209,
+      "name": "第9節 2nd LAP B／火は静かに揺らめいている",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "80",
+      "spotId": 917203,
+      "warId": 9172,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94101208
+      }, {
+        "type": "questClear",
+        "targetId": 94101555,
+        "closedMessage": "ミッションNo.9達成\n＆10月20日18時00分に開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1, 2],
+      "phasesNoBattle": [2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9410120910",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9410/9410120910.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9410120920",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9410/9410120920.txt"
+        }]
+      }],
+      "priority": 94101190,
+      "noticeAt": 1729328400,
+      "openedAt": 1729414800,
       "closedAt": 1730865599
     }]
   }, {
@@ -136059,6 +136179,7 @@
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
       }],
       "phases": [1, 2],
+      "phasesWithEnemies": [1],
       "phasesNoBattle": [2],
       "phaseScripts": [{
         "phase": 1,
@@ -136101,6 +136222,7 @@
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94101154,
       "noticeAt": 1729242000,
       "openedAt": 1729242000,
@@ -136377,6 +136499,7 @@
         "targetId": 80490007
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94101298,
       "noticeAt": 1729242000,
       "openedAt": 1729242000,
@@ -136389,7 +136512,28 @@
     "x": 844.0,
     "y": 591.0,
     "questOfsX": 37,
-    "questOfsY": -57
+    "questOfsY": -57,
+    "quests": [{
+      "id": 94101554,
+      "name": "",
+      "type": "autoExecute",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 917216,
+      "warId": 9172,
+      "releaseConditions": [{
+        "type": "eventMissionAchieve",
+        "targetId": 80490008
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94101107,
+      "noticeAt": 1729328400,
+      "openedAt": 1729328400,
+      "closedAt": 1730865599
+    }]
   }, {
     "id": 917217,
     "mapId": 9172,
@@ -136397,7 +136541,28 @@
     "x": 589.0,
     "y": 876.0,
     "questOfsX": 37,
-    "questOfsY": -57
+    "questOfsY": -57,
+    "quests": [{
+      "id": 94101555,
+      "name": "",
+      "type": "autoExecute",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 917217,
+      "warId": 9172,
+      "releaseConditions": [{
+        "type": "eventMissionAchieve",
+        "targetId": 80490009
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94101106,
+      "noticeAt": 1729328400,
+      "openedAt": 1729328400,
+      "closedAt": 1730865599
+    }]
   }, {
     "id": 917218,
     "mapId": 9172,
