@@ -135895,6 +135895,26 @@
       "noticeAt": 1729328400,
       "openedAt": 1729328400,
       "closedAt": 1730865599
+    }, {
+      "id": 94101565,
+      "name": "",
+      "type": "autoExecute",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 917202,
+      "warId": 9172,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94101557
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94101100,
+      "noticeAt": 1729414800,
+      "openedAt": 1729414800,
+      "closedAt": 1730865599
     }]
   }, {
     "id": 917203,
@@ -135976,6 +135996,7 @@
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
       }],
       "phases": [1, 2],
+      "phasesWithEnemies": [1],
       "phasesNoBattle": [2],
       "phaseScripts": [{
         "phase": 1,
@@ -135993,6 +136014,47 @@
       "priority": 94101190,
       "noticeAt": 1729328400,
       "openedAt": 1729414800,
+      "closedAt": 1730865599
+    }, {
+      "id": 94101212,
+      "name": "第12節 3rd LAP A／子らが笑む場所",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "80",
+      "spotId": 917203,
+      "warId": 9172,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94101211
+      }, {
+        "type": "questClear",
+        "targetId": 94101557,
+        "closedMessage": "ミッションNo.12達成\n＆10月21日18時00分に開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9410121210",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9410/9410121210.txt"
+        }, {
+          "scriptId": "9410121211",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9410/9410121211.txt"
+        }]
+      }],
+      "priority": 94101187,
+      "noticeAt": 1729414800,
+      "openedAt": 1729501200,
       "closedAt": 1730865599
     }]
   }, {
@@ -136077,6 +136139,26 @@
       "noticeAt": 1729155600,
       "openedAt": 1729155600,
       "closedAt": 1730865599
+    }, {
+      "id": 94101564,
+      "name": "",
+      "type": "autoExecute",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 917204,
+      "warId": 9172,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94101556
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94101101,
+      "noticeAt": 1729414800,
+      "openedAt": 1729414800,
+      "closedAt": 1730865599
     }]
   }, {
     "id": 917205,
@@ -136139,6 +136221,76 @@
       "priority": 94101195,
       "noticeAt": 1729155600,
       "openedAt": 1729242000,
+      "closedAt": 1730865599
+    }, {
+      "id": 94101210,
+      "name": "第10節 2nd LAP Ｃ／彼女は何を視るか",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "80",
+      "spotId": 917205,
+      "warId": 9172,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94101209
+      }, {
+        "type": "questClear",
+        "targetId": 94101556,
+        "closedMessage": "ミッションNo.10達成で開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9410121010",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9410/9410121010.txt"
+        }, {
+          "scriptId": "9410121011",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9410/9410121011.txt"
+        }]
+      }],
+      "priority": 94101189,
+      "noticeAt": 1729414800,
+      "openedAt": 1729414800,
+      "closedAt": 1730865599
+    }, {
+      "id": 94101307,
+      "name": "特訓 健康的でととのった身体へ",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90",
+      "spotId": 917205,
+      "warId": 9172,
+      "gifts": [{
+        "id": 12000,
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94101210
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "priority": 94101152,
+      "noticeAt": 1729414800,
+      "openedAt": 1729414800,
       "closedAt": 1730865599
     }]
   }, {
@@ -136282,6 +136434,50 @@
       "priority": 94101193,
       "noticeAt": 1729242000,
       "openedAt": 1729242000,
+      "closedAt": 1730865599
+    }, {
+      "id": 94101211,
+      "name": "第11節 バック・トゥ・スクエア・ワン",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 917207,
+      "warId": 9172,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94101210
+      }, {
+        "type": "questClear",
+        "targetId": 94101503,
+        "closedMessage": "バトルマス：ハジケる！ バブル・パーティー\nクリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "eventMissionAchieve",
+        "targetId": 80490011,
+        "closedMessage": "ミッションNo.11達成で開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9410121110",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9410/9410121110.txt"
+        }]
+      }],
+      "priority": 94101188,
+      "noticeAt": 1729414800,
+      "openedAt": 1729414800,
       "closedAt": 1730865599
     }]
   }, {
@@ -136570,7 +136766,46 @@
     "x": 488.0,
     "y": 1366.0,
     "questOfsX": 37,
-    "questOfsY": -57
+    "questOfsY": -57,
+    "quests": [{
+      "id": 94101556,
+      "name": "",
+      "type": "autoExecute",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 917218,
+      "warId": 9172,
+      "gifts": [{
+        "id": 94101210,
+        "objectId": 6547,
+        "num": 5,
+        "giftAdds": [{
+          "priority": 1,
+          "replacementGiftIcon": "https://static.atlasacademy.io/JP/Items/0.png",
+          "condType": "questClear",
+          "targetId": 94101200,
+          "targetNum": 1,
+          "replacementGifts": [{
+            "id": 94101210,
+            "objectId": 6547,
+            "priority": 0,
+            "num": 5
+          }]
+        }]
+      }],
+      "releaseConditions": [{
+        "type": "eventMissionAchieve",
+        "targetId": 80490010
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94101105,
+      "noticeAt": 1729414800,
+      "openedAt": 1729414800,
+      "closedAt": 1730865599
+    }]
   }, {
     "id": 917219,
     "mapId": 9172,
@@ -136581,7 +136816,35 @@
     "imageOfsY": 32,
     "nameOfsY": 8,
     "questOfsX": 37,
-    "questOfsY": -57
+    "questOfsY": -57,
+    "quests": [{
+      "id": 94101503,
+      "name": "バトルマス：ハジケる！ バブル・パーティー",
+      "type": "event",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "80",
+      "spotId": 917219,
+      "warId": 9172,
+      "gifts": [{
+        "id": 320,
+        "objectId": 3,
+        "num": 30
+      }],
+      "releaseConditions": [{
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "eventMissionAchieve",
+        "targetId": 80490011
+      }],
+      "phases": [1],
+      "priority": 94101297,
+      "noticeAt": 1729414800,
+      "openedAt": 1729414800,
+      "closedAt": 1730865599
+    }]
   }, {
     "id": 917220,
     "mapId": 9172,
@@ -136589,7 +136852,46 @@
     "x": 725.0,
     "y": 577.0,
     "questOfsX": 37,
-    "questOfsY": -57
+    "questOfsY": -57,
+    "quests": [{
+      "id": 94101557,
+      "name": "",
+      "type": "autoExecute",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 917220,
+      "warId": 9172,
+      "gifts": [{
+        "id": 94101211,
+        "objectId": 6522,
+        "num": 5,
+        "giftAdds": [{
+          "priority": 1,
+          "replacementGiftIcon": "https://static.atlasacademy.io/JP/Items/0.png",
+          "condType": "questClear",
+          "targetId": 94101200,
+          "targetNum": 1,
+          "replacementGifts": [{
+            "id": 94101211,
+            "objectId": 6522,
+            "priority": 0,
+            "num": 5
+          }]
+        }]
+      }],
+      "releaseConditions": [{
+        "type": "eventMissionAchieve",
+        "targetId": 80490012
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94101104,
+      "noticeAt": 1729414800,
+      "openedAt": 1729414800,
+      "closedAt": 1730865599
+    }]
   }, {
     "id": 917221,
     "mapId": 9172,
