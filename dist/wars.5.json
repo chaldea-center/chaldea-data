@@ -135780,6 +135780,41 @@
       "openedAt": 1729328400,
       "closedAt": 1730865599
     }, {
+      "id": 94101215,
+      "name": "",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "85",
+      "spotId": 917202,
+      "warId": 9172,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94101214
+      }, {
+        "type": "questClear",
+        "targetId": 94101559,
+        "closedMessage": "ミッションNo.15達成\n＆10月22日18時00分に開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "forceFalse",
+        "targetId": 0,
+        "closedMessage": "データ更新後に開放"
+      }],
+      "phases": [1],
+      "priority": 94101184,
+      "noticeAt": 1729501200,
+      "openedAt": 1729587600,
+      "closedAt": 1730865599
+    }, {
       "id": 94101301,
       "name": "特訓 優しいパパを目指して",
       "type": "event",
@@ -136042,6 +136077,7 @@
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "phaseScripts": [{
         "phase": 1,
         "scripts": [{
@@ -136054,6 +136090,35 @@
       }],
       "priority": 94101187,
       "noticeAt": 1729414800,
+      "openedAt": 1729501200,
+      "closedAt": 1730865599
+    }, {
+      "id": 94101308,
+      "name": "特訓 最速の称号を手に入れるために",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90",
+      "spotId": 917203,
+      "warId": 9172,
+      "gifts": [{
+        "id": 12000,
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94101212
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94101151,
+      "noticeAt": 1729501200,
       "openedAt": 1729501200,
       "closedAt": 1730865599
     }]
@@ -136159,6 +136224,26 @@
       "noticeAt": 1729414800,
       "openedAt": 1729414800,
       "closedAt": 1730865599
+    }, {
+      "id": 94101566,
+      "name": "",
+      "type": "autoExecute",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 917204,
+      "warId": 9172,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94101558
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94101099,
+      "noticeAt": 1729501200,
+      "openedAt": 1729501200,
+      "closedAt": 1730865599
     }]
   }, {
     "id": 917205,
@@ -136263,6 +136348,48 @@
       "priority": 94101189,
       "noticeAt": 1729414800,
       "openedAt": 1729414800,
+      "closedAt": 1730865599
+    }, {
+      "id": 94101213,
+      "name": "第13節 3rd LAP B／狩人の目",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "80",
+      "spotId": 917205,
+      "warId": 9172,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94101212
+      }, {
+        "type": "questClear",
+        "targetId": 94101558,
+        "closedMessage": "ミッションNo.13達成で開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9410121310",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9410/9410121310.txt"
+        }, {
+          "scriptId": "9410121311",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9410/9410121311.txt"
+        }]
+      }],
+      "priority": 94101186,
+      "noticeAt": 1729501200,
+      "openedAt": 1729501200,
       "closedAt": 1730865599
     }, {
       "id": 94101307,
@@ -136479,6 +136606,50 @@
       "priority": 94101188,
       "noticeAt": 1729414800,
       "openedAt": 1729414800,
+      "closedAt": 1730865599
+    }, {
+      "id": 94101214,
+      "name": "第14節 ラストラップで会いましょう",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 917207,
+      "warId": 9172,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94101213
+      }, {
+        "type": "questClear",
+        "targetId": 94101504,
+        "closedMessage": "バトルマス：通路でひんやり一休み\nクリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "eventMissionAchieve",
+        "targetId": 80490014,
+        "closedMessage": "ミッションNo.14達成で開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9410121410",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9410/9410121410.txt"
+        }]
+      }],
+      "priority": 94101185,
+      "noticeAt": 1729501200,
+      "openedAt": 1729501200,
       "closedAt": 1730865599
     }]
   }, {
@@ -136901,7 +137072,46 @@
     "x": 812.0,
     "y": 1325.0,
     "questOfsX": 37,
-    "questOfsY": -57
+    "questOfsY": -57,
+    "quests": [{
+      "id": 94101558,
+      "name": "",
+      "type": "autoExecute",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 917221,
+      "warId": 9172,
+      "gifts": [{
+        "id": 94101212,
+        "objectId": 6511,
+        "num": 5,
+        "giftAdds": [{
+          "priority": 1,
+          "replacementGiftIcon": "https://static.atlasacademy.io/JP/Items/0.png",
+          "condType": "questClear",
+          "targetId": 94101200,
+          "targetNum": 1,
+          "replacementGifts": [{
+            "id": 94101212,
+            "objectId": 6511,
+            "priority": 0,
+            "num": 5
+          }]
+        }]
+      }],
+      "releaseConditions": [{
+        "type": "eventMissionAchieve",
+        "targetId": 80490013
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94101103,
+      "noticeAt": 1729501200,
+      "openedAt": 1729501200,
+      "closedAt": 1730865599
+    }]
   }, {
     "id": 917222,
     "mapId": 9172,
@@ -136912,7 +137122,35 @@
     "imageOfsY": 32,
     "nameOfsY": 8,
     "questOfsX": 37,
-    "questOfsY": -57
+    "questOfsY": -57,
+    "quests": [{
+      "id": 94101504,
+      "name": "バトルマス：通路でひんやり一休み",
+      "type": "event",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "80",
+      "spotId": 917222,
+      "warId": 9172,
+      "gifts": [{
+        "id": 321,
+        "objectId": 3,
+        "num": 40
+      }],
+      "releaseConditions": [{
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "eventMissionAchieve",
+        "targetId": 80490014
+      }],
+      "phases": [1],
+      "priority": 94101296,
+      "noticeAt": 1729501200,
+      "openedAt": 1729501200,
+      "closedAt": 1730865599
+    }]
   }, {
     "id": 917223,
     "mapId": 9172,
@@ -136920,7 +137158,46 @@
     "x": 896.0,
     "y": 657.0,
     "questOfsX": 37,
-    "questOfsY": -57
+    "questOfsY": -57,
+    "quests": [{
+      "id": 94101559,
+      "name": "",
+      "type": "autoExecute",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 917223,
+      "warId": 9172,
+      "gifts": [{
+        "id": 94101213,
+        "objectId": 6513,
+        "num": 5,
+        "giftAdds": [{
+          "priority": 1,
+          "replacementGiftIcon": "https://static.atlasacademy.io/JP/Items/0.png",
+          "condType": "questClear",
+          "targetId": 94101200,
+          "targetNum": 1,
+          "replacementGifts": [{
+            "id": 94101213,
+            "objectId": 6513,
+            "priority": 0,
+            "num": 5
+          }]
+        }]
+      }],
+      "releaseConditions": [{
+        "type": "eventMissionAchieve",
+        "targetId": 80490015
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94101102,
+      "noticeAt": 1729501200,
+      "openedAt": 1729501200,
+      "closedAt": 1730865599
+    }]
   }, {
     "id": 917224,
     "mapId": 9172,
