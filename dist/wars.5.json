@@ -135781,7 +135781,7 @@
       "closedAt": 1730865599
     }, {
       "id": 94101215,
-      "name": "",
+      "name": "第15節 パパチェック１／完全なる料理",
       "type": "main",
       "consume": 5,
       "afterClear": "close",
@@ -135794,6 +135794,9 @@
         "num": 1
       }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 94101214
       }, {
@@ -135804,13 +135807,20 @@
         "type": "date",
         "targetId": 0,
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
-      }, {
-        "type": "forceFalse",
-        "targetId": 0,
-        "closedMessage": "データ更新後に開放"
       }],
       "phases": [1],
-      "priority": 94101184,
+      "phasesWithEnemies": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9410121510",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9410/9410121510.txt"
+        }, {
+          "scriptId": "9410121511",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9410/9410121511.txt"
+        }]
+      }],
+      "priority": 94101183,
       "noticeAt": 1729501200,
       "openedAt": 1729587600,
       "closedAt": 1730865599
@@ -136093,6 +136103,48 @@
       "openedAt": 1729501200,
       "closedAt": 1730865599
     }, {
+      "id": 94101216,
+      "name": "第16節 パパチェック２／ただしい休日の過ごし方",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "85",
+      "spotId": 917203,
+      "warId": 9172,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94101215
+      }, {
+        "type": "questClear",
+        "targetId": 94101560,
+        "closedMessage": "ミッションNo.16達成で開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9410121610",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9410/9410121610.txt"
+        }, {
+          "scriptId": "9410121611",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9410/9410121611.txt"
+        }]
+      }],
+      "priority": 94101182,
+      "noticeAt": 1729587600,
+      "openedAt": 1729587600,
+      "closedAt": 1730865599
+    }, {
       "id": 94101308,
       "name": "特訓 最速の称号を手に入れるために",
       "type": "event",
@@ -136176,6 +136228,48 @@
       "openedAt": 1729155600,
       "closedAt": 1730865599
     }, {
+      "id": 94101217,
+      "name": "第17節 パパチェック３／隠されたもの",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "85",
+      "spotId": 917204,
+      "warId": 9172,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94101216
+      }, {
+        "type": "questClear",
+        "targetId": 94101561,
+        "closedMessage": "ミッションNo.17達成で開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9410121710",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9410/9410121710.txt"
+        }, {
+          "scriptId": "9410121711",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9410/9410121711.txt"
+        }]
+      }],
+      "priority": 94101181,
+      "noticeAt": 1729587600,
+      "openedAt": 1729587600,
+      "closedAt": 1730865599
+    }, {
       "id": 94101304,
       "name": "特訓 効率的な掃除方法を考えよう",
       "type": "event",
@@ -136203,6 +136297,35 @@
       "priority": 94101155,
       "noticeAt": 1729155600,
       "openedAt": 1729155600,
+      "closedAt": 1730865599
+    }, {
+      "id": 94101309,
+      "name": "特訓 散らかった書斎の整理整頓",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90+",
+      "spotId": 917204,
+      "warId": 9172,
+      "gifts": [{
+        "id": 327,
+        "objectId": 3,
+        "num": 100
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94101217
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94101150,
+      "noticeAt": 1729587600,
+      "openedAt": 1729587600,
       "closedAt": 1730865599
     }, {
       "id": 94101564,
@@ -136392,6 +136515,46 @@
       "openedAt": 1729501200,
       "closedAt": 1730865599
     }, {
+      "id": 94101218,
+      "name": "第18節 パパチェック４／加虐という安堵",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 917205,
+      "warId": 9172,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94101217
+      }, {
+        "type": "questClear",
+        "targetId": 94101562,
+        "closedMessage": "ミッションNo.18達成で開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9410121810",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9410/9410121810.txt"
+        }]
+      }],
+      "priority": 94101180,
+      "noticeAt": 1729587600,
+      "openedAt": 1729587600,
+      "closedAt": 1730865599
+    }, {
       "id": 94101307,
       "name": "特訓 健康的でととのった身体へ",
       "type": "event",
@@ -136477,6 +136640,50 @@
       "priority": 94101194,
       "noticeAt": 1729242000,
       "openedAt": 1729242000,
+      "closedAt": 1730865599
+    }, {
+      "id": 94101219,
+      "name": "第19節 パパチェック５／夢",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 917206,
+      "warId": 9172,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94101218
+      }, {
+        "type": "questClear",
+        "targetId": 94101505,
+        "closedMessage": "バトルマス：ケルベロスちゃんを起こさないで\nクリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "eventMissionAchieve",
+        "targetId": 80490019,
+        "closedMessage": "ミッションNo.19達成で開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9410121910",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9410/9410121910.txt"
+        }]
+      }],
+      "priority": 94101179,
+      "noticeAt": 1729587600,
+      "openedAt": 1729587600,
       "closedAt": 1730865599
     }, {
       "id": 94101305,
@@ -136650,6 +136857,111 @@
       "priority": 94101185,
       "noticeAt": 1729501200,
       "openedAt": 1729501200,
+      "closedAt": 1730865599
+    }, {
+      "id": 94101220,
+      "name": "第20節 まだ見ぬ完璧なあなたへ",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "90",
+      "spotId": 917207,
+      "warId": 9172,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94101219
+      }, {
+        "type": "questClear",
+        "targetId": 94101563,
+        "closedMessage": "ミッションNo.20達成で開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9410122010",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9410/9410122010.txt"
+        }, {
+          "scriptId": "9410122011",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9410/9410122011.txt"
+        }]
+      }],
+      "priority": 94101178,
+      "noticeAt": 1729587600,
+      "openedAt": 1729587600,
+      "closedAt": 1730865599
+    }, {
+      "id": 94101310,
+      "name": "特訓 屋根裏部屋を取り戻せ",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90++",
+      "spotId": 917207,
+      "warId": 9172,
+      "gifts": [{
+        "id": 337,
+        "objectId": 3,
+        "num": 200
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94101221
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "priority": 94101149,
+      "noticeAt": 1729587600,
+      "openedAt": 1729587600,
+      "closedAt": 1730865599
+    }, {
+      "id": 94101401,
+      "name": "【高難易度】闇に舞うサクラ",
+      "type": "event",
+      "flags": ["dropFirstTimeOnly", "notRetrievable", "notDisplayResultGetPoint"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "90+",
+      "spotId": 917207,
+      "warId": 9172,
+      "gifts": [{
+        "id": 21701,
+        "objectId": 6999,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 1000822,
+        "closedMessage": "終局特異点クリア\n＆ミッションNo.100達成で開放"
+      }, {
+        "type": "questClear",
+        "targetId": 94101221
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "eventMissionAchieve",
+        "targetId": 80490100,
+        "closedMessage": "ミッションNo.100達成で開放"
+      }],
+      "phases": [1],
+      "priority": 94101400,
+      "noticeAt": 1729587600,
+      "openedAt": 1729587600,
       "closedAt": 1730865599
     }]
   }, {
@@ -137146,6 +137458,7 @@
         "targetId": 80490014
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94101296,
       "noticeAt": 1729501200,
       "openedAt": 1729501200,
@@ -137205,7 +137518,46 @@
     "x": 445.0,
     "y": 1054.0,
     "questOfsX": 37,
-    "questOfsY": -57
+    "questOfsY": -57,
+    "quests": [{
+      "id": 94101560,
+      "name": "",
+      "type": "autoExecute",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 917224,
+      "warId": 9172,
+      "gifts": [{
+        "id": 94101214,
+        "objectId": 1,
+        "num": 6000000,
+        "giftAdds": [{
+          "priority": 1,
+          "replacementGiftIcon": "https://static.atlasacademy.io/JP/Items/0.png",
+          "condType": "questClear",
+          "targetId": 94101200,
+          "targetNum": 1,
+          "replacementGifts": [{
+            "id": 94101214,
+            "objectId": 1,
+            "priority": 0,
+            "num": 6000000
+          }]
+        }]
+      }],
+      "releaseConditions": [{
+        "type": "eventMissionAchieve",
+        "targetId": 80490016
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94101101,
+      "noticeAt": 1729587600,
+      "openedAt": 1729587600,
+      "closedAt": 1730865599
+    }]
   }, {
     "id": 917225,
     "mapId": 9172,
@@ -137213,7 +137565,28 @@
     "x": 969.0,
     "y": 1215.0,
     "questOfsX": 37,
-    "questOfsY": -57
+    "questOfsY": -57,
+    "quests": [{
+      "id": 94101561,
+      "name": "",
+      "type": "autoExecute",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 917225,
+      "warId": 9172,
+      "releaseConditions": [{
+        "type": "eventMissionAchieve",
+        "targetId": 80490017
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94101100,
+      "noticeAt": 1729587600,
+      "openedAt": 1729587600,
+      "closedAt": 1730865599
+    }]
   }, {
     "id": 917226,
     "mapId": 9172,
@@ -137221,7 +137594,46 @@
     "x": 950.0,
     "y": 1020.0,
     "questOfsX": 37,
-    "questOfsY": -57
+    "questOfsY": -57,
+    "quests": [{
+      "id": 94101562,
+      "name": "",
+      "type": "autoExecute",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 917226,
+      "warId": 9172,
+      "gifts": [{
+        "id": 94101215,
+        "objectId": 6517,
+        "num": 5,
+        "giftAdds": [{
+          "priority": 1,
+          "replacementGiftIcon": "https://static.atlasacademy.io/JP/Items/0.png",
+          "condType": "questClear",
+          "targetId": 94101200,
+          "targetNum": 1,
+          "replacementGifts": [{
+            "id": 94101215,
+            "objectId": 6517,
+            "priority": 0,
+            "num": 5
+          }]
+        }]
+      }],
+      "releaseConditions": [{
+        "type": "eventMissionAchieve",
+        "targetId": 80490018
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94101099,
+      "noticeAt": 1729587600,
+      "openedAt": 1729587600,
+      "closedAt": 1730865599
+    }]
   }, {
     "id": 917227,
     "mapId": 9172,
@@ -137232,7 +137644,36 @@
     "imageOfsY": 32,
     "nameOfsY": 8,
     "questOfsX": 37,
-    "questOfsY": -57
+    "questOfsY": -57,
+    "quests": [{
+      "id": 94101505,
+      "name": "バトルマス：ケルベロスちゃんを起こさないで",
+      "type": "event",
+      "flags": ["enemyImmediateAppear"],
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "80",
+      "spotId": 917227,
+      "warId": 9172,
+      "gifts": [{
+        "id": 322,
+        "objectId": 3,
+        "num": 50
+      }],
+      "releaseConditions": [{
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "eventMissionAchieve",
+        "targetId": 80490019
+      }],
+      "phases": [1],
+      "priority": 94101295,
+      "noticeAt": 1729587600,
+      "openedAt": 1729587600,
+      "closedAt": 1730865599
+    }]
   }, {
     "id": 917228,
     "mapId": 9172,
@@ -137240,7 +137681,46 @@
     "x": 1607.0,
     "y": 1091.0,
     "questOfsX": 37,
-    "questOfsY": -57
+    "questOfsY": -57,
+    "quests": [{
+      "id": 94101563,
+      "name": "",
+      "type": "autoExecute",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 917228,
+      "warId": 9172,
+      "gifts": [{
+        "id": 94101216,
+        "objectId": 6528,
+        "num": 5,
+        "giftAdds": [{
+          "priority": 1,
+          "replacementGiftIcon": "https://static.atlasacademy.io/JP/Items/0.png",
+          "condType": "questClear",
+          "targetId": 94101200,
+          "targetNum": 1,
+          "replacementGifts": [{
+            "id": 94101216,
+            "objectId": 6528,
+            "priority": 0,
+            "num": 5
+          }]
+        }]
+      }],
+      "releaseConditions": [{
+        "type": "eventMissionAchieve",
+        "targetId": 80490020
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94101098,
+      "noticeAt": 1729587600,
+      "openedAt": 1729587600,
+      "closedAt": 1730865599
+    }]
   }, {
     "id": 917299,
     "mapId": 9172,
@@ -137286,6 +137766,43 @@
       "priority": 94101199,
       "noticeAt": 1729076400,
       "openedAt": 1729076400,
+      "closedAt": 1730865599
+    }, {
+      "id": 94101221,
+      "name": "エピローグ",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 917299,
+      "warId": 9172,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/3.png",
+      "gifts": [{
+        "id": 20058,
+        "objectId": 7999,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94101220
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9410122110",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9410/9410122110.txt"
+        }]
+      }],
+      "priority": 94101177,
+      "noticeAt": 1729587600,
+      "openedAt": 1729587600,
       "closedAt": 1730865599
     }]
   }],
