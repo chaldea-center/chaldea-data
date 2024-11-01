@@ -36233,8 +36233,10 @@
   }],
   "npSvts": [{
     "svtId": 204300,
+    "npNum": 2,
     "priority": 101,
     "damage": [4, 9, 14, 19, 23, 31],
+    "strengthStatus": 1,
     "card": "quick"
   }],
   "functions": [{
@@ -36243,6 +36245,24 @@
       "Rate": 1000,
       "Turn": 1,
       "Count": -1
+    }, {}, {}, {}, {}],
+    "svals2": [{}, {}, {}, {}, {}],
+    "svals3": [{}, {}, {}, {}, {}],
+    "svals4": [{}, {}, {}, {}, {}],
+    "svals5": [{}, {}, {}, {}, {}]
+  }, {
+    "funcId": 5,
+    "svals": [{
+      "HideMiss": 1
+    }, {}, {}, {}, {}],
+    "svals2": [{}, {}, {}, {}, {}],
+    "svals3": [{}, {}, {}, {}, {}],
+    "svals4": [{}, {}, {}, {}, {}],
+    "svals5": [{}, {}, {}, {}, {}]
+  }, {
+    "funcId": 5,
+    "svals": [{
+      "HideMiss": 1
     }, {}, {}, {}, {}],
     "svals2": [{}, {}, {}, {}, {}],
     "svals3": [{}, {}, {}, {}, {}],
@@ -36362,6 +36382,194 @@
     }, {
       "Value": 4000
     }]
+  }]
+}, {
+  "id": 204302,
+  "card": "quick",
+  "name": "痛幻の哭奏",
+  "ruby": "フェッチ・フェイルノート",
+  "icon": "https://static.atlasacademy.io/JP/Servants/Commands/204300/card_servant_np.png",
+  "rank": "C",
+  "type": "対人宝具",
+  "effectFlags": ["attackEnemyOne"],
+  "unmodifiedDetail": "自身に必中状態を付与(1ターン) ＋ 敵単体に呪い状態を付与(5ターン)[g][o]▲[/o][/g]＆呪厄状態(呪いの効果量がアップする状態)を付与(5ターン)<オーバーチャージで効果アップ>[g][o]▲[/o][/g]＆超強力な〔呪い〕特攻攻撃[{0}]<対象の〔呪い〕状態が多いほど対象に対して特攻威力アップ(最大10個)>[g][o]▲[/o][/g]",
+  "npGain": {
+    "buster": [58, 58, 58, 58, 58],
+    "arts": [58, 58, 58, 58, 58],
+    "quick": [58, 58, 58, 58, 58],
+    "extra": [58, 58, 58, 58, 58],
+    "defence": [300, 300, 300, 300, 300],
+    "np": [58, 58, 58, 58, 58]
+  },
+  "npDistribution": [4, 9, 14, 19, 23, 31],
+  "individuality": [{
+    "id": 3002
+  }, {
+    "id": 4003
+  }, {
+    "id": 4007
+  }, {
+    "id": 4102
+  }],
+  "npSvts": [{
+    "svtId": 204300,
+    "npNum": 2,
+    "priority": 102,
+    "damage": [4, 9, 14, 19, 23, 31],
+    "strengthStatus": 99,
+    "condQuestId": 94138050,
+    "condQuestPhase": 3,
+    "card": "quick"
+  }],
+  "functions": [{
+    "funcId": 288,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 1,
+      "Count": -1
+    }, {}, {}, {}, {}],
+    "svals2": [{}, {}, {}, {}, {}],
+    "svals3": [{}, {}, {}, {}, {}],
+    "svals4": [{}, {}, {}, {}, {}],
+    "svals5": [{}, {}, {}, {}, {}]
+  }, {
+    "funcId": 320,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 5,
+      "Count": -1,
+      "Value": 1000
+    }, {}, {}, {}, {}],
+    "svals2": [{}, {}, {}, {}, {}],
+    "svals3": [{}, {}, {}, {}, {}],
+    "svals4": [{}, {}, {}, {}, {}],
+    "svals5": [{}, {}, {}, {}, {}]
+  }, {
+    "funcId": 3102,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 5,
+      "Count": -1,
+      "Value": 2000
+    }, {}, {}, {}, {}],
+    "svals2": [{
+      "Value": 2500
+    }, {
+      "Value": 2500
+    }, {
+      "Value": 2500
+    }, {
+      "Value": 2500
+    }, {
+      "Value": 2500
+    }],
+    "svals3": [{
+      "Value": 3000
+    }, {
+      "Value": 3000
+    }, {
+      "Value": 3000
+    }, {
+      "Value": 3000
+    }, {
+      "Value": 3000
+    }],
+    "svals4": [{
+      "Value": 3500
+    }, {
+      "Value": 3500
+    }, {
+      "Value": 3500
+    }, {
+      "Value": 3500
+    }, {
+      "Value": 3500
+    }],
+    "svals5": [{
+      "Value": 4000
+    }, {
+      "Value": 4000
+    }, {
+      "Value": 4000
+    }, {
+      "Value": 4000
+    }, {
+      "Value": 4000
+    }]
+  }, {
+    "funcId": 5336,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 16000,
+      "Value2": 1000,
+      "Target": 1,
+      "Correction": 100,
+      "TargetList": [3026],
+      "ParamAddMaxCount": 10,
+      "IncludeIgnoreIndividuality": 1
+    }, {
+      "Value": 20000
+    }, {
+      "Value": 22000
+    }, {
+      "Value": 23000
+    }, {
+      "Value": 24000
+    }],
+    "svals2": [{}, {
+      "Value": 20000
+    }, {
+      "Value": 22000
+    }, {
+      "Value": 23000
+    }, {
+      "Value": 24000
+    }],
+    "svals3": [{}, {
+      "Value": 20000
+    }, {
+      "Value": 22000
+    }, {
+      "Value": 23000
+    }, {
+      "Value": 24000
+    }],
+    "svals4": [{}, {
+      "Value": 20000
+    }, {
+      "Value": 22000
+    }, {
+      "Value": 23000
+    }, {
+      "Value": 24000
+    }],
+    "svals5": [{}, {
+      "Value": 20000
+    }, {
+      "Value": 22000
+    }, {
+      "Value": 23000
+    }, {
+      "Value": 24000
+    }]
+  }, {
+    "funcId": 5,
+    "svals": [{
+      "HideMiss": 1
+    }, {}, {}, {}, {}],
+    "svals2": [{}, {}, {}, {}, {}],
+    "svals3": [{}, {}, {}, {}, {}],
+    "svals4": [{}, {}, {}, {}, {}],
+    "svals5": [{}, {}, {}, {}, {}]
+  }, {
+    "funcId": 5,
+    "svals": [{
+      "HideMiss": 1
+    }, {}, {}, {}, {}],
+    "svals2": [{}, {}, {}, {}, {}],
+    "svals3": [{}, {}, {}, {}, {}],
+    "svals4": [{}, {}, {}, {}, {}],
+    "svals5": [{}, {}, {}, {}, {}]
   }]
 }, {
   "id": 204401,

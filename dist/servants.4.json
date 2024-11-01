@@ -929,9 +929,9 @@
     }],
     "condType": "questClear",
     "condId": 3001009,
-    "eventId": 80412,
-    "startedAt": 1669885200,
-    "endedAt": 1671076799
+    "eventId": 80502,
+    "startedAt": 1730451600,
+    "endedAt": 1732978799
   }, {
     "idx": 2,
     "trait": [{
@@ -7358,6 +7358,7 @@
   "atkMax": 9455,
   "hpBase": 1940,
   "hpMax": 12127,
+  "relateQuestIds": [94138050],
   "growthCurve": 24,
   "bondGrowth": [2500, 6250, 11250, 17500, 27500, 260000, 500000, 770500, 1080000, 1490000, 2580000, 3810000, 5170000, 6670000, 8310000],
   "bondEquip": 9305610,
@@ -7929,8 +7930,18 @@
   }],
   "noblePhantasms": [{
     "id": 204301,
+    "npNum": 2,
     "svtId": 204300,
+    "strengthStatus": 1,
     "priority": 101
+  }, {
+    "id": 204302,
+    "npNum": 2,
+    "svtId": 204300,
+    "strengthStatus": 99,
+    "priority": 102,
+    "condQuestId": 94138050,
+    "condQuestPhase": 3
   }],
   "profile": {
     "cv": "和氣あず未",
@@ -9274,9 +9285,9 @@
     }],
     "condType": "questClear",
     "condId": 3001009,
-    "eventId": 80412,
-    "startedAt": 1669885200,
-    "endedAt": 1671076799
+    "eventId": 80502,
+    "startedAt": 1730451600,
+    "endedAt": 1732978799
   }, {
     "idx": 8043201,
     "trait": [{
@@ -11646,6 +11657,16 @@
     }
   },
   "traitAdd": [{
+    "idx": 1,
+    "trait": [{
+      "id": 2940
+    }],
+    "condType": "questClear",
+    "condId": 3001009,
+    "eventId": 80502,
+    "startedAt": 1730451600,
+    "endedAt": 1732978799
+  }, {
     "idx": 8043201,
     "trait": [{
       "id": 2863
