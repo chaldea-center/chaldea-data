@@ -141112,6 +141112,51 @@
     "priority": 880
   }, {
     "quest": {
+      "id": 94138004,
+      "name": "第15節 進行度6 スーパーリコレクションクエスト(3/6)",
+      "type": "event",
+      "flags": ["dropFirstTimeOnly", "supportSelectAfterScript", "notRetrievable", "recollection"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "90++",
+      "spotId": 30826,
+      "warId": 9182,
+      "gifts": [{
+        "id": 327,
+        "objectId": 3,
+        "num": 100
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 3001009
+      }, {
+        "type": "questClear",
+        "targetId": 94138003,
+        "closedMessage": "「第15節 進行度6 リコレクションクエスト」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9413800410",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413800410.txt"
+        }, {
+          "scriptId": "9413800411",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413800411.txt"
+        }]
+      }],
+      "priority": 94137995,
+      "noticeAt": 1730624400,
+      "openedAt": 1730624400,
+      "closedAt": 1732978799
+    },
+    "shortcutBanner": "https://static.atlasacademy.io/JP/EventUI/img_questboard_94079402.png",
+    "priority": 920
+  }, {
+    "quest": {
       "id": 94138002,
       "name": "第13節 進行度6 スーパーリコレクションクエスト(2/6)",
       "type": "event",
@@ -141198,6 +141243,52 @@
     "priority": 940
   }, {
     "quest": {
+      "id": 94138005,
+      "name": "第24節 進行度2 リコレクションクエスト(4/6)",
+      "type": "event",
+      "flags": ["dropFirstTimeOnly", "supportSelectAfterScript", "hideMaster", "disableMasterSkill", "notRetrievable", "recollection"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "90",
+      "spotId": 30823,
+      "warId": 9182,
+      "gifts": [{
+        "id": 12000,
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 3001009
+      }, {
+        "type": "questClear",
+        "targetId": 94138003,
+        "closedMessage": "「第15節 進行度6 リコレクションクエスト」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "「第15節 進行度6 リコレクションクエスト」クリア\n＆11月4日18時00分以降に開放"
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9413800510",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413800510.txt"
+        }, {
+          "scriptId": "9413800511",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413800511.txt"
+        }]
+      }],
+      "priority": 94137994,
+      "noticeAt": 1730624400,
+      "openedAt": 1730710800,
+      "closedAt": 1732978799
+    },
+    "shortcutBanner": "https://static.atlasacademy.io/JP/EventUI/img_questboard_94079402.png",
+    "priority": 970
+  }, {
+    "quest": {
       "id": 94138003,
       "name": "第15節 進行度6 リコレクションクエスト(3/6)",
       "type": "event",
@@ -141225,6 +141316,7 @@
         "closedMessage": "「第13節 進行度6 リコレクションクエスト」クリア\n＆11月3日18時00分以降に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "phaseScripts": [{
         "phase": 1,
         "scripts": [{
