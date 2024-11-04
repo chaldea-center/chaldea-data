@@ -56020,6 +56020,7 @@
         "closedMessage": "「第15節 進行度6 リコレクションクエスト」クリア\n＆11月4日18時00分以降に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "phaseScripts": [{
         "phase": 1,
         "scripts": [{
@@ -56033,6 +56034,89 @@
       "priority": 94137994,
       "noticeAt": 1730624400,
       "openedAt": 1730710800,
+      "closedAt": 1732978799
+    }, {
+      "id": 94138006,
+      "name": "第24節 進行度2 スーパーリコレクションクエスト(4/6)",
+      "type": "event",
+      "flags": ["dropFirstTimeOnly", "supportSelectAfterScript", "hideMaster", "disableMasterSkill", "notRetrievable", "recollection"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "90++",
+      "spotId": 30823,
+      "warId": 308,
+      "gifts": [{
+        "id": 327,
+        "objectId": 3,
+        "num": 100
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 3001009
+      }, {
+        "type": "questClear",
+        "targetId": 94138005,
+        "closedMessage": "「第24節 進行度2 リコレクションクエスト」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9413800610",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413800610.txt"
+        }, {
+          "scriptId": "9413800611",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413800611.txt"
+        }]
+      }],
+      "priority": 94137993,
+      "noticeAt": 1730710800,
+      "openedAt": 1730710800,
+      "closedAt": 1732978799
+    }, {
+      "id": 94138007,
+      "name": "第24節 進行度4 リコレクションクエスト(5/6)",
+      "type": "event",
+      "flags": ["dropFirstTimeOnly", "supportSelectAfterScript", "notRetrievable", "recollection"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "90",
+      "spotId": 30823,
+      "warId": 308,
+      "gifts": [{
+        "id": 12000,
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 3001009
+      }, {
+        "type": "questClear",
+        "targetId": 94138005,
+        "closedMessage": "「第24節 進行度2 リコレクションクエスト」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "「第24節 進行度2 リコレクションクエスト」クリア\n＆11月5日18時00分以降に開放"
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9413800710",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413800710.txt"
+        }, {
+          "scriptId": "9413800711",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413800711.txt"
+        }]
+      }],
+      "priority": 94137992,
+      "noticeAt": 1730710800,
+      "openedAt": 1730797200,
       "closedAt": 1732978799
     }]
   }, {
