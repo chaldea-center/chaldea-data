@@ -140734,7 +140734,7 @@
   "longName": "-",
   "flags": ["isEvent", "noClearMarkWithComplete", "changeDispClosedMessage"],
   "banner": "https://static.atlasacademy.io/JP/Banner/event_war_80481.png",
-  "priority": 80481,
+  "priority": 94138001,
   "bgm": {
     "id": 0
   },
@@ -140748,6 +140748,21 @@
     "condId": 20137810,
     "warDisplayType": "close",
     "closedDialogMessage": "クエストがありません。"
+  }],
+  "warAdds": [{
+    "warId": 9182,
+    "type": "flag",
+    "priority": 2,
+    "overwriteId": 17303584,
+    "startedAt": 1731056400,
+    "endedAt": 1893423600
+  }, {
+    "warId": 9182,
+    "type": "parentWar",
+    "priority": 94138011,
+    "overwriteId": 9999,
+    "startedAt": 1731056400,
+    "endedAt": 1893423600
   }],
   "questSelections": [{
     "quest": {
@@ -141112,6 +141127,51 @@
     "priority": 880
   }, {
     "quest": {
+      "id": 94138008,
+      "name": "第24節 進行度4 スーパーリコレクションクエスト(5/6)",
+      "type": "event",
+      "flags": ["dropFirstTimeOnly", "supportSelectAfterScript", "notRetrievable", "recollection"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "90++",
+      "spotId": 30823,
+      "warId": 9182,
+      "gifts": [{
+        "id": 327,
+        "objectId": 3,
+        "num": 100
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 3001009
+      }, {
+        "type": "questClear",
+        "targetId": 94138007,
+        "closedMessage": "「第24節 進行度4 リコレクションクエスト」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9413800810",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413800810.txt"
+        }, {
+          "scriptId": "9413800811",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413800811.txt"
+        }]
+      }],
+      "priority": 94137991,
+      "noticeAt": 1730797200,
+      "openedAt": 1730797200,
+      "closedAt": 1732978799
+    },
+    "shortcutBanner": "https://static.atlasacademy.io/JP/EventUI/img_questboard_94079402.png",
+    "priority": 900
+  }, {
+    "quest": {
       "id": 94138006,
       "name": "第24節 進行度2 スーパーリコレクションクエスト(4/6)",
       "type": "event",
@@ -141138,6 +141198,7 @@
         "targetId": 0
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "phaseScripts": [{
         "phase": 1,
         "scripts": [{
@@ -141289,6 +141350,49 @@
     "priority": 940
   }, {
     "quest": {
+      "id": 94138009,
+      "name": "第30節 進行度3 リコレクションクエスト(6/6)",
+      "type": "event",
+      "flags": ["dropFirstTimeOnly", "supportSelectAfterScript", "notRetrievable", "recollection"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "88",
+      "spotId": 30891,
+      "warId": 9182,
+      "gifts": [{
+        "id": 12000,
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 3001009
+      }, {
+        "type": "questClear",
+        "targetId": 94138007,
+        "closedMessage": "「第24節 進行度4 リコレクションクエスト」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "「第24節 進行度4 リコレクションクエスト」クリア\n＆11月6日18時00分以降に開放"
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9413800910",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413800910.txt"
+        }]
+      }],
+      "priority": 94137990,
+      "noticeAt": 1730797200,
+      "openedAt": 1730883600,
+      "closedAt": 1732978799
+    },
+    "shortcutBanner": "https://static.atlasacademy.io/JP/EventUI/img_questboard_94079402.png",
+    "priority": 950
+  }, {
+    "quest": {
       "id": 94138007,
       "name": "第24節 進行度4 リコレクションクエスト(5/6)",
       "type": "event",
@@ -141316,6 +141420,7 @@
         "closedMessage": "「第24節 進行度2 リコレクションクエスト」クリア\n＆11月5日18時00分以降に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "phaseScripts": [{
         "phase": 1,
         "scripts": [{
