@@ -58694,6 +58694,7 @@
         "closedMessage": "「第24節 進行度4 リコレクションクエスト」クリア\n＆11月6日18時00分以降に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "phaseScripts": [{
         "phase": 1,
         "scripts": [{
@@ -58703,6 +58704,44 @@
       }],
       "priority": 94137990,
       "noticeAt": 1730797200,
+      "openedAt": 1730883600,
+      "closedAt": 1732978799
+    }, {
+      "id": 94138010,
+      "name": "第30節 進行度3 スーパーリコレクションクエスト(6/6)",
+      "type": "event",
+      "flags": ["dropFirstTimeOnly", "supportSelectAfterScript", "notRetrievable", "recollection"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "90++",
+      "spotId": 30891,
+      "warId": 308,
+      "gifts": [{
+        "id": 327,
+        "objectId": 3,
+        "num": 100
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 3001009
+      }, {
+        "type": "questClear",
+        "targetId": 94138009,
+        "closedMessage": "「第30節 進行度3 リコレクションクエスト」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9413801010",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413801010.txt"
+        }]
+      }],
+      "priority": 94137989,
+      "noticeAt": 1730883600,
       "openedAt": 1730883600,
       "closedAt": 1732978799
     }]
@@ -109481,6 +109520,14 @@
     "overwriteBanner": "https://static.atlasacademy.io/JP/Banner/chaldea_category_80477.png",
     "startedAt": 1728039600,
     "endedAt": 1729396799
+  }, {
+    "warId": 9999,
+    "type": "banner",
+    "priority": 80483,
+    "overwriteId": 80483,
+    "overwriteBanner": "https://static.atlasacademy.io/JP/Banner/chaldea_category_80483.png",
+    "startedAt": 1730883600,
+    "endedAt": 1732075199
   }, {
     "warId": 9999,
     "type": "banner",
