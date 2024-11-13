@@ -2199,6 +2199,8 @@
       "id": 3005
     }, {
       "id": 3009
+    }, {
+      "id": 3110
     }],
     "maxRate": 5000
   }]
@@ -10826,6 +10828,8 @@
       "id": 3005
     }, {
       "id": 3009
+    }, {
+      "id": 3110
     }],
     "maxRate": 5000
   }]
@@ -10849,6 +10853,8 @@
       "id": 3005
     }, {
       "id": 3009
+    }, {
+      "id": 3110
     }],
     "maxRate": 5000
   }]
@@ -15337,6 +15343,8 @@
       "id": 3005
     }, {
       "id": 3009
+    }, {
+      "id": 3110
     }],
     "maxRate": 5000
   }]
@@ -17253,13 +17261,13 @@
   "funcType": "addState",
   "funcTargetType": "self",
   "funcTargetTeam": "playerAndEnemy",
-  "funcPopupText": "死亡時発動(NP獲得)",
-  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_306.png",
+  "funcPopupText": "死亡時発動",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_350.png",
   "buffs": [{
-    "id": 196,
-    "name": "死亡時発動(強化)",
-    "detail": "HPが0になった時に強化効果が発生する",
-    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_306.png",
+    "id": 5758,
+    "name": "死亡時発動",
+    "detail": "自身がやられた時、味方全体のNPを増やす",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_350.png",
     "type": "deadFunction",
     "vals": [{
       "id": 3004
@@ -19236,6 +19244,8 @@
       "id": 3005
     }, {
       "id": 3009
+    }, {
+      "id": 3110
     }],
     "tvals": [{
       "id": 4100
@@ -24745,6 +24755,8 @@
       "id": 3005
     }, {
       "id": 3009
+    }, {
+      "id": 3110
     }],
     "maxRate": 5000
   }]
@@ -28145,12 +28157,12 @@
   "funcType": "addState",
   "funcTargetType": "self",
   "funcTargetTeam": "playerAndEnemy",
-  "funcPopupText": "ガッツ時発動(NP増加)",
+  "funcPopupText": "ガッツ時発動",
   "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_365.png",
   "buffs": [{
     "id": 3491,
-    "name": "ガッツ時発動(NP増加)",
-    "detail": "ガッツ発動時、味方全体のNPが増える",
+    "name": "ガッツ時発動",
+    "detail": "ガッツ発動時、味方全体のNPを増やす",
     "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_365.png",
     "type": "gutsFunction",
     "vals": [{
@@ -30337,6 +30349,34 @@
     }]
   }]
 }, {
+  "funcId": 7497,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptFull",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "威力アップ・対秩序",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+  "buffs": [{
+    "id": 1558,
+    "name": "威力アップ〔秩序〕",
+    "detail": "〔秩序〕特性に与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamage",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3028
+    }],
+    "tvals": [{
+      "id": 300
+    }],
+    "ckOpIndv": [{
+      "id": 300
+    }],
+    "maxRate": 10000
+  }]
+}, {
   "funcId": 7498,
   "funcType": "addStateShort",
   "funcTargetType": "ptFull",
@@ -31286,12 +31326,12 @@
   "funcType": "addState",
   "funcTargetType": "self",
   "funcTargetTeam": "playerAndEnemy",
-  "funcPopupText": "ガッツ時発動(NP増加)",
+  "funcPopupText": "ガッツ時発動",
   "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_365.png",
   "buffs": [{
     "id": 3892,
-    "name": "ガッツ時発動(NP増加)",
-    "detail": "ガッツ発動時、自身のNPが増える",
+    "name": "ガッツ時発動",
+    "detail": "ガッツ発動時、自身のNPを増やす",
     "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_365.png",
     "type": "gutsFunction",
     "vals": [{
@@ -37745,30 +37785,6 @@
           "maxRate": 0,
           "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_368.png",
           "script": {}
-        }, {
-          "id": 5638,
-          "name": "対粛正防御",
-          "originalName": "対粛正防御",
-          "detail": "無敵貫通を無視して、攻撃によるダメージを0にする(他の対粛正防御状態と重複可能)",
-          "type": "specialInvincible",
-          "buffGroup": 0,
-          "originalScript": {},
-          "vals": [{
-            "id": 3004,
-            "name": "buffPositiveEffect"
-          }, {
-            "id": 3064,
-            "name": "buffSpecialInvincible"
-          }, {
-            "id": 3007,
-            "name": "buffIncreaseDefence"
-          }],
-          "tvals": [],
-          "ckSelfIndv": [],
-          "ckOpIndv": [],
-          "maxRate": 0,
-          "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_368.png",
-          "script": {}
         }],
         "script": {
           "OverwritePopupText": ["対粛正防御"]
@@ -37825,19 +37841,6 @@
           "maxRate": 0,
           "ckOpIndv": [],
           "buffGroup": 250,
-          "ckSelfIndv": []
-        }, {
-          "id": 5638,
-          "name": "対粛正防御",
-          "type": 157,
-          "vals": [3004, 3064, 3007],
-          "tvals": [],
-          "detail": "無敵貫通を無視して、攻撃によるダメージを0にする(他の対粛正防御状態と重複可能)",
-          "iconId": 368,
-          "script": {},
-          "maxRate": 0,
-          "ckOpIndv": [],
-          "buffGroup": 0,
           "ckSelfIndv": []
         }],
         "convertBuffIds": [2926, 5638]
@@ -44685,6 +44688,8 @@
       "id": 3005
     }, {
       "id": 3009
+    }, {
+      "id": 3110
     }],
     "maxRate": 5000
   }]
@@ -44782,6 +44787,8 @@
       "id": 3005
     }, {
       "id": 3009
+    }, {
+      "id": 3110
     }],
     "maxRate": 5000
   }]
@@ -44810,6 +44817,8 @@
       "id": 3005
     }, {
       "id": 3009
+    }, {
+      "id": 3110
     }],
     "maxRate": 5000
   }]
@@ -44838,6 +44847,8 @@
       "id": 3005
     }, {
       "id": 3009
+    }, {
+      "id": 3110
     }],
     "maxRate": 5000
   }]
@@ -44866,6 +44877,8 @@
       "id": 3005
     }, {
       "id": 3009
+    }, {
+      "id": 3110
     }],
     "maxRate": 5000
   }]
@@ -45250,6 +45263,39 @@
       "id": 3098
     }]
   }
+}, {
+  "funcId": 21524,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "enemy",
+  "funcPopupText": "クリティカル発生ダウン",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_523.png",
+  "script": {
+    "funcIndividuality": [{
+      "id": 3098
+    }]
+  },
+  "buffs": [{
+    "id": 145,
+    "name": "クリティカル発生ダウン",
+    "detail": "クリティカルの発生率をダウン",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_523.png",
+    "type": "downCriticalrate",
+    "script": {
+      "missText": "クリティカル MISS"
+    },
+    "originalScript": {
+      "missText": "クリティカル MISS"
+    },
+    "vals": [{
+      "id": 3005
+    }, {
+      "id": 3008
+    }, {
+      "id": 3038
+    }],
+    "maxRate": 5000
+  }]
 }, {
   "funcId": 21525,
   "funcType": "addStateShort",
@@ -46475,30 +46521,6 @@
           "maxRate": 0,
           "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_368.png",
           "script": {}
-        }, {
-          "id": 5638,
-          "name": "対粛正防御",
-          "originalName": "対粛正防御",
-          "detail": "無敵貫通を無視して、攻撃によるダメージを0にする(他の対粛正防御状態と重複可能)",
-          "type": "specialInvincible",
-          "buffGroup": 0,
-          "originalScript": {},
-          "vals": [{
-            "id": 3004,
-            "name": "buffPositiveEffect"
-          }, {
-            "id": 3064,
-            "name": "buffSpecialInvincible"
-          }, {
-            "id": 3007,
-            "name": "buffIncreaseDefence"
-          }],
-          "tvals": [],
-          "ckSelfIndv": [],
-          "ckOpIndv": [],
-          "maxRate": 0,
-          "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_368.png",
-          "script": {}
         }],
         "script": {
           "OverwritePopupText": ["対粛正防御"]
@@ -46555,19 +46577,6 @@
           "maxRate": 0,
           "ckOpIndv": [],
           "buffGroup": 250,
-          "ckSelfIndv": []
-        }, {
-          "id": 5638,
-          "name": "対粛正防御",
-          "type": 157,
-          "vals": [3004, 3064, 3007],
-          "tvals": [],
-          "detail": "無敵貫通を無視して、攻撃によるダメージを0にする(他の対粛正防御状態と重複可能)",
-          "iconId": 368,
-          "script": {},
-          "maxRate": 0,
-          "ckOpIndv": [],
-          "buffGroup": 0,
           "ckSelfIndv": []
         }],
         "convertBuffIds": [2926, 5638]
@@ -49707,6 +49716,185 @@
     }]
   }]
 }, {
+  "funcId": 22032,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "スーパー・ドゥーパー・クラフター",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+  "funcquestTvals": [{
+    "id": 94000160
+  }],
+  "funcGroup": [{
+    "eventId": 80494,
+    "baseFuncId": 22031,
+    "nameTotal": "{1} \n攻撃の威力アップ合計",
+    "name": "攻撃の威力アップ合計",
+    "icon": "https://static.atlasacademy.io/JP/EventUI/func_group_icon_302.png",
+    "priority": 1,
+    "isDispValue": true
+  }],
+  "buffs": [{
+    "id": 5698,
+    "name": "スーパー・ドゥーパー・クラフター",
+    "detail": "『ぶち壊せ！ ミステリーハウス・クラフターズ』において与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamage",
+    "maxRate": 10000
+  }]
+}, {
+  "funcId": 22033,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "スーパー・ドゥーパー・クラフター",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+  "funcquestTvals": [{
+    "id": 94000160
+  }],
+  "funcGroup": [{
+    "eventId": 80494,
+    "baseFuncId": 22031,
+    "nameTotal": "{1} \n攻撃の威力アップ合計",
+    "name": "攻撃の威力アップ合計",
+    "icon": "https://static.atlasacademy.io/JP/EventUI/func_group_icon_302.png",
+    "priority": 1,
+    "isDispValue": true
+  }],
+  "buffs": [{
+    "id": 5698,
+    "name": "スーパー・ドゥーパー・クラフター",
+    "detail": "『ぶち壊せ！ ミステリーハウス・クラフターズ』において与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamage",
+    "maxRate": 10000
+  }]
+}, {
+  "funcId": 22034,
+  "funcType": "servantFriendshipUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcGroup": [{
+    "eventId": 80494,
+    "baseFuncId": 0,
+    "nameTotal": "{1}\n得られる自身の絆ボーナス合計",
+    "name": "得られる自身の絆アップ",
+    "icon": "https://static.atlasacademy.io/JP/EventUI/func_group_icon_1009.png",
+    "priority": 1,
+    "isDispValue": true
+  }]
+}, {
+  "funcId": 22035,
+  "funcType": "eventDropUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcGroup": [{
+    "eventId": 80494,
+    "baseFuncId": 0,
+    "nameTotal": "{0}\n獲得数ボーナス合計",
+    "name": "{0}獲得数アップ",
+    "icon": "https://static.atlasacademy.io/JP/Items/94136601.png",
+    "priority": 1000,
+    "isDispValue": true
+  }]
+}, {
+  "funcId": 22036,
+  "funcType": "eventDropUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcGroup": [{
+    "eventId": 80494,
+    "baseFuncId": 0,
+    "nameTotal": "{0}\n獲得数ボーナス合計",
+    "name": "{0}獲得数アップ",
+    "icon": "https://static.atlasacademy.io/JP/Items/94136602.png",
+    "priority": 2000,
+    "isDispValue": true
+  }]
+}, {
+  "funcId": 22037,
+  "funcType": "eventDropUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcGroup": [{
+    "eventId": 80494,
+    "baseFuncId": 0,
+    "nameTotal": "{0}\n獲得数ボーナス合計",
+    "name": "{0}獲得数アップ",
+    "icon": "https://static.atlasacademy.io/JP/Items/94136603.png",
+    "priority": 3000,
+    "isDispValue": true
+  }]
+}, {
+  "funcId": 22038,
+  "funcType": "eventDropUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcGroup": [{
+    "eventId": 80494,
+    "baseFuncId": 0,
+    "nameTotal": "{0}\n獲得数ボーナス合計",
+    "name": "{0}獲得数アップ",
+    "icon": "https://static.atlasacademy.io/JP/Items/94136605.png",
+    "priority": 5000,
+    "isDispValue": true
+  }]
+}, {
+  "funcId": 22039,
+  "funcType": "eventDropUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcGroup": [{
+    "eventId": 80494,
+    "baseFuncId": 0,
+    "nameTotal": "{0}\n獲得数ボーナス合計",
+    "name": "{0}獲得数アップ",
+    "icon": "https://static.atlasacademy.io/JP/Items/94136606.png",
+    "priority": 4000,
+    "isDispValue": true
+  }]
+}, {
+  "funcId": 22040,
+  "funcType": "eventDropUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcGroup": [{
+    "eventId": 80494,
+    "baseFuncId": 0,
+    "nameTotal": "{0}\n獲得数ボーナス合計",
+    "name": "{0}獲得数アップ",
+    "icon": "https://static.atlasacademy.io/JP/Items/94136607.png",
+    "priority": 6000,
+    "isDispValue": true
+  }]
+}, {
+  "funcId": 22043,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "威力アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+  "funcquestTvals": [{
+    "id": 94000160
+  }],
+  "funcGroup": [{
+    "eventId": 80494,
+    "baseFuncId": 22031,
+    "nameTotal": "{1} \n攻撃の威力アップ合計",
+    "name": "攻撃の威力アップ合計",
+    "icon": "https://static.atlasacademy.io/JP/EventUI/func_group_icon_302.png",
+    "priority": 1,
+    "isDispValue": true
+  }],
+  "buffs": [{
+    "id": 5699,
+    "name": "威力アップ",
+    "detail": "『ぶち壊せ！ ミステリーハウス・クラフターズ』において与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamage",
+    "maxRate": 10000
+  }]
+}, {
   "funcId": 22045,
   "funcType": "addStateShort",
   "funcTargetType": "ptAll",
@@ -51154,6 +51342,276 @@
   "funcTargetType": "self",
   "funcTargetTeam": "playerAndEnemy",
   "funcPopupText": "なし"
+}, {
+  "funcId": 22289,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "防御力ダウン無効",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_322.png",
+  "buffs": [{
+    "id": 5744,
+    "name": "防御力ダウン無効",
+    "detail": "防御力ダウン効果を受けなくなる",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_322.png",
+    "type": "avoidState",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3061
+    }],
+    "tvals": [{
+      "id": 3110
+    }],
+    "ckOpIndv": [{
+      "id": 3110
+    }]
+  }]
+}, {
+  "funcId": 22291,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "呪い付与アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_307.png",
+  "buffs": [{
+    "id": 5745,
+    "name": "呪い付与アップ",
+    "detail": "呪い付与率をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_307.png",
+    "type": "upGrantstate",
+    "vals": [{
+      "id": 3004
+    }],
+    "tvals": [{
+      "id": 3026
+    }],
+    "ckSelfIndv": [{
+      "id": 3026
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 22293,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "死亡時発動",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_350.png",
+  "buffs": [{
+    "id": 5746,
+    "name": "死亡時発動",
+    "detail": "死亡時、スターを大量獲得",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_350.png",
+    "type": "deadFunction",
+    "vals": [{
+      "id": 3004
+    }]
+  }]
+}, {
+  "funcId": 22294,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "ガッツ時発動",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_365.png",
+  "buffs": [{
+    "id": 5747,
+    "name": "ガッツ時発動",
+    "detail": "ガッツ発動時、スターを大量獲得",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_365.png",
+    "type": "gutsFunction",
+    "vals": [{
+      "id": 3004
+    }]
+  }]
+}, {
+  "funcId": 22295,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "攻撃時追加効果",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_528.png",
+  "buffs": [{
+    "id": 5748,
+    "name": "攻撃時追加効果",
+    "detail": "攻撃時、対象に呪い状態を付与",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_528.png",
+    "type": "attackAfterFunction",
+    "vals": [{
+      "id": 3004
+    }]
+  }]
+}, {
+  "funcId": 22297,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "スター発生アップ：Buster",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_321.png",
+  "buffs": [{
+    "id": 5749,
+    "name": "スター発生アップ：Buster",
+    "detail": "Buster攻撃のスター発生率をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_321.png",
+    "type": "upCriticalpoint",
+    "originalScript": {
+      "ProgressSelfTurn": 1
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3083
+    }],
+    "ckSelfIndv": [{
+      "id": 4002
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 22299,
+  "funcType": "gainStar",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "スター獲得",
+  "funcquestTvals": [{
+    "id": 2392
+  }]
+}, {
+  "funcId": 22302,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "enemy",
+  "funcPopupText": "クリティカル発生アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_327.png",
+  "funcquestTvals": [{
+    "id": 2392
+  }],
+  "buffs": [{
+    "id": 5750,
+    "name": "クリティカル発生アップ",
+    "detail": "〔都市〕のフィールドにおいてのみ、クリティカルの発生率をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_327.png",
+    "type": "upCriticalrate",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3032
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 22307,
+  "funcType": "addFieldChangeToField",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "buffs": [{
+    "id": 5751,
+    "name": "フィールド変化〔都市〕",
+    "detail": "フィールドを〔都市〕状態にする",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_407.png",
+    "type": "toFieldChangeField",
+    "vals": [{
+      "id": 3079
+    }, {
+      "id": 2392
+    }]
+  }]
+}, {
+  "funcId": 22322,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "ガッツ時発動",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_365.png",
+  "buffs": [{
+    "id": 5754,
+    "name": "ガッツ時発動",
+    "detail": "ガッツ発動時、味方全体のNPを少し増やす",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_365.png",
+    "type": "gutsFunction",
+    "vals": [{
+      "id": 3004
+    }]
+  }]
+}, {
+  "funcId": 22323,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "死亡時発動",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_350.png",
+  "buffs": [{
+    "id": 5755,
+    "name": "死亡時発動",
+    "detail": "死亡時、味方全体のNPを少し増やす",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_350.png",
+    "type": "deadFunction",
+    "vals": [{
+      "id": 3004
+    }]
+  }]
+}, {
+  "funcId": 22324,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "enemy",
+  "funcPopupText": "死亡時発動",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_350.png",
+  "buffs": [{
+    "id": 5756,
+    "name": "死亡時発動",
+    "detail": "死亡時、味方単体のクリティカル発生率をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_350.png",
+    "type": "deadFunction",
+    "vals": [{
+      "id": 3004
+    }]
+  }]
+}, {
+  "funcId": 22325,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "enemy",
+  "funcPopupText": "ガッツ時発動",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_365.png",
+  "buffs": [{
+    "id": 5757,
+    "name": "ガッツ時発動",
+    "detail": "ガッツ発動時、自身のクリティカル発生率をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_365.png",
+    "type": "gutsFunction",
+    "vals": [{
+      "id": 3004
+    }]
+  }]
+}, {
+  "funcId": 22327,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptSelfAnotherRandom",
+  "funcTargetTeam": "enemy",
+  "funcPopupText": "クリティカル発生アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_327.png",
+  "buffs": [{
+    "id": 144,
+    "name": "クリティカル発生アップ",
+    "detail": "クリティカルの発生率をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_327.png",
+    "type": "upCriticalrate",
+    "originalScript": {
+      "ProgressSelfTurn": 1
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3032
+    }],
+    "maxRate": 5000
+  }]
 }, {
   "funcId": 30003,
   "funcType": "addStateShort",
