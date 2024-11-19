@@ -37785,6 +37785,30 @@
           "maxRate": 0,
           "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_368.png",
           "script": {}
+        }, {
+          "id": 5638,
+          "name": "対粛正防御",
+          "originalName": "対粛正防御",
+          "detail": "無敵貫通を無視して、攻撃によるダメージを0にする(他の対粛正防御状態と重複可能)",
+          "type": "specialInvincible",
+          "buffGroup": 0,
+          "originalScript": {},
+          "vals": [{
+            "id": 3004,
+            "name": "buffPositiveEffect"
+          }, {
+            "id": 3064,
+            "name": "buffSpecialInvincible"
+          }, {
+            "id": 3007,
+            "name": "buffIncreaseDefence"
+          }],
+          "tvals": [],
+          "ckSelfIndv": [],
+          "ckOpIndv": [],
+          "maxRate": 0,
+          "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_368.png",
+          "script": {}
         }],
         "script": {
           "OverwritePopupText": ["対粛正防御"]
@@ -37841,6 +37865,19 @@
           "maxRate": 0,
           "ckOpIndv": [],
           "buffGroup": 250,
+          "ckSelfIndv": []
+        }, {
+          "id": 5638,
+          "name": "対粛正防御",
+          "type": 157,
+          "vals": [3004, 3064, 3007],
+          "tvals": [],
+          "detail": "無敵貫通を無視して、攻撃によるダメージを0にする(他の対粛正防御状態と重複可能)",
+          "iconId": 368,
+          "script": {},
+          "maxRate": 0,
+          "ckOpIndv": [],
+          "buffGroup": 0,
           "ckSelfIndv": []
         }],
         "convertBuffIds": [2926, 5638]
@@ -46521,6 +46558,30 @@
           "maxRate": 0,
           "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_368.png",
           "script": {}
+        }, {
+          "id": 5638,
+          "name": "対粛正防御",
+          "originalName": "対粛正防御",
+          "detail": "無敵貫通を無視して、攻撃によるダメージを0にする(他の対粛正防御状態と重複可能)",
+          "type": "specialInvincible",
+          "buffGroup": 0,
+          "originalScript": {},
+          "vals": [{
+            "id": 3004,
+            "name": "buffPositiveEffect"
+          }, {
+            "id": 3064,
+            "name": "buffSpecialInvincible"
+          }, {
+            "id": 3007,
+            "name": "buffIncreaseDefence"
+          }],
+          "tvals": [],
+          "ckSelfIndv": [],
+          "ckOpIndv": [],
+          "maxRate": 0,
+          "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_368.png",
+          "script": {}
         }],
         "script": {
           "OverwritePopupText": ["対粛正防御"]
@@ -46577,6 +46638,19 @@
           "maxRate": 0,
           "ckOpIndv": [],
           "buffGroup": 250,
+          "ckSelfIndv": []
+        }, {
+          "id": 5638,
+          "name": "対粛正防御",
+          "type": 157,
+          "vals": [3004, 3064, 3007],
+          "tvals": [],
+          "detail": "無敵貫通を無視して、攻撃によるダメージを0にする(他の対粛正防御状態と重複可能)",
+          "iconId": 368,
+          "script": {},
+          "maxRate": 0,
+          "ckOpIndv": [],
+          "buffGroup": 0,
           "ckSelfIndv": []
         }],
         "convertBuffIds": [2926, 5638]
@@ -51499,6 +51573,50 @@
       "id": 3006
     }, {
       "id": 3032
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 22305,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "クリティカル威力アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_324.png",
+  "buffs": [{
+    "id": 142,
+    "name": "クリティカル威力アップ",
+    "detail": "クリティカル時のダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_324.png",
+    "type": "upCriticaldamage",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3031
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 22306,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "enemy",
+  "funcPopupText": "クリティカル威力アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_324.png",
+  "buffs": [{
+    "id": 142,
+    "name": "クリティカル威力アップ",
+    "detail": "クリティカル時のダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_324.png",
+    "type": "upCriticaldamage",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3031
     }],
     "maxRate": 5000
   }]

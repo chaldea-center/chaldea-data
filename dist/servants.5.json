@@ -17015,6 +17015,9 @@
         "2": "https://static.atlasacademy.io/JP/CharaGraph/305600/305600a@2.png",
         "3": "https://static.atlasacademy.io/JP/CharaGraph/305600/305600b@1.png",
         "4": "https://static.atlasacademy.io/JP/CharaGraph/305600/305600b@2.png"
+      },
+      "costume": {
+        "305630": "https://static.atlasacademy.io/JP/CharaGraph/305630/305630a.png"
       }
     },
     "faces": {
@@ -17023,6 +17026,9 @@
         "2": "https://static.atlasacademy.io/JP/Faces/f_3056001.png",
         "3": "https://static.atlasacademy.io/JP/Faces/f_3056002.png",
         "4": "https://static.atlasacademy.io/JP/Faces/f_3056003.png"
+      },
+      "costume": {
+        "305630": "https://static.atlasacademy.io/JP/Faces/f_3056300.png"
       }
     },
     "narrowFigure": {
@@ -17031,6 +17037,9 @@
         "2": "https://static.atlasacademy.io/JP/NarrowFigure/305600/305600@1.png",
         "3": "https://static.atlasacademy.io/JP/NarrowFigure/305600/305600@2.png",
         "4": "https://static.atlasacademy.io/JP/NarrowFigure/305600/305600_2@0.png"
+      },
+      "costume": {
+        "305630": "https://static.atlasacademy.io/JP/NarrowFigure/305630/305630@0.png"
       }
     },
     "charaFigure": {
@@ -17038,6 +17047,9 @@
         "1": "https://static.atlasacademy.io/JP/CharaFigure/3056000/3056000_merged.png",
         "2": "https://static.atlasacademy.io/JP/CharaFigure/3056001/3056001_merged.png",
         "3": "https://static.atlasacademy.io/JP/CharaFigure/3056002/3056002_merged.png"
+      },
+      "costume": {
+        "305630": "https://static.atlasacademy.io/JP/CharaFigure/3056300/3056300_merged.png"
       }
     },
     "commands": {
@@ -17045,6 +17057,9 @@
         "1": "https://static.atlasacademy.io/JP/Servants/Commands/305600/card_servant_1.png",
         "2": "https://static.atlasacademy.io/JP/Servants/Commands/305600/card_servant_2.png",
         "3": "https://static.atlasacademy.io/JP/Servants/Commands/305600/card_servant_3.png"
+      },
+      "costume": {
+        "305630": "https://static.atlasacademy.io/JP/Servants/Commands/305600/card_servant_11.png"
       }
     },
     "status": {
@@ -17052,6 +17067,9 @@
         "1": "https://static.atlasacademy.io/JP/Servants/Status/305600/status_servant_1.png",
         "2": "https://static.atlasacademy.io/JP/Servants/Status/305600/status_servant_2.png",
         "3": "https://static.atlasacademy.io/JP/Servants/Status/305600/status_servant_3.png"
+      },
+      "costume": {
+        "305630": "https://static.atlasacademy.io/JP/Servants/Status/305600/status_servant_11.png"
       }
     },
     "spriteModel": {
@@ -17061,6 +17079,9 @@
         "2": "https://static.atlasacademy.io/JP/Servants/305600/manifest.json",
         "3": "https://static.atlasacademy.io/JP/Servants/305600/manifest.json",
         "4": "https://static.atlasacademy.io/JP/Servants/305600/manifest.json"
+      },
+      "costume": {
+        "305630": "https://static.atlasacademy.io/JP/Servants/305630/manifest.json"
       }
     }
   },
@@ -17092,6 +17113,8 @@
     "id": 2667
   }, {
     "id": 2731
+  }, {
+    "id": 2780
   }, {
     "id": 2858
   }, {
@@ -17160,6 +17183,9 @@
         "2": 0,
         "3": 0,
         "4": 0
+      },
+      "costume": {
+        "305630": 0
       }
     },
     "lvMax": {
@@ -17362,7 +17388,24 @@
       "qp": 10000000
     }
   },
-  "costumeMaterials": {},
+  "costumeMaterials": {
+    "305630": {
+      "items": [{
+        "itemId": 6510,
+        "amount": 5
+      }, {
+        "itemId": 6556,
+        "amount": 5
+      }, {
+        "itemId": 6528,
+        "amount": 5
+      }, {
+        "itemId": 6560,
+        "amount": 5
+      }],
+      "qp": 3000000
+    }
+  },
   "coin": {
     "summonNum": 0,
     "item": {
@@ -17384,7 +17427,17 @@
     "id": 2427450,
     "num": 3,
     "svtId": 305600,
+    "strengthStatus": 1,
     "priority": 1,
+    "condLimitCount": 3
+  }, {
+    "id": 2428650,
+    "num": 3,
+    "svtId": 305600,
+    "strengthStatus": 99,
+    "priority": 2,
+    "condQuestId": 94136621,
+    "condQuestPhase": 7,
     "condLimitCount": 3
   }],
   "classPassive": [{
@@ -17566,6 +17619,17 @@
       "np": "B",
       "policy": "chaotic",
       "personality": "balanced"
+    },
+    "costume": {
+      "305630": {
+        "id": 11,
+        "costumeCollectionNo": 120,
+        "battleCharaId": 305630,
+        "name": "簡易霊衣：決別のバルーンライト",
+        "shortName": "決別のバルーンライト",
+        "detail": "拓いた道に光を手向け、\nただひとり闇へと向かう、鉱員の装い",
+        "priority": 99
+      }
     }
   }
 }, {

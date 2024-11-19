@@ -140094,6 +140094,9 @@
     "guides": [{
       "imageId": 205300,
       "image": "https://static.atlasacademy.io/JP/CharaFigure/2053000/2053000_merged.png"
+    }, {
+      "imageId": 109823880,
+      "image": "https://static.atlasacademy.io/JP/CharaFigure/1098238800/1098238800_merged.png"
     }],
     "tabOnImage": "https://static.atlasacademy.io/JP/EventReward/btn_txt_on_80494_1.png",
     "tabOffImage": "https://static.atlasacademy.io/JP/EventReward/btn_txt_off_80494_1.png",
@@ -140104,7 +140107,7 @@
     "afterBgm": {
       "id": 878
     },
-    "flags": []
+    "flags": ["npcGuide"]
   }],
   "tradeGoods": [{
     "id": 8049401,
@@ -140655,6 +140658,19 @@
       "conds": [{
         "condType": "eventNoend",
         "value": 80494
+      }],
+      "playConds": [{
+        "condGroup": 1,
+        "condType": "notQuestClearPhase",
+        "targetId": 94136621,
+        "condValue": 1,
+        "condValues": [1]
+      }, {
+        "condGroup": 2,
+        "condType": "questClearPhase",
+        "targetId": 94136621,
+        "condValue": 8,
+        "condValues": [8]
       }]
     }, {
       "name": "貿易 4",
@@ -140683,6 +140699,19 @@
       "conds": [{
         "condType": "eventNoend",
         "value": 80494
+      }],
+      "playConds": [{
+        "condGroup": 1,
+        "condType": "notQuestClearPhase",
+        "targetId": 94136621,
+        "condValue": 1,
+        "condValues": [1]
+      }, {
+        "condGroup": 2,
+        "condType": "questClearPhase",
+        "targetId": 94136621,
+        "condValue": 8,
+        "condValues": [8]
       }]
     }, {
       "name": "貿易 6",
@@ -140696,6 +140725,84 @@
       "face": [3],
       "conds": [{
         "condType": "eventNoend",
+        "value": 80494
+      }]
+    }]
+  }, {
+    "svtId": 109823880,
+    "type": "eventShop",
+    "voiceLines": [{
+      "name": "ショップついて 1",
+      "condType": "eventEnd",
+      "priority": 6490,
+      "svtVoiceType": "eventShop",
+      "id": ["0_I010"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_109823880/0_I010.mp3"],
+      "delay": [0.0],
+      "face": [0],
+      "conds": [{
+        "condType": "eventNoend",
+        "value": 80494
+      }]
+    }, {
+      "name": "ショップついて 2",
+      "condType": "eventEnd",
+      "priority": 6480,
+      "svtVoiceType": "eventShop",
+      "id": ["0_I020"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_109823880/0_I020.mp3"],
+      "delay": [0.0],
+      "face": [0],
+      "conds": [{
+        "condType": "eventNoend",
+        "value": 80494
+      }]
+    }, {
+      "name": "ショップついて 3",
+      "condType": "eventEnd",
+      "priority": 6470,
+      "svtVoiceType": "eventShop",
+      "id": ["0_I030"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_109823880/0_I030.mp3"],
+      "delay": [0.0],
+      "face": [0],
+      "conds": [{
+        "condType": "eventShopPurchase",
+        "value": 80494
+      }, {
+        "condType": "eventPeriod",
+        "value": 80494
+      }]
+    }, {
+      "name": "ショップついて 4",
+      "condType": "eventEnd",
+      "priority": 6460,
+      "svtVoiceType": "eventShop",
+      "id": ["0_I040"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_109823880/0_I040.mp3"],
+      "delay": [0.0],
+      "face": [0],
+      "conds": [{
+        "condType": "eventShopPurchase",
+        "value": 80494
+      }, {
+        "condType": "eventPeriod",
+        "value": 80494
+      }]
+    }, {
+      "name": "ショップついて 5",
+      "condType": "eventEnd",
+      "priority": 6450,
+      "svtVoiceType": "eventShop",
+      "id": ["0_I050"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_109823880/0_I050.mp3"],
+      "delay": [0.0],
+      "face": [0],
+      "conds": [{
+        "condType": "eventShopPurchase",
+        "value": 80494
+      }, {
+        "condType": "eventPeriod",
         "value": 80494
       }]
     }]
