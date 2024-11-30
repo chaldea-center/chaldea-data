@@ -98053,6 +98053,94 @@
       "openedAt": 1732698000,
       "closedAt": 1893423600
     }, {
+      "id": 91204801,
+      "name": "殲滅女神かくあれかし",
+      "type": "friendship",
+      "consume": 18,
+      "afterClear": "close",
+      "recommendLv": "60",
+      "spotId": 99003,
+      "warId": 1003,
+      "chapterId": 1,
+      "chapterSubId": 1,
+      "gifts": [{
+        "id": 201,
+        "objectId": 2,
+        "num": 2
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 1000011,
+        "closedMessage": "特異点Fをクリア＆霊基再臨1段階目＆絆Lv.3で開放"
+      }, {
+        "type": "svtLimit",
+        "targetId": 204800,
+        "value": 1,
+        "closedMessage": "特異点Fをクリア＆霊基再臨1段階目＆絆Lv.3で開放"
+      }, {
+        "type": "svtGet",
+        "targetId": 204800
+      }, {
+        "type": "svtFriendship",
+        "targetId": 204800,
+        "value": 3,
+        "closedMessage": "特異点Fをクリア＆霊基再臨1段階目＆絆Lv.3で開放"
+      }],
+      "releaseOverwrites": [{
+        "priority": 1,
+        "condType": "questClear",
+        "condId": 1000011,
+        "closedMessage": "特異点Fをクリア＆霊基再臨1段階目＆絆Lv.3で開放",
+        "overlayClosedMessage": "特異点Fをクリアで開放",
+        "eventId": 80499,
+        "startedAt": 1732957200,
+        "endedAt": 1733889599
+      }],
+      "phases": [1, 2, 3, 4, 5],
+      "phasesWithEnemies": [2],
+      "phasesNoBattle": [1, 5],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9120480110",
+          "script": "https://static.atlasacademy.io/JP/Script/91/9120480110.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9120480120",
+          "script": "https://static.atlasacademy.io/JP/Script/91/9120480120.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9120480130",
+          "script": "https://static.atlasacademy.io/JP/Script/91/9120480130.txt"
+        }, {
+          "scriptId": "9120480131",
+          "script": "https://static.atlasacademy.io/JP/Script/91/9120480131.txt"
+        }]
+      }, {
+        "phase": 4,
+        "scripts": [{
+          "scriptId": "9120480140",
+          "script": "https://static.atlasacademy.io/JP/Script/91/9120480140.txt"
+        }, {
+          "scriptId": "9120480141",
+          "script": "https://static.atlasacademy.io/JP/Script/91/9120480141.txt"
+        }]
+      }, {
+        "phase": 5,
+        "scripts": [{
+          "scriptId": "9120480150",
+          "script": "https://static.atlasacademy.io/JP/Script/91/9120480150.txt"
+        }]
+      }],
+      "priority": 679519,
+      "noticeAt": 1732957200,
+      "openedAt": 1732957200,
+      "closedAt": 1893423600
+    }, {
       "id": 91205101,
       "name": "限界凌駕の狙撃",
       "type": "friendship",
@@ -98093,6 +98181,7 @@
         "endedAt": 1733889599
       }],
       "phases": [1, 2, 3],
+      "phasesWithEnemies": [1, 2],
       "phasesNoBattle": [3],
       "phaseScripts": [{
         "phase": 1,
