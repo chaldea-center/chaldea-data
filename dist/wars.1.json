@@ -66282,6 +66282,7 @@
         "closedMessage": "「第10節 進行度2 リコレクションクエスト」クリア\n＆12月2日18時00分以降に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "phaseScripts": [{
         "phase": 1,
         "scripts": [{
@@ -66294,6 +66295,48 @@
       }],
       "priority": 94139197,
       "noticeAt": 1733043600,
+      "openedAt": 1733130000,
+      "closedAt": 1735657199
+    }, {
+      "id": 94139203,
+      "name": "第17節 進行度6 スーパーリコレクションクエスト(2/3)",
+      "type": "event",
+      "flags": ["noDisplayMissionNotify", "dropFirstTimeOnly", "supportSelectAfterScript", "userEventDeck", "actConsumeBattleWin", "disableCommandSpeel", "notRetrievable", "noSupportList", "recollection"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "90++",
+      "spotId": 31124,
+      "warId": 311,
+      "gifts": [{
+        "id": 327,
+        "objectId": 3,
+        "num": 100
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 3001327
+      }, {
+        "type": "questClear",
+        "targetId": 94139202,
+        "closedMessage": "「第17節 進行度6 リコレクションクエスト」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9413920310",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413920310.txt"
+        }, {
+          "scriptId": "9413920311",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413920311.txt"
+        }]
+      }],
+      "priority": 94139196,
+      "noticeAt": 1733130000,
       "openedAt": 1733130000,
       "closedAt": 1735657199
     }]
@@ -70050,7 +70093,50 @@
     "y": -1158.0,
     "nameOfsY": -7,
     "questOfsX": 32,
-    "questOfsY": -52
+    "questOfsY": -52,
+    "quests": [{
+      "id": 94139204,
+      "name": "第23節 進行度1 リコレクションクエスト(3/3)",
+      "type": "event",
+      "flags": ["noContinue", "noDisplayMissionNotify", "dropFirstTimeOnly", "supportSelectAfterScript", "actConsumeBattleWin", "notRetrievable", "recollection"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "90",
+      "spotId": 31190,
+      "warId": 311,
+      "gifts": [{
+        "id": 12000,
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 3001327
+      }, {
+        "type": "questClear",
+        "targetId": 94139202,
+        "closedMessage": "「第17節 進行度6 リコレクションクエスト」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "「第17節 進行度6 リコレクションクエスト」クリア\n＆12月3日18時00分以降に開放"
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9413920410",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413920410.txt"
+        }, {
+          "scriptId": "9413920411",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413920411.txt"
+        }]
+      }],
+      "priority": 94139195,
+      "noticeAt": 1733130000,
+      "openedAt": 1733216400,
+      "closedAt": 1735657199
+    }]
   }, {
     "id": 31199,
     "mapId": 31101,
