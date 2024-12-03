@@ -70122,6 +70122,7 @@
         "closedMessage": "「第17節 進行度6 リコレクションクエスト」クリア\n＆12月3日18時00分以降に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "phaseScripts": [{
         "phase": 1,
         "scripts": [{
@@ -70134,6 +70135,48 @@
       }],
       "priority": 94139195,
       "noticeAt": 1733130000,
+      "openedAt": 1733216400,
+      "closedAt": 1735657199
+    }, {
+      "id": 94139205,
+      "name": "第23節 進行度1 スーパーリコレクションクエスト(3/3)",
+      "type": "event",
+      "flags": ["noContinue", "noDisplayMissionNotify", "dropFirstTimeOnly", "supportSelectAfterScript", "actConsumeBattleWin", "notRetrievable", "recollection"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "90++",
+      "spotId": 31190,
+      "warId": 311,
+      "gifts": [{
+        "id": 327,
+        "objectId": 3,
+        "num": 100
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 3001327
+      }, {
+        "type": "questClear",
+        "targetId": 94139204,
+        "closedMessage": "「第23節 進行度1 リコレクションクエスト」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9413920510",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413920510.txt"
+        }, {
+          "scriptId": "9413920511",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413920511.txt"
+        }]
+      }],
+      "priority": 94139194,
+      "noticeAt": 1733216400,
       "openedAt": 1733216400,
       "closedAt": 1735657199
     }]
