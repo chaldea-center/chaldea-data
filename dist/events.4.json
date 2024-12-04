@@ -138969,12 +138969,6 @@
     "endedAt": 1733284799
   }, {
     "svtId": 305601,
-    "script": {
-      "isProtectedDuringEvent": true
-    },
-    "originalScript": {
-      "isProtectedDuringEvent": 1
-    },
     "getMessage": "ヴァン・ゴッホ〔マイナー〕の\n宝具強化専用霊基を手に入れました。\n\n宝具強化専用霊基を使うと\n仮加入状態であっても宝具Lv.を上げることができます。\nサーヴァント宝具強化で、サーヴァントの宝具Lv.を上げましょう！\n\n宝具強化専用霊基は\n強化対象とすることやクエストに同行させることはできません。",
     "startedAt": 1731495600,
     "endedAt": 1733284799
@@ -140630,6 +140624,34 @@
         "condType": "eventPeriod",
         "value": 80494
       }]
+    }, {
+      "name": "ショップついて 6",
+      "condType": "eventEnd",
+      "priority": 6440,
+      "svtVoiceType": "eventShop",
+      "overwriteName": "ぶち壊せ！ ミステリーハウス・クラフターズ \n～星の鉱員と日の出の翼～ 6",
+      "id": ["0_I060", "0_I061"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_205300/0_I060.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_205300/0_I061.mp3"],
+      "delay": [0.0, 0.1],
+      "face": [10, 11],
+      "conds": [{
+        "condType": "eventEnd",
+        "value": 80494
+      }]
+    }, {
+      "name": "ショップついて 7",
+      "condType": "eventEnd",
+      "priority": 6430,
+      "svtVoiceType": "eventShop",
+      "overwriteName": "ぶち壊せ！ ミステリーハウス・クラフターズ \n～星の鉱員と日の出の翼～ 7",
+      "id": ["0_I070", "0_I071"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_205300/0_I070.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_205300/0_I071.mp3"],
+      "delay": [0.0, 0.1],
+      "face": [6, 7],
+      "conds": [{
+        "condType": "eventEnd",
+        "value": 80494
+      }]
     }]
   }, {
     "svtId": 305600,
@@ -140728,6 +140750,34 @@
       "face": [3],
       "conds": [{
         "condType": "eventNoend",
+        "value": 80494
+      }]
+    }, {
+      "name": "貿易 7",
+      "condType": "eventEnd",
+      "priority": 4494,
+      "svtVoiceType": "eventTrade",
+      "overwriteName": "ぶち壊せ！ ミステリーハウス・クラフターズ \n～星の鉱員と日の出の翼～ 6",
+      "id": ["0_F070", "0_F071"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_305600/0_F070.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_305600/0_F071.mp3"],
+      "delay": [0.0, 0.1],
+      "face": [19, 17],
+      "conds": [{
+        "condType": "eventEnd",
+        "value": 80494
+      }]
+    }, {
+      "name": "貿易 8",
+      "condType": "eventEnd",
+      "priority": 4493,
+      "svtVoiceType": "eventTrade",
+      "overwriteName": "ぶち壊せ！ ミステリーハウス・クラフターズ \n～星の鉱員と日の出の翼～ 7",
+      "id": ["0_F080", "0_F081", "0_F082"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_305600/0_F080.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_305600/0_F081.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_305600/0_F082.mp3"],
+      "delay": [0.0, 0.3, 0.1],
+      "face": [13, 34, 1],
+      "conds": [{
+        "condType": "eventEnd",
         "value": 80494
       }]
     }]
