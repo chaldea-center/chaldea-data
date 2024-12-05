@@ -93912,6 +93912,43 @@
       "noticeAt": 1732438800,
       "openedAt": 1732438800,
       "closedAt": 1893423600
+    }, {
+      "id": 94139250,
+      "name": "強化クエスト グレゴリー・ラスプーチン",
+      "type": "event",
+      "flags": ["noDisplayRemain"],
+      "consume": 23,
+      "afterClear": "close",
+      "recommendLv": "90",
+      "spotId": 99001,
+      "warId": 1001,
+      "gifts": [{
+        "id": 94012504,
+        "objectId": 2,
+        "num": 2
+      }, {
+        "id": 94012504,
+        "type": "questRewardIcon",
+        "objectId": 9,
+        "num": 0
+      }],
+      "releaseConditions": [{
+        "type": "svtLimit",
+        "targetId": 1001500,
+        "value": 4,
+        "closedMessage": "霊基再臨{0}段階目で開放"
+      }, {
+        "type": "svtGet",
+        "targetId": 1001500
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1, 2, 3],
+      "priority": 94139250,
+      "noticeAt": 1733389200,
+      "openedAt": 1733389200,
+      "closedAt": 1893423600
     }]
   }]
 }, {
@@ -132981,6 +133018,34 @@
       "noticeAt": 1723107600,
       "openedAt": 1723107600,
       "closedAt": 1723694399
+    }, {
+      "id": 94139251,
+      "name": "グレゴリー・ラスプーチン体験クエスト",
+      "type": "event",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "15",
+      "spotId": 999999,
+      "warId": 9999,
+      "gifts": [{
+        "id": 15000,
+        "objectId": 4001,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 1000011,
+        "closedMessage": "特異点Fクリアで開放可能"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94079899,
+      "noticeAt": 1733389200,
+      "openedAt": 1733389200,
+      "closedAt": 1733975999
     }]
   }]
 }, {

@@ -37330,7 +37330,7 @@
   "buffs": [{
     "id": 5247,
     "name": "ガッツ時発動",
-    "detail": "ガッツ発動時、宝具で与えるダメージをアップ",
+    "detail": "ガッツ発動時、自身の宝具威力をアップ",
     "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_365.png",
     "type": "gutsFunction",
     "vals": [{
@@ -51826,6 +51826,99 @@
     "id": 5765,
     "name": "ガッツ時発動",
     "detail": "ガッツ発動時、味方全体のチャージを増やす",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_365.png",
+    "type": "gutsFunction",
+    "vals": [{
+      "id": 3004
+    }]
+  }]
+}, {
+  "funcId": 22362,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "ガッツ<高確率>",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_304.png",
+  "functvals": [{
+    "id": 2941,
+    "negative": true
+  }],
+  "buffs": [{
+    "id": 5766,
+    "name": "ガッツ<高確率>",
+    "detail": "HPが0になった時、高確率でHPを回復して耐える(他の確率発動でないガッツ状態と重複可能)",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_304.png",
+    "type": "guts",
+    "script": {
+      "INDIVIDUALITIE": {
+        "id": 3086,
+        "negative": true
+      }
+    },
+    "originalScript": {
+      "INDIVIDUALITIE": -3086
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3024
+    }, {
+      "id": 2941
+    }]
+  }]
+}, {
+  "funcId": 22364,
+  "funcType": "addState",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "宝具威力アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_310.png",
+  "buffs": [{
+    "id": 138,
+    "name": "宝具威力アップ",
+    "detail": "宝具で与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_310.png",
+    "type": "upNpdamage",
+    "originalScript": {
+      "ProgressSelfTurn": 1
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3030
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 22366,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "被ダメージ時発動",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_331.png",
+  "buffs": [{
+    "id": 5767,
+    "name": "被ダメージ時発動",
+    "detail": "攻撃を受けると自身のクリティカル威力をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_331.png",
+    "type": "damageFunction",
+    "vals": [{
+      "id": 3004
+    }]
+  }]
+}, {
+  "funcId": 22367,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "ガッツ時発動",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_365.png",
+  "buffs": [{
+    "id": 5768,
+    "name": "ガッツ時発動",
+    "detail": "ガッツ発動時、味方全体の宝具威力をアップ",
     "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_365.png",
     "type": "gutsFunction",
     "vals": [{
