@@ -10391,7 +10391,7 @@
   "funcType": "subState",
   "funcTargetType": "enemy",
   "funcTargetTeam": "playerAndEnemy",
-  "funcPopupText": "回避状態解除",
+  "funcPopupText": "回避解除",
   "traitVals": [{
     "id": 3021
   }]
@@ -19312,7 +19312,7 @@
   "funcType": "subState",
   "funcTargetType": "enemyAll",
   "funcTargetTeam": "playerAndEnemy",
-  "funcPopupText": "回避状態解除",
+  "funcPopupText": "回避解除",
   "funcquestTvals": [{
     "id": 2039
   }],
@@ -26466,6 +26466,31 @@
     "maxRate": 10000
   }]
 }, {
+  "funcId": 6303,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "enemy",
+  "funcPopupText": "クリティカル発生アップ：Arts",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_327.png",
+  "buffs": [{
+    "id": 3214,
+    "name": "クリティカル発生アップ：Arts",
+    "detail": "Artsカードのクリティカルの発生率をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_327.png",
+    "type": "upCriticalrate",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3032
+    }],
+    "ckSelfIndv": [{
+      "id": 4001
+    }],
+    "maxRate": 5000
+  }]
+}, {
   "funcId": 6304,
   "funcType": "addStateShort",
   "funcTargetType": "self",
@@ -28705,6 +28730,32 @@
   "funcTargetType": "ptSelfAnotherFirst",
   "funcTargetTeam": "enemy",
   "funcPopupText": "チャージ増加"
+}, {
+  "funcId": 7064,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "スター発生アップ：Arts",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_321.png",
+  "buffs": [{
+    "id": 3562,
+    "name": "スター発生アップ：Arts",
+    "detail": "Arts攻撃のスター発生率をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_321.png",
+    "type": "upCriticalpoint",
+    "originalScript": {
+      "ProgressSelfTurn": 1
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3083
+    }],
+    "ckSelfIndv": [{
+      "id": 4001
+    }],
+    "maxRate": 5000
+  }]
 }, {
   "funcId": 7065,
   "funcType": "addState",
@@ -32933,6 +32984,34 @@
     "icon": "https://static.atlasacademy.io/JP/EventUI/func_group_icon_1023.png",
     "priority": 1,
     "isDispValue": true
+  }]
+}, {
+  "funcId": 8444,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "威力アップ・対 地の力",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+  "buffs": [{
+    "id": 4207,
+    "name": "威力アップ〔地の力〕",
+    "detail": "〔地の力〕に与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamage",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3028
+    }],
+    "tvals": [{
+      "id": 201
+    }],
+    "ckOpIndv": [{
+      "id": 201
+    }],
+    "maxRate": 10000
   }]
 }, {
   "funcId": 8445,
@@ -51427,6 +51506,130 @@
   "funcTargetTeam": "playerAndEnemy",
   "funcPopupText": "なし"
 }, {
+  "funcId": 22260,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "ノエル・エトワール",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+  "funcquestTvals": [{
+    "id": 94000162
+  }],
+  "funcGroup": [{
+    "eventId": 80506,
+    "baseFuncId": 22259,
+    "nameTotal": "{1} \n攻撃の威力アップ合計",
+    "name": "攻撃の威力アップ合計",
+    "icon": "https://static.atlasacademy.io/JP/EventUI/func_group_icon_302.png",
+    "priority": 1,
+    "isDispValue": true
+  }],
+  "buffs": [{
+    "id": 5741,
+    "name": "ノエル・エトワール",
+    "detail": "『ポホヨラのクリスマス・イブ』において与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamage",
+    "maxRate": 10000
+  }]
+}, {
+  "funcId": 22261,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "ノエル・エトワール",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+  "funcquestTvals": [{
+    "id": 94000162
+  }],
+  "funcGroup": [{
+    "eventId": 80506,
+    "baseFuncId": 22259,
+    "nameTotal": "{1} \n攻撃の威力アップ合計",
+    "name": "攻撃の威力アップ合計",
+    "icon": "https://static.atlasacademy.io/JP/EventUI/func_group_icon_302.png",
+    "priority": 1,
+    "isDispValue": true
+  }],
+  "buffs": [{
+    "id": 5741,
+    "name": "ノエル・エトワール",
+    "detail": "『ポホヨラのクリスマス・イブ』において与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamage",
+    "maxRate": 10000
+  }]
+}, {
+  "funcId": 22262,
+  "funcType": "servantFriendshipUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcGroup": [{
+    "eventId": 80506,
+    "baseFuncId": 0,
+    "nameTotal": "{1}\n得られる自身の絆ボーナス合計",
+    "name": "得られる自身の絆アップ",
+    "icon": "https://static.atlasacademy.io/JP/EventUI/func_group_icon_1009.png",
+    "priority": 1,
+    "isDispValue": true
+  }]
+}, {
+  "funcId": 22263,
+  "funcType": "eventDropUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcGroup": [{
+    "eventId": 80506,
+    "baseFuncId": 0,
+    "nameTotal": "{0}\n獲得数ボーナス合計",
+    "name": "{0}獲得数アップ",
+    "icon": "https://static.atlasacademy.io/JP/Items/94138503.png",
+    "priority": 3000,
+    "isDispValue": true
+  }]
+}, {
+  "funcId": 22264,
+  "funcType": "eventDropUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcGroup": [{
+    "eventId": 80506,
+    "baseFuncId": 0,
+    "nameTotal": "{0}\n獲得数ボーナス合計",
+    "name": "{0}獲得数アップ",
+    "icon": "https://static.atlasacademy.io/JP/Items/94138502.png",
+    "priority": 2000,
+    "isDispValue": true
+  }]
+}, {
+  "funcId": 22265,
+  "funcType": "eventDropUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcGroup": [{
+    "eventId": 80506,
+    "baseFuncId": 0,
+    "nameTotal": "{0}\n獲得数ボーナス合計",
+    "name": "{0}獲得数アップ",
+    "icon": "https://static.atlasacademy.io/JP/Items/94138501.png",
+    "priority": 1000,
+    "isDispValue": true
+  }]
+}, {
+  "funcId": 22266,
+  "funcType": "eventDropUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcGroup": [{
+    "eventId": 80506,
+    "baseFuncId": 0,
+    "nameTotal": "{0}\n獲得数ボーナス合計",
+    "name": "{0}獲得数アップ",
+    "icon": "https://static.atlasacademy.io/JP/Items/94138505.png",
+    "priority": 4000,
+    "isDispValue": true
+  }]
+}, {
   "funcId": 22289,
   "funcType": "addState",
   "funcTargetType": "self",
@@ -51766,6 +51969,20 @@
     }]
   }]
 }, {
+  "funcId": 22347,
+  "funcType": "servantFriendshipUp",
+  "funcTargetType": "ptFull",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcGroup": [{
+    "eventId": 80506,
+    "baseFuncId": 0,
+    "nameTotal": "{1}\n得られる自身の絆ボーナス合計",
+    "name": "得られる自身の絆アップ",
+    "icon": "https://static.atlasacademy.io/JP/EventUI/func_group_icon_1023.png",
+    "priority": 1,
+    "isDispValue": true
+  }]
+}, {
   "funcId": 22351,
   "funcType": "addStateShort",
   "funcTargetType": "self",
@@ -51924,6 +52141,76 @@
     "vals": [{
       "id": 3004
     }]
+  }]
+}, {
+  "funcId": 22390,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "宝具威力アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_310.png",
+  "funcquestTvals": [{
+    "id": 2884
+  }],
+  "buffs": [{
+    "id": 5773,
+    "name": "宝具威力アップ",
+    "detail": "〔暗闇〕のフィールドにおいてのみ、宝具で与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_310.png",
+    "type": "upNpdamage",
+    "originalScript": {
+      "ProgressSelfTurn": 1
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3030
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 22409,
+  "funcType": "addFieldChangeToField",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "フィールド変化〔暗闇〕",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_412.png",
+  "buffs": [{
+    "id": 5774,
+    "name": "フィールド変化〔暗闇〕",
+    "detail": "フィールドを〔暗闇〕状態にする",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_412.png",
+    "type": "toFieldChangeField",
+    "vals": [{
+      "id": 3079
+    }, {
+      "id": 2884
+    }]
+  }]
+}, {
+  "funcId": 22412,
+  "funcType": "addState",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "最大HPプラス",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_330.png",
+  "functvals": [{
+    "id": 2667
+  }],
+  "buffs": [{
+    "id": 201,
+    "name": "最大HPプラス",
+    "detail": "最大HPを増やす",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_330.png",
+    "type": "addMaxhp",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3043
+    }],
+    "maxRate": 50000
   }]
 }, {
   "funcId": 30003,

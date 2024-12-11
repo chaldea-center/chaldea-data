@@ -83137,4 +83137,409 @@
       "closedAt": 1710442799
     }]
   }]
+}, {
+  "id": 8390,
+  "coordinates": [
+    [],
+    []
+  ],
+  "age": "-",
+  "name": "クリスマス2024",
+  "longName": "ポホヨラのクリスマス・イブ 夢見るサンタとくるみ割り人形",
+  "flags": ["isEvent", "noClearMarkWithComplete", "changeDispClosedMessage"],
+  "banner": "https://static.atlasacademy.io/JP/Banner/event_war_80484.png",
+  "priority": 8390,
+  "bgm": {
+    "id": 0
+  },
+  "script": "https://static.atlasacademy.io/JP/Script/Common/NONE.txt",
+  "eventId": 80506,
+  "eventName": "ポホヨラのクリスマス・イブ \n夢見るサンタとくるみ割り人形",
+  "warAdds": [{
+    "warId": 8390,
+    "type": "bgImage",
+    "priority": 1,
+    "overwriteId": 144000,
+    "startedAt": 1733907600,
+    "endedAt": 1735052399
+  }, {
+    "warId": 8390,
+    "type": "bgImage",
+    "priority": 2,
+    "overwriteId": 204400,
+    "condType": "questClear",
+    "targetId": 3001101,
+    "startedAt": 1733907600,
+    "endedAt": 1735052399
+  }, {
+    "warId": 8390,
+    "type": "bgImage",
+    "priority": 3,
+    "overwriteId": 204400,
+    "condType": "questClear",
+    "targetId": 94064915,
+    "startedAt": 1733907600,
+    "endedAt": 1735052399
+  }, {
+    "warId": 8390,
+    "type": "bgImage",
+    "priority": 4,
+    "overwriteId": 235800,
+    "condType": "questClear",
+    "targetId": 94138500,
+    "startedAt": 1733907600,
+    "endedAt": 1735052399
+  }],
+  "maps": [{
+    "id": 8390,
+    "mapImage": "https://static.atlasacademy.io/JP/Terminal/MapImgs/img_questmap_008390/img_questmap_008390.png",
+    "bgm": {
+      "id": 882
+    }
+  }],
+  "spots": [{
+    "id": 839001,
+    "mapId": 8390,
+    "name": "カルデアゲート",
+    "quests": [{
+      "id": 94138500,
+      "name": "『オーバーチュア　～贈り物～』",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 839001,
+      "warId": 8390,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 1000011
+      }, {
+        "type": "questClear",
+        "targetId": 3001009,
+        "closedMessage": "Lostbelt No.6クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "presents": [{
+        "phase": 6,
+        "gifts": [{
+          "id": 94138516,
+          "type": "servant",
+          "objectId": 9770500,
+          "num": 10
+        }, {
+          "id": 94138516,
+          "type": "eventSvtJoin",
+          "objectId": 2800800,
+          "num": 1
+        }],
+        "giftIcon": "https://static.atlasacademy.io/JP/Items/3.png"
+      }],
+      "phases": [1, 2, 3, 4, 5, 6, 7],
+      "phasesNoBattle": [1, 2, 3, 4, 5, 6, 7],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9413850010",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413850010.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9413850020",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413850020.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9413850030",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413850030.txt"
+        }]
+      }, {
+        "phase": 4,
+        "scripts": [{
+          "scriptId": "9413850040",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413850040.txt"
+        }]
+      }, {
+        "phase": 5,
+        "scripts": [{
+          "scriptId": "9413850050",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413850050.txt"
+        }]
+      }, {
+        "phase": 6,
+        "scripts": [{
+          "scriptId": "9413850060",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413850060.txt"
+        }]
+      }, {
+        "phase": 7,
+        "scripts": [{
+          "scriptId": "9413850070",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413850070.txt"
+        }]
+      }],
+      "priority": 94138699,
+      "noticeAt": 1733907600,
+      "openedAt": 1733907600,
+      "closedAt": 1735052399
+    }, {
+      "id": 94138501,
+      "name": "『第１幕　～冬の星の木の踊り～』",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "70",
+      "spotId": 839001,
+      "warId": 8390,
+      "gifts": [{
+        "id": 94138518,
+        "type": "servant",
+        "objectId": 9408200,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94138500
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9413850110",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413850110.txt"
+        }, {
+          "scriptId": "9413850111",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413850111.txt"
+        }]
+      }],
+      "priority": 94138698,
+      "noticeAt": 1733907600,
+      "openedAt": 1733907600,
+      "closedAt": 1735052399
+    }, {
+      "id": 94138502,
+      "name": "『第２幕　前編　～雪の妖精たちのワルツ～』",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "70",
+      "spotId": 839001,
+      "warId": 8390,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94138501
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9413850210",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413850210.txt"
+        }, {
+          "scriptId": "9413850211",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413850211.txt"
+        }]
+      }],
+      "priority": 94138696,
+      "noticeAt": 1733907600,
+      "openedAt": 1733994000,
+      "closedAt": 1735052399
+    }, {
+      "id": 94138601,
+      "name": "妖精のお手伝い 出張英雄指南",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 30,
+      "afterClear": "repeatLast",
+      "recommendLv": "20",
+      "spotId": 839001,
+      "warId": 8390,
+      "gifts": [{
+        "id": 14000,
+        "objectId": 102,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 1000011
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "priority": 94138599,
+      "noticeAt": 1733907600,
+      "openedAt": 1733907600,
+      "closedAt": 1735052399
+    }, {
+      "id": 94138602,
+      "name": "妖精のお手伝い 雪だるま達人事件",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 35,
+      "afterClear": "repeatLast",
+      "recommendLv": "40",
+      "spotId": 839001,
+      "warId": 8390,
+      "gifts": [{
+        "id": 13000,
+        "objectId": 101,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 1000011
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "priority": 94138598,
+      "noticeAt": 1733907600,
+      "openedAt": 1733907600,
+      "closedAt": 1735052399
+    }, {
+      "id": 94138603,
+      "name": "妖精のお手伝い オーロラが見えるまで",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "60",
+      "spotId": 839001,
+      "warId": 8390,
+      "gifts": [{
+        "id": 13000,
+        "objectId": 101,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 1000011
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "priority": 94138597,
+      "noticeAt": 1733907600,
+      "openedAt": 1733907600,
+      "closedAt": 1735052399
+    }, {
+      "id": 94138604,
+      "name": "妖精のお手伝い クリスマスツリー世界シェア",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "70",
+      "spotId": 839001,
+      "warId": 8390,
+      "gifts": [{
+        "id": 12000,
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 1000011
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "priority": 94138596,
+      "noticeAt": 1733907600,
+      "openedAt": 1733907600,
+      "closedAt": 1735052399
+    }, {
+      "id": 94138605,
+      "name": "妖精のお手伝い 拠点防衛の要",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "75",
+      "spotId": 839001,
+      "warId": 8390,
+      "gifts": [{
+        "id": 12000,
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 1000011
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "priority": 94138595,
+      "noticeAt": 1733907600,
+      "openedAt": 1733994000,
+      "closedAt": 1735052399
+    }, {
+      "id": 94138650,
+      "name": "おもちゃの国の招待状",
+      "type": "event",
+      "flags": ["actConsumeBattleWin", "displayLoopmark"],
+      "consumeType": "item",
+      "consume": 5,
+      "consumeItem": [{
+        "itemId": 94138504,
+        "amount": 5
+      }],
+      "afterClear": "repeatLast",
+      "recommendLv": "60",
+      "spotId": 839001,
+      "warId": 8390,
+      "gifts": [{
+        "id": 15000,
+        "objectId": 4001,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 1000011
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "priority": 94138500,
+      "noticeAt": 1733907600,
+      "openedAt": 1733907600,
+      "closedAt": 1735052399
+    }]
+  }]
 }]

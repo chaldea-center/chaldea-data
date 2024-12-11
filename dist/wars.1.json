@@ -93913,6 +93913,83 @@
       "openedAt": 1732438800,
       "closedAt": 1893423600
     }, {
+      "id": 94138804,
+      "name": "強化クエスト アルテラ・ザ・サン〔タ〕",
+      "type": "event",
+      "flags": ["noDisplayRemain"],
+      "consume": 21,
+      "afterClear": "close",
+      "recommendLv": "80",
+      "spotId": 99001,
+      "warId": 1001,
+      "gifts": [{
+        "id": 94012504,
+        "objectId": 2,
+        "num": 2
+      }, {
+        "id": 94012504,
+        "type": "questRewardIcon",
+        "objectId": 9,
+        "num": 0
+      }],
+      "releaseConditions": [{
+        "type": "svtLimit",
+        "targetId": 202200,
+        "value": 4,
+        "closedMessage": "霊基再臨{0}段階目で開放"
+      }, {
+        "type": "svtGet",
+        "targetId": 202200
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1, 2, 3],
+      "priority": 94138802,
+      "noticeAt": 1733907600,
+      "openedAt": 1733907600,
+      "closedAt": 1893423600
+    }, {
+      "id": 94138805,
+      "name": "強化クエスト ファントム 2",
+      "type": "event",
+      "flags": ["noDisplayRemain"],
+      "consume": 19,
+      "afterClear": "close",
+      "recommendLv": "65",
+      "spotId": 99001,
+      "warId": 1001,
+      "gifts": [{
+        "id": 94012504,
+        "objectId": 2,
+        "num": 2
+      }, {
+        "id": 94012504,
+        "type": "questRewardIcon",
+        "objectId": 9,
+        "num": 0
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94052286
+      }, {
+        "type": "svtLimit",
+        "targetId": 601300,
+        "value": 4,
+        "closedMessage": "霊基再臨{0}段階目で開放"
+      }, {
+        "type": "svtGet",
+        "targetId": 601300
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1, 2, 3],
+      "priority": 94138801,
+      "noticeAt": 1733907600,
+      "openedAt": 1733907600,
+      "closedAt": 1893423600
+    }, {
       "id": 94139250,
       "name": "強化クエスト グレゴリー・ラスプーチン",
       "type": "event",
@@ -93946,7 +94023,7 @@
       }],
       "phases": [1, 2, 3],
       "phasesWithEnemies": [1, 2, 3],
-      "priority": 94139250,
+      "priority": 94138800,
       "noticeAt": 1733389200,
       "openedAt": 1733389200,
       "closedAt": 1893423600
