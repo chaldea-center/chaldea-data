@@ -83316,6 +83316,7 @@
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "phaseScripts": [{
         "phase": 1,
         "scripts": [{
@@ -83353,6 +83354,7 @@
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "phaseScripts": [{
         "phase": 1,
         "scripts": [{
@@ -83366,6 +83368,75 @@
       "priority": 94138696,
       "noticeAt": 1733907600,
       "openedAt": 1733994000,
+      "closedAt": 1735052399
+    }, {
+      "id": 94138503,
+      "name": "『第２幕　後編　～チョコレートの踊り～』",
+      "type": "main",
+      "flags": ["enemyImmediateAppear"],
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "75",
+      "spotId": 839001,
+      "warId": 8390,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94138502
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9413850310",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413850310.txt"
+        }, {
+          "scriptId": "9413850311",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413850311.txt"
+        }]
+      }],
+      "priority": 94138695,
+      "noticeAt": 1733994000,
+      "openedAt": 1733994000,
+      "closedAt": 1735052399
+    }, {
+      "id": 94138504,
+      "name": "",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "80",
+      "spotId": 839001,
+      "warId": 8390,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94138503
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "forceFalse",
+        "targetId": 0,
+        "closedMessage": "データ更新後に開放"
+      }],
+      "phases": [1],
+      "priority": 94138694,
+      "noticeAt": 1733994000,
+      "openedAt": 1734080400,
       "closedAt": 1735052399
     }, {
       "id": 94138601,
@@ -83391,6 +83462,7 @@
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94138599,
       "noticeAt": 1733907600,
       "openedAt": 1733907600,
@@ -83419,6 +83491,7 @@
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94138598,
       "noticeAt": 1733907600,
       "openedAt": 1733907600,
@@ -83447,6 +83520,7 @@
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94138597,
       "noticeAt": 1733907600,
       "openedAt": 1733907600,
@@ -83475,6 +83549,7 @@
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94138596,
       "noticeAt": 1733907600,
       "openedAt": 1733907600,
@@ -83503,9 +83578,42 @@
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94138595,
       "noticeAt": 1733907600,
       "openedAt": 1733994000,
+      "closedAt": 1735052399
+    }, {
+      "id": 94138606,
+      "name": "",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "80",
+      "spotId": 839001,
+      "warId": 8390,
+      "gifts": [{
+        "id": 12000,
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 1000011
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "forceFalse",
+        "targetId": 0,
+        "closedMessage": "データ更新後に開放"
+      }],
+      "phases": [1],
+      "priority": 94138594,
+      "noticeAt": 1733994000,
+      "openedAt": 1734080400,
       "closedAt": 1735052399
     }, {
       "id": 94138650,
@@ -83536,6 +83644,7 @@
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94138500,
       "noticeAt": 1733907600,
       "openedAt": 1733907600,
