@@ -83410,7 +83410,7 @@
       "closedAt": 1735052399
     }, {
       "id": 94138504,
-      "name": "",
+      "name": "『第３幕　～カハヴィタウコ～』",
       "type": "main",
       "consume": 5,
       "afterClear": "close",
@@ -83423,8 +83423,49 @@
         "num": 1
       }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 94138503
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9413850410",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413850410.txt"
+        }, {
+          "scriptId": "9413850411",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413850411.txt"
+        }]
+      }],
+      "priority": 94138694,
+      "noticeAt": 1733994000,
+      "openedAt": 1734080400,
+      "closedAt": 1735052399
+    }, {
+      "id": 94138505,
+      "name": "",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "75",
+      "spotId": 839001,
+      "warId": 8390,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94138504
       }, {
         "type": "date",
         "targetId": 0,
@@ -83435,9 +83476,9 @@
         "closedMessage": "データ更新後に開放"
       }],
       "phases": [1],
-      "priority": 94138694,
-      "noticeAt": 1733994000,
-      "openedAt": 1734080400,
+      "priority": 94138693,
+      "noticeAt": 1734080400,
+      "openedAt": 1734166800,
       "closedAt": 1735052399
     }, {
       "id": 94138601,
@@ -83582,11 +83623,11 @@
       "phasesWithEnemies": [1],
       "priority": 94138595,
       "noticeAt": 1733907600,
-      "openedAt": 1733994000,
+      "openedAt": 1733907600,
       "closedAt": 1735052399
     }, {
       "id": 94138606,
-      "name": "",
+      "name": "妖精のお手伝い 続・拠点防衛の要",
       "type": "event",
       "flags": ["displayLoopmark"],
       "consume": 40,
@@ -83600,22 +83641,143 @@
         "num": 1
       }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 1000011
       }, {
         "type": "date",
         "targetId": 0,
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
-      }, {
-        "type": "forceFalse",
-        "targetId": 0,
-        "closedMessage": "データ更新後に開放"
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
       "priority": 94138594,
-      "noticeAt": 1733994000,
-      "openedAt": 1734080400,
+      "noticeAt": 1733907600,
+      "openedAt": 1733907600,
+      "closedAt": 1735052399
+    }, {
+      "id": 94138607,
+      "name": "妖精のお手伝い ポホヨラキッチン",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "85",
+      "spotId": 839001,
+      "warId": 8390,
+      "gifts": [{
+        "id": 12000,
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
+        "type": "questClear",
+        "targetId": 1000011
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94138593,
+      "noticeAt": 1733907600,
+      "openedAt": 1733907600,
+      "closedAt": 1735052399
+    }, {
+      "id": 94138608,
+      "name": "妖精のお手伝い うわばみどもが夢の中",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90",
+      "spotId": 839001,
+      "warId": 8390,
+      "gifts": [{
+        "id": 12000,
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
+        "type": "questClear",
+        "targetId": 1000011
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94138592,
+      "noticeAt": 1733907600,
+      "openedAt": 1733907600,
+      "closedAt": 1735052399
+    }, {
+      "id": 94138609,
+      "name": "妖精のお手伝い ドラゴンセット量産工場",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90+",
+      "spotId": 839001,
+      "warId": 8390,
+      "gifts": [{
+        "id": 327,
+        "objectId": 3,
+        "num": 100
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 1000011
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94138591,
+      "noticeAt": 1733907600,
+      "openedAt": 1733907600,
+      "closedAt": 1735052399
+    }, {
+      "id": 94138610,
+      "name": "妖精のお手伝い 異境のグルメ",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90++",
+      "spotId": 839001,
+      "warId": 8390,
+      "gifts": [{
+        "id": 337,
+        "objectId": 3,
+        "num": 200
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 1000011
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94138590,
+      "noticeAt": 1733907600,
+      "openedAt": 1733907600,
       "closedAt": 1735052399
     }, {
       "id": 94138650,
