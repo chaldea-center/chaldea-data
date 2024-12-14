@@ -83451,7 +83451,7 @@
       "closedAt": 1735052399
     }, {
       "id": 94138505,
-      "name": "",
+      "name": "『第４幕　前編　～茶の花の踊り～』",
       "type": "main",
       "consume": 5,
       "afterClear": "close",
@@ -83464,8 +83464,87 @@
         "num": 1
       }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 94138504
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9413850510",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413850510.txt"
+        }, {
+          "scriptId": "9413850511",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413850511.txt"
+        }]
+      }],
+      "priority": 94138693,
+      "noticeAt": 1734080400,
+      "openedAt": 1734166800,
+      "closedAt": 1735052399
+    }, {
+      "id": 94138506,
+      "name": "『第４幕　後編　～トレパック～』",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "80",
+      "spotId": 839001,
+      "warId": 8390,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94138505
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9413850610",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413850610.txt"
+        }, {
+          "scriptId": "9413850611",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413850611.txt"
+        }]
+      }],
+      "priority": 94138692,
+      "noticeAt": 1734166800,
+      "openedAt": 1734166800,
+      "closedAt": 1735052399
+    }, {
+      "id": 94138507,
+      "name": "",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "85",
+      "spotId": 839001,
+      "warId": 8390,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94138506
       }, {
         "type": "date",
         "targetId": 0,
@@ -83476,9 +83555,9 @@
         "closedMessage": "データ更新後に開放"
       }],
       "phases": [1],
-      "priority": 94138693,
-      "noticeAt": 1734080400,
-      "openedAt": 1734166800,
+      "priority": 94138691,
+      "noticeAt": 1734166800,
+      "openedAt": 1734253200,
       "closedAt": 1735052399
     }, {
       "id": 94138601,
