@@ -83530,7 +83530,7 @@
       "closedAt": 1735052399
     }, {
       "id": 94138507,
-      "name": "",
+      "name": "『第５幕　前編　～葦笛の踊り～』",
       "type": "main",
       "consume": 5,
       "afterClear": "close",
@@ -83543,8 +83543,123 @@
         "num": 1
       }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 94138506
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9413850710",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413850710.txt"
+        }, {
+          "scriptId": "9413850711",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413850711.txt"
+        }]
+      }],
+      "priority": 94138691,
+      "noticeAt": 1734166800,
+      "openedAt": 1734253200,
+      "closedAt": 1735052399
+    }, {
+      "id": 94138508,
+      "name": "『第５幕　後編　～ジャガーとサンタと道化たち～』",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 839001,
+      "warId": 8390,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94138507
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9413850810",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413850810.txt"
+        }]
+      }],
+      "priority": 94138690,
+      "noticeAt": 1734253200,
+      "openedAt": 1734253200,
+      "closedAt": 1735052399
+    }, {
+      "id": 94138509,
+      "name": "『第６幕　～花のワルツ～』",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "80",
+      "spotId": 839001,
+      "warId": 8390,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94138508
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9413850910",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413850910.txt"
+        }, {
+          "scriptId": "9413850911",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413850911.txt"
+        }]
+      }],
+      "priority": 94138689,
+      "noticeAt": 1734253200,
+      "openedAt": 1734253200,
+      "closedAt": 1735052399
+    }, {
+      "id": 94138510,
+      "name": "",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "90",
+      "spotId": 839001,
+      "warId": 8390,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94138509
       }, {
         "type": "date",
         "targetId": 0,
@@ -83554,10 +83669,10 @@
         "targetId": 0,
         "closedMessage": "データ更新後に開放"
       }],
-      "phases": [1],
-      "priority": 94138691,
-      "noticeAt": 1734166800,
-      "openedAt": 1734253200,
+      "phases": [1, 2],
+      "priority": 94138688,
+      "noticeAt": 1734253200,
+      "openedAt": 1734339600,
       "closedAt": 1735052399
     }, {
       "id": 94138601,

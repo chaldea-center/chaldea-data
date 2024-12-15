@@ -144523,10 +144523,16 @@
     "slot": 1,
     "type": 1,
     "guides": [{
+      "imageId": 2800800,
+      "image": "https://static.atlasacademy.io/JP/CharaFigure/28008000/28008000_merged.png",
+      "faceId": 2,
+      "weight": 500
+    }, {
       "imageId": 705000,
       "limitCount": 1,
       "image": "https://static.atlasacademy.io/JP/CharaFigure/7050001/7050001_merged.png",
-      "faceId": 2
+      "faceId": 2,
+      "weight": 500
     }],
     "tabOnImage": "https://static.atlasacademy.io/JP/EventReward/btn_txt_on_80506_1.png",
     "tabOffImage": "https://static.atlasacademy.io/JP/EventReward/btn_txt_off_80506_1.png",
@@ -149571,6 +149577,89 @@
       "face": [3],
       "conds": [{
         "condType": "eventNoend",
+        "value": 80506
+      }]
+    }]
+  }, {
+    "svtId": 2800800,
+    "type": "eventShop",
+    "voiceLines": [{
+      "name": "ショップついて 1",
+      "condType": "eventEnd",
+      "priority": 6490,
+      "svtVoiceType": "eventShop",
+      "overwriteName": "ポホヨラのクリスマス・イブ\n～夢見るサンタとくるみ割り人形～ 8",
+      "id": ["0_I010", "0_I011", "0_I012"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_2800800/0_I010.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_2800800/0_I011.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_2800800/0_I012.mp3"],
+      "delay": [0.0, 0.1, 0.1],
+      "face": [5, 3, 4],
+      "conds": [{
+        "condType": "eventNoend",
+        "value": 80506
+      }]
+    }, {
+      "name": "ショップついて 2",
+      "condType": "eventEnd",
+      "priority": 6480,
+      "svtVoiceType": "eventShop",
+      "overwriteName": "ポホヨラのクリスマス・イブ\n～夢見るサンタとくるみ割り人形～ 9",
+      "id": ["0_I020"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_2800800/0_I020.mp3"],
+      "delay": [0.0],
+      "face": [36],
+      "conds": [{
+        "condType": "eventNoend",
+        "value": 80506
+      }]
+    }, {
+      "name": "ショップついて 4",
+      "condType": "eventEnd",
+      "priority": 6460,
+      "svtVoiceType": "eventShop",
+      "overwriteName": "ポホヨラのクリスマス・イブ\n～夢見るサンタとくるみ割り人形～ 11",
+      "id": ["0_I040", "0_I041"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_2800800/0_I040.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_2800800/0_I041.mp3"],
+      "delay": [0.0, 0.1],
+      "face": [5, 4],
+      "conds": [{
+        "condType": "eventShopPurchase",
+        "value": 80506
+      }, {
+        "condType": "eventPeriod",
+        "value": 80506
+      }]
+    }, {
+      "name": "ショップついて 5",
+      "condType": "eventEnd",
+      "priority": 6450,
+      "svtVoiceType": "eventShop",
+      "overwriteName": "ポホヨラのクリスマス・イブ\n～夢見るサンタとくるみ割り人形～ 12",
+      "id": ["0_I050", "0_I051"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_2800800/0_I050.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_2800800/0_I051.mp3"],
+      "delay": [0.0, 0.1],
+      "face": [3, 23],
+      "conds": [{
+        "condType": "eventShopPurchase",
+        "value": 80506
+      }, {
+        "condType": "eventPeriod",
+        "value": 80506
+      }]
+    }, {
+      "name": "ショップついて 6",
+      "condType": "eventEnd",
+      "priority": 6440,
+      "svtVoiceType": "eventShop",
+      "overwriteName": "ポホヨラのクリスマス・イブ\n～夢見るサンタとくるみ割り人形～ 13",
+      "id": ["0_I060", "0_I061"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_2800800/0_I060.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_2800800/0_I061.mp3"],
+      "delay": [0.0, 0.1],
+      "face": [24, 37],
+      "conds": [{
+        "condType": "eventShopPurchase",
+        "value": 80506
+      }, {
+        "condType": "eventPeriod",
         "value": 80506
       }]
     }]
