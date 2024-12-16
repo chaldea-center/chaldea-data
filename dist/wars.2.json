@@ -83645,7 +83645,7 @@
       "closedAt": 1735052399
     }, {
       "id": 94138510,
-      "name": "",
+      "name": "『第７幕　～パ・ド・ドゥ　金平糖の精の踊り～』",
       "type": "main",
       "consume": 5,
       "afterClear": "close",
@@ -83658,20 +83658,84 @@
         "num": 1
       }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 94138509
       }, {
         "type": "date",
         "targetId": 0,
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
-      }, {
-        "type": "forceFalse",
-        "targetId": 0,
-        "closedMessage": "データ更新後に開放"
       }],
       "phases": [1, 2],
+      "phasesWithEnemies": [1, 2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9413851010",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413851010.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9413851020",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413851020.txt"
+        }, {
+          "scriptId": "9413851021",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413851021.txt"
+        }]
+      }],
       "priority": 94138688,
       "noticeAt": 1734253200,
+      "openedAt": 1734339600,
+      "closedAt": 1735052399
+    }, {
+      "id": 94138511,
+      "name": "『カーテンコール』",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 839001,
+      "warId": 8390,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/3.png",
+      "gifts": [{
+        "id": 94138525,
+        "objectId": 7999,
+        "num": 1
+      }, {
+        "id": 94138525,
+        "type": "eventSvtGet",
+        "objectId": 2800800,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94138510
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1, 2],
+      "phasesNoBattle": [1, 2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9413851110",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413851110.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9413851120",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413851120.txt"
+        }]
+      }],
+      "priority": 94138687,
+      "noticeAt": 1734339600,
       "openedAt": 1734339600,
       "closedAt": 1735052399
     }, {
@@ -84006,6 +84070,39 @@
       "priority": 94138500,
       "noticeAt": 1733907600,
       "openedAt": 1733907600,
+      "closedAt": 1735052399
+    }, {
+      "id": 94138701,
+      "name": "",
+      "type": "event",
+      "flags": ["dropFirstTimeOnly", "notRetrievable", "enemyImmediateAppear"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "90+",
+      "spotId": 839001,
+      "warId": 8390,
+      "gifts": [{
+        "id": 21701,
+        "objectId": 6999,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 1000822,
+        "closedMessage": "終局特異点クリア\n＆12月17日18時00分以降に開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "forceFalse",
+        "targetId": 0,
+        "closedMessage": "データ更新後に開放"
+      }],
+      "phases": [1],
+      "priority": 94138650,
+      "noticeAt": 1734339600,
+      "openedAt": 1734426000,
       "closedAt": 1735052399
     }]
   }]
