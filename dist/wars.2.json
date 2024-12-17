@@ -84073,7 +84073,7 @@
       "closedAt": 1735052399
     }, {
       "id": 94138701,
-      "name": "",
+      "name": "【高難易度】ハチドリとヤヤウキおもちゃ工房",
       "type": "event",
       "flags": ["dropFirstTimeOnly", "notRetrievable", "enemyImmediateAppear"],
       "consume": 5,
@@ -84087,6 +84087,9 @@
         "num": 1
       }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 1000822,
         "closedMessage": "終局特異点クリア\n＆12月17日18時00分以降に開放"
@@ -84094,12 +84097,9 @@
         "type": "date",
         "targetId": 0,
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
-      }, {
-        "type": "forceFalse",
-        "targetId": 0,
-        "closedMessage": "データ更新後に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94138650,
       "noticeAt": 1734339600,
       "openedAt": 1734426000,
