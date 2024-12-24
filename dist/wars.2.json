@@ -84106,4 +84106,382 @@
       "closedAt": 1735052399
     }]
   }]
+}, {
+  "id": 8391,
+  "coordinates": [
+    [],
+    []
+  ],
+  "age": "-",
+  "name": "スペース・ファンタズムーン　アナザー・クリスマス",
+  "longName": "スペース・ファンタズムーン　アナザー・クリスマス",
+  "flags": ["isEvent", "noClearMarkWithComplete", "changeDispClosedMessage"],
+  "banner": "https://static.atlasacademy.io/JP/Banner/event_war_80486.png",
+  "priority": 8391,
+  "bgm": {
+    "id": 0
+  },
+  "script": "https://static.atlasacademy.io/JP/Script/Common/NONE.txt",
+  "eventId": 80507,
+  "eventName": "スペース・ファンタズムーン \nアナザー・クリスマス 真夜中のこんふぁんた",
+  "warAdds": [{
+    "warId": 8391,
+    "type": "bgImage",
+    "priority": 2,
+    "overwriteId": 203900,
+    "condType": "questClear",
+    "targetId": 94138900,
+    "startedAt": 1735052400,
+    "endedAt": 1893423600
+  }],
+  "maps": [{
+    "id": 8391,
+    "mapImage": "https://static.atlasacademy.io/JP/Terminal/MapImgs/img_questmap_008391/img_questmap_008391.png",
+    "bgm": {
+      "id": 0
+    }
+  }],
+  "spots": [{
+    "id": 839101,
+    "mapId": 8391,
+    "name": "カルデアゲート",
+    "quests": [{
+      "id": 94138900,
+      "name": "第０話　白き月姫ファンタズムーン！",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "20",
+      "spotId": 839101,
+      "warId": 8391,
+      "gifts": [{
+        "id": 94138901,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 1000011
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1, 2, 3, 4],
+      "phasesWithEnemies": [2, 3],
+      "phasesNoBattle": [1, 4],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9413890010",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413890010.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9413890020",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413890020.txt"
+        }, {
+          "scriptId": "9413890021",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413890021.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9413890031",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413890031.txt"
+        }]
+      }, {
+        "phase": 4,
+        "scripts": [{
+          "scriptId": "9413890040",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413890040.txt"
+        }]
+      }],
+      "priority": 94139198,
+      "noticeAt": 1735052400,
+      "openedAt": 1735052400,
+      "closedAt": 1735657199
+    }, {
+      "id": 94138901,
+      "name": "",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "30",
+      "spotId": 839101,
+      "warId": 8391,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/3.png",
+      "gifts": [{
+        "id": 94138902,
+        "type": "servant",
+        "objectId": 9408250,
+        "num": 1
+      }, {
+        "id": 94138902,
+        "objectId": 1,
+        "num": 8600
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94138900
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "forceFalse",
+        "targetId": 0,
+        "closedMessage": "データ更新後に開放"
+      }],
+      "phases": [1, 2],
+      "phasesNoBattle": [2],
+      "priority": 94139197,
+      "noticeAt": 1735052400,
+      "openedAt": 1735117200,
+      "closedAt": 1735657199
+    }, {
+      "id": 94139001,
+      "name": "【血の恋愛ゲーム配信】恋愛なるものを調査します",
+      "type": "event",
+      "consume": 30,
+      "afterClear": "repeatLast",
+      "recommendLv": "15",
+      "spotId": 839101,
+      "warId": 8391,
+      "gifts": [{
+        "id": 14000,
+        "objectId": 102,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94138900
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94138998,
+      "noticeAt": 1735052400,
+      "openedAt": 1735052400,
+      "closedAt": 1735657199
+    }, {
+      "id": 94139002,
+      "name": "【年間ベストバイ】今年買うべきロボはこれ！",
+      "type": "event",
+      "consume": 35,
+      "afterClear": "repeatLast",
+      "recommendLv": "25",
+      "spotId": 839101,
+      "warId": 8391,
+      "gifts": [{
+        "id": 14000,
+        "objectId": 102,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94138900
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94138997,
+      "noticeAt": 1735052400,
+      "openedAt": 1735052400,
+      "closedAt": 1735657199
+    }, {
+      "id": 94139003,
+      "name": "【踊ってみた】歌舞伎の舞、とくと御覧じろ！",
+      "type": "event",
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "40",
+      "spotId": 839101,
+      "warId": 8391,
+      "gifts": [{
+        "id": 13000,
+        "objectId": 101,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94138900
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94138996,
+      "noticeAt": 1735052400,
+      "openedAt": 1735052400,
+      "closedAt": 1735657199
+    }, {
+      "id": 94139004,
+      "name": "【雑談枠】もっともっと褒めてください",
+      "type": "event",
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "60",
+      "spotId": 839101,
+      "warId": 8391,
+      "gifts": [{
+        "id": 13000,
+        "objectId": 101,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94138900
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94138995,
+      "noticeAt": 1735052400,
+      "openedAt": 1735052400,
+      "closedAt": 1735657199
+    }, {
+      "id": 94139005,
+      "name": "【厳選ＦＰＳ配信】全部のゲームでトップを狙う",
+      "type": "event",
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "70",
+      "spotId": 839101,
+      "warId": 8391,
+      "gifts": [{
+        "id": 12000,
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94138900
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94138994,
+      "noticeAt": 1735052400,
+      "openedAt": 1735052400,
+      "closedAt": 1735657199
+    }, {
+      "id": 94139006,
+      "name": "【アルトリアクラフト】氷彫刻を作ります",
+      "type": "event",
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "80",
+      "spotId": 839101,
+      "warId": 8391,
+      "gifts": [{
+        "id": 12000,
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94138900
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94138993,
+      "noticeAt": 1735052400,
+      "openedAt": 1735052400,
+      "closedAt": 1735657199
+    }, {
+      "id": 94139007,
+      "name": "【参加型】筋トレは裏切りません",
+      "type": "event",
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90",
+      "spotId": 839101,
+      "warId": 8391,
+      "gifts": [{
+        "id": 12000,
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94138900
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94138992,
+      "noticeAt": 1735052400,
+      "openedAt": 1735052400,
+      "closedAt": 1735657199
+    }, {
+      "id": 94139008,
+      "name": "【歌枠】我が愛を皆に贈ろう！",
+      "type": "event",
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90+",
+      "spotId": 839101,
+      "warId": 8391,
+      "gifts": [{
+        "id": 327,
+        "objectId": 3,
+        "num": 100
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94138900
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94138991,
+      "noticeAt": 1735052400,
+      "openedAt": 1735052400,
+      "closedAt": 1735657199
+    }, {
+      "id": 94139009,
+      "name": "",
+      "type": "event",
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90++",
+      "spotId": 839101,
+      "warId": 8391,
+      "gifts": [{
+        "id": 337,
+        "objectId": 3,
+        "num": 200
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94138900
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "第４話クリア\n＆12月28日18時00分以降に開放"
+      }],
+      "phases": [1],
+      "priority": 94138990,
+      "noticeAt": 1735052400,
+      "openedAt": 1735376400,
+      "closedAt": 1735657199
+    }]
+  }]
 }]
