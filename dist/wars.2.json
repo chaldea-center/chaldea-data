@@ -84203,7 +84203,7 @@
       "closedAt": 1735657199
     }, {
       "id": 94138901,
-      "name": "",
+      "name": "第１話　なかよし！　噂の暗殺集団！",
       "type": "main",
       "consume": 5,
       "afterClear": "close",
@@ -84222,8 +84222,49 @@
         "num": 8600
       }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 94138900
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1, 2],
+      "phasesWithEnemies": [1],
+      "phasesNoBattle": [2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9413890110",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413890110.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9413890120",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413890120.txt"
+        }]
+      }],
+      "priority": 94139197,
+      "noticeAt": 1735052400,
+      "openedAt": 1735117200,
+      "closedAt": 1735657199
+    }, {
+      "id": 94138902,
+      "name": "",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "40",
+      "spotId": 839101,
+      "warId": 8391,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/3.png",
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94138901
       }, {
         "type": "date",
         "targetId": 0,
@@ -84235,9 +84276,9 @@
       }],
       "phases": [1, 2],
       "phasesNoBattle": [2],
-      "priority": 94139197,
-      "noticeAt": 1735052400,
-      "openedAt": 1735117200,
+      "priority": 94139196,
+      "noticeAt": 1735117200,
+      "openedAt": 1735203600,
       "closedAt": 1735657199
     }, {
       "id": 94139001,
