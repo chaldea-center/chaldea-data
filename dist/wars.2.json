@@ -84264,7 +84264,7 @@
       "closedAt": 1735657199
     }, {
       "id": 94138902,
-      "name": "",
+      "name": "第２話　ホント？　よみがえる聖女伝説",
       "type": "main",
       "consume": 5,
       "afterClear": "close",
@@ -84272,23 +84272,93 @@
       "spotId": 839101,
       "warId": 8391,
       "giftIcon": "https://static.atlasacademy.io/JP/Items/3.png",
+      "gifts": [{
+        "id": 94138903,
+        "objectId": 1,
+        "num": 171400
+      }, {
+        "id": 94138903,
+        "objectId": 2,
+        "num": 1
+      }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 94138901
       }, {
         "type": "date",
         "targetId": 0,
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
-      }, {
-        "type": "forceFalse",
-        "targetId": 0,
-        "closedMessage": "データ更新後に開放"
       }],
       "phases": [1, 2],
+      "phasesWithEnemies": [1],
       "phasesNoBattle": [2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9413890210",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413890210.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9413890220",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413890220.txt"
+        }]
+      }],
       "priority": 94139196,
       "noticeAt": 1735117200,
       "openedAt": 1735203600,
+      "closedAt": 1735657199
+    }, {
+      "id": 94138903,
+      "name": "第３話　かんぱいのオウガ・パーティー！",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "50",
+      "spotId": 839101,
+      "warId": 8391,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/3.png",
+      "gifts": [{
+        "id": 94138904,
+        "objectId": 1,
+        "num": 1585300
+      }, {
+        "id": 94138904,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94138902
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1, 2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9413890310",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413890310.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9413890320",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413890320.txt"
+        }, {
+          "scriptId": "9413890321",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413890321.txt"
+        }]
+      }],
+      "priority": 94139195,
+      "noticeAt": 1735203600,
+      "openedAt": 1735290000,
       "closedAt": 1735657199
     }, {
       "id": 94139001,
@@ -84508,7 +84578,7 @@
       "closedAt": 1735657199
     }, {
       "id": 94139009,
-      "name": "",
+      "name": "【凸待ち】腕に自信がある者大歓迎！",
       "type": "event",
       "consume": 40,
       "afterClear": "repeatLast",
@@ -84523,6 +84593,10 @@
       "releaseConditions": [{
         "type": "questClear",
         "targetId": 94138900
+      }, {
+        "type": "questClear",
+        "targetId": 94138904,
+        "closedMessage": "第４話クリアで開放"
       }, {
         "type": "date",
         "targetId": 0,
