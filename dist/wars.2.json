@@ -84340,6 +84340,7 @@
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
       }],
       "phases": [1, 2],
+      "phasesWithEnemies": [1, 2],
       "phaseScripts": [{
         "phase": 1,
         "scripts": [{
@@ -84359,6 +84360,89 @@
       "priority": 94139195,
       "noticeAt": 1735203600,
       "openedAt": 1735290000,
+      "closedAt": 1735657199
+    }, {
+      "id": 94138904,
+      "name": "第４話　魔の年末進行",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "45",
+      "spotId": 839101,
+      "warId": 8391,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/3.png",
+      "gifts": [{
+        "id": 94138905,
+        "objectId": 1,
+        "num": 8213700
+      }, {
+        "id": 94138905,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94138903
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1, 2, 3, 4],
+      "phasesNoBattle": [2, 4],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9413890410",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413890410.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9413890420",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413890420.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9413890430",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413890430.txt"
+        }, {
+          "scriptId": "9413890431",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413890431.txt"
+        }]
+      }, {
+        "phase": 4,
+        "scripts": [{
+          "scriptId": "9413890440",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413890440.txt"
+        }]
+      }],
+      "priority": 94139193,
+      "noticeAt": 1735290000,
+      "openedAt": 1735376400,
+      "closedAt": 1735657199
+    }, {
+      "id": 94138999,
+      "name": "第４話　魔の年末進行",
+      "type": "main",
+      "flags": ["branch"],
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "45",
+      "spotId": 839101,
+      "warId": 8391,
+      "phases": [3],
+      "phaseScripts": [{
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9413899931",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413899931.txt"
+        }]
+      }],
+      "priority": 94139194,
+      "noticeAt": 1735290000,
+      "openedAt": 1735376400,
       "closedAt": 1735657199
     }, {
       "id": 94139001,
