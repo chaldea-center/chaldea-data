@@ -84389,6 +84389,7 @@
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
       }],
       "phases": [1, 2, 3, 4],
+      "phasesWithEnemies": [1, 3],
       "phasesNoBattle": [2, 4],
       "phaseScripts": [{
         "phase": 1,
@@ -84421,6 +84422,34 @@
       "priority": 94139193,
       "noticeAt": 1735290000,
       "openedAt": 1735376400,
+      "closedAt": 1735657199
+    }, {
+      "id": 94138905,
+      "name": "",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "60",
+      "spotId": 839101,
+      "warId": 8391,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/3.png",
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94138904
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "forceFalse",
+        "targetId": 0,
+        "closedMessage": "データ更新後に開放"
+      }],
+      "phases": [1, 2, 3, 4],
+      "phasesNoBattle": [2, 3, 4],
+      "priority": 94139192,
+      "noticeAt": 1735376400,
+      "openedAt": 1735430400,
       "closedAt": 1735657199
     }, {
       "id": 94138999,
@@ -84687,6 +84716,7 @@
         "closedMessage": "第４話クリア\n＆12月28日18時00分以降に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94138990,
       "noticeAt": 1735052400,
       "openedAt": 1735376400,
