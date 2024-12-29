@@ -84133,6 +84133,15 @@
     "targetId": 94138900,
     "startedAt": 1735052400,
     "endedAt": 1893423600
+  }, {
+    "warId": 8391,
+    "type": "bgImage",
+    "priority": 3,
+    "overwriteId": 237600,
+    "condType": "questClear",
+    "targetId": 94138905,
+    "startedAt": 1735052400,
+    "endedAt": 1893423600
   }],
   "groups": [{
     "id": 101389001
@@ -84425,7 +84434,7 @@
       "closedAt": 1735657199
     }, {
       "id": 94138905,
-      "name": "",
+      "name": "第５話　そんな！？　明かされる真実",
       "type": "main",
       "consume": 5,
       "afterClear": "close",
@@ -84433,9 +84442,80 @@
       "spotId": 839101,
       "warId": 8391,
       "giftIcon": "https://static.atlasacademy.io/JP/Items/3.png",
+      "gifts": [{
+        "id": 94138906,
+        "objectId": 1,
+        "num": 9127700
+      }, {
+        "id": 94138906,
+        "objectId": 2,
+        "num": 1
+      }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 94138904
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1, 2, 3, 4],
+      "phasesWithEnemies": [1],
+      "phasesNoBattle": [2, 3, 4],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9413890510",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413890510.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9413890520",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413890520.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9413890530",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413890530.txt"
+        }]
+      }, {
+        "phase": 4,
+        "scripts": [{
+          "scriptId": "9413890540",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413890540.txt"
+        }]
+      }],
+      "priority": 94139192,
+      "noticeAt": 1735376400,
+      "openedAt": 1735430400,
+      "closedAt": 1735657199
+    }, {
+      "id": 94138906,
+      "name": "",
+      "type": "main",
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 839101,
+      "warId": 8391,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/3.png",
+      "gifts": [{
+        "id": 94138907,
+        "objectId": 1,
+        "num": 10178300
+      }, {
+        "id": 94138907,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94139106
       }, {
         "type": "date",
         "targetId": 0,
@@ -84445,11 +84525,11 @@
         "targetId": 0,
         "closedMessage": "データ更新後に開放"
       }],
-      "phases": [1, 2, 3, 4],
-      "phasesNoBattle": [2, 3, 4],
-      "priority": 94139192,
-      "noticeAt": 1735376400,
-      "openedAt": 1735430400,
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94139191,
+      "noticeAt": 1735462800,
+      "openedAt": 1735549200,
       "closedAt": 1735657199
     }, {
       "id": 94138999,
@@ -84720,6 +84800,192 @@
       "priority": 94138990,
       "noticeAt": 1735052400,
       "openedAt": 1735376400,
+      "closedAt": 1735657199
+    }, {
+      "id": 94139101,
+      "name": "キングサンタ総力戦 カンパニー級",
+      "type": "event",
+      "flags": ["raid", "raidConnection", "noDisplayRaidRemain"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "40",
+      "spotId": 839101,
+      "warId": 8391,
+      "releaseConditions": [{
+        "type": "none",
+        "targetId": 0,
+        "closedMessage": "データ更新後に開放"
+      }, {
+        "type": "questClear",
+        "targetId": 94138905
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "raidAlive",
+        "targetId": 80507,
+        "value": 1
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94139098,
+      "noticeAt": 1735430400,
+      "openedAt": 1735462800,
+      "closedAt": 1735657199
+    }, {
+      "id": 94139102,
+      "name": "キングサンタ総力戦 コテージ級",
+      "type": "event",
+      "flags": ["raid", "raidConnection", "noDisplayRaidRemain"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "70",
+      "spotId": 839101,
+      "warId": 8391,
+      "releaseConditions": [{
+        "type": "none",
+        "targetId": 0,
+        "closedMessage": "データ更新後に開放"
+      }, {
+        "type": "questClear",
+        "targetId": 94138905
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "raidAlive",
+        "targetId": 80507,
+        "value": 1
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94139097,
+      "noticeAt": 1735430400,
+      "openedAt": 1735462800,
+      "closedAt": 1735657199
+    }, {
+      "id": 94139103,
+      "name": "キングサンタ総力戦 ビレッジ級",
+      "type": "event",
+      "flags": ["raid", "raidConnection", "noDisplayRaidRemain"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90",
+      "spotId": 839101,
+      "warId": 8391,
+      "releaseConditions": [{
+        "type": "none",
+        "targetId": 0,
+        "closedMessage": "データ更新後に開放"
+      }, {
+        "type": "questClear",
+        "targetId": 94138905
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "raidAlive",
+        "targetId": 80507,
+        "value": 1
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94139096,
+      "noticeAt": 1735430400,
+      "openedAt": 1735462800,
+      "closedAt": 1735657199
+    }, {
+      "id": 94139104,
+      "name": "キングサンタ総力戦 キングダム級",
+      "type": "event",
+      "flags": ["raid", "raidConnection", "noDisplayRaidRemain"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90+",
+      "spotId": 839101,
+      "warId": 8391,
+      "releaseConditions": [{
+        "type": "none",
+        "targetId": 0,
+        "closedMessage": "データ更新後に開放"
+      }, {
+        "type": "questClear",
+        "targetId": 94138905
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "raidAlive",
+        "targetId": 80507,
+        "value": 1
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94139095,
+      "noticeAt": 1735430400,
+      "openedAt": 1735462800,
+      "closedAt": 1735657199
+    }, {
+      "id": 94139105,
+      "name": "キングサンタ総力戦 プラネット級",
+      "type": "event",
+      "flags": ["raid", "raidConnection", "noDisplayRaidRemain"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90++",
+      "spotId": 839101,
+      "warId": 8391,
+      "releaseConditions": [{
+        "type": "none",
+        "targetId": 0,
+        "closedMessage": "データ更新後に開放"
+      }, {
+        "type": "questClear",
+        "targetId": 94138905
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "raidAlive",
+        "targetId": 80507,
+        "value": 1
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94139094,
+      "noticeAt": 1735430400,
+      "openedAt": 1735462800,
+      "closedAt": 1735657199
+    }, {
+      "id": 94139106,
+      "name": "キングサンタやったか！？戦",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "70",
+      "spotId": 839101,
+      "warId": 8391,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94138905
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "raidDead",
+        "targetId": 80507,
+        "value": 1
+      }],
+      "phases": [1],
+      "priority": 94139093,
+      "noticeAt": 1735462800,
+      "openedAt": 1735462800,
       "closedAt": 1735657199
     }]
   }]
