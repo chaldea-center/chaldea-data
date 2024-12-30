@@ -84496,7 +84496,7 @@
       "closedAt": 1735657199
     }, {
       "id": 94138906,
-      "name": "",
+      "name": "第６話　その名はサンタズムーン！",
       "type": "main",
       "consume": 0,
       "afterClear": "close",
@@ -84514,8 +84514,51 @@
         "num": 1
       }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 94139106
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9413890610",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413890610.txt"
+        }]
+      }],
+      "priority": 94139191,
+      "noticeAt": 1735462800,
+      "openedAt": 1735549200,
+      "closedAt": 1735657199
+    }, {
+      "id": 94138907,
+      "name": "",
+      "type": "main",
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 839101,
+      "warId": 8391,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/3.png",
+      "gifts": [{
+        "id": 94138908,
+        "objectId": 1,
+        "num": 20715000
+      }, {
+        "id": 94138908,
+        "objectId": 7999,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94139116
       }, {
         "type": "date",
         "targetId": 0,
@@ -84525,11 +84568,11 @@
         "targetId": 0,
         "closedMessage": "データ更新後に開放"
       }],
-      "phases": [1],
-      "phasesNoBattle": [1],
-      "priority": 94139191,
-      "noticeAt": 1735462800,
-      "openedAt": 1735549200,
+      "phases": [1, 2],
+      "phasesNoBattle": [1, 2],
+      "priority": 94139190,
+      "noticeAt": 1735549200,
+      "openedAt": 1735635600,
       "closedAt": 1735657199
     }, {
       "id": 94138999,
@@ -84987,6 +85030,170 @@
       "priority": 94139093,
       "noticeAt": 1735462800,
       "openedAt": 1735462800,
+      "closedAt": 1735657199
+    }, {
+      "id": 94139111,
+      "name": "ネコ１０８鐘撞戦 ブルースペチャ級",
+      "type": "event",
+      "flags": ["raid", "raidConnection", "noDisplayRaidRemain"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "40",
+      "spotId": 839101,
+      "warId": 8391,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94138906
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "raidAlive",
+        "targetId": 80507,
+        "value": 2
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94139098,
+      "noticeAt": 1735549200,
+      "openedAt": 1735549200,
+      "closedAt": 1735657199
+    }, {
+      "id": 94139112,
+      "name": "ネコ１０８鐘撞戦 グリーンスペチャ級",
+      "type": "event",
+      "flags": ["raid", "raidConnection", "noDisplayRaidRemain"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "70",
+      "spotId": 839101,
+      "warId": 8391,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94138906
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "raidAlive",
+        "targetId": 80507,
+        "value": 2
+      }],
+      "phases": [1],
+      "priority": 94139097,
+      "noticeAt": 1735549200,
+      "openedAt": 1735549200,
+      "closedAt": 1735657199
+    }, {
+      "id": 94139113,
+      "name": "ネコ１０８鐘撞戦 イエロースペチャ級",
+      "type": "event",
+      "flags": ["raid", "raidConnection", "noDisplayRaidRemain"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90",
+      "spotId": 839101,
+      "warId": 8391,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94138906
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "raidAlive",
+        "targetId": 80507,
+        "value": 2
+      }],
+      "phases": [1],
+      "priority": 94139096,
+      "noticeAt": 1735549200,
+      "openedAt": 1735549200,
+      "closedAt": 1735657199
+    }, {
+      "id": 94139114,
+      "name": "ネコ１０８鐘撞戦 レッドスペチャ級",
+      "type": "event",
+      "flags": ["raid", "raidConnection", "noDisplayRaidRemain"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90+",
+      "spotId": 839101,
+      "warId": 8391,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94138906
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "raidAlive",
+        "targetId": 80507,
+        "value": 2
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94139095,
+      "noticeAt": 1735549200,
+      "openedAt": 1735549200,
+      "closedAt": 1735657199
+    }, {
+      "id": 94139115,
+      "name": "ネコ１０８鐘撞戦 レインボースペチャ級",
+      "type": "event",
+      "flags": ["raid", "raidConnection", "noDisplayRaidRemain"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90++",
+      "spotId": 839101,
+      "warId": 8391,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94138906
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "raidAlive",
+        "targetId": 80507,
+        "value": 2
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94139094,
+      "noticeAt": 1735549200,
+      "openedAt": 1735549200,
+      "closedAt": 1735657199
+    }, {
+      "id": 94139116,
+      "name": "ネコ１０８浄化戦",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "70",
+      "spotId": 839101,
+      "warId": 8391,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94138906
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "raidDead",
+        "targetId": 80507,
+        "value": 2
+      }],
+      "phases": [1],
+      "priority": 94139093,
+      "noticeAt": 1735549200,
+      "openedAt": 1735549200,
       "closedAt": 1735657199
     }]
   }]
