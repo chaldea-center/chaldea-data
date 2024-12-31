@@ -84124,6 +84124,11 @@
   "script": "https://static.atlasacademy.io/JP/Script/Common/NONE.txt",
   "eventId": 80507,
   "eventName": "スペース・ファンタズムーン \nアナザー・クリスマス 真夜中のこんふぁんた",
+  "releaseConditions": [{
+    "condType": "commonRelease",
+    "condId": 10138903,
+    "warDisplayType": "open"
+  }],
   "warAdds": [{
     "warId": 8391,
     "type": "bgImage",
@@ -84539,7 +84544,7 @@
       "closedAt": 1735657199
     }, {
       "id": 94138907,
-      "name": "",
+      "name": "第７話　良いお年を！　2025年もよろしくね！",
       "type": "main",
       "consume": 0,
       "afterClear": "close",
@@ -84557,19 +84562,31 @@
         "num": 1
       }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 94139116
       }, {
         "type": "date",
         "targetId": 0,
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
-      }, {
-        "type": "forceFalse",
-        "targetId": 0,
-        "closedMessage": "データ更新後に開放"
       }],
       "phases": [1, 2],
       "phasesNoBattle": [1, 2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9413890710",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413890710.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9413890720",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9413/9413890720.txt"
+        }]
+      }],
       "priority": 94139190,
       "noticeAt": 1735549200,
       "openedAt": 1735635600,
