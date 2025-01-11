@@ -74678,6 +74678,80 @@
       "noticeAt": 1687078800,
       "openedAt": 1687078800,
       "closedAt": 1893423600
+    }, {
+      "id": 94140701,
+      "name": "第10節 進行度2 リコレクションクエスト(1/3)",
+      "type": "event",
+      "flags": ["dropFirstTimeOnly", "actConsumeBattleWin", "notRetrievable", "recollection"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "83",
+      "spotId": 40275,
+      "warId": 402,
+      "gifts": [{
+        "id": 12000,
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000217
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9414070110",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414070110.txt"
+        }]
+      }],
+      "priority": 94140700,
+      "noticeAt": 1736586000,
+      "openedAt": 1736586000,
+      "closedAt": 1738335599
+    }, {
+      "id": 94140702,
+      "name": "第10節 進行度2 スーパーリコレクションクエスト(1/3)",
+      "type": "event",
+      "flags": ["dropFirstTimeOnly", "actConsumeBattleWin", "notRetrievable", "recollection"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "90++",
+      "spotId": 40275,
+      "warId": 402,
+      "gifts": [{
+        "id": 327,
+        "objectId": 3,
+        "num": 100
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000217
+      }, {
+        "type": "questClear",
+        "targetId": 94140701,
+        "closedMessage": "「第10節 進行度2 リコレクションクエスト」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9414070210",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414070210.txt"
+        }]
+      }],
+      "priority": 94140699,
+      "noticeAt": 1736586000,
+      "openedAt": 1736586000,
+      "closedAt": 1738335599
     }]
   }, {
     "id": 40276,
@@ -74756,6 +74830,45 @@
       "noticeAt": 1687078800,
       "openedAt": 1687078800,
       "closedAt": 1893423600
+    }, {
+      "id": 94140703,
+      "name": "第12節 進行度1 リコレクションクエスト(2/3)",
+      "type": "event",
+      "flags": ["dropFirstTimeOnly", "actConsumeBattleWin", "notRetrievable", "recollection"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "85",
+      "spotId": 40277,
+      "warId": 402,
+      "gifts": [{
+        "id": 12000,
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000217
+      }, {
+        "type": "questClear",
+        "targetId": 94140701,
+        "closedMessage": "「第10節 進行度2 リコレクションクエスト」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "「第10節 進行度2 リコレクションクエスト」クリア\n＆1月12日18時00分以降に開放"
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9414070310",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414070310.txt"
+        }]
+      }],
+      "priority": 94140698,
+      "noticeAt": 1736586000,
+      "openedAt": 1736672400,
+      "closedAt": 1738335599
     }]
   }, {
     "id": 40278,
