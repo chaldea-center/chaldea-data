@@ -74444,6 +74444,45 @@
       "noticeAt": 1687078800,
       "openedAt": 1687078800,
       "closedAt": 1893423600
+    }, {
+      "id": 94140705,
+      "name": "第14節 進行度3 リコレクションクエスト(3/3)",
+      "type": "event",
+      "flags": ["dropFirstTimeOnly", "actConsumeBattleWin", "notRetrievable", "recollection"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "90",
+      "spotId": 40268,
+      "warId": 402,
+      "gifts": [{
+        "id": 12000,
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000217
+      }, {
+        "type": "questClear",
+        "targetId": 94140703,
+        "closedMessage": "「第12節 進行度1 リコレクションクエスト」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "「第12節 進行度1 リコレクションクエスト」クリア\n＆1月13日18時00分以降に開放"
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9414070510",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414070510.txt"
+        }]
+      }],
+      "priority": 94140696,
+      "noticeAt": 1736672400,
+      "openedAt": 1736758800,
+      "closedAt": 1738335599
     }]
   }, {
     "id": 40269,
@@ -74858,6 +74897,7 @@
         "closedMessage": "「第10節 進行度2 リコレクションクエスト」クリア\n＆1月12日18時00分以降に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "phaseScripts": [{
         "phase": 1,
         "scripts": [{
@@ -74867,6 +74907,45 @@
       }],
       "priority": 94140698,
       "noticeAt": 1736586000,
+      "openedAt": 1736672400,
+      "closedAt": 1738335599
+    }, {
+      "id": 94140704,
+      "name": "第12節 進行度1 スーパーリコレクションクエスト(2/3)",
+      "type": "event",
+      "flags": ["dropFirstTimeOnly", "actConsumeBattleWin", "notRetrievable", "recollection"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "90++",
+      "spotId": 40277,
+      "warId": 402,
+      "gifts": [{
+        "id": 327,
+        "objectId": 3,
+        "num": 100
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000217
+      }, {
+        "type": "questClear",
+        "targetId": 94140703,
+        "closedMessage": "「第12節 進行度1 リコレクションクエスト」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9414070410",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414070410.txt"
+        }]
+      }],
+      "priority": 94140697,
+      "noticeAt": 1736672400,
       "openedAt": 1736672400,
       "closedAt": 1738335599
     }]
