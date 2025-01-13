@@ -21172,7 +21172,7 @@
   "atkMax": 9112,
   "hpBase": 2020,
   "hpMax": 12625,
-  "relateQuestIds": [91103601],
+  "relateQuestIds": [91103601, 94140751],
   "growthCurve": 9,
   "bondGrowth": [4000, 16000, 19000, 32000, 35000, 190000, 530000, 840000, 1200000, 1530000, 2620000, 3850000, 5210000, 6710000, 8350000],
   "bondEquip": 9303440,
@@ -21555,6 +21555,7 @@
     "id": 543350,
     "num": 2,
     "svtId": 103600,
+    "strengthStatus": 1,
     "priority": 1,
     "condLimitCount": 1
   }, {
@@ -21563,6 +21564,15 @@
     "svtId": 103600,
     "priority": 1,
     "condLimitCount": 3
+  }, {
+    "id": 543450,
+    "num": 2,
+    "svtId": 103600,
+    "strengthStatus": 99,
+    "priority": 2,
+    "condQuestId": 94140751,
+    "condQuestPhase": 3,
+    "condLimitCount": 1
   }],
   "classPassive": [{
     "id": 34350
@@ -31305,7 +31315,7 @@
   "atkMax": 11528,
   "hpBase": 1890,
   "hpMax": 12889,
-  "relateQuestIds": [91603701, 91603702],
+  "relateQuestIds": [91603701, 91603702, 94140750],
   "growthCurve": 30,
   "bondGrowth": [6000, 30000, 45000, 47500, 50000, 205000, 585000, 945000, 1325000, 1685000, 2775000, 4005000, 5365000, 6865000, 8505000],
   "bondEquip": 9303610,
@@ -32052,8 +32062,18 @@
   }],
   "noblePhantasms": [{
     "id": 603701,
+    "npNum": 2,
     "svtId": 603700,
+    "strengthStatus": 1,
     "priority": 101
+  }, {
+    "id": 603702,
+    "npNum": 2,
+    "svtId": 603700,
+    "strengthStatus": 99,
+    "priority": 102,
+    "condQuestId": 94140750,
+    "condQuestPhase": 3
   }],
   "profile": {
     "cv": "下屋則子",
