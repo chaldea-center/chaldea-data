@@ -94678,6 +94678,46 @@
       "openedAt": 1733389200,
       "closedAt": 1893423600
     }, {
+      "id": 94139902,
+      "name": "強化クエスト メドゥーサ 3",
+      "type": "event",
+      "flags": ["noDisplayRemain"],
+      "consume": 20,
+      "afterClear": "close",
+      "recommendLv": "70",
+      "spotId": 99001,
+      "warId": 1001,
+      "gifts": [{
+        "id": 94012504,
+        "objectId": 2,
+        "num": 2
+      }, {
+        "id": 94012504,
+        "type": "questRewardIcon",
+        "objectId": 9,
+        "num": 0
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94026508
+      }, {
+        "type": "svtLimit",
+        "targetId": 400100,
+        "value": 4,
+        "closedMessage": "霊基再臨{0}段階目で開放"
+      }, {
+        "type": "svtGet",
+        "targetId": 400100
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1, 2, 3],
+      "priority": 94140752,
+      "noticeAt": 1736931600,
+      "openedAt": 1736931600,
+      "closedAt": 1893423600
+    }, {
       "id": 94140101,
       "name": "強化クエスト 鬼一法眼",
       "type": "event",
@@ -94749,7 +94789,7 @@
       }],
       "phases": [1, 2, 3],
       "phasesWithEnemies": [1, 2, 3],
-      "priority": 94140750,
+      "priority": 94140751,
       "noticeAt": 1736758800,
       "openedAt": 1736758800,
       "closedAt": 1893423600
@@ -94787,7 +94827,7 @@
       }],
       "phases": [1, 2, 3],
       "phasesWithEnemies": [1, 2, 3],
-      "priority": 94140751,
+      "priority": 94140750,
       "noticeAt": 1736758800,
       "openedAt": 1736758800,
       "closedAt": 1893423600
@@ -124126,6 +124166,7 @@
       "id": 94021701,
       "name": "「冬のファラオ大感謝祭」開催記念クエスト",
       "type": "event",
+      "flags": ["noDisplayRemain"],
       "consume": 5,
       "afterClear": "close",
       "recommendLv": "20",
@@ -127045,6 +127086,7 @@
       "id": 94045701,
       "name": "「FGO カルデアパークキャラバン 2019-2020」開催記念クエスト",
       "type": "event",
+      "flags": ["noDisplayRemain"],
       "consume": 5,
       "afterClear": "close",
       "recommendLv": "15",
@@ -129243,6 +129285,7 @@
       "id": 94055801,
       "name": "「FGO ウィンターキャラバン オンライン 2021」配信記念クエスト",
       "type": "event",
+      "flags": ["noDisplayRemain"],
       "consume": 5,
       "afterClear": "close",
       "recommendLv": "15",
