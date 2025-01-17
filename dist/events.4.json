@@ -154107,6 +154107,10 @@
       "imageId": 305700,
       "image": "https://static.atlasacademy.io/JP/CharaFigure/3057000/3057000_merged.png",
       "faceId": 1
+    }, {
+      "imageId": 109831990,
+      "image": "https://static.atlasacademy.io/JP/CharaFigure/1098319900/1098319900_merged.png",
+      "faceId": 1
     }],
     "tabOnImage": "https://static.atlasacademy.io/JP/EventReward/btn_txt_on_80511_3.png",
     "tabOffImage": "https://static.atlasacademy.io/JP/EventReward/btn_txt_off_80511_3.png",
@@ -154117,7 +154121,7 @@
     "afterBgm": {
       "id": 895
     },
-    "flags": []
+    "flags": ["npcGuide"]
   }],
   "pointGroups": [{
     "groupId": 8051101,
@@ -154279,6 +154283,89 @@
       "overwriteName": "育て！ マイ・リトル・ドラゴン 5",
       "id": ["0_I050", "0_I051", "0_I052"],
       "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_305700/0_I050.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_305700/0_I051.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_305700/0_I052.mp3"],
+      "delay": [0.0, 0.1, 0.3],
+      "face": [2, 13, 17],
+      "conds": [{
+        "condType": "eventShopPurchase",
+        "value": 80511
+      }, {
+        "condType": "eventPeriod",
+        "value": 80511
+      }]
+    }]
+  }, {
+    "svtId": 109831990,
+    "type": "eventShop",
+    "voiceLines": [{
+      "name": "ショップついて 1",
+      "condType": "eventEnd",
+      "priority": 6490,
+      "svtVoiceType": "eventShop",
+      "overwriteName": "育て！ マイ・リトル・ドラゴン 1",
+      "id": ["0_I010", "0_I011", "0_I012"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_109831990/0_I010.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109831990/0_I011.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109831990/0_I012.mp3"],
+      "delay": [0.0, 0.1, 0.3],
+      "face": [10, 16, 6],
+      "conds": [{
+        "condType": "eventNoend",
+        "value": 80511
+      }]
+    }, {
+      "name": "ショップついて 2",
+      "condType": "eventEnd",
+      "priority": 6480,
+      "svtVoiceType": "eventShop",
+      "overwriteName": "育て！ マイ・リトル・ドラゴン 2",
+      "id": ["0_I020", "0_I021", "0_I022", "0_I023", "0_I024", "0_I025", "0_I026"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_109831990/0_I020.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109831990/0_I021.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109831990/0_I022.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109831990/0_I023.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109831990/0_I024.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109831990/0_I025.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109831990/0_I026.mp3"],
+      "delay": [0.0, 0.1, 0.1, 0.1, 0.3, 0.3, 0.1],
+      "face": [1, 6, 1, 6, 3, 21, 17],
+      "conds": [{
+        "condType": "eventNoend",
+        "value": 80511
+      }]
+    }, {
+      "name": "ショップついて 3",
+      "condType": "eventEnd",
+      "priority": 6470,
+      "svtVoiceType": "eventShop",
+      "overwriteName": "育て！ マイ・リトル・ドラゴン 3",
+      "id": ["0_I030", "0_I031", "0_I032", "0_I033"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_109831990/0_I030.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109831990/0_I031.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109831990/0_I032.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109831990/0_I033.mp3"],
+      "delay": [0.0, 0.1, 0.3, 0.1],
+      "face": [1, 5, 2, 19],
+      "conds": [{
+        "condType": "eventShopPurchase",
+        "value": 80511
+      }, {
+        "condType": "eventPeriod",
+        "value": 80511
+      }]
+    }, {
+      "name": "ショップついて 4",
+      "condType": "eventEnd",
+      "priority": 6460,
+      "svtVoiceType": "eventShop",
+      "overwriteName": "育て！ マイ・リトル・ドラゴン 4",
+      "id": ["0_I040", "0_I041"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_109831990/0_I040.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109831990/0_I041.mp3"],
+      "delay": [0.0, 0.1],
+      "face": [3, 19],
+      "conds": [{
+        "condType": "eventShopPurchase",
+        "value": 80511
+      }, {
+        "condType": "eventPeriod",
+        "value": 80511
+      }]
+    }, {
+      "name": "ショップついて 5",
+      "condType": "eventEnd",
+      "priority": 6450,
+      "svtVoiceType": "eventShop",
+      "overwriteName": "育て！ マイ・リトル・ドラゴン 5",
+      "id": ["0_I050", "0_I051", "0_I052"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_109831990/0_I050.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109831990/0_I051.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109831990/0_I052.mp3"],
       "delay": [0.0, 0.1, 0.3],
       "face": [2, 13, 17],
       "conds": [{
