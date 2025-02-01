@@ -50644,2084 +50644,582 @@
     }]
   }]
 }, {
-  "id": 94061636,
-  "name": "宝物庫の扉を開け 初級",
-  "type": "event",
-  "flags": ["noDisplayRemain"],
-  "consume": 10,
-  "afterClear": "repeatLast",
-  "recommendLv": "5",
-  "spotId": 99002,
-  "warId": 1002,
-  "releaseConditions": [{
-    "type": "date",
-    "targetId": 0
-  }],
-  "phases": [1],
-  "phasesWithEnemies": [1],
-  "priority": 801000,
-  "noticeAt": 1627743600,
-  "openedAt": 1627743600,
-  "closedAt": 1893423600,
-  "phase": 1,
-  "className": ["caster"],
-  "individuality": [{
-    "id": 95000002
-  }],
-  "phaseIndividuality": [{
-    "id": 95000002
-  }],
-  "exp": 275,
-  "bond": 115,
-  "battleBgId": 20600,
-  "enemyHash": "1_0902_e53c88d",
-  "availableEnemyHashes": ["1_0902_e53c88d"],
-  "dropsFromAllHashes": true,
-  "battleBg": {
-    "id": 20600
-  },
-  "drops": [{
-    "objectId": 1,
-    "num": 10000,
-    "dropCount": 2300,
-    "runs": 460
-  }, {
-    "objectId": 1,
-    "num": 15000,
-    "dropCount": 920,
-    "runs": 460
-  }, {
-    "objectId": 1,
-    "num": 30000,
-    "dropCount": 644,
-    "runs": 460
-  }, {
-    "objectId": 1,
-    "num": 45000,
-    "dropCount": 276,
-    "runs": 460
-  }],
-  "stages": [{
-    "wave": 1,
-    "bgm": {
-      "id": 1
-    },
-    "startEffectId": 1,
-    "enemies": [{
-      "deckId": 1,
-      "npcId": 94061502,
-      "name": "亡者の扉Ａ",
-      "svt": {
-        "id": 9933600,
-        "rarity": 1,
-        "face": "https://static.atlasacademy.io/JP/Enemys/99336001.png"
-      },
-      "lv": 10,
-      "atk": 1167,
-      "hp": 1372,
-      "deathRate": 1000,
-      "criticalRate": 100,
-      "chargeTurn": 5,
-      "traits": [{
-        "id": 5000
-      }, {
-        "id": 5010
-      }, {
-        "id": 200
-      }, {
-        "id": 1005
-      }, {
-        "id": 1120
-      }, {
-        "id": 1134
-      }, {
-        "id": 104
-      }],
-      "skills": {
-        "skillLv1": 1
-      },
-      "noblePhantasm": {
-        "noblePhantasmId": 200,
-        "noblePhantasm": {
-          "id": 200,
-          "npNum": 8,
-          "svtId": 9933600,
-          "strengthStatus": 3,
-          "priority": 243
-        },
-        "noblePhantasmLv": 1
-      },
-      "serverMod": {
-        "tdRate": 1200,
-        "tdAttackRate": 1200
-      },
-      "ai": {
-        "aiId": 1000000,
-        "actPriority": 250,
-        "maxActNum": 1
-      }
-    }, {
-      "deckId": 2,
-      "npcId": 94061502,
-      "name": "亡者の扉Ｂ",
-      "svt": {
-        "id": 9933600,
-        "rarity": 1,
-        "face": "https://static.atlasacademy.io/JP/Enemys/99336001.png"
-      },
-      "lv": 10,
-      "atk": 1167,
-      "hp": 1372,
-      "deathRate": 1000,
-      "criticalRate": 100,
-      "chargeTurn": 5,
-      "traits": [{
-        "id": 5000
-      }, {
-        "id": 5010
-      }, {
-        "id": 200
-      }, {
-        "id": 1005
-      }, {
-        "id": 1120
-      }, {
-        "id": 1134
-      }, {
-        "id": 104
-      }],
-      "skills": {
-        "skillLv1": 1
-      },
-      "noblePhantasm": {
-        "noblePhantasmId": 200,
-        "noblePhantasm": {
-          "id": 200,
-          "npNum": 8,
-          "svtId": 9933600,
-          "strengthStatus": 3,
-          "priority": 243
-        },
-        "noblePhantasmLv": 1
-      },
-      "serverMod": {
-        "tdRate": 1200,
-        "tdAttackRate": 1200
-      },
-      "ai": {
-        "aiId": 1000000,
-        "actPriority": 250,
-        "maxActNum": 1
-      }
-    }, {
-      "deckId": 3,
-      "npcId": 94061502,
-      "name": "亡者の扉Ｃ",
-      "svt": {
-        "id": 9933600,
-        "rarity": 1,
-        "face": "https://static.atlasacademy.io/JP/Enemys/99336001.png"
-      },
-      "lv": 10,
-      "atk": 1167,
-      "hp": 1372,
-      "deathRate": 1000,
-      "criticalRate": 100,
-      "chargeTurn": 5,
-      "traits": [{
-        "id": 5000
-      }, {
-        "id": 5010
-      }, {
-        "id": 200
-      }, {
-        "id": 1005
-      }, {
-        "id": 1120
-      }, {
-        "id": 1134
-      }, {
-        "id": 104
-      }],
-      "skills": {
-        "skillLv1": 1
-      },
-      "noblePhantasm": {
-        "noblePhantasmId": 200,
-        "noblePhantasm": {
-          "id": 200,
-          "npNum": 8,
-          "svtId": 9933600,
-          "strengthStatus": 3,
-          "priority": 243
-        },
-        "noblePhantasmLv": 1
-      },
-      "serverMod": {
-        "tdRate": 1200,
-        "tdAttackRate": 1200
-      },
-      "ai": {
-        "aiId": 1000000,
-        "actPriority": 250,
-        "maxActNum": 1
-      }
-    }]
-  }, {
-    "wave": 2,
-    "bgm": {
-      "id": 1
-    },
-    "startEffectId": 1,
-    "enemies": [{
-      "deckId": 1,
-      "npcId": 94061502,
-      "name": "亡者の扉Ａ",
-      "svt": {
-        "id": 9933600,
-        "rarity": 1,
-        "face": "https://static.atlasacademy.io/JP/Enemys/99336001.png"
-      },
-      "lv": 10,
-      "atk": 1167,
-      "hp": 1372,
-      "deathRate": 1000,
-      "criticalRate": 100,
-      "chargeTurn": 5,
-      "traits": [{
-        "id": 5000
-      }, {
-        "id": 5010
-      }, {
-        "id": 200
-      }, {
-        "id": 1005
-      }, {
-        "id": 1120
-      }, {
-        "id": 1134
-      }, {
-        "id": 104
-      }],
-      "skills": {
-        "skillLv1": 1
-      },
-      "noblePhantasm": {
-        "noblePhantasmId": 200,
-        "noblePhantasm": {
-          "id": 200,
-          "npNum": 8,
-          "svtId": 9933600,
-          "strengthStatus": 3,
-          "priority": 243
-        },
-        "noblePhantasmLv": 1
-      },
-      "serverMod": {
-        "tdRate": 1200,
-        "tdAttackRate": 1200
-      },
-      "ai": {
-        "aiId": 1000000,
-        "actPriority": 250,
-        "maxActNum": 1
-      }
-    }, {
-      "deckId": 2,
-      "npcId": 94061502,
-      "name": "亡者の扉Ｂ",
-      "svt": {
-        "id": 9933600,
-        "rarity": 1,
-        "face": "https://static.atlasacademy.io/JP/Enemys/99336001.png"
-      },
-      "lv": 10,
-      "atk": 1167,
-      "hp": 1372,
-      "deathRate": 1000,
-      "criticalRate": 100,
-      "chargeTurn": 5,
-      "traits": [{
-        "id": 5000
-      }, {
-        "id": 5010
-      }, {
-        "id": 200
-      }, {
-        "id": 1005
-      }, {
-        "id": 1120
-      }, {
-        "id": 1134
-      }, {
-        "id": 104
-      }],
-      "skills": {
-        "skillLv1": 1
-      },
-      "noblePhantasm": {
-        "noblePhantasmId": 200,
-        "noblePhantasm": {
-          "id": 200,
-          "npNum": 8,
-          "svtId": 9933600,
-          "strengthStatus": 3,
-          "priority": 243
-        },
-        "noblePhantasmLv": 1
-      },
-      "serverMod": {
-        "tdRate": 1200,
-        "tdAttackRate": 1200
-      },
-      "ai": {
-        "aiId": 1000000,
-        "actPriority": 250,
-        "maxActNum": 1
-      }
-    }, {
-      "deckId": 3,
-      "npcId": 94061503,
-      "name": "勇者の扉",
-      "svt": {
-        "id": 9933600,
-        "rarity": 2,
-        "face": "https://static.atlasacademy.io/JP/Enemys/99336002.png"
-      },
-      "lv": 10,
-      "atk": 1352,
-      "hp": 2548,
-      "deathRate": 1000,
-      "criticalRate": 100,
-      "chargeTurn": 5,
-      "traits": [{
-        "id": 5000
-      }, {
-        "id": 5010
-      }, {
-        "id": 200
-      }, {
-        "id": 1005
-      }, {
-        "id": 1120
-      }, {
-        "id": 1134
-      }, {
-        "id": 104
-      }],
-      "skills": {
-        "skillLv1": 1
-      },
-      "noblePhantasm": {
-        "noblePhantasmId": 201,
-        "noblePhantasm": {
-          "id": 201,
-          "npNum": 8,
-          "svtId": 9933600,
-          "strengthStatus": 2,
-          "priority": 244
-        },
-        "noblePhantasmLv": 1
-      },
-      "serverMod": {
-        "tdRate": 1200,
-        "tdAttackRate": 1200
-      },
-      "ai": {
-        "aiId": 1000000,
-        "actPriority": 250,
-        "maxActNum": 1
-      }
-    }]
-  }, {
-    "wave": 3,
-    "bgm": {
-      "id": 3
-    },
-    "startEffectId": 2,
-    "enemies": [{
-      "deckId": 1,
-      "npcId": 94061502,
-      "name": "亡者の扉Ａ",
-      "svt": {
-        "id": 9933600,
-        "rarity": 1,
-        "face": "https://static.atlasacademy.io/JP/Enemys/99336001.png"
-      },
-      "lv": 10,
-      "atk": 1167,
-      "hp": 1372,
-      "deathRate": 1000,
-      "criticalRate": 100,
-      "chargeTurn": 5,
-      "traits": [{
-        "id": 5000
-      }, {
-        "id": 5010
-      }, {
-        "id": 200
-      }, {
-        "id": 1005
-      }, {
-        "id": 1120
-      }, {
-        "id": 1134
-      }, {
-        "id": 104
-      }],
-      "skills": {
-        "skillLv1": 1
-      },
-      "noblePhantasm": {
-        "noblePhantasmId": 200,
-        "noblePhantasm": {
-          "id": 200,
-          "npNum": 8,
-          "svtId": 9933600,
-          "strengthStatus": 3,
-          "priority": 243
-        },
-        "noblePhantasmLv": 1
-      },
-      "serverMod": {
-        "tdRate": 1200,
-        "tdAttackRate": 1200
-      },
-      "ai": {
-        "aiId": 1000000,
-        "actPriority": 250,
-        "maxActNum": 1
-      }
-    }, {
-      "deckId": 2,
-      "npcId": 94061502,
-      "name": "亡者の扉Ｂ",
-      "svt": {
-        "id": 9933600,
-        "rarity": 1,
-        "face": "https://static.atlasacademy.io/JP/Enemys/99336001.png"
-      },
-      "lv": 10,
-      "atk": 1167,
-      "hp": 1372,
-      "deathRate": 1000,
-      "criticalRate": 100,
-      "chargeTurn": 5,
-      "traits": [{
-        "id": 5000
-      }, {
-        "id": 5010
-      }, {
-        "id": 200
-      }, {
-        "id": 1005
-      }, {
-        "id": 1120
-      }, {
-        "id": 1134
-      }, {
-        "id": 104
-      }],
-      "skills": {
-        "skillLv1": 1
-      },
-      "noblePhantasm": {
-        "noblePhantasmId": 200,
-        "noblePhantasm": {
-          "id": 200,
-          "npNum": 8,
-          "svtId": 9933600,
-          "strengthStatus": 3,
-          "priority": 243
-        },
-        "noblePhantasmLv": 1
-      },
-      "serverMod": {
-        "tdRate": 1200,
-        "tdAttackRate": 1200
-      },
-      "ai": {
-        "aiId": 1000000,
-        "actPriority": 250,
-        "maxActNum": 1
-      }
-    }, {
-      "deckId": 3,
-      "npcId": 94061503,
-      "roleType": "danger",
-      "name": "勇者の扉",
-      "svt": {
-        "id": 9933600,
-        "rarity": 2,
-        "face": "https://static.atlasacademy.io/JP/Enemys/99336002.png"
-      },
-      "lv": 25,
-      "atk": 2974,
-      "hp": 5488,
-      "deathRate": 1000,
-      "criticalRate": 100,
-      "chargeTurn": 5,
-      "traits": [{
-        "id": 5000
-      }, {
-        "id": 5010
-      }, {
-        "id": 200
-      }, {
-        "id": 1005
-      }, {
-        "id": 1120
-      }, {
-        "id": 1134
-      }, {
-        "id": 104
-      }],
-      "skills": {
-        "skillLv1": 1
-      },
-      "noblePhantasm": {
-        "noblePhantasmId": 201,
-        "noblePhantasm": {
-          "id": 201,
-          "npNum": 8,
-          "svtId": 9933600,
-          "strengthStatus": 2,
-          "priority": 244
-        },
-        "noblePhantasmLv": 1
-      },
-      "serverMod": {
-        "tdRate": 1200,
-        "tdAttackRate": 1200
-      },
-      "ai": {
-        "aiId": 1000000,
-        "actPriority": 250,
-        "maxActNum": 1
-      }
-    }]
-  }]
-}, {
-  "id": 94061640,
-  "name": "宝物庫の扉を開け 極級",
-  "type": "event",
-  "flags": ["noDisplayRemain"],
-  "consume": 40,
-  "afterClear": "repeatLast",
-  "recommendLv": "60",
-  "spotId": 99002,
-  "warId": 1002,
-  "releaseConditions": [{
-    "type": "date",
-    "targetId": 0
-  }],
-  "phases": [1],
-  "phasesWithEnemies": [1],
-  "priority": 800996,
-  "noticeAt": 1627743600,
-  "openedAt": 1627743600,
-  "closedAt": 1893423600,
-  "phase": 1,
-  "className": ["caster"],
-  "individuality": [{
-    "id": 95000002
-  }],
-  "phaseIndividuality": [{
-    "id": 95000002
-  }],
-  "exp": 22190,
-  "bond": 715,
-  "battleBgId": 20600,
-  "enemyHash": "1_0704_bff304a",
-  "availableEnemyHashes": ["1_0704_bff304a"],
-  "dropsFromAllHashes": true,
-  "battleBg": {
-    "id": 20600
-  },
-  "drops": [{
-    "objectId": 1,
-    "num": 270000,
-    "dropCount": 707164,
-    "runs": 168437
-  }, {
-    "objectId": 1,
-    "num": 405000,
-    "dropCount": 303458,
-    "runs": 168437
-  }, {
-    "objectId": 1,
-    "num": 1500000,
-    "dropCount": 168437,
-    "runs": 168437
-  }],
-  "stages": [{
-    "wave": 1,
-    "bgm": {
-      "id": 1
-    },
-    "startEffectId": 1,
-    "enemies": [{
-      "deckId": 1,
-      "npcId": 94061505,
-      "name": "覇者の扉Ａ",
-      "svt": {
-        "id": 9933600,
-        "rarity": 4,
-        "face": "https://static.atlasacademy.io/JP/Enemys/99336004.png"
-      },
-      "lv": 32,
-      "atk": 5035,
-      "hp": 23755,
-      "deathRate": 500,
-      "criticalRate": 100,
-      "chargeTurn": 5,
-      "traits": [{
-        "id": 5000
-      }, {
-        "id": 5010
-      }, {
-        "id": 200
-      }, {
-        "id": 1005
-      }, {
-        "id": 1120
-      }, {
-        "id": 1134
-      }, {
-        "id": 104
-      }],
-      "skills": {
-        "skillLv1": 1
-      },
-      "noblePhantasm": {
-        "noblePhantasmId": 203,
-        "noblePhantasm": {
-          "id": 203,
-          "npNum": 8,
-          "svtId": 9933600,
-          "strengthStatus": 99,
-          "priority": 246
-        },
-        "noblePhantasmLv": 1
-      },
-      "serverMod": {
-        "tdRate": 1200,
-        "tdAttackRate": 1200
-      },
-      "ai": {
-        "aiId": 1000000,
-        "actPriority": 250,
-        "maxActNum": 1
-      }
-    }, {
-      "deckId": 2,
-      "npcId": 94061505,
-      "name": "覇者の扉Ｂ",
-      "svt": {
-        "id": 9933600,
-        "rarity": 4,
-        "face": "https://static.atlasacademy.io/JP/Enemys/99336004.png"
-      },
-      "lv": 33,
-      "atk": 5170,
-      "hp": 24483,
-      "deathRate": 500,
-      "criticalRate": 100,
-      "chargeTurn": 5,
-      "traits": [{
-        "id": 5000
-      }, {
-        "id": 5010
-      }, {
-        "id": 200
-      }, {
-        "id": 1005
-      }, {
-        "id": 1120
-      }, {
-        "id": 1134
-      }, {
-        "id": 104
-      }],
-      "skills": {
-        "skillLv1": 1
-      },
-      "noblePhantasm": {
-        "noblePhantasmId": 203,
-        "noblePhantasm": {
-          "id": 203,
-          "npNum": 8,
-          "svtId": 9933600,
-          "strengthStatus": 99,
-          "priority": 246
-        },
-        "noblePhantasmLv": 1
-      },
-      "serverMod": {
-        "tdRate": 1200,
-        "tdAttackRate": 1200
-      },
-      "ai": {
-        "aiId": 1000000,
-        "actPriority": 250,
-        "maxActNum": 1
-      }
-    }, {
-      "deckId": 3,
-      "npcId": 94061505,
-      "name": "覇者の扉Ｃ",
-      "svt": {
-        "id": 9933600,
-        "rarity": 4,
-        "face": "https://static.atlasacademy.io/JP/Enemys/99336004.png"
-      },
-      "lv": 31,
-      "atk": 4899,
-      "hp": 23027,
-      "deathRate": 500,
-      "criticalRate": 100,
-      "chargeTurn": 5,
-      "traits": [{
-        "id": 5000
-      }, {
-        "id": 5010
-      }, {
-        "id": 200
-      }, {
-        "id": 1005
-      }, {
-        "id": 1120
-      }, {
-        "id": 1134
-      }, {
-        "id": 104
-      }],
-      "skills": {
-        "skillLv1": 1
-      },
-      "noblePhantasm": {
-        "noblePhantasmId": 203,
-        "noblePhantasm": {
-          "id": 203,
-          "npNum": 8,
-          "svtId": 9933600,
-          "strengthStatus": 99,
-          "priority": 246
-        },
-        "noblePhantasmLv": 1
-      },
-      "serverMod": {
-        "tdRate": 1200,
-        "tdAttackRate": 1200
-      },
-      "ai": {
-        "aiId": 1000000,
-        "actPriority": 250,
-        "maxActNum": 1
-      }
-    }]
-  }, {
-    "wave": 2,
-    "bgm": {
-      "id": 1
-    },
-    "startEffectId": 1,
-    "enemies": [{
-      "deckId": 1,
-      "npcId": 94061505,
-      "name": "覇者の扉Ａ",
-      "svt": {
-        "id": 9933600,
-        "rarity": 4,
-        "face": "https://static.atlasacademy.io/JP/Enemys/99336004.png"
-      },
-      "lv": 34,
-      "atk": 5306,
-      "hp": 30252,
-      "deathRate": 500,
-      "criticalRate": 100,
-      "chargeTurn": 5,
-      "traits": [{
-        "id": 5000
-      }, {
-        "id": 5010
-      }, {
-        "id": 200
-      }, {
-        "id": 1005
-      }, {
-        "id": 1120
-      }, {
-        "id": 1134
-      }, {
-        "id": 104
-      }],
-      "skills": {
-        "skillLv1": 1
-      },
-      "noblePhantasm": {
-        "noblePhantasmId": 203,
-        "noblePhantasm": {
-          "id": 203,
-          "npNum": 8,
-          "svtId": 9933600,
-          "strengthStatus": 99,
-          "priority": 246
-        },
-        "noblePhantasmLv": 1
-      },
-      "serverMod": {
-        "tdRate": 1200,
-        "tdAttackRate": 1200
-      },
-      "ai": {
-        "aiId": 1000000,
-        "actPriority": 250,
-        "maxActNum": 1
-      }
-    }, {
-      "deckId": 2,
-      "npcId": 94061505,
-      "name": "覇者の扉Ｂ",
-      "svt": {
-        "id": 9933600,
-        "rarity": 4,
-        "face": "https://static.atlasacademy.io/JP/Enemys/99336004.png"
-      },
-      "lv": 36,
-      "atk": 5578,
-      "hp": 31999,
-      "deathRate": 500,
-      "criticalRate": 100,
-      "chargeTurn": 5,
-      "traits": [{
-        "id": 5000
-      }, {
-        "id": 5010
-      }, {
-        "id": 200
-      }, {
-        "id": 1005
-      }, {
-        "id": 1120
-      }, {
-        "id": 1134
-      }, {
-        "id": 104
-      }],
-      "skills": {
-        "skillLv1": 1
-      },
-      "noblePhantasm": {
-        "noblePhantasmId": 203,
-        "noblePhantasm": {
-          "id": 203,
-          "npNum": 8,
-          "svtId": 9933600,
-          "strengthStatus": 99,
-          "priority": 246
-        },
-        "noblePhantasmLv": 1
-      },
-      "serverMod": {
-        "tdRate": 1200,
-        "tdAttackRate": 1200
-      },
-      "ai": {
-        "aiId": 1000000,
-        "actPriority": 250,
-        "maxActNum": 1
-      }
-    }, {
-      "deckId": 3,
-      "npcId": 94061505,
-      "name": "覇者の扉Ｃ",
-      "svt": {
-        "id": 9933600,
-        "rarity": 4,
-        "face": "https://static.atlasacademy.io/JP/Enemys/99336004.png"
-      },
-      "lv": 35,
-      "atk": 5442,
-      "hp": 31125,
-      "deathRate": 500,
-      "criticalRate": 100,
-      "chargeTurn": 5,
-      "traits": [{
-        "id": 5000
-      }, {
-        "id": 5010
-      }, {
-        "id": 200
-      }, {
-        "id": 1005
-      }, {
-        "id": 1120
-      }, {
-        "id": 1134
-      }, {
-        "id": 104
-      }],
-      "skills": {
-        "skillLv1": 1
-      },
-      "noblePhantasm": {
-        "noblePhantasmId": 203,
-        "noblePhantasm": {
-          "id": 203,
-          "npNum": 8,
-          "svtId": 9933600,
-          "strengthStatus": 99,
-          "priority": 246
-        },
-        "noblePhantasmLv": 1
-      },
-      "serverMod": {
-        "tdRate": 1200,
-        "tdAttackRate": 1200
-      },
-      "ai": {
-        "aiId": 1000000,
-        "actPriority": 250,
-        "maxActNum": 1
-      }
-    }]
-  }, {
-    "wave": 3,
-    "bgm": {
-      "id": 3
-    },
-    "startEffectId": 2,
-    "enemies": [{
-      "deckId": 1,
-      "npcId": 94061501,
-      "roleType": "danger",
-      "name": "ありがたい黄金像",
-      "svt": {
-        "id": 9943160
-      },
-      "lv": 50,
-      "atk": 9513,
-      "hp": 132932,
-      "deathRate": 200,
-      "criticalRate": 100,
-      "chargeTurn": 5,
-      "traits": [{
-        "id": 5000
-      }, {
-        "id": 5010
-      }, {
-        "id": 200
-      }, {
-        "id": 2000
-      }, {
-        "id": 2040
-      }, {
-        "id": 2835
-      }, {
-        "id": 104
-      }],
-      "skills": {
-        "skillId1": 966528,
-        "skill1": {
-          "id": 966528
-        },
-        "skillLv1": 1
-      },
-      "classPassive": {
-        "addPassive": [{
-          "id": 961253
-        }]
-      },
-      "noblePhantasm": {
-        "noblePhantasmId": 734,
-        "noblePhantasm": {
-          "id": 734,
-          "svtId": 9943160,
-          "priority": 1
-        },
-        "noblePhantasmLv": 1
-      },
-      "serverMod": {
-        "tdRate": 1200,
-        "tdAttackRate": 1200
-      },
-      "ai": {
-        "aiId": 105370,
-        "actPriority": 250,
-        "maxActNum": 3
-      },
-      "enemyScript": {
-        "appear": true
-      },
-      "originalEnemyScript": {
-        "appear": 1
-      }
-    }]
-  }]
-}, {
-  "id": 94086601,
-  "name": "残された神話",
+  "id": 93040401,
+  "name": "トップ・オブ・ザ・ムーン",
   "type": "free",
   "flags": ["displayLoopmark"],
-  "consumeType": "apAndItem",
-  "consume": 40,
-  "consumeItem": [{
-    "itemId": 49,
-    "amount": 1
-  }],
+  "consume": 22,
   "afterClear": "repeatLast",
-  "recommendLv": "90++",
-  "spotId": 1040107,
-  "warId": 401,
-  "chapterId": 866,
+  "recommendLv": "82",
+  "spotId": 40401,
+  "warId": 404,
+  "chapterId": 404,
   "chapterSubId": 1,
+  "giftIcon": "https://static.atlasacademy.io/JP/Items/6.png",
   "gifts": [{
-    "id": 483,
-    "objectId": 50,
-    "num": 20
+    "id": 101,
+    "objectId": 2,
+    "num": 1
   }],
   "releaseConditions": [{
     "type": "questClear",
-    "targetId": 4000100
+    "targetId": 4000426
   }],
-  "phases": [1],
-  "phasesWithEnemies": [1],
-  "priority": 807399,
-  "noticeAt": 1694163600,
-  "openedAt": 1694163600,
+  "phases": [1, 2, 3],
+  "priority": 4000374,
+  "noticeAt": 1738400400,
+  "openedAt": 1738400400,
   "closedAt": 1893423600,
-  "phase": 1,
-  "className": ["lancer", "rider", "berserker"],
+  "phase": 3,
+  "className": ["moonCancer", "assassin"],
   "individuality": [{
-    "id": 2038
+    "id": 2392
   }],
-  "exp": 109988,
-  "bond": 2636,
-  "battleBgId": 42000,
-  "enemyHash": "1_0502_93e46ff",
-  "availableEnemyHashes": ["1_0502_93e46ff"],
-  "dropsFromAllHashes": true,
+  "exp": 25048,
+  "bond": 835,
+  "battleBgId": 116100,
   "battleBg": {
-    "id": 42000,
+    "id": 116100,
     "individuality": [{
-      "id": 2038
+      "id": 2392
     }]
   },
-  "drops": [{
-    "objectId": 6536,
-    "dropCount": 3590,
-    "runs": 2799
-  }, {
-    "objectId": 6537,
-    "dropCount": 734,
-    "runs": 2799
-  }],
   "stages": [{
     "wave": 1,
     "bgm": {
-      "id": 270
+      "id": 850
     },
     "startEffectId": 1,
-    "enemies": [{
-      "deckId": 1,
-      "npcId": 94086601,
-      "name": "霜の巨人",
-      "svt": {
-        "id": 9941250,
-        "face": "https://static.atlasacademy.io/JP/Enemys/99412501.png"
-      },
-      "lv": 46,
-      "atk": 6383,
-      "hp": 112458,
-      "deathRate": 500,
-      "criticalRate": 100,
-      "chargeTurn": 5,
-      "traits": [{
-        "id": 5000
-      }, {
-        "id": 5010
-      }, {
-        "id": 1
-      }, {
-        "id": 201
-      }, {
-        "id": 2001
-      }, {
-        "id": 2076
-      }, {
-        "id": 2666
-      }, {
-        "id": 106
-      }],
-      "skills": {
-        "skillId1": 961630,
-        "skill1": {
-          "id": 961630
-        },
-        "skillLv1": 1
-      },
-      "noblePhantasm": {
-        "noblePhantasmId": 577,
-        "noblePhantasm": {
-          "id": 577,
-          "npNum": 2,
-          "svtId": 9941250,
-          "strengthStatus": 99,
-          "priority": 552
-        },
-        "noblePhantasmLv": 1
-      },
-      "serverMod": {
-        "tdRate": 800,
-        "tdAttackRate": 800
-      },
-      "ai": {
-        "aiId": 105380,
-        "actPriority": 500,
-        "maxActNum": 2
-      },
-      "enemyScript": {
-        "billBoardGroup": 1
-      },
-      "originalEnemyScript": {
-        "billBoardGroup": 1
-      },
-      "misc": {
-        "npcSvtType": 3
-      }
-    }, {
-      "deckId": 3,
-      "npcId": 94086602,
-      "name": "火の巨人",
-      "svt": {
-        "id": 9941270,
-        "face": "https://static.atlasacademy.io/JP/Enemys/99412701.png"
-      },
-      "lv": 36,
-      "atk": 6582,
-      "hp": 159819,
-      "deathRate": 100,
-      "criticalRate": 100,
-      "chargeTurn": 5,
-      "traits": [{
-        "id": 5000
-      }, {
-        "id": 5010
-      }, {
-        "id": 1
-      }, {
-        "id": 201
-      }, {
-        "id": 2001
-      }, {
-        "id": 2076
-      }, {
-        "id": 2666
-      }, {
-        "id": 106
-      }],
-      "skills": {
-        "skillId1": 961632,
-        "skill1": {
-          "id": 961632
-        },
-        "skillLv1": 1
-      },
-      "noblePhantasm": {
-        "noblePhantasmId": 579,
-        "noblePhantasm": {
-          "id": 579,
-          "npNum": 3,
-          "svtId": 9941270,
-          "strengthStatus": 99,
-          "priority": 554
-        },
-        "noblePhantasmLv": 1
-      },
-      "serverMod": {
-        "tdRate": 800,
-        "tdAttackRate": 800
-      },
-      "ai": {
-        "aiId": 105380,
-        "actPriority": 500,
-        "maxActNum": 3
-      },
-      "enemyScript": {
-        "billBoardGroup": 1
-      },
-      "originalEnemyScript": {
-        "billBoardGroup": 1
-      },
-      "misc": {
-        "npcSvtType": 3
-      }
-    }]
+    "originalScript": {
+      "priorityBgm": 50
+    }
   }, {
     "wave": 2,
     "bgm": {
-      "id": 233
+      "id": 850
     },
-    "startEffectId": 2,
-    "enemies": [{
-      "deckId": 1,
-      "npcId": 94086603,
-      "name": "ワルキューレＡ",
-      "svt": {
-        "id": 9941380
-      },
-      "lv": 47,
-      "atk": 8015,
-      "hp": 175727,
-      "deathRate": 200,
-      "criticalRate": 150,
-      "chargeTurn": 5,
-      "traits": [{
-        "id": 5000
-      }, {
-        "id": 5010
-      }, {
-        "id": 2
-      }, {
-        "id": 200
-      }, {
-        "id": 2001
-      }, {
-        "id": 2000
-      }, {
-        "id": 2040
-      }, {
-        "id": 2837
-      }, {
-        "id": 103
-      }],
-      "skills": {
-        "skillId1": 961635,
-        "skill1": {
-          "id": 961635
-        },
-        "skillLv1": 1
-      },
-      "noblePhantasm": {
-        "noblePhantasmId": 584,
-        "noblePhantasm": {
-          "id": 584,
-          "svtId": 9941380,
-          "priority": 559
-        },
-        "noblePhantasmLv": 1
-      },
-      "serverMod": {
-        "tdRate": 1100,
-        "tdAttackRate": 1100,
-        "starRate": 100
-      },
-      "ai": {
-        "aiId": 1000000,
-        "actPriority": 500,
-        "maxActNum": 3
-      },
-      "originalEnemyScript": {
-        "hidePolicy": 3,
-        "hidePersonality": 3
-      }
-    }, {
-      "deckId": 2,
-      "npcId": 94086603,
-      "name": "ワルキューレＢ",
-      "svt": {
-        "id": 9941380
-      },
-      "lv": 48,
-      "atk": 8015,
-      "hp": 207039,
-      "deathRate": 200,
-      "criticalRate": 150,
-      "chargeTurn": 5,
-      "traits": [{
-        "id": 5000
-      }, {
-        "id": 5010
-      }, {
-        "id": 2
-      }, {
-        "id": 200
-      }, {
-        "id": 2001
-      }, {
-        "id": 2000
-      }, {
-        "id": 2040
-      }, {
-        "id": 2837
-      }, {
-        "id": 103
-      }],
-      "skills": {
-        "skillId1": 961635,
-        "skill1": {
-          "id": 961635
-        },
-        "skillLv1": 1
-      },
-      "noblePhantasm": {
-        "noblePhantasmId": 584,
-        "noblePhantasm": {
-          "id": 584,
-          "svtId": 9941380,
-          "priority": 559
-        },
-        "noblePhantasmLv": 1
-      },
-      "serverMod": {
-        "tdRate": 1100,
-        "tdAttackRate": 1100,
-        "starRate": 100
-      },
-      "ai": {
-        "aiId": 1000000,
-        "actPriority": 500,
-        "maxActNum": 3
-      },
-      "originalEnemyScript": {
-        "hidePolicy": 3,
-        "hidePersonality": 3
-      }
-    }, {
-      "deckId": 3,
-      "npcId": 94086604,
-      "roleType": "servant",
-      "name": "スルーズ",
-      "svt": {
-        "id": 303300,
-        "face": "https://static.atlasacademy.io/JP/Faces/f_3033002.png"
-      },
-      "lv": 80,
-      "atk": 11750,
-      "hp": 539962,
-      "deathRate": 1,
-      "criticalRate": 100,
-      "chargeTurn": 4,
-      "traits": [{
-        "id": 5000
-      }, {
-        "id": 303300
-      }, {
-        "id": 2
-      }, {
-        "id": 200
-      }, {
-        "id": 2011
-      }, {
-        "id": 2037
-      }, {
-        "id": 2851
-      }, {
-        "id": 300
-      }, {
-        "id": 303
-      }, {
-        "id": 2008
-      }, {
-        "id": 1000
-      }, {
-        "id": 2001
-      }, {
-        "id": 404
-      }, {
-        "id": 2000
-      }, {
-        "id": 2040
-      }, {
-        "id": 2797
-      }, {
-        "id": 2837
-      }, {
-        "id": 2847
-      }, {
-        "id": 2858
-      }, {
-        "id": 101
-      }],
-      "skills": {
-        "skillId1": 127010,
-        "skillId2": 495550,
-        "skillId3": 496450,
-        "skill1": {
-          "id": 127010,
-          "num": 1,
-          "svtId": 303300,
-          "priority": 1
-        },
-        "skill2": {
-          "id": 495550,
-          "num": 2,
-          "svtId": 303300,
-          "priority": 1,
-          "condLimitCount": 1
-        },
-        "skill3": {
-          "id": 496450,
-          "num": 3,
-          "svtId": 303300,
-          "priority": 1,
-          "condLimitCount": 3
-        },
-        "skillLv1": 8,
-        "skillLv2": 8,
-        "skillLv3": 8
-      },
-      "classPassive": {
-        "classPassive": [{
-          "id": 34450
-        }, {
-          "id": 62550
-        }]
-      },
-      "noblePhantasm": {
-        "noblePhantasmId": 303301,
-        "noblePhantasm": {
-          "id": 303301,
-          "svtId": 303300,
-          "priority": 101
-        },
-        "noblePhantasmLv": 4
-      },
-      "serverMod": {
-        "starRate": -50
-      },
-      "ai": {
-        "aiId": 1103100,
-        "actPriority": 1500,
-        "maxActNum": 3
-      },
-      "enemyScript": {
-        "appear": true
-      },
-      "originalEnemyScript": {
-        "appear": 1
-      },
-      "misc": {
-        "npcSvtType": 1
-      }
-    }]
+    "startEffectId": 1,
+    "originalScript": {
+      "priorityBgm": 50
+    }
+  }, {
+    "wave": 3,
+    "bgm": {
+      "id": 691
+    },
+    "startEffectId": 2
   }]
 }, {
-  "id": 94086602,
-  "name": "高貴なる海賊",
+  "id": 93040402,
+  "name": "ムーン・ストリート",
   "type": "free",
   "flags": ["displayLoopmark"],
-  "consumeType": "apAndItem",
-  "consume": 40,
-  "consumeItem": [{
-    "itemId": 49,
-    "amount": 1
-  }],
+  "consume": 21,
   "afterClear": "repeatLast",
-  "recommendLv": "90++",
-  "spotId": 1040108,
-  "warId": 401,
-  "chapterId": 866,
+  "recommendLv": "78",
+  "spotId": 40403,
+  "warId": 404,
+  "chapterId": 404,
   "chapterSubId": 2,
+  "giftIcon": "https://static.atlasacademy.io/JP/Items/6.png",
   "gifts": [{
-    "id": 483,
-    "objectId": 50,
-    "num": 20
+    "id": 101,
+    "objectId": 2,
+    "num": 1
   }],
   "releaseConditions": [{
     "type": "questClear",
-    "targetId": 4000100
+    "targetId": 4000426
   }],
-  "phases": [1],
-  "phasesWithEnemies": [1],
-  "priority": 807399,
-  "noticeAt": 1694163600,
-  "openedAt": 1694163600,
+  "phases": [1, 2, 3],
+  "priority": 4000373,
+  "noticeAt": 1738400400,
+  "openedAt": 1738400400,
   "closedAt": 1893423600,
-  "phase": 1,
-  "className": ["rider"],
-  "individuality": [{
-    "id": 2038
-  }, {
-    "id": 2039
-  }],
-  "exp": 109988,
-  "bond": 2636,
-  "battleBgId": 21230,
-  "enemyHash": "1_0105_d774c8d",
-  "availableEnemyHashes": ["1_0105_d774c8d"],
-  "dropsFromAllHashes": true,
-  "battleBg": {
-    "id": 21230,
-    "individuality": [{
-      "id": 2038
-    }, {
-      "id": 2039
-    }]
-  },
-  "drops": [{
-    "objectId": 7004,
-    "dropCount": 16212,
-    "runs": 6740
-  }],
-  "stages": [{
-    "wave": 1,
-    "bgm": {
-      "id": 535
-    },
-    "startEffectId": 2,
-    "enemies": [{
-      "deckId": 2,
-      "npcId": 94086605,
-      "roleType": "servant",
-      "name": "バーソロミュー",
-      "svt": {
-        "id": 403400
-      },
-      "lv": 60,
-      "atk": 11750,
-      "hp": 1053696,
-      "deathRate": 4,
-      "criticalRate": 150,
-      "chargeTurn": 5,
-      "traits": [{
-        "id": 5000
-      }, {
-        "id": 403400
-      }, {
-        "id": 1
-      }, {
-        "id": 202
-      }, {
-        "id": 301
-      }, {
-        "id": 304
-      }, {
-        "id": 2008
-      }, {
-        "id": 1000
-      }, {
-        "id": 2001
-      }, {
-        "id": 401
-      }, {
-        "id": 2009
-      }, {
-        "id": 2012
-      }, {
-        "id": 2631
-      }, {
-        "id": 2780
-      }, {
-        "id": 2858
-      }, {
-        "id": 103
-      }],
-      "skills": {
-        "skillId1": 35551,
-        "skillId2": 640550,
-        "skillId3": 641550,
-        "skill1": {
-          "id": 35551,
-          "num": 1,
-          "svtId": 403400,
-          "priority": 1
-        },
-        "skill2": {
-          "id": 640550,
-          "num": 2,
-          "svtId": 403400,
-          "strengthStatus": 1,
-          "priority": 1,
-          "condLimitCount": 1
-        },
-        "skill3": {
-          "id": 641550,
-          "num": 3,
-          "svtId": 403400,
-          "priority": 1,
-          "condLimitCount": 3
-        },
-        "skillLv1": 1,
-        "skillLv2": 1,
-        "skillLv3": 1
-      },
-      "classPassive": {
-        "classPassive": [{
-          "id": 88250
-        }, {
-          "id": 34150
-        }]
-      },
-      "noblePhantasm": {
-        "noblePhantasmId": 403401,
-        "noblePhantasm": {
-          "id": 403401,
-          "svtId": 403400,
-          "priority": 101
-        },
-        "noblePhantasmLv": 1
-      },
-      "serverMod": {
-        "tdRate": 1100,
-        "tdAttackRate": 1100,
-        "starRate": 100
-      },
-      "ai": {
-        "aiId": 1103540,
-        "actPriority": 500,
-        "maxActNum": 3
-      },
-      "enemyScript": {
-        "appear": true
-      },
-      "originalEnemyScript": {
-        "appear": 1
-      },
-      "misc": {
-        "npcSvtType": 1
-      }
-    }]
-  }]
-}, {
-  "id": 94089601,
-  "name": "天下の飛将軍",
-  "type": "free",
-  "flags": ["displayLoopmark"],
-  "consumeType": "apAndItem",
-  "consume": 40,
-  "consumeItem": [{
-    "itemId": 49,
-    "amount": 1
-  }],
-  "afterClear": "repeatLast",
-  "recommendLv": "90++",
-  "spotId": 1040193,
-  "warId": 401,
-  "chapterId": 896,
-  "chapterSubId": 1,
-  "gifts": [{
-    "id": 483,
-    "objectId": 50,
-    "num": 20
-  }],
-  "releaseConditions": [{
-    "type": "questClear",
-    "targetId": 4000100
-  }],
-  "phases": [1],
-  "phasesWithEnemies": [1],
-  "priority": 807399,
-  "noticeAt": 1696410000,
-  "openedAt": 1696410000,
-  "closedAt": 1893423600,
-  "phase": 1,
-  "className": ["berserker", "archer", "assassin"],
+  "phase": 3,
+  "className": ["moonCancer", "assassin", "berserker"],
   "individuality": [{
     "id": 2038
   }, {
     "id": 2392
   }],
-  "exp": 109988,
-  "bond": 2636,
-  "battleBgId": 46300,
-  "enemyHash": "1_0501_7144504",
-  "availableEnemyHashes": ["1_0501_7144504"],
-  "dropsFromAllHashes": true,
+  "exp": 22488,
+  "bond": 795,
+  "battleBgId": 115010,
   "battleBg": {
-    "id": 46300,
+    "id": 115010,
     "individuality": [{
       "id": 2038
     }, {
       "id": 2392
     }]
   },
-  "drops": [{
-    "objectId": 6538,
-    "dropCount": 4859,
-    "runs": 3808
-  }, {
-    "objectId": 6539,
-    "dropCount": 800,
-    "runs": 3808
-  }],
   "stages": [{
     "wave": 1,
     "bgm": {
-      "id": 296
+      "id": 850
     },
     "startEffectId": 1,
-    "enemies": [{
-      "deckId": 1,
-      "npcId": 94089601,
-      "name": "近衛兵Ａ",
-      "svt": {
-        "id": 9941550
-      },
-      "lv": 50,
-      "atk": 7627,
-      "hp": 108137,
-      "deathRate": 500,
-      "criticalRate": 300,
-      "chargeTurn": 3,
-      "traits": [{
-        "id": 5000
-      }, {
-        "id": 5010
-      }, {
-        "id": 1
-      }, {
-        "id": 202
-      }, {
-        "id": 2001
-      }, {
-        "id": 1001
-      }, {
-        "id": 105
-      }],
-      "skills": {
-        "skillId1": 962102,
-        "skill1": {
-          "id": 962102
-        },
-        "skillLv1": 1
-      },
-      "noblePhantasm": {
-        "noblePhantasmId": 599,
-        "noblePhantasm": {
-          "id": 599,
-          "svtId": 9941550,
-          "priority": 1
-        },
-        "noblePhantasmLv": 1
-      },
-      "serverMod": {
-        "tdRate": 900,
-        "tdAttackRate": 900,
-        "starRate": -100
-      },
-      "ai": {
-        "aiId": 105390,
-        "actPriority": 1000,
-        "maxActNum": 2
-      }
-    }, {
-      "deckId": 2,
-      "npcId": 94089601,
-      "name": "近衛兵Ｂ",
-      "svt": {
-        "id": 9941550
-      },
-      "lv": 51,
-      "atk": 7627,
-      "hp": 111176,
-      "deathRate": 500,
-      "criticalRate": 300,
-      "chargeTurn": 3,
-      "traits": [{
-        "id": 5000
-      }, {
-        "id": 5010
-      }, {
-        "id": 1
-      }, {
-        "id": 202
-      }, {
-        "id": 2001
-      }, {
-        "id": 1001
-      }, {
-        "id": 105
-      }],
-      "skills": {
-        "skillId1": 962102,
-        "skill1": {
-          "id": 962102
-        },
-        "skillLv1": 1
-      },
-      "noblePhantasm": {
-        "noblePhantasmId": 599,
-        "noblePhantasm": {
-          "id": 599,
-          "svtId": 9941550,
-          "priority": 1
-        },
-        "noblePhantasmLv": 1
-      },
-      "serverMod": {
-        "tdRate": 900,
-        "tdAttackRate": 900,
-        "starRate": -100
-      },
-      "ai": {
-        "aiId": 105390,
-        "actPriority": 1000,
-        "maxActNum": 2
-      }
-    }, {
-      "deckId": 3,
-      "npcId": 94089601,
-      "name": "近衛兵Ｃ",
-      "svt": {
-        "id": 9941550
-      },
-      "lv": 53,
-      "atk": 7627,
-      "hp": 121238,
-      "deathRate": 500,
-      "criticalRate": 300,
-      "chargeTurn": 3,
-      "traits": [{
-        "id": 5000
-      }, {
-        "id": 5010
-      }, {
-        "id": 1
-      }, {
-        "id": 202
-      }, {
-        "id": 2001
-      }, {
-        "id": 1001
-      }, {
-        "id": 105
-      }],
-      "skills": {
-        "skillId1": 962102,
-        "skill1": {
-          "id": 962102
-        },
-        "skillLv1": 1
-      },
-      "noblePhantasm": {
-        "noblePhantasmId": 599,
-        "noblePhantasm": {
-          "id": 599,
-          "svtId": 9941550,
-          "priority": 1
-        },
-        "noblePhantasmLv": 1
-      },
-      "serverMod": {
-        "tdRate": 900,
-        "tdAttackRate": 900,
-        "starRate": -100
-      },
-      "ai": {
-        "aiId": 105390,
-        "actPriority": 1000,
-        "maxActNum": 2
-      }
-    }]
+    "originalScript": {
+      "priorityBgm": 50
+    }
   }, {
     "wave": 2,
     "bgm": {
-      "id": 233
+      "id": 850
     },
-    "startEffectId": 2,
-    "enemies": [{
-      "deckId": 1,
-      "npcId": 94089602,
-      "name": "多多益善号",
-      "svt": {
-        "id": 9941620
-      },
-      "lv": 42,
-      "atk": 8147,
-      "hp": 266626,
-      "deathRate": 200,
-      "criticalRate": 200,
-      "chargeTurn": 3,
-      "traits": [{
-        "id": 5000
-      }, {
-        "id": 5010
-      }, {
-        "id": 200
-      }, {
-        "id": 1003
-      }, {
-        "id": 2781
-      }, {
-        "id": 2835
-      }, {
-        "id": 102
-      }],
-      "skills": {
-        "skillId1": 962105,
-        "skill1": {
-          "id": 962105
-        },
-        "skillLv1": 1
-      },
-      "classPassive": {
-        "addPassive": [{
-          "id": 961253
-        }]
-      },
-      "noblePhantasm": {
-        "noblePhantasmId": 602,
-        "noblePhantasm": {
-          "id": 602,
-          "svtId": 9941620,
-          "priority": 8
-        },
-        "noblePhantasmLv": 1
-      },
-      "serverMod": {
-        "starRate": 50
-      },
-      "ai": {
-        "aiId": 105400,
-        "actPriority": 500,
-        "maxActNum": 3
-      },
-      "misc": {
-        "npcSvtType": 3
-      }
-    }, {
-      "deckId": 3,
-      "npcId": 94089603,
-      "roleType": "servant",
-      "name": "呂布",
-      "svt": {
-        "id": 700300
-      },
-      "lv": 70,
-      "atk": 9400,
-      "hp": 583630,
-      "deathRate": 4,
-      "criticalRate": 100,
-      "chargeTurn": 5,
-      "traits": [{
-        "id": 5000
-      }, {
-        "id": 700300
-      }, {
-        "id": 1
-      }, {
-        "id": 202
-      }, {
-        "id": 301
-      }, {
-        "id": 304
-      }, {
-        "id": 2008
-      }, {
-        "id": 1000
-      }, {
-        "id": 2001
-      }, {
-        "id": 403
-      }, {
-        "id": 2631
-      }, {
-        "id": 2781
-      }, {
-        "id": 2858
-      }, {
-        "id": 106
-      }],
-      "skills": {
-        "skillId1": 16450,
-        "skillId2": 21450,
-        "skillId3": 218550,
-        "skill1": {
-          "id": 16450,
-          "num": 1,
-          "svtId": 700300,
-          "priority": 1
-        },
-        "skill2": {
-          "id": 21450,
-          "num": 2,
-          "svtId": 700300,
-          "priority": 1,
-          "condLimitCount": 1
-        },
-        "skill3": {
-          "id": 218550,
-          "num": 3,
-          "svtId": 700300,
-          "priority": 1,
-          "condQuestId": 94003406,
-          "condQuestPhase": 5,
-          "condLimitCount": 4
-        },
-        "skillLv1": 1,
-        "skillLv2": 1,
-        "skillLv3": 1
-      },
-      "classPassive": {
-        "classPassive": [{
-          "id": 54550
-        }]
-      },
-      "noblePhantasm": {
-        "noblePhantasmId": 700301,
-        "noblePhantasm": {
-          "id": 700301,
-          "svtId": 700300,
-          "priority": 101
-        },
-        "noblePhantasmLv": 1
-      },
-      "serverMod": {
-        "tdRate": 800,
-        "tdAttackRate": 800
-      },
-      "ai": {
-        "aiId": 1100930,
-        "actPriority": 500,
-        "maxActNum": 2
-      },
-      "enemyScript": {
-        "appear": true
-      },
-      "originalEnemyScript": {
-        "appear": 1
-      },
-      "misc": {
-        "npcSvtType": 1
-      }
-    }]
+    "startEffectId": 1,
+    "originalScript": {
+      "priorityBgm": 50
+    }
+  }, {
+    "wave": 3,
+    "bgm": {
+      "id": 691
+    },
+    "startEffectId": 2
   }]
 }, {
-  "id": 94089602,
-  "name": "蘇る太古のロマン",
+  "id": 93040403,
+  "name": "コンピューティング・シティ",
   "type": "free",
   "flags": ["displayLoopmark"],
-  "consumeType": "apAndItem",
-  "consume": 40,
-  "consumeItem": [{
-    "itemId": 49,
-    "amount": 1
-  }],
+  "consume": 21,
   "afterClear": "repeatLast",
-  "recommendLv": "90++",
-  "spotId": 1040185,
-  "warId": 401,
-  "chapterId": 896,
-  "chapterSubId": 2,
+  "recommendLv": "78",
+  "spotId": 40404,
+  "warId": 404,
+  "chapterId": 404,
+  "chapterSubId": 3,
+  "giftIcon": "https://static.atlasacademy.io/JP/Items/6.png",
   "gifts": [{
-    "id": 483,
-    "objectId": 50,
-    "num": 20
+    "id": 101,
+    "objectId": 2,
+    "num": 1
   }],
   "releaseConditions": [{
     "type": "questClear",
-    "targetId": 4000100
+    "targetId": 4000426
   }],
-  "phases": [1],
-  "phasesWithEnemies": [1],
-  "priority": 807398,
-  "noticeAt": 1696410000,
-  "openedAt": 1696410000,
+  "phases": [1, 2, 3],
+  "priority": 4000372,
+  "noticeAt": 1738400400,
+  "openedAt": 1738400400,
   "closedAt": 1893423600,
-  "phase": 1,
-  "className": ["lancer", "saber", "archer"],
+  "phase": 3,
+  "className": ["saber", "archer", "berserker"],
+  "individuality": [{
+    "id": 2038
+  }, {
+    "id": 2392
+  }],
+  "exp": 22488,
+  "bond": 795,
+  "battleBgId": 116200,
+  "battleBg": {
+    "id": 116200,
+    "individuality": [{
+      "id": 2038
+    }, {
+      "id": 2392
+    }]
+  },
+  "stages": [{
+    "wave": 1,
+    "bgm": {
+      "id": 850
+    },
+    "startEffectId": 1,
+    "originalScript": {
+      "priorityBgm": 50
+    }
+  }, {
+    "wave": 2,
+    "bgm": {
+      "id": 850
+    },
+    "startEffectId": 1,
+    "originalScript": {
+      "priorityBgm": 50
+    }
+  }, {
+    "wave": 3,
+    "bgm": {
+      "id": 691
+    },
+    "startEffectId": 2
+  }]
+}, {
+  "id": 93040404,
+  "name": "ラグジュアリー・ビュッフェ",
+  "type": "free",
+  "flags": ["displayLoopmark"],
+  "consume": 21,
+  "afterClear": "repeatLast",
+  "recommendLv": "75",
+  "spotId": 40405,
+  "warId": 404,
+  "chapterId": 404,
+  "chapterSubId": 4,
+  "giftIcon": "https://static.atlasacademy.io/JP/Items/6.png",
+  "gifts": [{
+    "id": 101,
+    "objectId": 2,
+    "num": 1
+  }],
+  "releaseConditions": [{
+    "type": "questClear",
+    "targetId": 4000426
+  }],
+  "phases": [1, 2, 3],
+  "priority": 4000371,
+  "noticeAt": 1738400400,
+  "openedAt": 1738400400,
+  "closedAt": 1893423600,
+  "phase": 3,
+  "className": ["archer", "assassin"],
+  "individuality": [{
+    "id": 2038
+  }, {
+    "id": 2392
+  }],
+  "exp": 20652,
+  "bond": 765,
+  "battleBgId": 115100,
+  "battleBg": {
+    "id": 115100,
+    "individuality": [{
+      "id": 2038
+    }, {
+      "id": 2392
+    }]
+  },
+  "stages": [{
+    "wave": 1,
+    "bgm": {
+      "id": 850
+    },
+    "startEffectId": 1,
+    "originalScript": {
+      "priorityBgm": 50
+    }
+  }, {
+    "wave": 2,
+    "bgm": {
+      "id": 850
+    },
+    "startEffectId": 1,
+    "originalScript": {
+      "priorityBgm": 50
+    }
+  }, {
+    "wave": 3,
+    "bgm": {
+      "id": 691
+    },
+    "startEffectId": 2
+  }]
+}, {
+  "id": 93040405,
+  "name": "ワームズ・サンドボックス",
+  "type": "free",
+  "flags": ["displayLoopmark"],
+  "consume": 21,
+  "afterClear": "repeatLast",
+  "recommendLv": "77",
+  "spotId": 40407,
+  "warId": 404,
+  "chapterId": 404,
+  "chapterSubId": 5,
+  "giftIcon": "https://static.atlasacademy.io/JP/Items/6.png",
+  "gifts": [{
+    "id": 101,
+    "objectId": 2,
+    "num": 1
+  }],
+  "releaseConditions": [{
+    "type": "questClear",
+    "targetId": 4000426
+  }],
+  "phases": [1, 2, 3],
+  "priority": 4000370,
+  "noticeAt": 1738400400,
+  "openedAt": 1738400400,
+  "closedAt": 1893423600,
+  "phase": 3,
+  "className": ["assassin", "berserker"],
+  "individuality": [{
+    "id": 2038
+  }],
+  "exp": 21868,
+  "bond": 785,
+  "battleBgId": 115510,
+  "battleBg": {
+    "id": 115510,
+    "individuality": [{
+      "id": 2038
+    }]
+  },
+  "stages": [{
+    "wave": 1,
+    "bgm": {
+      "id": 850
+    },
+    "startEffectId": 1,
+    "originalScript": {
+      "priorityBgm": 50
+    }
+  }, {
+    "wave": 2,
+    "bgm": {
+      "id": 850
+    },
+    "startEffectId": 1,
+    "originalScript": {
+      "priorityBgm": 50
+    }
+  }, {
+    "wave": 3,
+    "bgm": {
+      "id": 691
+    },
+    "startEffectId": 2
+  }]
+}, {
+  "id": 93040406,
+  "name": "ムーン・ウォーキング",
+  "type": "free",
+  "flags": ["displayLoopmark"],
+  "consume": 21,
+  "afterClear": "repeatLast",
+  "recommendLv": "78",
+  "spotId": 40408,
+  "warId": 404,
+  "chapterId": 404,
+  "chapterSubId": 6,
+  "giftIcon": "https://static.atlasacademy.io/JP/Items/6.png",
+  "gifts": [{
+    "id": 101,
+    "objectId": 2,
+    "num": 1
+  }],
+  "releaseConditions": [{
+    "type": "questClear",
+    "targetId": 4000426
+  }],
+  "phases": [1, 2, 3],
+  "priority": 4000369,
+  "noticeAt": 1738400400,
+  "openedAt": 1738400400,
+  "closedAt": 1893423600,
+  "phase": 3,
+  "className": ["assassin", "caster", "archer"],
+  "individuality": [{
+    "id": 2038
+  }, {
+    "id": 2392
+  }],
+  "exp": 22488,
+  "bond": 795,
+  "battleBgId": 116400,
+  "battleBg": {
+    "id": 116400,
+    "individuality": [{
+      "id": 2038
+    }, {
+      "id": 2392
+    }]
+  },
+  "stages": [{
+    "wave": 1,
+    "bgm": {
+      "id": 850
+    },
+    "startEffectId": 1,
+    "originalScript": {
+      "priorityBgm": 50
+    }
+  }, {
+    "wave": 2,
+    "bgm": {
+      "id": 850
+    },
+    "startEffectId": 1,
+    "originalScript": {
+      "priorityBgm": 50
+    }
+  }, {
+    "wave": 3,
+    "bgm": {
+      "id": 691
+    },
+    "startEffectId": 2
+  }]
+}, {
+  "id": 93040407,
+  "name": "マシーナリー・タウン",
+  "type": "free",
+  "flags": ["displayLoopmark"],
+  "consume": 21,
+  "afterClear": "repeatLast",
+  "recommendLv": "79",
+  "spotId": 40409,
+  "warId": 404,
+  "chapterId": 404,
+  "chapterSubId": 7,
+  "giftIcon": "https://static.atlasacademy.io/JP/Items/6.png",
+  "gifts": [{
+    "id": 101,
+    "objectId": 2,
+    "num": 1
+  }],
+  "releaseConditions": [{
+    "type": "questClear",
+    "targetId": 4000426
+  }],
+  "phases": [1, 2, 3],
+  "priority": 4000368,
+  "noticeAt": 1738400400,
+  "openedAt": 1738400400,
+  "closedAt": 1893423600,
+  "phase": 3,
+  "className": ["assassin", "archer"],
+  "individuality": [{
+    "id": 2038
+  }, {
+    "id": 2392
+  }],
+  "exp": 23116,
+  "bond": 805,
+  "battleBgId": 116700,
+  "battleBg": {
+    "id": 116700,
+    "individuality": [{
+      "id": 2038
+    }, {
+      "id": 2392
+    }]
+  },
+  "stages": [{
+    "wave": 1,
+    "bgm": {
+      "id": 850
+    },
+    "startEffectId": 1,
+    "originalScript": {
+      "priorityBgm": 50
+    }
+  }, {
+    "wave": 2,
+    "bgm": {
+      "id": 850
+    },
+    "startEffectId": 1,
+    "originalScript": {
+      "priorityBgm": 50
+    }
+  }, {
+    "wave": 3,
+    "bgm": {
+      "id": 691
+    },
+    "startEffectId": 2
+  }]
+}, {
+  "id": 93040408,
+  "name": "ムーン・ショッピング",
+  "type": "free",
+  "flags": ["displayLoopmark"],
+  "consume": 21,
+  "afterClear": "repeatLast",
+  "recommendLv": "80",
+  "spotId": 40410,
+  "warId": 404,
+  "chapterId": 404,
+  "chapterSubId": 8,
+  "giftIcon": "https://static.atlasacademy.io/JP/Items/6.png",
+  "gifts": [{
+    "id": 101,
+    "objectId": 2,
+    "num": 1
+  }],
+  "releaseConditions": [{
+    "type": "questClear",
+    "targetId": 4000426
+  }],
+  "phases": [1, 2, 3],
+  "priority": 4000367,
+  "noticeAt": 1738400400,
+  "openedAt": 1738400400,
+  "closedAt": 1893423600,
+  "phase": 3,
+  "className": ["moonCancer", "assassin", "archer"],
+  "individuality": [{
+    "id": 2392
+  }],
+  "exp": 23752,
+  "bond": 815,
+  "battleBgId": 116600,
+  "battleBg": {
+    "id": 116600,
+    "individuality": [{
+      "id": 2392
+    }]
+  },
+  "stages": [{
+    "wave": 1,
+    "bgm": {
+      "id": 850
+    },
+    "startEffectId": 1,
+    "originalScript": {
+      "priorityBgm": 50
+    }
+  }, {
+    "wave": 2,
+    "bgm": {
+      "id": 850
+    },
+    "startEffectId": 1,
+    "originalScript": {
+      "priorityBgm": 50
+    }
+  }, {
+    "wave": 3,
+    "bgm": {
+      "id": 691
+    },
+    "startEffectId": 2
+  }]
+}, {
+  "id": 93040409,
+  "name": "ムーン・クルージング",
+  "type": "free",
+  "flags": ["displayLoopmark"],
+  "consume": 21,
+  "afterClear": "repeatLast",
+  "recommendLv": "76",
+  "spotId": 40411,
+  "warId": 404,
+  "chapterId": 404,
+  "chapterSubId": 9,
+  "giftIcon": "https://static.atlasacademy.io/JP/Items/6.png",
+  "gifts": [{
+    "id": 101,
+    "objectId": 2,
+    "num": 1
+  }],
+  "releaseConditions": [{
+    "type": "questClear",
+    "targetId": 4000426
+  }],
+  "phases": [1, 2, 3],
+  "priority": 4000366,
+  "noticeAt": 1738400400,
+  "openedAt": 1738400400,
+  "closedAt": 1893423600,
+  "phase": 3,
+  "className": ["avenger", "assassin"],
   "individuality": [{
     "id": 2038
   }, {
@@ -52729,14 +51227,11 @@
   }, {
     "id": 2392
   }],
-  "exp": 109988,
-  "bond": 2636,
-  "battleBgId": 78100,
-  "enemyHash": "1_0608_cd17a38",
-  "availableEnemyHashes": ["1_0607_86f64a2", "1_0607_88440ea", "1_0607_88582ca", "1_0607_8be926c", "1_0607_92c933c", "1_0607_94240f5", "1_0607_951e5ae", "1_0607_97081c5", "1_0607_980c390", "1_0607_99855e5", "1_0607_9e3fb2e", "1_0607_9fab6fe", "1_0607_a082748", "1_0607_a36bd64", "1_0607_a3d27ba", "1_0607_aad2724", "1_0607_ab59614", "1_0607_ab90d16", "1_0607_ac84bf1", "1_0607_ae246b1", "1_0607_af89fc7", "1_0607_afb6702", "1_0607_b00adc6", "1_0607_b09a634", "1_0607_b11dbb5", "1_0607_b1642f8", "1_0607_b1d7001", "1_0607_b372fc3", "1_0607_b4e9a56", "1_0607_b6afb2e", "1_0607_b8df42c", "1_0607_b961806", "1_0607_bac8b0c", "1_0607_bb74318", "1_0607_bcbd43b", "1_0607_bd2ccb7", "1_0607_be4db5e", "1_0607_bf62aca", "1_0607_bfe21bf", "1_0607_c0e7ed3", "1_0607_c1c4966", "1_0607_c32151e", "1_0607_c44c190", "1_0607_c528a02", "1_0607_c81d73a", "1_0607_c96babb", "1_0607_ca2dbef", "1_0607_ca5220b", "1_0607_ca5a5e6", "1_0607_cb0247d", "1_0607_cb189c3", "1_0607_ccd635c", "1_0607_cceebdf", "1_0607_d00f5f5", "1_0607_d0267f2", "1_0607_d237a34", "1_0607_d2c7eeb", "1_0607_d49a72e", "1_0607_d583442", "1_0607_d5d5e2f", "1_0607_d6921c5", "1_0607_d765028", "1_0607_d8c4609", "1_0607_d8fd395", "1_0607_dcfe8c1", "1_0607_df089b3", "1_0607_e00f830", "1_0607_e0c2ab8", "1_0607_e149444", "1_0607_e173c07", "1_0607_e1d3980", "1_0607_e47f095", "1_0607_e7d3d42", "1_0607_e985d66", "1_0607_e9d943b", "1_0607_ea07e29", "1_0607_eb2f982", "1_0607_eca3abe", "1_0607_efbce42", "1_0607_f125752", "1_0607_f2ac3e4", "1_0607_f37d2bd", "1_0607_f448f40", "1_0607_f5bc2f4", "1_0607_f6d4e9e", "1_0607_f6fca0a", "1_0607_f9a7112", "1_0607_f9b50a3", "1_0607_fa60e50", "1_0607_fac7a7d", "1_0607_fbf4149", "1_0607_fe20d72", "1_0607_ff1bb46", "1_0607_ffa0b41", "1_0608_17d9d0c", "1_0608_379fa61", "1_0608_421718d", "1_0608_879ebf8", "1_0608_9eca7b5", "1_0608_cd17a38"],
-  "dropsFromAllHashes": true,
+  "exp": 21256,
+  "bond": 775,
+  "battleBgId": 116310,
   "battleBg": {
-    "id": 78100,
+    "id": 116310,
     "individuality": [{
       "id": 2038
     }, {
@@ -52745,2171 +51240,168 @@
       "id": 2392
     }]
   },
-  "drops": [{
-    "objectId": 6001,
-    "dropCount": 703,
-    "runs": 841
-  }, {
-    "objectId": 6002,
-    "dropCount": 679,
-    "runs": 841
-  }, {
-    "objectId": 6003,
-    "dropCount": 1534,
-    "runs": 841
-  }],
   "stages": [{
     "wave": 1,
     "bgm": {
-      "id": 581
+      "id": 850
     },
     "startEffectId": 1,
-    "enemies": [{
-      "deckId": 1,
-      "npcId": 94089606,
-      "name": "ティタノボア？Ａ",
-      "svt": {
-        "id": 9942710,
-        "rarity": 2,
-        "face": "https://static.atlasacademy.io/JP/Enemys/99427102.png"
-      },
-      "lv": 54,
-      "atk": 7804,
-      "hp": 115041,
-      "deathRate": 800,
-      "criticalRate": 100,
-      "chargeTurn": 4,
-      "traits": [{
-        "id": 5000
-      }, {
-        "id": 5010
-      }, {
-        "id": 201
-      }, {
-        "id": 1110
-      }, {
-        "id": 2005
-      }, {
-        "id": 2019
-      }, {
-        "id": 101
-      }, {
-        "id": 2943
-      }],
-      "skills": {
-        "skillId1": 965282,
-        "skill1": {
-          "id": 965282
-        },
-        "skillLv1": 1
-      },
-      "noblePhantasm": {
-        "noblePhantasmId": 702,
-        "noblePhantasm": {
-          "id": 702,
-          "npNum": 3,
-          "svtId": 9942710,
-          "strengthStatus": 1,
-          "priority": 2
-        },
-        "noblePhantasmLv": 1
-      },
-      "serverMod": {
-        "starRate": -50
-      },
-      "ai": {
-        "aiId": 1000000,
-        "actPriority": 1500,
-        "maxActNum": 2
-      }
-    }, {
-      "deckId": 2,
-      "npcId": 94089608,
-      "name": "アンキロサウルス？",
-      "svt": {
-        "id": 9937180,
-        "classId": 2
-      },
-      "lv": 68,
-      "atk": 7922,
-      "hp": 120637,
-      "deathRate": 800,
-      "criticalRate": 200,
-      "chargeTurn": 3,
-      "traits": [{
-        "id": 5000
-      }, {
-        "id": 5010
-      }, {
-        "id": 201
-      }, {
-        "id": 1110
-      }, {
-        "id": 2002
-      }, {
-        "id": 2943
-      }, {
-        "id": 102
-      }],
-      "skills": {
-        "skillId1": 962425,
-        "skill1": {
-          "id": 962425
-        },
-        "skillLv1": 1
-      },
-      "noblePhantasm": {
-        "noblePhantasmId": 617,
-        "noblePhantasm": {
-          "id": 617,
-          "npNum": 3,
-          "svtId": 9937180,
-          "strengthStatus": 99,
-          "priority": 582
-        },
-        "noblePhantasmLv": 1
-      },
-      "serverMod": {
-        "starRate": 50
-      },
-      "ai": {
-        "aiId": 105300,
-        "actPriority": 500,
-        "maxActNum": 2
-      },
-      "enemyScript": {
-        "billBoardGroup": 1
-      },
-      "originalEnemyScript": {
-        "billBoardGroup": 1
-      },
-      "misc": {
-        "npcSvtClassId": 2
-      }
-    }, {
-      "deckId": 3,
-      "npcId": 94089606,
-      "name": "ティタノボア？Ｂ",
-      "svt": {
-        "id": 9942710,
-        "rarity": 2,
-        "face": "https://static.atlasacademy.io/JP/Enemys/99427102.png"
-      },
-      "lv": 56,
-      "atk": 7804,
-      "hp": 119183,
-      "deathRate": 800,
-      "criticalRate": 100,
-      "chargeTurn": 4,
-      "traits": [{
-        "id": 5000
-      }, {
-        "id": 5010
-      }, {
-        "id": 201
-      }, {
-        "id": 1110
-      }, {
-        "id": 2005
-      }, {
-        "id": 2019
-      }, {
-        "id": 101
-      }, {
-        "id": 2943
-      }],
-      "skills": {
-        "skillId1": 965282,
-        "skill1": {
-          "id": 965282
-        },
-        "skillLv1": 1
-      },
-      "noblePhantasm": {
-        "noblePhantasmId": 702,
-        "noblePhantasm": {
-          "id": 702,
-          "npNum": 3,
-          "svtId": 9942710,
-          "strengthStatus": 1,
-          "priority": 2
-        },
-        "noblePhantasmLv": 1
-      },
-      "serverMod": {
-        "starRate": -50
-      },
-      "ai": {
-        "aiId": 1000000,
-        "actPriority": 1500,
-        "maxActNum": 2
-      }
-    }]
+    "originalScript": {
+      "priorityBgm": 50
+    }
   }, {
     "wave": 2,
     "bgm": {
-      "id": 581
+      "id": 850
     },
     "startEffectId": 1,
-    "enemies": [{
-      "deckId": 1,
-      "npcId": 94089609,
-      "name": "アンキロサウルス？Ａ",
-      "svt": {
-        "id": 9937180
-      },
-      "lv": 69,
-      "atk": 7922,
-      "hp": 183553,
-      "deathRate": 800,
-      "criticalRate": 100,
-      "chargeTurn": 4,
-      "traits": [{
-        "id": 5000
-      }, {
-        "id": 5010
-      }, {
-        "id": 201
-      }, {
-        "id": 1110
-      }, {
-        "id": 2002
-      }, {
-        "id": 101
-      }, {
-        "id": 2943
-      }],
-      "skills": {
-        "skillId1": 962425,
-        "skill1": {
-          "id": 962425
-        },
-        "skillLv1": 1
-      },
-      "noblePhantasm": {
-        "noblePhantasmId": 617,
-        "noblePhantasm": {
-          "id": 617,
-          "npNum": 3,
-          "svtId": 9937180,
-          "strengthStatus": 99,
-          "priority": 582
-        },
-        "noblePhantasmLv": 1
-      },
-      "serverMod": {
-        "starRate": -50
-      },
-      "ai": {
-        "aiId": 105300,
-        "actPriority": 1500,
-        "maxActNum": 2
-      }
-    }, {
-      "deckId": 3,
-      "npcId": 94089609,
-      "name": "アンキロサウルス？Ｂ",
-      "svt": {
-        "id": 9937180
-      },
-      "lv": 70,
-      "atk": 7922,
-      "hp": 243433,
-      "deathRate": 800,
-      "criticalRate": 100,
-      "chargeTurn": 4,
-      "traits": [{
-        "id": 5000
-      }, {
-        "id": 5010
-      }, {
-        "id": 201
-      }, {
-        "id": 1110
-      }, {
-        "id": 2002
-      }, {
-        "id": 101
-      }, {
-        "id": 2943
-      }],
-      "skills": {
-        "skillId1": 962425,
-        "skill1": {
-          "id": 962425
-        },
-        "skillLv1": 1
-      },
-      "noblePhantasm": {
-        "noblePhantasmId": 617,
-        "noblePhantasm": {
-          "id": 617,
-          "npNum": 3,
-          "svtId": 9937180,
-          "strengthStatus": 99,
-          "priority": 582
-        },
-        "noblePhantasmLv": 1
-      },
-      "serverMod": {
-        "starRate": -50
-      },
-      "ai": {
-        "aiId": 105300,
-        "actPriority": 1500,
-        "maxActNum": 2
-      }
-    }]
+    "originalScript": {
+      "priorityBgm": 50
+    }
   }, {
     "wave": 3,
     "bgm": {
-      "id": 582
+      "id": 691
     },
-    "startEffectId": 2,
-    "enemies": [{
-      "deckId": 2,
-      "npcId": 94089610,
-      "roleType": "danger",
-      "name": "首長竜？",
-      "svt": {
-        "id": 9943650
-      },
-      "lv": 60,
-      "atk": 11696,
-      "hp": 420693,
-      "deathRate": 200,
-      "criticalRate": 100,
-      "chargeTurn": 4,
-      "traits": [{
-        "id": 5000
-      }, {
-        "id": 5010
-      }, {
-        "id": 201
-      }, {
-        "id": 2002
-      }, {
-        "id": 101
-      }],
-      "skills": {
-        "skillId1": 967308,
-        "skill1": {
-          "id": 967308
-        },
-        "skillLv1": 1
-      },
-      "noblePhantasm": {
-        "noblePhantasmId": 765,
-        "noblePhantasm": {
-          "id": 765,
-          "svtId": 9943650,
-          "priority": 1
-        },
-        "noblePhantasmLv": 1
-      },
-      "serverMod": {
-        "starRate": -50
-      },
-      "ai": {
-        "aiId": 1000000,
-        "actPriority": 1500,
-        "maxActNum": 3
-      },
-      "enemyScript": {
-        "appear": true
-      },
-      "originalEnemyScript": {
-        "appear": 1
-      }
-    }]
+    "startEffectId": 2
   }]
 }, {
-  "id": 94090701,
-  "name": "神秘主義者と魂の故郷",
+  "id": 93040410,
+  "name": "スター・ピッキング",
   "type": "free",
   "flags": ["displayLoopmark"],
-  "consumeType": "apAndItem",
-  "consume": 40,
-  "consumeItem": [{
-    "itemId": 49,
-    "amount": 1
-  }],
+  "consume": 21,
   "afterClear": "repeatLast",
-  "recommendLv": "90★",
-  "spotId": 1040192,
-  "warId": 401,
-  "chapterId": 907,
-  "chapterSubId": 1,
+  "recommendLv": "80",
+  "spotId": 40412,
+  "warId": 404,
+  "chapterId": 404,
+  "chapterSubId": 10,
+  "giftIcon": "https://static.atlasacademy.io/JP/Items/6.png",
   "gifts": [{
-    "id": 483,
-    "objectId": 50,
-    "num": 20
+    "id": 101,
+    "objectId": 2,
+    "num": 1
   }],
   "releaseConditions": [{
     "type": "questClear",
-    "targetId": 4000100
+    "targetId": 4000426
   }],
-  "phases": [1],
-  "phasesWithEnemies": [1],
-  "priority": 807299,
-  "noticeAt": 1700038800,
-  "openedAt": 1700038800,
+  "phases": [1, 2, 3],
+  "priority": 4000365,
+  "noticeAt": 1738400400,
+  "openedAt": 1738400400,
   "closedAt": 1893423600,
-  "phase": 1,
-  "className": ["caster", "berserker"],
+  "phase": 3,
+  "className": ["assassin", "archer"],
   "individuality": [{
     "id": 2038
-  }],
-  "exp": 131986,
-  "bond": 3164,
-  "battleBgId": 54400,
-  "enemyHash": "1_0502_3577e62",
-  "availableEnemyHashes": ["1_0502_3577e62"],
-  "dropsFromAllHashes": true,
-  "battleBg": {
-    "id": 54400,
-    "individuality": [{
-      "id": 2038
-    }]
-  },
-  "drops": [{
-    "objectId": 6522,
-    "dropCount": 5686,
-    "runs": 13169
   }, {
-    "objectId": 6523,
-    "dropCount": 13169,
-    "runs": 13169
-  }, {
-    "objectId": 6541,
-    "dropCount": 3419,
-    "runs": 13169
+    "id": 2039
   }],
-  "stages": [{
-    "wave": 1,
-    "bgm": {
-      "id": 335
-    },
-    "startEffectId": 1,
-    "enemies": [{
-      "deckId": 1,
-      "npcId": 94090702,
-      "name": "亡者Ａ",
-      "svt": {
-        "id": 9941950
-      },
-      "lv": 63,
-      "atk": 7144,
-      "hp": 42748,
-      "deathRate": 1000,
-      "criticalRate": 100,
-      "chargeTurn": 5,
-      "traits": [{
-        "id": 5000
-      }, {
-        "id": 5010
-      }, {
-        "id": 1
-      }, {
-        "id": 202
-      }, {
-        "id": 2001
-      }, {
-        "id": 1001
-      }, {
-        "id": 1002
-      }, {
-        "id": 1104
-      }, {
-        "id": 2018
-      }, {
-        "id": 2040
-      }, {
-        "id": 2019
-      }, {
-        "id": 106
-      }],
-      "skills": {
-        "skillId1": 962634,
-        "skill1": {
-          "id": 962634
-        },
-        "skillLv1": 1
-      },
-      "noblePhantasm": {
-        "noblePhantasmId": 628,
-        "noblePhantasm": {
-          "id": 628,
-          "svtId": 9941950,
-          "priority": 590
-        },
-        "noblePhantasmLv": 1
-      },
-      "serverMod": {
-        "tdRate": 800,
-        "tdAttackRate": 800
-      },
-      "ai": {
-        "aiId": 1000000,
-        "actPriority": 500,
-        "maxActNum": 1
-      }
-    }, {
-      "deckId": 3,
-      "npcId": 94090702,
-      "name": "亡者Ｂ",
-      "svt": {
-        "id": 9941950
-      },
-      "lv": 64,
-      "atk": 7144,
-      "hp": 44476,
-      "deathRate": 1000,
-      "criticalRate": 100,
-      "chargeTurn": 5,
-      "traits": [{
-        "id": 5000
-      }, {
-        "id": 5010
-      }, {
-        "id": 1
-      }, {
-        "id": 202
-      }, {
-        "id": 2001
-      }, {
-        "id": 1001
-      }, {
-        "id": 1002
-      }, {
-        "id": 1104
-      }, {
-        "id": 2018
-      }, {
-        "id": 2040
-      }, {
-        "id": 2019
-      }, {
-        "id": 106
-      }],
-      "skills": {
-        "skillId1": 962634,
-        "skill1": {
-          "id": 962634
-        },
-        "skillLv1": 1
-      },
-      "noblePhantasm": {
-        "noblePhantasmId": 628,
-        "noblePhantasm": {
-          "id": 628,
-          "svtId": 9941950,
-          "priority": 590
-        },
-        "noblePhantasmLv": 1
-      },
-      "serverMod": {
-        "tdRate": 800,
-        "tdAttackRate": 800
-      },
-      "ai": {
-        "aiId": 1000000,
-        "actPriority": 500,
-        "maxActNum": 1
-      }
-    }]
-  }, {
-    "wave": 2,
-    "bgm": {
-      "id": 335
-    },
-    "startEffectId": 1,
-    "enemies": [{
-      "deckId": 1,
-      "npcId": 94090702,
-      "name": "亡者",
-      "svt": {
-        "id": 9941950
-      },
-      "lv": 65,
-      "atk": 7144,
-      "hp": 46233,
-      "deathRate": 1000,
-      "criticalRate": 100,
-      "chargeTurn": 5,
-      "traits": [{
-        "id": 5000
-      }, {
-        "id": 5010
-      }, {
-        "id": 1
-      }, {
-        "id": 202
-      }, {
-        "id": 2001
-      }, {
-        "id": 1001
-      }, {
-        "id": 1002
-      }, {
-        "id": 1104
-      }, {
-        "id": 2018
-      }, {
-        "id": 2040
-      }, {
-        "id": 2019
-      }, {
-        "id": 106
-      }],
-      "skills": {
-        "skillId1": 962634,
-        "skill1": {
-          "id": 962634
-        },
-        "skillLv1": 1
-      },
-      "noblePhantasm": {
-        "noblePhantasmId": 628,
-        "noblePhantasm": {
-          "id": 628,
-          "svtId": 9941950,
-          "priority": 590
-        },
-        "noblePhantasmLv": 1
-      },
-      "serverMod": {
-        "tdRate": 800,
-        "tdAttackRate": 800
-      },
-      "ai": {
-        "aiId": 1000000,
-        "actPriority": 500,
-        "maxActNum": 1
-      }
-    }, {
-      "deckId": 3,
-      "npcId": 94090701,
-      "roleType": "danger",
-      "name": "カリ・サンガ",
-      "svt": {
-        "id": 9941930
-      },
-      "lv": 52,
-      "atk": 9065,
-      "hp": 303175,
-      "deathRate": 200,
-      "criticalRate": 100,
-      "chargeTurn": 5,
-      "traits": [{
-        "id": 5000
-      }, {
-        "id": 5010
-      }, {
-        "id": 201
-      }, {
-        "id": 304
-      }, {
-        "id": 1119
-      }, {
-        "id": 2005
-      }, {
-        "id": 2018
-      }, {
-        "id": 2040
-      }, {
-        "id": 2019
-      }, {
-        "id": 106
-      }],
-      "skills": {
-        "skillId1": 962632,
-        "skill1": {
-          "id": 962632
-        },
-        "skillLv1": 1
-      },
-      "noblePhantasm": {
-        "noblePhantasmId": 626,
-        "noblePhantasm": {
-          "id": 626,
-          "svtId": 9941930,
-          "priority": 103
-        },
-        "noblePhantasmLv": 1
-      },
-      "serverMod": {
-        "tdRate": 800,
-        "tdAttackRate": 800
-      },
-      "ai": {
-        "aiId": 303210,
-        "actPriority": 500,
-        "maxActNum": 3
-      },
-      "enemyScript": {
-        "appear": true
-      },
-      "originalEnemyScript": {
-        "appear": 1
-      },
-      "misc": {
-        "npcSvtType": 3
-      }
-    }]
-  }, {
-    "wave": 3,
-    "bgm": {
-      "id": 233
-    },
-    "startEffectId": 2,
-    "enemies": [{
-      "deckId": 2,
-      "npcId": 94090703,
-      "roleType": "servant",
-      "name": "ブラヴァツキー",
-      "svt": {
-        "id": 502300
-      },
-      "lv": 80,
-      "atk": 12200,
-      "hp": 1152554,
-      "deathRate": 4,
-      "criticalRate": 100,
-      "chargeTurn": 5,
-      "traits": [{
-        "id": 5000
-      }, {
-        "id": 502300
-      }, {
-        "id": 2
-      }, {
-        "id": 202
-      }, {
-        "id": 301
-      }, {
-        "id": 303
-      }, {
-        "id": 2008
-      }, {
-        "id": 1000
-      }, {
-        "id": 2001
-      }, {
-        "id": 404
-      }, {
-        "id": 2631
-      }, {
-        "id": 2780
-      }, {
-        "id": 2858
-      }, {
-        "id": 104
-      }],
-      "skills": {
-        "skillId1": 182350,
-        "skillId2": 183550,
-        "skillId3": 184450,
-        "skill1": {
-          "id": 182350,
-          "num": 1,
-          "svtId": 502300,
-          "priority": 1
-        },
-        "skill2": {
-          "id": 183550,
-          "num": 2,
-          "svtId": 502300,
-          "strengthStatus": 1,
-          "priority": 1,
-          "condLimitCount": 1
-        },
-        "skill3": {
-          "id": 184450,
-          "num": 3,
-          "svtId": 502300,
-          "priority": 1,
-          "condLimitCount": 3
-        },
-        "skillLv1": 1,
-        "skillLv2": 1,
-        "skillLv3": 1
-      },
-      "classPassive": {
-        "classPassive": [{
-          "id": 83550
-        }, {
-          "id": 80450
-        }]
-      },
-      "noblePhantasm": {
-        "noblePhantasmId": 502301,
-        "noblePhantasm": {
-          "id": 502301,
-          "npNum": 2,
-          "svtId": 502300,
-          "strengthStatus": 1,
-          "priority": 101
-        },
-        "noblePhantasmLv": 1
-      },
-      "serverMod": {
-        "tdRate": 1200,
-        "tdAttackRate": 1200
-      },
-      "ai": {
-        "aiId": 1101780,
-        "actPriority": 250,
-        "maxActNum": 2
-      },
-      "enemyScript": {
-        "appear": true
-      },
-      "originalEnemyScript": {
-        "appear": 1
-      },
-      "misc": {
-        "npcSvtType": 1
-      }
-    }]
-  }]
-}, {
-  "id": 94090702,
-  "name": "荒野に芽吹く王の花",
-  "type": "free",
-  "flags": ["displayLoopmark"],
-  "consumeType": "apAndItem",
-  "consume": 40,
-  "consumeItem": [{
-    "itemId": 49,
-    "amount": 1
-  }],
-  "afterClear": "repeatLast",
-  "recommendLv": "90++",
-  "spotId": 1040175,
-  "warId": 401,
-  "chapterId": 907,
-  "chapterSubId": 2,
-  "gifts": [{
-    "id": 483,
-    "objectId": 50,
-    "num": 20
-  }],
-  "releaseConditions": [{
-    "type": "questClear",
-    "targetId": 4000100
-  }],
-  "phases": [1],
-  "phasesWithEnemies": [1],
-  "priority": 807398,
-  "noticeAt": 1700038800,
-  "openedAt": 1700038800,
-  "closedAt": 1893423600,
-  "phase": 1,
-  "className": ["alterEgo"],
-  "individuality": [{
-    "id": 2038
-  }],
-  "exp": 109988,
-  "bond": 2636,
-  "battleBgId": 20700,
-  "enemyHash": "1_0104_dc11a09",
-  "availableEnemyHashes": ["1_0104_dc11a09"],
-  "dropsFromAllHashes": true,
-  "battleBg": {
-    "id": 20700,
-    "individuality": [{
-      "id": 2038
-    }]
-  },
-  "drops": [{
-    "objectId": 6502,
-    "dropCount": 13413,
-    "runs": 9426
-  }],
-  "stages": [{
-    "wave": 1,
-    "bgm": {
-      "id": 286
-    },
-    "startEffectId": 2,
-    "enemies": [{
-      "deckId": 2,
-      "npcId": 94090704,
-      "roleType": "servant",
-      "name": "キングプロテア",
-      "svt": {
-        "id": 1000900
-      },
-      "lv": 73,
-      "atk": 11750,
-      "hp": 1016658,
-      "deathRate": 4,
-      "criticalRate": 150,
-      "chargeTurn": 3,
-      "traits": [{
-        "id": 5000
-      }, {
-        "id": 1000900
-      }, {
-        "id": 2
-      }, {
-        "id": 201
-      }, {
-        "id": 2011
-      }, {
-        "id": 2037
-      }, {
-        "id": 300
-      }, {
-        "id": 303
-      }, {
-        "id": 2008
-      }, {
-        "id": 1000
-      }, {
-        "id": 2001
-      }, {
-        "id": 405
-      }, {
-        "id": 2000
-      }, {
-        "id": 2040
-      }, {
-        "id": 2076
-      }, {
-        "id": 2666
-      }, {
-        "id": 2780
-      }, {
-        "id": 2781
-      }, {
-        "id": 2835
-      }, {
-        "id": 2925
-      }, {
-        "id": 109
-      }, {
-        "id": 2821
-      }],
-      "skills": {
-        "skillId1": 574350,
-        "skillId2": 575350,
-        "skillId3": 39650,
-        "skill1": {
-          "id": 574350,
-          "num": 1,
-          "svtId": 1000900,
-          "strengthStatus": 2,
-          "priority": 1
-        },
-        "skill2": {
-          "id": 575350,
-          "num": 2,
-          "svtId": 1000900,
-          "priority": 1,
-          "condLimitCount": 1
-        },
-        "skill3": {
-          "id": 39650,
-          "num": 3,
-          "svtId": 1000900,
-          "strengthStatus": 1,
-          "priority": 1,
-          "condLimitCount": 3
-        },
-        "skillLv1": 1,
-        "skillLv2": 1,
-        "skillLv3": 1
-      },
-      "classPassive": {
-        "classPassive": [{
-          "id": 54551
-        }, {
-          "id": 20450
-        }, {
-          "id": 83650
-        }, {
-          "id": 30550
-        }, {
-          "id": 348650
-        }]
-      },
-      "noblePhantasm": {
-        "noblePhantasmId": 1000901,
-        "noblePhantasm": {
-          "id": 1000901,
-          "svtId": 1000900,
-          "priority": 101
-        },
-        "noblePhantasmLv": 1
-      },
-      "serverMod": {
-        "starRate": 50
-      },
-      "ai": {
-        "aiId": 1103340,
-        "actPriority": 1000,
-        "maxActNum": 3
-      },
-      "enemyScript": {
-        "appear": true
-      },
-      "originalEnemyScript": {
-        "appear": 1
-      },
-      "misc": {
-        "npcSvtType": 1
-      }
-    }]
-  }]
-}, {
-  "id": 94093201,
-  "name": "光糸導く迷宮",
-  "type": "free",
-  "flags": ["displayLoopmark"],
-  "consumeType": "apAndItem",
-  "consume": 40,
-  "consumeItem": [{
-    "itemId": 49,
-    "amount": 1
-  }],
-  "afterClear": "repeatLast",
-  "recommendLv": "90++",
-  "spotId": 1040106,
-  "warId": 401,
-  "chapterId": 932,
-  "chapterSubId": 1,
-  "gifts": [{
-    "id": 483,
-    "objectId": 50,
-    "num": 20
-  }],
-  "releaseConditions": [{
-    "type": "questClear",
-    "targetId": 4000100
-  }],
-  "phases": [1],
-  "phasesWithEnemies": [1],
-  "priority": 807399,
-  "noticeAt": 1707296400,
-  "openedAt": 1707296400,
-  "closedAt": 1893423600,
-  "phase": 1,
-  "className": ["saber", "rider", "assassin", "berserker"],
-  "exp": 109988,
-  "bond": 2636,
-  "battleBgId": 21500,
-  "enemyHash": "1_0503_bbb2745",
-  "availableEnemyHashes": ["1_0503_bbb2745"],
-  "dropsFromAllHashes": true,
-  "battleBg": {
-    "id": 21500
-  },
-  "drops": [{
-    "objectId": 6543,
-    "dropCount": 1946,
-    "runs": 1521
-  }, {
-    "objectId": 6544,
-    "dropCount": 204,
-    "runs": 1521
-  }],
-  "stages": [{
-    "wave": 1,
-    "bgm": {
-      "id": 375
-    },
-    "startEffectId": 1,
-    "enemies": [{
-      "deckId": 1,
-      "npcId": 94093201,
-      "name": "アトランティス防衛兵Ａ",
-      "svt": {
-        "id": 9942310
-      },
-      "lv": 55,
-      "atk": 8436,
-      "hp": 125641,
-      "deathRate": 500,
-      "criticalRate": 100,
-      "chargeTurn": 4,
-      "traits": [{
-        "id": 5000
-      }, {
-        "id": 5010
-      }, {
-        "id": 1
-      }, {
-        "id": 202
-      }, {
-        "id": 2001
-      }, {
-        "id": 1001
-      }, {
-        "id": 1100
-      }, {
-        "id": 2114
-      }, {
-        "id": 100
-      }],
-      "skills": {
-        "skillId1": 963088,
-        "skill1": {
-          "id": 963088
-        },
-        "skillLv1": 1
-      },
-      "classPassive": {
-        "addPassive": [{
-          "id": 964036
-        }]
-      },
-      "noblePhantasm": {
-        "noblePhantasmId": 650,
-        "noblePhantasm": {
-          "id": 650,
-          "svtId": 9942310,
-          "priority": 650
-        },
-        "noblePhantasmLv": 1
-      },
-      "ai": {
-        "aiId": 1000000,
-        "actPriority": 500,
-        "maxActNum": 2
-      }
-    }, {
-      "deckId": 2,
-      "npcId": 94093202,
-      "name": "アトランティス防衛兵Ｂ",
-      "svt": {
-        "id": 9942230
-      },
-      "lv": 55,
-      "atk": 7538,
-      "hp": 124086,
-      "deathRate": 500,
-      "criticalRate": 300,
-      "chargeTurn": 3,
-      "traits": [{
-        "id": 5000
-      }, {
-        "id": 5010
-      }, {
-        "id": 1
-      }, {
-        "id": 202
-      }, {
-        "id": 2001
-      }, {
-        "id": 1001
-      }, {
-        "id": 1100
-      }, {
-        "id": 2114
-      }, {
-        "id": 105
-      }],
-      "skills": {
-        "skillId1": 963090,
-        "skill1": {
-          "id": 963090
-        },
-        "skillLv1": 1
-      },
-      "classPassive": {
-        "addPassive": [{
-          "id": 964036
-        }]
-      },
-      "noblePhantasm": {
-        "noblePhantasmId": 652,
-        "noblePhantasm": {
-          "id": 652,
-          "svtId": 9942230,
-          "priority": 652
-        },
-        "noblePhantasmLv": 1
-      },
-      "serverMod": {
-        "tdRate": 900,
-        "tdAttackRate": 900,
-        "starRate": -100
-      },
-      "ai": {
-        "aiId": 1000000,
-        "actPriority": 1000,
-        "maxActNum": 2
-      }
-    }, {
-      "deckId": 3,
-      "npcId": 94093203,
-      "name": "アトランティス防衛兵Ｃ",
-      "svt": {
-        "id": 9942320
-      },
-      "lv": 42,
-      "atk": 6472,
-      "hp": 154251,
-      "deathRate": 500,
-      "criticalRate": 100,
-      "chargeTurn": 5,
-      "traits": [{
-        "id": 5000
-      }, {
-        "id": 5010
-      }, {
-        "id": 1
-      }, {
-        "id": 202
-      }, {
-        "id": 2001
-      }, {
-        "id": 1001
-      }, {
-        "id": 1100
-      }, {
-        "id": 2114
-      }, {
-        "id": 106
-      }],
-      "skills": {
-        "skillId1": 963089,
-        "skill1": {
-          "id": 963089
-        },
-        "skillLv1": 1
-      },
-      "classPassive": {
-        "addPassive": [{
-          "id": 964036
-        }]
-      },
-      "noblePhantasm": {
-        "noblePhantasmId": 651,
-        "noblePhantasm": {
-          "id": 651,
-          "svtId": 9942320,
-          "priority": 651
-        },
-        "noblePhantasmLv": 1
-      },
-      "serverMod": {
-        "tdRate": 800,
-        "tdAttackRate": 800
-      },
-      "ai": {
-        "aiId": 1000000,
-        "actPriority": 500,
-        "maxActNum": 2
-      }
-    }]
-  }, {
-    "wave": 2,
-    "bgm": {
-      "id": 375
-    },
-    "startEffectId": 1,
-    "enemies": [{
-      "deckId": 2,
-      "npcId": 94093204,
-      "roleType": "danger",
-      "name": "ケルベロス",
-      "svt": {
-        "id": 9942210
-      },
-      "lv": 50,
-      "atk": 10257,
-      "hp": 292216,
-      "deathRate": 10,
-      "criticalRate": 150,
-      "chargeTurn": 5,
-      "traits": [{
-        "id": 5000
-      }, {
-        "id": 5010
-      }, {
-        "id": 201
-      }, {
-        "id": 2005
-      }, {
-        "id": 2019
-      }, {
-        "id": 2076
-      }, {
-        "id": 2781
-      }, {
-        "id": 2835
-      }, {
-        "id": 103
-      }],
-      "skills": {
-        "skillId1": 963086,
-        "skill1": {
-          "id": 963086
-        },
-        "skillLv1": 1
-      },
-      "classPassive": {
-        "addPassive": [{
-          "id": 961253
-        }]
-      },
-      "noblePhantasm": {
-        "noblePhantasmId": 648,
-        "noblePhantasm": {
-          "id": 648,
-          "svtId": 9942210,
-          "priority": 648
-        },
-        "noblePhantasmLv": 1
-      },
-      "serverMod": {
-        "tdRate": 1100,
-        "tdAttackRate": 1100,
-        "starRate": 100
-      },
-      "ai": {
-        "aiId": 1000000,
-        "actPriority": 500,
-        "maxActNum": 3
-      },
-      "misc": {
-        "npcSvtType": 3
-      }
-    }]
-  }, {
-    "wave": 3,
-    "bgm": {
-      "id": 233
-    },
-    "startEffectId": 2,
-    "enemies": [{
-      "deckId": 2,
-      "npcId": 94093205,
-      "roleType": "servant",
-      "name": "テセウス",
-      "svt": {
-        "id": 105800
-      },
-      "lv": 70,
-      "atk": 11750,
-      "hp": 455348,
-      "deathRate": 4,
-      "criticalRate": 100,
-      "chargeTurn": 4,
-      "traits": [{
-        "id": 5000
-      }, {
-        "id": 105800
-      }, {
-        "id": 1
-      }, {
-        "id": 201
-      }, {
-        "id": 2011
-      }, {
-        "id": 2037
-      }, {
-        "id": 300
-      }, {
-        "id": 303
-      }, {
-        "id": 2008
-      }, {
-        "id": 1000
-      }, {
-        "id": 2001
-      }, {
-        "id": 403
-      }, {
-        "id": 2009
-      }, {
-        "id": 2012
-      }, {
-        "id": 2113
-      }, {
-        "id": 2114
-      }, {
-        "id": 2466
-      }, {
-        "id": 2631
-      }, {
-        "id": 2075
-      }, {
-        "id": 2858
-      }, {
-        "id": 100
-      }],
-      "skills": {
-        "skillId1": 2285350,
-        "skillId2": 2286452,
-        "skillId3": 2287450,
-        "skill1": {
-          "id": 2285350,
-          "num": 1,
-          "svtId": 105800,
-          "priority": 1
-        },
-        "skill2": {
-          "id": 2286452,
-          "num": 2,
-          "svtId": 105800,
-          "priority": 1,
-          "condLimitCount": 1
-        },
-        "skill3": {
-          "id": 2287450,
-          "num": 3,
-          "svtId": 105800,
-          "priority": 1,
-          "condLimitCount": 3
-        },
-        "skillLv1": 1,
-        "skillLv2": 1,
-        "skillLv3": 1
-      },
-      "classPassive": {
-        "classPassive": [{
-          "id": 34550
-        }, {
-          "id": 88450
-        }]
-      },
-      "noblePhantasm": {
-        "noblePhantasmId": 105801,
-        "noblePhantasm": {
-          "id": 105801,
-          "svtId": 105800,
-          "priority": 101
-        },
-        "noblePhantasmLv": 1
-      },
-      "ai": {
-        "aiId": 1105420,
-        "actPriority": 500,
-        "maxActNum": 3
-      },
-      "enemyScript": {
-        "appear": true
-      },
-      "originalEnemyScript": {
-        "appear": 1
-      },
-      "misc": {
-        "npcSvtType": 1
-      }
-    }]
-  }]
-}, {
-  "id": 94093202,
-  "name": "久遠の微笑",
-  "type": "free",
-  "flags": ["displayLoopmark"],
-  "consumeType": "apAndItem",
-  "consume": 40,
-  "consumeItem": [{
-    "itemId": 49,
-    "amount": 1
-  }],
-  "afterClear": "repeatLast",
-  "recommendLv": "90★",
-  "spotId": 1040106,
-  "warId": 401,
-  "chapterId": 932,
-  "chapterSubId": 2,
-  "gifts": [{
-    "id": 483,
-    "objectId": 50,
-    "num": 20
-  }],
-  "releaseConditions": [{
-    "type": "questClear",
-    "targetId": 4000100
-  }],
-  "phases": [1],
-  "phasesWithEnemies": [1],
-  "priority": 807298,
-  "noticeAt": 1707296400,
-  "openedAt": 1707296400,
-  "closedAt": 1893423600,
-  "phase": 1,
-  "className": ["assassin", "lancer"],
-  "exp": 131986,
-  "bond": 3164,
-  "battleBgId": 60900,
-  "enemyHash": "1_0206_d5ed2d5",
-  "availableEnemyHashes": ["1_0206_d5ed2d5"],
-  "dropsFromAllHashes": true,
-  "battleBg": {
-    "id": 60900
-  },
-  "drops": [{
-    "objectId": 6546,
-    "dropCount": 17748,
-    "runs": 13494
-  }],
-  "stages": [{
-    "wave": 1,
-    "bgm": {
-      "id": 390
-    },
-    "startEffectId": 1,
-    "enemies": [{
-      "deckId": 2,
-      "npcId": 94093206,
-      "roleType": "danger",
-      "name": "オリュンポス兵",
-      "svt": {
-        "id": 9942370
-      },
-      "lv": 55,
-      "atk": 10304,
-      "hp": 571750,
-      "deathRate": 100,
-      "criticalRate": 100,
-      "chargeTurn": 4,
-      "traits": [{
-        "id": 5000
-      }, {
-        "id": 5010
-      }, {
-        "id": 1
-      }, {
-        "id": 202
-      }, {
-        "id": 2001
-      }, {
-        "id": 1001
-      }, {
-        "id": 1100
-      }, {
-        "id": 2114
-      }, {
-        "id": 2835
-      }, {
-        "id": 101
-      }],
-      "skills": {
-        "skillId1": 964228,
-        "skill1": {
-          "id": 964228
-        },
-        "skillLv1": 1
-      },
-      "classPassive": {
-        "addPassive": [{
-          "id": 964298
-        }]
-      },
-      "noblePhantasm": {
-        "noblePhantasmId": 662,
-        "noblePhantasm": {
-          "id": 662,
-          "svtId": 9942370,
-          "priority": 6
-        },
-        "noblePhantasmLv": 1
-      },
-      "serverMod": {
-        "starRate": -50
-      },
-      "ai": {
-        "aiId": 105300,
-        "actPriority": 1500,
-        "maxActNum": 3
-      },
-      "enemyScript": {
-        "appear": true
-      },
-      "originalEnemyScript": {
-        "appear": 1
-      }
-    }]
-  }, {
-    "wave": 2,
-    "bgm": {
-      "id": 233
-    },
-    "startEffectId": 2,
-    "enemies": [{
-      "deckId": 2,
-      "npcId": 94093207,
-      "roleType": "servant",
-      "name": "ステンノ",
-      "svt": {
-        "id": 601000
-      },
-      "lv": 80,
-      "atk": 12200,
-      "hp": 1002066,
-      "deathRate": 4,
-      "criticalRate": 300,
-      "chargeTurn": 3,
-      "traits": [{
-        "id": 5000
-      }, {
-        "id": 601000
-      }, {
-        "id": 2
-      }, {
-        "id": 200
-      }, {
-        "id": 2011
-      }, {
-        "id": 2037
-      }, {
-        "id": 2851
-      }, {
-        "id": 301
-      }, {
-        "id": 303
-      }, {
-        "id": 2008
-      }, {
-        "id": 1000
-      }, {
-        "id": 2001
-      }, {
-        "id": 404
-      }, {
-        "id": 2000
-      }, {
-        "id": 2040
-      }, {
-        "id": 2797
-      }, {
-        "id": 2835
-      }, {
-        "id": 2850
-      }, {
-        "id": 2858
-      }, {
-        "id": 105
-      }],
-      "skills": {
-        "skillId1": 22350,
-        "skillId2": 91550,
-        "skillId3": 230800,
-        "skill1": {
-          "id": 22350,
-          "num": 1,
-          "svtId": 601000,
-          "priority": 1
-        },
-        "skill2": {
-          "id": 91550,
-          "num": 2,
-          "svtId": 601000,
-          "priority": 1,
-          "condLimitCount": 1
-        },
-        "skill3": {
-          "id": 230800,
-          "num": 3,
-          "svtId": 601000,
-          "priority": 1,
-          "condQuestId": 94005013,
-          "condQuestPhase": 5,
-          "condLimitCount": 4
-        },
-        "skillLv1": 1,
-        "skillLv2": 1,
-        "skillLv3": 1
-      },
-      "classPassive": {
-        "classPassive": [{
-          "id": 50551
-        }, {
-          "id": 34550
-        }, {
-          "id": 30650
-        }]
-      },
-      "noblePhantasm": {
-        "noblePhantasmId": 601001,
-        "noblePhantasm": {
-          "id": 601001,
-          "npNum": 2,
-          "svtId": 601000,
-          "strengthStatus": 1,
-          "priority": 101
-        },
-        "noblePhantasmLv": 1
-      },
-      "serverMod": {
-        "tdRate": 900,
-        "tdAttackRate": 900,
-        "starRate": -100
-      },
-      "ai": {
-        "aiId": 1100790,
-        "actPriority": 1000,
-        "maxActNum": 3
-      },
-      "enemyScript": {
-        "appear": true
-      },
-      "originalEnemyScript": {
-        "appear": 1
-      },
-      "misc": {
-        "npcSvtType": 1
-      }
-    }]
-  }]
-}, {
-  "id": 94095301,
-  "name": "常夏即売会場",
-  "type": "free",
-  "flags": ["displayLoopmark"],
-  "consumeType": "apAndItem",
-  "consume": 40,
-  "consumeItem": [{
-    "itemId": 49,
-    "amount": 1
-  }],
-  "afterClear": "repeatLast",
-  "recommendLv": "90++",
-  "spotId": 1040103,
-  "warId": 401,
-  "chapterId": 953,
-  "chapterSubId": 1,
-  "gifts": [{
-    "id": 483,
-    "objectId": 50,
-    "num": 20
-  }],
-  "releaseConditions": [{
-    "type": "questClear",
-    "targetId": 4000100
-  }],
-  "phases": [1],
-  "phasesWithEnemies": [1],
-  "priority": 807399,
-  "noticeAt": 1712739600,
-  "openedAt": 1712739600,
-  "closedAt": 1893423600,
-  "phase": 1,
-  "className": ["rider", "caster", "saber"],
-  "individuality": [{
+  "phaseIndividuality": [{
     "id": 2392
   }],
-  "exp": 109988,
-  "bond": 2636,
-  "battleBgId": 43100,
-  "enemyHash": "1_0615_0da0a5d",
-  "availableEnemyHashes": ["1_0615_0da0a5d"],
-  "dropsFromAllHashes": true,
+  "exp": 23752,
+  "bond": 815,
+  "battleBgId": 115210,
   "battleBg": {
-    "id": 43100,
+    "id": 115210,
     "individuality": [{
-      "id": 2392
+      "id": 2038
+    }, {
+      "id": 2039
     }]
   },
-  "drops": [{
-    "objectId": 6503,
-    "dropCount": 1023,
-    "runs": 2279
-  }, {
-    "objectId": 6511,
-    "dropCount": 2870,
-    "runs": 2279
-  }],
   "stages": [{
     "wave": 1,
     "bgm": {
-      "id": 277
+      "id": 850
     },
     "startEffectId": 1,
-    "enemies": [{
-      "deckId": 1,
-      "npcId": 94095316,
-      "name": "サバフェス参加者Ａ",
-      "svt": {
-        "id": 9941440
-      },
-      "lv": 73,
-      "atk": 7572,
-      "hp": 104949,
-      "deathRate": 1000,
-      "criticalRate": 100,
-      "chargeTurn": 4,
-      "traits": [{
-        "id": 5000
-      }, {
-        "id": 5010
-      }, {
-        "id": 1
-      }, {
-        "id": 202
-      }, {
-        "id": 1001
-      }, {
-        "id": 1100
-      }, {
-        "id": 2001
-      }, {
-        "id": 100
-      }],
-      "skills": {
-        "skillId1": 961709,
-        "skill1": {
-          "id": 961709
-        },
-        "skillLv1": 1
-      },
-      "noblePhantasm": {
-        "noblePhantasmId": 587,
-        "noblePhantasm": {
-          "id": 587,
-          "svtId": 9941440,
-          "priority": 562
-        },
-        "noblePhantasmLv": 1
-      },
-      "ai": {
-        "aiId": 1000000,
-        "actPriority": 500,
-        "maxActNum": 1
-      }
-    }, {
-      "deckId": 2,
-      "npcId": 94095316,
-      "name": "サバフェス参加者Ｂ",
-      "svt": {
-        "id": 9941440
-      },
-      "lv": 74,
-      "atk": 7572,
-      "hp": 106299,
-      "deathRate": 1000,
-      "criticalRate": 100,
-      "chargeTurn": 4,
-      "traits": [{
-        "id": 5000
-      }, {
-        "id": 5010
-      }, {
-        "id": 1
-      }, {
-        "id": 202
-      }, {
-        "id": 1001
-      }, {
-        "id": 1100
-      }, {
-        "id": 2001
-      }, {
-        "id": 100
-      }],
-      "skills": {
-        "skillId1": 961709,
-        "skill1": {
-          "id": 961709
-        },
-        "skillLv1": 1
-      },
-      "noblePhantasm": {
-        "noblePhantasmId": 587,
-        "noblePhantasm": {
-          "id": 587,
-          "svtId": 9941440,
-          "priority": 562
-        },
-        "noblePhantasmLv": 1
-      },
-      "ai": {
-        "aiId": 1000000,
-        "actPriority": 500,
-        "maxActNum": 1
-      }
-    }, {
-      "deckId": 3,
-      "npcId": 94095316,
-      "name": "サバフェス参加者Ｃ",
-      "svt": {
-        "id": 9941440
-      },
-      "lv": 75,
-      "atk": 7572,
-      "hp": 107649,
-      "deathRate": 1000,
-      "criticalRate": 100,
-      "chargeTurn": 4,
-      "traits": [{
-        "id": 5000
-      }, {
-        "id": 5010
-      }, {
-        "id": 1
-      }, {
-        "id": 202
-      }, {
-        "id": 1001
-      }, {
-        "id": 1100
-      }, {
-        "id": 2001
-      }, {
-        "id": 100
-      }],
-      "skills": {
-        "skillId1": 961709,
-        "skill1": {
-          "id": 961709
-        },
-        "skillLv1": 1
-      },
-      "noblePhantasm": {
-        "noblePhantasmId": 587,
-        "noblePhantasm": {
-          "id": 587,
-          "svtId": 9941440,
-          "priority": 562
-        },
-        "noblePhantasmLv": 1
-      },
-      "ai": {
-        "aiId": 1000000,
-        "actPriority": 500,
-        "maxActNum": 1
-      }
-    }]
+    "originalScript": {
+      "priorityBgm": 50
+    }
   }, {
     "wave": 2,
     "bgm": {
-      "id": 277
+      "id": 850
     },
     "startEffectId": 1,
-    "enemies": [{
-      "deckId": 2,
-      "npcId": 94095315,
-      "roleType": "danger",
-      "name": "同人誌Ａ",
-      "svt": {
-        "id": 9933500,
-        "rarity": 4,
-        "face": "https://static.atlasacademy.io/JP/Enemys/99335002.png"
-      },
-      "lv": 61,
-      "atk": 10386,
-      "hp": 170355,
-      "deathRate": 200,
-      "criticalRate": 100,
-      "chargeTurn": 4,
-      "traits": [{
-        "id": 5000
-      }, {
-        "id": 5010
-      }, {
-        "id": 200
-      }, {
-        "id": 1003
-      }, {
-        "id": 1107
-      }, {
-        "id": 104
-      }],
-      "skills": {
-        "skillId1": 960085,
-        "skill1": {
-          "id": 960085
-        },
-        "skillLv1": 1
-      },
-      "noblePhantasm": {
-        "noblePhantasmId": 292,
-        "noblePhantasm": {
-          "id": 292,
-          "npNum": 6,
-          "svtId": 9933500,
-          "strengthStatus": 99,
-          "priority": 121
-        },
-        "noblePhantasmLv": 1
-      },
-      "serverMod": {
-        "tdRate": 1200,
-        "tdAttackRate": 1200
-      },
-      "ai": {
-        "aiId": 105310,
-        "actPriority": 250,
-        "maxActNum": 3
-      }
-    }, {
-      "deckId": 3,
-      "npcId": 94095315,
-      "roleType": "danger",
-      "name": "同人誌Ｂ",
-      "svt": {
-        "id": 9933500,
-        "rarity": 4,
-        "face": "https://static.atlasacademy.io/JP/Enemys/99335002.png"
-      },
-      "lv": 60,
-      "atk": 10386,
-      "hp": 167314,
-      "deathRate": 200,
-      "criticalRate": 100,
-      "chargeTurn": 4,
-      "traits": [{
-        "id": 5000
-      }, {
-        "id": 5010
-      }, {
-        "id": 200
-      }, {
-        "id": 1003
-      }, {
-        "id": 1107
-      }, {
-        "id": 104
-      }],
-      "skills": {
-        "skillId1": 960085,
-        "skill1": {
-          "id": 960085
-        },
-        "skillLv1": 1
-      },
-      "noblePhantasm": {
-        "noblePhantasmId": 292,
-        "noblePhantasm": {
-          "id": 292,
-          "npNum": 6,
-          "svtId": 9933500,
-          "strengthStatus": 99,
-          "priority": 121
-        },
-        "noblePhantasmLv": 1
-      },
-      "serverMod": {
-        "tdRate": 1200,
-        "tdAttackRate": 1200
-      },
-      "ai": {
-        "aiId": 105310,
-        "actPriority": 250,
-        "maxActNum": 3
-      }
-    }]
+    "originalScript": {
+      "priorityBgm": 50
+    }
   }, {
     "wave": 3,
     "bgm": {
-      "id": 148
+      "id": 691
     },
-    "startEffectId": 2,
-    "enemies": [{
-      "deckId": 2,
-      "npcId": 94095317,
-      "roleType": "servant",
-      "name": "紫式部",
-      "svt": {
-        "id": 404100
-      },
-      "lv": 80,
-      "atk": 11750,
-      "hp": 447282,
-      "deathRate": 4,
-      "criticalRate": 150,
-      "chargeTurn": 5,
-      "traits": [{
-        "id": 5000
-      }, {
-        "id": 404100
-      }, {
-        "id": 2
-      }, {
-        "id": 202
-      }, {
-        "id": 302
-      }, {
-        "id": 303
-      }, {
-        "id": 2008
-      }, {
-        "id": 1000
-      }, {
-        "id": 2001
-      }, {
-        "id": 404
-      }, {
-        "id": 2009
-      }, {
-        "id": 2631
-      }, {
-        "id": 2838
-      }, {
-        "id": 2858
-      }, {
-        "id": 103
-      }],
-      "skills": {
-        "skillId1": 771650,
-        "skillId2": 770352,
-        "skillId3": 769550,
-        "skill1": {
-          "id": 771650,
-          "num": 1,
-          "svtId": 404100,
-          "priority": 1
-        },
-        "skill2": {
-          "id": 770352,
-          "num": 2,
-          "svtId": 404100,
-          "priority": 1,
-          "condLimitCount": 1
-        },
-        "skill3": {
-          "id": 769550,
-          "num": 3,
-          "svtId": 404100,
-          "priority": 1,
-          "condLimitCount": 3
-        },
-        "skillLv1": 1,
-        "skillLv2": 1,
-        "skillLv3": 1
-      },
-      "classPassive": {
-        "classPassive": [{
-          "id": 88451
-        }]
-      },
-      "noblePhantasm": {
-        "noblePhantasmId": 404101,
-        "noblePhantasm": {
-          "id": 404101,
-          "npNum": 2,
-          "svtId": 404100,
-          "strengthStatus": 1,
-          "priority": 101
-        },
-        "noblePhantasmLv": 1
-      },
-      "serverMod": {
-        "tdRate": 1100,
-        "tdAttackRate": 1100,
-        "starRate": 100
-      },
-      "ai": {
-        "aiId": 1104150,
-        "actPriority": 500,
-        "maxActNum": 3
-      },
-      "enemyScript": {
-        "appear": true
-      },
-      "originalEnemyScript": {
-        "appear": 1
-      },
-      "misc": {
-        "npcSvtType": 1
-      }
+    "startEffectId": 2
+  }]
+}, {
+  "id": 93040411,
+  "name": "ケーキテーブル・ガーデン",
+  "type": "free",
+  "flags": ["displayLoopmark"],
+  "consume": 21,
+  "afterClear": "repeatLast",
+  "recommendLv": "78",
+  "spotId": 40416,
+  "warId": 404,
+  "chapterId": 404,
+  "chapterSubId": 11,
+  "giftIcon": "https://static.atlasacademy.io/JP/Items/6.png",
+  "gifts": [{
+    "id": 101,
+    "objectId": 2,
+    "num": 1
+  }],
+  "releaseConditions": [{
+    "type": "questClear",
+    "targetId": 4000426
+  }],
+  "phases": [1, 2, 3],
+  "priority": 4000364,
+  "noticeAt": 1738400400,
+  "openedAt": 1738400400,
+  "closedAt": 1893423600,
+  "phase": 3,
+  "className": ["caster", "assassin"],
+  "individuality": [{
+    "id": 2038
+  }],
+  "exp": 22488,
+  "bond": 795,
+  "battleBgId": 116900,
+  "battleBg": {
+    "id": 116900,
+    "individuality": [{
+      "id": 2038
     }]
+  },
+  "stages": [{
+    "wave": 1,
+    "bgm": {
+      "id": 850
+    },
+    "startEffectId": 1,
+    "originalScript": {
+      "priorityBgm": 50
+    }
+  }, {
+    "wave": 2,
+    "bgm": {
+      "id": 850
+    },
+    "startEffectId": 1,
+    "originalScript": {
+      "priorityBgm": 50
+    }
+  }, {
+    "wave": 3,
+    "bgm": {
+      "id": 691
+    },
+    "startEffectId": 2
   }]
 }]

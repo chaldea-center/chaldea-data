@@ -76363,6 +76363,48 @@
       "noticeAt": 1710932400,
       "openedAt": 1710932400,
       "closedAt": 1893423600
+    }, {
+      "id": 94142103,
+      "name": "第二十二節 進行度7 リコレクションクエスト(2/3)",
+      "type": "event",
+      "flags": ["dropFirstTimeOnly", "actConsumeBattleWin", "notRetrievable", "recollection"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "90",
+      "spotId": 40302,
+      "warId": 403,
+      "gifts": [{
+        "id": 12000,
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000326
+      }, {
+        "type": "questClear",
+        "targetId": 94142101,
+        "closedMessage": "「第十七節 進行度4 リコレクションクエスト」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "「第十七節 進行度4 リコレクションクエスト」クリア\n＆2月2日18時00分以降に開放"
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9414210310",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414210310.txt"
+        }, {
+          "scriptId": "9414210311",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414210311.txt"
+        }]
+      }],
+      "priority": 94142098,
+      "noticeAt": 1738400400,
+      "openedAt": 1738486800,
+      "closedAt": 1740754799
     }]
   }, {
     "id": 40303,
@@ -76880,6 +76922,84 @@
       "noticeAt": 1710932400,
       "openedAt": 1710932400,
       "closedAt": 1893423600
+    }, {
+      "id": 94142101,
+      "name": "第十七節 進行度4 リコレクションクエスト(1/3)",
+      "type": "event",
+      "flags": ["dropFirstTimeOnly", "actConsumeBattleWin", "notRetrievable", "recollection"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "83",
+      "spotId": 40303,
+      "warId": 403,
+      "gifts": [{
+        "id": 12000,
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000326
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9414210110",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414210110.txt"
+        }, {
+          "scriptId": "9414210111",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414210111.txt"
+        }]
+      }],
+      "priority": 94142100,
+      "noticeAt": 1738400400,
+      "openedAt": 1738400400,
+      "closedAt": 1740754799
+    }, {
+      "id": 94142102,
+      "name": "第十七節 進行度4 スーパーリコレクションクエスト(1/3)",
+      "type": "event",
+      "flags": ["dropFirstTimeOnly", "actConsumeBattleWin", "notRetrievable", "recollection"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "90++",
+      "spotId": 40303,
+      "warId": 403,
+      "gifts": [{
+        "id": 327,
+        "objectId": 3,
+        "num": 100
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000326
+      }, {
+        "type": "questClear",
+        "targetId": 94142101,
+        "closedMessage": "「第十七節 進行度4 リコレクションクエスト」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9414210210",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414210210.txt"
+        }, {
+          "scriptId": "9414210211",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414210211.txt"
+        }]
+      }],
+      "priority": 94142099,
+      "noticeAt": 1738400400,
+      "openedAt": 1738400400,
+      "closedAt": 1740754799
     }]
   }, {
     "id": 40304,
@@ -78478,27 +78598,6 @@
   "startType": "quest",
   "targetId": 4000401,
   "lastQuestId": 4000426,
-  "releaseConditions": [{
-    "priority": 9000,
-    "condType": "commonRelease",
-    "condId": 10100701,
-    "warDisplayType": "open"
-  }, {
-    "priority": 10000,
-    "condType": "commonRelease",
-    "condId": 10101601,
-    "warDisplayType": "close"
-  }, {
-    "priority": 11000,
-    "condType": "commonRelease",
-    "condId": 10099502,
-    "warDisplayType": "close"
-  }, {
-    "priority": 20000,
-    "condType": "commonRelease",
-    "condId": 10099501,
-    "warDisplayType": "hide"
-  }],
   "warAdds": [{
     "warId": 404,
     "type": "baseMapId",
@@ -79253,7 +79352,7 @@
       "id": 4000404,
       "name": "幕間",
       "type": "main",
-      "flags": ["noBattle"],
+      "flags": ["noBattle", "noDisplayRemain"],
       "consume": 0,
       "afterClear": "close",
       "recommendLv": "1",
@@ -79286,14 +79385,14 @@
         }]
       }],
       "priority": 4000397,
-      "noticeAt": 1724835600,
-      "openedAt": 1724835600,
-      "closedAt": 1730347199
+      "noticeAt": 1738400400,
+      "openedAt": 1738400400,
+      "closedAt": 1893423600
     }, {
       "id": 4000415,
       "name": "幕間２",
       "type": "main",
-      "flags": ["noBattle"],
+      "flags": ["noBattle", "noDisplayRemain"],
       "consume": 0,
       "afterClear": "close",
       "recommendLv": "1",
@@ -79326,14 +79425,14 @@
         }]
       }],
       "priority": 4000386,
-      "noticeAt": 1726045200,
-      "openedAt": 1726045200,
-      "closedAt": 1730347199
+      "noticeAt": 1738400400,
+      "openedAt": 1738400400,
+      "closedAt": 1893423600
     }, {
       "id": 4000421,
       "name": "幕間４",
       "type": "main",
-      "flags": ["noBattle"],
+      "flags": ["noBattle", "noDisplayRemain"],
       "consume": 0,
       "afterClear": "close",
       "recommendLv": "1",
@@ -79366,9 +79465,101 @@
         }]
       }],
       "priority": 4000380,
-      "noticeAt": 1726822800,
-      "openedAt": 1726822800,
-      "closedAt": 1730347199
+      "noticeAt": 1738400400,
+      "openedAt": 1738400400,
+      "closedAt": 1893423600
+    }, {
+      "id": 93040401,
+      "name": "トップ・オブ・ザ・ムーン",
+      "type": "free",
+      "flags": ["displayLoopmark"],
+      "consume": 22,
+      "afterClear": "repeatLast",
+      "recommendLv": "82",
+      "spotId": 40401,
+      "warId": 404,
+      "chapterId": 404,
+      "chapterSubId": 1,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/6.png",
+      "gifts": [{
+        "id": 101,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000426
+      }],
+      "phases": [1, 2, 3],
+      "priority": 4000374,
+      "noticeAt": 1738400400,
+      "openedAt": 1738400400,
+      "closedAt": 1893423600
+    }, {
+      "id": 93040450,
+      "name": "霊基獲得クエスト 岸波白野(男性)",
+      "type": "event",
+      "flags": ["noDisplayRemain"],
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "90",
+      "spotId": 40401,
+      "warId": 404,
+      "chapterId": 404,
+      "chapterSubId": 50,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/3.png",
+      "gifts": [{
+        "id": 321321,
+        "type": "servant",
+        "objectId": 2300700,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "commonRelease",
+        "targetId": 10141201
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 93040450,
+      "noticeAt": 1738400400,
+      "openedAt": 1738400400,
+      "closedAt": 1893423600
+    }, {
+      "id": 93040451,
+      "name": "霊基獲得クエスト 岸波白野(女性)",
+      "type": "event",
+      "flags": ["noDisplayRemain"],
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "90",
+      "spotId": 40401,
+      "warId": 404,
+      "chapterId": 404,
+      "chapterSubId": 51,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/3.png",
+      "gifts": [{
+        "id": 321322,
+        "type": "servant",
+        "objectId": 2300800,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "commonRelease",
+        "targetId": 10141202
+      }],
+      "phases": [1],
+      "priority": 93040449,
+      "noticeAt": 1738400400,
+      "openedAt": 1738400400,
+      "closedAt": 1893423600
     }]
   }, {
     "id": 40403,
@@ -79379,7 +79570,35 @@
     "y": 1076.0,
     "nameOfsY": -4,
     "questOfsX": 44,
-    "questOfsY": -89
+    "questOfsY": -89,
+    "quests": [{
+      "id": 93040402,
+      "name": "ムーン・ストリート",
+      "type": "free",
+      "flags": ["displayLoopmark"],
+      "consume": 21,
+      "afterClear": "repeatLast",
+      "recommendLv": "78",
+      "spotId": 40403,
+      "warId": 404,
+      "chapterId": 404,
+      "chapterSubId": 2,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/6.png",
+      "gifts": [{
+        "id": 101,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000426
+      }],
+      "phases": [1, 2, 3],
+      "priority": 4000373,
+      "noticeAt": 1738400400,
+      "openedAt": 1738400400,
+      "closedAt": 1893423600
+    }]
   }, {
     "id": 40404,
     "mapId": 40401,
@@ -79394,7 +79613,7 @@
       "id": 4000402,
       "name": "マッド・ローラン ～裸のデスドバイ～",
       "type": "main",
-      "flags": ["actConsumeBattleWin"],
+      "flags": ["noDisplayRemain", "actConsumeBattleWin"],
       "consume": 24,
       "afterClear": "close",
       "recommendLv": "82",
@@ -79466,9 +79685,36 @@
         }]
       }],
       "priority": 4000399,
-      "noticeAt": 1724835600,
-      "openedAt": 1724835600,
-      "closedAt": 1730347199
+      "noticeAt": 1738400400,
+      "openedAt": 1738400400,
+      "closedAt": 1893423600
+    }, {
+      "id": 93040403,
+      "name": "コンピューティング・シティ",
+      "type": "free",
+      "flags": ["displayLoopmark"],
+      "consume": 21,
+      "afterClear": "repeatLast",
+      "recommendLv": "78",
+      "spotId": 40404,
+      "warId": 404,
+      "chapterId": 404,
+      "chapterSubId": 3,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/6.png",
+      "gifts": [{
+        "id": 101,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000426
+      }],
+      "phases": [1, 2, 3],
+      "priority": 4000372,
+      "noticeAt": 1738400400,
+      "openedAt": 1738400400,
+      "closedAt": 1893423600
     }]
   }, {
     "id": 40405,
@@ -79479,7 +79725,35 @@
     "y": 1375.0,
     "nameOfsY": -1,
     "questOfsX": 41,
-    "questOfsY": -92
+    "questOfsY": -92,
+    "quests": [{
+      "id": 93040404,
+      "name": "ラグジュアリー・ビュッフェ",
+      "type": "free",
+      "flags": ["displayLoopmark"],
+      "consume": 21,
+      "afterClear": "repeatLast",
+      "recommendLv": "75",
+      "spotId": 40405,
+      "warId": 404,
+      "chapterId": 404,
+      "chapterSubId": 4,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/6.png",
+      "gifts": [{
+        "id": 101,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000426
+      }],
+      "phases": [1, 2, 3],
+      "priority": 4000371,
+      "noticeAt": 1738400400,
+      "openedAt": 1738400400,
+      "closedAt": 1893423600
+    }]
   }, {
     "id": 40406,
     "mapId": 40401,
@@ -79494,7 +79768,7 @@
       "id": 4000403,
       "name": "七人のラスボス",
       "type": "main",
-      "flags": ["actConsumeBattleWin"],
+      "flags": ["noDisplayRemain", "actConsumeBattleWin"],
       "consume": 23,
       "afterClear": "close",
       "recommendLv": "80",
@@ -79560,9 +79834,9 @@
         }]
       }],
       "priority": 4000398,
-      "noticeAt": 1724835600,
-      "openedAt": 1724835600,
-      "closedAt": 1730347199
+      "noticeAt": 1738400400,
+      "openedAt": 1738400400,
+      "closedAt": 1893423600
     }]
   }, {
     "id": 40407,
@@ -79573,7 +79847,35 @@
     "y": 792.0,
     "nameOfsY": -4,
     "questOfsX": 36,
-    "questOfsY": -56
+    "questOfsY": -56,
+    "quests": [{
+      "id": 93040405,
+      "name": "ワームズ・サンドボックス",
+      "type": "free",
+      "flags": ["displayLoopmark"],
+      "consume": 21,
+      "afterClear": "repeatLast",
+      "recommendLv": "77",
+      "spotId": 40407,
+      "warId": 404,
+      "chapterId": 404,
+      "chapterSubId": 5,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/6.png",
+      "gifts": [{
+        "id": 101,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000426
+      }],
+      "phases": [1, 2, 3],
+      "priority": 4000370,
+      "noticeAt": 1738400400,
+      "openedAt": 1738400400,
+      "closedAt": 1893423600
+    }]
   }, {
     "id": 40408,
     "mapId": 40401,
@@ -79588,7 +79890,7 @@
       "id": 4000405,
       "name": "オールド・ドバイの休日（Ⅰ）",
       "type": "main",
-      "flags": ["actConsumeBattleWin"],
+      "flags": ["noDisplayRemain", "actConsumeBattleWin"],
       "consume": 23,
       "afterClear": "close",
       "recommendLv": "80",
@@ -79663,14 +79965,14 @@
         }]
       }],
       "priority": 4000396,
-      "noticeAt": 1724835600,
-      "openedAt": 1724835600,
-      "closedAt": 1730347199
+      "noticeAt": 1738400400,
+      "openedAt": 1738400400,
+      "closedAt": 1893423600
     }, {
       "id": 4000406,
       "name": "ライオン・スカイ ～恐怖の機械化帝国～",
       "type": "main",
-      "flags": ["actConsumeBattleWin"],
+      "flags": ["noDisplayRemain", "actConsumeBattleWin"],
       "consume": 22,
       "afterClear": "close",
       "recommendLv": "73",
@@ -79742,14 +80044,14 @@
         }]
       }],
       "priority": 4000395,
-      "noticeAt": 1724835600,
-      "openedAt": 1724835600,
-      "closedAt": 1730347199
+      "noticeAt": 1738400400,
+      "openedAt": 1738400400,
+      "closedAt": 1893423600
     }, {
       "id": 4000407,
       "name": "電気狐は甘やかしの夢を見るか？",
       "type": "main",
-      "flags": ["actConsumeBattleWin"],
+      "flags": ["noDisplayRemain", "actConsumeBattleWin"],
       "consume": 25,
       "afterClear": "close",
       "recommendLv": "90",
@@ -79833,14 +80135,14 @@
         }]
       }],
       "priority": 4000394,
-      "noticeAt": 1724835600,
-      "openedAt": 1724835600,
-      "closedAt": 1730347199
+      "noticeAt": 1738400400,
+      "openedAt": 1738400400,
+      "closedAt": 1893423600
     }, {
       "id": 4000408,
       "name": "インヴェイダー・バニー",
       "type": "main",
-      "flags": ["actConsumeBattleWin"],
+      "flags": ["noDisplayRemain", "actConsumeBattleWin"],
       "consume": 24,
       "afterClear": "close",
       "recommendLv": "82",
@@ -79909,14 +80211,14 @@
         }]
       }],
       "priority": 4000393,
-      "noticeAt": 1724835600,
-      "openedAt": 1724835600,
-      "closedAt": 1730347199
+      "noticeAt": 1738400400,
+      "openedAt": 1738400400,
+      "closedAt": 1893423600
     }, {
       "id": 4000409,
       "name": "オールド・ドバイの休日（Ⅱ）",
       "type": "main",
-      "flags": ["actConsumeBattleWin"],
+      "flags": ["noDisplayRemain", "actConsumeBattleWin"],
       "consume": 23,
       "afterClear": "close",
       "recommendLv": "79",
@@ -79982,14 +80284,14 @@
         }]
       }],
       "priority": 4000392,
-      "noticeAt": 1724835600,
-      "openedAt": 1724835600,
-      "closedAt": 1730347199
+      "noticeAt": 1738400400,
+      "openedAt": 1738400400,
+      "closedAt": 1893423600
     }, {
       "id": 4000410,
       "name": "ネペンテスのキス",
       "type": "main",
-      "flags": ["actConsumeBattleWin"],
+      "flags": ["noDisplayRemain", "actConsumeBattleWin"],
       "consume": 24,
       "afterClear": "close",
       "recommendLv": "82",
@@ -80055,14 +80357,14 @@
         }]
       }],
       "priority": 4000391,
-      "noticeAt": 1724835600,
-      "openedAt": 1724835600,
-      "closedAt": 1730347199
+      "noticeAt": 1738400400,
+      "openedAt": 1738400400,
+      "closedAt": 1893423600
     }, {
       "id": 4000411,
       "name": "地球の夏休み",
       "type": "main",
-      "flags": ["actConsumeBattleWin"],
+      "flags": ["noDisplayRemain", "actConsumeBattleWin"],
       "consume": 23,
       "afterClear": "close",
       "recommendLv": "80",
@@ -80116,14 +80418,14 @@
         }]
       }],
       "priority": 4000390,
-      "noticeAt": 1726045200,
-      "openedAt": 1726045200,
-      "closedAt": 1730347199
+      "noticeAt": 1738400400,
+      "openedAt": 1738400400,
+      "closedAt": 1893423600
     }, {
       "id": 4000412,
       "name": "ブルー・オーシャン/ホワイト・バス",
       "type": "main",
-      "flags": ["actConsumeBattleWin"],
+      "flags": ["noDisplayRemain", "actConsumeBattleWin"],
       "consume": 22,
       "afterClear": "close",
       "recommendLv": "73",
@@ -80186,14 +80488,14 @@
         }]
       }],
       "priority": 4000389,
-      "noticeAt": 1726045200,
-      "openedAt": 1726045200,
-      "closedAt": 1730347199
+      "noticeAt": 1738400400,
+      "openedAt": 1738400400,
+      "closedAt": 1893423600
     }, {
       "id": 4000413,
       "name": "ドゥームズ・デイ",
       "type": "main",
-      "flags": ["actConsumeBattleWin"],
+      "flags": ["noDisplayRemain", "actConsumeBattleWin"],
       "consume": 25,
       "afterClear": "close",
       "recommendLv": "90",
@@ -80277,14 +80579,14 @@
         }]
       }],
       "priority": 4000388,
-      "noticeAt": 1726045200,
-      "openedAt": 1726045200,
-      "closedAt": 1730347199
+      "noticeAt": 1738400400,
+      "openedAt": 1738400400,
+      "closedAt": 1893423600
     }, {
       "id": 4000418,
       "name": "幕間３",
       "type": "main",
-      "flags": ["noBattle"],
+      "flags": ["noBattle", "noDisplayRemain"],
       "consume": 0,
       "afterClear": "close",
       "recommendLv": "1",
@@ -80317,14 +80619,14 @@
         }]
       }],
       "priority": 4000383,
-      "noticeAt": 1726822800,
-      "openedAt": 1726822800,
-      "closedAt": 1730347199
+      "noticeAt": 1738400400,
+      "openedAt": 1738400400,
+      "closedAt": 1893423600
     }, {
       "id": 4000419,
       "name": "○○○と不思議の海・前編",
       "type": "main",
-      "flags": ["actConsumeBattleWin"],
+      "flags": ["noDisplayRemain", "actConsumeBattleWin"],
       "consume": 25,
       "afterClear": "close",
       "recommendLv": "90",
@@ -80396,9 +80698,36 @@
         }]
       }],
       "priority": 4000382,
-      "noticeAt": 1726822800,
-      "openedAt": 1726822800,
-      "closedAt": 1730347199
+      "noticeAt": 1738400400,
+      "openedAt": 1738400400,
+      "closedAt": 1893423600
+    }, {
+      "id": 93040406,
+      "name": "ムーン・ウォーキング",
+      "type": "free",
+      "flags": ["displayLoopmark"],
+      "consume": 21,
+      "afterClear": "repeatLast",
+      "recommendLv": "78",
+      "spotId": 40408,
+      "warId": 404,
+      "chapterId": 404,
+      "chapterSubId": 6,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/6.png",
+      "gifts": [{
+        "id": 101,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000426
+      }],
+      "phases": [1, 2, 3],
+      "priority": 4000369,
+      "noticeAt": 1738400400,
+      "openedAt": 1738400400,
+      "closedAt": 1893423600
     }]
   }, {
     "id": 40409,
@@ -80409,7 +80738,35 @@
     "y": 1460.0,
     "nameOfsY": -14,
     "questOfsX": 35,
-    "questOfsY": -84
+    "questOfsY": -84,
+    "quests": [{
+      "id": 93040407,
+      "name": "マシーナリー・タウン",
+      "type": "free",
+      "flags": ["displayLoopmark"],
+      "consume": 21,
+      "afterClear": "repeatLast",
+      "recommendLv": "79",
+      "spotId": 40409,
+      "warId": 404,
+      "chapterId": 404,
+      "chapterSubId": 7,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/6.png",
+      "gifts": [{
+        "id": 101,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000426
+      }],
+      "phases": [1, 2, 3],
+      "priority": 4000368,
+      "noticeAt": 1738400400,
+      "openedAt": 1738400400,
+      "closedAt": 1893423600
+    }]
   }, {
     "id": 40410,
     "mapId": 40401,
@@ -80424,7 +80781,7 @@
       "id": 4000414,
       "name": "注文が大きいケーキ店",
       "type": "main",
-      "flags": ["actConsumeBattleWin"],
+      "flags": ["noDisplayRemain", "actConsumeBattleWin"],
       "consume": 24,
       "afterClear": "close",
       "recommendLv": "82",
@@ -80502,14 +80859,14 @@
         }]
       }],
       "priority": 4000387,
-      "noticeAt": 1726045200,
-      "openedAt": 1726045200,
-      "closedAt": 1730347199
+      "noticeAt": 1738400400,
+      "openedAt": 1738400400,
+      "closedAt": 1893423600
     }, {
       "id": 4000416,
       "name": "月面最大の決戦",
       "type": "main",
-      "flags": ["actConsumeBattleWin"],
+      "flags": ["noDisplayRemain", "actConsumeBattleWin"],
       "consume": 24,
       "afterClear": "close",
       "recommendLv": "82",
@@ -80593,14 +80950,14 @@
         }]
       }],
       "priority": 4000385,
-      "noticeAt": 1726045200,
-      "openedAt": 1726045200,
-      "closedAt": 1730347199
+      "noticeAt": 1738400400,
+      "openedAt": 1738400400,
+      "closedAt": 1893423600
     }, {
       "id": 4000420,
       "name": "キアラと不思議の海・後編",
       "type": "main",
-      "flags": ["actConsumeBattleWin"],
+      "flags": ["noDisplayRemain", "actConsumeBattleWin"],
       "consume": 24,
       "afterClear": "close",
       "recommendLv": "82",
@@ -80684,9 +81041,36 @@
         }]
       }],
       "priority": 4000381,
-      "noticeAt": 1726822800,
-      "openedAt": 1726822800,
-      "closedAt": 1730347199
+      "noticeAt": 1738400400,
+      "openedAt": 1738400400,
+      "closedAt": 1893423600
+    }, {
+      "id": 93040408,
+      "name": "ムーン・ショッピング",
+      "type": "free",
+      "flags": ["displayLoopmark"],
+      "consume": 21,
+      "afterClear": "repeatLast",
+      "recommendLv": "80",
+      "spotId": 40410,
+      "warId": 404,
+      "chapterId": 404,
+      "chapterSubId": 8,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/6.png",
+      "gifts": [{
+        "id": 101,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000426
+      }],
+      "phases": [1, 2, 3],
+      "priority": 4000367,
+      "noticeAt": 1738400400,
+      "openedAt": 1738400400,
+      "closedAt": 1893423600
     }]
   }, {
     "id": 40411,
@@ -80697,7 +81081,35 @@
     "y": 1072.0,
     "nameOfsY": -3,
     "questOfsX": 35,
-    "questOfsY": -59
+    "questOfsY": -59,
+    "quests": [{
+      "id": 93040409,
+      "name": "ムーン・クルージング",
+      "type": "free",
+      "flags": ["displayLoopmark"],
+      "consume": 21,
+      "afterClear": "repeatLast",
+      "recommendLv": "76",
+      "spotId": 40411,
+      "warId": 404,
+      "chapterId": 404,
+      "chapterSubId": 9,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/6.png",
+      "gifts": [{
+        "id": 101,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000426
+      }],
+      "phases": [1, 2, 3],
+      "priority": 4000366,
+      "noticeAt": 1738400400,
+      "openedAt": 1738400400,
+      "closedAt": 1893423600
+    }]
   }, {
     "id": 40412,
     "mapId": 40401,
@@ -80707,7 +81119,35 @@
     "y": 752.0,
     "nameOfsY": -7,
     "questOfsX": 36,
-    "questOfsY": -55
+    "questOfsY": -55,
+    "quests": [{
+      "id": 93040410,
+      "name": "スター・ピッキング",
+      "type": "free",
+      "flags": ["displayLoopmark"],
+      "consume": 21,
+      "afterClear": "repeatLast",
+      "recommendLv": "80",
+      "spotId": 40412,
+      "warId": 404,
+      "chapterId": 404,
+      "chapterSubId": 10,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/6.png",
+      "gifts": [{
+        "id": 101,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000426
+      }],
+      "phases": [1, 2, 3],
+      "priority": 4000365,
+      "noticeAt": 1738400400,
+      "openedAt": 1738400400,
+      "closedAt": 1893423600
+    }]
   }, {
     "id": 40413,
     "mapId": 40401,
@@ -80747,7 +81187,35 @@
     "y": 1470.0,
     "nameOfsY": 1,
     "questOfsX": 41,
-    "questOfsY": -65
+    "questOfsY": -65,
+    "quests": [{
+      "id": 93040411,
+      "name": "ケーキテーブル・ガーデン",
+      "type": "free",
+      "flags": ["displayLoopmark"],
+      "consume": 21,
+      "afterClear": "repeatLast",
+      "recommendLv": "78",
+      "spotId": 40416,
+      "warId": 404,
+      "chapterId": 404,
+      "chapterSubId": 11,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/6.png",
+      "gifts": [{
+        "id": 101,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000426
+      }],
+      "phases": [1, 2, 3],
+      "priority": 4000364,
+      "noticeAt": 1738400400,
+      "openedAt": 1738400400,
+      "closedAt": 1893423600
+    }]
   }, {
     "id": 40417,
     "mapId": 40401,
@@ -80787,7 +81255,35 @@
     "y": 614.0,
     "nameOfsY": -12,
     "questOfsX": 37,
-    "questOfsY": -78
+    "questOfsY": -78,
+    "quests": [{
+      "id": 93040413,
+      "name": "ムーンバス・アイランド",
+      "type": "free",
+      "flags": ["displayLoopmark"],
+      "consume": 22,
+      "afterClear": "repeatLast",
+      "recommendLv": "81",
+      "spotId": 40420,
+      "warId": 404,
+      "chapterId": 404,
+      "chapterSubId": 13,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/6.png",
+      "gifts": [{
+        "id": 101,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000426
+      }],
+      "phases": [1, 2, 3],
+      "priority": 4000362,
+      "noticeAt": 1738400400,
+      "openedAt": 1738400400,
+      "closedAt": 1893423600
+    }]
   }, {
     "id": 40421,
     "mapId": 40401,
@@ -80822,7 +81318,7 @@
       "id": 4000425,
       "name": "Wonderer",
       "type": "main",
-      "flags": ["actConsumeBattleWin"],
+      "flags": ["noDisplayRemain", "actConsumeBattleWin"],
       "consume": 24,
       "afterClear": "close",
       "recommendLv": "82",
@@ -80880,9 +81376,36 @@
         }]
       }],
       "priority": 4000376,
-      "noticeAt": 1726822800,
-      "openedAt": 1726822800,
-      "closedAt": 1730347199
+      "noticeAt": 1738400400,
+      "openedAt": 1738400400,
+      "closedAt": 1893423600
+    }, {
+      "id": 93040414,
+      "name": "ムーン・ドバイ・ファウンテン",
+      "type": "free",
+      "flags": ["displayLoopmark"],
+      "consume": 22,
+      "afterClear": "repeatLast",
+      "recommendLv": "83",
+      "spotId": 40423,
+      "warId": 404,
+      "chapterId": 404,
+      "chapterSubId": 14,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/6.png",
+      "gifts": [{
+        "id": 101,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000426
+      }],
+      "phases": [1, 2, 3],
+      "priority": 4000361,
+      "noticeAt": 1738400400,
+      "openedAt": 1738400400,
+      "closedAt": 1893423600
     }]
   }, {
     "id": 40424,
@@ -80908,7 +81431,7 @@
       "id": 4000422,
       "name": "消灯",
       "type": "main",
-      "flags": ["actConsumeBattleWin"],
+      "flags": ["noDisplayRemain", "actConsumeBattleWin"],
       "consume": 24,
       "afterClear": "close",
       "recommendLv": "82",
@@ -80958,14 +81481,14 @@
         }]
       }],
       "priority": 4000379,
-      "noticeAt": 1726822800,
-      "openedAt": 1726822800,
-      "closedAt": 1730347199
+      "noticeAt": 1738400400,
+      "openedAt": 1738400400,
+      "closedAt": 1893423600
     }, {
       "id": 4000423,
       "name": "流れよ我が涙、とＡＩは言った。",
       "type": "main",
-      "flags": ["actConsumeBattleWin"],
+      "flags": ["noDisplayRemain", "actConsumeBattleWin"],
       "consume": 25,
       "afterClear": "close",
       "recommendLv": "90",
@@ -81046,9 +81569,9 @@
         }]
       }],
       "priority": 4000378,
-      "noticeAt": 1726822800,
-      "openedAt": 1726822800,
-      "closedAt": 1730347199
+      "noticeAt": 1738400400,
+      "openedAt": 1738400400,
+      "closedAt": 1893423600
     }]
   }, {
     "id": 40439,
@@ -81102,7 +81625,7 @@
       "id": 4000417,
       "name": "アース・フォール",
       "type": "main",
-      "flags": ["actConsumeBattleWin"],
+      "flags": ["noDisplayRemain", "actConsumeBattleWin"],
       "consume": 23,
       "afterClear": "close",
       "recommendLv": "80",
@@ -81179,9 +81702,36 @@
         }]
       }],
       "priority": 4000384,
-      "noticeAt": 1726822800,
-      "openedAt": 1726822800,
-      "closedAt": 1730347199
+      "noticeAt": 1738400400,
+      "openedAt": 1738400400,
+      "closedAt": 1893423600
+    }, {
+      "id": 93040412,
+      "name": "ファンタズム・パレード",
+      "type": "free",
+      "flags": ["displayLoopmark"],
+      "consume": 22,
+      "afterClear": "repeatLast",
+      "recommendLv": "82",
+      "spotId": 40442,
+      "warId": 404,
+      "chapterId": 404,
+      "chapterSubId": 12,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/6.png",
+      "gifts": [{
+        "id": 101,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000426
+      }],
+      "phases": [1, 2, 3],
+      "priority": 4000363,
+      "noticeAt": 1738400400,
+      "openedAt": 1738400400,
+      "closedAt": 1893423600
     }]
   }, {
     "id": 40443,
@@ -81197,7 +81747,7 @@
       "id": 4000424,
       "name": "アーキタイプ・インセプション",
       "type": "main",
-      "flags": ["actConsumeBattleWin"],
+      "flags": ["noDisplayRemain", "actConsumeBattleWin"],
       "consume": 24,
       "afterClear": "close",
       "recommendLv": "82",
@@ -81266,9 +81816,9 @@
         }]
       }],
       "priority": 4000377,
-      "noticeAt": 1726822800,
-      "openedAt": 1726822800,
-      "closedAt": 1730347199
+      "noticeAt": 1738400400,
+      "openedAt": 1738400400,
+      "closedAt": 1893423600
     }]
   }, {
     "id": 40444,
@@ -81301,6 +81851,44 @@
     "questOfsX": 33,
     "questOfsY": -97
   }, {
+    "id": 40447,
+    "mapId": 40401,
+    "name": "特別航路",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0404/QMap_Cap0404_Atlas/spot_040407.png",
+    "x": 1344.0,
+    "y": 1653.0,
+    "nameOfsY": -4,
+    "questOfsX": 36,
+    "questOfsY": -56,
+    "quests": [{
+      "id": 93040415,
+      "name": "セレブリティ・ボート",
+      "type": "free",
+      "flags": ["displayLoopmark"],
+      "consume": 22,
+      "afterClear": "repeatLast",
+      "recommendLv": "83",
+      "spotId": 40447,
+      "warId": 404,
+      "chapterId": 404,
+      "chapterSubId": 15,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/6.png",
+      "gifts": [{
+        "id": 101,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 93040412
+      }],
+      "phases": [1, 2, 3],
+      "priority": 4000360,
+      "noticeAt": 1738400400,
+      "openedAt": 1738400400,
+      "closedAt": 1893423600
+    }]
+  }, {
     "id": 40499,
     "mapId": 40401,
     "name": "",
@@ -81310,7 +81898,7 @@
       "id": 4000401,
       "name": "月に囚われたＡＩ",
       "type": "main",
-      "flags": ["actConsumeBattleWin"],
+      "flags": ["noDisplayRemain", "actConsumeBattleWin"],
       "consume": 5,
       "afterClear": "close",
       "recommendLv": "90",
@@ -81337,11 +81925,11 @@
         "num": 2
       }],
       "releaseConditions": [{
-        "type": "questClear",
-        "targetId": 4000100
+        "type": "none",
+        "targetId": 0
       }, {
         "type": "questClear",
-        "targetId": 94099513
+        "targetId": 4000100
       }, {
         "type": "date",
         "targetId": 0,
@@ -81385,14 +81973,14 @@
         }]
       }],
       "priority": 4000400,
-      "noticeAt": 1724835600,
-      "openedAt": 1724835600,
-      "closedAt": 1730347199
+      "noticeAt": 1738400400,
+      "openedAt": 1738400400,
+      "closedAt": 1893423600
     }, {
       "id": 4000426,
       "name": "エピローグ",
       "type": "main",
-      "flags": ["actConsumeBattleWin"],
+      "flags": ["noDisplayRemain", "actConsumeBattleWin"],
       "consume": 24,
       "afterClear": "close",
       "recommendLv": "82",
@@ -81433,9 +82021,9 @@
         }]
       }],
       "priority": 4000375,
-      "noticeAt": 1726822800,
-      "openedAt": 1726822800,
-      "closedAt": 1730347199
+      "noticeAt": 1738400400,
+      "openedAt": 1738400400,
+      "closedAt": 1893423600
     }]
   }],
   "spotRoads": [{
@@ -81798,6 +82386,16 @@
     "dispCondType": "useItemTime",
     "dispCondType2": "useItemTime",
     "activeCondType": "useItemTime"
+  }, {
+    "id": 40437,
+    "warId": 404,
+    "mapId": 40401,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter0404/QMap_Cap0404_Atlas/img_road0404_00.png",
+    "srcSpotId": 40442,
+    "dstSpotId": 40447,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "useItemTime"
   }]
 }, {
   "id": 405,
@@ -81832,8 +82430,6 @@
     "priority": 2,
     "overwriteId": 406,
     "overwriteBanner": "https://static.atlasacademy.io/JP/Banner/questboard_cap_closed_406.png",
-    "condType": "questClear",
-    "targetId": 94099513,
     "startedAt": 1710932400,
     "endedAt": 1893423600
   }]
@@ -95076,6 +95672,81 @@
       "noticeAt": 1736758800,
       "openedAt": 1736758800,
       "closedAt": 1893423600
+    }, {
+      "id": 94142150,
+      "name": "強化クエスト アントニオ・サリエリ",
+      "type": "event",
+      "flags": ["noDisplayRemain"],
+      "consume": 20,
+      "afterClear": "close",
+      "recommendLv": "70",
+      "spotId": 99001,
+      "warId": 1001,
+      "gifts": [{
+        "id": 94012503,
+        "objectId": 2,
+        "num": 2
+      }, {
+        "id": 94012503,
+        "type": "questRewardIcon",
+        "objectId": 8,
+        "num": 0
+      }],
+      "releaseConditions": [{
+        "type": "svtLimit",
+        "targetId": 1100600,
+        "value": 4,
+        "closedMessage": "霊基再臨{0}段階目で開放"
+      }, {
+        "type": "svtGet",
+        "targetId": 1100600
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1, 2, 3],
+      "priority": 94140754,
+      "noticeAt": 1738400400,
+      "openedAt": 1738400400,
+      "closedAt": 1893423600
+    }, {
+      "id": 94142151,
+      "name": "強化クエスト 平景清",
+      "type": "event",
+      "flags": ["noDisplayRemain"],
+      "consume": 23,
+      "afterClear": "close",
+      "recommendLv": "90",
+      "spotId": 99001,
+      "warId": 1001,
+      "gifts": [{
+        "id": 94012504,
+        "objectId": 2,
+        "num": 2
+      }, {
+        "id": 94012504,
+        "type": "questRewardIcon",
+        "objectId": 9,
+        "num": 0
+      }],
+      "releaseConditions": [{
+        "type": "svtLimit",
+        "targetId": 1101000,
+        "value": 4,
+        "closedMessage": "霊基再臨{0}段階目で開放"
+      }, {
+        "type": "svtGet",
+        "targetId": 1101000
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1, 2, 3],
+      "phasesWithEnemies": [1, 2, 3],
+      "priority": 94140755,
+      "noticeAt": 1738400400,
+      "openedAt": 1738400400,
+      "closedAt": 1893423600
     }]
   }]
 }, {
@@ -108217,9 +108888,9 @@
         "condId": 1000822,
         "closedMessage": "終局特異点をクリア＆霊基再臨3段階目＆絆Lv.5で開放",
         "overlayClosedMessage": "終局特異点をクリアで開放",
-        "eventId": 80415,
-        "startedAt": 1668070800,
-        "endedAt": 1668657599
+        "eventId": 80524,
+        "startedAt": 1738400400,
+        "endedAt": 1740754799
       }],
       "phases": [1, 2],
       "phasesWithEnemies": [1, 2],
@@ -108289,17 +108960,17 @@
         "condId": 3001101,
         "closedMessage": "非霊長生存圏をクリア＆霊基再臨3段階目＆絆Lv.5で開放",
         "overlayClosedMessage": "一つ前の幕間の物語をクリア＆非霊長生存圏をクリアで開放",
-        "eventId": 80415,
-        "startedAt": 1668070800,
-        "endedAt": 1668657599
+        "eventId": 80524,
+        "startedAt": 1738400400,
+        "endedAt": 1740754799
       }, {
         "priority": 1,
         "condType": "questClear",
         "condId": 911100201,
         "overlayClosedMessage": "一つ前の幕間の物語をクリア＆非霊長生存圏をクリアで開放",
-        "eventId": 80415,
-        "startedAt": 1668070800,
-        "endedAt": 1668657599
+        "eventId": 80524,
+        "startedAt": 1738400400,
+        "endedAt": 1740754799
       }],
       "phases": [1, 2, 3, 4],
       "phasesWithEnemies": [2, 3],
@@ -108382,9 +109053,9 @@
         "condId": 1000722,
         "closedMessage": "第七特異点をクリア＆霊基再臨2段階目＆絆Lv.2で開放",
         "overlayClosedMessage": "第七特異点をクリアで開放",
-        "eventId": 80446,
-        "startedAt": 1695891600,
-        "endedAt": 1696478399
+        "eventId": 80524,
+        "startedAt": 1738400400,
+        "endedAt": 1740754799
       }],
       "phases": [1, 2, 3],
       "phasesWithEnemies": [1, 2, 3],
@@ -108477,17 +109148,17 @@
         "condId": 2000118,
         "closedMessage": "亜種特異点Ⅰをクリア＆霊基再臨4段階目＆絆Lv.5で開放",
         "overlayClosedMessage": "一つ前の幕間の物語をクリア＆亜種特異点Ⅰをクリアで開放",
-        "eventId": 80446,
-        "startedAt": 1695891600,
-        "endedAt": 1696478399
+        "eventId": 80524,
+        "startedAt": 1738400400,
+        "endedAt": 1740754799
       }, {
         "priority": 2,
         "condType": "questClear",
         "condId": 911100301,
         "overlayClosedMessage": "一つ前の幕間の物語をクリア＆亜種特異点Ⅰをクリアで開放",
-        "eventId": 80446,
-        "startedAt": 1695891600,
-        "endedAt": 1696478399
+        "eventId": 80524,
+        "startedAt": 1738400400,
+        "endedAt": 1740754799
       }],
       "phases": [1, 2, 3],
       "phasesWithEnemies": [1, 2, 3],
@@ -108547,6 +109218,16 @@
         "value": 5,
         "closedMessage": "第七特異点をクリア＆霊基再臨3段階目＆絆Lv.5で開放"
       }],
+      "releaseOverwrites": [{
+        "priority": 80524,
+        "condType": "questClear",
+        "condId": 1000722,
+        "closedMessage": "第七特異点をクリア＆霊基再臨3段階目＆絆Lv.5で開放",
+        "overlayClosedMessage": "第七特異点をクリアで開放",
+        "eventId": 80524,
+        "startedAt": 1738400400,
+        "endedAt": 1740754799
+      }],
       "phases": [1, 2],
       "phasesWithEnemies": [1, 2],
       "phaseScripts": [{
@@ -108601,6 +109282,16 @@
         "targetId": 1100500,
         "value": 5,
         "closedMessage": "亜種特異点Ⅰをクリア＆霊基再臨3段階目＆絆Lv.5で開放"
+      }],
+      "releaseOverwrites": [{
+        "priority": 80524,
+        "condType": "questClear",
+        "condId": 2000118,
+        "closedMessage": "亜種特異点Ⅰをクリア＆霊基再臨3段階目＆絆Lv.5で開放",
+        "overlayClosedMessage": "亜種特異点Ⅰをクリアで開放",
+        "eventId": 80524,
+        "startedAt": 1738400400,
+        "endedAt": 1740754799
       }],
       "phases": [1, 2, 3],
       "phasesWithEnemies": [1, 2, 3],
@@ -108672,9 +109363,9 @@
         "condId": 3000303,
         "closedMessage": "Lostbelt No.3 プロローグをクリア＆霊基再臨4段階目＆絆Lv.5で開放",
         "overlayClosedMessage": "Lostbelt No.3 プロローグをクリアで開放",
-        "eventId": 80365,
-        "startedAt": 1646816400,
-        "endedAt": 1647403199
+        "eventId": 80524,
+        "startedAt": 1738400400,
+        "endedAt": 1740754799
       }],
       "phases": [1, 2, 3],
       "phasesWithEnemies": [1, 2, 3],
