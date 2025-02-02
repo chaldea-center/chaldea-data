@@ -76391,6 +76391,7 @@
         "closedMessage": "「第十七節 進行度4 リコレクションクエスト」クリア\n＆2月2日18時00分以降に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "phaseScripts": [{
         "phase": 1,
         "scripts": [{
@@ -76404,6 +76405,87 @@
       "priority": 94142098,
       "noticeAt": 1738400400,
       "openedAt": 1738486800,
+      "closedAt": 1740754799
+    }, {
+      "id": 94142104,
+      "name": "第二十二節 進行度7 スーパーリコレクションクエスト(2/3)",
+      "type": "event",
+      "flags": ["dropFirstTimeOnly", "actConsumeBattleWin", "notRetrievable", "recollection"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "90++",
+      "spotId": 40302,
+      "warId": 403,
+      "gifts": [{
+        "id": 327,
+        "objectId": 3,
+        "num": 100
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000326
+      }, {
+        "type": "questClear",
+        "targetId": 94142103,
+        "closedMessage": "「第二十二節 進行度7 リコレクションクエスト」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9414210410",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414210410.txt"
+        }, {
+          "scriptId": "9414210411",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414210411.txt"
+        }]
+      }],
+      "priority": 94142097,
+      "noticeAt": 1738486800,
+      "openedAt": 1738486800,
+      "closedAt": 1740754799
+    }, {
+      "id": 94142105,
+      "name": "第二十五節 進行度2 リコレクションクエスト(3/3)",
+      "type": "event",
+      "flags": ["dropFirstTimeOnly", "actConsumeBattleWin", "notRetrievable", "recollection"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "85",
+      "spotId": 40302,
+      "warId": 403,
+      "gifts": [{
+        "id": 12000,
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000326
+      }, {
+        "type": "questClear",
+        "targetId": 94142103,
+        "closedMessage": "「第二十二節 進行度7 リコレクションクエスト」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "「第二十二節 進行度7 リコレクションクエスト」クリア\n＆2月3日18時00分以降に開放"
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9414210510",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414210510.txt"
+        }]
+      }],
+      "priority": 94142096,
+      "noticeAt": 1738486800,
+      "openedAt": 1738573200,
       "closedAt": 1740754799
     }]
   }, {
@@ -76945,6 +77027,7 @@
         "targetId": 0
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "phaseScripts": [{
         "phase": 1,
         "scripts": [{
@@ -76986,6 +77069,7 @@
         "targetId": 0
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "phaseScripts": [{
         "phase": 1,
         "scripts": [{
@@ -79491,6 +79575,7 @@
         "targetId": 4000426
       }],
       "phases": [1, 2, 3],
+      "phasesWithEnemies": [1, 2, 3],
       "priority": 4000374,
       "noticeAt": 1738400400,
       "openedAt": 1738400400,
@@ -79556,6 +79641,7 @@
         "targetId": 10141202
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 93040449,
       "noticeAt": 1738400400,
       "openedAt": 1738400400,
@@ -79594,6 +79680,7 @@
         "targetId": 4000426
       }],
       "phases": [1, 2, 3],
+      "phasesWithEnemies": [1, 2, 3],
       "priority": 4000373,
       "noticeAt": 1738400400,
       "openedAt": 1738400400,
@@ -79711,6 +79798,7 @@
         "targetId": 4000426
       }],
       "phases": [1, 2, 3],
+      "phasesWithEnemies": [1, 2, 3],
       "priority": 4000372,
       "noticeAt": 1738400400,
       "openedAt": 1738400400,
@@ -79749,6 +79837,7 @@
         "targetId": 4000426
       }],
       "phases": [1, 2, 3],
+      "phasesWithEnemies": [1, 2, 3],
       "priority": 4000371,
       "noticeAt": 1738400400,
       "openedAt": 1738400400,
@@ -79871,6 +79960,7 @@
         "targetId": 4000426
       }],
       "phases": [1, 2, 3],
+      "phasesWithEnemies": [1, 2, 3],
       "priority": 4000370,
       "noticeAt": 1738400400,
       "openedAt": 1738400400,
@@ -80724,6 +80814,7 @@
         "targetId": 4000426
       }],
       "phases": [1, 2, 3],
+      "phasesWithEnemies": [1, 2, 3],
       "priority": 4000369,
       "noticeAt": 1738400400,
       "openedAt": 1738400400,
@@ -80762,6 +80853,7 @@
         "targetId": 4000426
       }],
       "phases": [1, 2, 3],
+      "phasesWithEnemies": [1, 2, 3],
       "priority": 4000368,
       "noticeAt": 1738400400,
       "openedAt": 1738400400,
@@ -81067,6 +81159,7 @@
         "targetId": 4000426
       }],
       "phases": [1, 2, 3],
+      "phasesWithEnemies": [1, 2, 3],
       "priority": 4000367,
       "noticeAt": 1738400400,
       "openedAt": 1738400400,
@@ -81105,6 +81198,7 @@
         "targetId": 4000426
       }],
       "phases": [1, 2, 3],
+      "phasesWithEnemies": [1, 2, 3],
       "priority": 4000366,
       "noticeAt": 1738400400,
       "openedAt": 1738400400,
@@ -81143,6 +81237,7 @@
         "targetId": 4000426
       }],
       "phases": [1, 2, 3],
+      "phasesWithEnemies": [1, 2, 3],
       "priority": 4000365,
       "noticeAt": 1738400400,
       "openedAt": 1738400400,
@@ -81211,6 +81306,7 @@
         "targetId": 4000426
       }],
       "phases": [1, 2, 3],
+      "phasesWithEnemies": [1, 2, 3],
       "priority": 4000364,
       "noticeAt": 1738400400,
       "openedAt": 1738400400,
@@ -81279,6 +81375,7 @@
         "targetId": 4000426
       }],
       "phases": [1, 2, 3],
+      "phasesWithEnemies": [1, 2, 3],
       "priority": 4000362,
       "noticeAt": 1738400400,
       "openedAt": 1738400400,
@@ -81402,6 +81499,7 @@
         "targetId": 4000426
       }],
       "phases": [1, 2, 3],
+      "phasesWithEnemies": [1, 2, 3],
       "priority": 4000361,
       "noticeAt": 1738400400,
       "openedAt": 1738400400,
@@ -81728,6 +81826,7 @@
         "targetId": 4000426
       }],
       "phases": [1, 2, 3],
+      "phasesWithEnemies": [1, 2, 3],
       "priority": 4000363,
       "noticeAt": 1738400400,
       "openedAt": 1738400400,
@@ -81883,6 +81982,7 @@
         "targetId": 93040412
       }],
       "phases": [1, 2, 3],
+      "phasesWithEnemies": [1, 2, 3],
       "priority": 4000360,
       "noticeAt": 1738400400,
       "openedAt": 1738400400,
@@ -95705,6 +95805,7 @@
         "targetId": 0
       }],
       "phases": [1, 2, 3],
+      "phasesWithEnemies": [1, 2, 3],
       "priority": 94140754,
       "noticeAt": 1738400400,
       "openedAt": 1738400400,

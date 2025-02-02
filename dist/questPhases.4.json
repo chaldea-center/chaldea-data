@@ -21,6 +21,7 @@
     "targetId": 4000426
   }],
   "phases": [1, 2, 3],
+  "phasesWithEnemies": [1, 2, 3],
   "priority": 4000363,
   "noticeAt": 1738400400,
   "openedAt": 1738400400,
@@ -46,33 +47,47 @@
     "type": "servant",
     "objectId": 9704400,
     "dropCount": 1,
-    "runs": 2
+    "runs": 8
   }, {
     "type": "servant",
     "objectId": 9705500,
     "dropCount": 1,
-    "runs": 2
+    "runs": 8
+  }, {
+    "type": "servant",
+    "objectId": 9706400,
+    "dropCount": 1,
+    "runs": 8
+  }, {
+    "type": "servant",
+    "objectId": 9707400,
+    "dropCount": 1,
+    "runs": 8
   }, {
     "objectId": 1,
     "num": 20000,
-    "dropCount": 3,
-    "runs": 2
+    "dropCount": 9,
+    "runs": 8
   }, {
     "objectId": 6107,
+    "dropCount": 2,
+    "runs": 8
+  }, {
+    "objectId": 6205,
     "dropCount": 1,
-    "runs": 2
+    "runs": 8
   }, {
     "objectId": 6505,
-    "dropCount": 1,
-    "runs": 2
+    "dropCount": 2,
+    "runs": 8
   }, {
     "objectId": 6517,
     "dropCount": 1,
-    "runs": 2
+    "runs": 8
   }, {
     "objectId": 6553,
-    "dropCount": 1,
-    "runs": 2
+    "dropCount": 2,
+    "runs": 8
   }],
   "stages": [{
     "wave": 1,
@@ -542,6 +557,7 @@
     "targetId": 4000426
   }],
   "phases": [1, 2, 3],
+  "phasesWithEnemies": [1, 2, 3],
   "priority": 4000362,
   "noticeAt": 1738400400,
   "openedAt": 1738400400,
@@ -558,6 +574,9 @@
   "exp": 24396,
   "bond": 825,
   "battleBgId": 117500,
+  "enemyHash": "1_0834_c290283",
+  "availableEnemyHashes": ["1_0834_c290283"],
+  "dropsFromAllHashes": true,
   "battleBg": {
     "id": 117500,
     "individuality": [{
@@ -568,6 +587,39 @@
       "id": 2392
     }]
   },
+  "drops": [{
+    "type": "servant",
+    "objectId": 9701400,
+    "dropCount": 2,
+    "runs": 5
+  }, {
+    "type": "servant",
+    "objectId": 9705400,
+    "dropCount": 1,
+    "runs": 5
+  }, {
+    "type": "servant",
+    "objectId": 9707400,
+    "dropCount": 1,
+    "runs": 5
+  }, {
+    "objectId": 1,
+    "num": 20000,
+    "dropCount": 5,
+    "runs": 5
+  }, {
+    "objectId": 6101,
+    "dropCount": 1,
+    "runs": 5
+  }, {
+    "objectId": 6106,
+    "dropCount": 1,
+    "runs": 5
+  }, {
+    "objectId": 6505,
+    "dropCount": 2,
+    "runs": 5
+  }],
   "stages": [{
     "wave": 1,
     "bgm": {
@@ -576,7 +628,176 @@
     "startEffectId": 1,
     "originalScript": {
       "priorityBgm": 50
-    }
+    },
+    "enemies": [{
+      "deckId": 1,
+      "npcId": 3002934,
+      "name": "ガードエンフォーサーＡ",
+      "svt": {
+        "id": 9945520
+      },
+      "lv": 44,
+      "atk": 5826,
+      "hp": 27775,
+      "deathRate": 500,
+      "criticalRate": 300,
+      "chargeTurn": 3,
+      "traits": [{
+        "id": 5000
+      }, {
+        "id": 5010
+      }, {
+        "id": 1
+      }, {
+        "id": 200
+      }, {
+        "id": 2001
+      }, {
+        "id": 2781
+      }, {
+        "id": 2835
+      }, {
+        "id": 105
+      }],
+      "skills": {
+        "skillId1": 970509,
+        "skill1": {
+          "id": 970509
+        },
+        "skillLv1": 1
+      },
+      "noblePhantasm": {
+        "noblePhantasmId": 922,
+        "noblePhantasm": {
+          "id": 922,
+          "svtId": 9945520,
+          "priority": 1
+        },
+        "noblePhantasmLv": 1
+      },
+      "serverMod": {
+        "tdRate": 900,
+        "tdAttackRate": 900,
+        "starRate": -100
+      },
+      "ai": {
+        "aiId": 105370,
+        "actPriority": 1000,
+        "maxActNum": 2
+      }
+    }, {
+      "deckId": 2,
+      "npcId": 3002934,
+      "name": "ガードエンフォーサーＢ",
+      "svt": {
+        "id": 9945520
+      },
+      "lv": 42,
+      "atk": 5589,
+      "hp": 26534,
+      "deathRate": 500,
+      "criticalRate": 300,
+      "chargeTurn": 3,
+      "traits": [{
+        "id": 5000
+      }, {
+        "id": 5010
+      }, {
+        "id": 1
+      }, {
+        "id": 200
+      }, {
+        "id": 2001
+      }, {
+        "id": 2781
+      }, {
+        "id": 2835
+      }, {
+        "id": 105
+      }],
+      "skills": {
+        "skillId1": 970509,
+        "skill1": {
+          "id": 970509
+        },
+        "skillLv1": 1
+      },
+      "noblePhantasm": {
+        "noblePhantasmId": 922,
+        "noblePhantasm": {
+          "id": 922,
+          "svtId": 9945520,
+          "priority": 1
+        },
+        "noblePhantasmLv": 1
+      },
+      "serverMod": {
+        "tdRate": 900,
+        "tdAttackRate": 900,
+        "starRate": -100
+      },
+      "ai": {
+        "aiId": 105370,
+        "actPriority": 1000,
+        "maxActNum": 2
+      }
+    }, {
+      "deckId": 3,
+      "npcId": 3002934,
+      "name": "ガードエンフォーサーＣ",
+      "svt": {
+        "id": 9945520
+      },
+      "lv": 43,
+      "atk": 5708,
+      "hp": 27154,
+      "deathRate": 500,
+      "criticalRate": 300,
+      "chargeTurn": 3,
+      "traits": [{
+        "id": 5000
+      }, {
+        "id": 5010
+      }, {
+        "id": 1
+      }, {
+        "id": 200
+      }, {
+        "id": 2001
+      }, {
+        "id": 2781
+      }, {
+        "id": 2835
+      }, {
+        "id": 105
+      }],
+      "skills": {
+        "skillId1": 970509,
+        "skill1": {
+          "id": 970509
+        },
+        "skillLv1": 1
+      },
+      "noblePhantasm": {
+        "noblePhantasmId": 922,
+        "noblePhantasm": {
+          "id": 922,
+          "svtId": 9945520,
+          "priority": 1
+        },
+        "noblePhantasmLv": 1
+      },
+      "serverMod": {
+        "tdRate": 900,
+        "tdAttackRate": 900,
+        "starRate": -100
+      },
+      "ai": {
+        "aiId": 105370,
+        "actPriority": 1000,
+        "maxActNum": 2
+      }
+    }]
   }, {
     "wave": 2,
     "bgm": {
@@ -585,13 +806,349 @@
     "startEffectId": 1,
     "originalScript": {
       "priorityBgm": 50
-    }
+    },
+    "enemies": [{
+      "deckId": 1,
+      "npcId": 3002934,
+      "name": "ガードエンフォーサーＡ",
+      "svt": {
+        "id": 9945520
+      },
+      "lv": 47,
+      "atk": 6182,
+      "hp": 31119,
+      "deathRate": 500,
+      "criticalRate": 300,
+      "chargeTurn": 3,
+      "traits": [{
+        "id": 5000
+      }, {
+        "id": 5010
+      }, {
+        "id": 1
+      }, {
+        "id": 200
+      }, {
+        "id": 2001
+      }, {
+        "id": 2781
+      }, {
+        "id": 2835
+      }, {
+        "id": 105
+      }],
+      "skills": {
+        "skillId1": 970509,
+        "skill1": {
+          "id": 970509
+        },
+        "skillLv1": 1
+      },
+      "noblePhantasm": {
+        "noblePhantasmId": 922,
+        "noblePhantasm": {
+          "id": 922,
+          "svtId": 9945520,
+          "priority": 1
+        },
+        "noblePhantasmLv": 1
+      },
+      "serverMod": {
+        "tdRate": 900,
+        "tdAttackRate": 900,
+        "starRate": -100
+      },
+      "ai": {
+        "aiId": 105370,
+        "actPriority": 1000,
+        "maxActNum": 2
+      }
+    }, {
+      "deckId": 2,
+      "npcId": 3002935,
+      "roleType": "danger",
+      "name": "新米警官",
+      "svt": {
+        "id": 9936730
+      },
+      "lv": 39,
+      "atk": 7851,
+      "hp": 57308,
+      "deathRate": 200,
+      "criticalRate": 100,
+      "chargeTurn": 4,
+      "traits": [{
+        "id": 5000
+      }, {
+        "id": 5010
+      }, {
+        "id": 1
+      }, {
+        "id": 202
+      }, {
+        "id": 2001
+      }, {
+        "id": 100
+      }, {
+        "id": 2781
+      }],
+      "skills": {
+        "skillId1": 960250,
+        "skill1": {
+          "id": 960250
+        },
+        "skillLv1": 1
+      },
+      "noblePhantasm": {
+        "noblePhantasmId": 396,
+        "noblePhantasm": {
+          "id": 396,
+          "svtId": 9936730,
+          "priority": 374
+        },
+        "noblePhantasmLv": 1
+      },
+      "ai": {
+        "aiId": 105370,
+        "actPriority": 500,
+        "maxActNum": 3
+      },
+      "enemyScript": {
+        "deathType": "escape"
+      },
+      "originalEnemyScript": {
+        "kill": 1
+      }
+    }, {
+      "deckId": 3,
+      "npcId": 3002934,
+      "name": "ガードエンフォーサーＢ",
+      "svt": {
+        "id": 9945520
+      },
+      "lv": 46,
+      "atk": 6063,
+      "hp": 30467,
+      "deathRate": 500,
+      "criticalRate": 300,
+      "chargeTurn": 3,
+      "traits": [{
+        "id": 5000
+      }, {
+        "id": 5010
+      }, {
+        "id": 1
+      }, {
+        "id": 200
+      }, {
+        "id": 2001
+      }, {
+        "id": 2781
+      }, {
+        "id": 2835
+      }, {
+        "id": 105
+      }],
+      "skills": {
+        "skillId1": 970509,
+        "skill1": {
+          "id": 970509
+        },
+        "skillLv1": 1
+      },
+      "noblePhantasm": {
+        "noblePhantasmId": 922,
+        "noblePhantasm": {
+          "id": 922,
+          "svtId": 9945520,
+          "priority": 1
+        },
+        "noblePhantasmLv": 1
+      },
+      "serverMod": {
+        "tdRate": 900,
+        "tdAttackRate": 900,
+        "starRate": -100
+      },
+      "ai": {
+        "aiId": 105370,
+        "actPriority": 1000,
+        "maxActNum": 2
+      }
+    }]
   }, {
     "wave": 3,
     "bgm": {
       "id": 691
     },
-    "startEffectId": 2
+    "startEffectId": 2,
+    "enemies": [{
+      "deckId": 1,
+      "npcId": 3002935,
+      "roleType": "danger",
+      "name": "新米警官",
+      "svt": {
+        "id": 9936730
+      },
+      "lv": 42,
+      "atk": 8396,
+      "hp": 62972,
+      "deathRate": 200,
+      "criticalRate": 100,
+      "chargeTurn": 4,
+      "traits": [{
+        "id": 5000
+      }, {
+        "id": 5010
+      }, {
+        "id": 1
+      }, {
+        "id": 202
+      }, {
+        "id": 2001
+      }, {
+        "id": 100
+      }, {
+        "id": 2781
+      }],
+      "skills": {
+        "skillId1": 960250,
+        "skill1": {
+          "id": 960250
+        },
+        "skillLv1": 1
+      },
+      "noblePhantasm": {
+        "noblePhantasmId": 396,
+        "noblePhantasm": {
+          "id": 396,
+          "svtId": 9936730,
+          "priority": 374
+        },
+        "noblePhantasmLv": 1
+      },
+      "ai": {
+        "aiId": 105370,
+        "actPriority": 500,
+        "maxActNum": 3
+      },
+      "enemyScript": {
+        "deathType": "escape"
+      },
+      "originalEnemyScript": {
+        "kill": 1
+      }
+    }, {
+      "deckId": 3,
+      "npcId": 3002936,
+      "roleType": "servant",
+      "name": "シャドウサーヴァント",
+      "svt": {
+        "id": 2300400,
+        "classId": 9
+      },
+      "lv": 84,
+      "atk": 8578,
+      "hp": 94312,
+      "deathRate": 500,
+      "criticalRate": 100,
+      "chargeTurn": 4,
+      "traits": [{
+        "id": 5000
+      }, {
+        "id": 2300400
+      }, {
+        "id": 2
+      }, {
+        "id": 201
+      }, {
+        "id": 2011
+      }, {
+        "id": 2037
+      }, {
+        "id": 300
+      }, {
+        "id": 304
+      }, {
+        "id": 2008
+      }, {
+        "id": 1000
+      }, {
+        "id": 2001
+      }, {
+        "id": 405
+      }, {
+        "id": 2838
+      }, {
+        "id": 2850
+      }, {
+        "id": 108
+      }, {
+        "id": 2631
+      }, {
+        "id": 1122
+      }],
+      "skills": {
+        "skillId1": 767650,
+        "skillId2": 682450,
+        "skillId3": 768550,
+        "skill1": {
+          "id": 767650,
+          "num": 1,
+          "svtId": 2300400,
+          "priority": 1
+        },
+        "skill2": {
+          "id": 682450,
+          "num": 2,
+          "svtId": 2300400,
+          "priority": 1,
+          "condLimitCount": 1
+        },
+        "skill3": {
+          "id": 768550,
+          "num": 3,
+          "svtId": 2300400,
+          "priority": 1,
+          "condLimitCount": 3
+        },
+        "skillLv1": 1,
+        "skillLv2": 1,
+        "skillLv3": 1
+      },
+      "classPassive": {
+        "classPassive": [{
+          "id": 83650
+        }, {
+          "id": 784650
+        }, {
+          "id": 161150
+        }, {
+          "id": 350250
+        }]
+      },
+      "noblePhantasm": {
+        "noblePhantasmId": 100,
+        "noblePhantasm": {
+          "id": 100,
+          "num": 99,
+          "icon": "https://static.atlasacademy.io/JP/Servants/Commands/2300400/card_servant_np.png",
+          "npDistribution": [6, 13, 20, 26, 35],
+          "svtId": 2300400
+        },
+        "noblePhantasmLv": 1
+      },
+      "ai": {
+        "aiId": 1104130,
+        "actPriority": 500,
+        "maxActNum": 3
+      },
+      "misc": {
+        "displayType": 2,
+        "npcSvtType": 1,
+        "npcSvtClassId": 9
+      }
+    }]
   }]
 }, {
   "id": 93040414,
@@ -616,6 +1173,7 @@
     "targetId": 4000426
   }],
   "phases": [1, 2, 3],
+  "phasesWithEnemies": [1, 2, 3],
   "priority": 4000361,
   "noticeAt": 1738400400,
   "openedAt": 1738400400,
@@ -632,6 +1190,9 @@
   "exp": 25708,
   "bond": 845,
   "battleBgId": 115710,
+  "enemyHash": "1_0537_d52782f",
+  "availableEnemyHashes": ["1_0537_d52782f"],
+  "dropsFromAllHashes": true,
   "battleBg": {
     "id": 115710,
     "individuality": [{
@@ -642,6 +1203,21 @@
       "id": 2392
     }]
   },
+  "drops": [{
+    "type": "servant",
+    "objectId": 9706500,
+    "dropCount": 1,
+    "runs": 3
+  }, {
+    "objectId": 1,
+    "num": 20000,
+    "dropCount": 2,
+    "runs": 3
+  }, {
+    "objectId": 6106,
+    "dropCount": 1,
+    "runs": 3
+  }],
   "stages": [{
     "wave": 1,
     "bgm": {
@@ -650,7 +1226,73 @@
     "startEffectId": 1,
     "originalScript": {
       "priorityBgm": 50
-    }
+    },
+    "enemies": [{
+      "deckId": 2,
+      "npcId": 3002938,
+      "roleType": "danger",
+      "name": "スチールワーム",
+      "svt": {
+        "id": 9945550
+      },
+      "lv": 43,
+      "atk": 8514,
+      "hp": 126640,
+      "deathRate": 10,
+      "criticalRate": 300,
+      "chargeTurn": 3,
+      "traits": [{
+        "id": 5000
+      }, {
+        "id": 5010
+      }, {
+        "id": 200
+      }, {
+        "id": 2076
+      }, {
+        "id": 2781
+      }, {
+        "id": 2835
+      }, {
+        "id": 105
+      }],
+      "skills": {
+        "skillId1": 970512,
+        "skill1": {
+          "id": 970512
+        },
+        "skillLv1": 1
+      },
+      "classPassive": {
+        "addPassive": [{
+          "id": 968817
+        }]
+      },
+      "noblePhantasm": {
+        "noblePhantasmId": 925,
+        "noblePhantasm": {
+          "id": 925,
+          "npNum": 2,
+          "svtId": 9945550,
+          "strengthStatus": 1,
+          "priority": 2
+        },
+        "noblePhantasmLv": 1
+      },
+      "serverMod": {
+        "tdRate": 900,
+        "tdAttackRate": 900,
+        "starRate": -100
+      },
+      "ai": {
+        "aiId": 106580,
+        "actPriority": 1000,
+        "maxActNum": 3
+      },
+      "misc": {
+        "npcSvtType": 3
+      }
+    }]
   }, {
     "wave": 2,
     "bgm": {
@@ -659,13 +1301,248 @@
     "startEffectId": 1,
     "originalScript": {
       "priorityBgm": 50
-    }
+    },
+    "enemies": [{
+      "deckId": 1,
+      "npcId": 3002937,
+      "name": "ハントエンフォーサーＡ",
+      "svt": {
+        "id": 9945540
+      },
+      "lv": 40,
+      "atk": 6231,
+      "hp": 35408,
+      "deathRate": 500,
+      "criticalRate": 300,
+      "chargeTurn": 3,
+      "traits": [{
+        "id": 5000
+      }, {
+        "id": 5010
+      }, {
+        "id": 1
+      }, {
+        "id": 200
+      }, {
+        "id": 2001
+      }, {
+        "id": 2781
+      }, {
+        "id": 2835
+      }, {
+        "id": 105
+      }],
+      "skills": {
+        "skillId1": 970511,
+        "skill1": {
+          "id": 970511
+        },
+        "skillLv1": 1
+      },
+      "noblePhantasm": {
+        "noblePhantasmId": 924,
+        "noblePhantasm": {
+          "id": 924,
+          "svtId": 9945540,
+          "priority": 3
+        },
+        "noblePhantasmLv": 1
+      },
+      "serverMod": {
+        "tdRate": 900,
+        "tdAttackRate": 900,
+        "starRate": -100
+      },
+      "ai": {
+        "aiId": 1000000,
+        "actPriority": 1000,
+        "maxActNum": 2
+      }
+    }, {
+      "deckId": 2,
+      "npcId": 3002937,
+      "name": "ハントエンフォーサーＢ",
+      "svt": {
+        "id": 9945540
+      },
+      "lv": 39,
+      "atk": 6092,
+      "hp": 34537,
+      "deathRate": 500,
+      "criticalRate": 300,
+      "chargeTurn": 3,
+      "traits": [{
+        "id": 5000
+      }, {
+        "id": 5010
+      }, {
+        "id": 1
+      }, {
+        "id": 200
+      }, {
+        "id": 2001
+      }, {
+        "id": 2781
+      }, {
+        "id": 2835
+      }, {
+        "id": 105
+      }],
+      "skills": {
+        "skillId1": 970511,
+        "skill1": {
+          "id": 970511
+        },
+        "skillLv1": 1
+      },
+      "noblePhantasm": {
+        "noblePhantasmId": 924,
+        "noblePhantasm": {
+          "id": 924,
+          "svtId": 9945540,
+          "priority": 3
+        },
+        "noblePhantasmLv": 1
+      },
+      "serverMod": {
+        "tdRate": 900,
+        "tdAttackRate": 900,
+        "starRate": -100
+      },
+      "ai": {
+        "aiId": 1000000,
+        "actPriority": 1000,
+        "maxActNum": 2
+      }
+    }, {
+      "deckId": 3,
+      "npcId": 3002937,
+      "name": "ハントエンフォーサーＣ",
+      "svt": {
+        "id": 9945540
+      },
+      "lv": 41,
+      "atk": 6383,
+      "hp": 36366,
+      "deathRate": 500,
+      "criticalRate": 300,
+      "chargeTurn": 3,
+      "traits": [{
+        "id": 5000
+      }, {
+        "id": 5010
+      }, {
+        "id": 1
+      }, {
+        "id": 200
+      }, {
+        "id": 2001
+      }, {
+        "id": 2781
+      }, {
+        "id": 2835
+      }, {
+        "id": 105
+      }],
+      "skills": {
+        "skillId1": 970511,
+        "skill1": {
+          "id": 970511
+        },
+        "skillLv1": 1
+      },
+      "noblePhantasm": {
+        "noblePhantasmId": 924,
+        "noblePhantasm": {
+          "id": 924,
+          "svtId": 9945540,
+          "priority": 3
+        },
+        "noblePhantasmLv": 1
+      },
+      "serverMod": {
+        "tdRate": 900,
+        "tdAttackRate": 900,
+        "starRate": -100
+      },
+      "ai": {
+        "aiId": 1000000,
+        "actPriority": 1000,
+        "maxActNum": 2
+      }
+    }]
   }, {
     "wave": 3,
     "bgm": {
       "id": 691
     },
-    "startEffectId": 2
+    "startEffectId": 2,
+    "enemies": [{
+      "deckId": 2,
+      "npcId": 3002938,
+      "roleType": "danger",
+      "name": "スチールワーム",
+      "svt": {
+        "id": 9945550
+      },
+      "lv": 48,
+      "atk": 9353,
+      "hp": 169391,
+      "deathRate": 10,
+      "criticalRate": 300,
+      "chargeTurn": 3,
+      "traits": [{
+        "id": 5000
+      }, {
+        "id": 5010
+      }, {
+        "id": 200
+      }, {
+        "id": 2076
+      }, {
+        "id": 2781
+      }, {
+        "id": 2835
+      }, {
+        "id": 105
+      }],
+      "skills": {
+        "skillId1": 970512,
+        "skill1": {
+          "id": 970512
+        },
+        "skillLv1": 1
+      },
+      "classPassive": {
+        "addPassive": [{
+          "id": 968817
+        }]
+      },
+      "noblePhantasm": {
+        "noblePhantasmId": 925,
+        "noblePhantasm": {
+          "id": 925,
+          "npNum": 2,
+          "svtId": 9945550,
+          "strengthStatus": 1,
+          "priority": 2
+        },
+        "noblePhantasmLv": 1
+      },
+      "serverMod": {
+        "tdRate": 900,
+        "tdAttackRate": 900,
+        "starRate": -100
+      },
+      "ai": {
+        "aiId": 106580,
+        "actPriority": 1000,
+        "maxActNum": 3
+      },
+      "misc": {
+        "npcSvtType": 3
+      }
+    }]
   }]
 }, {
   "id": 93040415,
@@ -690,6 +1567,7 @@
     "targetId": 93040412
   }],
   "phases": [1, 2, 3],
+  "phasesWithEnemies": [1, 2, 3],
   "priority": 4000360,
   "noticeAt": 1738400400,
   "openedAt": 1738400400,
@@ -714,17 +1592,26 @@
   "drops": [{
     "type": "servant",
     "objectId": 9706400,
-    "dropCount": 2,
-    "runs": 1
+    "dropCount": 4,
+    "runs": 5
   }, {
     "objectId": 1,
     "num": 20000,
+    "dropCount": 8,
+    "runs": 5
+  }, {
+    "objectId": 1,
+    "num": 30000,
     "dropCount": 2,
-    "runs": 1
+    "runs": 5
+  }, {
+    "objectId": 6106,
+    "dropCount": 4,
+    "runs": 5
   }, {
     "objectId": 6559,
-    "dropCount": 1,
-    "runs": 1
+    "dropCount": 3,
+    "runs": 5
   }],
   "stages": [{
     "wave": 1,
