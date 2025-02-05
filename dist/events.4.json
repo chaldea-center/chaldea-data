@@ -154061,11 +154061,6 @@
     "groupId": 8051101,
     "type": 3,
     "guides": [{
-      "imageId": 106200,
-      "limitCount": 1,
-      "image": "https://static.atlasacademy.io/JP/CharaFigure/1062001/1062001_merged.png",
-      "faceId": 3
-    }, {
       "imageId": 109832000,
       "image": "https://static.atlasacademy.io/JP/CharaFigure/1098320000/1098320000_merged.png"
     }],
@@ -154084,11 +154079,6 @@
     "groupId": 8051102,
     "type": 3,
     "guides": [{
-      "imageId": 106200,
-      "limitCount": 1,
-      "image": "https://static.atlasacademy.io/JP/CharaFigure/1062001/1062001_merged.png",
-      "faceId": 3
-    }, {
       "imageId": 109832000,
       "image": "https://static.atlasacademy.io/JP/CharaFigure/1098320000/1098320000_merged.png"
     }],
@@ -154107,11 +154097,6 @@
     "groupId": 8051103,
     "type": 3,
     "guides": [{
-      "imageId": 106200,
-      "limitCount": 1,
-      "image": "https://static.atlasacademy.io/JP/CharaFigure/1062001/1062001_merged.png",
-      "faceId": 3
-    }, {
       "imageId": 109832000,
       "image": "https://static.atlasacademy.io/JP/CharaFigure/1098320000/1098320000_merged.png"
     }],
@@ -154132,14 +154117,6 @@
       "imageId": 305700,
       "image": "https://static.atlasacademy.io/JP/CharaFigure/3057000/3057000_merged.png",
       "faceId": 1
-    }, {
-      "imageId": 109831990,
-      "image": "https://static.atlasacademy.io/JP/CharaFigure/1098319900/1098319900_merged.png",
-      "faceId": 1
-    }, {
-      "imageId": 109831940,
-      "image": "https://static.atlasacademy.io/JP/CharaFigure/1098319400/1098319400_merged.png",
-      "faceId": 1
     }],
     "tabOnImage": "https://static.atlasacademy.io/JP/EventReward/btn_txt_on_80511_3.png",
     "tabOffImage": "https://static.atlasacademy.io/JP/EventReward/btn_txt_off_80511_3.png",
@@ -154150,7 +154127,7 @@
     "afterBgm": {
       "id": 895
     },
-    "flags": ["npcGuide"]
+    "flags": []
   }],
   "pointGroups": [{
     "groupId": 8051101,
@@ -154319,6 +154296,34 @@
         "value": 80511
       }, {
         "condType": "eventPeriod",
+        "value": 80511
+      }]
+    }, {
+      "name": "ショップついて 6",
+      "condType": "eventEnd",
+      "priority": 6440,
+      "svtVoiceType": "eventShop",
+      "overwriteName": "育て！ マイ・リトル・ドラゴン 6",
+      "id": ["0_I060", "0_I061", "0_I062"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_305700/0_I060.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_305700/0_I061.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_305700/0_I062.mp3"],
+      "delay": [0.0, 0.3, 0.1],
+      "face": [1, 4, 2],
+      "conds": [{
+        "condType": "eventEnd",
+        "value": 80511
+      }]
+    }, {
+      "name": "ショップついて 7",
+      "condType": "eventEnd",
+      "priority": 6430,
+      "svtVoiceType": "eventShop",
+      "overwriteName": "育て！ マイ・リトル・ドラゴン 7",
+      "id": ["0_I070", "0_I071", "0_I072", "0_I073"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_305700/0_I070.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_305700/0_I071.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_305700/0_I072.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_305700/0_I073.mp3"],
+      "delay": [0.0, 0.3, 0.1, 0.1],
+      "face": [20, 1, 19, 2],
+      "conds": [{
+        "condType": "eventEnd",
         "value": 80511
       }]
     }]
@@ -154559,6 +154564,34 @@
       "face": [15, 9, 2],
       "conds": [{
         "condType": "eventNoend",
+        "value": 80511
+      }]
+    }, {
+      "name": "イベントについて 11",
+      "condType": "eventEnd",
+      "priority": 6908,
+      "svtVoiceType": "eventReward",
+      "overwriteName": "育て！ マイ・リトル・ドラゴン 11",
+      "id": ["0_N110", "0_N111", "0_N112"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_109832000/0_N110.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109832000/0_N111.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109832000/0_N112.mp3"],
+      "delay": [0.0, 0.1, 0.1],
+      "face": [1, 0, 13],
+      "conds": [{
+        "condType": "eventEnd",
+        "value": 80511
+      }]
+    }, {
+      "name": "イベントについて 12",
+      "condType": "eventEnd",
+      "priority": 6907,
+      "svtVoiceType": "eventReward",
+      "overwriteName": "育て！ マイ・リトル・ドラゴン 12",
+      "id": ["0_N120", "0_N121", "0_N122"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_109832000/0_N120.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109832000/0_N121.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109832000/0_N122.mp3"],
+      "delay": [0.0, 0.3, 0.1],
+      "face": [7, 11, 1],
+      "conds": [{
+        "condType": "eventEnd",
         "value": 80511
       }]
     }]
