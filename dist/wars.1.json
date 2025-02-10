@@ -109004,6 +109004,15 @@
         "eventId": 80496,
         "startedAt": 1728464400,
         "endedAt": 1729655999
+      }, {
+        "priority": 80525,
+        "condType": "questClear",
+        "condId": 1000822,
+        "closedMessage": "終局特異点をクリア＆霊基再臨2段階目＆絆Lv.4で開放",
+        "overlayClosedMessage": "終局特異点をクリアで開放",
+        "eventId": 80525,
+        "startedAt": 1739178000,
+        "endedAt": 1739764799
       }],
       "phases": [1, 2, 3, 4],
       "phasesWithEnemies": [1, 2, 3, 4],
@@ -109071,6 +109080,16 @@
         "targetId": 1000700,
         "value": 5,
         "closedMessage": "終局特異点をクリア＆霊基再臨4段階目＆絆Lv.5で開放"
+      }],
+      "releaseOverwrites": [{
+        "priority": 80525,
+        "condType": "questClear",
+        "condId": 1000822,
+        "closedMessage": "終局特異点をクリア＆霊基再臨4段階目＆絆Lv.5で開放",
+        "overlayClosedMessage": "終局特異点をクリアで開放",
+        "eventId": 80525,
+        "startedAt": 1739178000,
+        "endedAt": 1739764799
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -135856,6 +135875,34 @@
       "noticeAt": 1738573200,
       "openedAt": 1738573200,
       "closedAt": 1739159999
+    }, {
+      "id": 94140806,
+      "name": "アルターエゴお試しクエスト",
+      "type": "event",
+      "consume": 0,
+      "afterClear": "repeatLast",
+      "recommendLv": "70",
+      "spotId": 999999,
+      "warId": 9999,
+      "gifts": [{
+        "id": 12000,
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 1000011,
+        "closedMessage": "特異点Fクリアで開放可能"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94140806,
+      "noticeAt": 1739178000,
+      "openedAt": 1739178000,
+      "closedAt": 1739764799
     }]
   }]
 }, {
