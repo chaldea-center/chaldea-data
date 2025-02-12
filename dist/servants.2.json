@@ -69354,6 +69354,10 @@
         "2": "https://static.atlasacademy.io/JP/CharaGraph/603100/603100a@2.png",
         "3": "https://static.atlasacademy.io/JP/CharaGraph/603100/603100b@1.png",
         "4": "https://static.atlasacademy.io/JP/CharaGraph/603100/603100b@2.png"
+      },
+      "costume": {
+        "603130": "https://static.atlasacademy.io/JP/CharaGraph/603130/603130a.png",
+        "603140": "https://static.atlasacademy.io/JP/CharaGraph/603140/603140a.png"
       }
     },
     "faces": {
@@ -69362,6 +69366,10 @@
         "2": "https://static.atlasacademy.io/JP/Faces/f_6031001.png",
         "3": "https://static.atlasacademy.io/JP/Faces/f_6031002.png",
         "4": "https://static.atlasacademy.io/JP/Faces/f_6031003.png"
+      },
+      "costume": {
+        "603130": "https://static.atlasacademy.io/JP/Faces/f_6031300.png",
+        "603140": "https://static.atlasacademy.io/JP/Faces/f_6031400.png"
       }
     },
     "narrowFigure": {
@@ -69370,6 +69378,10 @@
         "2": "https://static.atlasacademy.io/JP/NarrowFigure/603100/603100@1.png",
         "3": "https://static.atlasacademy.io/JP/NarrowFigure/603100/603100@2.png",
         "4": "https://static.atlasacademy.io/JP/NarrowFigure/603100/603100_2@0.png"
+      },
+      "costume": {
+        "603130": "https://static.atlasacademy.io/JP/NarrowFigure/603130/603130@0.png",
+        "603140": "https://static.atlasacademy.io/JP/NarrowFigure/603140/603140@0.png"
       }
     },
     "charaFigure": {
@@ -69387,6 +69399,10 @@
         "1098290300": "https://static.atlasacademy.io/JP/CharaFigure/1098290300/1098290300_merged.png",
         "1098290310": "https://static.atlasacademy.io/JP/CharaFigure/1098290310/1098290310_merged.png",
         "1098290320": "https://static.atlasacademy.io/JP/CharaFigure/1098290320/1098290320_merged.png"
+      },
+      "costume": {
+        "603130": "https://static.atlasacademy.io/JP/CharaFigure/6031300/6031300_merged.png",
+        "603140": "https://static.atlasacademy.io/JP/CharaFigure/6031400/6031400_merged.png"
       }
     },
     "commands": {
@@ -69394,6 +69410,10 @@
         "1": "https://static.atlasacademy.io/JP/Servants/Commands/603100/card_servant_1.png",
         "2": "https://static.atlasacademy.io/JP/Servants/Commands/603100/card_servant_2.png",
         "3": "https://static.atlasacademy.io/JP/Servants/Commands/603100/card_servant_3.png"
+      },
+      "costume": {
+        "603130": "https://static.atlasacademy.io/JP/Servants/Commands/603100/card_servant_11.png",
+        "603140": "https://static.atlasacademy.io/JP/Servants/Commands/603100/card_servant_12.png"
       }
     },
     "status": {
@@ -69401,6 +69421,10 @@
         "1": "https://static.atlasacademy.io/JP/Servants/Status/603100/status_servant_1.png",
         "2": "https://static.atlasacademy.io/JP/Servants/Status/603100/status_servant_2.png",
         "3": "https://static.atlasacademy.io/JP/Servants/Status/603100/status_servant_3.png"
+      },
+      "costume": {
+        "603130": "https://static.atlasacademy.io/JP/Servants/Status/603100/status_servant_11.png",
+        "603140": "https://static.atlasacademy.io/JP/Servants/Status/603100/status_servant_12.png"
       }
     },
     "image": {
@@ -69411,6 +69435,10 @@
     "spriteModel": {
       "ascension": {
         "0": "https://static.atlasacademy.io/JP/Servants/603100/manifest.json"
+      },
+      "costume": {
+        "603130": "https://static.atlasacademy.io/JP/Servants/603130/manifest.json",
+        "603140": "https://static.atlasacademy.io/JP/Servants/603140/manifest.json"
       }
     }
   },
@@ -69444,6 +69472,8 @@
     "id": 2040
   }, {
     "id": 2631
+  }, {
+    "id": 2780
   }, {
     "id": 2858
   }, {
@@ -69512,6 +69542,12 @@
     "lvMax": 90
   }],
   "ascensionAdd": {
+    "voicePrefix": {
+      "costume": {
+        "603130": 0,
+        "603140": 0
+      }
+    },
     "lvMax": {
       "ascension": {
         "0": 50,
@@ -69784,7 +69820,40 @@
       "qp": 20000000
     }
   },
-  "costumeMaterials": {},
+  "costumeMaterials": {
+    "603130": {
+      "items": [{
+        "itemId": 6505,
+        "amount": 10
+      }, {
+        "itemId": 6502,
+        "amount": 5
+      }, {
+        "itemId": 6532,
+        "amount": 5
+      }, {
+        "itemId": 6518,
+        "amount": 5
+      }],
+      "qp": 3000000
+    },
+    "603140": {
+      "items": [{
+        "itemId": 6505,
+        "amount": 10
+      }, {
+        "itemId": 6511,
+        "amount": 5
+      }, {
+        "itemId": 6538,
+        "amount": 5
+      }, {
+        "itemId": 6531,
+        "amount": 5
+      }],
+      "qp": 3000000
+    }
+  },
   "coin": {
     "summonNum": 90,
     "item": {
@@ -69955,12 +70024,6 @@
     "id": 940358,
     "extraPassive": [{
       "num": 16,
-      "priority": 214,
-      "eventId": 80507,
-      "startedAt": 1735052400,
-      "endedAt": 1735657199
-    }, {
-      "num": 16,
       "priority": 215,
       "condQuestId": 94138900,
       "condQuestPhase": 4,
@@ -69984,6 +70047,12 @@
       }],
       "startedAt": 1735052400,
       "endedAt": 1735916399
+    }, {
+      "num": 16,
+      "priority": 214,
+      "eventId": 80507,
+      "startedAt": 1735052400,
+      "endedAt": 1735657199
     }]
   }, {
     "id": 940369,
@@ -69993,6 +70062,15 @@
       "eventId": 80511,
       "startedAt": 1736931600,
       "endedAt": 1738727999
+    }]
+  }, {
+    "id": 940371,
+    "extraPassive": [{
+      "num": 16,
+      "priority": 219,
+      "eventId": 80514,
+      "startedAt": 1739350800,
+      "endedAt": 1741147199
     }]
   }, {
     "id": 960502,
@@ -70166,6 +70244,26 @@
       "policy": "chaotic",
       "personality": "balanced",
       "deity": "C"
+    },
+    "costume": {
+      "603130": {
+        "id": 11,
+        "costumeCollectionNo": 121,
+        "battleCharaId": 603130,
+        "name": "簡易霊衣：メガネあり（第二再臨）",
+        "shortName": "メガネあり（第二再臨）",
+        "detail": "メガネをかけた刑部姫\nお姫様オーラをシャットダウン",
+        "priority": 99
+      },
+      "603140": {
+        "id": 12,
+        "costumeCollectionNo": 122,
+        "battleCharaId": 603140,
+        "name": "簡易霊衣：メガネあり（第三再臨）",
+        "shortName": "メガネあり（第三再臨）",
+        "detail": "メガネをかけた刑部姫\n姫様ムーブはしばらくお休み",
+        "priority": 98
+      }
     }
   }
 }, {
@@ -77267,7 +77365,7 @@
   "atkMax": 11309,
   "hpBase": 1945,
   "hpMax": 13266,
-  "relateQuestIds": [91603201, 94035601],
+  "relateQuestIds": [91603201, 94035601, 94140501],
   "growthCurve": 15,
   "bondGrowth": [5000, 20000, 30000, 32000, 50000, 200000, 630000, 970000, 1290000, 1695000, 2785000, 4015000, 5375000, 6875000, 8515000],
   "bondEquip": 9302670,
@@ -77589,7 +77687,17 @@
     "id": 453451,
     "num": 3,
     "svtId": 603200,
+    "strengthStatus": 1,
     "priority": 1,
+    "condLimitCount": 3
+  }, {
+    "id": 453550,
+    "num": 3,
+    "svtId": 603200,
+    "strengthStatus": 99,
+    "priority": 2,
+    "condQuestId": 94140501,
+    "condQuestPhase": 3,
     "condLimitCount": 3
   }],
   "classPassive": [{

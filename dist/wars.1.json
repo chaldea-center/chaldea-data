@@ -95782,6 +95782,46 @@
       "openedAt": 1736154000,
       "closedAt": 1893423600
     }, {
+      "id": 94140501,
+      "name": "強化クエスト セミラミス 2",
+      "type": "event",
+      "flags": ["noDisplayRemain"],
+      "consume": 23,
+      "afterClear": "close",
+      "recommendLv": "90",
+      "spotId": 99001,
+      "warId": 1001,
+      "gifts": [{
+        "id": 94012504,
+        "objectId": 2,
+        "num": 2
+      }, {
+        "id": 94012504,
+        "type": "questRewardIcon",
+        "objectId": 9,
+        "num": 0
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94035601
+      }, {
+        "type": "svtLimit",
+        "targetId": 603200,
+        "value": 4,
+        "closedMessage": "霊基再臨{0}段階目で開放"
+      }, {
+        "type": "svtGet",
+        "targetId": 603200
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1, 2, 3],
+      "priority": 94140756,
+      "noticeAt": 1739350800,
+      "openedAt": 1739350800,
+      "closedAt": 1893423600
+    }, {
       "id": 94140750,
       "name": "強化クエスト カーマ",
       "type": "event",

@@ -85334,4 +85334,467 @@
       "closedAt": 1735657199
     }]
   }]
+}, {
+  "id": 8392,
+  "coordinates": [
+    [],
+    []
+  ],
+  "age": "-",
+  "name": "バレンタイン2025",
+  "longName": "バレンタイン2025",
+  "flags": ["isEvent", "noClearMarkWithComplete"],
+  "banner": "https://static.atlasacademy.io/JP/Banner/event_war_80497.png",
+  "priority": 10003,
+  "bgm": {
+    "id": 0
+  },
+  "script": "https://static.atlasacademy.io/JP/Script/Common/NONE.txt",
+  "eventId": 80514,
+  "eventName": "小野小町古今抄 ～雪消月のキラキラ蓮華～",
+  "warAdds": [{
+    "warId": 8392,
+    "type": "bgImage",
+    "priority": 1,
+    "overwriteId": 203800,
+    "condType": "questClearPhase",
+    "targetId": 94140201,
+    "value": 1,
+    "startedAt": 1739350800,
+    "endedAt": 1741147199
+  }],
+  "maps": [{
+    "id": 8392,
+    "mapImage": "https://static.atlasacademy.io/JP/Terminal/MapImgs/img_questmap_008392/img_questmap_008392.png",
+    "bgm": {
+      "id": 0
+    }
+  }],
+  "spots": [{
+    "id": 839201,
+    "mapId": 8392,
+    "name": "カルデアゲート",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter8392/QMap_Cap8392_Atlas/spot_838801.png",
+    "quests": [{
+      "id": 94140201,
+      "name": "第1節『夢と知りせば』",
+      "type": "main",
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "15",
+      "spotId": 839201,
+      "warId": 8392,
+      "gifts": [{
+        "id": 94140207,
+        "type": "servant",
+        "objectId": 9408360,
+        "num": 1
+      }, {
+        "id": 94140207,
+        "objectId": 94140301,
+        "num": 1
+      }, {
+        "id": 94140207,
+        "objectId": 94140302,
+        "num": 1
+      }, {
+        "id": 94140207,
+        "objectId": 94140303,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 1000011
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1, 2, 3, 4],
+      "phasesWithEnemies": [3, 4],
+      "phasesNoBattle": [1, 2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9414020110",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414020110.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9414020120",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414020120.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9414020130",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414020130.txt"
+        }]
+      }, {
+        "phase": 4,
+        "scripts": [{
+          "scriptId": "9414020140",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414020140.txt"
+        }, {
+          "scriptId": "9414020141",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414020141.txt"
+        }]
+      }],
+      "priority": 94140498,
+      "noticeAt": 1739350800,
+      "openedAt": 1739350800,
+      "closedAt": 1741147199
+    }, {
+      "id": 94140202,
+      "name": "第2節『胸走り火に』",
+      "type": "main",
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "25",
+      "spotId": 839201,
+      "warId": 8392,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94140201
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "2月13日18時00分以降に開放"
+      }, {
+        "type": "eventTotalPoint",
+        "targetId": 80514,
+        "value": 25000,
+        "closedMessage": "きらめきポイント25,000以上\n＆2月13日18時00分以降に開放"
+      }],
+      "phases": [1, 2, 3],
+      "phasesNoBattle": [1, 3],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9414020210",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414020210.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9414020220",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414020220.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9414020230",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414020230.txt"
+        }]
+      }],
+      "priority": 94140497,
+      "noticeAt": 1739350800,
+      "openedAt": 1739437200,
+      "closedAt": 1741147199
+    }, {
+      "id": 94140301,
+      "name": "きらめき探索絵巻『錬金術師が恋をテーマに研究してみた』",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 30,
+      "afterClear": "repeatLast",
+      "recommendLv": "15",
+      "spotId": 839201,
+      "warId": 8392,
+      "gifts": [{
+        "id": 14000,
+        "objectId": 102,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94140201
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "priority": 94140298,
+      "noticeAt": 1739350800,
+      "openedAt": 1739350800,
+      "closedAt": 1741147199
+    }, {
+      "id": 94140302,
+      "name": "きらめき探索絵巻『疾風大名』",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 35,
+      "afterClear": "repeatLast",
+      "recommendLv": "25",
+      "spotId": 839201,
+      "warId": 8392,
+      "gifts": [{
+        "id": 14000,
+        "objectId": 102,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94140201
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "priority": 94140297,
+      "noticeAt": 1739350800,
+      "openedAt": 1739350800,
+      "closedAt": 1741147199
+    }, {
+      "id": 94140303,
+      "name": "きらめき探索絵巻『誠耀く』",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "40",
+      "spotId": 839201,
+      "warId": 8392,
+      "gifts": [{
+        "id": 13000,
+        "objectId": 101,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94140201
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "priority": 94140296,
+      "noticeAt": 1739350800,
+      "openedAt": 1739350800,
+      "closedAt": 1741147199
+    }, {
+      "id": 94140304,
+      "name": "きらめき探索絵巻『ラヴとナイフ』",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "50",
+      "spotId": 839201,
+      "warId": 8392,
+      "gifts": [{
+        "id": 13000,
+        "objectId": 101,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94140201
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "priority": 94140295,
+      "noticeAt": 1739350800,
+      "openedAt": 1739350800,
+      "closedAt": 1741147199
+    }, {
+      "id": 94140305,
+      "name": "きらめき探索絵巻『人理に残る妖女になったわ』",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "60",
+      "spotId": 839201,
+      "warId": 8392,
+      "gifts": [{
+        "id": 13000,
+        "objectId": 101,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94140201
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "priority": 94140294,
+      "noticeAt": 1739350800,
+      "openedAt": 1739350800,
+      "closedAt": 1741147199
+    }, {
+      "id": 94140306,
+      "name": "きらめき探索絵巻『神様してます』",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "70",
+      "spotId": 839201,
+      "warId": 8392,
+      "gifts": [{
+        "id": 12000,
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94140201
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "priority": 94140293,
+      "noticeAt": 1739350800,
+      "openedAt": 1739350800,
+      "closedAt": 1741147199
+    }, {
+      "id": 94140307,
+      "name": "きらめき探索絵巻『花より愉悦』",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "80",
+      "spotId": 839201,
+      "warId": 8392,
+      "gifts": [{
+        "id": 12000,
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94140201
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94140292,
+      "noticeAt": 1739350800,
+      "openedAt": 1739350800,
+      "closedAt": 1741147199
+    }, {
+      "id": 94140308,
+      "name": "きらめき探索絵巻『かぐわしの喝采の華』",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90",
+      "spotId": 839201,
+      "warId": 8392,
+      "gifts": [{
+        "id": 12000,
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94140201
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94140291,
+      "noticeAt": 1739350800,
+      "openedAt": 1739350800,
+      "closedAt": 1741147199
+    }, {
+      "id": 94140309,
+      "name": "",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90+",
+      "spotId": 839201,
+      "warId": 8392,
+      "gifts": [{
+        "id": 327,
+        "objectId": 3,
+        "num": 100
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94140201
+      }, {
+        "type": "questClear",
+        "targetId": 94140207,
+        "closedMessage": "エピローグクリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "エピローグクリア\n＆2月17日18時00分以降に開放"
+      }, {
+        "type": "forceFalse",
+        "targetId": 0,
+        "closedMessage": "データ更新後に開放"
+      }],
+      "phases": [1],
+      "priority": 94140290,
+      "noticeAt": 1739350800,
+      "openedAt": 1739782800,
+      "closedAt": 1741147199
+    }, {
+      "id": 94140310,
+      "name": "",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90++",
+      "spotId": 839201,
+      "warId": 8392,
+      "gifts": [{
+        "id": 337,
+        "objectId": 3,
+        "num": 200
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94140201
+      }, {
+        "type": "questClear",
+        "targetId": 94140207,
+        "closedMessage": "エピローグクリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "エピローグクリア\n＆2月17日18時00分以降に開放"
+      }, {
+        "type": "forceFalse",
+        "targetId": 0,
+        "closedMessage": "データ更新後に開放"
+      }],
+      "phases": [1],
+      "priority": 94140289,
+      "noticeAt": 1739350800,
+      "openedAt": 1739782800,
+      "closedAt": 1741147199
+    }]
+  }]
 }]
