@@ -150,14 +150,14 @@
       "maxRate": [10000]
     },
     "selfdamage": {
-      "limit": "upper",
+      "limit": "lower",
       "plusTypes": ["upSelfdamage"],
       "minusTypes": ["downSelfdamage"],
       "baseParam": 1000,
       "baseValue": 1000,
       "isRec": true,
       "plusAction": 0,
-      "maxRate": [5000]
+      "maxRate": []
     },
     "criticalDamage": {
       "limit": "upper",
@@ -301,8 +301,8 @@
     },
     "commandNpDef": {
       "limit": "upper",
-      "plusTypes": ["upDefencecommandall"],
-      "minusTypes": ["downDefencecommandall"],
+      "plusTypes": ["upDefencecommandall", "upDefenceCommandnp"],
+      "minusTypes": ["downDefencecommandall", "downDefenceCommandnp"],
       "baseParam": 1000,
       "baseValue": 0,
       "isRec": true,
@@ -332,7 +332,7 @@
     "commandStarAtk": {
       "limit": "normal",
       "plusTypes": ["upCommandstar", "upCommandall"],
-      "minusTypes": ["downCommanstar", "downCommandall"],
+      "minusTypes": ["downCommandstar", "downCommandall"],
       "baseParam": 1000,
       "baseValue": 0,
       "isRec": true,
@@ -341,8 +341,8 @@
     },
     "commandStarDef": {
       "limit": "upper",
-      "plusTypes": ["upDefencecommandall"],
-      "minusTypes": ["downDefencecommandall"],
+      "plusTypes": ["upDefencecommandall", "upDefenceCommandstar"],
+      "minusTypes": ["downDefencecommandall", "downDefenceCommandstar"],
       "baseParam": 1000,
       "baseValue": 0,
       "isRec": true,
@@ -1548,6 +1548,26 @@
       "isRec": true,
       "plusAction": 0,
       "maxRate": [0]
+    },
+    "criticalDamageDef": {
+      "limit": "lower",
+      "plusTypes": ["upDefenceCriticaldamage"],
+      "minusTypes": ["downDefenceCriticaldamage"],
+      "baseParam": 1000,
+      "baseValue": 1000,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": []
+    },
+    "npdamageDef": {
+      "limit": "lower",
+      "plusTypes": ["upDefenceNpdamage"],
+      "minusTypes": ["downDefenceNpdamage"],
+      "baseParam": 1000,
+      "baseValue": 1000,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": []
     }
   },
   "classInfo": {
