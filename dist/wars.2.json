@@ -85473,6 +85473,7 @@
         "closedMessage": "きらめきポイント25,000以上\n＆2月13日18時00分以降に開放"
       }],
       "phases": [1, 2, 3],
+      "phasesWithEnemies": [2],
       "phasesNoBattle": [1, 3],
       "phaseScripts": [{
         "phase": 1,
@@ -85496,6 +85497,42 @@
       "priority": 94140497,
       "noticeAt": 1739350800,
       "openedAt": 1739437200,
+      "closedAt": 1741147199
+    }, {
+      "id": 94140203,
+      "name": "",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "30",
+      "spotId": 839201,
+      "warId": 8392,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94140202
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "2月14日18時00分以降に開放"
+      }, {
+        "type": "eventTotalPoint",
+        "targetId": 80514,
+        "value": 60000,
+        "closedMessage": "きらめきポイント60,000以上\n＆2月14日18時00分以降に開放"
+      }, {
+        "type": "forceFalse",
+        "targetId": 0,
+        "closedMessage": "データ更新後に開放"
+      }],
+      "phases": [1, 2],
+      "priority": 94140496,
+      "noticeAt": 1739437200,
+      "openedAt": 1739523600,
       "closedAt": 1741147199
     }, {
       "id": 94140301,
