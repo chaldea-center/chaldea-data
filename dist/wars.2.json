@@ -85500,7 +85500,7 @@
       "closedAt": 1741147199
     }, {
       "id": 94140203,
-      "name": "",
+      "name": "第3節『君が来ぬ夜は』",
       "type": "main",
       "consume": 5,
       "afterClear": "close",
@@ -85513,6 +85513,9 @@
         "num": 1
       }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 94140202
       }, {
@@ -85524,15 +85527,65 @@
         "targetId": 80514,
         "value": 60000,
         "closedMessage": "きらめきポイント60,000以上\n＆2月14日18時00分以降に開放"
+      }],
+      "phases": [1, 2],
+      "phasesWithEnemies": [1, 2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9414020310",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414020310.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9414020320",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414020320.txt"
+        }, {
+          "scriptId": "9414020321",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414020321.txt"
+        }]
+      }],
+      "priority": 94140496,
+      "noticeAt": 1739437200,
+      "openedAt": 1739523600,
+      "closedAt": 1741147199
+    }, {
+      "id": 94140204,
+      "name": "",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "40",
+      "spotId": 839201,
+      "warId": 8392,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94140203
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "2月15日18時00分以降に開放"
+      }, {
+        "type": "eventTotalPoint",
+        "targetId": 80514,
+        "value": 100000,
+        "closedMessage": "きらめきポイント100,000以上\n＆2月15日18時00分以降に開放"
       }, {
         "type": "forceFalse",
         "targetId": 0,
         "closedMessage": "データ更新後に開放"
       }],
-      "phases": [1, 2],
-      "priority": 94140496,
-      "noticeAt": 1739437200,
-      "openedAt": 1739523600,
+      "phases": [1, 2, 3],
+      "phasesNoBattle": [3],
+      "priority": 94140495,
+      "noticeAt": 1739523600,
+      "openedAt": 1739610000,
       "closedAt": 1741147199
     }, {
       "id": 94140301,
