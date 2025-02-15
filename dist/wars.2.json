@@ -85341,8 +85341,8 @@
     []
   ],
   "age": "-",
-  "name": "バレンタイン2025",
-  "longName": "バレンタイン2025",
+  "name": "小野小町古今抄",
+  "longName": "小野小町古今抄 ～雪消月のキラキラ蓮華～",
   "flags": ["isEvent", "noClearMarkWithComplete"],
   "banner": "https://static.atlasacademy.io/JP/Banner/event_war_80497.png",
   "priority": 10003,
@@ -85552,7 +85552,7 @@
       "closedAt": 1741147199
     }, {
       "id": 94140204,
-      "name": "",
+      "name": "第4節『花の色はうつりにけりな』",
       "type": "main",
       "consume": 5,
       "afterClear": "close",
@@ -85565,6 +85565,9 @@
         "num": 1
       }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 94140203
       }, {
@@ -85576,16 +85579,69 @@
         "targetId": 80514,
         "value": 100000,
         "closedMessage": "きらめきポイント100,000以上\n＆2月15日18時00分以降に開放"
+      }],
+      "phases": [1, 2, 3],
+      "phasesWithEnemies": [1, 2],
+      "phasesNoBattle": [3],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9414020410",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414020410.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9414020420",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414020420.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9414020430",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414020430.txt"
+        }]
+      }],
+      "priority": 94140495,
+      "noticeAt": 1739523600,
+      "openedAt": 1739610000,
+      "closedAt": 1741147199
+    }, {
+      "id": 94140205,
+      "name": "",
+      "type": "main",
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "50",
+      "spotId": 839201,
+      "warId": 8392,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94140204
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "2月16日18時00分以降に開放"
+      }, {
+        "type": "eventTotalPoint",
+        "targetId": 80514,
+        "value": 200000,
+        "closedMessage": "きらめきポイント200,000以上\n＆2月16日18時00分以降に開放"
       }, {
         "type": "forceFalse",
         "targetId": 0,
         "closedMessage": "データ更新後に開放"
       }],
-      "phases": [1, 2, 3],
-      "phasesNoBattle": [3],
-      "priority": 94140495,
-      "noticeAt": 1739523600,
-      "openedAt": 1739610000,
+      "phases": [1, 2],
+      "phasesNoBattle": [1],
+      "priority": 94140494,
+      "noticeAt": 1739610000,
+      "openedAt": 1739696400,
       "closedAt": 1741147199
     }, {
       "id": 94140301,
