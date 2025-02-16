@@ -85608,7 +85608,7 @@
       "closedAt": 1741147199
     }, {
       "id": 94140205,
-      "name": "",
+      "name": "第5節『あなめあなめ』",
       "type": "main",
       "consume": 0,
       "afterClear": "close",
@@ -85621,6 +85621,9 @@
         "num": 1
       }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 94140204
       }, {
@@ -85632,16 +85635,66 @@
         "targetId": 80514,
         "value": 200000,
         "closedMessage": "きらめきポイント200,000以上\n＆2月16日18時00分以降に開放"
+      }],
+      "phases": [1, 2],
+      "phasesWithEnemies": [2],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9414020510",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414020510.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9414020520",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414020520.txt"
+        }, {
+          "scriptId": "9414020521",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414020521.txt"
+        }]
+      }],
+      "priority": 94140494,
+      "noticeAt": 1739610000,
+      "openedAt": 1739696400,
+      "closedAt": 1741147199
+    }, {
+      "id": 94140206,
+      "name": "",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "60",
+      "spotId": 839201,
+      "warId": 8392,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94140205
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "2月17日18時00分以降に開放"
+      }, {
+        "type": "eventTotalPoint",
+        "targetId": 80514,
+        "value": 310000,
+        "closedMessage": "きらめきポイント310,000以上\n＆2月17日18時00分以降に開放"
       }, {
         "type": "forceFalse",
         "targetId": 0,
         "closedMessage": "データ更新後に開放"
       }],
       "phases": [1, 2],
-      "phasesNoBattle": [1],
-      "priority": 94140494,
-      "noticeAt": 1739610000,
-      "openedAt": 1739696400,
+      "phasesNoBattle": [2],
+      "priority": 94140493,
+      "noticeAt": 1739696400,
+      "openedAt": 1739782800,
       "closedAt": 1741147199
     }, {
       "id": 94140301,
