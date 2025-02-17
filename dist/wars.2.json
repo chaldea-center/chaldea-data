@@ -59887,6 +59887,15 @@
         "eventId": 80398,
         "startedAt": 1662541200,
         "endedAt": 1663127999
+      }, {
+        "priority": 80525,
+        "condType": "questClear",
+        "condId": 1000822,
+        "closedMessage": "終局特異点をクリア＆絆Lv.3で開放",
+        "overlayClosedMessage": "終局特異点をクリアで開放",
+        "eventId": 80525,
+        "startedAt": 1739782800,
+        "endedAt": 1740369599
       }],
       "phases": [1, 2],
       "phasesWithEnemies": [1, 2],
@@ -60218,6 +60227,15 @@
         "eventId": 80398,
         "startedAt": 1662541200,
         "endedAt": 1663127999
+      }, {
+        "priority": 80525,
+        "condType": "questClear",
+        "condId": 1000314,
+        "closedMessage": "第三特異点をクリア＆霊基再臨1段階目＆絆Lv.2で開放",
+        "overlayClosedMessage": "第三特異点をクリアで開放",
+        "eventId": 80525,
+        "startedAt": 1739782800,
+        "endedAt": 1740369599
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -62592,6 +62610,15 @@
         "eventId": 80497,
         "startedAt": 1727773200,
         "endedAt": 1730386799
+      }, {
+        "priority": 80525,
+        "condType": "questClear",
+        "condId": 1000314,
+        "closedMessage": "第三特異点をクリア＆霊基再臨1段階目＆絆Lv.3で開放",
+        "overlayClosedMessage": "第三特異点をクリアで開放",
+        "eventId": 80525,
+        "startedAt": 1739782800,
+        "endedAt": 1740369599
       }],
       "phases": [1, 2, 3],
       "phasesWithEnemies": [1, 2, 3],
@@ -85661,7 +85688,7 @@
       "closedAt": 1741147199
     }, {
       "id": 94140206,
-      "name": "",
+      "name": "第6節『小野とは言はじ』",
       "type": "main",
       "consume": 5,
       "afterClear": "close",
@@ -85674,6 +85701,9 @@
         "num": 1
       }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 94140205
       }, {
@@ -85685,15 +85715,73 @@
         "targetId": 80514,
         "value": 310000,
         "closedMessage": "きらめきポイント310,000以上\n＆2月17日18時00分以降に開放"
-      }, {
-        "type": "forceFalse",
-        "targetId": 0,
-        "closedMessage": "データ更新後に開放"
       }],
       "phases": [1, 2],
+      "phasesWithEnemies": [1],
       "phasesNoBattle": [2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9414020610",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414020610.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9414020620",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414020620.txt"
+        }]
+      }],
       "priority": 94140493,
       "noticeAt": 1739696400,
+      "openedAt": 1739782800,
+      "closedAt": 1741147199
+    }, {
+      "id": 94140207,
+      "name": "エピローグ『しづく花の色さやかにも』",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "55",
+      "spotId": 839201,
+      "warId": 8392,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/3.png",
+      "gifts": [{
+        "id": 94140208,
+        "type": "servant",
+        "objectId": 9809560,
+        "num": 1
+      }, {
+        "id": 94140208,
+        "objectId": 7999,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94140206
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1, 2],
+      "phasesWithEnemies": [1],
+      "phasesNoBattle": [2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9414020710",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414020710.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9414020720",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414020720.txt"
+        }]
+      }],
+      "priority": 94140492,
+      "noticeAt": 1739782800,
       "openedAt": 1739782800,
       "closedAt": 1741147199
     }, {
@@ -85930,7 +86018,7 @@
       "closedAt": 1741147199
     }, {
       "id": 94140309,
-      "name": "",
+      "name": "きらめき探索絵巻『私の幸せな日常』",
       "type": "event",
       "flags": ["displayLoopmark"],
       "consume": 40,
@@ -85944,6 +86032,9 @@
         "num": 100
       }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 94140201
       }, {
@@ -85954,10 +86045,6 @@
         "type": "date",
         "targetId": 0,
         "closedMessage": "エピローグクリア\n＆2月17日18時00分以降に開放"
-      }, {
-        "type": "forceFalse",
-        "targetId": 0,
-        "closedMessage": "データ更新後に開放"
       }],
       "phases": [1],
       "priority": 94140290,
@@ -85966,7 +86053,7 @@
       "closedAt": 1741147199
     }, {
       "id": 94140310,
-      "name": "",
+      "name": "きらめき探索絵巻『ウサギの仮面』",
       "type": "event",
       "flags": ["displayLoopmark"],
       "consume": 40,
@@ -85980,6 +86067,9 @@
         "num": 200
       }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 94140201
       }, {
@@ -85990,15 +86080,43 @@
         "type": "date",
         "targetId": 0,
         "closedMessage": "エピローグクリア\n＆2月17日18時00分以降に開放"
-      }, {
-        "type": "forceFalse",
-        "targetId": 0,
-        "closedMessage": "データ更新後に開放"
       }],
       "phases": [1],
       "priority": 94140289,
       "noticeAt": 1739350800,
       "openedAt": 1739782800,
+      "closedAt": 1741147199
+    }, {
+      "id": 94140401,
+      "name": "【高難易度】むすめふさほせ",
+      "type": "event",
+      "flags": ["dropFirstTimeOnly", "notRetrievable", "notDisplayResultGetPoint"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "90+",
+      "spotId": 839201,
+      "warId": 8392,
+      "gifts": [{
+        "id": 21701,
+        "objectId": 6999,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 1000822,
+        "closedMessage": "終局特異点クリア\n＆2月18日18時00分以降に開放"
+      }, {
+        "type": "questClear",
+        "targetId": 94140207
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "2月18日18時00分以降に開放"
+      }],
+      "phases": [1],
+      "priority": 94140398,
+      "noticeAt": 1739782800,
+      "openedAt": 1739869200,
       "closedAt": 1741147199
     }]
   }]
