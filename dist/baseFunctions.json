@@ -8767,6 +8767,8 @@
     "type": "upDamagedropnp",
     "vals": [{
       "id": 3004
+    }, {
+      "id": 3084
     }],
     "maxRate": 5000
   }]
@@ -8785,6 +8787,8 @@
     "type": "upDamagedropnp",
     "vals": [{
       "id": 3004
+    }, {
+      "id": 3084
     }],
     "maxRate": 5000
   }]
@@ -10546,6 +10550,8 @@
     "type": "upDamagedropnp",
     "vals": [{
       "id": 3004
+    }, {
+      "id": 3084
     }],
     "maxRate": 5000
   }]
@@ -20337,6 +20343,12 @@
               "damageRate": 1000,
               "type": "overwriteMoreThanTarget"
             }
+          },
+          "39": {
+            "caster": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            }
           }
         }
       }
@@ -21221,6 +21233,24 @@
               "type": "overwriteMoreThanTarget"
             },
             "foreigner": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "pretender": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            }
+          },
+          "39": {
+            "lancer": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "caster": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "moonCancer": {
               "damageRate": 1000,
               "type": "overwriteMoreThanTarget"
             },
@@ -23650,6 +23680,8 @@
     "type": "downCriticalRateDamageTaken",
     "vals": [{
       "id": 3004
+    }, {
+      "id": 3113
     }],
     "maxRate": 5000
   }]
@@ -24713,6 +24745,8 @@
     "type": "downCriticalRateDamageTaken",
     "vals": [{
       "id": 3004
+    }, {
+      "id": 3113
     }],
     "maxRate": 5000
   }]
@@ -24731,6 +24765,8 @@
     "type": "downCriticalRateDamageTaken",
     "vals": [{
       "id": 3004
+    }, {
+      "id": 3113
     }],
     "maxRate": 5000
   }]
@@ -30286,6 +30322,8 @@
     "type": "downCriticalRateDamageTaken",
     "vals": [{
       "id": 3004
+    }, {
+      "id": 3113
     }],
     "maxRate": 5000
   }]
@@ -47082,76 +47120,6 @@
     "id": 2911
   }]
 }, {
-  "funcId": 21675,
-  "funcType": "addState",
-  "funcTargetType": "self",
-  "funcTargetTeam": "playerAndEnemy",
-  "buffs": [{
-    "id": 5598,
-    "name": "",
-    "detail": "",
-    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_520.png",
-    "type": "overwriteSubattribute",
-    "buffGroup": 2000,
-    "script": {
-      "INDIVIDUALITIE": {
-        "id": 2903
-      }
-    },
-    "originalScript": {
-      "INDIVIDUALITIE": 2903
-    },
-    "vals": [{
-      "id": 3095
-    }]
-  }]
-}, {
-  "funcId": 21676,
-  "funcType": "addState",
-  "funcTargetType": "self",
-  "funcTargetTeam": "playerAndEnemy",
-  "buffs": [{
-    "id": 5599,
-    "name": "",
-    "detail": "",
-    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_520.png",
-    "type": "addIndividuality",
-    "script": {
-      "INDIVIDUALITIE": {
-        "id": 2903
-      }
-    },
-    "originalScript": {
-      "INDIVIDUALITIE": 2903
-    },
-    "vals": [{
-      "id": 3095
-    }]
-  }]
-}, {
-  "funcId": 21677,
-  "funcType": "addState",
-  "funcTargetType": "self",
-  "funcTargetTeam": "playerAndEnemy",
-  "buffs": [{
-    "id": 5600,
-    "name": "",
-    "detail": "",
-    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_520.png",
-    "type": "subIndividuality",
-    "script": {
-      "INDIVIDUALITIE": {
-        "id": 2903
-      }
-    },
-    "originalScript": {
-      "INDIVIDUALITIE": 2903
-    },
-    "vals": [{
-      "id": 3095
-    }]
-  }]
-}, {
   "funcId": 21678,
   "funcType": "addState",
   "funcTargetType": "self",
@@ -53957,6 +53925,8 @@
       "id": 128
     }, {
       "id": 129
+    }, {
+      "id": 130
     }],
     "ckOpIndv": [{
       "id": 107
@@ -54002,6 +53972,8 @@
       "id": 128
     }, {
       "id": 129
+    }, {
+      "id": 130
     }],
     "maxRate": 5000
   }]
