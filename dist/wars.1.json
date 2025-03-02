@@ -80037,6 +80037,7 @@
         "closedMessage": "「第10節 進行度1 リコレクションクエスト」クリア\n＆3月2日18時00分以降に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "phaseScripts": [{
         "phase": 1,
         "scripts": [{
@@ -80050,6 +80051,86 @@
       "priority": 94143098,
       "noticeAt": 1740819600,
       "openedAt": 1740906000,
+      "closedAt": 1743433199
+    }, {
+      "id": 94143204,
+      "name": "第19節 進行度6 スーパーリコレクションクエスト(2/3)",
+      "type": "event",
+      "flags": ["dropFirstTimeOnly", "actConsumeBattleWin", "notRetrievable", "recollection"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "90++",
+      "spotId": 40401,
+      "warId": 404,
+      "gifts": [{
+        "id": 327,
+        "objectId": 3,
+        "num": 100
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000426
+      }, {
+        "type": "questClear",
+        "targetId": 94143203,
+        "closedMessage": "「第19節 進行度6 リコレクションクエスト」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9414320410",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414320410.txt"
+        }, {
+          "scriptId": "9414320411",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414320411.txt"
+        }]
+      }],
+      "priority": 94143097,
+      "noticeAt": 1740906000,
+      "openedAt": 1740906000,
+      "closedAt": 1743433199
+    }, {
+      "id": 94143205,
+      "name": "第21節 進行度2 リコレクションクエスト(3/3)",
+      "type": "event",
+      "flags": ["dropFirstTimeOnly", "actConsumeBattleWin", "notRetrievable", "recollection"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "85",
+      "spotId": 40401,
+      "warId": 404,
+      "gifts": [{
+        "id": 12000,
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000426
+      }, {
+        "type": "questClear",
+        "targetId": 94143203,
+        "closedMessage": "「第19節 進行度6 リコレクションクエスト」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "「第19節 進行度6 リコレクションクエスト」クリア\n＆3月3日18時00分以降に開放"
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9414320510",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414320510.txt"
+        }]
+      }],
+      "priority": 94143096,
+      "noticeAt": 1740906000,
+      "openedAt": 1740992400,
       "closedAt": 1743433199
     }]
   }, {
