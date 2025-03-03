@@ -80122,6 +80122,7 @@
         "closedMessage": "「第19節 進行度6 リコレクションクエスト」クリア\n＆3月3日18時00分以降に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "phaseScripts": [{
         "phase": 1,
         "scripts": [{
@@ -80131,6 +80132,44 @@
       }],
       "priority": 94143096,
       "noticeAt": 1740906000,
+      "openedAt": 1740992400,
+      "closedAt": 1743433199
+    }, {
+      "id": 94143206,
+      "name": "第21節 進行度2 スーパーリコレクションクエスト(3/3)",
+      "type": "event",
+      "flags": ["dropFirstTimeOnly", "actConsumeBattleWin", "notRetrievable", "recollection"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "90++",
+      "spotId": 40401,
+      "warId": 404,
+      "gifts": [{
+        "id": 327,
+        "objectId": 3,
+        "num": 100
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000426
+      }, {
+        "type": "questClear",
+        "targetId": 94143205,
+        "closedMessage": "「第21節 進行度2 リコレクションクエスト」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9414320610",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414320610.txt"
+        }]
+      }],
+      "priority": 94143095,
+      "noticeAt": 1740992400,
       "openedAt": 1740992400,
       "closedAt": 1743433199
     }]
@@ -110109,6 +110148,15 @@
         "eventId": 80524,
         "startedAt": 1738400400,
         "endedAt": 1740754799
+      }, {
+        "priority": 80532,
+        "condType": "questClear",
+        "condId": 1000822,
+        "closedMessage": "終局特異点をクリア＆霊基再臨3段階目＆絆Lv.5で開放",
+        "overlayClosedMessage": "終局特異点をクリアで開放",
+        "eventId": 80532,
+        "startedAt": 1740992400,
+        "endedAt": 1741579199
       }],
       "phases": [1, 2],
       "phasesWithEnemies": [1, 2],
@@ -110189,6 +110237,23 @@
         "eventId": 80524,
         "startedAt": 1738400400,
         "endedAt": 1740754799
+      }, {
+        "priority": 80532,
+        "condType": "questClear",
+        "condId": 3001101,
+        "closedMessage": "非霊長生存圏をクリア＆霊基再臨3段階目＆絆Lv.5で開放",
+        "overlayClosedMessage": "一つ前の幕間の物語をクリア＆非霊長生存圏をクリアで開放",
+        "eventId": 80532,
+        "startedAt": 1740992400,
+        "endedAt": 1741579199
+      }, {
+        "priority": 80532,
+        "condType": "questClear",
+        "condId": 911100201,
+        "overlayClosedMessage": "一つ前の幕間の物語をクリア＆非霊長生存圏をクリアで開放",
+        "eventId": 80532,
+        "startedAt": 1740992400,
+        "endedAt": 1741579199
       }],
       "phases": [1, 2, 3, 4],
       "phasesWithEnemies": [2, 3],
@@ -110274,6 +110339,15 @@
         "eventId": 80524,
         "startedAt": 1738400400,
         "endedAt": 1740754799
+      }, {
+        "priority": 80532,
+        "condType": "questClear",
+        "condId": 1000722,
+        "closedMessage": "第七特異点をクリア＆霊基再臨2段階目＆絆Lv.2で開放",
+        "overlayClosedMessage": "第七特異点をクリアで開放",
+        "eventId": 80532,
+        "startedAt": 1740992400,
+        "endedAt": 1741579199
       }],
       "phases": [1, 2, 3],
       "phasesWithEnemies": [1, 2, 3],
@@ -110377,6 +110451,23 @@
         "eventId": 80524,
         "startedAt": 1738400400,
         "endedAt": 1740754799
+      }, {
+        "priority": 80532,
+        "condType": "questClear",
+        "condId": 2000118,
+        "closedMessage": "亜種特異点Ⅰをクリア＆霊基再臨4段階目＆絆Lv.5で開放",
+        "overlayClosedMessage": "一つ前の幕間の物語をクリア＆亜種特異点Ⅰをクリアで開放",
+        "eventId": 80532,
+        "startedAt": 1740992400,
+        "endedAt": 1741579199
+      }, {
+        "priority": 80532,
+        "condType": "questClear",
+        "condId": 911100301,
+        "overlayClosedMessage": "一つ前の幕間の物語をクリア＆亜種特異点Ⅰをクリアで開放",
+        "eventId": 80532,
+        "startedAt": 1740992400,
+        "endedAt": 1741579199
       }],
       "phases": [1, 2, 3],
       "phasesWithEnemies": [1, 2, 3],
@@ -110445,6 +110536,15 @@
         "eventId": 80524,
         "startedAt": 1738400400,
         "endedAt": 1740754799
+      }, {
+        "priority": 80532,
+        "condType": "questClear",
+        "condId": 1000722,
+        "closedMessage": "第七特異点をクリア＆霊基再臨3段階目＆絆Lv.5で開放",
+        "overlayClosedMessage": "第七特異点をクリアで開放",
+        "eventId": 80532,
+        "startedAt": 1740992400,
+        "endedAt": 1741579199
       }],
       "phases": [1, 2],
       "phasesWithEnemies": [1, 2],
@@ -110510,6 +110610,15 @@
         "eventId": 80524,
         "startedAt": 1738400400,
         "endedAt": 1740754799
+      }, {
+        "priority": 80532,
+        "condType": "questClear",
+        "condId": 2000118,
+        "closedMessage": "亜種特異点Ⅰをクリア＆霊基再臨3段階目＆絆Lv.5で開放",
+        "overlayClosedMessage": "亜種特異点Ⅰをクリアで開放",
+        "eventId": 80532,
+        "startedAt": 1740992400,
+        "endedAt": 1741579199
       }],
       "phases": [1, 2, 3],
       "phasesWithEnemies": [1, 2, 3],
@@ -110584,6 +110693,15 @@
         "eventId": 80524,
         "startedAt": 1738400400,
         "endedAt": 1740754799
+      }, {
+        "priority": 80532,
+        "condType": "questClear",
+        "condId": 3000303,
+        "closedMessage": "Lostbelt No.3 プロローグをクリア＆霊基再臨4段階目＆絆Lv.5で開放",
+        "overlayClosedMessage": "Lostbelt No.3 プロローグをクリアで開放",
+        "eventId": 80532,
+        "startedAt": 1740992400,
+        "endedAt": 1741579199
       }],
       "phases": [1, 2, 3],
       "phasesWithEnemies": [1, 2, 3],
@@ -136908,6 +137026,34 @@
       "noticeAt": 1740387600,
       "openedAt": 1740387600,
       "closedAt": 1740974399
+    }, {
+      "id": 94140809,
+      "name": "アヴェンジャーお試しクエスト",
+      "type": "event",
+      "consume": 0,
+      "afterClear": "repeatLast",
+      "recommendLv": "70",
+      "spotId": 999999,
+      "warId": 9999,
+      "gifts": [{
+        "id": 12000,
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 1000011,
+        "closedMessage": "特異点Fクリアで開放可能"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94140809,
+      "noticeAt": 1740992400,
+      "openedAt": 1740992400,
+      "closedAt": 1741579199
     }]
   }]
 }, {
