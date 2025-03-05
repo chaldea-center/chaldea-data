@@ -86195,4 +86195,376 @@
       "closedAt": 1741147199
     }]
   }]
+}, {
+  "id": 8393,
+  "coordinates": [
+    [],
+    []
+  ],
+  "age": "-",
+  "name": "CBC2025 彼の名はダンテ",
+  "longName": "CBC2025 彼の名はダンテ ～ホテル・デノヴォのコンシェルジュ～",
+  "flags": ["isEvent", "noClearMarkWithComplete"],
+  "banner": "https://static.atlasacademy.io/JP/Banner/event_war_80501.png",
+  "priority": 10005,
+  "bgm": {
+    "id": 0
+  },
+  "script": "https://static.atlasacademy.io/JP/Script/Common/NONE.txt",
+  "eventId": 80520,
+  "eventName": "CBC2025 彼の名はダンテ　\n～ホテル・デノヴォのコンシェルジュ～",
+  "releaseConditions": [{
+    "priority": 10000,
+    "condType": "questNotClear",
+    "condId": 4000426,
+    "warDisplayType": "close",
+    "closedDialogMessage": "期間限定イベント『CBC2025 彼の名はダンテ』は\n3月26日 12:59 まで開催します。\n\n期間限定イベントを始めるには\n『奏章Ⅲ』をクリアしている必要があります。"
+  }],
+  "warAdds": [{
+    "warId": 8393,
+    "type": "bgImage",
+    "priority": 1,
+    "overwriteId": 242900,
+    "condType": "questClear",
+    "targetId": 94141500,
+    "startedAt": 1741172400,
+    "endedAt": 1742961599
+  }],
+  "maps": [{
+    "id": 8393,
+    "mapImage": "https://static.atlasacademy.io/JP/Terminal/MapImgs/img_questmap_008393/img_questmap_008393.png",
+    "bgm": {
+      "id": 0
+    }
+  }],
+  "spots": [{
+    "id": 839301,
+    "mapId": 8393,
+    "name": "カルデアゲート",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter8393/QMap_Cap8393_Atlas/spot_839301.png",
+    "quests": [{
+      "id": 94141500,
+      "name": "第１節 ホテル・デノヴォへようこそ",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 839301,
+      "warId": 8393,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000426
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9414150010",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414150010.txt"
+        }]
+      }],
+      "priority": 94141700,
+      "noticeAt": 1741172400,
+      "openedAt": 1741172400,
+      "closedAt": 1742961599
+    }, {
+      "id": 94141501,
+      "name": "第２節 コンシェルジュ・マスター",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "70",
+      "spotId": 839301,
+      "warId": 8393,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94141500
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1, 2, 3, 4, 5],
+      "phasesWithEnemies": [1, 2],
+      "phasesNoBattle": [5],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9414150110",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414150110.txt"
+        }, {
+          "scriptId": "9414150111",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414150111.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9414150120",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414150120.txt"
+        }, {
+          "scriptId": "9414150121",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414150121.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9414150130",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414150130.txt"
+        }, {
+          "scriptId": "9414150131",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414150131.txt"
+        }]
+      }, {
+        "phase": 4,
+        "scripts": [{
+          "scriptId": "9414150140",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414150140.txt"
+        }, {
+          "scriptId": "9414150141",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414150141.txt"
+        }]
+      }, {
+        "phase": 5,
+        "scripts": [{
+          "scriptId": "9414150150",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414150150.txt"
+        }]
+      }],
+      "priority": 94141699,
+      "noticeAt": 1741172400,
+      "openedAt": 1741172400,
+      "closedAt": 1742961599
+    }, {
+      "id": 94141502,
+      "name": "第３節 リセット・ホテル（１回目）",
+      "type": "main",
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 839301,
+      "warId": 8393,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94141501
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1, 2, 3],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9414150210",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414150210.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9414150220",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414150220.txt"
+        }, {
+          "scriptId": "9414150221",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414150221.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9414150230",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414150230.txt"
+        }, {
+          "scriptId": "9414150231",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414150231.txt"
+        }]
+      }],
+      "priority": 94141698,
+      "noticeAt": 1741172400,
+      "openedAt": 1741251600,
+      "closedAt": 1742961599
+    }, {
+      "id": 94141600,
+      "name": "コンシェルジュ日誌 苦労性な客室案内人",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "70",
+      "spotId": 839301,
+      "warId": 8393,
+      "gifts": [{
+        "id": 13000,
+        "objectId": 101,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94141501
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "priority": 94141600,
+      "noticeAt": 1741172400,
+      "openedAt": 1741172400,
+      "closedAt": 1742961599
+    }, {
+      "id": 94141601,
+      "name": "コンシェルジュ日誌 天下無双の害虫退治",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "70",
+      "spotId": 839301,
+      "warId": 8393,
+      "gifts": [{
+        "id": 13000,
+        "objectId": 101,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94141501
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "priority": 94141599,
+      "noticeAt": 1741172400,
+      "openedAt": 1741172400,
+      "closedAt": 1742961599
+    }, {
+      "id": 94141602,
+      "name": "コンシェルジュ日誌 外道だらけの魚釣り",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "70",
+      "spotId": 839301,
+      "warId": 8393,
+      "gifts": [{
+        "id": 13000,
+        "objectId": 101,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94141501
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "priority": 94141598,
+      "noticeAt": 1741172400,
+      "openedAt": 1741172400,
+      "closedAt": 1742961599
+    }, {
+      "id": 94141603,
+      "name": "コンシェルジュ日誌 豪華絢爛プランニング",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "75",
+      "spotId": 839301,
+      "warId": 8393,
+      "gifts": [{
+        "id": 12000,
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94141501
+      }, {
+        "type": "questClear",
+        "targetId": 94141502,
+        "closedMessage": "第３節クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "第３節クリア\n＆3月6日18時00分以降に開放"
+      }],
+      "phases": [1],
+      "priority": 94141597,
+      "noticeAt": 1741172400,
+      "openedAt": 1741251600,
+      "closedAt": 1742961599
+    }]
+  }, {
+    "id": 839302,
+    "mapId": 8393,
+    "name": "",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter8393/QMap_Cap8393_Atlas/spot_839302.png",
+    "quests": [{
+      "id": 94141800,
+      "name": "「ダンテからのメッセージ 1日目」",
+      "type": "event",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 839302,
+      "warId": 8393,
+      "gifts": [{
+        "id": 94141506,
+        "objectId": 4001,
+        "num": 1
+      }, {
+        "id": 94141506,
+        "objectId": 94138205,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 1000011
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9414180010",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414180010.txt"
+        }]
+      }],
+      "priority": 94141500,
+      "noticeAt": 1741172400,
+      "openedAt": 1741172400,
+      "closedAt": 1741251599
+    }]
+  }]
 }]

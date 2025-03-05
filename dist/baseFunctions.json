@@ -53196,6 +53196,117 @@
     }]
   }]
 }, {
+  "funcId": 22501,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "イデアル・ホテリエ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+  "funcquestTvals": [{
+    "id": 94000171
+  }],
+  "funcGroup": [{
+    "eventId": 80520,
+    "baseFuncId": 22500,
+    "nameTotal": "{1} \n攻撃の威力アップ合計",
+    "name": "攻撃の威力アップ",
+    "icon": "https://static.atlasacademy.io/JP/EventUI/func_group_icon_302.png",
+    "priority": 1,
+    "isDispValue": true
+  }],
+  "buffs": [{
+    "id": 5795,
+    "name": "イデアル・ホテリエ",
+    "detail": "『CBC2025 彼の名はダンテ』において与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamage",
+    "maxRate": 10000
+  }]
+}, {
+  "funcId": 22502,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "イデアル・ホテリエ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+  "funcquestTvals": [{
+    "id": 94000171
+  }],
+  "funcGroup": [{
+    "eventId": 80520,
+    "baseFuncId": 22500,
+    "nameTotal": "{1} \n攻撃の威力アップ合計",
+    "name": "攻撃の威力アップ",
+    "icon": "https://static.atlasacademy.io/JP/EventUI/func_group_icon_302.png",
+    "priority": 1,
+    "isDispValue": true
+  }],
+  "buffs": [{
+    "id": 5795,
+    "name": "イデアル・ホテリエ",
+    "detail": "『CBC2025 彼の名はダンテ』において与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamage",
+    "maxRate": 10000
+  }]
+}, {
+  "funcId": 22503,
+  "funcType": "servantFriendshipUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "なし",
+  "funcGroup": [{
+    "eventId": 80520,
+    "baseFuncId": 0,
+    "nameTotal": "{1}\n得られる自身の絆ボーナス合計",
+    "name": "得られる自身の絆アップ",
+    "icon": "https://static.atlasacademy.io/JP/EventUI/func_group_icon_1009.png",
+    "priority": 1,
+    "isDispValue": true
+  }]
+}, {
+  "funcId": 22504,
+  "funcType": "eventDropUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcGroup": [{
+    "eventId": 80520,
+    "baseFuncId": 0,
+    "nameTotal": "{0}\n獲得数ボーナス合計",
+    "name": "{0}獲得数アップ",
+    "icon": "https://static.atlasacademy.io/JP/Items/94141503.png",
+    "priority": 3000,
+    "isDispValue": true
+  }]
+}, {
+  "funcId": 22505,
+  "funcType": "eventDropUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcGroup": [{
+    "eventId": 80520,
+    "baseFuncId": 0,
+    "nameTotal": "{0}\n獲得数ボーナス合計",
+    "name": "{0}獲得数アップ",
+    "icon": "https://static.atlasacademy.io/JP/Items/94141502.png",
+    "priority": 2000,
+    "isDispValue": true
+  }]
+}, {
+  "funcId": 22506,
+  "funcType": "eventDropUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcGroup": [{
+    "eventId": 80520,
+    "baseFuncId": 0,
+    "nameTotal": "{0}\n獲得数ボーナス合計",
+    "name": "{0}獲得数アップ",
+    "icon": "https://static.atlasacademy.io/JP/Items/94141501.png",
+    "priority": 1000,
+    "isDispValue": true
+  }]
+}, {
   "funcId": 22515,
   "funcType": "addStateShort",
   "funcTargetType": "self",
@@ -53434,6 +53545,372 @@
   "funcTargetTeam": "playerAndEnemy",
   "functvals": [{
     "id": 2780
+  }]
+}, {
+  "funcId": 22548,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "Artsアップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_313.png",
+  "funcquestTvals": [{
+    "id": 2949
+  }],
+  "buffs": [{
+    "id": 5813,
+    "name": "Artsアップ",
+    "detail": "〔天国〕のフィールドにおいてのみ、Artsカードの性能をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_313.png",
+    "type": "upCommandall",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3092
+    }],
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4001
+    }],
+    "ckSelfIndv": [{
+      "id": 4001
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 22549,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "クリティカル威力アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_324.png",
+  "funcquestTvals": [{
+    "id": 2949
+  }],
+  "buffs": [{
+    "id": 5814,
+    "name": "クリティカル威力アップ",
+    "detail": "〔天国〕のフィールドにおいてのみ、クリティカル時のダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_324.png",
+    "type": "upCriticaldamage",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3031
+    }],
+    "tvals": [{
+      "id": 5000
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 22550,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "毎ターンHP回復",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_318.png",
+  "funcquestTvals": [{
+    "id": 2949
+  }],
+  "buffs": [{
+    "id": 5815,
+    "name": "毎ターンHP回復",
+    "detail": "〔天国〕のフィールドにおいてのみ、ターン終了時にHPが回復する",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_318.png",
+    "type": "regainHp",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3060
+    }]
+  }]
+}, {
+  "funcId": 22551,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "Busterアップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_314.png",
+  "funcquestTvals": [{
+    "id": 2950
+  }],
+  "buffs": [{
+    "id": 5816,
+    "name": "Busterアップ",
+    "detail": "〔地獄〕のフィールドにおいてのみ、Busterカードの性能をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_314.png",
+    "type": "upCommandall",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3093
+    }],
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4002
+    }],
+    "ckSelfIndv": [{
+      "id": 4002
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 22552,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "宝具威力アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_310.png",
+  "funcquestTvals": [{
+    "id": 2950
+  }],
+  "buffs": [{
+    "id": 5817,
+    "name": "宝具威力アップ",
+    "detail": "〔地獄〕のフィールドにおいてのみ、宝具で与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_310.png",
+    "type": "upNpdamage",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3030
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 22553,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "毎ターンNP獲得",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_319.png",
+  "funcquestTvals": [{
+    "id": 2950
+  }],
+  "buffs": [{
+    "id": 5818,
+    "name": "毎ターンNP獲得",
+    "detail": "〔地獄〕のフィールドにおいてのみ、ターン終了時にNPが増える",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_319.png",
+    "type": "regainNp",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3080
+    }]
+  }]
+}, {
+  "funcId": 22554,
+  "funcType": "hastenNpturn",
+  "funcTargetType": "self",
+  "funcTargetTeam": "enemy",
+  "funcPopupText": "チャージ増加",
+  "funcquestTvals": [{
+    "id": 2950
+  }]
+}, {
+  "funcId": 22555,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "罪の刻印",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_415.png",
+  "buffs": [{
+    "id": 5807,
+    "name": "罪の刻印",
+    "detail": "弱体耐性をダウン(弱体解除で解除不能)",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_415.png",
+    "type": "downTolerance",
+    "vals": [{
+      "id": 2951
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 22556,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "攻撃時追加効果",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_333.png",
+  "buffs": [{
+    "id": 5808,
+    "name": "攻撃時追加効果",
+    "detail": "攻撃時、対象の強化状態を1つ解除＆解除成功時、自身の〔罪の刻印〕を1つ消費して自身の攻撃力をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_333.png",
+    "type": "attackAfterFunction",
+    "script": {
+      "INDIVIDUALITIE": {
+        "id": 2951
+      }
+    },
+    "originalScript": {
+      "INDIVIDUALITIE": 2951
+    },
+    "vals": [{
+      "id": 3004
+    }]
+  }]
+}, {
+  "funcId": 22557,
+  "funcType": "subState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "罪の刻印消費",
+  "traitVals": [{
+    "id": 2951
+  }]
+}, {
+  "funcId": 22558,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "威力アップ・対 天の力",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+  "funcquestTvals": [{
+    "id": 2949
+  }],
+  "buffs": [{
+    "id": 5819,
+    "name": "威力アップ〔天の力〕",
+    "detail": "〔天国〕のフィールドにおいてのみ、〔天の力〕に与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamage",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3028
+    }],
+    "tvals": [{
+      "id": 200
+    }],
+    "ckOpIndv": [{
+      "id": 200
+    }],
+    "maxRate": 10000
+  }]
+}, {
+  "funcId": 22559,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "威力アップ・対 地の力",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+  "funcquestTvals": [{
+    "id": 2950
+  }],
+  "buffs": [{
+    "id": 5820,
+    "name": "威力アップ〔地の力〕",
+    "detail": "〔地獄〕のフィールドにおいてのみ、〔地の力〕に与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamage",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3028
+    }],
+    "tvals": [{
+      "id": 201
+    }],
+    "ckOpIndv": [{
+      "id": 201
+    }],
+    "maxRate": 10000
+  }]
+}, {
+  "funcId": 22560,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "ガッツ時発動",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_365.png",
+  "buffs": [{
+    "id": 5809,
+    "name": "ガッツ時発動",
+    "detail": "ガッツ発動時、自身の〔罪の刻印〕を1つ消費して自身の攻撃力をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_365.png",
+    "type": "gutsFunction",
+    "vals": [{
+      "id": 3004
+    }]
+  }]
+}, {
+  "funcId": 22561,
+  "funcType": "addFieldChangeToField",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "フィールド変化〔天国〕",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_416.png",
+  "buffs": [{
+    "id": 5810,
+    "name": "フィールド変化〔天国〕",
+    "detail": "フィールドを〔天国〕状態にする",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_416.png",
+    "type": "toFieldChangeField",
+    "vals": [{
+      "id": 3079
+    }, {
+      "id": 2949
+    }]
+  }]
+}, {
+  "funcId": 22562,
+  "funcType": "addFieldChangeToField",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "フィールド変化〔地獄〕",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_417.png",
+  "buffs": [{
+    "id": 5811,
+    "name": "フィールド変化〔地獄〕",
+    "detail": "フィールドを〔地獄〕状態にする",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_417.png",
+    "type": "toFieldChangeField",
+    "vals": [{
+      "id": 3079
+    }, {
+      "id": 2950
+    }]
+  }]
+}, {
+  "funcId": 22563,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "クリティカル攻撃時追加効果",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_333.png",
+  "buffs": [{
+    "id": 5812,
+    "name": "クリティカル攻撃時追加効果",
+    "detail": "クリティカル攻撃時、追加効果が発動",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_333.png",
+    "type": "attackAfterFunctionMainOnly",
+    "vals": [{
+      "id": 3004
+    }],
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4100
+    }],
+    "ckSelfIndv": [{
+      "id": 4100
+    }]
   }]
 }, {
   "funcId": 30003,
