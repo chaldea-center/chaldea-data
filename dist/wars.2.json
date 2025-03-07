@@ -86406,7 +86406,61 @@
       "closedAt": 1742961599
     }, {
       "id": 94141503,
-      "name": "",
+      "name": "第４節 リセット・ホテル（２回目）",
+      "type": "main",
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 839301,
+      "warId": 8393,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
+        "type": "questClear",
+        "targetId": 94141502
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1, 2, 3],
+      "phasesWithEnemies": [2],
+      "phasesNoBattle": [1, 3],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9414150310",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414150310.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9414150320",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414150320.txt"
+        }, {
+          "scriptId": "9414150321",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414150321.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9414150330",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414150330.txt"
+        }]
+      }],
+      "priority": 94141697,
+      "noticeAt": 1741251600,
+      "openedAt": 1741338000,
+      "closedAt": 1742961599
+    }, {
+      "id": 94141504,
+      "name": "第５節 必然炎のごとく",
       "type": "main",
       "consume": 0,
       "afterClear": "close",
@@ -86420,19 +86474,112 @@
       }],
       "releaseConditions": [{
         "type": "questClear",
-        "targetId": 94141502
+        "targetId": 94141503
       }, {
         "type": "date",
         "targetId": 0,
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
-      }, {
-        "type": "forceFalse",
-        "targetId": 0,
-        "closedMessage": "データ更新後に開放"
       }],
-      "phases": [1, 2, 3],
-      "phasesNoBattle": [1, 3],
-      "priority": 94141697,
+      "phases": [1, 2],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9414150410",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414150410.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9414150420",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414150420.txt"
+        }, {
+          "scriptId": "9414150421",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414150421.txt"
+        }]
+      }],
+      "priority": 94141693,
+      "noticeAt": 1741338000,
+      "openedAt": 1741424400,
+      "closedAt": 1742961599
+    }, {
+      "id": 94141594,
+      "name": "第４節 リセット・ホテル（２回目）",
+      "type": "main",
+      "flags": ["branch"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 839301,
+      "warId": 8393,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "phases": [2],
+      "phaseScripts": [{
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9414159421",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414159421.txt"
+        }]
+      }],
+      "priority": 94141696,
+      "noticeAt": 1741251600,
+      "openedAt": 1741338000,
+      "closedAt": 1742961599
+    }, {
+      "id": 94141596,
+      "name": "第４節 リセット・ホテル（２回目）",
+      "type": "main",
+      "flags": ["branch"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 839301,
+      "warId": 8393,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "phases": [2],
+      "phaseScripts": [{
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9414159621",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414159621.txt"
+        }]
+      }],
+      "priority": 94141695,
+      "noticeAt": 1741251600,
+      "openedAt": 1741338000,
+      "closedAt": 1742961599
+    }, {
+      "id": 94141597,
+      "name": "第４節 リセット・ホテル（２回目）",
+      "type": "main",
+      "flags": ["branch"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 839301,
+      "warId": 8393,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "phases": [2],
+      "phaseScripts": [{
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9414159721",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414159721.txt"
+        }]
+      }],
+      "priority": 94141694,
       "noticeAt": 1741251600,
       "openedAt": 1741338000,
       "closedAt": 1742961599
@@ -86558,7 +86705,7 @@
       "closedAt": 1742961599
     }, {
       "id": 94141604,
-      "name": "",
+      "name": "コンシェルジュ日誌 心尽くしのクロークルーム",
       "type": "event",
       "flags": ["displayLoopmark"],
       "consume": 40,
@@ -86584,9 +86731,42 @@
         "closedMessage": "第４節クリア\n＆3月7日18時00分以降に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94141596,
       "noticeAt": 1741251600,
       "openedAt": 1741338000,
+      "closedAt": 1742961599
+    }, {
+      "id": 94141605,
+      "name": "コンシェルジュ日誌 ルームクリーニングの極意",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "85",
+      "spotId": 839301,
+      "warId": 8393,
+      "gifts": [{
+        "id": 12000,
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94141503
+      }, {
+        "type": "questClear",
+        "targetId": 94141504,
+        "closedMessage": "第５節クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "第５節クリア\n＆3月8日18時00分以降に開放"
+      }],
+      "phases": [1],
+      "priority": 94141595,
+      "noticeAt": 1741338000,
+      "openedAt": 1741424400,
       "closedAt": 1742961599
     }]
   }, {
@@ -86674,6 +86854,46 @@
       "noticeAt": 1741251600,
       "openedAt": 1741251600,
       "closedAt": 1741337999
+    }, {
+      "id": 94141802,
+      "name": "「ダンテからのメッセージ 3日目」",
+      "type": "event",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 839302,
+      "warId": 8393,
+      "gifts": [{
+        "id": 94141506,
+        "objectId": 4001,
+        "num": 1
+      }, {
+        "id": 94141506,
+        "objectId": 94138205,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 1000011
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9414180210",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414180210.txt"
+        }]
+      }],
+      "priority": 94141498,
+      "noticeAt": 1741338000,
+      "openedAt": 1741338000,
+      "closedAt": 1741424399
     }]
   }]
 }]

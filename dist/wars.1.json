@@ -96613,6 +96613,43 @@
       "noticeAt": 1741172400,
       "openedAt": 1741172400,
       "closedAt": 1893423600
+    }, {
+      "id": 94143301,
+      "name": "強化クエスト 宝蔵院胤舜",
+      "type": "event",
+      "flags": ["noDisplayRemain"],
+      "consume": 20,
+      "afterClear": "close",
+      "recommendLv": "70",
+      "spotId": 99001,
+      "warId": 1001,
+      "gifts": [{
+        "id": 94012504,
+        "objectId": 2,
+        "num": 2
+      }, {
+        "id": 94012504,
+        "type": "questRewardIcon",
+        "objectId": 9,
+        "num": 0
+      }],
+      "releaseConditions": [{
+        "type": "svtLimit",
+        "targetId": 301400,
+        "value": 4,
+        "closedMessage": "霊基再臨{0}段階目で開放"
+      }, {
+        "type": "svtGet",
+        "targetId": 301400
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1, 2, 3],
+      "priority": 94143301,
+      "noticeAt": 1741338000,
+      "openedAt": 1741338000,
+      "closedAt": 1893423600
     }]
   }]
 }, {
