@@ -86481,6 +86481,7 @@
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
       }],
       "phases": [1, 2],
+      "phasesWithEnemies": [2],
       "phasesNoBattle": [1],
       "phaseScripts": [{
         "phase": 1,
@@ -86501,6 +86502,37 @@
       "priority": 94141693,
       "noticeAt": 1741338000,
       "openedAt": 1741424400,
+      "closedAt": 1742961599
+    }, {
+      "id": 94141505,
+      "name": "",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "70",
+      "spotId": 839301,
+      "warId": 8393,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94141504
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "forceFalse",
+        "targetId": 0,
+        "closedMessage": "データ更新後に開放"
+      }],
+      "phases": [1, 2, 3, 4],
+      "priority": 94141692,
+      "noticeAt": 1741424400,
+      "openedAt": 1741510800,
       "closedAt": 1742961599
     }, {
       "id": 94141594,
@@ -86764,9 +86796,42 @@
         "closedMessage": "第５節クリア\n＆3月8日18時00分以降に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94141595,
       "noticeAt": 1741338000,
       "openedAt": 1741424400,
+      "closedAt": 1742961599
+    }, {
+      "id": 94141606,
+      "name": "",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90",
+      "spotId": 839301,
+      "warId": 8393,
+      "gifts": [{
+        "id": 12000,
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94141504
+      }, {
+        "type": "questClear",
+        "targetId": 94141505,
+        "closedMessage": "第６節クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "第６節クリア\n＆3月9日18時00分以降に開放"
+      }],
+      "phases": [1],
+      "priority": 94141594,
+      "noticeAt": 1741424400,
+      "openedAt": 1741510800,
       "closedAt": 1742961599
     }]
   }, {
@@ -86894,6 +86959,46 @@
       "noticeAt": 1741338000,
       "openedAt": 1741338000,
       "closedAt": 1741424399
+    }, {
+      "id": 94141803,
+      "name": "「ダンテからのメッセージ 4日目」",
+      "type": "event",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 839302,
+      "warId": 8393,
+      "gifts": [{
+        "id": 94141506,
+        "objectId": 4001,
+        "num": 1
+      }, {
+        "id": 94141506,
+        "objectId": 94138205,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 1000011
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9414180310",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414180310.txt"
+        }]
+      }],
+      "priority": 94141497,
+      "noticeAt": 1741424400,
+      "openedAt": 1741424400,
+      "closedAt": 1741510799
     }]
   }]
 }]
