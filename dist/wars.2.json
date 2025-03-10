@@ -58756,6 +58756,15 @@
         "eventId": 80503,
         "startedAt": 1730451600,
         "endedAt": 1732978799
+      }, {
+        "priority": 8053200,
+        "condType": "questClear",
+        "condId": 1000011,
+        "closedMessage": "特異点Fをクリア＆霊基再臨2段階目＆絆Lv.5で開放",
+        "overlayClosedMessage": "特異点Fをクリアで開放",
+        "eventId": 80532,
+        "startedAt": 1741597200,
+        "endedAt": 1742183999
       }],
       "phases": [1, 2],
       "phasesWithEnemies": [1],
@@ -62566,6 +62575,15 @@
         "eventId": 80497,
         "startedAt": 1727773200,
         "endedAt": 1730386799
+      }, {
+        "priority": 8053200,
+        "condType": "questClear",
+        "condId": 3000531,
+        "closedMessage": "Lostbelt No.5 アトランティスをクリア＆霊基再臨3段階目＆絆Lv.3で開放",
+        "overlayClosedMessage": "Lostbelt No.5 アトランティスをクリアで開放",
+        "eventId": 80532,
+        "startedAt": 1741597200,
+        "endedAt": 1742183999
       }],
       "phases": [1, 2],
       "phasesWithEnemies": [1, 2],
@@ -63023,6 +63041,23 @@
         "eventId": 80497,
         "startedAt": 1727773200,
         "endedAt": 1730386799
+      }, {
+        "priority": 8053200,
+        "condType": "questClear",
+        "condId": 1000413,
+        "closedMessage": "第四特異点をクリア＆霊基再臨3段階目＆絆Lv.5で開放",
+        "overlayClosedMessage": "一つ前の幕間の物語をクリア＆第四特異点をクリアで開放",
+        "eventId": 80532,
+        "startedAt": 1741597200,
+        "endedAt": 1742183999
+      }, {
+        "priority": 8053200,
+        "condType": "questClear",
+        "condId": 91400301,
+        "overlayClosedMessage": "一つ前の幕間の物語をクリア＆第四特異点をクリアで開放",
+        "eventId": 80532,
+        "startedAt": 1741597200,
+        "endedAt": 1742183999
       }],
       "phases": [1, 2],
       "phasesWithEnemies": [1, 2],
@@ -63100,6 +63135,15 @@
         "eventId": 80497,
         "startedAt": 1727773200,
         "endedAt": 1730386799
+      }, {
+        "priority": 8053200,
+        "condType": "questClear",
+        "condId": 1000314,
+        "closedMessage": "第三特異点をクリア＆霊基再臨1段階目＆絆Lv.1で開放",
+        "overlayClosedMessage": "第三特異点をクリアで開放",
+        "eventId": 80532,
+        "startedAt": 1741597200,
+        "endedAt": 1742183999
       }],
       "phases": [1, 2, 3],
       "phasesWithEnemies": [1, 2, 3],
@@ -66784,6 +66828,15 @@
         "eventId": 80503,
         "startedAt": 1730451600,
         "endedAt": 1732978799
+      }, {
+        "priority": 8053200,
+        "condType": "questClear",
+        "condId": 1000011,
+        "closedMessage": "特異点Fをクリア＆霊基再臨2段階目＆絆Lv.5で開放",
+        "overlayClosedMessage": "特異点Fをクリアで開放",
+        "eventId": 80532,
+        "startedAt": 1741597200,
+        "endedAt": 1742183999
       }],
       "phases": [1, 2],
       "phasesWithEnemies": [1],
@@ -86573,7 +86626,7 @@
       "closedAt": 1742961599
     }, {
       "id": 94141506,
-      "name": "",
+      "name": "第７節 あなたの物語は果てしなく",
       "type": "main",
       "consume": 0,
       "afterClear": "close",
@@ -86587,20 +86640,48 @@
         "num": 1
       }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 94141505
       }, {
         "type": "date",
         "targetId": 0,
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
-      }, {
-        "type": "forceFalse",
-        "targetId": 0,
-        "closedMessage": "データ更新後に開放"
       }],
       "phases": [1, 2, 3, 4],
+      "phasesWithEnemies": [3],
       "phasesNoBattle": [1, 2, 4],
-      "priority": 94141688,
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9414150610",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414150610.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9414150620",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414150620.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9414150630",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414150630.txt"
+        }, {
+          "scriptId": "9414150631",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414150631.txt"
+        }]
+      }, {
+        "phase": 4,
+        "scripts": [{
+          "scriptId": "9414150640",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414150640.txt"
+        }]
+      }],
+      "priority": 94141687,
       "noticeAt": 1741510800,
       "openedAt": 1741597200,
       "closedAt": 1742961599
@@ -86987,7 +87068,7 @@
       "closedAt": 1742961599
     }, {
       "id": 94141607,
-      "name": "",
+      "name": "コンシェルジュ日誌 難攻不落のフロント対応",
       "type": "event",
       "flags": ["displayLoopmark"],
       "consume": 40,
@@ -87013,13 +87094,14 @@
         "closedMessage": "第７節クリア\n＆3月10日18時00分以降に開放"
       }],
       "phases": [1],
-      "priority": 94141593,
+      "phasesWithEnemies": [1],
+      "priority": 94141592,
       "noticeAt": 1741510800,
       "openedAt": 1741597200,
       "closedAt": 1742961599
     }, {
       "id": 94141608,
-      "name": "",
+      "name": "コンシェルジュ日誌 五つ星ラウンドサービス",
       "type": "event",
       "flags": ["displayLoopmark"],
       "consume": 40,
@@ -87045,9 +87127,41 @@
         "closedMessage": "第７節クリア\n＆3月10日18時00分以降に開放"
       }],
       "phases": [1],
-      "priority": 94141592,
+      "priority": 94141591,
       "noticeAt": 1741510800,
       "openedAt": 1741597200,
+      "closedAt": 1742961599
+    }, {
+      "id": 94141700,
+      "name": "",
+      "type": "event",
+      "flags": ["dropFirstTimeOnly", "notRetrievable"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "90+",
+      "spotId": 839301,
+      "warId": 8393,
+      "gifts": [{
+        "id": 21701,
+        "objectId": 6999,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94141506
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "forceFalse",
+        "targetId": 0,
+        "closedMessage": "データ更新後に開放"
+      }],
+      "phases": [1],
+      "priority": 94141800,
+      "noticeAt": 1741597200,
+      "openedAt": 1741683600,
       "closedAt": 1742961599
     }]
   }, {
@@ -87255,6 +87369,46 @@
       "noticeAt": 1741510800,
       "openedAt": 1741510800,
       "closedAt": 1741597199
+    }, {
+      "id": 94141805,
+      "name": "「ダンテからのメッセージ 6日目」",
+      "type": "event",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 839302,
+      "warId": 8393,
+      "gifts": [{
+        "id": 94141506,
+        "objectId": 4001,
+        "num": 1
+      }, {
+        "id": 94141506,
+        "objectId": 94138205,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 1000011
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9414180510",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414180510.txt"
+        }]
+      }],
+      "priority": 94141495,
+      "noticeAt": 1741597200,
+      "openedAt": 1741597200,
+      "closedAt": 1741683599
     }]
   }]
 }]
