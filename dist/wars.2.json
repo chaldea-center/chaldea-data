@@ -87127,13 +87127,14 @@
         "closedMessage": "第７節クリア\n＆3月10日18時00分以降に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94141591,
       "noticeAt": 1741510800,
       "openedAt": 1741597200,
       "closedAt": 1742961599
     }, {
       "id": 94141700,
-      "name": "",
+      "name": "【高難易度】最上級のおもてなし 顧客満足度チェック",
       "type": "event",
       "flags": ["dropFirstTimeOnly", "notRetrievable"],
       "consume": 5,
@@ -87147,18 +87148,18 @@
         "num": 1
       }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 94141506
       }, {
         "type": "date",
         "targetId": 0,
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
-      }, {
-        "type": "forceFalse",
-        "targetId": 0,
-        "closedMessage": "データ更新後に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94141800,
       "noticeAt": 1741597200,
       "openedAt": 1741683600,
@@ -87409,6 +87410,46 @@
       "noticeAt": 1741597200,
       "openedAt": 1741597200,
       "closedAt": 1741683599
+    }, {
+      "id": 94141806,
+      "name": "「ダンテからのメッセージ 7日目」",
+      "type": "event",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 839302,
+      "warId": 8393,
+      "gifts": [{
+        "id": 94141506,
+        "objectId": 4001,
+        "num": 1
+      }, {
+        "id": 94141506,
+        "objectId": 94138205,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 1000011
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9414180610",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414180610.txt"
+        }]
+      }],
+      "priority": 94141494,
+      "noticeAt": 1741683600,
+      "openedAt": 1741683600,
+      "closedAt": 1741769999
     }]
   }]
 }]
