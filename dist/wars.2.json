@@ -87450,6 +87450,43 @@
       "noticeAt": 1741683600,
       "openedAt": 1741683600,
       "closedAt": 1741769999
+    }, {
+      "id": 94141807,
+      "name": "「ダンテからのメッセージ ホワイトデー当日」",
+      "type": "event",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 839302,
+      "warId": 8393,
+      "gifts": [{
+        "id": 42421,
+        "type": "commandCode",
+        "objectId": 8401970,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 1000011
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9414180710",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414180710.txt"
+        }]
+      }],
+      "priority": 94141493,
+      "noticeAt": 1741878000,
+      "openedAt": 1741878000,
+      "closedAt": 1741964399
     }]
   }]
 }]
