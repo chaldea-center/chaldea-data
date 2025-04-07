@@ -112295,6 +112295,16 @@
         "value": 5,
         "closedMessage": "亜種特異点Ⅳをクリア＆霊基再臨1段階目＆絆Lv.5で開放"
       }],
+      "releaseOverwrites": [{
+        "priority": 8053700,
+        "condType": "questClear",
+        "condId": 2000410,
+        "closedMessage": "亜種特異点Ⅳをクリア＆霊基再臨1段階目＆絆Lv.5で開放",
+        "overlayClosedMessage": "亜種特異点Ⅳをクリアで開放",
+        "eventId": 80537,
+        "startedAt": 1744016400,
+        "endedAt": 1744603199
+      }],
       "phases": [1, 2, 3, 4, 5],
       "phasesWithEnemies": [2, 3, 4],
       "phasesNoBattle": [1, 5],
@@ -112370,6 +112380,16 @@
         "value": 5,
         "closedMessage": "特異点Fをクリア＆霊基再臨2段階目＆絆Lv.5で開放"
       }],
+      "releaseOverwrites": [{
+        "priority": 8053700,
+        "condType": "questClear",
+        "condId": 1000011,
+        "closedMessage": "特異点Fをクリア＆霊基再臨2段階目＆絆Lv.5で開放",
+        "overlayClosedMessage": "特異点Fをクリアで開放",
+        "eventId": 80537,
+        "startedAt": 1744016400,
+        "endedAt": 1744603199
+      }],
       "phases": [1, 2],
       "phasesWithEnemies": [1, 2],
       "phaseScripts": [{
@@ -112424,6 +112444,16 @@
         "targetId": 2500400,
         "value": 5,
         "closedMessage": "特異点Fをクリア＆絆Lv.5で開放"
+      }],
+      "releaseOverwrites": [{
+        "priority": 8053700,
+        "condType": "questClear",
+        "condId": 1000011,
+        "closedMessage": "特異点Fをクリア＆絆Lv.5で開放",
+        "overlayClosedMessage": "特異点Fをクリアで開放",
+        "eventId": 80537,
+        "startedAt": 1744016400,
+        "endedAt": 1744603199
       }],
       "phases": [1, 2, 3, 4, 5],
       "phasesWithEnemies": [2],
@@ -112509,6 +112539,15 @@
         "eventId": 80408,
         "startedAt": 1666947600,
         "endedAt": 1667534399
+      }, {
+        "priority": 8053700,
+        "condType": "questClear",
+        "condId": 3000303,
+        "closedMessage": "Lostbelt No.3 プロローグをクリア＆霊基再臨3段階目＆絆Lv.4で開放",
+        "overlayClosedMessage": "Lostbelt No.3 プロローグをクリアで開放",
+        "eventId": 80537,
+        "startedAt": 1744016400,
+        "endedAt": 1744603199
       }],
       "phases": [1, 2, 3],
       "phasesWithEnemies": [1, 2, 3],
@@ -112595,6 +112634,23 @@
         "eventId": 80408,
         "startedAt": 1666947600,
         "endedAt": 1667534399
+      }, {
+        "priority": 8053700,
+        "condType": "questClear",
+        "condId": 3000303,
+        "closedMessage": "Lostbelt No.3 プロローグをクリア＆霊基再臨3段階目＆絆Lv.4で開放",
+        "overlayClosedMessage": "一つ前の幕間の物語をクリア＆Lostbelt No.3 プロローグをクリアで開放",
+        "eventId": 80537,
+        "startedAt": 1744016400,
+        "endedAt": 1744603199
+      }, {
+        "priority": 8053700,
+        "condType": "questClear",
+        "condId": 912500601,
+        "overlayClosedMessage": "一つ前の幕間の物語をクリア＆Lostbelt No.3 プロローグをクリアで開放",
+        "eventId": 80537,
+        "startedAt": 1744016400,
+        "endedAt": 1744603199
       }],
       "phases": [1, 2, 3, 4, 5],
       "phasesWithEnemies": [1, 2, 3, 4, 5],
@@ -138515,6 +138571,34 @@
       "noticeAt": 1743411600,
       "openedAt": 1743411600,
       "closedAt": 1743998399
+    }, {
+      "id": 94140814,
+      "name": "フォーリナーお試しクエスト",
+      "type": "event",
+      "consume": 0,
+      "afterClear": "repeatLast",
+      "recommendLv": "70",
+      "spotId": 999999,
+      "warId": 9999,
+      "gifts": [{
+        "id": 12000,
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 1000011,
+        "closedMessage": "特異点Fクリアで開放可能"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94140814,
+      "noticeAt": 1744016400,
+      "openedAt": 1744016400,
+      "closedAt": 1744603199
     }]
   }]
 }, {

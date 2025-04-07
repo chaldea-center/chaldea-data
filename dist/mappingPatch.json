@@ -541,6 +541,9 @@
     "赤枝の騎士 B": {
       "NA": "Red Branch Knight B"
     },
+    "赤雷の騎士 A+": {
+      "NA": "Knight of Red Lightning A+"
+    },
     "銀の鈴が如き A+": {
       "CN": "犹如银铃 A+"
     },
@@ -634,6 +637,9 @@
     },
     "味方全体のNPを増やす[{0}] ＋ 自身に「通常攻撃時に毒状態(3ターン)を付与する状態」を付与(3回・3ターン)＆毒状態を付与(5ターン)【デメリット】": {
       "NA": "Increase NP Gauge [{0}] for all allies + Apply \"a state that applies Poison (3 turns) during normal attacks\" (3 times, 3 turns) & apply Poison (5 turns) [Demerit] to yourself"
+    },
+    "味方全体の攻撃力をアップ▲[{0}](3ターン) ＋ 自身に〔秩序〕特攻状態を付与[{0}](3ターン)▲＆〔善〕特攻状態を付与[{0}](3ターン)▲": {
+      "NA": "Increase ATK ▲ [{0}] (3 turns) for all allies + Apply Special Attack [Lawful] [{0}] (3 turns) ▲ & Special Attack [Good] [{0}] (3 turns) ▲ for yourself"
     },
     "味方単体に宝具使用時のチャージ段階を2段階引き上げる状態を付与(1回・3ターン)▲＆防御力をアップ[{0}](3ターン)▲＆宝具威力をアップ[{0}](3ターン)▲＆ガッツ状態を付与[{0}](1回・3ターン)▲": {
       "NA": "Increase NP Charge by 2 levels when using NP (1 time, 3 turns) ▲ & increase DEF [{0}] (3 turns) ▲ & increase NP Strength [{0}] (3 turns) ▲ & apply Guts [{0}] (1 time, 3 turns) ▲ for one ally"
@@ -730,6 +736,9 @@
     "自身のBusterカード性能を15%アップ＆NP獲得量を15%アップ＆宝具使用時にチャージ段階を2段階分上げる(1回)[最大解放]": {
       "NA": "Increase Buster Card effectiveness by 15% & NP Gain by 15% & increase NP Charge by 2 levels when using NP (1 time) for yourself [MAX]"
     },
+    "自身のBusterカード性能をアップ[{0}](3回・3ターン▲)＆Busterカードのクリティカル威力をアップ[{0}](3ターン)▲＆攻撃力をアップ[{0}](3ターン)▲": {
+      "NA": "Increase Buster Card effectiveness [{0}] (3 times, 3 turns ▲) & Buster Card's Critical Strength [{0}] (3 turns) ▲ & ATK [{0}] (3 turns) ▲ for yourself"
+    },
     "自身のNPを増やす[{0}] ＋ 敵全体のクリティカル発生率を大ダウン(1ターン)＆HP回復不能状態を付与(1ターン)": {
       "NA": "Increase NP Gauge [{0}] for yourself + Greatly decrease Critical Rate (1 turn) & disable HP recovery (1 turn) for all enemies"
     },
@@ -799,6 +808,9 @@
     },
     "自身の攻撃力をアップ[{0}](3ターン)＆弱体状態を解除 ＋ スターを獲得[{0}]": {
       "NA": "Increase ATK [{0}] (3 turns) & remove Debuffs for yourself + Gain C. Stars [{0}]"
+    },
+    "自身の攻撃力を確率でアップ[{0}](3ターン)＆防御力を確率でアップ[{0}](3ターン)＆HPを回復[{0}]＆Artsカード性能をアップ[{0}](3ターン)▲＆毎ターンスター獲得状態を付与(3ターン)▲": {
+      "NA": "Chance to increase ATK [{0}] (3 turns) & chance to increase DEF [{0}] (3 turns) & restore HP [{0}] & increase Arts Card effectiveness [{0}] (3 turns) ▲ & gain C. Stars each turn (3 turns) ▲ for yourself"
     },
     "自身の毒付与成功率をアップ＆精神異常耐性をアップ": {
       "NA": "Increase Poison Success Rate & increase Mental Debuff Resist for yourself"
@@ -954,11 +966,26 @@
     }
   },
   "skill_priority": {
+    "100500": {
+      "NA": {
+        "2215650": 2
+      }
+    },
+    "100900": {
+      "NA": {
+        "2214551": 2
+      }
+    },
     "105700": {
       "NA": {
         "2210450": 1,
         "2211550": 1,
         "2212451": 1
+      }
+    },
+    "301900": {
+      "NA": {
+        "2216550": 2
       }
     },
     "303800": {
@@ -4866,18 +4893,21 @@
       "JP": 1683277200,
       "CN": 1714899600,
       "TW": 1738224000,
+      "NA": 1743998400,
       "KR": 1736996400
     },
     "94084705": {
       "JP": 1683277200,
       "CN": 1714899600,
       "TW": 1738224000,
+      "NA": 1743998400,
       "KR": 1736996400
     },
     "94084706": {
       "JP": 1683277200,
       "CN": 1714899600,
       "TW": 1738224000,
+      "NA": 1743998400,
       "KR": 1736996400
     },
     "94084801": {
