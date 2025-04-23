@@ -118833,8 +118833,8 @@
   "detail": "強化『大成功＆極大成功』率2倍！",
   "noticeAt": 1743238800,
   "startedAt": 1743238800,
-  "endedAt": 1745985599,
-  "finishedAt": 1745985599,
+  "endedAt": 1746590399,
+  "finishedAt": 1746590399,
   "campaigns": [{
     "target": "largeSuccess",
     "idx": 1,
@@ -118853,8 +118853,8 @@
   "detail": "強化時 消費QP 50%DOWN",
   "noticeAt": 1743238800,
   "startedAt": 1743238800,
-  "endedAt": 1745985599,
-  "finishedAt": 1745985599,
+  "endedAt": 1746590399,
+  "finishedAt": 1746590399,
   "campaigns": [{
     "target": "combineQp",
     "idx": 1,
@@ -121295,8 +121295,8 @@
   "detail": "消費AP 半減キャンペーン",
   "noticeAt": 1743757200,
   "startedAt": 1743757200,
-  "endedAt": 1745985599,
-  "finishedAt": 1745985599,
+  "endedAt": 1746590399,
+  "finishedAt": 1746590399,
   "campaigns": [{
     "target": "questAp",
     "idx": 1,
@@ -121456,5 +121456,40 @@
     "idx": 1,
     "value": 2000,
     "calcType": "multiplication"
+  }]
+}, {
+  "id": 20237,
+  "type": "combineCampaign",
+  "name": "「巡霊の祝祭 第12弾」関連サーヴァント 獲得経験値2倍！",
+  "detail": "「巡霊の祝祭 第12弾」関連サーヴァント 獲得経験値2倍！",
+  "noticeAt": 1745398800,
+  "startedAt": 1745398800,
+  "endedAt": 1746590399,
+  "finishedAt": 1746590399,
+  "campaigns": [{
+    "targetIds": [404600, 1101200, 2800400],
+    "target": "combineExp",
+    "idx": 1,
+    "value": 2000,
+    "calcType": "multiplication"
+  }]
+}, {
+  "id": 71544,
+  "type": "questCampaign",
+  "name": "「巡霊の祝祭 第12弾」関連サーヴァント 獲得絆ポイント 20%UP＆威力50%UP",
+  "detail": "「巡霊の祝祭 第12弾」関連サーヴァント 獲得絆ポイント 20%UP＆威力50%UP",
+  "noticeAt": 1745398800,
+  "startedAt": 1745398800,
+  "endedAt": 1746590399,
+  "finishedAt": 1746590399,
+  "campaigns": [{
+    "targetIds": [404600, 1101200, 2800400],
+    "target": "questFriendship",
+    "idx": 1,
+    "value": 1200,
+    "calcType": "multiplication"
+  }],
+  "campaignQuests": [{
+    "questId": 0
   }]
 }]
