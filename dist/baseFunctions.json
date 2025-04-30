@@ -5096,6 +5096,24 @@
     "maxRate": 5000
   }]
 }, {
+  "funcId": 343,
+  "funcType": "addState",
+  "funcTargetType": "enemyAll",
+  "funcTargetTeam": "player",
+  "funcPopupText": "NP獲得ダウン",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_509.png",
+  "buffs": [{
+    "id": 141,
+    "name": "NP獲得ダウン",
+    "detail": "NP獲得量をダウン",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_509.png",
+    "type": "downDropnp",
+    "vals": [{
+      "id": 3005
+    }],
+    "maxRate": 5000
+  }]
+}, {
   "funcId": 344,
   "funcType": "addState",
   "funcTargetType": "enemy",
@@ -36093,6 +36111,26 @@
       "id": 3006
     }, {
       "id": 3031
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 9481,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "enemy",
+  "buffs": [{
+    "id": 4669,
+    "name": "",
+    "detail": "",
+    "type": "downCommandall",
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4005
+    }],
+    "ckSelfIndv": [{
+      "id": 4005
     }],
     "maxRate": 5000
   }]
