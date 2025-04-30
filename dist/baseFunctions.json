@@ -15277,6 +15277,8 @@
       "id": 3006
     }, {
       "id": 3028
+    }, {
+      "id": 2966
     }],
     "tvals": [{
       "id": 1172
@@ -15305,6 +15307,8 @@
       "id": 3006
     }, {
       "id": 3028
+    }, {
+      "id": 2966
     }],
     "tvals": [{
       "id": 1172
@@ -20282,6 +20286,12 @@
               "type": "overwriteForce"
             }
           },
+          "lancer": {
+            "caster": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            }
+          },
           "rider": {
             "caster": {
               "damageRate": 1000,
@@ -20582,9 +20592,37 @@
               "damageRate": 1000,
               "type": "overwriteForce"
             },
+            "lancer": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "rider": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "caster": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "assassin": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
             "berserker": {
               "damageRate": 1000,
               "type": "overwriteForce"
+            },
+            "alterEgo": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "moonCancer": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "pretender": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
             }
           },
           "rider": {
@@ -24152,6 +24190,28 @@
     }]
   }]
 }, {
+  "funcId": 5611,
+  "funcType": "addState",
+  "funcTargetType": "ptOne",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "対粛正防御",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_368.png",
+  "buffs": [{
+    "id": 2926,
+    "name": "対粛正防御",
+    "detail": "無敵貫通を無視して、攻撃によるダメージを0にする",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_368.png",
+    "type": "specialInvincible",
+    "buffGroup": 250,
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3064
+    }, {
+      "id": 3007
+    }]
+  }]
+}, {
   "funcId": 5612,
   "funcType": "addState",
   "funcTargetType": "ptAll",
@@ -24192,6 +24252,8 @@
       "id": 3006
     }, {
       "id": 3028
+    }, {
+      "id": 2966
     }],
     "tvals": [{
       "id": 1172
@@ -28531,6 +28593,23 @@
       "id": 3022
     }, {
       "id": 3007
+    }]
+  }]
+}, {
+  "funcId": 6970,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "攻撃時追加効果",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_528.png",
+  "buffs": [{
+    "id": 3534,
+    "name": "攻撃時追加効果",
+    "detail": "攻撃時、対象に強化無効状態を付与",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_528.png",
+    "type": "attackAfterFunction",
+    "vals": [{
+      "id": 3004
     }]
   }]
 }, {
@@ -54167,6 +54246,219 @@
       "id": 3006
     }, {
       "id": 3030
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 22584,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "聖剣装填",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_393.png",
+  "buffs": [{
+    "id": 5825,
+    "name": "聖剣装填",
+    "detail": "宝具を補助宝具から全体攻撃宝具に変更する",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_393.png",
+    "type": "tdTypeChangeBuster",
+    "buffGroup": 5825,
+    "script": {
+      "INDIVIDUALITIE_OR": [{
+        "id": 800100
+      }, {
+        "id": 800101
+      }, {
+        "id": 800102
+      }, {
+        "id": 800190
+      }]
+    },
+    "originalScript": {
+      "INDIVIDUALITIE_OR": "800100,800101,800102,800190",
+      "DisplayCardBottomImageName": "icon_treasure_device_change"
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 2967
+    }]
+  }]
+}, {
+  "funcId": 22585,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_419.png",
+  "buffs": [{
+    "id": 5826,
+    "name": "",
+    "detail": "",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_419.png",
+    "type": "skillRankUp",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 2967
+    }]
+  }]
+}, {
+  "funcId": 22588,
+  "funcType": "gainNpCriticalstarSum",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "NP増加"
+}, {
+  "funcId": 22606,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "睡眠耐性ダウン",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_506.png",
+  "script": {
+    "funcIndividuality": [{
+      "id": 3098
+    }]
+  },
+  "buffs": [{
+    "id": 5832,
+    "name": "睡眠耐性ダウン",
+    "detail": "睡眠耐性をダウン",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_506.png",
+    "type": "downTolerance",
+    "vals": [{
+      "id": 3005
+    }],
+    "tvals": [{
+      "id": 3066
+    }],
+    "ckOpIndv": [{
+      "id": 3066
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 22614,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "宝具威力耐性アップ〔サーヴァント〕",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_413.png",
+  "buffs": [{
+    "id": 5833,
+    "name": "宝具威力耐性アップ〔サーヴァント〕",
+    "detail": "〔サーヴァント〕による宝具で受けるダメージを減らす",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_413.png",
+    "type": "upDefenceNpdamage",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3007
+    }, {
+      "id": 3040
+    }],
+    "tvals": [{
+      "id": 1000
+    }],
+    "ckOpIndv": [{
+      "id": 1000
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 22641,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "被ダメージ時発動",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_331.png",
+  "buffs": [{
+    "id": 5836,
+    "name": "被ダメージ時発動",
+    "detail": "攻撃を受けると、スターを獲得する",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_331.png",
+    "type": "damageFunction",
+    "vals": [{
+      "id": 3004
+    }]
+  }]
+}, {
+  "funcId": 22642,
+  "funcType": "addState",
+  "funcTargetType": "ptOneOther",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "無敵",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_311.png",
+  "buffs": [{
+    "id": 155,
+    "name": "無敵",
+    "detail": "必中を無視して、攻撃によるダメージを0にする",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_311.png",
+    "type": "invincible",
+    "buffGroup": 400,
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3018
+    }, {
+      "id": 3022
+    }, {
+      "id": 3007
+    }]
+  }]
+}, {
+  "funcId": 22643,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "宝具威力アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_310.png",
+  "functvals": [{
+    "id": 1172
+  }],
+  "buffs": [{
+    "id": 138,
+    "name": "宝具威力アップ",
+    "detail": "宝具で与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_310.png",
+    "type": "upNpdamage",
+    "originalScript": {
+      "ProgressSelfTurn": 1
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3030
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 22655,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "enemy",
+  "funcPopupText": "クリティカル発生ダウン",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_523.png",
+  "buffs": [{
+    "id": 5841,
+    "name": "クリティカル発生ダウン",
+    "detail": "クリティカルの発生率をダウン(強化扱い)【デメリット】",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_523.png",
+    "type": "downCriticalrate",
+    "script": {
+      "missText": "クリティカル MISS"
+    },
+    "originalScript": {
+      "missText": "クリティカル MISS"
+    },
+    "vals": [{
+      "id": 3005
+    }, {
+      "id": 3008
+    }, {
+      "id": 3038
     }],
     "maxRate": 5000
   }]

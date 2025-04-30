@@ -42196,6 +42196,8 @@
     "id": 4007
   }, {
     "id": 4102
+  }, {
+    "id": 2966
   }],
   "npSvts": [{
     "svtId": 300800,
@@ -42265,7 +42267,9 @@
       "Rate": 1000,
       "Value": 8000,
       "Target": 1172,
-      "Correction": 2000
+      "Correction": 2000,
+      "AddIndividualty": 2966,
+      "AddIndividualtyList": [2966]
     }, {
       "Value": 10000
     }, {
@@ -51303,6 +51307,181 @@
     "svals3": [{}, {}, {}, {}, {}],
     "svals4": [{}, {}, {}, {}, {}],
     "svals5": [{}, {}, {}, {}, {}]
+  }]
+}, {
+  "id": 305801,
+  "card": "arts",
+  "name": "法阿育・転輪聖王",
+  "ruby": "ダルマ＝アショーカ・チャクラ・ヴァルティン",
+  "icon": "https://static.atlasacademy.io/JP/Servants/Commands/305800/card_servant_np.png",
+  "rank": "A+",
+  "type": "対人／対国宝具",
+  "effectFlags": ["attackEnemyAll"],
+  "unmodifiedDetail": "自身に〔悪〕特攻状態を付与(1ターン)＆〔魔性〕特攻状態を付与(1ターン) ＋ フィールドにいる敵が1体の時、自身の宝具威力をアップ(1ターン) ＋ 敵全体に強力な攻撃[{0}]＆防御力をダウン(3ターン)<オーバーチャージで効果アップ>",
+  "npGain": {
+    "buster": [40, 40, 40, 40, 40],
+    "arts": [40, 40, 40, 40, 40],
+    "quick": [40, 40, 40, 40, 40],
+    "extra": [40, 40, 40, 40, 40],
+    "defence": [400, 400, 400, 400, 400],
+    "np": [40, 40, 40, 40, 40]
+  },
+  "npDistribution": [10, 20, 30, 40],
+  "individuality": [{
+    "id": 3002
+  }, {
+    "id": 4001
+  }, {
+    "id": 4007
+  }, {
+    "id": 4101
+  }],
+  "npSvts": [{
+    "svtId": 305800,
+    "priority": 101,
+    "damage": [10, 20, 30, 40],
+    "card": "arts"
+  }],
+  "functions": [{
+    "funcId": 236,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 1,
+      "Count": -1,
+      "Value": 300
+    }, {}, {}, {}, {}],
+    "svals2": [{}, {}, {}, {}, {}],
+    "svals3": [{}, {}, {}, {}, {}],
+    "svals4": [{}, {}, {}, {}, {}],
+    "svals5": [{}, {}, {}, {}, {}]
+  }, {
+    "funcId": 907,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 1,
+      "Count": -1,
+      "Value": 300
+    }, {}, {}, {}, {}],
+    "svals2": [{}, {}, {}, {}, {}],
+    "svals3": [{}, {}, {}, {}, {}],
+    "svals4": [{}, {}, {}, {}, {}],
+    "svals5": [{}, {}, {}, {}, {}]
+  }, {
+    "funcId": 249,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 1,
+      "Count": -1,
+      "Value": 500,
+      "TriggeredFieldCountTarget": 1,
+      "TriggeredFieldCountRange": "<1"
+    }, {}, {}, {}, {}],
+    "svals2": [{}, {}, {}, {}, {}],
+    "svals3": [{}, {}, {}, {}, {}],
+    "svals4": [{}, {}, {}, {}, {}],
+    "svals5": [{}, {}, {}, {}, {}]
+  }, {
+    "funcId": 13,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 4500
+    }, {
+      "Value": 6000
+    }, {
+      "Value": 6750
+    }, {
+      "Value": 7125
+    }, {
+      "Value": 7500
+    }],
+    "svals2": [{}, {
+      "Value": 6000
+    }, {
+      "Value": 6750
+    }, {
+      "Value": 7125
+    }, {
+      "Value": 7500
+    }],
+    "svals3": [{}, {
+      "Value": 6000
+    }, {
+      "Value": 6750
+    }, {
+      "Value": 7125
+    }, {
+      "Value": 7500
+    }],
+    "svals4": [{}, {
+      "Value": 6000
+    }, {
+      "Value": 6750
+    }, {
+      "Value": 7125
+    }, {
+      "Value": 7500
+    }],
+    "svals5": [{}, {
+      "Value": 6000
+    }, {
+      "Value": 6750
+    }, {
+      "Value": 7125
+    }, {
+      "Value": 7500
+    }]
+  }, {
+    "funcId": 197,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 200
+    }, {}, {}, {}, {}],
+    "svals2": [{
+      "Value": 250
+    }, {
+      "Value": 250
+    }, {
+      "Value": 250
+    }, {
+      "Value": 250
+    }, {
+      "Value": 250
+    }],
+    "svals3": [{
+      "Value": 300
+    }, {
+      "Value": 300
+    }, {
+      "Value": 300
+    }, {
+      "Value": 300
+    }, {
+      "Value": 300
+    }],
+    "svals4": [{
+      "Value": 350
+    }, {
+      "Value": 350
+    }, {
+      "Value": 350
+    }, {
+      "Value": 350
+    }, {
+      "Value": 350
+    }],
+    "svals5": [{
+      "Value": 400
+    }, {
+      "Value": 400
+    }, {
+      "Value": 400
+    }, {
+      "Value": 400
+    }, {
+      "Value": 400
+    }]
   }]
 }, {
   "id": 400101,
@@ -97511,6 +97690,7 @@
       "Count": -1,
       "Value": 500,
       "AddIndividualty": 2656,
+      "AddIndividualtyList": [2656],
       "AddLinkageTargetIndividualty": 2656
     }, {}, {}, {}, {}],
     "svals2": [{}, {}, {}, {}, {}],
@@ -97526,6 +97706,7 @@
       "HideMiss": 1,
       "ShowState": -1,
       "AddIndividualty": 2656,
+      "AddIndividualtyList": [2656],
       "AddLinkageTargetIndividualty": 2656,
       "UnSubStateWhileLinkedToOthers": 1
     }, {}, {}, {}, {}],
@@ -98947,6 +99128,8 @@
     "id": 4007
   }, {
     "id": 4102
+  }, {
+    "id": 2966
   }],
   "npSvts": [{
     "svtId": 704700,
@@ -99075,7 +99258,9 @@
       "Rate": 1000,
       "Value": 9000,
       "Target": 1172,
-      "Correction": 1500
+      "Correction": 1500,
+      "AddIndividualty": 2966,
+      "AddIndividualtyList": [2966]
     }, {
       "Value": 12000
     }, {
@@ -100432,6 +100617,846 @@
     }, {
       "Value": 400
     }]
+  }]
+}, {
+  "id": 800107,
+  "card": "arts",
+  "name": "希望築く人理の盾",
+  "ruby": "ロード・カルデアス",
+  "icon": "https://static.atlasacademy.io/JP/Servants/Commands/800100/card_servant_np4.png",
+  "rank": "B",
+  "type": "対人宝具",
+  "effectFlags": ["support"],
+  "unmodifiedDetail": "【通常時】\n味方全体の防御力をアップ(3ターン)<オーバーチャージで効果アップ>＆被ダメージカット状態を付与[{0}](3ターン)＆弱体無効状態を付与(1回・3ターン)＆攻撃力をアップ(3ターン) ＋ フィールドに〔人類の脅威〕特性の敵がいる時、味方全体の宝具威力をアップ(3ターン) ＋ 自身に聖剣装填状態<宝具をBuster攻撃宝具に変化させる状態>を付与(3ターン)＆スキル2のスキルチャージを5進める",
+  "npGain": {
+    "buster": [84, 84, 84, 84, 84],
+    "arts": [84, 84, 84, 84, 84],
+    "quick": [84, 84, 84, 84, 84],
+    "extra": [84, 84, 84, 84, 84],
+    "defence": [300, 300, 300, 300, 300],
+    "np": [84, 84, 84, 84, 84]
+  },
+  "npDistribution": [100],
+  "individuality": [{
+    "id": 3002
+  }, {
+    "id": 4001
+  }, {
+    "id": 4007
+  }],
+  "npSvts": [{
+    "svtId": 800100,
+    "npNum": 2,
+    "priority": 109,
+    "damage": [100],
+    "strengthStatus": 99,
+    "flag": 32,
+    "imageIndex": 8,
+    "condQuestId": 4000529,
+    "condQuestPhase": 1,
+    "card": "arts",
+    "releaseConditions": [{
+      "idx": 1,
+      "condType": "equipWithTargetCostume",
+      "condTargetId": 800100,
+      "condNum": 17
+    }]
+  }],
+  "script": {
+    "tdTypeChangeIDs": [800107, 800108],
+    "excludeTdChangeTypes": [3]
+  },
+  "functions": [{
+    "funcId": 183,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 300,
+      "AddIndividualty": 2964,
+      "AddIndividualtyList": [2959, 2964]
+    }, {}, {}, {}, {}],
+    "svals2": [{
+      "Value": 350
+    }, {
+      "Value": 350
+    }, {
+      "Value": 350
+    }, {
+      "Value": 350
+    }, {
+      "Value": 350
+    }],
+    "svals3": [{
+      "Value": 400
+    }, {
+      "Value": 400
+    }, {
+      "Value": 400
+    }, {
+      "Value": 400
+    }, {
+      "Value": 400
+    }],
+    "svals4": [{
+      "Value": 450
+    }, {
+      "Value": 450
+    }, {
+      "Value": 450
+    }, {
+      "Value": 450
+    }, {
+      "Value": 450
+    }],
+    "svals5": [{
+      "Value": 500
+    }, {
+      "Value": 500
+    }, {
+      "Value": 500
+    }, {
+      "Value": 500
+    }, {
+      "Value": 500
+    }]
+  }, {
+    "funcId": 281,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 1000,
+      "AddIndividualty": 2964,
+      "AddIndividualtyList": [2959, 2964]
+    }, {
+      "Value": 1500
+    }, {
+      "Value": 1750
+    }, {
+      "Value": 1875
+    }, {
+      "Value": 2000
+    }],
+    "svals2": [{}, {
+      "Value": 1500
+    }, {
+      "Value": 1750
+    }, {
+      "Value": 1875
+    }, {
+      "Value": 2000
+    }],
+    "svals3": [{}, {
+      "Value": 1500
+    }, {
+      "Value": 1750
+    }, {
+      "Value": 1875
+    }, {
+      "Value": 2000
+    }],
+    "svals4": [{}, {
+      "Value": 1500
+    }, {
+      "Value": 1750
+    }, {
+      "Value": 1875
+    }, {
+      "Value": 2000
+    }],
+    "svals5": [{}, {
+      "Value": 1500
+    }, {
+      "Value": 1750
+    }, {
+      "Value": 1875
+    }, {
+      "Value": 2000
+    }]
+  }, {
+    "funcId": 629,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": 1,
+      "AddIndividualty": 2964,
+      "AddIndividualtyList": [2959, 2964]
+    }, {}, {}, {}, {}],
+    "svals2": [{}, {}, {}, {}, {}],
+    "svals3": [{}, {}, {}, {}, {}],
+    "svals4": [{}, {}, {}, {}, {}],
+    "svals5": [{}, {}, {}, {}, {}]
+  }, {
+    "funcId": 152,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 300,
+      "AddIndividualty": 2964,
+      "AddIndividualtyList": [2959, 2964]
+    }, {}, {}, {}, {}],
+    "svals2": [{}, {}, {}, {}, {}],
+    "svals3": [{}, {}, {}, {}, {}],
+    "svals4": [{}, {}, {}, {}, {}],
+    "svals5": [{}, {}, {}, {}, {}]
+  }, {
+    "funcId": 22643,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 500,
+      "FuncCheckTargetIndividualityTargetType": 6
+    }, {}, {}, {}, {}],
+    "svals2": [{}, {}, {}, {}, {}],
+    "svals3": [{}, {}, {}, {}, {}],
+    "svals4": [{}, {}, {}, {}, {}],
+    "svals5": [{}, {}, {}, {}, {}]
+  }, {
+    "funcId": 22584,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "ShowState": 2,
+      "AuraEffectId": 106490901,
+      "AddIndividualty": 2967,
+      "AddIndividualtyList": [2967],
+      "AddLinkageTargetIndividualty": 2967
+    }, {}, {}, {}, {}],
+    "svals2": [{}, {}, {}, {}, {}],
+    "svals3": [{}, {}, {}, {}, {}],
+    "svals4": [{}, {}, {}, {}, {}],
+    "svals5": [{}, {}, {}, {}, {}]
+  }, {
+    "funcId": 22585,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 1,
+      "ShowState": -1,
+      "AddIndividualty": 2967,
+      "AddIndividualtyList": [2967],
+      "AddLinkageTargetIndividualty": 2967
+    }, {}, {}, {}, {}],
+    "svals2": [{}, {}, {}, {}, {}],
+    "svals3": [{}, {}, {}, {}, {}],
+    "svals4": [{}, {}, {}, {}, {}],
+    "svals5": [{}, {}, {}, {}, {}]
+  }, {
+    "funcId": 21032,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 5,
+      "Value2": 2
+    }, {}, {}, {}, {}],
+    "svals2": [{}, {}, {}, {}, {}],
+    "svals3": [{}, {}, {}, {}, {}],
+    "svals4": [{}, {}, {}, {}, {}],
+    "svals5": [{}, {}, {}, {}, {}]
+  }]
+}, {
+  "id": 800108,
+  "card": "buster",
+  "name": "希望証す人理の剣",
+  "ruby": "レイプルーフ・キリエライト",
+  "icon": "https://static.atlasacademy.io/JP/Servants/Commands/800100/card_servant_np5.png",
+  "rank": "EX",
+  "type": "対界宝具",
+  "effectFlags": ["attackEnemyAll"],
+  "unmodifiedDetail": "【聖剣装填時】\n自身に無敵貫通状態を付与(1ターン)＆防御無視状態を付与(1ターン)＆Busterカード性能をアップ(1ターン)<オーバーチャージで効果アップ> ＋ 敵全体に強力な〔人類の脅威〕特攻攻撃[{0}]＆強化状態を解除",
+  "npGain": {
+    "buster": [84, 84, 84, 84, 84],
+    "arts": [84, 84, 84, 84, 84],
+    "quick": [84, 84, 84, 84, 84],
+    "extra": [84, 84, 84, 84, 84],
+    "defence": [300, 300, 300, 300, 300],
+    "np": [84, 84, 84, 84, 84]
+  },
+  "npDistribution": [6, 13, 20, 26, 35],
+  "individuality": [{
+    "id": 3002
+  }, {
+    "id": 4002
+  }, {
+    "id": 4007
+  }, {
+    "id": 4101
+  }, {
+    "id": 2966
+  }],
+  "npSvts": [{
+    "svtId": 800100,
+    "num": 8,
+    "damage": [6, 13, 20, 26, 35],
+    "strengthStatus": 99,
+    "flag": 32,
+    "imageIndex": 10,
+    "card": "buster"
+  }],
+  "script": {
+    "tdTypeChangeIDs": [800107, 800108],
+    "excludeTdChangeTypes": [3]
+  },
+  "functions": [{
+    "funcId": 510,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 1,
+      "Count": -1,
+      "AddIndividualty": 2965,
+      "AddIndividualtyList": [2965]
+    }, {}, {}, {}, {}],
+    "svals2": [{}, {}, {}, {}, {}],
+    "svals3": [{}, {}, {}, {}, {}],
+    "svals4": [{}, {}, {}, {}, {}],
+    "svals5": [{}, {}, {}, {}, {}]
+  }, {
+    "funcId": 1588,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 1,
+      "Count": -1,
+      "AddIndividualty": 2965,
+      "AddIndividualtyList": [2965]
+    }, {}, {}, {}, {}],
+    "svals2": [{}, {}, {}, {}, {}],
+    "svals3": [{}, {}, {}, {}, {}],
+    "svals4": [{}, {}, {}, {}, {}],
+    "svals5": [{}, {}, {}, {}, {}]
+  }, {
+    "funcId": 119,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 1,
+      "Count": -1,
+      "Value": 200,
+      "AddIndividualty": 2965,
+      "AddIndividualtyList": [2965]
+    }, {}, {}, {}, {}],
+    "svals2": [{
+      "Value": 250
+    }, {
+      "Value": 250
+    }, {
+      "Value": 250
+    }, {
+      "Value": 250
+    }, {
+      "Value": 250
+    }],
+    "svals3": [{
+      "Value": 300
+    }, {
+      "Value": 300
+    }, {
+      "Value": 300
+    }, {
+      "Value": 300
+    }, {
+      "Value": 300
+    }],
+    "svals4": [{
+      "Value": 350
+    }, {
+      "Value": 350
+    }, {
+      "Value": 350
+    }, {
+      "Value": 350
+    }, {
+      "Value": 350
+    }],
+    "svals5": [{
+      "Value": 400
+    }, {
+      "Value": 400
+    }, {
+      "Value": 400
+    }, {
+      "Value": 400
+    }, {
+      "Value": 400
+    }]
+  }, {
+    "funcId": 17,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 4000,
+      "Target": 1172,
+      "Correction": 2000,
+      "AddIndividualty": 2966,
+      "AddIndividualtyList": [2966]
+    }, {
+      "Value": 5000
+    }, {
+      "Value": 5500
+    }, {
+      "Value": 5750
+    }, {
+      "Value": 6000
+    }],
+    "svals2": [{}, {
+      "Value": 5000
+    }, {
+      "Value": 5500
+    }, {
+      "Value": 5750
+    }, {
+      "Value": 6000
+    }],
+    "svals3": [{}, {
+      "Value": 5000
+    }, {
+      "Value": 5500
+    }, {
+      "Value": 5750
+    }, {
+      "Value": 6000
+    }],
+    "svals4": [{}, {
+      "Value": 5000
+    }, {
+      "Value": 5500
+    }, {
+      "Value": 5750
+    }, {
+      "Value": 6000
+    }],
+    "svals5": [{}, {
+      "Value": 5000
+    }, {
+      "Value": 5500
+    }, {
+      "Value": 5750
+    }, {
+      "Value": 6000
+    }]
+  }, {
+    "funcId": 723,
+    "svals": [{
+      "Rate": 1000
+    }, {}, {}, {}, {}],
+    "svals2": [{}, {}, {}, {}, {}],
+    "svals3": [{}, {}, {}, {}, {}],
+    "svals4": [{}, {}, {}, {}, {}],
+    "svals5": [{}, {}, {}, {}, {}]
+  }]
+}, {
+  "id": 800196,
+  "card": "arts",
+  "name": "いまに在りし夢想の城",
+  "ruby": "ロード・キャメロット",
+  "icon": "https://static.atlasacademy.io/JP/Servants/Commands/800100/card_servant_np3.png",
+  "rank": "C",
+  "type": "対人宝具",
+  "effectFlags": ["support"],
+  "unmodifiedDetail": "味方全体の防御力をアップ(3ターン)<オーバーチャージで効果アップ>＆被ダメージカット状態を付与[{0}](3回・5ターン)＆攻撃力をアップ(3ターン)<オーバーチャージで効果アップ>[g][o]▲[/o][/g]",
+  "npGain": {
+    "buster": [84, 84, 84, 84, 84],
+    "arts": [84, 84, 84, 84, 84],
+    "quick": [84, 84, 84, 84, 84],
+    "extra": [84, 84, 84, 84, 84],
+    "defence": [300, 300, 300, 300, 300],
+    "np": [84, 84, 84, 84, 84]
+  },
+  "npDistribution": [100],
+  "individuality": [{
+    "id": 3002
+  }, {
+    "id": 4001
+  }, {
+    "id": 4007
+  }],
+  "npSvts": [{
+    "svtId": 800100,
+    "npNum": 2,
+    "priority": 110,
+    "damage": [100],
+    "strengthStatus": 99,
+    "flag": 32,
+    "imageIndex": 6,
+    "card": "arts",
+    "releaseConditions": [{
+      "idx": 1,
+      "condType": "equipWithTargetCostume",
+      "condTargetId": 800100,
+      "condNum": 18
+    }]
+  }],
+  "functions": [{
+    "funcId": 183,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 300
+    }, {}, {}, {}, {}],
+    "svals2": [{
+      "Value": 350
+    }, {
+      "Value": 350
+    }, {
+      "Value": 350
+    }, {
+      "Value": 350
+    }, {
+      "Value": 350
+    }],
+    "svals3": [{
+      "Value": 400
+    }, {
+      "Value": 400
+    }, {
+      "Value": 400
+    }, {
+      "Value": 400
+    }, {
+      "Value": 400
+    }],
+    "svals4": [{
+      "Value": 450
+    }, {
+      "Value": 450
+    }, {
+      "Value": 450
+    }, {
+      "Value": 450
+    }, {
+      "Value": 450
+    }],
+    "svals5": [{
+      "Value": 500
+    }, {
+      "Value": 500
+    }, {
+      "Value": 500
+    }, {
+      "Value": 500
+    }, {
+      "Value": 500
+    }]
+  }, {
+    "funcId": 281,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 5,
+      "Count": 3,
+      "Value": 100
+    }, {
+      "Value": 550
+    }, {
+      "Value": 775
+    }, {
+      "Value": 888
+    }, {
+      "Value": 1000
+    }],
+    "svals2": [{}, {
+      "Value": 550
+    }, {
+      "Value": 775
+    }, {
+      "Value": 888
+    }, {
+      "Value": 1000
+    }],
+    "svals3": [{}, {
+      "Value": 550
+    }, {
+      "Value": 775
+    }, {
+      "Value": 888
+    }, {
+      "Value": 1000
+    }],
+    "svals4": [{}, {
+      "Value": 550
+    }, {
+      "Value": 775
+    }, {
+      "Value": 888
+    }, {
+      "Value": 1000
+    }],
+    "svals5": [{}, {
+      "Value": 550
+    }, {
+      "Value": 775
+    }, {
+      "Value": 888
+    }, {
+      "Value": 1000
+    }]
+  }, {
+    "funcId": 152,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 200
+    }, {}, {}, {}, {}],
+    "svals2": [{
+      "Value": 250
+    }, {
+      "Value": 250
+    }, {
+      "Value": 250
+    }, {
+      "Value": 250
+    }, {
+      "Value": 250
+    }],
+    "svals3": [{
+      "Value": 300
+    }, {
+      "Value": 300
+    }, {
+      "Value": 300
+    }, {
+      "Value": 300
+    }, {
+      "Value": 300
+    }],
+    "svals4": [{
+      "Value": 350
+    }, {
+      "Value": 350
+    }, {
+      "Value": 350
+    }, {
+      "Value": 350
+    }, {
+      "Value": 350
+    }],
+    "svals5": [{
+      "Value": 400
+    }, {
+      "Value": 400
+    }, {
+      "Value": 400
+    }, {
+      "Value": 400
+    }, {
+      "Value": 400
+    }]
+  }]
+}, {
+  "id": 800197,
+  "card": "arts",
+  "name": "希望築く人理の盾",
+  "ruby": "ロード・カルデアス",
+  "icon": "https://static.atlasacademy.io/JP/Servants/Commands/800100/card_servant_np4.png",
+  "rank": "B",
+  "type": "対人宝具",
+  "effectFlags": ["support"],
+  "unmodifiedDetail": "味方全体の防御力をアップ(3ターン)<オーバーチャージで効果アップ>＆被ダメージカット状態を付与[{0}](3ターン)＆弱体無効状態を付与(1回・3ターン)＆攻撃力をアップ(3ターン)",
+  "npGain": {
+    "buster": [84, 84, 84, 84, 84],
+    "arts": [84, 84, 84, 84, 84],
+    "quick": [84, 84, 84, 84, 84],
+    "extra": [84, 84, 84, 84, 84],
+    "defence": [300, 300, 300, 300, 300],
+    "np": [84, 84, 84, 84, 84]
+  },
+  "npDistribution": [100],
+  "individuality": [{
+    "id": 3002
+  }, {
+    "id": 4001
+  }, {
+    "id": 4007
+  }],
+  "npSvts": [{
+    "svtId": 800100,
+    "npNum": 2,
+    "priority": 111,
+    "damage": [100],
+    "strengthStatus": 99,
+    "flag": 32,
+    "imageIndex": 8,
+    "card": "arts",
+    "releaseConditions": [{
+      "idx": 1,
+      "condType": "equipWithTargetCostume",
+      "condTargetId": 800100,
+      "condNum": 19
+    }]
+  }],
+  "functions": [{
+    "funcId": 183,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 300,
+      "AddIndividualty": 2964,
+      "AddIndividualtyList": [2959, 2964]
+    }, {}, {}, {}, {}],
+    "svals2": [{
+      "Value": 350
+    }, {
+      "Value": 350
+    }, {
+      "Value": 350
+    }, {
+      "Value": 350
+    }, {
+      "Value": 350
+    }],
+    "svals3": [{
+      "Value": 400
+    }, {
+      "Value": 400
+    }, {
+      "Value": 400
+    }, {
+      "Value": 400
+    }, {
+      "Value": 400
+    }],
+    "svals4": [{
+      "Value": 450
+    }, {
+      "Value": 450
+    }, {
+      "Value": 450
+    }, {
+      "Value": 450
+    }, {
+      "Value": 450
+    }],
+    "svals5": [{
+      "Value": 500
+    }, {
+      "Value": 500
+    }, {
+      "Value": 500
+    }, {
+      "Value": 500
+    }, {
+      "Value": 500
+    }]
+  }, {
+    "funcId": 281,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 1000,
+      "AddIndividualty": 2964,
+      "AddIndividualtyList": [2959, 2964]
+    }, {
+      "Value": 1500
+    }, {
+      "Value": 1750
+    }, {
+      "Value": 1875
+    }, {
+      "Value": 2000
+    }],
+    "svals2": [{}, {
+      "Value": 1500
+    }, {
+      "Value": 1750
+    }, {
+      "Value": 1875
+    }, {
+      "Value": 2000
+    }],
+    "svals3": [{}, {
+      "Value": 1500
+    }, {
+      "Value": 1750
+    }, {
+      "Value": 1875
+    }, {
+      "Value": 2000
+    }],
+    "svals4": [{}, {
+      "Value": 1500
+    }, {
+      "Value": 1750
+    }, {
+      "Value": 1875
+    }, {
+      "Value": 2000
+    }],
+    "svals5": [{}, {
+      "Value": 1500
+    }, {
+      "Value": 1750
+    }, {
+      "Value": 1875
+    }, {
+      "Value": 2000
+    }]
+  }, {
+    "funcId": 629,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": 1,
+      "AddIndividualty": 2964,
+      "AddIndividualtyList": [2959, 2964]
+    }, {}, {}, {}, {}],
+    "svals2": [{}, {}, {}, {}, {}],
+    "svals3": [{}, {}, {}, {}, {}],
+    "svals4": [{}, {}, {}, {}, {}],
+    "svals5": [{}, {}, {}, {}, {}]
+  }, {
+    "funcId": 152,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 300,
+      "AddIndividualty": 2964,
+      "AddIndividualtyList": [2959, 2964]
+    }, {}, {}, {}, {}],
+    "svals2": [{}, {}, {}, {}, {}],
+    "svals3": [{}, {}, {}, {}, {}],
+    "svals4": [{}, {}, {}, {}, {}],
+    "svals5": [{}, {}, {}, {}, {}]
+  }, {
+    "funcId": 5,
+    "svals": [{
+      "HideMiss": 1
+    }, {}, {}, {}, {}],
+    "svals2": [{}, {}, {}, {}, {}],
+    "svals3": [{}, {}, {}, {}, {}],
+    "svals4": [{}, {}, {}, {}, {}],
+    "svals5": [{}, {}, {}, {}, {}]
+  }, {
+    "funcId": 5,
+    "svals": [{
+      "HideMiss": 1
+    }, {}, {}, {}, {}],
+    "svals2": [{}, {}, {}, {}, {}],
+    "svals3": [{}, {}, {}, {}, {}],
+    "svals4": [{}, {}, {}, {}, {}],
+    "svals5": [{}, {}, {}, {}, {}]
+  }, {
+    "funcId": 5,
+    "svals": [{
+      "HideMiss": 1
+    }, {}, {}, {}, {}],
+    "svals2": [{}, {}, {}, {}, {}],
+    "svals3": [{}, {}, {}, {}, {}],
+    "svals4": [{}, {}, {}, {}, {}],
+    "svals5": [{}, {}, {}, {}, {}]
+  }, {
+    "funcId": 5,
+    "svals": [{
+      "HideMiss": 1
+    }, {}, {}, {}, {}],
+    "svals2": [{}, {}, {}, {}, {}],
+    "svals3": [{}, {}, {}, {}, {}],
+    "svals4": [{}, {}, {}, {}, {}],
+    "svals5": [{}, {}, {}, {}, {}]
   }]
 }, {
   "id": 900101,
@@ -104292,6 +105317,197 @@
     }, {
       "Value": 15000
     }]
+  }]
+}, {
+  "id": 901901,
+  "card": "buster",
+  "name": "司るは全知全能なりて",
+  "ruby": "ユニヴェール・イモルテル・メタトロン",
+  "icon": "https://static.atlasacademy.io/JP/Servants/Commands/901900/card_servant_np.png",
+  "rank": "EX",
+  "type": "対人宝具（自身）",
+  "effectFlags": ["attackEnemyAll"],
+  "unmodifiedDetail": "自身に〔善〕特攻状態を付与(1ターン)＆〔悪〕特攻状態を付与(1ターン)＆宝具威力をアップ(1ターン)<オーバーチャージで効果アップ> ＋ 敵全体に強力な攻撃[{0}] ＋ 味方全体のHPを回復＆NPを少し増やす",
+  "npGain": {
+    "buster": [53, 53, 53, 53, 53],
+    "arts": [53, 53, 53, 53, 53],
+    "quick": [53, 53, 53, 53, 53],
+    "extra": [53, 53, 53, 53, 53],
+    "defence": [300, 300, 300, 300, 300],
+    "np": [53, 53, 53, 53, 53]
+  },
+  "npDistribution": [3, 7, 10, 14, 17, 21, 28],
+  "individuality": [{
+    "id": 3002
+  }, {
+    "id": 4002
+  }, {
+    "id": 4007
+  }, {
+    "id": 4101
+  }],
+  "npSvts": [{
+    "svtId": 901900,
+    "priority": 101,
+    "damage": [3, 7, 10, 14, 17, 21, 28],
+    "card": "buster"
+  }],
+  "functions": [{
+    "funcId": 7037,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 1,
+      "Count": -1,
+      "Value": 500
+    }, {}, {}, {}, {}],
+    "svals2": [{}, {}, {}, {}, {}],
+    "svals3": [{}, {}, {}, {}, {}],
+    "svals4": [{}, {}, {}, {}, {}],
+    "svals5": [{}, {}, {}, {}, {}]
+  }, {
+    "funcId": 237,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 1,
+      "Count": -1,
+      "Value": 500
+    }, {}, {}, {}, {}],
+    "svals2": [{}, {}, {}, {}, {}],
+    "svals3": [{}, {}, {}, {}, {}],
+    "svals4": [{}, {}, {}, {}, {}],
+    "svals5": [{}, {}, {}, {}, {}]
+  }, {
+    "funcId": 248,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 1,
+      "Count": -1,
+      "Value": 200
+    }, {}, {}, {}, {}],
+    "svals2": [{
+      "Value": 250
+    }, {
+      "Value": 250
+    }, {
+      "Value": 250
+    }, {
+      "Value": 250
+    }, {
+      "Value": 250
+    }],
+    "svals3": [{
+      "Value": 300
+    }, {
+      "Value": 300
+    }, {
+      "Value": 300
+    }, {
+      "Value": 300
+    }, {
+      "Value": 300
+    }],
+    "svals4": [{
+      "Value": 350
+    }, {
+      "Value": 350
+    }, {
+      "Value": 350
+    }, {
+      "Value": 350
+    }, {
+      "Value": 350
+    }],
+    "svals5": [{
+      "Value": 400
+    }, {
+      "Value": 400
+    }, {
+      "Value": 400
+    }, {
+      "Value": 400
+    }, {
+      "Value": 400
+    }]
+  }, {
+    "funcId": 13,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 3000
+    }, {
+      "Value": 4000
+    }, {
+      "Value": 4500
+    }, {
+      "Value": 4750
+    }, {
+      "Value": 5000
+    }],
+    "svals2": [{}, {
+      "Value": 4000
+    }, {
+      "Value": 4500
+    }, {
+      "Value": 4750
+    }, {
+      "Value": 5000
+    }],
+    "svals3": [{}, {
+      "Value": 4000
+    }, {
+      "Value": 4500
+    }, {
+      "Value": 4750
+    }, {
+      "Value": 5000
+    }],
+    "svals4": [{}, {
+      "Value": 4000
+    }, {
+      "Value": 4500
+    }, {
+      "Value": 4750
+    }, {
+      "Value": 5000
+    }],
+    "svals5": [{}, {
+      "Value": 4000
+    }, {
+      "Value": 4500
+    }, {
+      "Value": 4750
+    }, {
+      "Value": 5000
+    }]
+  }, {
+    "funcId": 445,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 2000
+    }, {}, {}, {}, {}],
+    "svals2": [{}, {}, {}, {}, {}],
+    "svals3": [{}, {}, {}, {}, {}],
+    "svals4": [{}, {}, {}, {}, {}],
+    "svals5": [{}, {}, {}, {}, {}]
+  }, {
+    "funcId": 465,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 1000
+    }, {}, {}, {}, {}],
+    "svals2": [{}, {}, {}, {}, {}],
+    "svals3": [{}, {}, {}, {}, {}],
+    "svals4": [{}, {}, {}, {}, {}],
+    "svals5": [{}, {}, {}, {}, {}]
+  }, {
+    "funcId": 472,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 1
+    }, {}, {}, {}, {}],
+    "svals2": [{}, {}, {}, {}, {}],
+    "svals3": [{}, {}, {}, {}, {}],
+    "svals4": [{}, {}, {}, {}, {}],
+    "svals5": [{}, {}, {}, {}, {}]
   }]
 }, {
   "id": 1000101,
