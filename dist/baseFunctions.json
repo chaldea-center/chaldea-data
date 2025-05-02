@@ -35278,6 +35278,26 @@
     "maxRate": 10000
   }]
 }, {
+  "funcId": 9129,
+  "funcType": "addStateShort",
+  "funcTargetType": "enemy",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "被ダメージ時発動(HP減少)",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_525.png",
+  "buffs": [{
+    "id": 4537,
+    "name": "被ダメージ時発動(HP減少)",
+    "detail": "攻撃を受けると自身のHPを減少する",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_525.png",
+    "type": "damageFunction",
+    "vals": [{
+      "id": 3005
+    }],
+    "tvals": [{
+      "id": 5000
+    }]
+  }]
+}, {
   "funcId": 9131,
   "funcType": "addState",
   "funcTargetType": "enemyAll",
@@ -35949,6 +35969,23 @@
       "id": 2019
     }],
     "maxRate": 5000
+  }]
+}, {
+  "funcId": 9373,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "ガッツ時発動",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_365.png",
+  "buffs": [{
+    "id": 4615,
+    "name": "ガッツ時発動",
+    "detail": "ガッツ発動時、自身のチャージを1増やす",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_365.png",
+    "type": "gutsFunction",
+    "vals": [{
+      "id": 3004
+    }]
   }]
 }, {
   "funcId": 9416,
@@ -54341,11 +54378,62 @@
     }]
   }]
 }, {
+  "funcId": 22587,
+  "funcType": "addState",
+  "funcTargetType": "enemyAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "スタン",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_501.png",
+  "functvals": [{
+    "id": 2000
+  }],
+  "buffs": [{
+    "id": 178,
+    "name": "スタン",
+    "detail": "行動不能になる",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_501.png",
+    "type": "donotAct",
+    "buffGroup": 500,
+    "originalScript": {
+      "ProgressSelfTurn": 1
+    },
+    "vals": [{
+      "id": 3005
+    }, {
+      "id": 3014
+    }, {
+      "id": 3045
+    }]
+  }]
+}, {
   "funcId": 22588,
   "funcType": "gainNpCriticalstarSum",
   "funcTargetType": "self",
   "funcTargetTeam": "player",
   "funcPopupText": "NP増加"
+}, {
+  "funcId": 22598,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "ダメージアップ〔神性〕",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_504.png",
+  "buffs": [{
+    "id": 5829,
+    "name": "ダメージアップ〔神性〕",
+    "detail": "〔神性〕特性からの被ダメージが増える(強化扱い)【デメリット】",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_504.png",
+    "type": "addSelfdamage",
+    "vals": [{
+      "id": 3004
+    }],
+    "tvals": [{
+      "id": 2000
+    }],
+    "ckOpIndv": [{
+      "id": 2000
+    }]
+  }]
 }, {
   "funcId": 22606,
   "funcType": "addState",
@@ -54400,6 +54488,54 @@
     }],
     "ckOpIndv": [{
       "id": 1000
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 22623,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "威力アップ・対 今を生きる人類",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+  "buffs": [{
+    "id": 5834,
+    "name": "威力アップ〔今を生きる人類〕",
+    "detail": "〔今を生きる人類〕に与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamage",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3028
+    }],
+    "tvals": [{
+      "id": 2654
+    }],
+    "ckOpIndv": [{
+      "id": 2654
+    }],
+    "maxRate": 10000
+  }]
+}, {
+  "funcId": 22637,
+  "funcType": "addStateShort",
+  "funcTargetType": "enemy",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "クリティカル威力耐性ダウン",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_575.png",
+  "buffs": [{
+    "id": 5835,
+    "name": "クリティカル威力耐性ダウン",
+    "detail": "クリティカル攻撃で受けるダメージが増える",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_575.png",
+    "type": "downDefenceCriticaldamage",
+    "vals": [{
+      "id": 3005
+    }, {
+      "id": 3009
     }],
     "maxRate": 5000
   }]
@@ -54469,6 +54605,35 @@
       "id": 3006
     }, {
       "id": 3030
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 22649,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "精神異常耐性ダウン",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_506.png",
+  "script": {
+    "funcIndividuality": [{
+      "id": 3098
+    }]
+  },
+  "buffs": [{
+    "id": 170,
+    "name": "精神異常耐性ダウン",
+    "detail": "精神異常耐性をダウン",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_506.png",
+    "type": "downTolerance",
+    "vals": [{
+      "id": 3005
+    }],
+    "tvals": [{
+      "id": 3010
+    }],
+    "ckOpIndv": [{
+      "id": 3010
     }],
     "maxRate": 5000
   }]

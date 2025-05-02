@@ -219,6 +219,16 @@
       "plusAction": 0,
       "maxRate": [0]
     },
+    "receiveFixedDamage": {
+      "limit": "none",
+      "plusTypes": [],
+      "minusTypes": ["subFixedSelfdamage"],
+      "baseParam": 0,
+      "baseValue": 0,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": []
+    },
     "pierceInvincible": {
       "limit": "none",
       "plusTypes": ["pierceInvincible"],
@@ -1578,6 +1588,16 @@
       "isRec": true,
       "plusAction": 0,
       "maxRate": [5000]
+    },
+    "overwriteDamageDef": {
+      "limit": "none",
+      "plusTypes": ["overwriteFixedDefenceDamage"],
+      "minusTypes": [],
+      "baseParam": 1000,
+      "baseValue": 0,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": [0]
     }
   },
   "classInfo": {
@@ -6261,7 +6281,7 @@
         "3": [457000, 2162350, 133550]
       }
     }, {
-      "limits": [12, 800140, 13, 800150, 800151],
+      "limits": [12, 800140, 13, 800150, 18, 800151],
       "tds": [800100, 800101, 800104, 800102, 800107, 800108, 800196, 800197],
       "activeSkills": {
         "1": [1000, 236000, 2476450],
@@ -6269,7 +6289,7 @@
         "3": [133000, 133550]
       }
     }, {
-      "limits": [800190, 800200],
+      "limits": [17, 800190, 19, 800200],
       "tds": [800100, 800101, 800104, 800102, 800105, 800106, 800108, 800196, 800197],
       "activeSkills": {
         "1": [1000, 236000, 459550, 744450],
@@ -6418,7 +6438,14 @@
     "9945760": [1],
     "9945340": [2],
     "9945700": [1],
-    "9945770": [1]
+    "9945770": [1],
+    "9946210": [1],
+    "9945780": [1],
+    "9945790": [1],
+    "9945580": [1],
+    "9945450": [1],
+    "9946350": [2],
+    "9946340": [1]
   },
   "config": {}
 }
