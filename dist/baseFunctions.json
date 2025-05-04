@@ -54435,6 +54435,41 @@
     }]
   }]
 }, {
+  "funcId": 22603,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "自陣防御",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_418.png",
+  "buffs": [{
+    "id": 5830,
+    "name": "自陣防御",
+    "detail": "自身を除く味方全体の一定ダメージ以上のダメージを一定ダメージに抑える",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_418.png",
+    "type": "addIndividuality"
+  }]
+}, {
+  "funcId": 22604,
+  "funcType": "addState",
+  "funcTargetType": "ptOtherFull",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "自陣防御",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_418.png",
+  "buffs": [{
+    "id": 5831,
+    "name": "自陣防御",
+    "detail": "一定ダメージ以上のダメージを一定ダメージに抑える",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_418.png",
+    "type": "overwriteFixedDefenceDamage",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3007
+    }, {
+      "id": 3040
+    }]
+  }]
+}, {
   "funcId": 22606,
   "funcType": "addState",
   "funcTargetType": "self",
