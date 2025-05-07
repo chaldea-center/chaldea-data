@@ -31357,6 +31357,25 @@
     "isDispValue": true
   }]
 }, {
+  "funcId": 7695,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "ガッツ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_304.png",
+  "buffs": [{
+    "id": 3215,
+    "name": "ガッツ",
+    "detail": "HPが0になった時、HPを回復して耐える(他のガッツ状態と重複可能)",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_304.png",
+    "type": "guts",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3024
+    }]
+  }]
+}, {
   "funcId": 7701,
   "funcType": "eventDropUp",
   "funcTargetType": "self",
@@ -54644,6 +54663,34 @@
     "maxRate": 5000
   }]
 }, {
+  "funcId": 22644,
+  "funcType": "addState",
+  "funcTargetType": "enemy",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "混沌特性付与",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_520.png",
+  "buffs": [{
+    "id": 5837,
+    "name": "特性付与〔混沌〕",
+    "detail": "〔混沌〕特性を付与する",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_520.png",
+    "type": "addIndividuality"
+  }]
+}, {
+  "funcId": 22645,
+  "funcType": "addState",
+  "funcTargetType": "enemy",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "悪特性付与",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_520.png",
+  "buffs": [{
+    "id": 1534,
+    "name": "特性付与〔悪〕",
+    "detail": "〔悪〕特性を付与する",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_520.png",
+    "type": "addIndividuality"
+  }]
+}, {
   "funcId": 22649,
   "funcType": "addState",
   "funcTargetType": "self",
@@ -54669,6 +54716,34 @@
     }],
     "ckOpIndv": [{
       "id": 3010
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 22652,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "クリティカル威力アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_324.png",
+  "buffs": [{
+    "id": 5840,
+    "name": "クリティカル威力アップ〔秩序〕",
+    "detail": "〔秩序〕特性に与えるクリティカル時のダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_324.png",
+    "type": "upCriticaldamage",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3031
+    }],
+    "tvals": [{
+      "id": 300
+    }],
+    "ckOpIndv": [{
+      "id": 300
     }],
     "maxRate": 5000
   }]
