@@ -117605,6 +117605,15 @@
         "eventId": 80531,
         "startedAt": 1740819600,
         "endedAt": 1743433199
+      }, {
+        "priority": 8054202,
+        "condType": "questClear",
+        "condId": 3000421,
+        "closedMessage": "Lostbelt No.4をクリア＆霊基再臨3段階目＆絆Lv.3で開放",
+        "overlayClosedMessage": "Lostbelt No.4をクリアで開放",
+        "eventId": 80542,
+        "startedAt": 1747040400,
+        "endedAt": 1747627199
       }],
       "phases": [1, 2, 3],
       "phasesWithEnemies": [1, 2, 3],
@@ -144368,6 +144377,34 @@
       "noticeAt": 1746435600,
       "openedAt": 1746435600,
       "closedAt": 1747022399
+    }, {
+      "id": 94140819,
+      "name": "ムーンキャンサーお試しクエスト",
+      "type": "event",
+      "consume": 0,
+      "afterClear": "repeatLast",
+      "recommendLv": "70",
+      "spotId": 999999,
+      "warId": 9999,
+      "gifts": [{
+        "id": 12000,
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 1000011,
+        "closedMessage": "特異点Fクリアで開放可能"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94140920,
+      "noticeAt": 1747040400,
+      "openedAt": 1747040400,
+      "closedAt": 1747627199
     }]
   }]
 }, {
