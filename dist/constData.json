@@ -67,7 +67,7 @@
       "baseValue": 0,
       "isRec": true,
       "plusAction": 0,
-      "maxRate": [5000]
+      "maxRate": [5000, 50000]
     },
     "commandDef": {
       "limit": "upper",
@@ -87,7 +87,7 @@
       "baseValue": 0,
       "isRec": true,
       "plusAction": 0,
-      "maxRate": [5000, 10000]
+      "maxRate": [5000, 10000, 50000]
     },
     "defence": {
       "limit": "lower",
@@ -97,7 +97,7 @@
       "baseValue": 0,
       "isRec": true,
       "plusAction": 0,
-      "maxRate": [5000]
+      "maxRate": [5000, 50000]
     },
     "defencePierce": {
       "limit": "lower",
@@ -167,7 +167,7 @@
       "baseValue": 1000,
       "isRec": true,
       "plusAction": 0,
-      "maxRate": [5000]
+      "maxRate": [5000, 50000]
     },
     "npdamage": {
       "limit": "upper",
@@ -307,7 +307,7 @@
       "baseValue": 0,
       "isRec": true,
       "plusAction": 0,
-      "maxRate": [5000]
+      "maxRate": [5000, 50000]
     },
     "commandNpDef": {
       "limit": "upper",
@@ -327,7 +327,7 @@
       "baseValue": 0,
       "isRec": true,
       "plusAction": 0,
-      "maxRate": [5000]
+      "maxRate": [5000, 50000]
     },
     "dropNpDamage": {
       "limit": "normal",
@@ -347,7 +347,7 @@
       "baseValue": 0,
       "isRec": true,
       "plusAction": 0,
-      "maxRate": [5000]
+      "maxRate": [5000, 50000]
     },
     "commandStarDef": {
       "limit": "upper",
@@ -367,7 +367,7 @@
       "baseValue": 1000,
       "isRec": true,
       "plusAction": 0,
-      "maxRate": [5000]
+      "maxRate": [5000, 50000]
     },
     "starweight": {
       "limit": "normal",
@@ -737,7 +737,7 @@
       "baseValue": 1000,
       "isRec": true,
       "plusAction": 0,
-      "maxRate": [5000]
+      "maxRate": [5000, 50000]
     },
     "grantInstantdeath": {
       "limit": "normal",
@@ -1237,7 +1237,7 @@
       "baseValue": 0,
       "isRec": true,
       "plusAction": 0,
-      "maxRate": [5000]
+      "maxRate": [5000, 50000]
     },
     "buffConvert": {
       "limit": "none",
@@ -2447,6 +2447,112 @@
       "relationId": 39,
       "supportGroup": 999,
       "autoSelSupportType": 0
+    },
+    "10001": {
+      "id": 10001,
+      "attri": 1,
+      "name": "グランドセイバー",
+      "individuality": 100,
+      "attackRate": 1000,
+      "imageId": 10001,
+      "iconImageId": 10001,
+      "frameId": 0,
+      "priority": 10000,
+      "groupType": 1,
+      "relationId": 1,
+      "supportGroup": 1,
+      "autoSelSupportType": 2,
+      "relationSvtIndividuality": [2075]
+    },
+    "10002": {
+      "id": 10002,
+      "attri": 2,
+      "name": "グランドアーチャー",
+      "individuality": 102,
+      "attackRate": 950,
+      "imageId": 10002,
+      "iconImageId": 10002,
+      "frameId": 0,
+      "priority": 9000,
+      "groupType": 1,
+      "relationId": 2,
+      "supportGroup": 2,
+      "autoSelSupportType": 3
+    },
+    "10003": {
+      "id": 10003,
+      "attri": 3,
+      "name": "グランドランサー",
+      "individuality": 101,
+      "attackRate": 1050,
+      "imageId": 10003,
+      "iconImageId": 10003,
+      "frameId": 0,
+      "priority": 8000,
+      "groupType": 1,
+      "relationId": 3,
+      "supportGroup": 3,
+      "autoSelSupportType": 1
+    },
+    "10004": {
+      "id": 10004,
+      "attri": 4,
+      "name": "グランドライダー",
+      "individuality": 103,
+      "attackRate": 1000,
+      "imageId": 10004,
+      "iconImageId": 10004,
+      "frameId": 0,
+      "priority": 7000,
+      "groupType": 1,
+      "relationId": 4,
+      "supportGroup": 4,
+      "autoSelSupportType": 6
+    },
+    "10005": {
+      "id": 10005,
+      "attri": 5,
+      "name": "グランドキャスター",
+      "individuality": 104,
+      "attackRate": 900,
+      "imageId": 10005,
+      "iconImageId": 10005,
+      "frameId": 0,
+      "priority": 6000,
+      "groupType": 1,
+      "relationId": 5,
+      "supportGroup": 5,
+      "autoSelSupportType": 4
+    },
+    "10006": {
+      "id": 10006,
+      "attri": 6,
+      "name": "グランドアサシン",
+      "individuality": 105,
+      "attackRate": 900,
+      "imageId": 10006,
+      "iconImageId": 10006,
+      "frameId": 0,
+      "priority": 5000,
+      "groupType": 1,
+      "relationId": 6,
+      "supportGroup": 6,
+      "autoSelSupportType": 5
+    },
+    "10007": {
+      "id": 10007,
+      "attri": 7,
+      "name": "グランドバーサーカー",
+      "individuality": 106,
+      "attackRate": 1100,
+      "imageId": 10007,
+      "iconImageId": 10007,
+      "frameId": 0,
+      "priority": 4000,
+      "groupType": 1,
+      "relationId": 7,
+      "supportGroup": 7,
+      "autoSelSupportType": 7
     }
   },
   "cardInfo": {
@@ -3893,6 +3999,7 @@
     "ACCOUNTING_INITIALIZE_TIMEOUT": 60,
     "AFTRE_CHANGE_FREE_DRAW_NUM": 10,
     "APPEND_PASSIVE_SKILL_MAX_EXCHANGE_NUM": -1,
+    "ARTS_CHAIN_INDIVIDUALITY": 4105,
     "ATTACK_RATE": 230,
     "ATTACK_RATE_RANDOM_MAX": 1100,
     "ATTACK_RATE_RANDOM_MIN": 900,
@@ -3912,11 +4019,14 @@
     "BATTLE_TIME_PER_CHARA": 50,
     "BEFORE_CHANGE_FREE_DRAW_NUM": 1,
     "BP_EXPRESSION": 1,
+    "BRAVE_CHAIN_INDIVIDUALITY": 4108,
+    "BUSTER_CHAIN_INDIVIDUALITY": 4106,
     "CAMPAIGN_RESET_AT": 4,
     "CAN_SELECT_SVT_MATERIAL_FLAG": 12,
     "CHAINBONUS_ARTS_RATE": 200,
     "CHAINBONUS_BUSTER_RATE": 200,
     "CHAINBONUS_QUICK": 20,
+    "CHAIN_ERROR_INDIVIDUALITY": 4109,
     "CHAPTER1_PROLOGUE_WAR_ID": 100,
     "CHAPTER2_EPILOGUE_WAR_ID": 309,
     "CHAPTER2_PROLOGUE_WAR_ID": 300,
@@ -3936,6 +4046,8 @@
     "COMMAND_CARD_PRM_UP_MAX": 500,
     "COMMAND_CODE_DETACHING_ITEM_ID": 5003,
     "COMMAND_QUICK": 4003,
+    "COMMAND_SPELL_CLASS_ICON_EFFECT_ID_1": 4001005,
+    "COMMAND_SPELL_CLASS_ICON_EFFECT_ID_2": 4001018,
     "COMMAND_SPELL_RECOVER_AT": 0,
     "CONVERT_DECK_USER_EQUIP_AT": 1481099400,
     "CRITICAL_ATTACK_RATE": 2000,
@@ -3992,6 +4104,7 @@
     "FLAG_20240804": 1,
     "FLAG_20241004": 1,
     "FLAG_20250430": 1,
+    "FLAG_20250516": 1,
     "FLAG_CINERARIA4": 0,
     "FOLLOWER_LIST_EXPIRE_AT": 3600,
     "FOLLOWER_REFRESH_RESET_TIME": 10,
@@ -4013,6 +4126,9 @@
     "GALLERY_RELEASE_QUEST_ID": 1000011,
     "GAMEDATA_RESET_AT": 0,
     "GAME_OVER_COMMAND_SPELL_ID": 2,
+    "GRAND_BOARD_WAR_ID": 8395,
+    "GRAND_FRIENDSHIP_EQUIP_SKILL_ID": 994725,
+    "GRAND_SVT_SUPPORT_FRIEND_POINT": 100,
     "HEROINE_CHANGECARDVOICE": 800104,
     "HYDE_SVT_ID": 600710,
     "INDIVIDUALITY_IS_SUPPORT": 7000,
@@ -4069,6 +4185,7 @@
     "MAX_USER_SVT_STORAGE": 100,
     "MEMORY_DECK_LIMIT_BY_QUEST": 100,
     "MENU_CHANGE": 1,
+    "MIGHTY_CHAIN_INDIVIDUALITY": 4107,
     "MIN_LOGIC_CANCER_LV_UP_PROB": 100,
     "MONTHLY_SHOP_REMAIN_DAYS": 3,
     "MST_BUFF_INDV_ADD_BUFF_ACTIVE": 1,
@@ -4095,6 +4212,7 @@
     "QUEST_INFO_FLAG_COMBINE_MATERIAL": 0,
     "QUEST_INFO_FLAG_ITEM": 0,
     "QUEST_INFO_FLAG_SVT_EQUIP": 0,
+    "QUICK_CHAIN_INDIVIDUALITY": 4104,
     "RACE_ADD_POINT_BASE": 2,
     "RACE_REWARD_RANK_MAX": 3,
     "RACE_TARGET_GOAL_RANK": 3,

@@ -59053,7 +59053,7 @@
         "overlayClosedMessage": "特異点Fをクリアで開放",
         "eventId": 80546,
         "startedAt": 1746781200,
-        "endedAt": 1747972799
+        "endedAt": 1748404799
       }],
       "phases": [1, 2, 3],
       "phasesWithEnemies": [1, 2, 3],
@@ -60170,7 +60170,7 @@
         "overlayClosedMessage": "Lostbelt No.5 アトランティスをクリアで開放",
         "eventId": 80546,
         "startedAt": 1746781200,
-        "endedAt": 1747972799
+        "endedAt": 1748404799
       }],
       "phases": [1, 2, 3, 4],
       "phasesWithEnemies": [1, 3, 4],
@@ -60276,7 +60276,7 @@
         "overlayClosedMessage": "第五特異点をクリアで開放",
         "eventId": 80546,
         "startedAt": 1746781200,
-        "endedAt": 1747972799
+        "endedAt": 1748404799
       }],
       "phases": [1, 2, 3],
       "phasesWithEnemies": [1, 2, 3],
@@ -64285,7 +64285,7 @@
         "overlayClosedMessage": "特異点Fをクリアで開放",
         "eventId": 80546,
         "startedAt": 1746781200,
-        "endedAt": 1747972799
+        "endedAt": 1748404799
       }],
       "phases": [1, 2, 3],
       "phasesWithEnemies": [1, 2, 3],
@@ -87702,6 +87702,422 @@
       "noticeAt": 1741878000,
       "openedAt": 1741878000,
       "closedAt": 1741964399
+    }]
+  }]
+}, {
+  "id": 8395,
+  "coordinates": [
+    [],
+    []
+  ],
+  "age": "-",
+  "name": "冠位戴冠戦",
+  "longName": "冠位戴冠戦",
+  "flags": ["changeDispClosedMessage"],
+  "banner": "https://static.atlasacademy.io/JP/Banner/chaldea_category_80520.png",
+  "priority": 4000,
+  "bgm": {
+    "id": 0
+  },
+  "script": "https://static.atlasacademy.io/JP/Script/Common/NONE.txt",
+  "warAdds": [{
+    "warId": 8395,
+    "type": "warForceHide",
+    "priority": 1,
+    "overwriteId": 0,
+    "condType": "commonRelease",
+    "targetId": 10145401,
+    "startedAt": 1747825200,
+    "endedAt": 1893423600
+  }, {
+    "warId": 8395,
+    "type": "priority",
+    "priority": 2,
+    "overwriteId": 10007,
+    "condType": "eventStartToEnd",
+    "targetId": 80543,
+    "startedAt": 1747825200,
+    "endedAt": 1893423600
+  }],
+  "maps": [{
+    "id": 8395,
+    "mapImage": "https://static.atlasacademy.io/JP/Terminal/MapImgs/img_questmap_008395/img_questmap_008395.png",
+    "bgm": {
+      "id": 0
+    }
+  }]
+}, {
+  "id": 8396,
+  "coordinates": [
+    [],
+    []
+  ],
+  "age": "-",
+  "name": "冠位戴冠戦\nセイバー",
+  "longName": "冠位戴冠戦\nセイバー",
+  "flags": ["changeDispClosedMessage"],
+  "banner": "https://static.atlasacademy.io/JP/Banner/chaldea_category_80522.png",
+  "priority": 10008,
+  "parentWarId": 8395,
+  "bgm": {
+    "id": 0
+  },
+  "script": "https://static.atlasacademy.io/JP/Script/Common/NONE.txt",
+  "maps": [{
+    "id": 8396,
+    "mapImage": "https://static.atlasacademy.io/JP/Terminal/MapImgs/img_questmap_008396/img_questmap_008396.png",
+    "bgm": {
+      "id": 0
+    }
+  }],
+  "spots": [{
+    "id": 839601,
+    "mapId": 8396,
+    "name": "カルデアゲート",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter8396/QMap_Cap8396_Atlas/spot_839601.png"
+  }, {
+    "id": 1050001,
+    "blankEarth": true,
+    "mapId": 8396,
+    "name": "",
+    "quests": [{
+      "id": 94145400,
+      "name": "冠位解放戦〔セイバー〕",
+      "type": "event",
+      "flags": ["noDisplayRemain"],
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "100",
+      "spotId": 1050001,
+      "warId": 8396,
+      "gifts": [{
+        "id": 94145400,
+        "objectId": 70,
+        "num": 5
+      }, {
+        "id": 94145400,
+        "objectId": 1000,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000100
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94145499,
+      "noticeAt": 1747825200,
+      "openedAt": 1747825200,
+      "closedAt": 1893423600
+    }, {
+      "id": 94145401,
+      "name": "冠位研鑽戦〔セイバー〕 Ⅰ",
+      "type": "event",
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "100",
+      "spotId": 1050001,
+      "warId": 8396,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94145400
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "presents": [{
+        "phase": 1,
+        "gifts": [{
+          "id": 94145431,
+          "type": "servant",
+          "objectId": 9570500,
+          "num": 1
+        }, {
+          "id": 94145431,
+          "type": "servant",
+          "objectId": 9670500,
+          "num": 1
+        }]
+      }],
+      "phases": [1],
+      "priority": 94145479,
+      "noticeAt": 1747825200,
+      "openedAt": 1747825200,
+      "closedAt": 1748404799
+    }, {
+      "id": 94145402,
+      "name": "冠位研鑽戦〔セイバー〕 Ⅱ",
+      "type": "event",
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "100+",
+      "spotId": 1050001,
+      "warId": 8396,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94145400
+      }, {
+        "type": "questClear",
+        "targetId": 94145401,
+        "closedMessage": "「冠位研鑽戦〔セイバー〕 Ⅰ」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "presents": [{
+        "phase": 1,
+        "gifts": [{
+          "id": 94145431,
+          "type": "servant",
+          "objectId": 9570500,
+          "num": 1
+        }, {
+          "id": 94145431,
+          "type": "servant",
+          "objectId": 9670500,
+          "num": 1
+        }]
+      }],
+      "phases": [1],
+      "priority": 94145478,
+      "noticeAt": 1747825200,
+      "openedAt": 1747825200,
+      "closedAt": 1748404799
+    }, {
+      "id": 94145403,
+      "name": "冠位研鑽戦〔セイバー〕 Ⅲ",
+      "type": "event",
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "100++",
+      "spotId": 1050001,
+      "warId": 8396,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94145400
+      }, {
+        "type": "questClear",
+        "targetId": 94145402,
+        "closedMessage": "「冠位研鑽戦〔セイバー〕 Ⅱ」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "presents": [{
+        "phase": 1,
+        "gifts": [{
+          "id": 94145431,
+          "type": "servant",
+          "objectId": 9570500,
+          "num": 1
+        }, {
+          "id": 94145431,
+          "type": "servant",
+          "objectId": 9670500,
+          "num": 1
+        }]
+      }],
+      "phases": [1],
+      "priority": 94145477,
+      "noticeAt": 1747825200,
+      "openedAt": 1747825200,
+      "closedAt": 1748404799
+    }, {
+      "id": 94145404,
+      "name": "冠位研鑽戦〔セイバー〕 Ⅳ",
+      "type": "event",
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "100+++",
+      "spotId": 1050001,
+      "warId": 8396,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94145400
+      }, {
+        "type": "questClear",
+        "targetId": 94145403,
+        "closedMessage": "「冠位研鑽戦〔セイバー〕 Ⅲ」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "presents": [{
+        "phase": 1,
+        "gifts": [{
+          "id": 94145431,
+          "type": "servant",
+          "objectId": 9570500,
+          "num": 1
+        }, {
+          "id": 94145431,
+          "type": "servant",
+          "objectId": 9670500,
+          "num": 1
+        }]
+      }],
+      "phases": [1],
+      "priority": 94145476,
+      "noticeAt": 1747825200,
+      "openedAt": 1747825200,
+      "closedAt": 1748404799
+    }, {
+      "id": 94145405,
+      "name": "冠位研鑽戦〔セイバー〕 Ⅴ",
+      "type": "event",
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "100★",
+      "spotId": 1050001,
+      "warId": 8396,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94145400
+      }, {
+        "type": "questClear",
+        "targetId": 94145404,
+        "closedMessage": "「冠位研鑽戦〔セイバー〕 Ⅳ」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "presents": [{
+        "phase": 1,
+        "gifts": [{
+          "id": 94145431,
+          "type": "servant",
+          "objectId": 9570500,
+          "num": 1
+        }, {
+          "id": 94145431,
+          "type": "servant",
+          "objectId": 9670500,
+          "num": 1
+        }]
+      }],
+      "phases": [1],
+      "priority": 94145475,
+      "noticeAt": 1747825200,
+      "openedAt": 1747825200,
+      "closedAt": 1748404799
+    }, {
+      "id": 94145406,
+      "name": "冠位研鑽戦〔セイバー〕 Ⅵ",
+      "type": "event",
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "100★★",
+      "spotId": 1050001,
+      "warId": 8396,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94145400
+      }, {
+        "type": "questClear",
+        "targetId": 94145405,
+        "closedMessage": "「冠位研鑽戦〔セイバー〕 Ⅴ」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "presents": [{
+        "phase": 1,
+        "gifts": [{
+          "id": 94145431,
+          "type": "servant",
+          "objectId": 9570500,
+          "num": 1
+        }, {
+          "id": 94145431,
+          "type": "servant",
+          "objectId": 9670500,
+          "num": 1
+        }]
+      }],
+      "phases": [1],
+      "priority": 94145474,
+      "noticeAt": 1747825200,
+      "openedAt": 1747825200,
+      "closedAt": 1748404799
+    }, {
+      "id": 94145407,
+      "name": "冠位研鑽戦〔セイバー〕 Ⅶ",
+      "type": "event",
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "100★★★",
+      "spotId": 1050001,
+      "warId": 8396,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94145400
+      }, {
+        "type": "questClear",
+        "targetId": 94145406,
+        "closedMessage": "「冠位研鑽戦〔セイバー〕 Ⅵ」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "presents": [{
+        "phase": 1,
+        "gifts": [{
+          "id": 94145431,
+          "type": "servant",
+          "objectId": 9570500,
+          "num": 1
+        }, {
+          "id": 94145431,
+          "type": "servant",
+          "objectId": 9670500,
+          "num": 1
+        }]
+      }],
+      "phases": [1],
+      "priority": 94145473,
+      "noticeAt": 1747825200,
+      "openedAt": 1747825200,
+      "closedAt": 1748404799
+    }, {
+      "id": 94145410,
+      "name": "冠位認定戦〔セイバー〕",
+      "type": "event",
+      "flags": ["noDisplayRemain"],
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "100★",
+      "spotId": 1050001,
+      "warId": 8396,
+      "gifts": [{
+        "id": 94145410,
+        "type": "servant",
+        "objectId": 9408540,
+        "num": 1
+      }, {
+        "id": 94145410,
+        "objectId": 6999,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94145400
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "classBoardSquareReleased",
+        "targetId": 10001,
+        "value": 12,
+        "closedMessage": "〔セイバー〕のグランドサイン解放数12個以上で開放"
+      }],
+      "phases": [1],
+      "priority": 94145450,
+      "noticeAt": 1747825200,
+      "openedAt": 1747825200,
+      "closedAt": 1893423600
     }]
   }]
 }]
