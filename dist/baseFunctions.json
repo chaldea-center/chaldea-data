@@ -45092,6 +45092,8 @@
     }],
     "ckSelfIndv": [{
       "id": 3098
+    }, {
+      "id": 3114
     }]
   }]
 }, {
@@ -45843,33 +45845,6 @@
       "id": 3008
     }, {
       "id": 3038
-    }],
-    "maxRate": 5000
-  }]
-}, {
-  "funcId": 21547,
-  "funcType": "addStateShort",
-  "funcTargetType": "ptOther",
-  "funcTargetTeam": "playerAndEnemy",
-  "funcPopupText": "宝具威力ダウン",
-  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_508.png",
-  "script": {
-    "funcIndividuality": [{
-      "id": 3098
-    }]
-  },
-  "buffs": [{
-    "id": 139,
-    "name": "宝具威力ダウン",
-    "detail": "宝具で与えるダメージをダウン",
-    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_508.png",
-    "type": "downNpdamage",
-    "vals": [{
-      "id": 3005
-    }, {
-      "id": 3008
-    }, {
-      "id": 3036
     }],
     "maxRate": 5000
   }]
@@ -54804,6 +54779,77 @@
   "funcTargetTeam": "playerAndEnemy",
   "functvals": [{
     "id": 100
+  }]
+}, {
+  "funcId": 22698,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptOther",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "宝具威力ダウン",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_508.png",
+  "script": {
+    "funcIndividuality": [{
+      "id": 3114
+    }]
+  },
+  "buffs": [{
+    "id": 139,
+    "name": "宝具威力ダウン",
+    "detail": "宝具で与えるダメージをダウン",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_508.png",
+    "type": "downNpdamage",
+    "vals": [{
+      "id": 3005
+    }, {
+      "id": 3008
+    }, {
+      "id": 3036
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 22699,
+  "funcType": "subState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "強化解除",
+  "script": {
+    "funcIndividuality": [{
+      "id": 3114
+    }]
+  },
+  "traitVals": [{
+    "id": 3004
+  }]
+}, {
+  "funcId": 22700,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "スタン",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_501.png",
+  "script": {
+    "funcIndividuality": [{
+      "id": 3114
+    }]
+  },
+  "buffs": [{
+    "id": 178,
+    "name": "スタン",
+    "detail": "行動不能になる",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_501.png",
+    "type": "donotAct",
+    "buffGroup": 500,
+    "originalScript": {
+      "ProgressSelfTurn": 1
+    },
+    "vals": [{
+      "id": 3005
+    }, {
+      "id": 3014
+    }, {
+      "id": 3045
+    }]
   }]
 }, {
   "funcId": 30003,
