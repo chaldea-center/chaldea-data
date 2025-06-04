@@ -13812,6 +13812,49 @@
     "maxRate": 5000
   }]
 }, {
+  "funcId": 2085,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "強化解除耐性アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_348.png",
+  "buffs": [{
+    "id": 887,
+    "name": "強化解除耐性アップ",
+    "detail": "強化解除耐性をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_348.png",
+    "type": "upToleranceSubstate",
+    "vals": [{
+      "id": 3004
+    }],
+    "ckOpIndv": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3007
+    }, {
+      "id": 3027
+    }, {
+      "id": 3058
+    }, {
+      "id": 3031
+    }, {
+      "id": 3021
+    }, {
+      "id": 3018
+    }, {
+      "id": 3024
+    }, {
+      "id": 3030
+    }, {
+      "id": 3032
+    }, {
+      "id": 3019
+    }],
+    "maxRate": 5000
+  }]
+}, {
   "funcId": 2086,
   "funcType": "addState",
   "funcTargetType": "self",
@@ -45188,6 +45231,32 @@
     }]
   }
 }, {
+  "funcId": 21455,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "呪い",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_521.png",
+  "script": {
+    "funcIndividuality": [{
+      "id": 3098
+    }]
+  },
+  "buffs": [{
+    "id": 125,
+    "name": "呪い",
+    "detail": "ターン終了時にHPが減る",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_521.png",
+    "type": "reduceHp",
+    "vals": [{
+      "id": 3005
+    }, {
+      "id": 3026
+    }, {
+      "id": 2729
+    }]
+  }]
+}, {
   "funcId": 21457,
   "funcType": "servantFriendshipUp",
   "funcTargetType": "ptFull",
@@ -54414,6 +54483,130 @@
   "funcTargetTeam": "player",
   "funcPopupText": "NP増加"
 }, {
+  "funcId": 22590,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "ドラゴンリペアラー",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+  "funcquestTvals": [{
+    "id": 94000173
+  }],
+  "funcGroup": [{
+    "eventId": 80540,
+    "baseFuncId": 22589,
+    "nameTotal": "{1} \n攻撃の威力アップ合計",
+    "name": "攻撃の威力アップ合計",
+    "icon": "https://static.atlasacademy.io/JP/EventUI/func_group_icon_302.png",
+    "priority": 1,
+    "isDispValue": true
+  }],
+  "buffs": [{
+    "id": 5828,
+    "name": "ドラゴンリペアラー",
+    "detail": "『落涙の翼』において与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamage",
+    "maxRate": 10000
+  }]
+}, {
+  "funcId": 22591,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "ドラゴンリペアラー",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+  "funcquestTvals": [{
+    "id": 94000173
+  }],
+  "funcGroup": [{
+    "eventId": 80540,
+    "baseFuncId": 22589,
+    "nameTotal": "{1} \n攻撃の威力アップ合計",
+    "name": "攻撃の威力アップ合計",
+    "icon": "https://static.atlasacademy.io/JP/EventUI/func_group_icon_302.png",
+    "priority": 1,
+    "isDispValue": true
+  }],
+  "buffs": [{
+    "id": 5828,
+    "name": "ドラゴンリペアラー",
+    "detail": "『落涙の翼』において与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamage",
+    "maxRate": 10000
+  }]
+}, {
+  "funcId": 22592,
+  "funcType": "servantFriendshipUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcGroup": [{
+    "eventId": 80540,
+    "baseFuncId": 0,
+    "nameTotal": "{1}\n自己効果により得られる絆アップ合計",
+    "name": "自己効果により得られる絆アップ",
+    "icon": "https://static.atlasacademy.io/JP/EventUI/func_group_icon_1009.png",
+    "priority": 1,
+    "isDispValue": true
+  }]
+}, {
+  "funcId": 22593,
+  "funcType": "eventDropUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcGroup": [{
+    "eventId": 80540,
+    "baseFuncId": 0,
+    "nameTotal": "{0}\n獲得数ボーナス合計",
+    "name": "{0}獲得数アップ",
+    "icon": "https://static.atlasacademy.io/JP/Items/94144703.png",
+    "priority": 3000,
+    "isDispValue": true
+  }]
+}, {
+  "funcId": 22594,
+  "funcType": "eventDropUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcGroup": [{
+    "eventId": 80540,
+    "baseFuncId": 0,
+    "nameTotal": "{0}\n獲得数ボーナス合計",
+    "name": "{0}獲得数アップ",
+    "icon": "https://static.atlasacademy.io/JP/Items/94144702.png",
+    "priority": 2000,
+    "isDispValue": true
+  }]
+}, {
+  "funcId": 22595,
+  "funcType": "eventDropUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcGroup": [{
+    "eventId": 80540,
+    "baseFuncId": 0,
+    "nameTotal": "{0}\n獲得数ボーナス合計",
+    "name": "{0}獲得数アップ",
+    "icon": "https://static.atlasacademy.io/JP/Items/94144701.png",
+    "priority": 1000,
+    "isDispValue": true
+  }]
+}, {
+  "funcId": 22597,
+  "funcType": "eventPointUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcGroup": [{
+    "eventId": 80540,
+    "baseFuncId": 0,
+    "nameTotal": "{0}\n獲得量ボーナス合計",
+    "name": "{0}獲得量アップ",
+    "icon": "https://static.atlasacademy.io/JP/Items/94144705.png",
+    "priority": 4000,
+    "isDispValue": true
+  }]
+}, {
   "funcId": 22598,
   "funcType": "addState",
   "funcTargetType": "self",
@@ -54870,6 +55063,26 @@
       "id": 3014
     }, {
       "id": 3045
+    }]
+  }]
+}, {
+  "funcId": 22706,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "通常攻撃ダメージ前追加効果",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_333.png",
+  "buffs": [{
+    "id": 5866,
+    "name": "通常攻撃ダメージ前追加効果",
+    "detail": "通常攻撃時、ダメージ前に自身のクリティカル威力をアップ＆呪い状態を付与【デメリット】",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_333.png",
+    "type": "commandattackBeforeFunction",
+    "vals": [{
+      "id": 3004
+    }],
+    "tvals": [{
+      "id": 5000
     }]
   }]
 }, {

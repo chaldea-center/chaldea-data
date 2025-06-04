@@ -87705,6 +87705,395 @@
     }]
   }]
 }, {
+  "id": 8394,
+  "coordinates": [
+    [],
+    []
+  ],
+  "age": "-",
+  "name": "落涙の翼",
+  "longName": "落涙の翼",
+  "flags": ["isEvent", "noClearMarkWithComplete", "changeDispClosedMessage"],
+  "banner": "https://static.atlasacademy.io/JP/Banner/event_war_80518.png",
+  "priority": 10006,
+  "bgm": {
+    "id": 0
+  },
+  "script": "https://static.atlasacademy.io/JP/Script/Common/NONE.txt",
+  "eventId": 80540,
+  "eventName": "落涙の翼",
+  "warAdds": [{
+    "warId": 8394,
+    "type": "bgImage",
+    "priority": 1,
+    "overwriteId": 251300,
+    "condType": "questClearPhase",
+    "targetId": 94144701,
+    "value": 2,
+    "startedAt": 1749034800,
+    "endedAt": 1750823999
+  }],
+  "maps": [{
+    "id": 8394,
+    "mapImage": "https://static.atlasacademy.io/JP/Terminal/MapImgs/img_questmap_008394/img_questmap_008394.png",
+    "bgm": {
+      "id": 0
+    }
+  }],
+  "spots": [{
+    "id": 839401,
+    "mapId": 8394,
+    "name": "カルデアゲート",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter8394/QMap_Cap8394_Atlas/spot_839401.png",
+    "quests": [{
+      "id": 94144700,
+      "name": "プロローグ",
+      "type": "main",
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 839401,
+      "warId": 8394,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 1000011
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1, 2, 3],
+      "phasesNoBattle": [1, 3],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9414470010",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414470010.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9414470020",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414470020.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9414470030",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414470030.txt"
+        }]
+      }],
+      "priority": 94145000,
+      "noticeAt": 1749034800,
+      "openedAt": 1749034800,
+      "closedAt": 1750823999
+    }, {
+      "id": 94144701,
+      "name": "第１節 竜と果実",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 839401,
+      "warId": 8394,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94144700
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1, 2],
+      "phasesNoBattle": [1, 2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9414470110",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414470110.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9414470120",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414470120.txt"
+        }]
+      }],
+      "priority": 94144997,
+      "noticeAt": 1749034800,
+      "openedAt": 1749034800,
+      "closedAt": 1750823999
+    }, {
+      "id": 94144702,
+      "name": "第２節 黒き手",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "15",
+      "spotId": 839401,
+      "warId": 8394,
+      "gifts": [{
+        "id": 42440,
+        "type": "servant",
+        "objectId": 9408570,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94144701
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1, 2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9414470210",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414470210.txt"
+        }, {
+          "scriptId": "9414470211",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414470211.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9414470220",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414470220.txt"
+        }, {
+          "scriptId": "9414470221",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414470221.txt"
+        }]
+      }],
+      "priority": 94144996,
+      "noticeAt": 1749034800,
+      "openedAt": 1749034800,
+      "closedAt": 1750823999
+    }, {
+      "id": 94144703,
+      "name": "",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 839401,
+      "warId": 8394,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94144702
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "eventTotalPoint",
+        "targetId": 80540,
+        "value": 25000,
+        "closedMessage": "材料収集ポイント25,000以上\n＆6月5日18時00分以降に開放"
+      }, {
+        "type": "forceFalse",
+        "targetId": 0,
+        "closedMessage": "データ更新後に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94144995,
+      "noticeAt": 1749034800,
+      "openedAt": 1749114000,
+      "closedAt": 1750823999
+    }, {
+      "id": 94144798,
+      "name": "プロローグ",
+      "type": "main",
+      "flags": ["noBattle", "branch"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 839401,
+      "warId": 8394,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "phases": [2],
+      "phaseScripts": [{
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9414479820",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414479820.txt"
+        }]
+      }],
+      "priority": 94144999,
+      "noticeAt": 1749034800,
+      "openedAt": 1749034800,
+      "closedAt": 1750823999
+    }, {
+      "id": 94144799,
+      "name": "プロローグ",
+      "type": "main",
+      "flags": ["noBattle", "branch"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 839401,
+      "warId": 8394,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "phases": [2],
+      "phaseScripts": [{
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9414479920",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414479920.txt"
+        }]
+      }],
+      "priority": 94144998,
+      "noticeAt": 1749034800,
+      "openedAt": 1749034800,
+      "closedAt": 1750823999
+    }, {
+      "id": 94144901,
+      "name": "材料収集 傀儡から部品を手に入れろ",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 30,
+      "afterClear": "repeatLast",
+      "recommendLv": "15",
+      "spotId": 839401,
+      "warId": 8394,
+      "gifts": [{
+        "id": 14000,
+        "objectId": 102,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94144702
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "priority": 94144700,
+      "noticeAt": 1749034800,
+      "openedAt": 1749034800,
+      "closedAt": 1750823999
+    }, {
+      "id": 94144902,
+      "name": "材料収集 暴れまわるサイボーグ",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 35,
+      "afterClear": "repeatLast",
+      "recommendLv": "25",
+      "spotId": 839401,
+      "warId": 8394,
+      "gifts": [{
+        "id": 14000,
+        "objectId": 102,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94144702
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "priority": 94144699,
+      "noticeAt": 1749034800,
+      "openedAt": 1749034800,
+      "closedAt": 1750823999
+    }, {
+      "id": 94144903,
+      "name": "材料収集 密林のナワバリ争い",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "40",
+      "spotId": 839401,
+      "warId": 8394,
+      "gifts": [{
+        "id": 13000,
+        "objectId": 101,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94144702
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "priority": 94144698,
+      "noticeAt": 1749034800,
+      "openedAt": 1749034800,
+      "closedAt": 1750823999
+    }, {
+      "id": 94144904,
+      "name": "",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "60",
+      "spotId": 839401,
+      "warId": 8394,
+      "gifts": [{
+        "id": 13000,
+        "objectId": 101,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94144702
+      }, {
+        "type": "questClear",
+        "targetId": 94144703,
+        "closedMessage": "第３節クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "第３節クリア\n＆6月5日18時00分以降に開放"
+      }, {
+        "type": "forceFalse",
+        "targetId": 0,
+        "closedMessage": "データ更新後に開放"
+      }],
+      "phases": [1],
+      "priority": 94144697,
+      "noticeAt": 1749034800,
+      "openedAt": 1749114000,
+      "closedAt": 1750823999
+    }]
+  }]
+}, {
   "id": 8395,
   "coordinates": [
     [],
