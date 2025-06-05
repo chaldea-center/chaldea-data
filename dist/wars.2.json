@@ -87883,7 +87883,51 @@
       "closedAt": 1750823999
     }, {
       "id": 94144703,
-      "name": "",
+      "name": "第３節 純血の癒合",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 839401,
+      "warId": 8394,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
+        "type": "questClear",
+        "targetId": 94144702
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "eventTotalPoint",
+        "targetId": 80540,
+        "value": 25000,
+        "closedMessage": "材料収集ポイント25,000以上\n＆6月5日18時00分以降に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9414470310",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414470310.txt"
+        }]
+      }],
+      "priority": 94144995,
+      "noticeAt": 1749034800,
+      "openedAt": 1749114000,
+      "closedAt": 1750823999
+    }, {
+      "id": 94144704,
+      "name": "幕間",
       "type": "main",
       "flags": ["noBattle"],
       "consume": 0,
@@ -87898,26 +87942,109 @@
       }],
       "releaseConditions": [{
         "type": "questClear",
-        "targetId": 94144702
+        "targetId": 94144703
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "questGroupClear",
+        "targetId": 94144701,
+        "value": 1,
+        "closedMessage": "【改修クエスト】を１つクリアで開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9414470410",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414470410.txt"
+        }]
+      }],
+      "priority": 94144994,
+      "noticeAt": 1749114000,
+      "openedAt": 1749114000,
+      "closedAt": 1750823999
+    }, {
+      "id": 94144705,
+      "name": "幕間２",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 839401,
+      "warId": 8394,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94144704
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "questGroupClear",
+        "targetId": 94144701,
+        "value": 2,
+        "closedMessage": "【改修クエスト】を新たに１つクリアで開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9414470510",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414470510.txt"
+        }]
+      }],
+      "priority": 94144993,
+      "noticeAt": 1749114000,
+      "openedAt": 1749114000,
+      "closedAt": 1750823999
+    }, {
+      "id": 94144706,
+      "name": "",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "35",
+      "spotId": 839401,
+      "warId": 8394,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94144705
       }, {
         "type": "date",
         "targetId": 0,
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
       }, {
+        "type": "questGroupClear",
+        "targetId": 94144701,
+        "value": 3,
+        "closedMessage": "【改修クエスト】を新たに１つクリア\n＆材料収集ポイント60,000以上\n＆6月6日18時00分以降に開放"
+      }, {
         "type": "eventTotalPoint",
         "targetId": 80540,
-        "value": 25000,
-        "closedMessage": "材料収集ポイント25,000以上\n＆6月5日18時00分以降に開放"
+        "value": 60000,
+        "closedMessage": "材料収集ポイント60,000以上\n＆6月6日18時00分以降に開放"
       }, {
         "type": "forceFalse",
         "targetId": 0,
         "closedMessage": "データ更新後に開放"
       }],
-      "phases": [1],
-      "phasesNoBattle": [1],
-      "priority": 94144995,
-      "noticeAt": 1749034800,
-      "openedAt": 1749114000,
+      "phases": [1, 2, 3],
+      "priority": 94144992,
+      "noticeAt": 1749114000,
+      "openedAt": 1749200400,
       "closedAt": 1750823999
     }, {
       "id": 94144798,
@@ -87972,6 +88099,236 @@
       "priority": 94144998,
       "noticeAt": 1749034800,
       "openedAt": 1749034800,
+      "closedAt": 1750823999
+    }, {
+      "id": 94144801,
+      "name": "【改修クエスト】主砲の修理",
+      "type": "main",
+      "flags": ["actConsumeBattleWin"],
+      "consumeType": "item",
+      "consume": 100,
+      "consumeItem": [{
+        "itemId": 94144704,
+        "amount": 100
+      }],
+      "afterClear": "close",
+      "recommendLv": "30",
+      "spotId": 839401,
+      "warId": 8394,
+      "gifts": [{
+        "id": 25553,
+        "objectId": 6545,
+        "num": 3
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94144703
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "commonRelease",
+        "targetId": 94144700,
+        "closedMessage": "「幕間」クリアで開放"
+      }, {
+        "type": "commonRelease",
+        "targetId": 94144701,
+        "closedMessage": "「幕間２」クリアで開放"
+      }, {
+        "type": "commonRelease",
+        "targetId": 94144702
+      }, {
+        "type": "commonRelease",
+        "targetId": 94144703
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9414480110",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414480110.txt"
+        }, {
+          "scriptId": "9414480111",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414480111.txt"
+        }]
+      }],
+      "priority": 94144900,
+      "noticeAt": 1749114000,
+      "openedAt": 1749114000,
+      "closedAt": 1750823999
+    }, {
+      "id": 94144802,
+      "name": "【改修クエスト】副砲の修理",
+      "type": "main",
+      "flags": ["actConsumeBattleWin"],
+      "consumeType": "item",
+      "consume": 100,
+      "consumeItem": [{
+        "itemId": 94144704,
+        "amount": 100
+      }],
+      "afterClear": "close",
+      "recommendLv": "30",
+      "spotId": 839401,
+      "warId": 8394,
+      "gifts": [{
+        "id": 25386,
+        "objectId": 6534,
+        "num": 3
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94144703
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "commonRelease",
+        "targetId": 94144700,
+        "closedMessage": "「幕間」クリアで開放"
+      }, {
+        "type": "commonRelease",
+        "targetId": 94144701,
+        "closedMessage": "「幕間２」クリアで開放"
+      }, {
+        "type": "commonRelease",
+        "targetId": 94144702
+      }, {
+        "type": "commonRelease",
+        "targetId": 94144703
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9414480210",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414480210.txt"
+        }, {
+          "scriptId": "9414480211",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414480211.txt"
+        }]
+      }],
+      "priority": 94144899,
+      "noticeAt": 1749114000,
+      "openedAt": 1749114000,
+      "closedAt": 1750823999
+    }, {
+      "id": 94144803,
+      "name": "【改修クエスト】装甲の修理",
+      "type": "main",
+      "flags": ["actConsumeBattleWin"],
+      "consumeType": "item",
+      "consume": 100,
+      "consumeItem": [{
+        "itemId": 94144704,
+        "amount": 100
+      }],
+      "afterClear": "close",
+      "recommendLv": "30",
+      "spotId": 839401,
+      "warId": 8394,
+      "gifts": [{
+        "id": 25420,
+        "objectId": 6536,
+        "num": 3
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94144703
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "commonRelease",
+        "targetId": 94144700,
+        "closedMessage": "「幕間」クリアで開放"
+      }, {
+        "type": "commonRelease",
+        "targetId": 94144701,
+        "closedMessage": "「幕間２」クリアで開放"
+      }, {
+        "type": "commonRelease",
+        "targetId": 94144702
+      }, {
+        "type": "commonRelease",
+        "targetId": 94144703
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9414480310",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414480310.txt"
+        }, {
+          "scriptId": "9414480311",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414480311.txt"
+        }]
+      }],
+      "priority": 94144898,
+      "noticeAt": 1749114000,
+      "openedAt": 1749114000,
+      "closedAt": 1750823999
+    }, {
+      "id": 94144804,
+      "name": "【改修クエスト】速度の強化",
+      "type": "main",
+      "flags": ["actConsumeBattleWin"],
+      "consumeType": "item",
+      "consume": 100,
+      "consumeItem": [{
+        "itemId": 94144704,
+        "amount": 100
+      }],
+      "afterClear": "close",
+      "recommendLv": "30",
+      "spotId": 839401,
+      "warId": 8394,
+      "gifts": [{
+        "id": 21303,
+        "objectId": 6501,
+        "num": 3
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94144703
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "commonRelease",
+        "targetId": 94144700,
+        "closedMessage": "「幕間」クリアで開放"
+      }, {
+        "type": "commonRelease",
+        "targetId": 94144701,
+        "closedMessage": "「幕間２」クリアで開放"
+      }, {
+        "type": "commonRelease",
+        "targetId": 94144702
+      }, {
+        "type": "commonRelease",
+        "targetId": 94144703
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9414480410",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414480410.txt"
+        }, {
+          "scriptId": "9414480411",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414480411.txt"
+        }]
+      }],
+      "priority": 94144897,
+      "noticeAt": 1749114000,
+      "openedAt": 1749114000,
       "closedAt": 1750823999
     }, {
       "id": 94144901,
@@ -88062,7 +88419,7 @@
       "closedAt": 1750823999
     }, {
       "id": 94144904,
-      "name": "",
+      "name": "材料収集 島のお宝争奪戦",
       "type": "event",
       "flags": ["displayLoopmark"],
       "consume": 40,
@@ -88076,6 +88433,9 @@
         "num": 1
       }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 94144702
       }, {
@@ -88086,14 +88446,76 @@
         "type": "date",
         "targetId": 0,
         "closedMessage": "第３節クリア\n＆6月5日18時00分以降に開放"
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94144697,
+      "noticeAt": 1749034800,
+      "openedAt": 1749114000,
+      "closedAt": 1750823999
+    }, {
+      "id": 94144905,
+      "name": "",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "70",
+      "spotId": 839401,
+      "warId": 8394,
+      "gifts": [{
+        "id": 12000,
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94144703
+      }, {
+        "type": "questClear",
+        "targetId": 94144706,
+        "closedMessage": "第４節クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "第４節クリア\n＆6月6日18時00分以降に開放"
       }, {
         "type": "forceFalse",
         "targetId": 0,
         "closedMessage": "データ更新後に開放"
       }],
       "phases": [1],
-      "priority": 94144697,
-      "noticeAt": 1749034800,
+      "priority": 94144696,
+      "noticeAt": 1749114000,
+      "openedAt": 1749200400,
+      "closedAt": 1750823999
+    }, {
+      "id": 94145001,
+      "name": "【性能試験クエスト】空を舞う竜",
+      "type": "event",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "30",
+      "spotId": 839401,
+      "warId": 8394,
+      "gifts": [{
+        "id": 42443,
+        "type": "commandCode",
+        "objectId": 8401980,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94144703
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94144800,
+      "noticeAt": 1749114000,
       "openedAt": 1749114000,
       "closedAt": 1750823999
     }]
