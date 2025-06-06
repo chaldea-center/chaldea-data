@@ -88007,7 +88007,7 @@
       "closedAt": 1750823999
     }, {
       "id": 94144706,
-      "name": "",
+      "name": "第４節 テュフォン・ネオス",
       "type": "main",
       "consume": 5,
       "afterClear": "close",
@@ -88020,6 +88020,9 @@
         "num": 1
       }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 94144705
       }, {
@@ -88036,15 +88039,78 @@
         "targetId": 80540,
         "value": 60000,
         "closedMessage": "材料収集ポイント60,000以上\n＆6月6日18時00分以降に開放"
+      }],
+      "phases": [1, 2, 3],
+      "phasesWithEnemies": [1, 2, 3],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9414470610",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414470610.txt"
+        }, {
+          "scriptId": "9414470611",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414470611.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9414470620",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414470620.txt"
+        }, {
+          "scriptId": "9414470621",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414470621.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9414470630",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414470630.txt"
+        }, {
+          "scriptId": "9414470631",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414470631.txt"
+        }]
+      }],
+      "priority": 94144992,
+      "noticeAt": 1749114000,
+      "openedAt": 1749200400,
+      "closedAt": 1750823999
+    }, {
+      "id": 94144707,
+      "name": "",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 839401,
+      "warId": 8394,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94144706
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "eventTotalPoint",
+        "targetId": 80540,
+        "value": 100000,
+        "closedMessage": "材料収集ポイント100,000以上\n＆6月7日18時00分以降に開放"
       }, {
         "type": "forceFalse",
         "targetId": 0,
         "closedMessage": "データ更新後に開放"
       }],
       "phases": [1, 2, 3],
-      "priority": 94144992,
-      "noticeAt": 1749114000,
-      "openedAt": 1749200400,
+      "phasesNoBattle": [1, 2, 3],
+      "priority": 94144991,
+      "noticeAt": 1749200400,
+      "openedAt": 1749286800,
       "closedAt": 1750823999
     }, {
       "id": 94144798,
@@ -88201,6 +88267,7 @@
         "targetId": 94144703
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "phaseScripts": [{
         "phase": 1,
         "scripts": [{
@@ -88258,6 +88325,7 @@
         "targetId": 94144703
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "phaseScripts": [{
         "phase": 1,
         "scripts": [{
@@ -88455,7 +88523,7 @@
       "closedAt": 1750823999
     }, {
       "id": 94144905,
-      "name": "",
+      "name": "材料収集 略奪者との攻防戦",
       "type": "event",
       "flags": ["displayLoopmark"],
       "consume": 40,
@@ -88469,6 +88537,9 @@
         "num": 1
       }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 94144703
       }, {
@@ -88479,15 +88550,47 @@
         "type": "date",
         "targetId": 0,
         "closedMessage": "第４節クリア\n＆6月6日18時00分以降に開放"
+      }],
+      "phases": [1],
+      "priority": 94144696,
+      "noticeAt": 1749114000,
+      "openedAt": 1749200400,
+      "closedAt": 1750823999
+    }, {
+      "id": 94144906,
+      "name": "",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "80",
+      "spotId": 839401,
+      "warId": 8394,
+      "gifts": [{
+        "id": 12000,
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94144706
+      }, {
+        "type": "questClear",
+        "targetId": 94144707,
+        "closedMessage": "第５節クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "第５節クリア\n＆6月7日18時00分以降に開放"
       }, {
         "type": "forceFalse",
         "targetId": 0,
         "closedMessage": "データ更新後に開放"
       }],
       "phases": [1],
-      "priority": 94144696,
-      "noticeAt": 1749114000,
-      "openedAt": 1749200400,
+      "priority": 94144695,
+      "noticeAt": 1749200400,
+      "openedAt": 1749286800,
       "closedAt": 1750823999
     }, {
       "id": 94145001,
@@ -88517,6 +88620,35 @@
       "priority": 94144800,
       "noticeAt": 1749114000,
       "openedAt": 1749114000,
+      "closedAt": 1750823999
+    }, {
+      "id": 94145002,
+      "name": "【性能試験クエスト】赤き鋼鉄城",
+      "type": "event",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "40",
+      "spotId": 839401,
+      "warId": 8394,
+      "gifts": [{
+        "id": 31043,
+        "type": "servant",
+        "objectId": 9570400,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94144706
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94144799,
+      "noticeAt": 1749200400,
+      "openedAt": 1749200400,
       "closedAt": 1750823999
     }]
   }]
