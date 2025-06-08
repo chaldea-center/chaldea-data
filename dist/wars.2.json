@@ -88212,7 +88212,7 @@
       "closedAt": 1750823999
     }, {
       "id": 94144710,
-      "name": "",
+      "name": "第６節 サバージオス",
       "type": "main",
       "consume": 0,
       "afterClear": "close",
@@ -88225,6 +88225,9 @@
         "num": 1
       }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 94144709
       }, {
@@ -88237,20 +88240,129 @@
         "value": 160000,
         "closedMessage": "材料収集ポイント160,000以上\n＆6月8日18時00分以降に開放"
       }, {
-        "type": "forceFalse",
-        "targetId": 0,
-        "closedMessage": "データ更新後に開放"
-      }, {
         "type": "commonValueAbove",
         "targetId": 94144700,
         "value": 3,
         "closedMessage": "【改修クエスト】を新たに１つクリア\n＆材料収集ポイント160,000以上\n＆6月8日18時00分以降に開放"
       }],
       "phases": [1, 2, 3],
+      "phasesWithEnemies": [2, 3],
       "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9414471010",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414471010.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9414471020",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414471020.txt"
+        }, {
+          "scriptId": "9414471021",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414471021.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9414471030",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414471030.txt"
+        }]
+      }],
       "priority": 94144988,
       "noticeAt": 1749286800,
       "openedAt": 1749373200,
+      "closedAt": 1750823999
+    }, {
+      "id": 94144711,
+      "name": "第７節 白き聖杯",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "50",
+      "spotId": 839401,
+      "warId": 8394,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94144710
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1, 2, 3],
+      "phasesWithEnemies": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9414471110",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414471110.txt"
+        }, {
+          "scriptId": "9414471111",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414471111.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9414471120",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414471120.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9414471130",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414471130.txt"
+        }, {
+          "scriptId": "9414471131",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414471131.txt"
+        }]
+      }],
+      "priority": 94144987,
+      "noticeAt": 1749373200,
+      "openedAt": 1749373200,
+      "closedAt": 1750823999
+    }, {
+      "id": 94144712,
+      "name": "",
+      "type": "main",
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 839401,
+      "warId": 8394,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/3.png",
+      "gifts": [{
+        "id": 20058,
+        "objectId": 7999,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94144711
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "eventTotalPoint",
+        "targetId": 80540,
+        "value": 310000,
+        "closedMessage": "材料収集ポイント310,000以上\n＆6月9日18時00分以降に開放"
+      }, {
+        "type": "forceFalse",
+        "targetId": 0,
+        "closedMessage": "データ更新後に開放"
+      }],
+      "phases": [1, 2, 3],
+      "phasesNoBattle": [1, 2],
+      "priority": 94144986,
+      "noticeAt": 1749373200,
+      "openedAt": 1749459600,
       "closedAt": 1750823999
     }, {
       "id": 94144798,
@@ -88349,6 +88461,10 @@
         "type": "commonRelease",
         "targetId": 94144703,
         "closedMessage": "「幕間４」クリアで開放"
+      }, {
+        "type": "commonRelease",
+        "targetId": 94144704,
+        "closedMessage": "テュフォン不在により閉鎖中\nテュフォンを奪還することで再開放"
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -88409,6 +88525,10 @@
         "type": "commonRelease",
         "targetId": 94144703,
         "closedMessage": "「幕間４」クリアで開放"
+      }, {
+        "type": "commonRelease",
+        "targetId": 94144704,
+        "closedMessage": "テュフォン不在により閉鎖中\nテュフォンを奪還することで再開放"
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -88469,6 +88589,10 @@
         "type": "commonRelease",
         "targetId": 94144703,
         "closedMessage": "「幕間４」クリアで開放"
+      }, {
+        "type": "commonRelease",
+        "targetId": 94144704,
+        "closedMessage": "テュフォン不在により閉鎖中\nテュフォンを奪還することで再開放"
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -88529,6 +88653,10 @@
         "type": "commonRelease",
         "targetId": 94144703,
         "closedMessage": "「幕間４」クリアで開放"
+      }, {
+        "type": "commonRelease",
+        "targetId": 94144704,
+        "closedMessage": "テュフォン不在により閉鎖中\nテュフォンを奪還することで再開放"
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -88586,6 +88714,10 @@
         "type": "commonRelease",
         "targetId": 94144703,
         "closedMessage": "「幕間４」クリアで開放"
+      }, {
+        "type": "commonRelease",
+        "targetId": 94144704,
+        "closedMessage": "テュフォン不在により閉鎖中\nテュフォンを奪還することで再開放"
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -88642,6 +88774,10 @@
         "type": "commonRelease",
         "targetId": 94144703,
         "closedMessage": "「幕間４」クリアで開放"
+      }, {
+        "type": "commonRelease",
+        "targetId": 94144704,
+        "closedMessage": "テュフォン不在により閉鎖中\nテュフォンを奪還することで再開放"
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -88694,6 +88830,10 @@
         "type": "commonRelease",
         "targetId": 94144703,
         "closedMessage": "「幕間４」クリアで開放"
+      }, {
+        "type": "commonRelease",
+        "targetId": 94144704,
+        "closedMessage": "テュフォン不在により閉鎖中\nテュフォンを奪還することで再開放"
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -88750,6 +88890,10 @@
         "type": "commonRelease",
         "targetId": 94144703,
         "closedMessage": "「幕間４」クリアで開放"
+      }, {
+        "type": "commonRelease",
+        "targetId": 94144704,
+        "closedMessage": "テュフォン不在により閉鎖中\nテュフォンを奪還することで再開放"
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -88964,7 +89108,7 @@
       "closedAt": 1750823999
     }, {
       "id": 94144907,
-      "name": "",
+      "name": "材料収集 良質な鋼を求めて",
       "type": "event",
       "flags": ["displayLoopmark"],
       "consume": 40,
@@ -88978,6 +89122,9 @@
         "num": 1
       }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 94144707
       }, {
@@ -88988,15 +89135,83 @@
         "type": "date",
         "targetId": 0,
         "closedMessage": "第７節クリア\n＆6月8日18時00分以降に開放"
+      }],
+      "phases": [1],
+      "priority": 94144694,
+      "noticeAt": 1749286800,
+      "openedAt": 1749373200,
+      "closedAt": 1750823999
+    }, {
+      "id": 94144908,
+      "name": "",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90+",
+      "spotId": 839401,
+      "warId": 8394,
+      "gifts": [{
+        "id": 327,
+        "objectId": 3,
+        "num": 100
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94144711
+      }, {
+        "type": "questClear",
+        "targetId": 94144713,
+        "closedMessage": "エピローグクリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "エピローグクリア\n＆6月9日18時00分以降に開放"
       }, {
         "type": "forceFalse",
         "targetId": 0,
         "closedMessage": "データ更新後に開放"
       }],
       "phases": [1],
-      "priority": 94144694,
-      "noticeAt": 1749286800,
-      "openedAt": 1749373200,
+      "priority": 94144693,
+      "noticeAt": 1749373200,
+      "openedAt": 1749459600,
+      "closedAt": 1750823999
+    }, {
+      "id": 94144909,
+      "name": "",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90++",
+      "spotId": 839401,
+      "warId": 8394,
+      "gifts": [{
+        "id": 337,
+        "objectId": 3,
+        "num": 200
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94144711
+      }, {
+        "type": "questClear",
+        "targetId": 94144713,
+        "closedMessage": "エピローグクリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "エピローグクリア\n＆6月9日18時00分以降に開放"
+      }, {
+        "type": "forceFalse",
+        "targetId": 0,
+        "closedMessage": "データ更新後に開放"
+      }],
+      "phases": [1],
+      "priority": 94144692,
+      "noticeAt": 1749373200,
+      "openedAt": 1749459600,
       "closedAt": 1750823999
     }, {
       "id": 94145001,
@@ -89084,6 +89299,34 @@
       "priority": 94144798,
       "noticeAt": 1749286800,
       "openedAt": 1749286800,
+      "closedAt": 1750823999
+    }, {
+      "id": 94145004,
+      "name": "【性能試験クエスト】財宝に佇む黄金",
+      "type": "event",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "60",
+      "spotId": 839401,
+      "warId": 8394,
+      "gifts": [{
+        "id": 32043,
+        "type": "servant",
+        "objectId": 9670400,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94144711
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "priority": 94144797,
+      "noticeAt": 1749373200,
+      "openedAt": 1749373200,
       "closedAt": 1750823999
     }]
   }]
