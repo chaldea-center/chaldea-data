@@ -59218,6 +59218,15 @@
         "eventId": 80537,
         "startedAt": 1744621200,
         "endedAt": 1745207999
+      }, {
+        "priority": 8054700,
+        "condType": "questClear",
+        "condId": 3000320,
+        "closedMessage": "Lostbelt No.3をクリア＆霊基再臨2段階目＆絆Lv.3で開放",
+        "overlayClosedMessage": "Lostbelt No.3をクリアで開放",
+        "eventId": 80547,
+        "startedAt": 1749459600,
+        "endedAt": 1750996799
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -60534,6 +60543,15 @@
         "eventId": 80537,
         "startedAt": 1745226000,
         "endedAt": 1745812799
+      }, {
+        "priority": 8054700,
+        "condType": "questClear",
+        "condId": 3000421,
+        "closedMessage": "Lostbelt No.4をクリア＆霊基再臨3段階目＆絆Lv.3で開放",
+        "overlayClosedMessage": "Lostbelt No.4をクリアで開放",
+        "eventId": 80547,
+        "startedAt": 1749459600,
+        "endedAt": 1750996799
       }],
       "phases": [1, 2, 3],
       "phasesWithEnemies": [1, 2],
@@ -88328,7 +88346,7 @@
       "closedAt": 1750823999
     }, {
       "id": 94144712,
-      "name": "",
+      "name": "第８節 願いの果て",
       "type": "main",
       "consume": 0,
       "afterClear": "close",
@@ -88342,6 +88360,9 @@
         "num": 1
       }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 94144711
       }, {
@@ -88353,15 +88374,69 @@
         "targetId": 80540,
         "value": 310000,
         "closedMessage": "材料収集ポイント310,000以上\n＆6月9日18時00分以降に開放"
-      }, {
-        "type": "forceFalse",
-        "targetId": 0,
-        "closedMessage": "データ更新後に開放"
       }],
       "phases": [1, 2, 3],
+      "phasesWithEnemies": [3],
       "phasesNoBattle": [1, 2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9414471210",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414471210.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9414471220",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414471220.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9414471230",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414471230.txt"
+        }, {
+          "scriptId": "9414471231",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414471231.txt"
+        }]
+      }],
       "priority": 94144986,
       "noticeAt": 1749373200,
+      "openedAt": 1749459600,
+      "closedAt": 1750823999
+    }, {
+      "id": 94144713,
+      "name": "エピローグ",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 839401,
+      "warId": 8394,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94144712
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9414471310",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414471310.txt"
+        }]
+      }],
+      "priority": 94144985,
+      "noticeAt": 1749459600,
       "openedAt": 1749459600,
       "closedAt": 1750823999
     }, {
@@ -88465,6 +88540,10 @@
         "type": "commonRelease",
         "targetId": 94144704,
         "closedMessage": "テュフォン不在により閉鎖中\nテュフォンを奪還することで再開放"
+      }, {
+        "type": "commonRelease",
+        "targetId": 94144705,
+        "closedMessage": "テュフォン機能停止により閉鎖中\nテュフォンの機能が復活することで再開放"
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -88529,6 +88608,10 @@
         "type": "commonRelease",
         "targetId": 94144704,
         "closedMessage": "テュフォン不在により閉鎖中\nテュフォンを奪還することで再開放"
+      }, {
+        "type": "commonRelease",
+        "targetId": 94144705,
+        "closedMessage": "テュフォン機能停止により閉鎖中\nテュフォンの機能が復活することで再開放"
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -88593,6 +88676,10 @@
         "type": "commonRelease",
         "targetId": 94144704,
         "closedMessage": "テュフォン不在により閉鎖中\nテュフォンを奪還することで再開放"
+      }, {
+        "type": "commonRelease",
+        "targetId": 94144705,
+        "closedMessage": "テュフォン機能停止により閉鎖中\nテュフォンの機能が復活することで再開放"
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -88657,6 +88744,10 @@
         "type": "commonRelease",
         "targetId": 94144704,
         "closedMessage": "テュフォン不在により閉鎖中\nテュフォンを奪還することで再開放"
+      }, {
+        "type": "commonRelease",
+        "targetId": 94144705,
+        "closedMessage": "テュフォン機能停止により閉鎖中\nテュフォンの機能が復活することで再開放"
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -88718,6 +88809,10 @@
         "type": "commonRelease",
         "targetId": 94144704,
         "closedMessage": "テュフォン不在により閉鎖中\nテュフォンを奪還することで再開放"
+      }, {
+        "type": "commonRelease",
+        "targetId": 94144705,
+        "closedMessage": "テュフォン機能停止により閉鎖中\nテュフォンの機能が復活することで再開放"
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -88778,6 +88873,10 @@
         "type": "commonRelease",
         "targetId": 94144704,
         "closedMessage": "テュフォン不在により閉鎖中\nテュフォンを奪還することで再開放"
+      }, {
+        "type": "commonRelease",
+        "targetId": 94144705,
+        "closedMessage": "テュフォン機能停止により閉鎖中\nテュフォンの機能が復活することで再開放"
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -88834,6 +88933,10 @@
         "type": "commonRelease",
         "targetId": 94144704,
         "closedMessage": "テュフォン不在により閉鎖中\nテュフォンを奪還することで再開放"
+      }, {
+        "type": "commonRelease",
+        "targetId": 94144705,
+        "closedMessage": "テュフォン機能停止により閉鎖中\nテュフォンの機能が復活することで再開放"
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -88894,6 +88997,10 @@
         "type": "commonRelease",
         "targetId": 94144704,
         "closedMessage": "テュフォン不在により閉鎖中\nテュフォンを奪還することで再開放"
+      }, {
+        "type": "commonRelease",
+        "targetId": 94144705,
+        "closedMessage": "テュフォン機能停止により閉鎖中\nテュフォンの機能が復活することで再開放"
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -88910,6 +89017,283 @@
       "priority": 94144894,
       "noticeAt": 1749286800,
       "openedAt": 1749286800,
+      "closedAt": 1750823999
+    }, {
+      "id": 94144851,
+      "name": "主砲支援をオーバーブーストする",
+      "type": "main",
+      "flags": ["noBattle", "hideProgress", "noDisplayNextIcon"],
+      "consumeType": "item",
+      "consume": 400,
+      "consumeItem": [{
+        "itemId": 94144704,
+        "amount": 400
+      }],
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 839401,
+      "warId": 8394,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94144713
+      }, {
+        "type": "questClear",
+        "targetId": 94144801,
+        "closedMessage": "「【改修クエスト】主砲の修理」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94144892,
+      "noticeAt": 1749459600,
+      "openedAt": 1749459600,
+      "closedAt": 1750823999
+    }, {
+      "id": 94144852,
+      "name": "副砲支援をオーバーブーストする",
+      "type": "main",
+      "flags": ["noBattle", "hideProgress", "noDisplayNextIcon"],
+      "consumeType": "item",
+      "consume": 400,
+      "consumeItem": [{
+        "itemId": 94144704,
+        "amount": 400
+      }],
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 839401,
+      "warId": 8394,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94144713
+      }, {
+        "type": "questClear",
+        "targetId": 94144802,
+        "closedMessage": "「【改修クエスト】副砲の修理」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94144891,
+      "noticeAt": 1749459600,
+      "openedAt": 1749459600,
+      "closedAt": 1750823999
+    }, {
+      "id": 94144853,
+      "name": "ドラゴニックフィールドをオーバーブーストする",
+      "type": "main",
+      "flags": ["noBattle", "hideProgress", "noDisplayNextIcon"],
+      "consumeType": "item",
+      "consume": 400,
+      "consumeItem": [{
+        "itemId": 94144704,
+        "amount": 400
+      }],
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 839401,
+      "warId": 8394,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94144713
+      }, {
+        "type": "questClear",
+        "targetId": 94144803,
+        "closedMessage": "「【改修クエスト】装甲の修理」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94144890,
+      "noticeAt": 1749459600,
+      "openedAt": 1749459600,
+      "closedAt": 1750823999
+    }, {
+      "id": 94144854,
+      "name": "コスモスラスターをオーバーブーストする",
+      "type": "main",
+      "flags": ["noBattle", "hideProgress", "noDisplayNextIcon"],
+      "consumeType": "item",
+      "consume": 400,
+      "consumeItem": [{
+        "itemId": 94144704,
+        "amount": 400
+      }],
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 839401,
+      "warId": 8394,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94144713
+      }, {
+        "type": "questClear",
+        "targetId": 94144804,
+        "closedMessage": "「【改修クエスト】速度の強化」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94144889,
+      "noticeAt": 1749459600,
+      "openedAt": 1749459600,
+      "closedAt": 1750823999
+    }, {
+      "id": 94144855,
+      "name": "自己修復をオーバーブーストする",
+      "type": "main",
+      "flags": ["noBattle", "hideProgress", "noDisplayNextIcon"],
+      "consumeType": "item",
+      "consume": 400,
+      "consumeItem": [{
+        "itemId": 94144704,
+        "amount": 400
+      }],
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 839401,
+      "warId": 8394,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94144713
+      }, {
+        "type": "questClear",
+        "targetId": 94144807,
+        "closedMessage": "「【改修クエスト】自己修復機能の開発」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94144888,
+      "noticeAt": 1749459600,
+      "openedAt": 1749459600,
+      "closedAt": 1750823999
+    }, {
+      "id": 94144856,
+      "name": "全てのオーバーブースト改修をリセットする",
+      "type": "main",
+      "flags": ["noBattle", "hideProgress", "noDisplayNextIcon"],
+      "consume": 0,
+      "afterClear": "repeatLast",
+      "recommendLv": "1",
+      "spotId": 839401,
+      "warId": 8394,
+      "gifts": [{
+        "id": 94144750,
+        "objectId": 94144704,
+        "num": 400
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94144713
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "notQuestGroupClear",
+        "targetId": 94144899,
+        "value": 2
+      }, {
+        "type": "questGroupClear",
+        "targetId": 94144899,
+        "value": 1
+      }, {
+        "type": "questResetAvailable",
+        "targetId": 94144856
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94144887,
+      "noticeAt": 1749459600,
+      "openedAt": 1749459600,
+      "closedAt": 1750823999
+    }, {
+      "id": 94144857,
+      "name": "全てのオーバーブースト改修をリセットする",
+      "type": "main",
+      "flags": ["noBattle", "hideProgress", "noDisplayNextIcon"],
+      "consume": 0,
+      "afterClear": "repeatLast",
+      "recommendLv": "1",
+      "spotId": 839401,
+      "warId": 8394,
+      "gifts": [{
+        "id": 94144751,
+        "objectId": 94144704,
+        "num": 800
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94144713
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "notQuestGroupClear",
+        "targetId": 94144899,
+        "value": 3
+      }, {
+        "type": "questGroupClear",
+        "targetId": 94144899,
+        "value": 2
+      }, {
+        "type": "questResetAvailable",
+        "targetId": 94144857
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94144886,
+      "noticeAt": 1749459600,
+      "openedAt": 1749459600,
+      "closedAt": 1750823999
+    }, {
+      "id": 94144858,
+      "name": "全てのオーバーブースト改修をリセットする",
+      "type": "main",
+      "flags": ["noBattle", "hideProgress", "noDisplayNextIcon"],
+      "consume": 0,
+      "afterClear": "repeatLast",
+      "recommendLv": "1",
+      "spotId": 839401,
+      "warId": 8394,
+      "gifts": [{
+        "id": 94144752,
+        "objectId": 94144704,
+        "num": 1200
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94144713
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "notQuestGroupClear",
+        "targetId": 94144899,
+        "value": 4
+      }, {
+        "type": "questGroupClear",
+        "targetId": 94144899,
+        "value": 3
+      }, {
+        "type": "questResetAvailable",
+        "targetId": 94144858
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94144885,
+      "noticeAt": 1749459600,
+      "openedAt": 1749459600,
       "closedAt": 1750823999
     }, {
       "id": 94144901,
@@ -89144,7 +89528,7 @@
       "closedAt": 1750823999
     }, {
       "id": 94144908,
-      "name": "",
+      "name": "材料収集 土地の所有権を賭けた戦い",
       "type": "event",
       "flags": ["displayLoopmark"],
       "consume": 40,
@@ -89158,6 +89542,9 @@
         "num": 100
       }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 94144711
       }, {
@@ -89168,10 +89555,6 @@
         "type": "date",
         "targetId": 0,
         "closedMessage": "エピローグクリア\n＆6月9日18時00分以降に開放"
-      }, {
-        "type": "forceFalse",
-        "targetId": 0,
-        "closedMessage": "データ更新後に開放"
       }],
       "phases": [1],
       "priority": 94144693,
@@ -89180,7 +89563,7 @@
       "closedAt": 1750823999
     }, {
       "id": 94144909,
-      "name": "",
+      "name": "材料収集 鉱員との危険な交渉",
       "type": "event",
       "flags": ["displayLoopmark"],
       "consume": 40,
@@ -89194,6 +89577,9 @@
         "num": 200
       }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 94144711
       }, {
@@ -89204,12 +89590,9 @@
         "type": "date",
         "targetId": 0,
         "closedMessage": "エピローグクリア\n＆6月9日18時00分以降に開放"
-      }, {
-        "type": "forceFalse",
-        "targetId": 0,
-        "closedMessage": "データ更新後に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94144692,
       "noticeAt": 1749373200,
       "openedAt": 1749459600,
@@ -89329,6 +89712,129 @@
       "priority": 94144797,
       "noticeAt": 1749373200,
       "openedAt": 1749373200,
+      "closedAt": 1750823999
+    }, {
+      "id": 94145005,
+      "name": "【性能試験クエスト】大海の強者",
+      "type": "event",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "80",
+      "spotId": 839401,
+      "warId": 8394,
+      "gifts": [{
+        "id": 42445,
+        "type": "commandCode",
+        "objectId": 8402000,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94144713
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "priority": 94144796,
+      "noticeAt": 1749459600,
+      "openedAt": 1749459600,
+      "closedAt": 1750823999
+    }, {
+      "id": 94145006,
+      "name": "【性能試験クエスト】聳え立つ巨獣",
+      "type": "event",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "80",
+      "spotId": 839401,
+      "warId": 8394,
+      "gifts": [{
+        "id": 21701,
+        "objectId": 6999,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94144713
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "priority": 94144795,
+      "noticeAt": 1749459600,
+      "openedAt": 1749459600,
+      "closedAt": 1750823999
+    }, {
+      "id": 94145007,
+      "name": "【性能試験クエスト】黄昏の地の太祖竜",
+      "type": "event",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "90",
+      "spotId": 839401,
+      "warId": 8394,
+      "gifts": [{
+        "id": 25494,
+        "objectId": 1000,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94144713
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "questGroupClear",
+        "targetId": 94144702,
+        "value": 6,
+        "closedMessage": "【性能試験クエスト】を6つクリアで開放"
+      }],
+      "phases": [1],
+      "priority": 94144794,
+      "noticeAt": 1749459600,
+      "openedAt": 1749459600,
+      "closedAt": 1750823999
+    }, {
+      "id": 94145101,
+      "name": "",
+      "type": "event",
+      "flags": ["dropFirstTimeOnly", "notRetrievable", "notDisplayResultGetPoint"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "90+",
+      "spotId": 839401,
+      "warId": 8394,
+      "gifts": [{
+        "id": 21701,
+        "objectId": 6999,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 1000822,
+        "closedMessage": "終局特異点クリア\n＆6月10日18時00分以降に開放"
+      }, {
+        "type": "questClear",
+        "targetId": 94144713
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "forceFalse",
+        "targetId": 0,
+        "closedMessage": "データ更新後に開放"
+      }],
+      "phases": [1],
+      "priority": 94145100,
+      "noticeAt": 1749459600,
+      "openedAt": 1749546000,
       "closedAt": 1750823999
     }]
   }]
