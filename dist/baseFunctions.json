@@ -55086,6 +55086,14 @@
     }]
   }]
 }, {
+  "funcId": 22707,
+  "funcType": "expUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "functvals": [{
+    "id": 106
+  }]
+}, {
   "funcId": 30003,
   "funcType": "addStateShort",
   "funcTargetType": "self",
@@ -57330,6 +57338,8 @@
     "type": "upGainHp",
     "vals": [{
       "id": 3004
+    }, {
+      "id": 3082
     }],
     "maxRate": 50000
   }]
@@ -57770,7 +57780,7 @@
   "buffs": [{
     "id": 30091,
     "name": "守勢の構え（剣）",
-    "detail": "チェイン不成立時、自身の防御力をアップ",
+    "detail": "宝具チェインを除くチェイン不成立時、自身の防御力をアップ",
     "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_331.png",
     "type": "confirmCommandFunction",
     "script": {
@@ -57778,6 +57788,535 @@
     },
     "originalScript": {
       "checkIndvType": 2
+    },
+    "vals": [{
+      "id": 3004
+    }],
+    "ckSelfIndv": [{
+      "id": 4104,
+      "negative": true
+    }, {
+      "id": 4105,
+      "negative": true
+    }, {
+      "id": 4106,
+      "negative": true
+    }, {
+      "id": 4107,
+      "negative": true
+    }, {
+      "id": 4108,
+      "negative": true
+    }]
+  }]
+}, {
+  "funcId": 30208,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "曇らせ侍る（狂）",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_528.png",
+  "buffs": [{
+    "id": 30096,
+    "name": "曇らせ侍る（狂）",
+    "detail": "攻撃時、対象に〔標的破壊〕状態を付与",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_528.png",
+    "type": "attackAfterFunction",
+    "vals": [{
+      "id": 3004
+    }],
+    "tvals": [{
+      "id": 5000
+    }]
+  }]
+}, {
+  "funcId": 30209,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "不屈の構え（狂）",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_365.png",
+  "buffs": [{
+    "id": 30097,
+    "name": "不屈の構え（狂）",
+    "detail": "ガッツ発動時、自身が最後に攻撃を受けた相手からのダメージに対する耐性をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_365.png",
+    "type": "gutsFunction",
+    "vals": [{
+      "id": 3004
+    }]
+  }]
+}, {
+  "funcId": 30211,
+  "funcType": "addStateShort",
+  "funcTargetType": "enemy",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "標的破壊",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_504.png",
+  "buffs": [{
+    "id": 30098,
+    "name": "標的破壊",
+    "detail": "防御力をダウン",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_504.png",
+    "type": "downDefence",
+    "script": {
+      "extendLowerLimit": 1000
+    },
+    "originalScript": {
+      "extendLowerLimit": 1000
+    },
+    "vals": [{
+      "id": 2982
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 30212,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "攻撃時追加効果",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_528.png",
+  "buffs": [{
+    "id": 30099,
+    "name": "攻撃時追加効果",
+    "detail": "攻撃時、対象の〔標的破壊〕状態の残りターン数を1ターン延長(クリティカル時はさらに1ターン延長)",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_528.png",
+    "type": "attackAfterFunction",
+    "vals": [{
+      "id": 3004
+    }],
+    "tvals": [{
+      "id": 5000
+    }]
+  }]
+}, {
+  "funcId": 30214,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "クイックチェイン成立時発動効果",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_420.png",
+  "buffs": [{
+    "id": 30101,
+    "name": "クイックチェイン成立時発動効果",
+    "detail": "自身のコマンドカードを含むクイックチェイン成立時、自身のQuickカードの威力をアップ<自身のHP割合が多いほど効果アップ>",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_420.png",
+    "type": "confirmCommandFunction",
+    "vals": [{
+      "id": 3004
+    }],
+    "ckSelfIndv": [{
+      "id": 4104
+    }]
+  }]
+}, {
+  "funcId": 30215,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "アーツチェイン成立時発動効果",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_421.png",
+  "buffs": [{
+    "id": 30102,
+    "name": "アーツチェイン成立時発動効果",
+    "detail": "自身のコマンドカードを含むアーツチェイン成立時、自身のArtsカードの威力をアップ<自身のHP割合が多いほど効果アップ>",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_421.png",
+    "type": "confirmCommandFunction",
+    "vals": [{
+      "id": 3004
+    }],
+    "ckSelfIndv": [{
+      "id": 4105
+    }]
+  }]
+}, {
+  "funcId": 30216,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "バスターチェイン成立時発動効果",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_422.png",
+  "buffs": [{
+    "id": 30103,
+    "name": "バスターチェイン成立時発動効果",
+    "detail": "自身のコマンドカードを含むバスターチェイン成立時、自身のBusterカードの威力をアップ<自身のHP割合が多いほど効果アップ>",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_422.png",
+    "type": "confirmCommandFunction",
+    "vals": [{
+      "id": 3004
+    }],
+    "ckSelfIndv": [{
+      "id": 4106
+    }]
+  }]
+}, {
+  "funcId": 30217,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "マイティチェイン成立時発動効果",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_424.png",
+  "buffs": [{
+    "id": 30104,
+    "name": "マイティチェイン成立時発動効果",
+    "detail": "自身のコマンドカードを含むマイティチェイン成立時、自身に「攻撃時、対象の〔標的破壊〕状態の残りターン数を1ターン延長(クリティカル時はさらに1ターン延長)する状態」を付与",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_424.png",
+    "type": "confirmCommandFunction",
+    "vals": [{
+      "id": 3004
+    }],
+    "ckSelfIndv": [{
+      "id": 4107
+    }]
+  }]
+}, {
+  "funcId": 30219,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "Extra Attackアップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_388.png",
+  "buffs": [{
+    "id": 30060,
+    "name": "Extra Attackアップ",
+    "detail": "Extra Attackカードの性能をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_388.png",
+    "type": "upCommandall",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3100
+    }],
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4004
+    }],
+    "ckSelfIndv": [{
+      "id": 4004
+    }],
+    "maxRate": 50000
+  }]
+}, {
+  "funcId": 30220,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "クイックアップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_312.png",
+  "buffs": [{
+    "id": 30061,
+    "name": "Quickアップ",
+    "detail": "Quickカードの性能をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_312.png",
+    "type": "upCommandall",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3094
+    }],
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4003
+    }],
+    "ckSelfIndv": [{
+      "id": 4003
+    }],
+    "maxRate": 50000
+  }]
+}, {
+  "funcId": 30221,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "アーツアップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_313.png",
+  "buffs": [{
+    "id": 30062,
+    "name": "Artsアップ",
+    "detail": "Artsカードの性能をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_313.png",
+    "type": "upCommandall",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3092
+    }],
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4001
+    }],
+    "ckSelfIndv": [{
+      "id": 4001
+    }],
+    "maxRate": 50000
+  }]
+}, {
+  "funcId": 30222,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "バスターアップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_314.png",
+  "buffs": [{
+    "id": 30063,
+    "name": "Busterアップ",
+    "detail": "Busterカードの性能をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_314.png",
+    "type": "upCommandall",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3093
+    }],
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4002
+    }],
+    "ckSelfIndv": [{
+      "id": 4002
+    }],
+    "maxRate": 50000
+  }]
+}, {
+  "funcId": 30223,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "強化解除耐性アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_348.png",
+  "buffs": [{
+    "id": 30065,
+    "name": "強化解除耐性アップ",
+    "detail": "強化解除耐性をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_348.png",
+    "type": "upToleranceSubstate",
+    "vals": [{
+      "id": 3004
+    }],
+    "ckOpIndv": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3007
+    }, {
+      "id": 3027
+    }, {
+      "id": 3058
+    }, {
+      "id": 3031
+    }, {
+      "id": 3021
+    }, {
+      "id": 3018
+    }, {
+      "id": 3024
+    }, {
+      "id": 3030
+    }, {
+      "id": 3032
+    }, {
+      "id": 3019
+    }],
+    "maxRate": 50000
+  }]
+}, {
+  "funcId": 30224,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "マスタースキル効果アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_376.png",
+  "buffs": [{
+    "id": 30066,
+    "name": "マスタースキル効果アップ",
+    "detail": "自身がフィールドにいる間、マスタースキルの一部の効果をアップする(このグランドサインの効果は重複せず最も効果の高いもののみが有効・サポート時は無効)",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_376.png",
+    "type": "masterSkillValueUp",
+    "script": {
+      "INDIVIDUALITIE": {
+        "id": 7000,
+        "negative": true
+      }
+    },
+    "originalScript": {
+      "INDIVIDUALITIE": -7000
+    },
+    "vals": [{
+      "id": 3004
+    }],
+    "maxRate": 50000
+  }]
+}, {
+  "funcId": 30225,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "HP回復量アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_328.png",
+  "buffs": [{
+    "id": 30067,
+    "name": "HP回復量アップ",
+    "detail": "HPの回復効果量をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_328.png",
+    "type": "upGainHp",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3082
+    }],
+    "maxRate": 50000
+  }]
+}, {
+  "funcId": 30226,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "毎ターンNP獲得",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_319.png",
+  "buffs": [{
+    "id": 119,
+    "name": "毎ターンNP獲得",
+    "detail": "ターン終了時にNPが増える",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_319.png",
+    "type": "regainNp",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3080
+    }]
+  }]
+}, {
+  "funcId": 30227,
+  "funcType": "gainNp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "NP増加"
+}, {
+  "funcId": 30228,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "buffs": [{
+    "id": 30106,
+    "name": "",
+    "detail": "",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_528.png",
+    "type": "attackAfterFunction",
+    "vals": [{
+      "id": 3004
+    }],
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4100
+    }],
+    "ckSelfIndv": [{
+      "id": 4100
+    }]
+  }]
+}, {
+  "funcId": 30230,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "特殊耐性アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_334.png",
+  "buffs": [{
+    "id": 30108,
+    "name": "特殊耐性アップ",
+    "detail": "自身が最後に攻撃を受けた相手からのダメージに対する耐性をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_334.png",
+    "type": "upSpecialdefence",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3016
+    }],
+    "tvals": [{
+      "id": 6045
+    }],
+    "ckOpIndv": [{
+      "id": 6045
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 30233,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "buffs": [{
+    "id": 30111,
+    "name": "",
+    "detail": "",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_520.png",
+    "type": "addIndividuality",
+    "vals": [{
+      "id": 2985
+    }]
+  }]
+}, {
+  "funcId": 30234,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "ガッツ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_304.png",
+  "functvals": [{
+    "id": 2984,
+    "negative": true
+  }],
+  "buffs": [{
+    "id": 30112,
+    "name": "ガッツ",
+    "detail": "HPが0になった時、HPを回復して耐える(グランドサイン効果以外の他のガッツ状態と重複可能)",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_304.png",
+    "type": "gutsRatio",
+    "buffGroup": 30105,
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 2983
+    }],
+    "maxRate": 1000
+  }]
+}, {
+  "funcId": 30235,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "戦闘続行（狂）",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_331.png",
+  "buffs": [{
+    "id": 30113,
+    "name": "戦闘続行（狂）",
+    "detail": "宝具チェインを除くチェイン不成立時、自身にガッツ状態(強化解除不能・グランドサイン効果以外の他のガッツ状態と重複可能)を付与<1度使用すると再使用に4ターン必要>",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_331.png",
+    "type": "confirmCommandFunction",
+    "script": {
+      "checkIndvType": 2,
+      "INDIVIDUALITIE": {
+        "id": 2985,
+        "negative": true
+      }
+    },
+    "originalScript": {
+      "checkIndvType": 2,
+      "INDIVIDUALITIE": -2985
     },
     "vals": [{
       "id": 3004
