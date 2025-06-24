@@ -1598,6 +1598,46 @@
       "isRec": true,
       "plusAction": 0,
       "maxRate": [0]
+    },
+    "changeActInAddCount": {
+      "limit": "none",
+      "plusTypes": ["extendActionCount"],
+      "minusTypes": [],
+      "baseParam": 0,
+      "baseValue": 0,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": [0]
+    },
+    "functionGutsBefore": {
+      "limit": "none",
+      "plusTypes": ["gutsBeforeFunction"],
+      "minusTypes": [],
+      "baseParam": 1000,
+      "baseValue": 0,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": [0]
+    },
+    "overwriteBuffUseRate": {
+      "limit": "normal",
+      "plusTypes": ["overwriteBuffUseRate"],
+      "minusTypes": [],
+      "baseParam": 0,
+      "baseValue": 0,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": []
+    },
+    "changeBuffUseRate": {
+      "limit": "normal",
+      "plusTypes": ["upBuffUseRate"],
+      "minusTypes": ["downBuffUseRate"],
+      "baseParam": 1000,
+      "baseValue": 1000,
+      "isRec": true,
+      "plusAction": 0,
+      "maxRate": []
     }
   },
   "classInfo": {
