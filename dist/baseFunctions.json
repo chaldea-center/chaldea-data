@@ -57891,6 +57891,45 @@
     }]
   }]
 }, {
+  "funcId": 30213,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "戦闘続行（狂）",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_331.png",
+  "buffs": [{
+    "id": 30100,
+    "name": "戦闘続行（狂）",
+    "detail": "宝具チェインを除くチェイン不成立時、自身にガッツ状態(強化解除不能・グランドサイン効果以外の他のガッツ状態と重複可能)を付与<1度使用すると再使用に4ターン必要>",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_331.png",
+    "type": "confirmCommandFunction",
+    "script": {
+      "checkIndvType": 2
+    },
+    "originalScript": {
+      "checkIndvType": 2
+    },
+    "vals": [{
+      "id": 3004
+    }],
+    "ckSelfIndv": [{
+      "id": 4104,
+      "negative": true
+    }, {
+      "id": 4105,
+      "negative": true
+    }, {
+      "id": 4106,
+      "negative": true
+    }, {
+      "id": 4107,
+      "negative": true
+    }, {
+      "id": 4108,
+      "negative": true
+    }]
+  }]
+}, {
   "funcId": 30214,
   "funcType": "addStateShort",
   "funcTargetType": "self",
@@ -58293,50 +58332,6 @@
       "id": 2983
     }],
     "maxRate": 1000
-  }]
-}, {
-  "funcId": 30235,
-  "funcType": "addStateShort",
-  "funcTargetType": "self",
-  "funcTargetTeam": "playerAndEnemy",
-  "funcPopupText": "戦闘続行（狂）",
-  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_331.png",
-  "buffs": [{
-    "id": 30113,
-    "name": "戦闘続行（狂）",
-    "detail": "宝具チェインを除くチェイン不成立時、自身にガッツ状態(強化解除不能・グランドサイン効果以外の他のガッツ状態と重複可能)を付与<1度使用すると再使用に4ターン必要>",
-    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_331.png",
-    "type": "confirmCommandFunction",
-    "script": {
-      "checkIndvType": 2,
-      "INDIVIDUALITIE": {
-        "id": 2985,
-        "negative": true
-      }
-    },
-    "originalScript": {
-      "checkIndvType": 2,
-      "INDIVIDUALITIE": -2985
-    },
-    "vals": [{
-      "id": 3004
-    }],
-    "ckSelfIndv": [{
-      "id": 4104,
-      "negative": true
-    }, {
-      "id": 4105,
-      "negative": true
-    }, {
-      "id": 4106,
-      "negative": true
-    }, {
-      "id": 4107,
-      "negative": true
-    }, {
-      "id": 4108,
-      "negative": true
-    }]
   }]
 }, {
   "funcId": 94100501,
