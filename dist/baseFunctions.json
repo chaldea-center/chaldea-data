@@ -58010,6 +58010,27 @@
     }]
   }]
 }, {
+  "funcId": 30218,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "ガッツ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_304.png",
+  "buffs": [{
+    "id": 30105,
+    "name": "ガッツ",
+    "detail": "HPが0になった時、HPを回復して耐える(グランドサイン効果以外の他のガッツ状態と重複可能)",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_304.png",
+    "type": "gutsRatio",
+    "buffGroup": 30105,
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 2983
+    }],
+    "maxRate": 1000
+  }]
+}, {
   "funcId": 30219,
   "funcType": "addStateShort",
   "funcTargetType": "self",
@@ -58292,46 +58313,6 @@
       "id": 6045
     }],
     "maxRate": 5000
-  }]
-}, {
-  "funcId": 30233,
-  "funcType": "addStateShort",
-  "funcTargetType": "self",
-  "funcTargetTeam": "playerAndEnemy",
-  "buffs": [{
-    "id": 30111,
-    "name": "",
-    "detail": "",
-    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_520.png",
-    "type": "addIndividuality",
-    "vals": [{
-      "id": 2985
-    }]
-  }]
-}, {
-  "funcId": 30234,
-  "funcType": "addState",
-  "funcTargetType": "self",
-  "funcTargetTeam": "playerAndEnemy",
-  "funcPopupText": "ガッツ",
-  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_304.png",
-  "functvals": [{
-    "id": 2984,
-    "negative": true
-  }],
-  "buffs": [{
-    "id": 30112,
-    "name": "ガッツ",
-    "detail": "HPが0になった時、HPを回復して耐える(グランドサイン効果以外の他のガッツ状態と重複可能)",
-    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_304.png",
-    "type": "gutsRatio",
-    "buffGroup": 30105,
-    "vals": [{
-      "id": 3004
-    }, {
-      "id": 2983
-    }],
-    "maxRate": 1000
   }]
 }, {
   "funcId": 94100501,
