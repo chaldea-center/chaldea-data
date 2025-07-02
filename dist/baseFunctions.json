@@ -6440,7 +6440,12 @@
   "funcId": 439,
   "funcType": "gainHp",
   "funcTargetType": "self",
-  "funcTargetTeam": "playerAndEnemy"
+  "funcTargetTeam": "playerAndEnemy",
+  "script": {
+    "funcIndividuality": [{
+      "id": 2984
+    }]
+  }
 }, {
   "funcId": 440,
   "funcType": "gainHp",
@@ -6450,27 +6455,52 @@
   "funcId": 441,
   "funcType": "gainHp",
   "funcTargetType": "ptOne",
-  "funcTargetTeam": "playerAndEnemy"
+  "funcTargetTeam": "playerAndEnemy",
+  "script": {
+    "funcIndividuality": [{
+      "id": 2984
+    }]
+  }
 }, {
   "funcId": 442,
   "funcType": "gainHp",
   "funcTargetType": "ptOne",
-  "funcTargetTeam": "playerAndEnemy"
+  "funcTargetTeam": "playerAndEnemy",
+  "script": {
+    "funcIndividuality": [{
+      "id": 2984
+    }]
+  }
 }, {
   "funcId": 443,
   "funcType": "gainHp",
   "funcTargetType": "ptOne",
-  "funcTargetTeam": "playerAndEnemy"
+  "funcTargetTeam": "playerAndEnemy",
+  "script": {
+    "funcIndividuality": [{
+      "id": 2984
+    }]
+  }
 }, {
   "funcId": 444,
   "funcType": "gainHp",
   "funcTargetType": "ptAll",
-  "funcTargetTeam": "playerAndEnemy"
+  "funcTargetTeam": "playerAndEnemy",
+  "script": {
+    "funcIndividuality": [{
+      "id": 2984
+    }]
+  }
 }, {
   "funcId": 445,
   "funcType": "gainHp",
   "funcTargetType": "ptAll",
-  "funcTargetTeam": "playerAndEnemy"
+  "funcTargetTeam": "playerAndEnemy",
+  "script": {
+    "funcIndividuality": [{
+      "id": 2984
+    }]
+  }
 }, {
   "funcId": 446,
   "funcType": "gainHp",
@@ -6485,7 +6515,12 @@
   "funcId": 449,
   "funcType": "gainHpPer",
   "funcTargetType": "self",
-  "funcTargetTeam": "playerAndEnemy"
+  "funcTargetTeam": "playerAndEnemy",
+  "script": {
+    "funcIndividuality": [{
+      "id": 2984
+    }]
+  }
 }, {
   "funcId": 455,
   "funcType": "gainHpPer",
@@ -10338,7 +10373,12 @@
     "id": 2
   }, {
     "id": 2356
-  }]
+  }],
+  "script": {
+    "funcIndividuality": [{
+      "id": 2984
+    }]
+  }
 }, {
   "funcId": 966,
   "funcType": "addStateShort",
@@ -10868,7 +10908,12 @@
   "funcId": 1024,
   "funcType": "gainHp",
   "funcTargetType": "enemyAll",
-  "funcTargetTeam": "playerAndEnemy"
+  "funcTargetTeam": "playerAndEnemy",
+  "script": {
+    "funcIndividuality": [{
+      "id": 2984
+    }]
+  }
 }, {
   "funcId": 1055,
   "funcType": "addState",
@@ -30100,7 +30145,12 @@
   "funcId": 7310,
   "funcType": "gainHp",
   "funcTargetType": "ptOneHpLowestRate",
-  "funcTargetTeam": "playerAndEnemy"
+  "funcTargetTeam": "playerAndEnemy",
+  "script": {
+    "funcIndividuality": [{
+      "id": 2984
+    }]
+  }
 }, {
   "funcId": 7316,
   "funcType": "addState",
@@ -53389,6 +53439,38 @@
     "id": 2002
   }]
 }, {
+  "funcId": 22476,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "威力アップ〔蛇・竜〕",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+  "buffs": [{
+    "id": 5789,
+    "name": "威力アップ〔蛇・竜〕",
+    "detail": "〔蛇・竜〕特性に与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamage",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3028
+    }],
+    "tvals": [{
+      "id": 1110
+    }, {
+      "id": 2002
+    }],
+    "ckOpIndv": [{
+      "id": 1110
+    }, {
+      "id": 2002
+    }],
+    "maxRate": 10000
+  }]
+}, {
   "funcId": 22484,
   "funcType": "addStateShort",
   "funcTargetType": "ptFull",
@@ -55007,6 +55089,130 @@
     "isDispValue": true
   }]
 }, {
+  "funcId": 22662,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "スカイ・コレクター",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+  "funcquestTvals": [{
+    "id": 94000174
+  }],
+  "funcGroup": [{
+    "eventId": 80549,
+    "baseFuncId": 22661,
+    "nameTotal": "{1} \n攻撃の威力アップ合計",
+    "name": "攻撃の威力アップ",
+    "icon": "https://static.atlasacademy.io/JP/EventUI/func_group_icon_302.png",
+    "priority": 1,
+    "isDispValue": true
+  }],
+  "buffs": [{
+    "id": 5846,
+    "name": "スカイ・コレクター",
+    "detail": "『インドラの大試練』において与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamage",
+    "maxRate": 10000
+  }]
+}, {
+  "funcId": 22663,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "スカイ・コレクター",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+  "funcquestTvals": [{
+    "id": 94000174
+  }],
+  "funcGroup": [{
+    "eventId": 80549,
+    "baseFuncId": 22661,
+    "nameTotal": "{1} \n攻撃の威力アップ合計",
+    "name": "攻撃の威力アップ",
+    "icon": "https://static.atlasacademy.io/JP/EventUI/func_group_icon_302.png",
+    "priority": 1,
+    "isDispValue": true
+  }],
+  "buffs": [{
+    "id": 5846,
+    "name": "スカイ・コレクター",
+    "detail": "『インドラの大試練』において与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamage",
+    "maxRate": 10000
+  }]
+}, {
+  "funcId": 22664,
+  "funcType": "servantFriendshipUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcGroup": [{
+    "eventId": 80549,
+    "baseFuncId": 0,
+    "nameTotal": "{1}\n自己効果により得られる絆アップ合計",
+    "name": "自己効果により得られる絆アップ",
+    "icon": "https://static.atlasacademy.io/JP/EventUI/func_group_icon_1009.png",
+    "priority": 1,
+    "isDispValue": true
+  }]
+}, {
+  "funcId": 22665,
+  "funcType": "eventDropUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcGroup": [{
+    "eventId": 80549,
+    "baseFuncId": 0,
+    "nameTotal": "{0}\n獲得数ボーナス合計",
+    "name": "{0}獲得数アップ",
+    "icon": "https://static.atlasacademy.io/JP/Items/94145803.png",
+    "priority": 3000,
+    "isDispValue": true
+  }]
+}, {
+  "funcId": 22666,
+  "funcType": "eventDropUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcGroup": [{
+    "eventId": 80549,
+    "baseFuncId": 0,
+    "nameTotal": "{0}\n獲得数ボーナス合計",
+    "name": "{0}獲得数アップ",
+    "icon": "https://static.atlasacademy.io/JP/Items/94145802.png",
+    "priority": 2000,
+    "isDispValue": true
+  }]
+}, {
+  "funcId": 22667,
+  "funcType": "eventDropUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcGroup": [{
+    "eventId": 80549,
+    "baseFuncId": 0,
+    "nameTotal": "{0}\n獲得数ボーナス合計",
+    "name": "{0}獲得数アップ",
+    "icon": "https://static.atlasacademy.io/JP/Items/94145801.png",
+    "priority": 1000,
+    "isDispValue": true
+  }]
+}, {
+  "funcId": 22668,
+  "funcType": "eventDropUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcGroup": [{
+    "eventId": 80549,
+    "baseFuncId": 0,
+    "nameTotal": "{0}\n獲得数ボーナス合計",
+    "name": "{0}獲得数アップ",
+    "icon": "https://static.atlasacademy.io/JP/Items/94145804.png",
+    "priority": 4000,
+    "isDispValue": true
+  }]
+}, {
   "funcId": 22669,
   "funcType": "expUp",
   "funcTargetType": "self",
@@ -55171,6 +55377,52 @@
     "maxRate": 5
   }]
 }, {
+  "funcId": 22731,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "Arts・Buster攻撃時追加効果",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_333.png",
+  "buffs": [{
+    "id": 5872,
+    "name": "Arts・Buster攻撃時追加効果",
+    "detail": "ArtsまたはBuster攻撃時、自身のQuickカードの性能をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_333.png",
+    "type": "attackAfterFunction",
+    "vals": [{
+      "id": 3004
+    }],
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4001
+    }, {
+      "id": 4002
+    }],
+    "ckSelfIndv": [{
+      "id": 4001
+    }, {
+      "id": 4002
+    }]
+  }]
+}, {
+  "funcId": 22733,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "被効果時発動",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_331.png",
+  "buffs": [{
+    "id": 5874,
+    "name": "被効果時発動",
+    "detail": "HP回復効果または最大HPアップ効果を受けた時、自身のNPを少し増やす<毎ターンHP回復効果、概念礼装・コマンドコードによる効果を除く>",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_331.png",
+    "type": "functionedFunction",
+    "vals": [{
+      "id": 3004
+    }]
+  }]
+}, {
   "funcId": 22791,
   "funcType": "addState",
   "funcTargetType": "self",
@@ -55209,6 +55461,23 @@
       "id": 3043
     }],
     "maxRate": 50000
+  }]
+}, {
+  "funcId": 22794,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "毎ターン発動",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_343.png",
+  "buffs": [{
+    "id": 5877,
+    "name": "毎ターン発動",
+    "detail": "ターン終了時、自身のHPを回復する<「痛飲する者」「神々の王」の効果対象となる>",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_343.png",
+    "type": "selfturnendFunction",
+    "vals": [{
+      "id": 3004
+    }]
   }]
 }, {
   "funcId": 30003,
