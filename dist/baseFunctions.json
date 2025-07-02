@@ -7471,6 +7471,11 @@
   "funcTargetTeam": "playerAndEnemy",
   "funcPopupText": "最大HPプラス",
   "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_330.png",
+  "script": {
+    "funcIndividuality": [{
+      "id": 2985
+    }]
+  },
   "buffs": [{
     "id": 201,
     "name": "最大HPプラス",
@@ -7481,6 +7486,8 @@
       "id": 3004
     }, {
       "id": 3043
+    }, {
+      "id": 2986
     }],
     "maxRate": 50000
   }]
@@ -7491,6 +7498,11 @@
   "funcTargetTeam": "playerAndEnemy",
   "funcPopupText": "最大HPプラス",
   "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_330.png",
+  "script": {
+    "funcIndividuality": [{
+      "id": 2985
+    }]
+  },
   "buffs": [{
     "id": 201,
     "name": "最大HPプラス",
@@ -7501,6 +7513,8 @@
       "id": 3004
     }, {
       "id": 3043
+    }, {
+      "id": 2986
     }],
     "maxRate": 50000
   }]
@@ -7511,6 +7525,11 @@
   "funcTargetTeam": "playerAndEnemy",
   "funcPopupText": "最大HPプラス",
   "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_330.png",
+  "script": {
+    "funcIndividuality": [{
+      "id": 2985
+    }]
+  },
   "buffs": [{
     "id": 201,
     "name": "最大HPプラス",
@@ -7521,6 +7540,8 @@
       "id": 3004
     }, {
       "id": 3043
+    }, {
+      "id": 2986
     }],
     "maxRate": 50000
   }]
@@ -8646,24 +8667,6 @@
     "maxRate": 5000
   }]
 }, {
-  "funcId": 753,
-  "funcType": "addStateShort",
-  "funcTargetType": "self",
-  "funcTargetTeam": "playerAndEnemy",
-  "funcPopupText": "オーバーチャージ段階UP",
-  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_336.png",
-  "buffs": [{
-    "id": 227,
-    "name": "オーバーチャージ段階UP",
-    "detail": "宝具発動時、オーバーチャージ段階をアップする",
-    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_336.png",
-    "type": "upChagetd",
-    "vals": [{
-      "id": 3004
-    }],
-    "maxRate": 5
-  }]
-}, {
   "funcId": 754,
   "funcType": "addStateShort",
   "funcTargetType": "self",
@@ -8809,26 +8812,6 @@
       "id": 3084
     }],
     "maxRate": 5000
-  }]
-}, {
-  "funcId": 777,
-  "funcType": "addState",
-  "funcTargetType": "ptFull",
-  "funcTargetTeam": "playerAndEnemy",
-  "funcPopupText": "最大HPプラス",
-  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_330.png",
-  "buffs": [{
-    "id": 201,
-    "name": "最大HPプラス",
-    "detail": "最大HPを増やす",
-    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_330.png",
-    "type": "addMaxhp",
-    "vals": [{
-      "id": 3004
-    }, {
-      "id": 3043
-    }],
-    "maxRate": 50000
   }]
 }, {
   "funcId": 778,
@@ -16975,6 +16958,11 @@
   "funcTargetTeam": "playerAndEnemy",
   "funcPopupText": "無限増殖",
   "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_343.png",
+  "script": {
+    "funcIndividuality": [{
+      "id": 2985
+    }]
+  },
   "buffs": [{
     "id": 1530,
     "name": "無限増殖",
@@ -18708,6 +18696,11 @@
   "funcTargetTeam": "playerAndEnemy",
   "funcPopupText": "ビルドアップ",
   "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_331.png",
+  "script": {
+    "funcIndividuality": [{
+      "id": 2985
+    }]
+  },
   "buffs": [{
     "id": 1740,
     "name": "ビルドアップ",
@@ -18839,6 +18832,11 @@
   "functvals": [{
     "id": 106
   }],
+  "script": {
+    "funcIndividuality": [{
+      "id": 2985
+    }]
+  },
   "buffs": [{
     "id": 201,
     "name": "最大HPプラス",
@@ -18849,6 +18847,8 @@
       "id": 3004
     }, {
       "id": 3043
+    }, {
+      "id": 2986
     }],
     "maxRate": 50000
   }]
@@ -19286,7 +19286,12 @@
   "funcId": 3966,
   "funcType": "gainHpFromTargets",
   "funcTargetType": "self",
-  "funcTargetTeam": "playerAndEnemy"
+  "funcTargetTeam": "playerAndEnemy",
+  "script": {
+    "funcIndividuality": [{
+      "id": 2984
+    }]
+  }
 }, {
   "funcId": 3972,
   "funcType": "addState",
@@ -24214,6 +24219,11 @@
   "funcTargetTeam": "playerAndEnemy",
   "funcPopupText": "無限増殖",
   "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_343.png",
+  "script": {
+    "funcIndividuality": [{
+      "id": 2985
+    }]
+  },
   "buffs": [{
     "id": 2922,
     "name": "無限増殖",
@@ -30329,12 +30339,22 @@
   "funcId": 7414,
   "funcType": "gainHpFromTargets",
   "funcTargetType": "self",
-  "funcTargetTeam": "player"
+  "funcTargetTeam": "player",
+  "script": {
+    "funcIndividuality": [{
+      "id": 2984
+    }]
+  }
 }, {
   "funcId": 7415,
   "funcType": "gainHpFromTargets",
   "funcTargetType": "self",
-  "funcTargetTeam": "enemy"
+  "funcTargetTeam": "enemy",
+  "script": {
+    "funcIndividuality": [{
+      "id": 2984
+    }]
+  }
 }, {
   "funcId": 7442,
   "funcType": "addStateShort",
@@ -36859,6 +36879,11 @@
   "functvals": [{
     "id": 2840
   }],
+  "script": {
+    "funcIndividuality": [{
+      "id": 2985
+    }]
+  },
   "buffs": [{
     "id": 201,
     "name": "最大HPプラス",
@@ -36869,6 +36894,8 @@
       "id": 3004
     }, {
       "id": 3043
+    }, {
+      "id": 2986
     }],
     "maxRate": 50000
   }]
@@ -42737,6 +42764,11 @@
   "funcTargetTeam": "playerAndEnemy",
   "funcPopupText": "最大HPプラス",
   "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_330.png",
+  "script": {
+    "funcIndividuality": [{
+      "id": 2985
+    }]
+  },
   "buffs": [{
     "id": 5487,
     "name": "最大HPプラス",
@@ -42750,6 +42782,8 @@
       "id": 3004
     }, {
       "id": 3043
+    }, {
+      "id": 2986
     }],
     "maxRate": 50000
   }]
@@ -52812,6 +52846,11 @@
   "functvals": [{
     "id": 2667
   }],
+  "script": {
+    "funcIndividuality": [{
+      "id": 2985
+    }]
+  },
   "buffs": [{
     "id": 201,
     "name": "最大HPプラス",
@@ -52822,6 +52861,8 @@
       "id": 3004
     }, {
       "id": 3043
+    }, {
+      "id": 2986
     }],
     "maxRate": 50000
   }]
@@ -55092,6 +55133,82 @@
   "funcTargetTeam": "playerAndEnemy",
   "functvals": [{
     "id": 106
+  }]
+}, {
+  "funcId": 22722,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "オーバーチャージ段階UP",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_336.png",
+  "buffs": [{
+    "id": 227,
+    "name": "オーバーチャージ段階UP",
+    "detail": "宝具発動時、オーバーチャージ段階をアップする",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_336.png",
+    "type": "upChagetd",
+    "vals": [{
+      "id": 3004
+    }],
+    "maxRate": 5
+  }]
+}, {
+  "funcId": 22723,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "オーバーチャージ段階UP",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_336.png",
+  "buffs": [{
+    "id": 227,
+    "name": "オーバーチャージ段階UP",
+    "detail": "宝具発動時、オーバーチャージ段階をアップする",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_336.png",
+    "type": "upChagetd",
+    "vals": [{
+      "id": 3004
+    }],
+    "maxRate": 5
+  }]
+}, {
+  "funcId": 22791,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "最大HPアップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_330.png",
+  "buffs": [{
+    "id": 5876,
+    "name": "最大HPプラス",
+    "detail": "最大HPを増やす",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_330.png",
+    "type": "addMaxhp",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3043
+    }],
+    "maxRate": 50000
+  }]
+}, {
+  "funcId": 22792,
+  "funcType": "addState",
+  "funcTargetType": "ptFull",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "最大HPアップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_330.png",
+  "buffs": [{
+    "id": 5876,
+    "name": "最大HPプラス",
+    "detail": "最大HPを増やす",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_330.png",
+    "type": "addMaxhp",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3043
+    }],
+    "maxRate": 50000
   }]
 }, {
   "funcId": 30003,
