@@ -90787,6 +90787,7 @@
         "giftIcon": "https://static.atlasacademy.io/JP/Items/80726.png"
       }],
       "phases": [1, 2],
+      "phasesWithEnemies": [1, 2],
       "phaseScripts": [{
         "phase": 1,
         "scripts": [{
@@ -90806,6 +90807,63 @@
       "priority": 94145797,
       "noticeAt": 1751454000,
       "openedAt": 1751533200,
+      "closedAt": 1752465599
+    }, {
+      "id": 94145803,
+      "name": "第3節　気まぐれな雲との遊び方",
+      "type": "main",
+      "consume": 1,
+      "afterClear": "close",
+      "recommendLv": "15",
+      "spotId": 839701,
+      "warId": 8397,
+      "gifts": [{
+        "id": 94145804,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94145802
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "eventPoint",
+        "targetId": 80549,
+        "value": 100,
+        "closedMessage": "宝物庫を100回以上開く\n＆7月4日18時00分以降に開放"
+      }],
+      "presents": [{
+        "phase": 2,
+        "gifts": [{
+          "id": 94145805,
+          "objectId": 1,
+          "num": 5000000
+        }],
+        "giftIcon": "https://static.atlasacademy.io/JP/Items/80726.png"
+      }],
+      "phases": [1, 2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9414580310",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414580310.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9414580320",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414580320.txt"
+        }, {
+          "scriptId": "9414580321",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414580321.txt"
+        }]
+      }],
+      "priority": 94145796,
+      "noticeAt": 1751533200,
+      "openedAt": 1751619600,
       "closedAt": 1752465599
     }, {
       "id": 94145901,
