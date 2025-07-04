@@ -90845,6 +90845,7 @@
         "giftIcon": "https://static.atlasacademy.io/JP/Items/80726.png"
       }],
       "phases": [1, 2],
+      "phasesWithEnemies": [1, 2],
       "phaseScripts": [{
         "phase": 1,
         "scripts": [{
@@ -90864,6 +90865,51 @@
       "priority": 94145796,
       "noticeAt": 1751533200,
       "openedAt": 1751619600,
+      "closedAt": 1752465599
+    }, {
+      "id": 94145804,
+      "name": "",
+      "type": "main",
+      "consume": 1,
+      "afterClear": "close",
+      "recommendLv": "15",
+      "spotId": 839701,
+      "warId": 8397,
+      "gifts": [{
+        "id": 94145806,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94145803
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "eventPoint",
+        "targetId": 80549,
+        "value": 250,
+        "closedMessage": "宝物庫を250回以上開く\n＆7月5日18時00分以降に開放"
+      }, {
+        "type": "forceFalse",
+        "targetId": 0,
+        "closedMessage": "データ更新後に開放"
+      }],
+      "presents": [{
+        "phase": 2,
+        "gifts": [{
+          "id": 94145807,
+          "objectId": 100,
+          "num": 3
+        }],
+        "giftIcon": "https://static.atlasacademy.io/JP/Items/80726.png"
+      }],
+      "phases": [1, 2],
+      "priority": 94145795,
+      "noticeAt": 1751619600,
+      "openedAt": 1751706000,
       "closedAt": 1752465599
     }, {
       "id": 94145901,
