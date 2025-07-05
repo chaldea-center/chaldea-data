@@ -58952,6 +58952,15 @@
         "eventId": 80525,
         "startedAt": 1740387600,
         "endedAt": 1740974399
+      }, {
+        "priority": 8055200,
+        "condType": "questClear",
+        "condId": 1000011,
+        "closedMessage": "特異点Fをクリア＆霊基再臨2段階目＆絆Lv.3で開放",
+        "overlayClosedMessage": "特異点Fをクリアで開放",
+        "eventId": 80552,
+        "startedAt": 1751706000,
+        "endedAt": 1753243199
       }],
       "phases": [1, 2, 3, 4],
       "phasesWithEnemies": [1, 2, 3, 4],
@@ -60012,6 +60021,15 @@
         "eventId": 80525,
         "startedAt": 1739782800,
         "endedAt": 1740369599
+      }, {
+        "priority": 8055200,
+        "condType": "questClear",
+        "condId": 1000822,
+        "closedMessage": "終局特異点をクリア＆絆Lv.3で開放",
+        "overlayClosedMessage": "終局特異点をクリアで開放",
+        "eventId": 80552,
+        "startedAt": 1751706000,
+        "endedAt": 1753243199
       }],
       "phases": [1, 2],
       "phasesWithEnemies": [1, 2],
@@ -60379,6 +60397,15 @@
         "eventId": 80531,
         "startedAt": 1740819600,
         "endedAt": 1743433199
+      }, {
+        "priority": 8055200,
+        "condType": "questClear",
+        "condId": 1000314,
+        "closedMessage": "第三特異点をクリア＆霊基再臨1段階目＆絆Lv.2で開放",
+        "overlayClosedMessage": "第三特異点をクリアで開放",
+        "eventId": 80552,
+        "startedAt": 1751706000,
+        "endedAt": 1753243199
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -62825,6 +62852,15 @@
         "eventId": 80525,
         "startedAt": 1740387600,
         "endedAt": 1740974399
+      }, {
+        "priority": 8055200,
+        "condType": "questClear",
+        "condId": 1000314,
+        "closedMessage": "第三特異点をクリア＆霊基再臨1段階目＆絆Lv.3で開放",
+        "overlayClosedMessage": "第三特異点をクリアで開放",
+        "eventId": 80552,
+        "startedAt": 1751706000,
+        "endedAt": 1753243199
       }],
       "phases": [1, 2, 3],
       "phasesWithEnemies": [1, 2, 3],
@@ -64026,6 +64062,15 @@
         "eventId": 80525,
         "startedAt": 1740387600,
         "endedAt": 1740974399
+      }, {
+        "priority": 8055200,
+        "condType": "questClear",
+        "condId": 3000628,
+        "closedMessage": "Lostbelt No.5 オリュンポスをクリア＆霊基再臨4段階目＆絆Lv.5で開放",
+        "overlayClosedMessage": "Lostbelt No.5 オリュンポスをクリアで開放",
+        "eventId": 80552,
+        "startedAt": 1751706000,
+        "endedAt": 1753243199
       }],
       "phases": [1, 2],
       "phasesWithEnemies": [1, 2],
@@ -64202,6 +64247,15 @@
         "eventId": 80525,
         "startedAt": 1740387600,
         "endedAt": 1740974399
+      }, {
+        "priority": 8055200,
+        "condType": "questClear",
+        "condId": 1000822,
+        "closedMessage": "終局特異点をクリア＆霊基再臨3段階目＆絆Lv.5で開放",
+        "overlayClosedMessage": "終局特異点をクリアで開放",
+        "eventId": 80552,
+        "startedAt": 1751706000,
+        "endedAt": 1753243199
       }],
       "phases": [1, 2, 3, 4],
       "phasesWithEnemies": [1, 2, 3, 4],
@@ -67155,6 +67209,15 @@
         "eventId": 80531,
         "startedAt": 1740819600,
         "endedAt": 1743433199
+      }, {
+        "priority": 8055200,
+        "condType": "questClear",
+        "condId": 3000303,
+        "closedMessage": "Lostbelt No.3 プロローグをクリア＆霊基再臨3段階目＆絆Lv.5で開放",
+        "overlayClosedMessage": "Lostbelt No.3 プロローグをクリアで開放",
+        "eventId": 80552,
+        "startedAt": 1751706000,
+        "endedAt": 1753243199
       }],
       "phases": [1, 2],
       "phasesWithEnemies": [1, 2],
@@ -90868,7 +90931,7 @@
       "closedAt": 1752465599
     }, {
       "id": 94145804,
-      "name": "",
+      "name": "第4節　ゴッド・イン・ザ・レイン",
       "type": "main",
       "consume": 1,
       "afterClear": "close",
@@ -90881,6 +90944,9 @@
         "num": 1
       }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 94145803
       }, {
@@ -90892,10 +90958,6 @@
         "targetId": 80549,
         "value": 250,
         "closedMessage": "宝物庫を250回以上開く\n＆7月5日18時00分以降に開放"
-      }, {
-        "type": "forceFalse",
-        "targetId": 0,
-        "closedMessage": "データ更新後に開放"
       }],
       "presents": [{
         "phase": 2,
@@ -90907,9 +90969,71 @@
         "giftIcon": "https://static.atlasacademy.io/JP/Items/80726.png"
       }],
       "phases": [1, 2],
+      "phasesWithEnemies": [1, 2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9414580410",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414580410.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9414580420",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414580420.txt"
+        }, {
+          "scriptId": "9414580421",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414580421.txt"
+        }]
+      }],
       "priority": 94145795,
       "noticeAt": 1751619600,
       "openedAt": 1751706000,
+      "closedAt": 1752465599
+    }, {
+      "id": 94145805,
+      "name": "",
+      "type": "main",
+      "consume": 1,
+      "afterClear": "close",
+      "recommendLv": "15",
+      "spotId": 839701,
+      "warId": 8397,
+      "gifts": [{
+        "id": 94145811,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94145804
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "eventPoint",
+        "targetId": 80549,
+        "value": 450,
+        "closedMessage": "宝物庫を450回以上開く\n＆7月6日18時00分以降に開放"
+      }, {
+        "type": "forceFalse",
+        "targetId": 0,
+        "closedMessage": "データ更新後に開放"
+      }],
+      "presents": [{
+        "phase": 2,
+        "gifts": [{
+          "id": 94145812,
+          "objectId": 6999,
+          "num": 1
+        }],
+        "giftIcon": "https://static.atlasacademy.io/JP/Items/80726.png"
+      }],
+      "phases": [1, 2],
+      "priority": 94145794,
+      "noticeAt": 1751706000,
+      "openedAt": 1751792400,
       "closedAt": 1752465599
     }, {
       "id": 94145901,
