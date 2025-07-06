@@ -90992,7 +90992,7 @@
       "closedAt": 1752465599
     }, {
       "id": 94145805,
-      "name": "",
+      "name": "第5節　去来する雷",
       "type": "main",
       "consume": 1,
       "afterClear": "close",
@@ -91005,6 +91005,9 @@
         "num": 1
       }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 94145804
       }, {
@@ -91016,10 +91019,6 @@
         "targetId": 80549,
         "value": 450,
         "closedMessage": "宝物庫を450回以上開く\n＆7月6日18時00分以降に開放"
-      }, {
-        "type": "forceFalse",
-        "targetId": 0,
-        "closedMessage": "データ更新後に開放"
       }],
       "presents": [{
         "phase": 2,
@@ -91031,9 +91030,83 @@
         "giftIcon": "https://static.atlasacademy.io/JP/Items/80726.png"
       }],
       "phases": [1, 2],
+      "phasesWithEnemies": [1, 2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9414580510",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414580510.txt"
+        }, {
+          "scriptId": "9414580511",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414580511.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9414580520",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414580520.txt"
+        }, {
+          "scriptId": "9414580521",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414580521.txt"
+        }]
+      }],
       "priority": 94145794,
       "noticeAt": 1751706000,
       "openedAt": 1751792400,
+      "closedAt": 1752465599
+    }, {
+      "id": 94145806,
+      "name": "第6節　雪の中の宝物",
+      "type": "main",
+      "consume": 1,
+      "afterClear": "close",
+      "recommendLv": "15",
+      "spotId": 839701,
+      "warId": 8397,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94145805
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "eventPoint",
+        "targetId": 80549,
+        "value": 700,
+        "closedMessage": "宝物庫を700回以上開く\n＆7月7日18時00分以降に開放"
+      }],
+      "phases": [1, 2, 3],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9414580610",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414580610.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9414580620",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414580620.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9414580630",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414580630.txt"
+        }, {
+          "scriptId": "9414580631",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414580631.txt"
+        }]
+      }],
+      "priority": 94145793,
+      "noticeAt": 1751792400,
+      "openedAt": 1751878800,
       "closedAt": 1752465599
     }, {
       "id": 94145901,

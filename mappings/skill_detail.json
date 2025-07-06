@@ -31,7 +31,7 @@
     "JP": null,
     "CN": "<仅在生命值低于50%时可使用>自身攻击力提升[{0}](1次·1回合)＆暴击威力提升[{0}](1次·1回合)＆付与「攻击时解除敌方单体防御强化状态＋付与自身即死效果【负面效果】(1回合)<视为强化>」",
     "TW": "<僅在HP低於50%時可使用>自身攻擊力提升[{0}](1次．1回合)＆爆擊威力提升[{0}](1次．1回合)＆賦予「攻擊時解除敵方單體防禦強化狀態＋賦予自身即死效果【負面效果】(1回合)<視為強化>」",
-    "NA": "<Useable only if HP is below 50%> Increase ATK [{0}] (1 time, 1 turn) & increase Critical Strength [{0}] (1 time, 1 turn) & apply status \"Remove DEF Buffs for a single enemy when attacking + Apply Death to yourself [Demerit] (1 turn) <Treated as Buff>\" to yourself",
+    "NA": "<Usable only if HP is 50% or less> Increase ATK [{0}] (1 time, 1 turn) & increase Critical Strength [{0}] (1 time, 1 turn) & apply status \"Remove DEF Buffs for a single enemy when attacking + Apply Death to yourself [Demerit] (1 turn) <Treated as Buff>\" to yourself",
     "KR": "<HP가 50% 이하일 때만 사용 가능>자신의 공격력 UP[{0}](1회・1턴)&크리티컬 위력 UP[{0}](1회・1턴)&‘공격 시 적 하나의 방어 강화 상태 해제 + 자신에게 즉사 효과【단점】 부여하는 상태’ 부여(1턴)<강화 취급>"
   },
   "<NPが100%以上ある場合のみ使用可能>自身のNPを0%にする【デメリット】 ＋ 味方全体に無敵貫通状態を付与(3ターン)＆Busterカード性能をアップ(3ターン)＆クリティカル威力をアップ(3ターン)＆NP獲得量をアップ(3ターン)": {
@@ -1942,7 +1942,7 @@
     "JP": null,
     "CN": "[servantName 505300](Caster)装备,且自身在场时,付与己方全体「生命值低于50%时，宝具威力提升30%的状态」",
     "TW": "[servantName 505300](Caster)裝備,且自身在場時,賦予我方全體「HP低於50%時，寶具威力提升30%的狀態」",
-    "NA": "When equipped on Aesc the Savior:\n Grants party NP Damage Up by 30% which activates if their HP is 50% or less (Including sub members)\nwhile self is on the field.",
+    "NA": "Apply a state that \"increases NP Strength by 30% while HP is 50% or less\" for all allies only if [servantName 505300] (Caster) is equipped with this Craft Essence when she is on the field",
     "KR": "[servantName 505300](캐스터) 장착 시 자신이 필드에 있는 동안 아군 전체에게 ‘HP가 50% 이하일 때 보구 위력 30% UP하는 상태’ 부여"
   },
   "[servantName 505400](キャスター)装備時のみ、自身がフィールドにいる間、味方全体のArtsカード性能を10%アップ＆クリティカル威力を15%アップ": {
@@ -4294,7 +4294,7 @@
     "JP": null,
     "CN": "【战斗开始时无法立刻使用，而是需要5回合的充能】己方全体的NP增加[{0}]＆宝具威力提升[{0}](3回合)＆付与毅力状态[{0}](1次·3回合)",
     "TW": "【戰鬥開始時無法立刻使用，而是需要5回合的Charge】我方全體的NP增加[{0}]＆寶具威力提升[{0}](3回合)＆賦予毅力狀態[{0}](1次．3回合)",
-    "NA": "[Can't use at battle start, need charge 5 turns] Increase NP Gauge [{0}] & increase NP Strength [{0}] (3 turns) & apply Guts [{0}] (1 time, 3 turns) for all allies",
+    "NA": "[Cannot use at the start of battle. Requires 5 turns to Charge] Increase NP Gauge [{0}] & increase NP Strength [{0}] (3 turns) & apply Guts [{0}] (1 time, 3 turns) for all allies",
     "KR": "<배틀 개시 시 바로 사용 불가, 5턴 차지 필요> 아군 전체의 NP 증가[{0}]&보구 위력 UP[{0}](3턴)&근성 상태 부여[{0}](1회・3턴)"
   },
   "【第1・第2段階の姿の時】\n自身を第3段階の姿に変貌させる<宝具が変化>＆NPを増やす[{0}]＆宝具威力をアップ[{0}](3ターン)\n【第3段階の姿の時】\n自身を第1段階の姿(第1・2段階から変貌していた場合は元の姿)に変貌させる<宝具が変化>＆NP獲得量をアップ[{0}](3ターン)＆クリティカル威力をアップ[{0}](3ターン)＆スター集中度をアップ[{0}](3ターン) ＋ スターを獲得[{0}]": {
@@ -11238,7 +11238,7 @@
     "JP": null,
     "CN": "付与己方全体每回合获得NP的状态[{0}](3回合)＋付与自身每回合获得暴击星的状态[{0}](3回合)＆NP增加[{0}]＆宝具威力提升[{0}](3回合)",
     "TW": "賦予我方全體每回合獲得NP的狀態[{0}](3回合)＋賦予自身每回合獲得爆擊星的狀態[{0}](3回合)＆NP增加[{0}]＆寶具威力提升[{0}](3回合)",
-    "NA": "Increase NP Gauge each turn (3 turns) for all allies + Gain C. Stars each turn [{0}] (3 turns) & charge NP gauge [{0}] & increase NP Strength [{0}] (3 turns) for yourself",
+    "NA": "Increase NP Gauge each turn [{0}] (3 turns) for all allies + Gain C. Stars each turn [{0}] (3 turns) & increase NP Gauge [{0}] & increase NP Strength [{0}] (3 turns) for yourself",
     "KR": "아군 전체에게 매 턴 NP 획득 상태 부여[{0}](3턴) + 자신에게 매 턴 스타 획득 상태 부여[{0}](3턴)&NP 증가[{0}]&보구 위력 UP[{0}](3턴)"
   },
   "味方全体に毎ターンNP獲得状態を付与[{0}](3ターン)＆攻撃力をアップ[{0}](3ターン)": {
@@ -12211,7 +12211,7 @@
     "JP": null,
     "CN": "己方全体的攻击力提升[{0}](3回合)＆生命值低于99%时，攻击力小幅提升(3回合)＆生命值低于75%时，攻击力小幅提升(3回合)＆生命值低于50%时，攻击力小幅提升(3回合)＆生命值低于25%时，攻击力小幅提升(3回合)＋付与自身「回合结束时，当己方全体的生命值为100%时，获得暴击星的状态」(3回合)",
     "TW": "我方全體的攻擊力提升[{0}](3回合)＆HP低於99%時，攻擊力小幅提升(3回合)＆HP低於75%時，攻擊力小幅提升(3回合)＆HP低於50%時，攻擊力小幅提升(3回合)＆HP低於25%時，攻擊力小幅提升(3回合)＋賦予自身「回合結束時，當我方全體的HP為100%時，獲得爆擊星的狀態」(3回合)",
-    "NA": "Increase ATK [{0}] (3 turns) & increase ATK (3 turns) while HP is below 99% & increase ATK (3 turns) while HP is below 75% & increase ATK (3 turns) while HP is below 50% & increase ATK (3 turns) while HP is below 25% for all allies + Apply a state that \"gain C. Stars when all allies' HP are 100% at the end of turn\" (3 turns)",
+    "NA": "Increase ATK [{0}] (3 turns) & slightly increase ATK (3 turns) while HP is 99% or less & slightly increase ATK (3 turns) while HP is 75% or less & slightly increase ATK (3 turns) while HP is 50% or less & slightly increase ATK (3 turns) while HP is 25% or less for all allies + Apply a state that \"gains C. Stars at the end of turn when all allies' HP are at 100%\" (3 turns) for yourself",
     "KR": "아군 전체의 공격력 UP[{0}](3턴)&HP가 99% 이하일 때 공격력을 조금 UP(3턴)&HP가 75% 이하일 때 공격력을 조금 UP(3턴)&HP가 50% 이하일 때 공격력을 조금 UP(3턴)&HP가 25% 이하일 때 공격력을 조금 UP(3턴) + 자신에게 ‘턴 종료 시 아군 전체의 HP가 100% 일 때 스타 획득 상태’ 부여(3턴)"
   },
   "味方全体の攻撃力をアップ[{0}](3ターン)＆HPを回復[{0}]": {
@@ -17916,7 +17916,7 @@
     "JP": null,
     "CN": "付与自身目标集中状态(1回合)＆防御力提升[{0}](1回合)＆生命值为50%或以下时,生命值越少攻击力越高的状态[{0}](3回合)▲",
     "TW": "賦予自身目標集中狀態(1回合)＆防禦力提升[{0}](1回合)＆HP為50%以下時，HP越少攻擊力越高的狀態[{0}](3回合)▲",
-    "NA": "Apply Target Focus (1 turn) & increase DEF for yourself [{0}] (1 turn) & apply a state where your ATK increases the lower your HP (activated when HP is below 50%) [{0}] (3 turns) ▲",
+    "NA": "Apply Target Focus (1 turn) & increase DEF for yourself [{0}] (1 turn) & apply a state where your ATK increases the lower your HP gets (activated when HP is 50% or less) [{0}] (3 turns) ▲",
     "KR": "자신에게 타깃 집중 상태 부여(1턴)&방어력 UP[{0}](1턴)&HP가 50% 이하일 때, HP가 적을 수록 공격력이 UP하는 상태 부여[{0}](3턴)▲"
   },
   "自身にターゲット集中状態を付与(1ターン)＆防御力を大アップ[{0}](1ターン)": {
@@ -18924,14 +18924,14 @@
     "JP": null,
     "CN": "付与自身弱化无效状态(3次)＆Arts指令卡性能提升10%[最大解放]",
     "TW": "賦予自身弱化無效狀態(3次)＆Arts指令卡性能提升10%[最大解放]",
-    "NA": "Grants Debuff Immunity for 3 times.\n Increases Arts performance by 10%.",
+    "NA": "Apply Debuff Immune (3 times) & increase Arts Card effectiveness by 10% for yourself [MAX]",
     "KR": "자신에게 약화 무효 상태(3회) 부여&아츠 카드 성능 10% UP[최대해방]"
   },
   "自身に弱体無効状態(3回)を付与＆Artsカード性能を8%アップ": {
     "JP": null,
     "CN": "付与自身弱化无效状态(3次)＆Arts指令卡性能提升8%",
     "TW": "賦予自身弱化無效狀態(3次)＆Arts指令卡性能提升8%",
-    "NA": "Grants Debuff Immunity for 3 times.\n Increases Arts performance by 8%.",
+    "NA": "Apply Debuff Immune (3 times) & increase Arts Card effectiveness by 8% for yourself",
     "KR": "자신에게 약화 무효 상태(3회) 부여&아츠 카드 성능 8% UP"
   },
   "自身に弱体無効状態(3回)を付与＆NP獲得量を15%アップする": {
@@ -20352,7 +20352,7 @@
     "JP": null,
     "CN": "付与自身每回合NP增加4%的状态＆付与被伤害减免300的状态",
     "TW": "賦予自身每回合NP增加4%的狀態＆賦予被傷害減免300的狀態",
-    "NA": "Charges NP gauge by 4% every turn.\n Reduces damage taken by 300.",
+    "NA": "Increase NP Gauge by 4% each turn & apply Damage Cut 300 for yourself",
     "KR": "자신에게 매 턴 NP 4% 획득 상태 부여&받는 대미지 300 컷 상태 부여"
   },
   "自身に毎ターンNP5%獲得状態を付与＆Artsカードの性能を12%アップ[最大解放]": {
@@ -20499,7 +20499,7 @@
     "JP": null,
     "CN": "付与自身每回合NP增加5%的状态＆付与被伤害减免400的状态[最大解放]",
     "TW": "賦予自身每回合NP增加5%的狀態＆賦予被傷害減免400的狀態[最大解放]",
-    "NA": "Charges NP gauge by 5% every turn.\n Reduces damage taken by 400.",
+    "NA": "Increase NP Gauge by 5% each turn & apply Damage Cut 400 for yourself [MAX]",
     "KR": "자신에게 매 턴 NP 5% 획득 상태 부여&받는 대미지 400 컷 상태 부여[최대해방]"
   },
   "自身に毎ターンNP8%獲得状態を付与する": {
@@ -24195,7 +24195,7 @@
     "JP": null,
     "CN": "自身的Arts指令卡性能提升[{0}](3回合)＋己方全体防御力提升[{0}](3回合)",
     "TW": "自身的Arts指令卡性能提升[{0}](3回合)＋我方全體防禦力提升[{0}](3回合)",
-    "NA": "Increase Arts Card effectiveness [{0}] (3 turns) for yourself + increase DEF [{0}] (3 turns) for all allies",
+    "NA": "Increase Arts Card effectiveness [{0}] (3 turns) for yourself + Increase DEF [{0}] (3 turns) for all allies",
     "KR": "자신의 아츠 카드 성능 UP[{0}](3턴) + 아군 전체의 방어력 UP[{0}](3턴)"
   },
   "自身のArtsカード性能をアップ[{0}](3ターン) ＋ 敵全体に〔混乱〕状態「毎ターン低確率でスキル封印を付与する状態」を付与(3ターン) ＋ 味方全体に回避状態を付与(1回・1ターン)": {
@@ -25889,7 +25889,7 @@
     "JP": null,
     "CN": "自身的Buster指令卡性能提升[{0}](3回合)＆精神异常耐性提升[{0}](3回合)＆付与回避状态(2次)＋获得大量暴击星[{0}]",
     "TW": "自身的Buster指令卡性能提升[{0}](3回合)＆精神異常耐性提升[{0}](3回合)＆賦予迴避狀態(2次)＋獲得大量爆擊星[{0}]",
-    "NA": "Increase Buster Card effectiveness [{0}] (3 turns) & Mental Debuff Resist [{0}] (3 turns) & apply Evade (2 times) for yourself + gain a large amount of C. Stars [{0}]",
+    "NA": "Increase Buster Card effectiveness [{0}] (3 turns) & increase Mental Debuff Resist [{0}] (3 turns) & apply Evade (2 times) for yourself + Gain a large amount of C. Stars [{0}]",
     "KR": "자신의 버스터 카드 성능 UP[{0}](3턴)&정신이상 내성 UP[{0}](3턴)&회피 상태 부여(2회) + 스타 대량 획득[{0}]"
   },
   "自身のBusterカード性能をアップ[{0}](3ターン)＆精神異常耐性をアップ[{0}](3ターン)＆回避状態を付与(2回)＆フィールドを〔森〕特性にする状態を付与(3ターン)▲ ＋ スターを大量獲得▲[{0}]": {
@@ -26463,7 +26463,7 @@
     "JP": null,
     "CN": "自身以NP已达50%的状态开始战斗＆使用宝具时充能阶段上升1级(1次)＆NP获得量提升5%",
     "TW": "自身以NP已達50%的狀態開始戰鬥＆使用寶具時Charge階段上升1級(1次)＆NP獲得量提升5%",
-    "NA": "Starts battle with 50% NP gauge charged.\n Overcharges NP by 1 stage for 1 time.\n Increases NP generation rate by 5%.",
+    "NA": "Begin battle with NP charged at 50% & increase NP Charge by 1 level when using NP (1 time) & increase NP Gain by 5% for yourself",
     "KR": "자신의 NP를 50% 차지한 상태로 배틀을 개시&보구 사용 시 차지 단계를 1단계 증가(1회)&NP 획득량 5% UP"
   },
   "自身のNPを50%チャージした状態でバトルを開始する＆宝具使用時にチャージ段階を1段階分上げる(1回)＆クリティカル威力を5%アップ": {
@@ -26512,7 +26512,7 @@
     "JP": null,
     "CN": "自身以NP已达60%的状态开始战斗＆使用宝具时充能阶段上升1级(1次)＆NP获得量提升10%[最大解放]",
     "TW": "自身以NP已達60%的狀態開始戰鬥＆使用寶具時Charge階段上升1級(1次)＆NP獲得量提升10%[最大解放]",
-    "NA": "Starts battle with 60% NP gauge charged.\n Overcharges NP by 1 stage for 1 time.\n Increases NP generation rate by 10%.",
+    "NA": "Begin battle with NP charged at 60% & increase NP Charge by 1 level when using NP (1 time) & increase NP Gain by 10% for yourself [MAX]",
     "KR": "자신의 NP를 60% 차지한 상태로 배틀을 개시&보구 사용 시 차지 단계를 1단계 증가(1회)&NP 획득량 10% UP[최대해방]"
   },
   "自身のNPを60%チャージした状態でバトルを開始する＆宝具使用時にチャージ段階を1段階分上げる(1回)＆クリティカル威力を10%アップ[最大解放]": {
@@ -26876,7 +26876,7 @@
     "JP": null,
     "CN": "自身的NP增加[{0}]＆生命值低于50%时NP获得量提升[{0}](3回合)",
     "TW": "自身的NP增加[{0}]＆HP低於50%時NP獲得量提升[{0}](3回合)",
-    "NA": "Increase NP Gauge [{0}] & increase NP Gain only while your HP is below 50% [{0}] (3 turns) for yourself",
+    "NA": "Increase NP Gauge [{0}] & increase NP Gain while HP is 50% or less [{0}] (3 turns) for yourself",
     "KR": "자신의 NP 증가[{0}]&HP가 50% 이하인 동안 NP 획득량 UP[{0}](3턴)"
   },
   "自身のNPを増やす[{0}]＆HPを2000減らす【デメリット】 ＋ 〔悪〕特性の味方全体のNPを増やす[{0}]＆Artsカード性能をアップ[{0}](3ターン)": {
@@ -32840,7 +32840,7 @@
     "JP": null,
     "CN": "自身的暴击星集中度提升300%＆付与每回合回复生命值200的状态",
     "TW": "自身的爆擊星集中提升300%＆賦予每回合恢復HP200的狀態",
-    "NA": "Increases critical star absorption by 300%.\n Recovers HP by 200 every turn.",
+    "NA": "Increase C. Star Gather Rate by 300% & restore 200 HP each turn for yourself",
     "KR": "자신의 스타 집중도 300% UP&매 턴 HP 200 회복 상태 부여"
   },
   "自身のスター集中度を400%アップ(3ターン)＆弱体耐性を20%アップ(3ターン)[最大解放]": {
@@ -32938,7 +32938,7 @@
     "JP": null,
     "CN": "自身的暴击星集中度提升400%＆付与每回合回复生命值300的状态[最大解放]",
     "TW": "自身的爆擊星集中提升400%＆賦予每回合恢復HP300的狀態[最大解放]",
-    "NA": "Increases critical star absorption by 400%.\n Recovers HP by 300 every turn.",
+    "NA": "Increase C. Star Gather Rate by 400% & restore 300 HP each turn for yourself [MAX]",
     "KR": "자신의 스타 집중도 400% UP&매 턴 HP 300 회복 상태 부여[최대해방]"
   },
   "自身のスター集中度を400%アップ＆毎ターンスター3個獲得状態を付与": {
@@ -34310,7 +34310,7 @@
     "JP": null,
     "CN": "自身的强化解除耐性提升10%＆弱化耐性提升10%[最大解放]",
     "TW": "自身的強化解除耐性提升10%＆弱化耐性提升10%[最大解放]",
-    "NA": "Increases buff removal resistance by 10%.\n Increases debuff resistance by 10%.",
+    "NA": "Increase Buff Removal Resist by 10% & Debuff Resist by 10% for yourself [MAX]",
     "KR": "자신의 강화 해제 내성 10% UP&약화 내성 10% UP[최대해방]"
   },
   "自身の強化解除耐性を15%アップする": {
@@ -34345,7 +34345,7 @@
     "JP": null,
     "CN": "自身的强化解除耐性提升5%＆弱化耐性提升5%",
     "TW": "自身的強化解除耐性提升5%＆弱化耐性提升5%",
-    "NA": "Increases buff removal resistance by 5%.\n Increases debuff resistance by 5%.",
+    "NA": "Increase Buff Removal Resist by 5% & Debuff Resist by 5% for yourself",
     "KR": "자신의 강화 해제 내성 5% UP&약화 내성 5% UP"
   },
   "自身の強化解除耐性をアップ": {
