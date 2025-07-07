@@ -91082,6 +91082,7 @@
         "closedMessage": "宝物庫を700回以上開く\n＆7月7日18時00分以降に開放"
       }],
       "phases": [1, 2, 3],
+      "phasesWithEnemies": [1, 2, 3],
       "phaseScripts": [{
         "phase": 1,
         "scripts": [{
@@ -91107,6 +91108,43 @@
       "priority": 94145793,
       "noticeAt": 1751792400,
       "openedAt": 1751878800,
+      "closedAt": 1752465599
+    }, {
+      "id": 94145807,
+      "name": "",
+      "type": "main",
+      "consume": 1,
+      "afterClear": "close",
+      "recommendLv": "15",
+      "spotId": 839701,
+      "warId": 8397,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94145806
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "eventPoint",
+        "targetId": 80549,
+        "value": 1000,
+        "closedMessage": "宝物庫を1,000回以上開く\n＆7月8日18時00分以降に開放"
+      }, {
+        "type": "forceFalse",
+        "targetId": 0,
+        "closedMessage": "データ更新後に開放"
+      }],
+      "phases": [1, 2, 3, 4],
+      "phasesNoBattle": [1],
+      "priority": 94145792,
+      "noticeAt": 1751878800,
+      "openedAt": 1751965200,
       "closedAt": 1752465599
     }, {
       "id": 94145901,
