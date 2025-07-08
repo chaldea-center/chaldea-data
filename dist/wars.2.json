@@ -91111,7 +91111,72 @@
       "closedAt": 1752465599
     }, {
       "id": 94145807,
-      "name": "",
+      "name": "第7節　神と魔",
+      "type": "main",
+      "consume": 1,
+      "afterClear": "close",
+      "recommendLv": "15",
+      "spotId": 839701,
+      "warId": 8397,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
+        "type": "questClear",
+        "targetId": 94145806
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "eventPoint",
+        "targetId": 80549,
+        "value": 1000,
+        "closedMessage": "宝物庫を1,000回以上開く\n＆7月8日18時00分以降に開放"
+      }],
+      "phases": [1, 2, 3, 4],
+      "phasesWithEnemies": [2, 3, 4],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9414580710",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414580710.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9414580720",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414580720.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9414580730",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414580730.txt"
+        }]
+      }, {
+        "phase": 4,
+        "scripts": [{
+          "scriptId": "9414580740",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414580740.txt"
+        }, {
+          "scriptId": "9414580741",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414580741.txt"
+        }]
+      }],
+      "priority": 94145792,
+      "noticeAt": 1751878800,
+      "openedAt": 1751965200,
+      "closedAt": 1752465599
+    }, {
+      "id": 94145808,
+      "name": "エピローグ",
       "type": "main",
       "consume": 1,
       "afterClear": "close",
@@ -91125,25 +91190,38 @@
       }],
       "releaseConditions": [{
         "type": "questClear",
-        "targetId": 94145806
+        "targetId": 94145807
       }, {
         "type": "date",
         "targetId": 0,
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
-      }, {
-        "type": "eventPoint",
-        "targetId": 80549,
-        "value": 1000,
-        "closedMessage": "宝物庫を1,000回以上開く\n＆7月8日18時00分以降に開放"
-      }, {
-        "type": "forceFalse",
-        "targetId": 0,
-        "closedMessage": "データ更新後に開放"
       }],
-      "phases": [1, 2, 3, 4],
-      "phasesNoBattle": [1],
-      "priority": 94145792,
-      "noticeAt": 1751878800,
+      "presents": [{
+        "phase": 1,
+        "gifts": [{
+          "id": 94145800,
+          "objectId": 7999,
+          "num": 1
+        }],
+        "giftIcon": "https://static.atlasacademy.io/JP/Items/3.png"
+      }],
+      "phases": [1, 2],
+      "phasesNoBattle": [1, 2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9414580810",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414580810.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9414580820",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414580820.txt"
+        }]
+      }],
+      "priority": 94145791,
+      "noticeAt": 1751965200,
       "openedAt": 1751965200,
       "closedAt": 1752465599
     }, {
