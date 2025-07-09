@@ -12361,12 +12361,12 @@
   "funcId": 1544,
   "funcType": "gainHp",
   "funcTargetType": "ptOther",
-  "funcTargetTeam": "playerAndEnemy"
-}, {
-  "funcId": 1545,
-  "funcType": "gainHp",
-  "funcTargetType": "ptOther",
-  "funcTargetTeam": "playerAndEnemy"
+  "funcTargetTeam": "playerAndEnemy",
+  "script": {
+    "funcIndividuality": [{
+      "id": 2984
+    }]
+  }
 }, {
   "funcId": 1550,
   "funcType": "addState",
@@ -15582,11 +15582,6 @@
     "maxRate": 10000
   }]
 }, {
-  "funcId": 2926,
-  "funcType": "gainHp",
-  "funcTargetType": "enemy",
-  "funcTargetTeam": "playerAndEnemy"
-}, {
   "funcId": 2994,
   "funcType": "subState",
   "funcTargetType": "self",
@@ -17028,6 +17023,11 @@
   "funcTargetTeam": "playerAndEnemy",
   "funcPopupText": "増殖",
   "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_330.png",
+  "script": {
+    "funcIndividuality": [{
+      "id": 2985
+    }]
+  },
   "buffs": [{
     "id": 1531,
     "name": "増殖",
@@ -17045,6 +17045,8 @@
       "id": 2386
     }, {
       "id": 3043
+    }, {
+      "id": 2986
     }],
     "maxRate": 50000
   }]
@@ -24237,6 +24239,11 @@
   "funcTargetTeam": "playerAndEnemy",
   "funcPopupText": "増殖",
   "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_330.png",
+  "script": {
+    "funcIndividuality": [{
+      "id": 2985
+    }]
+  },
   "buffs": [{
     "id": 2920,
     "name": "増殖",
@@ -24254,6 +24261,8 @@
       "id": 2386
     }, {
       "id": 3043
+    }, {
+      "id": 2986
     }],
     "maxRate": 50000
   }]
@@ -30795,11 +30804,6 @@
       "id": 3004
     }]
   }]
-}, {
-  "funcId": 7522,
-  "funcType": "gainHpFromTargets",
-  "funcTargetType": "self",
-  "funcTargetTeam": "playerAndEnemy"
 }, {
   "funcId": 7573,
   "funcType": "addStateShort",
@@ -55406,6 +55410,11 @@
     }]
   }]
 }, {
+  "funcId": 22732,
+  "funcType": "gainHpFromTargets",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy"
+}, {
   "funcId": 22733,
   "funcType": "addState",
   "funcTargetType": "self",
@@ -55422,6 +55431,36 @@
       "id": 3004
     }]
   }]
+}, {
+  "funcId": 22737,
+  "funcType": "gainHp",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "playerAndEnemy"
+}, {
+  "funcId": 22763,
+  "funcType": "gainHp",
+  "funcTargetType": "ptOther",
+  "funcTargetTeam": "playerAndEnemy"
+}, {
+  "funcId": 22773,
+  "funcType": "gainHp",
+  "funcTargetType": "enemy",
+  "funcTargetTeam": "playerAndEnemy"
+}, {
+  "funcId": 22785,
+  "funcType": "gainHp",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "playerAndEnemy"
+}, {
+  "funcId": 22786,
+  "funcType": "gainHp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy"
+}, {
+  "funcId": 22788,
+  "funcType": "gainHp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy"
 }, {
   "funcId": 22791,
   "funcType": "addState",
