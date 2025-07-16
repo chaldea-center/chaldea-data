@@ -55345,6 +55345,14 @@
     "id": 106
   }]
 }, {
+  "funcId": 22721,
+  "funcType": "expUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "functvals": [{
+    "id": 101
+  }]
+}, {
   "funcId": 22722,
   "funcType": "addStateShort",
   "funcTargetType": "self",
@@ -58755,6 +58763,313 @@
       "id": 6045
     }],
     "maxRate": 5000
+  }]
+}, {
+  "funcId": 30238,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "マイティチェイン成立時発動効果",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_424.png",
+  "buffs": [{
+    "id": 30115,
+    "name": "マイティチェイン成立時発動効果",
+    "detail": "自身のコマンドカードを含むマイティチェイン成立時、自身の攻撃力をアップ<自身のHP割合が少ないほど効果アップ>",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_424.png",
+    "type": "confirmCommandFunction",
+    "vals": [{
+      "id": 3004
+    }],
+    "ckSelfIndv": [{
+      "id": 4107
+    }]
+  }]
+}, {
+  "funcId": 30239,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "攻撃力アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_300.png",
+  "buffs": [{
+    "id": 30116,
+    "name": "攻撃力アップ",
+    "detail": "攻撃力をアップ<自身のHP割合が少ないほど効果アップ>",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_300.png",
+    "type": "upAtk",
+    "originalScript": {
+      "ProgressSelfTurn": 1
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3027
+    }],
+    "maxRate": 50000
+  }]
+}, {
+  "funcId": 30240,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "去なしの石突（槍）",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_331.png",
+  "buffs": [{
+    "id": 30117,
+    "name": "去なしの石突（槍）",
+    "detail": "宝具チェインを除くチェイン不成立時、自身に回避状態(強化解除不能・グランドサイン効果以外の他の回避状態と重複可能)を付与<1度使用すると再使用に4ターン必要>",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_331.png",
+    "type": "confirmCommandFunction",
+    "script": {
+      "checkIndvType": 2
+    },
+    "originalScript": {
+      "checkIndvType": 2
+    },
+    "vals": [{
+      "id": 3004
+    }],
+    "ckSelfIndv": [{
+      "id": 4104,
+      "negative": true
+    }, {
+      "id": 4105,
+      "negative": true
+    }, {
+      "id": 4106,
+      "negative": true
+    }, {
+      "id": 4107,
+      "negative": true
+    }, {
+      "id": 4108,
+      "negative": true
+    }]
+  }]
+}, {
+  "funcId": 30241,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "回避",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_305.png",
+  "buffs": [{
+    "id": 30118,
+    "name": "回避",
+    "detail": "攻撃によるダメージを0にする(グランドサイン効果以外の他の回避状態と重複可能)",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_305.png",
+    "type": "avoidance",
+    "buffGroup": 30118,
+    "originalScript": {
+      "ProgressSelfTurn": 0
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3018
+    }, {
+      "id": 3021
+    }, {
+      "id": 3007
+    }]
+  }]
+}, {
+  "funcId": 30242,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "不退の構え（槍）",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_301.png",
+  "buffs": [{
+    "id": 30119,
+    "name": "不退の構え（槍）",
+    "detail": "回避状態の間、敵からの攻撃で受ける5000以上のダメージを5000に抑える",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_301.png",
+    "type": "overwriteFixedDefenceDamage",
+    "script": {
+      "INDIVIDUALITIE": {
+        "id": 3021
+      }
+    },
+    "originalScript": {
+      "INDIVIDUALITIE": 3021
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3007
+    }, {
+      "id": 3040
+    }]
+  }]
+}, {
+  "funcId": 30243,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "一刺にて城を穿つ（槍）",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_396.png",
+  "buffs": [{
+    "id": 30120,
+    "name": "一刺にて城を穿つ（槍）",
+    "detail": "自身の宝具使用時の効果発動前に、自身に「攻撃時のダメージ前に、ターゲットしている敵に解除可能な防御強化状態が付与されている場合、攻撃対象の防御強化状態を解除＆解除可能な防御強化状態が付与されていない場合、自身の攻撃の威力をアップする状態」を付与",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_396.png",
+    "type": "treasureDeviceBeforeFunction",
+    "vals": [{
+      "id": 3004
+    }]
+  }]
+}, {
+  "funcId": 30244,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "攻撃ダメージ前追加効果",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_333.png",
+  "buffs": [{
+    "id": 30121,
+    "name": "攻撃ダメージ前追加効果",
+    "detail": "攻撃時のダメージ前に、ターゲットしている敵に解除可能な防御強化状態が付与されている場合、攻撃対象の防御強化状態を解除＆解除可能な防御強化状態が付与されていない場合、自身の攻撃の威力をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_333.png",
+    "type": "attackBeforeFunction",
+    "vals": [{
+      "id": 3004
+    }]
+  }]
+}, {
+  "funcId": 30248,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "buffs": [{
+    "id": 30123,
+    "name": "",
+    "detail": "",
+    "type": "attackBeforeFunctionMainOnly"
+  }]
+}, {
+  "funcId": 30251,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "クイックチェイン成立時発動効果",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_420.png",
+  "buffs": [{
+    "id": 30125,
+    "name": "クイックチェイン成立時発動効果",
+    "detail": "自身のコマンドカードを含むクイックチェイン成立時、自身のスター発生率をアップ<自身のHP割合が少ないほど効果アップ>＆スター集中度をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_420.png",
+    "type": "confirmCommandFunction",
+    "vals": [{
+      "id": 3004
+    }],
+    "ckSelfIndv": [{
+      "id": 4104
+    }]
+  }]
+}, {
+  "funcId": 30252,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "アーツチェイン成立時発動効果",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_421.png",
+  "buffs": [{
+    "id": 30126,
+    "name": "アーツチェイン成立時発動効果",
+    "detail": "自身のコマンドカードを含むアーツチェイン成立時、自身のNP獲得量をアップ<自身のHP割合が少ないほど効果アップ>",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_421.png",
+    "type": "confirmCommandFunction",
+    "vals": [{
+      "id": 3004
+    }],
+    "ckSelfIndv": [{
+      "id": 4105
+    }]
+  }]
+}, {
+  "funcId": 30253,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "バスターチェイン成立時発動効果",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_422.png",
+  "buffs": [{
+    "id": 30127,
+    "name": "バスターチェイン成立時発動効果",
+    "detail": "自身のコマンドカードを含むバスターチェイン成立時、自身のクリティカル威力をアップ<自身のHP割合が少ないほど効果アップ>",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_422.png",
+    "type": "confirmCommandFunction",
+    "vals": [{
+      "id": 3004
+    }],
+    "ckSelfIndv": [{
+      "id": 4106
+    }]
+  }]
+}, {
+  "funcId": 30254,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "スター発生アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_321.png",
+  "buffs": [{
+    "id": 30128,
+    "name": "スター発生アップ",
+    "detail": "スター発生率をアップ<自身のHP割合が少ないほど効果アップ>",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_321.png",
+    "type": "upCriticalpoint",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3083
+    }],
+    "maxRate": 50000
+  }]
+}, {
+  "funcId": 30255,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "NP獲得アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_303.png",
+  "buffs": [{
+    "id": 30129,
+    "name": "NP獲得アップ",
+    "detail": "NP獲得量をアップ<自身のHP割合が少ないほど効果アップ>",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_303.png",
+    "type": "upDropnp",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3084
+    }],
+    "maxRate": 50000
+  }]
+}, {
+  "funcId": 30256,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "クリティカル威力アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_324.png",
+  "buffs": [{
+    "id": 30130,
+    "name": "クリティカル威力アップ",
+    "detail": "クリティカル時のダメージをアップ<自身のHP割合が少ないほど効果アップ>",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_324.png",
+    "type": "upCriticaldamage",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3031
+    }],
+    "maxRate": 50000
   }]
 }, {
   "funcId": 94100501,

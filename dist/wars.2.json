@@ -89927,8 +89927,8 @@
     "priority": 1,
     "overwriteId": 0,
     "condType": "commonRelease",
-    "targetId": 10146510,
-    "startedAt": 1750410000,
+    "targetId": 10145401,
+    "startedAt": 1752656400,
     "endedAt": 1893423600
   }, {
     "warId": 8395,
@@ -89941,12 +89941,31 @@
     "endedAt": 1893423600
   }, {
     "warId": 8395,
+    "type": "banner",
+    "priority": 3,
+    "overwriteId": 80533,
+    "overwriteBanner": "https://static.atlasacademy.io/JP/Banner/chaldea_category_80533.png",
+    "condType": "eventStartToEnd",
+    "targetId": 80555,
+    "startedAt": 1752656400,
+    "endedAt": 1893423600
+  }, {
+    "warId": 8395,
     "type": "priority",
     "priority": 3,
     "overwriteId": 10000,
     "condType": "eventStartToEnd",
     "targetId": 80551,
     "startedAt": 1750410000,
+    "endedAt": 1893423600
+  }, {
+    "warId": 8395,
+    "type": "priority",
+    "priority": 4,
+    "overwriteId": 10000,
+    "condType": "eventStartToEnd",
+    "targetId": 80555,
+    "startedAt": 1752656400,
     "endedAt": 1893423600
   }],
   "maps": [{
@@ -92183,6 +92202,387 @@
       "priority": 94146573,
       "noticeAt": 1750996800,
       "openedAt": 1750996800,
+      "closedAt": 1893423600
+    }]
+  }]
+}, {
+  "id": 8399,
+  "coordinates": [
+    [],
+    []
+  ],
+  "age": "-",
+  "name": "冠位戴冠戦\nランサー",
+  "longName": "冠位戴冠戦\nランサー",
+  "flags": ["changeDispClosedMessage"],
+  "banner": "https://static.atlasacademy.io/JP/Banner/chaldea_category_80533.png",
+  "priority": 7005,
+  "parentWarId": 8395,
+  "bgm": {
+    "id": 0
+  },
+  "script": "https://static.atlasacademy.io/JP/Script/Common/NONE.txt",
+  "maps": [{
+    "id": 8399,
+    "mapImage": "https://static.atlasacademy.io/JP/Terminal/MapImgs/img_questmap_008399/img_questmap_008399.png",
+    "bgm": {
+      "id": 0
+    }
+  }],
+  "spots": [{
+    "id": 839901,
+    "mapId": 8399,
+    "name": "カルデアゲート",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter8399/QMap_Cap8399_Atlas/spot_839901.png"
+  }, {
+    "id": 1050003,
+    "blankEarth": true,
+    "mapId": 8399,
+    "name": "",
+    "quests": [{
+      "id": 94146800,
+      "name": "冠位解放戦〔ランサー〕",
+      "type": "event",
+      "flags": ["noDisplayRemain"],
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "100",
+      "spotId": 1050003,
+      "warId": 8399,
+      "gifts": [{
+        "id": 94146800,
+        "objectId": 70,
+        "num": 5
+      }, {
+        "id": 94146800,
+        "objectId": 1000,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000100
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94146899,
+      "noticeAt": 1752656400,
+      "openedAt": 1752656400,
+      "closedAt": 1893423600
+    }, {
+      "id": 94146801,
+      "name": "冠位研鑽戦〔ランサー〕 Ⅰ",
+      "type": "event",
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "100",
+      "spotId": 1050003,
+      "warId": 8399,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94146800
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "presents": [{
+        "phase": 1,
+        "gifts": [{
+          "id": 94146802,
+          "type": "servant",
+          "objectId": 9570500,
+          "num": 1
+        }, {
+          "id": 94146802,
+          "type": "servant",
+          "objectId": 9670500,
+          "num": 1
+        }]
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94146879,
+      "noticeAt": 1752656400,
+      "openedAt": 1752656400,
+      "closedAt": 1753243199
+    }, {
+      "id": 94146802,
+      "name": "冠位研鑽戦〔ランサー〕 Ⅱ",
+      "type": "event",
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "100+",
+      "spotId": 1050003,
+      "warId": 8399,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94146800
+      }, {
+        "type": "questClear",
+        "targetId": 94146801,
+        "closedMessage": "「冠位研鑽戦〔ランサー〕 Ⅰ」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "presents": [{
+        "phase": 1,
+        "gifts": [{
+          "id": 94146802,
+          "type": "servant",
+          "objectId": 9570500,
+          "num": 1
+        }, {
+          "id": 94146802,
+          "type": "servant",
+          "objectId": 9670500,
+          "num": 1
+        }]
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94146878,
+      "noticeAt": 1752656400,
+      "openedAt": 1752656400,
+      "closedAt": 1753243199
+    }, {
+      "id": 94146803,
+      "name": "冠位研鑽戦〔ランサー〕 Ⅲ",
+      "type": "event",
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "100++",
+      "spotId": 1050003,
+      "warId": 8399,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94146800
+      }, {
+        "type": "questClear",
+        "targetId": 94146802,
+        "closedMessage": "「冠位研鑽戦〔ランサー〕 Ⅱ」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "presents": [{
+        "phase": 1,
+        "gifts": [{
+          "id": 94146802,
+          "type": "servant",
+          "objectId": 9570500,
+          "num": 1
+        }, {
+          "id": 94146802,
+          "type": "servant",
+          "objectId": 9670500,
+          "num": 1
+        }]
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94146877,
+      "noticeAt": 1752656400,
+      "openedAt": 1752656400,
+      "closedAt": 1753243199
+    }, {
+      "id": 94146804,
+      "name": "冠位研鑽戦〔ランサー〕 Ⅳ",
+      "type": "event",
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "100+++",
+      "spotId": 1050003,
+      "warId": 8399,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94146800
+      }, {
+        "type": "questClear",
+        "targetId": 94146803,
+        "closedMessage": "「冠位研鑽戦〔ランサー〕 Ⅲ」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "presents": [{
+        "phase": 1,
+        "gifts": [{
+          "id": 94146802,
+          "type": "servant",
+          "objectId": 9570500,
+          "num": 1
+        }, {
+          "id": 94146802,
+          "type": "servant",
+          "objectId": 9670500,
+          "num": 1
+        }]
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94146876,
+      "noticeAt": 1752656400,
+      "openedAt": 1752656400,
+      "closedAt": 1753243199
+    }, {
+      "id": 94146805,
+      "name": "冠位研鑽戦〔ランサー〕 Ⅴ",
+      "type": "event",
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "100★",
+      "spotId": 1050003,
+      "warId": 8399,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94146800
+      }, {
+        "type": "questClear",
+        "targetId": 94146804,
+        "closedMessage": "「冠位研鑽戦〔ランサー〕 Ⅳ」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "presents": [{
+        "phase": 1,
+        "gifts": [{
+          "id": 94146802,
+          "type": "servant",
+          "objectId": 9570500,
+          "num": 1
+        }, {
+          "id": 94146802,
+          "type": "servant",
+          "objectId": 9670500,
+          "num": 1
+        }]
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94146875,
+      "noticeAt": 1752656400,
+      "openedAt": 1752656400,
+      "closedAt": 1753243199
+    }, {
+      "id": 94146806,
+      "name": "冠位研鑽戦〔ランサー〕 Ⅵ",
+      "type": "event",
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "100★★",
+      "spotId": 1050003,
+      "warId": 8399,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94146800
+      }, {
+        "type": "questClear",
+        "targetId": 94146805,
+        "closedMessage": "「冠位研鑽戦〔ランサー〕 Ⅴ」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "presents": [{
+        "phase": 1,
+        "gifts": [{
+          "id": 94146802,
+          "type": "servant",
+          "objectId": 9570500,
+          "num": 1
+        }, {
+          "id": 94146802,
+          "type": "servant",
+          "objectId": 9670500,
+          "num": 1
+        }]
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94146874,
+      "noticeAt": 1752656400,
+      "openedAt": 1752656400,
+      "closedAt": 1753243199
+    }, {
+      "id": 94146807,
+      "name": "冠位研鑽戦〔ランサー〕 Ⅶ",
+      "type": "event",
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "100★★★",
+      "spotId": 1050003,
+      "warId": 8399,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94146800
+      }, {
+        "type": "questClear",
+        "targetId": 94146806,
+        "closedMessage": "「冠位研鑽戦〔ランサー〕 Ⅵ」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "presents": [{
+        "phase": 1,
+        "gifts": [{
+          "id": 94146802,
+          "type": "servant",
+          "objectId": 9570500,
+          "num": 1
+        }, {
+          "id": 94146802,
+          "type": "servant",
+          "objectId": 9670500,
+          "num": 1
+        }]
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94146873,
+      "noticeAt": 1752656400,
+      "openedAt": 1752656400,
+      "closedAt": 1753243199
+    }, {
+      "id": 94146810,
+      "name": "冠位認定戦〔ランサー〕",
+      "type": "event",
+      "flags": ["noDisplayRemain"],
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "100★",
+      "spotId": 1050003,
+      "warId": 8399,
+      "gifts": [{
+        "id": 94146801,
+        "type": "servant",
+        "objectId": 9408650,
+        "num": 1
+      }, {
+        "id": 94146801,
+        "objectId": 6999,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94146800
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "classBoardSquareReleased",
+        "targetId": 10003,
+        "value": 12,
+        "closedMessage": "〔ランサー〕のグランドサイン解放数12個以上で開放"
+      }],
+      "phases": [1],
+      "priority": 94146850,
+      "noticeAt": 1752656400,
+      "openedAt": 1752656400,
       "closedAt": 1893423600
     }]
   }]
