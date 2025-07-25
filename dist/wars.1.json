@@ -73735,6 +73735,84 @@
       "closedAt": 1713931199
     }]
   }, {
+    "id": 1040110,
+    "blankEarth": true,
+    "mapId": 401,
+    "name": "ギニア湾上空エリア",
+    "quests": [{
+      "id": 94146201,
+      "name": "オルガマリークエスト_４",
+      "type": "free",
+      "flags": ["noContinue", "noDisplayRemain", "forceDisplayEnemyInfo"],
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "90★",
+      "spotId": 1040110,
+      "warId": 401,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/3.png",
+      "gifts": [{
+        "id": 94146201,
+        "objectId": 53,
+        "num": 1
+      }, {
+        "id": 94146201,
+        "objectId": 203,
+        "num": 1
+      }, {
+        "id": 94146201,
+        "objectId": 7999,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94141901
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1, 2],
+      "phasesNoBattle": [2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9414620110",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414620110.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9414620120",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414620120.txt"
+        }]
+      }],
+      "priority": 907289,
+      "noticeAt": 1753434000,
+      "openedAt": 1753434000,
+      "closedAt": 1893423600
+    }, {
+      "id": 94146202,
+      "name": "【期間限定】オルガマリークエスト_４・リプレイ",
+      "type": "free",
+      "flags": ["noContinue", "notRetrievable", "forceToNoDrop", "forceDisplayEnemyInfo"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "90★",
+      "spotId": 1040110,
+      "warId": 401,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94146201
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "priority": 907288,
+      "noticeAt": 1753434000,
+      "openedAt": 1753434000,
+      "closedAt": 1754020799
+    }]
+  }, {
     "id": 1040175,
     "blankEarth": true,
     "mapId": 401,
