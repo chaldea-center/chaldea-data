@@ -145389,6 +145389,7 @@
         "targetId": 0
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94143175,
       "noticeAt": 1753866000,
       "openedAt": 1753866000,
@@ -145421,9 +145422,71 @@
         "targetId": 0
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94143174,
       "noticeAt": 1753866000,
       "openedAt": 1753866000,
+      "closedAt": 1755057599
+    }, {
+      "id": 94146903,
+      "name": "2017年 メモリアルクエスト",
+      "type": "event",
+      "flags": ["dropFirstTimeOnly", "actConsumeBattleWin", "notRetrievable"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "87",
+      "spotId": 999999,
+      "warId": 9999,
+      "gifts": [{
+        "id": 700794,
+        "objectId": 94146903,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 2000216,
+        "closedMessage": "亜種特異点Ⅱをクリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94143173,
+      "noticeAt": 1753952400,
+      "openedAt": 1753952400,
+      "closedAt": 1755057599
+    }, {
+      "id": 94146904,
+      "name": "2018年 メモリアルクエスト",
+      "type": "event",
+      "flags": ["dropFirstTimeOnly", "actConsumeBattleWin", "notRetrievable"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "90",
+      "spotId": 999999,
+      "warId": 9999,
+      "gifts": [{
+        "id": 700795,
+        "objectId": 94146904,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 3000320,
+        "closedMessage": "Lostbelt No.3\n&2017年メモリアルクエストをクリアで開放"
+      }, {
+        "type": "questClear",
+        "targetId": 94146903,
+        "closedMessage": "Lostbelt No.3\n&2017年メモリアルクエストをクリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "priority": 94143172,
+      "noticeAt": 1753952400,
+      "openedAt": 1753952400,
       "closedAt": 1755057599
     }]
   }]
