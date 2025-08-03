@@ -122096,6 +122096,22 @@
   }, {
     "warId": 9999,
     "type": "banner",
+    "priority": 80541,
+    "overwriteId": 80541,
+    "overwriteBanner": "https://static.atlasacademy.io/JP/Banner/chaldea_category_80541.png",
+    "startedAt": 1754211600,
+    "endedAt": 1756871999
+  }, {
+    "warId": 9999,
+    "type": "banner",
+    "priority": 99999,
+    "overwriteId": 80536,
+    "overwriteBanner": "https://static.atlasacademy.io/JP/Banner/chaldea_category_80536.png",
+    "startedAt": 1754211600,
+    "endedAt": 1755057599
+  }, {
+    "warId": 9999,
+    "type": "banner",
     "priority": 800620,
     "overwriteId": 80078,
     "overwriteBanner": "https://static.atlasacademy.io/JP/Banner/chaldea_category_80078.png",
@@ -145614,6 +145630,72 @@
       "openedAt": 1754125200,
       "closedAt": 1755057599
     }, {
+      "id": 94146909,
+      "name": "2023年 メモリアルクエスト",
+      "type": "event",
+      "flags": ["dropFirstTimeOnly", "eventDeckNoSupport", "questMaxDamageRecord", "notRetrievable"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "90",
+      "spotId": 999999,
+      "warId": 9999,
+      "gifts": [{
+        "id": 700800,
+        "objectId": 94146909,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000217,
+        "closedMessage": "奏章Ⅰをクリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94143167,
+      "noticeAt": 1754211600,
+      "openedAt": 1754211600,
+      "closedAt": 1755057599
+    }, {
+      "id": 94146910,
+      "name": "2024年 メモリアルクエスト",
+      "type": "event",
+      "flags": ["dropFirstTimeOnly", "eventDeckNoSupport", "questMaxDamageRecord", "notRetrievable"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "90",
+      "spotId": 999999,
+      "warId": 9999,
+      "gifts": [{
+        "id": 94147001,
+        "objectId": 94146910,
+        "num": 1
+      }, {
+        "id": 94147001,
+        "type": "commandCode",
+        "objectId": 8402040,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000426,
+        "closedMessage": "奏章Ⅲ\n&2023年メモリアルクエストをクリアで開放"
+      }, {
+        "type": "questClear",
+        "targetId": 94146909,
+        "closedMessage": "奏章Ⅲ\n&2023年メモリアルクエストをクリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "priority": 94143166,
+      "noticeAt": 1754211600,
+      "openedAt": 1754211600,
+      "closedAt": 1755057599
+    }, {
       "id": 94146911,
       "name": "復刻:9周年最大ダメージトライアル2日目",
       "type": "event",
@@ -145661,6 +145743,34 @@
       "noticeAt": 1754179200,
       "openedAt": 1754179200,
       "closedAt": 1754211599
+    }, {
+      "id": 94147001,
+      "name": "Ｕ－オルガマリー体験クエスト",
+      "type": "event",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "15",
+      "spotId": 999999,
+      "warId": 9999,
+      "gifts": [{
+        "id": 15000,
+        "objectId": 4001,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 1000011,
+        "closedMessage": "特異点Fクリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94147099,
+      "noticeAt": 1754211600,
+      "openedAt": 1754211600,
+      "closedAt": 1755403199
     }]
   }]
 }, {
