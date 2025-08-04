@@ -31041,7 +31041,29 @@
       "damageRate": 500,
       "attackNpRate": 500,
       "defenseNpRate": 1000,
-      "dropStarRate": 500
+      "dropStarRate": 500,
+      "overwriteRates": [{
+        "condType": "TargetNumEqual",
+        "condValue": 1,
+        "damageRate": 1000,
+        "attackNpRate": 1000,
+        "defenseNpRate": 1000,
+        "dropStarRate": 1000
+      }, {
+        "condType": "TargetNumBelow",
+        "condValue": 2,
+        "damageRate": 500,
+        "attackNpRate": 500,
+        "defenseNpRate": 1000,
+        "dropStarRate": 500
+      }, {
+        "condType": "TargetNumAbove",
+        "condValue": 3,
+        "damageRate": 500,
+        "attackNpRate": 500,
+        "defenseNpRate": 1000,
+        "dropStarRate": 500
+      }]
     }
   },
   "atkBase": 1671,
