@@ -102448,6 +102448,47 @@
       "openedAt": 1748422800,
       "closedAt": 1893423600
     }, {
+      "id": 94147015,
+      "name": "強化クエスト ロビンフッド 2",
+      "type": "event",
+      "flags": ["noDisplayRemain"],
+      "consume": 20,
+      "afterClear": "close",
+      "recommendLv": "70",
+      "spotId": 99001,
+      "warId": 1001,
+      "gifts": [{
+        "id": 94012504,
+        "objectId": 2,
+        "num": 2
+      }, {
+        "id": 94012504,
+        "type": "questRewardIcon",
+        "objectId": 9,
+        "num": 0
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94005001
+      }, {
+        "type": "svtLimit",
+        "targetId": 200300,
+        "value": 4,
+        "closedMessage": "霊基再臨{0}段階目で開放"
+      }, {
+        "type": "svtGet",
+        "targetId": 200300
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1, 2, 3],
+      "phasesWithEnemies": [1],
+      "priority": 94147013,
+      "noticeAt": 1754384400,
+      "openedAt": 1754384400,
+      "closedAt": 1893423600
+    }, {
       "id": 94147016,
       "name": "強化クエスト メディア 2",
       "type": "event",
@@ -102525,6 +102566,44 @@
       "priority": 94147012,
       "noticeAt": 1754298000,
       "openedAt": 1754298000,
+      "closedAt": 1893423600
+    }, {
+      "id": 94147021,
+      "name": "強化クエスト イシュタル",
+      "type": "event",
+      "flags": ["noDisplayRemain"],
+      "consume": 23,
+      "afterClear": "close",
+      "recommendLv": "90",
+      "spotId": 99001,
+      "warId": 1001,
+      "gifts": [{
+        "id": 94012504,
+        "objectId": 2,
+        "num": 2
+      }, {
+        "id": 94012504,
+        "type": "questRewardIcon",
+        "objectId": 9,
+        "num": 0
+      }],
+      "releaseConditions": [{
+        "type": "svtLimit",
+        "targetId": 202000,
+        "value": 4,
+        "closedMessage": "霊基再臨{0}段階目で開放"
+      }, {
+        "type": "svtGet",
+        "targetId": 202000
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1, 2, 3],
+      "phasesWithEnemies": [1, 2, 3],
+      "priority": 94147014,
+      "noticeAt": 1754384400,
+      "openedAt": 1754384400,
       "closedAt": 1893423600
     }]
   }]
@@ -116920,6 +116999,15 @@
         "eventId": 80545,
         "startedAt": 1746608400,
         "endedAt": 1748703599
+      }, {
+        "priority": 8057200,
+        "condType": "questClear",
+        "condId": 1000115,
+        "closedMessage": "第一特異点をクリア＆霊基再臨1段階目＆絆Lv.2で開放",
+        "overlayClosedMessage": "第一特異点をクリアで開放",
+        "eventId": 80572,
+        "startedAt": 1754384400,
+        "endedAt": 1755057599
       }],
       "phases": [1, 2, 3],
       "phasesWithEnemies": [1, 2, 3],
@@ -117033,6 +117121,23 @@
         "eventId": 80545,
         "startedAt": 1746608400,
         "endedAt": 1748703599
+      }, {
+        "priority": 8057200,
+        "condType": "questClear",
+        "condId": 1000413,
+        "closedMessage": "第四特異点をクリア＆霊基再臨3段階目＆絆Lv.4で開放",
+        "overlayClosedMessage": "一つ前の幕間の物語をクリア＆第四特異点をクリアで開放",
+        "eventId": 80572,
+        "startedAt": 1754384400,
+        "endedAt": 1755057599
+      }, {
+        "priority": 8057200,
+        "condType": "questClear",
+        "condId": 91900101,
+        "overlayClosedMessage": "一つ前の幕間の物語をクリア＆第四特異点をクリアで開放",
+        "eventId": 80572,
+        "startedAt": 1754384400,
+        "endedAt": 1755057599
       }],
       "phases": [1, 2],
       "phasesWithEnemies": [1, 2],
@@ -117144,6 +117249,23 @@
         "eventId": 80545,
         "startedAt": 1746608400,
         "endedAt": 1748703599
+      }, {
+        "priority": 8057200,
+        "condType": "questClear",
+        "condId": 1000413,
+        "closedMessage": "第四特異点をクリア＆霊基再臨3段階目＆絆Lv.5で開放",
+        "overlayClosedMessage": "一つ前の幕間の物語をクリア＆第四特異点をクリアで開放",
+        "eventId": 80572,
+        "startedAt": 1754384400,
+        "endedAt": 1755057599
+      }, {
+        "priority": 8057200,
+        "condType": "questClear",
+        "condId": 91900102,
+        "overlayClosedMessage": "一つ前の幕間の物語をクリア＆第四特異点をクリアで開放",
+        "eventId": 80572,
+        "startedAt": 1754384400,
+        "endedAt": 1755057599
       }],
       "phases": [1, 2, 3],
       "phasesWithEnemies": [1, 2, 3],
@@ -117221,6 +117343,15 @@
         "eventId": 80545,
         "startedAt": 1746608400,
         "endedAt": 1748703599
+      }, {
+        "priority": 8057200,
+        "condType": "questClear",
+        "condId": 1000522,
+        "closedMessage": "第五特異点をクリア＆霊基再臨2段階目＆絆Lv.4で開放",
+        "overlayClosedMessage": "第五特異点をクリアで開放",
+        "eventId": 80572,
+        "startedAt": 1754384400,
+        "endedAt": 1755057599
       }],
       "phases": [1, 2, 3],
       "phasesWithEnemies": [1, 2, 3],
@@ -117343,6 +117474,32 @@
         "eventId": 80545,
         "startedAt": 1746608400,
         "endedAt": 1748703599
+      }, {
+        "priority": 8057200,
+        "condType": "questClear",
+        "condId": 3000303,
+        "closedMessage": "亜種特異点Ⅲをクリア＆Lostbelt No.3 プロローグをクリア＆霊基再臨3段階目＆絆Lv.5で開放",
+        "overlayClosedMessage": "一つ前の幕間の物語をクリア\n＆亜種特異点Ⅲをクリア＆Lostbelt No.3 プロローグをクリアで開放",
+        "eventId": 80572,
+        "startedAt": 1754384400,
+        "endedAt": 1755057599
+      }, {
+        "priority": 8057200,
+        "condType": "questClear",
+        "condId": 2000316,
+        "closedMessage": "亜種特異点Ⅲをクリア＆Lostbelt No.3 プロローグをクリア＆霊基再臨3段階目＆絆Lv.5で開放",
+        "overlayClosedMessage": "一つ前の幕間の物語をクリア\n＆亜種特異点Ⅲをクリア＆Lostbelt No.3 プロローグをクリアで開放",
+        "eventId": 80572,
+        "startedAt": 1754384400,
+        "endedAt": 1755057599
+      }, {
+        "priority": 8057200,
+        "condType": "questClear",
+        "condId": 91900201,
+        "overlayClosedMessage": "一つ前の幕間の物語をクリア\n＆亜種特異点Ⅲをクリア＆Lostbelt No.3 プロローグをクリアで開放",
+        "eventId": 80572,
+        "startedAt": 1754384400,
+        "endedAt": 1755057599
       }],
       "phases": [1, 2],
       "phasesWithEnemies": [1, 2],
@@ -117423,6 +117580,15 @@
         "eventId": 80519,
         "startedAt": 1737363600,
         "endedAt": 1737950399
+      }, {
+        "priority": 8057200,
+        "condType": "questClear",
+        "condId": 3000303,
+        "closedMessage": "Lostbelt No.3 プロローグをクリア＆霊基再臨3段階目＆絆Lv.3で開放",
+        "overlayClosedMessage": "Lostbelt No.3 プロローグクリアで開放",
+        "eventId": 80572,
+        "startedAt": 1754384400,
+        "endedAt": 1755057599
       }],
       "phases": [1, 2, 3],
       "phasesWithEnemies": [1, 2, 3],
@@ -117507,6 +117673,15 @@
         "eventId": 80519,
         "startedAt": 1737363600,
         "endedAt": 1737950399
+      }, {
+        "priority": 8057200,
+        "condType": "questClear",
+        "condId": 3000320,
+        "closedMessage": "Lostbelt No.3をクリア＆霊基再臨3段階目＆絆Lv.3で開放",
+        "overlayClosedMessage": "Lostbelt No.3クリアで開放",
+        "eventId": 80572,
+        "startedAt": 1754384400,
+        "endedAt": 1755057599
       }],
       "phases": [1, 2],
       "phasesWithEnemies": [1, 2],
@@ -117596,6 +117771,15 @@
         "eventId": 80545,
         "startedAt": 1746608400,
         "endedAt": 1748703599
+      }, {
+        "priority": 8057200,
+        "condType": "questClear",
+        "condId": 3000303,
+        "closedMessage": "Lostbelt No.3 プロローグをクリア＆霊基再臨2段階目＆絆Lv.4で開放",
+        "overlayClosedMessage": "Lostbelt No.3 プロローグをクリアで開放",
+        "eventId": 80572,
+        "startedAt": 1754384400,
+        "endedAt": 1755057599
       }],
       "phases": [1, 2, 3, 4],
       "phasesWithEnemies": [1, 2, 3, 4],
@@ -117697,6 +117881,15 @@
         "eventId": 80531,
         "startedAt": 1740819600,
         "endedAt": 1743433199
+      }, {
+        "priority": 8057200,
+        "condType": "questClear",
+        "condId": 1000822,
+        "closedMessage": "終局特異点をクリア＆霊基再臨2段階目＆絆Lv.4で開放",
+        "overlayClosedMessage": "終局特異点をクリアで開放",
+        "eventId": 80572,
+        "startedAt": 1754384400,
+        "endedAt": 1755057599
       }],
       "phases": [1, 2, 3, 4],
       "phasesWithEnemies": [1, 2, 3, 4],
@@ -117774,6 +117967,15 @@
         "eventId": 80525,
         "startedAt": 1739178000,
         "endedAt": 1739764799
+      }, {
+        "priority": 8057200,
+        "condType": "questClear",
+        "condId": 1000822,
+        "closedMessage": "終局特異点をクリア＆霊基再臨4段階目＆絆Lv.5で開放",
+        "overlayClosedMessage": "終局特異点をクリアで開放",
+        "eventId": 80572,
+        "startedAt": 1754384400,
+        "endedAt": 1755057599
       }],
       "phases": [1],
       "phasesWithEnemies": [1],
@@ -117870,6 +118072,15 @@
         "eventId": 80532,
         "startedAt": 1740992400,
         "endedAt": 1741579199
+      }, {
+        "priority": 8057200,
+        "condType": "questClear",
+        "condId": 1000822,
+        "closedMessage": "終局特異点をクリア＆霊基再臨3段階目＆絆Lv.5で開放",
+        "overlayClosedMessage": "終局特異点をクリアで開放",
+        "eventId": 80572,
+        "startedAt": 1754384400,
+        "endedAt": 1755057599
       }],
       "phases": [1, 2],
       "phasesWithEnemies": [1, 2],
@@ -117967,6 +118178,23 @@
         "eventId": 80532,
         "startedAt": 1740992400,
         "endedAt": 1741579199
+      }, {
+        "priority": 8057200,
+        "condType": "questClear",
+        "condId": 3001101,
+        "closedMessage": "非霊長生存圏をクリア＆霊基再臨3段階目＆絆Lv.5で開放",
+        "overlayClosedMessage": "一つ前の幕間の物語をクリア＆非霊長生存圏をクリアで開放",
+        "eventId": 80572,
+        "startedAt": 1754384400,
+        "endedAt": 1755057599
+      }, {
+        "priority": 8057200,
+        "condType": "questClear",
+        "condId": 911100201,
+        "overlayClosedMessage": "一つ前の幕間の物語をクリア＆非霊長生存圏をクリアで開放",
+        "eventId": 80572,
+        "startedAt": 1754384400,
+        "endedAt": 1755057599
       }],
       "phases": [1, 2, 3, 4],
       "phasesWithEnemies": [2, 3],
@@ -118061,6 +118289,15 @@
         "eventId": 80532,
         "startedAt": 1740992400,
         "endedAt": 1741579199
+      }, {
+        "priority": 8057200,
+        "condType": "questClear",
+        "condId": 1000722,
+        "closedMessage": "第七特異点をクリア＆霊基再臨2段階目＆絆Lv.2で開放",
+        "overlayClosedMessage": "第七特異点をクリアで開放",
+        "eventId": 80572,
+        "startedAt": 1754384400,
+        "endedAt": 1755057599
       }],
       "phases": [1, 2, 3],
       "phasesWithEnemies": [1, 2, 3],
@@ -118181,6 +118418,23 @@
         "eventId": 80532,
         "startedAt": 1740992400,
         "endedAt": 1741579199
+      }, {
+        "priority": 8057200,
+        "condType": "questClear",
+        "condId": 2000118,
+        "closedMessage": "亜種特異点Ⅰをクリア＆霊基再臨4段階目＆絆Lv.5で開放",
+        "overlayClosedMessage": "一つ前の幕間の物語をクリア＆亜種特異点Ⅰをクリアで開放",
+        "eventId": 80572,
+        "startedAt": 1754384400,
+        "endedAt": 1755057599
+      }, {
+        "priority": 8057200,
+        "condType": "questClear",
+        "condId": 911100301,
+        "overlayClosedMessage": "一つ前の幕間の物語をクリア＆亜種特異点Ⅰをクリアで開放",
+        "eventId": 80572,
+        "startedAt": 1754384400,
+        "endedAt": 1755057599
       }],
       "phases": [1, 2, 3],
       "phasesWithEnemies": [1, 2, 3],
@@ -118258,6 +118512,15 @@
         "eventId": 80532,
         "startedAt": 1740992400,
         "endedAt": 1741579199
+      }, {
+        "priority": 8057200,
+        "condType": "questClear",
+        "condId": 1000722,
+        "closedMessage": "第七特異点をクリア＆霊基再臨3段階目＆絆Lv.5で開放",
+        "overlayClosedMessage": "第七特異点をクリアで開放",
+        "eventId": 80572,
+        "startedAt": 1754384400,
+        "endedAt": 1755057599
       }],
       "phases": [1, 2],
       "phasesWithEnemies": [1, 2],
@@ -118332,6 +118595,15 @@
         "eventId": 80532,
         "startedAt": 1740992400,
         "endedAt": 1741579199
+      }, {
+        "priority": 8057200,
+        "condType": "questClear",
+        "condId": 2000118,
+        "closedMessage": "亜種特異点Ⅰをクリア＆霊基再臨3段階目＆絆Lv.5で開放",
+        "overlayClosedMessage": "亜種特異点Ⅰをクリアで開放",
+        "eventId": 80572,
+        "startedAt": 1754384400,
+        "endedAt": 1755057599
       }],
       "phases": [1, 2, 3],
       "phasesWithEnemies": [1, 2, 3],
@@ -118415,6 +118687,15 @@
         "eventId": 80532,
         "startedAt": 1740992400,
         "endedAt": 1741579199
+      }, {
+        "priority": 8057200,
+        "condType": "questClear",
+        "condId": 3000303,
+        "closedMessage": "Lostbelt No.3 プロローグをクリア＆霊基再臨4段階目＆絆Lv.5で開放",
+        "overlayClosedMessage": "Lostbelt No.3 プロローグをクリアで開放",
+        "eventId": 80572,
+        "startedAt": 1754384400,
+        "endedAt": 1755057599
       }],
       "phases": [1, 2, 3],
       "phasesWithEnemies": [1, 2, 3],
@@ -118501,6 +118782,15 @@
         "eventId": 80542,
         "startedAt": 1747040400,
         "endedAt": 1747627199
+      }, {
+        "priority": 8057200,
+        "condType": "questClear",
+        "condId": 3000421,
+        "closedMessage": "Lostbelt No.4をクリア＆霊基再臨3段階目＆絆Lv.3で開放",
+        "overlayClosedMessage": "Lostbelt No.4をクリアで開放",
+        "eventId": 80572,
+        "startedAt": 1754384400,
+        "endedAt": 1755057599
       }],
       "phases": [1, 2, 3],
       "phasesWithEnemies": [1, 2, 3],
@@ -118693,6 +118983,15 @@
         "eventId": 80537,
         "startedAt": 1744016400,
         "endedAt": 1744603199
+      }, {
+        "priority": 8057200,
+        "condType": "questClear",
+        "condId": 2000410,
+        "closedMessage": "亜種特異点Ⅳをクリア＆霊基再臨1段階目＆絆Lv.5で開放",
+        "overlayClosedMessage": "亜種特異点Ⅳをクリアで開放",
+        "eventId": 80572,
+        "startedAt": 1754384400,
+        "endedAt": 1755057599
       }],
       "phases": [1, 2, 3, 4, 5],
       "phasesWithEnemies": [2, 3, 4],
@@ -118778,6 +119077,15 @@
         "eventId": 80537,
         "startedAt": 1744016400,
         "endedAt": 1744603199
+      }, {
+        "priority": 8057200,
+        "condType": "questClear",
+        "condId": 1000011,
+        "closedMessage": "特異点Fをクリア＆霊基再臨2段階目＆絆Lv.5で開放",
+        "overlayClosedMessage": "特異点Fをクリアで開放",
+        "eventId": 80572,
+        "startedAt": 1754384400,
+        "endedAt": 1755057599
       }],
       "phases": [1, 2],
       "phasesWithEnemies": [1, 2],
@@ -118843,6 +119151,15 @@
         "eventId": 80537,
         "startedAt": 1744016400,
         "endedAt": 1744603199
+      }, {
+        "priority": 8057200,
+        "condType": "questClear",
+        "condId": 1000011,
+        "closedMessage": "特異点Fをクリア＆絆Lv.5で開放",
+        "overlayClosedMessage": "特異点Fをクリアで開放",
+        "eventId": 80572,
+        "startedAt": 1754384400,
+        "endedAt": 1755057599
       }],
       "phases": [1, 2, 3, 4, 5],
       "phasesWithEnemies": [2],
@@ -118937,6 +119254,15 @@
         "eventId": 80537,
         "startedAt": 1744016400,
         "endedAt": 1744603199
+      }, {
+        "priority": 8057200,
+        "condType": "questClear",
+        "condId": 3000303,
+        "closedMessage": "Lostbelt No.3 プロローグをクリア＆霊基再臨3段階目＆絆Lv.4で開放",
+        "overlayClosedMessage": "Lostbelt No.3 プロローグをクリアで開放",
+        "eventId": 80572,
+        "startedAt": 1754384400,
+        "endedAt": 1755057599
       }],
       "phases": [1, 2, 3],
       "phasesWithEnemies": [1, 2, 3],
@@ -119040,6 +119366,23 @@
         "eventId": 80537,
         "startedAt": 1744016400,
         "endedAt": 1744603199
+      }, {
+        "priority": 8057200,
+        "condType": "questClear",
+        "condId": 3000303,
+        "closedMessage": "Lostbelt No.3 プロローグをクリア＆霊基再臨3段階目＆絆Lv.4で開放",
+        "overlayClosedMessage": "一つ前の幕間の物語をクリア＆Lostbelt No.3 プロローグをクリアで開放",
+        "eventId": 80572,
+        "startedAt": 1754384400,
+        "endedAt": 1755057599
+      }, {
+        "priority": 8057200,
+        "condType": "questClear",
+        "condId": 912500601,
+        "overlayClosedMessage": "一つ前の幕間の物語をクリア＆Lostbelt No.3 プロローグをクリアで開放",
+        "eventId": 80572,
+        "startedAt": 1754384400,
+        "endedAt": 1755057599
       }],
       "phases": [1, 2, 3, 4, 5],
       "phasesWithEnemies": [1, 2, 3, 4, 5],
@@ -145460,6 +145803,34 @@
       "noticeAt": 1751706000,
       "openedAt": 1751706000,
       "closedAt": 1753243199
+    }, {
+      "id": 94140823,
+      "name": "Extraお試しクエスト",
+      "type": "event",
+      "consume": 0,
+      "afterClear": "repeatLast",
+      "recommendLv": "70",
+      "spotId": 999999,
+      "warId": 9999,
+      "gifts": [{
+        "id": 12000,
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 1000011,
+        "closedMessage": "特異点Fクリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94141008,
+      "noticeAt": 1754384400,
+      "openedAt": 1754384400,
+      "closedAt": 1755057599
     }, {
       "id": 94146901,
       "name": "2015年 メモリアルクエスト",

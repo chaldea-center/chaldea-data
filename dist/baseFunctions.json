@@ -11259,7 +11259,7 @@
   "buffs": [{
     "id": 342,
     "name": "魔力放出準備",
-    "detail": "1ターン経過後に攻撃力がアップする",
+    "detail": "1ターン経過後に自身の攻撃力をアップする",
     "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_331.png",
     "type": "delayFunction",
     "buffGroup": 342,
@@ -55983,6 +55983,24 @@
       "id": 3084
     }],
     "maxRate": 5000
+  }]
+}, {
+  "funcId": 22841,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "絶対豪運宝石圏準備",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_331.png",
+  "buffs": [{
+    "id": 5897,
+    "name": "絶対豪運宝石圏準備",
+    "detail": "1ターン経過後に自身の攻撃力をアップ + 自身を除く味方全体にカード選出不能状態を付与する",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_331.png",
+    "type": "delayFunction",
+    "buffGroup": 5897,
+    "vals": [{
+      "id": 3004
+    }]
   }]
 }, {
   "funcId": 30003,
