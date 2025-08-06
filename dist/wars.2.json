@@ -89952,7 +89952,7 @@
   "longName": "冠位戴冠戦",
   "flags": ["changeDispClosedMessage"],
   "banner": "https://static.atlasacademy.io/JP/Banner/chaldea_category_80520.png",
-  "priority": 4000,
+  "priority": 6000,
   "bgm": {
     "id": 0
   },
@@ -89996,6 +89996,16 @@
     "endedAt": 1893423600
   }, {
     "warId": 8395,
+    "type": "banner",
+    "priority": 4,
+    "overwriteId": 80542,
+    "overwriteBanner": "https://static.atlasacademy.io/JP/Banner/chaldea_category_80542.png",
+    "condType": "eventStartToEnd",
+    "targetId": 80571,
+    "startedAt": 1754470800,
+    "endedAt": 1893423600
+  }, {
+    "warId": 8395,
     "type": "priority",
     "priority": 4,
     "overwriteId": 10000,
@@ -90022,7 +90032,7 @@
   "longName": "冠位戴冠戦\nセイバー",
   "flags": ["changeDispClosedMessage"],
   "banner": "https://static.atlasacademy.io/JP/Banner/chaldea_category_80522.png",
-  "priority": 7007,
+  "priority": 7010,
   "parentWarId": 8395,
   "bgm": {
     "id": 0
@@ -91524,7 +91534,7 @@
   "longName": "冠位戴冠戦\nバーサーカー",
   "flags": ["changeDispClosedMessage"],
   "banner": "https://static.atlasacademy.io/JP/Banner/chaldea_category_80528.png",
-  "priority": 7001,
+  "priority": 7004,
   "parentWarId": 8395,
   "bgm": {
     "id": 0
@@ -92252,7 +92262,7 @@
   "longName": "冠位戴冠戦\nランサー",
   "flags": ["changeDispClosedMessage"],
   "banner": "https://static.atlasacademy.io/JP/Banner/chaldea_category_80533.png",
-  "priority": 7005,
+  "priority": 7008,
   "parentWarId": 8395,
   "bgm": {
     "id": 0
@@ -92967,6 +92977,1378 @@
       "noticeAt": 1753243200,
       "openedAt": 1753243200,
       "closedAt": 1893423600
+    }]
+  }]
+}, {
+  "id": 8401,
+  "coordinates": [
+    [],
+    []
+  ],
+  "age": "-",
+  "name": "冠位戴冠戦\nエクストラ",
+  "longName": "冠位戴冠戦\nエクストラ",
+  "flags": ["changeDispClosedMessage"],
+  "banner": "https://static.atlasacademy.io/JP/Banner/chaldea_category_80542.png",
+  "priority": 7003,
+  "parentWarId": 8395,
+  "bgm": {
+    "id": 0
+  },
+  "script": "https://static.atlasacademy.io/JP/Script/Common/NONE.txt",
+  "releaseConditions": [{
+    "condType": "questClear",
+    "condId": 94148900,
+    "warDisplayType": "hide"
+  }],
+  "maps": [{
+    "id": 8401,
+    "mapImage": "https://static.atlasacademy.io/JP/Terminal/MapImgs/img_questmap_008401/img_questmap_008401.png",
+    "bgm": {
+      "id": 0
+    }
+  }],
+  "spots": [{
+    "id": 840101,
+    "mapId": 8401,
+    "name": "カルデアゲート",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter8401/QMap_Cap8401_Atlas/spot_840101.png"
+  }, {
+    "id": 1050004,
+    "blankEarth": true,
+    "mapId": 8401,
+    "name": "",
+    "quests": [{
+      "id": 94148900,
+      "name": "冠位解放戦〔エクストラ〕",
+      "type": "event",
+      "flags": ["noDisplayRemain"],
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "100",
+      "spotId": 1050004,
+      "warId": 8401,
+      "gifts": [{
+        "id": 94148900,
+        "objectId": 70,
+        "num": 10
+      }, {
+        "id": 94148900,
+        "objectId": 1000,
+        "num": 2
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000100
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "priority": 94148900,
+      "noticeAt": 1754470800,
+      "openedAt": 1754470800,
+      "closedAt": 1893423600
+    }]
+  }]
+}, {
+  "id": 8402,
+  "coordinates": [
+    [],
+    []
+  ],
+  "age": "-",
+  "name": "冠位戴冠戦\nエクストラⅠ",
+  "longName": "冠位戴冠戦\nエクストラⅠ",
+  "flags": ["changeDispClosedMessage"],
+  "banner": "https://static.atlasacademy.io/JP/Banner/chaldea_category_80542.png",
+  "priority": 7002,
+  "parentWarId": 8395,
+  "bgm": {
+    "id": 0
+  },
+  "script": "https://static.atlasacademy.io/JP/Script/Common/NONE.txt",
+  "releaseConditions": [{
+    "condType": "questNotClear",
+    "condId": 94148900,
+    "warDisplayType": "hide"
+  }],
+  "maps": [{
+    "id": 8402,
+    "mapImage": "https://static.atlasacademy.io/JP/Terminal/MapImgs/img_questmap_008402/img_questmap_008402.png",
+    "bgm": {
+      "id": 0
+    }
+  }],
+  "spots": [{
+    "id": 840201,
+    "mapId": 8402,
+    "name": "カルデアゲート",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter8402/QMap_Cap8402_Atlas/spot_840201.png"
+  }, {
+    "id": 1050005,
+    "blankEarth": true,
+    "mapId": 8402,
+    "name": "",
+    "quests": [{
+      "id": 94148901,
+      "name": "冠位研鑽戦〔エクストラⅠ〕 火Ⅰ",
+      "type": "event",
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "100",
+      "spotId": 1050005,
+      "warId": 8402,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94148900
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "commonRelease",
+        "targetId": 10148901
+      }],
+      "presents": [{
+        "phase": 1,
+        "gifts": [{
+          "id": 94148902,
+          "type": "servant",
+          "objectId": 9570500,
+          "num": 1
+        }, {
+          "id": 94148902,
+          "type": "servant",
+          "objectId": 9670500,
+          "num": 1
+        }]
+      }],
+      "phases": [1],
+      "priority": 94148901,
+      "noticeAt": 1754470800,
+      "openedAt": 1754470800,
+      "closedAt": 1756871999
+    }, {
+      "id": 94148902,
+      "name": "冠位研鑽戦〔エクストラⅠ〕 火Ⅱ",
+      "type": "event",
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "100+",
+      "spotId": 1050005,
+      "warId": 8402,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94148901
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "commonRelease",
+        "targetId": 10148901
+      }],
+      "presents": [{
+        "phase": 1,
+        "gifts": [{
+          "id": 94148902,
+          "type": "servant",
+          "objectId": 9570500,
+          "num": 1
+        }, {
+          "id": 94148902,
+          "type": "servant",
+          "objectId": 9670500,
+          "num": 1
+        }]
+      }],
+      "phases": [1],
+      "priority": 94148900,
+      "noticeAt": 1754470800,
+      "openedAt": 1754470800,
+      "closedAt": 1756871999
+    }, {
+      "id": 94148903,
+      "name": "冠位研鑽戦〔エクストラⅠ〕 火Ⅲ",
+      "type": "event",
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "100++",
+      "spotId": 1050005,
+      "warId": 8402,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94148901
+      }, {
+        "type": "questClear",
+        "targetId": 94148902,
+        "closedMessage": "「冠位研鑽戦〔エクストラⅠ〕 火Ⅱ」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "commonRelease",
+        "targetId": 10148901
+      }],
+      "presents": [{
+        "phase": 1,
+        "gifts": [{
+          "id": 94148902,
+          "type": "servant",
+          "objectId": 9570500,
+          "num": 1
+        }, {
+          "id": 94148902,
+          "type": "servant",
+          "objectId": 9670500,
+          "num": 1
+        }]
+      }],
+      "phases": [1],
+      "priority": 94148899,
+      "noticeAt": 1754470800,
+      "openedAt": 1754470800,
+      "closedAt": 1756871999
+    }, {
+      "id": 94148904,
+      "name": "冠位研鑽戦〔エクストラⅠ〕 火Ⅳ",
+      "type": "event",
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "100+++",
+      "spotId": 1050005,
+      "warId": 8402,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94148901
+      }, {
+        "type": "questClear",
+        "targetId": 94148903,
+        "closedMessage": "「冠位研鑽戦〔エクストラⅠ〕 火Ⅲ」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "commonRelease",
+        "targetId": 10148901
+      }],
+      "presents": [{
+        "phase": 1,
+        "gifts": [{
+          "id": 94148902,
+          "type": "servant",
+          "objectId": 9570500,
+          "num": 1
+        }, {
+          "id": 94148902,
+          "type": "servant",
+          "objectId": 9670500,
+          "num": 1
+        }]
+      }],
+      "phases": [1],
+      "priority": 94148898,
+      "noticeAt": 1754470800,
+      "openedAt": 1754470800,
+      "closedAt": 1756871999
+    }, {
+      "id": 94148905,
+      "name": "冠位研鑽戦〔エクストラⅠ〕 火Ⅴ",
+      "type": "event",
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "100★",
+      "spotId": 1050005,
+      "warId": 8402,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94148901
+      }, {
+        "type": "questClear",
+        "targetId": 94148904,
+        "closedMessage": "「冠位研鑽戦〔エクストラⅠ〕 火Ⅳ」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "commonRelease",
+        "targetId": 10148901
+      }],
+      "presents": [{
+        "phase": 1,
+        "gifts": [{
+          "id": 94148902,
+          "type": "servant",
+          "objectId": 9570500,
+          "num": 1
+        }, {
+          "id": 94148902,
+          "type": "servant",
+          "objectId": 9670500,
+          "num": 1
+        }]
+      }],
+      "phases": [1],
+      "priority": 94148897,
+      "noticeAt": 1754470800,
+      "openedAt": 1754470800,
+      "closedAt": 1756871999
+    }, {
+      "id": 94148906,
+      "name": "冠位研鑽戦〔エクストラⅠ〕 火Ⅵ",
+      "type": "event",
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "100★★",
+      "spotId": 1050005,
+      "warId": 8402,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94148901
+      }, {
+        "type": "questClear",
+        "targetId": 94148905,
+        "closedMessage": "「冠位研鑽戦〔エクストラⅠ〕 火Ⅴ」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "commonRelease",
+        "targetId": 10148901
+      }],
+      "presents": [{
+        "phase": 1,
+        "gifts": [{
+          "id": 94148902,
+          "type": "servant",
+          "objectId": 9570500,
+          "num": 1
+        }, {
+          "id": 94148902,
+          "type": "servant",
+          "objectId": 9670500,
+          "num": 1
+        }]
+      }],
+      "phases": [1],
+      "priority": 94148896,
+      "noticeAt": 1754470800,
+      "openedAt": 1754470800,
+      "closedAt": 1756871999
+    }, {
+      "id": 94148907,
+      "name": "冠位研鑽戦〔エクストラⅠ〕 火Ⅶ",
+      "type": "event",
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "100★★★",
+      "spotId": 1050005,
+      "warId": 8402,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94148901
+      }, {
+        "type": "questClear",
+        "targetId": 94148906,
+        "closedMessage": "「冠位研鑽戦〔エクストラⅠ〕 火Ⅵ」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "commonRelease",
+        "targetId": 10148901
+      }],
+      "presents": [{
+        "phase": 1,
+        "gifts": [{
+          "id": 94148902,
+          "type": "servant",
+          "objectId": 9570500,
+          "num": 1
+        }, {
+          "id": 94148902,
+          "type": "servant",
+          "objectId": 9670500,
+          "num": 1
+        }]
+      }],
+      "phases": [1],
+      "priority": 94148895,
+      "noticeAt": 1754470800,
+      "openedAt": 1754470800,
+      "closedAt": 1756871999
+    }, {
+      "id": 94148910,
+      "name": "冠位認定戦〔エクストラⅠ〕",
+      "type": "event",
+      "flags": ["noDisplayRemain"],
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "100★",
+      "spotId": 1050005,
+      "warId": 8402,
+      "gifts": [{
+        "id": 94148901,
+        "type": "servant",
+        "objectId": 9408700,
+        "num": 1
+      }, {
+        "id": 94148901,
+        "objectId": 6999,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94148900
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "classBoardSquareReleased",
+        "targetId": 10008,
+        "value": 12,
+        "closedMessage": "〔エクストラⅠ〕のグランドサイン解放数12個以上で開放"
+      }],
+      "phases": [1],
+      "priority": 94148887,
+      "noticeAt": 1754470800,
+      "openedAt": 1754470800,
+      "closedAt": 1893423600
+    }, {
+      "id": 94148911,
+      "name": "冠位研鑽戦〔エクストラⅠ〕 地Ⅰ",
+      "type": "event",
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "100",
+      "spotId": 1050005,
+      "warId": 8402,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94148900
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "commonRelease",
+        "targetId": 10148901
+      }],
+      "presents": [{
+        "phase": 1,
+        "gifts": [{
+          "id": 94148902,
+          "type": "servant",
+          "objectId": 9570500,
+          "num": 1
+        }, {
+          "id": 94148902,
+          "type": "servant",
+          "objectId": 9670500,
+          "num": 1
+        }]
+      }],
+      "phases": [1],
+      "priority": 94148894,
+      "noticeAt": 1754470800,
+      "openedAt": 1754470800,
+      "closedAt": 1756871999
+    }, {
+      "id": 94148912,
+      "name": "冠位研鑽戦〔エクストラⅠ〕 地Ⅱ",
+      "type": "event",
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "100+",
+      "spotId": 1050005,
+      "warId": 8402,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94148911
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "commonRelease",
+        "targetId": 10148901
+      }],
+      "presents": [{
+        "phase": 1,
+        "gifts": [{
+          "id": 94148902,
+          "type": "servant",
+          "objectId": 9570500,
+          "num": 1
+        }, {
+          "id": 94148902,
+          "type": "servant",
+          "objectId": 9670500,
+          "num": 1
+        }]
+      }],
+      "phases": [1],
+      "priority": 94148893,
+      "noticeAt": 1754470800,
+      "openedAt": 1754470800,
+      "closedAt": 1756871999
+    }, {
+      "id": 94148913,
+      "name": "冠位研鑽戦〔エクストラⅠ〕 地Ⅲ",
+      "type": "event",
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "100++",
+      "spotId": 1050005,
+      "warId": 8402,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94148911
+      }, {
+        "type": "questClear",
+        "targetId": 94148912,
+        "closedMessage": "「冠位研鑽戦〔エクストラⅠ〕 地Ⅱ」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "commonRelease",
+        "targetId": 10148901
+      }],
+      "presents": [{
+        "phase": 1,
+        "gifts": [{
+          "id": 94148902,
+          "type": "servant",
+          "objectId": 9570500,
+          "num": 1
+        }, {
+          "id": 94148902,
+          "type": "servant",
+          "objectId": 9670500,
+          "num": 1
+        }]
+      }],
+      "phases": [1],
+      "priority": 94148892,
+      "noticeAt": 1754470800,
+      "openedAt": 1754470800,
+      "closedAt": 1756871999
+    }, {
+      "id": 94148914,
+      "name": "冠位研鑽戦〔エクストラⅠ〕 地Ⅳ",
+      "type": "event",
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "100+++",
+      "spotId": 1050005,
+      "warId": 8402,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94148911
+      }, {
+        "type": "questClear",
+        "targetId": 94148913,
+        "closedMessage": "「冠位研鑽戦〔エクストラⅠ〕 地Ⅲ」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "commonRelease",
+        "targetId": 10148901
+      }],
+      "presents": [{
+        "phase": 1,
+        "gifts": [{
+          "id": 94148902,
+          "type": "servant",
+          "objectId": 9570500,
+          "num": 1
+        }, {
+          "id": 94148902,
+          "type": "servant",
+          "objectId": 9670500,
+          "num": 1
+        }]
+      }],
+      "phases": [1],
+      "priority": 94148891,
+      "noticeAt": 1754470800,
+      "openedAt": 1754470800,
+      "closedAt": 1756871999
+    }, {
+      "id": 94148915,
+      "name": "冠位研鑽戦〔エクストラⅠ〕 地Ⅴ",
+      "type": "event",
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "100★",
+      "spotId": 1050005,
+      "warId": 8402,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94148911
+      }, {
+        "type": "questClear",
+        "targetId": 94148914,
+        "closedMessage": "「冠位研鑽戦〔エクストラⅠ〕 地Ⅳ」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "commonRelease",
+        "targetId": 10148901
+      }],
+      "presents": [{
+        "phase": 1,
+        "gifts": [{
+          "id": 94148902,
+          "type": "servant",
+          "objectId": 9570500,
+          "num": 1
+        }, {
+          "id": 94148902,
+          "type": "servant",
+          "objectId": 9670500,
+          "num": 1
+        }]
+      }],
+      "phases": [1],
+      "priority": 94148890,
+      "noticeAt": 1754470800,
+      "openedAt": 1754470800,
+      "closedAt": 1756871999
+    }, {
+      "id": 94148916,
+      "name": "冠位研鑽戦〔エクストラⅠ〕 地Ⅵ",
+      "type": "event",
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "100★★",
+      "spotId": 1050005,
+      "warId": 8402,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94148911
+      }, {
+        "type": "questClear",
+        "targetId": 94148915,
+        "closedMessage": "「冠位研鑽戦〔エクストラⅠ〕 地Ⅴ」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "commonRelease",
+        "targetId": 10148901
+      }],
+      "presents": [{
+        "phase": 1,
+        "gifts": [{
+          "id": 94148902,
+          "type": "servant",
+          "objectId": 9570500,
+          "num": 1
+        }, {
+          "id": 94148902,
+          "type": "servant",
+          "objectId": 9670500,
+          "num": 1
+        }]
+      }],
+      "phases": [1],
+      "priority": 94148889,
+      "noticeAt": 1754470800,
+      "openedAt": 1754470800,
+      "closedAt": 1756871999
+    }, {
+      "id": 94148917,
+      "name": "冠位研鑽戦〔エクストラⅠ〕 地Ⅶ",
+      "type": "event",
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "100★★★",
+      "spotId": 1050005,
+      "warId": 8402,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94148911
+      }, {
+        "type": "questClear",
+        "targetId": 94148916,
+        "closedMessage": "「冠位研鑽戦〔エクストラⅠ〕 地Ⅵ」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "commonRelease",
+        "targetId": 10148901
+      }],
+      "presents": [{
+        "phase": 1,
+        "gifts": [{
+          "id": 94148902,
+          "type": "servant",
+          "objectId": 9570500,
+          "num": 1
+        }, {
+          "id": 94148902,
+          "type": "servant",
+          "objectId": 9670500,
+          "num": 1
+        }]
+      }],
+      "phases": [1],
+      "priority": 94148888,
+      "noticeAt": 1754470800,
+      "openedAt": 1754470800,
+      "closedAt": 1756871999
+    }]
+  }]
+}, {
+  "id": 8403,
+  "coordinates": [
+    [],
+    []
+  ],
+  "age": "-",
+  "name": "冠位戴冠戦\nエクストラⅡ",
+  "longName": "冠位戴冠戦\nエクストラⅡ",
+  "flags": ["changeDispClosedMessage"],
+  "banner": "https://static.atlasacademy.io/JP/Banner/chaldea_category_80542.png",
+  "priority": 7001,
+  "parentWarId": 8395,
+  "bgm": {
+    "id": 0
+  },
+  "script": "https://static.atlasacademy.io/JP/Script/Common/NONE.txt",
+  "releaseConditions": [{
+    "condType": "questNotClear",
+    "condId": 94148900,
+    "warDisplayType": "hide"
+  }],
+  "maps": [{
+    "id": 8403,
+    "mapImage": "https://static.atlasacademy.io/JP/Terminal/MapImgs/img_questmap_008403/img_questmap_008403.png",
+    "bgm": {
+      "id": 0
+    }
+  }],
+  "spots": [{
+    "id": 840301,
+    "mapId": 8403,
+    "name": "カルデアゲート",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter8403/QMap_Cap8403_Atlas/spot_840301.png"
+  }, {
+    "id": 1050006,
+    "blankEarth": true,
+    "mapId": 8403,
+    "name": "",
+    "quests": [{
+      "id": 94149001,
+      "name": "冠位研鑽戦〔エクストラⅡ〕 風Ⅰ",
+      "type": "event",
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "100",
+      "spotId": 1050006,
+      "warId": 8403,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94148900
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "commonRelease",
+        "targetId": 10148901
+      }],
+      "presents": [{
+        "phase": 1,
+        "gifts": [{
+          "id": 94148931,
+          "type": "servant",
+          "objectId": 9570500,
+          "num": 1
+        }, {
+          "id": 94148931,
+          "type": "servant",
+          "objectId": 9670500,
+          "num": 1
+        }]
+      }],
+      "phases": [1],
+      "priority": 94149001,
+      "noticeAt": 1754470800,
+      "openedAt": 1754470800,
+      "closedAt": 1756871999
+    }, {
+      "id": 94149002,
+      "name": "冠位研鑽戦〔エクストラⅡ〕 風Ⅱ",
+      "type": "event",
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "100+",
+      "spotId": 1050006,
+      "warId": 8403,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94149001
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "commonRelease",
+        "targetId": 10148901
+      }],
+      "presents": [{
+        "phase": 1,
+        "gifts": [{
+          "id": 94148931,
+          "type": "servant",
+          "objectId": 9570500,
+          "num": 1
+        }, {
+          "id": 94148931,
+          "type": "servant",
+          "objectId": 9670500,
+          "num": 1
+        }]
+      }],
+      "phases": [1],
+      "priority": 94149000,
+      "noticeAt": 1754470800,
+      "openedAt": 1754470800,
+      "closedAt": 1756871999
+    }, {
+      "id": 94149003,
+      "name": "冠位研鑽戦〔エクストラⅡ〕 風Ⅲ",
+      "type": "event",
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "100++",
+      "spotId": 1050006,
+      "warId": 8403,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94149001
+      }, {
+        "type": "questClear",
+        "targetId": 94149002,
+        "closedMessage": "「冠位研鑽戦〔エクストラⅡ〕 風Ⅱ」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "commonRelease",
+        "targetId": 10148901
+      }],
+      "presents": [{
+        "phase": 1,
+        "gifts": [{
+          "id": 94148931,
+          "type": "servant",
+          "objectId": 9570500,
+          "num": 1
+        }, {
+          "id": 94148931,
+          "type": "servant",
+          "objectId": 9670500,
+          "num": 1
+        }]
+      }],
+      "phases": [1],
+      "priority": 94148999,
+      "noticeAt": 1754470800,
+      "openedAt": 1754470800,
+      "closedAt": 1756871999
+    }, {
+      "id": 94149004,
+      "name": "冠位研鑽戦〔エクストラⅡ〕 風Ⅳ",
+      "type": "event",
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "100+++",
+      "spotId": 1050006,
+      "warId": 8403,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94149001
+      }, {
+        "type": "questClear",
+        "targetId": 94149003,
+        "closedMessage": "「冠位研鑽戦〔エクストラⅡ〕 風Ⅲ」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "commonRelease",
+        "targetId": 10148901
+      }],
+      "presents": [{
+        "phase": 1,
+        "gifts": [{
+          "id": 94148931,
+          "type": "servant",
+          "objectId": 9570500,
+          "num": 1
+        }, {
+          "id": 94148931,
+          "type": "servant",
+          "objectId": 9670500,
+          "num": 1
+        }]
+      }],
+      "phases": [1],
+      "priority": 94148998,
+      "noticeAt": 1754470800,
+      "openedAt": 1754470800,
+      "closedAt": 1756871999
+    }, {
+      "id": 94149005,
+      "name": "冠位研鑽戦〔エクストラⅡ〕 風Ⅴ",
+      "type": "event",
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "100★",
+      "spotId": 1050006,
+      "warId": 8403,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94149001
+      }, {
+        "type": "questClear",
+        "targetId": 94149004,
+        "closedMessage": "「冠位研鑽戦〔エクストラⅡ〕 風Ⅳ」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "commonRelease",
+        "targetId": 10148901
+      }],
+      "presents": [{
+        "phase": 1,
+        "gifts": [{
+          "id": 94148931,
+          "type": "servant",
+          "objectId": 9570500,
+          "num": 1
+        }, {
+          "id": 94148931,
+          "type": "servant",
+          "objectId": 9670500,
+          "num": 1
+        }]
+      }],
+      "phases": [1],
+      "priority": 94148997,
+      "noticeAt": 1754470800,
+      "openedAt": 1754470800,
+      "closedAt": 1756871999
+    }, {
+      "id": 94149006,
+      "name": "冠位研鑽戦〔エクストラⅡ〕 風Ⅵ",
+      "type": "event",
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "100★★",
+      "spotId": 1050006,
+      "warId": 8403,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94149001
+      }, {
+        "type": "questClear",
+        "targetId": 94149005,
+        "closedMessage": "「冠位研鑽戦〔エクストラⅡ〕 風Ⅴ」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "commonRelease",
+        "targetId": 10148901
+      }],
+      "presents": [{
+        "phase": 1,
+        "gifts": [{
+          "id": 94148931,
+          "type": "servant",
+          "objectId": 9570500,
+          "num": 1
+        }, {
+          "id": 94148931,
+          "type": "servant",
+          "objectId": 9670500,
+          "num": 1
+        }]
+      }],
+      "phases": [1],
+      "priority": 94148996,
+      "noticeAt": 1754470800,
+      "openedAt": 1754470800,
+      "closedAt": 1756871999
+    }, {
+      "id": 94149007,
+      "name": "冠位研鑽戦〔エクストラⅡ〕 風Ⅶ",
+      "type": "event",
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "100★★★",
+      "spotId": 1050006,
+      "warId": 8403,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94149001
+      }, {
+        "type": "questClear",
+        "targetId": 94149006,
+        "closedMessage": "「冠位研鑽戦〔エクストラⅡ〕 風Ⅵ」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "commonRelease",
+        "targetId": 10148901
+      }],
+      "presents": [{
+        "phase": 1,
+        "gifts": [{
+          "id": 94148931,
+          "type": "servant",
+          "objectId": 9570500,
+          "num": 1
+        }, {
+          "id": 94148931,
+          "type": "servant",
+          "objectId": 9670500,
+          "num": 1
+        }]
+      }],
+      "phases": [1],
+      "priority": 94148995,
+      "noticeAt": 1754470800,
+      "openedAt": 1754470800,
+      "closedAt": 1756871999
+    }, {
+      "id": 94149010,
+      "name": "冠位認定戦〔エクストラⅡ〕",
+      "type": "event",
+      "flags": ["noDisplayRemain"],
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "100★",
+      "spotId": 1050006,
+      "warId": 8403,
+      "gifts": [{
+        "id": 94148929,
+        "type": "servant",
+        "objectId": 9408710,
+        "num": 1
+      }, {
+        "id": 94148929,
+        "objectId": 6999,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94148900
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "classBoardSquareReleased",
+        "targetId": 10009,
+        "value": 12,
+        "closedMessage": "〔エクストラⅡ〕のグランドサイン解放数12個以上で開放"
+      }],
+      "phases": [1],
+      "priority": 94148987,
+      "noticeAt": 1754470800,
+      "openedAt": 1754470800,
+      "closedAt": 1893423600
+    }, {
+      "id": 94149011,
+      "name": "冠位研鑽戦〔エクストラⅡ〕 水Ⅰ",
+      "type": "event",
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "100",
+      "spotId": 1050006,
+      "warId": 8403,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94148900
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "commonRelease",
+        "targetId": 10148901
+      }],
+      "presents": [{
+        "phase": 1,
+        "gifts": [{
+          "id": 94148931,
+          "type": "servant",
+          "objectId": 9570500,
+          "num": 1
+        }, {
+          "id": 94148931,
+          "type": "servant",
+          "objectId": 9670500,
+          "num": 1
+        }]
+      }],
+      "phases": [1],
+      "priority": 94148994,
+      "noticeAt": 1754470800,
+      "openedAt": 1754470800,
+      "closedAt": 1756871999
+    }, {
+      "id": 94149012,
+      "name": "冠位研鑽戦〔エクストラⅡ〕 水Ⅱ",
+      "type": "event",
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "100+",
+      "spotId": 1050006,
+      "warId": 8403,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94149011
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "commonRelease",
+        "targetId": 10148901
+      }],
+      "presents": [{
+        "phase": 1,
+        "gifts": [{
+          "id": 94148931,
+          "type": "servant",
+          "objectId": 9570500,
+          "num": 1
+        }, {
+          "id": 94148931,
+          "type": "servant",
+          "objectId": 9670500,
+          "num": 1
+        }]
+      }],
+      "phases": [1],
+      "priority": 94148993,
+      "noticeAt": 1754470800,
+      "openedAt": 1754470800,
+      "closedAt": 1756871999
+    }, {
+      "id": 94149013,
+      "name": "冠位研鑽戦〔エクストラⅡ〕 水Ⅲ",
+      "type": "event",
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "100++",
+      "spotId": 1050006,
+      "warId": 8403,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94149011
+      }, {
+        "type": "questClear",
+        "targetId": 94149012,
+        "closedMessage": "「冠位研鑽戦〔エクストラⅡ〕 水Ⅱ」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "commonRelease",
+        "targetId": 10148901
+      }],
+      "presents": [{
+        "phase": 1,
+        "gifts": [{
+          "id": 94148931,
+          "type": "servant",
+          "objectId": 9570500,
+          "num": 1
+        }, {
+          "id": 94148931,
+          "type": "servant",
+          "objectId": 9670500,
+          "num": 1
+        }]
+      }],
+      "phases": [1],
+      "priority": 94148992,
+      "noticeAt": 1754470800,
+      "openedAt": 1754470800,
+      "closedAt": 1756871999
+    }, {
+      "id": 94149014,
+      "name": "冠位研鑽戦〔エクストラⅡ〕 水Ⅳ",
+      "type": "event",
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "100+++",
+      "spotId": 1050006,
+      "warId": 8403,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94149011
+      }, {
+        "type": "questClear",
+        "targetId": 94149013,
+        "closedMessage": "「冠位研鑽戦〔エクストラⅡ〕 水Ⅲ」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "commonRelease",
+        "targetId": 10148901
+      }],
+      "presents": [{
+        "phase": 1,
+        "gifts": [{
+          "id": 94148931,
+          "type": "servant",
+          "objectId": 9570500,
+          "num": 1
+        }, {
+          "id": 94148931,
+          "type": "servant",
+          "objectId": 9670500,
+          "num": 1
+        }]
+      }],
+      "phases": [1],
+      "priority": 94148991,
+      "noticeAt": 1754470800,
+      "openedAt": 1754470800,
+      "closedAt": 1756871999
+    }, {
+      "id": 94149015,
+      "name": "冠位研鑽戦〔エクストラⅡ〕 水Ⅴ",
+      "type": "event",
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "100★",
+      "spotId": 1050006,
+      "warId": 8403,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94149011
+      }, {
+        "type": "questClear",
+        "targetId": 94149014,
+        "closedMessage": "「冠位研鑽戦〔エクストラⅡ〕 水Ⅳ」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "commonRelease",
+        "targetId": 10148901
+      }],
+      "presents": [{
+        "phase": 1,
+        "gifts": [{
+          "id": 94148931,
+          "type": "servant",
+          "objectId": 9570500,
+          "num": 1
+        }, {
+          "id": 94148931,
+          "type": "servant",
+          "objectId": 9670500,
+          "num": 1
+        }]
+      }],
+      "phases": [1],
+      "priority": 94148990,
+      "noticeAt": 1754470800,
+      "openedAt": 1754470800,
+      "closedAt": 1756871999
+    }, {
+      "id": 94149016,
+      "name": "冠位研鑽戦〔エクストラⅡ〕 水Ⅵ",
+      "type": "event",
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "100★★",
+      "spotId": 1050006,
+      "warId": 8403,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94149011
+      }, {
+        "type": "questClear",
+        "targetId": 94149015,
+        "closedMessage": "「冠位研鑽戦〔エクストラⅡ〕 水Ⅴ」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "commonRelease",
+        "targetId": 10148901
+      }],
+      "presents": [{
+        "phase": 1,
+        "gifts": [{
+          "id": 94148931,
+          "type": "servant",
+          "objectId": 9570500,
+          "num": 1
+        }, {
+          "id": 94148931,
+          "type": "servant",
+          "objectId": 9670500,
+          "num": 1
+        }]
+      }],
+      "phases": [1],
+      "priority": 94148989,
+      "noticeAt": 1754470800,
+      "openedAt": 1754470800,
+      "closedAt": 1756871999
+    }, {
+      "id": 94149017,
+      "name": "冠位研鑽戦〔エクストラⅡ〕 水Ⅶ",
+      "type": "event",
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "100★★★",
+      "spotId": 1050006,
+      "warId": 8403,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94149011
+      }, {
+        "type": "questClear",
+        "targetId": 94149016,
+        "closedMessage": "「冠位研鑽戦〔エクストラⅡ〕 水Ⅵ」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "commonRelease",
+        "targetId": 10148901
+      }],
+      "presents": [{
+        "phase": 1,
+        "gifts": [{
+          "id": 94148931,
+          "type": "servant",
+          "objectId": 9570500,
+          "num": 1
+        }, {
+          "id": 94148931,
+          "type": "servant",
+          "objectId": 9670500,
+          "num": 1
+        }]
+      }],
+      "phases": [1],
+      "priority": 94148988,
+      "noticeAt": 1754470800,
+      "openedAt": 1754470800,
+      "closedAt": 1756871999
     }]
   }]
 }]

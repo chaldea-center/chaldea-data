@@ -55721,6 +55721,36 @@
     }]
   }]
 }, {
+  "funcId": 22796,
+  "funcType": "expUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "functvals": [{
+    "id": 108
+  }, {
+    "id": 110
+  }, {
+    "id": 115
+  }, {
+    "id": 107
+  }]
+}, {
+  "funcId": 22797,
+  "funcType": "expUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "functvals": [{
+    "id": 109
+  }, {
+    "id": 117
+  }, {
+    "id": 120
+  }, {
+    "id": 135
+  }, {
+    "id": 132
+  }]
+}, {
   "funcId": 22820,
   "funcType": "addState",
   "funcTargetType": "self",
@@ -55981,6 +56011,78 @@
       "id": 3004
     }, {
       "id": 3084
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 22837,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "バスターアップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_314.png",
+  "functvals": [{
+    "id": 301
+  }],
+  "buffs": [{
+    "id": 102,
+    "name": "Busterアップ",
+    "detail": "Busterカードの性能をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_314.png",
+    "type": "upCommandall",
+    "originalScript": {
+      "ProgressSelfTurn": 1
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3093
+    }],
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4002
+    }],
+    "ckSelfIndv": [{
+      "id": 4002
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 22838,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "バスターアップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_314.png",
+  "functvals": [{
+    "id": 2019
+  }],
+  "buffs": [{
+    "id": 102,
+    "name": "Busterアップ",
+    "detail": "Busterカードの性能をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_314.png",
+    "type": "upCommandall",
+    "originalScript": {
+      "ProgressSelfTurn": 1
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3093
+    }],
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4002
+    }],
+    "ckSelfIndv": [{
+      "id": 4002
     }],
     "maxRate": 5000
   }]
@@ -59473,6 +59575,1068 @@
       "id": 3031
     }],
     "maxRate": 50000
+  }]
+}, {
+  "funcId": 30259,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "クイックチェイン成立時発動効果",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_420.png",
+  "buffs": [{
+    "id": 30132,
+    "name": "クイックチェイン成立時発動効果",
+    "detail": "自身のコマンドカードを含むクイックチェイン成立時、味方全体のQuickカードの威力をアップ＋自身の被クリティカル発生耐性をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_420.png",
+    "type": "confirmCommandFunction",
+    "vals": [{
+      "id": 3004
+    }],
+    "ckSelfIndv": [{
+      "id": 4104
+    }]
+  }]
+}, {
+  "funcId": 30260,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "アーツチェイン成立時発動効果",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_421.png",
+  "buffs": [{
+    "id": 30133,
+    "name": "アーツチェイン成立時発動効果",
+    "detail": "自身のコマンドカードを含むアーツチェイン成立時、味方全体のArtsカードの威力をアップ＋自身の被ダメージ時のNP獲得量をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_421.png",
+    "type": "confirmCommandFunction",
+    "vals": [{
+      "id": 3004
+    }],
+    "ckSelfIndv": [{
+      "id": 4105
+    }]
+  }]
+}, {
+  "funcId": 30261,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "バスターチェイン成立時発動効果",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_422.png",
+  "buffs": [{
+    "id": 30134,
+    "name": "バスターチェイン成立時発動効果",
+    "detail": "自身のコマンドカードを含むバスターチェイン成立時、味方全体のBusterカードの威力をアップ＋自身の〔対敵注視〕状態の敵へのクリティカル威力をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_422.png",
+    "type": "confirmCommandFunction",
+    "vals": [{
+      "id": 3004
+    }],
+    "ckSelfIndv": [{
+      "id": 4106
+    }]
+  }]
+}, {
+  "funcId": 30262,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "マイティチェイン成立時発動効果",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_424.png",
+  "buffs": [{
+    "id": 30135,
+    "name": "マイティチェイン成立時発動効果",
+    "detail": "自身のコマンドカードを含むマイティチェイン成立時、自身に「被ダメージ時に自身の攻撃力をアップする状態」を付与＆「攻撃時に対象に〔対敵注視〕状態を付与する状態」を付与",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_424.png",
+    "type": "confirmCommandFunction",
+    "vals": [{
+      "id": 3004
+    }],
+    "ckSelfIndv": [{
+      "id": 4107
+    }]
+  }]
+}, {
+  "funcId": 30263,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "不倒の知る辺（此方）",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_331.png",
+  "buffs": [{
+    "id": 30136,
+    "name": "不倒の知る辺（此方）",
+    "detail": "宝具チェインを除くチェイン不成立時、自身に無敵状態(強化解除不能・グランドサイン効果以外の他の無敵状態と重複可能)を付与<1度使用すると再使用に4ターン必要>",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_331.png",
+    "type": "confirmCommandFunction",
+    "script": {
+      "checkIndvType": 2
+    },
+    "originalScript": {
+      "checkIndvType": 2
+    },
+    "vals": [{
+      "id": 3004
+    }],
+    "ckSelfIndv": [{
+      "id": 4104,
+      "negative": true
+    }, {
+      "id": 4105,
+      "negative": true
+    }, {
+      "id": 4106,
+      "negative": true
+    }, {
+      "id": 4107,
+      "negative": true
+    }, {
+      "id": 4108,
+      "negative": true
+    }]
+  }]
+}, {
+  "funcId": 30264,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "クイック威力アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_356.png",
+  "buffs": [{
+    "id": 30070,
+    "name": "Quick威力アップ",
+    "detail": "Quickカードの威力をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_356.png",
+    "type": "upCommandatk",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }],
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4003
+    }],
+    "ckSelfIndv": [{
+      "id": 4003
+    }],
+    "maxRate": 50000
+  }]
+}, {
+  "funcId": 30265,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "アーツ威力アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_357.png",
+  "buffs": [{
+    "id": 30071,
+    "name": "Arts威力アップ",
+    "detail": "Artsカードの威力をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_357.png",
+    "type": "upCommandatk",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }],
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4001
+    }],
+    "ckSelfIndv": [{
+      "id": 4001
+    }],
+    "maxRate": 50000
+  }]
+}, {
+  "funcId": 30266,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "バスター威力アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_358.png",
+  "buffs": [{
+    "id": 30072,
+    "name": "Buster威力アップ",
+    "detail": "Busterカードの威力をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_358.png",
+    "type": "upCommandatk",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }],
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4002
+    }],
+    "ckSelfIndv": [{
+      "id": 4002
+    }],
+    "maxRate": 50000
+  }]
+}, {
+  "funcId": 30267,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "威力アップ・対 対敵注視",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+  "buffs": [{
+    "id": 30137,
+    "name": "熾炎翻す（此方）",
+    "detail": "〔対敵注視〕状態の敵に与えるダメージをアップ<毎ターン徐々に効果アップ>",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamage",
+    "originalScript": {
+      "ProgressSelfTurn": 1
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3028
+    }],
+    "tvals": [{
+      "id": 3115
+    }],
+    "ckOpIndv": [{
+      "id": 3115
+    }],
+    "maxRate": 50000
+  }]
+}, {
+  "funcId": 30268,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "防御力アップ・対 対敵注視",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_301.png",
+  "buffs": [{
+    "id": 30138,
+    "name": "先陣守護（此方）",
+    "detail": "〔対敵注視〕状態の敵に対する防御力をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_301.png",
+    "type": "upDefence",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3007
+    }, {
+      "id": 3040
+    }, {
+      "id": 3058
+    }],
+    "tvals": [{
+      "id": 3115
+    }],
+    "ckOpIndv": [{
+      "id": 3115
+    }],
+    "maxRate": 50000
+  }]
+}, {
+  "funcId": 30269,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "先陣守護（此方）",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_301.png",
+  "buffs": [{
+    "id": 30139,
+    "name": "先陣守護（此方）",
+    "detail": "無敵状態の間、防御力をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_301.png",
+    "type": "upDefence",
+    "script": {
+      "INDIVIDUALITIE": {
+        "id": 3022
+      }
+    },
+    "originalScript": {
+      "INDIVIDUALITIE": 3022
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3007
+    }, {
+      "id": 3040
+    }, {
+      "id": 3058
+    }],
+    "maxRate": 50000
+  }]
+}, {
+  "funcId": 30270,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "無敵",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_311.png",
+  "buffs": [{
+    "id": 30140,
+    "name": "無敵",
+    "detail": "必中を無視して、攻撃によるダメージを0にする(グランドサイン効果以外の他の無敵状態と重複可能)",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_311.png",
+    "type": "invincible",
+    "buffGroup": 30140,
+    "originalScript": {
+      "ProgressSelfTurn": 0
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3018
+    }, {
+      "id": 3022
+    }, {
+      "id": 3007
+    }]
+  }]
+}, {
+  "funcId": 30271,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "被クリティカル発生耐性アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_363.png",
+  "buffs": [{
+    "id": 30141,
+    "name": "被クリティカル発生耐性アップ",
+    "detail": "クリティカル攻撃を受ける確率を減らす",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_363.png",
+    "type": "downCriticalRateDamageTaken",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3113
+    }],
+    "maxRate": 50000
+  }]
+}, {
+  "funcId": 30272,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "被ダメージ時NP獲得アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_335.png",
+  "buffs": [{
+    "id": 30142,
+    "name": "被ダメージ時NP獲得アップ",
+    "detail": "被ダメージ時のNP獲得量をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_335.png",
+    "type": "upDamagedropnp",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3084
+    }],
+    "maxRate": 50000
+  }]
+}, {
+  "funcId": 30273,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "クリティカル威力アップ〔対敵注視〕",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_324.png",
+  "buffs": [{
+    "id": 30143,
+    "name": "クリティカル威力アップ〔対敵注視〕",
+    "detail": "〔対敵注視〕状態の敵に与えるクリティカル時のダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_324.png",
+    "type": "upCriticaldamage",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3031
+    }],
+    "ckOpIndv": [{
+      "id": 3115
+    }],
+    "maxRate": 50000
+  }]
+}, {
+  "funcId": 30274,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "被ダメージ時発動",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_331.png",
+  "buffs": [{
+    "id": 30144,
+    "name": "被ダメージ時発動",
+    "detail": "攻撃を受けると自身の攻撃力をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_331.png",
+    "type": "damageFunction",
+    "vals": [{
+      "id": 3004
+    }],
+    "tvals": [{
+      "id": 5000
+    }]
+  }]
+}, {
+  "funcId": 30275,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "攻撃時追加効果",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_528.png",
+  "buffs": [{
+    "id": 30145,
+    "name": "攻撃時追加効果",
+    "detail": "攻撃時、対象に〔対敵注視〕状態を付与",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_528.png",
+    "type": "attackAfterFunction",
+    "vals": [{
+      "id": 3004
+    }],
+    "tvals": [{
+      "id": 5000
+    }]
+  }]
+}, {
+  "funcId": 30281,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "クイックチェイン成立時発動効果",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_420.png",
+  "buffs": [{
+    "id": 30150,
+    "name": "クイックチェイン成立時発動効果",
+    "detail": "自身のコマンドカードを含むクイックチェイン成立時、自身に「攻撃時に対象の強化状態を1つ解除する状態」を付与＆〔増幅負荷〕状態を3つ付与【デメリット】",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_420.png",
+    "type": "confirmCommandFunction",
+    "vals": [{
+      "id": 3004
+    }],
+    "ckSelfIndv": [{
+      "id": 4104
+    }]
+  }]
+}, {
+  "funcId": 30282,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "アーツチェイン成立時発動効果",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_421.png",
+  "buffs": [{
+    "id": 30151,
+    "name": "アーツチェイン成立時発動効果",
+    "detail": "自身のコマンドカードを含むアーツチェイン成立時、味方全体の被強化成功率をアップ＋自身の弱体付与成功率をアップ＆〔増幅負荷〕状態を2つ付与【デメリット】",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_421.png",
+    "type": "confirmCommandFunction",
+    "vals": [{
+      "id": 3004
+    }],
+    "ckSelfIndv": [{
+      "id": 4105
+    }]
+  }]
+}, {
+  "funcId": 30283,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "バスターチェイン成立時発動効果",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_422.png",
+  "buffs": [{
+    "id": 30152,
+    "name": "バスターチェイン成立時発動効果",
+    "detail": "自身のコマンドカードを含むバスターチェイン成立時、味方全体のクリティカル威力をアップ＋自身に〔増幅負荷〕状態を1つ付与【デメリット】",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_422.png",
+    "type": "confirmCommandFunction",
+    "vals": [{
+      "id": 3004
+    }],
+    "ckSelfIndv": [{
+      "id": 4106
+    }]
+  }]
+}, {
+  "funcId": 30284,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "マイティチェイン成立時発動効果",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_424.png",
+  "buffs": [{
+    "id": 30153,
+    "name": "マイティチェイン成立時発動効果",
+    "detail": "自身のコマンドカードを含むマイティチェイン成立時、自身のExtra Attackカードの威力をアップ＆「通常攻撃時に対象と自身に〔放出残滓〕状態を付与する状態」を付与＆被弱体解除成功率をダウン【デメリット】",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_424.png",
+    "type": "confirmCommandFunction",
+    "vals": [{
+      "id": 3004
+    }],
+    "ckSelfIndv": [{
+      "id": 4107
+    }]
+  }]
+}, {
+  "funcId": 30285,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "不朽の寄る辺（彼方）",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_331.png",
+  "buffs": [{
+    "id": 30154,
+    "name": "不朽の寄る辺（彼方）",
+    "detail": "宝具チェインを除くチェイン不成立時、自身の宝具攻撃耐性をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_331.png",
+    "type": "confirmCommandFunction",
+    "script": {
+      "checkIndvType": 2
+    },
+    "originalScript": {
+      "checkIndvType": 2
+    },
+    "vals": [{
+      "id": 3004
+    }],
+    "ckSelfIndv": [{
+      "id": 4104,
+      "negative": true
+    }, {
+      "id": 4105,
+      "negative": true
+    }, {
+      "id": 4106,
+      "negative": true
+    }, {
+      "id": 4107,
+      "negative": true
+    }, {
+      "id": 4108,
+      "negative": true
+    }]
+  }]
+}, {
+  "funcId": 30286,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "理の傍ら（彼方）",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_396.png",
+  "buffs": [{
+    "id": 30155,
+    "name": "理の傍ら（彼方）",
+    "detail": "宝具使用時、自身に「〔対極共生〕による状態効果の変換確率を100%にアップ＆〔放出残滓〕と〔増幅負荷〕が自身の耐性を無視するようになる【デメリット】状態」を付与",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_396.png",
+    "type": "treasureDeviceAfterFunction",
+    "vals": [{
+      "id": 3004
+    }]
+  }]
+}, {
+  "funcId": 30287,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "対極共生（彼方）",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+  "buffs": [{
+    "id": 30156,
+    "name": "対極共生（彼方）",
+    "detail": "〔弱体状態〕の敵に与えるダメージをアップ<対象の〔弱体状態〕が多いほど特攻威力アップ(最大5個)>",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamage",
+    "originalScript": {
+      "ProgressSelfTurn": 1
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3028
+    }],
+    "maxRate": 50000
+  }]
+}, {
+  "funcId": 30288,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "対極共生（彼方）",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+  "buffs": [{
+    "id": 30157,
+    "name": "対極共生（彼方）",
+    "detail": "与えるダメージをアップ<自身の〔弱体状態〕が多いほど威力アップ(最大5個)>",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamage",
+    "originalScript": {
+      "ProgressSelfTurn": 1
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3028
+    }],
+    "maxRate": 50000
+  }]
+}, {
+  "funcId": 30289,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "対極共生（彼方）",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_306.png",
+  "buffs": [{
+    "id": 30158,
+    "name": "対極共生（彼方）",
+    "detail": "自身に付与される〔増幅負荷〕による攻撃力ダウン効果を攻撃力アップ効果に確率で変換する",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_306.png",
+    "type": "buffConvert",
+    "script": {
+      "convert": {
+        "targetLimit": "all",
+        "convertType": "buff",
+        "targets": [{
+          "id": 30165,
+          "name": "増幅負荷",
+          "originalName": "増幅負荷",
+          "detail": "攻撃力をダウン",
+          "type": "downAtk",
+          "buffGroup": 0,
+          "originalScript": {},
+          "vals": [{
+            "id": 3005,
+            "name": "buffNegativeEffect"
+          }, {
+            "id": 3008,
+            "name": "buffDecreaseDamage"
+          }, {
+            "id": 3033,
+            "name": "buffAtkDown"
+          }, {
+            "id": 3116,
+            "name": "unknown"
+          }],
+          "tvals": [],
+          "ckSelfIndv": [],
+          "ckOpIndv": [],
+          "maxRate": 50000,
+          "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_503.png",
+          "script": {}
+        }],
+        "targetBuffs": [{
+          "id": 30165,
+          "name": "増幅負荷",
+          "originalName": "増幅負荷",
+          "detail": "攻撃力をダウン",
+          "type": "downAtk",
+          "buffGroup": 0,
+          "originalScript": {},
+          "vals": [{
+            "id": 3005,
+            "name": "buffNegativeEffect"
+          }, {
+            "id": 3008,
+            "name": "buffDecreaseDamage"
+          }, {
+            "id": 3033,
+            "name": "buffAtkDown"
+          }, {
+            "id": 3116,
+            "name": "unknown"
+          }],
+          "tvals": [],
+          "ckSelfIndv": [],
+          "ckOpIndv": [],
+          "maxRate": 50000,
+          "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_503.png",
+          "script": {}
+        }],
+        "convertBuffs": [{
+          "id": 30164,
+          "name": "増幅負荷",
+          "originalName": "増幅負荷",
+          "detail": "攻撃力をアップ(弱体扱い)",
+          "type": "upAtk",
+          "buffGroup": 0,
+          "originalScript": {},
+          "vals": [{
+            "id": 3005,
+            "name": "buffNegativeEffect"
+          }, {
+            "id": 3008,
+            "name": "buffDecreaseDamage"
+          }, {
+            "id": 3033,
+            "name": "buffAtkDown"
+          }, {
+            "id": 3116,
+            "name": "unknown"
+          }],
+          "tvals": [],
+          "ckSelfIndv": [],
+          "ckOpIndv": [],
+          "maxRate": 50000,
+          "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_300.png",
+          "script": {}
+        }],
+        "script": {
+          "OverwritePopupText": ["増幅負荷"]
+        },
+        "effectId": 330
+      }
+    },
+    "originalScript": {
+      "convert": {
+        "buffId": 30158,
+        "script": {
+          "OverwritePopupText": ["増幅負荷"],
+          "OverwritePopupColor": [2]
+        },
+        "effectId": 330,
+        "targetIds": [30165],
+        "convertType": 1,
+        "targetBuffs": [{
+          "id": 30165,
+          "name": "増幅負荷",
+          "type": 10,
+          "vals": [3005, 3008, 3033, 3116],
+          "tvals": [],
+          "detail": "攻撃力をダウン",
+          "iconId": 503,
+          "script": {},
+          "maxRate": 50000,
+          "ckOpIndv": [],
+          "buffGroup": 0,
+          "ckSelfIndv": []
+        }],
+        "targetLimit": 0,
+        "convertBuffs": [{
+          "id": 30164,
+          "name": "増幅負荷",
+          "type": 9,
+          "vals": [3005, 3008, 3033, 3116],
+          "tvals": [],
+          "detail": "攻撃力をアップ(弱体扱い)",
+          "iconId": 300,
+          "script": {},
+          "maxRate": 50000,
+          "ckOpIndv": [],
+          "buffGroup": 0,
+          "ckSelfIndv": []
+        }],
+        "convertBuffIds": [30164]
+      }
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3118
+    }]
+  }]
+}, {
+  "funcId": 30290,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "対極共生（彼方）",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_318.png",
+  "buffs": [{
+    "id": 30159,
+    "name": "対極共生（彼方）",
+    "detail": "〔放出残滓〕によるダメージをHP回復効果に確率で変換する",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_318.png",
+    "type": "hpReduceToRegain",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3118
+    }]
+  }]
+}, {
+  "funcId": 30291,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "宝具攻撃耐性アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_334.png",
+  "buffs": [{
+    "id": 30160,
+    "name": "宝具攻撃耐性アップ",
+    "detail": "宝具攻撃耐性をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_334.png",
+    "type": "upSpecialdefence",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3007
+    }, {
+      "id": 3040
+    }, {
+      "id": 3058
+    }],
+    "ckOpIndv": [{
+      "id": 4007
+    }],
+    "maxRate": 50000
+  }]
+}, {
+  "funcId": 30292,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "理の傍ら",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_406.png",
+  "buffs": [{
+    "id": 30161,
+    "name": "理の傍ら",
+    "detail": "〔対極共生〕による状態効果の変換確率をアップ＆〔放出残滓〕と〔増幅負荷〕が自身の耐性を無視するようになる【デメリット】",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_406.png",
+    "type": "overwriteBuffUseRate",
+    "vals": [{
+      "id": 3119
+    }],
+    "maxRate": 50000
+  }]
+}, {
+  "funcId": 30293,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "攻撃時追加効果",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_528.png",
+  "buffs": [{
+    "id": 30162,
+    "name": "攻撃時追加効果",
+    "detail": "攻撃時、対象の強化状態を1つ解除",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_528.png",
+    "type": "attackAfterFunction",
+    "vals": [{
+      "id": 3004
+    }],
+    "tvals": [{
+      "id": 5000
+    }]
+  }]
+}, {
+  "funcId": 30294,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "通常攻撃時追加効果",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_528.png",
+  "buffs": [{
+    "id": 30163,
+    "name": "通常攻撃時追加効果",
+    "detail": "通常攻撃時、対象と自身に〔放出残滓〕状態を付与",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_528.png",
+    "type": "commandattackAfterFunction",
+    "vals": [{
+      "id": 3004
+    }],
+    "tvals": [{
+      "id": 5000
+    }]
+  }]
+}, {
+  "funcId": 30295,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "増幅負荷",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_503.png",
+  "functvals": [{
+    "id": 3119,
+    "negative": true
+  }],
+  "buffs": [{
+    "id": 30165,
+    "name": "増幅負荷",
+    "detail": "攻撃力をダウン",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_503.png",
+    "type": "downAtk",
+    "vals": [{
+      "id": 3005
+    }, {
+      "id": 3008
+    }, {
+      "id": 3033
+    }, {
+      "id": 3116
+    }],
+    "maxRate": 50000
+  }]
+}, {
+  "funcId": 30296,
+  "funcType": "addState",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "被強化成功率アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_306.png",
+  "buffs": [{
+    "id": 30166,
+    "name": "被強化成功率アップ",
+    "detail": "被強化成功率をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_306.png",
+    "type": "downTolerance",
+    "vals": [{
+      "id": 3004
+    }],
+    "ckOpIndv": [{
+      "id": 3004
+    }],
+    "maxRate": 50000
+  }]
+}, {
+  "funcId": 30299,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "クリティカル威力アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_324.png",
+  "buffs": [{
+    "id": 30089,
+    "name": "クリティカル威力アップ",
+    "detail": "クリティカル時のダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_324.png",
+    "type": "upCriticaldamage",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3031
+    }],
+    "maxRate": 50000
+  }]
+}, {
+  "funcId": 30300,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "被弱体解除成功率ダウン",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_544.png",
+  "buffs": [{
+    "id": 30168,
+    "name": "被弱体解除成功率ダウン",
+    "detail": "被弱体解除成功率をダウン",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_544.png",
+    "type": "upToleranceSubstate",
+    "vals": [{
+      "id": 3005
+    }],
+    "ckOpIndv": [{
+      "id": 3005
+    }, {
+      "id": 3008
+    }, {
+      "id": 3009
+    }, {
+      "id": 3010
+    }, {
+      "id": 3045
+    }, {
+      "id": 3020
+    }, {
+      "id": 3025
+    }, {
+      "id": 3056
+    }, {
+      "id": 3011
+    }, {
+      "id": 3015
+    }, {
+      "id": 3026
+    }],
+    "maxRate": 50000
+  }]
+}, {
+  "funcId": 30301,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "弱体付与アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_307.png",
+  "buffs": [{
+    "id": 30169,
+    "name": "弱体付与アップ",
+    "detail": "弱体付与率をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_307.png",
+    "type": "upGrantstate",
+    "vals": [{
+      "id": 3004
+    }],
+    "ckSelfIndv": [{
+      "id": 3005
+    }],
+    "maxRate": 50000
+  }]
+}, {
+  "funcId": 30303,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "増幅負荷",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_503.png",
+  "functvals": [{
+    "id": 3119
+  }],
+  "buffs": [{
+    "id": 30165,
+    "name": "増幅負荷",
+    "detail": "攻撃力をダウン",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_503.png",
+    "type": "downAtk",
+    "vals": [{
+      "id": 3005
+    }, {
+      "id": 3008
+    }, {
+      "id": 3033
+    }, {
+      "id": 3116
+    }],
+    "maxRate": 50000
+  }]
+}, {
+  "funcId": 30304,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "先陣守護（此方）",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_301.png",
+  "buffs": [{
+    "id": 30170,
+    "name": "先陣守護（此方）",
+    "detail": "〔対敵注視〕状態の敵からの被ダメージを減らす",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_301.png",
+    "type": "subSelfdamage",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3007
+    }, {
+      "id": 3085
+    }, {
+      "id": 3040
+    }],
+    "tvals": [{
+      "id": 3115
+    }],
+    "ckOpIndv": [{
+      "id": 3115
+    }]
   }]
 }, {
   "funcId": 94100501,
