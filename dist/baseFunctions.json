@@ -17488,6 +17488,32 @@
     "maxRate": 5000
   }]
 }, {
+  "funcId": 3469,
+  "funcType": "addStateShort",
+  "funcTargetType": "enemyAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "魅了耐性ダウン",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_506.png",
+  "buffs": [{
+    "id": 217,
+    "name": "魅了耐性ダウン(精神異常)",
+    "detail": "魅了耐性をダウン",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_506.png",
+    "type": "downTolerance",
+    "vals": [{
+      "id": 3005
+    }, {
+      "id": 3010
+    }],
+    "tvals": [{
+      "id": 3012
+    }],
+    "ckOpIndv": [{
+      "id": 3012
+    }],
+    "maxRate": 5000
+  }]
+}, {
   "funcId": 3471,
   "funcType": "addStateShort",
   "funcTargetType": "ptOtherFull",
@@ -56103,6 +56129,36 @@
     "vals": [{
       "id": 3004
     }]
+  }]
+}, {
+  "funcId": 22842,
+  "funcType": "addStateShort",
+  "funcTargetType": "enemyAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "防御力ダウン〔魅了〕",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_504.png",
+  "buffs": [{
+    "id": 5898,
+    "name": "防御力ダウン〔魅了〕",
+    "detail": "〔魅了〕状態の時に防御力をダウン",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_504.png",
+    "type": "downDefence",
+    "script": {
+      "INDIVIDUALITIE": {
+        "id": 3012
+      }
+    },
+    "originalScript": {
+      "INDIVIDUALITIE": 3012
+    },
+    "vals": [{
+      "id": 3005
+    }, {
+      "id": 3009
+    }, {
+      "id": 3110
+    }],
+    "maxRate": 5000
   }]
 }, {
   "funcId": 30003,
