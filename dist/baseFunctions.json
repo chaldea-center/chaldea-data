@@ -12562,6 +12562,34 @@
     }]
   }]
 }, {
+  "funcId": 1592,
+  "funcType": "addStateShort",
+  "funcTargetType": "enemy",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "クイック耐性ダウン",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_539.png",
+  "buffs": [{
+    "id": 504,
+    "name": "Quick攻撃耐性ダウン",
+    "detail": "Quickカードの攻撃による被ダメージ、被NP発生量、被スター発生率が増加する",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_539.png",
+    "type": "downDefencecommandall",
+    "vals": [{
+      "id": 3005
+    }, {
+      "id": 3009
+    }],
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4003
+    }],
+    "ckOpIndv": [{
+      "id": 4003
+    }],
+    "maxRate": 5000
+  }]
+}, {
   "funcId": 1593,
   "funcType": "addStateShort",
   "funcTargetType": "enemy",
@@ -17622,6 +17650,34 @@
     "maxRate": 10000
   }]
 }, {
+  "funcId": 3501,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "威力アップ・魅了",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+  "buffs": [{
+    "id": 1557,
+    "name": "威力アップ〔魅了〕",
+    "detail": "〔魅了〕状態の敵に与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamageIndividualityActiveonly",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3028
+    }],
+    "tvals": [{
+      "id": 3012
+    }],
+    "ckOpIndv": [{
+      "id": 3012
+    }],
+    "maxRate": 10000
+  }]
+}, {
   "funcId": 3504,
   "funcType": "addStateShort",
   "funcTargetType": "self",
@@ -20616,7 +20672,8 @@
       }
     },
     "originalScript": {
-      "relationId": 115
+      "relationId": 115,
+      "defPriority": 2000
     },
     "vals": [{
       "id": 3004
@@ -26999,6 +27056,31 @@
     "maxRate": 5000
   }]
 }, {
+  "funcId": 6316,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "クリティカル威力アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_324.png",
+  "functvals": [{
+    "id": 301
+  }],
+  "buffs": [{
+    "id": 142,
+    "name": "クリティカル威力アップ",
+    "detail": "クリティカル時のダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_324.png",
+    "type": "upCriticaldamage",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3031
+    }],
+    "maxRate": 5000
+  }]
+}, {
   "funcId": 6318,
   "funcType": "addStateShort",
   "funcTargetType": "ptAll",
@@ -32825,7 +32907,8 @@
       }
     },
     "originalScript": {
-      "relationId": 135
+      "relationId": 135,
+      "defPriority": 2000
     },
     "vals": [{
       "id": 3004
@@ -46940,6 +47023,31 @@
     }]
   }]
 }, {
+  "funcId": 21638,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "攻撃時追加効果",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_333.png",
+  "buffs": [{
+    "id": 5575,
+    "name": "コマンドコード攻撃時追加効果",
+    "detail": "コマンドコードが刻印されたカードで攻撃時、追加効果を発動する",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_333.png",
+    "type": "commandcodeattackBeforeFunctionMainOnly",
+    "vals": [{
+      "id": 3004
+    }],
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4001
+    }],
+    "ckSelfIndv": [{
+      "id": 4001
+    }]
+  }]
+}, {
   "funcId": 21639,
   "funcType": "addStateShort",
   "funcTargetType": "self",
@@ -55802,6 +55910,199 @@
     "id": 132
   }]
 }, {
+  "funcId": 22799,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "サマー・エクスペリエンサー",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+  "funcquestTvals": [{
+    "id": 94000175
+  }],
+  "funcGroup": [{
+    "eventId": 80558,
+    "baseFuncId": 22798,
+    "nameTotal": "{1} \n攻撃の威力アップ合計",
+    "name": "攻撃の威力アップ合計",
+    "icon": "https://static.atlasacademy.io/JP/EventUI/func_group_icon_302.png",
+    "priority": 300,
+    "isDispValue": true
+  }],
+  "buffs": [{
+    "id": 5880,
+    "name": "サマー・エクスペリエンサー",
+    "detail": "『カルデア・Ｕ－サマーアイランド』において与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamage",
+    "maxRate": 10000
+  }]
+}, {
+  "funcId": 22800,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "サマー・エクスペリエンサー",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+  "funcquestTvals": [{
+    "id": 94000175
+  }],
+  "funcGroup": [{
+    "eventId": 80558,
+    "baseFuncId": 22798,
+    "nameTotal": "{1} \n攻撃の威力アップ合計",
+    "name": "攻撃の威力アップ合計",
+    "icon": "https://static.atlasacademy.io/JP/EventUI/func_group_icon_302.png",
+    "priority": 300,
+    "isDispValue": true
+  }],
+  "buffs": [{
+    "id": 5880,
+    "name": "サマー・エクスペリエンサー",
+    "detail": "『カルデア・Ｕ－サマーアイランド』において与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamage",
+    "maxRate": 10000
+  }]
+}, {
+  "funcId": 22801,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcquestTvals": [{
+    "id": 94000175
+  }],
+  "funcGroup": [{
+    "eventId": 80558,
+    "baseFuncId": 22798,
+    "nameTotal": "{1} \n攻撃の威力アップ合計",
+    "name": "攻撃の威力アップ合計",
+    "icon": "https://static.atlasacademy.io/JP/EventUI/func_group_icon_302.png",
+    "priority": 300,
+    "isDispValue": true
+  }],
+  "buffs": [{
+    "id": 5881,
+    "name": "威力アップ",
+    "detail": "『カルデア・Ｕ－サマーアイランド』において与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamage",
+    "maxRate": 10000
+  }]
+}, {
+  "funcId": 22802,
+  "funcType": "servantFriendshipUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcGroup": [{
+    "eventId": 80558,
+    "baseFuncId": 0,
+    "nameTotal": "{1}\n自己効果により得られる絆アップ合計",
+    "name": "自己効果により得られる絆アップ",
+    "icon": "https://static.atlasacademy.io/JP/EventUI/func_group_icon_1009.png",
+    "priority": 200,
+    "isDispValue": true
+  }]
+}, {
+  "funcId": 22803,
+  "funcType": "servantFriendshipUp",
+  "funcTargetType": "ptFull",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcGroup": [{
+    "eventId": 80558,
+    "baseFuncId": 0,
+    "nameTotal": "{1}\n全体効果により得られる絆アップ合計",
+    "name": "全体効果により得られる絆アップ",
+    "icon": "https://static.atlasacademy.io/JP/EventUI/func_group_icon_1023.png",
+    "priority": 100,
+    "isDispValue": true
+  }]
+}, {
+  "funcId": 22804,
+  "funcType": "eventDropUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcGroup": [{
+    "eventId": 80558,
+    "baseFuncId": 0,
+    "nameTotal": "{0}\n獲得数ボーナス合計",
+    "name": "{0}獲得数アップ",
+    "icon": "https://static.atlasacademy.io/JP/Items/94147203.png",
+    "priority": 3000,
+    "isDispValue": true
+  }]
+}, {
+  "funcId": 22805,
+  "funcType": "eventDropUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcGroup": [{
+    "eventId": 80558,
+    "baseFuncId": 0,
+    "nameTotal": "{0}\n獲得数ボーナス合計",
+    "name": "{0}獲得数アップ",
+    "icon": "https://static.atlasacademy.io/JP/Items/94147202.png",
+    "priority": 2000,
+    "isDispValue": true
+  }]
+}, {
+  "funcId": 22806,
+  "funcType": "eventDropUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcGroup": [{
+    "eventId": 80558,
+    "baseFuncId": 0,
+    "nameTotal": "{0}\n獲得数ボーナス合計",
+    "name": "{0}獲得数アップ",
+    "icon": "https://static.atlasacademy.io/JP/Items/94147201.png",
+    "priority": 1000,
+    "isDispValue": true
+  }]
+}, {
+  "funcId": 22807,
+  "funcType": "enemyEncountRateUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "レアエネミー出現度アップ",
+  "funcGroup": [{
+    "eventId": 80558,
+    "baseFuncId": 0,
+    "nameTotal": "〔レアエネミー〕出現率アップ",
+    "name": "〔レアエネミー〕出現率アップ",
+    "icon": "https://static.atlasacademy.io/JP/EventUI/func_group_icon_1010.png",
+    "priority": 6000,
+    "isDispValue": true
+  }]
+}, {
+  "funcId": 22814,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "ダメージ吸収",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_428.png",
+  "buffs": [{
+    "id": 5888,
+    "name": "ダメージ吸収",
+    "detail": "受けたダメージを吸収する",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_428.png",
+    "type": "reactiveDamageGainHp",
+    "buffGroup": 1700,
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3007
+    }, {
+      "id": 3120
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 22819,
+  "funcType": "enemyEncountRateUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "レアエネミー出現度アップ"
+}, {
   "funcId": 22820,
   "funcType": "addState",
   "funcTargetType": "self",
@@ -56264,6 +56565,142 @@
       "id": 204
     }],
     "maxRate": 10000
+  }]
+}, {
+  "funcId": 22860,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "被ダメージ時発動",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_331.png",
+  "buffs": [{
+    "id": 5903,
+    "name": "被ダメージ時発動",
+    "detail": "攻撃を受けると自身の攻撃力をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_331.png",
+    "type": "damageFunction",
+    "vals": [{
+      "id": 3004
+    }]
+  }]
+}, {
+  "funcId": 22861,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "攻撃時追加効果",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_528.png",
+  "buffs": [{
+    "id": 5904,
+    "name": "攻撃時追加効果",
+    "detail": "攻撃時、対象に高確率でスタン状態を付与",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_528.png",
+    "type": "attackAfterFunction",
+    "vals": [{
+      "id": 3004
+    }]
+  }]
+}, {
+  "funcId": 22869,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "被効果時発動",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_331.png",
+  "buffs": [{
+    "id": 5908,
+    "name": "被効果時発動",
+    "detail": "HP回復効果または最大HPアップ効果を受けた時、自身のQuickカード性能をアップ<毎ターンHP回復効果、概念礼装・コマンドコードによる効果を除く>",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_331.png",
+    "type": "functionedFunction",
+    "vals": [{
+      "id": 3004
+    }]
+  }]
+}, {
+  "funcId": 22870,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "クイックアップ〔夏の承認欲求〕",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_312.png",
+  "buffs": [{
+    "id": 5909,
+    "name": "Quickアップ〔夏の承認欲求〕",
+    "detail": "Quickカードの性能をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_312.png",
+    "type": "upCommandall",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3094
+    }, {
+      "id": 2998
+    }],
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4003
+    }],
+    "ckSelfIndv": [{
+      "id": 4003
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 22895,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "宝具威力アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_310.png",
+  "functvals": [{
+    "id": 301
+  }],
+  "buffs": [{
+    "id": 138,
+    "name": "宝具威力アップ",
+    "detail": "宝具で与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_310.png",
+    "type": "upNpdamage",
+    "originalScript": {
+      "ProgressSelfTurn": 1
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3030
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 22898,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "被ダメージ時発動",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_331.png",
+  "buffs": [{
+    "id": 5919,
+    "name": "被ダメージ時発動",
+    "detail": "〔ターゲット集中〕状態の時に攻撃を受けるとスターを獲得",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_331.png",
+    "type": "damageFunction",
+    "script": {
+      "INDIVIDUALITIE": {
+        "id": 3023
+      }
+    },
+    "originalScript": {
+      "INDIVIDUALITIE": 3023
+    },
+    "vals": [{
+      "id": 3004
+    }]
   }]
 }, {
   "funcId": 30003,
