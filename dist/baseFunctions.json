@@ -16986,6 +16986,25 @@
     }]
   }]
 }, {
+  "funcId": 3367,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptOne",
+  "funcTargetTeam": "player",
+  "funcPopupText": "毎ターンスター獲得",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_320.png",
+  "buffs": [{
+    "id": 121,
+    "name": "毎ターンスター獲得",
+    "detail": "ターン終了時にスターを獲得する",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_320.png",
+    "type": "regainStar",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3081
+    }]
+  }]
+}, {
   "funcId": 3370,
   "funcType": "addStateShort",
   "funcTargetType": "self",
@@ -56601,6 +56620,993 @@
     }]
   }]
 }, {
+  "funcId": 22862,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptOne",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "白馬の王子",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_430.png",
+  "buffs": [{
+    "id": 5905,
+    "name": "白馬の王子",
+    "detail": "クリティカル時のダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_430.png",
+    "type": "upCriticaldamage",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3031
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 22863,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "勇気の王女",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_429.png",
+  "buffs": [{
+    "id": 5906,
+    "name": "勇気の王女",
+    "detail": "宝具で与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_429.png",
+    "type": "upNpdamage",
+    "originalScript": {
+      "ProgressSelfTurn": 1
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3030
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 22864,
+  "funcType": "addState",
+  "funcTargetType": "ptOne",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "クラス相性変更",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_520.png",
+  "buffs": [{
+    "id": 5907,
+    "name": "クラス相性変更",
+    "detail": "〔七騎士〕に対するクラス相性が防御優位になる",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_520.png",
+    "type": "overwriteClassRelation",
+    "script": {
+      "relationId": {
+        "atkSide": {},
+        "defSide": {
+          "saber": {
+            "saber": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "archer": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "lancer": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "rider": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "caster": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "assassin": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "berserker": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "shielder": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "ruler": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "alterEgo": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "avenger": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "demonGodPillar": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "beastII": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "beastI": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "moonCancer": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "beastIIIR": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "foreigner": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "beastIIIL": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "beastUnknown": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "pretender": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "beastIV": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "beastILost": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "uOlgaMarieAlienGod": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "beast": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "beastVI": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "beastVIBoss": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "uOlgaMarieFlare": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "uOlgaMarieAqua": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "beastEresh": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "uOlgaMarieGrand": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "unBeastOlgaMarie": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "uOlgaMarieStellar": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            }
+          },
+          "archer": {
+            "saber": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "archer": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "lancer": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "rider": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "caster": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "assassin": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "berserker": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "shielder": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "ruler": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "alterEgo": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "avenger": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "demonGodPillar": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "beastII": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "beastI": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "moonCancer": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "beastIIIR": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "foreigner": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "beastIIIL": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "beastUnknown": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "pretender": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "beastIV": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "beastILost": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "uOlgaMarieAlienGod": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "beast": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "beastVI": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "beastVIBoss": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "uOlgaMarieFlare": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "uOlgaMarieAqua": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "beastEresh": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "uOlgaMarieGrand": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "unBeastOlgaMarie": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "uOlgaMarieStellar": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            }
+          },
+          "lancer": {
+            "saber": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "archer": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "lancer": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "rider": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "caster": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "assassin": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "berserker": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "shielder": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "ruler": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "alterEgo": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "avenger": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "demonGodPillar": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "beastII": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "beastI": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "moonCancer": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "beastIIIR": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "foreigner": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "beastIIIL": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "beastUnknown": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "pretender": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "beastIV": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "beastILost": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "uOlgaMarieAlienGod": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "beast": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "beastVI": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "beastVIBoss": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "uOlgaMarieFlare": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "uOlgaMarieAqua": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "beastEresh": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "uOlgaMarieGrand": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "unBeastOlgaMarie": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "uOlgaMarieStellar": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            }
+          },
+          "rider": {
+            "saber": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "archer": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "lancer": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "rider": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "caster": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "assassin": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "berserker": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "shielder": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "ruler": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "alterEgo": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "avenger": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "demonGodPillar": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "beastII": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "beastI": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "moonCancer": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "beastIIIR": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "foreigner": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "beastIIIL": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "beastUnknown": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "pretender": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "beastIV": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "beastILost": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "uOlgaMarieAlienGod": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "beast": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "beastVI": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "beastVIBoss": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "uOlgaMarieFlare": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "uOlgaMarieAqua": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "beastEresh": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "uOlgaMarieGrand": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "unBeastOlgaMarie": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "uOlgaMarieStellar": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            }
+          },
+          "caster": {
+            "saber": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "archer": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "lancer": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "rider": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "caster": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "assassin": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "berserker": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "shielder": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "ruler": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "alterEgo": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "avenger": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "demonGodPillar": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "beastII": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "beastI": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "moonCancer": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "beastIIIR": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "foreigner": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "beastIIIL": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "beastUnknown": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "pretender": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "beastIV": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "beastILost": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "uOlgaMarieAlienGod": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "beast": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "beastVI": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "beastVIBoss": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "uOlgaMarieFlare": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "uOlgaMarieAqua": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "beastEresh": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "uOlgaMarieGrand": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "unBeastOlgaMarie": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "uOlgaMarieStellar": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            }
+          },
+          "assassin": {
+            "saber": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "archer": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "lancer": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "rider": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "caster": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "assassin": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "berserker": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "shielder": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "ruler": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "alterEgo": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "avenger": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "demonGodPillar": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "beastII": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "beastI": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "moonCancer": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "beastIIIR": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "foreigner": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "beastIIIL": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "beastUnknown": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "pretender": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "beastIV": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "beastILost": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "uOlgaMarieAlienGod": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "beast": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "beastVI": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "beastVIBoss": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "uOlgaMarieFlare": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "uOlgaMarieAqua": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "beastEresh": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "uOlgaMarieGrand": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "unBeastOlgaMarie": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "uOlgaMarieStellar": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            }
+          },
+          "berserker": {
+            "saber": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "archer": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "lancer": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "rider": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "caster": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "assassin": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "berserker": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "shielder": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "ruler": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "alterEgo": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "avenger": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "demonGodPillar": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "beastII": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "beastI": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "moonCancer": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "beastIIIR": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "foreigner": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "beastIIIL": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "beastUnknown": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "pretender": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "beastIV": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "beastILost": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "uOlgaMarieAlienGod": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "beast": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "beastVI": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "beastVIBoss": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "uOlgaMarieFlare": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "uOlgaMarieAqua": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "beastEresh": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "uOlgaMarieGrand": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "unBeastOlgaMarie": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            },
+            "uOlgaMarieStellar": {
+              "damageRate": 500,
+              "type": "overwriteMoreThanTarget"
+            }
+          }
+        }
+      }
+    },
+    "originalScript": {
+      "relationId": 197,
+      "defPriority": 2000
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3007
+    }]
+  }]
+}, {
   "funcId": 22869,
   "funcType": "addState",
   "funcTargetType": "self",
@@ -56649,6 +57655,12 @@
     }],
     "maxRate": 5000
   }]
+}, {
+  "funcId": 22879,
+  "funcType": "gainStar",
+  "funcTargetType": "ptOne",
+  "funcTargetTeam": "player",
+  "funcPopupText": "スター獲得"
 }, {
   "funcId": 22895,
   "funcType": "addStateShort",
