@@ -57607,6 +57607,15 @@
     }]
   }]
 }, {
+  "funcId": 22865,
+  "funcType": "gainNp",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "player",
+  "funcPopupText": "NP増加",
+  "functvals": [{
+    "id": 2355
+  }]
+}, {
   "funcId": 22869,
   "funcType": "addState",
   "funcTargetType": "self",
@@ -57656,11 +57665,463 @@
     "maxRate": 5000
   }]
 }, {
+  "funcId": 22871,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "日輪",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_703.png",
+  "buffs": [{
+    "id": 5910,
+    "name": "日輪",
+    "detail": "宝具を単体攻撃宝具に変更する",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_703.png",
+    "type": "tdTypeChangeArts",
+    "buffGroup": 2100,
+    "script": {
+      "INDIVIDUALITIE": {
+        "id": 2301100
+      }
+    },
+    "originalScript": {
+      "INDIVIDUALITIE": 2301100,
+      "DisplayPriority": 1100,
+      "DisplayCardBottomImageName": "icon_treasure_device_change_703"
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3122
+    }]
+  }]
+}, {
+  "funcId": 22872,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "月下",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_702.png",
+  "buffs": [{
+    "id": 5911,
+    "name": "月下",
+    "detail": "宝具を全体攻撃宝具に変更する",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_702.png",
+    "type": "tdTypeChangeBuster",
+    "buffGroup": 2101,
+    "script": {
+      "INDIVIDUALITIE": {
+        "id": 2301100
+      }
+    },
+    "originalScript": {
+      "INDIVIDUALITIE": 2301100,
+      "DisplayPriority": 1100,
+      "DisplayCardBottomImageName": "icon_treasure_device_change_702"
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3121
+    }]
+  }]
+}, {
+  "funcId": 22873,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "クイックアップ〔月下〕",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_312.png",
+  "buffs": [{
+    "id": 5912,
+    "name": "Quickアップ〔月下〕",
+    "detail": "〔月下〕状態の時にQuickカードの性能をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_312.png",
+    "type": "upCommandall",
+    "script": {
+      "INDIVIDUALITIE": {
+        "id": 3121
+      }
+    },
+    "originalScript": {
+      "INDIVIDUALITIE": 3121
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3094
+    }],
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4003
+    }],
+    "ckSelfIndv": [{
+      "id": 4003
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 22874,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "アーツアップ〔月下〕",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_313.png",
+  "buffs": [{
+    "id": 5913,
+    "name": "Artsアップ〔月下〕",
+    "detail": "〔月下〕状態の時にArtsカードの性能をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_313.png",
+    "type": "upCommandall",
+    "script": {
+      "INDIVIDUALITIE": {
+        "id": 3121
+      }
+    },
+    "originalScript": {
+      "INDIVIDUALITIE": 3121
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3092
+    }],
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4001
+    }],
+    "ckSelfIndv": [{
+      "id": 4001
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 22875,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "バスターアップ〔月下〕",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_314.png",
+  "buffs": [{
+    "id": 5914,
+    "name": "Busterアップ〔月下〕",
+    "detail": "〔月下〕状態の時にBusterカードの性能をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_314.png",
+    "type": "upCommandall",
+    "script": {
+      "INDIVIDUALITIE": {
+        "id": 3121
+      }
+    },
+    "originalScript": {
+      "INDIVIDUALITIE": 3121
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3093
+    }],
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4002
+    }],
+    "ckSelfIndv": [{
+      "id": 4002
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 22876,
+  "funcType": "subState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "日輪解除",
+  "traitVals": [{
+    "id": 3122
+  }]
+}, {
+  "funcId": 22877,
+  "funcType": "subState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "月下解除",
+  "traitVals": [{
+    "id": 3121
+  }]
+}, {
   "funcId": 22879,
   "funcType": "gainStar",
   "funcTargetType": "ptOne",
   "funcTargetTeam": "player",
   "funcPopupText": "スター獲得"
+}, {
+  "funcId": 22881,
+  "funcType": "gainNpTargetSum",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "NP増加",
+  "traitVals": [{
+    "id": 2355
+  }]
+}, {
+  "funcId": 22882,
+  "funcType": "addState",
+  "funcTargetType": "fieldOther",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "特性付与〔イリヤ〕",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_520.png",
+  "buffs": [{
+    "id": 5915,
+    "name": "特性付与〔イリヤ〕",
+    "detail": "〔イリヤ〕特性を付与する",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_520.png",
+    "type": "addIndividuality"
+  }]
+}, {
+  "funcId": 22883,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "攻撃力アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_300.png",
+  "functvals": [{
+    "id": 3121
+  }],
+  "buffs": [{
+    "id": 126,
+    "name": "攻撃力アップ",
+    "detail": "攻撃力をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_300.png",
+    "type": "upAtk",
+    "originalScript": {
+      "ProgressSelfTurn": 1
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3027
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 22884,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "クリティカル威力アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_324.png",
+  "functvals": [{
+    "id": 3122
+  }],
+  "buffs": [{
+    "id": 142,
+    "name": "クリティカル威力アップ",
+    "detail": "クリティカル時のダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_324.png",
+    "type": "upCriticaldamage",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3031
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 22885,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "無敵",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_311.png",
+  "functvals": [{
+    "id": 3121
+  }],
+  "buffs": [{
+    "id": 155,
+    "name": "無敵",
+    "detail": "必中を無視して、攻撃によるダメージを0にする",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_311.png",
+    "type": "invincible",
+    "buffGroup": 400,
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3018
+    }, {
+      "id": 3022
+    }, {
+      "id": 3007
+    }]
+  }]
+}, {
+  "funcId": 22886,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "オーバーチャージ段階UP",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_336.png",
+  "functvals": [{
+    "id": 3121
+  }],
+  "buffs": [{
+    "id": 227,
+    "name": "オーバーチャージ段階UP",
+    "detail": "宝具発動時、オーバーチャージ段階をアップする",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_336.png",
+    "type": "upChagetd",
+    "vals": [{
+      "id": 3004
+    }],
+    "maxRate": 5
+  }]
+}, {
+  "funcId": 22887,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "攻撃力アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_300.png",
+  "functvals": [{
+    "id": 3122
+  }],
+  "buffs": [{
+    "id": 126,
+    "name": "攻撃力アップ",
+    "detail": "攻撃力をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_300.png",
+    "type": "upAtk",
+    "originalScript": {
+      "ProgressSelfTurn": 1
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3027
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 22888,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "宝具威力アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_310.png",
+  "functvals": [{
+    "id": 3121
+  }],
+  "buffs": [{
+    "id": 138,
+    "name": "宝具威力アップ",
+    "detail": "宝具で与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_310.png",
+    "type": "upNpdamage",
+    "originalScript": {
+      "ProgressSelfTurn": 1
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3030
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 22889,
+  "funcType": "shortenSkill",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "スキルターン減少",
+  "functvals": [{
+    "id": 3122
+  }]
+}, {
+  "funcId": 22890,
+  "funcType": "gainHp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "functvals": [{
+    "id": 3122
+  }],
+  "script": {
+    "funcIndividuality": [{
+      "id": 2984
+    }]
+  }
+}, {
+  "funcId": 22891,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "buffs": [{
+    "id": 5916,
+    "name": "",
+    "detail": "",
+    "type": "commandattackBeforeFunction"
+  }]
+}, {
+  "funcId": 22892,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "クリティカル威力アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_324.png",
+  "buffs": [{
+    "id": 5917,
+    "name": "クリティカル威力アップ",
+    "detail": "クリティカル時のダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_324.png",
+    "type": "upCriticaldamage",
+    "script": {
+      "INDIVIDUALITIE": {
+        "id": 2999
+      }
+    },
+    "originalScript": {
+      "INDIVIDUALITIE": 2999
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3031
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 22893,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "functvals": [{
+    "id": 2355
+  }],
+  "buffs": [{
+    "id": 5918,
+    "name": "",
+    "detail": "",
+    "type": "addIndividuality",
+    "vals": [{
+      "id": 2999
+    }]
+  }]
 }, {
   "funcId": 22895,
   "funcType": "addStateShort",
@@ -57690,6 +58151,14 @@
     "maxRate": 5000
   }]
 }, {
+  "funcId": 22897,
+  "funcType": "subState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "traitVals": [{
+    "id": 2999
+  }]
+}, {
   "funcId": 22898,
   "funcType": "addState",
   "funcTargetType": "self",
@@ -57713,6 +58182,106 @@
     "vals": [{
       "id": 3004
     }]
+  }]
+}, {
+  "funcId": 22903,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "NP獲得アップ〔月下〕",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_303.png",
+  "buffs": [{
+    "id": 5921,
+    "name": "NP獲得アップ〔月下〕",
+    "detail": "〔月下〕状態の時にNP獲得量をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_303.png",
+    "type": "upDropnp",
+    "script": {
+      "INDIVIDUALITIE": {
+        "id": 3121
+      }
+    },
+    "originalScript": {
+      "INDIVIDUALITIE": 3121
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3084
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 22904,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "スター発生アップ〔日輪〕",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_321.png",
+  "buffs": [{
+    "id": 5922,
+    "name": "スター発生アップ〔日輪〕",
+    "detail": "〔日輪〕状態の時にスター発生率をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_321.png",
+    "type": "upCriticalpoint",
+    "script": {
+      "INDIVIDUALITIE": {
+        "id": 3122
+      }
+    },
+    "originalScript": {
+      "INDIVIDUALITIE": 3122,
+      "ProgressSelfTurn": 1
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3083
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 22905,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptFull",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "宝具威力アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_310.png",
+  "buffs": [{
+    "id": 5923,
+    "name": "宝具威力アップ",
+    "detail": "宝具で与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_310.png",
+    "type": "upNpdamage",
+    "script": {
+      "INDIVIDUALITIE": {
+        "id": 2355
+      }
+    },
+    "originalScript": {
+      "INDIVIDUALITIE": 2355,
+      "ProgressSelfTurn": 1
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3030
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 22917,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "buffs": [{
+    "id": 5927,
+    "name": "",
+    "detail": "",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_331.png",
+    "type": "continueFunction"
   }]
 }, {
   "funcId": 30003,
