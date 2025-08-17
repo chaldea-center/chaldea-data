@@ -58272,6 +58272,121 @@
     "maxRate": 5000
   }]
 }, {
+  "funcId": 22906,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptFull",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "毎ターンHP回復",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_318.png",
+  "buffs": [{
+    "id": 5924,
+    "name": "毎ターンHP回復",
+    "detail": "ターン終了時にHPが回復する",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_318.png",
+    "type": "regainHp",
+    "script": {
+      "INDIVIDUALITIE_OR": [{
+        "id": 2667
+      }, {
+        "id": 308
+      }, {
+        "id": 2838
+      }]
+    },
+    "originalScript": {
+      "INDIVIDUALITIE_OR": "2667,308,2838"
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3060
+    }]
+  }]
+}, {
+  "funcId": 22907,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptFull",
+  "funcTargetTeam": "player",
+  "funcPopupText": "NP獲得アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_303.png",
+  "buffs": [{
+    "id": 5925,
+    "name": "NP獲得アップ",
+    "detail": "NP獲得量をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_303.png",
+    "type": "upDropnp",
+    "script": {
+      "INDIVIDUALITIE_OR": [{
+        "id": 2667
+      }, {
+        "id": 308
+      }, {
+        "id": 2838
+      }]
+    },
+    "originalScript": {
+      "INDIVIDUALITIE_OR": "2667,308,2838"
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3084
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 22912,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "威力アップ・対精神異常",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+  "buffs": [{
+    "id": 5926,
+    "name": "威力アップ〔精神異常〕",
+    "detail": "〔精神異常〕状態の敵に与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamage",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3028
+    }],
+    "tvals": [{
+      "id": 3010
+    }],
+    "ckOpIndv": [{
+      "id": 3010
+    }],
+    "maxRate": 10000
+  }]
+}, {
+  "funcId": 22915,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "精神異常付与アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_307.png",
+  "buffs": [{
+    "id": 157,
+    "name": "精神異常付与アップ",
+    "detail": "精神異常付与率をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_307.png",
+    "type": "upGrantstate",
+    "vals": [{
+      "id": 3004
+    }],
+    "tvals": [{
+      "id": 3010
+    }],
+    "ckSelfIndv": [{
+      "id": 3010
+    }],
+    "maxRate": 5000
+  }]
+}, {
   "funcId": 22917,
   "funcType": "addState",
   "funcTargetType": "self",
@@ -58282,6 +58397,136 @@
     "detail": "",
     "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_331.png",
     "type": "continueFunction"
+  }]
+}, {
+  "funcId": 22918,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptFull",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "威力アップ・対精神異常",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+  "buffs": [{
+    "id": 5926,
+    "name": "威力アップ〔精神異常〕",
+    "detail": "〔精神異常〕状態の敵に与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamage",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3028
+    }],
+    "tvals": [{
+      "id": 3010
+    }],
+    "ckOpIndv": [{
+      "id": 3010
+    }],
+    "maxRate": 10000
+  }]
+}, {
+  "funcId": 22921,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "被クリティカル発生耐性ダウン",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_559.png",
+  "buffs": [{
+    "id": 4779,
+    "name": "被クリティカル発生耐性ダウン",
+    "detail": "クリティカル攻撃を受ける確率を増やす",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_559.png",
+    "type": "upCriticalRateDamageTaken",
+    "vals": [{
+      "id": 3005
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 22924,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "enemy",
+  "funcPopupText": "被スター発生耐性ダウン",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_560.png",
+  "buffs": [{
+    "id": 5928,
+    "name": "被スター発生耐性ダウン",
+    "detail": "スターが発生する確率を増やす",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_560.png",
+    "type": "upCriticalStarDamageTaken",
+    "vals": [{
+      "id": 3005
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 22927,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptFull",
+  "funcTargetTeam": "player",
+  "funcPopupText": "毎ターンスター獲得",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_320.png",
+  "buffs": [{
+    "id": 5929,
+    "name": "毎ターンスター獲得",
+    "detail": "ターン終了時にスターを獲得する",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_320.png",
+    "type": "regainStar",
+    "script": {
+      "INDIVIDUALITIE_OR": [{
+        "id": 2667
+      }, {
+        "id": 308
+      }, {
+        "id": 2838
+      }]
+    },
+    "originalScript": {
+      "INDIVIDUALITIE_OR": "2667,308,2838"
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3081
+    }]
+  }]
+}, {
+  "funcId": 22929,
+  "funcType": "addStateShort",
+  "funcTargetType": "enemyAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "クリティカル威力耐性ダウン",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_575.png",
+  "functvals": [{
+    "id": 1000
+  }],
+  "buffs": [{
+    "id": 5835,
+    "name": "クリティカル威力耐性ダウン",
+    "detail": "クリティカル攻撃で受けるダメージが増える",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_575.png",
+    "type": "downDefenceCriticaldamage",
+    "vals": [{
+      "id": 3005
+    }, {
+      "id": 3009
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 22930,
+  "funcType": "displayBuffstring",
+  "funcTargetType": "enemyAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "functvals": [{
+    "id": 2667
+  }, {
+    "id": 308
+  }, {
+    "id": 2838
   }]
 }, {
   "funcId": 30003,
