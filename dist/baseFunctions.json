@@ -27608,6 +27608,34 @@
     "maxRate": 10000
   }]
 }, {
+  "funcId": 6436,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "威力アップ・対巨人",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+  "buffs": [{
+    "id": 3281,
+    "name": "威力アップ〔巨人〕",
+    "detail": "〔巨人〕特性に与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamage",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3028
+    }],
+    "tvals": [{
+      "id": 2666
+    }],
+    "ckOpIndv": [{
+      "id": 2666
+    }],
+    "maxRate": 10000
+  }]
+}, {
   "funcId": 6444,
   "funcType": "addStateShort",
   "funcTargetType": "ptFull",
@@ -56458,6 +56486,47 @@
     "maxRate": 5000
   }]
 }, {
+  "funcId": 22839,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+  "funcquestTvals": [{
+    "id": 94000176
+  }],
+  "funcGroup": [{
+    "eventId": 80559,
+    "baseFuncId": 22961,
+    "nameTotal": "{1} \n攻撃の威力アップ合計",
+    "name": "攻撃の威力アップ合計",
+    "icon": "https://static.atlasacademy.io/JP/EventUI/func_group_icon_302.png",
+    "priority": 300,
+    "isDispValue": true
+  }],
+  "buffs": [{
+    "id": 5896,
+    "name": "威力アップ",
+    "detail": "『失われた創世 未来からの方舟』において与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamage",
+    "maxRate": 10000
+  }]
+}, {
+  "funcId": 22840,
+  "funcType": "servantFriendshipUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "なし",
+  "funcGroup": [{
+    "eventId": 80559,
+    "baseFuncId": 0,
+    "nameTotal": "{1}\n自己効果により得られる絆アップ合計",
+    "name": "自己効果により得られる絆アップ",
+    "icon": "https://static.atlasacademy.io/JP/EventUI/func_group_icon_1009.png",
+    "priority": 1,
+    "isDispValue": true
+  }]
+}, {
   "funcId": 22841,
   "funcType": "addState",
   "funcTargetType": "self",
@@ -58537,6 +58606,430 @@
     "id": 304
   }, {
     "id": 203
+  }]
+}, {
+  "funcId": 22962,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "トライ・アーク・ライダー",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+  "funcquestTvals": [{
+    "id": 94000176
+  }],
+  "funcGroup": [{
+    "eventId": 80559,
+    "baseFuncId": 22961,
+    "nameTotal": "{1} \n攻撃の威力アップ合計",
+    "name": "攻撃の威力アップ合計",
+    "icon": "https://static.atlasacademy.io/JP/EventUI/func_group_icon_302.png",
+    "priority": 300,
+    "isDispValue": true
+  }],
+  "buffs": [{
+    "id": 5934,
+    "name": "トライ・アーク・ライダー",
+    "detail": "『失われた創世 未来からの方舟』において与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamage",
+    "maxRate": 10000
+  }]
+}, {
+  "funcId": 22963,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "トライ・アーク・ライダー",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+  "funcquestTvals": [{
+    "id": 94000176
+  }],
+  "funcGroup": [{
+    "eventId": 80559,
+    "baseFuncId": 22961,
+    "nameTotal": "{1} \n攻撃の威力アップ合計",
+    "name": "攻撃の威力アップ合計",
+    "icon": "https://static.atlasacademy.io/JP/EventUI/func_group_icon_302.png",
+    "priority": 300,
+    "isDispValue": true
+  }],
+  "buffs": [{
+    "id": 5934,
+    "name": "トライ・アーク・ライダー",
+    "detail": "『失われた創世 未来からの方舟』において与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamage",
+    "maxRate": 10000
+  }]
+}, {
+  "funcId": 22964,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptOther",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "攻撃力アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_300.png",
+  "functvals": [{
+    "id": 2005
+  }, {
+    "id": 2632
+  }, {
+    "id": 2821
+  }, {
+    "id": 10000,
+    "negative": true
+  }],
+  "buffs": [{
+    "id": 126,
+    "name": "攻撃力アップ",
+    "detail": "攻撃力をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_300.png",
+    "type": "upAtk",
+    "originalScript": {
+      "ProgressSelfTurn": 1
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3027
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 22965,
+  "funcType": "subState",
+  "funcTargetType": "ptOther",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "弱体解除",
+  "functvals": [{
+    "id": 2005
+  }, {
+    "id": 2632
+  }, {
+    "id": 2821
+  }, {
+    "id": 10000,
+    "negative": true
+  }],
+  "traitVals": [{
+    "id": 3005
+  }]
+}, {
+  "funcId": 22966,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptOther",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "毎ターンHP回復",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_318.png",
+  "functvals": [{
+    "id": 2005
+  }, {
+    "id": 2632
+  }, {
+    "id": 2821
+  }, {
+    "id": 10000,
+    "negative": true
+  }],
+  "buffs": [{
+    "id": 122,
+    "name": "毎ターンHP回復",
+    "detail": "ターン終了時にHPが回復する",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_318.png",
+    "type": "regainHp",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3060
+    }]
+  }]
+}, {
+  "funcId": 22967,
+  "funcType": "gainNp",
+  "funcTargetType": "ptOther",
+  "funcTargetTeam": "player",
+  "funcPopupText": "NP増加",
+  "functvals": [{
+    "id": 2005
+  }, {
+    "id": 2632
+  }, {
+    "id": 2821
+  }, {
+    "id": 10000,
+    "negative": true
+  }]
+}, {
+  "funcId": 22968,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "Arts攻撃時追加効果",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_333.png",
+  "buffs": [{
+    "id": 5935,
+    "name": "Arts攻撃時追加効果",
+    "detail": "Arts攻撃時、スターを獲得する",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_333.png",
+    "type": "attackAfterFunctionMainOnly",
+    "vals": [{
+      "id": 3004
+    }],
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4001
+    }],
+    "ckSelfIndv": [{
+      "id": 4001
+    }]
+  }]
+}, {
+  "funcId": 22971,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptOtherFull",
+  "funcTargetTeam": "player",
+  "funcPopupText": "NP獲得アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_303.png",
+  "buffs": [{
+    "id": 5939,
+    "name": "NP獲得アップ",
+    "detail": "NP獲得量をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_303.png",
+    "type": "upDropnp",
+    "script": {
+      "checkIndvType": 2
+    },
+    "originalScript": {
+      "checkIndvType": 2
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3084
+    }],
+    "tvals": [{
+      "id": 2005
+    }, {
+      "id": 2632
+    }, {
+      "id": 2821
+    }, {
+      "id": 10000,
+      "negative": true
+    }],
+    "ckSelfIndv": [{
+      "id": 2005
+    }, {
+      "id": 2632
+    }, {
+      "id": 2821
+    }, {
+      "id": 10000,
+      "negative": true
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 22972,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "アーツアップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_313.png",
+  "buffs": [{
+    "id": 5938,
+    "name": "Artsアップ〔動物がいる間〕",
+    "detail": "動物<猛獣・魔獣型のサーヴァント・ケモノ科のサーヴァント>(一部を除く)がフィールドにいる間、Artsカードの性能をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_313.png",
+    "type": "upCommandall",
+    "script": {
+      "INDIVIDUALITIE_OR": [{
+        "id": 10002
+      }, {
+        "id": 10003
+      }, {
+        "id": 10004
+      }]
+    },
+    "originalScript": {
+      "INDIVIDUALITIE_OR": "10002,10003,10004",
+      "individualityCondTargetType": 3
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3092
+    }],
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4001
+    }],
+    "ckSelfIndv": [{
+      "id": 4001
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 22973,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "enemy",
+  "funcPopupText": "Arts攻撃時追加効果",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_333.png",
+  "buffs": [{
+    "id": 5943,
+    "name": "Arts攻撃時追加効果",
+    "detail": "Arts攻撃時、自身のクリティカル発生率をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_333.png",
+    "type": "attackAfterFunctionMainOnly",
+    "vals": [{
+      "id": 3004
+    }],
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4001
+    }],
+    "ckSelfIndv": [{
+      "id": 4001
+    }]
+  }]
+}, {
+  "funcId": 22974,
+  "funcType": "servantFriendshipUp",
+  "funcTargetType": "ptFull",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "なし",
+  "funcGroup": [{
+    "eventId": 80559,
+    "baseFuncId": 0,
+    "nameTotal": "{1}\n全体効果により得られる絆アップ合計",
+    "name": "全体効果により得られる絆アップ",
+    "icon": "https://static.atlasacademy.io/JP/EventUI/func_group_icon_1023.png",
+    "priority": 1,
+    "isDispValue": true
+  }]
+}, {
+  "funcId": 22975,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "トライ・アーク・ライダー",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+  "functvals": [{
+    "id": 10001
+  }],
+  "funcquestTvals": [{
+    "id": 94000176
+  }],
+  "funcGroup": [{
+    "eventId": 80559,
+    "baseFuncId": 22961,
+    "nameTotal": "{1} \n攻撃の威力アップ合計",
+    "name": "攻撃の威力アップ合計",
+    "icon": "https://static.atlasacademy.io/JP/EventUI/func_group_icon_302.png",
+    "priority": 300,
+    "isDispValue": true
+  }],
+  "buffs": [{
+    "id": 5934,
+    "name": "トライ・アーク・ライダー",
+    "detail": "『失われた創世 未来からの方舟』において与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamage",
+    "maxRate": 10000
+  }]
+}, {
+  "funcId": 22976,
+  "funcType": "servantFriendshipUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "なし",
+  "functvals": [{
+    "id": 10001
+  }],
+  "funcGroup": [{
+    "eventId": 80559,
+    "baseFuncId": 0,
+    "nameTotal": "{1}\n自己効果により得られる絆アップ合計",
+    "name": "自己効果により得られる絆アップ",
+    "icon": "https://static.atlasacademy.io/JP/EventUI/func_group_icon_1009.png",
+    "priority": 1,
+    "isDispValue": true
+  }]
+}, {
+  "funcId": 22977,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "buffs": [{
+    "id": 5940,
+    "name": "",
+    "detail": "",
+    "type": "addIndividuality",
+    "script": {
+      "INDIVIDUALITIE_AND": [{
+        "id": 2005
+      }, {
+        "id": 10000,
+        "negative": true
+      }]
+    },
+    "originalScript": {
+      "INDIVIDUALITIE_AND": "2005,-10000",
+      "individualityCondTargetType": 3
+    }
+  }]
+}, {
+  "funcId": 22978,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "buffs": [{
+    "id": 5941,
+    "name": "",
+    "detail": "",
+    "type": "addIndividuality",
+    "script": {
+      "INDIVIDUALITIE_AND": [{
+        "id": 2632
+      }, {
+        "id": 10000,
+        "negative": true
+      }]
+    },
+    "originalScript": {
+      "INDIVIDUALITIE_AND": "2632,-10000",
+      "individualityCondTargetType": 3
+    }
+  }]
+}, {
+  "funcId": 22979,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "buffs": [{
+    "id": 5942,
+    "name": "",
+    "detail": "",
+    "type": "addIndividuality",
+    "script": {
+      "INDIVIDUALITIE_AND": [{
+        "id": 2821
+      }, {
+        "id": 10000,
+        "negative": true
+      }]
+    },
+    "originalScript": {
+      "INDIVIDUALITIE_AND": "2821,-10000",
+      "individualityCondTargetType": 3
+    }
   }]
 }, {
   "funcId": 30003,

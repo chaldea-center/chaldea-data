@@ -103170,6 +103170,85 @@
       "noticeAt": 1755082800,
       "openedAt": 1755082800,
       "closedAt": 1893423600
+    }, {
+      "id": 94148601,
+      "name": "強化クエスト ネモ",
+      "type": "event",
+      "flags": ["noDisplayRemain"],
+      "consume": 23,
+      "afterClear": "close",
+      "recommendLv": "90",
+      "spotId": 99001,
+      "warId": 1001,
+      "gifts": [{
+        "id": 94012504,
+        "objectId": 2,
+        "num": 2
+      }, {
+        "id": 94012504,
+        "type": "questRewardIcon",
+        "objectId": 9,
+        "num": 0
+      }],
+      "releaseConditions": [{
+        "type": "svtLimit",
+        "targetId": 403700,
+        "value": 4,
+        "closedMessage": "霊基再臨{0}段階目で開放"
+      }, {
+        "type": "svtGet",
+        "targetId": 403700
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1, 2, 3],
+      "phasesWithEnemies": [1],
+      "priority": 94148602,
+      "noticeAt": 1757070000,
+      "openedAt": 1757070000,
+      "closedAt": 1893423600
+    }, {
+      "id": 94148602,
+      "name": "強化クエスト キルケー 2",
+      "type": "event",
+      "flags": ["noDisplayRemain"],
+      "consume": 21,
+      "afterClear": "close",
+      "recommendLv": "80",
+      "spotId": 99001,
+      "warId": 1001,
+      "gifts": [{
+        "id": 94012504,
+        "objectId": 2,
+        "num": 2
+      }, {
+        "id": 94012504,
+        "type": "questRewardIcon",
+        "objectId": 9,
+        "num": 0
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94061507
+      }, {
+        "type": "svtLimit",
+        "targetId": 503300,
+        "value": 4,
+        "closedMessage": "霊基再臨{0}段階目で開放"
+      }, {
+        "type": "svtGet",
+        "targetId": 503300
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1, 2, 3],
+      "phasesWithEnemies": [1],
+      "priority": 94148601,
+      "noticeAt": 1757070000,
+      "openedAt": 1757070000,
+      "closedAt": 1893423600
     }]
   }]
 }, {

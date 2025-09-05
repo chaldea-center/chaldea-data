@@ -93078,6 +93078,208 @@
     }]
   }]
 }, {
+  "id": 8400,
+  "coordinates": [
+    [],
+    []
+  ],
+  "age": "-",
+  "name": "失われた創世 未来からの方舟",
+  "longName": "失われた創世 未来からの方舟",
+  "flags": ["isEvent", "noClearMarkWithComplete"],
+  "banner": "https://static.atlasacademy.io/JP/Banner/event_war_80538.png",
+  "priority": 10020,
+  "bgm": {
+    "id": 0
+  },
+  "script": "https://static.atlasacademy.io/JP/Script/Common/NONE.txt",
+  "targetId": 405,
+  "eventId": 80559,
+  "eventName": "失われた創世 未来からの方舟",
+  "warAdds": [{
+    "warId": 8400,
+    "type": "bgImage",
+    "priority": 1,
+    "overwriteId": 254100,
+    "condType": "questClearPhase",
+    "targetId": 94148202,
+    "value": 1,
+    "startedAt": 1757070000,
+    "endedAt": 1758686399
+  }],
+  "maps": [{
+    "id": 8400,
+    "mapImage": "https://static.atlasacademy.io/JP/Terminal/MapImgs/img_questmap_008400/img_questmap_008400.png",
+    "bgm": {
+      "id": 0
+    }
+  }],
+  "spots": [{
+    "id": 840001,
+    "mapId": 8400,
+    "name": "カルデアゲート",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter8400/QMap_Cap8400_Atlas/spot_838801.png",
+    "quests": [{
+      "id": 94148200,
+      "name": "プロローグ 神罰の雨",
+      "type": "event",
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "70",
+      "spotId": 840001,
+      "warId": 8400,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000100
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9414820010",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414820010.txt"
+        }, {
+          "scriptId": "9414820011",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414820011.txt"
+        }]
+      }],
+      "priority": 94148290,
+      "noticeAt": 1757070000,
+      "openedAt": 1757070000,
+      "closedAt": 1758686399
+    }, {
+      "id": 94148201,
+      "name": "第1節 ほろびの舟",
+      "type": "event",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 840001,
+      "warId": 8400,
+      "gifts": [{
+        "id": 42665,
+        "type": "servant",
+        "objectId": 9408830,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94148200
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1, 2, 3],
+      "phasesNoBattle": [1, 2, 3],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9414820110",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414820110.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9414820120",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414820120.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9414820130",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414820130.txt"
+        }]
+      }],
+      "priority": 94148289,
+      "noticeAt": 1757070000,
+      "openedAt": 1757070000,
+      "closedAt": 1758686399
+    }, {
+      "id": 94148202,
+      "name": "第2節 救世美少年！！",
+      "type": "event",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "80",
+      "spotId": 840001,
+      "warId": 8400,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94148201
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1, 2],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9414820210",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414820210.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9414820220",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414820220.txt"
+        }, {
+          "scriptId": "9414820221",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414820221.txt"
+        }]
+      }],
+      "priority": 94148288,
+      "noticeAt": 1757070000,
+      "openedAt": 1757070000,
+      "closedAt": 1758686399
+    }, {
+      "id": 94148203,
+      "name": "",
+      "type": "event",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "60",
+      "spotId": 840001,
+      "warId": 8400,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94148202
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "forceFalse",
+        "targetId": 0,
+        "closedMessage": "データ更新後に開放"
+      }],
+      "phases": [1, 2],
+      "priority": 94148287,
+      "noticeAt": 1757070000,
+      "openedAt": 1757149200,
+      "closedAt": 1758686399
+    }]
+  }]
+}, {
   "id": 8401,
   "coordinates": [
     [],
