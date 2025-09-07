@@ -93116,6 +93116,16 @@
     "value": 5,
     "startedAt": 1757149200,
     "endedAt": 1758686399
+  }, {
+    "warId": 8400,
+    "type": "bgImage",
+    "priority": 3,
+    "overwriteId": 254001,
+    "condType": "questClearPhase",
+    "targetId": 94148205,
+    "value": 6,
+    "startedAt": 1757235600,
+    "endedAt": 1758686399
   }],
   "maps": [{
     "id": 8400,
@@ -93422,6 +93432,37 @@
       "openedAt": 1757149200,
       "closedAt": 1758686399
     }, {
+      "id": 94148206,
+      "name": "",
+      "type": "event",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 840001,
+      "warId": 8400,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "forceFalse",
+        "targetId": 0,
+        "closedMessage": "データ更新後に開放"
+      }, {
+        "type": "commonRelease",
+        "targetId": 94148202
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94148278,
+      "noticeAt": 1757235600,
+      "openedAt": 1757322000,
+      "closedAt": 1758686399
+    }, {
       "id": 94148210,
       "name": "第3節 トッカータとフーガとノンアルコール",
       "type": "event",
@@ -93462,8 +93503,39 @@
       "openedAt": 1757149200,
       "closedAt": 1758686399
     }, {
+      "id": 94148290,
+      "name": "ノアズ・アーク撃沈戦",
+      "type": "event",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "90",
+      "spotId": 840001,
+      "warId": 8400,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "raidDead",
+        "targetId": 80559,
+        "value": 1
+      }, {
+        "type": "commonRelease",
+        "targetId": 94148201
+      }],
+      "phases": [1],
+      "priority": 94148279,
+      "noticeAt": 1757235600,
+      "openedAt": 1757235600,
+      "closedAt": 1758686399
+    }, {
       "id": 94148302,
-      "name": "",
+      "name": "ノアズ・アーク対艦戦 100門艦級",
       "type": "event",
       "flags": ["raid", "raidConnection", "noDisplayRaidRemain"],
       "consume": 40,
@@ -93472,6 +93544,9 @@
       "spotId": 840001,
       "warId": 8400,
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "date",
         "targetId": 0,
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
@@ -93480,21 +93555,18 @@
         "targetId": 80559,
         "value": 1
       }, {
-        "type": "forceFalse",
-        "targetId": 0,
-        "closedMessage": "データ更新後に開放"
-      }, {
         "type": "commonRelease",
         "targetId": 94148201
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94148284,
       "noticeAt": 1757149200,
       "openedAt": 1757235600,
       "closedAt": 1758686399
     }, {
       "id": 94148303,
-      "name": "",
+      "name": "ノアズ・アーク対艦戦 200門艦級",
       "type": "event",
       "flags": ["raid", "raidConnection", "noDisplayRaidRemain"],
       "consume": 40,
@@ -93503,6 +93575,9 @@
       "spotId": 840001,
       "warId": 8400,
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "date",
         "targetId": 0,
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
@@ -93510,10 +93585,6 @@
         "type": "raidAlive",
         "targetId": 80559,
         "value": 1
-      }, {
-        "type": "forceFalse",
-        "targetId": 0,
-        "closedMessage": "データ更新後に開放"
       }, {
         "type": "commonRelease",
         "targetId": 94148201
@@ -93525,7 +93596,7 @@
       "closedAt": 1758686399
     }, {
       "id": 94148304,
-      "name": "",
+      "name": "ノアズ・アーク対艦戦 300門艦級",
       "type": "event",
       "flags": ["raid", "raidConnection", "noDisplayRaidRemain"],
       "consume": 40,
@@ -93534,6 +93605,9 @@
       "spotId": 840001,
       "warId": 8400,
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "date",
         "targetId": 0,
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
@@ -93541,10 +93615,6 @@
         "type": "raidAlive",
         "targetId": 80559,
         "value": 1
-      }, {
-        "type": "forceFalse",
-        "targetId": 0,
-        "closedMessage": "データ更新後に開放"
       }, {
         "type": "commonRelease",
         "targetId": 94148201
@@ -93556,7 +93626,7 @@
       "closedAt": 1758686399
     }, {
       "id": 94148305,
-      "name": "",
+      "name": "ノアズ・アーク対艦戦 500門艦級",
       "type": "event",
       "flags": ["raid", "raidConnection", "noDisplayRaidRemain"],
       "consume": 40,
@@ -93565,6 +93635,9 @@
       "spotId": 840001,
       "warId": 8400,
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "date",
         "targetId": 0,
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
@@ -93572,10 +93645,6 @@
         "type": "raidAlive",
         "targetId": 80559,
         "value": 1
-      }, {
-        "type": "forceFalse",
-        "targetId": 0,
-        "closedMessage": "データ更新後に開放"
       }, {
         "type": "commonRelease",
         "targetId": 94148201
@@ -93587,7 +93656,7 @@
       "closedAt": 1758686399
     }, {
       "id": 94148306,
-      "name": "",
+      "name": "ノアズ・アーク対艦戦 1000門艦級",
       "type": "event",
       "flags": ["raid", "raidConnection", "noDisplayRaidRemain"],
       "consume": 40,
@@ -93596,6 +93665,9 @@
       "spotId": 840001,
       "warId": 8400,
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "date",
         "targetId": 0,
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
@@ -93604,14 +93676,11 @@
         "targetId": 80559,
         "value": 1
       }, {
-        "type": "forceFalse",
-        "targetId": 0,
-        "closedMessage": "データ更新後に開放"
-      }, {
         "type": "commonRelease",
         "targetId": 94148201
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94148280,
       "noticeAt": 1757149200,
       "openedAt": 1757235600,
