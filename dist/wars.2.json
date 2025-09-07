@@ -93106,6 +93106,16 @@
     "value": 1,
     "startedAt": 1757070000,
     "endedAt": 1758686399
+  }, {
+    "warId": 8400,
+    "type": "bgImage",
+    "priority": 2,
+    "overwriteId": 254900,
+    "condType": "questClearPhase",
+    "targetId": 94148205,
+    "value": 5,
+    "startedAt": 1757149200,
+    "endedAt": 1758686399
   }],
   "maps": [{
     "id": 8400,
@@ -93249,7 +93259,7 @@
       "closedAt": 1758686399
     }, {
       "id": 94148203,
-      "name": "",
+      "name": "第3節 トッカータとフーガとノンアルコール",
       "type": "event",
       "consume": 5,
       "afterClear": "close",
@@ -93262,21 +93272,349 @@
         "num": 1
       }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 94148202
       }, {
         "type": "date",
         "targetId": 0,
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1, 2],
+      "phasesWithEnemies": [1, 2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9414820310",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414820310.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9414820320",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414820320.txt"
+        }, {
+          "scriptId": "9414820321",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414820321.txt"
+        }]
+      }],
+      "priority": 94148287,
+      "noticeAt": 1757070000,
+      "openedAt": 1757149200,
+      "closedAt": 1758686399
+    }, {
+      "id": 94148204,
+      "name": "第4節 堕天の末裔",
+      "type": "event",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 840001,
+      "warId": 8400,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94148203
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1, 2, 3],
+      "phasesWithEnemies": [2, 3],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9414820410",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414820410.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9414820420",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414820420.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9414820430",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414820430.txt"
+        }, {
+          "scriptId": "9414820431",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414820431.txt"
+        }]
+      }],
+      "priority": 94148286,
+      "noticeAt": 1757149200,
+      "openedAt": 1757149200,
+      "closedAt": 1758686399
+    }, {
+      "id": 94148205,
+      "name": "第5節 再創世の試練",
+      "type": "event",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 840001,
+      "warId": 8400,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/3.png",
+      "gifts": [{
+        "id": 20058,
+        "objectId": 7999,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94148204
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "commonRelease",
+        "targetId": 94148200,
+        "closedMessage": "『ノアズ・アーク撃沈戦』クリア\n&9月8日18時00分以降に開放"
+      }],
+      "phases": [1, 2, 3, 4, 5, 6],
+      "phasesWithEnemies": [3],
+      "phasesNoBattle": [1, 2, 4, 5, 6],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9414820510",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414820510.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9414820520",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414820520.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9414820530",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414820530.txt"
+        }, {
+          "scriptId": "9414820531",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414820531.txt"
+        }]
+      }, {
+        "phase": 4,
+        "scripts": [{
+          "scriptId": "9414820540",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414820540.txt"
+        }]
+      }, {
+        "phase": 5,
+        "scripts": [{
+          "scriptId": "9414820550",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414820550.txt"
+        }]
+      }],
+      "priority": 94148285,
+      "noticeAt": 1757149200,
+      "openedAt": 1757149200,
+      "closedAt": 1758686399
+    }, {
+      "id": 94148210,
+      "name": "第3節 トッカータとフーガとノンアルコール",
+      "type": "event",
+      "flags": ["branch"],
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "60",
+      "spotId": 840001,
+      "warId": 8400,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94148203
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9414820310",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414820310.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9414820320",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414820320.txt"
+        }, {
+          "scriptId": "9414820321",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414820321.txt"
+        }]
+      }],
+      "priority": 94148287,
+      "noticeAt": 1757070000,
+      "openedAt": 1757149200,
+      "closedAt": 1758686399
+    }, {
+      "id": 94148302,
+      "name": "",
+      "type": "event",
+      "flags": ["raid", "raidConnection", "noDisplayRaidRemain"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "70",
+      "spotId": 840001,
+      "warId": 8400,
+      "releaseConditions": [{
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "raidAlive",
+        "targetId": 80559,
+        "value": 1
       }, {
         "type": "forceFalse",
         "targetId": 0,
         "closedMessage": "データ更新後に開放"
+      }, {
+        "type": "commonRelease",
+        "targetId": 94148201
       }],
-      "phases": [1, 2],
-      "priority": 94148287,
-      "noticeAt": 1757070000,
-      "openedAt": 1757149200,
+      "phases": [1],
+      "priority": 94148284,
+      "noticeAt": 1757149200,
+      "openedAt": 1757235600,
+      "closedAt": 1758686399
+    }, {
+      "id": 94148303,
+      "name": "",
+      "type": "event",
+      "flags": ["raid", "raidConnection", "noDisplayRaidRemain"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90",
+      "spotId": 840001,
+      "warId": 8400,
+      "releaseConditions": [{
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "raidAlive",
+        "targetId": 80559,
+        "value": 1
+      }, {
+        "type": "forceFalse",
+        "targetId": 0,
+        "closedMessage": "データ更新後に開放"
+      }, {
+        "type": "commonRelease",
+        "targetId": 94148201
+      }],
+      "phases": [1],
+      "priority": 94148283,
+      "noticeAt": 1757149200,
+      "openedAt": 1757235600,
+      "closedAt": 1758686399
+    }, {
+      "id": 94148304,
+      "name": "",
+      "type": "event",
+      "flags": ["raid", "raidConnection", "noDisplayRaidRemain"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90+",
+      "spotId": 840001,
+      "warId": 8400,
+      "releaseConditions": [{
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "raidAlive",
+        "targetId": 80559,
+        "value": 1
+      }, {
+        "type": "forceFalse",
+        "targetId": 0,
+        "closedMessage": "データ更新後に開放"
+      }, {
+        "type": "commonRelease",
+        "targetId": 94148201
+      }],
+      "phases": [1],
+      "priority": 94148282,
+      "noticeAt": 1757149200,
+      "openedAt": 1757235600,
+      "closedAt": 1758686399
+    }, {
+      "id": 94148305,
+      "name": "",
+      "type": "event",
+      "flags": ["raid", "raidConnection", "noDisplayRaidRemain"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90++",
+      "spotId": 840001,
+      "warId": 8400,
+      "releaseConditions": [{
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "raidAlive",
+        "targetId": 80559,
+        "value": 1
+      }, {
+        "type": "forceFalse",
+        "targetId": 0,
+        "closedMessage": "データ更新後に開放"
+      }, {
+        "type": "commonRelease",
+        "targetId": 94148201
+      }],
+      "phases": [1],
+      "priority": 94148281,
+      "noticeAt": 1757149200,
+      "openedAt": 1757235600,
+      "closedAt": 1758686399
+    }, {
+      "id": 94148306,
+      "name": "",
+      "type": "event",
+      "flags": ["raid", "raidConnection", "noDisplayRaidRemain"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90+++",
+      "spotId": 840001,
+      "warId": 8400,
+      "releaseConditions": [{
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "raidAlive",
+        "targetId": 80559,
+        "value": 1
+      }, {
+        "type": "forceFalse",
+        "targetId": 0,
+        "closedMessage": "データ更新後に開放"
+      }, {
+        "type": "commonRelease",
+        "targetId": 94148201
+      }],
+      "phases": [1],
+      "priority": 94148280,
+      "noticeAt": 1757149200,
+      "openedAt": 1757235600,
       "closedAt": 1758686399
     }]
   }]
