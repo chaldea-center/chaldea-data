@@ -93426,6 +93426,12 @@
           "scriptId": "9414820550",
           "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414820550.txt"
         }]
+      }, {
+        "phase": 6,
+        "scripts": [{
+          "scriptId": "9414820561",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414820561.txt"
+        }]
       }],
       "priority": 94148285,
       "noticeAt": 1757149200,
@@ -93433,6 +93439,43 @@
       "closedAt": 1758686399
     }, {
       "id": 94148206,
+      "name": "第6節 ノア",
+      "type": "event",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 840001,
+      "warId": 8400,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "commonRelease",
+        "targetId": 94148202
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9414820610",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9414/9414820610.txt"
+        }]
+      }],
+      "priority": 94148278,
+      "noticeAt": 1757235600,
+      "openedAt": 1757322000,
+      "closedAt": 1758686399
+    }, {
+      "id": 94148207,
       "name": "",
       "type": "event",
       "consume": 5,
@@ -93446,21 +93489,22 @@
         "num": 1
       }],
       "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94148206
+      }, {
         "type": "date",
-        "targetId": 0
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
       }, {
         "type": "forceFalse",
         "targetId": 0,
         "closedMessage": "データ更新後に開放"
-      }, {
-        "type": "commonRelease",
-        "targetId": 94148202
       }],
-      "phases": [1],
-      "phasesNoBattle": [1],
-      "priority": 94148278,
-      "noticeAt": 1757235600,
-      "openedAt": 1757322000,
+      "phases": [1, 2],
+      "phasesNoBattle": [1, 2],
+      "priority": 94148277,
+      "noticeAt": 1757322000,
+      "openedAt": 1758099600,
       "closedAt": 1758686399
     }, {
       "id": 94148210,
@@ -93529,6 +93573,7 @@
         "targetId": 94148201
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94148279,
       "noticeAt": 1757235600,
       "openedAt": 1757235600,
