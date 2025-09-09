@@ -90111,6 +90111,25 @@
     "targetId": 80555,
     "startedAt": 1752656400,
     "endedAt": 1893423600
+  }, {
+    "warId": 8395,
+    "type": "priority",
+    "priority": 5,
+    "overwriteId": 10021,
+    "condType": "eventStartToEnd",
+    "targetId": 80577,
+    "startedAt": 1757408400,
+    "endedAt": 1893423600
+  }, {
+    "warId": 8395,
+    "type": "banner",
+    "priority": 5,
+    "overwriteId": 80548,
+    "overwriteBanner": "https://static.atlasacademy.io/JP/Banner/chaldea_category_80548.png",
+    "condType": "eventStartToEnd",
+    "targetId": 80577,
+    "startedAt": 1757408400,
+    "endedAt": 1893423600
   }],
   "maps": [{
     "id": 8395,
@@ -96587,6 +96606,401 @@
       "priority": 94148988,
       "noticeAt": 1755057600,
       "openedAt": 1755057600,
+      "closedAt": 1893423600
+    }]
+  }]
+}, {
+  "id": 8404,
+  "coordinates": [
+    [],
+    []
+  ],
+  "age": "-",
+  "name": "冠位戴冠戦\nライダー",
+  "longName": "冠位戴冠戦\nライダー",
+  "flags": ["changeDispClosedMessage"],
+  "banner": "https://static.atlasacademy.io/JP/Banner/chaldea_category_80548.png",
+  "priority": 7007,
+  "parentWarId": 8395,
+  "bgm": {
+    "id": 0
+  },
+  "script": "https://static.atlasacademy.io/JP/Script/Common/NONE.txt",
+  "maps": [{
+    "id": 8404,
+    "mapImage": "https://static.atlasacademy.io/JP/Terminal/MapImgs/img_questmap_008404/img_questmap_008404.png",
+    "bgm": {
+      "id": 0
+    }
+  }],
+  "spots": [{
+    "id": 840401,
+    "mapId": 8404,
+    "name": "カルデアゲート",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter8404/QMap_Cap8404_Atlas/spot_840401.png"
+  }, {
+    "id": 1050007,
+    "blankEarth": true,
+    "mapId": 8404,
+    "name": "",
+    "quests": [{
+      "id": 94149800,
+      "name": "冠位解放戦〔ライダー〕",
+      "type": "event",
+      "flags": ["noDisplayRemain"],
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "100",
+      "spotId": 1050007,
+      "warId": 8404,
+      "gifts": [{
+        "id": 94149800,
+        "objectId": 70,
+        "num": 5
+      }, {
+        "id": 94149800,
+        "objectId": 1000,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000100
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94149800,
+      "noticeAt": 1757408400,
+      "openedAt": 1757408400,
+      "closedAt": 1893423600
+    }, {
+      "id": 94149801,
+      "name": "冠位研鑽戦〔ライダー〕 Ⅰ",
+      "type": "event",
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "100",
+      "spotId": 1050007,
+      "warId": 8404,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94149800
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "commonRelease",
+        "targetId": 10149801
+      }],
+      "presents": [{
+        "phase": 1,
+        "gifts": [{
+          "id": 94149802,
+          "type": "servant",
+          "objectId": 9570500,
+          "num": 1
+        }, {
+          "id": 94149802,
+          "type": "servant",
+          "objectId": 9670500,
+          "num": 1
+        }]
+      }],
+      "phases": [1],
+      "priority": 94149801,
+      "noticeAt": 1757408400,
+      "openedAt": 1757408400,
+      "closedAt": 1757995199
+    }, {
+      "id": 94149802,
+      "name": "冠位研鑽戦〔ライダー〕 Ⅱ",
+      "type": "event",
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "100+",
+      "spotId": 1050007,
+      "warId": 8404,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94149800
+      }, {
+        "type": "questClear",
+        "targetId": 94149801,
+        "closedMessage": "「冠位研鑽戦〔ライダー〕 Ⅰ」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "commonRelease",
+        "targetId": 10149801
+      }],
+      "presents": [{
+        "phase": 1,
+        "gifts": [{
+          "id": 94149802,
+          "type": "servant",
+          "objectId": 9570500,
+          "num": 1
+        }, {
+          "id": 94149802,
+          "type": "servant",
+          "objectId": 9670500,
+          "num": 1
+        }]
+      }],
+      "phases": [1],
+      "priority": 94149800,
+      "noticeAt": 1757408400,
+      "openedAt": 1757408400,
+      "closedAt": 1757995199
+    }, {
+      "id": 94149803,
+      "name": "冠位研鑽戦〔ライダー〕 Ⅲ",
+      "type": "event",
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "100++",
+      "spotId": 1050007,
+      "warId": 8404,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94149800
+      }, {
+        "type": "questClear",
+        "targetId": 94149802,
+        "closedMessage": "「冠位研鑽戦〔ライダー〕 Ⅱ」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "commonRelease",
+        "targetId": 10149801
+      }],
+      "presents": [{
+        "phase": 1,
+        "gifts": [{
+          "id": 94149802,
+          "type": "servant",
+          "objectId": 9570500,
+          "num": 1
+        }, {
+          "id": 94149802,
+          "type": "servant",
+          "objectId": 9670500,
+          "num": 1
+        }]
+      }],
+      "phases": [1],
+      "priority": 94149799,
+      "noticeAt": 1757408400,
+      "openedAt": 1757408400,
+      "closedAt": 1757995199
+    }, {
+      "id": 94149804,
+      "name": "冠位研鑽戦〔ライダー〕 Ⅳ",
+      "type": "event",
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "100+++",
+      "spotId": 1050007,
+      "warId": 8404,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94149800
+      }, {
+        "type": "questClear",
+        "targetId": 94149803,
+        "closedMessage": "「冠位研鑽戦〔ライダー〕 Ⅲ」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "commonRelease",
+        "targetId": 10149801
+      }],
+      "presents": [{
+        "phase": 1,
+        "gifts": [{
+          "id": 94149802,
+          "type": "servant",
+          "objectId": 9570500,
+          "num": 1
+        }, {
+          "id": 94149802,
+          "type": "servant",
+          "objectId": 9670500,
+          "num": 1
+        }]
+      }],
+      "phases": [1],
+      "priority": 94149798,
+      "noticeAt": 1757408400,
+      "openedAt": 1757408400,
+      "closedAt": 1757995199
+    }, {
+      "id": 94149805,
+      "name": "冠位研鑽戦〔ライダー〕 Ⅴ",
+      "type": "event",
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "100★",
+      "spotId": 1050007,
+      "warId": 8404,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94149800
+      }, {
+        "type": "questClear",
+        "targetId": 94149804,
+        "closedMessage": "「冠位研鑽戦〔ライダー〕 Ⅳ」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "commonRelease",
+        "targetId": 10149801
+      }],
+      "presents": [{
+        "phase": 1,
+        "gifts": [{
+          "id": 94149802,
+          "type": "servant",
+          "objectId": 9570500,
+          "num": 1
+        }, {
+          "id": 94149802,
+          "type": "servant",
+          "objectId": 9670500,
+          "num": 1
+        }]
+      }],
+      "phases": [1],
+      "priority": 94149797,
+      "noticeAt": 1757408400,
+      "openedAt": 1757408400,
+      "closedAt": 1757995199
+    }, {
+      "id": 94149806,
+      "name": "冠位研鑽戦〔ライダー〕 Ⅵ",
+      "type": "event",
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "100★★",
+      "spotId": 1050007,
+      "warId": 8404,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94149800
+      }, {
+        "type": "questClear",
+        "targetId": 94149805,
+        "closedMessage": "「冠位研鑽戦〔ライダー〕 Ⅴ」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "commonRelease",
+        "targetId": 10149801
+      }],
+      "presents": [{
+        "phase": 1,
+        "gifts": [{
+          "id": 94149802,
+          "type": "servant",
+          "objectId": 9570500,
+          "num": 1
+        }, {
+          "id": 94149802,
+          "type": "servant",
+          "objectId": 9670500,
+          "num": 1
+        }]
+      }],
+      "phases": [1],
+      "priority": 94149796,
+      "noticeAt": 1757408400,
+      "openedAt": 1757408400,
+      "closedAt": 1757995199
+    }, {
+      "id": 94149807,
+      "name": "冠位研鑽戦〔ライダー〕 Ⅶ",
+      "type": "event",
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "100★★★",
+      "spotId": 1050007,
+      "warId": 8404,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94149800
+      }, {
+        "type": "questClear",
+        "targetId": 94149806,
+        "closedMessage": "「冠位研鑽戦〔ライダー〕 Ⅵ」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "commonRelease",
+        "targetId": 10149801
+      }],
+      "presents": [{
+        "phase": 1,
+        "gifts": [{
+          "id": 94149802,
+          "type": "servant",
+          "objectId": 9570500,
+          "num": 1
+        }, {
+          "id": 94149802,
+          "type": "servant",
+          "objectId": 9670500,
+          "num": 1
+        }]
+      }],
+      "phases": [1],
+      "priority": 94149795,
+      "noticeAt": 1757408400,
+      "openedAt": 1757408400,
+      "closedAt": 1757995199
+    }, {
+      "id": 94149810,
+      "name": "冠位認定戦〔ライダー〕",
+      "type": "event",
+      "flags": ["noDisplayRemain"],
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "100★",
+      "spotId": 1050007,
+      "warId": 8404,
+      "gifts": [{
+        "id": 94149801,
+        "type": "servant",
+        "objectId": 9408840,
+        "num": 1
+      }, {
+        "id": 94149801,
+        "objectId": 6999,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94149800
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "classBoardSquareReleased",
+        "targetId": 10004,
+        "value": 12,
+        "closedMessage": "〔ライダー〕のグランドサイン解放数12個以上で開放"
+      }],
+      "phases": [1],
+      "priority": 94149794,
+      "noticeAt": 1757408400,
+      "openedAt": 1757408400,
       "closedAt": 1893423600
     }]
   }]

@@ -17494,7 +17494,10 @@
     "name": "特性付与〔悪〕",
     "detail": "〔悪〕特性を付与する",
     "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_520.png",
-    "type": "addIndividuality"
+    "type": "addIndividuality",
+    "vals": [{
+      "id": 3124
+    }]
   }]
 }, {
   "funcId": 3442,
@@ -34435,7 +34438,10 @@
     "name": "特性付与〔悪〕",
     "detail": "〔悪〕特性を付与する",
     "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_520.png",
-    "type": "addIndividuality"
+    "type": "addIndividuality",
+    "vals": [{
+      "id": 3124
+    }]
   }]
 }, {
   "funcId": 8692,
@@ -55374,7 +55380,10 @@
     "name": "特性付与〔悪〕",
     "detail": "〔悪〕特性を付与する",
     "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_520.png",
-    "type": "addIndividuality"
+    "type": "addIndividuality",
+    "vals": [{
+      "id": 3124
+    }]
   }]
 }, {
   "funcId": 22649,
@@ -56625,6 +56634,14 @@
       "id": 1001
     }],
     "maxRate": 5000
+  }]
+}, {
+  "funcId": 22847,
+  "funcType": "expUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "functvals": [{
+    "id": 103
   }]
 }, {
   "funcId": 22850,
@@ -61869,7 +61886,7 @@
     "name": "対魔力（剣）",
     "detail": "宝具使用時、自身に敵の宝具による被ダメージをカットする状態を付与",
     "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_396.png",
-    "type": "treasureDeviceAfterFunction",
+    "type": "treasureDeviceAfterFunctionMainOnly",
     "vals": [{
       "id": 3004
     }]
@@ -63458,7 +63475,7 @@
     "name": "理の傍ら（彼方）",
     "detail": "宝具使用時、自身に「〔対極共生〕による状態効果の変換確率を100%にアップ＆〔放出残滓〕と〔増幅負荷〕が自身の耐性を無視するようになる【デメリット】状態」を付与",
     "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_396.png",
-    "type": "treasureDeviceAfterFunction",
+    "type": "treasureDeviceAfterFunctionMainOnly",
     "vals": [{
       "id": 3004
     }]
@@ -63959,6 +63976,533 @@
     }],
     "ckOpIndv": [{
       "id": 3115
+    }]
+  }]
+}, {
+  "funcId": 30305,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "スター発生アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_321.png",
+  "buffs": [{
+    "id": 30086,
+    "name": "スター発生アップ",
+    "detail": "スター発生率をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_321.png",
+    "type": "upCriticalpoint",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3083
+    }],
+    "maxRate": 50000
+  }]
+}, {
+  "funcId": 30306,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "NP獲得アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_303.png",
+  "buffs": [{
+    "id": 30088,
+    "name": "NP獲得アップ",
+    "detail": "NP獲得量をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_303.png",
+    "type": "upDropnp",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3084
+    }],
+    "maxRate": 50000
+  }]
+}, {
+  "funcId": 30307,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "クリティカル威力アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_324.png",
+  "buffs": [{
+    "id": 30089,
+    "name": "クリティカル威力アップ",
+    "detail": "クリティカル時のダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_324.png",
+    "type": "upCriticaldamage",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3031
+    }],
+    "maxRate": 50000
+  }]
+}, {
+  "funcId": 30308,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "クイックチェイン成立時発動効果",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_420.png",
+  "buffs": [{
+    "id": 30171,
+    "name": "クイックチェイン成立時発動効果",
+    "detail": "自身のコマンドカードを含むクイックチェイン成立時、自身のスター発生率をアップ＆スター集中度をアップ＋自身が〔境域掌握〕状態の時は追加で「Quick攻撃時に味方全体のQuickカードの宝具威力をアップする状態」を付与",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_420.png",
+    "type": "confirmCommandFunction",
+    "vals": [{
+      "id": 3004
+    }],
+    "ckSelfIndv": [{
+      "id": 4104
+    }]
+  }]
+}, {
+  "funcId": 30309,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "アーツチェイン成立時発動効果",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_421.png",
+  "buffs": [{
+    "id": 30172,
+    "name": "アーツチェイン成立時発動効果",
+    "detail": "自身のコマンドカードを含むアーツチェイン成立時、自身のNP獲得量をアップ＋自身が〔境域掌握〕状態の時は追加で「Arts攻撃時に味方全体のArtsカードの宝具威力をアップする状態」を付与",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_421.png",
+    "type": "confirmCommandFunction",
+    "vals": [{
+      "id": 3004
+    }],
+    "ckSelfIndv": [{
+      "id": 4105
+    }]
+  }]
+}, {
+  "funcId": 30310,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "バスターチェイン成立時発動効果",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_422.png",
+  "buffs": [{
+    "id": 30173,
+    "name": "バスターチェイン成立時発動効果",
+    "detail": "自身のコマンドカードを含むバスターチェイン成立時、自身のクリティカル威力をアップ＋自身が〔境域掌握〕状態の時は追加で「Buster攻撃時に味方全体のBusterカードの宝具威力をアップする状態」を付与",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_422.png",
+    "type": "confirmCommandFunction",
+    "vals": [{
+      "id": 3004
+    }],
+    "ckSelfIndv": [{
+      "id": 4106
+    }]
+  }]
+}, {
+  "funcId": 30311,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "マイティチェイン成立時発動効果",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_424.png",
+  "buffs": [{
+    "id": 30174,
+    "name": "マイティチェイン成立時発動効果",
+    "detail": "自身のコマンドカードを含むマイティチェイン成立時、自身の攻撃力をアップ＋自身が〔境域掌握〕状態の時は追加で味方全体の攻撃力をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_424.png",
+    "type": "confirmCommandFunction",
+    "vals": [{
+      "id": 3004
+    }],
+    "ckSelfIndv": [{
+      "id": 4107
+    }]
+  }]
+}, {
+  "funcId": 30312,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "駿馬、戦場を駆る（騎）",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_423.png",
+  "buffs": [{
+    "id": 30175,
+    "name": "駿馬、戦場を駆る（騎）",
+    "detail": "自身のコマンドカードを含むブレイブチェイン成立時、自身に「攻撃時のダメージ前に、自身のQuick・Arts・Busterカードの威力をアップする状態」を付与＋自身が〔境域掌握〕状態の時は追加で「Quick攻撃時に味方全体のQuickカードの威力をアップする状態」「Arts攻撃時に味方全体のArtsカードの威力をアップする状態」「Buster攻撃時に味方全体のBusterカードの威力をアップする状態」を付与",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_423.png",
+    "type": "confirmCommandFunction",
+    "vals": [{
+      "id": 3004
+    }],
+    "ckSelfIndv": [{
+      "id": 4108
+    }]
+  }]
+}, {
+  "funcId": 30313,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "不沈の号令（騎）",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_331.png",
+  "buffs": [{
+    "id": 30176,
+    "name": "不沈の号令（騎）",
+    "detail": "宝具チェインを除くチェイン不成立時、自身に被ダメージをカットする状態を付与<強化解除不能>＋自身が〔境域掌握〕状態の時は追加で味方全体に被ダメージをカットする状態を付与",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_331.png",
+    "type": "confirmCommandFunction",
+    "script": {
+      "checkIndvType": 2
+    },
+    "originalScript": {
+      "checkIndvType": 2
+    },
+    "vals": [{
+      "id": 3004
+    }],
+    "ckSelfIndv": [{
+      "id": 4104,
+      "negative": true
+    }, {
+      "id": 4105,
+      "negative": true
+    }, {
+      "id": 4106,
+      "negative": true
+    }, {
+      "id": 4107,
+      "negative": true
+    }, {
+      "id": 4108,
+      "negative": true
+    }]
+  }]
+}, {
+  "funcId": 30314,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "境域掌握（騎）",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_396.png",
+  "buffs": [{
+    "id": 30177,
+    "name": "境域掌握（騎）",
+    "detail": "自身の宝具使用時の効果発動前に、自身に〔境域掌握〕状態を付与",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_396.png",
+    "type": "treasureDeviceBeforeFunction",
+    "vals": [{
+      "id": 3004
+    }]
+  }]
+}, {
+  "funcId": 30321,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "攻撃力アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_300.png",
+  "functvals": [{
+    "id": 3123
+  }],
+  "buffs": [{
+    "id": 30090,
+    "name": "攻撃力アップ",
+    "detail": "攻撃力をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_300.png",
+    "type": "upAtk",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3027
+    }],
+    "maxRate": 50000
+  }]
+}, {
+  "funcId": 30322,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "攻撃ダメージ前追加効果",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_333.png",
+  "buffs": [{
+    "id": 30184,
+    "name": "攻撃ダメージ前追加効果",
+    "detail": "攻撃時、ダメージ前に自身のQuick・Arts・Busterカードの威力をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_333.png",
+    "type": "attackBeforeFunction",
+    "vals": [{
+      "id": 3004
+    }],
+    "tvals": [{
+      "id": 5000
+    }]
+  }]
+}, {
+  "funcId": 30323,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "Quick攻撃時追加効果〔境域掌握〕",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_333.png",
+  "buffs": [{
+    "id": 30185,
+    "name": "Quick攻撃時追加効果〔境域掌握〕",
+    "detail": "Quick攻撃時、味方全体のQuickカードの威力をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_333.png",
+    "type": "attackAfterFunction",
+    "script": {
+      "INDIVIDUALITIE": {
+        "id": 3123
+      }
+    },
+    "originalScript": {
+      "INDIVIDUALITIE": 3123
+    },
+    "vals": [{
+      "id": 3004
+    }],
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4003
+    }],
+    "ckSelfIndv": [{
+      "id": 4003
+    }]
+  }]
+}, {
+  "funcId": 30324,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "Arts攻撃時追加効果〔境域掌握〕",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_333.png",
+  "buffs": [{
+    "id": 30186,
+    "name": "Arts攻撃時追加効果〔境域掌握〕",
+    "detail": "Arts攻撃時、味方全体のArtsカードの威力をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_333.png",
+    "type": "attackAfterFunction",
+    "script": {
+      "INDIVIDUALITIE": {
+        "id": 3123
+      }
+    },
+    "originalScript": {
+      "INDIVIDUALITIE": 3123
+    },
+    "vals": [{
+      "id": 3004
+    }],
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4001
+    }],
+    "ckSelfIndv": [{
+      "id": 4001
+    }]
+  }]
+}, {
+  "funcId": 30325,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "Buster攻撃時追加効果〔境域掌握〕",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_333.png",
+  "buffs": [{
+    "id": 30187,
+    "name": "Buster攻撃時追加効果〔境域掌握〕",
+    "detail": "Buster攻撃時、味方全体のBusterカードの威力をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_333.png",
+    "type": "attackAfterFunction",
+    "script": {
+      "INDIVIDUALITIE": {
+        "id": 3123
+      }
+    },
+    "originalScript": {
+      "INDIVIDUALITIE": 3123
+    },
+    "vals": [{
+      "id": 3004
+    }],
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4002
+    }],
+    "ckSelfIndv": [{
+      "id": 4002
+    }]
+  }]
+}, {
+  "funcId": 30329,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "ダメージカット",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_301.png",
+  "buffs": [{
+    "id": 30188,
+    "name": "ダメージカット",
+    "detail": "被ダメージを減らす",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_301.png",
+    "type": "subSelfdamage",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3007
+    }, {
+      "id": 3085
+    }, {
+      "id": 3040
+    }]
+  }]
+}, {
+  "funcId": 30330,
+  "funcType": "addState",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "ダメージカット",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_301.png",
+  "functvals": [{
+    "id": 3123
+  }],
+  "buffs": [{
+    "id": 30188,
+    "name": "ダメージカット",
+    "detail": "被ダメージを減らす",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_301.png",
+    "type": "subSelfdamage",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3007
+    }, {
+      "id": 3085
+    }, {
+      "id": 3040
+    }]
+  }]
+}, {
+  "funcId": 30331,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "境域掌握",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_520.png",
+  "buffs": [{
+    "id": 30189,
+    "name": "境域掌握",
+    "detail": "グランドサインの追加効果の発動機会を得る",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_520.png",
+    "type": "addIndividuality",
+    "vals": [{
+      "id": 3004
+    }]
+  }]
+}, {
+  "funcId": 30332,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "Quick攻撃時追加効果〔境域掌握〕",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_333.png",
+  "buffs": [{
+    "id": 30190,
+    "name": "Quick攻撃時追加効果〔境域掌握〕",
+    "detail": "Quick攻撃時、味方全体のQuickカードの宝具威力をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_333.png",
+    "type": "attackAfterFunction",
+    "script": {
+      "INDIVIDUALITIE": {
+        "id": 3123
+      }
+    },
+    "originalScript": {
+      "INDIVIDUALITIE": 3123
+    },
+    "vals": [{
+      "id": 3004
+    }],
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4003
+    }],
+    "ckSelfIndv": [{
+      "id": 4003
+    }]
+  }]
+}, {
+  "funcId": 30333,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "Arts攻撃時追加効果〔境域掌握〕",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_333.png",
+  "buffs": [{
+    "id": 30191,
+    "name": "Arts攻撃時追加効果〔境域掌握〕",
+    "detail": "Arts攻撃時、味方全体のArtsカードの宝具威力をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_333.png",
+    "type": "attackAfterFunction",
+    "script": {
+      "INDIVIDUALITIE": {
+        "id": 3123
+      }
+    },
+    "originalScript": {
+      "INDIVIDUALITIE": 3123
+    },
+    "vals": [{
+      "id": 3004
+    }],
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4001
+    }],
+    "ckSelfIndv": [{
+      "id": 4001
+    }]
+  }]
+}, {
+  "funcId": 30334,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "Buster攻撃時追加効果〔境域掌握〕",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_333.png",
+  "buffs": [{
+    "id": 30192,
+    "name": "Buster攻撃時追加効果〔境域掌握〕",
+    "detail": "Buster攻撃時、味方全体のBusterカードの宝具威力をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_333.png",
+    "type": "attackAfterFunction",
+    "script": {
+      "INDIVIDUALITIE": {
+        "id": 3123
+      }
+    },
+    "originalScript": {
+      "INDIVIDUALITIE": 3123
+    },
+    "vals": [{
+      "id": 3004
+    }],
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4002
+    }],
+    "ckSelfIndv": [{
+      "id": 4002
     }]
   }]
 }, {
