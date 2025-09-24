@@ -55286,6 +55286,26 @@
     "maxRate": 5000
   }]
 }, {
+  "funcId": 22639,
+  "funcType": "addStateShort",
+  "funcTargetType": "enemyAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "クリティカル威力耐性ダウン",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_575.png",
+  "buffs": [{
+    "id": 5835,
+    "name": "クリティカル威力耐性ダウン",
+    "detail": "クリティカル攻撃で受けるダメージが増える",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_575.png",
+    "type": "downDefenceCriticaldamage",
+    "vals": [{
+      "id": 3005
+    }, {
+      "id": 3009
+    }],
+    "maxRate": 5000
+  }]
+}, {
   "funcId": 22641,
   "funcType": "addState",
   "funcTargetType": "self",
@@ -56670,6 +56690,155 @@
       "id": 204
     }],
     "maxRate": 10000
+  }]
+}, {
+  "funcId": 22852,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "幕末チャンバラパワー",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+  "funcquestTvals": [{
+    "id": 94000177
+  }],
+  "funcGroup": [{
+    "eventId": 80576,
+    "baseFuncId": 22851,
+    "nameTotal": "{1} \n攻撃の威力アップ合計",
+    "name": "攻撃の威力アップ合計",
+    "icon": "https://static.atlasacademy.io/JP/EventUI/func_group_icon_302.png",
+    "priority": 300,
+    "isDispValue": true
+  }],
+  "buffs": [{
+    "id": 5901,
+    "name": "幕末チャンバラパワー",
+    "detail": "『ぐだぐだ新選組・ジ・エンド』において与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamage",
+    "maxRate": 10000
+  }]
+}, {
+  "funcId": 22853,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "幕末チャンバラパワー",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+  "funcquestTvals": [{
+    "id": 94000177
+  }],
+  "funcGroup": [{
+    "eventId": 80576,
+    "baseFuncId": 22851,
+    "nameTotal": "{1} \n攻撃の威力アップ合計",
+    "name": "攻撃の威力アップ合計",
+    "icon": "https://static.atlasacademy.io/JP/EventUI/func_group_icon_302.png",
+    "priority": 300,
+    "isDispValue": true
+  }],
+  "buffs": [{
+    "id": 5901,
+    "name": "幕末チャンバラパワー",
+    "detail": "『ぐだぐだ新選組・ジ・エンド』において与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamage",
+    "maxRate": 10000
+  }]
+}, {
+  "funcId": 22854,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcquestTvals": [{
+    "id": 94000177
+  }],
+  "funcGroup": [{
+    "eventId": 80576,
+    "baseFuncId": 22851,
+    "nameTotal": "{1} \n攻撃の威力アップ合計",
+    "name": "攻撃の威力アップ合計",
+    "icon": "https://static.atlasacademy.io/JP/EventUI/func_group_icon_302.png",
+    "priority": 300,
+    "isDispValue": true
+  }],
+  "buffs": [{
+    "id": 5902,
+    "name": "威力アップ",
+    "detail": "『ぐだぐだ新選組・ジ・エンド』において与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamage",
+    "maxRate": 10000
+  }]
+}, {
+  "funcId": 22855,
+  "funcType": "servantFriendshipUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcGroup": [{
+    "eventId": 80576,
+    "baseFuncId": 0,
+    "nameTotal": "{1}\n自己効果により得られる絆アップ合計",
+    "name": "自己効果により得られる絆アップ",
+    "icon": "https://static.atlasacademy.io/JP/EventUI/func_group_icon_1009.png",
+    "priority": 200,
+    "isDispValue": true
+  }]
+}, {
+  "funcId": 22856,
+  "funcType": "servantFriendshipUp",
+  "funcTargetType": "ptFull",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcGroup": [{
+    "eventId": 80576,
+    "baseFuncId": 0,
+    "nameTotal": "{1}\n全体効果により得られる絆アップ合計",
+    "name": "全体効果により得られる絆アップ",
+    "icon": "https://static.atlasacademy.io/JP/EventUI/func_group_icon_1023.png",
+    "priority": 100,
+    "isDispValue": true
+  }]
+}, {
+  "funcId": 22857,
+  "funcType": "eventDropUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcGroup": [{
+    "eventId": 80576,
+    "baseFuncId": 0,
+    "nameTotal": "{0}\n獲得数ボーナス合計",
+    "name": "{0}獲得数アップ",
+    "icon": "https://static.atlasacademy.io/JP/Items/94149303.png",
+    "priority": 3000,
+    "isDispValue": true
+  }]
+}, {
+  "funcId": 22858,
+  "funcType": "eventDropUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcGroup": [{
+    "eventId": 80576,
+    "baseFuncId": 0,
+    "nameTotal": "{0}\n獲得数ボーナス合計",
+    "name": "{0}獲得数アップ",
+    "icon": "https://static.atlasacademy.io/JP/Items/94149302.png",
+    "priority": 2000,
+    "isDispValue": true
+  }]
+}, {
+  "funcId": 22859,
+  "funcType": "eventDropUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcGroup": [{
+    "eventId": 80576,
+    "baseFuncId": 0,
+    "nameTotal": "{0}\n獲得数ボーナス合計",
+    "name": "{0}獲得数アップ",
+    "icon": "https://static.atlasacademy.io/JP/Items/94149301.png",
+    "priority": 1000,
+    "isDispValue": true
   }]
 }, {
   "funcId": 22860,
@@ -59047,6 +59216,110 @@
       "INDIVIDUALITIE_AND": "2821,-10000",
       "individualityCondTargetType": 3
     }
+  }]
+}, {
+  "funcId": 22989,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "攻撃時追加効果",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_333.png",
+  "buffs": [{
+    "id": 5945,
+    "name": "コマンドコード攻撃時追加効果",
+    "detail": "コマンドコードが刻印されたカードで攻撃時、追加効果を発動する",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_333.png",
+    "type": "commandcodeattackBeforeFunctionMainOnly",
+    "vals": [{
+      "id": 3004
+    }],
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4002
+    }],
+    "ckSelfIndv": [{
+      "id": 4002
+    }]
+  }]
+}, {
+  "funcId": 22990,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "納刀体勢",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_520.png",
+  "buffs": [{
+    "id": 5946,
+    "name": "納刀体勢",
+    "detail": "〔納刀体勢〕特性を付与する",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_520.png",
+    "type": "addIndividuality",
+    "vals": [{
+      "id": 3004
+    }]
+  }]
+}, {
+  "funcId": 22999,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "ガッツ時発動",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_365.png",
+  "buffs": [{
+    "id": 5948,
+    "name": "ガッツ時発動",
+    "detail": "ガッツ発動時、スターを獲得する",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_365.png",
+    "type": "gutsFunction",
+    "vals": [{
+      "id": 3004
+    }]
+  }]
+}, {
+  "funcId": 23000,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "enemy",
+  "funcPopupText": "ガッツ時発動",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_365.png",
+  "buffs": [{
+    "id": 5949,
+    "name": "ガッツ時発動",
+    "detail": "ガッツ発動時、自身のクリティカル発生率をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_365.png",
+    "type": "gutsFunction",
+    "vals": [{
+      "id": 3004
+    }]
+  }]
+}, {
+  "funcId": 23002,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "攻撃力アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_300.png",
+  "functvals": [{
+    "id": 10006
+  }],
+  "buffs": [{
+    "id": 126,
+    "name": "攻撃力アップ",
+    "detail": "攻撃力をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_300.png",
+    "type": "upAtk",
+    "originalScript": {
+      "ProgressSelfTurn": 1
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3027
+    }],
+    "maxRate": 5000
   }]
 }, {
   "funcId": 30003,
