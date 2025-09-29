@@ -53104,6 +53104,9 @@
         "2": "https://static.atlasacademy.io/JP/CharaGraph/702500/702500a@2.png",
         "3": "https://static.atlasacademy.io/JP/CharaGraph/702500/702500b@1.png",
         "4": "https://static.atlasacademy.io/JP/CharaGraph/702500/702500b@2.png"
+      },
+      "costume": {
+        "702530": "https://static.atlasacademy.io/JP/CharaGraph/702530/702530a.png"
       }
     },
     "faces": {
@@ -53112,6 +53115,9 @@
         "2": "https://static.atlasacademy.io/JP/Faces/f_7025001.png",
         "3": "https://static.atlasacademy.io/JP/Faces/f_7025002.png",
         "4": "https://static.atlasacademy.io/JP/Faces/f_7025003.png"
+      },
+      "costume": {
+        "702530": "https://static.atlasacademy.io/JP/Faces/f_7025300.png"
       }
     },
     "narrowFigure": {
@@ -53120,6 +53126,9 @@
         "2": "https://static.atlasacademy.io/JP/NarrowFigure/702500/702500@1.png",
         "3": "https://static.atlasacademy.io/JP/NarrowFigure/702500/702500@2.png",
         "4": "https://static.atlasacademy.io/JP/NarrowFigure/702500/702500_2@0.png"
+      },
+      "costume": {
+        "702530": "https://static.atlasacademy.io/JP/NarrowFigure/702530/702530@0.png"
       }
     },
     "charaFigure": {
@@ -53131,6 +53140,9 @@
       "story": {
         "9938980": "https://static.atlasacademy.io/JP/CharaFigure/9938980/9938980_merged.png",
         "1098150000": "https://static.atlasacademy.io/JP/CharaFigure/1098150000/1098150000_merged.png"
+      },
+      "costume": {
+        "702530": "https://static.atlasacademy.io/JP/CharaFigure/7025300/7025300_merged.png"
       }
     },
     "commands": {
@@ -53138,6 +53150,9 @@
         "1": "https://static.atlasacademy.io/JP/Servants/Commands/702500/card_servant_1.png",
         "2": "https://static.atlasacademy.io/JP/Servants/Commands/702500/card_servant_2.png",
         "3": "https://static.atlasacademy.io/JP/Servants/Commands/702500/card_servant_3.png"
+      },
+      "costume": {
+        "702530": "https://static.atlasacademy.io/JP/Servants/Commands/702500/card_servant_11.png"
       }
     },
     "status": {
@@ -53145,6 +53160,9 @@
         "1": "https://static.atlasacademy.io/JP/Servants/Status/702500/status_servant_1.png",
         "2": "https://static.atlasacademy.io/JP/Servants/Status/702500/status_servant_2.png",
         "3": "https://static.atlasacademy.io/JP/Servants/Status/702500/status_servant_3.png"
+      },
+      "costume": {
+        "702530": "https://static.atlasacademy.io/JP/Servants/Status/702500/status_servant_11.png"
       }
     },
     "image": {
@@ -53161,6 +53179,9 @@
         "2": "https://static.atlasacademy.io/JP/Servants/702510/manifest.json",
         "3": "https://static.atlasacademy.io/JP/Servants/702520/manifest.json",
         "4": "https://static.atlasacademy.io/JP/Servants/702520/manifest.json"
+      },
+      "costume": {
+        "702530": "https://static.atlasacademy.io/JP/Servants/702530/manifest.json"
       }
     }
   },
@@ -53187,11 +53208,15 @@
   }, {
     "id": 2631
   }, {
+    "id": 2780
+  }, {
     "id": 2839
   }, {
     "id": 2858
   }, {
     "id": 5000
+  }, {
+    "id": 10009
   }, {
     "id": 702500
   }],
@@ -53345,6 +53370,9 @@
         "2": 0,
         "3": 0,
         "4": 0
+      },
+      "costume": {
+        "702530": 11
       }
     },
     "lvMax": {
@@ -53615,7 +53643,24 @@
       "qp": 20000000
     }
   },
-  "costumeMaterials": {},
+  "costumeMaterials": {
+    "702530": {
+      "items": [{
+        "itemId": 6503,
+        "amount": 10
+      }, {
+        "itemId": 6515,
+        "amount": 5
+      }, {
+        "itemId": 6520,
+        "amount": 5
+      }, {
+        "itemId": 6548,
+        "amount": 5
+      }],
+      "qp": 3000000
+    }
+  },
   "coin": {
     "summonNum": 90,
     "item": {
@@ -54035,6 +54080,17 @@
       "np": "C+",
       "policy": "lawful",
       "personality": "evil"
+    },
+    "costume": {
+      "702530": {
+        "id": 11,
+        "costumeCollectionNo": 133,
+        "battleCharaId": 702530,
+        "name": "浅葱の羽織袴",
+        "shortName": "浅葱の羽織袴",
+        "detail": "もう纏うことはないはずだった\n浅葱の羽織を、今、ここに",
+        "priority": 99
+      }
     }
   }
 }, {

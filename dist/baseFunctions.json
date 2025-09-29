@@ -36551,9 +36551,22 @@
   "funcTargetTeam": "playerAndEnemy",
   "funcPopupText": "クリティカル威力アップ",
   "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_324.png",
-  "functvals": [{
-    "id": 2839
-  }],
+  "overWriteTvalsList": [
+    [{
+      "id": 1000
+    }, {
+      "id": 10009
+    }]
+  ],
+  "script": {
+    "overwriteTvals": [
+      [{
+        "id": 1000
+      }, {
+        "id": 10009
+      }]
+    ]
+  },
   "buffs": [{
     "id": 142,
     "name": "クリティカル威力アップ",
@@ -43640,12 +43653,14 @@
     "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_324.png",
     "type": "upCriticaldamage",
     "script": {
-      "INDIVIDUALITIE": {
-        "id": 2839
-      }
+      "INDIVIDUALITIE_AND": [{
+        "id": 1000
+      }, {
+        "id": 10009
+      }]
     },
     "originalScript": {
-      "INDIVIDUALITIE": 2839
+      "INDIVIDUALITIE_AND": "1000,10009"
     },
     "vals": [{
       "id": 3004
