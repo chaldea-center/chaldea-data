@@ -59295,6 +59295,62 @@
     }]
   }]
 }, {
+  "funcId": 22994,
+  "funcType": "gainNp",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "player",
+  "funcPopupText": "NP増加",
+  "functvals": [{
+    "id": 10009
+  }]
+}, {
+  "funcId": 22995,
+  "funcType": "gainNp",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "player",
+  "funcPopupText": "NP増加",
+  "functvals": [{
+    "id": 10009,
+    "negative": true
+  }]
+}, {
+  "funcId": 22996,
+  "funcType": "hastenNpturn",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "enemy",
+  "funcPopupText": "チャージ増加",
+  "functvals": [{
+    "id": 10009
+  }]
+}, {
+  "funcId": 22997,
+  "funcType": "hastenNpturn",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "enemy",
+  "funcPopupText": "チャージ増加",
+  "functvals": [{
+    "id": 10009,
+    "negative": true
+  }]
+}, {
+  "funcId": 22998,
+  "funcType": "addState",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "新選組",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_520.png",
+  "functvals": [{
+    "id": 10009,
+    "negative": true
+  }],
+  "buffs": [{
+    "id": 5947,
+    "name": "特性付与〔新選組〕",
+    "detail": "〔新選組〕特性を付与する",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_520.png",
+    "type": "addIndividuality"
+  }]
+}, {
   "funcId": 22999,
   "funcType": "addState",
   "funcTargetType": "self",
@@ -59355,6 +59411,283 @@
       "id": 3027
     }],
     "maxRate": 5000
+  }]
+}, {
+  "funcId": 23005,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "クイックアップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_312.png",
+  "functvals": [{
+    "id": 10009
+  }],
+  "buffs": [{
+    "id": 100,
+    "name": "Quickアップ",
+    "detail": "Quickカードの性能をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_312.png",
+    "type": "upCommandall",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3094
+    }],
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4003
+    }],
+    "ckSelfIndv": [{
+      "id": 4003
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 23008,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "アーツアップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_313.png",
+  "functvals": [{
+    "id": 10009
+  }],
+  "buffs": [{
+    "id": 101,
+    "name": "Artsアップ",
+    "detail": "Artsカードの性能をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_313.png",
+    "type": "upCommandall",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3092
+    }],
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4001
+    }],
+    "ckSelfIndv": [{
+      "id": 4001
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 23011,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "バスターアップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_314.png",
+  "functvals": [{
+    "id": 10009
+  }],
+  "buffs": [{
+    "id": 102,
+    "name": "Busterアップ",
+    "detail": "Busterカードの性能をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_314.png",
+    "type": "upCommandall",
+    "originalScript": {
+      "ProgressSelfTurn": 1
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3093
+    }],
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4002
+    }],
+    "ckSelfIndv": [{
+      "id": 4002
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 23013,
+  "funcType": "subState",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "弱体解除",
+  "functvals": [{
+    "id": 10009
+  }],
+  "traitVals": [{
+    "id": 3005
+  }]
+}, {
+  "funcId": 23018,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptFull",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "クイックアップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_312.png",
+  "buffs": [{
+    "id": 5954,
+    "name": "Quickアップ",
+    "detail": "Quickカードの性能をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_312.png",
+    "type": "upCommandall",
+    "script": {
+      "INDIVIDUALITIE": {
+        "id": 10009
+      }
+    },
+    "originalScript": {
+      "INDIVIDUALITIE": 10009
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3094
+    }],
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4003
+    }],
+    "ckSelfIndv": [{
+      "id": 4003
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 23021,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptFull",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "アーツアップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_313.png",
+  "buffs": [{
+    "id": 5955,
+    "name": "Artsアップ",
+    "detail": "Artsカードの性能をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_313.png",
+    "type": "upCommandall",
+    "script": {
+      "INDIVIDUALITIE": {
+        "id": 10009
+      }
+    },
+    "originalScript": {
+      "INDIVIDUALITIE": 10009
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3092
+    }],
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4001
+    }],
+    "ckSelfIndv": [{
+      "id": 4001
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 23024,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptFull",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "バスターアップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_314.png",
+  "buffs": [{
+    "id": 5956,
+    "name": "Busterアップ",
+    "detail": "Busterカードの性能をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_314.png",
+    "type": "upCommandall",
+    "script": {
+      "INDIVIDUALITIE": {
+        "id": 10009
+      }
+    },
+    "originalScript": {
+      "INDIVIDUALITIE": 10009
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3093
+    }],
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4002
+    }],
+    "ckSelfIndv": [{
+      "id": 4002
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 23027,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptFull",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "クリティカル威力アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_324.png",
+  "buffs": [{
+    "id": 5957,
+    "name": "クリティカル威力アップ",
+    "detail": "クリティカル時のダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_324.png",
+    "type": "upCriticaldamage",
+    "script": {
+      "INDIVIDUALITIE": {
+        "id": 10009
+      }
+    },
+    "originalScript": {
+      "INDIVIDUALITIE": 10009
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3031
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 23041,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "ガッツ<低確率>",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_304.png",
+  "buffs": [{
+    "id": 5959,
+    "name": "ガッツ<低確率>",
+    "detail": "HPが0になった時、低確率でHPを回復して耐える(他のガッツ状態と重複可能)",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_304.png",
+    "type": "guts",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3024
+    }]
   }]
 }, {
   "funcId": 30003,
