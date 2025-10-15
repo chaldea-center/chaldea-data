@@ -5176,6 +5176,11 @@
   }, {
     "id": 2615
   }],
+  "script": {
+    "funcIndividuality": [{
+      "id": 3012
+    }]
+  },
   "buffs": [{
     "id": 175,
     "name": "魅了",
@@ -5203,6 +5208,11 @@
   "functvals": [{
     "id": 2001
   }],
+  "script": {
+    "funcIndividuality": [{
+      "id": 3012
+    }]
+  },
   "buffs": [{
     "id": 175,
     "name": "魅了",
@@ -5227,6 +5237,11 @@
   "funcTargetTeam": "playerAndEnemy",
   "funcPopupText": "魅了",
   "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_502.png",
+  "script": {
+    "funcIndividuality": [{
+      "id": 3012
+    }]
+  },
   "buffs": [{
     "id": 175,
     "name": "魅了",
@@ -8253,6 +8268,28 @@
     "maxRate": 5000
   }]
 }, {
+  "funcId": 694,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "即死耐性アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_306.png",
+  "buffs": [{
+    "id": 218,
+    "name": "即死耐性アップ",
+    "detail": "即死耐性をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_306.png",
+    "type": "upResistInstantdeath",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3007
+    }, {
+      "id": 3040
+    }],
+    "maxRate": 5000
+  }]
+}, {
   "funcId": 695,
   "funcType": "addState",
   "funcTargetType": "self",
@@ -8293,6 +8330,28 @@
       "id": 3007
     }, {
       "id": 3040
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 702,
+  "funcType": "addStateShort",
+  "funcTargetType": "enemy",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "即死耐性ダウン",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_506.png",
+  "buffs": [{
+    "id": 219,
+    "name": "即死耐性ダウン",
+    "detail": "即死耐性をダウン",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_506.png",
+    "type": "upNonresistInstantdeath",
+    "vals": [{
+      "id": 3005
+    }, {
+      "id": 3009
+    }, {
+      "id": 3039
     }],
     "maxRate": 5000
   }]
@@ -9843,6 +9902,8 @@
     "type": "upGrantInstantdeath",
     "vals": [{
       "id": 3004
+    }, {
+      "id": 3127
     }],
     "maxRate": 5000
   }]
@@ -9861,6 +9922,8 @@
     "type": "upGrantInstantdeath",
     "vals": [{
       "id": 3004
+    }, {
+      "id": 3127
     }],
     "maxRate": 5000
   }]
@@ -9879,6 +9942,8 @@
     "type": "upGrantInstantdeath",
     "vals": [{
       "id": 3004
+    }, {
+      "id": 3127
     }],
     "maxRate": 5000
   }]
@@ -9897,6 +9962,8 @@
     "type": "upGrantInstantdeath",
     "vals": [{
       "id": 3004
+    }, {
+      "id": 3127
     }],
     "maxRate": 5000
   }]
@@ -9915,6 +9982,8 @@
     "type": "upGrantInstantdeath",
     "vals": [{
       "id": 3004
+    }, {
+      "id": 3127
     }],
     "maxRate": 5000
   }]
@@ -14149,6 +14218,11 @@
   "functvals": [{
     "id": 1
   }],
+  "script": {
+    "funcIndividuality": [{
+      "id": 3012
+    }]
+  },
   "buffs": [{
     "id": 926,
     "name": "魅了",
@@ -14178,6 +14252,11 @@
   "functvals": [{
     "id": 1
   }],
+  "script": {
+    "funcIndividuality": [{
+      "id": 3012
+    }]
+  },
   "buffs": [{
     "id": 926,
     "name": "魅了",
@@ -14204,6 +14283,11 @@
   "funcTargetTeam": "playerAndEnemy",
   "funcPopupText": "魅了",
   "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_502.png",
+  "script": {
+    "funcIndividuality": [{
+      "id": 3012
+    }]
+  },
   "buffs": [{
     "id": 926,
     "name": "魅了",
@@ -14230,6 +14314,11 @@
   "funcTargetTeam": "playerAndEnemy",
   "funcPopupText": "魅了",
   "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_502.png",
+  "script": {
+    "funcIndividuality": [{
+      "id": 3012
+    }]
+  },
   "buffs": [{
     "id": 926,
     "name": "魅了",
@@ -56690,6 +56779,8 @@
     "type": "upGrantInstantdeath",
     "vals": [{
       "id": 3004
+    }, {
+      "id": 3127
     }],
     "tvals": [{
       "id": 1001
@@ -59260,6 +59351,14 @@
       "INDIVIDUALITIE_AND": "2821,-10000",
       "individualityCondTargetType": 3
     }
+  }]
+}, {
+  "funcId": 22980,
+  "funcType": "expUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "functvals": [{
+    "id": 105
   }]
 }, {
   "funcId": 22989,
@@ -65191,6 +65290,1020 @@
     "ckSelfIndv": [{
       "id": 4002
     }]
+  }]
+}, {
+  "funcId": 30341,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "クイックチェイン成立時発動効果",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_420.png",
+  "buffs": [{
+    "id": 30199,
+    "name": "クイックチェイン成立時発動効果",
+    "detail": "自身のコマンドカードを含むクイックチェイン成立時、自身のクリティカル攻撃時のQuickカードの威力をアップ＆即死付与成功率をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_420.png",
+    "type": "confirmCommandFunction",
+    "vals": [{
+      "id": 3004
+    }],
+    "ckSelfIndv": [{
+      "id": 4104
+    }]
+  }]
+}, {
+  "funcId": 30342,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "アーツチェイン成立時発動効果",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_421.png",
+  "buffs": [{
+    "id": 30200,
+    "name": "アーツチェイン成立時発動効果",
+    "detail": "自身のコマンドカードを含むアーツチェイン成立時、自身のクリティカル攻撃時のArtsカードの威力をアップ＆即死付与成功率をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_421.png",
+    "type": "confirmCommandFunction",
+    "vals": [{
+      "id": 3004
+    }],
+    "ckSelfIndv": [{
+      "id": 4105
+    }]
+  }]
+}, {
+  "funcId": 30343,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "バスターチェイン成立時発動効果",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_422.png",
+  "buffs": [{
+    "id": 30201,
+    "name": "バスターチェイン成立時発動効果",
+    "detail": "自身のコマンドカードを含むバスターチェイン成立時、自身のクリティカル攻撃時のBusterカードの威力をアップ＆即死付与成功率をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_422.png",
+    "type": "confirmCommandFunction",
+    "vals": [{
+      "id": 3004
+    }],
+    "ckSelfIndv": [{
+      "id": 4106
+    }]
+  }]
+}, {
+  "funcId": 30344,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "マイティチェイン成立時発動効果",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_424.png",
+  "buffs": [{
+    "id": 30202,
+    "name": "マイティチェイン成立時発動効果",
+    "detail": "自身のコマンドカードを含むマイティチェイン成立時、自身のクリティカル威力をアップ＆自身に付与されている即死付与率アップ状態の効果量合計に応じてクリティカル威力をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_424.png",
+    "type": "confirmCommandFunction",
+    "vals": [{
+      "id": 3004
+    }],
+    "ckSelfIndv": [{
+      "id": 4107
+    }]
+  }]
+}, {
+  "funcId": 30345,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "無疵の間合い（殺）",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_331.png",
+  "buffs": [{
+    "id": 30203,
+    "name": "無疵の間合い（殺）",
+    "detail": "宝具チェインを除くチェイン不成立時、自身に回避状態(他の回避状態と重複可能)を付与＆即死耐性をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_331.png",
+    "type": "confirmCommandFunction",
+    "script": {
+      "checkIndvType": 2
+    },
+    "originalScript": {
+      "checkIndvType": 2
+    },
+    "vals": [{
+      "id": 3004
+    }],
+    "ckSelfIndv": [{
+      "id": 4104,
+      "negative": true
+    }, {
+      "id": 4105,
+      "negative": true
+    }, {
+      "id": 4106,
+      "negative": true
+    }, {
+      "id": 4107,
+      "negative": true
+    }, {
+      "id": 4108,
+      "negative": true
+    }]
+  }]
+}, {
+  "funcId": 30346,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "暗剣（殺）",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_528.png",
+  "buffs": [{
+    "id": 30204,
+    "name": "暗剣（殺）",
+    "detail": "通常攻撃時にクリティカルが発生しなかった場合、対象の即死耐性をダウン＆被スター発生耐性をダウン ＋ 通常攻撃時にクリティカルが発生した場合、対象に高確率で即死効果 ＋ このグランドサインの効果による即死失敗時、対象に付与されている即死耐性ダウン状態の数が3個以上の場合、対象のクリティカル攻撃耐性をダウン",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_528.png",
+    "type": "commandattackAfterFunction",
+    "script": {
+      "checkIndvType": 2
+    },
+    "originalScript": {
+      "checkIndvType": 2
+    },
+    "vals": [{
+      "id": 3004
+    }],
+    "tvals": [{
+      "id": 5000
+    }],
+    "ckSelfIndv": [{
+      "id": 4100,
+      "negative": true
+    }]
+  }]
+}, {
+  "funcId": 30347,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "buffs": [{
+    "id": 30205,
+    "name": "",
+    "detail": "",
+    "type": "commandattackAfterFunction",
+    "tvals": [{
+      "id": 5000
+    }],
+    "ckSelfIndv": [{
+      "id": 4100
+    }]
+  }]
+}, {
+  "funcId": 30348,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "Quick威力アップ〔クリティカル〕",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_356.png",
+  "buffs": [{
+    "id": 30206,
+    "name": "Quick威力アップ〔クリティカル〕",
+    "detail": "クリティカル時のQuickカードの威力をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_356.png",
+    "type": "upCommandatk",
+    "script": {
+      "checkIndvType": 1
+    },
+    "originalScript": {
+      "checkIndvType": 1
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }],
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4003
+    }, {
+      "id": 4100
+    }],
+    "ckSelfIndv": [{
+      "id": 4003
+    }, {
+      "id": 4100
+    }],
+    "maxRate": 50000
+  }]
+}, {
+  "funcId": 30349,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "Arts威力アップ〔クリティカル〕",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_357.png",
+  "buffs": [{
+    "id": 30207,
+    "name": "Arts威力アップ〔クリティカル〕",
+    "detail": "クリティカル時のArtsカードの威力をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_357.png",
+    "type": "upCommandatk",
+    "script": {
+      "checkIndvType": 1
+    },
+    "originalScript": {
+      "checkIndvType": 1
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }],
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4001
+    }, {
+      "id": 4100
+    }],
+    "ckSelfIndv": [{
+      "id": 4001
+    }, {
+      "id": 4100
+    }],
+    "maxRate": 50000
+  }]
+}, {
+  "funcId": 30350,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "Buster威力アップ〔クリティカル〕",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_358.png",
+  "buffs": [{
+    "id": 30208,
+    "name": "Buster威力アップ〔クリティカル〕",
+    "detail": "クリティカル時のBusterカードの威力をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_358.png",
+    "type": "upCommandatk",
+    "script": {
+      "checkIndvType": 1
+    },
+    "originalScript": {
+      "checkIndvType": 1
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }],
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4002
+    }, {
+      "id": 4100
+    }],
+    "ckSelfIndv": [{
+      "id": 4002
+    }, {
+      "id": 4100
+    }],
+    "maxRate": 50000
+  }]
+}, {
+  "funcId": 30351,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "クリティカル威力アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_324.png",
+  "buffs": [{
+    "id": 30209,
+    "name": "クリティカル威力アップ",
+    "detail": "自身に付与されている即死付与率アップ状態の効果量合計が10%以上の時、クリティカル時のダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_324.png",
+    "type": "upCriticaldamage",
+    "originalScript": {
+      "condBuffValue": [{
+        "buffType": 102,
+        "condValue": ">=100",
+        "buffIndividualitie": [3127],
+        "valueCondTargetType": 0
+      }]
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3031
+    }],
+    "maxRate": 50000
+  }]
+}, {
+  "funcId": 30352,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "クリティカル威力アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_324.png",
+  "buffs": [{
+    "id": 30210,
+    "name": "クリティカル威力アップ",
+    "detail": "自身に付与されている即死付与率アップ状態の効果量合計が30%以上の時、クリティカル時のダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_324.png",
+    "type": "upCriticaldamage",
+    "originalScript": {
+      "condBuffValue": [{
+        "buffType": 102,
+        "condValue": ">=300",
+        "buffIndividualitie": [3127],
+        "valueCondTargetType": 0
+      }]
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3031
+    }],
+    "maxRate": 50000
+  }]
+}, {
+  "funcId": 30353,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "クリティカル威力アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_324.png",
+  "buffs": [{
+    "id": 30211,
+    "name": "クリティカル威力アップ",
+    "detail": "自身に付与されている即死付与率アップ状態の効果量合計が60%以上の時、クリティカル時のダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_324.png",
+    "type": "upCriticaldamage",
+    "originalScript": {
+      "condBuffValue": [{
+        "buffType": 102,
+        "condValue": ">=600",
+        "buffIndividualitie": [3127],
+        "valueCondTargetType": 0
+      }]
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3031
+    }],
+    "maxRate": 50000
+  }]
+}, {
+  "funcId": 30354,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "クリティカル威力アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_324.png",
+  "buffs": [{
+    "id": 30212,
+    "name": "クリティカル威力アップ",
+    "detail": "自身に付与されている即死付与率アップ状態の効果量合計が100%以上の時、クリティカル時のダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_324.png",
+    "type": "upCriticaldamage",
+    "originalScript": {
+      "condBuffValue": [{
+        "buffType": 102,
+        "condValue": ">=1000",
+        "buffIndividualitie": [3127],
+        "valueCondTargetType": 0
+      }]
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3031
+    }],
+    "maxRate": 50000
+  }]
+}, {
+  "funcId": 30355,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "クリティカル威力アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_324.png",
+  "buffs": [{
+    "id": 30213,
+    "name": "クリティカル威力アップ",
+    "detail": "自身に付与されている即死付与率アップ状態の効果量合計が150%以上の時、クリティカル時のダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_324.png",
+    "type": "upCriticaldamage",
+    "originalScript": {
+      "condBuffValue": [{
+        "buffType": 102,
+        "condValue": ">=1500",
+        "buffIndividualitie": [3127],
+        "valueCondTargetType": 0
+      }]
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3031
+    }],
+    "maxRate": 50000
+  }]
+}, {
+  "funcId": 30356,
+  "funcType": "addStateShort",
+  "funcTargetType": "enemy",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "クリティカル攻撃耐性ダウン",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_573.png",
+  "functvals": [{
+    "id": 3039
+  }],
+  "buffs": [{
+    "id": 30214,
+    "name": "クリティカル攻撃耐性ダウン",
+    "detail": "クリティカル攻撃による被ダメージ、被NP発生量、被スター発生率が増加する",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_573.png",
+    "type": "downDefencecommandall",
+    "script": {
+      "extendLowerLimit": 1000
+    },
+    "originalScript": {
+      "extendLowerLimit": 1000
+    },
+    "vals": [{
+      "id": 3005
+    }, {
+      "id": 3009
+    }],
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4100
+    }],
+    "ckOpIndv": [{
+      "id": 4100
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 30357,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "気配遮断（殺）",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_306.png",
+  "buffs": [{
+    "id": 30196,
+    "name": "気配遮断（殺）",
+    "detail": "自身に付与される回避効果を〔気配遮断〕状態に変化させる",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_306.png",
+    "type": "buffConvert",
+    "script": {
+      "convert": {
+        "targetLimit": "all",
+        "convertType": "buff",
+        "targets": [{
+          "id": 151,
+          "name": "回避",
+          "originalName": "回避",
+          "detail": "攻撃によるダメージを0にする",
+          "type": "avoidance",
+          "buffGroup": 200,
+          "originalScript": {
+            "ProgressSelfTurn": 0
+          },
+          "vals": [{
+            "id": 3004,
+            "name": "buffPositiveEffect"
+          }, {
+            "id": 3018,
+            "name": "buffEvadeAndInvincible"
+          }, {
+            "id": 3021,
+            "name": "buffEvade"
+          }, {
+            "id": 3007,
+            "name": "buffIncreaseDefence"
+          }],
+          "tvals": [],
+          "ckSelfIndv": [],
+          "ckOpIndv": [],
+          "maxRate": 0,
+          "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_305.png",
+          "script": {
+            "ProgressSelfTurn": 0
+          }
+        }, {
+          "id": 5401,
+          "name": "回避",
+          "originalName": "回避",
+          "detail": "攻撃によるダメージを0にする",
+          "type": "avoidance",
+          "buffGroup": 0,
+          "originalScript": {},
+          "vals": [{
+            "id": 3004,
+            "name": "buffPositiveEffect"
+          }, {
+            "id": 3018,
+            "name": "buffEvadeAndInvincible"
+          }, {
+            "id": 3021,
+            "name": "buffEvade"
+          }, {
+            "id": 3007,
+            "name": "buffIncreaseDefence"
+          }],
+          "tvals": [],
+          "ckSelfIndv": [],
+          "ckOpIndv": [],
+          "maxRate": 0,
+          "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_305.png",
+          "script": {}
+        }, {
+          "id": 30197,
+          "name": "回避",
+          "originalName": "回避",
+          "detail": "攻撃によるダメージを0にする(他の回避状態と重複可能)",
+          "type": "avoidance",
+          "buffGroup": 0,
+          "originalScript": {
+            "ProgressSelfTurn": 0
+          },
+          "vals": [{
+            "id": 3004,
+            "name": "buffPositiveEffect"
+          }, {
+            "id": 3018,
+            "name": "buffEvadeAndInvincible"
+          }, {
+            "id": 3021,
+            "name": "buffEvade"
+          }, {
+            "id": 3007,
+            "name": "buffIncreaseDefence"
+          }],
+          "tvals": [],
+          "ckSelfIndv": [],
+          "ckOpIndv": [],
+          "maxRate": 0,
+          "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_305.png",
+          "script": {
+            "ProgressSelfTurn": 0
+          }
+        }],
+        "targetBuffs": [{
+          "id": 151,
+          "name": "回避",
+          "originalName": "回避",
+          "detail": "攻撃によるダメージを0にする",
+          "type": "avoidance",
+          "buffGroup": 200,
+          "originalScript": {
+            "ProgressSelfTurn": 0
+          },
+          "vals": [{
+            "id": 3004,
+            "name": "buffPositiveEffect"
+          }, {
+            "id": 3018,
+            "name": "buffEvadeAndInvincible"
+          }, {
+            "id": 3021,
+            "name": "buffEvade"
+          }, {
+            "id": 3007,
+            "name": "buffIncreaseDefence"
+          }],
+          "tvals": [],
+          "ckSelfIndv": [],
+          "ckOpIndv": [],
+          "maxRate": 0,
+          "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_305.png",
+          "script": {
+            "ProgressSelfTurn": 0
+          }
+        }, {
+          "id": 5401,
+          "name": "回避",
+          "originalName": "回避",
+          "detail": "攻撃によるダメージを0にする",
+          "type": "avoidance",
+          "buffGroup": 0,
+          "originalScript": {},
+          "vals": [{
+            "id": 3004,
+            "name": "buffPositiveEffect"
+          }, {
+            "id": 3018,
+            "name": "buffEvadeAndInvincible"
+          }, {
+            "id": 3021,
+            "name": "buffEvade"
+          }, {
+            "id": 3007,
+            "name": "buffIncreaseDefence"
+          }],
+          "tvals": [],
+          "ckSelfIndv": [],
+          "ckOpIndv": [],
+          "maxRate": 0,
+          "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_305.png",
+          "script": {}
+        }, {
+          "id": 30197,
+          "name": "回避",
+          "originalName": "回避",
+          "detail": "攻撃によるダメージを0にする(他の回避状態と重複可能)",
+          "type": "avoidance",
+          "buffGroup": 0,
+          "originalScript": {
+            "ProgressSelfTurn": 0
+          },
+          "vals": [{
+            "id": 3004,
+            "name": "buffPositiveEffect"
+          }, {
+            "id": 3018,
+            "name": "buffEvadeAndInvincible"
+          }, {
+            "id": 3021,
+            "name": "buffEvade"
+          }, {
+            "id": 3007,
+            "name": "buffIncreaseDefence"
+          }],
+          "tvals": [],
+          "ckSelfIndv": [],
+          "ckOpIndv": [],
+          "maxRate": 0,
+          "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_305.png",
+          "script": {
+            "ProgressSelfTurn": 0
+          }
+        }],
+        "convertBuffs": [{
+          "id": 30198,
+          "name": "気配遮断",
+          "originalName": "気配遮断",
+          "detail": "必中・無敵貫通・対粛正防御貫通を無視して、攻撃によるダメージを0にする(他の回避状態と重複可能)",
+          "type": "avoidanceIndividuality",
+          "buffGroup": 0,
+          "originalScript": {
+            "checkIndvType": 2,
+            "ProgressSelfTurn": 0
+          },
+          "vals": [{
+            "id": 3004,
+            "name": "buffPositiveEffect"
+          }, {
+            "id": 3018,
+            "name": "buffEvadeAndInvincible"
+          }, {
+            "id": 3021,
+            "name": "buffEvade"
+          }, {
+            "id": 3007,
+            "name": "buffIncreaseDefence"
+          }, {
+            "id": 3125,
+            "name": "unknown"
+          }, {
+            "id": 3109,
+            "name": "unknown"
+          }],
+          "tvals": [],
+          "ckSelfIndv": [],
+          "ckOpIndv": [{
+            "id": 3124,
+            "name": "unknown",
+            "negative": true
+          }],
+          "maxRate": 0,
+          "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_305.png",
+          "script": {
+            "checkIndvType": 2,
+            "ProgressSelfTurn": 0
+          }
+        }, {
+          "id": 30198,
+          "name": "気配遮断",
+          "originalName": "気配遮断",
+          "detail": "必中・無敵貫通・対粛正防御貫通を無視して、攻撃によるダメージを0にする(他の回避状態と重複可能)",
+          "type": "avoidanceIndividuality",
+          "buffGroup": 0,
+          "originalScript": {
+            "checkIndvType": 2,
+            "ProgressSelfTurn": 0
+          },
+          "vals": [{
+            "id": 3004,
+            "name": "buffPositiveEffect"
+          }, {
+            "id": 3018,
+            "name": "buffEvadeAndInvincible"
+          }, {
+            "id": 3021,
+            "name": "buffEvade"
+          }, {
+            "id": 3007,
+            "name": "buffIncreaseDefence"
+          }, {
+            "id": 3125,
+            "name": "unknown"
+          }, {
+            "id": 3109,
+            "name": "unknown"
+          }],
+          "tvals": [],
+          "ckSelfIndv": [],
+          "ckOpIndv": [{
+            "id": 3124,
+            "name": "unknown",
+            "negative": true
+          }],
+          "maxRate": 0,
+          "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_305.png",
+          "script": {
+            "checkIndvType": 2,
+            "ProgressSelfTurn": 0
+          }
+        }, {
+          "id": 30198,
+          "name": "気配遮断",
+          "originalName": "気配遮断",
+          "detail": "必中・無敵貫通・対粛正防御貫通を無視して、攻撃によるダメージを0にする(他の回避状態と重複可能)",
+          "type": "avoidanceIndividuality",
+          "buffGroup": 0,
+          "originalScript": {
+            "checkIndvType": 2,
+            "ProgressSelfTurn": 0
+          },
+          "vals": [{
+            "id": 3004,
+            "name": "buffPositiveEffect"
+          }, {
+            "id": 3018,
+            "name": "buffEvadeAndInvincible"
+          }, {
+            "id": 3021,
+            "name": "buffEvade"
+          }, {
+            "id": 3007,
+            "name": "buffIncreaseDefence"
+          }, {
+            "id": 3125,
+            "name": "unknown"
+          }, {
+            "id": 3109,
+            "name": "unknown"
+          }],
+          "tvals": [],
+          "ckSelfIndv": [],
+          "ckOpIndv": [{
+            "id": 3124,
+            "name": "unknown",
+            "negative": true
+          }],
+          "maxRate": 0,
+          "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_305.png",
+          "script": {
+            "checkIndvType": 2,
+            "ProgressSelfTurn": 0
+          }
+        }],
+        "script": {
+          "OverwritePopupText": ["気配遮断"]
+        },
+        "effectId": 335
+      }
+    },
+    "originalScript": {
+      "convert": {
+        "buffId": 30196,
+        "script": {
+          "OverwritePopupText": ["気配遮断"]
+        },
+        "effectId": 335,
+        "targetIds": [151, 5401, 30197],
+        "convertType": 1,
+        "targetBuffs": [{
+          "id": 151,
+          "name": "回避",
+          "type": 24,
+          "vals": [3004, 3018, 3021, 3007],
+          "tvals": [],
+          "detail": "攻撃によるダメージを0にする",
+          "iconId": 305,
+          "script": {
+            "ProgressSelfTurn": 0
+          },
+          "maxRate": 0,
+          "ckOpIndv": [],
+          "buffGroup": 200,
+          "ckSelfIndv": []
+        }, {
+          "id": 5401,
+          "name": "回避",
+          "type": 24,
+          "vals": [3004, 3018, 3021, 3007],
+          "tvals": [],
+          "detail": "攻撃によるダメージを0にする",
+          "iconId": 305,
+          "script": {},
+          "maxRate": 0,
+          "ckOpIndv": [],
+          "buffGroup": 0,
+          "ckSelfIndv": []
+        }, {
+          "id": 30197,
+          "name": "回避",
+          "type": 24,
+          "vals": [3004, 3018, 3021, 3007],
+          "tvals": [],
+          "detail": "攻撃によるダメージを0にする(他の回避状態と重複可能)",
+          "iconId": 305,
+          "script": {
+            "ProgressSelfTurn": 0
+          },
+          "maxRate": 0,
+          "ckOpIndv": [],
+          "buffGroup": 0,
+          "ckSelfIndv": []
+        }],
+        "targetLimit": 0,
+        "convertBuffs": [{
+          "id": 30198,
+          "name": "気配遮断",
+          "type": 155,
+          "vals": [3004, 3018, 3021, 3007, 3125, 3109],
+          "tvals": [],
+          "detail": "必中・無敵貫通・対粛正防御貫通を無視して、攻撃によるダメージを0にする(他の回避状態と重複可能)",
+          "iconId": 305,
+          "script": {
+            "checkIndvType": 2,
+            "ProgressSelfTurn": 0
+          },
+          "maxRate": 0,
+          "ckOpIndv": [-3124],
+          "buffGroup": 0,
+          "ckSelfIndv": []
+        }, {
+          "id": 30198,
+          "name": "気配遮断",
+          "type": 155,
+          "vals": [3004, 3018, 3021, 3007, 3125, 3109],
+          "tvals": [],
+          "detail": "必中・無敵貫通・対粛正防御貫通を無視して、攻撃によるダメージを0にする(他の回避状態と重複可能)",
+          "iconId": 305,
+          "script": {
+            "checkIndvType": 2,
+            "ProgressSelfTurn": 0
+          },
+          "maxRate": 0,
+          "ckOpIndv": [-3124],
+          "buffGroup": 0,
+          "ckSelfIndv": []
+        }, {
+          "id": 30198,
+          "name": "気配遮断",
+          "type": 155,
+          "vals": [3004, 3018, 3021, 3007, 3125, 3109],
+          "tvals": [],
+          "detail": "必中・無敵貫通・対粛正防御貫通を無視して、攻撃によるダメージを0にする(他の回避状態と重複可能)",
+          "iconId": 305,
+          "script": {
+            "checkIndvType": 2,
+            "ProgressSelfTurn": 0
+          },
+          "maxRate": 0,
+          "ckOpIndv": [-3124],
+          "buffGroup": 0,
+          "ckSelfIndv": []
+        }],
+        "convertBuffIds": [30198, 30198, 30198]
+      }
+    },
+    "vals": [{
+      "id": 3004
+    }]
+  }]
+}, {
+  "funcId": 30358,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "回避",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_305.png",
+  "buffs": [{
+    "id": 30197,
+    "name": "回避",
+    "detail": "攻撃によるダメージを0にする(他の回避状態と重複可能)",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_305.png",
+    "type": "avoidance",
+    "originalScript": {
+      "ProgressSelfTurn": 0
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3018
+    }, {
+      "id": 3021
+    }, {
+      "id": 3007
+    }]
+  }]
+}, {
+  "funcId": 30359,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "即死無効〔気配遮断〕",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_340.png",
+  "buffs": [{
+    "id": 30215,
+    "name": "即死無効〔気配遮断〕",
+    "detail": "〔気配遮断〕状態の間、即死効果を無効にする",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_340.png",
+    "type": "avoidInstantdeath",
+    "script": {
+      "INDIVIDUALITIE": {
+        "id": 3125
+      }
+    },
+    "originalScript": {
+      "INDIVIDUALITIE": 3125
+    },
+    "vals": [{
+      "id": 3004
+    }]
+  }]
+}, {
+  "funcId": 30360,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "弱体付与アップ〔気配遮断〕",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_307.png",
+  "buffs": [{
+    "id": 30216,
+    "name": "弱体付与アップ〔気配遮断〕",
+    "detail": "〔気配遮断〕状態の間、弱体付与率をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_307.png",
+    "type": "upGrantstate",
+    "script": {
+      "INDIVIDUALITIE": {
+        "id": 3125
+      }
+    },
+    "originalScript": {
+      "INDIVIDUALITIE": 3125
+    },
+    "vals": [{
+      "id": 3004
+    }],
+    "ckSelfIndv": [{
+      "id": 3005
+    }],
+    "maxRate": 50000
+  }]
+}, {
+  "funcId": 30361,
+  "funcType": "addStateShort",
+  "funcTargetType": "enemy",
+  "funcTargetTeam": "enemy",
+  "funcPopupText": "被スター発生耐性ダウン",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_560.png",
+  "buffs": [{
+    "id": 30217,
+    "name": "被スター発生耐性ダウン",
+    "detail": "スターが発生する確率を増やす",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_560.png",
+    "type": "upCriticalStarDamageTaken",
+    "script": {
+      "extendLowerLimit": 2500
+    },
+    "originalScript": {
+      "extendLowerLimit": 2500
+    },
+    "vals": [{
+      "id": 3005
+    }],
+    "maxRate": 5000
   }]
 }, {
   "funcId": 94100501,

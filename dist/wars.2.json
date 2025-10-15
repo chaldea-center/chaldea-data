@@ -90147,6 +90147,15 @@
     "endedAt": 1893423600
   }, {
     "warId": 8395,
+    "type": "priority",
+    "priority": 4,
+    "overwriteId": 10000,
+    "condType": "eventStartToEnd",
+    "targetId": 80555,
+    "startedAt": 1752656400,
+    "endedAt": 1893423600
+  }, {
+    "warId": 8395,
     "type": "banner",
     "priority": 4,
     "overwriteId": 80542,
@@ -90154,15 +90163,6 @@
     "condType": "eventStartToEnd",
     "targetId": 80571,
     "startedAt": 1754470800,
-    "endedAt": 1893423600
-  }, {
-    "warId": 8395,
-    "type": "priority",
-    "priority": 4,
-    "overwriteId": 10000,
-    "condType": "eventStartToEnd",
-    "targetId": 80555,
-    "startedAt": 1752656400,
     "endedAt": 1893423600
   }, {
     "warId": 8395,
@@ -90185,6 +90185,15 @@
     "endedAt": 1893423600
   }, {
     "warId": 8395,
+    "type": "priority",
+    "priority": 6,
+    "overwriteId": 10000,
+    "condType": "eventStartToEnd",
+    "targetId": 80581,
+    "startedAt": 1760518800,
+    "endedAt": 1893423600
+  }, {
+    "warId": 8395,
     "type": "banner",
     "priority": 6,
     "overwriteId": 80550,
@@ -90193,6 +90202,16 @@
     "targetId": 71596,
     "startedAt": 1758099600,
     "endedAt": 1758686399
+  }, {
+    "warId": 8395,
+    "type": "banner",
+    "priority": 7,
+    "overwriteId": 80551,
+    "overwriteBanner": "https://static.atlasacademy.io/JP/Banner/chaldea_category_80551.png",
+    "condType": "eventStartToEnd",
+    "targetId": 80581,
+    "startedAt": 1760518800,
+    "endedAt": 1893423600
   }],
   "maps": [{
     "id": 8395,
@@ -97552,6 +97571,405 @@
       "priority": 94149795,
       "noticeAt": 1757995200,
       "openedAt": 1757995200,
+      "closedAt": 1893423600
+    }]
+  }]
+}, {
+  "id": 8405,
+  "coordinates": [
+    [],
+    []
+  ],
+  "age": "-",
+  "name": "冠位戴冠戦\nアサシン",
+  "longName": "冠位戴冠戦\nアサシン",
+  "flags": ["changeDispClosedMessage"],
+  "banner": "https://static.atlasacademy.io/JP/Banner/chaldea_category_80551.png",
+  "priority": 7005,
+  "parentWarId": 8395,
+  "bgm": {
+    "id": 0
+  },
+  "script": "https://static.atlasacademy.io/JP/Script/Common/NONE.txt",
+  "maps": [{
+    "id": 8405,
+    "mapImage": "https://static.atlasacademy.io/JP/Terminal/MapImgs/img_questmap_008405/img_questmap_008405.png",
+    "bgm": {
+      "id": 0
+    }
+  }],
+  "spots": [{
+    "id": 840501,
+    "mapId": 8405,
+    "name": "カルデアゲート",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter8405/QMap_Cap8405_Atlas/spot_840501.png"
+  }, {
+    "id": 1050008,
+    "blankEarth": true,
+    "mapId": 8405,
+    "name": "",
+    "quests": [{
+      "id": 94150500,
+      "name": "冠位解放戦〔アサシン〕",
+      "type": "event",
+      "flags": ["noDisplayRemain"],
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "100",
+      "spotId": 1050008,
+      "warId": 8405,
+      "gifts": [{
+        "id": 94150500,
+        "objectId": 70,
+        "num": 5
+      }, {
+        "id": 94150500,
+        "objectId": 1000,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000100
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "priority": 94150500,
+      "noticeAt": 1760518800,
+      "openedAt": 1760518800,
+      "closedAt": 1893423600
+    }, {
+      "id": 94150501,
+      "name": "冠位研鑽戦〔アサシン〕 Ⅰ",
+      "type": "event",
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "100",
+      "spotId": 1050008,
+      "warId": 8405,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94150500
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "commonRelease",
+        "targetId": 10150501
+      }],
+      "presents": [{
+        "phase": 1,
+        "gifts": [{
+          "id": 94150502,
+          "type": "servant",
+          "objectId": 9570500,
+          "num": 1
+        }, {
+          "id": 94150502,
+          "type": "servant",
+          "objectId": 9670500,
+          "num": 1
+        }]
+      }],
+      "phases": [1],
+      "priority": 94150501,
+      "noticeAt": 1760518800,
+      "openedAt": 1760518800,
+      "closedAt": 1761105599
+    }, {
+      "id": 94150502,
+      "name": "冠位研鑽戦〔アサシン〕 Ⅱ",
+      "type": "event",
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "100+",
+      "spotId": 1050008,
+      "warId": 8405,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94150500
+      }, {
+        "type": "questClear",
+        "targetId": 94150501,
+        "closedMessage": "「冠位研鑽戦〔アサシン〕 Ⅰ」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "commonRelease",
+        "targetId": 10150501
+      }],
+      "presents": [{
+        "phase": 1,
+        "gifts": [{
+          "id": 94150502,
+          "type": "servant",
+          "objectId": 9570500,
+          "num": 1
+        }, {
+          "id": 94150502,
+          "type": "servant",
+          "objectId": 9670500,
+          "num": 1
+        }]
+      }],
+      "phases": [1],
+      "priority": 94150500,
+      "noticeAt": 1760518800,
+      "openedAt": 1760518800,
+      "closedAt": 1761105599
+    }, {
+      "id": 94150503,
+      "name": "冠位研鑽戦〔アサシン〕 Ⅲ",
+      "type": "event",
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "100++",
+      "spotId": 1050008,
+      "warId": 8405,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94150500
+      }, {
+        "type": "questClear",
+        "targetId": 94150502,
+        "closedMessage": "「冠位研鑽戦〔アサシン〕 Ⅱ」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "commonRelease",
+        "targetId": 10150501
+      }],
+      "presents": [{
+        "phase": 1,
+        "gifts": [{
+          "id": 94150502,
+          "type": "servant",
+          "objectId": 9570500,
+          "num": 1
+        }, {
+          "id": 94150502,
+          "type": "servant",
+          "objectId": 9670500,
+          "num": 1
+        }]
+      }],
+      "phases": [1],
+      "priority": 94150499,
+      "noticeAt": 1760518800,
+      "openedAt": 1760518800,
+      "closedAt": 1761105599
+    }, {
+      "id": 94150504,
+      "name": "冠位研鑽戦〔アサシン〕 Ⅳ",
+      "type": "event",
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "100+++",
+      "spotId": 1050008,
+      "warId": 8405,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94150500
+      }, {
+        "type": "questClear",
+        "targetId": 94150503,
+        "closedMessage": "「冠位研鑽戦〔アサシン〕 Ⅲ」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "commonRelease",
+        "targetId": 10150501
+      }],
+      "presents": [{
+        "phase": 1,
+        "gifts": [{
+          "id": 94150502,
+          "type": "servant",
+          "objectId": 9570500,
+          "num": 1
+        }, {
+          "id": 94150502,
+          "type": "servant",
+          "objectId": 9670500,
+          "num": 1
+        }]
+      }],
+      "phases": [1],
+      "priority": 94150498,
+      "noticeAt": 1760518800,
+      "openedAt": 1760518800,
+      "closedAt": 1761105599
+    }, {
+      "id": 94150505,
+      "name": "冠位研鑽戦〔アサシン〕 Ⅴ",
+      "type": "event",
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "100★",
+      "spotId": 1050008,
+      "warId": 8405,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94150500
+      }, {
+        "type": "questClear",
+        "targetId": 94150504,
+        "closedMessage": "「冠位研鑽戦〔アサシン〕 Ⅳ」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "commonRelease",
+        "targetId": 10150501
+      }],
+      "presents": [{
+        "phase": 1,
+        "gifts": [{
+          "id": 94150502,
+          "type": "servant",
+          "objectId": 9570500,
+          "num": 1
+        }, {
+          "id": 94150502,
+          "type": "servant",
+          "objectId": 9670500,
+          "num": 1
+        }]
+      }],
+      "phases": [1],
+      "priority": 94150497,
+      "noticeAt": 1760518800,
+      "openedAt": 1760518800,
+      "closedAt": 1761105599
+    }, {
+      "id": 94150506,
+      "name": "冠位研鑽戦〔アサシン〕 Ⅵ",
+      "type": "event",
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "100★★",
+      "spotId": 1050008,
+      "warId": 8405,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94150500
+      }, {
+        "type": "questClear",
+        "targetId": 94150505,
+        "closedMessage": "「冠位研鑽戦〔アサシン〕 Ⅴ」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "commonRelease",
+        "targetId": 10150501
+      }],
+      "presents": [{
+        "phase": 1,
+        "gifts": [{
+          "id": 94150502,
+          "type": "servant",
+          "objectId": 9570500,
+          "num": 1
+        }, {
+          "id": 94150502,
+          "type": "servant",
+          "objectId": 9670500,
+          "num": 1
+        }]
+      }],
+      "phases": [1],
+      "priority": 94150496,
+      "noticeAt": 1760518800,
+      "openedAt": 1760518800,
+      "closedAt": 1761105599
+    }, {
+      "id": 94150507,
+      "name": "冠位研鑽戦〔アサシン〕 Ⅶ",
+      "type": "event",
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "100★★★",
+      "spotId": 1050008,
+      "warId": 8405,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94150500
+      }, {
+        "type": "questClear",
+        "targetId": 94150506,
+        "closedMessage": "「冠位研鑽戦〔アサシン〕 Ⅵ」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "commonRelease",
+        "targetId": 10150501
+      }],
+      "presents": [{
+        "phase": 1,
+        "gifts": [{
+          "id": 94150502,
+          "type": "servant",
+          "objectId": 9570500,
+          "num": 1
+        }, {
+          "id": 94150502,
+          "type": "servant",
+          "objectId": 9670500,
+          "num": 1
+        }]
+      }],
+      "phases": [1],
+      "priority": 94150495,
+      "noticeAt": 1760518800,
+      "openedAt": 1760518800,
+      "closedAt": 1761105599
+    }, {
+      "id": 94150510,
+      "name": "冠位認定戦〔アサシン〕",
+      "type": "event",
+      "flags": ["noDisplayRemain"],
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "100★",
+      "spotId": 1050008,
+      "warId": 8405,
+      "gifts": [{
+        "id": 94150501,
+        "type": "servant",
+        "objectId": 9408920,
+        "num": 1
+      }, {
+        "id": 94150501,
+        "objectId": 6999,
+        "num": 1
+      }, {
+        "id": 94150501,
+        "type": "commandCode",
+        "objectId": 8402110,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94150500
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "classBoardSquareReleased",
+        "targetId": 10006,
+        "value": 12,
+        "closedMessage": "〔アサシン〕のグランドサイン解放数12個以上で開放"
+      }],
+      "phases": [1],
+      "priority": 94150494,
+      "noticeAt": 1760518800,
+      "openedAt": 1760518800,
       "closedAt": 1893423600
     }]
   }]
