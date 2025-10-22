@@ -59789,6 +59789,130 @@
     "maxRate": 5000
   }]
 }, {
+  "funcId": 23034,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "プラネットセッション",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+  "funcquestTvals": [{
+    "id": 94000178
+  }],
+  "funcGroup": [{
+    "eventId": 80580,
+    "baseFuncId": 23033,
+    "nameTotal": "{1} \n攻撃の威力アップ合計",
+    "name": "攻撃の威力アップ合計",
+    "icon": "https://static.atlasacademy.io/JP/EventUI/func_group_icon_302.png",
+    "priority": 300,
+    "isDispValue": true
+  }],
+  "buffs": [{
+    "id": 5958,
+    "name": "プラネットセッション",
+    "detail": "『ファイナル・ハロウィン2025』において与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamage",
+    "maxRate": 10000
+  }]
+}, {
+  "funcId": 23035,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "プラネットセッション",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+  "funcquestTvals": [{
+    "id": 94000178
+  }],
+  "funcGroup": [{
+    "eventId": 80580,
+    "baseFuncId": 23033,
+    "nameTotal": "{1} \n攻撃の威力アップ合計",
+    "name": "攻撃の威力アップ合計",
+    "icon": "https://static.atlasacademy.io/JP/EventUI/func_group_icon_302.png",
+    "priority": 300,
+    "isDispValue": true
+  }],
+  "buffs": [{
+    "id": 5958,
+    "name": "プラネットセッション",
+    "detail": "『ファイナル・ハロウィン2025』において与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamage",
+    "maxRate": 10000
+  }]
+}, {
+  "funcId": 23036,
+  "funcType": "servantFriendshipUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcGroup": [{
+    "eventId": 80580,
+    "baseFuncId": 0,
+    "nameTotal": "{1}\n自己効果により得られる絆アップ合計",
+    "name": "自己効果により得られる絆アップ",
+    "icon": "https://static.atlasacademy.io/JP/EventUI/func_group_icon_1009.png",
+    "priority": 200,
+    "isDispValue": true
+  }]
+}, {
+  "funcId": 23037,
+  "funcType": "eventDropUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcGroup": [{
+    "eventId": 80580,
+    "baseFuncId": 0,
+    "nameTotal": "{0}\n獲得数ボーナス合計",
+    "name": "{0}獲得数アップ",
+    "icon": "https://static.atlasacademy.io/JP/Items/94150003.png",
+    "priority": 3000,
+    "isDispValue": true
+  }]
+}, {
+  "funcId": 23038,
+  "funcType": "eventDropUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcGroup": [{
+    "eventId": 80580,
+    "baseFuncId": 0,
+    "nameTotal": "{0}\n獲得数ボーナス合計",
+    "name": "{0}獲得数アップ",
+    "icon": "https://static.atlasacademy.io/JP/Items/94150002.png",
+    "priority": 2000,
+    "isDispValue": true
+  }]
+}, {
+  "funcId": 23039,
+  "funcType": "eventDropUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcGroup": [{
+    "eventId": 80580,
+    "baseFuncId": 0,
+    "nameTotal": "{0}\n獲得数ボーナス合計",
+    "name": "{0}獲得数アップ",
+    "icon": "https://static.atlasacademy.io/JP/Items/94150001.png",
+    "priority": 1000,
+    "isDispValue": true
+  }]
+}, {
+  "funcId": 23040,
+  "funcType": "eventPointUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcGroup": [{
+    "eventId": 80580,
+    "baseFuncId": 0,
+    "nameTotal": "{0}\n獲得量ボーナス合計",
+    "name": "{0}獲得量アップ",
+    "icon": "https://static.atlasacademy.io/JP/Items/94150004.png",
+    "priority": 4000,
+    "isDispValue": true
+  }]
+}, {
   "funcId": 23041,
   "funcType": "addState",
   "funcTargetType": "self",
@@ -59843,6 +59967,168 @@
       "id": 104
     }],
     "maxRate": 5000
+  }]
+}, {
+  "funcId": 23054,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "攻撃時追加効果",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_528.png",
+  "buffs": [{
+    "id": 5964,
+    "name": "攻撃時追加効果",
+    "detail": "攻撃時、対象にやけど状態を付与",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_528.png",
+    "type": "attackAfterFunction",
+    "vals": [{
+      "id": 3004
+    }]
+  }]
+}, {
+  "funcId": 23055,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "Buster攻撃時追加効果",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_333.png",
+  "buffs": [{
+    "id": 5965,
+    "name": "Buster攻撃時追加効果",
+    "detail": "Buster攻撃時、味方全体に宝具使用時のチャージ段階を1段階引き上げる状態を付与",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_333.png",
+    "type": "attackAfterFunction",
+    "vals": [{
+      "id": 3004
+    }],
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4002
+    }],
+    "ckSelfIndv": [{
+      "id": 4002
+    }]
+  }]
+}, {
+  "funcId": 23056,
+  "funcType": "gainNpIndividualSum",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "NP増加",
+  "traitVals": [{
+    "id": 10010
+  }]
+}, {
+  "funcId": 23057,
+  "funcType": "addState",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "特性付与〔エリザベート〕",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_520.png",
+  "buffs": [{
+    "id": 5966,
+    "name": "特性付与〔エリザベート〕",
+    "detail": "〔エリザベート〕特性を付与する",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_520.png",
+    "type": "addIndividuality"
+  }]
+}, {
+  "funcId": 23059,
+  "funcType": "addState",
+  "funcTargetType": "ptOther",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "精神異常耐性ダウン",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_506.png",
+  "script": {
+    "funcIndividuality": [{
+      "id": 3098
+    }]
+  },
+  "buffs": [{
+    "id": 170,
+    "name": "精神異常耐性ダウン",
+    "detail": "精神異常耐性をダウン",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_506.png",
+    "type": "downTolerance",
+    "vals": [{
+      "id": 3005
+    }],
+    "tvals": [{
+      "id": 3010
+    }],
+    "ckOpIndv": [{
+      "id": 3010
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 23061,
+  "funcType": "gainNp",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "player",
+  "funcPopupText": "NP増加",
+  "functvals": [{
+    "id": 10010
+  }]
+}, {
+  "funcId": 23062,
+  "funcType": "gainNp",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "player",
+  "funcPopupText": "NP増加",
+  "functvals": [{
+    "id": 10010
+  }]
+}, {
+  "funcId": 23064,
+  "funcType": "hastenNpturn",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "enemy",
+  "funcPopupText": "チャージ増加",
+  "functvals": [{
+    "id": 10010
+  }]
+}, {
+  "funcId": 23068,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "フィールドセット〔ハロウィン〕",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_432.png",
+  "buffs": [{
+    "id": 5970,
+    "name": "フィールドセット〔ハロウィン〕",
+    "detail": "フィールドを〔ハロウィン〕にする",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_432.png",
+    "type": "fieldIndividuality",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3057
+    }, {
+      "id": 10011
+    }]
+  }]
+}, {
+  "funcId": 23069,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "攻撃ダメージ前追加効果",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_528.png",
+  "buffs": [{
+    "id": 5971,
+    "name": "攻撃ダメージ前追加効果",
+    "detail": "攻撃時、ダメージ前に対象にやけど状態を付与",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_528.png",
+    "type": "attackBeforeFunction",
+    "vals": [{
+      "id": 3004
+    }],
+    "tvals": [{
+      "id": 5000
+    }]
   }]
 }, {
   "funcId": 30003,
@@ -65594,6 +65880,16 @@
     "detail": "自身に付与されている即死付与率アップ状態の効果量合計が10%以上の時、クリティカル時のダメージをアップ",
     "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_324.png",
     "type": "upCriticaldamage",
+    "script": {
+      "condBuffValue": [{
+        "buffType": "upGrantInstantdeath",
+        "condValue": ">=100",
+        "buffIndividualities": [{
+          "id": 3127
+        }],
+        "valueCondTargetType": "none"
+      }]
+    },
     "originalScript": {
       "condBuffValue": [{
         "buffType": 102,
@@ -65624,6 +65920,16 @@
     "detail": "自身に付与されている即死付与率アップ状態の効果量合計が30%以上の時、クリティカル時のダメージをアップ",
     "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_324.png",
     "type": "upCriticaldamage",
+    "script": {
+      "condBuffValue": [{
+        "buffType": "upGrantInstantdeath",
+        "condValue": ">=300",
+        "buffIndividualities": [{
+          "id": 3127
+        }],
+        "valueCondTargetType": "none"
+      }]
+    },
     "originalScript": {
       "condBuffValue": [{
         "buffType": 102,
@@ -65654,6 +65960,16 @@
     "detail": "自身に付与されている即死付与率アップ状態の効果量合計が60%以上の時、クリティカル時のダメージをアップ",
     "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_324.png",
     "type": "upCriticaldamage",
+    "script": {
+      "condBuffValue": [{
+        "buffType": "upGrantInstantdeath",
+        "condValue": ">=600",
+        "buffIndividualities": [{
+          "id": 3127
+        }],
+        "valueCondTargetType": "none"
+      }]
+    },
     "originalScript": {
       "condBuffValue": [{
         "buffType": 102,
@@ -65684,6 +66000,16 @@
     "detail": "自身に付与されている即死付与率アップ状態の効果量合計が100%以上の時、クリティカル時のダメージをアップ",
     "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_324.png",
     "type": "upCriticaldamage",
+    "script": {
+      "condBuffValue": [{
+        "buffType": "upGrantInstantdeath",
+        "condValue": ">=1000",
+        "buffIndividualities": [{
+          "id": 3127
+        }],
+        "valueCondTargetType": "none"
+      }]
+    },
     "originalScript": {
       "condBuffValue": [{
         "buffType": 102,
@@ -65714,6 +66040,16 @@
     "detail": "自身に付与されている即死付与率アップ状態の効果量合計が150%以上の時、クリティカル時のダメージをアップ",
     "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_324.png",
     "type": "upCriticaldamage",
+    "script": {
+      "condBuffValue": [{
+        "buffType": "upGrantInstantdeath",
+        "condValue": ">=1500",
+        "buffIndividualities": [{
+          "id": 3127
+        }],
+        "valueCondTargetType": "none"
+      }]
+    },
     "originalScript": {
       "condBuffValue": [{
         "buffType": 102,

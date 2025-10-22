@@ -90145,7 +90145,7 @@
       "closedAt": 1893423600
     }, {
       "id": 94008007,
-      "name": "強化クエスト エリザベート",
+      "name": "強化クエスト エリザベート・バートリー",
       "type": "event",
       "consume": 21,
       "afterClear": "close",
@@ -90153,11 +90153,11 @@
       "spotId": 99001,
       "warId": 1001,
       "gifts": [{
-        "id": 94012504,
+        "id": 94012502,
         "objectId": 2,
-        "num": 2
+        "num": 1
       }, {
-        "id": 94012504,
+        "id": 94012502,
         "type": "questRewardIcon",
         "objectId": 9,
         "num": 0
@@ -90173,7 +90173,7 @@
       }],
       "phases": [1, 2, 3, 4, 5],
       "phasesWithEnemies": [1, 2, 3, 4, 5],
-      "priority": 700045,
+      "priority": 700050,
       "noticeAt": 1476025200,
       "openedAt": 1476025200,
       "closedAt": 1893423600
@@ -90993,7 +90993,7 @@
       "closedAt": 1893423600
     }, {
       "id": 94022004,
-      "name": "強化クエスト エリザベート 2",
+      "name": "強化クエスト エリザベート・バートリー 2",
       "type": "event",
       "consume": 21,
       "afterClear": "close",
@@ -96198,7 +96198,7 @@
       "closedAt": 1893423600
     }, {
       "id": 94063601,
-      "name": "強化クエスト エリザベート 3",
+      "name": "強化クエスト エリザベート・バートリー 3",
       "type": "event",
       "flags": ["noDisplayRemain"],
       "consume": 21,
@@ -103432,6 +103432,167 @@
       "priority": 94149701,
       "noticeAt": 1759050000,
       "openedAt": 1759050000,
+      "closedAt": 1893423600
+    }, {
+      "id": 94150401,
+      "name": "強化クエスト エリザベート・バートリー 4",
+      "type": "event",
+      "flags": ["noDisplayRemain"],
+      "consume": 21,
+      "afterClear": "close",
+      "recommendLv": "80",
+      "spotId": 99001,
+      "warId": 1001,
+      "gifts": [{
+        "id": 94012504,
+        "objectId": 2,
+        "num": 2
+      }, {
+        "id": 94012504,
+        "type": "questRewardIcon",
+        "objectId": 9,
+        "num": 0
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94063601
+      }, {
+        "type": "svtLimit",
+        "targetId": 300500,
+        "value": 4,
+        "closedMessage": "霊基再臨{0}段階目で開放"
+      }, {
+        "type": "svtGet",
+        "targetId": 300500
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1, 2, 3],
+      "phasesWithEnemies": [1],
+      "priority": 94150404,
+      "noticeAt": 1761130800,
+      "openedAt": 1761130800,
+      "closedAt": 1893423600
+    }, {
+      "id": 94150402,
+      "name": "強化クエスト エリザベート・バートリー〔ハロウィン〕 3",
+      "type": "event",
+      "flags": ["noDisplayRemain"],
+      "consume": 21,
+      "afterClear": "close",
+      "recommendLv": "80",
+      "spotId": 99001,
+      "warId": 1001,
+      "gifts": [{
+        "id": 94012503,
+        "objectId": 2,
+        "num": 2
+      }, {
+        "id": 94012503,
+        "type": "questRewardIcon",
+        "objectId": 8,
+        "num": 0
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94084803
+      }, {
+        "type": "svtLimit",
+        "targetId": 502600,
+        "value": 4,
+        "closedMessage": "霊基再臨{0}段階目で開放"
+      }, {
+        "type": "svtGet",
+        "targetId": 502600
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1, 2, 3],
+      "priority": 94150403,
+      "noticeAt": 1761130800,
+      "openedAt": 1761130800,
+      "closedAt": 1893423600
+    }, {
+      "id": 94150404,
+      "name": "強化クエスト メカエリチャン 2",
+      "type": "event",
+      "flags": ["noDisplayRemain"],
+      "consume": 21,
+      "afterClear": "close",
+      "recommendLv": "80",
+      "spotId": 99001,
+      "warId": 1001,
+      "gifts": [{
+        "id": 94012504,
+        "objectId": 2,
+        "num": 2
+      }, {
+        "id": 94012504,
+        "type": "questRewardIcon",
+        "objectId": 9,
+        "num": 0
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94063604
+      }, {
+        "type": "svtLimit",
+        "targetId": 1000400,
+        "value": 4,
+        "closedMessage": "霊基再臨{0}段階目で開放"
+      }, {
+        "type": "svtGet",
+        "targetId": 1000400
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1, 2, 3],
+      "priority": 94150402,
+      "noticeAt": 1761130800,
+      "openedAt": 1761130800,
+      "closedAt": 1893423600
+    }, {
+      "id": 94150405,
+      "name": "強化クエスト メカエリチャンII号機 2",
+      "type": "event",
+      "flags": ["noDisplayRemain"],
+      "consume": 21,
+      "afterClear": "close",
+      "recommendLv": "80",
+      "spotId": 99001,
+      "warId": 1001,
+      "gifts": [{
+        "id": 94012504,
+        "objectId": 2,
+        "num": 2
+      }, {
+        "id": 94012504,
+        "type": "questRewardIcon",
+        "objectId": 9,
+        "num": 0
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94063605
+      }, {
+        "type": "svtLimit",
+        "targetId": 1000500,
+        "value": 4,
+        "closedMessage": "霊基再臨{0}段階目で開放"
+      }, {
+        "type": "svtGet",
+        "targetId": 1000500
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1, 2, 3],
+      "priority": 94150401,
+      "noticeAt": 1761130800,
+      "openedAt": 1761130800,
       "closedAt": 1893423600
     }]
   }]
