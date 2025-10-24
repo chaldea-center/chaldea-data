@@ -103516,6 +103516,46 @@
       "openedAt": 1761130800,
       "closedAt": 1893423600
     }, {
+      "id": 94150403,
+      "name": "強化クエスト ジャック・ド・モレー 2",
+      "type": "event",
+      "flags": ["noDisplayRemain"],
+      "consume": 23,
+      "afterClear": "close",
+      "recommendLv": "90",
+      "spotId": 99001,
+      "warId": 1001,
+      "gifts": [{
+        "id": 94012504,
+        "objectId": 2,
+        "num": 2
+      }, {
+        "id": 94012504,
+        "type": "questRewardIcon",
+        "objectId": 9,
+        "num": 0
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94084701
+      }, {
+        "type": "svtLimit",
+        "targetId": 2501000,
+        "value": 4,
+        "closedMessage": "霊基再臨{0}段階目で開放"
+      }, {
+        "type": "svtGet",
+        "targetId": 2501000
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1, 2, 3],
+      "priority": 94150405,
+      "noticeAt": 1761296400,
+      "openedAt": 1761296400,
+      "closedAt": 1893423600
+    }, {
       "id": 94150404,
       "name": "強化クエスト メカエリチャン 2",
       "type": "event",
