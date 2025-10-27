@@ -54023,6 +54023,14 @@
   }],
   "npSvts": [{
     "svtId": 306200,
+    "priority": 103,
+    "damage": [2, 5, 8, 11, 13, 16, 19, 26],
+    "flag": 38,
+    "condQuestId": 94150010,
+    "condQuestPhase": 1,
+    "card": "2"
+  }, {
+    "svtId": 306200,
     "priority": 101,
     "damage": [2, 5, 8, 11, 13, 16, 19, 26],
     "card": "2"
@@ -54238,6 +54246,206 @@
     "svtId": 306200,
     "priority": 102,
     "damage": [2, 5, 8, 11, 13, 16, 19, 26],
+    "card": "2",
+    "releaseConditions": [{
+      "idx": 1,
+      "condType": "equipWithTargetCostume",
+      "condTargetId": 306200,
+      "condNum": 3
+    }]
+  }],
+  "functions": [{
+    "funcId": 248,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 1,
+      "Count": -1,
+      "Value": 200
+    }, {}, {}, {}, {}],
+    "svals2": [{
+      "Value": 300
+    }, {
+      "Value": 300
+    }, {
+      "Value": 300
+    }, {
+      "Value": 300
+    }, {
+      "Value": 300
+    }],
+    "svals3": [{
+      "Value": 400
+    }, {
+      "Value": 400
+    }, {
+      "Value": 400
+    }, {
+      "Value": 400
+    }, {
+      "Value": 400
+    }],
+    "svals4": [{
+      "Value": 500
+    }, {
+      "Value": 500
+    }, {
+      "Value": 500
+    }, {
+      "Value": 500
+    }, {
+      "Value": 500
+    }],
+    "svals5": [{
+      "Value": 600
+    }, {
+      "Value": 600
+    }, {
+      "Value": 600
+    }, {
+      "Value": 600
+    }, {
+      "Value": 600
+    }]
+  }, {
+    "funcId": 16,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 6000,
+      "Target": 2002,
+      "Correction": 1500
+    }, {
+      "Value": 8000
+    }, {
+      "Value": 9000
+    }, {
+      "Value": 9500
+    }, {
+      "Value": 10000
+    }],
+    "svals2": [{}, {
+      "Value": 8000
+    }, {
+      "Value": 9000
+    }, {
+      "Value": 9500
+    }, {
+      "Value": 10000
+    }],
+    "svals3": [{}, {
+      "Value": 8000
+    }, {
+      "Value": 9000
+    }, {
+      "Value": 9500
+    }, {
+      "Value": 10000
+    }],
+    "svals4": [{}, {
+      "Value": 8000
+    }, {
+      "Value": 9000
+    }, {
+      "Value": 9500
+    }, {
+      "Value": 10000
+    }],
+    "svals5": [{}, {
+      "Value": 8000
+    }, {
+      "Value": 9000
+    }, {
+      "Value": 9500
+    }, {
+      "Value": 10000
+    }]
+  }, {
+    "funcId": 473,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 1
+    }, {}, {}, {}, {}],
+    "svals2": [{}, {}, {}, {}, {}],
+    "svals3": [{}, {}, {}, {}, {}],
+    "svals4": [{}, {}, {}, {}, {}],
+    "svals5": [{}, {}, {}, {}, {}]
+  }, {
+    "funcId": 468,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 2000
+    }, {}, {}, {}, {}],
+    "svals2": [{}, {}, {}, {}, {}],
+    "svals3": [{}, {}, {}, {}, {}],
+    "svals4": [{}, {}, {}, {}, {}],
+    "svals5": [{}, {}, {}, {}, {}]
+  }, {
+    "funcId": 320,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 5,
+      "Count": -1,
+      "Value": 2000
+    }, {}, {}, {}, {}],
+    "svals2": [{}, {}, {}, {}, {}],
+    "svals3": [{}, {}, {}, {}, {}],
+    "svals4": [{}, {}, {}, {}, {}],
+    "svals5": [{}, {}, {}, {}, {}]
+  }, {
+    "funcId": 23062,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 2000
+    }, {}, {}, {}, {}],
+    "svals2": [{}, {}, {}, {}, {}],
+    "svals3": [{}, {}, {}, {}, {}],
+    "svals4": [{}, {}, {}, {}, {}],
+    "svals5": [{}, {}, {}, {}, {}]
+  }, {
+    "funcId": 23064,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 1
+    }, {}, {}, {}, {}],
+    "svals2": [{}, {}, {}, {}, {}],
+    "svals3": [{}, {}, {}, {}, {}],
+    "svals4": [{}, {}, {}, {}, {}],
+    "svals5": [{}, {}, {}, {}, {}]
+  }]
+}, {
+  "id": 306204,
+  "card": "2",
+  "name": "完全なる血の惑星へ",
+  "ruby": "ヴェールマールシュ・エルジェーベト",
+  "icon": "https://static.atlasacademy.io/JP/Servants/Commands/306200/card_servant_np_306210.png",
+  "rank": "EX",
+  "type": "対キングエリザ宝具",
+  "effectFlags": ["attackEnemyOne"],
+  "unmodifiedDetail": "自身の宝具威力をアップ(1ターン)<オーバーチャージで効果アップ> ＋ 敵単体に超強力な〔竜〕特攻攻撃[{0}]＆チャージを減らす＆呪い状態を付与(5ターン) ＋ 〔エリザベート〕特性の味方全体のNPを増やす",
+  "npGain": {
+    "buster": [55, 55, 55, 55, 55],
+    "arts": [55, 55, 55, 55, 55],
+    "quick": [55, 55, 55, 55, 55],
+    "extra": [55, 55, 55, 55, 55],
+    "defence": [400, 400, 400, 400, 400],
+    "np": [55, 55, 55, 55, 55]
+  },
+  "npDistribution": [2, 5, 8, 11, 13, 16, 19, 26],
+  "individuality": [{
+    "id": 3002
+  }, {
+    "id": 4002
+  }, {
+    "id": 4007
+  }, {
+    "id": 4102
+  }],
+  "npSvts": [{
+    "svtId": 306200,
+    "priority": 104,
+    "damage": [2, 5, 8, 11, 13, 16, 19, 26],
+    "flag": 38,
+    "condQuestId": 94150010,
+    "condQuestPhase": 1,
     "card": "2",
     "releaseConditions": [{
       "idx": 1,
@@ -118296,6 +118504,176 @@
     "funcId": 5826,
     "svals": [{
       "Rate": 5000
+    }, {}, {}, {}, {}],
+    "svals2": [{}, {}, {}, {}, {}],
+    "svals3": [{}, {}, {}, {}, {}],
+    "svals4": [{}, {}, {}, {}, {}],
+    "svals5": [{}, {}, {}, {}, {}]
+  }]
+}, {
+  "id": 1102201,
+  "card": "2",
+  "name": "終焉の三つ首怪獣、再び来る",
+  "ruby": "キングエリザ・タルシスモンテス",
+  "icon": "https://static.atlasacademy.io/JP/Servants/Commands/1102200/card_servant_np.png",
+  "rank": "EX",
+  "type": "対火星宝具",
+  "effectFlags": ["attackEnemyAll"],
+  "unmodifiedDetail": "自身のBusterカード性能をアップ(3ターン)<オーバーチャージで効果アップ> ＋ 敵全体に強力な攻撃[{0}]＆攻撃強化状態を解除＆呪い状態を付与(3ターン)＆やけど状態を付与(3ターン)",
+  "npGain": {
+    "buster": [56, 56, 56, 56, 56],
+    "arts": [56, 56, 56, 56, 56],
+    "quick": [56, 56, 56, 56, 56],
+    "extra": [56, 56, 56, 56, 56],
+    "defence": [500, 500, 500, 500, 500],
+    "np": [56, 56, 56, 56, 56]
+  },
+  "npDistribution": [4, 9, 14, 19, 23, 31],
+  "individuality": [{
+    "id": 3002
+  }, {
+    "id": 4002
+  }, {
+    "id": 4007
+  }, {
+    "id": 4101
+  }],
+  "npSvts": [{
+    "svtId": 1102200,
+    "priority": 101,
+    "damage": [4, 9, 14, 19, 23, 31],
+    "card": "2"
+  }],
+  "functions": [{
+    "funcId": 119,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 100
+    }, {}, {}, {}, {}],
+    "svals2": [{
+      "Value": 150
+    }, {
+      "Value": 150
+    }, {
+      "Value": 150
+    }, {
+      "Value": 150
+    }, {
+      "Value": 150
+    }],
+    "svals3": [{
+      "Value": 200
+    }, {
+      "Value": 200
+    }, {
+      "Value": 200
+    }, {
+      "Value": 200
+    }, {
+      "Value": 200
+    }],
+    "svals4": [{
+      "Value": 250
+    }, {
+      "Value": 250
+    }, {
+      "Value": 250
+    }, {
+      "Value": 250
+    }, {
+      "Value": 250
+    }],
+    "svals5": [{
+      "Value": 300
+    }, {
+      "Value": 300
+    }, {
+      "Value": 300
+    }, {
+      "Value": 300
+    }, {
+      "Value": 300
+    }]
+  }, {
+    "funcId": 13,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 3000
+    }, {
+      "Value": 4000
+    }, {
+      "Value": 4500
+    }, {
+      "Value": 4750
+    }, {
+      "Value": 5000
+    }],
+    "svals2": [{}, {
+      "Value": 4000
+    }, {
+      "Value": 4500
+    }, {
+      "Value": 4750
+    }, {
+      "Value": 5000
+    }],
+    "svals3": [{}, {
+      "Value": 4000
+    }, {
+      "Value": 4500
+    }, {
+      "Value": 4750
+    }, {
+      "Value": 5000
+    }],
+    "svals4": [{}, {
+      "Value": 4000
+    }, {
+      "Value": 4500
+    }, {
+      "Value": 4750
+    }, {
+      "Value": 5000
+    }],
+    "svals5": [{}, {
+      "Value": 4000
+    }, {
+      "Value": 4500
+    }, {
+      "Value": 4750
+    }, {
+      "Value": 5000
+    }]
+  }, {
+    "funcId": 2212,
+    "svals": [{
+      "Rate": 1000
+    }, {}, {}, {}, {}],
+    "svals2": [{}, {}, {}, {}, {}],
+    "svals3": [{}, {}, {}, {}, {}],
+    "svals4": [{}, {}, {}, {}, {}],
+    "svals5": [{}, {}, {}, {}, {}]
+  }, {
+    "funcId": 321,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 1000
+    }, {}, {}, {}, {}],
+    "svals2": [{}, {}, {}, {}, {}],
+    "svals3": [{}, {}, {}, {}, {}],
+    "svals4": [{}, {}, {}, {}, {}],
+    "svals5": [{}, {}, {}, {}, {}]
+  }, {
+    "funcId": 319,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 1000
     }, {}, {}, {}, {}],
     "svals2": [{}, {}, {}, {}, {}],
     "svals3": [{}, {}, {}, {}, {}],

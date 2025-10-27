@@ -41840,11 +41840,25 @@
   "noblePhantasms": [{
     "id": 306201,
     "svtId": 306200,
-    "priority": 101
+    "priority": 103,
+    "condQuestId": 94150010,
+    "condQuestPhase": 1
   }, {
     "id": 306202,
     "svtId": 306200,
     "priority": 102,
+    "releaseConditions": [{
+      "idx": 1,
+      "condType": "equipWithTargetCostume",
+      "condTargetId": 306200,
+      "condNum": 3
+    }]
+  }, {
+    "id": 306204,
+    "svtId": 306200,
+    "priority": 104,
+    "condQuestId": 94150010,
+    "condQuestPhase": 1,
     "releaseConditions": [{
       "idx": 1,
       "condType": "equipWithTargetCostume",
@@ -41861,6 +41875,646 @@
       "agility": "C",
       "magic": "A+",
       "luck": "C",
+      "np": "EX",
+      "policy": "chaotic",
+      "personality": "evil"
+    }
+  }
+}, {
+  "id": 1102200,
+  "collectionNo": 458,
+  "name": "終わりのエリザベート",
+  "ruby": "オワリノエリザベート",
+  "battleName": "終わりのエリザベート",
+  "classId": 11,
+  "flag": "ignoreCombineLimitSpecial",
+  "flags": ["ignoreCombineLimitSpecial"],
+  "rarity": 4,
+  "cost": 12,
+  "lvMax": 80,
+  "extraAssets": {
+    "charaGraph": {
+      "ascension": {
+        "1": "https://static.atlasacademy.io/JP/CharaGraph/1102200/1102200a@1.png",
+        "2": "https://static.atlasacademy.io/JP/CharaGraph/1102200/1102200a@2.png",
+        "3": "https://static.atlasacademy.io/JP/CharaGraph/1102200/1102200b@1.png",
+        "4": "https://static.atlasacademy.io/JP/CharaGraph/1102200/1102200b@2.png"
+      }
+    },
+    "faces": {
+      "ascension": {
+        "1": "https://static.atlasacademy.io/JP/Faces/f_11022000.png",
+        "2": "https://static.atlasacademy.io/JP/Faces/f_11022001.png",
+        "3": "https://static.atlasacademy.io/JP/Faces/f_11022002.png",
+        "4": "https://static.atlasacademy.io/JP/Faces/f_11022003.png"
+      }
+    },
+    "narrowFigure": {
+      "ascension": {
+        "1": "https://static.atlasacademy.io/JP/NarrowFigure/1102200/1102200@0.png",
+        "2": "https://static.atlasacademy.io/JP/NarrowFigure/1102200/1102200@1.png",
+        "3": "https://static.atlasacademy.io/JP/NarrowFigure/1102200/1102200@2.png",
+        "4": "https://static.atlasacademy.io/JP/NarrowFigure/1102200/1102200_2@0.png"
+      }
+    },
+    "charaFigure": {
+      "ascension": {
+        "1": "https://static.atlasacademy.io/JP/CharaFigure/11022000/11022000_merged.png",
+        "2": "https://static.atlasacademy.io/JP/CharaFigure/11022001/11022001_merged.png",
+        "3": "https://static.atlasacademy.io/JP/CharaFigure/11022002/11022002_merged.png"
+      }
+    },
+    "charaFigureForm": {
+      "1": {
+        "ascension": {
+          "1": "https://static.atlasacademy.io/JP/CharaFigure/Form/1/11022000/11022000_merged.png",
+          "2": "https://static.atlasacademy.io/JP/CharaFigure/Form/1/11022001/11022001_merged.png",
+          "3": "https://static.atlasacademy.io/JP/CharaFigure/Form/1/11022002/11022002_merged.png"
+        }
+      }
+    },
+    "commands": {
+      "ascension": {
+        "1": "https://static.atlasacademy.io/JP/Servants/Commands/1102200/card_servant_1.png",
+        "2": "https://static.atlasacademy.io/JP/Servants/Commands/1102200/card_servant_2.png",
+        "3": "https://static.atlasacademy.io/JP/Servants/Commands/1102200/card_servant_3.png"
+      }
+    },
+    "status": {
+      "ascension": {
+        "1": "https://static.atlasacademy.io/JP/Servants/Status/1102200/status_servant_1.png",
+        "2": "https://static.atlasacademy.io/JP/Servants/Status/1102200/status_servant_2.png",
+        "3": "https://static.atlasacademy.io/JP/Servants/Status/1102200/status_servant_3.png"
+      }
+    },
+    "spriteModel": {
+      "ascension": {
+        "0": "https://static.atlasacademy.io/JP/Servants/1102200/manifest.json",
+        "1": "https://static.atlasacademy.io/JP/Servants/1102200/manifest.json",
+        "2": "https://static.atlasacademy.io/JP/Servants/1102200/manifest.json",
+        "3": "https://static.atlasacademy.io/JP/Servants/1102200/manifest.json",
+        "4": "https://static.atlasacademy.io/JP/Servants/1102200/manifest.json"
+      }
+    }
+  },
+  "gender": "female",
+  "attribute": "star",
+  "traits": [{
+    "id": 2
+  }, {
+    "id": 110
+  }, {
+    "id": 203
+  }, {
+    "id": 301
+  }, {
+    "id": 304
+  }, {
+    "id": 404
+  }, {
+    "id": 1000
+  }, {
+    "id": 2001
+  }, {
+    "id": 2002
+  }, {
+    "id": 2632
+  }, {
+    "id": 2821
+  }, {
+    "id": 2848
+  }, {
+    "id": 2924
+  }, {
+    "id": 5000
+  }, {
+    "id": 10010
+  }, {
+    "id": 1102200
+  }],
+  "starAbsorb": 30,
+  "starGen": 59,
+  "instantDeathChance": 50,
+  "cards": ["3", "1", "2", "2", "2"],
+  "cardDetails": {
+    "1": {
+      "hitsDistribution": [10, 20, 30, 40],
+      "attackIndividuality": [{
+        "id": 3002
+      }]
+    },
+    "2": {
+      "hitsDistribution": [16, 33, 51],
+      "attackIndividuality": [{
+        "id": 3002
+      }]
+    },
+    "3": {
+      "hitsDistribution": [4, 9, 14, 19, 23, 31],
+      "attackIndividuality": [{
+        "id": 3002
+      }]
+    },
+    "4": {
+      "hitsDistribution": [6, 13, 20, 26, 35],
+      "attackIndividuality": [{
+        "id": 3002
+      }]
+    }
+  },
+  "atkBase": 1638,
+  "atkMax": 9828,
+  "hpBase": 1760,
+  "hpMax": 11000,
+  "growthCurve": 9,
+  "bondGrowth": [1000, 2500, 4500, 7000, 10000, 235000, 490000, 775000, 1090000, 1455000, 2545000, 3775000, 5135000, 6635000, 8275000],
+  "bondGifts": {
+    "1": [{
+      "id": 80375817,
+      "objectId": 110220001,
+      "num": 5
+    }],
+    "2": [{
+      "id": 80375817,
+      "objectId": 110220001,
+      "num": 5
+    }],
+    "3": [{
+      "id": 80375817,
+      "objectId": 110220001,
+      "num": 5
+    }],
+    "4": [{
+      "id": 80375817,
+      "objectId": 110220001,
+      "num": 5
+    }],
+    "5": [{
+      "id": 80375817,
+      "objectId": 110220001,
+      "num": 5
+    }],
+    "6": [{
+      "id": 80375817,
+      "objectId": 110220001,
+      "num": 5
+    }],
+    "7": [{
+      "id": 80375832,
+      "objectId": 110220001,
+      "num": 20
+    }],
+    "8": [{
+      "id": 80375832,
+      "objectId": 110220001,
+      "num": 20
+    }],
+    "9": [{
+      "id": 80375832,
+      "objectId": 110220001,
+      "num": 20
+    }],
+    "10": [{
+      "id": 90008610,
+      "type": "servant",
+      "objectId": 9311150,
+      "num": 1
+    }, {
+      "id": 90008610,
+      "objectId": 110220001,
+      "num": 40
+    }],
+    "11": [{
+      "id": 80375834,
+      "objectId": 110220001,
+      "num": 50
+    }],
+    "12": [{
+      "id": 80375835,
+      "objectId": 110220001,
+      "num": 60
+    }],
+    "13": [{
+      "id": 80375835,
+      "objectId": 110220001,
+      "num": 60
+    }],
+    "14": [{
+      "id": 80375835,
+      "objectId": 110220001,
+      "num": 60
+    }],
+    "15": [{
+      "id": 80375835,
+      "objectId": 110220001,
+      "num": 60
+    }]
+  },
+  "bondEquip": 9311150,
+  "limits": [{
+    "limitCount": 0,
+    "lvMax": 40
+  }, {
+    "limitCount": 1,
+    "lvMax": 50
+  }, {
+    "limitCount": 2,
+    "lvMax": 60
+  }, {
+    "limitCount": 3,
+    "lvMax": 70
+  }, {
+    "limitCount": 4,
+    "lvMax": 80
+  }],
+  "ascensionAdd": {
+    "voicePrefix": {
+      "ascension": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "lvMax": {
+      "ascension": {
+        "0": 40,
+        "1": 50,
+        "2": 60,
+        "3": 70,
+        "4": 80
+      }
+    }
+  },
+  "ascensionMaterials": {
+    "0": {
+      "items": [{
+        "itemId": 94150005,
+        "amount": 1
+      }],
+      "qp": 50000
+    },
+    "1": {
+      "items": [{
+        "itemId": 94150005,
+        "amount": 1
+      }],
+      "qp": 150000
+    },
+    "2": {
+      "items": [{
+        "itemId": 94150005,
+        "amount": 1
+      }],
+      "qp": 500000
+    },
+    "3": {
+      "items": [{
+        "itemId": 94150005,
+        "amount": 1
+      }],
+      "qp": 1500000
+    }
+  },
+  "skillMaterials": {
+    "1": {
+      "items": [{
+        "itemId": 6512,
+        "amount": 8
+      }],
+      "qp": 100000
+    },
+    "2": {
+      "items": [{
+        "itemId": 6509,
+        "amount": 8
+      }],
+      "qp": 200000
+    },
+    "3": {
+      "items": [{
+        "itemId": 6506,
+        "amount": 10
+      }],
+      "qp": 600000
+    },
+    "4": {
+      "items": [{
+        "itemId": 6545,
+        "amount": 10
+      }],
+      "qp": 800000
+    },
+    "5": {
+      "items": [{
+        "itemId": 6551,
+        "amount": 10
+      }],
+      "qp": 2000000
+    },
+    "6": {
+      "items": [{
+        "itemId": 6553,
+        "amount": 12
+      }],
+      "qp": 2500000
+    },
+    "7": {
+      "items": [{
+        "itemId": 6558,
+        "amount": 12
+      }],
+      "qp": 5000000
+    },
+    "8": {
+      "items": [{
+        "itemId": 6562,
+        "amount": 12
+      }],
+      "qp": 6000000
+    },
+    "9": {
+      "items": [{
+        "itemId": 6999,
+        "amount": 1
+      }],
+      "qp": 10000000
+    }
+  },
+  "appendSkillMaterials": {
+    "1": {
+      "items": [{
+        "itemId": 6522,
+        "amount": 8
+      }],
+      "qp": 100000
+    },
+    "2": {
+      "items": [{
+        "itemId": 6533,
+        "amount": 8
+      }],
+      "qp": 200000
+    },
+    "3": {
+      "items": [{
+        "itemId": 6505,
+        "amount": 10
+      }],
+      "qp": 600000
+    },
+    "4": {
+      "items": [{
+        "itemId": 6547,
+        "amount": 10
+      }],
+      "qp": 800000
+    },
+    "5": {
+      "items": [{
+        "itemId": 6549,
+        "amount": 10
+      }],
+      "qp": 2000000
+    },
+    "6": {
+      "items": [{
+        "itemId": 6557,
+        "amount": 12
+      }],
+      "qp": 2500000
+    },
+    "7": {
+      "items": [{
+        "itemId": 6560,
+        "amount": 12
+      }],
+      "qp": 5000000
+    },
+    "8": {
+      "items": [{
+        "itemId": 6563,
+        "amount": 12
+      }],
+      "qp": 6000000
+    },
+    "9": {
+      "items": [{
+        "itemId": 6999,
+        "amount": 1
+      }],
+      "qp": 10000000
+    }
+  },
+  "costumeMaterials": {},
+  "coin": {
+    "summonNum": 0,
+    "item": {
+      "id": 110220001
+    }
+  },
+  "skills": [{
+    "id": 2573551,
+    "num": 1,
+    "svtId": 1102200,
+    "priority": 1
+  }, {
+    "id": 2574650,
+    "num": 2,
+    "svtId": 1102200,
+    "priority": 1,
+    "condLimitCount": 1
+  }, {
+    "id": 2575450,
+    "num": 3,
+    "svtId": 1102200,
+    "priority": 1,
+    "condLimitCount": 3
+  }],
+  "classPassive": [{
+    "id": 170650
+  }, {
+    "id": 171550
+  }],
+  "extraPassive": [{
+    "id": 940411,
+    "extraPassive": [{
+      "num": 16,
+      "priority": 232,
+      "eventId": 80580,
+      "startedAt": 1761130800,
+      "endedAt": 1762919999
+    }]
+  }, {
+    "id": 960502,
+    "extraPassive": [{
+      "num": 10,
+      "priority": 1,
+      "condQuestId": 1000722,
+      "condQuestPhase": 1,
+      "condFriendshipRank": 5,
+      "eventId": 80038,
+      "startedAt": 1482382800,
+      "endedAt": 1893423600
+    }]
+  }, {
+    "id": 960503,
+    "extraPassive": [{
+      "num": 10,
+      "priority": 2,
+      "condQuestId": 1000722,
+      "condQuestPhase": 1,
+      "condFriendshipRank": 6,
+      "eventId": 80038,
+      "startedAt": 1482382800,
+      "endedAt": 1893423600
+    }]
+  }, {
+    "id": 960504,
+    "extraPassive": [{
+      "num": 10,
+      "priority": 3,
+      "condQuestId": 1000722,
+      "condQuestPhase": 1,
+      "condFriendshipRank": 7,
+      "eventId": 80038,
+      "startedAt": 1482382800,
+      "endedAt": 1893423600
+    }]
+  }, {
+    "id": 960505,
+    "extraPassive": [{
+      "num": 10,
+      "priority": 4,
+      "condQuestId": 1000722,
+      "condQuestPhase": 1,
+      "condFriendshipRank": 8,
+      "eventId": 80038,
+      "startedAt": 1482382800,
+      "endedAt": 1893423600
+    }]
+  }, {
+    "id": 960506,
+    "extraPassive": [{
+      "num": 10,
+      "priority": 5,
+      "condQuestId": 1000722,
+      "condQuestPhase": 1,
+      "condFriendshipRank": 9,
+      "eventId": 80038,
+      "startedAt": 1482382800,
+      "endedAt": 1893423600
+    }]
+  }, {
+    "id": 960507,
+    "extraPassive": [{
+      "num": 10,
+      "priority": 6,
+      "condQuestId": 1000722,
+      "condQuestPhase": 1,
+      "condFriendshipRank": 10,
+      "eventId": 80038,
+      "startedAt": 1482382800,
+      "endedAt": 1893423600
+    }]
+  }, {
+    "id": 960557,
+    "extraPassive": [{
+      "num": 11,
+      "priority": 1,
+      "condQuestId": 1000822,
+      "condQuestPhase": 1,
+      "eventId": 80044,
+      "startedAt": 1487912400,
+      "endedAt": 1893423600
+    }]
+  }, {
+    "id": 960837,
+    "extraPassive": [{
+      "num": 12,
+      "priority": 1,
+      "condQuestId": 1000822,
+      "condQuestPhase": 1,
+      "eventId": 80059,
+      "startedAt": 1498726800,
+      "endedAt": 1893423600
+    }]
+  }, {
+    "id": 970663,
+    "extraPassive": [{
+      "num": 9,
+      "priority": 1,
+      "condFriendshipRank": 15,
+      "startedAt": 1747825200,
+      "endedAt": 1893423600
+    }]
+  }],
+  "appendPassive": [{
+    "num": 100,
+    "priority": 1,
+    "skill": {
+      "id": 3001000
+    },
+    "unlockMaterials": [{
+      "itemId": 110220001,
+      "amount": 120
+    }]
+  }, {
+    "num": 101,
+    "priority": 1,
+    "skill": {
+      "id": 3002000
+    },
+    "unlockMaterials": [{
+      "itemId": 110220001,
+      "amount": 120
+    }]
+  }, {
+    "num": 102,
+    "priority": 1,
+    "skill": {
+      "id": 3005000
+    },
+    "unlockMaterials": [{
+      "itemId": 110220001,
+      "amount": 120
+    }]
+  }, {
+    "num": 103,
+    "priority": 1,
+    "skill": {
+      "id": 3033000
+    },
+    "unlockMaterials": [{
+      "itemId": 110220001,
+      "amount": 120
+    }]
+  }, {
+    "num": 104,
+    "priority": 1,
+    "skill": {
+      "id": 3034000
+    },
+    "unlockMaterials": [{
+      "itemId": 110220001,
+      "amount": 120
+    }]
+  }],
+  "noblePhantasms": [{
+    "id": 1102201,
+    "svtId": 1102200,
+    "priority": 101
+  }],
+  "profile": {
+    "cv": "大久保瑠美",
+    "illustrator": "ワダアルコ",
+    "stats": {
+      "strength": "D+",
+      "endurance": "B",
+      "agility": "C",
+      "magic": "EX",
+      "luck": "B",
       "np": "EX",
       "policy": "chaotic",
       "personality": "evil"

@@ -60148,6 +60148,84 @@
     }]
   }]
 }, {
+  "funcId": 23078,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "クリティカル威力アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_324.png",
+  "funcquestTvals": [{
+    "id": 10011
+  }],
+  "buffs": [{
+    "id": 5967,
+    "name": "クリティカル威力アップ",
+    "detail": "〔ハロウィン〕のフィールドにおいてのみ、クリティカル時のダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_324.png",
+    "type": "upCriticaldamage",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3031
+    }],
+    "tvals": [{
+      "id": 5000
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 23079,
+  "funcType": "lossHpPerSafe",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "HP減少",
+  "script": {
+    "funcIndividuality": [{
+      "id": 3098
+    }]
+  }
+}, {
+  "funcId": 23080,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "死亡時発動",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_350.png",
+  "buffs": [{
+    "id": 5978,
+    "name": "死亡時発動",
+    "detail": "自身がやられた時、自身を除く味方全体のNPを増やす",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_350.png",
+    "type": "deadFunction",
+    "vals": [{
+      "id": 3004
+    }]
+  }]
+}, {
+  "funcId": 23081,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "自焼",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_537.png",
+  "script": {
+    "funcIndividuality": [{
+      "id": 3098
+    }]
+  },
+  "buffs": [{
+    "id": 5979,
+    "name": "自焼",
+    "detail": "ターン終了時に自身のHPを減らす",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_537.png",
+    "type": "selfturnendFunction",
+    "vals": [{
+      "id": 3005
+    }]
+  }]
+}, {
   "funcId": 30003,
   "funcType": "addStateShort",
   "funcTargetType": "self",
