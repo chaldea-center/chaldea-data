@@ -90230,6 +90230,15 @@
     "endedAt": 1893423600
   }, {
     "warId": 8395,
+    "type": "priority",
+    "priority": 6,
+    "overwriteId": 10000,
+    "condType": "eventStartToEnd",
+    "targetId": 80581,
+    "startedAt": 1760518800,
+    "endedAt": 1893423600
+  }, {
+    "warId": 8395,
     "type": "banner",
     "priority": 6,
     "overwriteId": 80550,
@@ -90241,11 +90250,11 @@
   }, {
     "warId": 8395,
     "type": "priority",
-    "priority": 6,
+    "priority": 7,
     "overwriteId": 10000,
     "condType": "eventStartToEnd",
-    "targetId": 80581,
-    "startedAt": 1760518800,
+    "targetId": 80595,
+    "startedAt": 1763110800,
     "endedAt": 1893423600
   }, {
     "warId": 8395,
@@ -90256,6 +90265,16 @@
     "condType": "eventStartToEnd",
     "targetId": 80581,
     "startedAt": 1760518800,
+    "endedAt": 1893423600
+  }, {
+    "warId": 8395,
+    "type": "banner",
+    "priority": 8,
+    "overwriteId": 80555,
+    "overwriteBanner": "https://static.atlasacademy.io/JP/Banner/chaldea_category_80555.png",
+    "condType": "eventStartToEnd",
+    "targetId": 80595,
+    "startedAt": 1763110800,
     "endedAt": 1893423600
   }, {
     "warId": 8395,
@@ -98442,6 +98461,711 @@
       "noticeAt": 1761105600,
       "openedAt": 1761105600,
       "closedAt": 1893423600
+    }]
+  }]
+}, {
+  "id": 8406,
+  "coordinates": [
+    [],
+    []
+  ],
+  "age": "-",
+  "name": "冠位戴冠戦\nアーチャー",
+  "longName": "冠位戴冠戦\nアーチャー",
+  "flags": ["changeDispClosedMessage"],
+  "banner": "https://static.atlasacademy.io/JP/Banner/chaldea_category_80555.png",
+  "priority": 7009,
+  "parentWarId": 8395,
+  "bgm": {
+    "id": 0
+  },
+  "script": "https://static.atlasacademy.io/JP/Script/Common/NONE.txt",
+  "maps": [{
+    "id": 8406,
+    "mapImage": "https://static.atlasacademy.io/JP/Terminal/MapImgs/img_questmap_008406/img_questmap_008406.png",
+    "bgm": {
+      "id": 0
+    }
+  }],
+  "spots": [{
+    "id": 840601,
+    "mapId": 8406,
+    "name": "カルデアゲート",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter8406/QMap_Cap8406_Atlas/spot_840601.png"
+  }, {
+    "id": 1050009,
+    "blankEarth": true,
+    "mapId": 8406,
+    "name": "",
+    "quests": [{
+      "id": 94150800,
+      "name": "冠位解放戦〔アーチャー〕",
+      "type": "event",
+      "flags": ["noDisplayRemain"],
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "100",
+      "spotId": 1050009,
+      "warId": 8406,
+      "gifts": [{
+        "id": 94150800,
+        "objectId": 70,
+        "num": 5
+      }, {
+        "id": 94150800,
+        "objectId": 1000,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 4000100
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "priority": 94150800,
+      "noticeAt": 1763110800,
+      "openedAt": 1763110800,
+      "closedAt": 1893423600
+    }, {
+      "id": 94150801,
+      "name": "冠位研鑽戦〔アーチャー〕 Ⅰ",
+      "type": "event",
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "100",
+      "spotId": 1050009,
+      "warId": 8406,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94150800
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "commonRelease",
+        "targetId": 10150801
+      }],
+      "presents": [{
+        "phase": 1,
+        "gifts": [{
+          "id": 94150802,
+          "type": "servant",
+          "objectId": 9570500,
+          "num": 1
+        }, {
+          "id": 94150802,
+          "type": "servant",
+          "objectId": 9670500,
+          "num": 1
+        }]
+      }],
+      "phases": [1],
+      "priority": 94150801,
+      "noticeAt": 1763110800,
+      "openedAt": 1763110800,
+      "closedAt": 1763697599
+    }, {
+      "id": 94150802,
+      "name": "冠位研鑽戦〔アーチャー〕 Ⅱ",
+      "type": "event",
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "100+",
+      "spotId": 1050009,
+      "warId": 8406,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94150800
+      }, {
+        "type": "questClear",
+        "targetId": 94150801,
+        "closedMessage": "「冠位研鑽戦〔アーチャー〕 Ⅰ」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "commonRelease",
+        "targetId": 10150801
+      }],
+      "presents": [{
+        "phase": 1,
+        "gifts": [{
+          "id": 94150802,
+          "type": "servant",
+          "objectId": 9570500,
+          "num": 1
+        }, {
+          "id": 94150802,
+          "type": "servant",
+          "objectId": 9670500,
+          "num": 1
+        }]
+      }],
+      "phases": [1],
+      "priority": 94150800,
+      "noticeAt": 1763110800,
+      "openedAt": 1763110800,
+      "closedAt": 1763697599
+    }, {
+      "id": 94150803,
+      "name": "冠位研鑽戦〔アーチャー〕 Ⅲ",
+      "type": "event",
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "100++",
+      "spotId": 1050009,
+      "warId": 8406,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94150800
+      }, {
+        "type": "questClear",
+        "targetId": 94150802,
+        "closedMessage": "「冠位研鑽戦〔アーチャー〕 Ⅱ」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "commonRelease",
+        "targetId": 10150801
+      }],
+      "presents": [{
+        "phase": 1,
+        "gifts": [{
+          "id": 94150802,
+          "type": "servant",
+          "objectId": 9570500,
+          "num": 1
+        }, {
+          "id": 94150802,
+          "type": "servant",
+          "objectId": 9670500,
+          "num": 1
+        }]
+      }],
+      "phases": [1],
+      "priority": 94150799,
+      "noticeAt": 1763110800,
+      "openedAt": 1763110800,
+      "closedAt": 1763697599
+    }, {
+      "id": 94150804,
+      "name": "冠位研鑽戦〔アーチャー〕 Ⅳ",
+      "type": "event",
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "100+++",
+      "spotId": 1050009,
+      "warId": 8406,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94150800
+      }, {
+        "type": "questClear",
+        "targetId": 94150803,
+        "closedMessage": "「冠位研鑽戦〔アーチャー〕 Ⅲ」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "commonRelease",
+        "targetId": 10150801
+      }],
+      "presents": [{
+        "phase": 1,
+        "gifts": [{
+          "id": 94150802,
+          "type": "servant",
+          "objectId": 9570500,
+          "num": 1
+        }, {
+          "id": 94150802,
+          "type": "servant",
+          "objectId": 9670500,
+          "num": 1
+        }]
+      }],
+      "phases": [1],
+      "priority": 94150798,
+      "noticeAt": 1763110800,
+      "openedAt": 1763110800,
+      "closedAt": 1763697599
+    }, {
+      "id": 94150805,
+      "name": "冠位研鑽戦〔アーチャー〕 Ⅴ",
+      "type": "event",
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "100★",
+      "spotId": 1050009,
+      "warId": 8406,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94150800
+      }, {
+        "type": "questClear",
+        "targetId": 94150804,
+        "closedMessage": "「冠位研鑽戦〔アーチャー〕 Ⅳ」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "commonRelease",
+        "targetId": 10150801
+      }],
+      "presents": [{
+        "phase": 1,
+        "gifts": [{
+          "id": 94150802,
+          "type": "servant",
+          "objectId": 9570500,
+          "num": 1
+        }, {
+          "id": 94150802,
+          "type": "servant",
+          "objectId": 9670500,
+          "num": 1
+        }]
+      }],
+      "phases": [1],
+      "priority": 94150797,
+      "noticeAt": 1763110800,
+      "openedAt": 1763110800,
+      "closedAt": 1763697599
+    }, {
+      "id": 94150806,
+      "name": "冠位研鑽戦〔アーチャー〕 Ⅵ",
+      "type": "event",
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "100★★",
+      "spotId": 1050009,
+      "warId": 8406,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94150800
+      }, {
+        "type": "questClear",
+        "targetId": 94150805,
+        "closedMessage": "「冠位研鑽戦〔アーチャー〕 Ⅴ」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "commonRelease",
+        "targetId": 10150801
+      }],
+      "presents": [{
+        "phase": 1,
+        "gifts": [{
+          "id": 94150802,
+          "type": "servant",
+          "objectId": 9570500,
+          "num": 1
+        }, {
+          "id": 94150802,
+          "type": "servant",
+          "objectId": 9670500,
+          "num": 1
+        }]
+      }],
+      "phases": [1],
+      "priority": 94150796,
+      "noticeAt": 1763110800,
+      "openedAt": 1763110800,
+      "closedAt": 1763697599
+    }, {
+      "id": 94150807,
+      "name": "冠位研鑽戦〔アーチャー〕 Ⅶ",
+      "type": "event",
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "100★★★",
+      "spotId": 1050009,
+      "warId": 8406,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94150800
+      }, {
+        "type": "questClear",
+        "targetId": 94150806,
+        "closedMessage": "「冠位研鑽戦〔アーチャー〕 Ⅵ」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "commonRelease",
+        "targetId": 10150801
+      }],
+      "presents": [{
+        "phase": 1,
+        "gifts": [{
+          "id": 94150802,
+          "type": "servant",
+          "objectId": 9570500,
+          "num": 1
+        }, {
+          "id": 94150802,
+          "type": "servant",
+          "objectId": 9670500,
+          "num": 1
+        }]
+      }],
+      "phases": [1],
+      "priority": 94150795,
+      "noticeAt": 1763110800,
+      "openedAt": 1763110800,
+      "closedAt": 1763697599
+    }, {
+      "id": 94150810,
+      "name": "冠位認定戦〔アーチャー〕",
+      "type": "event",
+      "flags": ["noDisplayRemain"],
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "100★",
+      "spotId": 1050009,
+      "warId": 8406,
+      "gifts": [{
+        "id": 94150801,
+        "type": "servant",
+        "objectId": 9408970,
+        "num": 1
+      }, {
+        "id": 94150801,
+        "objectId": 6999,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94150800
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "classBoardSquareReleased",
+        "targetId": 10002,
+        "value": 12,
+        "closedMessage": "〔アーチャー〕のグランドサイン解放数12個以上で開放"
+      }],
+      "phases": [1],
+      "priority": 94150794,
+      "noticeAt": 1763110800,
+      "openedAt": 1763110800,
+      "closedAt": 1893423600
+    }, {
+      "id": 94150811,
+      "name": "冠位研鑽戦〔アーチャー〕 Ⅰ",
+      "type": "event",
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "100",
+      "spotId": 1050009,
+      "warId": 8406,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94150800
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "forceFalse",
+        "targetId": 0
+      }, {
+        "type": "commonRelease",
+        "targetId": 10150801
+      }],
+      "presents": [{
+        "phase": 1,
+        "gifts": [{
+          "id": 94150802,
+          "type": "servant",
+          "objectId": 9570500,
+          "num": 1
+        }, {
+          "id": 94150802,
+          "type": "servant",
+          "objectId": 9670500,
+          "num": 1
+        }]
+      }],
+      "phases": [1],
+      "priority": 94150801,
+      "noticeAt": 1763110800,
+      "openedAt": 1763110800,
+      "closedAt": 1763697599
+    }, {
+      "id": 94150812,
+      "name": "冠位研鑽戦〔アーチャー〕 Ⅱ",
+      "type": "event",
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "100+",
+      "spotId": 1050009,
+      "warId": 8406,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94150800
+      }, {
+        "type": "questClear",
+        "targetId": 94150811,
+        "closedMessage": "「冠位研鑽戦〔アーチャー〕 Ⅰ」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "forceFalse",
+        "targetId": 0
+      }, {
+        "type": "commonRelease",
+        "targetId": 10150801
+      }],
+      "presents": [{
+        "phase": 1,
+        "gifts": [{
+          "id": 94150802,
+          "type": "servant",
+          "objectId": 9570500,
+          "num": 1
+        }, {
+          "id": 94150802,
+          "type": "servant",
+          "objectId": 9670500,
+          "num": 1
+        }]
+      }],
+      "phases": [1],
+      "priority": 94150800,
+      "noticeAt": 1763110800,
+      "openedAt": 1763110800,
+      "closedAt": 1763697599
+    }, {
+      "id": 94150813,
+      "name": "冠位研鑽戦〔アーチャー〕 Ⅲ",
+      "type": "event",
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "100++",
+      "spotId": 1050009,
+      "warId": 8406,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94150800
+      }, {
+        "type": "questClear",
+        "targetId": 94150812,
+        "closedMessage": "「冠位研鑽戦〔アーチャー〕 Ⅱ」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "forceFalse",
+        "targetId": 0
+      }, {
+        "type": "commonRelease",
+        "targetId": 10150801
+      }],
+      "presents": [{
+        "phase": 1,
+        "gifts": [{
+          "id": 94150802,
+          "type": "servant",
+          "objectId": 9570500,
+          "num": 1
+        }, {
+          "id": 94150802,
+          "type": "servant",
+          "objectId": 9670500,
+          "num": 1
+        }]
+      }],
+      "phases": [1],
+      "priority": 94150799,
+      "noticeAt": 1763110800,
+      "openedAt": 1763110800,
+      "closedAt": 1763697599
+    }, {
+      "id": 94150814,
+      "name": "冠位研鑽戦〔アーチャー〕 Ⅳ",
+      "type": "event",
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "100+++",
+      "spotId": 1050009,
+      "warId": 8406,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94150800
+      }, {
+        "type": "questClear",
+        "targetId": 94150813,
+        "closedMessage": "「冠位研鑽戦〔アーチャー〕 Ⅲ」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "forceFalse",
+        "targetId": 0
+      }, {
+        "type": "commonRelease",
+        "targetId": 10150801
+      }],
+      "presents": [{
+        "phase": 1,
+        "gifts": [{
+          "id": 94150802,
+          "type": "servant",
+          "objectId": 9570500,
+          "num": 1
+        }, {
+          "id": 94150802,
+          "type": "servant",
+          "objectId": 9670500,
+          "num": 1
+        }]
+      }],
+      "phases": [1],
+      "priority": 94150798,
+      "noticeAt": 1763110800,
+      "openedAt": 1763110800,
+      "closedAt": 1763697599
+    }, {
+      "id": 94150815,
+      "name": "冠位研鑽戦〔アーチャー〕 Ⅴ",
+      "type": "event",
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "100★",
+      "spotId": 1050009,
+      "warId": 8406,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94150800
+      }, {
+        "type": "questClear",
+        "targetId": 94150814,
+        "closedMessage": "「冠位研鑽戦〔アーチャー〕 Ⅳ」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "forceFalse",
+        "targetId": 0
+      }, {
+        "type": "commonRelease",
+        "targetId": 10150801
+      }],
+      "presents": [{
+        "phase": 1,
+        "gifts": [{
+          "id": 94150802,
+          "type": "servant",
+          "objectId": 9570500,
+          "num": 1
+        }, {
+          "id": 94150802,
+          "type": "servant",
+          "objectId": 9670500,
+          "num": 1
+        }]
+      }],
+      "phases": [1],
+      "priority": 94150797,
+      "noticeAt": 1763110800,
+      "openedAt": 1763110800,
+      "closedAt": 1763697599
+    }, {
+      "id": 94150816,
+      "name": "冠位研鑽戦〔アーチャー〕 Ⅵ",
+      "type": "event",
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "100★★",
+      "spotId": 1050009,
+      "warId": 8406,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94150800
+      }, {
+        "type": "questClear",
+        "targetId": 94150815,
+        "closedMessage": "「冠位研鑽戦〔アーチャー〕 Ⅴ」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "forceFalse",
+        "targetId": 0
+      }, {
+        "type": "commonRelease",
+        "targetId": 10150801
+      }],
+      "presents": [{
+        "phase": 1,
+        "gifts": [{
+          "id": 94150802,
+          "type": "servant",
+          "objectId": 9570500,
+          "num": 1
+        }, {
+          "id": 94150802,
+          "type": "servant",
+          "objectId": 9670500,
+          "num": 1
+        }]
+      }],
+      "phases": [1],
+      "priority": 94150796,
+      "noticeAt": 1763110800,
+      "openedAt": 1763110800,
+      "closedAt": 1763697599
+    }, {
+      "id": 94150817,
+      "name": "冠位研鑽戦〔アーチャー〕 Ⅶ",
+      "type": "event",
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "100★★★",
+      "spotId": 1050009,
+      "warId": 8406,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94150800
+      }, {
+        "type": "questClear",
+        "targetId": 94150816,
+        "closedMessage": "「冠位研鑽戦〔アーチャー〕 Ⅵ」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "forceFalse",
+        "targetId": 0
+      }, {
+        "type": "commonRelease",
+        "targetId": 10150801
+      }],
+      "presents": [{
+        "phase": 1,
+        "gifts": [{
+          "id": 94150802,
+          "type": "servant",
+          "objectId": 9570500,
+          "num": 1
+        }, {
+          "id": 94150802,
+          "type": "servant",
+          "objectId": 9670500,
+          "num": 1
+        }]
+      }],
+      "phases": [1],
+      "priority": 94150795,
+      "noticeAt": 1763110800,
+      "openedAt": 1763110800,
+      "closedAt": 1763697599
     }]
   }]
 }]

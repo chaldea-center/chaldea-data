@@ -59977,6 +59977,14 @@
     "maxRate": 5000
   }]
 }, {
+  "funcId": 23047,
+  "funcType": "expUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "functvals": [{
+    "id": 102
+  }]
+}, {
   "funcId": 23054,
   "funcType": "addStateShort",
   "funcTargetType": "self",
@@ -65691,6 +65699,90 @@
     }]
   }]
 }, {
+  "funcId": 30338,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "クイック威力アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_356.png",
+  "buffs": [{
+    "id": 30070,
+    "name": "Quick威力アップ",
+    "detail": "Quickカードの威力をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_356.png",
+    "type": "upCommandatk",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }],
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4003
+    }],
+    "ckSelfIndv": [{
+      "id": 4003
+    }],
+    "maxRate": 50000
+  }]
+}, {
+  "funcId": 30339,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "アーツ威力アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_357.png",
+  "buffs": [{
+    "id": 30071,
+    "name": "Arts威力アップ",
+    "detail": "Artsカードの威力をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_357.png",
+    "type": "upCommandatk",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }],
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4001
+    }],
+    "ckSelfIndv": [{
+      "id": 4001
+    }],
+    "maxRate": 50000
+  }]
+}, {
+  "funcId": 30340,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "バスター威力アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_358.png",
+  "buffs": [{
+    "id": 30072,
+    "name": "Buster威力アップ",
+    "detail": "Busterカードの威力をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_358.png",
+    "type": "upCommandatk",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }],
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4002
+    }],
+    "ckSelfIndv": [{
+      "id": 4002
+    }],
+    "maxRate": 50000
+  }]
+}, {
   "funcId": 30341,
   "funcType": "addStateShort",
   "funcTargetType": "self",
@@ -66753,6 +66845,1206 @@
       "id": 3005
     }],
     "maxRate": 5000
+  }]
+}, {
+  "funcId": 30362,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "クイックチェイン成立時発動効果",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_420.png",
+  "buffs": [{
+    "id": 30218,
+    "name": "クイックチェイン成立時発動効果",
+    "detail": "自身のコマンドカードを含むクイックチェイン成立時、自身のQuickカードの威力をアップ＆〔鈍の矢弾〕状態を消費して付与されたQuick攻撃強化状態の効果量を一時的に増大させる状態を付与",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_420.png",
+    "type": "confirmCommandFunction",
+    "vals": [{
+      "id": 3004
+    }],
+    "ckSelfIndv": [{
+      "id": 4104
+    }]
+  }]
+}, {
+  "funcId": 30363,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "アーツチェイン成立時発動効果",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_421.png",
+  "buffs": [{
+    "id": 30219,
+    "name": "アーツチェイン成立時発動効果",
+    "detail": "自身のコマンドカードを含むアーツチェイン成立時、自身のArtsカードの威力をアップ＆〔鈍の矢弾〕状態を消費して付与されたArts攻撃強化状態の効果量を一時的に増大させる状態を付与",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_421.png",
+    "type": "confirmCommandFunction",
+    "vals": [{
+      "id": 3004
+    }],
+    "ckSelfIndv": [{
+      "id": 4105
+    }]
+  }]
+}, {
+  "funcId": 30364,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "バスターチェイン成立時発動効果",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_422.png",
+  "buffs": [{
+    "id": 30220,
+    "name": "バスターチェイン成立時発動効果",
+    "detail": "自身のコマンドカードを含むバスターチェイン成立時、自身のBusterカードの威力をアップ＆〔鈍の矢弾〕状態を消費して付与されたBuster攻撃強化状態の効果量を一時的に増大させる状態を付与",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_422.png",
+    "type": "confirmCommandFunction",
+    "vals": [{
+      "id": 3004
+    }],
+    "ckSelfIndv": [{
+      "id": 4106
+    }]
+  }]
+}, {
+  "funcId": 30365,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "マイティチェイン成立時発動効果",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_424.png",
+  "buffs": [{
+    "id": 30221,
+    "name": "マイティチェイン成立時発動効果",
+    "detail": "自身のコマンドカードを含むマイティチェイン成立時、自身に必中状態を付与＆〔鈍の矢弾〕状態の残り回数を増加する",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_424.png",
+    "type": "confirmCommandFunction",
+    "vals": [{
+      "id": 3004
+    }],
+    "ckSelfIndv": [{
+      "id": 4107
+    }]
+  }]
+}, {
+  "funcId": 30366,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "射て晴らすは征箭の雨（弓）",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_331.png",
+  "buffs": [{
+    "id": 30222,
+    "name": "射て晴らすは征箭の雨（弓）",
+    "detail": "宝具チェインを除くチェイン不成立時、自身に〔見敵迎撃〕状態を付与(強化解除不能・重複不可)＆〔鈍の矢弾〕状態の残り回数を増加する",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_331.png",
+    "type": "confirmCommandFunction",
+    "script": {
+      "checkIndvType": 2
+    },
+    "originalScript": {
+      "checkIndvType": 2
+    },
+    "vals": [{
+      "id": 3004
+    }],
+    "ckSelfIndv": [{
+      "id": 4104,
+      "negative": true
+    }, {
+      "id": 4105,
+      "negative": true
+    }, {
+      "id": 4106,
+      "negative": true
+    }, {
+      "id": 4107,
+      "negative": true
+    }, {
+      "id": 4108,
+      "negative": true
+    }]
+  }]
+}, {
+  "funcId": 30367,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "Quickブースト〔鈍の矢弾〕",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_433.png",
+  "buffs": [{
+    "id": 30223,
+    "name": "Quickブースト〔鈍の矢弾〕",
+    "detail": "〔鈍の矢弾〕状態を消費して付与されたQuick攻撃強化状態の効果量を一時的に増大させる",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_433.png",
+    "type": "buffRate",
+    "script": {
+      "UpBuffRateBuffIndiv": [{
+        "id": 3129
+      }]
+    },
+    "originalScript": {
+      "UpBuffRateBuffIndiv": "3129"
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3071
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 30368,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "Artsブースト〔鈍の矢弾〕",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_434.png",
+  "buffs": [{
+    "id": 30224,
+    "name": "Artsブースト〔鈍の矢弾〕",
+    "detail": "〔鈍の矢弾〕状態を消費して付与されたArts攻撃強化状態の効果量を一時的に増大させる",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_434.png",
+    "type": "buffRate",
+    "script": {
+      "UpBuffRateBuffIndiv": [{
+        "id": 3130
+      }]
+    },
+    "originalScript": {
+      "UpBuffRateBuffIndiv": "3130"
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3071
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 30369,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "Busterブースト〔鈍の矢弾〕",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_435.png",
+  "buffs": [{
+    "id": 30225,
+    "name": "Busterブースト〔鈍の矢弾〕",
+    "detail": "〔鈍の矢弾〕状態を消費して付与されたBuster攻撃強化状態の効果量を一時的に増大させる",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_435.png",
+    "type": "buffRate",
+    "script": {
+      "UpBuffRateBuffIndiv": [{
+        "id": 3131
+      }]
+    },
+    "originalScript": {
+      "UpBuffRateBuffIndiv": "3131"
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3071
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 30370,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "鈍の矢弾",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_520.png",
+  "functvals": [{
+    "id": 3128,
+    "negative": true
+  }],
+  "buffs": [{
+    "id": 30226,
+    "name": "鈍の矢弾",
+    "detail": "特定の行動時に消費され、グランドサインの特殊効果の発動機会を得る",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_520.png",
+    "type": "addIndividuality",
+    "originalScript": {
+      "DisplayPriority": 100
+    },
+    "vals": [{
+      "id": 3128
+    }]
+  }]
+}, {
+  "funcId": 30371,
+  "funcType": "extendBuffcount",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "鈍の矢弾",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_520.png",
+  "functvals": [{
+    "id": 3128
+  }]
+}, {
+  "funcId": 30372,
+  "funcType": "shortenBuffcount",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy"
+}, {
+  "funcId": 30373,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "鷲の目（弓）",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_333.png",
+  "buffs": [{
+    "id": 30227,
+    "name": "鷲の目（弓）",
+    "detail": "Quick・Arts・Buster攻撃時に〔鈍の矢弾〕状態を1回分消費して、そのコマンドカードの威力をアップ＆そのコマンドカードが必中効果を得ている時は、さらにそのコマンドカードのクリティカル威力か宝具威力をアップ ＋ Extra攻撃時に〔鈍の矢弾〕状態を1回分消費して、Extra Attackカードの威力をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_333.png",
+    "type": "commandattackBeforeFunctionMainOnly",
+    "vals": [{
+      "id": 3004
+    }],
+    "ckSelfIndv": [{
+      "id": 4004
+    }]
+  }]
+}, {
+  "funcId": 30374,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "buffs": [{
+    "id": 30228,
+    "name": "",
+    "detail": "",
+    "type": "attackBeforeFunctionMainOnly",
+    "script": {
+      "checkIndvType": 3
+    },
+    "originalScript": {
+      "checkIndvType": 3,
+      "IndvAddBuffPassive": 1
+    },
+    "ckSelfIndv": [{
+      "id": 4003
+    }, {
+      "id": 3019,
+      "negative": true
+    }]
+  }]
+}, {
+  "funcId": 30375,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "buffs": [{
+    "id": 30229,
+    "name": "",
+    "detail": "",
+    "type": "commandattackBeforeFunctionMainOnly",
+    "script": {
+      "checkIndvType": 1
+    },
+    "originalScript": {
+      "checkIndvType": 1,
+      "IndvAddBuffPassive": 1
+    },
+    "ckSelfIndv": [{
+      "id": 4003
+    }, {
+      "id": 7023
+    }, {
+      "id": 3019
+    }]
+  }]
+}, {
+  "funcId": 30376,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "buffs": [{
+    "id": 30230,
+    "name": "",
+    "detail": "",
+    "type": "attackBeforeFunctionMainOnly",
+    "script": {
+      "checkIndvType": 1
+    },
+    "originalScript": {
+      "checkIndvType": 1,
+      "IndvAddBuffPassive": 1
+    },
+    "ckSelfIndv": [{
+      "id": 4003
+    }, {
+      "id": 4007
+    }, {
+      "id": 7021
+    }, {
+      "id": 3019
+    }]
+  }]
+}, {
+  "funcId": 30377,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "buffs": [{
+    "id": 30231,
+    "name": "",
+    "detail": "",
+    "type": "attackBeforeFunctionMainOnly",
+    "script": {
+      "checkIndvType": 1
+    },
+    "originalScript": {
+      "checkIndvType": 1,
+      "IndvAddBuffPassive": 1
+    },
+    "ckSelfIndv": [{
+      "id": 4003
+    }, {
+      "id": 4007
+    }, {
+      "id": 7022
+    }, {
+      "id": 3019
+    }]
+  }]
+}, {
+  "funcId": 30378,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "buffs": [{
+    "id": 30232,
+    "name": "",
+    "detail": "",
+    "type": "commandattackBeforeFunctionMainOnly",
+    "script": {
+      "checkIndvType": 3
+    },
+    "originalScript": {
+      "checkIndvType": 3,
+      "IndvAddBuffPassive": 1
+    },
+    "ckSelfIndv": [{
+      "id": 4003
+    }, {
+      "id": 7020
+    }, {
+      "id": 3019
+    }, {
+      "id": 4100,
+      "negative": true
+    }]
+  }]
+}, {
+  "funcId": 30379,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "buffs": [{
+    "id": 30233,
+    "name": "",
+    "detail": "",
+    "type": "commandattackBeforeFunctionMainOnly",
+    "script": {
+      "checkIndvType": 1
+    },
+    "originalScript": {
+      "checkIndvType": 1,
+      "IndvAddBuffPassive": 1
+    },
+    "ckSelfIndv": [{
+      "id": 4003
+    }, {
+      "id": 4100
+    }, {
+      "id": 7020
+    }, {
+      "id": 3019
+    }]
+  }]
+}, {
+  "funcId": 30380,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "buffs": [{
+    "id": 30234,
+    "name": "",
+    "detail": "",
+    "type": "attackBeforeFunctionMainOnly",
+    "script": {
+      "checkIndvType": 3
+    },
+    "originalScript": {
+      "checkIndvType": 3,
+      "IndvAddBuffPassive": 1
+    },
+    "ckSelfIndv": [{
+      "id": 4001
+    }, {
+      "id": 3019,
+      "negative": true
+    }]
+  }]
+}, {
+  "funcId": 30381,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "buffs": [{
+    "id": 30235,
+    "name": "",
+    "detail": "",
+    "type": "commandattackBeforeFunctionMainOnly",
+    "script": {
+      "checkIndvType": 1
+    },
+    "originalScript": {
+      "checkIndvType": 1,
+      "IndvAddBuffPassive": 1
+    },
+    "ckSelfIndv": [{
+      "id": 4001
+    }, {
+      "id": 7023
+    }, {
+      "id": 3019
+    }]
+  }]
+}, {
+  "funcId": 30382,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "buffs": [{
+    "id": 30236,
+    "name": "",
+    "detail": "",
+    "type": "attackBeforeFunctionMainOnly",
+    "script": {
+      "checkIndvType": 1
+    },
+    "originalScript": {
+      "checkIndvType": 1,
+      "IndvAddBuffPassive": 1
+    },
+    "ckSelfIndv": [{
+      "id": 4001
+    }, {
+      "id": 4007
+    }, {
+      "id": 7021
+    }, {
+      "id": 3019
+    }]
+  }]
+}, {
+  "funcId": 30383,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "buffs": [{
+    "id": 30237,
+    "name": "",
+    "detail": "",
+    "type": "attackBeforeFunctionMainOnly",
+    "script": {
+      "checkIndvType": 1
+    },
+    "originalScript": {
+      "checkIndvType": 1,
+      "IndvAddBuffPassive": 1
+    },
+    "ckSelfIndv": [{
+      "id": 4001
+    }, {
+      "id": 4007
+    }, {
+      "id": 7022
+    }, {
+      "id": 3019
+    }]
+  }]
+}, {
+  "funcId": 30384,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "buffs": [{
+    "id": 30238,
+    "name": "",
+    "detail": "",
+    "type": "commandattackBeforeFunctionMainOnly",
+    "script": {
+      "checkIndvType": 3
+    },
+    "originalScript": {
+      "checkIndvType": 3,
+      "IndvAddBuffPassive": 1
+    },
+    "ckSelfIndv": [{
+      "id": 4001
+    }, {
+      "id": 7020
+    }, {
+      "id": 3019
+    }, {
+      "id": 4100,
+      "negative": true
+    }]
+  }]
+}, {
+  "funcId": 30385,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "buffs": [{
+    "id": 30239,
+    "name": "",
+    "detail": "",
+    "type": "commandattackBeforeFunctionMainOnly",
+    "script": {
+      "checkIndvType": 1
+    },
+    "originalScript": {
+      "checkIndvType": 1,
+      "IndvAddBuffPassive": 1
+    },
+    "ckSelfIndv": [{
+      "id": 4001
+    }, {
+      "id": 4100
+    }, {
+      "id": 7020
+    }, {
+      "id": 3019
+    }]
+  }]
+}, {
+  "funcId": 30386,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "buffs": [{
+    "id": 30240,
+    "name": "",
+    "detail": "",
+    "type": "attackBeforeFunctionMainOnly",
+    "script": {
+      "checkIndvType": 3
+    },
+    "originalScript": {
+      "checkIndvType": 3,
+      "IndvAddBuffPassive": 1
+    },
+    "ckSelfIndv": [{
+      "id": 4002
+    }, {
+      "id": 3019,
+      "negative": true
+    }]
+  }]
+}, {
+  "funcId": 30387,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "buffs": [{
+    "id": 30241,
+    "name": "",
+    "detail": "",
+    "type": "commandattackBeforeFunctionMainOnly",
+    "script": {
+      "checkIndvType": 1
+    },
+    "originalScript": {
+      "checkIndvType": 1,
+      "IndvAddBuffPassive": 1
+    },
+    "ckSelfIndv": [{
+      "id": 4002
+    }, {
+      "id": 7023
+    }, {
+      "id": 3019
+    }]
+  }]
+}, {
+  "funcId": 30388,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "buffs": [{
+    "id": 30242,
+    "name": "",
+    "detail": "",
+    "type": "attackBeforeFunctionMainOnly",
+    "script": {
+      "checkIndvType": 1
+    },
+    "originalScript": {
+      "checkIndvType": 1,
+      "IndvAddBuffPassive": 1
+    },
+    "ckSelfIndv": [{
+      "id": 4002
+    }, {
+      "id": 4007
+    }, {
+      "id": 7021
+    }, {
+      "id": 3019
+    }]
+  }]
+}, {
+  "funcId": 30389,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "buffs": [{
+    "id": 30243,
+    "name": "",
+    "detail": "",
+    "type": "attackBeforeFunctionMainOnly",
+    "script": {
+      "checkIndvType": 1
+    },
+    "originalScript": {
+      "checkIndvType": 1,
+      "IndvAddBuffPassive": 1
+    },
+    "ckSelfIndv": [{
+      "id": 4002
+    }, {
+      "id": 4007
+    }, {
+      "id": 7022
+    }, {
+      "id": 3019
+    }]
+  }]
+}, {
+  "funcId": 30390,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "buffs": [{
+    "id": 30244,
+    "name": "",
+    "detail": "",
+    "type": "commandattackBeforeFunctionMainOnly",
+    "script": {
+      "checkIndvType": 3
+    },
+    "originalScript": {
+      "checkIndvType": 3,
+      "IndvAddBuffPassive": 1
+    },
+    "ckSelfIndv": [{
+      "id": 4002
+    }, {
+      "id": 7020
+    }, {
+      "id": 3019
+    }, {
+      "id": 4100,
+      "negative": true
+    }]
+  }]
+}, {
+  "funcId": 30391,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "buffs": [{
+    "id": 30245,
+    "name": "",
+    "detail": "",
+    "type": "commandattackBeforeFunctionMainOnly",
+    "script": {
+      "checkIndvType": 1
+    },
+    "originalScript": {
+      "checkIndvType": 1,
+      "IndvAddBuffPassive": 1
+    },
+    "ckSelfIndv": [{
+      "id": 4002
+    }, {
+      "id": 4100
+    }, {
+      "id": 7020
+    }, {
+      "id": 3019
+    }]
+  }]
+}, {
+  "funcId": 30392,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "単独行動（弓）",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_331.png",
+  "buffs": [{
+    "id": 30246,
+    "name": "単独行動（弓）",
+    "detail": "自身の登場時、自身の〔鈍の矢弾〕状態の残り回数を増加する ＋ 毎ターン終了時、自身の〔鈍の矢弾〕状態の残り回数を増加する",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_331.png",
+    "type": "entryFunction",
+    "vals": [{
+      "id": 3004
+    }]
+  }]
+}, {
+  "funcId": 30393,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "buffs": [{
+    "id": 30247,
+    "name": "",
+    "detail": "",
+    "type": "selfturnendFunction"
+  }]
+}, {
+  "funcId": 30394,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "見敵迎撃",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_436.png",
+  "buffs": [{
+    "id": 30248,
+    "name": "見敵迎撃",
+    "detail": "敵の攻撃宝具使用時の効果発動前に、〔鈍の矢弾〕状態を1回分消費して、敵全体の攻撃強化状態を1つ解除＆宝具威力をダウン<最大3回分消費して回数分の効果が発動>(見敵迎撃状態は重複不可)",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_436.png",
+    "type": "otherTreasureDevicePreBeforeFunction",
+    "buffGroup": 30248,
+    "script": {
+      "checkIndvType": 2,
+      "INDIVIDUALITIE": {
+        "id": 3128
+      }
+    },
+    "originalScript": {
+      "checkIndvType": 2,
+      "INDIVIDUALITIE": 3128
+    },
+    "vals": [{
+      "id": 3004
+    }],
+    "ckOpIndv": [{
+      "id": 7023
+    }, {
+      "id": 7001,
+      "negative": true
+    }]
+  }]
+}, {
+  "funcId": 30395,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "Quick威力アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_356.png",
+  "buffs": [{
+    "id": 30249,
+    "name": "Quick威力アップ",
+    "detail": "Quickカードの威力をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_356.png",
+    "type": "upCommandatk",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3129
+    }],
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4003
+    }],
+    "ckSelfIndv": [{
+      "id": 4003
+    }],
+    "maxRate": 50000
+  }]
+}, {
+  "funcId": 30397,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "Arts威力アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_357.png",
+  "buffs": [{
+    "id": 30250,
+    "name": "Arts威力アップ",
+    "detail": "Artsカードの威力をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_357.png",
+    "type": "upCommandatk",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3130
+    }],
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4001
+    }],
+    "ckSelfIndv": [{
+      "id": 4001
+    }],
+    "maxRate": 50000
+  }]
+}, {
+  "funcId": 30399,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "Buster威力アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_358.png",
+  "buffs": [{
+    "id": 30251,
+    "name": "Buster威力アップ",
+    "detail": "Busterカードの威力をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_358.png",
+    "type": "upCommandatk",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3131
+    }],
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4002
+    }],
+    "ckSelfIndv": [{
+      "id": 4002
+    }],
+    "maxRate": 50000
+  }]
+}, {
+  "funcId": 30402,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "クリティカル威力アップ：Quick",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_390.png",
+  "buffs": [{
+    "id": 30252,
+    "name": "クリティカル威力アップ：Quick",
+    "detail": "Quickカードのクリティカル時のダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_390.png",
+    "type": "upCriticaldamage",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3031
+    }, {
+      "id": 3129
+    }],
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4003
+    }],
+    "ckSelfIndv": [{
+      "id": 4003
+    }],
+    "maxRate": 50000
+  }]
+}, {
+  "funcId": 30404,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "クリティカル威力アップ：Arts",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_391.png",
+  "buffs": [{
+    "id": 30253,
+    "name": "クリティカル威力アップ：Arts",
+    "detail": "Artsカードのクリティカル時のダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_391.png",
+    "type": "upCriticaldamage",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3031
+    }, {
+      "id": 3130
+    }],
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4001
+    }],
+    "ckSelfIndv": [{
+      "id": 4001
+    }],
+    "maxRate": 50000
+  }]
+}, {
+  "funcId": 30406,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "クリティカル威力アップ：Buster",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_392.png",
+  "buffs": [{
+    "id": 30254,
+    "name": "クリティカル威力アップ：Buster",
+    "detail": "Busterカードのクリティカル時のダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_392.png",
+    "type": "upCriticaldamage",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3031
+    }, {
+      "id": 3131
+    }],
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4002
+    }],
+    "ckSelfIndv": [{
+      "id": 4002
+    }],
+    "maxRate": 50000
+  }]
+}, {
+  "funcId": 30407,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "宝具威力アップ：Quick",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_310.png",
+  "buffs": [{
+    "id": 30255,
+    "name": "宝具威力アップ：Quick",
+    "detail": "Quickカードの宝具で与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_310.png",
+    "type": "upNpdamage",
+    "originalScript": {
+      "ProgressSelfTurn": 1
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3030
+    }, {
+      "id": 3129
+    }],
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4003
+    }],
+    "ckSelfIndv": [{
+      "id": 4003
+    }],
+    "maxRate": 50000
+  }]
+}, {
+  "funcId": 30408,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "宝具威力アップ：Quick",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_310.png",
+  "buffs": [{
+    "id": 30255,
+    "name": "宝具威力アップ：Quick",
+    "detail": "Quickカードの宝具で与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_310.png",
+    "type": "upNpdamage",
+    "originalScript": {
+      "ProgressSelfTurn": 1
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3030
+    }, {
+      "id": 3129
+    }],
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4003
+    }],
+    "ckSelfIndv": [{
+      "id": 4003
+    }],
+    "maxRate": 50000
+  }]
+}, {
+  "funcId": 30409,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "宝具威力アップ：Arts",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_310.png",
+  "buffs": [{
+    "id": 30256,
+    "name": "宝具威力アップ：Arts",
+    "detail": "Artsカードの宝具で与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_310.png",
+    "type": "upNpdamage",
+    "originalScript": {
+      "ProgressSelfTurn": 1
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3030
+    }, {
+      "id": 3130
+    }],
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4001
+    }],
+    "ckSelfIndv": [{
+      "id": 4001
+    }],
+    "maxRate": 50000
+  }]
+}, {
+  "funcId": 30410,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "宝具威力アップ：Arts",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_310.png",
+  "buffs": [{
+    "id": 30256,
+    "name": "宝具威力アップ：Arts",
+    "detail": "Artsカードの宝具で与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_310.png",
+    "type": "upNpdamage",
+    "originalScript": {
+      "ProgressSelfTurn": 1
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3030
+    }, {
+      "id": 3130
+    }],
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4001
+    }],
+    "ckSelfIndv": [{
+      "id": 4001
+    }],
+    "maxRate": 50000
+  }]
+}, {
+  "funcId": 30411,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "宝具威力アップ：Buster",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_310.png",
+  "buffs": [{
+    "id": 30257,
+    "name": "宝具威力アップ：Buster",
+    "detail": "Busterカードの宝具で与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_310.png",
+    "type": "upNpdamage",
+    "originalScript": {
+      "ProgressSelfTurn": 1
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3030
+    }, {
+      "id": 3131
+    }],
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4002
+    }],
+    "ckSelfIndv": [{
+      "id": 4002
+    }],
+    "maxRate": 50000
+  }]
+}, {
+  "funcId": 30412,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "宝具威力アップ：Buster",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_310.png",
+  "buffs": [{
+    "id": 30257,
+    "name": "宝具威力アップ：Buster",
+    "detail": "Busterカードの宝具で与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_310.png",
+    "type": "upNpdamage",
+    "originalScript": {
+      "ProgressSelfTurn": 1
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3030
+    }, {
+      "id": 3131
+    }],
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4002
+    }],
+    "ckSelfIndv": [{
+      "id": 4002
+    }],
+    "maxRate": 50000
   }]
 }, {
   "funcId": 94100501,
