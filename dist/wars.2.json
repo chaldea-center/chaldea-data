@@ -90558,6 +90558,15 @@
     "endedAt": 1893423600
   }, {
     "warId": 8395,
+    "type": "priority",
+    "priority": 3,
+    "overwriteId": 10000,
+    "condType": "eventStartToEnd",
+    "targetId": 80551,
+    "startedAt": 1750410000,
+    "endedAt": 1893423600
+  }, {
+    "warId": 8395,
     "type": "banner",
     "priority": 3,
     "overwriteId": 80533,
@@ -90565,15 +90574,6 @@
     "condType": "eventStartToEnd",
     "targetId": 80555,
     "startedAt": 1752656400,
-    "endedAt": 1893423600
-  }, {
-    "warId": 8395,
-    "type": "priority",
-    "priority": 3,
-    "overwriteId": 10000,
-    "condType": "eventStartToEnd",
-    "targetId": 80551,
-    "startedAt": 1750410000,
     "endedAt": 1893423600
   }, {
     "warId": 8395,
@@ -90596,15 +90596,6 @@
     "endedAt": 1893423600
   }, {
     "warId": 8395,
-    "type": "priority",
-    "priority": 5,
-    "overwriteId": 10021,
-    "condType": "eventStartToEnd",
-    "targetId": 80577,
-    "startedAt": 1757408400,
-    "endedAt": 1893423600
-  }, {
-    "warId": 8395,
     "type": "banner",
     "priority": 5,
     "overwriteId": 80548,
@@ -90616,11 +90607,11 @@
   }, {
     "warId": 8395,
     "type": "priority",
-    "priority": 6,
-    "overwriteId": 10000,
+    "priority": 5,
+    "overwriteId": 10021,
     "condType": "eventStartToEnd",
-    "targetId": 80581,
-    "startedAt": 1760518800,
+    "targetId": 80577,
+    "startedAt": 1757408400,
     "endedAt": 1893423600
   }, {
     "warId": 8395,
@@ -90632,6 +90623,15 @@
     "targetId": 71596,
     "startedAt": 1758099600,
     "endedAt": 1758686399
+  }, {
+    "warId": 8395,
+    "type": "priority",
+    "priority": 6,
+    "overwriteId": 10000,
+    "condType": "eventStartToEnd",
+    "targetId": 80581,
+    "startedAt": 1760518800,
+    "endedAt": 1893423600
   }, {
     "warId": 8395,
     "type": "priority",
@@ -90653,6 +90653,15 @@
     "endedAt": 1893423600
   }, {
     "warId": 8395,
+    "type": "priority",
+    "priority": 8,
+    "overwriteId": 10041,
+    "condType": "eventStartToEnd",
+    "targetId": 80586,
+    "startedAt": 1764752400,
+    "endedAt": 1893423600
+  }, {
+    "warId": 8395,
     "type": "banner",
     "priority": 8,
     "overwriteId": 80555,
@@ -90660,6 +90669,16 @@
     "condType": "eventStartToEnd",
     "targetId": 80595,
     "startedAt": 1763110800,
+    "endedAt": 1893423600
+  }, {
+    "warId": 8395,
+    "type": "banner",
+    "priority": 9,
+    "overwriteId": 80556,
+    "overwriteBanner": "https://static.atlasacademy.io/JP/Banner/chaldea_category_80556.png",
+    "condType": "eventStartToEnd",
+    "targetId": 80586,
+    "startedAt": 1764752400,
     "endedAt": 1893423600
   }, {
     "warId": 8395,
@@ -99937,6 +99956,606 @@
       "noticeAt": 1763697600,
       "openedAt": 1763697600,
       "closedAt": 1893423600
+    }]
+  }]
+}, {
+  "id": 8407,
+  "coordinates": [
+    [],
+    []
+  ],
+  "age": "-",
+  "name": "冠位戴冠戦\nキャスター",
+  "longName": "冠位戴冠戦\nキャスター",
+  "flags": ["changeDispClosedMessage"],
+  "banner": "https://static.atlasacademy.io/JP/Banner/chaldea_category_80556.png",
+  "priority": 7006,
+  "parentWarId": 8395,
+  "bgm": {
+    "id": 0
+  },
+  "script": "https://static.atlasacademy.io/JP/Script/Common/NONE.txt",
+  "releaseConditions": [{
+    "priority": 7006,
+    "condType": "notQuestClearPhase",
+    "condId": 4000600,
+    "condNum": 1,
+    "warDisplayType": "close",
+    "closedDialogMessage": "「終章_序」\n進行度1クリアで開放"
+  }],
+  "maps": [{
+    "id": 8407,
+    "mapImage": "https://static.atlasacademy.io/JP/Terminal/MapImgs/img_questmap_008407/img_questmap_008407.png",
+    "bgm": {
+      "id": 0
+    }
+  }],
+  "spots": [{
+    "id": 840701,
+    "mapId": 8407,
+    "name": "カルデアゲート",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter8407/QMap_Cap8407_Atlas/spot_840701.png"
+  }, {
+    "id": 1050010,
+    "blankEarth": true,
+    "mapId": 8407,
+    "name": "",
+    "quests": [{
+      "id": 94151200,
+      "name": "冠位解放戦〔キャスター〕",
+      "type": "event",
+      "flags": ["noDisplayRemain"],
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "100",
+      "spotId": 1050010,
+      "warId": 8407,
+      "gifts": [{
+        "id": 94151200,
+        "objectId": 70,
+        "num": 5
+      }, {
+        "id": 94151200,
+        "objectId": 1000,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "questClearPhase",
+        "targetId": 4000600,
+        "value": 1,
+        "closedMessage": "「終章_序」進行度1クリアで開放"
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94151200,
+      "noticeAt": 1764752400,
+      "openedAt": 1764752400,
+      "closedAt": 1893423600
+    }, {
+      "id": 94151201,
+      "name": "冠位研鑽戦〔キャスター〕 Ⅰ",
+      "type": "event",
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "100",
+      "spotId": 1050010,
+      "warId": 8407,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94151200
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "commonRelease",
+        "targetId": 10151201
+      }],
+      "presents": [{
+        "phase": 1,
+        "gifts": [{
+          "id": 94151202,
+          "type": "servant",
+          "objectId": 9570500,
+          "num": 1
+        }, {
+          "id": 94151202,
+          "type": "servant",
+          "objectId": 9670500,
+          "num": 1
+        }]
+      }],
+      "phases": [1],
+      "priority": 94151199,
+      "noticeAt": 1764752400,
+      "openedAt": 1764752400,
+      "closedAt": 1765339199
+    }, {
+      "id": 94151202,
+      "name": "冠位研鑽戦〔キャスター〕 Ⅱ",
+      "type": "event",
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "100+",
+      "spotId": 1050010,
+      "warId": 8407,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94151200
+      }, {
+        "type": "questClear",
+        "targetId": 94151201,
+        "closedMessage": "「冠位研鑽戦〔キャスター〕 Ⅰ」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "commonRelease",
+        "targetId": 10151201
+      }],
+      "presents": [{
+        "phase": 1,
+        "gifts": [{
+          "id": 94151202,
+          "type": "servant",
+          "objectId": 9570500,
+          "num": 1
+        }, {
+          "id": 94151202,
+          "type": "servant",
+          "objectId": 9670500,
+          "num": 1
+        }]
+      }],
+      "phases": [1],
+      "priority": 94151198,
+      "noticeAt": 1764752400,
+      "openedAt": 1764752400,
+      "closedAt": 1765339199
+    }, {
+      "id": 94151203,
+      "name": "冠位研鑽戦〔キャスター〕 Ⅲ",
+      "type": "event",
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "100++",
+      "spotId": 1050010,
+      "warId": 8407,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94151200
+      }, {
+        "type": "questClear",
+        "targetId": 94151202,
+        "closedMessage": "「冠位研鑽戦〔キャスター〕 Ⅱ」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "commonRelease",
+        "targetId": 10151201
+      }],
+      "presents": [{
+        "phase": 1,
+        "gifts": [{
+          "id": 94151202,
+          "type": "servant",
+          "objectId": 9570500,
+          "num": 1
+        }, {
+          "id": 94151202,
+          "type": "servant",
+          "objectId": 9670500,
+          "num": 1
+        }]
+      }],
+      "phases": [1],
+      "priority": 94151197,
+      "noticeAt": 1764752400,
+      "openedAt": 1764752400,
+      "closedAt": 1765339199
+    }, {
+      "id": 94151204,
+      "name": "冠位研鑽戦〔キャスター〕 Ⅳ",
+      "type": "event",
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "100+++",
+      "spotId": 1050010,
+      "warId": 8407,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94151200
+      }, {
+        "type": "questClear",
+        "targetId": 94151203,
+        "closedMessage": "「冠位研鑽戦〔キャスター〕 Ⅲ」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "commonRelease",
+        "targetId": 10151201
+      }],
+      "presents": [{
+        "phase": 1,
+        "gifts": [{
+          "id": 94151202,
+          "type": "servant",
+          "objectId": 9570500,
+          "num": 1
+        }, {
+          "id": 94151202,
+          "type": "servant",
+          "objectId": 9670500,
+          "num": 1
+        }]
+      }],
+      "phases": [1],
+      "priority": 94151196,
+      "noticeAt": 1764752400,
+      "openedAt": 1764752400,
+      "closedAt": 1765339199
+    }, {
+      "id": 94151205,
+      "name": "冠位研鑽戦〔キャスター〕 Ⅴ",
+      "type": "event",
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "100★",
+      "spotId": 1050010,
+      "warId": 8407,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94151200
+      }, {
+        "type": "questClear",
+        "targetId": 94151204,
+        "closedMessage": "「冠位研鑽戦〔キャスター〕 Ⅳ」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "commonRelease",
+        "targetId": 10151201
+      }],
+      "presents": [{
+        "phase": 1,
+        "gifts": [{
+          "id": 94151202,
+          "type": "servant",
+          "objectId": 9570500,
+          "num": 1
+        }, {
+          "id": 94151202,
+          "type": "servant",
+          "objectId": 9670500,
+          "num": 1
+        }]
+      }],
+      "phases": [1],
+      "priority": 94151195,
+      "noticeAt": 1764752400,
+      "openedAt": 1764752400,
+      "closedAt": 1765339199
+    }, {
+      "id": 94151206,
+      "name": "冠位研鑽戦〔キャスター〕 Ⅵ",
+      "type": "event",
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "100★★",
+      "spotId": 1050010,
+      "warId": 8407,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94151200
+      }, {
+        "type": "questClear",
+        "targetId": 94151205,
+        "closedMessage": "「冠位研鑽戦〔キャスター〕 Ⅴ」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "commonRelease",
+        "targetId": 10151201
+      }],
+      "presents": [{
+        "phase": 1,
+        "gifts": [{
+          "id": 94151202,
+          "type": "servant",
+          "objectId": 9570500,
+          "num": 1
+        }, {
+          "id": 94151202,
+          "type": "servant",
+          "objectId": 9670500,
+          "num": 1
+        }]
+      }],
+      "phases": [1],
+      "priority": 94151194,
+      "noticeAt": 1764752400,
+      "openedAt": 1764752400,
+      "closedAt": 1765339199
+    }, {
+      "id": 94151207,
+      "name": "冠位研鑽戦〔キャスター〕 Ⅶ",
+      "type": "event",
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "100★★★",
+      "spotId": 1050010,
+      "warId": 8407,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94151200
+      }, {
+        "type": "questClear",
+        "targetId": 94151206,
+        "closedMessage": "「冠位研鑽戦〔キャスター〕 Ⅵ」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "commonRelease",
+        "targetId": 10151201
+      }],
+      "presents": [{
+        "phase": 1,
+        "gifts": [{
+          "id": 94151202,
+          "type": "servant",
+          "objectId": 9570500,
+          "num": 1
+        }, {
+          "id": 94151202,
+          "type": "servant",
+          "objectId": 9670500,
+          "num": 1
+        }]
+      }],
+      "phases": [1],
+      "priority": 94151193,
+      "noticeAt": 1764752400,
+      "openedAt": 1764752400,
+      "closedAt": 1765339199
+    }, {
+      "id": 94151210,
+      "name": "冠位認定戦〔キャスター〕",
+      "type": "event",
+      "flags": ["noDisplayRemain"],
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "100★",
+      "spotId": 1050010,
+      "warId": 8407,
+      "gifts": [{
+        "id": 94151201,
+        "type": "servant",
+        "objectId": 9408980,
+        "num": 1
+      }, {
+        "id": 94151201,
+        "objectId": 6999,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94151200
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "classBoardSquareReleased",
+        "targetId": 10005,
+        "value": 12,
+        "closedMessage": "〔キャスター〕のグランドサイン解放数12個以上で開放"
+      }],
+      "phases": [1],
+      "priority": 94151192,
+      "noticeAt": 1764752400,
+      "openedAt": 1764752400,
+      "closedAt": 1893423600
+    }]
+  }]
+}, {
+  "id": 8408,
+  "coordinates": [
+    [],
+    []
+  ],
+  "age": "-",
+  "name": "最終物資補給作戦",
+  "longName": "最終物資補給作戦",
+  "flags": ["isEvent", "noClearMarkWithComplete", "changeDispClosedMessage"],
+  "banner": "https://static.atlasacademy.io/JP/Banner/event_war_80561.png",
+  "priority": 10040,
+  "bgm": {
+    "id": 0
+  },
+  "script": "https://static.atlasacademy.io/JP/Script/Common/NONE.txt",
+  "eventId": 80586,
+  "eventName": "最終物資補給作戦",
+  "warAdds": [{
+    "warId": 8408,
+    "type": "bgImage",
+    "priority": 1,
+    "overwriteId": 106000,
+    "condType": "questClear",
+    "targetId": 1000011,
+    "startedAt": 1764752400,
+    "endedAt": 1765339199
+  }, {
+    "warId": 8408,
+    "type": "bgImage",
+    "priority": 2,
+    "overwriteId": 142000,
+    "condType": "questClear",
+    "targetId": 3000008,
+    "startedAt": 1764752400,
+    "endedAt": 1765339199
+  }, {
+    "warId": 8408,
+    "type": "bgImage",
+    "priority": 3,
+    "overwriteId": 132900,
+    "condType": "questClear",
+    "targetId": 3000531,
+    "startedAt": 1764752400,
+    "endedAt": 1765339199
+  }],
+  "maps": [{
+    "id": 8408,
+    "mapImage": "https://static.atlasacademy.io/JP/Terminal/MapImgs/img_questmap_008408/img_questmap_008408.png",
+    "bgm": {
+      "id": 0
+    }
+  }],
+  "spots": [{
+    "id": 840801,
+    "mapId": 8408,
+    "name": "カルデアゲート",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter8408/QMap_Cap8408_Atlas/spot_840801.png",
+    "quests": [{
+      "id": 94151101,
+      "name": "最終物資補給戦 Ⅰ",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 30,
+      "afterClear": "repeatLast",
+      "recommendLv": "30",
+      "spotId": 840801,
+      "warId": 8408,
+      "gifts": [{
+        "id": 14000,
+        "objectId": 102,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 1000011
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "priority": 94151101,
+      "noticeAt": 1764752400,
+      "openedAt": 1764752400,
+      "closedAt": 1765339199
+    }, {
+      "id": 94151102,
+      "name": "最終物資補給戦 Ⅱ",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 35,
+      "afterClear": "repeatLast",
+      "recommendLv": "60",
+      "spotId": 840801,
+      "warId": 8408,
+      "gifts": [{
+        "id": 13000,
+        "objectId": 101,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 1000011
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "priority": 94151100,
+      "noticeAt": 1764752400,
+      "openedAt": 1764752400,
+      "closedAt": 1765339199
+    }, {
+      "id": 94151103,
+      "name": "最終物資補給戦 Ⅲ",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90",
+      "spotId": 840801,
+      "warId": 8408,
+      "gifts": [{
+        "id": 12000,
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 1000011
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "priority": 94151099,
+      "noticeAt": 1764752400,
+      "openedAt": 1764752400,
+      "closedAt": 1765339199
+    }, {
+      "id": 94151104,
+      "name": "最終物資補給戦 Ⅳ",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90+",
+      "spotId": 840801,
+      "warId": 8408,
+      "gifts": [{
+        "id": 327,
+        "objectId": 3,
+        "num": 100
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 1000011
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "priority": 94151098,
+      "noticeAt": 1764752400,
+      "openedAt": 1764752400,
+      "closedAt": 1765339199
+    }, {
+      "id": 94151105,
+      "name": "最終物資補給戦 Ⅴ",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90++",
+      "spotId": 840801,
+      "warId": 8408,
+      "gifts": [{
+        "id": 337,
+        "objectId": 3,
+        "num": 200
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 1000011
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "priority": 94151097,
+      "noticeAt": 1764752400,
+      "openedAt": 1764752400,
+      "closedAt": 1765339199
     }]
   }]
 }]

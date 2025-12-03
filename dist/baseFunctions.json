@@ -56347,6 +56347,58 @@
     }]
   }]
 }, {
+  "funcId": 22822,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "威力アップ・七騎士クラス",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+  "buffs": [{
+    "id": 5890,
+    "name": "威力アップ〔七騎士クラス〕",
+    "detail": "〔七騎士クラス〕に与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamage",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3028
+    }],
+    "tvals": [{
+      "id": 100
+    }, {
+      "id": 101
+    }, {
+      "id": 102
+    }, {
+      "id": 103
+    }, {
+      "id": 104
+    }, {
+      "id": 105
+    }, {
+      "id": 106
+    }],
+    "ckOpIndv": [{
+      "id": 100
+    }, {
+      "id": 101
+    }, {
+      "id": 102
+    }, {
+      "id": 103
+    }, {
+      "id": 104
+    }, {
+      "id": 105
+    }, {
+      "id": 106
+    }],
+    "maxRate": 10000
+  }]
+}, {
   "funcId": 22823,
   "funcType": "addStateShort",
   "funcTargetType": "self",
@@ -59985,6 +60037,36 @@
     "id": 102
   }]
 }, {
+  "funcId": 23048,
+  "funcType": "expUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "functvals": [{
+    "id": 104
+  }]
+}, {
+  "funcId": 23053,
+  "funcType": "eventDropUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcGroup": [{
+    "eventId": 80586,
+    "baseFuncId": 0,
+    "nameTotal": "{0}\n獲得数ボーナス合計",
+    "name": "{0}獲得数アップ",
+    "icon": "https://static.atlasacademy.io/JP/Items/94151101.png",
+    "priority": 3000,
+    "isDispValue": true
+  }, {
+    "eventId": 80587,
+    "baseFuncId": 0,
+    "nameTotal": "{0}\n獲得数ボーナス合計",
+    "name": "{0}獲得数アップ",
+    "icon": "https://static.atlasacademy.io/JP/Items/94151101.png",
+    "priority": 3000,
+    "isDispValue": true
+  }]
+}, {
   "funcId": 23054,
   "funcType": "addStateShort",
   "funcTargetType": "self",
@@ -60242,7 +60324,170 @@
     }]
   }]
 }, {
-  "funcId": 23112,
+  "funcId": 23087,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "宝具使用時NP還元",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_436.png",
+  "buffs": [{
+    "id": 5981,
+    "name": "宝具使用時NP還元",
+    "detail": "自身を除く〔キャスター〕クラスの味方が宝具を使用した時、NP消費量に応じて自身のNPを増やす<重複不可>",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_436.png",
+    "type": "treasureDevicePostAfterFunction",
+    "buffGroup": 2200,
+    "vals": [{
+      "id": 3004
+    }],
+    "ckOpIndv": [{
+      "id": 104
+    }]
+  }]
+}, {
+  "funcId": 23088,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "enemy",
+  "funcPopupText": "宝具使用時チャージ還元",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_436.png",
+  "buffs": [{
+    "id": 5982,
+    "name": "宝具使用時チャージ還元",
+    "detail": "自身を除く〔キャスター〕クラスの味方が宝具を使用した時、チャージ消費量に応じて自身のチャージを増やす<重複不可>",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_436.png",
+    "type": "treasureDevicePostAfterFunction",
+    "buffGroup": 2201,
+    "script": {
+      "checkIndvType": 2
+    },
+    "originalScript": {
+      "checkIndvType": 2
+    },
+    "vals": [{
+      "id": 3004
+    }],
+    "tvals": [{
+      "id": 104
+    }, {
+      "id": 7030,
+      "negative": true
+    }],
+    "ckOpIndv": [{
+      "id": 104
+    }, {
+      "id": 7030,
+      "negative": true
+    }]
+  }]
+}, {
+  "funcId": 23117,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "防御力アップ・対七騎士クラス",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_301.png",
+  "buffs": [{
+    "id": 5992,
+    "name": "防御力アップ〔七騎士クラス〕",
+    "detail": "〔七騎士クラス〕に対する防御力をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_301.png",
+    "type": "upDefence",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3007
+    }, {
+      "id": 3040
+    }, {
+      "id": 3058
+    }],
+    "tvals": [{
+      "id": 100
+    }, {
+      "id": 101
+    }, {
+      "id": 102
+    }, {
+      "id": 103
+    }, {
+      "id": 104
+    }, {
+      "id": 105
+    }, {
+      "id": 106
+    }],
+    "ckOpIndv": [{
+      "id": 100
+    }, {
+      "id": 101
+    }, {
+      "id": 102
+    }, {
+      "id": 103
+    }, {
+      "id": 104
+    }, {
+      "id": 105
+    }, {
+      "id": 106
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 23120,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptFull",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "威力アップ・七騎士クラス",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+  "buffs": [{
+    "id": 5890,
+    "name": "威力アップ〔七騎士クラス〕",
+    "detail": "〔七騎士クラス〕に与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamage",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3028
+    }],
+    "tvals": [{
+      "id": 100
+    }, {
+      "id": 101
+    }, {
+      "id": 102
+    }, {
+      "id": 103
+    }, {
+      "id": 104
+    }, {
+      "id": 105
+    }, {
+      "id": 106
+    }],
+    "ckOpIndv": [{
+      "id": 100
+    }, {
+      "id": 101
+    }, {
+      "id": 102
+    }, {
+      "id": 103
+    }, {
+      "id": 104
+    }, {
+      "id": 105
+    }, {
+      "id": 106
+    }],
+    "maxRate": 10000
+  }]
+}, {
+  "funcId": 23131,
   "funcType": "servantFriendshipUp",
   "funcTargetType": "ptFull",
   "funcTargetTeam": "playerAndEnemy",
@@ -60251,6 +60496,9 @@
       "id": 301
     }, {
       "id": 2858
+    }],
+    [{
+      "id": 2801200
     }]
   ],
   "script": {
@@ -60259,6 +60507,9 @@
         "id": 301
       }, {
         "id": 2858
+      }],
+      [{
+        "id": 2801200
       }]
     ]
   }
@@ -68056,6 +68307,498 @@
       "id": 3030
     }, {
       "id": 3131
+    }],
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4002
+    }],
+    "ckSelfIndv": [{
+      "id": 4002
+    }],
+    "maxRate": 50000
+  }]
+}, {
+  "funcId": 30418,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "クイックチェイン成立時発動効果",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_420.png",
+  "buffs": [{
+    "id": 30258,
+    "name": "クイックチェイン成立時発動効果",
+    "detail": "自身のコマンドカードを含むクイックチェイン成立時、自身のQuickカードの宝具威力をアップ＋フィールドに「自身がフィールドにいる間、敵全体のQuick攻撃耐性をダウンする状態」を付与(先にグランドサインによるフィールド効果が付与されていた場合は効果を上書き)",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_420.png",
+    "type": "confirmCommandFunction",
+    "vals": [{
+      "id": 3004
+    }],
+    "ckSelfIndv": [{
+      "id": 4104
+    }]
+  }]
+}, {
+  "funcId": 30419,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "アーツチェイン成立時発動効果",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_421.png",
+  "buffs": [{
+    "id": 30259,
+    "name": "アーツチェイン成立時発動効果",
+    "detail": "自身のコマンドカードを含むアーツチェイン成立時、自身のArtsカードの宝具威力をアップ＋フィールドに「自身がフィールドにいる間、敵全体のArts攻撃耐性をダウンする状態」を付与(先にグランドサインによるフィールド効果が付与されていた場合は効果を上書き)",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_421.png",
+    "type": "confirmCommandFunction",
+    "vals": [{
+      "id": 3004
+    }],
+    "ckSelfIndv": [{
+      "id": 4105
+    }]
+  }]
+}, {
+  "funcId": 30420,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "バスターチェイン成立時発動効果",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_422.png",
+  "buffs": [{
+    "id": 30260,
+    "name": "バスターチェイン成立時発動効果",
+    "detail": "自身のコマンドカードを含むバスターチェイン成立時、自身のBusterカードの宝具威力をアップ＋フィールドに「自身がフィールドにいる間、敵全体のBuster攻撃耐性をダウンする状態」を付与(先にグランドサインによるフィールド効果が付与されていた場合は効果を上書き)",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_422.png",
+    "type": "confirmCommandFunction",
+    "vals": [{
+      "id": 3004
+    }],
+    "ckSelfIndv": [{
+      "id": 4106
+    }]
+  }]
+}, {
+  "funcId": 30421,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "マイティチェイン成立時発動効果",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_424.png",
+  "buffs": [{
+    "id": 30261,
+    "name": "マイティチェイン成立時発動効果",
+    "detail": "自身のコマンドカードを含むマイティチェイン成立時、味方全体の攻撃力をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_424.png",
+    "type": "confirmCommandFunction",
+    "vals": [{
+      "id": 3004
+    }],
+    "ckSelfIndv": [{
+      "id": 4107
+    }]
+  }]
+}, {
+  "funcId": 30422,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "指先の言葉（術）",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_331.png",
+  "buffs": [{
+    "id": 30262,
+    "name": "指先の言葉（術）",
+    "detail": "宝具チェインを除くチェイン不成立時、ターゲットしている敵単体にターン毎のチャージ量が1減る状態を付与(他の同一効果と重複可能)＋HPの残比率の最も少ない味方単体のHPを回復<1度使用すると再使用に2ターン必要>",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_331.png",
+    "type": "confirmCommandFunction",
+    "script": {
+      "checkIndvType": 2
+    },
+    "originalScript": {
+      "checkIndvType": 2
+    },
+    "vals": [{
+      "id": 3004
+    }],
+    "ckSelfIndv": [{
+      "id": 4104,
+      "negative": true
+    }, {
+      "id": 4105,
+      "negative": true
+    }, {
+      "id": 4106,
+      "negative": true
+    }, {
+      "id": 4107,
+      "negative": true
+    }, {
+      "id": 4108,
+      "negative": true
+    }]
+  }]
+}, {
+  "funcId": 30423,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "道具作成（術）",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_394.png",
+  "buffs": [{
+    "id": 30263,
+    "name": "道具作成（術）",
+    "detail": "自身のスキル使用時、「味方全体の攻撃の威力をアップ」「スターを獲得」「味方全体のNPを少し増やす」のいずれかの効果を追加で得る(グランドサインによるフィールド効果が付与されている場合、その効果が「Quick攻撃耐性ダウンの時は威力アップ」「Arts攻撃耐性ダウンの時はスター獲得」「Buster攻撃耐性ダウンの時はNP増加」に固定される)<1度使用すると再使用に1ターン必要>",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_394.png",
+    "type": "skillAfterFunctionMainOnly",
+    "vals": [{
+      "id": 3004
+    }]
+  }]
+}, {
+  "funcId": 30424,
+  "funcType": "subFieldBuff",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "traitVals": [{
+    "id": 3134
+  }]
+}, {
+  "funcId": 30425,
+  "funcType": "addStateShortToField",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "フィールド効果〔Quick攻撃耐性ダウン〕",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_598.png",
+  "buffs": [{
+    "id": 30264,
+    "name": "フィールド効果〔Quick攻撃耐性ダウン〕",
+    "detail": "エネミー側のフィールドにいるすべての対象が「Quickカードの攻撃による被ダメージ、被NP発生量、被スター発生率が増加する効果」を受ける",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_598.png",
+    "type": "downDefencecommandall",
+    "script": {
+      "extendLowerLimit": 1000
+    },
+    "originalScript": {
+      "extendLowerLimit": 1000
+    },
+    "vals": [{
+      "id": 3005
+    }, {
+      "id": 3009
+    }, {
+      "id": 3133
+    }, {
+      "id": 3134
+    }, {
+      "id": 3135
+    }],
+    "ckOpIndv": [{
+      "id": 4003
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 30426,
+  "funcType": "addStateShortToField",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "フィールド効果〔Arts攻撃耐性ダウン〕",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_599.png",
+  "buffs": [{
+    "id": 30265,
+    "name": "フィールド効果〔Arts攻撃耐性ダウン〕",
+    "detail": "エネミー側のフィールドにいるすべての対象が「Artsカードの攻撃による被ダメージ、被NP発生量、被スター発生率が増加する効果」を受ける",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_599.png",
+    "type": "downDefencecommandall",
+    "script": {
+      "extendLowerLimit": 1000
+    },
+    "originalScript": {
+      "extendLowerLimit": 1000
+    },
+    "vals": [{
+      "id": 3005
+    }, {
+      "id": 3009
+    }, {
+      "id": 3133
+    }, {
+      "id": 3134
+    }, {
+      "id": 3136
+    }],
+    "ckOpIndv": [{
+      "id": 4001
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 30427,
+  "funcType": "addStateShortToField",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "フィールド効果〔Buster攻撃耐性ダウン〕",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_600.png",
+  "buffs": [{
+    "id": 30266,
+    "name": "フィールド効果〔Buster攻撃耐性ダウン〕",
+    "detail": "エネミー側のフィールドにいるすべての対象が「Busterカードの攻撃による被ダメージ、被NP発生量、被スター発生率が増加する効果」を受ける",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_600.png",
+    "type": "downDefencecommandall",
+    "script": {
+      "extendLowerLimit": 1000
+    },
+    "originalScript": {
+      "extendLowerLimit": 1000
+    },
+    "vals": [{
+      "id": 3005
+    }, {
+      "id": 3009
+    }, {
+      "id": 3133
+    }, {
+      "id": 3134
+    }, {
+      "id": 3137
+    }],
+    "ckOpIndv": [{
+      "id": 4002
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 30428,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "攻撃力アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_300.png",
+  "buffs": [{
+    "id": 30090,
+    "name": "攻撃力アップ",
+    "detail": "攻撃力をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_300.png",
+    "type": "upAtk",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3027
+    }],
+    "maxRate": 50000
+  }]
+}, {
+  "funcId": 30429,
+  "funcType": "addState",
+  "funcTargetType": "enemy",
+  "funcTargetTeam": "enemy",
+  "funcPopupText": "ターンチャージマイナス",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_519.png",
+  "buffs": [{
+    "id": 30267,
+    "name": "ターンチャージマイナス",
+    "detail": "ターン毎のチャージ量を1減らす<他の同一効果と重複可能>",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_519.png",
+    "type": "downNpturnval",
+    "vals": [{
+      "id": 3005
+    }]
+  }]
+}, {
+  "funcId": 30430,
+  "funcType": "gainHp",
+  "funcTargetType": "ptOneHpLowestRate",
+  "funcTargetTeam": "playerAndEnemy",
+  "script": {
+    "funcIndividuality": [{
+      "id": 2984
+    }]
+  }
+}, {
+  "funcId": 30431,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "威力アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+  "functvals": [{
+    "id": 3134,
+    "negative": true
+  }],
+  "buffs": [{
+    "id": 30122,
+    "name": "威力アップ",
+    "detail": "与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamage",
+    "originalScript": {
+      "ProgressSelfTurn": 1
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3028
+    }],
+    "maxRate": 50000
+  }]
+}, {
+  "funcId": 30432,
+  "funcType": "gainStar",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "スター獲得",
+  "functvals": [{
+    "id": 3134,
+    "negative": true
+  }]
+}, {
+  "funcId": 30433,
+  "funcType": "gainNp",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "player",
+  "funcPopupText": "NP増加",
+  "functvals": [{
+    "id": 3134,
+    "negative": true
+  }]
+}, {
+  "funcId": 30434,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "威力アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+  "functvals": [{
+    "id": 3135
+  }],
+  "buffs": [{
+    "id": 30122,
+    "name": "威力アップ",
+    "detail": "与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamage",
+    "originalScript": {
+      "ProgressSelfTurn": 1
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3028
+    }],
+    "maxRate": 50000
+  }]
+}, {
+  "funcId": 30435,
+  "funcType": "gainStar",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "スター獲得",
+  "functvals": [{
+    "id": 3136
+  }]
+}, {
+  "funcId": 30436,
+  "funcType": "gainNp",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "player",
+  "funcPopupText": "NP増加",
+  "functvals": [{
+    "id": 3137
+  }]
+}, {
+  "funcId": 30437,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "宝具威力アップ：Quick",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_310.png",
+  "buffs": [{
+    "id": 30193,
+    "name": "宝具威力アップ：Quick",
+    "detail": "Quickカードの宝具で与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_310.png",
+    "type": "upNpdamage",
+    "originalScript": {
+      "ProgressSelfTurn": 1
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3030
+    }],
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4003
+    }],
+    "ckSelfIndv": [{
+      "id": 4003
+    }],
+    "maxRate": 50000
+  }]
+}, {
+  "funcId": 30438,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "宝具威力アップ：Arts",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_310.png",
+  "buffs": [{
+    "id": 30194,
+    "name": "宝具威力アップ：Arts",
+    "detail": "Artsカードの宝具で与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_310.png",
+    "type": "upNpdamage",
+    "originalScript": {
+      "ProgressSelfTurn": 1
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3030
+    }],
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4001
+    }],
+    "ckSelfIndv": [{
+      "id": 4001
+    }],
+    "maxRate": 50000
+  }]
+}, {
+  "funcId": 30439,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "宝具威力アップ：Buster",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_310.png",
+  "buffs": [{
+    "id": 30195,
+    "name": "宝具威力アップ：Buster",
+    "detail": "Busterカードの宝具で与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_310.png",
+    "type": "upNpdamage",
+    "originalScript": {
+      "ProgressSelfTurn": 1
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3030
     }],
     "tvals": [{
       "id": 5000
