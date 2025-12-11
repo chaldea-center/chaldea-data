@@ -9248,6 +9248,11 @@
   "funcTargetType": "self",
   "funcTargetTeam": "playerAndEnemy",
   "funcPopupText": "強化解除",
+  "script": {
+    "funcIndividuality": [{
+      "id": 3138
+    }]
+  },
   "traitVals": [{
     "id": 3004
   }]
@@ -37927,6 +37932,11 @@
   "funcTargetType": "self",
   "funcTargetTeam": "playerAndEnemy",
   "funcPopupText": "強化解除",
+  "script": {
+    "funcIndividuality": [{
+      "id": 3138
+    }]
+  },
   "traitVals": [{
     "id": 3004
   }]
@@ -45567,12 +45577,14 @@
     "type": "guts",
     "buffGroup": 5559,
     "script": {
+      "checkIndvType": 2,
       "INDIVIDUALITIE": {
         "id": 3086,
         "negative": true
       }
     },
     "originalScript": {
+      "checkIndvType": 2,
       "INDIVIDUALITIE": -3086,
       "DisplayPriority": 600
     },
@@ -45587,6 +45599,9 @@
       "id": 3096
     }, {
       "id": 3097
+    }, {
+      "id": 3139,
+      "negative": true
     }]
   }]
 }, {
