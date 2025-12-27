@@ -20600,6 +20600,10 @@
             "42": {
               "damageRate": 2000,
               "type": "overwriteForce"
+            },
+            "beastVII": {
+              "damageRate": 2000,
+              "type": "overwriteForce"
             }
           }
         },
@@ -20766,6 +20770,12 @@
             }
           },
           "42": {
+            "caster": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            }
+          },
+          "beastVII": {
             "caster": {
               "damageRate": 1000,
               "type": "overwriteMoreThanTarget"
@@ -21842,6 +21852,76 @@
             }
           },
           "42": {
+            "saber": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "archer": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "lancer": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "rider": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "caster": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "assassin": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "berserker": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "shielder": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "ruler": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "alterEgo": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "avenger": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "moonCancer": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "foreigner": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "pretender": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "beast": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "beastEresh": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "unBeastOlgaMarie": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            }
+          },
+          "beastVII": {
             "saber": {
               "damageRate": 1000,
               "type": "overwriteMoreThanTarget"
@@ -60661,6 +60741,106 @@
   "funcTargetTeam": "enemy",
   "funcPopupText": "チャージ増加"
 }, {
+  "funcId": 23104,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "結界作成",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_301.png",
+  "buffs": [{
+    "id": 5985,
+    "name": "結界作成",
+    "detail": "被ダメージを減らす",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_301.png",
+    "type": "subSelfdamage",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3007
+    }, {
+      "id": 3085
+    }, {
+      "id": 3040
+    }]
+  }]
+}, {
+  "funcId": 23105,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "buffs": [{
+    "id": 5986,
+    "name": "",
+    "detail": "",
+    "type": "subSelfdamage",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3007
+    }, {
+      "id": 3085
+    }, {
+      "id": 3040
+    }],
+    "tvals": [{
+      "id": 4100
+    }],
+    "ckOpIndv": [{
+      "id": 4100
+    }]
+  }]
+}, {
+  "funcId": 23106,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "buffs": [{
+    "id": 5987,
+    "name": "",
+    "detail": "",
+    "type": "subSelfdamage",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3007
+    }, {
+      "id": 3085
+    }, {
+      "id": 3040
+    }],
+    "tvals": [{
+      "id": 4007
+    }],
+    "ckOpIndv": [{
+      "id": 4007
+    }]
+  }]
+}, {
+  "funcId": 23107,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "結界作成",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_322.png",
+  "buffs": [{
+    "id": 5988,
+    "name": "結界作成",
+    "detail": "行動不能効果を受けなくなる",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_322.png",
+    "type": "avoidState",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3061
+    }],
+    "tvals": [{
+      "id": 3045
+    }],
+    "ckOpIndv": [{
+      "id": 3045
+    }]
+  }]
+}, {
   "funcId": 23117,
   "funcType": "addState",
   "funcTargetType": "self",
@@ -60984,6 +61164,53 @@
       "id": 3006
     }],
     "maxRate": 10000
+  }]
+}, {
+  "funcId": 23168,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "buffs": [{
+    "id": 6008,
+    "name": "",
+    "detail": "",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_531.png",
+    "type": "avoidState",
+    "buffGroup": 1000,
+    "ckOpIndv": [{
+      "id": 2852
+    }]
+  }]
+}, {
+  "funcId": 23174,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptFull",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "攻撃力アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_300.png",
+  "buffs": [{
+    "id": 6013,
+    "name": "攻撃力アップ",
+    "detail": "攻撃力をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_300.png",
+    "type": "upAtk",
+    "script": {
+      "INDIVIDUALITIE": {
+        "id": 2654
+      }
+    },
+    "originalScript": {
+      "INDIVIDUALITIE": 2654,
+      "ProgressSelfTurn": 1
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3027
+    }],
+    "maxRate": 5000
   }]
 }, {
   "funcId": 30003,
