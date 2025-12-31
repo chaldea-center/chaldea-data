@@ -24905,6 +24905,28 @@
     }]
   }]
 }, {
+  "funcId": 5610,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "対粛正防御",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_368.png",
+  "buffs": [{
+    "id": 2926,
+    "name": "対粛正防御",
+    "detail": "無敵貫通を無視して、攻撃によるダメージを0にする",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_368.png",
+    "type": "specialInvincible",
+    "buffGroup": 250,
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3064
+    }, {
+      "id": 3007
+    }]
+  }]
+}, {
   "funcId": 5611,
   "funcType": "addState",
   "funcTargetType": "ptOne",
@@ -60974,6 +60996,62 @@
     ]
   }
 }, {
+  "funcId": 23132,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "騎士叙勲",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_438.png",
+  "buffs": [{
+    "id": 6002,
+    "name": "騎士叙勲",
+    "detail": "自身を除く味方全体のガッツ発動前、対象のガッツ回復量をアップ＆攻撃力をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_438.png",
+    "type": "buff245",
+    "vals": [{
+      "id": 3004
+    }]
+  }]
+}, {
+  "funcId": 23145,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "毎ターンHP減少",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_525.png",
+  "script": {
+    "funcIndividuality": [{
+      "id": 3098
+    }]
+  },
+  "buffs": [{
+    "id": 6004,
+    "name": "毎ターンHP減少",
+    "detail": "ターン終了時、自身のHPが減少する(強化扱い)【デメリット】",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_525.png",
+    "type": "reduceHp",
+    "vals": [{
+      "id": 3004
+    }]
+  }]
+}, {
+  "funcId": 23146,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "エニス・グイトリン",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_525.png",
+  "buffs": [{
+    "id": 6005,
+    "name": "エニス・グイトリン",
+    "detail": "ターン経過後、自身に〔湖水の夢〕状態<特殊な睡眠状態、耐性無効・解除不能・生贄選択不能・オーダーチェンジ不能>を付与",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_525.png",
+    "type": "delayFunction",
+    "vals": [{
+      "id": 3005
+    }]
+  }]
+}, {
   "funcId": 23147,
   "funcType": "addStateShort",
   "funcTargetType": "self",
@@ -61211,6 +61289,98 @@
       "id": 3027
     }],
     "maxRate": 5000
+  }]
+}, {
+  "funcId": 23177,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "湖水の夢",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_558.png",
+  "buffs": [{
+    "id": 6011,
+    "name": "湖水の夢",
+    "detail": "行動不能になる(特殊な睡眠状態、耐性無効・解除不能・生贄選択不能・オーダーチェンジ不能)",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_558.png",
+    "type": "donotAct",
+    "script": {
+      "DamageRelease": -1
+    },
+    "originalScript": {
+      "DamageRelease": -1
+    },
+    "vals": [{
+      "id": 3005
+    }, {
+      "id": 3045
+    }, {
+      "id": 3010
+    }, {
+      "id": 3066
+    }, {
+      "id": 3076
+    }]
+  }]
+}, {
+  "funcId": 23178,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "enemy",
+  "funcPopupText": "湖水の夢",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_558.png",
+  "buffs": [{
+    "id": 6012,
+    "name": "湖水の夢",
+    "detail": "行動不能になる(特殊な睡眠状態、耐性無効・解除不能・生贄選択不能・オーダーチェンジ不能)",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_558.png",
+    "type": "donotAct",
+    "script": {
+      "DamageRelease": -1
+    },
+    "originalScript": {
+      "DamageRelease": -1
+    },
+    "vals": [{
+      "id": 3005
+    }, {
+      "id": 3045
+    }, {
+      "id": 3010
+    }, {
+      "id": 3066
+    }, {
+      "id": 3076
+    }]
+  }]
+}, {
+  "funcId": 23180,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptFull",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "威力アップ・対人類の脅威",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+  "buffs": [{
+    "id": 1121,
+    "name": "威力アップ〔人類の脅威〕",
+    "detail": "〔人類の脅威〕に与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamage",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3028
+    }, {
+      "id": 2966
+    }],
+    "tvals": [{
+      "id": 1172
+    }],
+    "ckOpIndv": [{
+      "id": 1172
+    }],
+    "maxRate": 10000
   }]
 }, {
   "funcId": 30003,
