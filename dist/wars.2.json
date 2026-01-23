@@ -101432,4 +101432,412 @@
       "closedAt": 1765339199
     }]
   }]
+}, {
+  "id": 8409,
+  "coordinates": [
+    [],
+    []
+  ],
+  "age": "-",
+  "name": "カルデアン・フロラリア",
+  "longName": "カルデアン・フロラリア あなたの花が咲く頃に",
+  "flags": ["isEvent", "noClearMarkWithComplete", "dispFirstQuest", "changeDispClosedMessage"],
+  "banner": "https://static.atlasacademy.io/JP/Banner/event_war_80568.png",
+  "priority": 10001,
+  "bgm": {
+    "id": 0
+  },
+  "script": "https://static.atlasacademy.io/JP/Script/Common/NONE.txt",
+  "eventId": 80599,
+  "eventName": "カルデアン・フロラリア\nあなたの花が咲く頃に",
+  "warAdds": [{
+    "warId": 8409,
+    "type": "bgImage",
+    "priority": 1,
+    "overwriteId": 270600,
+    "condType": "questClear",
+    "targetId": 94152800,
+    "startedAt": 1769158800,
+    "endedAt": 1770955199
+  }],
+  "maps": [{
+    "id": 8409,
+    "mapImage": "https://static.atlasacademy.io/JP/Terminal/MapImgs/img_questmap_008409/img_questmap_008409.png",
+    "bgm": {
+      "id": 1006
+    }
+  }],
+  "spots": [{
+    "id": 840900,
+    "mapId": 8409,
+    "name": "カルデアゲート",
+    "quests": [{
+      "id": 94152800,
+      "name": "プロローグ",
+      "type": "main",
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 840900,
+      "warId": 8409,
+      "gifts": [{
+        "id": 94152830,
+        "type": "servant",
+        "objectId": 9409050,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 5000000,
+        "closedMessage": "アフタータイムのはじまりクリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "presents": [{
+        "phase": 1,
+        "gifts": [{
+          "id": 94152833,
+          "type": "equip",
+          "objectId": 440,
+          "num": 1
+        }],
+        "giftIcon": "https://static.atlasacademy.io/JP/Items/3.png"
+      }],
+      "phases": [1, 2],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9415280010",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415280010.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9415280020",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415280020.txt"
+        }, {
+          "scriptId": "9415280021",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415280021.txt"
+        }]
+      }],
+      "priority": 94152801,
+      "noticeAt": 1769158800,
+      "openedAt": 1769158800,
+      "closedAt": 1770955199
+    }, {
+      "id": 94152801,
+      "name": "第１節「花の女神と花の翁」",
+      "type": "main",
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 840900,
+      "warId": 8409,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/3.png",
+      "gifts": [{
+        "id": 94152831,
+        "type": "servant",
+        "objectId": 9770500,
+        "num": 10
+      }, {
+        "id": 94152831,
+        "type": "eventSvtJoin",
+        "objectId": 1002000,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94152800
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1, 2],
+      "phasesNoBattle": [1, 2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9415280110",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415280110.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9415280120",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415280120.txt"
+        }]
+      }],
+      "priority": 94152800,
+      "noticeAt": 1769158800,
+      "openedAt": 1769158800,
+      "closedAt": 1770955199
+    }, {
+      "id": 94152802,
+      "name": "第２節「怪奇なる植物、そして」",
+      "type": "main",
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 840900,
+      "warId": 8409,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94152801
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "eventPoint",
+        "targetId": 80599,
+        "value": 7000,
+        "closedMessage": "はなさかポイント7,000以上で開放"
+      }],
+      "phases": [1, 2, 3],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9415280210",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415280210.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9415280220",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415280220.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9415280230",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415280230.txt"
+        }, {
+          "scriptId": "9415280231",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415280231.txt"
+        }]
+      }],
+      "priority": 94152799,
+      "noticeAt": 1769158800,
+      "openedAt": 1769158800,
+      "closedAt": 1770955199
+    }, {
+      "id": 94152803,
+      "name": "",
+      "type": "main",
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 840900,
+      "warId": 8409,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94152802
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "eventPoint",
+        "targetId": 80599,
+        "value": 25000,
+        "closedMessage": "はなさかポイント25,000以上\n＆1月24日18時00分以降に開放"
+      }, {
+        "type": "forceFalse",
+        "targetId": 0,
+        "closedMessage": "データ更新後に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94152798,
+      "noticeAt": 1769158800,
+      "openedAt": 1769245200,
+      "closedAt": 1770955199
+    }, {
+      "id": 94152901,
+      "name": "花畑作り 腐葉土を手に入れよう",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 30,
+      "afterClear": "repeatLast",
+      "recommendLv": "20",
+      "spotId": 840900,
+      "warId": 8409,
+      "gifts": [{
+        "id": 14000,
+        "objectId": 102,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 1000011
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "priority": 94152650,
+      "noticeAt": 1769158800,
+      "openedAt": 1769158800,
+      "closedAt": 1770955199
+    }, {
+      "id": 94152902,
+      "name": "花畑作り 音響栽培を学ぼう",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 35,
+      "afterClear": "repeatLast",
+      "recommendLv": "40",
+      "spotId": 840900,
+      "warId": 8409,
+      "gifts": [{
+        "id": 14000,
+        "objectId": 102,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 1000011
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "priority": 94152649,
+      "noticeAt": 1769158800,
+      "openedAt": 1769158800,
+      "closedAt": 1770955199
+    }, {
+      "id": 94152903,
+      "name": "花畑作り 敷き藁を分けてもらおう",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "60",
+      "spotId": 840900,
+      "warId": 8409,
+      "gifts": [{
+        "id": 13000,
+        "objectId": 101,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 1000011
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "priority": 94152648,
+      "noticeAt": 1769158800,
+      "openedAt": 1769158800,
+      "closedAt": 1770955199
+    }, {
+      "id": 94152904,
+      "name": "花畑作り 獣除けの柵を作ろう",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "70",
+      "spotId": 840900,
+      "warId": 8409,
+      "gifts": [{
+        "id": 13000,
+        "objectId": 101,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 1000011
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "priority": 94152647,
+      "noticeAt": 1769158800,
+      "openedAt": 1769158800,
+      "closedAt": 1770955199
+    }, {
+      "id": 94152905,
+      "name": "",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "75",
+      "spotId": 840900,
+      "warId": 8409,
+      "gifts": [{
+        "id": 13000,
+        "objectId": 101,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 1000011
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "forceFalse",
+        "targetId": 0,
+        "closedMessage": "データ更新後に開放"
+      }],
+      "phases": [1],
+      "priority": 94152646,
+      "noticeAt": 1769158800,
+      "openedAt": 1769245200,
+      "closedAt": 1770955199
+    }, {
+      "id": 94153001,
+      "name": "【花畑お手入れクエスト】ボウボウ雑草刈り",
+      "type": "event",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "70",
+      "spotId": 840900,
+      "warId": 8409,
+      "gifts": [{
+        "id": 12000,
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94152801
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "priority": 94152750,
+      "noticeAt": 1769158800,
+      "openedAt": 1769194800,
+      "closedAt": 1770955199
+    }]
+  }]
 }]
