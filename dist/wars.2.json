@@ -101506,6 +101506,7 @@
         "giftIcon": "https://static.atlasacademy.io/JP/Items/3.png"
       }],
       "phases": [1, 2],
+      "phasesWithEnemies": [2],
       "phasesNoBattle": [1],
       "phaseScripts": [{
         "phase": 1,
@@ -101603,6 +101604,7 @@
         "closedMessage": "はなさかポイント7,000以上で開放"
       }],
       "phases": [1, 2, 3],
+      "phasesWithEnemies": [2, 3],
       "phasesNoBattle": [1],
       "phaseScripts": [{
         "phase": 1,
@@ -101691,6 +101693,7 @@
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94152650,
       "noticeAt": 1769158800,
       "openedAt": 1769158800,
@@ -101719,6 +101722,7 @@
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94152649,
       "noticeAt": 1769158800,
       "openedAt": 1769158800,
@@ -101747,6 +101751,7 @@
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94152648,
       "noticeAt": 1769158800,
       "openedAt": 1769158800,
@@ -101775,6 +101780,7 @@
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94152647,
       "noticeAt": 1769158800,
       "openedAt": 1769158800,
@@ -101837,6 +101843,37 @@
       "priority": 94152750,
       "noticeAt": 1769158800,
       "openedAt": 1769194800,
+      "closedAt": 1770955199
+    }, {
+      "id": 94153002,
+      "name": "",
+      "type": "event",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "70",
+      "spotId": 840900,
+      "warId": 8409,
+      "gifts": [{
+        "id": 12000,
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94152801
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "forceFalse",
+        "targetId": 0,
+        "closedMessage": "データ更新後に開放"
+      }],
+      "phases": [1],
+      "priority": 94152749,
+      "noticeAt": 1769194800,
+      "openedAt": 1769281200,
       "closedAt": 1770955199
     }]
   }]
