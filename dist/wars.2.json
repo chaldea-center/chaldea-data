@@ -101746,6 +101746,150 @@
       "closedAt": 1770955199
     }, {
       "id": 94152805,
+      "name": "第５節「小さな子らと蛇の母」",
+      "type": "main",
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 840900,
+      "warId": 8409,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
+        "type": "questClear",
+        "targetId": 94152804
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "eventPoint",
+        "targetId": 80599,
+        "value": 60000,
+        "closedMessage": "はなさかポイント60,000以上\n＆1月25日18時00分以降に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9415280510",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415280510.txt"
+        }]
+      }],
+      "priority": 94152793,
+      "noticeAt": 1769245200,
+      "openedAt": 1769331600,
+      "closedAt": 1770955199
+    }, {
+      "id": 94152806,
+      "name": "第６節「花畑作成　その２」",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "70",
+      "spotId": 840900,
+      "warId": 8409,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94152805
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "eventPoint",
+        "targetId": 80599,
+        "value": 71000,
+        "closedMessage": "はなさかポイント71,000以上で開放"
+      }],
+      "phases": [1, 2],
+      "phasesWithEnemies": [1],
+      "phasesNoBattle": [2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9415280610",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415280610.txt"
+        }, {
+          "scriptId": "9415280611",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415280611.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9415280620",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415280620.txt"
+        }]
+      }],
+      "priority": 94152792,
+      "noticeAt": 1769331600,
+      "openedAt": 1769331600,
+      "closedAt": 1770955199
+    }, {
+      "id": 94152807,
+      "name": "第７節「願う者たち」",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "70",
+      "spotId": 840900,
+      "warId": 8409,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94152806
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "questGroupClear",
+        "targetId": 94152801,
+        "value": 1
+      }],
+      "phases": [1, 2, 3],
+      "phasesNoBattle": [3],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9415280710",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415280710.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9415280720",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415280720.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9415280730",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415280730.txt"
+        }]
+      }],
+      "priority": 94152788,
+      "noticeAt": 1769331600,
+      "openedAt": 1769331600,
+      "closedAt": 1770955199
+    }, {
+      "id": 94152808,
       "name": "",
       "type": "main",
       "consume": 0,
@@ -101760,7 +101904,7 @@
       }],
       "releaseConditions": [{
         "type": "questClear",
-        "targetId": 94152804
+        "targetId": 94152807
       }, {
         "type": "date",
         "targetId": 0,
@@ -101768,8 +101912,8 @@
       }, {
         "type": "eventPoint",
         "targetId": 80599,
-        "value": 60000,
-        "closedMessage": "はなさかポイント60,000以上\n＆1月25日18時00分以降に開放"
+        "value": 100000,
+        "closedMessage": "はなさかポイント100,000以上\n＆1月26日18時00分以降に開放"
       }, {
         "type": "forceFalse",
         "targetId": 0,
@@ -101777,9 +101921,9 @@
       }],
       "phases": [1],
       "phasesNoBattle": [1],
-      "priority": 94152793,
-      "noticeAt": 1769245200,
-      "openedAt": 1769331600,
+      "priority": 94152787,
+      "noticeAt": 1769331600,
+      "openedAt": 1769418000,
       "closedAt": 1770955199
     }, {
       "id": 94152851,
@@ -101882,6 +102026,105 @@
       "priority": 94152795,
       "noticeAt": 1769245200,
       "openedAt": 1769245200,
+      "closedAt": 1770955199
+    }, {
+      "id": 94152854,
+      "name": "【第二花畑】アマリリスの花畑を作る",
+      "type": "main",
+      "flags": ["noBattle", "hideProgress"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 840900,
+      "warId": 8409,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94152806
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "commonRelease",
+        "targetId": 10152807
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9415285410",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415285410.txt"
+        }]
+      }],
+      "priority": 94152791,
+      "noticeAt": 1769331600,
+      "openedAt": 1769331600,
+      "closedAt": 1770955199
+    }, {
+      "id": 94152855,
+      "name": "【第二花畑】スノードロップの花畑を作る",
+      "type": "main",
+      "flags": ["noBattle", "hideProgress"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 840900,
+      "warId": 8409,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94152806
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "commonRelease",
+        "targetId": 10152807
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9415285510",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415285510.txt"
+        }]
+      }],
+      "priority": 94152790,
+      "noticeAt": 1769331600,
+      "openedAt": 1769331600,
+      "closedAt": 1770955199
+    }, {
+      "id": 94152856,
+      "name": "【第二花畑】スミレの花畑を作る",
+      "type": "main",
+      "flags": ["noBattle", "hideProgress"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 840900,
+      "warId": 8409,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94152806
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "commonRelease",
+        "targetId": 10152807
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9415285610",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415285610.txt"
+        }]
+      }],
+      "priority": 94152789,
+      "noticeAt": 1769331600,
+      "openedAt": 1769331600,
       "closedAt": 1770955199
     }, {
       "id": 94152901,
@@ -102033,12 +102276,43 @@
       "closedAt": 1770955199
     }, {
       "id": 94152906,
-      "name": "",
+      "name": "花畑作り 土壌改良のプロに訊こう",
       "type": "event",
       "flags": ["displayLoopmark"],
       "consume": 40,
       "afterClear": "repeatLast",
       "recommendLv": "80",
+      "spotId": 840900,
+      "warId": 8409,
+      "gifts": [{
+        "id": 12000,
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
+        "type": "questClear",
+        "targetId": 1000011
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "priority": 94152645,
+      "noticeAt": 1769245200,
+      "openedAt": 1769331600,
+      "closedAt": 1770955199
+    }, {
+      "id": 94152907,
+      "name": "",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "85",
       "spotId": 840900,
       "warId": 8409,
       "gifts": [{
@@ -102059,9 +102333,9 @@
         "closedMessage": "データ更新後に開放"
       }],
       "phases": [1],
-      "priority": 94152645,
-      "noticeAt": 1769245200,
-      "openedAt": 1769331600,
+      "priority": 94152644,
+      "noticeAt": 1769331600,
+      "openedAt": 1769418000,
       "closedAt": 1770955199
     }, {
       "id": 94153001,
@@ -102117,13 +102391,14 @@
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94152749,
       "noticeAt": 1769194800,
       "openedAt": 1769281200,
       "closedAt": 1770955199
     }, {
       "id": 94153003,
-      "name": "",
+      "name": "【花畑お手入れクエスト】ドロドロ水質改善",
       "type": "event",
       "consume": 5,
       "afterClear": "close",
@@ -102136,16 +102411,15 @@
         "num": 1
       }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 94152801
       }, {
         "type": "date",
         "targetId": 0,
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
-      }, {
-        "type": "forceFalse",
-        "targetId": 0,
-        "closedMessage": "データ更新後に開放"
       }],
       "phases": [1],
       "priority": 94152748,
