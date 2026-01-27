@@ -101468,6 +101468,15 @@
     "targetId": 10152801,
     "startedAt": 1769158800,
     "endedAt": 1770955199
+  }, {
+    "warId": 8409,
+    "type": "bgImage",
+    "priority": 2,
+    "overwriteId": 270703,
+    "condType": "questClear",
+    "targetId": 94152811,
+    "startedAt": 1769158800,
+    "endedAt": 1770955199
   }],
   "maps": [{
     "id": 8409,
@@ -101992,7 +102001,7 @@
       "closedAt": 1770955199
     }, {
       "id": 94152810,
-      "name": "",
+      "name": "第１０節「花畑作成　その４」",
       "type": "main",
       "consume": 0,
       "afterClear": "close",
@@ -102005,6 +102014,9 @@
         "num": 1
       }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 94152809
       }, {
@@ -102017,15 +102029,113 @@
         "value": 160000,
         "closedMessage": "はなさかポイント160,000以上\n＆1月27日18時00分以降に開放"
       }, {
+        "type": "commonRelease",
+        "targetId": 10152805
+      }],
+      "phases": [1, 2],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9415281010",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415281010.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9415281021",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415281021.txt"
+        }]
+      }],
+      "priority": 94152782,
+      "noticeAt": 1769418000,
+      "openedAt": 1769504400,
+      "closedAt": 1770955199
+    }, {
+      "id": 94152811,
+      "name": "第１１節「終わりの発芽」",
+      "type": "main",
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "75",
+      "spotId": 840900,
+      "warId": 8409,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94152810
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1, 2, 3],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9415281110",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415281110.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9415281120",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415281120.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9415281130",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415281130.txt"
+        }, {
+          "scriptId": "9415281131",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415281131.txt"
+        }]
+      }],
+      "priority": 94152778,
+      "noticeAt": 1769504400,
+      "openedAt": 1769504400,
+      "closedAt": 1770955199
+    }, {
+      "id": 94152812,
+      "name": "",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "75",
+      "spotId": 840900,
+      "warId": 8409,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94152811
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "eventPoint",
+        "targetId": 80599,
+        "value": 310000,
+        "closedMessage": "はなさかポイント310,000以上\n＆1月28日18時00分以降に開放"
+      }, {
         "type": "forceFalse",
         "targetId": 0,
         "closedMessage": "データ更新後に開放"
       }],
-      "phases": [1, 2],
-      "phasesNoBattle": [1],
-      "priority": 94152782,
-      "noticeAt": 1769418000,
-      "openedAt": 1769504400,
+      "phases": [1, 2, 3],
+      "phasesNoBattle": [3],
+      "priority": 94152777,
+      "noticeAt": 1769504400,
+      "openedAt": 1769590800,
       "closedAt": 1770955199
     }, {
       "id": 94152851,
@@ -102328,6 +102438,108 @@
       "openedAt": 1769418000,
       "closedAt": 1770955199
     }, {
+      "id": 94152860,
+      "name": "【第四花畑】雛芥子の花畑を作る",
+      "type": "main",
+      "flags": ["noBattle", "hideProgress"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 840900,
+      "warId": 8409,
+      "releaseConditions": [{
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "questClearPhase",
+        "targetId": 94152810,
+        "value": 1
+      }, {
+        "type": "commonRelease",
+        "targetId": 10152809
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9415286010",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415286010.txt"
+        }]
+      }],
+      "priority": 94152781,
+      "noticeAt": 1769504400,
+      "openedAt": 1769504400,
+      "closedAt": 1770955199
+    }, {
+      "id": 94152861,
+      "name": "【第四花畑】ヒナギクの花畑を作る",
+      "type": "main",
+      "flags": ["noBattle", "hideProgress"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 840900,
+      "warId": 8409,
+      "releaseConditions": [{
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "questClearPhase",
+        "targetId": 94152810,
+        "value": 1
+      }, {
+        "type": "commonRelease",
+        "targetId": 10152809
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9415286110",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415286110.txt"
+        }]
+      }],
+      "priority": 94152780,
+      "noticeAt": 1769504400,
+      "openedAt": 1769504400,
+      "closedAt": 1770955199
+    }, {
+      "id": 94152862,
+      "name": "【第四花畑】ナデシコの花畑を作る",
+      "type": "main",
+      "flags": ["noBattle", "hideProgress"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 840900,
+      "warId": 8409,
+      "releaseConditions": [{
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "questClearPhase",
+        "targetId": 94152810,
+        "value": 1
+      }, {
+        "type": "commonRelease",
+        "targetId": 10152809
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9415286210",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415286210.txt"
+        }]
+      }],
+      "priority": 94152779,
+      "noticeAt": 1769504400,
+      "openedAt": 1769504400,
+      "closedAt": 1770955199
+    }, {
       "id": 94152901,
       "name": "花畑作り 腐葉土を手に入れよう",
       "type": "event",
@@ -102541,7 +102753,7 @@
       "closedAt": 1770955199
     }, {
       "id": 94152908,
-      "name": "",
+      "name": "花畑作り 新たな水源地を見つけよう",
       "type": "event",
       "flags": ["displayLoopmark"],
       "consume": 40,
@@ -102553,6 +102765,38 @@
         "id": 12000,
         "objectId": 100,
         "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
+        "type": "questClear",
+        "targetId": 1000011
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94152643,
+      "noticeAt": 1769418000,
+      "openedAt": 1769504400,
+      "closedAt": 1770955199
+    }, {
+      "id": 94152909,
+      "name": "",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90+",
+      "spotId": 840900,
+      "warId": 8409,
+      "gifts": [{
+        "id": 327,
+        "objectId": 3,
+        "num": 100
       }],
       "releaseConditions": [{
         "type": "questClear",
@@ -102567,9 +102811,9 @@
         "closedMessage": "データ更新後に開放"
       }],
       "phases": [1],
-      "priority": 94152643,
-      "noticeAt": 1769418000,
-      "openedAt": 1769504400,
+      "priority": 94152642,
+      "noticeAt": 1769504400,
+      "openedAt": 1769590800,
       "closedAt": 1770955199
     }, {
       "id": 94153001,
@@ -102694,7 +102938,7 @@
       "closedAt": 1770955199
     }, {
       "id": 94153005,
-      "name": "",
+      "name": "【花畑お手入れクエスト】サンサン陽だまり作戦",
       "type": "event",
       "consume": 5,
       "afterClear": "close",
@@ -102707,16 +102951,15 @@
         "num": 1
       }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 94152801
       }, {
         "type": "date",
         "targetId": 0,
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
-      }, {
-        "type": "forceFalse",
-        "targetId": 0,
-        "closedMessage": "データ更新後に開放"
       }],
       "phases": [1],
       "priority": 94152746,
