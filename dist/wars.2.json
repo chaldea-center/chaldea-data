@@ -102033,6 +102033,7 @@
         "targetId": 10152805
       }],
       "phases": [1, 2],
+      "phasesWithEnemies": [2],
       "phasesNoBattle": [1],
       "phaseScripts": [{
         "phase": 1,
@@ -102074,6 +102075,7 @@
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
       }],
       "phases": [1, 2, 3],
+      "phasesWithEnemies": [1, 2, 3],
       "phaseScripts": [{
         "phase": 1,
         "scripts": [{
@@ -102965,6 +102967,37 @@
       "priority": 94152746,
       "noticeAt": 1769454000,
       "openedAt": 1769540400,
+      "closedAt": 1770955199
+    }, {
+      "id": 94153006,
+      "name": "",
+      "type": "event",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "90",
+      "spotId": 840900,
+      "warId": 8409,
+      "gifts": [{
+        "id": 12000,
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94152801
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "forceFalse",
+        "targetId": 0,
+        "closedMessage": "データ更新後に開放"
+      }],
+      "phases": [1],
+      "priority": 94152745,
+      "noticeAt": 1769540400,
+      "openedAt": 1769626800,
       "closedAt": 1770955199
     }]
   }]
