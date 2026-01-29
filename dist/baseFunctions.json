@@ -61476,6 +61476,24 @@
     "maxRate": 5000
   }]
 }, {
+  "funcId": 23176,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "冥界の花園",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_393.png",
+  "buffs": [{
+    "id": 6010,
+    "name": "冥界の花園",
+    "detail": "〔冥界の花園〕状態に変身する<宝具が変化・解除不能>",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_393.png",
+    "type": "delayFunction",
+    "buffGroup": 6010,
+    "vals": [{
+      "id": 10026
+    }]
+  }]
+}, {
   "funcId": 23177,
   "funcType": "addState",
   "funcTargetType": "self",
@@ -61566,6 +61584,31 @@
       "id": 1172
     }],
     "maxRate": 10000
+  }]
+}, {
+  "funcId": 23205,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "buffs": [{
+    "id": 6020,
+    "name": "",
+    "detail": "",
+    "type": "tdTypeChangeArts",
+    "script": {
+      "INDIVIDUALITIE": {
+        "id": 1002100
+      }
+    },
+    "originalScript": {
+      "INDIVIDUALITIE": 1002100,
+      "DisplayCardBottomImageName": "icon_treasure_device_change"
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 10026
+    }]
   }]
 }, {
   "funcId": 23207,

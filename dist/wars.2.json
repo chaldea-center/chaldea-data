@@ -101452,20 +101452,20 @@
   "eventName": "カルデアン・フロラリア\nあなたの花が咲く頃に",
   "warAdds": [{
     "warId": 8409,
-    "type": "bgImage",
-    "priority": 1,
-    "overwriteId": 270600,
-    "condType": "questClear",
-    "targetId": 94152800,
-    "startedAt": 1769158800,
-    "endedAt": 1770955199
-  }, {
-    "warId": 8409,
     "type": "bgObject",
     "priority": 1,
     "overwriteId": 80599003,
     "condType": "commonRelease",
     "targetId": 10152801,
+    "startedAt": 1769158800,
+    "endedAt": 1770955199
+  }, {
+    "warId": 8409,
+    "type": "bgImage",
+    "priority": 1,
+    "overwriteId": 270600,
+    "condType": "questClear",
+    "targetId": 94152800,
     "startedAt": 1769158800,
     "endedAt": 1770955199
   }, {
@@ -101494,6 +101494,26 @@
     "overwriteId": 272500,
     "condType": "questClearPhase",
     "targetId": 94152813,
+    "value": 1,
+    "startedAt": 1769158800,
+    "endedAt": 1770955199
+  }, {
+    "warId": 8409,
+    "type": "bgImage",
+    "priority": 5,
+    "overwriteId": 271106,
+    "condType": "questClearPhase",
+    "targetId": 94152814,
+    "value": 1,
+    "startedAt": 1769158800,
+    "endedAt": 1770955199
+  }, {
+    "warId": 8409,
+    "type": "bgImage",
+    "priority": 6,
+    "overwriteId": 271110,
+    "condType": "questClearPhase",
+    "targetId": 94152815,
     "value": 1,
     "startedAt": 1769158800,
     "endedAt": 1770955199
@@ -102153,7 +102173,7 @@
         "closedMessage": "はなさかポイント310,000以上\n＆1月28日18時00分以降に開放"
       }],
       "phases": [1, 2, 3],
-      "phasesWithEnemies": [1],
+      "phasesWithEnemies": [1, 2],
       "phasesNoBattle": [3],
       "phaseScripts": [{
         "phase": 1,
@@ -102220,8 +102240,163 @@
       "closedAt": 1770955199
     }, {
       "id": 94152814,
-      "name": "",
+      "name": "第１４節「灰を纏う神」",
       "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "85",
+      "spotId": 840900,
+      "warId": 8409,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
+        "type": "questClear",
+        "targetId": 94152813
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "eventPoint",
+        "targetId": 80599,
+        "value": 460000,
+        "closedMessage": "はなさかポイント460,000以上\n＆1月29日18時00分以降に開放"
+      }],
+      "phases": [1, 2, 3],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9415281410",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415281410.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9415281420",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415281420.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9415281430",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415281430.txt"
+        }, {
+          "scriptId": "9415281431",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415281431.txt"
+        }]
+      }],
+      "priority": 94152775,
+      "noticeAt": 1769590800,
+      "openedAt": 1769677200,
+      "closedAt": 1770955199
+    }, {
+      "id": 94152815,
+      "name": "第１５節「あなたの花が咲く頃に」",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "90",
+      "spotId": 840900,
+      "warId": 8409,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94152814
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1, 2, 3, 4],
+      "phasesNoBattle": [3],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9415281510",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415281510.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9415281520",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415281520.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9415281530",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415281530.txt"
+        }]
+      }, {
+        "phase": 4,
+        "scripts": [{
+          "scriptId": "9415281540",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415281540.txt"
+        }, {
+          "scriptId": "9415281541",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415281541.txt"
+        }]
+      }],
+      "priority": 94152774,
+      "noticeAt": 1769677200,
+      "openedAt": 1769677200,
+      "closedAt": 1770955199
+    }, {
+      "id": 94152816,
+      "name": "エピローグ",
+      "type": "main",
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 840900,
+      "warId": 8409,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/3.png",
+      "gifts": [{
+        "id": 94152832,
+        "objectId": 7999,
+        "num": 1
+      }, {
+        "id": 94152832,
+        "type": "eventSvtGet",
+        "objectId": 1002000,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94152815
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9415281610",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415281610.txt"
+        }]
+      }],
+      "priority": 94152773,
+      "noticeAt": 1769677200,
+      "openedAt": 1769677200,
+      "closedAt": 1770955199
+    }, {
+      "id": 94152820,
+      "name": "第１４節「灰を纏う神」",
+      "type": "main",
+      "flags": ["branch", "notDisplayResultGetPoint"],
       "consume": 5,
       "afterClear": "close",
       "recommendLv": "85",
@@ -102239,17 +102414,8 @@
         "type": "date",
         "targetId": 0,
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
-      }, {
-        "type": "eventPoint",
-        "targetId": 80599,
-        "value": 460000,
-        "closedMessage": "はなさかポイント460,000以上\n＆1月29日18時00分以降に開放"
-      }, {
-        "type": "forceFalse",
-        "targetId": 0,
-        "closedMessage": "データ更新後に開放"
       }],
-      "phases": [1, 2, 3],
+      "phases": [2],
       "priority": 94152775,
       "noticeAt": 1769590800,
       "openedAt": 1769677200,
@@ -102258,7 +102424,7 @@
       "id": 94152851,
       "name": "【第一花畑】薔薇の花畑を作る",
       "type": "main",
-      "flags": ["noBattle", "hideProgress"],
+      "flags": ["noBattle", "hideProgress", "noDisplayNextIcon"],
       "consume": 0,
       "afterClear": "close",
       "recommendLv": "1",
@@ -102292,7 +102458,7 @@
       "id": 94152852,
       "name": "【第一花畑】百合の花畑を作る",
       "type": "main",
-      "flags": ["noBattle", "hideProgress"],
+      "flags": ["noBattle", "hideProgress", "noDisplayNextIcon"],
       "consume": 0,
       "afterClear": "close",
       "recommendLv": "1",
@@ -102326,7 +102492,7 @@
       "id": 94152853,
       "name": "【第一花畑】紫陽花の花畑を作る",
       "type": "main",
-      "flags": ["noBattle", "hideProgress"],
+      "flags": ["noBattle", "hideProgress", "noDisplayNextIcon"],
       "consume": 0,
       "afterClear": "close",
       "recommendLv": "1",
@@ -102360,7 +102526,7 @@
       "id": 94152854,
       "name": "【第二花畑】アマリリスの花畑を作る",
       "type": "main",
-      "flags": ["noBattle", "hideProgress"],
+      "flags": ["noBattle", "hideProgress", "noDisplayNextIcon"],
       "consume": 0,
       "afterClear": "close",
       "recommendLv": "1",
@@ -102393,7 +102559,7 @@
       "id": 94152855,
       "name": "【第二花畑】スノードロップの花畑を作る",
       "type": "main",
-      "flags": ["noBattle", "hideProgress"],
+      "flags": ["noBattle", "hideProgress", "noDisplayNextIcon"],
       "consume": 0,
       "afterClear": "close",
       "recommendLv": "1",
@@ -102426,7 +102592,7 @@
       "id": 94152856,
       "name": "【第二花畑】スミレの花畑を作る",
       "type": "main",
-      "flags": ["noBattle", "hideProgress"],
+      "flags": ["noBattle", "hideProgress", "noDisplayNextIcon"],
       "consume": 0,
       "afterClear": "close",
       "recommendLv": "1",
@@ -102459,7 +102625,7 @@
       "id": 94152857,
       "name": "【第三花畑】牡丹の花畑を作る",
       "type": "main",
-      "flags": ["noBattle", "hideProgress"],
+      "flags": ["noBattle", "hideProgress", "noDisplayNextIcon"],
       "consume": 0,
       "afterClear": "close",
       "recommendLv": "1",
@@ -102492,7 +102658,7 @@
       "id": 94152858,
       "name": "【第三花畑】ドクゼリモドキの花畑を作る",
       "type": "main",
-      "flags": ["noBattle", "hideProgress"],
+      "flags": ["noBattle", "hideProgress", "noDisplayNextIcon"],
       "consume": 0,
       "afterClear": "close",
       "recommendLv": "1",
@@ -102525,7 +102691,7 @@
       "id": 94152859,
       "name": "【第三花畑】ヤグルマギクの花畑を作る",
       "type": "main",
-      "flags": ["noBattle", "hideProgress"],
+      "flags": ["noBattle", "hideProgress", "noDisplayNextIcon"],
       "consume": 0,
       "afterClear": "close",
       "recommendLv": "1",
@@ -102558,7 +102724,7 @@
       "id": 94152860,
       "name": "【第四花畑】雛芥子の花畑を作る",
       "type": "main",
-      "flags": ["noBattle", "hideProgress"],
+      "flags": ["noBattle", "hideProgress", "noDisplayNextIcon"],
       "consume": 0,
       "afterClear": "close",
       "recommendLv": "1",
@@ -102592,7 +102758,7 @@
       "id": 94152861,
       "name": "【第四花畑】ヒナギクの花畑を作る",
       "type": "main",
-      "flags": ["noBattle", "hideProgress"],
+      "flags": ["noBattle", "hideProgress", "noDisplayNextIcon"],
       "consume": 0,
       "afterClear": "close",
       "recommendLv": "1",
@@ -102626,7 +102792,7 @@
       "id": 94152862,
       "name": "【第四花畑】ナデシコの花畑を作る",
       "type": "main",
-      "flags": ["noBattle", "hideProgress"],
+      "flags": ["noBattle", "hideProgress", "noDisplayNextIcon"],
       "consume": 0,
       "afterClear": "close",
       "recommendLv": "1",
@@ -102927,13 +103093,14 @@
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94152642,
       "noticeAt": 1769504400,
       "openedAt": 1769590800,
       "closedAt": 1770955199
     }, {
       "id": 94152910,
-      "name": "",
+      "name": "花畑作り クワ振りの極意を学ぼう",
       "type": "event",
       "flags": ["displayLoopmark"],
       "consume": 40,
@@ -102947,16 +103114,15 @@
         "num": 200
       }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 1000011
       }, {
         "type": "date",
         "targetId": 0,
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
-      }, {
-        "type": "forceFalse",
-        "targetId": 0,
-        "closedMessage": "データ更新後に開放"
       }],
       "phases": [1],
       "priority": 94152641,
@@ -103141,9 +103307,144 @@
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94152745,
       "noticeAt": 1769540400,
       "openedAt": 1769626800,
+      "closedAt": 1770955199
+    }, {
+      "id": 94153101,
+      "name": "【秘密の花畑クエスト】無垢なる白き花",
+      "type": "event",
+      "flags": ["notDisplayResultGetPoint"],
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "90",
+      "spotId": 840900,
+      "warId": 8409,
+      "gifts": [{
+        "id": 94153101,
+        "type": "servant",
+        "objectId": 1002001,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94152816
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "eventPoint",
+        "targetId": 80599,
+        "value": 530000,
+        "closedMessage": "はなさかポイント530,000以上で開放"
+      }],
+      "phases": [1],
+      "priority": 94152700,
+      "noticeAt": 1769677200,
+      "openedAt": 1769677200,
+      "closedAt": 1770955199
+    }, {
+      "id": 94153102,
+      "name": "【秘密の花畑クエスト】至高の一輪",
+      "type": "event",
+      "flags": ["notDisplayResultGetPoint"],
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "90",
+      "spotId": 840900,
+      "warId": 8409,
+      "gifts": [{
+        "id": 94153102,
+        "type": "servant",
+        "objectId": 1002001,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94152816
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "eventPoint",
+        "targetId": 80599,
+        "value": 620000,
+        "closedMessage": "はなさかポイント620,000以上で開放"
+      }],
+      "phases": [1],
+      "priority": 94152699,
+      "noticeAt": 1769677200,
+      "openedAt": 1769677200,
+      "closedAt": 1770955199
+    }, {
+      "id": 94153103,
+      "name": "【秘密の花畑クエスト】妖花咲く庭園",
+      "type": "event",
+      "flags": ["notDisplayResultGetPoint"],
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "90",
+      "spotId": 840900,
+      "warId": 8409,
+      "gifts": [{
+        "id": 94153103,
+        "type": "servant",
+        "objectId": 1002001,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94152816
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "eventPoint",
+        "targetId": 80599,
+        "value": 740000,
+        "closedMessage": "はなさかポイント740,000以上で開放"
+      }],
+      "phases": [1],
+      "priority": 94152698,
+      "noticeAt": 1769677200,
+      "openedAt": 1769677200,
+      "closedAt": 1770955199
+    }, {
+      "id": 94153201,
+      "name": "",
+      "type": "event",
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "90+",
+      "spotId": 840900,
+      "warId": 8409,
+      "gifts": [{
+        "id": 21701,
+        "objectId": 6999,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 1000822,
+        "closedMessage": "終局特異点クリア\n＆1月30日18時00分以降に開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "forceFalse",
+        "targetId": 0,
+        "closedMessage": "データ更新後に開放"
+      }],
+      "phases": [1],
+      "priority": 94152720,
+      "noticeAt": 1769677200,
+      "openedAt": 1769763600,
       "closedAt": 1770955199
     }]
   }]
