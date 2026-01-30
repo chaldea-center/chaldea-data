@@ -103345,6 +103345,7 @@
         "closedMessage": "はなさかポイント530,000以上で開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94152700,
       "noticeAt": 1769677200,
       "openedAt": 1769677200,
@@ -103379,6 +103380,7 @@
         "closedMessage": "はなさかポイント620,000以上で開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94152699,
       "noticeAt": 1769677200,
       "openedAt": 1769677200,
@@ -103413,14 +103415,16 @@
         "closedMessage": "はなさかポイント740,000以上で開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94152698,
       "noticeAt": 1769677200,
       "openedAt": 1769677200,
       "closedAt": 1770955199
     }, {
       "id": 94153201,
-      "name": "",
+      "name": "【高難易度】花咲く園へ導く女神",
       "type": "event",
+      "flags": ["dropFirstTimeOnly", "notRetrievable", "notDisplayResultGetPoint"],
       "consume": 5,
       "afterClear": "repeatLast",
       "recommendLv": "90+",
@@ -103432,6 +103436,9 @@
         "num": 1
       }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 1000822,
         "closedMessage": "終局特異点クリア\n＆1月30日18時00分以降に開放"
@@ -103439,12 +103446,9 @@
         "type": "date",
         "targetId": 0,
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
-      }, {
-        "type": "forceFalse",
-        "targetId": 0,
-        "closedMessage": "データ更新後に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94152720,
       "noticeAt": 1769677200,
       "openedAt": 1769763600,
