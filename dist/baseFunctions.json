@@ -61586,6 +61586,36 @@
     "maxRate": 10000
   }]
 }, {
+  "funcId": 23203,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "buffs": [{
+    "id": 6019,
+    "name": "",
+    "detail": "",
+    "type": "entryFunction",
+    "script": {
+      "checkIndvType": 2,
+      "INDIVIDUALITIE": {
+        "id": 10026,
+        "negative": true
+      }
+    },
+    "originalScript": {
+      "checkIndvType": 2,
+      "INDIVIDUALITIE": -10026
+    }
+  }]
+}, {
+  "funcId": 23204,
+  "funcType": "subState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "traitVals": [{
+    "id": 10026
+  }]
+}, {
   "funcId": 23205,
   "funcType": "addStateShort",
   "funcTargetType": "self",
@@ -61951,6 +61981,148 @@
     "maxRate": 5000
   }]
 }, {
+  "funcId": 23233,
+  "funcType": "addStateShortToField",
+  "funcTargetType": "noTarget",
+  "funcTargetTeam": "player",
+  "funcPopupText": "フィールド効果〔防御力ダウン〕",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_607.png",
+  "buffs": [{
+    "id": 6033,
+    "name": "フィールド効果〔防御力ダウン〕",
+    "detail": "エネミー側のフィールドにいるすべての対象が「防御力をダウンする効果」を受ける",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_607.png",
+    "type": "downDefence",
+    "originalScript": {
+      "ProgressSelfTurn": 0
+    },
+    "vals": [{
+      "id": 3005
+    }, {
+      "id": 3009
+    }, {
+      "id": 3110
+    }, {
+      "id": 3133
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 23236,
+  "funcType": "addStateToField",
+  "funcTargetType": "noTarget",
+  "funcTargetTeam": "enemy",
+  "funcPopupText": "フィールド効果〔防御力ダウン〕",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_606.png",
+  "buffs": [{
+    "id": 6034,
+    "name": "フィールド効果〔防御力ダウン〕",
+    "detail": "プレイヤー側のフィールドにいるすべての対象が「防御力をダウンする効果」を受ける",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_606.png",
+    "type": "downDefence",
+    "originalScript": {
+      "ProgressSelfTurn": 0
+    },
+    "vals": [{
+      "id": 3005
+    }, {
+      "id": 3009
+    }, {
+      "id": 3110
+    }, {
+      "id": 3133
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 23239,
+  "funcType": "addStateShortToField",
+  "funcTargetType": "noTarget",
+  "funcTargetTeam": "player",
+  "funcPopupText": "フィールド効果〔クリティカル威力耐性ダウン〕",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_609.png",
+  "buffs": [{
+    "id": 6035,
+    "name": "フィールド効果〔クリティカル威力耐性ダウン〕",
+    "detail": "エネミー側のフィールドにいるすべての対象が「クリティカル攻撃で受けるダメージが増える効果」を受ける",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_609.png",
+    "type": "downDefenceCriticaldamage",
+    "vals": [{
+      "id": 3005
+    }, {
+      "id": 3009
+    }, {
+      "id": 3133
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 23242,
+  "funcType": "addStateToField",
+  "funcTargetType": "noTarget",
+  "funcTargetTeam": "enemy",
+  "funcPopupText": "フィールド効果〔クリティカル威力耐性ダウン〕",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_608.png",
+  "buffs": [{
+    "id": 6036,
+    "name": "フィールド効果〔クリティカル威力耐性ダウン〕",
+    "detail": "プレイヤー側のフィールドにいるすべての対象が「クリティカル攻撃で受けるダメージが増える効果」を受ける",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_608.png",
+    "type": "downDefenceCriticaldamage",
+    "vals": [{
+      "id": 3005
+    }, {
+      "id": 3009
+    }, {
+      "id": 3133
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 23245,
+  "funcType": "addStateShortToField",
+  "funcTargetType": "noTarget",
+  "funcTargetTeam": "player",
+  "funcPopupText": "フィールド効果〔宝具威力耐性ダウン〕",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_611.png",
+  "buffs": [{
+    "id": 6037,
+    "name": "フィールド効果〔宝具威力耐性ダウン〕",
+    "detail": "エネミー側のフィールドにいるすべての対象が「宝具攻撃で受けるダメージが増える効果」を受ける",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_611.png",
+    "type": "downDefenceNpdamage",
+    "vals": [{
+      "id": 3005
+    }, {
+      "id": 3009
+    }, {
+      "id": 3133
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 23248,
+  "funcType": "addStateToField",
+  "funcTargetType": "noTarget",
+  "funcTargetTeam": "enemy",
+  "funcPopupText": "フィールド効果〔宝具威力耐性ダウン〕",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_610.png",
+  "buffs": [{
+    "id": 6038,
+    "name": "フィールド効果〔宝具威力耐性ダウン〕",
+    "detail": "プレイヤー側のフィールドにいるすべての対象が「宝具攻撃で受けるダメージが増える効果」を受ける",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_610.png",
+    "type": "downDefenceNpdamage",
+    "vals": [{
+      "id": 3005
+    }, {
+      "id": 3009
+    }, {
+      "id": 3133
+    }],
+    "maxRate": 5000
+  }]
+}, {
   "funcId": 23256,
   "funcType": "addState",
   "funcTargetType": "enemyAll",
@@ -62047,6 +62219,15 @@
     }, {
       "id": 2729
     }]
+  }]
+}, {
+  "funcId": 23266,
+  "funcType": "subState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "冥界の花園解除",
+  "traitVals": [{
+    "id": 10026
   }]
 }, {
   "funcId": 30003,

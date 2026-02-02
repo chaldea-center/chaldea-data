@@ -115441,6 +115441,341 @@
     "svals5": [{}, {}, {}, {}, {}]
   }]
 }, {
+  "id": 1002101,
+  "card": "3",
+  "name": "冥きに微睡む常世の花園",
+  "ruby": "アンダーワールド・フラワーガーデン",
+  "icon": "https://static.atlasacademy.io/JP/Servants/Commands/1002100/card_servant_np.png",
+  "rank": "EX",
+  "type": "対人宝具",
+  "effectFlags": ["support"],
+  "unmodifiedDetail": "フィールドを〔地獄〕状態にする(3ターン) ＋ 敵フィールドに防御力ダウン状態を付与(3ターン)<オーバーチャージで効果アップ>＆クリティカル威力耐性ダウン状態を付与(3ターン)＆宝具威力耐性ダウン状態を付与(3ターン) ＋ 敵全体のチャージを減らす＆即死耐性をダウン[{0}](3ターン) ＋ スターを大量獲得",
+  "npGain": {
+    "buster": [59, 59, 59, 59, 59],
+    "arts": [59, 59, 59, 59, 59],
+    "quick": [59, 59, 59, 59, 59],
+    "extra": [59, 59, 59, 59, 59],
+    "defence": [400, 400, 400, 400, 400],
+    "np": [59, 59, 59, 59, 59]
+  },
+  "npDistribution": [100],
+  "individuality": [{
+    "id": 3002
+  }, {
+    "id": 4003
+  }, {
+    "id": 4007
+  }],
+  "npSvts": [{
+    "svtId": 1002100,
+    "priority": 101,
+    "damage": [100],
+    "card": "3"
+  }],
+  "script": {
+    "tdTypeChangeIDs": [1002101],
+    "excludeTdChangeTypes": [1, 3]
+  },
+  "functions": [{
+    "funcId": 22562,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "FieldIndividuality": [2950],
+      "TakeOverFieldState": 1,
+      "RemoveFieldBuffActorDeath": 1,
+      "FieldBuffGrantType": 2,
+      "PriorityBgm": -1,
+      "PriorityBg": -1
+    }, {}, {}, {}, {}],
+    "svals2": [{}, {}, {}, {}, {}],
+    "svals3": [{}, {}, {}, {}, {}],
+    "svals4": [{}, {}, {}, {}, {}],
+    "svals5": [{}, {}, {}, {}, {}]
+  }, {
+    "funcId": 23263,
+    "svals": [{
+      "Rate": 1000,
+      "HideMiss": 1,
+      "HideNoEffect": 1
+    }, {}, {}, {}, {}],
+    "svals2": [{}, {}, {}, {}, {}],
+    "svals3": [{}, {}, {}, {}, {}],
+    "svals4": [{}, {}, {}, {}, {}],
+    "svals5": [{}, {}, {}, {}, {}]
+  }, {
+    "funcId": 23233,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 200,
+      "DisplayLastFuncInvalidType": 0,
+      "TriggeredFuncPosition": 2,
+      "FieldBuffGrantType": 2,
+      "FieldBuffApplyTarget": 2
+    }, {}, {}, {}, {}],
+    "svals2": [{
+      "Value": 250
+    }, {
+      "Value": 250
+    }, {
+      "Value": 250
+    }, {
+      "Value": 250
+    }, {
+      "Value": 250
+    }],
+    "svals3": [{
+      "Value": 300
+    }, {
+      "Value": 300
+    }, {
+      "Value": 300
+    }, {
+      "Value": 300
+    }, {
+      "Value": 300
+    }],
+    "svals4": [{
+      "Value": 350
+    }, {
+      "Value": 350
+    }, {
+      "Value": 350
+    }, {
+      "Value": 350
+    }, {
+      "Value": 350
+    }],
+    "svals5": [{
+      "Value": 400
+    }, {
+      "Value": 400
+    }, {
+      "Value": 400
+    }, {
+      "Value": 400
+    }, {
+      "Value": 400
+    }]
+  }, {
+    "funcId": 23236,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 200,
+      "DisplayLastFuncInvalidType": 0,
+      "TriggeredFuncPosition": -2,
+      "FieldBuffGrantType": 2,
+      "FieldBuffApplyTarget": 1
+    }, {}, {}, {}, {}],
+    "svals2": [{
+      "Value": 250
+    }, {
+      "Value": 250
+    }, {
+      "Value": 250
+    }, {
+      "Value": 250
+    }, {
+      "Value": 250
+    }],
+    "svals3": [{
+      "Value": 300
+    }, {
+      "Value": 300
+    }, {
+      "Value": 300
+    }, {
+      "Value": 300
+    }, {
+      "Value": 300
+    }],
+    "svals4": [{
+      "Value": 350
+    }, {
+      "Value": 350
+    }, {
+      "Value": 350
+    }, {
+      "Value": 350
+    }, {
+      "Value": 350
+    }],
+    "svals5": [{
+      "Value": 400
+    }, {
+      "Value": 400
+    }, {
+      "Value": 400
+    }, {
+      "Value": 400
+    }, {
+      "Value": 400
+    }]
+  }, {
+    "funcId": 23239,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 200,
+      "DisplayLastFuncInvalidType": 0,
+      "TriggeredFuncPosition": 2,
+      "FieldBuffGrantType": 2,
+      "FieldBuffApplyTarget": 2
+    }, {}, {}, {}, {}],
+    "svals2": [{}, {}, {}, {}, {}],
+    "svals3": [{}, {}, {}, {}, {}],
+    "svals4": [{}, {}, {}, {}, {}],
+    "svals5": [{}, {}, {}, {}, {}]
+  }, {
+    "funcId": 23242,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 200,
+      "DisplayLastFuncInvalidType": 0,
+      "TriggeredFuncPosition": -2,
+      "FieldBuffGrantType": 2,
+      "FieldBuffApplyTarget": 1
+    }, {}, {}, {}, {}],
+    "svals2": [{}, {}, {}, {}, {}],
+    "svals3": [{}, {}, {}, {}, {}],
+    "svals4": [{}, {}, {}, {}, {}],
+    "svals5": [{}, {}, {}, {}, {}]
+  }, {
+    "funcId": 23245,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 200,
+      "DisplayLastFuncInvalidType": 0,
+      "TriggeredFuncPosition": 2,
+      "FieldBuffGrantType": 2,
+      "FieldBuffApplyTarget": 2
+    }, {}, {}, {}, {}],
+    "svals2": [{}, {}, {}, {}, {}],
+    "svals3": [{}, {}, {}, {}, {}],
+    "svals4": [{}, {}, {}, {}, {}],
+    "svals5": [{}, {}, {}, {}, {}]
+  }, {
+    "funcId": 23248,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 200,
+      "DisplayLastFuncInvalidType": 0,
+      "TriggeredFuncPosition": -2,
+      "FieldBuffGrantType": 2,
+      "FieldBuffApplyTarget": 1
+    }, {}, {}, {}, {}],
+    "svals2": [{}, {}, {}, {}, {}],
+    "svals3": [{}, {}, {}, {}, {}],
+    "svals4": [{}, {}, {}, {}, {}],
+    "svals5": [{}, {}, {}, {}, {}]
+  }, {
+    "funcId": 474,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 1
+    }, {}, {}, {}, {}],
+    "svals2": [{}, {}, {}, {}, {}],
+    "svals3": [{}, {}, {}, {}, {}],
+    "svals4": [{}, {}, {}, {}, {}],
+    "svals5": [{}, {}, {}, {}, {}]
+  }, {
+    "funcId": 469,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 2000
+    }, {}, {}, {}, {}],
+    "svals2": [{}, {}, {}, {}, {}],
+    "svals3": [{}, {}, {}, {}, {}],
+    "svals4": [{}, {}, {}, {}, {}],
+    "svals5": [{}, {}, {}, {}, {}]
+  }, {
+    "funcId": 707,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 500
+    }, {
+      "Value": 750
+    }, {
+      "Value": 875
+    }, {
+      "Value": 938
+    }, {
+      "Value": 1000
+    }],
+    "svals2": [{}, {
+      "Value": 750
+    }, {
+      "Value": 875
+    }, {
+      "Value": 938
+    }, {
+      "Value": 1000
+    }],
+    "svals3": [{}, {
+      "Value": 750
+    }, {
+      "Value": 875
+    }, {
+      "Value": 938
+    }, {
+      "Value": 1000
+    }],
+    "svals4": [{}, {
+      "Value": 750
+    }, {
+      "Value": 875
+    }, {
+      "Value": 938
+    }, {
+      "Value": 1000
+    }],
+    "svals5": [{}, {
+      "Value": 750
+    }, {
+      "Value": 875
+    }, {
+      "Value": 938
+    }, {
+      "Value": 1000
+    }]
+  }, {
+    "funcId": 477,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 30
+    }, {}, {}, {}, {}],
+    "svals2": [{}, {}, {}, {}, {}],
+    "svals3": [{}, {}, {}, {}, {}],
+    "svals4": [{}, {}, {}, {}, {}],
+    "svals5": [{}, {}, {}, {}, {}]
+  }, {
+    "funcId": 216,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 2,
+      "Count": -1,
+      "Value": 300
+    }, {}, {}, {}, {}],
+    "svals2": [{}, {}, {}, {}, {}],
+    "svals3": [{}, {}, {}, {}, {}],
+    "svals4": [{}, {}, {}, {}, {}],
+    "svals5": [{}, {}, {}, {}, {}]
+  }]
+}, {
   "id": 1100101,
   "card": "1",
   "name": "偽り写し記す万象",
