@@ -3036,6 +3036,36 @@
     "maxRate": 10000
   }]
 }, {
+  "funcId": 235,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "威力アップ・対悪",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+  "buffs": [{
+    "id": 131,
+    "name": "威力アップ〔悪〕",
+    "detail": "〔悪〕特性に与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamage",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3028
+    }, {
+      "id": 2921
+    }],
+    "tvals": [{
+      "id": 304
+    }],
+    "ckOpIndv": [{
+      "id": 304
+    }],
+    "maxRate": 10000
+  }]
+}, {
   "funcId": 236,
   "funcType": "addStateShort",
   "funcTargetType": "self",
@@ -32791,6 +32821,19 @@
     }]
   }]
 }, {
+  "funcId": 7945,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_520.png",
+  "buffs": [{
+    "id": 3936,
+    "name": "",
+    "detail": "",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_520.png",
+    "type": "addIndividuality"
+  }]
+}, {
   "funcId": 7953,
   "funcType": "addStateShort",
   "funcTargetType": "ptAll",
@@ -61586,6 +61629,130 @@
     "maxRate": 10000
   }]
 }, {
+  "funcId": 23187,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "テオブロマ・カリス",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+  "funcquestTvals": [{
+    "id": 94000182
+  }],
+  "funcGroup": [{
+    "eventId": 80603,
+    "baseFuncId": 23186,
+    "nameTotal": "{1} \n攻撃の威力アップ合計",
+    "name": "攻撃の威力アップ合計",
+    "icon": "https://static.atlasacademy.io/JP/EventUI/func_group_icon_302.png",
+    "priority": 300,
+    "isDispValue": true
+  }],
+  "buffs": [{
+    "id": 6015,
+    "name": "テオブロマ・カリス",
+    "detail": "『アフタータイム・バレンタイン2026』において与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamage",
+    "maxRate": 10000
+  }]
+}, {
+  "funcId": 23188,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "テオブロマ・カリス",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+  "funcquestTvals": [{
+    "id": 94000182
+  }],
+  "funcGroup": [{
+    "eventId": 80603,
+    "baseFuncId": 23186,
+    "nameTotal": "{1} \n攻撃の威力アップ合計",
+    "name": "攻撃の威力アップ合計",
+    "icon": "https://static.atlasacademy.io/JP/EventUI/func_group_icon_302.png",
+    "priority": 300,
+    "isDispValue": true
+  }],
+  "buffs": [{
+    "id": 6015,
+    "name": "テオブロマ・カリス",
+    "detail": "『アフタータイム・バレンタイン2026』において与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamage",
+    "maxRate": 10000
+  }]
+}, {
+  "funcId": 23189,
+  "funcType": "servantFriendshipUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcGroup": [{
+    "eventId": 80603,
+    "baseFuncId": 0,
+    "nameTotal": "{1}\n自己効果により得られる絆アップ合計",
+    "name": "自己効果により得られる絆アップ",
+    "icon": "https://static.atlasacademy.io/JP/EventUI/func_group_icon_1009.png",
+    "priority": 200,
+    "isDispValue": true
+  }]
+}, {
+  "funcId": 23190,
+  "funcType": "eventDropUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcGroup": [{
+    "eventId": 80603,
+    "baseFuncId": 0,
+    "nameTotal": "{0}\n獲得数ボーナス合計",
+    "name": "{0}獲得数アップ",
+    "icon": "https://static.atlasacademy.io/JP/Items/94153903.png",
+    "priority": 3000,
+    "isDispValue": true
+  }]
+}, {
+  "funcId": 23191,
+  "funcType": "eventDropUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcGroup": [{
+    "eventId": 80603,
+    "baseFuncId": 0,
+    "nameTotal": "{0}\n獲得数ボーナス合計",
+    "name": "{0}獲得数アップ",
+    "icon": "https://static.atlasacademy.io/JP/Items/94153902.png",
+    "priority": 2000,
+    "isDispValue": true
+  }]
+}, {
+  "funcId": 23192,
+  "funcType": "eventDropUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcGroup": [{
+    "eventId": 80603,
+    "baseFuncId": 0,
+    "nameTotal": "{0}\n獲得数ボーナス合計",
+    "name": "{0}獲得数アップ",
+    "icon": "https://static.atlasacademy.io/JP/Items/94153901.png",
+    "priority": 1000,
+    "isDispValue": true
+  }]
+}, {
+  "funcId": 23193,
+  "funcType": "eventPointUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcGroup": [{
+    "eventId": 80603,
+    "baseFuncId": 0,
+    "nameTotal": "{0}\n獲得量ボーナス合計",
+    "name": "{0}獲得量アップ",
+    "icon": "https://static.atlasacademy.io/JP/Items/94153904.png",
+    "priority": 4000,
+    "isDispValue": true
+  }]
+}, {
   "funcId": 23203,
   "funcType": "addStateShort",
   "funcTargetType": "self",
@@ -62228,6 +62395,63 @@
   "funcPopupText": "冥界の花園解除",
   "traitVals": [{
     "id": 10026
+  }]
+}, {
+  "funcId": 23274,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "威力アップ・対封印",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+  "buffs": [{
+    "id": 6049,
+    "name": "威力アップ〔封印〕",
+    "detail": "〔封印〕状態の敵に与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamageIndividuality",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3028
+    }],
+    "tvals": [{
+      "id": 3025
+    }, {
+      "id": 3020
+    }, {
+      "id": 3056
+    }, {
+      "id": 10031
+    }],
+    "ckOpIndv": [{
+      "id": 3025
+    }, {
+      "id": 3020
+    }, {
+      "id": 3056
+    }, {
+      "id": 10031
+    }],
+    "maxRate": 10000
+  }]
+}, {
+  "funcId": 23276,
+  "funcType": "addState",
+  "funcTargetType": "ptFull",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "ガッツ時発動",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_365.png",
+  "buffs": [{
+    "id": 6050,
+    "name": "ガッツ時発動",
+    "detail": "ガッツ発動時、自身のNPを少し増やす",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_365.png",
+    "type": "gutsFunction",
+    "vals": [{
+      "id": 3004
+    }]
   }]
 }, {
   "funcId": 30003,

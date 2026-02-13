@@ -103455,4 +103455,450 @@
       "closedAt": 1770955199
     }]
   }]
+}, {
+  "id": 8410,
+  "coordinates": [
+    [],
+    []
+  ],
+  "age": "-",
+  "name": "アフタータイム・バレンタイン2026",
+  "longName": "アフタータイム・バレンタイン2026 ～お母さんチョコの謎～",
+  "flags": ["isEvent", "noClearMarkWithComplete", "dispFirstQuest", "changeDispClosedMessage"],
+  "banner": "https://static.atlasacademy.io/JP/Banner/event_war_80572.png",
+  "priority": 10046,
+  "bgm": {
+    "id": 0
+  },
+  "script": "https://static.atlasacademy.io/JP/Script/Common/NONE.txt",
+  "startType": "quest",
+  "targetId": 94153900,
+  "eventId": 80603,
+  "eventName": "アフタータイム・バレンタイン2026 \n～お母さんチョコの謎～",
+  "warAdds": [{
+    "warId": 8410,
+    "type": "bgImage",
+    "priority": 1,
+    "overwriteId": 105500,
+    "condType": "questClear",
+    "targetId": 94153900,
+    "startedAt": 1770973200,
+    "endedAt": 1772769599
+  }],
+  "maps": [{
+    "id": 8410,
+    "mapImage": "https://static.atlasacademy.io/JP/Terminal/MapImgs/img_questmap_008410/img_questmap_008410.png",
+    "bgm": {
+      "id": 0
+    }
+  }],
+  "spots": [{
+    "id": 841001,
+    "mapId": 8410,
+    "name": "カルデアゲート",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter8410/QMap_Cap8410_Atlas/spot_841001.png",
+    "quests": [{
+      "id": 94153900,
+      "name": "",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 841001,
+      "warId": 8410,
+      "gifts": [{
+        "id": 94153904,
+        "objectId": 94153905,
+        "num": 1,
+        "giftAdds": [{
+          "priority": 1,
+          "replacementGiftIcon": "https://static.atlasacademy.io/JP/Items/0.png",
+          "condType": "none",
+          "targetId": 0,
+          "targetNum": 0,
+          "replacementGifts": [{
+            "id": 94153904,
+            "objectId": 94153905,
+            "priority": 0,
+            "num": 1
+          }]
+        }]
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 1000011
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94153900,
+      "noticeAt": 1770973200,
+      "openedAt": 1770973200,
+      "closedAt": 1772769599
+    }, {
+      "id": 94153901,
+      "name": "1節「カルデアへの道」",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 841001,
+      "warId": 8410,
+      "gifts": [{
+        "id": 94153905,
+        "type": "servant",
+        "objectId": 9409190,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 5000000,
+        "closedMessage": "『アフタータイムのはじまり』クリアで開放"
+      }, {
+        "type": "questClear",
+        "targetId": 94153900
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1, 2, 3],
+      "phasesNoBattle": [1, 2, 3],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9415390110",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415390110.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9415390120",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415390120.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9415390130",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415390130.txt"
+        }]
+      }],
+      "priority": 94153899,
+      "noticeAt": 1770973200,
+      "openedAt": 1770973200,
+      "closedAt": 1772769599
+    }, {
+      "id": 94153902,
+      "name": "2節「お母さん度数作戦」",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "70",
+      "spotId": 841001,
+      "warId": 8410,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94153901
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "eventTotalPoint",
+        "targetId": 80603,
+        "value": 25000,
+        "closedMessage": "豊穣ポイント25,000以上\n＆2月14日18時00分以降に開放"
+      }],
+      "phases": [1, 2],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9415390210",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415390210.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9415390220",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415390220.txt"
+        }, {
+          "scriptId": "9415390221",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415390221.txt"
+        }]
+      }],
+      "priority": 94153898,
+      "noticeAt": 1770973200,
+      "openedAt": 1771059600,
+      "closedAt": 1772769599
+    }, {
+      "id": 94154001,
+      "name": "度数調査 世情に構わず狩猟ツアー",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 30,
+      "afterClear": "repeatLast",
+      "recommendLv": "20",
+      "spotId": 841001,
+      "warId": 8410,
+      "gifts": [{
+        "id": 14000,
+        "objectId": 102,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94153900
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "priority": 94153893,
+      "noticeAt": 1770973200,
+      "openedAt": 1770973200,
+      "closedAt": 1772769599
+    }, {
+      "id": 94154002,
+      "name": "度数調査 新作チョコＣＭ撮影",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 35,
+      "afterClear": "repeatLast",
+      "recommendLv": "40",
+      "spotId": 841001,
+      "warId": 8410,
+      "gifts": [{
+        "id": 14000,
+        "objectId": 102,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94153900
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "priority": 94153892,
+      "noticeAt": 1770973200,
+      "openedAt": 1770973200,
+      "closedAt": 1772769599
+    }, {
+      "id": 94154003,
+      "name": "度数調査 数の自慢は悪い文明？",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "60",
+      "spotId": 841001,
+      "warId": 8410,
+      "gifts": [{
+        "id": 13000,
+        "objectId": 101,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94153900
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "priority": 94153891,
+      "noticeAt": 1770973200,
+      "openedAt": 1770973200,
+      "closedAt": 1772769599
+    }, {
+      "id": 94154004,
+      "name": "度数調査 舞姫のお悩み相談",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "70",
+      "spotId": 841001,
+      "warId": 8410,
+      "gifts": [{
+        "id": 13000,
+        "objectId": 101,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94153900
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "priority": 94153890,
+      "noticeAt": 1770973200,
+      "openedAt": 1770973200,
+      "closedAt": 1772769599
+    }, {
+      "id": 94154005,
+      "name": "度数調査 甘味に飽きたらどうしましょう",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "80",
+      "spotId": 841001,
+      "warId": 8410,
+      "gifts": [{
+        "id": 12000,
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94153900
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "priority": 94153889,
+      "noticeAt": 1770973200,
+      "openedAt": 1770973200,
+      "closedAt": 1772769599
+    }, {
+      "id": 94154006,
+      "name": "度数調査 チョコレート工場の機密",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "85",
+      "spotId": 841001,
+      "warId": 8410,
+      "gifts": [{
+        "id": 12000,
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94153900
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "priority": 94153888,
+      "noticeAt": 1770973200,
+      "openedAt": 1770973200,
+      "closedAt": 1772769599
+    }, {
+      "id": 94154007,
+      "name": "度数調査 新作チョコ即売会",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90",
+      "spotId": 841001,
+      "warId": 8410,
+      "gifts": [{
+        "id": 12000,
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94153900
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "priority": 94153887,
+      "noticeAt": 1770973200,
+      "openedAt": 1770973200,
+      "closedAt": 1772769599
+    }, {
+      "id": 94154008,
+      "name": "",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90+",
+      "spotId": 841001,
+      "warId": 8410,
+      "gifts": [{
+        "id": 327,
+        "objectId": 3,
+        "num": 100
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94153900
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "forceFalse",
+        "targetId": 0,
+        "closedMessage": "データ更新後に開放"
+      }],
+      "phases": [1],
+      "priority": 94153886,
+      "noticeAt": 1770973200,
+      "openedAt": 1771318800,
+      "closedAt": 1772769599
+    }, {
+      "id": 94154009,
+      "name": "",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90++",
+      "spotId": 841001,
+      "warId": 8410,
+      "gifts": [{
+        "id": 337,
+        "objectId": 3,
+        "num": 200
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94153900
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "forceFalse",
+        "targetId": 0,
+        "closedMessage": "データ更新後に開放"
+      }],
+      "phases": [1],
+      "priority": 94153885,
+      "noticeAt": 1770973200,
+      "openedAt": 1771318800,
+      "closedAt": 1772769599
+    }]
+  }]
 }]
