@@ -103618,6 +103618,7 @@
         "closedMessage": "豊穣ポイント25,000以上\n＆2月14日18時00分以降に開放"
       }],
       "phases": [1, 2],
+      "phasesWithEnemies": [2],
       "phasesNoBattle": [1],
       "phaseScripts": [{
         "phase": 1,
@@ -103667,6 +103668,7 @@
         "closedMessage": "豊穣ポイント60,000以上\n＆2月15日18時00分以降に開放"
       }],
       "phases": [1, 2, 3],
+      "phasesWithEnemies": [3],
       "phasesNoBattle": [1, 2],
       "phaseScripts": [{
         "phase": 1,
@@ -103693,6 +103695,43 @@
       "priority": 94153897,
       "noticeAt": 1771059600,
       "openedAt": 1771146000,
+      "closedAt": 1772769599
+    }, {
+      "id": 94153904,
+      "name": "",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "80",
+      "spotId": 841001,
+      "warId": 8410,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94153903
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "eventTotalPoint",
+        "targetId": 80603,
+        "value": 100000,
+        "closedMessage": "豊穣ポイント100,000以上\n＆2月16日18時00分以降に開放"
+      }, {
+        "type": "forceFalse",
+        "targetId": 0,
+        "closedMessage": "データ更新後に開放"
+      }],
+      "phases": [1, 2, 3],
+      "phasesNoBattle": [1],
+      "priority": 94153896,
+      "noticeAt": 1771146000,
+      "openedAt": 1771232400,
       "closedAt": 1772769599
     }, {
       "id": 94154001,
