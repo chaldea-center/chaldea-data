@@ -103698,7 +103698,7 @@
       "closedAt": 1772769599
     }, {
       "id": 94153904,
-      "name": "",
+      "name": "4節「お母さんチョコ現る！」",
       "type": "main",
       "consume": 5,
       "afterClear": "close",
@@ -103711,6 +103711,9 @@
         "num": 1
       }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 94153903
       }, {
@@ -103722,16 +103725,72 @@
         "targetId": 80603,
         "value": 100000,
         "closedMessage": "豊穣ポイント100,000以上\n＆2月16日18時00分以降に開放"
+      }],
+      "phases": [1, 2, 3],
+      "phasesWithEnemies": [3],
+      "phasesNoBattle": [1, 2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9415390410",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415390410.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9415390420",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415390420.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9415390430",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415390430.txt"
+        }, {
+          "scriptId": "9415390431",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415390431.txt"
+        }]
+      }],
+      "priority": 94153896,
+      "noticeAt": 1771146000,
+      "openedAt": 1771232400,
+      "closedAt": 1772769599
+    }, {
+      "id": 94153905,
+      "name": "",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "90",
+      "spotId": 841001,
+      "warId": 8410,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/3.png",
+      "gifts": [{
+        "id": 20058,
+        "objectId": 7999,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94153904
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "eventTotalPoint",
+        "targetId": 80603,
+        "value": 200000,
+        "closedMessage": "豊穣ポイント200,000以上\n＆2月17日18時00分以降に開放"
       }, {
         "type": "forceFalse",
         "targetId": 0,
         "closedMessage": "データ更新後に開放"
       }],
       "phases": [1, 2, 3],
-      "phasesNoBattle": [1],
-      "priority": 94153896,
-      "noticeAt": 1771146000,
-      "openedAt": 1771232400,
+      "priority": 94153895,
+      "noticeAt": 1771232400,
+      "openedAt": 1771318800,
       "closedAt": 1772769599
     }, {
       "id": 94154001,
