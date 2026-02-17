@@ -103757,7 +103757,7 @@
       "closedAt": 1772769599
     }, {
       "id": 94153905,
-      "name": "",
+      "name": "5節「愛のしるし」",
       "type": "main",
       "consume": 5,
       "afterClear": "close",
@@ -103766,11 +103766,19 @@
       "warId": 8410,
       "giftIcon": "https://static.atlasacademy.io/JP/Items/3.png",
       "gifts": [{
-        "id": 20058,
+        "id": 94153906,
+        "type": "servant",
+        "objectId": 9809860,
+        "num": 1
+      }, {
+        "id": 94153906,
         "objectId": 7999,
         "num": 1
       }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 94153904
       }, {
@@ -103782,12 +103790,29 @@
         "targetId": 80603,
         "value": 200000,
         "closedMessage": "豊穣ポイント200,000以上\n＆2月17日18時00分以降に開放"
-      }, {
-        "type": "forceFalse",
-        "targetId": 0,
-        "closedMessage": "データ更新後に開放"
       }],
       "phases": [1, 2, 3],
+      "phasesWithEnemies": [1],
+      "phasesNoBattle": [2, 3],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9415390510",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415390510.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9415390520",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415390520.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9415390530",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415390530.txt"
+        }]
+      }],
       "priority": 94153895,
       "noticeAt": 1771232400,
       "openedAt": 1771318800,
@@ -103997,7 +104022,7 @@
       "closedAt": 1772769599
     }, {
       "id": 94154008,
-      "name": "",
+      "name": "度数調査 チョコをつまみに大宴会",
       "type": "event",
       "flags": ["displayLoopmark"],
       "consume": 40,
@@ -104011,25 +104036,25 @@
         "num": 100
       }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 94153900
       }, {
         "type": "date",
         "targetId": 0,
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
-      }, {
-        "type": "forceFalse",
-        "targetId": 0,
-        "closedMessage": "データ更新後に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94153886,
       "noticeAt": 1770973200,
       "openedAt": 1771318800,
       "closedAt": 1772769599
     }, {
       "id": 94154009,
-      "name": "",
+      "name": "度数調査 幼き王へのお届けもの",
       "type": "event",
       "flags": ["displayLoopmark"],
       "consume": 40,
@@ -104043,6 +104068,41 @@
         "num": 200
       }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
+        "type": "questClear",
+        "targetId": 94153900
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "priority": 94153885,
+      "noticeAt": 1770973200,
+      "openedAt": 1771318800,
+      "closedAt": 1772769599
+    }, {
+      "id": 94154101,
+      "name": "",
+      "type": "event",
+      "flags": ["dropFirstTimeOnly", "notRetrievable", "notDisplayResultGetPoint"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "90+",
+      "spotId": 841001,
+      "warId": 8410,
+      "gifts": [{
+        "id": 21701,
+        "objectId": 6999,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 1000822,
+        "closedMessage": "終局特異点クリア\n＆2月18日18時00分以降に開放"
+      }, {
         "type": "questClear",
         "targetId": 94153900
       }, {
@@ -104055,9 +104115,9 @@
         "closedMessage": "データ更新後に開放"
       }],
       "phases": [1],
-      "priority": 94153885,
-      "noticeAt": 1770973200,
-      "openedAt": 1771318800,
+      "priority": 94153894,
+      "noticeAt": 1771318800,
+      "openedAt": 1771405200,
       "closedAt": 1772769599
     }]
   }]
