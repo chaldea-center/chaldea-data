@@ -45590,6 +45590,34 @@
     }]
   }]
 }, {
+  "funcId": 21391,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptFull",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "威力アップ・対やけど",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+  "buffs": [{
+    "id": 4695,
+    "name": "威力アップ〔やけど〕",
+    "detail": "〔やけど〕状態の敵に与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamageIndividuality",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3028
+    }],
+    "tvals": [{
+      "id": 3015
+    }],
+    "ckOpIndv": [{
+      "id": 3015
+    }],
+    "maxRate": 10000
+  }]
+}, {
   "funcId": 21392,
   "funcType": "addStateShort",
   "funcTargetType": "ptFull",
@@ -62397,6 +62425,74 @@
     "id": 10026
   }]
 }, {
+  "funcId": 23268,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "サスペンス・アクター",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+  "funcquestTvals": [{
+    "id": 94000183
+  }],
+  "funcGroup": [{
+    "eventId": 80604,
+    "baseFuncId": 23267,
+    "nameTotal": "{1} \n攻撃の威力アップ合計",
+    "name": "攻撃の威力アップ合計",
+    "icon": "https://static.atlasacademy.io/JP/EventUI/func_group_icon_302.png",
+    "priority": 300,
+    "isDispValue": true
+  }],
+  "buffs": [{
+    "id": 6048,
+    "name": "サスペンス・アクター",
+    "detail": "『CBC2026 マイ・カインド・オブ・アブダクション』において与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamage",
+    "maxRate": 10000
+  }]
+}, {
+  "funcId": 23269,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "サスペンス・アクター",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+  "funcquestTvals": [{
+    "id": 94000183
+  }],
+  "funcGroup": [{
+    "eventId": 80604,
+    "baseFuncId": 23267,
+    "nameTotal": "{1} \n攻撃の威力アップ合計",
+    "name": "攻撃の威力アップ合計",
+    "icon": "https://static.atlasacademy.io/JP/EventUI/func_group_icon_302.png",
+    "priority": 300,
+    "isDispValue": true
+  }],
+  "buffs": [{
+    "id": 6048,
+    "name": "サスペンス・アクター",
+    "detail": "『CBC2026 マイ・カインド・オブ・アブダクション』において与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamage",
+    "maxRate": 10000
+  }]
+}, {
+  "funcId": 23270,
+  "funcType": "servantFriendshipUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcGroup": [{
+    "eventId": 80604,
+    "baseFuncId": 0,
+    "nameTotal": "{1}\n自己効果により得られる絆アップ合計",
+    "name": "自己効果により得られる絆アップ",
+    "icon": "https://static.atlasacademy.io/JP/EventUI/func_group_icon_1009.png",
+    "priority": 200,
+    "isDispValue": true
+  }]
+}, {
   "funcId": 23274,
   "funcType": "addStateShort",
   "funcTargetType": "self",
@@ -62460,6 +62556,26 @@
   "funcTargetTeam": "playerAndEnemy",
   "functvals": [{
     "id": 302
+  }]
+}, {
+  "funcId": 23291,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "攻撃ダメージ前追加効果",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_528.png",
+  "buffs": [{
+    "id": 6053,
+    "name": "攻撃ダメージ前追加効果",
+    "detail": "攻撃時、ダメージ前に対象にやけど状態を付与",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_528.png",
+    "type": "attackBeforeFunction",
+    "vals": [{
+      "id": 3004
+    }],
+    "tvals": [{
+      "id": 5000
+    }]
   }]
 }, {
   "funcId": 30003,

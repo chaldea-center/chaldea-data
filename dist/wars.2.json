@@ -104160,4 +104160,184 @@
       "closedAt": 1772769599
     }]
   }]
+}, {
+  "id": 8411,
+  "coordinates": [
+    [],
+    []
+  ],
+  "age": "-",
+  "name": "CBC2026 マイ・カインド・オブ・アブダクション",
+  "longName": "CBC2026 マイ・カインド・オブ・アブダクション ～ふたりのモレーと果てなき遺産～",
+  "flags": ["isEvent", "noClearMarkWithComplete", "changeDispClosedMessage"],
+  "banner": "https://static.atlasacademy.io/JP/Banner/event_war_80575.png",
+  "priority": 10047,
+  "bgm": {
+    "id": 0
+  },
+  "script": "https://static.atlasacademy.io/JP/Script/Common/NONE.txt",
+  "eventId": 80604,
+  "eventName": "CBC2026 マイ・カインド・オブ・アブダクション\n～ふたりのモレーと果てなき遺産～",
+  "warAdds": [{
+    "warId": 8411,
+    "type": "bgImage",
+    "priority": 1,
+    "overwriteId": 279903,
+    "condType": "questClear",
+    "targetId": 94154401,
+    "startedAt": 1773219600,
+    "endedAt": 1774411199
+  }],
+  "maps": [{
+    "id": 8411,
+    "mapImage": "https://static.atlasacademy.io/JP/Terminal/MapImgs/img_questmap_008411/img_questmap_008411.png",
+    "bgm": {
+      "id": 0
+    }
+  }],
+  "spots": [{
+    "id": 841101,
+    "mapId": 8411,
+    "name": "カルデアゲート",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter8411/QMap_Cap8411_Atlas/spot_841101.png",
+    "quests": [{
+      "id": 94154401,
+      "name": "第1節 「ふたりのモレー」",
+      "type": "event",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "15",
+      "spotId": 841101,
+      "warId": 8411,
+      "gifts": [{
+        "id": 700892,
+        "objectId": 94154401,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 1000011
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9415440110",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415440110.txt"
+        }, {
+          "scriptId": "9415440111",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415440111.txt"
+        }]
+      }],
+      "priority": 94154400,
+      "noticeAt": 1773219600,
+      "openedAt": 1773219600,
+      "closedAt": 1774411199
+    }, {
+      "id": 94154402,
+      "name": "第2節 「デュボワ夫人誘拐事件」",
+      "type": "event",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "20",
+      "spotId": 841101,
+      "warId": 8411,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94154401
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1, 2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9415440210",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415440210.txt"
+        }, {
+          "scriptId": "9415440211",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415440211.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9415440220",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415440220.txt"
+        }, {
+          "scriptId": "9415440221",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415440221.txt"
+        }]
+      }],
+      "priority": 94154399,
+      "noticeAt": 1773219600,
+      "openedAt": 1773219600,
+      "closedAt": 1774411199
+    }, {
+      "id": 94154403,
+      "name": "第3節 「地の底で滾りし秘宝」",
+      "type": "event",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "25",
+      "spotId": 841101,
+      "warId": 8411,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94154402
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1, 2, 3],
+      "phasesNoBattle": [3],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9415440310",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415440310.txt"
+        }, {
+          "scriptId": "9415440311",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415440311.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9415440320",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415440320.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9415440330",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415440330.txt"
+        }]
+      }],
+      "priority": 94154398,
+      "noticeAt": 1773219600,
+      "openedAt": 1773306000,
+      "closedAt": 1774411199
+    }]
+  }, {
+    "id": 841102,
+    "mapId": 8411,
+    "name": "",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter8411/QMap_Cap8411_Atlas/spot_841102.png"
+  }]
 }]
