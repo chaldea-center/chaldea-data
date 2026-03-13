@@ -104359,6 +104359,7 @@
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
       }],
       "phases": [1, 2],
+      "phasesWithEnemies": [1, 2],
       "phaseScripts": [{
         "phase": 1,
         "scripts": [{
@@ -104500,6 +104501,45 @@
       "noticeAt": 1773342000,
       "openedAt": 1773342000,
       "closedAt": 1773428399
+    }, {
+      "id": 94154503,
+      "name": "「ジャック･ド･モレー(セイバー)からのメッセージ ホワイトデー当日」",
+      "type": "event",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 841102,
+      "warId": 8411,
+      "gifts": [{
+        "id": 94154400,
+        "objectId": 4001,
+        "num": 1
+      }, {
+        "id": 94154400,
+        "objectId": 94138218,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 1000011
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9415450310",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415450310.txt"
+        }]
+      }],
+      "priority": 94154298,
+      "noticeAt": 1773428400,
+      "openedAt": 1773428400,
+      "closedAt": 1773514799
     }]
   }]
 }]
