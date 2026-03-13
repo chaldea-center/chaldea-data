@@ -104338,7 +104338,7 @@
       "closedAt": 1774411199
     }, {
       "id": 94154404,
-      "name": "",
+      "name": "第4節 「崇高なる魂より生み出されし秘宝」",
       "type": "event",
       "consume": 5,
       "afterClear": "close",
@@ -104359,9 +104359,62 @@
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
       }],
       "phases": [1, 2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9415440410",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415440410.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9415440420",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415440420.txt"
+        }, {
+          "scriptId": "9415440421",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415440421.txt"
+        }]
+      }],
       "priority": 94154397,
       "noticeAt": 1773306000,
       "openedAt": 1773392400,
+      "closedAt": 1774411199
+    }, {
+      "id": 94154405,
+      "name": "第5節 「煌々脈々と這い巡りし秘宝」",
+      "type": "event",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "45",
+      "spotId": 841101,
+      "warId": 8411,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94154404
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9415440510",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415440510.txt"
+        }, {
+          "scriptId": "9415440511",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415440511.txt"
+        }]
+      }],
+      "priority": 94154396,
+      "noticeAt": 1773392400,
+      "openedAt": 1773478800,
       "closedAt": 1774411199
     }]
   }, {
