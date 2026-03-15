@@ -104420,7 +104420,7 @@
       "closedAt": 1774411199
     }, {
       "id": 94154406,
-      "name": "",
+      "name": "第6節 「マイ・カインド・オブ・アブダクション」",
       "type": "event",
       "consume": 0,
       "afterClear": "close",
@@ -104441,10 +104441,69 @@
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
       }],
       "phases": [1, 2],
+      "phasesWithEnemies": [2],
       "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9415440610",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415440610.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9415440620",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415440620.txt"
+        }, {
+          "scriptId": "9415440621",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415440621.txt"
+        }]
+      }],
       "priority": 94154395,
       "noticeAt": 1773478800,
       "openedAt": 1773565200,
+      "closedAt": 1774411199
+    }, {
+      "id": 94154407,
+      "name": "第7節 「覚悟の刻」",
+      "type": "event",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 841101,
+      "warId": 8411,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94154406
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1, 2],
+      "phasesNoBattle": [1, 2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9415440710",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415440710.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9415440720",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415440720.txt"
+        }]
+      }],
+      "priority": 94154394,
+      "noticeAt": 1773565200,
+      "openedAt": 1773651600,
       "closedAt": 1774411199
     }]
   }, {
