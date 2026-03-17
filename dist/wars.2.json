@@ -104178,7 +104178,23 @@
   "script": "https://static.atlasacademy.io/JP/Script/Common/NONE.txt",
   "eventId": 80604,
   "eventName": "CBC2026 マイ・カインド・オブ・アブダクション\n～ふたりのモレーと果てなき遺産～",
+  "releaseConditions": [{
+    "priority": 1,
+    "condType": "commonRelease",
+    "condId": 94154401,
+    "warDisplayType": "close",
+    "closedDialogMessage": "期間限定イベント\n『CBC2026 マイ･カインド･オブ･アブダクション』\nは終了しました。"
+  }],
   "warAdds": [{
+    "warId": 8411,
+    "type": "priority",
+    "priority": 0,
+    "overwriteId": 0,
+    "condType": "questClear",
+    "targetId": 94154409,
+    "startedAt": 1773738000,
+    "endedAt": 1774411199
+  }, {
     "warId": 8411,
     "type": "bgImage",
     "priority": 1,
@@ -104507,16 +104523,15 @@
       "closedAt": 1774411199
     }, {
       "id": 94154408,
-      "name": "",
+      "name": "第8節 「祖より連綿と受け継がれし秘宝」",
       "type": "event",
       "consume": 5,
       "afterClear": "close",
       "recommendLv": "40",
       "spotId": 841101,
       "warId": 8411,
-      "giftIcon": "https://static.atlasacademy.io/JP/Items/3.png",
       "gifts": [{
-        "id": 10094,
+        "id": 94154406,
         "objectId": 1,
         "num": 10000000
       }],
@@ -104528,9 +104543,70 @@
         "targetId": 0,
         "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
       }],
+      "presents": [{
+        "phase": 2,
+        "gifts": [{
+          "id": 94154405,
+          "objectId": 7999,
+          "num": 1
+        }],
+        "giftIcon": "https://static.atlasacademy.io/JP/Items/3.png"
+      }],
       "phases": [1, 2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9415440810",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415440810.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9415440820",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415440820.txt"
+        }, {
+          "scriptId": "9415440821",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415440821.txt"
+        }]
+      }],
       "priority": 94154393,
       "noticeAt": 1773651600,
+      "openedAt": 1773738000,
+      "closedAt": 1774411199
+    }, {
+      "id": 94154409,
+      "name": "エピローグ 「果てなき遺産」",
+      "type": "event",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 841101,
+      "warId": 8411,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94154408
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9415440910",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415440910.txt"
+        }]
+      }],
+      "priority": 94154392,
+      "noticeAt": 1773738000,
       "openedAt": 1773738000,
       "closedAt": 1774411199
     }]
