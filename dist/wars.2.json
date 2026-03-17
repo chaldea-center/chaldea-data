@@ -104553,6 +104553,7 @@
         "giftIcon": "https://static.atlasacademy.io/JP/Items/3.png"
       }],
       "phases": [1, 2],
+      "phasesWithEnemies": [1, 2],
       "phaseScripts": [{
         "phase": 1,
         "scripts": [{
@@ -104849,6 +104850,45 @@
       "noticeAt": 1773687600,
       "openedAt": 1773687600,
       "closedAt": 1773773999
+    }, {
+      "id": 94154507,
+      "name": "「ジャック･ド･モレー(セイバー)からのメッセージ 7日目」",
+      "type": "event",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 841102,
+      "warId": 8411,
+      "gifts": [{
+        "id": 94154400,
+        "objectId": 4001,
+        "num": 1
+      }, {
+        "id": 94154400,
+        "objectId": 94138218,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 1000011
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9415450710",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415450710.txt"
+        }]
+      }],
+      "priority": 94154294,
+      "noticeAt": 1773774000,
+      "openedAt": 1773774000,
+      "closedAt": 1773860399
     }]
   }]
 }]
