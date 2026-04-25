@@ -7431,6 +7431,34 @@
     "maxRate": 5000
   }]
 }, {
+  "funcId": 527,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "威力アップ・対女性",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+  "buffs": [{
+    "id": 193,
+    "name": "威力アップ〔女性〕",
+    "detail": "〔女性〕に与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamage",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3028
+    }],
+    "tvals": [{
+      "id": 2
+    }],
+    "ckOpIndv": [{
+      "id": 2
+    }],
+    "maxRate": 10000
+  }]
+}, {
   "funcId": 528,
   "funcType": "addStateShort",
   "funcTargetType": "self",
@@ -16527,6 +16555,34 @@
     "ckOpIndv": [{
       "id": 3025
     }]
+  }]
+}, {
+  "funcId": 3239,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "威力アップ・対混沌",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+  "buffs": [{
+    "id": 1460,
+    "name": "威力アップ〔混沌〕",
+    "detail": "〔混沌〕特性に与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamage",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3028
+    }],
+    "tvals": [{
+      "id": 301
+    }],
+    "ckOpIndv": [{
+      "id": 301
+    }],
+    "maxRate": 10000
   }]
 }, {
   "funcId": 3240,
@@ -43976,6 +44032,36 @@
     "maxRate": 5000
   }]
 }, {
+  "funcId": 21236,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptFull",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "宝具威力アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_310.png",
+  "buffs": [{
+    "id": 5497,
+    "name": "宝具威力アップ",
+    "detail": "宝具で与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_310.png",
+    "type": "upNpdamage",
+    "script": {
+      "INDIVIDUALITIE": {
+        "id": 301
+      }
+    },
+    "originalScript": {
+      "INDIVIDUALITIE": 301
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3030
+    }],
+    "maxRate": 5000
+  }]
+}, {
   "funcId": 21237,
   "funcType": "addStateShort",
   "funcTargetType": "ptFull",
@@ -43995,6 +44081,36 @@
     },
     "originalScript": {
       "INDIVIDUALITIE": 301
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3030
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 21239,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptFull",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "宝具威力アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_310.png",
+  "buffs": [{
+    "id": 5491,
+    "name": "宝具威力アップ",
+    "detail": "宝具で与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_310.png",
+    "type": "upNpdamage",
+    "script": {
+      "INDIVIDUALITIE": {
+        "id": 304
+      }
+    },
+    "originalScript": {
+      "INDIVIDUALITIE": 304
     },
     "vals": [{
       "id": 3004
@@ -62783,6 +62899,157 @@
     }]
   }]
 }, {
+  "funcId": 23293,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "stranger Folklore",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+  "funcquestTvals": [{
+    "id": 94000185
+  }],
+  "funcGroup": [{
+    "eventId": 80608,
+    "baseFuncId": 23292,
+    "nameTotal": "{1} \n攻撃の威力アップ合計",
+    "name": "攻撃の威力アップ合計",
+    "icon": "https://static.atlasacademy.io/JP/EventUI/func_group_icon_302.png",
+    "priority": 300,
+    "isDispValue": true
+  }],
+  "buffs": [{
+    "id": 6054,
+    "name": "stranger Folklore",
+    "detail": "『Fate/strange Fakeコラボイベント』において与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamage",
+    "maxRate": 10000
+  }]
+}, {
+  "funcId": 23294,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "stranger Folklore",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+  "funcquestTvals": [{
+    "id": 94000185
+  }],
+  "funcGroup": [{
+    "eventId": 80608,
+    "baseFuncId": 23292,
+    "nameTotal": "{1} \n攻撃の威力アップ合計",
+    "name": "攻撃の威力アップ合計",
+    "icon": "https://static.atlasacademy.io/JP/EventUI/func_group_icon_302.png",
+    "priority": 300,
+    "isDispValue": true
+  }],
+  "buffs": [{
+    "id": 6054,
+    "name": "stranger Folklore",
+    "detail": "『Fate/strange Fakeコラボイベント』において与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamage",
+    "maxRate": 10000
+  }]
+}, {
+  "funcId": 23295,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "威力アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+  "funcquestTvals": [{
+    "id": 94000185
+  }],
+  "funcGroup": [{
+    "eventId": 80608,
+    "baseFuncId": 23292,
+    "nameTotal": "{1} \n攻撃の威力アップ合計",
+    "name": "攻撃の威力アップ合計",
+    "icon": "https://static.atlasacademy.io/JP/EventUI/func_group_icon_302.png",
+    "priority": 300,
+    "isDispValue": true
+  }],
+  "buffs": [{
+    "id": 6055,
+    "name": "威力アップ",
+    "detail": "『Fate/strange Fakeコラボイベント』において与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamage",
+    "maxRate": 10000
+  }]
+}, {
+  "funcId": 23296,
+  "funcType": "servantFriendshipUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcGroup": [{
+    "eventId": 80608,
+    "baseFuncId": 0,
+    "nameTotal": "{1}\n自己効果により得られる絆アップ合計",
+    "name": "自己効果により得られる絆アップ",
+    "icon": "https://static.atlasacademy.io/JP/EventUI/func_group_icon_1009.png",
+    "priority": 200,
+    "isDispValue": true
+  }]
+}, {
+  "funcId": 23297,
+  "funcType": "eventDropUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcGroup": [{
+    "eventId": 80608,
+    "baseFuncId": 0,
+    "nameTotal": "{0}\n獲得数ボーナス合計",
+    "name": "{0}獲得数アップ",
+    "icon": "https://static.atlasacademy.io/JP/Items/94155603.png",
+    "priority": 3000,
+    "isDispValue": true
+  }]
+}, {
+  "funcId": 23298,
+  "funcType": "eventDropUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcGroup": [{
+    "eventId": 80608,
+    "baseFuncId": 0,
+    "nameTotal": "{0}\n獲得数ボーナス合計",
+    "name": "{0}獲得数アップ",
+    "icon": "https://static.atlasacademy.io/JP/Items/94155602.png",
+    "priority": 2000,
+    "isDispValue": true
+  }]
+}, {
+  "funcId": 23299,
+  "funcType": "eventDropUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcGroup": [{
+    "eventId": 80608,
+    "baseFuncId": 0,
+    "nameTotal": "{0}\n獲得数ボーナス合計",
+    "name": "{0}獲得数アップ",
+    "icon": "https://static.atlasacademy.io/JP/Items/94155601.png",
+    "priority": 1000,
+    "isDispValue": true
+  }]
+}, {
+  "funcId": 23300,
+  "funcType": "servantFriendshipUp",
+  "funcTargetType": "ptFull",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcGroup": [{
+    "eventId": 80608,
+    "baseFuncId": 0,
+    "nameTotal": "{1}\n全体効果により得られる絆アップ合計",
+    "name": "全体効果により得られる絆アップ",
+    "icon": "https://static.atlasacademy.io/JP/EventUI/func_group_icon_1023.png",
+    "priority": 100,
+    "isDispValue": true
+  }]
+}, {
   "funcId": 23301,
   "funcType": "addState",
   "funcTargetType": "self",
@@ -62811,6 +63078,111 @@
       "id": 3040
     }, {
       "id": 3058
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 23327,
+  "funcType": "addStateShort",
+  "funcTargetType": "enemyAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "宝具威力耐性ダウン",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_574.png",
+  "buffs": [{
+    "id": 6059,
+    "name": "宝具威力耐性ダウン",
+    "detail": "宝具攻撃で受けるダメージが増える",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_574.png",
+    "type": "downDefenceNpdamage",
+    "vals": [{
+      "id": 3005
+    }, {
+      "id": 3009
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 23329,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "クリティカル威力アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_324.png",
+  "functvals": [{
+    "id": 2
+  }],
+  "buffs": [{
+    "id": 142,
+    "name": "クリティカル威力アップ",
+    "detail": "クリティカル時のダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_324.png",
+    "type": "upCriticaldamage",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3031
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 23331,
+  "funcType": "addState",
+  "funcTargetType": "ptOther",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "回避",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_305.png",
+  "functvals": [{
+    "id": 2667
+  }],
+  "buffs": [{
+    "id": 151,
+    "name": "回避",
+    "detail": "攻撃によるダメージを0にする",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_305.png",
+    "type": "avoidance",
+    "buffGroup": 200,
+    "originalScript": {
+      "ProgressSelfTurn": 0
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3018
+    }, {
+      "id": 3021
+    }, {
+      "id": 3007
+    }]
+  }]
+}, {
+  "funcId": 23344,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptFull",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "クリティカル威力アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_324.png",
+  "buffs": [{
+    "id": 6062,
+    "name": "クリティカル威力アップ",
+    "detail": "クリティカル時のダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_324.png",
+    "type": "upCriticaldamage",
+    "script": {
+      "INDIVIDUALITIE": {
+        "id": 2
+      }
+    },
+    "originalScript": {
+      "INDIVIDUALITIE": 2
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3031
     }],
     "maxRate": 5000
   }]
