@@ -63205,6 +63205,71 @@
     }]
   }]
 }, {
+  "funcId": 23333,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "威力アップ・対中立",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+  "buffs": [{
+    "id": 6060,
+    "name": "威力アップ〔中立〕",
+    "detail": "〔中立〕特性に与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamage",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3028
+    }],
+    "tvals": [{
+      "id": 302
+    }],
+    "ckOpIndv": [{
+      "id": 302
+    }],
+    "maxRate": 10000
+  }]
+}, {
+  "funcId": 23341,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "攻撃ダメージ前追加効果",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_333.png",
+  "buffs": [{
+    "id": 6061,
+    "name": "攻撃ダメージ前追加効果",
+    "detail": "攻撃時、ダメージ前に自身のクリティカル威力をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_333.png",
+    "type": "attackBeforeFunctionMainOnly",
+    "vals": [{
+      "id": 3004
+    }],
+    "tvals": [{
+      "id": 5000
+    }]
+  }]
+}, {
+  "funcId": 23342,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "〔呪い〕回復化",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_375.png",
+  "buffs": [{
+    "id": 5983,
+    "name": "〔呪い〕回復化",
+    "detail": "呪いによるダメージをHP回復効果に変換する",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_375.png",
+    "type": "hpReduceToRegain",
+    "vals": [{
+      "id": 3004
+    }]
+  }]
+}, {
   "funcId": 23344,
   "funcType": "addStateShort",
   "funcTargetType": "ptFull",
@@ -63233,6 +63298,34 @@
       "id": 3031
     }],
     "maxRate": 5000
+  }]
+}, {
+  "funcId": 23346,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptFull",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "威力アップ・対中立",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+  "buffs": [{
+    "id": 6060,
+    "name": "威力アップ〔中立〕",
+    "detail": "〔中立〕特性に与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamage",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3028
+    }],
+    "tvals": [{
+      "id": 302
+    }],
+    "ckOpIndv": [{
+      "id": 302
+    }],
+    "maxRate": 10000
   }]
 }, {
   "funcId": 30003,
