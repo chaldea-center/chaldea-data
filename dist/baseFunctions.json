@@ -10674,6 +10674,11 @@
   "funcTargetType": "enemy",
   "funcTargetTeam": "playerAndEnemy",
   "funcPopupText": "回避解除",
+  "script": {
+    "funcIndividuality": [{
+      "id": 3051
+    }]
+  },
   "traitVals": [{
     "id": 3021
   }]
@@ -11871,7 +11876,7 @@
   "funcPopupText": "ガッツ解除",
   "script": {
     "funcIndividuality": [{
-      "id": 3138
+      "id": 3051
     }]
   },
   "traitVals": [{
@@ -12385,6 +12390,11 @@
   "funcTargetType": "enemy",
   "funcTargetTeam": "playerAndEnemy",
   "funcPopupText": "無敵解除",
+  "script": {
+    "funcIndividuality": [{
+      "id": 3051
+    }]
+  },
   "traitVals": [{
     "id": 3018
   }]
@@ -14732,6 +14742,11 @@
   "funcTargetType": "enemyAll",
   "funcTargetTeam": "playerAndEnemy",
   "funcPopupText": "攻撃強化解除",
+  "script": {
+    "funcIndividuality": [{
+      "id": 3051
+    }]
+  },
   "traitVals": [{
     "id": 3006
   }]
@@ -18688,6 +18703,11 @@
   "functvals": [{
     "id": 2000
   }],
+  "script": {
+    "funcIndividuality": [{
+      "id": 3051
+    }]
+  },
   "traitVals": [{
     "id": 3007
   }]
@@ -19783,6 +19803,11 @@
   "funcquestTvals": [{
     "id": 2039
   }],
+  "script": {
+    "funcIndividuality": [{
+      "id": 3051
+    }]
+  },
   "traitVals": [{
     "id": 3021
   }]
@@ -22283,7 +22308,7 @@
   "funcPopupText": "強化解除",
   "script": {
     "funcIndividuality": [{
-      "id": 3138
+      "id": 3051
     }]
   },
   "traitVals": [{
@@ -25369,6 +25394,11 @@
   "funcTargetType": "enemyAll",
   "funcTargetTeam": "playerAndEnemy",
   "funcPopupText": "必中解除",
+  "script": {
+    "funcIndividuality": [{
+      "id": 3051
+    }]
+  },
   "traitVals": [{
     "id": 3019
   }]
@@ -38647,6 +38677,36 @@
     "maxRate": 5000
   }]
 }, {
+  "funcId": 9955,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptOne",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "Extra Attackアップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_388.png",
+  "buffs": [{
+    "id": 5242,
+    "name": "Extra Attackアップ",
+    "detail": "Extra Attackカードの性能をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_388.png",
+    "type": "upCommandall",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3100
+    }],
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4004
+    }],
+    "ckSelfIndv": [{
+      "id": 4004
+    }],
+    "maxRate": 5000
+  }]
+}, {
   "funcId": 9958,
   "funcType": "addStateShort",
   "funcTargetType": "ptAll",
@@ -39103,7 +39163,7 @@
   "funcPopupText": "ガッツ解除",
   "script": {
     "funcIndividuality": [{
-      "id": 3138
+      "id": 3051
     }]
   },
   "traitVals": [{
@@ -40428,7 +40488,7 @@
   "funcPopupText": "強化解除",
   "script": {
     "funcIndividuality": [{
-      "id": 3138
+      "id": 3051
     }]
   },
   "traitVals": [{
@@ -40442,7 +40502,7 @@
   "funcPopupText": "強化解除",
   "script": {
     "funcIndividuality": [{
-      "id": 3138
+      "id": 3051
     }]
   },
   "traitVals": [{
@@ -46913,7 +46973,7 @@
   "funcPopupText": "強化解除",
   "script": {
     "funcIndividuality": [{
-      "id": 3098
+      "id": 3051
     }]
   },
   "traitVals": [{
@@ -47142,7 +47202,7 @@
   "funcPopupText": "防御強化解除",
   "script": {
     "funcIndividuality": [{
-      "id": 3098
+      "id": 3051
     }]
   },
   "traitVals": [{
@@ -47356,7 +47416,7 @@
   "funcPopupText": "防御強化解除",
   "script": {
     "funcIndividuality": [{
-      "id": 3098
+      "id": 3051
     }]
   },
   "traitVals": [{
@@ -48019,7 +48079,7 @@
   "funcPopupText": "強化付与アップ解除",
   "script": {
     "funcIndividuality": [{
-      "id": 3098
+      "id": 3051
     }]
   },
   "traitVals": [{
@@ -56463,7 +56523,7 @@
   "funcPopupText": "強化解除",
   "script": {
     "funcIndividuality": [{
-      "id": 3114
+      "id": 3051
     }]
   },
   "traitVals": [{
