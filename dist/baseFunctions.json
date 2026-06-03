@@ -20788,6 +20788,10 @@
             "beastVII": {
               "damageRate": 2000,
               "type": "overwriteForce"
+            },
+            "44": {
+              "damageRate": 2000,
+              "type": "overwriteForce"
             }
           }
         },
@@ -20960,6 +20964,12 @@
             }
           },
           "beastVII": {
+            "caster": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            }
+          },
+          "44": {
             "caster": {
               "damageRate": 1000,
               "type": "overwriteMoreThanTarget"
@@ -22106,6 +22116,76 @@
             }
           },
           "beastVII": {
+            "saber": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "archer": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "lancer": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "rider": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "caster": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "assassin": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "berserker": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "shielder": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "ruler": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "alterEgo": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "avenger": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "moonCancer": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "foreigner": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "pretender": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "beast": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "beastEresh": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "unBeastOlgaMarie": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            }
+          },
+          "44": {
             "saber": {
               "damageRate": 1000,
               "type": "overwriteMoreThanTarget"
@@ -63490,6 +63570,88 @@
     "id": 100
   }]
 }, {
+  "funcId": 23410,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "通常攻撃時追加効果",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_528.png",
+  "buffs": [{
+    "id": 6072,
+    "name": "通常攻撃時追加効果",
+    "detail": "通常攻撃時、対象の強化状態を1つ解除＆〔過去改竄〕状態を付与",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_528.png",
+    "type": "commandattackAfterFunction",
+    "vals": [{
+      "id": 3004
+    }],
+    "tvals": [{
+      "id": 5000
+    }]
+  }]
+}, {
+  "funcId": 23411,
+  "funcType": "addState",
+  "funcTargetType": "enemy",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "過去改竄",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_615.png",
+  "buffs": [{
+    "id": 6073,
+    "name": "過去改竄",
+    "detail": "過去を改竄された状態(弱体扱い)",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_615.png",
+    "type": "addIndividuality",
+    "vals": [{
+      "id": 3005
+    }]
+  }]
+}, {
+  "funcId": 23412,
+  "funcType": "addState",
+  "funcTargetType": "enemyAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "過去改竄",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_615.png",
+  "buffs": [{
+    "id": 6073,
+    "name": "過去改竄",
+    "detail": "過去を改竄された状態(弱体扱い)",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_615.png",
+    "type": "addIndividuality",
+    "vals": [{
+      "id": 3005
+    }]
+  }]
+}, {
+  "funcId": 23413,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "毎ターン発動",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_343.png",
+  "buffs": [{
+    "id": 6074,
+    "name": "毎ターン発動",
+    "detail": "敵ターン終了時、敵全体の強化状態を1つ解除＆〔過去改竄〕状態を付与 ＋ 味方全体の弱体状態を1つ解除",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_343.png",
+    "type": "delayFunction",
+    "vals": [{
+      "id": 3004
+    }]
+  }]
+}, {
+  "funcId": 23414,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "buffs": [{
+    "id": 6075,
+    "name": "",
+    "detail": "",
+    "type": "delayFunction"
+  }]
+}, {
   "funcId": 30003,
   "funcType": "addStateShort",
   "funcTargetType": "self",
@@ -64824,6 +64986,8 @@
       "id": 129
     }, {
       "id": 136
+    }, {
+      "id": 137
     }],
     "ckOpIndv": [{
       "id": 111
@@ -64853,6 +65017,8 @@
       "id": 129
     }, {
       "id": 136
+    }, {
+      "id": 137
     }],
     "maxRate": 5000
   }]
