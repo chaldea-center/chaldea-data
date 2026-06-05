@@ -34586,6 +34586,36 @@
     "maxRate": 10000
   }]
 }, {
+  "funcId": 8455,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptOther",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "アーツアップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_313.png",
+  "buffs": [{
+    "id": 101,
+    "name": "Artsアップ",
+    "detail": "Artsカードの性能をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_313.png",
+    "type": "upCommandall",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3092
+    }],
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4001
+    }],
+    "ckSelfIndv": [{
+      "id": 4001
+    }],
+    "maxRate": 5000
+  }]
+}, {
   "funcId": 8457,
   "funcType": "addStateShort",
   "funcTargetType": "self",
@@ -63591,6 +63621,25 @@
   "funcTargetTeam": "playerAndEnemy",
   "functvals": [{
     "id": 100
+  }]
+}, {
+  "funcId": 23407,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptOther",
+  "funcTargetTeam": "player",
+  "funcPopupText": "毎ターンNP獲得",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_319.png",
+  "buffs": [{
+    "id": 119,
+    "name": "毎ターンNP獲得",
+    "detail": "ターン終了時にNPが増える",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_319.png",
+    "type": "regainNp",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3080
+    }]
   }]
 }, {
   "funcId": 23410,
