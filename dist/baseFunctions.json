@@ -33321,6 +33321,29 @@
     "maxRate": 5000
   }]
 }, {
+  "funcId": 8028,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "NP獲得アップ：Buster",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_303.png",
+  "buffs": [{
+    "id": 3995,
+    "name": "NP獲得アップ：Buster",
+    "detail": "BusterカードのNP獲得量をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_303.png",
+    "type": "upDropnp",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3084
+    }],
+    "ckSelfIndv": [{
+      "id": 4002
+    }],
+    "maxRate": 5000
+  }]
+}, {
   "funcId": 8050,
   "funcType": "addStateShort",
   "funcTargetType": "ptAll",
@@ -64248,6 +64271,38 @@
     "id": 2950
   }]
 }, {
+  "funcId": 23449,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "威力アップ・対霊体",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+  "buffs": [{
+    "id": 6082,
+    "name": "威力アップ〔霊体〕",
+    "detail": "〔霊体(死霊またはサーヴァント)〕に与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamage",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3028
+    }],
+    "tvals": [{
+      "id": 1002
+    }, {
+      "id": 1000
+    }],
+    "ckOpIndv": [{
+      "id": 1002
+    }, {
+      "id": 1000
+    }],
+    "maxRate": 10000
+  }]
+}, {
   "funcId": 23451,
   "funcType": "forceInstantDeath",
   "funcTargetType": "self",
@@ -64283,6 +64338,38 @@
     }],
     "ckOpIndv": [{
       "id": 3039
+    }],
+    "maxRate": 10000
+  }]
+}, {
+  "funcId": 23455,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptFull",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "威力アップ・対霊体",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+  "buffs": [{
+    "id": 6082,
+    "name": "威力アップ〔霊体〕",
+    "detail": "〔霊体(死霊またはサーヴァント)〕に与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamage",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3028
+    }],
+    "tvals": [{
+      "id": 1002
+    }, {
+      "id": 1000
+    }],
+    "ckOpIndv": [{
+      "id": 1002
+    }, {
+      "id": 1000
     }],
     "maxRate": 10000
   }]
