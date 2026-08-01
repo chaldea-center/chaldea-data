@@ -113457,6 +113457,154 @@
     }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
   }]
 }, {
+  "id": 980106,
+  "name": "青春号令",
+  "ruby": "せいしゅんごうれい",
+  "unmodifiedDetail": "味方全体のArtsカード性能をアップ[{0}](1ターン)＆宝具威力をアップ[{0}](1ターン)",
+  "type": "active",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00305.png",
+  "coolDown": [15, 15, 15, 15, 15, 14, 14, 14, 14, 13],
+  "functions": [{
+    "funcId": 116,
+    "svals": [{
+      "Rate": 5000,
+      "Turn": 1,
+      "Count": -1,
+      "Value": 100
+    }, {
+      "Value": 110
+    }, {
+      "Value": 120
+    }, {
+      "Value": 130
+    }, {
+      "Value": 140
+    }, {
+      "Value": 150
+    }, {
+      "Value": 160
+    }, {
+      "Value": 170
+    }, {
+      "Value": 180
+    }, {
+      "Value": 200
+    }]
+  }, {
+    "funcId": 254,
+    "svals": [{
+      "Rate": 5000,
+      "Turn": 1,
+      "Count": -1,
+      "Value": 100
+    }, {
+      "Value": 110
+    }, {
+      "Value": 120
+    }, {
+      "Value": 130
+    }, {
+      "Value": 140
+    }, {
+      "Value": 150
+    }, {
+      "Value": 160
+    }, {
+      "Value": 170
+    }, {
+      "Value": 180
+    }, {
+      "Value": 200
+    }]
+  }]
+}, {
+  "id": 980107,
+  "name": "緊急早退",
+  "ruby": "きんきゅうそうたい",
+  "unmodifiedDetail": "味方単体に回避状態を付与(1ターン)＆毒・呪い・やけど状態を解除",
+  "type": "active",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00402.png",
+  "coolDown": [18, 18, 18, 18, 18, 17, 17, 17, 17, 16],
+  "functions": [{
+    "funcId": 284,
+    "svals": [{
+      "Rate": 5000,
+      "Turn": 1,
+      "Count": -1
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 5661,
+    "svals": [{
+      "Rate": 5000,
+      "NoCheckIndividualityIfNotUnit": 1
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }]
+}, {
+  "id": 980108,
+  "name": "応急早弁",
+  "ruby": "おうきゅうはやべん",
+  "unmodifiedDetail": "味方単体のHPを回復[{0}]＆NPを増やす＆クリティカル威力をアップ[{0}](1ターン)",
+  "type": "active",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00600.png",
+  "coolDown": [15, 15, 15, 15, 15, 14, 14, 14, 14, 13],
+  "functions": [{
+    "funcId": 442,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 1000
+    }, {
+      "Value": 1200
+    }, {
+      "Value": 1400
+    }, {
+      "Value": 1600
+    }, {
+      "Value": 1800
+    }, {
+      "Value": 2000
+    }, {
+      "Value": 2200
+    }, {
+      "Value": 2400
+    }, {
+      "Value": 2600
+    }, {
+      "Value": 3000
+    }]
+  }, {
+    "funcId": 462,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 1000
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 203,
+    "svals": [{
+      "Rate": 5000,
+      "Turn": 1,
+      "Count": -1,
+      "Value": 200
+    }, {
+      "Value": 210
+    }, {
+      "Value": 220
+    }, {
+      "Value": 230
+    }, {
+      "Value": 240
+    }, {
+      "Value": 250
+    }, {
+      "Value": 260
+    }, {
+      "Value": 270
+    }, {
+      "Value": 280
+    }, {
+      "Value": 300
+    }]
+  }]
+}, {
   "id": 990001,
   "name": "頑強",
   "ruby": "がんきょう",
@@ -249771,6 +249919,33 @@
     }]
   }]
 }, {
+  "id": 995318,
+  "name": "人理保障の長",
+  "ruby": "じんりほしょうのちょう",
+  "unmodifiedDetail": "刻印されたカードのNP獲得量を10%アップ ＋ 刻印されたカードによる攻撃時にスターを1個獲得",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00602.png",
+  "coolDown": [0],
+  "functions": [{
+    "funcId": 5623,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 100
+    }]
+  }, {
+    "funcId": 21636,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 995425,
+      "Value2": 1,
+      "ShowState": -1
+    }]
+  }]
+}, {
   "id": 995361,
   "name": "星見の回廊",
   "ruby": "-",
@@ -249821,6 +249996,1159 @@
   }]
 }, {
   "id": 995364,
+  "name": "",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_999999.png",
+  "coolDown": [0],
+  "functions": [{
+    "funcId": 475,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 1
+    }]
+  }]
+}, {
+  "id": 995365,
+  "name": "英霊学装：アーサー・ペンドラゴン",
+  "ruby": "-",
+  "unmodifiedDetail": "サポートで得られるフレンドポイントが＋10される(重複可能)",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00202.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9311970,
+    "num": 1,
+    "priority": 1
+  }],
+  "functions": [{
+    "funcId": 5607,
+    "svals": [{
+      "AddCount": 10
+    }]
+  }]
+}, {
+  "id": 995366,
+  "name": "英霊学装：アスカラポス",
+  "ruby": "-",
+  "unmodifiedDetail": "サポートで得られるフレンドポイントが＋10される(重複可能)",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00202.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9311980,
+    "num": 1,
+    "priority": 1
+  }],
+  "functions": [{
+    "funcId": 5607,
+    "svals": [{
+      "AddCount": 10
+    }]
+  }]
+}, {
+  "id": 995367,
+  "name": "英霊学装：アスクレピオス",
+  "ruby": "-",
+  "unmodifiedDetail": "サポートで得られるフレンドポイントが＋10される(重複可能)",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00202.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9311990,
+    "num": 1,
+    "priority": 1
+  }],
+  "functions": [{
+    "funcId": 5607,
+    "svals": [{
+      "AddCount": 10
+    }]
+  }]
+}, {
+  "id": 995368,
+  "name": "英霊学装：アムール〔カレン〕",
+  "ruby": "-",
+  "unmodifiedDetail": "サポートで得られるフレンドポイントが＋10される(重複可能)",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00202.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9312000,
+    "num": 1,
+    "priority": 1
+  }],
+  "functions": [{
+    "funcId": 5607,
+    "svals": [{
+      "AddCount": 10
+    }]
+  }]
+}, {
+  "id": 995369,
+  "name": "英霊学装：アレキサンダー",
+  "ruby": "-",
+  "unmodifiedDetail": "サポートで得られるフレンドポイントが＋10される(重複可能)",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00202.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9312010,
+    "num": 1,
+    "priority": 1
+  }],
+  "functions": [{
+    "funcId": 5607,
+    "svals": [{
+      "AddCount": 10
+    }]
+  }]
+}, {
+  "id": 995370,
+  "name": "英霊学装：イアソン",
+  "ruby": "-",
+  "unmodifiedDetail": "サポートで得られるフレンドポイントが＋10される(重複可能)",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00202.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9312020,
+    "num": 1,
+    "priority": 1
+  }],
+  "functions": [{
+    "funcId": 5607,
+    "svals": [{
+      "AddCount": 10
+    }]
+  }]
+}, {
+  "id": 995371,
+  "name": "英霊学装：イリヤスフィール",
+  "ruby": "-",
+  "unmodifiedDetail": "サポートで得られるフレンドポイントが＋10される(重複可能)",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00202.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9312030,
+    "num": 1,
+    "priority": 1
+  }],
+  "functions": [{
+    "funcId": 5607,
+    "svals": [{
+      "AddCount": 10
+    }]
+  }]
+}, {
+  "id": 995372,
+  "name": "英霊学装：インドラ",
+  "ruby": "-",
+  "unmodifiedDetail": "サポートで得られるフレンドポイントが＋10される(重複可能)",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00202.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9312040,
+    "num": 1,
+    "priority": 1
+  }],
+  "functions": [{
+    "funcId": 5607,
+    "svals": [{
+      "AddCount": 10
+    }]
+  }]
+}, {
+  "id": 995373,
+  "name": "英霊学装：ヴァン・ゴッホ〔マイナー〕",
+  "ruby": "-",
+  "unmodifiedDetail": "サポートで得られるフレンドポイントが＋10される(重複可能)",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00202.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9312050,
+    "num": 1,
+    "priority": 1
+  }],
+  "functions": [{
+    "funcId": 5607,
+    "svals": [{
+      "AddCount": 10
+    }]
+  }]
+}, {
+  "id": 995374,
+  "name": "英霊学装：燕青",
+  "ruby": "-",
+  "unmodifiedDetail": "サポートで得られるフレンドポイントが＋10される(重複可能)",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00202.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9312060,
+    "num": 1,
+    "priority": 1
+  }],
+  "functions": [{
+    "funcId": 5607,
+    "svals": [{
+      "AddCount": 10
+    }]
+  }]
+}, {
+  "id": 995375,
+  "name": "英霊学装：刑部姫",
+  "ruby": "-",
+  "unmodifiedDetail": "サポートで得られるフレンドポイントが＋10される(重複可能)",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00202.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9312070,
+    "num": 1,
+    "priority": 1
+  }],
+  "functions": [{
+    "funcId": 5607,
+    "svals": [{
+      "AddCount": 10
+    }]
+  }]
+}, {
+  "id": 995376,
+  "name": "英霊学装：オジマンディアス",
+  "ruby": "-",
+  "unmodifiedDetail": "サポートで得られるフレンドポイントが＋10される(重複可能)",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00202.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9312080,
+    "num": 1,
+    "priority": 1
+  }],
+  "functions": [{
+    "funcId": 5607,
+    "svals": [{
+      "AddCount": 10
+    }]
+  }]
+}, {
+  "id": 995377,
+  "name": "英霊学装：カーマ",
+  "ruby": "-",
+  "unmodifiedDetail": "サポートで得られるフレンドポイントが＋10される(重複可能)",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00202.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9312090,
+    "num": 1,
+    "priority": 1
+  }],
+  "functions": [{
+    "funcId": 5607,
+    "svals": [{
+      "AddCount": 10
+    }]
+  }]
+}, {
+  "id": 995378,
+  "name": "英霊学装：葛飾北斎",
+  "ruby": "-",
+  "unmodifiedDetail": "サポートで得られるフレンドポイントが＋10される(重複可能)",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00202.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9312100,
+    "num": 1,
+    "priority": 1
+  }],
+  "functions": [{
+    "funcId": 5607,
+    "svals": [{
+      "AddCount": 10
+    }]
+  }]
+}, {
+  "id": 995379,
+  "name": "英霊学装：巌窟王　モンテ・クリスト",
+  "ruby": "-",
+  "unmodifiedDetail": "サポートで得られるフレンドポイントが＋10される(重複可能)",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00202.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9312110,
+    "num": 1,
+    "priority": 1
+  }],
+  "functions": [{
+    "funcId": 5607,
+    "svals": [{
+      "AddCount": 10
+    }]
+  }]
+}, {
+  "id": 995380,
+  "name": "英霊学装：ギルガメッシュ",
+  "ruby": "-",
+  "unmodifiedDetail": "サポートで得られるフレンドポイントが＋10される(重複可能)",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00202.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9312120,
+    "num": 1,
+    "priority": 1
+  }],
+  "functions": [{
+    "funcId": 5607,
+    "svals": [{
+      "AddCount": 10
+    }]
+  }]
+}, {
+  "id": 995381,
+  "name": "英霊学装：クー・フーリン〔オルタ〕",
+  "ruby": "-",
+  "unmodifiedDetail": "サポートで得られるフレンドポイントが＋10される(重複可能)",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00202.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9312130,
+    "num": 1,
+    "priority": 1
+  }],
+  "functions": [{
+    "funcId": 5607,
+    "svals": [{
+      "AddCount": 10
+    }]
+  }]
+}, {
+  "id": 995382,
+  "name": "英霊学装：ジェームズ・モリアーティ",
+  "ruby": "-",
+  "unmodifiedDetail": "サポートで得られるフレンドポイントが＋10される(重複可能)",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00202.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9312140,
+    "num": 1,
+    "priority": 1
+  }],
+  "functions": [{
+    "funcId": 5607,
+    "svals": [{
+      "AddCount": 10
+    }]
+  }]
+}, {
+  "id": 995383,
+  "name": "英霊学装：ジャック・ド・モレー",
+  "ruby": "-",
+  "unmodifiedDetail": "サポートで得られるフレンドポイントが＋10される(重複可能)",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00202.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9312150,
+    "num": 1,
+    "priority": 1
+  }],
+  "functions": [{
+    "funcId": 5607,
+    "svals": [{
+      "AddCount": 10
+    }]
+  }]
+}, {
+  "id": 995384,
+  "name": "英霊学装：シャルロット・コルデー",
+  "ruby": "-",
+  "unmodifiedDetail": "サポートで得られるフレンドポイントが＋10される(重複可能)",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00202.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9312160,
+    "num": 1,
+    "priority": 1
+  }],
+  "functions": [{
+    "funcId": 5607,
+    "svals": [{
+      "AddCount": 10
+    }]
+  }]
+}, {
+  "id": 995385,
+  "name": "英霊学装：女王メイヴ",
+  "ruby": "-",
+  "unmodifiedDetail": "サポートで得られるフレンドポイントが＋10される(重複可能)",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00202.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9312170,
+    "num": 1,
+    "priority": 1
+  }],
+  "functions": [{
+    "funcId": 5607,
+    "svals": [{
+      "AddCount": 10
+    }]
+  }]
+}, {
+  "id": 995386,
+  "name": "英霊学装：諸葛孔明〔エルメロイⅡ世〕",
+  "ruby": "-",
+  "unmodifiedDetail": "サポートで得られるフレンドポイントが＋10される(重複可能)",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00202.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9312180,
+    "num": 1,
+    "priority": 1
+  }],
+  "functions": [{
+    "funcId": 5607,
+    "svals": [{
+      "AddCount": 10
+    }]
+  }]
+}, {
+  "id": 995387,
+  "name": "英霊学装：徐福",
+  "ruby": "-",
+  "unmodifiedDetail": "サポートで得られるフレンドポイントが＋10される(重複可能)",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00202.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9312190,
+    "num": 1,
+    "priority": 1
+  }],
+  "functions": [{
+    "funcId": 5607,
+    "svals": [{
+      "AddCount": 10
+    }]
+  }]
+}, {
+  "id": 995388,
+  "name": "英霊学装：清少納言",
+  "ruby": "-",
+  "unmodifiedDetail": "サポートで得られるフレンドポイントが＋10される(重複可能)",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00202.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9312200,
+    "num": 1,
+    "priority": 1
+  }],
+  "functions": [{
+    "funcId": 5607,
+    "svals": [{
+      "AddCount": 10
+    }]
+  }]
+}, {
+  "id": 995389,
+  "name": "英霊学装：ツタンカーメン",
+  "ruby": "-",
+  "unmodifiedDetail": "サポートで得られるフレンドポイントが＋10される(重複可能)",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00202.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9312210,
+    "num": 1,
+    "priority": 1
+  }],
+  "functions": [{
+    "funcId": 5607,
+    "svals": [{
+      "AddCount": 10
+    }]
+  }]
+}, {
+  "id": 995390,
+  "name": "英霊学装：テノチティトラン",
+  "ruby": "-",
+  "unmodifiedDetail": "サポートで得られるフレンドポイントが＋10される(重複可能)",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00202.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9312220,
+    "num": 1,
+    "priority": 1
+  }],
+  "functions": [{
+    "funcId": 5607,
+    "svals": [{
+      "AddCount": 10
+    }]
+  }]
+}, {
+  "id": 995391,
+  "name": "英霊学装：デメテル",
+  "ruby": "-",
+  "unmodifiedDetail": "サポートで得られるフレンドポイントが＋10される(重複可能)",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00202.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9312230,
+    "num": 1,
+    "priority": 1
+  }],
+  "functions": [{
+    "funcId": 5607,
+    "svals": [{
+      "AddCount": 10
+    }]
+  }]
+}, {
+  "id": 995392,
+  "name": "英霊学装：テュフォン・エフェメロス＆イプシロン",
+  "ruby": "-",
+  "unmodifiedDetail": "サポートで得られるフレンドポイントが＋10される(重複可能)",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00202.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9312240,
+    "num": 1,
+    "priority": 1
+  }],
+  "functions": [{
+    "funcId": 5607,
+    "svals": [{
+      "AddCount": 10
+    }]
+  }]
+}, {
+  "id": 995393,
+  "name": "英霊学装：藤堂平助",
+  "ruby": "-",
+  "unmodifiedDetail": "サポートで得られるフレンドポイントが＋10される(重複可能)",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00202.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9312250,
+    "num": 1,
+    "priority": 1
+  }],
+  "functions": [{
+    "funcId": 5607,
+    "svals": [{
+      "AddCount": 10
+    }]
+  }]
+}, {
+  "id": 995394,
+  "name": "英霊学装：ネモ",
+  "ruby": "-",
+  "unmodifiedDetail": "サポートで得られるフレンドポイントが＋10される(重複可能)",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00202.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9312260,
+    "num": 1,
+    "priority": 1
+  }],
+  "functions": [{
+    "funcId": 5607,
+    "svals": [{
+      "AddCount": 10
+    }]
+  }]
+}, {
+  "id": 995395,
+  "name": "英霊学装：ネロ・クラウディウス",
+  "ruby": "-",
+  "unmodifiedDetail": "サポートで得られるフレンドポイントが＋10される(重複可能)",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00202.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9312270,
+    "num": 1,
+    "priority": 1
+  }],
+  "functions": [{
+    "funcId": 5607,
+    "svals": [{
+      "AddCount": 10
+    }]
+  }]
+}, {
+  "id": 995396,
+  "name": "英霊学装：バーヴァン・シー",
+  "ruby": "-",
+  "unmodifiedDetail": "サポートで得られるフレンドポイントが＋10される(重複可能)",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00202.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9312280,
+    "num": 1,
+    "priority": 1
+  }],
+  "functions": [{
+    "funcId": 5607,
+    "svals": [{
+      "AddCount": 10
+    }]
+  }]
+}, {
+  "id": 995397,
+  "name": "英霊学装：パーシヴァル",
+  "ruby": "-",
+  "unmodifiedDetail": "サポートで得られるフレンドポイントが＋10される(重複可能)",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00202.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9312290,
+    "num": 1,
+    "priority": 1
+  }],
+  "functions": [{
+    "funcId": 5607,
+    "svals": [{
+      "AddCount": 10
+    }]
+  }]
+}, {
+  "id": 995398,
+  "name": "英霊学装：花咲翁",
+  "ruby": "-",
+  "unmodifiedDetail": "サポートで得られるフレンドポイントが＋10される(重複可能)",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00202.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9312300,
+    "num": 1,
+    "priority": 1
+  }],
+  "functions": [{
+    "funcId": 5607,
+    "svals": [{
+      "AddCount": 10
+    }]
+  }]
+}, {
+  "id": 995399,
+  "name": "英霊学装：原田左之助",
+  "ruby": "-",
+  "unmodifiedDetail": "サポートで得られるフレンドポイントが＋10される(重複可能)",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00202.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9312310,
+    "num": 1,
+    "priority": 1
+  }],
+  "functions": [{
+    "funcId": 5607,
+    "svals": [{
+      "AddCount": 10
+    }]
+  }]
+}, {
+  "id": 995400,
+  "name": "英霊学装：パリス",
+  "ruby": "-",
+  "unmodifiedDetail": "サポートで得られるフレンドポイントが＋10される(重複可能)",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00202.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9312320,
+    "num": 1,
+    "priority": 1
+  }],
+  "functions": [{
+    "funcId": 5607,
+    "svals": [{
+      "AddCount": 10
+    }]
+  }]
+}, {
+  "id": 995401,
+  "name": "英霊学装：フランケンシュタイン",
+  "ruby": "-",
+  "unmodifiedDetail": "サポートで得られるフレンドポイントが＋10される(重複可能)",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00202.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9312330,
+    "num": 1,
+    "priority": 1
+  }],
+  "functions": [{
+    "funcId": 5607,
+    "svals": [{
+      "AddCount": 10
+    }]
+  }]
+}, {
+  "id": 995402,
+  "name": "英霊学装：ブリトマート",
+  "ruby": "-",
+  "unmodifiedDetail": "サポートで得られるフレンドポイントが＋10される(重複可能)",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00202.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9312340,
+    "num": 1,
+    "priority": 1
+  }],
+  "functions": [{
+    "funcId": 5607,
+    "svals": [{
+      "AddCount": 10
+    }]
+  }]
+}, {
+  "id": 995403,
+  "name": "英霊学装：フローラ",
+  "ruby": "-",
+  "unmodifiedDetail": "サポートで得られるフレンドポイントが＋10される(重複可能)",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00202.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9312350,
+    "num": 1,
+    "priority": 1
+  }],
+  "functions": [{
+    "funcId": 5607,
+    "svals": [{
+      "AddCount": 10
+    }]
+  }]
+}, {
+  "id": 995404,
+  "name": "英霊学装：マルタ",
+  "ruby": "-",
+  "unmodifiedDetail": "サポートで得られるフレンドポイントが＋10される(重複可能)",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00202.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9312360,
+    "num": 1,
+    "priority": 1
+  }],
+  "functions": [{
+    "funcId": 5607,
+    "svals": [{
+      "AddCount": 10
+    }]
+  }]
+}, {
+  "id": 995405,
+  "name": "英霊学装：宮本伊織",
+  "ruby": "-",
+  "unmodifiedDetail": "サポートで得られるフレンドポイントが＋10される(重複可能)",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00202.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9312370,
+    "num": 1,
+    "priority": 1
+  }],
+  "functions": [{
+    "funcId": 5607,
+    "svals": [{
+      "AddCount": 10
+    }]
+  }]
+}, {
+  "id": 995406,
+  "name": "英霊学装：宮本武蔵",
+  "ruby": "-",
+  "unmodifiedDetail": "サポートで得られるフレンドポイントが＋10される(重複可能)",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00202.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9312380,
+    "num": 1,
+    "priority": 1
+  }],
+  "functions": [{
+    "funcId": 5607,
+    "svals": [{
+      "AddCount": 10
+    }]
+  }]
+}, {
+  "id": 995407,
+  "name": "英霊学装：メタトロン・ジャンヌ",
+  "ruby": "-",
+  "unmodifiedDetail": "サポートで得られるフレンドポイントが＋10される(重複可能)",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00202.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9312390,
+    "num": 1,
+    "priority": 1
+  }],
+  "functions": [{
+    "funcId": 5607,
+    "svals": [{
+      "AddCount": 10
+    }]
+  }]
+}, {
+  "id": 995408,
+  "name": "英霊学装：モルガン",
+  "ruby": "-",
+  "unmodifiedDetail": "サポートで得られるフレンドポイントが＋10される(重複可能)",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00202.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9312400,
+    "num": 1,
+    "priority": 1
+  }],
+  "functions": [{
+    "funcId": 5607,
+    "svals": [{
+      "AddCount": 10
+    }]
+  }]
+}, {
+  "id": 995409,
+  "name": "英霊学装：蘭陵王",
+  "ruby": "-",
+  "unmodifiedDetail": "サポートで得られるフレンドポイントが＋10される(重複可能)",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00202.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9312410,
+    "num": 1,
+    "priority": 1
+  }],
+  "functions": [{
+    "funcId": 5607,
+    "svals": [{
+      "AddCount": 10
+    }]
+  }]
+}, {
+  "id": 995410,
+  "name": "英霊学装：レオナルド・ダ・ヴィンチ",
+  "ruby": "-",
+  "unmodifiedDetail": "サポートで得られるフレンドポイントが＋10される(重複可能)",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00202.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9312420,
+    "num": 1,
+    "priority": 1
+  }],
+  "functions": [{
+    "funcId": 5607,
+    "svals": [{
+      "AddCount": 10
+    }]
+  }]
+}, {
+  "id": 995411,
+  "name": "英霊学装：レディ・アヴァロン",
+  "ruby": "-",
+  "unmodifiedDetail": "サポートで得られるフレンドポイントが＋10される(重複可能)",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00202.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9312430,
+    "num": 1,
+    "priority": 1
+  }],
+  "functions": [{
+    "funcId": 5607,
+    "svals": [{
+      "AddCount": 10
+    }]
+  }]
+}, {
+  "id": 995412,
+  "name": "英霊学装：ロウヒ",
+  "ruby": "-",
+  "unmodifiedDetail": "サポートで得られるフレンドポイントが＋10される(重複可能)",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00202.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9312440,
+    "num": 1,
+    "priority": 1
+  }],
+  "functions": [{
+    "funcId": 5607,
+    "svals": [{
+      "AddCount": 10
+    }]
+  }]
+}, {
+  "id": 995413,
+  "name": "英霊学装：アルトリア・ペンドラゴン〔オルタ〕",
+  "ruby": "-",
+  "unmodifiedDetail": "サポートで得られるフレンドポイントが＋10される(重複可能)",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00202.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9312450,
+    "num": 1,
+    "priority": 1
+  }],
+  "functions": [{
+    "funcId": 5607,
+    "svals": [{
+      "AddCount": 10
+    }]
+  }]
+}, {
+  "id": 995414,
+  "name": "英霊学装：アンデルセン",
+  "ruby": "-",
+  "unmodifiedDetail": "サポートで得られるフレンドポイントが＋10される(重複可能)",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00202.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9312460,
+    "num": 1,
+    "priority": 1
+  }],
+  "functions": [{
+    "funcId": 5607,
+    "svals": [{
+      "AddCount": 10
+    }]
+  }]
+}, {
+  "id": 995415,
+  "name": "英霊学装：エドワード・ティーチ",
+  "ruby": "-",
+  "unmodifiedDetail": "サポートで得られるフレンドポイントが＋10される(重複可能)",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00202.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9312470,
+    "num": 1,
+    "priority": 1
+  }],
+  "functions": [{
+    "funcId": 5607,
+    "svals": [{
+      "AddCount": 10
+    }]
+  }]
+}, {
+  "id": 995416,
+  "name": "英霊学装：クー・フーリン",
+  "ruby": "-",
+  "unmodifiedDetail": "サポートで得られるフレンドポイントが＋10される(重複可能)",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00202.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9312480,
+    "num": 1,
+    "priority": 1
+  }],
+  "functions": [{
+    "funcId": 5607,
+    "svals": [{
+      "AddCount": 10
+    }]
+  }]
+}, {
+  "id": 995417,
+  "name": "英霊学装：酒呑童子",
+  "ruby": "-",
+  "unmodifiedDetail": "サポートで得られるフレンドポイントが＋10される(重複可能)",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00202.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9312490,
+    "num": 1,
+    "priority": 1
+  }],
+  "functions": [{
+    "funcId": 5607,
+    "svals": [{
+      "AddCount": 10
+    }]
+  }]
+}, {
+  "id": 995418,
+  "name": "英霊学装：ジュネス・クレーン",
+  "ruby": "-",
+  "unmodifiedDetail": "サポートで得られるフレンドポイントが＋10される(重複可能)",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00202.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9312500,
+    "num": 1,
+    "priority": 1
+  }],
+  "functions": [{
+    "funcId": 5607,
+    "svals": [{
+      "AddCount": 10
+    }]
+  }]
+}, {
+  "id": 995419,
+  "name": "英霊学装：高杉晋作",
+  "ruby": "-",
+  "unmodifiedDetail": "サポートで得られるフレンドポイントが＋10される(重複可能)",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00202.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9312510,
+    "num": 1,
+    "priority": 1
+  }],
+  "functions": [{
+    "funcId": 5607,
+    "svals": [{
+      "AddCount": 10
+    }]
+  }]
+}, {
+  "id": 995420,
+  "name": "英霊学装：ダンテ・アリギエーリ",
+  "ruby": "-",
+  "unmodifiedDetail": "サポートで得られるフレンドポイントが＋10される(重複可能)",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00202.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9312520,
+    "num": 1,
+    "priority": 1
+  }],
+  "functions": [{
+    "funcId": 5607,
+    "svals": [{
+      "AddCount": 10
+    }]
+  }]
+}, {
+  "id": 995421,
+  "name": "英霊学装：ドゥルガー",
+  "ruby": "-",
+  "unmodifiedDetail": "サポートで得られるフレンドポイントが＋10される(重複可能)",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00202.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9312530,
+    "num": 1,
+    "priority": 1
+  }],
+  "functions": [{
+    "funcId": 5607,
+    "svals": [{
+      "AddCount": 10
+    }]
+  }]
+}, {
+  "id": 995422,
+  "name": "英霊学装：ネモ／ノア",
+  "ruby": "-",
+  "unmodifiedDetail": "サポートで得られるフレンドポイントが＋10される(重複可能)",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00202.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9312540,
+    "num": 1,
+    "priority": 1
+  }],
+  "functions": [{
+    "funcId": 5607,
+    "svals": [{
+      "AddCount": 10
+    }]
+  }]
+}, {
+  "id": 995423,
+  "name": "英霊学装：マシュ・キリエライト",
+  "ruby": "-",
+  "unmodifiedDetail": "サポートで得られるフレンドポイントが＋10される(重複可能)",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00202.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9312550,
+    "num": 1,
+    "priority": 1
+  }],
+  "functions": [{
+    "funcId": 5607,
+    "svals": [{
+      "AddCount": 10
+    }]
+  }]
+}, {
+  "id": 995424,
+  "name": "英霊学装：メリュジーヌ",
+  "ruby": "-",
+  "unmodifiedDetail": "サポートで得られるフレンドポイントが＋10される(重複可能)",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00202.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9312560,
+    "num": 1,
+    "priority": 1
+  }],
+  "functions": [{
+    "funcId": 5607,
+    "svals": [{
+      "AddCount": 10
+    }]
+  }]
+}, {
+  "id": 995425,
   "name": "",
   "type": "passive",
   "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_999999.png",
@@ -315618,6 +316946,44 @@
   "coolDown": [0],
   "skillSvts": [{
     "svtId": 90086008,
+    "num": 1,
+    "priority": 1
+  }],
+  "functions": [{
+    "funcId": 5607,
+    "svals": [{
+      "AddCount": 10
+    }]
+  }]
+}, {
+  "id": 90086009,
+  "name": "简中版10周年纪念",
+  "ruby": "-",
+  "unmodifiedDetail": "助战中获得的友情点数＋10(可以重复)",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00202.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 90086009,
+    "num": 1,
+    "priority": 1
+  }],
+  "functions": [{
+    "funcId": 5607,
+    "svals": [{
+      "AddCount": 10
+    }]
+  }]
+}, {
+  "id": 90086010,
+  "name": "简中版10周年纪念：一路陪伴",
+  "ruby": "-",
+  "unmodifiedDetail": "助战中获得的友情点数＋10(可以重复)",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00202.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 90086010,
     "num": 1,
     "priority": 1
   }],
