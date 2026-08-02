@@ -1717,6 +1717,47 @@
     }]
   }]
 }, {
+  "id": 13575,
+  "name": "信仰の加護 A",
+  "ruby": "しんこうのかご",
+  "unmodifiedDetail": "自身の弱体耐性をアップ＆毎ターンHP回復状態を付与＆防御力をアップ＆攻撃力をアップ",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00401.png",
+  "coolDown": [0],
+  "functions": [{
+    "funcId": 389,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 300
+    }]
+  }, {
+    "funcId": 310,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 500
+    }]
+  }, {
+    "funcId": 175,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 100
+    }]
+  }, {
+    "funcId": 145,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 100
+    }]
+  }]
+}, {
   "id": 13650,
   "name": "信仰の加護 EX",
   "ruby": "しんこうのかご",
@@ -4631,6 +4672,23 @@
     }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
   }]
 }, {
+  "id": 34152,
+  "name": "対魔力 E++",
+  "ruby": "たいまりょく",
+  "unmodifiedDetail": "自身の弱体耐性を少しアップ",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00100.png",
+  "coolDown": [0],
+  "functions": [{
+    "funcId": 388,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 110
+    }]
+  }]
+}, {
   "id": 34250,
   "name": "対魔力 D",
   "ruby": "たいまりょく",
@@ -7126,6 +7184,31 @@
       "Count": -1,
       "Value": 65
     }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }]
+}, {
+  "id": 50352,
+  "name": "気配遮断 C++",
+  "ruby": "けはいしゃだん",
+  "unmodifiedDetail": "自身のスター発生率を少しアップ",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00105.png",
+  "coolDown": [0],
+  "functions": [{
+    "funcId": 295,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 70
+    }]
+  }, {
+    "funcId": 214,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 70
+    }]
   }]
 }, {
   "id": 50450,
@@ -110379,6 +110462,303 @@
       "HideMiss": 1,
       "HideNoEffect": 1
     }]
+  }]
+}, {
+  "id": 970918,
+  "name": "",
+  "type": "active",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_999999.png",
+  "coolDown": [1],
+  "functions": [{
+    "funcId": 23486,
+    "svals": [{
+      "Rate": 1000,
+      "ResultAggregateGroupId": 1,
+      "SelfTurnProgressGroup": 2
+    }]
+  }, {
+    "funcId": 23485,
+    "svals": [{
+      "Rate": 5000,
+      "Turn": 1,
+      "Count": -1,
+      "Value": 500,
+      "TriggeredFuncPosition": -1,
+      "ResultAggregateGroupId": 1,
+      "SelfTurnProgressGroup": 2
+    }]
+  }, {
+    "funcId": 23488,
+    "svals": [{
+      "Rate": 5000,
+      "CheckDead": 1,
+      "SelfTurnProgressGroup": 3
+    }]
+  }, {
+    "funcId": 23488,
+    "svals": [{
+      "Rate": 5000,
+      "CheckDead": 1,
+      "SelfTurnProgressGroup": 4
+    }]
+  }]
+}, {
+  "id": 970919,
+  "name": "",
+  "type": "active",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_999999.png",
+  "coolDown": [1],
+  "functions": [{
+    "funcId": 23484,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 200
+    }]
+  }, {
+    "funcId": 23481,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 500
+    }]
+  }]
+}, {
+  "id": 970920,
+  "name": "",
+  "type": "active",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_999999.png",
+  "coolDown": [0],
+  "functions": [{
+    "funcId": 703,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 300
+    }]
+  }]
+}, {
+  "id": 970921,
+  "name": "三十羽の鳥 A",
+  "ruby": "さんじゅうわのとり",
+  "type": "active",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_999999.png",
+  "coolDown": [9, 9, 9, 9, 9, 8, 8, 8, 8, 7],
+  "functions": [{
+    "funcId": 500,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 2
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 110,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 200
+    }, {
+      "Value": 210
+    }, {
+      "Value": 220
+    }, {
+      "Value": 230
+    }, {
+      "Value": 240
+    }, {
+      "Value": 250
+    }, {
+      "Value": 260
+    }, {
+      "Value": 270
+    }, {
+      "Value": 280
+    }, {
+      "Value": 300
+    }]
+  }, {
+    "funcId": 293,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": 1,
+      "Value": 3000
+    }, {
+      "Value": 3200
+    }, {
+      "Value": 3400
+    }, {
+      "Value": 3600
+    }, {
+      "Value": 3800
+    }, {
+      "Value": 4000
+    }, {
+      "Value": 4200
+    }, {
+      "Value": 4400
+    }, {
+      "Value": 4600
+    }, {
+      "Value": 5000
+    }]
+  }, {
+    "funcId": 149,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 200
+    }, {
+      "Value": 210
+    }, {
+      "Value": 220
+    }, {
+      "Value": 230
+    }, {
+      "Value": 240
+    }, {
+      "Value": 250
+    }, {
+      "Value": 260
+    }, {
+      "Value": 270
+    }, {
+      "Value": 280
+    }, {
+      "Value": 300
+    }]
+  }, {
+    "funcId": 463,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 2000
+    }, {
+      "Value": 2100
+    }, {
+      "Value": 2200
+    }, {
+      "Value": 2300
+    }, {
+      "Value": 2400
+    }, {
+      "Value": 2500
+    }, {
+      "Value": 2600
+    }, {
+      "Value": 2700
+    }, {
+      "Value": 2800
+    }, {
+      "Value": 3000
+    }]
+  }, {
+    "funcId": 471,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 1
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }]
+}, {
+  "id": 970922,
+  "name": "三十羽の鳥 A",
+  "ruby": "さんじゅうわのとり",
+  "type": "active",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_999999.png",
+  "coolDown": [9, 9, 9, 9, 9, 8, 8, 8, 8, 7],
+  "functions": [{
+    "funcId": 500,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 2
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 110,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 200
+    }, {
+      "Value": 210
+    }, {
+      "Value": 220
+    }, {
+      "Value": 230
+    }, {
+      "Value": 240
+    }, {
+      "Value": 250
+    }, {
+      "Value": 260
+    }, {
+      "Value": 270
+    }, {
+      "Value": 280
+    }, {
+      "Value": 300
+    }]
+  }, {
+    "funcId": 201,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 300
+    }, {
+      "Value": 320
+    }, {
+      "Value": 340
+    }, {
+      "Value": 360
+    }, {
+      "Value": 380
+    }, {
+      "Value": 400
+    }, {
+      "Value": 420
+    }, {
+      "Value": 440
+    }, {
+      "Value": 460
+    }, {
+      "Value": 500
+    }]
+  }, {
+    "funcId": 477,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 30
+    }, {
+      "Value": 32
+    }, {
+      "Value": 34
+    }, {
+      "Value": 36
+    }, {
+      "Value": 38
+    }, {
+      "Value": 40
+    }, {
+      "Value": 42
+    }, {
+      "Value": 44
+    }, {
+      "Value": 46
+    }, {
+      "Value": 50
+    }]
+  }, {
+    "funcId": 216,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 2,
+      "Count": -1,
+      "Value": 300
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
   }]
 }, {
   "id": 980001,
@@ -249919,6 +250299,311 @@
     }]
   }]
 }, {
+  "id": 995308,
+  "name": "アフター・パーティー",
+  "ruby": "-",
+  "unmodifiedDetail": "自身のNPを50%チャージした状態でバトルを開始する ＋ 登場時にスターを12個獲得(1回)",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00601.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9409370,
+    "num": 1,
+    "priority": 1,
+    "strengthStatus": 1
+  }],
+  "functions": [{
+    "funcId": 461,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 5000
+    }]
+  }, {
+    "funcId": 3408,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": 1,
+      "Value": 995426,
+      "Value2": 1
+    }]
+  }]
+}, {
+  "id": 995309,
+  "name": "アフター・パーティー",
+  "ruby": "-",
+  "unmodifiedDetail": "自身のNPを60%チャージした状態でバトルを開始する ＋ 登場時にスターを15個獲得(1回)[最大解放]",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00601.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9409370,
+    "num": 1,
+    "priority": 2,
+    "strengthStatus": 99,
+    "condLimitCount": 4
+  }],
+  "functions": [{
+    "funcId": 461,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 6000
+    }]
+  }, {
+    "funcId": 3408,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": 1,
+      "Value": 995426,
+      "Value2": 2
+    }]
+  }]
+}, {
+  "id": 995310,
+  "name": "フレームド・モーメント",
+  "ruby": "-",
+  "unmodifiedDetail": "自身に毎ターンNP4%獲得状態を付与＆NP獲得量を5%アップ＆スター集中度を50%アップ",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00607.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9409380,
+    "num": 1,
+    "priority": 1,
+    "strengthStatus": 1
+  }],
+  "functions": [{
+    "funcId": 324,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 400
+    }]
+  }, {
+    "funcId": 336,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 50
+    }]
+  }, {
+    "funcId": 364,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 500
+    }]
+  }]
+}, {
+  "id": 995311,
+  "name": "フレームド・モーメント",
+  "ruby": "-",
+  "unmodifiedDetail": "自身に毎ターンNP5%獲得状態を付与＆NP獲得量を10%アップ＆スター集中度を100%アップ[最大解放]",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00607.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9409380,
+    "num": 1,
+    "priority": 2,
+    "strengthStatus": 99,
+    "condLimitCount": 4
+  }],
+  "functions": [{
+    "funcId": 324,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 500
+    }]
+  }, {
+    "funcId": 336,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 100
+    }]
+  }, {
+    "funcId": 364,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 1000
+    }]
+  }]
+}, {
+  "id": 995312,
+  "name": "アズ・ユージュアル",
+  "ruby": "-",
+  "unmodifiedDetail": "自身の被ダメージを100カットする状態を付与＆毎ターンスター1個獲得状態を付与",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00400.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9409390,
+    "num": 1,
+    "priority": 1,
+    "strengthStatus": 1
+  }],
+  "functions": [{
+    "funcId": 274,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 100
+    }]
+  }, {
+    "funcId": 333,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 1
+    }]
+  }]
+}, {
+  "id": 995313,
+  "name": "アズ・ユージュアル",
+  "ruby": "-",
+  "unmodifiedDetail": "自身の被ダメージを200カットする状態を付与＆毎ターンスター2個獲得状態を付与[最大解放]",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00400.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9409390,
+    "num": 1,
+    "priority": 2,
+    "strengthStatus": 99,
+    "condLimitCount": 4
+  }],
+  "functions": [{
+    "funcId": 274,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 200
+    }]
+  }, {
+    "funcId": 333,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 2
+    }]
+  }]
+}, {
+  "id": 995314,
+  "name": "人理の徒",
+  "ruby": "-",
+  "unmodifiedDetail": "自身のNPを50%チャージした状態でバトルを開始する＆〔人類の脅威〕特攻状態を20%付与",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00601.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9409400,
+    "num": 1,
+    "priority": 1,
+    "strengthStatus": 1
+  }],
+  "functions": [{
+    "funcId": 461,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 5000
+    }]
+  }, {
+    "funcId": 2558,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 200
+    }]
+  }]
+}, {
+  "id": 995315,
+  "name": "人理の徒",
+  "ruby": "-",
+  "unmodifiedDetail": "自身のNPを60%チャージした状態でバトルを開始する＆〔人類の脅威〕特攻状態を25%付与[最大解放]",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00601.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9409400,
+    "num": 1,
+    "priority": 2,
+    "strengthStatus": 99,
+    "condLimitCount": 4
+  }],
+  "functions": [{
+    "funcId": 461,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 6000
+    }]
+  }, {
+    "funcId": 2558,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 250
+    }]
+  }]
+}, {
+  "id": 995316,
+  "name": "鷹の巣の落日",
+  "ruby": "-",
+  "unmodifiedDetail": "[servantName 605300](アサシン)装備時のみ、自身の宝具威力を30%アップ＆「Extra攻撃時に敵単体の即死耐性を30%ダウン(3ターン)する状態」を付与＆「クリティカル攻撃時に敵単体の即死耐性を30%ダウン(3ターン)する状態」を付与",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00524.png",
+  "coolDown": [0],
+  "actIndividuality": [{
+    "id": 605300
+  }],
+  "skillSvts": [{
+    "svtId": 9311880,
+    "num": 1,
+    "priority": 1
+  }],
+  "functions": [{
+    "funcId": 248,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 300
+    }]
+  }, {
+    "funcId": 23489,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 995427,
+      "Value2": 1
+    }]
+  }, {
+    "funcId": 23490,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 995428,
+      "Value2": 1
+    }]
+  }]
+}, {
   "id": 995318,
   "name": "人理保障の長",
   "ruby": "じんりほしょうのちょう",
@@ -251158,6 +251843,51 @@
     "svals": [{
       "Rate": 1000,
       "Value": 1
+    }]
+  }]
+}, {
+  "id": 995426,
+  "name": "",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00603.png",
+  "coolDown": [0, 0],
+  "functions": [{
+    "funcId": 476,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 12
+    }, {
+      "Value": 15
+    }]
+  }]
+}, {
+  "id": 995427,
+  "name": "",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_999999.png",
+  "coolDown": [0],
+  "functions": [{
+    "funcId": 23495,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 300
+    }]
+  }]
+}, {
+  "id": 995428,
+  "name": "",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_999999.png",
+  "coolDown": [0],
+  "functions": [{
+    "funcId": 23495,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 300
     }]
   }]
 }, {
@@ -309546,6 +310276,254 @@
       "Value": 1800
     }, {
       "Value": 2000
+    }]
+  }]
+}, {
+  "id": 2659550,
+  "name": "天使の肉体 A",
+  "ruby": "てんしのにくたい",
+  "unmodifiedDetail": "自身の攻撃力をアップ[{0}](3ターン)＆弱体無効状態を付与(1回・3ターン)＆ガッツ状態を付与[{0}](1回・3ターン)＆回避状態を付与(2回・3ターン)＆NPをすごく増やす[{0}]",
+  "type": "active",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00300.png",
+  "coolDown": [10, 10, 10, 10, 10, 9, 9, 9, 9, 8],
+  "skillSvts": [{
+    "svtId": 605300,
+    "num": 1,
+    "priority": 1
+  }],
+  "functions": [{
+    "funcId": 146,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 200
+    }, {
+      "Value": 210
+    }, {
+      "Value": 220
+    }, {
+      "Value": 230
+    }, {
+      "Value": 240
+    }, {
+      "Value": 250
+    }, {
+      "Value": 260
+    }, {
+      "Value": 270
+    }, {
+      "Value": 280
+    }, {
+      "Value": 300
+    }]
+  }, {
+    "funcId": 627,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": 1
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 292,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": 1,
+      "Value": 3000
+    }, {
+      "Value": 3200
+    }, {
+      "Value": 3400
+    }, {
+      "Value": 3600
+    }, {
+      "Value": 3800
+    }, {
+      "Value": 4000
+    }, {
+      "Value": 4200
+    }, {
+      "Value": 4400
+    }, {
+      "Value": 4600
+    }, {
+      "Value": 5000
+    }]
+  }, {
+    "funcId": 283,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": 2
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 461,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 5000
+    }, {
+      "Value": 5300
+    }, {
+      "Value": 5600
+    }, {
+      "Value": 5900
+    }, {
+      "Value": 6200
+    }, {
+      "Value": 6500
+    }, {
+      "Value": 6800
+    }, {
+      "Value": 7100
+    }, {
+      "Value": 7400
+    }, {
+      "Value": 8000
+    }]
+  }, {
+    "funcId": 470,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 2
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }]
+}, {
+  "id": 2660550,
+  "name": "三十羽の鳥 A",
+  "ruby": "さんじゅうわのとり",
+  "unmodifiedDetail": "【味方から1騎選択し、選択した対象によって効果が変化】\n\n【対象が自身以外の時】\n自身のスキルチャージを2進める＆Artsカード性能をアップ[{0}](3ターン) ＋ 自身を除く味方単体にガッツ状態を付与[{0}](1回・3ターン)＆攻撃力をアップ[{0}](3ターン)＆NPを増やす[{0}]\n\n【対象が自身の時】\n自身のスキルチャージを2進める＆Artsカード性能をアップ[{0}](3ターン)＆クリティカル威力をアップ[{0}](3ターン) ＋ スターを大量獲得[{0}]",
+  "type": "active",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00609.png",
+  "coolDown": [9, 9, 9, 9, 9, 8, 8, 8, 8, 7],
+  "script": {
+    "condBranchSkillInfo": [{
+      "condType": "isSelfTarget",
+      "condValue": [0],
+      "skillId": 970921
+    }, {
+      "condType": "isSelfTarget",
+      "condValue": [1],
+      "skillId": 970922
+    }]
+  },
+  "skillSvts": [{
+    "svtId": 605300,
+    "num": 2,
+    "priority": 1,
+    "condLimitCount": 1
+  }],
+  "functions": []
+}, {
+  "id": 2661650,
+  "name": "ザックームの木 EX",
+  "ruby": "ざっくーむのき",
+  "unmodifiedDetail": "敵全体に〔死の渇き〕状態<ターン毎にカウントダウンしカウント0で高確率で即死効果＆カウント0による即死が失敗した時は防御力をダウン(1ターン)する状態>を付与(3ターン)＆恐怖状態を付与[{0}](3ターン)＆「毎ターン自身の防御力をダウン(3ターン)＆即死耐性をダウン(3ターン)する状態」を付与(3ターン)",
+  "type": "active",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00822.png",
+  "coolDown": [8, 8, 8, 8, 8, 7, 7, 7, 7, 6],
+  "skillSvts": [{
+    "svtId": 605300,
+    "num": 3,
+    "priority": 1,
+    "condLimitCount": 3
+  }],
+  "functions": [{
+    "funcId": 23470,
+    "svals": [{
+      "Rate": 5000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 970918,
+      "Value2": 1,
+      "SelfTurnProgressGroup": 2
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 23471,
+    "svals": [{
+      "Rate": 5000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 970918,
+      "Value2": 1,
+      "SelfTurnProgressGroup": 2
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 855,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": 1,
+      "Value": 965392,
+      "Value2": 1,
+      "UseRate": 300
+    }, {
+      "UseRate": 310
+    }, {
+      "UseRate": 320
+    }, {
+      "UseRate": 330
+    }, {
+      "UseRate": 340
+    }, {
+      "UseRate": 350
+    }, {
+      "UseRate": 360
+    }, {
+      "UseRate": 370
+    }, {
+      "UseRate": 380
+    }, {
+      "UseRate": 400
+    }]
+  }, {
+    "funcId": 23479,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 970919,
+      "Value2": 1
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }]
+}, {
+  "id": 2662550,
+  "name": "オルガナイザー A",
+  "ruby": "おるがないざー",
+  "unmodifiedDetail": "自身に即死無効状態を付与＆強力な魅了耐性を付与＆「Arts攻撃時のダメージ前に対象の即死耐性をダウン(3ターン)する状態」を付与",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00409.png",
+  "coolDown": [0],
+  "functions": [{
+    "funcId": 1168,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1
+    }]
+  }, {
+    "funcId": 489,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 1000
+    }]
+  }, {
+    "funcId": 23487,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 970920,
+      "Value2": 1
+    }]
+  }, {
+    "funcId": 1646,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1
     }]
   }]
 }, {

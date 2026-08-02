@@ -136186,6 +136186,119 @@
     }]
   }]
 }, {
+  "id": 1007,
+  "coordinates": [
+    [],
+    []
+  ],
+  "age": "-",
+  "name": "アズライールの廟",
+  "longName": "アズライールの廟",
+  "banner": "https://static.atlasacademy.io/JP/Banner/chaldea_category_1007.png",
+  "priority": 1007,
+  "materialPriority": 1007,
+  "bgm": {
+    "id": 0
+  },
+  "script": "https://static.atlasacademy.io/JP/Script/Common/NONE.txt",
+  "warAdds": [{
+    "warId": 1007,
+    "type": "recommendSupportHeaderImgId",
+    "priority": 1,
+    "overwriteId": 48,
+    "startedAt": 1785229200,
+    "endedAt": 1893423600
+  }],
+  "maps": [{
+    "id": 1007,
+    "bgm": {
+      "id": 0
+    }
+  }],
+  "spots": [{
+    "id": 100701,
+    "mapId": 1007,
+    "name": "地獄の試練",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter1007/QMap_Cap1007_Atlas/spot_100701.png",
+    "quests": [{
+      "id": 94158820,
+      "name": "【地獄の試練】妖精乱舞",
+      "type": "event",
+      "flags": ["noContinue", "dropFirstTimeOnly", "notRetrievable"],
+      "consume": 1,
+      "afterClear": "repeatLast",
+      "recommendLv": "100★",
+      "spotId": 100701,
+      "warId": 1007,
+      "gifts": [{
+        "id": 21701,
+        "objectId": 6999,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 5000000
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94158818,
+      "noticeAt": 1785661200,
+      "openedAt": 1785661200,
+      "closedAt": 1788253199
+    }, {
+      "id": 94158821,
+      "name": "",
+      "type": "event",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 100701,
+      "warId": 1007,
+      "gifts": [{
+        "id": 94160501,
+        "objectId": 1001,
+        "num": 1,
+        "giftAdds": [{
+          "priority": 1,
+          "replacementGiftIcon": "https://static.atlasacademy.io/JP/Items/0.png",
+          "condType": "none",
+          "targetId": 0,
+          "targetNum": 0,
+          "replacementGifts": [{
+            "id": 94160501,
+            "objectId": 1001,
+            "priority": 0,
+            "num": 1
+          }]
+        }]
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 5000000
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9415882110",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415882110.txt"
+        }]
+      }],
+      "priority": 94158817,
+      "noticeAt": 1785661200,
+      "openedAt": 1785661200,
+      "closedAt": 1893423600
+    }]
+  }]
+}, {
   "id": 40201,
   "coordinates": [
     [],
@@ -137801,6 +137914,14 @@
     "overwriteBanner": "https://static.atlasacademy.io/JP/Banner/chaldea_category_80600.png",
     "startedAt": 1782291600,
     "endedAt": 1783483199
+  }, {
+    "warId": 9999,
+    "type": "banner",
+    "priority": 80602,
+    "overwriteId": 80602,
+    "overwriteBanner": "https://static.atlasacademy.io/JP/Banner/chaldea_category_80602.png",
+    "startedAt": 1785661200,
+    "endedAt": 1786507199
   }, {
     "warId": 9999,
     "type": "banner",

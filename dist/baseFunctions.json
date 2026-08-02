@@ -6921,6 +6921,8 @@
     }, {
       "id": 3026
     }, {
+      "id": 3140
+    }, {
       "id": 2729
     }]
   }]
@@ -47687,6 +47689,8 @@
     }, {
       "id": 3026
     }, {
+      "id": 3140
+    }, {
       "id": 2729
     }]
   }]
@@ -64372,6 +64376,249 @@
       "id": 1000
     }],
     "maxRate": 10000
+  }]
+}, {
+  "funcId": 23470,
+  "funcType": "addState",
+  "funcTargetType": "enemyAll",
+  "funcTargetTeam": "player",
+  "funcPopupText": "死の渇き",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_616.png",
+  "buffs": [{
+    "id": 6089,
+    "name": "死の渇き",
+    "detail": "ターン毎にカウントダウンしカウント0で高確率で即死効果＆カウント0による即死が失敗した時は防御力をダウン",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_616.png",
+    "type": "lastSelfturnprogressFunction",
+    "buffGroup": 6089,
+    "vals": [{
+      "id": 3005
+    }, {
+      "id": 3063
+    }, {
+      "id": 10047
+    }]
+  }]
+}, {
+  "funcId": 23471,
+  "funcType": "addState",
+  "funcTargetType": "enemyAll",
+  "funcTargetTeam": "enemy",
+  "funcPopupText": "死の渇き",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_616.png",
+  "buffs": [{
+    "id": 6090,
+    "name": "死の渇き",
+    "detail": "ターン毎にカウントダウンしカウント0で高確率で即死効果＆カウント0による即死が失敗した時は防御力をダウン",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_616.png",
+    "type": "lastSelfturnprogressFunction",
+    "buffGroup": 6090,
+    "vals": [{
+      "id": 3005
+    }, {
+      "id": 3063
+    }, {
+      "id": 10047
+    }]
+  }]
+}, {
+  "funcId": 23479,
+  "funcType": "addState",
+  "funcTargetType": "enemyAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "毎ターン発動",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_537.png",
+  "buffs": [{
+    "id": 6091,
+    "name": "毎ターン発動",
+    "detail": "ターン終了時、自身の防御力をダウン＆即死耐性をダウン",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_537.png",
+    "type": "selfturnendFunction",
+    "vals": [{
+      "id": 3005
+    }, {
+      "id": 3063
+    }]
+  }]
+}, {
+  "funcId": 23481,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "即死耐性ダウン",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_506.png",
+  "buffs": [{
+    "id": 219,
+    "name": "即死耐性ダウン",
+    "detail": "即死耐性をダウン",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_506.png",
+    "type": "upNonresistInstantdeath",
+    "vals": [{
+      "id": 3005
+    }, {
+      "id": 3009
+    }, {
+      "id": 3039
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 23484,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "防御力ダウン",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_504.png",
+  "buffs": [{
+    "id": 148,
+    "name": "防御力ダウン",
+    "detail": "防御力をダウン",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_504.png",
+    "type": "downDefence",
+    "originalScript": {
+      "ProgressSelfTurn": 0
+    },
+    "vals": [{
+      "id": 3005
+    }, {
+      "id": 3009
+    }, {
+      "id": 3110
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 23485,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "防御力ダウン",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_504.png",
+  "buffs": [{
+    "id": 148,
+    "name": "防御力ダウン",
+    "detail": "防御力をダウン",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_504.png",
+    "type": "downDefence",
+    "originalScript": {
+      "ProgressSelfTurn": 0
+    },
+    "vals": [{
+      "id": 3005
+    }, {
+      "id": 3009
+    }, {
+      "id": 3110
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 23486,
+  "funcType": "instantDeath",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "即死"
+}, {
+  "funcId": 23487,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "Arts攻撃ダメージ前追加効果",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_528.png",
+  "buffs": [{
+    "id": 6092,
+    "name": "Arts攻撃ダメージ前追加効果",
+    "detail": "Arts攻撃時、ダメージ前に対象の即死耐性をダウン",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_528.png",
+    "type": "attackBeforeFunction",
+    "vals": [{
+      "id": 3004
+    }],
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4001
+    }],
+    "ckSelfIndv": [{
+      "id": 4001
+    }]
+  }]
+}, {
+  "funcId": 23488,
+  "funcType": "displayBuffstring",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy"
+}, {
+  "funcId": 23489,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "Extra Attack時追加効果",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_528.png",
+  "buffs": [{
+    "id": 6093,
+    "name": "Extra Attack時追加効果",
+    "detail": "Extra Attack時、対象の即死耐性をダウン",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_528.png",
+    "type": "commandattackAfterFunction",
+    "vals": [{
+      "id": 3004
+    }],
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4004
+    }],
+    "ckSelfIndv": [{
+      "id": 4004
+    }]
+  }]
+}, {
+  "funcId": 23490,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "クリティカル攻撃時追加効果",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_528.png",
+  "buffs": [{
+    "id": 6094,
+    "name": "クリティカル攻撃時追加効果",
+    "detail": "クリティカル攻撃時、対象の即死耐性をダウン",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_528.png",
+    "type": "commandattackAfterFunction",
+    "vals": [{
+      "id": 3004
+    }],
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4100
+    }],
+    "ckSelfIndv": [{
+      "id": 4100
+    }]
+  }]
+}, {
+  "funcId": 23495,
+  "funcType": "addStateShort",
+  "funcTargetType": "enemy",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "即死耐性ダウン",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_506.png",
+  "buffs": [{
+    "id": 219,
+    "name": "即死耐性ダウン",
+    "detail": "即死耐性をダウン",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_506.png",
+    "type": "upNonresistInstantdeath",
+    "vals": [{
+      "id": 3005
+    }, {
+      "id": 3009
+    }, {
+      "id": 3039
+    }],
+    "maxRate": 5000
   }]
 }, {
   "funcId": 30003,
