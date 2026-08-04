@@ -5853,6 +5853,30 @@
     "maxRate": 5000
   }]
 }, {
+  "funcId": 378,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "弱体付与アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_307.png",
+  "buffs": [{
+    "id": 158,
+    "name": "弱体付与アップ",
+    "detail": "弱体付与率をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_307.png",
+    "type": "upGrantstate",
+    "vals": [{
+      "id": 3004
+    }],
+    "tvals": [{
+      "id": 3005
+    }],
+    "ckSelfIndv": [{
+      "id": 3005
+    }],
+    "maxRate": 5000
+  }]
+}, {
   "funcId": 379,
   "funcType": "addStateShort",
   "funcTargetType": "self",
@@ -64619,6 +64643,34 @@
       "id": 3039
     }],
     "maxRate": 5000
+  }]
+}, {
+  "funcId": 23501,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "威力アップ・対呪い",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+  "buffs": [{
+    "id": 2884,
+    "name": "威力アップ〔呪い〕",
+    "detail": "〔呪い〕状態の敵に与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamageIndividualityActiveonly",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3028
+    }],
+    "tvals": [{
+      "id": 3026
+    }],
+    "ckOpIndv": [{
+      "id": 3026
+    }],
+    "maxRate": 10000
   }]
 }, {
   "funcId": 30003,
