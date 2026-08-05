@@ -6223,6 +6223,7 @@
     "svtId": 702000,
     "num": 3,
     "priority": 1,
+    "strengthStatus": 1,
     "condLimitCount": 3
   }],
   "functions": [{
@@ -6962,7 +6963,8 @@
   "skillSvts": [{
     "svtId": 300900,
     "num": 1,
-    "priority": 1
+    "priority": 1,
+    "strengthStatus": 1
   }],
   "functions": [{
     "funcId": 358,
@@ -7047,6 +7049,200 @@
     "svals": [{
       "Rate": 1000,
       "Value": 1
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }]
+}, {
+  "id": 49650,
+  "name": "殿の矜持 EX",
+  "ruby": "しんがりのきょうじ",
+  "unmodifiedDetail": "自身にターゲット集中状態を付与(1ターン)＆NP獲得量アップ[{0}](3ターン) ＋ 味方全体の攻撃力をアップ[{0}](3ターン)[g][o]▲[/o][/g]＆HPが少ないほど攻撃力がアップする状態を付与(3ターン)[g][o]▲[/o][/g]＆クリティカル威力をアップ[{0}](3ターン)[g][o]▲[/o][/g] ＋ スターを獲得[{0}][g][o]▲[/o][/g]",
+  "type": "active",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00700.png",
+  "coolDown": [8, 8, 8, 8, 8, 7, 7, 7, 7, 6],
+  "skillSvts": [{
+    "svtId": 300900,
+    "num": 1,
+    "priority": 2,
+    "strengthStatus": 99,
+    "condQuestId": 94158907,
+    "condQuestPhase": 3
+  }],
+  "functions": [{
+    "funcId": 358,
+    "svals": [{
+      "Rate": 5000,
+      "Turn": 1,
+      "Count": -1,
+      "Value": 1000
+    }, {
+      "Value": 1400
+    }, {
+      "Value": 1800
+    }, {
+      "Value": 2200
+    }, {
+      "Value": 2600
+    }, {
+      "Value": 3000
+    }, {
+      "Value": 3400
+    }, {
+      "Value": 3800
+    }, {
+      "Value": 4200
+    }, {
+      "Value": 5000
+    }]
+  }, {
+    "funcId": 2195,
+    "svals": [{
+      "Rate": 5000,
+      "Turn": 1,
+      "Count": -1,
+      "Value": 1000
+    }, {
+      "Value": 1400
+    }, {
+      "Value": 1800
+    }, {
+      "Value": 2200
+    }, {
+      "Value": 2600
+    }, {
+      "Value": 3000
+    }, {
+      "Value": 3400
+    }, {
+      "Value": 3800
+    }, {
+      "Value": 4200
+    }, {
+      "Value": 5000
+    }]
+  }, {
+    "funcId": 338,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 500
+    }, {
+      "Value": 550
+    }, {
+      "Value": 600
+    }, {
+      "Value": 650
+    }, {
+      "Value": 700
+    }, {
+      "Value": 750
+    }, {
+      "Value": 800
+    }, {
+      "Value": 850
+    }, {
+      "Value": 900
+    }, {
+      "Value": 1000
+    }]
+  }, {
+    "funcId": 470,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 1
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 152,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 100
+    }, {
+      "Value": 110
+    }, {
+      "Value": 120
+    }, {
+      "Value": 130
+    }, {
+      "Value": 140
+    }, {
+      "Value": 150
+    }, {
+      "Value": 160
+    }, {
+      "Value": 170
+    }, {
+      "Value": 180
+    }, {
+      "Value": 200
+    }]
+  }, {
+    "funcId": 23498,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 0,
+      "RatioHPLow": 300
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 206,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 200
+    }, {
+      "Value": 210
+    }, {
+      "Value": 220
+    }, {
+      "Value": 230
+    }, {
+      "Value": 240
+    }, {
+      "Value": 250
+    }, {
+      "Value": 260
+    }, {
+      "Value": 270
+    }, {
+      "Value": 280
+    }, {
+      "Value": 300
+    }]
+  }, {
+    "funcId": 476,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 10
+    }, {
+      "Value": 11
+    }, {
+      "Value": 12
+    }, {
+      "Value": 13
+    }, {
+      "Value": 14
+    }, {
+      "Value": 15
+    }, {
+      "Value": 16
+    }, {
+      "Value": 17
+    }, {
+      "Value": 18
+    }, {
+      "Value": 20
+    }]
+  }, {
+    "funcId": 215,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 2,
+      "Count": -1,
+      "Value": 200
     }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
   }]
 }, {
@@ -311046,6 +311242,132 @@
       "Value": 360
     }, {
       "Value": 400
+    }]
+  }]
+}, {
+  "id": 2692650,
+  "name": "狂い咲きの王 EX",
+  "ruby": "くるいざきのおう",
+  "unmodifiedDetail": "自身にガッツ状態(1回・5ターン・他のガッツ状態と重複可能[g][o]▲[/o][/g])を付与[{0}]＆NPを増やす[{0}][g][o]▲[/o][/g]＆Busterカード性能をアップ[{0}](3ターン)[g][o]▲[/o][/g]＆〔秩序〕特攻状態を付与[{0}](3ターン)[g][o]▲[/o][/g]",
+  "type": "active",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00404.png",
+  "coolDown": [8, 8, 8, 8, 8, 7, 7, 7, 7, 6],
+  "skillSvts": [{
+    "svtId": 702000,
+    "num": 3,
+    "priority": 2,
+    "strengthStatus": 99,
+    "condQuestId": 94158901,
+    "condQuestPhase": 3,
+    "condLimitCount": 3
+  }],
+  "functions": [{
+    "funcId": 23503,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 5,
+      "Count": 1,
+      "Value": 1000
+    }, {
+      "Value": 1150
+    }, {
+      "Value": 1300
+    }, {
+      "Value": 1450
+    }, {
+      "Value": 1600
+    }, {
+      "Value": 1750
+    }, {
+      "Value": 1900
+    }, {
+      "Value": 2050
+    }, {
+      "Value": 2200
+    }, {
+      "Value": 2500
+    }]
+  }, {
+    "funcId": 460,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 2000
+    }, {
+      "Value": 2100
+    }, {
+      "Value": 2200
+    }, {
+      "Value": 2300
+    }, {
+      "Value": 2400
+    }, {
+      "Value": 2500
+    }, {
+      "Value": 2600
+    }, {
+      "Value": 2700
+    }, {
+      "Value": 2800
+    }, {
+      "Value": 3000
+    }]
+  }, {
+    "funcId": 470,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 1
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 119,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 200
+    }, {
+      "Value": 210
+    }, {
+      "Value": 220
+    }, {
+      "Value": 230
+    }, {
+      "Value": 240
+    }, {
+      "Value": 250
+    }, {
+      "Value": 260
+    }, {
+      "Value": 270
+    }, {
+      "Value": 280
+    }, {
+      "Value": 300
+    }]
+  }, {
+    "funcId": 3504,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 200
+    }, {
+      "Value": 210
+    }, {
+      "Value": 220
+    }, {
+      "Value": 230
+    }, {
+      "Value": 240
+    }, {
+      "Value": 250
+    }, {
+      "Value": 260
+    }, {
+      "Value": 270
+    }, {
+      "Value": 280
+    }, {
+      "Value": 300
     }]
   }]
 }, {

@@ -64645,6 +64645,28 @@
     "maxRate": 5000
   }]
 }, {
+  "funcId": 23498,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "攻撃力アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_300.png",
+  "buffs": [{
+    "id": 5870,
+    "name": "攻撃力アップ",
+    "detail": "HPが少ないほど攻撃力をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_300.png",
+    "type": "upAtk",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3027
+    }],
+    "maxRate": 5000
+  }]
+}, {
   "funcId": 23501,
   "funcType": "addStateShort",
   "funcTargetType": "ptAll",
@@ -64671,6 +64693,40 @@
       "id": 3026
     }],
     "maxRate": 10000
+  }]
+}, {
+  "funcId": 23503,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "ガッツ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_304.png",
+  "buffs": [{
+    "id": 6097,
+    "name": "ガッツ",
+    "detail": "HPが0になった時、HPを回復して耐える(他のガッツ状態と重複可能)",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_304.png",
+    "type": "guts",
+    "script": {
+      "checkIndvType": 2,
+      "INDIVIDUALITIE": {
+        "id": 3086,
+        "negative": true
+      }
+    },
+    "originalScript": {
+      "checkIndvType": 2,
+      "INDIVIDUALITIE": -3086
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3024
+    }],
+    "ckOpIndv": [{
+      "id": 3139,
+      "negative": true
+    }]
   }]
 }, {
   "funcId": 30003,
