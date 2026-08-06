@@ -113663,10 +113663,51 @@
         "targetId": 0
       }],
       "phases": [1, 2, 3],
-      "phasesWithEnemies": [1],
+      "phasesWithEnemies": [1, 2, 3],
       "priority": 94158906,
       "noticeAt": 1785920400,
       "openedAt": 1785920400,
+      "closedAt": 1893423600
+    }, {
+      "id": 94158902,
+      "name": "強化クエスト ジル・ド・レェ 3",
+      "type": "event",
+      "flags": ["noDisplayRemain"],
+      "consume": 20,
+      "afterClear": "close",
+      "recommendLv": "70",
+      "spotId": 99001,
+      "warId": 1001,
+      "gifts": [{
+        "id": 94012504,
+        "objectId": 2,
+        "num": 2
+      }, {
+        "id": 94012504,
+        "type": "questRewardIcon",
+        "objectId": 9,
+        "num": 0
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94099425
+      }, {
+        "type": "svtLimit",
+        "targetId": 102200,
+        "value": 4,
+        "closedMessage": "霊基再臨{0}段階目で開放"
+      }, {
+        "type": "svtGet",
+        "targetId": 102200
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1, 2, 3],
+      "phasesWithEnemies": [1],
+      "priority": 94158908,
+      "noticeAt": 1786006800,
+      "openedAt": 1786006800,
       "closedAt": 1893423600
     }, {
       "id": 94158904,
@@ -113710,6 +113751,46 @@
       "openedAt": 1785834000,
       "closedAt": 1893423600
     }, {
+      "id": 94158905,
+      "name": "強化クエスト ジル・ド・レェ 4",
+      "type": "event",
+      "flags": ["noDisplayRemain"],
+      "consume": 20,
+      "afterClear": "close",
+      "recommendLv": "70",
+      "spotId": 99001,
+      "warId": 1001,
+      "gifts": [{
+        "id": 94012504,
+        "objectId": 2,
+        "num": 2
+      }, {
+        "id": 94012504,
+        "type": "questRewardIcon",
+        "objectId": 9,
+        "num": 0
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94074105
+      }, {
+        "type": "svtLimit",
+        "targetId": 500200,
+        "value": 4,
+        "closedMessage": "霊基再臨{0}段階目で開放"
+      }, {
+        "type": "svtGet",
+        "targetId": 500200
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1, 2, 3],
+      "priority": 94158907,
+      "noticeAt": 1786006800,
+      "openedAt": 1786006800,
+      "closedAt": 1893423600
+    }, {
       "id": 94158907,
       "name": "強化クエスト レオニダス 3",
       "type": "event",
@@ -113745,7 +113826,7 @@
         "targetId": 0
       }],
       "phases": [1, 2, 3],
-      "phasesWithEnemies": [1],
+      "phasesWithEnemies": [1, 2, 3],
       "priority": 94158905,
       "noticeAt": 1785920400,
       "openedAt": 1785920400,
