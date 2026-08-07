@@ -5932,11 +5932,13 @@
   "skillSvts": [{
     "svtId": 600700,
     "num": 1,
-    "priority": 1
+    "priority": 1,
+    "strengthStatus": 1
   }, {
     "svtId": 600710,
     "num": 1,
-    "priority": 1
+    "priority": 1,
+    "strengthStatus": 1
   }],
   "functions": [{
     "funcId": 145,
@@ -74275,6 +74277,7 @@
     "svtId": 901000,
     "num": 2,
     "priority": 1,
+    "strengthStatus": 1,
     "condLimitCount": 1
   }],
   "functions": [{
@@ -74335,6 +74338,153 @@
       "Rate": 1000,
       "Turn": 1,
       "Count": -1
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }]
+}, {
+  "id": 791650,
+  "name": "鬼道 EX",
+  "ruby": "きどう",
+  "unmodifiedDetail": "自身のBusterカード性能をアップ[{0}](3ターン)＆〔魔性〕特攻状態を付与[{0}](3ターン)＆無敵状態を付与(1ターン) ＋ 味方全体のNPを増やす[{0}][g][o]▲[/o][/g]＆クリティカル威力をアップ[{0}](3ターン)[g][o]▲[/o][/g] ＋ スターを大量獲得[g][o]▲[/o][/g]",
+  "type": "active",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00306.png",
+  "coolDown": [8, 8, 8, 8, 8, 7, 7, 7, 7, 6],
+  "skillSvts": [{
+    "svtId": 901000,
+    "num": 2,
+    "priority": 2,
+    "strengthStatus": 99,
+    "condQuestId": 94160601,
+    "condQuestPhase": 3,
+    "condLimitCount": 1
+  }],
+  "functions": [{
+    "funcId": 119,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 200
+    }, {
+      "Value": 210
+    }, {
+      "Value": 220
+    }, {
+      "Value": 230
+    }, {
+      "Value": 240
+    }, {
+      "Value": 250
+    }, {
+      "Value": 260
+    }, {
+      "Value": 270
+    }, {
+      "Value": 280
+    }, {
+      "Value": 300
+    }]
+  }, {
+    "funcId": 908,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 300
+    }, {
+      "Value": 320
+    }, {
+      "Value": 340
+    }, {
+      "Value": 360
+    }, {
+      "Value": 380
+    }, {
+      "Value": 400
+    }, {
+      "Value": 420
+    }, {
+      "Value": 440
+    }, {
+      "Value": 460
+    }, {
+      "Value": 500
+    }]
+  }, {
+    "funcId": 289,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 1,
+      "Count": -1
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 466,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 2000
+    }, {
+      "Value": 2100
+    }, {
+      "Value": 2200
+    }, {
+      "Value": 2300
+    }, {
+      "Value": 2400
+    }, {
+      "Value": 2500
+    }, {
+      "Value": 2600
+    }, {
+      "Value": 2700
+    }, {
+      "Value": 2800
+    }, {
+      "Value": 3000
+    }]
+  }, {
+    "funcId": 472,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 1
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 206,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 200
+    }, {
+      "Value": 210
+    }, {
+      "Value": 220
+    }, {
+      "Value": 230
+    }, {
+      "Value": 240
+    }, {
+      "Value": 250
+    }, {
+      "Value": 260
+    }, {
+      "Value": 270
+    }, {
+      "Value": 280
+    }, {
+      "Value": 300
+    }]
+  }, {
+    "funcId": 477,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 24
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 216,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 2,
+      "Count": -1,
+      "Value": 300
     }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
   }]
 }, {
@@ -251140,6 +251290,25 @@
     }]
   }]
 }, {
+  "id": 995317,
+  "name": "「FGO 藤丸立香はわからない」Season4",
+  "ruby": "-",
+  "unmodifiedDetail": "クエストクリア時に得られるマスターEXPを50増やす",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00202.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9311890,
+    "num": 1,
+    "priority": 1
+  }],
+  "functions": [{
+    "funcId": 90,
+    "svals": [{
+      "AddCount": 50
+    }]
+  }]
+}, {
   "id": 995318,
   "name": "人理保障の長",
   "ruby": "じんりほしょうのちょう",
@@ -311687,6 +311856,264 @@
       "DisplayLastFuncInvalidType": 1,
       "TriggeredFuncPosition": 5
     }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }]
+}, {
+  "id": 2694801,
+  "name": "二重存在者 A+",
+  "ruby": "にじゅうそんざいしゃ",
+  "unmodifiedDetail": "【ジキル時】\n自身の攻撃力をアップ[{0}](3ターン) ＋ 味方全体のクリティカル威力をアップ[{0}](3ターン)[g][o]▲[/o][/g]＆スター発生率を大アップ[{0}](3ターン)[g][o]▲[/o][/g]＆宝具使用時のチャージ段階を1段階引き上げる状態を付与(1回・3ターン)[g][o]▲[/o][/g]\n\n【ハイド時】\n自身の攻撃力をアップ[{0}](3ターン)＆さらに攻撃力をアップ[{0}](3ターン)＆〔人の力を持つ敵〕特攻状態を付与[{0}](3ターン)[g][o]▲[/o][/g]＆ガッツ状態を付与[{0}](1回・3ターン)[g][o]▲[/o][/g]＆強化解除耐性をアップ[{0}](3回・3ターン)[g][o]▲[/o][/g]",
+  "type": "active",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00300.png",
+  "coolDown": [7, 7, 7, 7, 7, 6, 6, 6, 6, 5],
+  "skillSvts": [{
+    "svtId": 600700,
+    "num": 1,
+    "priority": 2,
+    "strengthStatus": 99,
+    "condQuestId": 94158906,
+    "condQuestPhase": 3
+  }],
+  "functions": [{
+    "funcId": 145,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 50
+    }, {
+      "Value": 60
+    }, {
+      "Value": 70
+    }, {
+      "Value": 80
+    }, {
+      "Value": 90
+    }, {
+      "Value": 100
+    }, {
+      "Value": 110
+    }, {
+      "Value": 120
+    }, {
+      "Value": 130
+    }, {
+      "Value": 150
+    }]
+  }, {
+    "funcId": 206,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 200
+    }, {
+      "Value": 210
+    }, {
+      "Value": 220
+    }, {
+      "Value": 230
+    }, {
+      "Value": 240
+    }, {
+      "Value": 250
+    }, {
+      "Value": 260
+    }, {
+      "Value": 270
+    }, {
+      "Value": 280
+    }, {
+      "Value": 300
+    }]
+  }, {
+    "funcId": 303,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 500
+    }, {
+      "Value": 550
+    }, {
+      "Value": 600
+    }, {
+      "Value": 650
+    }, {
+      "Value": 700
+    }, {
+      "Value": 750
+    }, {
+      "Value": 800
+    }, {
+      "Value": 850
+    }, {
+      "Value": 900
+    }, {
+      "Value": 1000
+    }]
+  }, {
+    "funcId": 222,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 300
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 759,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": 1,
+      "Value": 1
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }]
+}, {
+  "id": 2694851,
+  "name": "二重存在者 A+",
+  "ruby": "にじゅうそんざいしゃ",
+  "unmodifiedDetail": "【ジキル時】\n自身の攻撃力をアップ[{0}](3ターン) ＋ 味方全体のクリティカル威力をアップ[{0}](3ターン)[g][o]▲[/o][/g]＆スター発生率を大アップ[{0}](3ターン)[g][o]▲[/o][/g]＆宝具使用時のチャージ段階を1段階引き上げる状態を付与(1回・3ターン)[g][o]▲[/o][/g]\n\n【ハイド時】\n自身の攻撃力をアップ[{0}](3ターン)＆さらに攻撃力をアップ[{0}](3ターン)＆〔人の力を持つ敵〕特攻状態を付与[{0}](3ターン)[g][o]▲[/o][/g]＆ガッツ状態を付与[{0}](1回・3ターン)[g][o]▲[/o][/g]＆強化解除耐性をアップ[{0}](3回・3ターン)[g][o]▲[/o][/g]",
+  "type": "active",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00300.png",
+  "coolDown": [7, 7, 7, 7, 7, 6, 6, 6, 6, 5],
+  "skillSvts": [{
+    "svtId": 600710,
+    "num": 1,
+    "priority": 2,
+    "condQuestId": 94158906,
+    "condQuestPhase": 3,
+    "flag": 16
+  }],
+  "functions": [{
+    "funcId": 145,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 50
+    }, {
+      "Value": 60
+    }, {
+      "Value": 70
+    }, {
+      "Value": 80
+    }, {
+      "Value": 90
+    }, {
+      "Value": 100
+    }, {
+      "Value": 110
+    }, {
+      "Value": 120
+    }, {
+      "Value": 130
+    }, {
+      "Value": 150
+    }]
+  }, {
+    "funcId": 620,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 250
+    }, {
+      "Value": 260
+    }, {
+      "Value": 270
+    }, {
+      "Value": 280
+    }, {
+      "Value": 290
+    }, {
+      "Value": 300
+    }, {
+      "Value": 310
+    }, {
+      "Value": 320
+    }, {
+      "Value": 330
+    }, {
+      "Value": 350
+    }]
+  }, {
+    "funcId": 5155,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 200
+    }, {
+      "Value": 210
+    }, {
+      "Value": 220
+    }, {
+      "Value": 230
+    }, {
+      "Value": 240
+    }, {
+      "Value": 250
+    }, {
+      "Value": 260
+    }, {
+      "Value": 270
+    }, {
+      "Value": 280
+    }, {
+      "Value": 300
+    }]
+  }, {
+    "funcId": 292,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": 1,
+      "Value": 1000
+    }, {
+      "Value": 1100
+    }, {
+      "Value": 1200
+    }, {
+      "Value": 1300
+    }, {
+      "Value": 1400
+    }, {
+      "Value": 1500
+    }, {
+      "Value": 1600
+    }, {
+      "Value": 1700
+    }, {
+      "Value": 1800
+    }, {
+      "Value": 2000
+    }]
+  }, {
+    "funcId": 2086,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": 3,
+      "Value": 500
+    }, {
+      "Value": 550
+    }, {
+      "Value": 600
+    }, {
+      "Value": 650
+    }, {
+      "Value": 700
+    }, {
+      "Value": 750
+    }, {
+      "Value": 800
+    }, {
+      "Value": 850
+    }, {
+      "Value": 900
+    }, {
+      "Value": 1000
+    }]
   }]
 }, {
   "id": 3001000,
