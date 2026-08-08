@@ -113827,6 +113827,7 @@
         "targetId": 0
       }],
       "phases": [1, 2, 3],
+      "phasesWithEnemies": [1, 2, 3],
       "priority": 94158909,
       "noticeAt": 1786093200,
       "openedAt": 1786093200,
@@ -113914,6 +113915,47 @@
       "openedAt": 1785747600,
       "closedAt": 1893423600
     }, {
+      "id": 94158909,
+      "name": "強化クエスト エイリーク 3",
+      "type": "event",
+      "flags": ["noDisplayRemain"],
+      "consume": 19,
+      "afterClear": "close",
+      "recommendLv": "65",
+      "spotId": 99001,
+      "warId": 1001,
+      "gifts": [{
+        "id": 94012503,
+        "objectId": 2,
+        "num": 2
+      }, {
+        "id": 94012503,
+        "type": "questRewardIcon",
+        "objectId": 8,
+        "num": 0
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94005012
+      }, {
+        "type": "svtLimit",
+        "targetId": 701500,
+        "value": 4,
+        "closedMessage": "霊基再臨{0}段階目で開放"
+      }, {
+        "type": "svtGet",
+        "targetId": 701500
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1, 2, 3],
+      "phasesWithEnemies": [1],
+      "priority": 94158911,
+      "noticeAt": 1786179600,
+      "openedAt": 1786179600,
+      "closedAt": 1893423600
+    }, {
       "id": 94158910,
       "name": "強化クエスト アマデウス 3",
       "type": "event",
@@ -113987,7 +114029,7 @@
         "targetId": 0
       }],
       "phases": [1, 2, 3],
-      "phasesWithEnemies": [1],
+      "phasesWithEnemies": [1, 2, 3],
       "priority": 94158910,
       "noticeAt": 1786093200,
       "openedAt": 1786093200,
@@ -114029,6 +114071,44 @@
       "priority": 94158902,
       "noticeAt": 1785747600,
       "openedAt": 1785747600,
+      "closedAt": 1893423600
+    }, {
+      "id": 94160603,
+      "name": "強化クエスト ヴリトラ",
+      "type": "event",
+      "flags": ["noDisplayRemain"],
+      "consume": 23,
+      "afterClear": "close",
+      "recommendLv": "90",
+      "spotId": 99001,
+      "warId": 1001,
+      "gifts": [{
+        "id": 94012504,
+        "objectId": 2,
+        "num": 2
+      }, {
+        "id": 94012504,
+        "type": "questRewardIcon",
+        "objectId": 9,
+        "num": 0
+      }],
+      "releaseConditions": [{
+        "type": "svtLimit",
+        "targetId": 304600,
+        "value": 4,
+        "closedMessage": "霊基再臨{0}段階目で開放"
+      }, {
+        "type": "svtGet",
+        "targetId": 304600
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1, 2, 3],
+      "phasesWithEnemies": [1],
+      "priority": 94158912,
+      "noticeAt": 1786179600,
+      "openedAt": 1786179600,
       "closedAt": 1893423600
     }]
   }]
