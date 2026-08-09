@@ -600,7 +600,8 @@
   "skillSvts": [{
     "svtId": 100100,
     "num": 1,
-    "priority": 1
+    "priority": 1,
+    "strengthStatus": 1
   }, {
     "svtId": 101900,
     "num": 2,
@@ -27866,6 +27867,7 @@
     "svtId": 301000,
     "num": 3,
     "priority": 1,
+    "strengthStatus": 1,
     "condQuestId": 94005003,
     "condQuestPhase": 5,
     "condLimitCount": 4
@@ -27903,6 +27905,154 @@
       "Value": 260
     }, {
       "Value": 300
+    }]
+  }]
+}, {
+  "id": 252650,
+  "name": "七つの丘 EX",
+  "ruby": "ななつのおか",
+  "unmodifiedDetail": "味方単体にガッツ状態を付与[{0}](1回・3ターン)[g][o]▲[/o][/g]＆Busterカード性能をアップ[{0}](3ターン[g][o]▲[/o][/g]) ＋ 味方全体の攻撃力をアップ[{0}](3ターン)[g][o]▲[/o][/g]＆強化成功率をアップ[{0}](3ターン)[g][o]▲[/o][/g]＆HP回復量をアップ[{0}](3ターン)[g][o]▲[/o][/g]",
+  "type": "active",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00404.png",
+  "coolDown": [9, 9, 9, 9, 9, 8, 8, 8, 8, 7],
+  "skillSvts": [{
+    "svtId": 301000,
+    "num": 3,
+    "priority": 2,
+    "strengthStatus": 99,
+    "condQuestId": 94158903,
+    "condQuestPhase": 3,
+    "condLimitCount": 4
+  }],
+  "functions": [{
+    "funcId": 293,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": 1,
+      "Value": 1000
+    }, {
+      "Value": 1200
+    }, {
+      "Value": 1400
+    }, {
+      "Value": 1600
+    }, {
+      "Value": 1800
+    }, {
+      "Value": 2000
+    }, {
+      "Value": 2200
+    }, {
+      "Value": 2400
+    }, {
+      "Value": 2600
+    }, {
+      "Value": 3000
+    }]
+  }, {
+    "funcId": 123,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 100
+    }, {
+      "Value": 120
+    }, {
+      "Value": 140
+    }, {
+      "Value": 160
+    }, {
+      "Value": 180
+    }, {
+      "Value": 200
+    }, {
+      "Value": 220
+    }, {
+      "Value": 240
+    }, {
+      "Value": 260
+    }, {
+      "Value": 300
+    }]
+  }, {
+    "funcId": 152,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 100
+    }, {
+      "Value": 110
+    }, {
+      "Value": 120
+    }, {
+      "Value": 130
+    }, {
+      "Value": 140
+    }, {
+      "Value": 150
+    }, {
+      "Value": 160
+    }, {
+      "Value": 170
+    }, {
+      "Value": 180
+    }, {
+      "Value": 200
+    }]
+  }, {
+    "funcId": 950,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 200
+    }, {
+      "Value": 220
+    }, {
+      "Value": 240
+    }, {
+      "Value": 260
+    }, {
+      "Value": 280
+    }, {
+      "Value": 300
+    }, {
+      "Value": 320
+    }, {
+      "Value": 340
+    }, {
+      "Value": 360
+    }, {
+      "Value": 400
+    }]
+  }, {
+    "funcId": 499,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 500
+    }, {
+      "Value": 550
+    }, {
+      "Value": 600
+    }, {
+      "Value": 650
+    }, {
+      "Value": 700
+    }, {
+      "Value": 750
+    }, {
+      "Value": 800
+    }, {
+      "Value": 850
+    }, {
+      "Value": 900
+    }, {
+      "Value": 1000
     }]
   }]
 }, {
@@ -111597,6 +111747,19 @@
       "Turn": 5,
       "Count": -1,
       "Value": 500
+    }]
+  }]
+}, {
+  "id": 970928,
+  "name": "",
+  "type": "active",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_999999.png",
+  "coolDown": [1],
+  "functions": [{
+    "funcId": 459,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 1000
     }]
   }]
 }, {
@@ -312267,6 +312430,116 @@
     }, {
       "Value": 1000
     }]
+  }]
+}, {
+  "id": 2695650,
+  "name": "理想郷の騎士 EX",
+  "ruby": "りそうきょうのきし",
+  "unmodifiedDetail": "味方全体の攻撃力をアップ[g][o]▲[/o][/g][{0}](3ターン) ＋ 味方全体の〔円卓の騎士〕の攻撃力をアップ[{0}](3ターン)[g][o]▲[/o][/g] ＋ 自身のExtra Attackカード性能を大アップ[{0}](3ターン)[g][o]▲[/o][/g]＆「Buster攻撃時に自身のNPを増やす状態」を付与(3ターン)[g][o]▲[/o][/g]",
+  "type": "active",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00300.png",
+  "coolDown": [7, 7, 7, 7, 7, 6, 6, 6, 6, 5],
+  "skillSvts": [{
+    "svtId": 100100,
+    "num": 1,
+    "priority": 2,
+    "strengthStatus": 99,
+    "condQuestId": 94158911,
+    "condQuestPhase": 3
+  }],
+  "functions": [{
+    "funcId": 152,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 200
+    }, {
+      "Value": 210
+    }, {
+      "Value": 220
+    }, {
+      "Value": 230
+    }, {
+      "Value": 240
+    }, {
+      "Value": 250
+    }, {
+      "Value": 260
+    }, {
+      "Value": 270
+    }, {
+      "Value": 280
+    }, {
+      "Value": 300
+    }]
+  }, {
+    "funcId": 23517,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 100
+    }, {
+      "Value": 110
+    }, {
+      "Value": 120
+    }, {
+      "Value": 130
+    }, {
+      "Value": 140
+    }, {
+      "Value": 150
+    }, {
+      "Value": 160
+    }, {
+      "Value": 170
+    }, {
+      "Value": 180
+    }, {
+      "Value": 200
+    }]
+  }, {
+    "funcId": 9952,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 1000
+    }, {
+      "Value": 1100
+    }, {
+      "Value": 1200
+    }, {
+      "Value": 1300
+    }, {
+      "Value": 1400
+    }, {
+      "Value": 1500
+    }, {
+      "Value": 1600
+    }, {
+      "Value": 1700
+    }, {
+      "Value": 1800
+    }, {
+      "Value": 2000
+    }]
+  }, {
+    "funcId": 23522,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 970928,
+      "Value2": 1
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 470,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 1
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
   }]
 }, {
   "id": 3001000,

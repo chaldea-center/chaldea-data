@@ -10521,6 +10521,32 @@
     "maxRate": 5000
   }]
 }, {
+  "funcId": 950,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "強化付与アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_307.png",
+  "buffs": [{
+    "id": 159,
+    "name": "強化付与アップ",
+    "detail": "強化付与率をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_307.png",
+    "type": "upGrantstate",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3090
+    }],
+    "tvals": [{
+      "id": 3004
+    }],
+    "ckSelfIndv": [{
+      "id": 3004
+    }],
+    "maxRate": 5000
+  }]
+}, {
   "funcId": 953,
   "funcType": "addStateShort",
   "funcTargetType": "enemy",
@@ -64832,6 +64858,34 @@
     "type": "addIndividuality"
   }]
 }, {
+  "funcId": 23517,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "攻撃力アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_300.png",
+  "functvals": [{
+    "id": 2795
+  }],
+  "buffs": [{
+    "id": 126,
+    "name": "攻撃力アップ",
+    "detail": "攻撃力をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_300.png",
+    "type": "upAtk",
+    "originalScript": {
+      "ProgressSelfTurn": 1
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3027
+    }],
+    "maxRate": 5000
+  }]
+}, {
   "funcId": 23520,
   "funcType": "addStateShort",
   "funcTargetType": "ptAll",
@@ -64858,6 +64912,31 @@
       "id": 200
     }],
     "maxRate": 10000
+  }]
+}, {
+  "funcId": 23522,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "Buster攻撃時追加効果",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_333.png",
+  "buffs": [{
+    "id": 6102,
+    "name": "Buster攻撃時追加効果",
+    "detail": "Buster攻撃時、自身のNPを増やす",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_333.png",
+    "type": "attackAfterFunction",
+    "vals": [{
+      "id": 3004
+    }],
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4002
+    }],
+    "ckSelfIndv": [{
+      "id": 4002
+    }]
   }]
 }, {
   "funcId": 30003,
