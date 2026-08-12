@@ -268697,6 +268697,19 @@
         "value": 80613
       }]
     }, {
+      "name": "イベントについて 6",
+      "condType": "eventEnd",
+      "priority": 6940,
+      "svtVoiceType": "eventReward",
+      "id": ["0_N060", "0_N061", "0_N062", "0_N063", "0_N064", "0_N065", "0_N066", "0_N067", "0_N068"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_109836720/0_N060.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109836720/0_N061.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109836720/0_N062.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109836720/0_N063.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109836720/0_N064.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109836720/0_N065.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109836720/0_N066.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109836720/0_N067.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109836720/0_N068.mp3"],
+      "delay": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+      "face": [0, 5, 5, 5, 6, 8, 4, 8, 2],
+      "conds": [{
+        "condType": "eventEnd",
+        "value": 80613
+      }]
+    }, {
       "name": "ミッションについて 1",
       "condType": "eventEnd",
       "priority": 6890,
@@ -268765,6 +268778,26 @@
       "playConds": [{
         "condGroup": 1,
         "condType": "none",
+        "targetId": 0,
+        "condValue": 0,
+        "condValues": [0]
+      }]
+    }, {
+      "name": "ショップついて 3",
+      "condType": "eventEnd",
+      "priority": 6470,
+      "svtVoiceType": "eventShop",
+      "id": ["0_I030"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_109836720/0_I030.mp3"],
+      "delay": [0.0],
+      "face": [0],
+      "conds": [{
+        "condType": "eventEnd",
+        "value": 80613
+      }],
+      "playConds": [{
+        "condGroup": 1,
+        "condType": "forceFalse",
         "targetId": 0,
         "condValue": 0,
         "condValues": [0]

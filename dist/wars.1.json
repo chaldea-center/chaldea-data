@@ -115419,7 +115419,7 @@
       "closedAt": 1893423600
     }, {
       "id": 94061636,
-      "name": "【11周年記念】宝物庫の扉を開け 初級",
+      "name": "宝物庫の扉を開け 初級",
       "type": "event",
       "flags": ["noDisplayRemain"],
       "consume": 10,
@@ -115439,7 +115439,7 @@
       "closedAt": 1893423600
     }, {
       "id": 94061637,
-      "name": "【11周年記念】宝物庫の扉を開け 中級",
+      "name": "宝物庫の扉を開け 中級",
       "type": "event",
       "flags": ["noDisplayRemain"],
       "consume": 20,
@@ -115459,7 +115459,7 @@
       "closedAt": 1893423600
     }, {
       "id": 94061638,
-      "name": "【11周年記念】宝物庫の扉を開け 上級",
+      "name": "宝物庫の扉を開け 上級",
       "type": "event",
       "flags": ["noDisplayRemain"],
       "consume": 30,
@@ -115479,7 +115479,7 @@
       "closedAt": 1893423600
     }, {
       "id": 94061639,
-      "name": "【11周年記念】宝物庫の扉を開け 超級",
+      "name": "宝物庫の扉を開け 超級",
       "type": "event",
       "flags": ["noDisplayRemain"],
       "consume": 40,
@@ -115499,7 +115499,7 @@
       "closedAt": 1893423600
     }, {
       "id": 94061640,
-      "name": "【11周年記念】宝物庫の扉を開け 極級",
+      "name": "宝物庫の扉を開け 極級",
       "type": "event",
       "flags": ["noDisplayRemain"],
       "consume": 40,
@@ -162357,6 +162357,34 @@
       "noticeAt": 1767430800,
       "openedAt": 1767430800,
       "closedAt": 1768017599
+    }, {
+      "id": 94158840,
+      "name": "ハサン・サッバーハ体験クエスト",
+      "type": "event",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "15",
+      "spotId": 999999,
+      "warId": 9999,
+      "gifts": [{
+        "id": 15000,
+        "objectId": 4001,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 1000011,
+        "closedMessage": "特異点Fクリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94158860,
+      "noticeAt": 1785661200,
+      "openedAt": 1785661200,
+      "closedAt": 1787457599
     }]
   }]
 }, {
