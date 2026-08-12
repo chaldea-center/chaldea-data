@@ -127,6 +127,18 @@
   "skillSvts": [{
     "svtId": 800100,
     "num": 2,
+    "priority": 11,
+    "condLimitCount": 2,
+    "flag": 2,
+    "releaseConditions": [{
+      "idx": 1,
+      "condType": "equipWithTargetCostume",
+      "condTargetId": 800100,
+      "condNum": 20
+    }]
+  }, {
+    "svtId": 800100,
+    "num": 2,
     "priority": 7,
     "condLimitCount": 2,
     "flag": 2,
@@ -139,6 +151,18 @@
   }, {
     "svtId": 800101,
     "num": 2,
+    "priority": 11,
+    "condLimitCount": 2,
+    "flag": 2,
+    "releaseConditions": [{
+      "idx": 1,
+      "condType": "equipWithTargetCostume",
+      "condTargetId": 800100,
+      "condNum": 20
+    }]
+  }, {
+    "svtId": 800101,
+    "num": 2,
     "priority": 7,
     "condLimitCount": 2,
     "flag": 2,
@@ -147,6 +171,17 @@
       "condType": "equipWithTargetCostume",
       "condTargetId": 800100,
       "condNum": 17
+    }]
+  }, {
+    "svtId": 800102,
+    "num": 2,
+    "priority": 11,
+    "flag": 2,
+    "releaseConditions": [{
+      "idx": 1,
+      "condType": "equipWithTargetCostume",
+      "condTargetId": 800100,
+      "condNum": 20
     }]
   }, {
     "svtId": 800102,
@@ -17016,6 +17051,18 @@
   "skillSvts": [{
     "svtId": 800100,
     "num": 3,
+    "priority": 11,
+    "condLimitCount": 2,
+    "flag": 2,
+    "releaseConditions": [{
+      "idx": 1,
+      "condType": "equipWithTargetCostume",
+      "condTargetId": 800100,
+      "condNum": 20
+    }]
+  }, {
+    "svtId": 800100,
+    "num": 3,
     "priority": 10,
     "condLimitCount": 2,
     "flag": 2,
@@ -17040,6 +17087,18 @@
   }, {
     "svtId": 800101,
     "num": 3,
+    "priority": 11,
+    "condLimitCount": 2,
+    "flag": 2,
+    "releaseConditions": [{
+      "idx": 1,
+      "condType": "equipWithTargetCostume",
+      "condTargetId": 800100,
+      "condNum": 20
+    }]
+  }, {
+    "svtId": 800101,
+    "num": 3,
     "priority": 10,
     "condLimitCount": 2,
     "flag": 2,
@@ -17060,6 +17119,18 @@
       "condType": "equipWithTargetCostume",
       "condTargetId": 800100,
       "condNum": 17
+    }]
+  }, {
+    "svtId": 800102,
+    "num": 3,
+    "priority": 11,
+    "condLimitCount": 2,
+    "flag": 2,
+    "releaseConditions": [{
+      "idx": 1,
+      "condType": "equipWithTargetCostume",
+      "condTargetId": 800100,
+      "condNum": 20
     }]
   }, {
     "svtId": 800102,
@@ -36192,6 +36263,18 @@
   "functions": [{
     "funcId": 0,
     "svals": [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }]
+}, {
+  "id": 348350,
+  "name": "ハイ・サーヴァント C",
+  "ruby": "はい・さーゔぁんと",
+  "unmodifiedDetail": "効果なし",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_999999.png",
+  "coolDown": [0],
+  "functions": [{
+    "funcId": 0,
+    "svals": [{}]
   }]
 }, {
   "id": 348550,
@@ -94862,6 +94945,102 @@
     }]
   }]
 }, {
+  "id": 940464,
+  "name": "うちなーバケーション EX",
+  "unmodifiedDetail": "自身の『カルデア南海大決戦！』における攻撃の威力を100%アップ＆クエストクリア時に得られる絆を50%増やす【『カルデア南海大決戦！』イベント期間限定】",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00301.png",
+  "coolDown": [0],
+  "functions": [{
+    "funcId": 23427,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 1000
+    }]
+  }, {
+    "funcId": 23429,
+    "svals": [{
+      "Target": 1,
+      "Individuality": 0,
+      "EventId": 80614,
+      "RateCount": 500
+    }]
+  }]
+}, {
+  "id": 940465,
+  "name": "うちなーバケーション A",
+  "unmodifiedDetail": "自身の『カルデア南海大決戦！』における攻撃の威力を50%アップ＆クエストクリア時に得られる絆を20%増やす【『カルデア南海大決戦！』イベント期間限定】",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00301.png",
+  "coolDown": [0],
+  "functions": [{
+    "funcId": 23427,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 500
+    }]
+  }, {
+    "funcId": 23429,
+    "svals": [{
+      "Target": 1,
+      "Individuality": 0,
+      "EventId": 80614,
+      "RateCount": 200
+    }]
+  }]
+}, {
+  "id": 940466,
+  "name": "うちなーバケーション A",
+  "unmodifiedDetail": "自身の『カルデア南海大決戦！』における攻撃の威力を50%アップ ＋ 味方全体<控え含む>の『カルデア南海大決戦！』のクエストクリア時に得られる絆を5%増やす(サポート時は無効)【『カルデア南海大決戦！』イベント期間限定】",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00301.png",
+  "coolDown": [0],
+  "functions": [{
+    "funcId": 23427,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 500
+    }]
+  }, {
+    "funcId": 23430,
+    "svals": [{
+      "ApplySupportSvt": 0,
+      "Individuality": 0,
+      "EventId": 80614,
+      "RateCount": 50
+    }]
+  }]
+}, {
+  "id": 940467,
+  "name": "うちなーバケーション B",
+  "unmodifiedDetail": "自身の『カルデア南海大決戦！』における攻撃の威力を30%アップ＆クエストクリア時に得られる絆を20%増やす【『カルデア南海大決戦！』イベント期間限定】",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00301.png",
+  "coolDown": [0],
+  "functions": [{
+    "funcId": 23426,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 300
+    }]
+  }, {
+    "funcId": 23429,
+    "svals": [{
+      "Target": 1,
+      "Individuality": 0,
+      "EventId": 80614,
+      "RateCount": 200
+    }]
+  }]
+}, {
   "id": 940468,
   "name": "カルデニア・クルー B",
   "ruby": "ぱーくゔぃじたー",
@@ -111438,6 +111617,22 @@
     }]
   }]
 }, {
+  "id": 970917,
+  "name": "",
+  "type": "active",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_999999.png",
+  "coolDown": [1],
+  "functions": [{
+    "funcId": 23553,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 705300,
+      "Target": 1,
+      "HideMiss": 1,
+      "HideNoEffect": 1
+    }]
+  }]
+}, {
   "id": 970918,
   "name": "",
   "type": "active",
@@ -111760,6 +111955,120 @@
     "svals": [{
       "Rate": 1000,
       "Value": 1000
+    }]
+  }]
+}, {
+  "id": 970930,
+  "name": "",
+  "type": "active",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_999999.png",
+  "coolDown": [1],
+  "functions": [{
+    "funcId": 479,
+    "svals": [{
+      "Rate": 1000
+    }]
+  }]
+}, {
+  "id": 970931,
+  "name": "",
+  "type": "active",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_999999.png",
+  "coolDown": [1],
+  "functions": [{
+    "funcId": 6551,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 0,
+      "Value2": 1,
+      "DisplayNoEffectCauses": "Avoided"
+    }]
+  }, {
+    "funcId": 23537,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 10051
+    }]
+  }]
+}, {
+  "id": 970932,
+  "name": "",
+  "type": "active",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_999999.png",
+  "coolDown": [1],
+  "functions": [{
+    "funcId": 193,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 100
+    }]
+  }]
+}, {
+  "id": 970933,
+  "name": "",
+  "type": "active",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_999999.png",
+  "coolDown": [1],
+  "functions": [{
+    "funcId": 475,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 10
+    }]
+  }]
+}, {
+  "id": 970934,
+  "name": "",
+  "type": "active",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_999999.png",
+  "coolDown": [1],
+  "functions": [{
+    "funcId": 316,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 5,
+      "Count": -1,
+      "Value": 500
+    }]
+  }]
+}, {
+  "id": 970935,
+  "name": "",
+  "type": "active",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_999999.png",
+  "coolDown": [1],
+  "functions": [{
+    "funcId": 317,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 5,
+      "Count": -1,
+      "Value": 500
+    }]
+  }]
+}, {
+  "id": 970936,
+  "name": "",
+  "type": "active",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_999999.png",
+  "coolDown": [1],
+  "functions": [{
+    "funcId": 23561,
+    "svals": [{
+      "Rate": 1000,
+      "IncludeIgnoreIndividuality": 1
+    }]
+  }, {
+    "funcId": 459,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 1000,
+      "DisplayLastFuncInvalidType": 1,
+      "TriggeredFuncPosition": 1
     }]
   }]
 }, {
@@ -251652,6 +251961,1182 @@
     }]
   }]
 }, {
+  "id": 995319,
+  "name": "豊穣の海",
+  "ruby": "-",
+  "unmodifiedDetail": "自身のQuickカード性能を6%アップ＆Artsカード性能を6%アップ＆Busterカード性能を6%アップ＆宝具威力を6%アップ＆宝具使用時にチャージ段階を2段階分上げる(1回)",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00317.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9409410,
+    "num": 1,
+    "priority": 1,
+    "strengthStatus": 1
+  }],
+  "functions": [{
+    "funcId": 100,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 60
+    }]
+  }, {
+    "funcId": 109,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 60
+    }]
+  }, {
+    "funcId": 118,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 60
+    }]
+  }, {
+    "funcId": 247,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 60
+    }]
+  }, {
+    "funcId": 22723,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": 1,
+      "Value": 2
+    }]
+  }]
+}, {
+  "id": 995320,
+  "name": "豊穣の海",
+  "ruby": "-",
+  "unmodifiedDetail": "自身のQuickカード性能を8%アップ＆Artsカード性能を8%アップ＆Busterカード性能を8%アップ＆宝具威力を8%アップ＆宝具使用時にチャージ段階を2段階分上げる(1回)[最大解放]",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00317.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9409410,
+    "num": 1,
+    "priority": 2,
+    "strengthStatus": 99,
+    "condLimitCount": 4
+  }],
+  "functions": [{
+    "funcId": 100,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 80
+    }]
+  }, {
+    "funcId": 109,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 80
+    }]
+  }, {
+    "funcId": 118,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 80
+    }]
+  }, {
+    "funcId": 247,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 80
+    }]
+  }, {
+    "funcId": 22723,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": 1,
+      "Value": 2
+    }]
+  }]
+}, {
+  "id": 995321,
+  "name": "百鬼やちむんのドロップ獲得数アップ",
+  "ruby": "-",
+  "unmodifiedDetail": "百鬼やちむんのドロップ獲得数を1個増やす【『カルデア南海大決戦！』イベント期間限定】",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00200.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9409410,
+    "num": 2,
+    "priority": 1,
+    "strengthStatus": 1,
+    "eventId": 80614
+  }],
+  "functions": [{
+    "funcId": 23431,
+    "svals": [{
+      "Individuality": 11004,
+      "EventId": 80614,
+      "AddCount": 1
+    }]
+  }]
+}, {
+  "id": 995322,
+  "name": "百鬼やちむんのドロップ獲得数アップ",
+  "ruby": "-",
+  "unmodifiedDetail": "百鬼やちむんのドロップ獲得数を2個増やす[最大解放]【『カルデア南海大決戦！』イベント期間限定】",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00200.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9409410,
+    "num": 2,
+    "priority": 2,
+    "strengthStatus": 99,
+    "condLimitCount": 4,
+    "eventId": 80614
+  }],
+  "functions": [{
+    "funcId": 23431,
+    "svals": [{
+      "Individuality": 11004,
+      "EventId": 80614,
+      "AddCount": 2
+    }]
+  }]
+}, {
+  "id": 995323,
+  "name": "サマー・アーマー",
+  "ruby": "-",
+  "unmodifiedDetail": "自身の被ダメージを300カットする状態を付与＆〔ライダー〕クラスへの特攻状態を8%付与",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00400.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9409420,
+    "num": 1,
+    "priority": 1,
+    "strengthStatus": 1
+  }],
+  "functions": [{
+    "funcId": 274,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 300
+    }]
+  }, {
+    "funcId": 658,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 80
+    }]
+  }]
+}, {
+  "id": 995324,
+  "name": "サマー・アーマー",
+  "ruby": "-",
+  "unmodifiedDetail": "自身の被ダメージを400カットする状態を付与＆〔ライダー〕クラスへの特攻状態を10%付与[最大解放]",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00400.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9409420,
+    "num": 1,
+    "priority": 2,
+    "strengthStatus": 99,
+    "condLimitCount": 4
+  }],
+  "functions": [{
+    "funcId": 274,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 400
+    }]
+  }, {
+    "funcId": 658,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 100
+    }]
+  }]
+}, {
+  "id": 995325,
+  "name": "人魂ぐらすのドロップ獲得数アップ",
+  "ruby": "-",
+  "unmodifiedDetail": "人魂ぐらすのドロップ獲得数を1個増やす【『カルデア南海大決戦！』イベント期間限定】",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00200.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9409420,
+    "num": 2,
+    "priority": 1,
+    "strengthStatus": 1,
+    "eventId": 80614
+  }],
+  "functions": [{
+    "funcId": 23432,
+    "svals": [{
+      "Individuality": 11003,
+      "EventId": 80614,
+      "AddCount": 1
+    }]
+  }]
+}, {
+  "id": 995326,
+  "name": "人魂ぐらすのドロップ獲得数アップ",
+  "ruby": "-",
+  "unmodifiedDetail": "人魂ぐらすのドロップ獲得数を2個増やす[最大解放]【『カルデア南海大決戦！』イベント期間限定】",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00200.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9409420,
+    "num": 2,
+    "priority": 2,
+    "strengthStatus": 99,
+    "condLimitCount": 4,
+    "eventId": 80614
+  }],
+  "functions": [{
+    "funcId": 23432,
+    "svals": [{
+      "Individuality": 11003,
+      "EventId": 80614,
+      "AddCount": 2
+    }]
+  }]
+}, {
+  "id": 995327,
+  "name": "幽世の使者",
+  "ruby": "-",
+  "unmodifiedDetail": "自身に〔毒〕特攻状態を15%付与",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00301.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9409430,
+    "num": 1,
+    "priority": 1,
+    "strengthStatus": 1
+  }],
+  "functions": [{
+    "funcId": 6924,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 150
+    }]
+  }]
+}, {
+  "id": 995328,
+  "name": "幽世の使者",
+  "ruby": "-",
+  "unmodifiedDetail": "自身に〔毒〕特攻状態を20%付与[最大解放]",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00301.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9409430,
+    "num": 1,
+    "priority": 2,
+    "strengthStatus": 99,
+    "condLimitCount": 4
+  }],
+  "functions": [{
+    "funcId": 6924,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 200
+    }]
+  }]
+}, {
+  "id": 995329,
+  "name": "怪々みんさーのドロップ獲得数アップ",
+  "ruby": "-",
+  "unmodifiedDetail": "怪々みんさーのドロップ獲得数を1個増やす【『カルデア南海大決戦！』イベント期間限定】",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00200.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9409430,
+    "num": 2,
+    "priority": 1,
+    "strengthStatus": 1,
+    "eventId": 80614
+  }],
+  "functions": [{
+    "funcId": 23433,
+    "svals": [{
+      "Individuality": 11002,
+      "EventId": 80614,
+      "AddCount": 1
+    }]
+  }]
+}, {
+  "id": 995330,
+  "name": "怪々みんさーのドロップ獲得数アップ",
+  "ruby": "-",
+  "unmodifiedDetail": "怪々みんさーのドロップ獲得数を2個増やす[最大解放]【『カルデア南海大決戦！』イベント期間限定】",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00200.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9409430,
+    "num": 2,
+    "priority": 2,
+    "strengthStatus": 99,
+    "condLimitCount": 4,
+    "eventId": 80614
+  }],
+  "functions": [{
+    "funcId": 23433,
+    "svals": [{
+      "Individuality": 11002,
+      "EventId": 80614,
+      "AddCount": 2
+    }]
+  }]
+}, {
+  "id": 995331,
+  "name": "マブイ・ロード",
+  "ruby": "-",
+  "unmodifiedDetail": "自身に無敵貫通状態を付与＆〔中庸〕特攻状態を35%付与",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00312.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9409440,
+    "num": 1,
+    "priority": 1,
+    "strengthStatus": 1
+  }],
+  "functions": [{
+    "funcId": 510,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1
+    }]
+  }, {
+    "funcId": 23315,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 350
+    }]
+  }]
+}, {
+  "id": 995332,
+  "name": "マブイ・ロード",
+  "ruby": "-",
+  "unmodifiedDetail": "自身に無敵貫通状態を付与＆〔中庸〕特攻状態を40%付与[最大解放]",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00312.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9409440,
+    "num": 1,
+    "priority": 2,
+    "strengthStatus": 99,
+    "condLimitCount": 4
+  }],
+  "functions": [{
+    "funcId": 510,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1
+    }]
+  }, {
+    "funcId": 23315,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 400
+    }]
+  }]
+}, {
+  "id": 995333,
+  "name": "百鬼やちむんのドロップ獲得数アップ",
+  "ruby": "-",
+  "unmodifiedDetail": "百鬼やちむんのドロップ獲得数を1個増やす【『カルデア南海大決戦！』イベント期間限定】",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00200.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9409440,
+    "num": 2,
+    "priority": 1,
+    "strengthStatus": 1,
+    "eventId": 80614
+  }],
+  "functions": [{
+    "funcId": 23431,
+    "svals": [{
+      "Individuality": 11004,
+      "EventId": 80614,
+      "AddCount": 1
+    }]
+  }]
+}, {
+  "id": 995334,
+  "name": "百鬼やちむんのドロップ獲得数アップ",
+  "ruby": "-",
+  "unmodifiedDetail": "百鬼やちむんのドロップ獲得数を2個増やす[最大解放]【『カルデア南海大決戦！』イベント期間限定】",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00200.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9409440,
+    "num": 2,
+    "priority": 2,
+    "strengthStatus": 99,
+    "condLimitCount": 4,
+    "eventId": 80614
+  }],
+  "functions": [{
+    "funcId": 23431,
+    "svals": [{
+      "Individuality": 11004,
+      "EventId": 80614,
+      "AddCount": 2
+    }]
+  }]
+}, {
+  "id": 995335,
+  "name": "シープ・イズ・ザ・ゴート",
+  "ruby": "-",
+  "unmodifiedDetail": "自身のNP獲得量を15%アップ＆〔やけど〕特攻状態を15%付与",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00602.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9409450,
+    "num": 1,
+    "priority": 1,
+    "strengthStatus": 1
+  }],
+  "functions": [{
+    "funcId": 336,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 150
+    }]
+  }, {
+    "funcId": 5650,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 150
+    }]
+  }]
+}, {
+  "id": 995336,
+  "name": "シープ・イズ・ザ・ゴート",
+  "ruby": "-",
+  "unmodifiedDetail": "自身のNP獲得量を20%アップ＆〔やけど〕特攻状態を20%付与[最大解放]",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00602.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9409450,
+    "num": 1,
+    "priority": 2,
+    "strengthStatus": 99,
+    "condLimitCount": 4
+  }],
+  "functions": [{
+    "funcId": 336,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 200
+    }]
+  }, {
+    "funcId": 5650,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 200
+    }]
+  }]
+}, {
+  "id": 995337,
+  "name": "人魂ぐらすのドロップ獲得数アップ",
+  "ruby": "-",
+  "unmodifiedDetail": "人魂ぐらすのドロップ獲得数を1個増やす【『カルデア南海大決戦！』イベント期間限定】",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00200.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9409450,
+    "num": 2,
+    "priority": 1,
+    "strengthStatus": 1,
+    "eventId": 80614
+  }],
+  "functions": [{
+    "funcId": 23432,
+    "svals": [{
+      "Individuality": 11003,
+      "EventId": 80614,
+      "AddCount": 1
+    }]
+  }]
+}, {
+  "id": 995338,
+  "name": "人魂ぐらすのドロップ獲得数アップ",
+  "ruby": "-",
+  "unmodifiedDetail": "人魂ぐらすのドロップ獲得数を2個増やす[最大解放]【『カルデア南海大決戦！』イベント期間限定】",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00200.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9409450,
+    "num": 2,
+    "priority": 2,
+    "strengthStatus": 99,
+    "condLimitCount": 4,
+    "eventId": 80614
+  }],
+  "functions": [{
+    "funcId": 23432,
+    "svals": [{
+      "Individuality": 11003,
+      "EventId": 80614,
+      "AddCount": 2
+    }]
+  }]
+}, {
+  "id": 995339,
+  "name": "わくわくざぶーん～沖縄支店～",
+  "ruby": "-",
+  "unmodifiedDetail": "自身のBusterカード性能を2%アップ＆NP獲得量を3%アップ＆毎ターンスター1個獲得状態を付与",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00306.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9409460,
+    "num": 1,
+    "priority": 1,
+    "strengthStatus": 1
+  }],
+  "functions": [{
+    "funcId": 118,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 20
+    }]
+  }, {
+    "funcId": 336,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 30
+    }]
+  }, {
+    "funcId": 333,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 1
+    }]
+  }]
+}, {
+  "id": 995340,
+  "name": "わくわくざぶーん～沖縄支店～",
+  "ruby": "-",
+  "unmodifiedDetail": "自身のBusterカード性能を3%アップ＆NP獲得量を5%アップ＆毎ターンスター2個獲得状態を付与[最大解放]",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00306.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9409460,
+    "num": 1,
+    "priority": 2,
+    "strengthStatus": 99,
+    "condLimitCount": 4
+  }],
+  "functions": [{
+    "funcId": 118,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 30
+    }]
+  }, {
+    "funcId": 336,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 50
+    }]
+  }, {
+    "funcId": 333,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 2
+    }]
+  }]
+}, {
+  "id": 995341,
+  "name": "怪々みんさーのドロップ獲得数アップ",
+  "ruby": "-",
+  "unmodifiedDetail": "怪々みんさーのドロップ獲得数を1個増やす【『カルデア南海大決戦！』イベント期間限定】",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00200.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9409460,
+    "num": 2,
+    "priority": 1,
+    "strengthStatus": 1,
+    "eventId": 80614
+  }],
+  "functions": [{
+    "funcId": 23433,
+    "svals": [{
+      "Individuality": 11002,
+      "EventId": 80614,
+      "AddCount": 1
+    }]
+  }]
+}, {
+  "id": 995342,
+  "name": "怪々みんさーのドロップ獲得数アップ",
+  "ruby": "-",
+  "unmodifiedDetail": "怪々みんさーのドロップ獲得数を2個増やす[最大解放]【『カルデア南海大決戦！』イベント期間限定】",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00200.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9409460,
+    "num": 2,
+    "priority": 2,
+    "strengthStatus": 99,
+    "condLimitCount": 4,
+    "eventId": 80614
+  }],
+  "functions": [{
+    "funcId": 23433,
+    "svals": [{
+      "Individuality": 11002,
+      "EventId": 80614,
+      "AddCount": 2
+    }]
+  }]
+}, {
+  "id": 995343,
+  "name": "ル・グテ",
+  "ruby": "-",
+  "unmodifiedDetail": "自身に〔呪い〕特攻状態を15%付与＆宝具威力を10%アップ＆NPを30%チャージした状態でバトルを開始する",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00301.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9409470,
+    "num": 1,
+    "priority": 1,
+    "strengthStatus": 1
+  }],
+  "functions": [{
+    "funcId": 5495,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 150
+    }]
+  }, {
+    "funcId": 248,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 100
+    }]
+  }, {
+    "funcId": 460,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 3000
+    }]
+  }]
+}, {
+  "id": 995344,
+  "name": "ル・グテ",
+  "ruby": "-",
+  "unmodifiedDetail": "自身に〔呪い〕特攻状態を20%付与＆宝具威力を15%アップ＆NPを50%チャージした状態でバトルを開始する[最大解放]",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00301.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9409470,
+    "num": 1,
+    "priority": 2,
+    "strengthStatus": 99,
+    "condLimitCount": 4
+  }],
+  "functions": [{
+    "funcId": 5495,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 200
+    }]
+  }, {
+    "funcId": 248,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 150
+    }]
+  }, {
+    "funcId": 460,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 5000
+    }]
+  }]
+}, {
+  "id": 995345,
+  "name": "攻撃の威力アップ",
+  "ruby": "-",
+  "unmodifiedDetail": "『カルデア南海大決戦！』において、自身の攻撃の威力を100%アップ【『カルデア南海大決戦！』イベント期間限定】",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00301.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9409470,
+    "num": 2,
+    "priority": 1,
+    "strengthStatus": 1,
+    "eventId": 80614
+  }],
+  "functions": [{
+    "funcId": 23428,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 1000
+    }]
+  }]
+}, {
+  "id": 995346,
+  "name": "攻撃の威力アップ",
+  "ruby": "-",
+  "unmodifiedDetail": "『カルデア南海大決戦！』において、自身の攻撃の威力を200%アップ[最大解放]【『カルデア南海大決戦！』イベント期間限定】",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00301.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9409470,
+    "num": 2,
+    "priority": 2,
+    "strengthStatus": 99,
+    "condLimitCount": 4,
+    "eventId": 80614
+  }],
+  "functions": [{
+    "funcId": 23428,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 2000
+    }]
+  }]
+}, {
+  "id": 995347,
+  "name": "渓谷の神秘",
+  "ruby": "-",
+  "unmodifiedDetail": "自身に毎ターンNP4%獲得状態を付与＆Artsカード性能を8%アップ＆クリティカル威力を15%アップ",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00607.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9409480,
+    "num": 1,
+    "priority": 1,
+    "strengthStatus": 1
+  }],
+  "functions": [{
+    "funcId": 324,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 400
+    }]
+  }, {
+    "funcId": 109,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 80
+    }]
+  }, {
+    "funcId": 200,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 150
+    }]
+  }]
+}, {
+  "id": 995348,
+  "name": "渓谷の神秘",
+  "ruby": "-",
+  "unmodifiedDetail": "自身に毎ターンNP5%獲得状態を付与＆Artsカード性能を10%アップ＆クリティカル威力を20%アップ[最大解放]",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00607.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9409480,
+    "num": 1,
+    "priority": 2,
+    "strengthStatus": 99,
+    "condLimitCount": 4
+  }],
+  "functions": [{
+    "funcId": 324,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 500
+    }]
+  }, {
+    "funcId": 109,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 100
+    }]
+  }, {
+    "funcId": 200,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 200
+    }]
+  }]
+}, {
+  "id": 995349,
+  "name": "うちなー野菜盛り、うちなー海鮮盛り、うちなーお肉盛りのドロップ獲得数アップ",
+  "ruby": "-",
+  "unmodifiedDetail": "うちなー野菜盛り、うちなー海鮮盛り、うちなーお肉盛りのドロップ獲得数を1個増やす【『カルデア南海大決戦！』イベント期間限定】",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00200.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9409480,
+    "num": 2,
+    "priority": 1,
+    "strengthStatus": 1,
+    "eventId": 80614
+  }],
+  "functions": [{
+    "funcId": 23434,
+    "svals": [{
+      "Individuality": 11005,
+      "EventId": 80614,
+      "AddCount": 1
+    }]
+  }, {
+    "funcId": 23435,
+    "svals": [{
+      "Individuality": 11006,
+      "EventId": 80614,
+      "AddCount": 1
+    }]
+  }, {
+    "funcId": 23436,
+    "svals": [{
+      "Individuality": 11007,
+      "EventId": 80614,
+      "AddCount": 1
+    }]
+  }]
+}, {
+  "id": 995350,
+  "name": "うちなー野菜盛り、うちなー海鮮盛り、うちなーお肉盛りのドロップ獲得数アップ",
+  "ruby": "-",
+  "unmodifiedDetail": "うちなー野菜盛り、うちなー海鮮盛り、うちなーお肉盛りのドロップ獲得数を2個増やす[最大解放]【『カルデア南海大決戦！』イベント期間限定】",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00200.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9409480,
+    "num": 2,
+    "priority": 2,
+    "strengthStatus": 99,
+    "condLimitCount": 4,
+    "eventId": 80614
+  }],
+  "functions": [{
+    "funcId": 23434,
+    "svals": [{
+      "Individuality": 11005,
+      "EventId": 80614,
+      "AddCount": 2
+    }]
+  }, {
+    "funcId": 23435,
+    "svals": [{
+      "Individuality": 11006,
+      "EventId": 80614,
+      "AddCount": 2
+    }]
+  }, {
+    "funcId": 23436,
+    "svals": [{
+      "Individuality": 11007,
+      "EventId": 80614,
+      "AddCount": 2
+    }]
+  }]
+}, {
+  "id": 995352,
+  "name": "ドラゴンロッド　サマーヴァイパーＥＸ",
+  "ruby": "-",
+  "unmodifiedDetail": "[servantName 506000](キャスター)装備時のみ、自身がフィールドにいる間、味方全体のArtsカード性能を10%アップ＆〔毒〕特攻状態を10%付与",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00305.png",
+  "coolDown": [0],
+  "actIndividuality": [{
+    "id": 506000
+  }],
+  "skillSvts": [{
+    "svtId": 9311910,
+    "num": 1,
+    "priority": 1
+  }],
+  "functions": [{
+    "funcId": 836,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 100,
+      "OnField": 1
+    }]
+  }, {
+    "funcId": 20877,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 100,
+      "OnField": 1
+    }]
+  }]
+}, {
+  "id": 995354,
+  "name": "レディ・ロングアームの探偵事務所",
+  "ruby": "-",
+  "unmodifiedDetail": "[servantName 2301200](ムーンキャンサー)装備時のみ、自身の宝具威力を30%アップ＆〔悪〕に対するクリティカル威力を30%アップ＆〔善〕に対するクリティカル威力を30%アップ",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00303.png",
+  "coolDown": [0],
+  "actIndividuality": [{
+    "id": 2301200
+  }],
+  "skillSvts": [{
+    "svtId": 9311930,
+    "num": 1,
+    "priority": 1
+  }],
+  "functions": [{
+    "funcId": 248,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 300
+    }]
+  }, {
+    "funcId": 21340,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 300
+    }]
+  }, {
+    "funcId": 3443,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 300
+    }]
+  }]
+}, {
+  "id": 995357,
+  "name": "くらくら堪能セット",
+  "ruby": "-",
+  "unmodifiedDetail": "[servantName 705300](バーサーカー)装備時のみ、自身がフィールドにいる間、味方全体に〔悪〕特攻状態を15%付与＆〔死霊〕特攻状態を15%付与",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00301.png",
+  "coolDown": [0],
+  "actIndividuality": [{
+    "id": 705300
+  }],
+  "skillSvts": [{
+    "svtId": 9311960,
+    "num": 1,
+    "priority": 1
+  }],
+  "functions": [{
+    "funcId": 3250,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 150,
+      "OnField": 1
+    }]
+  }, {
+    "funcId": 9178,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 150,
+      "OnField": 1
+    }]
+  }]
+}, {
+  "id": 995358,
+  "name": "南国の守護神獣",
+  "ruby": "なんごくのしゅごしんじゅう",
+  "unmodifiedDetail": "刻印されたカードによる攻撃時に、自身に最大HPが100アップする状態を付与(3ターン)",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00412.png",
+  "coolDown": [0],
+  "functions": [{
+    "funcId": 21636,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 995429,
+      "Value2": 1,
+      "ShowState": -1
+    }]
+  }]
+}, {
+  "id": 995359,
+  "name": "童子の槍",
+  "ruby": "どうじのやり",
+  "unmodifiedDetail": "刻印されたカードに防御無視効果を付与 ＋ 刻印されたカードによる攻撃時に、自身の攻撃弱体状態を1つ解除",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00334.png",
+  "coolDown": [0],
+  "functions": [{
+    "funcId": 1588,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1
+    }]
+  }, {
+    "funcId": 21636,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 995430,
+      "Value2": 1,
+      "ShowState": -1
+    }]
+  }]
+}, {
+  "id": 995360,
+  "name": "箱庭の幼き姫",
+  "ruby": "はこにわのおさなきひめ",
+  "unmodifiedDetail": "刻印されたカードに〔行動不能〕状態特攻効果を20%付与＆NP獲得量を5%アップ ＋ 刻印されたカードによる攻撃時に、自身の宝具威力を5%アップ(1ターン)",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00301.png",
+  "coolDown": [0],
+  "functions": [{
+    "funcId": 22456,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 200,
+      "ShowState": 1
+    }]
+  }, {
+    "funcId": 5623,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 50
+    }]
+  }, {
+    "funcId": 21636,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 995431,
+      "Value2": 1,
+      "ShowState": -1
+    }]
+  }]
+}, {
   "id": 995361,
   "name": "星見の回廊",
   "ruby": "-",
@@ -252909,6 +254394,51 @@
       "Turn": 3,
       "Count": -1,
       "Value": 300
+    }]
+  }]
+}, {
+  "id": 995429,
+  "name": "",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_999999.png",
+  "coolDown": [0],
+  "functions": [{
+    "funcId": 22791,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 100
+    }]
+  }]
+}, {
+  "id": 995430,
+  "name": "",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_999999.png",
+  "coolDown": [0],
+  "functions": [{
+    "funcId": 6561,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 0,
+      "Value2": 1,
+      "DisplayNoEffectCauses": "Avoided"
+    }]
+  }]
+}, {
+  "id": 995431,
+  "name": "",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_999999.png",
+  "coolDown": [0],
+  "functions": [{
+    "funcId": 247,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 1,
+      "Count": -1,
+      "Value": 50
     }]
   }]
 }, {
@@ -295850,6 +297380,18 @@
   "skillSvts": [{
     "svtId": 800100,
     "num": 1,
+    "priority": 11,
+    "condLimitCount": 2,
+    "flag": 2,
+    "releaseConditions": [{
+      "idx": 1,
+      "condType": "equipWithTargetCostume",
+      "condTargetId": 800100,
+      "condNum": 20
+    }]
+  }, {
+    "svtId": 800100,
+    "num": 1,
     "priority": 10,
     "condLimitCount": 2,
     "flag": 2,
@@ -295874,6 +297416,18 @@
   }, {
     "svtId": 800101,
     "num": 1,
+    "priority": 11,
+    "condLimitCount": 2,
+    "flag": 2,
+    "releaseConditions": [{
+      "idx": 1,
+      "condType": "equipWithTargetCostume",
+      "condTargetId": 800100,
+      "condNum": 20
+    }]
+  }, {
+    "svtId": 800101,
+    "num": 1,
     "priority": 10,
     "condLimitCount": 2,
     "flag": 2,
@@ -295894,6 +297448,17 @@
       "condType": "equipWithTargetCostume",
       "condTargetId": 800100,
       "condNum": 17
+    }]
+  }, {
+    "svtId": 800102,
+    "num": 1,
+    "priority": 11,
+    "flag": 2,
+    "releaseConditions": [{
+      "idx": 1,
+      "condType": "equipWithTargetCostume",
+      "condTargetId": 800100,
+      "condNum": 20
     }]
   }, {
     "svtId": 800102,
@@ -311300,6 +312865,1280 @@
     }]
   }]
 }, {
+  "id": 2655650,
+  "name": "雀の行水 EX",
+  "ruby": "すずめのぎょうすい",
+  "unmodifiedDetail": "自身のArtsカード性能をアップ[{0}](3ターン)＆Busterカード性能をアップ[{0}](3ターン)＆クリティカル威力をアップ[{0}](3ターン)＆回避状態を付与(3回・3ターン)＆まんぷくゲージを2減らす",
+  "type": "active",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00315.png",
+  "coolDown": [8, 8, 8, 8, 8, 7, 7, 7, 7, 6],
+  "skillSvts": [{
+    "svtId": 705300,
+    "num": 2,
+    "priority": 1,
+    "condLimitCount": 1
+  }],
+  "functions": [{
+    "funcId": 110,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 200
+    }, {
+      "Value": 210
+    }, {
+      "Value": 220
+    }, {
+      "Value": 230
+    }, {
+      "Value": 240
+    }, {
+      "Value": 250
+    }, {
+      "Value": 260
+    }, {
+      "Value": 270
+    }, {
+      "Value": 280
+    }, {
+      "Value": 300
+    }]
+  }, {
+    "funcId": 119,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 200
+    }, {
+      "Value": 210
+    }, {
+      "Value": 220
+    }, {
+      "Value": 230
+    }, {
+      "Value": 240
+    }, {
+      "Value": 250
+    }, {
+      "Value": 260
+    }, {
+      "Value": 270
+    }, {
+      "Value": 280
+    }, {
+      "Value": 300
+    }]
+  }, {
+    "funcId": 201,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 300
+    }, {
+      "Value": 320
+    }, {
+      "Value": 340
+    }, {
+      "Value": 360
+    }, {
+      "Value": 380
+    }, {
+      "Value": 400
+    }, {
+      "Value": 420
+    }, {
+      "Value": 440
+    }, {
+      "Value": 460
+    }, {
+      "Value": 500
+    }]
+  }, {
+    "funcId": 283,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": 3
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 23460,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 705300,
+      "Target": 2
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }]
+}, {
+  "id": 2656550,
+  "name": "くらくらの膳 A",
+  "ruby": "くらくらのぜん",
+  "unmodifiedDetail": "使用するごとにスター大量獲得に加えて異なる配膳効果が得られ、まんぷくゲージが2増える。\nただしまんぷくゲージが「満腹」の場合は配膳効果を得られない。\n1回目：全体攻撃力アップ、2回目：全体最大HPアップ、3回目：全体NP増加、4回目：全体宝具威力アップ、5回目：全体クリティカル威力アップ、6回目：全体HP大回復、7回目以降：1回目に戻る\n極稀に1回目に1～6回目すべての効果を得られるが、まんぷくゲージが最大になる。\n使用回数はバトル全体で共有される。\n\n■1回目\nスターを大量獲得[{0}] ＋ 「焼きそば」を配膳し、味方全体の攻撃力をアップ[{0}](3ターン)\n\n■2回目\nスターを大量獲得[{0}] ＋ 「カレー」を配膳し、味方全体に最大HPがアップする状態を付与[{0}](3ターン)\n\n■3回目\nスターを大量獲得[{0}] ＋ 「ラーメン」を配膳し、味方全体のNPを増やす[{0}]\n\n■4回目\nスターを大量獲得[{0}] ＋ 「フランクフルト」を配膳し、味方全体の宝具威力をアップ[{0}](3ターン)\n\n■5回目\nスターを大量獲得[{0}] ＋ 「串焼き」を配膳し、味方全体のクリティカル威力をアップ[{0}](3ターン)\n\n■6回目\nスターを大量獲得[{0}] ＋ 「パフェ」を配膳し、味方全体のHPを大回復[{0}]\n\n■1回目(極稀)\nスターを大量獲得[{0}] ＋ 「伝説のおにぎり」を配膳し、味方全体の攻撃力をアップ[{0}](3ターン)＆最大HPがアップする状態を付与[{0}](3ターン)＆NPを増やす[{0}]＆宝具威力をアップ[{0}](3ターン)＆クリティカル威力をアップ[{0}](3ターン)＆HPを大回復[{0}]",
+  "type": "active",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00603.png",
+  "coolDown": [3, 3, 3, 3, 3, 2, 2, 2, 2, 1],
+  "skillSvts": [{
+    "svtId": 705300,
+    "num": 1,
+    "priority": 1
+  }],
+  "functions": [{
+    "funcId": 477,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 20
+    }, {
+      "Value": 21
+    }, {
+      "Value": 22
+    }, {
+      "Value": 23
+    }, {
+      "Value": 24
+    }, {
+      "Value": 25
+    }, {
+      "Value": 26
+    }, {
+      "Value": 27
+    }, {
+      "Value": 28
+    }, {
+      "Value": 30
+    }]
+  }, {
+    "funcId": 216,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 2,
+      "Count": -1,
+      "Value": 300
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 23527,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 1,
+      "Count": -1,
+      "Value": 0,
+      "ShowState": -1,
+      "ActSet": 1,
+      "ActSetWeight": 95
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 152,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 100,
+      "ActSet": 1
+    }, {
+      "Value": 110
+    }, {
+      "Value": 120
+    }, {
+      "Value": 130
+    }, {
+      "Value": 140
+    }, {
+      "Value": 150
+    }, {
+      "Value": 160
+    }, {
+      "Value": 170
+    }, {
+      "Value": 180
+    }, {
+      "Value": 200
+    }]
+  }, {
+    "funcId": 23459,
+    "svals": [{
+      "Rate": 1000,
+      "ActSet": 1,
+      "BattlePointId": 705300,
+      "BattlePointValue": 2
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 23533,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 1,
+      "Count": -1,
+      "Value": 0,
+      "ShowState": -1,
+      "ActSet": 2,
+      "ActSetWeight": 5
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 152,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 100,
+      "ActSet": 2
+    }, {
+      "Value": 110
+    }, {
+      "Value": 120
+    }, {
+      "Value": 130
+    }, {
+      "Value": 140
+    }, {
+      "Value": 150
+    }, {
+      "Value": 160
+    }, {
+      "Value": 170
+    }, {
+      "Value": 180
+    }, {
+      "Value": 200
+    }]
+  }, {
+    "funcId": 592,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 1000,
+      "ActSet": 2
+    }, {
+      "Value": 1100
+    }, {
+      "Value": 1200
+    }, {
+      "Value": 1300
+    }, {
+      "Value": 1400
+    }, {
+      "Value": 1500
+    }, {
+      "Value": 1600
+    }, {
+      "Value": 1700
+    }, {
+      "Value": 1800
+    }, {
+      "Value": 2000
+    }]
+  }, {
+    "funcId": 466,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 1000,
+      "ActSet": 2
+    }, {
+      "Value": 1100
+    }, {
+      "Value": 1200
+    }, {
+      "Value": 1300
+    }, {
+      "Value": 1400
+    }, {
+      "Value": 1500
+    }, {
+      "Value": 1600
+    }, {
+      "Value": 1700
+    }, {
+      "Value": 1800
+    }, {
+      "Value": 2000
+    }]
+  }, {
+    "funcId": 472,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 1,
+      "ActSet": 2
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 254,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 100,
+      "ActSet": 2
+    }, {
+      "Value": 110
+    }, {
+      "Value": 120
+    }, {
+      "Value": 130
+    }, {
+      "Value": 140
+    }, {
+      "Value": 150
+    }, {
+      "Value": 160
+    }, {
+      "Value": 170
+    }, {
+      "Value": 180
+    }, {
+      "Value": 200
+    }]
+  }, {
+    "funcId": 207,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 300,
+      "ActSet": 2
+    }, {
+      "Value": 320
+    }, {
+      "Value": 340
+    }, {
+      "Value": 360
+    }, {
+      "Value": 380
+    }, {
+      "Value": 400
+    }, {
+      "Value": 420
+    }, {
+      "Value": 440
+    }, {
+      "Value": 460
+    }, {
+      "Value": 500
+    }]
+  }, {
+    "funcId": 446,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 5000,
+      "ActSet": 2
+    }, {
+      "Value": 5500
+    }, {
+      "Value": 6000
+    }, {
+      "Value": 6500
+    }, {
+      "Value": 7000
+    }, {
+      "Value": 7500
+    }, {
+      "Value": 8000
+    }, {
+      "Value": 8500
+    }, {
+      "Value": 9000
+    }, {
+      "Value": 10000
+    }]
+  }, {
+    "funcId": 23552,
+    "svals": [{
+      "Rate": 1000,
+      "ActSet": 2,
+      "BattlePointId": 705300,
+      "BattlePointValue": 12
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 23462,
+    "svals": [{
+      "Rate": 5000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 1,
+      "HideMiss": 1,
+      "HideNoEffect": 1,
+      "ShowState": -1,
+      "CheckDead": 1,
+      "ForceAddState": 1,
+      "UnSubState": 1
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }]
+}, {
+  "id": 2656575,
+  "name": "くらくらの膳 A",
+  "ruby": "くらくらのぜん",
+  "unmodifiedDetail": "使用するごとにスター大量獲得に加えて異なる配膳効果が得られ、まんぷくゲージが2増える。\nただしまんぷくゲージが「満腹」の場合は配膳効果を得られない。\n1回目：全体攻撃力アップ、2回目：全体最大HPアップ、3回目：全体NP増加、4回目：全体宝具威力アップ、5回目：全体クリティカル威力アップ、6回目：全体HP大回復、7回目以降：1回目に戻る\n極稀に1回目に1～6回目すべての効果を得られるが、まんぷくゲージが最大になる。\n使用回数はバトル全体で共有される。\n\n■1回目\nスターを大量獲得[{0}] ＋ 「焼きそば」を配膳し、味方全体の攻撃力をアップ[{0}](3ターン)\n\n■1回目(極稀)\nスターを大量獲得[{0}] ＋ 「伝説のおにぎり」を配膳し、味方全体の攻撃力をアップ[{0}](3ターン)＆最大HPがアップする状態を付与[{0}](3ターン)＆NPを増やす[{0}]＆宝具威力をアップ[{0}](3ターン)＆クリティカル威力をアップ[{0}](3ターン)＆HPを大回復[{0}]",
+  "type": "active",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00823.png",
+  "coolDown": [3, 3, 3, 3, 3, 2, 2, 2, 2, 1],
+  "functions": [{
+    "funcId": 477,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 20
+    }, {
+      "Value": 21
+    }, {
+      "Value": 22
+    }, {
+      "Value": 23
+    }, {
+      "Value": 24
+    }, {
+      "Value": 25
+    }, {
+      "Value": 26
+    }, {
+      "Value": 27
+    }, {
+      "Value": 28
+    }, {
+      "Value": 30
+    }]
+  }, {
+    "funcId": 216,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 2,
+      "Count": -1,
+      "Value": 300
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 23527,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 1,
+      "Count": -1,
+      "Value": 0,
+      "ShowState": -1,
+      "ActSet": 1,
+      "ActSetWeight": 95
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 152,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 100,
+      "ActSet": 1
+    }, {
+      "Value": 110
+    }, {
+      "Value": 120
+    }, {
+      "Value": 130
+    }, {
+      "Value": 140
+    }, {
+      "Value": 150
+    }, {
+      "Value": 160
+    }, {
+      "Value": 170
+    }, {
+      "Value": 180
+    }, {
+      "Value": 200
+    }]
+  }, {
+    "funcId": 23459,
+    "svals": [{
+      "Rate": 1000,
+      "ActSet": 1,
+      "BattlePointId": 705300,
+      "BattlePointValue": 2
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 23533,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 1,
+      "Count": -1,
+      "Value": 0,
+      "ShowState": -1,
+      "ActSet": 2,
+      "ActSetWeight": 5
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 152,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 100,
+      "ActSet": 2
+    }, {
+      "Value": 110
+    }, {
+      "Value": 120
+    }, {
+      "Value": 130
+    }, {
+      "Value": 140
+    }, {
+      "Value": 150
+    }, {
+      "Value": 160
+    }, {
+      "Value": 170
+    }, {
+      "Value": 180
+    }, {
+      "Value": 200
+    }]
+  }, {
+    "funcId": 592,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 1000,
+      "ActSet": 2
+    }, {
+      "Value": 1100
+    }, {
+      "Value": 1200
+    }, {
+      "Value": 1300
+    }, {
+      "Value": 1400
+    }, {
+      "Value": 1500
+    }, {
+      "Value": 1600
+    }, {
+      "Value": 1700
+    }, {
+      "Value": 1800
+    }, {
+      "Value": 2000
+    }]
+  }, {
+    "funcId": 466,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 1000,
+      "ActSet": 2
+    }, {
+      "Value": 1100
+    }, {
+      "Value": 1200
+    }, {
+      "Value": 1300
+    }, {
+      "Value": 1400
+    }, {
+      "Value": 1500
+    }, {
+      "Value": 1600
+    }, {
+      "Value": 1700
+    }, {
+      "Value": 1800
+    }, {
+      "Value": 2000
+    }]
+  }, {
+    "funcId": 472,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 1,
+      "ActSet": 2
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 254,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 100,
+      "ActSet": 2
+    }, {
+      "Value": 110
+    }, {
+      "Value": 120
+    }, {
+      "Value": 130
+    }, {
+      "Value": 140
+    }, {
+      "Value": 150
+    }, {
+      "Value": 160
+    }, {
+      "Value": 170
+    }, {
+      "Value": 180
+    }, {
+      "Value": 200
+    }]
+  }, {
+    "funcId": 207,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 300,
+      "ActSet": 2
+    }, {
+      "Value": 320
+    }, {
+      "Value": 340
+    }, {
+      "Value": 360
+    }, {
+      "Value": 380
+    }, {
+      "Value": 400
+    }, {
+      "Value": 420
+    }, {
+      "Value": 440
+    }, {
+      "Value": 460
+    }, {
+      "Value": 500
+    }]
+  }, {
+    "funcId": 446,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 5000,
+      "ActSet": 2
+    }, {
+      "Value": 5500
+    }, {
+      "Value": 6000
+    }, {
+      "Value": 6500
+    }, {
+      "Value": 7000
+    }, {
+      "Value": 7500
+    }, {
+      "Value": 8000
+    }, {
+      "Value": 8500
+    }, {
+      "Value": 9000
+    }, {
+      "Value": 10000
+    }]
+  }, {
+    "funcId": 23552,
+    "svals": [{
+      "Rate": 1000,
+      "ActSet": 2,
+      "BattlePointId": 705300,
+      "BattlePointValue": 12
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 23462,
+    "svals": [{
+      "Rate": 5000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 1,
+      "HideMiss": 1,
+      "HideNoEffect": 1,
+      "ShowState": -1,
+      "CheckDead": 1,
+      "ForceAddState": 1,
+      "UnSubState": 1
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }]
+}, {
+  "id": 2656600,
+  "name": "くらくらの膳 A",
+  "ruby": "くらくらのぜん",
+  "unmodifiedDetail": "使用するごとにスター大量獲得に加えて異なる配膳効果が得られ、まんぷくゲージが2増える。\nただしまんぷくゲージが「満腹」の場合は配膳効果を得られない。\n1回目：全体攻撃力アップ、2回目：全体最大HPアップ、3回目：全体NP増加、4回目：全体宝具威力アップ、5回目：全体クリティカル威力アップ、6回目：全体HP大回復、7回目以降：1回目に戻る\n極稀に1回目に1～6回目すべての効果を得られるが、まんぷくゲージが最大になる。\n使用回数はバトル全体で共有される。\n\n■2回目\nスターを大量獲得[{0}] ＋ 「カレー」を配膳し、味方全体に最大HPがアップする状態を付与[{0}](3ターン)",
+  "type": "active",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00824.png",
+  "coolDown": [3, 3, 3, 3, 3, 2, 2, 2, 2, 1],
+  "functions": [{
+    "funcId": 477,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 20
+    }, {
+      "Value": 21
+    }, {
+      "Value": 22
+    }, {
+      "Value": 23
+    }, {
+      "Value": 24
+    }, {
+      "Value": 25
+    }, {
+      "Value": 26
+    }, {
+      "Value": 27
+    }, {
+      "Value": 28
+    }, {
+      "Value": 30
+    }]
+  }, {
+    "funcId": 216,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 2,
+      "Count": -1,
+      "Value": 300
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 23528,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 1,
+      "Count": -1,
+      "Value": 0,
+      "ShowState": -1
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 592,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 1000
+    }, {
+      "Value": 1100
+    }, {
+      "Value": 1200
+    }, {
+      "Value": 1300
+    }, {
+      "Value": 1400
+    }, {
+      "Value": 1500
+    }, {
+      "Value": 1600
+    }, {
+      "Value": 1700
+    }, {
+      "Value": 1800
+    }, {
+      "Value": 2000
+    }]
+  }, {
+    "funcId": 23459,
+    "svals": [{
+      "Rate": 1000,
+      "BattlePointId": 705300,
+      "BattlePointValue": 2
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 23462,
+    "svals": [{
+      "Rate": 5000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 1,
+      "HideMiss": 1,
+      "HideNoEffect": 1,
+      "ShowState": -1,
+      "CheckDead": 1,
+      "ForceAddState": 1,
+      "UnSubState": 1
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }]
+}, {
+  "id": 2656625,
+  "name": "くらくらの膳 A",
+  "ruby": "くらくらのぜん",
+  "unmodifiedDetail": "使用するごとにスター大量獲得に加えて異なる配膳効果が得られ、まんぷくゲージが2増える。\nただしまんぷくゲージが「満腹」の場合は配膳効果を得られない。\n1回目：全体攻撃力アップ、2回目：全体最大HPアップ、3回目：全体NP増加、4回目：全体宝具威力アップ、5回目：全体クリティカル威力アップ、6回目：全体HP大回復、7回目以降：1回目に戻る\n極稀に1回目に1～6回目すべての効果を得られるが、まんぷくゲージが最大になる。\n使用回数はバトル全体で共有される。\n\n■3回目\nスターを大量獲得[{0}] ＋ 「ラーメン」を配膳し、味方全体のNPを増やす[{0}]",
+  "type": "active",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00825.png",
+  "coolDown": [3, 3, 3, 3, 3, 2, 2, 2, 2, 1],
+  "functions": [{
+    "funcId": 477,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 20
+    }, {
+      "Value": 21
+    }, {
+      "Value": 22
+    }, {
+      "Value": 23
+    }, {
+      "Value": 24
+    }, {
+      "Value": 25
+    }, {
+      "Value": 26
+    }, {
+      "Value": 27
+    }, {
+      "Value": 28
+    }, {
+      "Value": 30
+    }]
+  }, {
+    "funcId": 216,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 2,
+      "Count": -1,
+      "Value": 300
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 23529,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 1,
+      "Count": -1,
+      "Value": 0,
+      "ShowState": -1
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 466,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 1000
+    }, {
+      "Value": 1100
+    }, {
+      "Value": 1200
+    }, {
+      "Value": 1300
+    }, {
+      "Value": 1400
+    }, {
+      "Value": 1500
+    }, {
+      "Value": 1600
+    }, {
+      "Value": 1700
+    }, {
+      "Value": 1800
+    }, {
+      "Value": 2000
+    }]
+  }, {
+    "funcId": 472,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 1
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 23459,
+    "svals": [{
+      "Rate": 1000,
+      "BattlePointId": 705300,
+      "BattlePointValue": 2
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 23462,
+    "svals": [{
+      "Rate": 5000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 1,
+      "HideMiss": 1,
+      "HideNoEffect": 1,
+      "ShowState": -1,
+      "CheckDead": 1,
+      "ForceAddState": 1,
+      "UnSubState": 1
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }]
+}, {
+  "id": 2656650,
+  "name": "くらくらの膳 A",
+  "ruby": "くらくらのぜん",
+  "unmodifiedDetail": "使用するごとにスター大量獲得に加えて異なる配膳効果が得られ、まんぷくゲージが2増える。\nただしまんぷくゲージが「満腹」の場合は配膳効果を得られない。\n1回目：全体攻撃力アップ、2回目：全体最大HPアップ、3回目：全体NP増加、4回目：全体宝具威力アップ、5回目：全体クリティカル威力アップ、6回目：全体HP大回復、7回目以降：1回目に戻る\n極稀に1回目に1～6回目すべての効果を得られるが、まんぷくゲージが最大になる。\n使用回数はバトル全体で共有される。\n\n■4回目\nスターを大量獲得[{0}] ＋ 「フランクフルト」を配膳し、味方全体の宝具威力をアップ[{0}](3ターン)",
+  "type": "active",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00826.png",
+  "coolDown": [3, 3, 3, 3, 3, 2, 2, 2, 2, 1],
+  "functions": [{
+    "funcId": 477,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 20
+    }, {
+      "Value": 21
+    }, {
+      "Value": 22
+    }, {
+      "Value": 23
+    }, {
+      "Value": 24
+    }, {
+      "Value": 25
+    }, {
+      "Value": 26
+    }, {
+      "Value": 27
+    }, {
+      "Value": 28
+    }, {
+      "Value": 30
+    }]
+  }, {
+    "funcId": 216,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 2,
+      "Count": -1,
+      "Value": 300
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 23530,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 1,
+      "Count": -1,
+      "Value": 0,
+      "ShowState": -1
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 254,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 100
+    }, {
+      "Value": 110
+    }, {
+      "Value": 120
+    }, {
+      "Value": 130
+    }, {
+      "Value": 140
+    }, {
+      "Value": 150
+    }, {
+      "Value": 160
+    }, {
+      "Value": 170
+    }, {
+      "Value": 180
+    }, {
+      "Value": 200
+    }]
+  }, {
+    "funcId": 23459,
+    "svals": [{
+      "Rate": 1000,
+      "BattlePointId": 705300,
+      "BattlePointValue": 2
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 23462,
+    "svals": [{
+      "Rate": 5000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 1,
+      "HideMiss": 1,
+      "HideNoEffect": 1,
+      "ShowState": -1,
+      "CheckDead": 1,
+      "ForceAddState": 1,
+      "UnSubState": 1
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }]
+}, {
+  "id": 2656675,
+  "name": "くらくらの膳 A",
+  "ruby": "くらくらのぜん",
+  "unmodifiedDetail": "使用するごとにスター大量獲得に加えて異なる配膳効果が得られ、まんぷくゲージが2増える。\nただしまんぷくゲージが「満腹」の場合は配膳効果を得られない。\n1回目：全体攻撃力アップ、2回目：全体最大HPアップ、3回目：全体NP増加、4回目：全体宝具威力アップ、5回目：全体クリティカル威力アップ、6回目：全体HP大回復、7回目以降：1回目に戻る\n極稀に1回目に1～6回目すべての効果を得られるが、まんぷくゲージが最大になる。\n使用回数はバトル全体で共有される。\n\n■5回目\nスターを大量獲得[{0}] ＋ 「串焼き」を配膳し、味方全体のクリティカル威力をアップ[{0}](3ターン)",
+  "type": "active",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00827.png",
+  "coolDown": [3, 3, 3, 3, 3, 2, 2, 2, 2, 1],
+  "functions": [{
+    "funcId": 477,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 20
+    }, {
+      "Value": 21
+    }, {
+      "Value": 22
+    }, {
+      "Value": 23
+    }, {
+      "Value": 24
+    }, {
+      "Value": 25
+    }, {
+      "Value": 26
+    }, {
+      "Value": 27
+    }, {
+      "Value": 28
+    }, {
+      "Value": 30
+    }]
+  }, {
+    "funcId": 216,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 2,
+      "Count": -1,
+      "Value": 300
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 23531,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 1,
+      "Count": -1,
+      "Value": 0,
+      "ShowState": -1
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 207,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 300
+    }, {
+      "Value": 320
+    }, {
+      "Value": 340
+    }, {
+      "Value": 360
+    }, {
+      "Value": 380
+    }, {
+      "Value": 400
+    }, {
+      "Value": 420
+    }, {
+      "Value": 440
+    }, {
+      "Value": 460
+    }, {
+      "Value": 500
+    }]
+  }, {
+    "funcId": 23459,
+    "svals": [{
+      "Rate": 1000,
+      "BattlePointId": 705300,
+      "BattlePointValue": 2
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 23462,
+    "svals": [{
+      "Rate": 5000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 1,
+      "HideMiss": 1,
+      "HideNoEffect": 1,
+      "ShowState": -1,
+      "CheckDead": 1,
+      "ForceAddState": 1,
+      "UnSubState": 1
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }]
+}, {
+  "id": 2656700,
+  "name": "くらくらの膳 A",
+  "ruby": "くらくらのぜん",
+  "unmodifiedDetail": "使用するごとにスター大量獲得に加えて異なる配膳効果が得られ、まんぷくゲージが2増える。\nただしまんぷくゲージが「満腹」の場合は配膳効果を得られない。\n1回目：全体攻撃力アップ、2回目：全体最大HPアップ、3回目：全体NP増加、4回目：全体宝具威力アップ、5回目：全体クリティカル威力アップ、6回目：全体HP大回復、7回目以降：1回目に戻る\n極稀に1回目に1～6回目すべての効果を得られるが、まんぷくゲージが最大になる。\n使用回数はバトル全体で共有される。\n\n■6回目\nスターを大量獲得[{0}] ＋ 「パフェ」を配膳し、味方全体のHPを大回復[{0}]",
+  "type": "active",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00828.png",
+  "coolDown": [3, 3, 3, 3, 3, 2, 2, 2, 2, 1],
+  "functions": [{
+    "funcId": 477,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 20
+    }, {
+      "Value": 21
+    }, {
+      "Value": 22
+    }, {
+      "Value": 23
+    }, {
+      "Value": 24
+    }, {
+      "Value": 25
+    }, {
+      "Value": 26
+    }, {
+      "Value": 27
+    }, {
+      "Value": 28
+    }, {
+      "Value": 30
+    }]
+  }, {
+    "funcId": 216,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 2,
+      "Count": -1,
+      "Value": 300
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 23532,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 1,
+      "Count": -1,
+      "Value": 0,
+      "ShowState": -1
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 446,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 5000
+    }, {
+      "Value": 5500
+    }, {
+      "Value": 6000
+    }, {
+      "Value": 6500
+    }, {
+      "Value": 7000
+    }, {
+      "Value": 7500
+    }, {
+      "Value": 8000
+    }, {
+      "Value": 8500
+    }, {
+      "Value": 9000
+    }, {
+      "Value": 10000
+    }]
+  }, {
+    "funcId": 23459,
+    "svals": [{
+      "Rate": 1000,
+      "BattlePointId": 705300,
+      "BattlePointValue": 2
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 23463,
+    "svals": [{
+      "Rate": 5000,
+      "HideMiss": 1,
+      "HideNoEffect": 1,
+      "CheckDead": 1,
+      "ForceSubState": 1
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }]
+}, {
+  "id": 2657650,
+  "name": "首取り翁の針山剣 EX",
+  "ruby": "くびとりおきなのしんざんけん",
+  "unmodifiedDetail": "自身の宝具威力をアップ[{0}](3ターン)＆「宝具攻撃時に対象に高確率で即死を付与する状態」を付与(3ターン)＆NPを増やす[{0}] ＋ 自身のまんぷくゲージが空腹の時、自身の宝具威力をアップ[{0}](3ターン)",
+  "type": "active",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00302.png",
+  "coolDown": [8, 8, 8, 8, 8, 7, 7, 7, 7, 6],
+  "skillSvts": [{
+    "svtId": 705300,
+    "num": 3,
+    "priority": 1,
+    "condLimitCount": 3
+  }],
+  "functions": [{
+    "funcId": 248,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 100
+    }, {
+      "Value": 110
+    }, {
+      "Value": 120
+    }, {
+      "Value": 130
+    }, {
+      "Value": 140
+    }, {
+      "Value": 150
+    }, {
+      "Value": 160
+    }, {
+      "Value": 170
+    }, {
+      "Value": 180
+    }, {
+      "Value": 200
+    }]
+  }, {
+    "funcId": 23526,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 970930,
+      "Value2": 1
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 460,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 3000
+    }, {
+      "Value": 3200
+    }, {
+      "Value": 3400
+    }, {
+      "Value": 3600
+    }, {
+      "Value": 3800
+    }, {
+      "Value": 4000
+    }, {
+      "Value": 4200
+    }, {
+      "Value": 4400
+    }, {
+      "Value": 4600
+    }, {
+      "Value": 5000
+    }]
+  }, {
+    "funcId": 470,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 1
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 248,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 100,
+      "CheckBattlePointPhaseRange": [{
+        "battlePointId": 705300,
+        "range": ["<=1"]
+      }]
+    }, {
+      "Value": 110
+    }, {
+      "Value": 120
+    }, {
+      "Value": 130
+    }, {
+      "Value": 140
+    }, {
+      "Value": 150
+    }, {
+      "Value": 160
+    }, {
+      "Value": 170
+    }, {
+      "Value": 180
+    }, {
+      "Value": 200
+    }]
+  }]
+}, {
   "id": 2659550,
   "name": "天使の肉体 A",
   "ruby": "てんしのにくたい",
@@ -311546,6 +314385,852 @@
       "Turn": -1,
       "Count": -1
     }]
+  }]
+}, {
+  "id": 2662650,
+  "name": "迷い家の友 EX",
+  "ruby": "まよいがのとも",
+  "unmodifiedDetail": "自身の強化解除耐性をアップ ＋ 味方全体(控え含む)にまんぷくゲージを付与<ゲージ上限4、〔超巨大〕の場合8>＆「攻撃時に自身のまんぷくゲージを1減らす状態」を付与＆「クリティカル攻撃時に自身のまんぷくゲージを1減らす状態」を付与",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00416.png",
+  "coolDown": [0],
+  "functions": [{
+    "funcId": 2084,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 200
+    }]
+  }, {
+    "funcId": 23458,
+    "svals": [{
+      "Rate": 5000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 10042,
+      "HideMiss": 1,
+      "HideNoEffect": 1
+    }]
+  }, {
+    "funcId": 23461,
+    "svals": [{
+      "Rate": 5000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 970917,
+      "Value2": 1,
+      "HideMiss": 1,
+      "HideNoEffect": 1,
+      "ShowState": -1,
+      "ForceAddState": 1,
+      "UnSubState": 1,
+      "SelfTurnProgressGroup": 705300
+    }]
+  }, {
+    "funcId": 23551,
+    "svals": [{
+      "Rate": 5000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 970917,
+      "Value2": 1,
+      "HideMiss": 1,
+      "HideNoEffect": 1,
+      "ShowState": -1,
+      "ForceAddState": 1,
+      "UnSubState": 1,
+      "SelfTurnProgressGroup": 705300
+    }]
+  }, {
+    "funcId": 23535,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 1,
+      "HideMiss": 1,
+      "HideNoEffect": 1,
+      "ShowState": -1,
+      "CheckDead": 1,
+      "ForceAddState": 1,
+      "UnSubState": 1
+    }]
+  }]
+}, {
+  "id": 2663550,
+  "name": "妖怪襲名（探偵） A",
+  "ruby": "ようかいしゅうめい（たんてい）",
+  "unmodifiedDetail": "自身に毎ターンスター3個獲得状態を付与 ＋ 〔水辺〕のあるフィールドにおいてのみ、毎ターンスター2個獲得状態を付与",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00605.png",
+  "coolDown": [0],
+  "functions": [{
+    "funcId": 333,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 3
+    }]
+  }, {
+    "funcId": 21786,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 2
+    }]
+  }]
+}, {
+  "id": 2664550,
+  "name": "妖怪襲名（ボッチ） A",
+  "ruby": "ようかいしゅうめい（ボッチ）",
+  "unmodifiedDetail": "自身のBusterカードのスター集中度をアップ",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00308.png",
+  "coolDown": [0],
+  "functions": [{
+    "funcId": 1850,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 300
+    }]
+  }, {
+    "funcId": 3120,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 30
+    }]
+  }]
+}, {
+  "id": 2665450,
+  "name": "グロウアップ・メニュー！ B",
+  "ruby": "ぐろうあっぷ・めにゅー！",
+  "unmodifiedDetail": "自身に最大HPがアップする状態を付与[{0}](3ターン)＆NPを増やす[{0}]＆攻撃力をアップ[{0}](3ターン)＆〔悪〕特攻状態を付与[{0}](3ターン)＆〔善〕特攻状態を付与[{0}](3ターン)",
+  "type": "active",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00412.png",
+  "coolDown": [8, 8, 8, 8, 8, 7, 7, 7, 7, 6],
+  "skillSvts": [{
+    "svtId": 2301200,
+    "num": 1,
+    "priority": 1
+  }],
+  "functions": [{
+    "funcId": 590,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 3000
+    }, {
+      "Value": 3200
+    }, {
+      "Value": 3400
+    }, {
+      "Value": 3600
+    }, {
+      "Value": 3800
+    }, {
+      "Value": 4000
+    }, {
+      "Value": 4200
+    }, {
+      "Value": 4400
+    }, {
+      "Value": 4600
+    }, {
+      "Value": 5000
+    }]
+  }, {
+    "funcId": 460,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 3000
+    }, {
+      "Value": 3200
+    }, {
+      "Value": 3400
+    }, {
+      "Value": 3600
+    }, {
+      "Value": 3800
+    }, {
+      "Value": 4000
+    }, {
+      "Value": 4200
+    }, {
+      "Value": 4400
+    }, {
+      "Value": 4600
+    }, {
+      "Value": 5000
+    }]
+  }, {
+    "funcId": 470,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 1
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 146,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 200
+    }, {
+      "Value": 210
+    }, {
+      "Value": 220
+    }, {
+      "Value": 230
+    }, {
+      "Value": 240
+    }, {
+      "Value": 250
+    }, {
+      "Value": 260
+    }, {
+      "Value": 270
+    }, {
+      "Value": 280
+    }, {
+      "Value": 300
+    }]
+  }, {
+    "funcId": 236,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 200
+    }, {
+      "Value": 210
+    }, {
+      "Value": 220
+    }, {
+      "Value": 230
+    }, {
+      "Value": 240
+    }, {
+      "Value": 250
+    }, {
+      "Value": 260
+    }, {
+      "Value": 270
+    }, {
+      "Value": 280
+    }, {
+      "Value": 300
+    }]
+  }, {
+    "funcId": 7036,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 200
+    }, {
+      "Value": 210
+    }, {
+      "Value": 220
+    }, {
+      "Value": 230
+    }, {
+      "Value": 240
+    }, {
+      "Value": 250
+    }, {
+      "Value": 260
+    }, {
+      "Value": 270
+    }, {
+      "Value": 280
+    }, {
+      "Value": 300
+    }]
+  }]
+}, {
+  "id": 2666550,
+  "name": "インセクトサーチ A",
+  "ruby": "いんせくとさーち",
+  "unmodifiedDetail": "自身に必中状態を付与(3ターン)＆Busterカード性能をアップ[{0}](3ターン)＆クリティカル威力をアップ[{0}](3ターン)＆「通常攻撃時に敵単体の強化状態を1つ解除＆〔ターゲット捕捉〕状態(3ターン)を付与する状態」を付与(3ターン)",
+  "type": "active",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00310.png",
+  "coolDown": [8, 8, 8, 8, 8, 7, 7, 7, 7, 6],
+  "skillSvts": [{
+    "svtId": 2301200,
+    "num": 2,
+    "priority": 1,
+    "condLimitCount": 1
+  }],
+  "functions": [{
+    "funcId": 288,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 119,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 200
+    }, {
+      "Value": 210
+    }, {
+      "Value": 220
+    }, {
+      "Value": 230
+    }, {
+      "Value": 240
+    }, {
+      "Value": 250
+    }, {
+      "Value": 260
+    }, {
+      "Value": 270
+    }, {
+      "Value": 280
+    }, {
+      "Value": 300
+    }]
+  }, {
+    "funcId": 201,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 300
+    }, {
+      "Value": 320
+    }, {
+      "Value": 340
+    }, {
+      "Value": 360
+    }, {
+      "Value": 380
+    }, {
+      "Value": 400
+    }, {
+      "Value": 420
+    }, {
+      "Value": 440
+    }, {
+      "Value": 460
+    }, {
+      "Value": 500
+    }]
+  }, {
+    "funcId": 23536,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 970931,
+      "Value2": 1
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }]
+}, {
+  "id": 2667650,
+  "name": "カイジュウ・ベイビー EX",
+  "ruby": "かいじゅう・べいびー",
+  "unmodifiedDetail": "自身に弱体無効状態を付与(3ターン)＆無敵状態を付与(3回・3ターン)＆「Buster攻撃時のダメージ前に対象の防御力をダウン(3ターン)する状態」を付与(3ターン)＆毎ターンスター獲得状態を付与[{0}](3ターン) ＋ スターを獲得[{0}]",
+  "type": "active",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00411.png",
+  "coolDown": [9, 9, 9, 9, 9, 8, 8, 8, 8, 7],
+  "skillSvts": [{
+    "svtId": 2301200,
+    "num": 3,
+    "priority": 1,
+    "condLimitCount": 3
+  }],
+  "functions": [{
+    "funcId": 627,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 289,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": 3
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 23538,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 970932,
+      "Value2": 1
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 334,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 5
+    }, {
+      "Value": 6
+    }, {
+      "Value": 7
+    }, {
+      "Value": 8
+    }, {
+      "Value": 9
+    }, {
+      "Value": 10
+    }, {
+      "Value": 11
+    }, {
+      "Value": 12
+    }, {
+      "Value": 13
+    }, {
+      "Value": 15
+    }]
+  }, {
+    "funcId": 215,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 100
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 476,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 5
+    }, {
+      "Value": 6
+    }, {
+      "Value": 7
+    }, {
+      "Value": 8
+    }, {
+      "Value": 9
+    }, {
+      "Value": 10
+    }, {
+      "Value": 11
+    }, {
+      "Value": 12
+    }, {
+      "Value": 13
+    }, {
+      "Value": 15
+    }]
+  }, {
+    "funcId": 215,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 2,
+      "Count": -1,
+      "Value": 200
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }]
+}, {
+  "id": 2668450,
+  "name": "噂の新入社員 B",
+  "ruby": "うわさのしんにゅうしゃいん",
+  "unmodifiedDetail": "自身の登場時にスターを10個獲得(1回)",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00603.png",
+  "coolDown": [0],
+  "functions": [{
+    "funcId": 23540,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": 1,
+      "Value": 970933,
+      "Value2": 1
+    }]
+  }]
+}, {
+  "id": 2669450,
+  "name": "社風の理解 B",
+  "ruby": "しゃふうのりかい",
+  "unmodifiedDetail": "自身のNP獲得量を少しアップ",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00602.png",
+  "coolDown": [0],
+  "functions": [{
+    "funcId": 336,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 50
+    }]
+  }]
+}, {
+  "id": 2670350,
+  "name": "輝かしき社会人の証 C",
+  "ruby": "かがやかしきしゃかいじんのあかし",
+  "unmodifiedDetail": "自身のスター発生率を少しアップ",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00604.png",
+  "coolDown": [0],
+  "functions": [{
+    "funcId": 295,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 50
+    }]
+  }, {
+    "funcId": 214,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 50
+    }]
+  }]
+}, {
+  "id": 2671550,
+  "name": "憧れの有給休暇 A",
+  "ruby": "あこがれのゆうきゅうきゅうか",
+  "unmodifiedDetail": "自身のクリティカル威力を少しアップ",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00303.png",
+  "coolDown": [0],
+  "functions": [{
+    "funcId": 199,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 50
+    }]
+  }]
+}, {
+  "id": 2672550,
+  "name": "夏の出張者 A",
+  "ruby": "なつのしゅっちょうしゃ",
+  "unmodifiedDetail": "自身のNPを増やす[{0}]＆毎ターンNP獲得状態を付与(3ターン)＆強化解除耐性をアップ[{0}](1回・3ターン)",
+  "type": "active",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00601.png",
+  "coolDown": [8, 8, 8, 8, 8, 7, 7, 7, 7, 6],
+  "skillSvts": [{
+    "svtId": 506000,
+    "num": 1,
+    "priority": 1
+  }],
+  "functions": [{
+    "funcId": 460,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 2000
+    }, {
+      "Value": 2100
+    }, {
+      "Value": 2200
+    }, {
+      "Value": 2300
+    }, {
+      "Value": 2400
+    }, {
+      "Value": 2500
+    }, {
+      "Value": 2600
+    }, {
+      "Value": 2700
+    }, {
+      "Value": 2800
+    }, {
+      "Value": 3000
+    }]
+  }, {
+    "funcId": 325,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 1000
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 470,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 1
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 2086,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": 1,
+      "Value": 500
+    }, {
+      "Value": 550
+    }, {
+      "Value": 600
+    }, {
+      "Value": 650
+    }, {
+      "Value": 700
+    }, {
+      "Value": 750
+    }, {
+      "Value": 800
+    }, {
+      "Value": 850
+    }, {
+      "Value": 900
+    }, {
+      "Value": 1000
+    }]
+  }]
+}, {
+  "id": 2673550,
+  "name": "トゥース・フィッシング A",
+  "ruby": "とぅーす・ふぃっしんぐ",
+  "unmodifiedDetail": "味方全体のArtsカード性能をアップ[{0}](3ターン)＆クリティカル威力をアップ[{0}](3ターン)＆〔毒〕特攻状態を付与[{0}](3ターン) ＋ 〔水辺〕のあるフィールドにおいてのみ、味方全体のArtsカード性能をアップ[{0}](3ターン) ＋ 自身に毎ターンスター獲得状態を付与[{0}](3ターン)",
+  "type": "active",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00305.png",
+  "coolDown": [8, 8, 8, 8, 8, 7, 7, 7, 7, 6],
+  "skillSvts": [{
+    "svtId": 506000,
+    "num": 2,
+    "priority": 1,
+    "condLimitCount": 1
+  }],
+  "functions": [{
+    "funcId": 116,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 100
+    }, {
+      "Value": 110
+    }, {
+      "Value": 120
+    }, {
+      "Value": 130
+    }, {
+      "Value": 140
+    }, {
+      "Value": 150
+    }, {
+      "Value": 160
+    }, {
+      "Value": 170
+    }, {
+      "Value": 180
+    }, {
+      "Value": 200
+    }]
+  }, {
+    "funcId": 206,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 200
+    }, {
+      "Value": 210
+    }, {
+      "Value": 220
+    }, {
+      "Value": 230
+    }, {
+      "Value": 240
+    }, {
+      "Value": 250
+    }, {
+      "Value": 260
+    }, {
+      "Value": 270
+    }, {
+      "Value": 280
+    }, {
+      "Value": 300
+    }]
+  }, {
+    "funcId": 23549,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 200,
+      "IncludeIgnoreIndividuality": 1
+    }, {
+      "Value": 210
+    }, {
+      "Value": 220
+    }, {
+      "Value": 230
+    }, {
+      "Value": 240
+    }, {
+      "Value": 250
+    }, {
+      "Value": 260
+    }, {
+      "Value": 270
+    }, {
+      "Value": 280
+    }, {
+      "Value": 300
+    }]
+  }, {
+    "funcId": 23542,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 100,
+      "ShowQuestNoEffect": 1
+    }, {
+      "Value": 110
+    }, {
+      "Value": 120
+    }, {
+      "Value": 130
+    }, {
+      "Value": 140
+    }, {
+      "Value": 150
+    }, {
+      "Value": 160
+    }, {
+      "Value": 170
+    }, {
+      "Value": 180
+    }, {
+      "Value": 200
+    }]
+  }, {
+    "funcId": 334,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 5
+    }, {
+      "Value": 6
+    }, {
+      "Value": 7
+    }, {
+      "Value": 8
+    }, {
+      "Value": 9
+    }, {
+      "Value": 10
+    }, {
+      "Value": 11
+    }, {
+      "Value": 12
+    }, {
+      "Value": 13
+    }, {
+      "Value": 15
+    }]
+  }, {
+    "funcId": 215,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 100
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }]
+}, {
+  "id": 2674650,
+  "name": "テーバイの泉にて EX",
+  "ruby": "てーばいのいずみにて",
+  "unmodifiedDetail": "敵全体に毒状態を付与(5ターン) ＋ 自身の攻撃力をアップ[{0}](3ターン)＆〔毒〕特攻状態を付与<対象の〔毒〕状態が多いほど対象に対して特攻威力アップ(最大10個)>(3ターン)＆「攻撃時のダメージ前に対象に毒状態(5ターン)を付与する状態」を付与(3ターン)＆「ターン開始時に敵全体に毒状態(5ターン)を付与する状態」を付与(2回)",
+  "type": "active",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00510.png",
+  "coolDown": [8, 8, 8, 8, 8, 7, 7, 7, 7, 6],
+  "skillSvts": [{
+    "svtId": 506000,
+    "num": 3,
+    "priority": 1,
+    "condLimitCount": 3
+  }],
+  "functions": [{
+    "funcId": 317,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 5,
+      "Count": -1,
+      "Value": 500
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 146,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 100
+    }, {
+      "Value": 110
+    }, {
+      "Value": 120
+    }, {
+      "Value": 130
+    }, {
+      "Value": 140
+    }, {
+      "Value": 150
+    }, {
+      "Value": 160
+    }, {
+      "Value": 170
+    }, {
+      "Value": 180
+    }, {
+      "Value": 200
+    }]
+  }, {
+    "funcId": 23547,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 0,
+      "ParamAddMaxValue": 1000,
+      "ParamAddMaxCount": 10,
+      "ParamAddOpIndividuality": [3011],
+      "ParamAddValue": 100,
+      "IncludeIgnoreIndividuality": 1
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 22530,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 970934,
+      "Value2": 1
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 23544,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": 2,
+      "Value": 970935,
+      "Value2": 1
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
   }]
 }, {
   "id": 2689350,
@@ -312540,6 +316225,18 @@
       "Rate": 1000,
       "Value": 1
     }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }]
+}, {
+  "id": 2696650,
+  "name": "夏の獄卒 EX",
+  "ruby": "なつのごくそつ",
+  "unmodifiedDetail": "効果なし",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_999999.png",
+  "coolDown": [0],
+  "functions": [{
+    "funcId": 0,
+    "svals": [{}]
   }]
 }, {
   "id": 3001000,

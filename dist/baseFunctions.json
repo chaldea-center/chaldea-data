@@ -14950,6 +14950,15 @@
     "id": 3009
   }]
 }, {
+  "funcId": 2223,
+  "funcType": "subState",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "防御弱体解除",
+  "traitVals": [{
+    "id": 3009
+  }]
+}, {
   "funcId": 2229,
   "funcType": "addStateShort",
   "funcTargetType": "self",
@@ -40602,6 +40611,34 @@
     }]
   }]
 }, {
+  "funcId": 20877,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptFull",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "威力アップ・対毒状態",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+  "buffs": [{
+    "id": 5353,
+    "name": "威力アップ〔毒〕",
+    "detail": "〔毒〕状態の敵に与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamageIndividuality",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3028
+    }],
+    "tvals": [{
+      "id": 3011
+    }],
+    "ckOpIndv": [{
+      "id": 3011
+    }],
+    "maxRate": 10000
+  }]
+}, {
   "funcId": 20878,
   "funcType": "addStateShort",
   "funcTargetType": "ptFull",
@@ -63504,6 +63541,34 @@
     "maxRate": 10000
   }]
 }, {
+  "funcId": 23315,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "威力アップ・対中庸",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+  "buffs": [{
+    "id": 6058,
+    "name": "威力アップ〔中庸〕",
+    "detail": "〔中庸〕特性に与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamage",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3028
+    }],
+    "tvals": [{
+      "id": 305
+    }],
+    "ckOpIndv": [{
+      "id": 305
+    }],
+    "maxRate": 10000
+  }]
+}, {
   "funcId": 23326,
   "funcType": "addStateShort",
   "funcTargetType": "enemyAll",
@@ -64197,6 +64262,199 @@
     }]
   }]
 }, {
+  "funcId": 23426,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "うちなーバケーション",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+  "funcquestTvals": [{
+    "id": 94000189
+  }],
+  "funcGroup": [{
+    "eventId": 80614,
+    "baseFuncId": 23425,
+    "nameTotal": "{1} \n攻撃の威力アップ合計",
+    "name": "攻撃の威力アップ合計",
+    "icon": "https://static.atlasacademy.io/JP/EventUI/func_group_icon_302.png",
+    "priority": 300,
+    "isDispValue": true
+  }],
+  "buffs": [{
+    "id": 6076,
+    "name": "うちなーバケーション",
+    "detail": "『カルデア南海大決戦！』において与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamage",
+    "maxRate": 10000
+  }]
+}, {
+  "funcId": 23427,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "うちなーバケーション",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+  "funcquestTvals": [{
+    "id": 94000189
+  }],
+  "funcGroup": [{
+    "eventId": 80614,
+    "baseFuncId": 23425,
+    "nameTotal": "{1} \n攻撃の威力アップ合計",
+    "name": "攻撃の威力アップ合計",
+    "icon": "https://static.atlasacademy.io/JP/EventUI/func_group_icon_302.png",
+    "priority": 300,
+    "isDispValue": true
+  }],
+  "buffs": [{
+    "id": 6076,
+    "name": "うちなーバケーション",
+    "detail": "『カルデア南海大決戦！』において与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamage",
+    "maxRate": 10000
+  }]
+}, {
+  "funcId": 23428,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "威力アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+  "funcquestTvals": [{
+    "id": 94000189
+  }],
+  "funcGroup": [{
+    "eventId": 80614,
+    "baseFuncId": 23425,
+    "nameTotal": "{1} \n攻撃の威力アップ合計",
+    "name": "攻撃の威力アップ合計",
+    "icon": "https://static.atlasacademy.io/JP/EventUI/func_group_icon_302.png",
+    "priority": 300,
+    "isDispValue": true
+  }],
+  "buffs": [{
+    "id": 6077,
+    "name": "威力アップ",
+    "detail": "『カルデア南海大決戦！』において与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamage",
+    "maxRate": 10000
+  }]
+}, {
+  "funcId": 23429,
+  "funcType": "servantFriendshipUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcGroup": [{
+    "eventId": 80614,
+    "baseFuncId": 0,
+    "nameTotal": "{1}\n自己効果により得られる絆アップ合計",
+    "name": "自己効果により得られる絆アップ",
+    "icon": "https://static.atlasacademy.io/JP/EventUI/func_group_icon_1009.png",
+    "priority": 200,
+    "isDispValue": true
+  }]
+}, {
+  "funcId": 23430,
+  "funcType": "servantFriendshipUp",
+  "funcTargetType": "ptFull",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcGroup": [{
+    "eventId": 80614,
+    "baseFuncId": 0,
+    "nameTotal": "{1}\n全体効果により得られる絆アップ合計",
+    "name": "全体効果により得られる絆アップ",
+    "icon": "https://static.atlasacademy.io/JP/EventUI/func_group_icon_1023.png",
+    "priority": 100,
+    "isDispValue": true
+  }]
+}, {
+  "funcId": 23431,
+  "funcType": "eventDropUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcGroup": [{
+    "eventId": 80614,
+    "baseFuncId": 0,
+    "nameTotal": "{0}\n獲得数ボーナス合計",
+    "name": "{0}獲得数アップ",
+    "icon": "https://static.atlasacademy.io/JP/Items/94159003.png",
+    "priority": 3000,
+    "isDispValue": true
+  }]
+}, {
+  "funcId": 23432,
+  "funcType": "eventDropUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcGroup": [{
+    "eventId": 80614,
+    "baseFuncId": 0,
+    "nameTotal": "{0}\n獲得数ボーナス合計",
+    "name": "{0}獲得数アップ",
+    "icon": "https://static.atlasacademy.io/JP/Items/94159002.png",
+    "priority": 2000,
+    "isDispValue": true
+  }]
+}, {
+  "funcId": 23433,
+  "funcType": "eventDropUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcGroup": [{
+    "eventId": 80614,
+    "baseFuncId": 0,
+    "nameTotal": "{0}\n獲得数ボーナス合計",
+    "name": "{0}獲得数アップ",
+    "icon": "https://static.atlasacademy.io/JP/Items/94159001.png",
+    "priority": 1000,
+    "isDispValue": true
+  }]
+}, {
+  "funcId": 23434,
+  "funcType": "eventDropUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcGroup": [{
+    "eventId": 80614,
+    "baseFuncId": 0,
+    "nameTotal": "{0}\n獲得数ボーナス合計",
+    "name": "{0}獲得数アップ",
+    "icon": "https://static.atlasacademy.io/JP/Items/94159004.png",
+    "priority": 6000,
+    "isDispValue": true
+  }]
+}, {
+  "funcId": 23435,
+  "funcType": "eventDropUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcGroup": [{
+    "eventId": 80614,
+    "baseFuncId": 0,
+    "nameTotal": "{0}\n獲得数ボーナス合計",
+    "name": "{0}獲得数アップ",
+    "icon": "https://static.atlasacademy.io/JP/Items/94159005.png",
+    "priority": 5000,
+    "isDispValue": true
+  }]
+}, {
+  "funcId": 23436,
+  "funcType": "eventDropUp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcGroup": [{
+    "eventId": 80614,
+    "baseFuncId": 0,
+    "nameTotal": "{0}\n獲得数ボーナス合計",
+    "name": "{0}獲得数アップ",
+    "icon": "https://static.atlasacademy.io/JP/Items/94159006.png",
+    "priority": 4000,
+    "isDispValue": true
+  }]
+}, {
   "funcId": 23437,
   "funcType": "addStateShort",
   "funcTargetType": "ptFull",
@@ -64434,6 +64692,111 @@
       "id": 1000
     }],
     "maxRate": 10000
+  }]
+}, {
+  "funcId": 23458,
+  "funcType": "addState",
+  "funcTargetType": "ptFull",
+  "funcTargetTeam": "player",
+  "buffs": [{
+    "id": 6084,
+    "name": "",
+    "detail": "",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_520.png",
+    "type": "addIndividuality",
+    "originalScript": {
+      "UnSubStateWhenContinue": 3
+    }
+  }]
+}, {
+  "funcId": 23459,
+  "funcType": "addBattlePoint",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "player",
+  "funcPopupText": "まんぷくゲージ+2"
+}, {
+  "funcId": 23460,
+  "funcType": "subBattlePoint",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "まんぷくゲージ-2"
+}, {
+  "funcId": 23461,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptFull",
+  "funcTargetTeam": "player",
+  "funcPopupText": "攻撃時追加効果",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_333.png",
+  "buffs": [{
+    "id": 6085,
+    "name": "攻撃時追加効果",
+    "detail": "攻撃時、自身のまんぷくゲージを1減らす",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_333.png",
+    "type": "attackAfterFunctionMainOnly",
+    "buffGroup": 705300,
+    "script": {
+      "checkIndvType": 2
+    },
+    "originalScript": {
+      "checkIndvType": 2,
+      "UnSubStateWhenContinue": 3
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 10044
+    }],
+    "ckSelfIndv": [{
+      "id": 10050,
+      "negative": true
+    }]
+  }]
+}, {
+  "funcId": 23462,
+  "funcType": "addState",
+  "funcTargetType": "ptFull",
+  "funcTargetTeam": "playerAndEnemy",
+  "functvals": [{
+    "id": 705300
+  }],
+  "buffs": [{
+    "id": 6086,
+    "name": "",
+    "detail": "",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_419.png",
+    "type": "skillRankUp",
+    "originalScript": {
+      "UnSubStateWhenContinue": 3
+    },
+    "vals": [{
+      "id": 10043
+    }]
+  }]
+}, {
+  "funcId": 23463,
+  "funcType": "subState",
+  "funcTargetType": "ptFull",
+  "funcTargetTeam": "playerAndEnemy",
+  "functvals": [{
+    "id": 705300
+  }],
+  "traitVals": [{
+    "id": 10043
+  }]
+}, {
+  "funcId": 23464,
+  "funcType": "addState",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "player",
+  "funcPopupText": "まんぷくゲージ上限アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_704.png",
+  "buffs": [{
+    "id": 6087,
+    "name": "まんぷくゲージ上限アップ",
+    "detail": "まんぷくゲージの上限を増やす",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_704.png",
+    "type": "addMaxBattlePoint",
+    "buffGroup": 705305
   }]
 }, {
   "funcId": 23470,
@@ -64937,6 +65300,438 @@
     "ckSelfIndv": [{
       "id": 4002
     }]
+  }]
+}, {
+  "funcId": 23526,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "宝具攻撃時追加効果",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_528.png",
+  "buffs": [{
+    "id": 6105,
+    "name": "宝具攻撃時追加効果",
+    "detail": "宝具攻撃時、対象に高確率で即死効果",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_528.png",
+    "type": "attackAfterFunction",
+    "vals": [{
+      "id": 3004
+    }],
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4007
+    }],
+    "ckSelfIndv": [{
+      "id": 4007
+    }]
+  }]
+}, {
+  "funcId": 23527,
+  "funcType": "addState",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "「焼きそば」配膳",
+  "buffs": [{
+    "id": 4286,
+    "name": "",
+    "detail": "",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_520.png",
+    "type": "addIndividuality"
+  }]
+}, {
+  "funcId": 23528,
+  "funcType": "addState",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "「カレー」配膳",
+  "buffs": [{
+    "id": 4286,
+    "name": "",
+    "detail": "",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_520.png",
+    "type": "addIndividuality"
+  }]
+}, {
+  "funcId": 23529,
+  "funcType": "addState",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "「ラーメン」配膳",
+  "buffs": [{
+    "id": 4286,
+    "name": "",
+    "detail": "",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_520.png",
+    "type": "addIndividuality"
+  }]
+}, {
+  "funcId": 23530,
+  "funcType": "addState",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "「フランクフルト」配膳",
+  "buffs": [{
+    "id": 4286,
+    "name": "",
+    "detail": "",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_520.png",
+    "type": "addIndividuality"
+  }]
+}, {
+  "funcId": 23531,
+  "funcType": "addState",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "「串焼き」配膳",
+  "buffs": [{
+    "id": 4286,
+    "name": "",
+    "detail": "",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_520.png",
+    "type": "addIndividuality"
+  }]
+}, {
+  "funcId": 23532,
+  "funcType": "addState",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "「パフェ」配膳",
+  "buffs": [{
+    "id": 4286,
+    "name": "",
+    "detail": "",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_520.png",
+    "type": "addIndividuality"
+  }]
+}, {
+  "funcId": 23533,
+  "funcType": "addState",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "「伝説のおにぎり」配膳",
+  "buffs": [{
+    "id": 4286,
+    "name": "",
+    "detail": "",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_520.png",
+    "type": "addIndividuality"
+  }]
+}, {
+  "funcId": 23534,
+  "funcType": "subState",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "毒・呪い・やけど解除",
+  "traitVals": [{
+    "id": 3011
+  }, {
+    "id": 3026
+  }, {
+    "id": 3015
+  }]
+}, {
+  "funcId": 23535,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "functvals": [{
+    "id": 705300
+  }],
+  "buffs": [{
+    "id": 6086,
+    "name": "",
+    "detail": "",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_419.png",
+    "type": "skillRankUp",
+    "originalScript": {
+      "UnSubStateWhenContinue": 3
+    },
+    "vals": [{
+      "id": 10043
+    }]
+  }]
+}, {
+  "funcId": 23536,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "通常攻撃時追加効果",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_528.png",
+  "buffs": [{
+    "id": 6106,
+    "name": "通常攻撃時追加効果",
+    "detail": "通常攻撃時、敵単体の強化状態を1つ解除＆〔ターゲット捕捉〕状態を付与",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_528.png",
+    "type": "commandattackAfterFunction",
+    "vals": [{
+      "id": 3004
+    }],
+    "tvals": [{
+      "id": 5000
+    }]
+  }]
+}, {
+  "funcId": 23537,
+  "funcType": "addState",
+  "funcTargetType": "enemy",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "ターゲット捕捉",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_520.png",
+  "buffs": [{
+    "id": 6107,
+    "name": "ターゲット捕捉",
+    "detail": "ターゲットを捕捉している状態",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_520.png",
+    "type": "addIndividuality",
+    "vals": [{
+      "id": 3005
+    }, {
+      "id": 3009
+    }]
+  }]
+}, {
+  "funcId": 23538,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "Buster攻撃ダメージ前追加効果",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_528.png",
+  "buffs": [{
+    "id": 6108,
+    "name": "Buster攻撃ダメージ前追加効果",
+    "detail": "Buster攻撃時、ダメージ前に対象の防御力をダウン",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_528.png",
+    "type": "attackBeforeFunction",
+    "vals": [{
+      "id": 3004
+    }],
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4002
+    }],
+    "ckSelfIndv": [{
+      "id": 4002
+    }]
+  }]
+}, {
+  "funcId": 23539,
+  "funcType": "addState",
+  "funcTargetType": "ptOther",
+  "funcTargetTeam": "playerAndEnemy",
+  "functvals": [{
+    "id": 2076
+  }],
+  "buffs": [{
+    "id": 4286,
+    "name": "",
+    "detail": "",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_520.png",
+    "type": "addIndividuality"
+  }]
+}, {
+  "funcId": 23540,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "登場時スター獲得",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_325.png",
+  "buffs": [{
+    "id": 238,
+    "name": "登場時スター獲得",
+    "detail": "フィールドに登場した時、スター獲得効果が発生する",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_325.png",
+    "type": "entryFunction",
+    "vals": [{
+      "id": 3004
+    }]
+  }]
+}, {
+  "funcId": 23542,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "アーツアップ：水辺",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_313.png",
+  "funcquestTvals": [{
+    "id": 2039
+  }],
+  "buffs": [{
+    "id": 6109,
+    "name": "Artsアップ",
+    "detail": "〔水辺〕のあるフィールドにおいてのみ、Artsカードの性能をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_313.png",
+    "type": "upCommandall",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3092
+    }],
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4001
+    }],
+    "ckSelfIndv": [{
+      "id": 4001
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 23544,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "毎ターン発動",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_343.png",
+  "buffs": [{
+    "id": 6110,
+    "name": "毎ターン発動",
+    "detail": "ターン開始時、敵全体に毒状態を付与",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_343.png",
+    "type": "selfturnstartFunction",
+    "vals": [{
+      "id": 3004
+    }]
+  }]
+}, {
+  "funcId": 23547,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "威力アップ・対毒",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+  "buffs": [{
+    "id": 6111,
+    "name": "威力アップ〔毒〕",
+    "detail": "〔毒〕状態の敵に与えるダメージをアップ<対象の〔毒〕状態の数に応じて威力アップ>",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamageIndividualityActiveonly",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3028
+    }],
+    "tvals": [{
+      "id": 3011
+    }],
+    "ckOpIndv": [{
+      "id": 3011
+    }],
+    "maxRate": 10000
+  }]
+}, {
+  "funcId": 23549,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "威力アップ・対毒状態",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+  "buffs": [{
+    "id": 3510,
+    "name": "威力アップ〔毒〕",
+    "detail": "〔毒〕状態の敵に与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamageIndividualityActiveonly",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3028
+    }],
+    "tvals": [{
+      "id": 3011
+    }],
+    "ckOpIndv": [{
+      "id": 3011
+    }],
+    "maxRate": 10000
+  }]
+}, {
+  "funcId": 23551,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptFull",
+  "funcTargetTeam": "player",
+  "funcPopupText": "クリティカル攻撃時追加効果",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_333.png",
+  "buffs": [{
+    "id": 6112,
+    "name": "クリティカル攻撃時追加効果",
+    "detail": "クリティカル攻撃時、自身のまんぷくゲージを1減らす",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_333.png",
+    "type": "attackAfterFunctionMainOnly",
+    "buffGroup": 705301,
+    "script": {
+      "checkIndvType": 2
+    },
+    "originalScript": {
+      "checkIndvType": 2,
+      "UnSubStateWhenContinue": 3
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 10044
+    }],
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4100
+    }],
+    "ckSelfIndv": [{
+      "id": 4100
+    }]
+  }]
+}, {
+  "funcId": 23552,
+  "funcType": "addBattlePoint",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "player",
+  "funcPopupText": "まんぷくゲージ最大"
+}, {
+  "funcId": 23553,
+  "funcType": "subBattlePoint",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player"
+}, {
+  "funcId": 23560,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "宝具攻撃ダメージ前追加効果",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_333.png",
+  "buffs": [{
+    "id": 6114,
+    "name": "宝具攻撃ダメージ前追加効果",
+    "detail": "宝具攻撃時のダメージ前に、NPを抽出する<対象が〔毒〕状態であれば自身のNPを増やす>",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_333.png",
+    "type": "attackBeforeFunction",
+    "vals": [{
+      "id": 3004
+    }],
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4007
+    }],
+    "ckSelfIndv": [{
+      "id": 4007
+    }]
+  }]
+}, {
+  "funcId": 23561,
+  "funcType": "displayBuffstring",
+  "funcTargetType": "enemy",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "NP抽出",
+  "functvals": [{
+    "id": 3011
   }]
 }, {
   "funcId": 30003,
