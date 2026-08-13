@@ -190967,6 +190967,141 @@
       "openedAt": 1786532400,
       "closedAt": 1788321599
     }, {
+      "id": 94159005,
+      "name": "第5節「夢見る第二のまぎーむん」",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "50",
+      "spotId": 920502,
+      "warId": 9205,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94159101
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1, 2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9415900510",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415900510.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9415900520",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415900520.txt"
+        }, {
+          "scriptId": "9415900521",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415900521.txt"
+        }]
+      }],
+      "priority": 94159093,
+      "noticeAt": 1786611600,
+      "openedAt": 1786611600,
+      "closedAt": 1788321599
+    }, {
+      "id": 94159100,
+      "name": "百鬼夜行クエスト1「神たるマヤー」",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "20",
+      "spotId": 920502,
+      "warId": 9205,
+      "gifts": [{
+        "id": 94159017,
+        "objectId": 94159004,
+        "num": 90
+      }, {
+        "id": 94159017,
+        "objectId": 94159005,
+        "num": 90
+      }, {
+        "id": 94159017,
+        "objectId": 94159006,
+        "num": 90
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94159004
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1, 2],
+      "phasesWithEnemies": [1],
+      "phasesNoBattle": [2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9415910010",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415910010.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9415910020",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415910020.txt"
+        }]
+      }],
+      "priority": 94159095,
+      "noticeAt": 1786611600,
+      "openedAt": 1786611600,
+      "closedAt": 1788321599
+    }, {
+      "id": 94159101,
+      "name": "百鬼夜行クエスト2「傍迷惑なハーメー」",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "20",
+      "spotId": 920502,
+      "warId": 9205,
+      "gifts": [{
+        "id": 94159017,
+        "objectId": 94159004,
+        "num": 90
+      }, {
+        "id": 94159017,
+        "objectId": 94159005,
+        "num": 90
+      }, {
+        "id": 94159017,
+        "objectId": 94159006,
+        "num": 90
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94159100
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9415910110",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415910110.txt"
+        }, {
+          "scriptId": "9415910111",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415910111.txt"
+        }]
+      }],
+      "priority": 94159094,
+      "noticeAt": 1786611600,
+      "openedAt": 1786611600,
+      "closedAt": 1788321599
+    }, {
       "id": 94159301,
       "name": "噂のマジムン喫茶店",
       "type": "event",
@@ -191088,6 +191223,70 @@
       "noticeAt": 1786532400,
       "openedAt": 1786532400,
       "closedAt": 1788321599
+    }, {
+      "id": 94159006,
+      "name": "",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "50",
+      "spotId": 920503,
+      "warId": 9205,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94159005
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "eventTotalPoint",
+        "targetId": 80614,
+        "value": 50000,
+        "closedMessage": "料理を作ってくらくらポイント50,000以上獲得\n＆8月14日18時00分以降に開放"
+      }, {
+        "type": "forceFalse",
+        "targetId": 0,
+        "closedMessage": "データ更新後に開放"
+      }],
+      "phases": [1, 2, 3, 4, 5],
+      "phasesNoBattle": [1],
+      "priority": 94159092,
+      "noticeAt": 1786611600,
+      "openedAt": 1786698000,
+      "closedAt": 1788321599
+    }, {
+      "id": 94159303,
+      "name": "海の家繁盛記",
+      "type": "event",
+      "flags": ["displayLoopmark", "notDisplayResultGetPoint"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "50",
+      "spotId": 920503,
+      "warId": 9205,
+      "gifts": [{
+        "id": 13000,
+        "objectId": 101,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94159005
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "priority": 94159037,
+      "noticeAt": 1786611600,
+      "openedAt": 1786611600,
+      "closedAt": 1788321599
     }]
   }, {
     "id": 920504,
@@ -191101,7 +191300,7 @@
     "questOfsY": -101,
     "quests": [{
       "id": 94159004,
-      "name": "",
+      "name": "第4節「わったーマジムン百鬼夜行！」",
       "type": "main",
       "flags": ["noBattle"],
       "consume": 0,
@@ -191115,6 +191314,9 @@
         "num": 1
       }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 94159003
       }, {
@@ -191126,13 +191328,28 @@
         "targetId": 80614,
         "value": 15000,
         "closedMessage": "料理を作ってくらくらポイント15,000以上獲得\n＆8月13日18時00分以降に開放"
-      }, {
-        "type": "forceFalse",
-        "targetId": 0,
-        "closedMessage": "データ更新後に開放"
       }],
       "phases": [1, 2, 3],
       "phasesNoBattle": [1, 2, 3],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9415900410",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415900410.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9415900420",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415900420.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9415900430",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415900430.txt"
+        }]
+      }],
       "priority": 94159096,
       "noticeAt": 1786532400,
       "openedAt": 1786611600,
