@@ -8148,6 +8148,111 @@
     "16100099": 6564,
     "16100100": 6565
   },
+  "battlePoints": {
+    "705300": {
+      "id": 705300,
+      "name": "まんぷくゲージ",
+      "flags": ["battlePointCheckAsPercentage"],
+      "phases": [{
+        "phase": 0,
+        "value": -1
+      }, {
+        "phase": 1,
+        "value": 0,
+        "name": "空腹",
+        "effectId": 1
+      }, {
+        "phase": 2,
+        "value": 500,
+        "name": "五分目",
+        "effectId": 2
+      }, {
+        "phase": 3,
+        "value": 750,
+        "name": "八分目",
+        "effectId": 3
+      }, {
+        "phase": 4,
+        "value": 1000,
+        "name": "満腹",
+        "effectId": 4
+      }],
+      "svts": [],
+      "script": {
+        "maxChange": [{
+          "individuality": [{
+            "id": 2076
+          }],
+          "value": 8
+        }],
+        "maxLimit": 12,
+        "defaultMax": 4
+      }
+    },
+    "3300200": {
+      "id": 3300200,
+      "name": "マスター好感度",
+      "flags": ["notTargetOtherPlayer", "hideUiGaugeWhenCantAddPointAndFollowerSupport"],
+      "phases": [{
+        "phase": 0,
+        "value": -1
+      }, {
+        "phase": 1,
+        "value": 0,
+        "name": "Mate",
+        "effectId": 1
+      }, {
+        "phase": 2,
+        "value": 10,
+        "name": "Mate",
+        "effectId": 1
+      }, {
+        "phase": 3,
+        "value": 20,
+        "name": "Mate",
+        "effectId": 1
+      }, {
+        "phase": 4,
+        "value": 30,
+        "name": "Buddy",
+        "effectId": 2
+      }, {
+        "phase": 5,
+        "value": 40,
+        "name": "Buddy",
+        "effectId": 2
+      }, {
+        "phase": 6,
+        "value": 50,
+        "name": "Buddy",
+        "effectId": 2
+      }, {
+        "phase": 7,
+        "value": 60,
+        "name": "Darling",
+        "effectId": 3
+      }, {
+        "phase": 8,
+        "value": 70,
+        "name": "Darling",
+        "effectId": 3
+      }, {
+        "phase": 9,
+        "value": 80,
+        "name": "Darling",
+        "effectId": 3
+      }, {
+        "phase": 10,
+        "value": 90,
+        "name": "Destiny",
+        "effectId": 4
+      }],
+      "svts": [{
+        "svtId": 3300200
+      }],
+      "script": {}
+    }
+  },
   "config": {},
   "deprecatedEnums": {
     "BuffType": {},
