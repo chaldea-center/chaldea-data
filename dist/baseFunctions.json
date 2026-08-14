@@ -64803,6 +64803,31 @@
     "buffGroup": 705305
   }]
 }, {
+  "funcId": 23468,
+  "funcType": "addStateFuncType170",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "宝具威力アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_310.png",
+  "buffs": [{
+    "id": 138,
+    "name": "宝具威力アップ",
+    "detail": "宝具で与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_310.png",
+    "type": "upNpdamage",
+    "originalScript": {
+      "ProgressSelfTurn": 1
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3030
+    }],
+    "maxRate": 5000
+  }]
+}, {
   "funcId": 23470,
   "funcType": "addState",
   "funcTargetType": "enemyAll",
@@ -65023,6 +65048,46 @@
       "id": 4100
     }]
   }]
+}, {
+  "funcId": 23491,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "巨人の庇護",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_311.png",
+  "buffs": [{
+    "id": 6096,
+    "name": "巨人の庇護",
+    "detail": "自身以外の味方にも発動する特殊な無敵状態",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_311.png",
+    "type": "addIndividuality",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3007
+    }]
+  }]
+}, {
+  "funcId": 23492,
+  "funcType": "addState",
+  "funcTargetType": "ptFull",
+  "funcTargetTeam": "playerAndEnemy",
+  "buffs": [{
+    "id": 6095,
+    "name": "巨人の庇護",
+    "detail": "自身以外の味方にも発動する特殊な無敵状態",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_311.png",
+    "type": "invincible",
+    "originalScript": {
+      "popupEffectId": 4001031
+    }
+  }]
+}, {
+  "funcId": 23493,
+  "funcType": "extendUserEquipSkill",
+  "funcTargetType": "noTarget",
+  "funcTargetTeam": "player",
+  "funcPopupText": "マスタースキル奪取"
 }, {
   "funcId": 23495,
   "funcType": "addStateShort",
@@ -65736,6 +65801,231 @@
   "funcPopupText": "NP抽出",
   "functvals": [{
     "id": 3011
+  }]
+}, {
+  "funcId": 23563,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "クリティカル威力アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_324.png",
+  "buffs": [{
+    "id": 6115,
+    "name": "クリティカル威力アップ",
+    "detail": "〔魅了〕状態の敵に与えるクリティカル時のダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_324.png",
+    "type": "upCriticaldamage",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3031
+    }],
+    "tvals": [{
+      "id": 3012
+    }],
+    "ckOpIndv": [{
+      "id": 3012
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 23566,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "クリティカル威力アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_324.png",
+  "buffs": [{
+    "id": 6116,
+    "name": "クリティカル威力アップ",
+    "detail": "〔混乱〕状態の敵に与えるクリティカル時のダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_324.png",
+    "type": "upCriticaldamage",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3031
+    }],
+    "tvals": [{
+      "id": 3052
+    }],
+    "ckOpIndv": [{
+      "id": 3052
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 23569,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "攻撃力アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_300.png",
+  "funcquestTvals": [{
+    "id": 2884
+  }],
+  "buffs": [{
+    "id": 5541,
+    "name": "攻撃力アップ",
+    "detail": "〔暗闇〕のフィールドにおいてのみ、攻撃力をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_300.png",
+    "type": "upAtk",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3027
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 23571,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "宝具使用時追加効果",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_582.png",
+  "buffs": [{
+    "id": 6117,
+    "name": "宝具使用時追加効果",
+    "detail": "宝具を使用後、自身に即死効果(ガッツ無視・即死耐性無視)",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_582.png",
+    "type": "treasureDeviceAfterFunction",
+    "vals": [{
+      "id": 3005
+    }],
+    "tvals": [{
+      "id": 5000
+    }, {
+      "id": 4007
+    }],
+    "ckSelfIndv": [{
+      "id": 4007
+    }]
+  }]
+}, {
+  "funcId": 23574,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "威力アップ・対混乱",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+  "buffs": [{
+    "id": 6118,
+    "name": "威力アップ〔混乱〕",
+    "detail": "〔混乱〕状態の敵に与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamageIndividualityActiveonly",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3028
+    }],
+    "tvals": [{
+      "id": 3052
+    }],
+    "ckOpIndv": [{
+      "id": 3052
+    }],
+    "maxRate": 10000
+  }]
+}, {
+  "funcId": 23576,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "威力アップ・対非超巨大",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+  "buffs": [{
+    "id": 6119,
+    "name": "威力アップ〔非超巨大〕",
+    "detail": "〔非超巨大〕特性に与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamage",
+    "script": {
+      "checkIndvType": 2
+    },
+    "originalScript": {
+      "checkIndvType": 2
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3028
+    }],
+    "tvals": [{
+      "id": 2076,
+      "negative": true
+    }],
+    "ckOpIndv": [{
+      "id": 2076,
+      "negative": true
+    }],
+    "maxRate": 10000
+  }]
+}, {
+  "funcId": 23580,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "宝具威力アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_310.png",
+  "funcquestTvals": [{
+    "id": 2392
+  }, {
+    "id": 2039
+  }],
+  "buffs": [{
+    "id": 6121,
+    "name": "宝具威力アップ",
+    "detail": "〔都市〕または〔水辺〕のあるフィールドにおいてのみ、宝具で与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_310.png",
+    "type": "upNpdamage",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3030
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 23583,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptOther",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "威力アップ・対中立",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+  "buffs": [{
+    "id": 6060,
+    "name": "威力アップ〔中立〕",
+    "detail": "〔中立〕特性に与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamage",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3028
+    }],
+    "tvals": [{
+      "id": 302
+    }],
+    "ckOpIndv": [{
+      "id": 302
+    }],
+    "maxRate": 10000
   }]
 }, {
   "funcId": 30003,

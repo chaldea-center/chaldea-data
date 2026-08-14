@@ -191227,7 +191227,7 @@
       "closedAt": 1788321599
     }, {
       "id": 94159006,
-      "name": "",
+      "name": "第6節「探偵と怪盗のユル」",
       "type": "main",
       "consume": 5,
       "afterClear": "close",
@@ -191240,6 +191240,9 @@
         "num": 1
       }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 94159005
       }, {
@@ -191251,15 +191254,127 @@
         "targetId": 80614,
         "value": 50000,
         "closedMessage": "料理を作ってくらくらポイント50,000以上獲得\n＆8月14日18時00分以降に開放"
+      }],
+      "phases": [1, 2, 3, 4, 5],
+      "phasesWithEnemies": [2],
+      "phasesNoBattle": [1, 5],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9415900610",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415900610.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9415900620",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415900620.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9415900630",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415900630.txt"
+        }]
+      }, {
+        "phase": 4,
+        "scripts": [{
+          "scriptId": "9415900640",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415900640.txt"
+        }]
+      }, {
+        "phase": 5,
+        "scripts": [{
+          "scriptId": "9415900650",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415900650.txt"
+        }]
+      }],
+      "priority": 94159092,
+      "noticeAt": 1786611600,
+      "openedAt": 1786698000,
+      "closedAt": 1788321599
+    }, {
+      "id": 94159007,
+      "name": "",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 920503,
+      "warId": 9205,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94159006
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "eventTotalPoint",
+        "targetId": 80614,
+        "value": 110000,
+        "closedMessage": "料理を作ってくらくらポイント110,000以上獲得\n＆8月15日18時00分以降に開放"
       }, {
         "type": "forceFalse",
         "targetId": 0,
         "closedMessage": "データ更新後に開放"
       }],
-      "phases": [1, 2, 3, 4, 5],
-      "phasesNoBattle": [1],
-      "priority": 94159092,
-      "noticeAt": 1786611600,
+      "presents": [{
+        "phase": 1,
+        "gifts": [{
+          "id": 94159011,
+          "type": "servant",
+          "objectId": 9770500,
+          "num": 10
+        }],
+        "giftIcon": "https://static.atlasacademy.io/JP/Items/3.png"
+      }],
+      "phases": [1, 2],
+      "phasesNoBattle": [1, 2],
+      "priority": 94159091,
+      "noticeAt": 1786698000,
+      "openedAt": 1786784400,
+      "closedAt": 1788321599
+    }, {
+      "id": 94159200,
+      "name": "釣れ！　マジムンアイランドのヌシ！？",
+      "type": "event",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "30",
+      "spotId": 920503,
+      "warId": 9205,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94159006
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9415920010",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415920010.txt"
+        }, {
+          "scriptId": "9415920011",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415920011.txt"
+        }]
+      }],
+      "priority": 94159055,
+      "noticeAt": 1786698000,
       "openedAt": 1786698000,
       "closedAt": 1788321599
     }, {
@@ -191358,6 +191473,44 @@
       "openedAt": 1786611600,
       "closedAt": 1788321599
     }]
+  }, {
+    "id": 920505,
+    "mapId": 9205,
+    "name": "那覇港",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9205/QMap_Cap9205_Atlas/spot_920505.png",
+    "x": 508.0,
+    "y": 712.0,
+    "nameOfsY": -4,
+    "questOfsX": 37,
+    "questOfsY": -53,
+    "quests": [{
+      "id": 94159304,
+      "name": "やーぬくび、くぃみれー",
+      "type": "event",
+      "flags": ["displayLoopmark", "notDisplayResultGetPoint"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "60",
+      "spotId": 920505,
+      "warId": 9205,
+      "gifts": [{
+        "id": 13000,
+        "objectId": 101,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94159006
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "priority": 94159036,
+      "noticeAt": 1786698000,
+      "openedAt": 1786698000,
+      "closedAt": 1788321599
+    }]
   }],
   "spotRoads": [{
     "id": 920501,
@@ -191386,6 +191539,16 @@
     "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9205/QMap_Cap9205_Atlas/img_road9205_00.png",
     "srcSpotId": 920502,
     "dstSpotId": 920504,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "questClear"
+  }, {
+    "id": 920504,
+    "warId": 9205,
+    "mapId": 9205,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9205/QMap_Cap9205_Atlas/img_road9205_00.png",
+    "srcSpotId": 920503,
+    "dstSpotId": 920505,
     "dispCondType": "useItemTime",
     "dispCondType2": "useItemTime",
     "activeCondType": "questClear"
