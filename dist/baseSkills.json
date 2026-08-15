@@ -11242,6 +11242,23 @@
     "svals": [{}]
   }]
 }, {
+  "id": 80149,
+  "name": "道具作成 E-",
+  "ruby": "どうぐさくせい",
+  "unmodifiedDetail": "自身の弱体付与成功率を少しアップ",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00103.png",
+  "coolDown": [0],
+  "functions": [{
+    "funcId": 373,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 15
+    }]
+  }]
+}, {
   "id": 80150,
   "name": "道具作成 E",
   "ruby": "どうぐさくせい",
@@ -81846,6 +81863,31 @@
     }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
   }]
 }, {
+  "id": 877149,
+  "name": "妖精眼 E-",
+  "ruby": "ようせいがん",
+  "unmodifiedDetail": "自身の被クリティカル発生耐性を少しアップ",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00417.png",
+  "coolDown": [0],
+  "functions": [{
+    "funcId": 5655,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 30
+    }]
+  }, {
+    "funcId": 7204,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 30
+    }]
+  }]
+}, {
   "id": 877350,
   "name": "妖精眼 C",
   "ruby": "ようせいがん",
@@ -111959,6 +112001,37 @@
     "svals": [{
       "Rate": 1000,
       "Value": 1000
+    }]
+  }]
+}, {
+  "id": 970929,
+  "name": "",
+  "type": "active",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_999999.png",
+  "coolDown": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+  "functions": [{
+    "funcId": 460,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 1000
+    }, {
+      "Value": 1200
+    }, {
+      "Value": 1400
+    }, {
+      "Value": 1600
+    }, {
+      "Value": 1800
+    }, {
+      "Value": 2000
+    }, {
+      "Value": 2200
+    }, {
+      "Value": 2400
+    }, {
+      "Value": 2600
+    }, {
+      "Value": 3000
     }]
   }]
 }, {
@@ -253312,6 +253385,40 @@
     }]
   }]
 }, {
+  "id": 995353,
+  "name": "南海の花の衣装",
+  "ruby": "-",
+  "unmodifiedDetail": "[servantName 2801300](プリテンダー)装備時のみ、自身の宝具威力を30%アップ ＋ 自身の登場時にスターを20個獲得(1回)",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00603.png",
+  "coolDown": [0],
+  "actIndividuality": [{
+    "id": 2801300
+  }],
+  "skillSvts": [{
+    "svtId": 9311920,
+    "num": 1,
+    "priority": 1
+  }],
+  "functions": [{
+    "funcId": 248,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 300
+    }]
+  }, {
+    "funcId": 3408,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": 1,
+      "Value": 995432,
+      "Value2": 1
+    }]
+  }]
+}, {
   "id": 995354,
   "name": "レディ・ロングアームの探偵事務所",
   "ruby": "-",
@@ -254839,6 +254946,19 @@
       "Turn": 1,
       "Count": -1,
       "Value": 50
+    }]
+  }]
+}, {
+  "id": 995432,
+  "name": "",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00603.png",
+  "coolDown": [0],
+  "functions": [{
+    "funcId": 476,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 20
     }]
   }]
 }, {
@@ -314718,6 +314838,30 @@
     }]
   }]
 }, {
+  "id": 2658650,
+  "name": "守護妖精 EX",
+  "ruby": "しゅごようせい",
+  "unmodifiedDetail": "自身に「自身の背後の味方の防御力をアップ＆クラス相性の防御不利を打ち消す状態」を付与",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00400.png",
+  "coolDown": [0],
+  "functions": [{
+    "funcId": 23523,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 100
+    }]
+  }, {
+    "funcId": 23465,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1
+    }]
+  }]
+}, {
   "id": 2659550,
   "name": "天使の肉体 A",
   "ruby": "てんしのにくたい",
@@ -316962,6 +317106,541 @@
     "svals": [{
       "Rate": 1000,
       "Value": 1
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }]
+}, {
+  "id": 2686550,
+  "name": "守護神獣 A",
+  "ruby": "しゅごしんじゅう",
+  "unmodifiedDetail": "自身にターゲット集中状態を付与(1ターン)＆「被ダメージ時に自身のNPを増やす[{0}]状態」を付与(1ターン)＆ガッツ状態を付与[{0}](1回・3ターン) ＋ スターを獲得[{0}]",
+  "type": "active",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00700.png",
+  "coolDown": [8, 8, 8, 8, 8, 7, 7, 7, 7, 6],
+  "skillSvts": [{
+    "svtId": 2801300,
+    "num": 1,
+    "priority": 1
+  }],
+  "functions": [{
+    "funcId": 358,
+    "svals": [{
+      "Rate": 5000,
+      "Turn": 1,
+      "Count": -1,
+      "Value": 3000
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 2195,
+    "svals": [{
+      "Rate": 5000,
+      "Turn": 1,
+      "Count": -1,
+      "Value": 3000
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 23524,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 1,
+      "Count": -1,
+      "Value": 970929,
+      "Value2": 1
+    }, {
+      "Value2": 2
+    }, {
+      "Value2": 3
+    }, {
+      "Value2": 4
+    }, {
+      "Value2": 5
+    }, {
+      "Value2": 6
+    }, {
+      "Value2": 7
+    }, {
+      "Value2": 8
+    }, {
+      "Value2": 9
+    }, {
+      "Value2": 10
+    }]
+  }, {
+    "funcId": 470,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 1
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 292,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": 1,
+      "Value": 1000
+    }, {
+      "Value": 1200
+    }, {
+      "Value": 1400
+    }, {
+      "Value": 1600
+    }, {
+      "Value": 1800
+    }, {
+      "Value": 2000
+    }, {
+      "Value": 2200
+    }, {
+      "Value": 2400
+    }, {
+      "Value": 2600
+    }, {
+      "Value": 3000
+    }]
+  }, {
+    "funcId": 476,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 5
+    }, {
+      "Value": 6
+    }, {
+      "Value": 7
+    }, {
+      "Value": 8
+    }, {
+      "Value": 9
+    }, {
+      "Value": 10
+    }, {
+      "Value": 11
+    }, {
+      "Value": 12
+    }, {
+      "Value": 13
+    }, {
+      "Value": 15
+    }]
+  }, {
+    "funcId": 215,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 2,
+      "Count": -1,
+      "Value": 200
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }]
+}, {
+  "id": 2687550,
+  "name": "ヤナムン返し A",
+  "ruby": "やなむんかえし",
+  "unmodifiedDetail": "味方全体に〔魔性〕特攻状態を付与[{0}](3ターン)＆〔死霊〕特攻状態を付与[{0}](3ターン)＆〔毒・呪い・やけど〕無効状態を付与(3ターン)＆最大HPがアップする状態を付与[{0}](3ターン) ＋ スターを獲得[{0}] ＋ 敵全体の弱体耐性をダウン[{0}](3ターン)＆スキル封印状態を付与(1ターン)",
+  "type": "active",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00301.png",
+  "coolDown": [8, 8, 8, 8, 8, 7, 7, 7, 7, 6],
+  "skillSvts": [{
+    "svtId": 2801300,
+    "num": 2,
+    "priority": 1,
+    "condLimitCount": 1
+  }],
+  "functions": [{
+    "funcId": 3340,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 200
+    }, {
+      "Value": 210
+    }, {
+      "Value": 220
+    }, {
+      "Value": 230
+    }, {
+      "Value": 240
+    }, {
+      "Value": 250
+    }, {
+      "Value": 260
+    }, {
+      "Value": 270
+    }, {
+      "Value": 280
+    }, {
+      "Value": 300
+    }]
+  }, {
+    "funcId": 8992,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 200
+    }, {
+      "Value": 210
+    }, {
+      "Value": 220
+    }, {
+      "Value": 230
+    }, {
+      "Value": 240
+    }, {
+      "Value": 250
+    }, {
+      "Value": 260
+    }, {
+      "Value": 270
+    }, {
+      "Value": 280
+    }, {
+      "Value": 300
+    }]
+  }, {
+    "funcId": 23525,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 592,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 1000
+    }, {
+      "Value": 1200
+    }, {
+      "Value": 1400
+    }, {
+      "Value": 1600
+    }, {
+      "Value": 1800
+    }, {
+      "Value": 2000
+    }, {
+      "Value": 2200
+    }, {
+      "Value": 2400
+    }, {
+      "Value": 2600
+    }, {
+      "Value": 3000
+    }]
+  }, {
+    "funcId": 476,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 5
+    }, {
+      "Value": 6
+    }, {
+      "Value": 7
+    }, {
+      "Value": 8
+    }, {
+      "Value": 9
+    }, {
+      "Value": 10
+    }, {
+      "Value": 11
+    }, {
+      "Value": 12
+    }, {
+      "Value": 13
+    }, {
+      "Value": 15
+    }]
+  }, {
+    "funcId": 215,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 2,
+      "Count": -1,
+      "Value": 200
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 418,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 100
+    }, {
+      "Value": 110
+    }, {
+      "Value": 120
+    }, {
+      "Value": 130
+    }, {
+      "Value": 140
+    }, {
+      "Value": 150
+    }, {
+      "Value": 160
+    }, {
+      "Value": 170
+    }, {
+      "Value": 180
+    }, {
+      "Value": 200
+    }]
+  }, {
+    "funcId": 361,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 1,
+      "Count": -1
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }]
+}, {
+  "id": 2688650,
+  "name": "南海の大決戦 EX",
+  "ruby": "なんかいのだいけっせん",
+  "unmodifiedDetail": "自身のQuickカード性能をアップ[{0}](3ターン)＆Busterカード性能をアップ[{0}](3ターン)＆スターが10個以上ある場合、攻撃力を少しアップ(1ターン)＆スターが20個以上ある場合、攻撃力を少しアップ(1ターン)＆スターが30個以上ある場合、攻撃力を少しアップ(1ターン)＆スターが40個以上ある場合、攻撃力を少しアップ(1ターン)＆スターが50個以上ある場合、攻撃力を少しアップ(1ターン)＆スターが60個以上ある場合、攻撃力を少しアップ(1ターン)＆スターが70個以上ある場合、攻撃力を少しアップ(1ターン)＆スターが80個以上ある場合、攻撃力を少しアップ(1ターン)＆スターが90個以上ある場合、攻撃力を少しアップ(1ターン)＆スターが99個ある場合、攻撃力を少しアップ(1ターン)＆自身に付与されている〔最大HPアップ〕状態の数に応じて宝具威力をアップ(最大5個・1ターン)",
+  "type": "active",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00316.png",
+  "coolDown": [8, 8, 8, 8, 8, 7, 7, 7, 7, 6],
+  "skillSvts": [{
+    "svtId": 2801300,
+    "num": 3,
+    "priority": 1,
+    "condLimitCount": 3
+  }],
+  "functions": [{
+    "funcId": 101,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 200
+    }, {
+      "Value": 210
+    }, {
+      "Value": 220
+    }, {
+      "Value": 230
+    }, {
+      "Value": 240
+    }, {
+      "Value": 250
+    }, {
+      "Value": 260
+    }, {
+      "Value": 270
+    }, {
+      "Value": 280
+    }, {
+      "Value": 300
+    }]
+  }, {
+    "funcId": 119,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 200
+    }, {
+      "Value": 210
+    }, {
+      "Value": 220
+    }, {
+      "Value": 230
+    }, {
+      "Value": 240
+    }, {
+      "Value": 250
+    }, {
+      "Value": 260
+    }, {
+      "Value": 270
+    }, {
+      "Value": 280
+    }, {
+      "Value": 300
+    }]
+  }, {
+    "funcId": 23594,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 1,
+      "Count": -1,
+      "Value": 50,
+      "StarHigher": 10
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 23594,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 1,
+      "Count": -1,
+      "Value": 50,
+      "StarHigher": 20
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 23594,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 1,
+      "Count": -1,
+      "Value": 50,
+      "StarHigher": 30
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 23594,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 1,
+      "Count": -1,
+      "Value": 50,
+      "StarHigher": 40
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 23594,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 1,
+      "Count": -1,
+      "Value": 50,
+      "StarHigher": 50
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 23594,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 1,
+      "Count": -1,
+      "Value": 50,
+      "StarHigher": 60
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 23594,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 1,
+      "Count": -1,
+      "Value": 50,
+      "StarHigher": 70
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 23594,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 1,
+      "Count": -1,
+      "Value": 50,
+      "StarHigher": 80
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 23594,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 1,
+      "Count": -1,
+      "Value": 50,
+      "StarHigher": 90
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 23594,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 1,
+      "Count": -1,
+      "Value": 50,
+      "StarHigher": 99
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 23597,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 1,
+      "Count": -1,
+      "Value": 50
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 23597,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 1,
+      "Count": -1,
+      "Value": 50
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 23597,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 1,
+      "Count": -1,
+      "Value": 50
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 23597,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 1,
+      "Count": -1,
+      "Value": 50
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 23597,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 1,
+      "Count": -1,
+      "Value": 50
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 23597,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 1,
+      "Count": -1,
+      "Value": 50
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 23597,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 1,
+      "Count": -1,
+      "Value": 50
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 23597,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 1,
+      "Count": -1,
+      "Value": 50
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 23597,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 1,
+      "Count": -1,
+      "Value": 50
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 23597,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 1,
+      "Count": -1,
+      "Value": 50
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 23559,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 1,
+      "Count": -1,
+      "Value": 0,
+      "ParamAddMaxValue": 500,
+      "ParamAddMaxCount": 5,
+      "ParamAddSelfIndividuality": [3041, 3043],
+      "ParamAddValue": 100
     }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
   }]
 }, {

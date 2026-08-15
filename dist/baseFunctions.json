@@ -64803,6 +64803,1202 @@
     "buffGroup": 705305
   }]
 }, {
+  "funcId": 23465,
+  "funcType": "addState",
+  "funcTargetType": "ptFull",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "防御相性変更",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_520.png",
+  "buffs": [{
+    "id": 6088,
+    "name": "防御相性変更",
+    "detail": "クラス相性の防御不利を打ち消す",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_520.png",
+    "type": "overwriteClassRelation",
+    "script": {
+      "relationId": {
+        "atkSide": {},
+        "defSide": {
+          "saber": {
+            "saber": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "archer": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "lancer": {
+              "damageRate": 1000,
+              "type": "overwriteForce"
+            },
+            "rider": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "caster": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "assassin": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "berserker": {
+              "damageRate": 1000,
+              "type": "overwriteForce"
+            },
+            "ruler": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "alterEgo": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "avenger": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "moonCancer": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "pretender": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "beast": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "unBeastOlgaMarie": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            }
+          },
+          "archer": {
+            "saber": {
+              "damageRate": 1000,
+              "type": "overwriteForce"
+            },
+            "archer": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "lancer": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "rider": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "caster": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "assassin": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "berserker": {
+              "damageRate": 1000,
+              "type": "overwriteForce"
+            },
+            "ruler": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "alterEgo": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "avenger": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "moonCancer": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "foreigner": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "pretender": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "beast": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "unBeastOlgaMarie": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            }
+          },
+          "lancer": {
+            "saber": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "archer": {
+              "damageRate": 1000,
+              "type": "overwriteForce"
+            },
+            "lancer": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "rider": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "caster": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "assassin": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "berserker": {
+              "damageRate": 1000,
+              "type": "overwriteForce"
+            },
+            "ruler": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "alterEgo": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "moonCancer": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "pretender": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "beast": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "unBeastOlgaMarie": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            }
+          },
+          "rider": {
+            "saber": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "caster": {
+              "damageRate": 1000,
+              "type": "overwriteForce"
+            },
+            "berserker": {
+              "damageRate": 1000,
+              "type": "overwriteForce"
+            },
+            "unBeastOlgaMarie": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            }
+          },
+          "caster": {
+            "lancer": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "assassin": {
+              "damageRate": 1000,
+              "type": "overwriteForce"
+            },
+            "berserker": {
+              "damageRate": 1000,
+              "type": "overwriteForce"
+            },
+            "unBeastOlgaMarie": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            }
+          },
+          "assassin": {
+            "archer": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "rider": {
+              "damageRate": 1000,
+              "type": "overwriteForce"
+            },
+            "berserker": {
+              "damageRate": 1000,
+              "type": "overwriteForce"
+            },
+            "alterEgo": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "unBeastOlgaMarie": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            }
+          },
+          "berserker": {
+            "saber": {
+              "damageRate": 1000,
+              "type": "overwriteForce"
+            },
+            "archer": {
+              "damageRate": 1000,
+              "type": "overwriteForce"
+            },
+            "lancer": {
+              "damageRate": 1000,
+              "type": "overwriteForce"
+            },
+            "rider": {
+              "damageRate": 1000,
+              "type": "overwriteForce"
+            },
+            "caster": {
+              "damageRate": 1000,
+              "type": "overwriteForce"
+            },
+            "assassin": {
+              "damageRate": 1000,
+              "type": "overwriteForce"
+            },
+            "berserker": {
+              "damageRate": 1000,
+              "type": "overwriteForce"
+            },
+            "ruler": {
+              "damageRate": 1000,
+              "type": "overwriteForce"
+            },
+            "alterEgo": {
+              "damageRate": 1000,
+              "type": "overwriteForce"
+            },
+            "avenger": {
+              "damageRate": 1000,
+              "type": "overwriteForce"
+            },
+            "moonCancer": {
+              "damageRate": 1000,
+              "type": "overwriteForce"
+            },
+            "pretender": {
+              "damageRate": 1000,
+              "type": "overwriteForce"
+            },
+            "unBeastOlgaMarie": {
+              "damageRate": 1000,
+              "type": "overwriteForce"
+            }
+          },
+          "shielder": {
+            "berserker": {
+              "damageRate": 1000,
+              "type": "overwriteForce"
+            },
+            "unBeastOlgaMarie": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            }
+          },
+          "ruler": {
+            "berserker": {
+              "damageRate": 1000,
+              "type": "overwriteForce"
+            },
+            "moonCancer": {
+              "damageRate": 1000,
+              "type": "overwriteForce"
+            },
+            "beast": {
+              "damageRate": 1000,
+              "type": "overwriteForce"
+            },
+            "unBeastOlgaMarie": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            }
+          },
+          "alterEgo": {
+            "rider": {
+              "damageRate": 1000,
+              "type": "overwriteForce"
+            },
+            "caster": {
+              "damageRate": 1000,
+              "type": "overwriteForce"
+            },
+            "assassin": {
+              "damageRate": 1000,
+              "type": "overwriteForce"
+            },
+            "berserker": {
+              "damageRate": 1000,
+              "type": "overwriteForce"
+            },
+            "ruler": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "foreigner": {
+              "damageRate": 1000,
+              "type": "overwriteForce"
+            },
+            "beast": {
+              "damageRate": 1000,
+              "type": "overwriteForce"
+            },
+            "unBeastOlgaMarie": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            }
+          },
+          "avenger": {
+            "berserker": {
+              "damageRate": 1000,
+              "type": "overwriteForce"
+            },
+            "ruler": {
+              "damageRate": 1000,
+              "type": "overwriteForce"
+            },
+            "beast": {
+              "damageRate": 1000,
+              "type": "overwriteForce"
+            },
+            "beastEresh": {
+              "damageRate": 1000,
+              "type": "overwriteForce"
+            },
+            "unBeastOlgaMarie": {
+              "damageRate": 1000,
+              "type": "overwriteForce"
+            }
+          },
+          "demonGodPillar": {
+            "saber": {
+              "damageRate": 1000,
+              "type": "overwriteForce"
+            },
+            "archer": {
+              "damageRate": 1000,
+              "type": "overwriteForce"
+            },
+            "lancer": {
+              "damageRate": 1000,
+              "type": "overwriteForce"
+            },
+            "berserker": {
+              "damageRate": 1000,
+              "type": "overwriteForce"
+            },
+            "unBeastOlgaMarie": {
+              "damageRate": 1000,
+              "type": "overwriteForce"
+            }
+          },
+          "beastI": {
+            "saber": {
+              "damageRate": 1000,
+              "type": "overwriteForce"
+            },
+            "archer": {
+              "damageRate": 1000,
+              "type": "overwriteForce"
+            },
+            "lancer": {
+              "damageRate": 1000,
+              "type": "overwriteForce"
+            },
+            "berserker": {
+              "damageRate": 1000,
+              "type": "overwriteForce"
+            },
+            "unBeastOlgaMarie": {
+              "damageRate": 1000,
+              "type": "overwriteForce"
+            }
+          },
+          "moonCancer": {
+            "saber": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "archer": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "lancer": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "rider": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "caster": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "assassin": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "berserker": {
+              "damageRate": 1000,
+              "type": "overwriteForce"
+            },
+            "shielder": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "ruler": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "alterEgo": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "avenger": {
+              "damageRate": 1000,
+              "type": "overwriteForce"
+            },
+            "moonCancer": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "foreigner": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "pretender": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "beast": {
+              "damageRate": 1000,
+              "type": "overwriteForce"
+            },
+            "beastEresh": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "unBeastOlgaMarie": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            }
+          },
+          "foreigner": {
+            "berserker": {
+              "damageRate": 1000,
+              "type": "overwriteForce"
+            },
+            "foreigner": {
+              "damageRate": 1000,
+              "type": "overwriteForce"
+            },
+            "pretender": {
+              "damageRate": 1000,
+              "type": "overwriteForce"
+            },
+            "beast": {
+              "damageRate": 1000,
+              "type": "overwriteForce"
+            },
+            "unBeastOlgaMarie": {
+              "damageRate": 1000,
+              "type": "overwriteForce"
+            }
+          },
+          "beastUnknown": {
+            "saber": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "archer": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "lancer": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "rider": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "caster": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "assassin": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "berserker": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "shielder": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "ruler": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "alterEgo": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "avenger": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "moonCancer": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "foreigner": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "pretender": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "beast": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "beastEresh": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            }
+          },
+          "pretender": {
+            "saber": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "archer": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "lancer": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "caster": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "berserker": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "alterEgo": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "beast": {
+              "damageRate": 1000,
+              "type": "overwriteForce"
+            },
+            "unBeastOlgaMarie": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            }
+          },
+          "beastIV": {
+            "saber": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "archer": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "lancer": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "rider": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "caster": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "assassin": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "berserker": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "shielder": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "ruler": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "alterEgo": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "avenger": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "moonCancer": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "foreigner": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "pretender": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "beastEresh": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            }
+          },
+          "beastILost": {
+            "saber": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "archer": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "lancer": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "rider": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "caster": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "assassin": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "berserker": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "shielder": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "ruler": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "alterEgo": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "avenger": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "moonCancer": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "foreigner": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "pretender": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            }
+          },
+          "beast": {
+            "saber": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "archer": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "lancer": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "rider": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "caster": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "assassin": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "berserker": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "unBeastOlgaMarie": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            }
+          },
+          "beastVI": {
+            "saber": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "archer": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "lancer": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "rider": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "caster": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "assassin": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "berserker": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            }
+          },
+          "beastVIBoss": {
+            "saber": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "archer": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "lancer": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "rider": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "caster": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "assassin": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "berserker": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "ruler": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "alterEgo": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "avenger": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "moonCancer": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "foreigner": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "pretender": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            }
+          },
+          "uOlgaMarieFlare": {
+            "assassin": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "berserker": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "alterEgo": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            }
+          },
+          "uOlgaMarieAqua": {
+            "archer": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "rider": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "avenger": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            }
+          },
+          "beastEresh": {
+            "berserker": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "ruler": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "alterEgo": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "moonCancer": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "foreigner": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "pretender": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "unBeastOlgaMarie": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            }
+          },
+          "uOlgaMarieGrand": {
+            "lancer": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "caster": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "moonCancer": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "pretender": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            }
+          },
+          "unBeastOlgaMarie": {
+            "berserker": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "moonCancer": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "foreigner": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            }
+          },
+          "uOlgaMarieStellar": {
+            "saber": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "ruler": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "foreigner": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "beast": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "beastEresh": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            }
+          },
+          "42": {
+            "saber": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "archer": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "lancer": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "rider": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "caster": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "assassin": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "berserker": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "shielder": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "ruler": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "alterEgo": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "avenger": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "moonCancer": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "foreigner": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "pretender": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "beast": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "beastEresh": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "unBeastOlgaMarie": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            }
+          },
+          "beastVII": {
+            "saber": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "archer": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "lancer": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "rider": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "caster": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "assassin": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "berserker": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "shielder": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "ruler": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "alterEgo": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "avenger": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "moonCancer": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "foreigner": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "pretender": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "beast": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "beastEresh": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "unBeastOlgaMarie": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            }
+          },
+          "44": {
+            "saber": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "archer": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "lancer": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "rider": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "caster": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "assassin": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "berserker": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "shielder": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "ruler": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "alterEgo": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "avenger": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "moonCancer": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "foreigner": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "pretender": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "beast": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "beastEresh": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            },
+            "unBeastOlgaMarie": {
+              "damageRate": 1000,
+              "type": "overwriteMoreThanTarget"
+            }
+          }
+        }
+      }
+    },
+    "originalScript": {
+      "relationId": 120,
+      "condGrantorRelativePosition": -1
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3007
+    }]
+  }]
+}, {
   "funcId": 23468,
   "funcType": "addStateFuncType170",
   "funcTargetType": "self",
@@ -65371,6 +66567,83 @@
     }]
   }]
 }, {
+  "funcId": 23523,
+  "funcType": "addState",
+  "funcTargetType": "ptFull",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "防御力アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_301.png",
+  "buffs": [{
+    "id": 6103,
+    "name": "防御力アップ",
+    "detail": "防御力をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_301.png",
+    "type": "upDefence",
+    "originalScript": {
+      "condGrantorRelativePosition": -1
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3007
+    }, {
+      "id": 3040
+    }, {
+      "id": 3058
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 23524,
+  "funcType": "addState",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "被ダメージ時発動",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_331.png",
+  "buffs": [{
+    "id": 6104,
+    "name": "被ダメージ時発動",
+    "detail": "攻撃を受けると自身のNPを増やす",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_331.png",
+    "type": "damageFunction",
+    "vals": [{
+      "id": 3004
+    }]
+  }]
+}, {
+  "funcId": 23525,
+  "funcType": "addState",
+  "funcTargetType": "ptAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "毒＆呪い＆やけど無効",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_322.png",
+  "buffs": [{
+    "id": 3913,
+    "name": "毒＆呪い＆やけど無効",
+    "detail": "毒と呪いとやけどを受けなくなる",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_322.png",
+    "type": "avoidState",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3061
+    }],
+    "tvals": [{
+      "id": 3011
+    }, {
+      "id": 3026
+    }, {
+      "id": 3015
+    }],
+    "ckOpIndv": [{
+      "id": 3011
+    }, {
+      "id": 3026
+    }, {
+      "id": 3015
+    }]
+  }]
+}, {
   "funcId": 23526,
   "funcType": "addStateShort",
   "funcTargetType": "self",
@@ -65769,6 +67042,31 @@
   "funcTargetType": "self",
   "funcTargetTeam": "player"
 }, {
+  "funcId": 23559,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "宝具威力アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_310.png",
+  "buffs": [{
+    "id": 6113,
+    "name": "宝具威力アップ",
+    "detail": "宝具で与えるダメージをアップ<自身の〔最大HPアップ〕状態の数に応じて威力アップ>",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_310.png",
+    "type": "upNpdamage",
+    "originalScript": {
+      "ProgressSelfTurn": 1
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3030
+    }],
+    "maxRate": 5000
+  }]
+}, {
   "funcId": 23560,
   "funcType": "addStateShort",
   "funcTargetType": "self",
@@ -66026,6 +67324,56 @@
       "id": 302
     }],
     "maxRate": 10000
+  }]
+}, {
+  "funcId": 23594,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "攻撃力アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_300.png",
+  "buffs": [{
+    "id": 126,
+    "name": "攻撃力アップ",
+    "detail": "攻撃力をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_300.png",
+    "type": "upAtk",
+    "originalScript": {
+      "ProgressSelfTurn": 1
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3027
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 23597,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "enemy",
+  "funcPopupText": "攻撃力アップ",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_300.png",
+  "buffs": [{
+    "id": 126,
+    "name": "攻撃力アップ",
+    "detail": "攻撃力をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_300.png",
+    "type": "upAtk",
+    "originalScript": {
+      "ProgressSelfTurn": 1
+    },
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3027
+    }],
+    "maxRate": 5000
   }]
 }, {
   "funcId": 30003,

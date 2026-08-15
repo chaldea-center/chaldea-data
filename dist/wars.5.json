@@ -191295,7 +191295,7 @@
       "closedAt": 1788321599
     }, {
       "id": 94159007,
-      "name": "",
+      "name": "第7節「けーたんなー！　妖精怪獣」",
       "type": "main",
       "flags": ["noBattle"],
       "consume": 0,
@@ -191304,11 +191304,18 @@
       "spotId": 920503,
       "warId": 9205,
       "gifts": [{
-        "id": 200,
+        "id": 94159013,
+        "objectId": 1,
+        "num": 2000000
+      }, {
+        "id": 94159013,
         "objectId": 2,
         "num": 1
       }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 94159006
       }, {
@@ -191320,23 +191327,37 @@
         "targetId": 80614,
         "value": 110000,
         "closedMessage": "料理を作ってくらくらポイント110,000以上獲得\n＆8月15日18時00分以降に開放"
-      }, {
-        "type": "forceFalse",
-        "targetId": 0,
-        "closedMessage": "データ更新後に開放"
       }],
       "presents": [{
         "phase": 1,
         "gifts": [{
-          "id": 94159011,
+          "id": 94159012,
           "type": "servant",
           "objectId": 9770500,
           "num": 10
+        }, {
+          "id": 94159012,
+          "type": "eventSvtJoin",
+          "objectId": 2801300,
+          "num": 1
         }],
         "giftIcon": "https://static.atlasacademy.io/JP/Items/3.png"
       }],
       "phases": [1, 2],
       "phasesNoBattle": [1, 2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9415900710",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415900710.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9415900720",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415900720.txt"
+        }]
+      }],
       "priority": 94159091,
       "noticeAt": 1786698000,
       "openedAt": 1786784400,
@@ -191473,6 +191494,43 @@
       "noticeAt": 1786532400,
       "openedAt": 1786611600,
       "closedAt": 1788321599
+    }, {
+      "id": 94159010,
+      "name": "",
+      "type": "main",
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 920504,
+      "warId": 9205,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94159009
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "eventTotalPoint",
+        "targetId": 80614,
+        "value": 175000,
+        "closedMessage": "料理を作ってくらくらポイント175,000以上獲得\n＆8月16日18時00分以降に開放"
+      }, {
+        "type": "forceFalse",
+        "targetId": 0,
+        "closedMessage": "データ更新後に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94159086,
+      "noticeAt": 1786784400,
+      "openedAt": 1786870800,
+      "closedAt": 1788321599
     }]
   }, {
     "id": 920505,
@@ -191513,6 +191571,227 @@
       "openedAt": 1786698000,
       "closedAt": 1788321599
     }]
+  }, {
+    "id": 920506,
+    "mapId": 9205,
+    "name": "ふるさん村",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9205/QMap_Cap9205_Atlas/spot_920506.png",
+    "x": 1183.0,
+    "y": 309.0,
+    "nameOfsY": -6,
+    "questOfsX": 43,
+    "questOfsY": -63,
+    "quests": [{
+      "id": 94159008,
+      "name": "第8節「怪奇！　いにんびークライシス」",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "30",
+      "spotId": 920506,
+      "warId": 9205,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94159103
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9415900810",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415900810.txt"
+        }, {
+          "scriptId": "9415900811",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415900811.txt"
+        }]
+      }],
+      "priority": 94159088,
+      "noticeAt": 1786784400,
+      "openedAt": 1786784400,
+      "closedAt": 1788321599
+    }, {
+      "id": 94159009,
+      "name": "第9節「ウムヤー求めるまぎーむん」",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "50",
+      "spotId": 920506,
+      "warId": 9205,
+      "gifts": [{
+        "id": 94159018,
+        "type": "servant",
+        "objectId": 2801301,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94159008
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9415900910",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415900910.txt"
+        }, {
+          "scriptId": "9415900911",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415900911.txt"
+        }]
+      }],
+      "priority": 94159087,
+      "noticeAt": 1786784400,
+      "openedAt": 1786784400,
+      "closedAt": 1788321599
+    }, {
+      "id": 94159103,
+      "name": "百鬼夜行クエスト4「はいさい！　クライウスメー」",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "30",
+      "spotId": 920506,
+      "warId": 9205,
+      "gifts": [{
+        "id": 94159017,
+        "objectId": 94159004,
+        "num": 90
+      }, {
+        "id": 94159017,
+        "objectId": 94159005,
+        "num": 90
+      }, {
+        "id": 94159017,
+        "objectId": 94159006,
+        "num": 90
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94159102
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9415910310",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415910310.txt"
+        }, {
+          "scriptId": "9415910311",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415910311.txt"
+        }]
+      }],
+      "priority": 94159089,
+      "noticeAt": 1786784400,
+      "openedAt": 1786784400,
+      "closedAt": 1788321599
+    }]
+  }, {
+    "id": 920507,
+    "mapId": 9205,
+    "name": "青の洞窟",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9205/QMap_Cap9205_Atlas/spot_920507.png",
+    "x": 827.0,
+    "y": 462.0,
+    "nameOfsY": -13,
+    "questOfsX": 38,
+    "questOfsY": -72
+  }, {
+    "id": 920508,
+    "mapId": 9205,
+    "name": "うちなー水族館",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9205/QMap_Cap9205_Atlas/spot_920508.png",
+    "x": 1018.0,
+    "y": 256.0,
+    "nameOfsY": -2,
+    "questOfsX": 40,
+    "questOfsY": -63,
+    "quests": [{
+      "id": 94159102,
+      "name": "百鬼夜行クエスト3「はいたい！　ウェットガール」",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "30",
+      "spotId": 920508,
+      "warId": 9205,
+      "gifts": [{
+        "id": 94159017,
+        "objectId": 94159004,
+        "num": 90
+      }, {
+        "id": 94159017,
+        "objectId": 94159005,
+        "num": 90
+      }, {
+        "id": 94159017,
+        "objectId": 94159006,
+        "num": 90
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94159007
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9415910210",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415910210.txt"
+        }, {
+          "scriptId": "9415910211",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415910211.txt"
+        }]
+      }],
+      "priority": 94159090,
+      "noticeAt": 1786784400,
+      "openedAt": 1786784400,
+      "closedAt": 1788321599
+    }, {
+      "id": 94159305,
+      "name": "開幕！ シャーク・ショータイム",
+      "type": "event",
+      "flags": ["displayLoopmark", "notDisplayResultGetPoint"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "70",
+      "spotId": 920508,
+      "warId": 9205,
+      "gifts": [{
+        "id": 12000,
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94159009
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "priority": 94159035,
+      "noticeAt": 1786784400,
+      "openedAt": 1786784400,
+      "closedAt": 1788321599
+    }]
   }],
   "spotRoads": [{
     "id": 920501,
@@ -191551,6 +191830,36 @@
     "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9205/QMap_Cap9205_Atlas/img_road9205_00.png",
     "srcSpotId": 920503,
     "dstSpotId": 920505,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "questClear"
+  }, {
+    "id": 920505,
+    "warId": 9205,
+    "mapId": 9205,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9205/QMap_Cap9205_Atlas/img_road9205_00.png",
+    "srcSpotId": 920503,
+    "dstSpotId": 920507,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "questClear"
+  }, {
+    "id": 920506,
+    "warId": 9205,
+    "mapId": 9205,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9205/QMap_Cap9205_Atlas/img_road9205_00.png",
+    "srcSpotId": 920507,
+    "dstSpotId": 920508,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "questClear"
+  }, {
+    "id": 920507,
+    "warId": 9205,
+    "mapId": 9205,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9205/QMap_Cap9205_Atlas/img_road9205_00.png",
+    "srcSpotId": 920508,
+    "dstSpotId": 920506,
     "dispCondType": "useItemTime",
     "dispCondType2": "useItemTime",
     "activeCondType": "questClear"

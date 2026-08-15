@@ -268824,6 +268824,26 @@
     "condQuestId": 94159003,
     "shopCondQuestId": 94159003
   },
+  "svts": [{
+    "svtId": 2801300,
+    "type": "join",
+    "joinMessage": "ハベトロット（プリテンダー）は\n『カルデア南海大決戦！』の\nイベント期間限定で加入します。\n\nイベントで特定のクエストをクリアすることで\n正式加入となります。",
+    "getMessage": "ハベトロット（プリテンダー）が\n正式加入となりました。\nこれによりイベント終了後も\nサーヴァントとして残り続けます。\n\nなおイベントを通じて獲得した\nアイテムと交換したり\n特定のクエストをクリアすることで\n再臨段階を上げる霊基再臨素材や\n宝具Lv.を上げる宝具強化専用霊基が手に入ります。",
+    "leaveMessage": "～仮加入状態サーヴァントの離脱について～\n\nイベント期間終了に伴い\n正式加入条件を満たせなかった\nハベトロット（プリテンダー）は\n離脱しました。\n\nハベトロット（プリテンダー）が\n装備していた概念礼装は\n自動的にはずれます。",
+    "startedAt": 1786532400,
+    "endedAt": 1788321599
+  }, {
+    "svtId": 2801301,
+    "script": {
+      "isProtectedDuringEvent": true
+    },
+    "originalScript": {
+      "isProtectedDuringEvent": 1
+    },
+    "getMessage": "ハベトロット（プリテンダー）の\n宝具強化専用霊基を手に入れました。\n\n宝具強化専用霊基を使うと\n仮加入状態であっても宝具Lv.を上げることができます。\nサーヴァント宝具強化で、サーヴァントの宝具Lv.を上げましょう！\n\n宝具強化専用霊基は\n強化対象とすることやクエストに同行させることはできません。",
+    "startedAt": 1786532400,
+    "endedAt": 1788321599
+  }],
   "shop": [{
     "id": 80614001,
     "eventId": 80614,
@@ -271113,6 +271133,9 @@
     }, {
       "imageId": 800210,
       "image": "https://static.atlasacademy.io/JP/CharaFigure/8002100/8002100_merged.png"
+    }, {
+      "imageId": 2801300,
+      "image": "https://static.atlasacademy.io/JP/CharaFigure/28013000/28013000_merged.png"
     }],
     "tabOnImage": "https://static.atlasacademy.io/JP/EventReward/btn_txt_on_80614_0.png",
     "tabOffImage": "https://static.atlasacademy.io/JP/EventReward/btn_txt_off_80614_0.png",
@@ -271134,6 +271157,9 @@
     }, {
       "imageId": 800210,
       "image": "https://static.atlasacademy.io/JP/CharaFigure/8002100/8002100_merged.png"
+    }, {
+      "imageId": 2801300,
+      "image": "https://static.atlasacademy.io/JP/CharaFigure/28013000/28013000_merged.png"
     }],
     "tabOnImage": "https://static.atlasacademy.io/JP/EventReward/btn_txt_on_80614_0.png",
     "tabOffImage": "https://static.atlasacademy.io/JP/EventReward/btn_txt_off_80614_0.png",
@@ -272483,6 +272509,13 @@
       "conds": [{
         "condType": "eventNoend",
         "value": 80614
+      }],
+      "playConds": [{
+        "condGroup": 1,
+        "condType": "notQuestClearPhase",
+        "targetId": 94159007,
+        "condValue": 1,
+        "condValues": [1]
       }]
     }, {
       "name": "イベントについて 2",
@@ -272511,6 +272544,27 @@
       "conds": [{
         "condType": "eventNoend",
         "value": 80614
+      }]
+    }, {
+      "name": "イベントについて 8",
+      "condType": "eventEnd",
+      "priority": 6920,
+      "svtVoiceType": "eventReward",
+      "overwriteName": "カルデア南海大決戦！ 2",
+      "id": ["0_N080", "0_N081", "0_N082"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_705300/0_N080.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_705300/0_N081.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_705300/0_N082.mp3"],
+      "delay": [0.0, 0.1, 0.1],
+      "face": [3, 1, 11],
+      "conds": [{
+        "condType": "eventNoend",
+        "value": 80614
+      }],
+      "playConds": [{
+        "condGroup": 1,
+        "condType": "questClearPhase",
+        "targetId": 94159007,
+        "condValue": 1,
+        "condValues": [1]
       }]
     }, {
       "name": "イベントについて 9",
@@ -272588,6 +272642,13 @@
       "conds": [{
         "condType": "eventNoend",
         "value": 80614
+      }],
+      "playConds": [{
+        "condGroup": 1,
+        "condType": "notQuestClearPhase",
+        "targetId": 94159007,
+        "condValue": 1,
+        "condValues": [1]
       }]
     }, {
       "name": "イベントについて 2",
@@ -272616,6 +272677,27 @@
       "conds": [{
         "condType": "eventNoend",
         "value": 80614
+      }]
+    }, {
+      "name": "イベントについて 8",
+      "condType": "eventEnd",
+      "priority": 6920,
+      "svtVoiceType": "eventReward",
+      "overwriteName": "カルデア南海大決戦！ 2",
+      "id": ["0_N080", "0_N081", "0_N082"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_705300/0_N080.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_705300/0_N081.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_705300/0_N082.mp3"],
+      "delay": [0.0, 0.1, 0.1],
+      "face": [3, 1, 11],
+      "conds": [{
+        "condType": "eventNoend",
+        "value": 80614
+      }],
+      "playConds": [{
+        "condGroup": 1,
+        "condType": "questClearPhase",
+        "targetId": 94159007,
+        "condValue": 1,
+        "condValues": [1]
       }]
     }, {
       "name": "イベントについて 9",
@@ -272778,6 +272860,112 @@
       "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_800210/0_N040.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_800210/0_N041.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_800210/0_N042.mp3"],
       "delay": [0.0, 0.1, 0.1],
       "face": [4, 1, 14],
+      "conds": [{
+        "condType": "eventNoend",
+        "value": 80614
+      }]
+    }]
+  }, {
+    "svtId": 2801300,
+    "type": "eventReward",
+    "voiceLines": [{
+      "name": "イベントについて 1",
+      "condType": "eventEnd",
+      "priority": 6990,
+      "svtVoiceType": "eventReward",
+      "overwriteName": "カルデア南海大決戦！ 1",
+      "id": ["0_N010", "0_N011", "0_N012"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_2801300/0_N010.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_2801300/0_N011.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_2801300/0_N012.mp3"],
+      "delay": [0.0, 0.1, 0.1],
+      "face": [0, 10, 5],
+      "conds": [{
+        "condType": "eventNoend",
+        "value": 80614
+      }]
+    }, {
+      "name": "イベントについて 2",
+      "condType": "eventEnd",
+      "priority": 6980,
+      "svtVoiceType": "eventReward",
+      "overwriteName": "カルデア南海大決戦！ 2",
+      "id": ["0_N020", "0_N021", "0_N022", "0_N023"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_2801300/0_N020.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_2801300/0_N021.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_2801300/0_N022.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_2801300/0_N023.mp3"],
+      "delay": [0.0, 0.1, 0.1, 0.1],
+      "face": [1, 0, 1, 4],
+      "conds": [{
+        "condType": "eventNoend",
+        "value": 80614
+      }]
+    }, {
+      "name": "イベントについて 5",
+      "condType": "eventEnd",
+      "priority": 6950,
+      "svtVoiceType": "eventReward",
+      "overwriteName": "カルデア南海大決戦！ 5",
+      "id": ["0_N050", "0_N051", "0_N052"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_2801300/0_N050.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_2801300/0_N051.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_2801300/0_N052.mp3"],
+      "delay": [0.0, 0.1, 0.1],
+      "face": [0, 10, 3],
+      "conds": [{
+        "condType": "eventNoend",
+        "value": 80614
+      }]
+    }, {
+      "name": "イベントについて 9",
+      "condType": "eventEnd",
+      "priority": 6910,
+      "svtVoiceType": "eventReward",
+      "overwriteName": "カルデア南海大決戦！ 3",
+      "id": ["0_N090", "0_N091", "0_N092"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_2801300/0_N090.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_2801300/0_N091.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_2801300/0_N092.mp3"],
+      "delay": [0.0, 0.1, 0.1],
+      "face": [1, 9, 1],
+      "conds": [{
+        "condType": "eventNoend",
+        "value": 80614
+      }]
+    }, {
+      "name": "イベントについて 10",
+      "condType": "eventEnd",
+      "priority": 6909,
+      "svtVoiceType": "eventReward",
+      "overwriteName": "カルデア南海大決戦！ 4",
+      "id": ["0_N100", "0_N101", "0_N102"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_2801300/0_N100.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_2801300/0_N101.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_2801300/0_N102.mp3"],
+      "delay": [0.0, 0.1, 0.1],
+      "face": [10, 2, 0],
+      "conds": [{
+        "condType": "eventNoend",
+        "value": 80614
+      }]
+    }]
+  }, {
+    "svtId": 2801300,
+    "type": "eventRecipe",
+    "voiceLines": [{
+      "name": "イベントについて 3",
+      "condType": "eventEnd",
+      "priority": 6970,
+      "svtVoiceType": "eventReward",
+      "overwriteName": "カルデア南海大決戦！ 3",
+      "id": ["0_N030", "0_N031", "0_N032"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_2801300/0_N030.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_2801300/0_N031.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_2801300/0_N032.mp3"],
+      "delay": [0.0, 0.1, 0.1],
+      "face": [1, 9, 1],
+      "conds": [{
+        "condType": "eventNoend",
+        "value": 80614
+      }]
+    }, {
+      "name": "イベントについて 4",
+      "condType": "eventEnd",
+      "priority": 6960,
+      "svtVoiceType": "eventReward",
+      "overwriteName": "カルデア南海大決戦！ 4",
+      "id": ["0_N040", "0_N041", "0_N042"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_2801300/0_N040.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_2801300/0_N041.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_2801300/0_N042.mp3"],
+      "delay": [0.0, 0.1, 0.1],
+      "face": [10, 2, 0],
       "conds": [{
         "condType": "eventNoend",
         "value": 80614
