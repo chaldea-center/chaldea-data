@@ -59000,7 +59000,8 @@
   "skillSvts": [{
     "svtId": 203300,
     "num": 1,
-    "priority": 1
+    "priority": 1,
+    "strengthStatus": 1
   }],
   "functions": [{
     "funcId": 289,
@@ -59038,6 +59039,238 @@
     "svals": [{
       "Rate": 1000,
       "Value": 1
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }]
+}, {
+  "id": 604550,
+  "name": "魔尼の宝珠 A",
+  "ruby": "まにのほうじゅ",
+  "unmodifiedDetail": "【無敵を付与するかガッツを付与するか選択可能】自身に無敵状態を付与(1ターン)またはガッツ状態を付与(1回・3ターン)[g][o]▲[/o][/g]＆NPを増やす[{0}]＆〔やけど〕特攻状態を付与[{0}](3ターン)[g][o]▲[/o][/g]＆「攻撃時のダメージ前に対象にやけど状態(3ターン)を付与する状態」を付与(3ターン)[g][o]▲[/o][/g]",
+  "type": "active",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00403.png",
+  "coolDown": [8, 8, 8, 8, 8, 7, 7, 7, 7, 6],
+  "script": {
+    "SelectAddInfo": [{
+      "title": "どの効果を得るか選択してください",
+      "btn": [{
+        "name": "無敵",
+        "conds": [{
+          "cond": "NONE"
+        }]
+      }, {
+        "name": "ガッツ",
+        "conds": [{
+          "cond": "NONE"
+        }]
+      }]
+    }, {
+      "title": "どの効果を得るか選択してください",
+      "btn": [{
+        "name": "無敵",
+        "conds": [{
+          "cond": "NONE"
+        }]
+      }, {
+        "name": "ガッツ",
+        "conds": [{
+          "cond": "NONE"
+        }]
+      }]
+    }, {
+      "title": "どの効果を得るか選択してください",
+      "btn": [{
+        "name": "無敵",
+        "conds": [{
+          "cond": "NONE"
+        }]
+      }, {
+        "name": "ガッツ",
+        "conds": [{
+          "cond": "NONE"
+        }]
+      }]
+    }, {
+      "title": "どの効果を得るか選択してください",
+      "btn": [{
+        "name": "無敵",
+        "conds": [{
+          "cond": "NONE"
+        }]
+      }, {
+        "name": "ガッツ",
+        "conds": [{
+          "cond": "NONE"
+        }]
+      }]
+    }, {
+      "title": "どの効果を得るか選択してください",
+      "btn": [{
+        "name": "無敵",
+        "conds": [{
+          "cond": "NONE"
+        }]
+      }, {
+        "name": "ガッツ",
+        "conds": [{
+          "cond": "NONE"
+        }]
+      }]
+    }, {
+      "title": "どの効果を得るか選択してください",
+      "btn": [{
+        "name": "無敵",
+        "conds": [{
+          "cond": "NONE"
+        }]
+      }, {
+        "name": "ガッツ",
+        "conds": [{
+          "cond": "NONE"
+        }]
+      }]
+    }, {
+      "title": "どの効果を得るか選択してください",
+      "btn": [{
+        "name": "無敵",
+        "conds": [{
+          "cond": "NONE"
+        }]
+      }, {
+        "name": "ガッツ",
+        "conds": [{
+          "cond": "NONE"
+        }]
+      }]
+    }, {
+      "title": "どの効果を得るか選択してください",
+      "btn": [{
+        "name": "無敵",
+        "conds": [{
+          "cond": "NONE"
+        }]
+      }, {
+        "name": "ガッツ",
+        "conds": [{
+          "cond": "NONE"
+        }]
+      }]
+    }, {
+      "title": "どの効果を得るか選択してください",
+      "btn": [{
+        "name": "無敵",
+        "conds": [{
+          "cond": "NONE"
+        }]
+      }, {
+        "name": "ガッツ",
+        "conds": [{
+          "cond": "NONE"
+        }]
+      }]
+    }, {
+      "title": "どの効果を得るか選択してください",
+      "btn": [{
+        "name": "無敵",
+        "conds": [{
+          "cond": "NONE"
+        }]
+      }, {
+        "name": "ガッツ",
+        "conds": [{
+          "cond": "NONE"
+        }]
+      }]
+    }]
+  },
+  "skillSvts": [{
+    "svtId": 203300,
+    "num": 1,
+    "priority": 2,
+    "strengthStatus": 99,
+    "condQuestId": 94159602,
+    "condQuestPhase": 3
+  }],
+  "functions": [{
+    "funcId": 289,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 1,
+      "Count": -1,
+      "ActSelectIndex": 0
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 292,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": 1,
+      "Value": 1,
+      "ActSelectIndex": 1
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 460,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 2000
+    }, {
+      "Value": 2100
+    }, {
+      "Value": 2200
+    }, {
+      "Value": 2300
+    }, {
+      "Value": 2400
+    }, {
+      "Value": 2500
+    }, {
+      "Value": 2600
+    }, {
+      "Value": 2700
+    }, {
+      "Value": 2800
+    }, {
+      "Value": 3000
+    }]
+  }, {
+    "funcId": 470,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 1
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 5650,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 200
+    }, {
+      "Value": 210
+    }, {
+      "Value": 220
+    }, {
+      "Value": 230
+    }, {
+      "Value": 240
+    }, {
+      "Value": 250
+    }, {
+      "Value": 260
+    }, {
+      "Value": 270
+    }, {
+      "Value": 280
+    }, {
+      "Value": 300
+    }]
+  }, {
+    "funcId": 23600,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 970939,
+      "Value2": 1
     }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
   }]
 }, {
@@ -112181,6 +112414,21 @@
       "Turn": 2,
       "Count": -1,
       "Value": 100
+    }]
+  }]
+}, {
+  "id": 970939,
+  "name": "",
+  "type": "active",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00511.png",
+  "coolDown": [1],
+  "functions": [{
+    "funcId": 318,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 500
     }]
   }]
 }, {

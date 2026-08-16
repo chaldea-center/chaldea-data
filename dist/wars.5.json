@@ -191496,7 +191496,7 @@
       "closedAt": 1788321599
     }, {
       "id": 94159010,
-      "name": "",
+      "name": "第10節「ばんないマジムン百鬼夜行！」",
       "type": "main",
       "consume": 0,
       "afterClear": "close",
@@ -191509,6 +191509,9 @@
         "num": 1
       }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 94159009
       }, {
@@ -191520,13 +191523,16 @@
         "targetId": 80614,
         "value": 175000,
         "closedMessage": "料理を作ってくらくらポイント175,000以上獲得\n＆8月16日18時00分以降に開放"
-      }, {
-        "type": "forceFalse",
-        "targetId": 0,
-        "closedMessage": "データ更新後に開放"
       }],
       "phases": [1],
       "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9415901010",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415901010.txt"
+        }]
+      }],
       "priority": 94159086,
       "noticeAt": 1786784400,
       "openedAt": 1786870800,
@@ -191603,6 +191609,7 @@
         "targetId": 0
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "phaseScripts": [{
         "phase": 1,
         "scripts": [{
@@ -191640,6 +191647,7 @@
         "targetId": 0
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "phaseScripts": [{
         "phase": 1,
         "scripts": [{
@@ -191684,6 +191692,7 @@
         "targetId": 0
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "phaseScripts": [{
         "phase": 1,
         "scripts": [{
@@ -191787,9 +191796,296 @@
         "targetId": 0
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94159035,
       "noticeAt": 1786784400,
       "openedAt": 1786784400,
+      "closedAt": 1788321599
+    }]
+  }, {
+    "id": 920509,
+    "mapId": 9205,
+    "name": "城址公園",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9205/QMap_Cap9205_Atlas/spot_920509.png",
+    "x": 730.0,
+    "y": 970.0,
+    "nameOfsY": -5,
+    "questOfsX": 40,
+    "questOfsY": -63,
+    "quests": [{
+      "id": 94159105,
+      "name": "百鬼夜行クエスト6「はーえーゴンゴン！」",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "35",
+      "spotId": 920509,
+      "warId": 9205,
+      "gifts": [{
+        "id": 94159017,
+        "objectId": 94159004,
+        "num": 90
+      }, {
+        "id": 94159017,
+        "objectId": 94159005,
+        "num": 90
+      }, {
+        "id": 94159017,
+        "objectId": 94159006,
+        "num": 90
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94159104
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9415910510",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415910510.txt"
+        }, {
+          "scriptId": "9415910511",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415910511.txt"
+        }]
+      }],
+      "priority": 94159084,
+      "noticeAt": 1786870800,
+      "openedAt": 1786870800,
+      "closedAt": 1788321599
+    }, {
+      "id": 94159306,
+      "name": "マジムン巫女の秘密の儀式",
+      "type": "event",
+      "flags": ["displayLoopmark", "notDisplayResultGetPoint"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "80",
+      "spotId": 920509,
+      "warId": 9205,
+      "gifts": [{
+        "id": 12000,
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94159011
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "priority": 94159034,
+      "noticeAt": 1786870800,
+      "openedAt": 1786870800,
+      "closedAt": 1788321599
+    }]
+  }, {
+    "id": 920510,
+    "mapId": 9205,
+    "name": "百名ビーチ",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9205/QMap_Cap9205_Atlas/spot_920510.png",
+    "x": 864.0,
+    "y": 942.0,
+    "nameOfsY": -7,
+    "questOfsX": 44,
+    "questOfsY": -53,
+    "quests": [{
+      "id": 94159011,
+      "name": "第11節「秘された想いとまぎーむん」",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "50",
+      "spotId": 920510,
+      "warId": 9205,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94159106
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1, 2, 3, 4],
+      "phasesNoBattle": [4],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9415901110",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415901110.txt"
+        }, {
+          "scriptId": "9415901111",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415901111.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9415901120",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415901120.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9415901130",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415901130.txt"
+        }]
+      }, {
+        "phase": 4,
+        "scripts": [{
+          "scriptId": "9415901140",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415901140.txt"
+        }]
+      }],
+      "priority": 94159082,
+      "noticeAt": 1786870800,
+      "openedAt": 1786870800,
+      "closedAt": 1788321599
+    }, {
+      "id": 94159012,
+      "name": "",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 920510,
+      "warId": 9205,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94159011
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "eventTotalPoint",
+        "targetId": 80614,
+        "value": 250000,
+        "closedMessage": "料理を作ってくらくらポイント250,000以上獲得\n＆8月17日18時00分以降に開放"
+      }, {
+        "type": "forceFalse",
+        "targetId": 0,
+        "closedMessage": "データ更新後に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94159081,
+      "noticeAt": 1786870800,
+      "openedAt": 1786957200,
+      "closedAt": 1788321599
+    }, {
+      "id": 94159104,
+      "name": "百鬼夜行クエスト5「軽やかに舞うぬぬ」",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "35",
+      "spotId": 920510,
+      "warId": 9205,
+      "gifts": [{
+        "id": 94159017,
+        "objectId": 94159004,
+        "num": 90
+      }, {
+        "id": 94159017,
+        "objectId": 94159005,
+        "num": 90
+      }, {
+        "id": 94159017,
+        "objectId": 94159006,
+        "num": 90
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94159010
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9415910410",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415910410.txt"
+        }, {
+          "scriptId": "9415910411",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415910411.txt"
+        }]
+      }],
+      "priority": 94159085,
+      "noticeAt": 1786870800,
+      "openedAt": 1786870800,
+      "closedAt": 1788321599
+    }]
+  }, {
+    "id": 920511,
+    "mapId": 9205,
+    "name": "名城ビーチ",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9205/QMap_Cap9205_Atlas/spot_920511.png",
+    "x": 333.0,
+    "y": 1034.0,
+    "nameOfsY": -7,
+    "questOfsX": 44,
+    "questOfsY": -53,
+    "quests": [{
+      "id": 94159106,
+      "name": "百鬼夜行クエスト7「サバが望むもの」",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "35",
+      "spotId": 920511,
+      "warId": 9205,
+      "gifts": [{
+        "id": 94159017,
+        "objectId": 94159004,
+        "num": 90
+      }, {
+        "id": 94159017,
+        "objectId": 94159005,
+        "num": 90
+      }, {
+        "id": 94159017,
+        "objectId": 94159006,
+        "num": 90
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94159105
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9415910610",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415910610.txt"
+        }, {
+          "scriptId": "9415910611",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415910611.txt"
+        }]
+      }],
+      "priority": 94159083,
+      "noticeAt": 1786870800,
+      "openedAt": 1786870800,
       "closedAt": 1788321599
     }]
   }],
@@ -191860,6 +192156,36 @@
     "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9205/QMap_Cap9205_Atlas/img_road9205_00.png",
     "srcSpotId": 920508,
     "dstSpotId": 920506,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "questClear"
+  }, {
+    "id": 920508,
+    "warId": 9205,
+    "mapId": 9205,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9205/QMap_Cap9205_Atlas/img_road9205_00.png",
+    "srcSpotId": 920504,
+    "dstSpotId": 920510,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "questClear"
+  }, {
+    "id": 920509,
+    "warId": 9205,
+    "mapId": 9205,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9205/QMap_Cap9205_Atlas/img_road9205_00.png",
+    "srcSpotId": 920510,
+    "dstSpotId": 920509,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "questClear"
+  }, {
+    "id": 920510,
+    "warId": 9205,
+    "mapId": 9205,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9205/QMap_Cap9205_Atlas/img_road9205_00.png",
+    "srcSpotId": 920509,
+    "dstSpotId": 920511,
     "dispCondType": "useItemTime",
     "dispCondType2": "useItemTime",
     "activeCondType": "questClear"
