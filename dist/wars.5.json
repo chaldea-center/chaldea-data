@@ -191663,6 +191663,55 @@
       "openedAt": 1786784400,
       "closedAt": 1788321599
     }, {
+      "id": 94159013,
+      "name": "第13節「貪欲なるまぎーむん」",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "50",
+      "spotId": 920506,
+      "warId": 9205,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94159108
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1, 2, 3],
+      "phasesNoBattle": [3],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9415901310",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415901310.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9415901320",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415901320.txt"
+        }, {
+          "scriptId": "9415901321",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415901321.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9415901330",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415901330.txt"
+        }]
+      }],
+      "priority": 94159078,
+      "noticeAt": 1786957200,
+      "openedAt": 1786957200,
+      "closedAt": 1788321599
+    }, {
       "id": 94159103,
       "name": "百鬼夜行クエスト4「はいさい！　クライウスメー」",
       "type": "main",
@@ -191706,6 +191755,33 @@
       "priority": 94159089,
       "noticeAt": 1786784400,
       "openedAt": 1786784400,
+      "closedAt": 1788321599
+    }, {
+      "id": 94159307,
+      "name": "お忍びマジムンボーイ",
+      "type": "event",
+      "flags": ["displayLoopmark", "notDisplayResultGetPoint"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90",
+      "spotId": 920506,
+      "warId": 9205,
+      "gifts": [{
+        "id": 12000,
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94159013
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "priority": 94159033,
+      "noticeAt": 1786957200,
+      "openedAt": 1786957200,
       "closedAt": 1788321599
     }]
   }, {
@@ -191954,7 +192030,7 @@
       "closedAt": 1788321599
     }, {
       "id": 94159012,
-      "name": "",
+      "name": "第12節「なーふぃんマジムン百鬼夜行！」",
       "type": "main",
       "flags": ["noBattle"],
       "consume": 0,
@@ -191968,6 +192044,9 @@
         "num": 1
       }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 94159011
       }, {
@@ -191979,13 +192058,16 @@
         "targetId": 80614,
         "value": 250000,
         "closedMessage": "料理を作ってくらくらポイント250,000以上獲得\n＆8月17日18時00分以降に開放"
-      }, {
-        "type": "forceFalse",
-        "targetId": 0,
-        "closedMessage": "データ更新後に開放"
       }],
       "phases": [1],
       "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9415901210",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415901210.txt"
+        }]
+      }],
       "priority": 94159081,
       "noticeAt": 1786870800,
       "openedAt": 1786957200,
@@ -192092,6 +192174,153 @@
       "openedAt": 1786870800,
       "closedAt": 1788321599
     }]
+  }, {
+    "id": 920512,
+    "mapId": 9205,
+    "name": "やちむんの里",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9205/QMap_Cap9205_Atlas/spot_920512.png",
+    "x": 906.0,
+    "y": 561.0,
+    "nameOfsY": -8,
+    "questOfsX": 42,
+    "questOfsY": -64,
+    "quests": [{
+      "id": 94159107,
+      "name": "百鬼夜行クエスト8「眩しすぎるてぃーだ」",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "40",
+      "spotId": 920512,
+      "warId": 9205,
+      "gifts": [{
+        "id": 94159017,
+        "objectId": 94159004,
+        "num": 90
+      }, {
+        "id": 94159017,
+        "objectId": 94159005,
+        "num": 90
+      }, {
+        "id": 94159017,
+        "objectId": 94159006,
+        "num": 90
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94159012
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9415910710",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415910710.txt"
+        }, {
+          "scriptId": "9415910711",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415910711.txt"
+        }]
+      }],
+      "priority": 94159080,
+      "noticeAt": 1786957200,
+      "openedAt": 1786957200,
+      "closedAt": 1788321599
+    }, {
+      "id": 94159108,
+      "name": "百鬼夜行クエスト9「場違いなゆち」",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "40",
+      "spotId": 920512,
+      "warId": 9205,
+      "gifts": [{
+        "id": 94159017,
+        "objectId": 94159004,
+        "num": 90
+      }, {
+        "id": 94159017,
+        "objectId": 94159005,
+        "num": 90
+      }, {
+        "id": 94159017,
+        "objectId": 94159006,
+        "num": 90
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94159107
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9415910810",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415910810.txt"
+        }, {
+          "scriptId": "9415910811",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415910811.txt"
+        }]
+      }],
+      "priority": 94159079,
+      "noticeAt": 1786957200,
+      "openedAt": 1786957200,
+      "closedAt": 1788321599
+    }]
+  }, {
+    "id": 920513,
+    "mapId": 9205,
+    "name": "やんばるの森",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9205/QMap_Cap9205_Atlas/spot_920513.png",
+    "x": 1582.0,
+    "y": 312.0,
+    "nameOfsY": -12,
+    "questOfsX": 36,
+    "questOfsY": -75,
+    "quests": [{
+      "id": 94159014,
+      "name": "",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "45",
+      "spotId": 920513,
+      "warId": 9205,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94159013
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "eventTotalPoint",
+        "targetId": 80614,
+        "value": 340000,
+        "closedMessage": "料理を作ってくらくらポイント340,000以上獲得\n＆8月18日18時00分以降に開放"
+      }, {
+        "type": "forceFalse",
+        "targetId": 0,
+        "closedMessage": "データ更新後に開放"
+      }],
+      "phases": [1, 2, 3],
+      "priority": 94159077,
+      "noticeAt": 1786957200,
+      "openedAt": 1787043600,
+      "closedAt": 1788321599
+    }]
   }],
   "spotRoads": [{
     "id": 920501,
@@ -192190,6 +192419,26 @@
     "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9205/QMap_Cap9205_Atlas/img_road9205_00.png",
     "srcSpotId": 920509,
     "dstSpotId": 920511,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "questClear"
+  }, {
+    "id": 920511,
+    "warId": 9205,
+    "mapId": 9205,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9205/QMap_Cap9205_Atlas/img_road9205_00.png",
+    "srcSpotId": 920510,
+    "dstSpotId": 920512,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "questClear"
+  }, {
+    "id": 920512,
+    "warId": 9205,
+    "mapId": 9205,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9205/QMap_Cap9205_Atlas/img_road9205_00.png",
+    "srcSpotId": 920504,
+    "dstSpotId": 920513,
     "dispCondType": "useItemTime",
     "dispCondType2": "useItemTime",
     "activeCondType": "questClear"
