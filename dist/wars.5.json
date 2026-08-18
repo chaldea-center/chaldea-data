@@ -190721,6 +190721,19 @@
       "dispTargetValue": 2,
       "dispCondType2": "questClear"
     }, {
+      "id": 920502,
+      "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9205/QMap_Cap9205_Atlas/gimmick_920502.png",
+      "x": 1024,
+      "y": 720,
+      "depthOffset": -560,
+      "scale": 1000,
+      "dispCondType": "itemGet",
+      "dispTargetId": 94159014,
+      "dispTargetValue": 3,
+      "dispCondType2": "useItemEternity",
+      "dispTargetId2": 94159026,
+      "dispTargetValue2": 1
+    }, {
       "id": 920503,
       "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9205/QMap_Cap9205_Atlas/gimmick_920503.png",
       "x": 1024,
@@ -190754,6 +190767,45 @@
       "dispTargetValue": 2,
       "dispCondType2": "questClear"
     }, {
+      "id": 920506,
+      "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9205/QMap_Cap9205_Atlas/gimmick_920506.png",
+      "x": 1024,
+      "y": 720,
+      "depthOffset": -1,
+      "scale": 1000,
+      "dispCondType": "itemGet",
+      "dispTargetId": 94159014,
+      "dispTargetValue": 3,
+      "dispCondType2": "useItemEternity",
+      "dispTargetId2": 94159015,
+      "dispTargetValue2": 2
+    }, {
+      "id": 920507,
+      "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9205/QMap_Cap9205_Atlas/gimmick_920507.png",
+      "x": 1024,
+      "y": 720,
+      "depthOffset": -1,
+      "scale": 1000,
+      "dispCondType": "itemGet",
+      "dispTargetId": 94159015,
+      "dispTargetValue": 2,
+      "dispCondType2": "useItemEternity",
+      "dispTargetId2": 94159016,
+      "dispTargetValue2": 1
+    }, {
+      "id": 920508,
+      "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9205/QMap_Cap9205_Atlas/gimmick_920508.png",
+      "x": 1024,
+      "y": 720,
+      "depthOffset": -1,
+      "scale": 1000,
+      "dispCondType": "itemGet",
+      "dispTargetId": 94159016,
+      "dispTargetValue": 1,
+      "dispCondType2": "useItemEternity",
+      "dispTargetId2": 94159026,
+      "dispTargetValue2": 1
+    }, {
       "id": 920509,
       "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9205/QMap_Cap9205_Atlas/gimmick_920509.png",
       "x": 1024,
@@ -190763,6 +190815,30 @@
       "dispCondType": "itemGet",
       "dispTargetId": 94159000,
       "dispTargetValue": 2,
+      "dispCondType2": "questClear"
+    }, {
+      "id": 920510,
+      "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9205/QMap_Cap9205_Atlas/gimmick_920510.png",
+      "x": 1024,
+      "y": 720,
+      "depthOffset": -1,
+      "scale": 1000,
+      "dispCondType": "itemGet",
+      "dispTargetId": 94159014,
+      "dispTargetValue": 3,
+      "dispCondType2": "useItemEternity",
+      "dispTargetId2": 94159026,
+      "dispTargetValue2": 1
+    }, {
+      "id": 920511,
+      "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9205/QMap_Cap9205_Atlas/gimmick_920511.png",
+      "x": 1024,
+      "y": 720,
+      "depthOffset": -1,
+      "scale": 1000,
+      "dispCondType": "itemGet",
+      "dispTargetId": 94159026,
+      "dispTargetValue": 1,
       "dispCondType2": "questClear"
     }, {
       "id": 920512,
@@ -191104,6 +191180,88 @@
       "openedAt": 1786611600,
       "closedAt": 1788321599
     }, {
+      "id": 94159201,
+      "name": "リリンたちののんびりライフ",
+      "type": "event",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "50",
+      "spotId": 920502,
+      "warId": 9205,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94159026
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9415920110",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415920110.txt"
+        }, {
+          "scriptId": "9415920111",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415920111.txt"
+        }]
+      }],
+      "priority": 94159054,
+      "noticeAt": 1787043600,
+      "openedAt": 1787043600,
+      "closedAt": 1788321599
+    }, {
+      "id": 94159202,
+      "name": "ダディダディ!!",
+      "type": "event",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "50",
+      "spotId": 920502,
+      "warId": 9205,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94159026
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1, 2, 3],
+      "phasesNoBattle": [1, 3],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9415920210",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415920210.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9415920220",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415920220.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9415920230",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415920230.txt"
+        }]
+      }],
+      "priority": 94159053,
+      "noticeAt": 1787043600,
+      "openedAt": 1787043600,
+      "closedAt": 1788321599
+    }, {
       "id": 94159301,
       "name": "噂のマジムン喫茶店",
       "type": "event",
@@ -191158,6 +191316,70 @@
       "priority": 94159038,
       "noticeAt": 1786532400,
       "openedAt": 1786532400,
+      "closedAt": 1788321599
+    }, {
+      "id": 94159500,
+      "name": "【巨怪あらわる！】パニック！ 南国の迷子牛",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "80",
+      "spotId": 920502,
+      "warId": 9205,
+      "gifts": [{
+        "id": 94159015,
+        "type": "servant",
+        "objectId": 2801301,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94159026
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "eventTotalPoint",
+        "targetId": 80614,
+        "value": 390000,
+        "closedMessage": "料理を作ってくらくらポイント390,000以上獲得で開放"
+      }],
+      "phases": [1],
+      "priority": 94159050,
+      "noticeAt": 1787043600,
+      "openedAt": 1787043600,
+      "closedAt": 1788321599
+    }, {
+      "id": 94159504,
+      "name": "【巨怪あらわる！】待ち焦がれていた水妃",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "80",
+      "spotId": 920502,
+      "warId": 9205,
+      "gifts": [{
+        "id": 94159015,
+        "type": "servant",
+        "objectId": 2801301,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94159026
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "eventTotalPoint",
+        "targetId": 80614,
+        "value": 730000,
+        "closedMessage": "料理を作ってくらくらポイント730,000以上獲得で開放"
+      }],
+      "phases": [1],
+      "priority": 94159046,
+      "noticeAt": 1787043600,
+      "openedAt": 1787043600,
       "closedAt": 1788321599
     }]
   }, {
@@ -191363,6 +191585,58 @@
       "openedAt": 1786784400,
       "closedAt": 1788321599
     }, {
+      "id": 94159015,
+      "name": "第15節「愛しきマブイに安らぎを」",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "45",
+      "spotId": 920503,
+      "warId": 9205,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94159014
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1, 2, 3],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9415901510",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415901510.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9415901520",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415901520.txt"
+        }, {
+          "scriptId": "9415901521",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415901521.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9415901530",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415901530.txt"
+        }, {
+          "scriptId": "9415901531",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415901531.txt"
+        }]
+      }],
+      "priority": 94159076,
+      "noticeAt": 1787043600,
+      "openedAt": 1787043600,
+      "closedAt": 1788321599
+    }, {
       "id": 94159200,
       "name": "釣れ！　マジムンアイランドのヌシ！？",
       "type": "event",
@@ -191426,6 +191700,42 @@
       "priority": 94159037,
       "noticeAt": 1786611600,
       "openedAt": 1786611600,
+      "closedAt": 1788321599
+    }, {
+      "id": 94159400,
+      "name": "",
+      "type": "event",
+      "flags": ["dropFirstTimeOnly", "notRetrievable", "notDisplayResultGetPoint"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "90+",
+      "spotId": 920503,
+      "warId": 9205,
+      "gifts": [{
+        "id": 21701,
+        "objectId": 6999,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 1000822,
+        "closedMessage": "終局特異点クリア\n＆8月19日18時00分以降に開放"
+      }, {
+        "type": "questClear",
+        "targetId": 94159026
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "forceFalse",
+        "targetId": 0,
+        "closedMessage": "データ更新後に開放"
+      }],
+      "phases": [1],
+      "priority": 94159060,
+      "noticeAt": 1787043600,
+      "openedAt": 1787130000,
       "closedAt": 1788321599
     }]
   }, {
@@ -191575,6 +191885,38 @@
       "priority": 94159036,
       "noticeAt": 1786698000,
       "openedAt": 1786698000,
+      "closedAt": 1788321599
+    }, {
+      "id": 94159503,
+      "name": "【巨怪あらわる！】過保護な守護神",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "80",
+      "spotId": 920505,
+      "warId": 9205,
+      "gifts": [{
+        "id": 32043,
+        "type": "servant",
+        "objectId": 9670400,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94159026
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "eventTotalPoint",
+        "targetId": 80614,
+        "value": 630000,
+        "closedMessage": "料理を作ってくらくらポイント630,000以上獲得で開放"
+      }],
+      "phases": [1],
+      "priority": 94159047,
+      "noticeAt": 1787043600,
+      "openedAt": 1787043600,
       "closedAt": 1788321599
     }]
   }, {
@@ -191784,6 +192126,38 @@
       "priority": 94159033,
       "noticeAt": 1786957200,
       "openedAt": 1786957200,
+      "closedAt": 1788321599
+    }, {
+      "id": 94159501,
+      "name": "【巨怪あらわる！】開拓者魂、大暴走！",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "80",
+      "spotId": 920506,
+      "warId": 9205,
+      "gifts": [{
+        "id": 31043,
+        "type": "servant",
+        "objectId": 9570400,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94159026
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "eventTotalPoint",
+        "targetId": 80614,
+        "value": 460000,
+        "closedMessage": "料理を作ってくらくらポイント460,000以上獲得で開放"
+      }],
+      "phases": [1],
+      "priority": 94159049,
+      "noticeAt": 1787043600,
+      "openedAt": 1787043600,
       "closedAt": 1788321599
     }]
   }, {
@@ -192276,6 +192650,65 @@
       "noticeAt": 1786957200,
       "openedAt": 1786957200,
       "closedAt": 1788321599
+    }, {
+      "id": 94159308,
+      "name": "はいさい！ 八郎ひとり旅",
+      "type": "event",
+      "flags": ["displayLoopmark", "notDisplayResultGetPoint"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90+",
+      "spotId": 920512,
+      "warId": 9205,
+      "gifts": [{
+        "id": 327,
+        "objectId": 3,
+        "num": 100
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94159026
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "priority": 94159032,
+      "noticeAt": 1787043600,
+      "openedAt": 1787043600,
+      "closedAt": 1788321599
+    }, {
+      "id": 94159502,
+      "name": "【巨怪あらわる！】雷帝の厳選図書",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "80",
+      "spotId": 920512,
+      "warId": 9205,
+      "gifts": [{
+        "id": 94159015,
+        "type": "servant",
+        "objectId": 2801301,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94159026
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "eventTotalPoint",
+        "targetId": 80614,
+        "value": 540000,
+        "closedMessage": "料理を作ってくらくらポイント540,000以上獲得で開放"
+      }],
+      "phases": [1],
+      "priority": 94159048,
+      "noticeAt": 1787043600,
+      "openedAt": 1787043600,
+      "closedAt": 1788321599
     }]
   }, {
     "id": 920513,
@@ -192289,7 +192722,7 @@
     "questOfsY": -75,
     "quests": [{
       "id": 94159014,
-      "name": "",
+      "name": "第14節「やんばるの森の奥地にて」",
       "type": "main",
       "consume": 5,
       "afterClear": "close",
@@ -192302,6 +192735,9 @@
         "num": 1
       }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 94159013
       }, {
@@ -192313,14 +192749,163 @@
         "targetId": 80614,
         "value": 340000,
         "closedMessage": "料理を作ってくらくらポイント340,000以上獲得\n＆8月18日18時00分以降に開放"
-      }, {
-        "type": "forceFalse",
-        "targetId": 0,
-        "closedMessage": "データ更新後に開放"
       }],
       "phases": [1, 2, 3],
+      "phasesWithEnemies": [1, 2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9415901410",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415901410.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9415901420",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415901420.txt"
+        }, {
+          "scriptId": "9415901421",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415901421.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9415901430",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415901430.txt"
+        }, {
+          "scriptId": "9415901431",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415901431.txt"
+        }]
+      }],
       "priority": 94159077,
       "noticeAt": 1786957200,
+      "openedAt": 1787043600,
+      "closedAt": 1788321599
+    }, {
+      "id": 94159016,
+      "name": "第16節「ちばりよ！　まぎーむん大決戦！」",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "60",
+      "spotId": 920513,
+      "warId": 9205,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94159015
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1, 2, 3],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9415901610",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415901610.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9415901621",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415901621.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9415901630",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415901630.txt"
+        }, {
+          "scriptId": "9415901631",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415901631.txt"
+        }]
+      }],
+      "priority": 94159075,
+      "noticeAt": 1787043600,
+      "openedAt": 1787043600,
+      "closedAt": 1788321599
+    }]
+  }, {
+    "id": 920514,
+    "mapId": 9205,
+    "name": "巨大樹の泉",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9205/QMap_Cap9205_Atlas/spot_920514.png",
+    "x": 1745.0,
+    "y": 236.0,
+    "nameOfsY": -7,
+    "questOfsX": 42,
+    "questOfsY": -100,
+    "quests": [{
+      "id": 94159026,
+      "name": "エピローグ",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 920514,
+      "warId": 9205,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/3.png",
+      "gifts": [{
+        "id": 94159014,
+        "objectId": 7999,
+        "num": 1
+      }, {
+        "id": 94159014,
+        "type": "eventSvtGet",
+        "objectId": 2801300,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94159016
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9415902610",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9415/9415902610.txt"
+        }]
+      }],
+      "priority": 94159074,
+      "noticeAt": 1787043600,
+      "openedAt": 1787043600,
+      "closedAt": 1788321599
+    }, {
+      "id": 94159309,
+      "name": "森の奥に謎の巨人の影を見た",
+      "type": "event",
+      "flags": ["displayLoopmark", "notDisplayResultGetPoint"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90++",
+      "spotId": 920514,
+      "warId": 9205,
+      "gifts": [{
+        "id": 337,
+        "objectId": 3,
+        "num": 200
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94159026
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "priority": 94159031,
+      "noticeAt": 1787043600,
       "openedAt": 1787043600,
       "closedAt": 1788321599
     }]
@@ -192442,6 +193027,26 @@
     "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9205/QMap_Cap9205_Atlas/img_road9205_00.png",
     "srcSpotId": 920504,
     "dstSpotId": 920513,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "questClear"
+  }, {
+    "id": 920513,
+    "warId": 9205,
+    "mapId": 9205,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9205/QMap_Cap9205_Atlas/img_road9205_00.png",
+    "srcSpotId": 920513,
+    "dstSpotId": 920514,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "questClear"
+  }, {
+    "id": 920514,
+    "warId": 9205,
+    "mapId": 9205,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9205/QMap_Cap9205_Atlas/img_road9205_00.png",
+    "srcSpotId": 920504,
+    "dstSpotId": 920503,
     "dispCondType": "useItemTime",
     "dispCondType2": "useItemTime",
     "activeCondType": "questClear"
