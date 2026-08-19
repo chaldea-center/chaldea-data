@@ -67396,6 +67396,76 @@
     }]
   }]
 }, {
+  "funcId": 23601,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "攻撃ダメージ前追加効果",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_528.png",
+  "buffs": [{
+    "id": 6124,
+    "name": "攻撃ダメージ前追加効果",
+    "detail": "攻撃時、ダメージ前に対象に電蝕状態<特殊なクリティカル威力耐性ダウン状態>を付与",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_528.png",
+    "type": "attackBeforeFunction",
+    "vals": [{
+      "id": 3004
+    }],
+    "tvals": [{
+      "id": 5000
+    }]
+  }]
+}, {
+  "funcId": 23602,
+  "funcType": "addStateShort",
+  "funcTargetType": "enemy",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "電蝕",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_575.png",
+  "buffs": [{
+    "id": 6125,
+    "name": "電蝕",
+    "detail": "クリティカル攻撃で受けるダメージが増える",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_575.png",
+    "type": "downDefenceCriticaldamage",
+    "vals": [{
+      "id": 3005
+    }, {
+      "id": 3009
+    }, {
+      "id": 10052
+    }],
+    "maxRate": 5000
+  }]
+}, {
+  "funcId": 23606,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "威力アップ・対電蝕",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+  "buffs": [{
+    "id": 6126,
+    "name": "威力アップ〔電蝕〕",
+    "detail": "〔電蝕〕状態の敵に与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamageIndividualityActiveonly",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3028
+    }],
+    "tvals": [{
+      "id": 10052
+    }],
+    "ckOpIndv": [{
+      "id": 10052
+    }],
+    "maxRate": 10000
+  }]
+}, {
   "funcId": 30003,
   "funcType": "addStateShort",
   "funcTargetType": "self",

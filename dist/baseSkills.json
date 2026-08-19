@@ -39068,7 +39068,8 @@
   "skillSvts": [{
     "svtId": 103100,
     "num": 1,
-    "priority": 1
+    "priority": 1,
+    "strengthStatus": 1
   }],
   "functions": [{
     "funcId": 338,
@@ -39866,6 +39867,7 @@
     "svtId": 402700,
     "num": 3,
     "priority": 1,
+    "strengthStatus": 1,
     "condLimitCount": 3
   }],
   "functions": [{
@@ -112443,6 +112445,21 @@
       "Turn": 3,
       "Count": -1,
       "Value": 500
+    }]
+  }]
+}, {
+  "id": 970940,
+  "name": "",
+  "type": "active",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_999999.png",
+  "coolDown": [1],
+  "functions": [{
+    "funcId": 23602,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 100
     }]
   }]
 }, {
@@ -318910,6 +318927,228 @@
   "functions": [{
     "funcId": 0,
     "svals": [{}]
+  }]
+}, {
+  "id": 2697650,
+  "name": "ハイ・リローデッド EX",
+  "ruby": "はい・りろーでっど",
+  "unmodifiedDetail": "自身のQuickカード性能をアップ[{0}](1回・3ターン)＆宝具威力をアップ[{0}](1回・3ターン)[g][o]▲[/o][/g]＆NPを増やす[{0}][g][o]▲[/o][/g] ＋ スターを獲得[{0}][g][o]▲[/o][/g]",
+  "type": "active",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00304.png",
+  "coolDown": [5, 5, 5, 5, 5, 4, 4, 4, 4, 3],
+  "skillSvts": [{
+    "svtId": 402700,
+    "num": 3,
+    "priority": 2,
+    "strengthStatus": 99,
+    "condQuestId": 94159600,
+    "condQuestPhase": 3,
+    "condLimitCount": 3
+  }],
+  "functions": [{
+    "funcId": 101,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": 1,
+      "Value": 200
+    }, {
+      "Value": 210
+    }, {
+      "Value": 220
+    }, {
+      "Value": 230
+    }, {
+      "Value": 240
+    }, {
+      "Value": 250
+    }, {
+      "Value": 260
+    }, {
+      "Value": 270
+    }, {
+      "Value": 280
+    }, {
+      "Value": 300
+    }]
+  }, {
+    "funcId": 248,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": 1,
+      "Value": 200
+    }, {
+      "Value": 210
+    }, {
+      "Value": 220
+    }, {
+      "Value": 230
+    }, {
+      "Value": 240
+    }, {
+      "Value": 250
+    }, {
+      "Value": 260
+    }, {
+      "Value": 270
+    }, {
+      "Value": 280
+    }, {
+      "Value": 300
+    }]
+  }, {
+    "funcId": 460,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 2000
+    }, {
+      "Value": 2100
+    }, {
+      "Value": 2200
+    }, {
+      "Value": 2300
+    }, {
+      "Value": 2400
+    }, {
+      "Value": 2500
+    }, {
+      "Value": 2600
+    }, {
+      "Value": 2700
+    }, {
+      "Value": 2800
+    }, {
+      "Value": 3000
+    }]
+  }, {
+    "funcId": 470,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 1
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 476,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 5
+    }, {
+      "Value": 6
+    }, {
+      "Value": 7
+    }, {
+      "Value": 8
+    }, {
+      "Value": 9
+    }, {
+      "Value": 10
+    }, {
+      "Value": 11
+    }, {
+      "Value": 12
+    }, {
+      "Value": 13
+    }, {
+      "Value": 15
+    }]
+  }, {
+    "funcId": 215,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 2,
+      "Count": -1,
+      "Value": 200
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }]
+}, {
+  "id": 2698550,
+  "name": "エレクトロ・ウェディング A",
+  "ruby": "えれくとろ・うぇでぃんぐ",
+  "unmodifiedDetail": "自身のNP獲得量をアップ[{0}](3ターン)＆NPを増やす[{0}][g][o]▲[/o][/g]＆「攻撃時のダメージ前に対象に電蝕状態<特殊なクリティカル威力耐性ダウン状態>(3ターン)を付与する状態」を付与(3ターン)[g][o]▲[/o][/g]＆〔電蝕〕特攻状態を付与(3ターン)[g][o]▲[/o][/g]",
+  "type": "active",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00602.png",
+  "coolDown": [7, 7, 7, 7, 7, 6, 6, 6, 6, 5],
+  "skillSvts": [{
+    "svtId": 103100,
+    "num": 1,
+    "priority": 2,
+    "strengthStatus": 99,
+    "condQuestId": 94159601,
+    "condQuestPhase": 3
+  }],
+  "functions": [{
+    "funcId": 338,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 400
+    }, {
+      "Value": 440
+    }, {
+      "Value": 480
+    }, {
+      "Value": 520
+    }, {
+      "Value": 560
+    }, {
+      "Value": 600
+    }, {
+      "Value": 640
+    }, {
+      "Value": 680
+    }, {
+      "Value": 720
+    }, {
+      "Value": 800
+    }]
+  }, {
+    "funcId": 460,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 2000
+    }, {
+      "Value": 2100
+    }, {
+      "Value": 2200
+    }, {
+      "Value": 2300
+    }, {
+      "Value": 2400
+    }, {
+      "Value": 2500
+    }, {
+      "Value": 2600
+    }, {
+      "Value": 2700
+    }, {
+      "Value": 2800
+    }, {
+      "Value": 3000
+    }]
+  }, {
+    "funcId": 470,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 1
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 23601,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 970940,
+      "Value2": 1
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 23606,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 200
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
   }]
 }, {
   "id": 3001000,
