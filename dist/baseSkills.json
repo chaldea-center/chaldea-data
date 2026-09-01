@@ -255241,6 +255241,49 @@
     }]
   }]
 }, {
+  "id": 995433,
+  "name": "ガン・ディーラー",
+  "ruby": "-",
+  "unmodifiedDetail": "クエストクリア時に得られる〔アサシン〕クラスの絆を4%増やす",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00205.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9409490,
+    "num": 1,
+    "priority": 1,
+    "strengthStatus": 1
+  }],
+  "functions": [{
+    "funcId": 23585,
+    "svals": [{
+      "Individuality": 0,
+      "RateCount": 40
+    }]
+  }]
+}, {
+  "id": 995434,
+  "name": "ガン・ディーラー",
+  "ruby": "-",
+  "unmodifiedDetail": "クエストクリア時に得られる〔アサシン〕クラスの絆を20%増やす[最大解放]",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00205.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9409490,
+    "num": 1,
+    "priority": 2,
+    "strengthStatus": 99,
+    "condLimitCount": 4
+  }],
+  "functions": [{
+    "funcId": 23585,
+    "svals": [{
+      "Individuality": 0,
+      "RateCount": 200
+    }]
+  }]
+}, {
   "id": 2000550,
   "name": "維新の龍 A",
   "ruby": "いしんのりゅう",
@@ -315092,9 +315135,10 @@
       "Turn": 3,
       "Count": -1,
       "Value": 100,
-      "CheckBattlePointPhaseRange": [{
+      "HideNoEffect": 1,
+      "TriggeredTargetBattlePointRateRange": [{
         "battlePointId": 705300,
-        "range": ["<=1"]
+        "range": ["<=499"]
       }]
     }, {
       "Value": 110
