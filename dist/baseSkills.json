@@ -5979,6 +5979,16 @@
     "num": 1,
     "priority": 1,
     "strengthStatus": 1
+  }, {
+    "svtId": 9948180,
+    "num": 1,
+    "priority": 1,
+    "strengthStatus": 1
+  }, {
+    "svtId": 9948190,
+    "num": 1,
+    "priority": 1,
+    "strengthStatus": 1
   }],
   "functions": [{
     "funcId": 145,
@@ -10274,6 +10284,18 @@
     "condLimitCount": 3
   }, {
     "svtId": 600710,
+    "num": 3,
+    "priority": 1,
+    "strengthStatus": 1,
+    "condLimitCount": 3
+  }, {
+    "svtId": 9948180,
+    "num": 3,
+    "priority": 1,
+    "strengthStatus": 1,
+    "condLimitCount": 3
+  }, {
+    "svtId": 9948190,
     "num": 3,
     "priority": 1,
     "strengthStatus": 1,
@@ -17898,6 +17920,16 @@
     "condLimitCount": 1
   }, {
     "svtId": 600710,
+    "num": 2,
+    "priority": 1,
+    "condLimitCount": 1
+  }, {
+    "svtId": 9948180,
+    "num": 2,
+    "priority": 1,
+    "condLimitCount": 1
+  }, {
+    "svtId": 9948190,
     "num": 2,
     "priority": 1,
     "condLimitCount": 1
@@ -95541,6 +95573,78 @@
     }]
   }]
 }, {
+  "id": 940470,
+  "name": "南瓜を狩る者 EX",
+  "unmodifiedDetail": "自身の『くたばれ！ パンプキンファーム・スローター』における攻撃の威力を100%アップ＆クエストクリア時に得られる絆を50%増やす【『くたばれ！ パンプキンファーム・スローター』イベント期間限定】",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00301.png",
+  "coolDown": [0],
+  "functions": [{
+    "funcId": 23588,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 1000
+    }]
+  }, {
+    "funcId": 23589,
+    "svals": [{
+      "Target": 1,
+      "Individuality": 0,
+      "EventId": 80627,
+      "RateCount": 500
+    }]
+  }]
+}, {
+  "id": 940471,
+  "name": "南瓜を狩る者 A",
+  "unmodifiedDetail": "自身の『くたばれ！ パンプキンファーム・スローター』における攻撃の威力を50%アップ＆クエストクリア時に得られる絆を20%増やす【『くたばれ！ パンプキンファーム・スローター』イベント期間限定】",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00301.png",
+  "coolDown": [0],
+  "functions": [{
+    "funcId": 23588,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 500
+    }]
+  }, {
+    "funcId": 23589,
+    "svals": [{
+      "Target": 1,
+      "Individuality": 0,
+      "EventId": 80627,
+      "RateCount": 200
+    }]
+  }]
+}, {
+  "id": 940472,
+  "name": "南瓜を狩る者 B",
+  "unmodifiedDetail": "自身の『くたばれ！ パンプキンファーム・スローター』における攻撃の威力を30%アップ＆クエストクリア時に得られる絆を20%増やす【『くたばれ！ パンプキンファーム・スローター』イベント期間限定】",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00301.png",
+  "coolDown": [0],
+  "functions": [{
+    "funcId": 23587,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 300
+    }]
+  }, {
+    "funcId": 23589,
+    "svals": [{
+      "Target": 1,
+      "Individuality": 0,
+      "EventId": 80627,
+      "RateCount": 200
+    }]
+  }]
+}, {
   "id": 941650,
   "name": "黄昏に輝く EX",
   "ruby": "たそがれにかがやく",
@@ -112619,6 +112723,87 @@
       "Turn": 3,
       "Count": -1,
       "Value": 100
+    }]
+  }]
+}, {
+  "id": 970953,
+  "name": "",
+  "type": "active",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_999999.png",
+  "coolDown": [1],
+  "functions": [{
+    "funcId": 759,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 5,
+      "Count": 1,
+      "Value": 1
+    }]
+  }]
+}, {
+  "id": 970954,
+  "name": "",
+  "type": "active",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_999999.png",
+  "coolDown": [1, 1, 1, 1, 1, 0, -1, -1, -1, -1],
+  "functions": [{
+    "funcId": 151,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 50
+    }, {
+      "Value": 55
+    }, {
+      "Value": 60
+    }, {
+      "Value": 65
+    }, {
+      "Value": 70
+    }, {
+      "Value": 75
+    }, {
+      "Value": 80
+    }, {
+      "Value": 85
+    }, {
+      "Value": 90
+    }, {
+      "Value": 100
+    }]
+  }]
+}, {
+  "id": 970955,
+  "name": "",
+  "type": "active",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_999999.png",
+  "coolDown": [1, 1, 1, 1, 1, 0, -1, -1, -1, -1],
+  "functions": [{
+    "funcId": 206,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 100
+    }, {
+      "Value": 110
+    }, {
+      "Value": 120
+    }, {
+      "Value": 130
+    }, {
+      "Value": 140
+    }, {
+      "Value": 150
+    }, {
+      "Value": 160
+    }, {
+      "Value": 170
+    }, {
+      "Value": 180
+    }, {
+      "Value": 200
     }]
   }]
 }, {
@@ -255443,6 +255628,648 @@
     }]
   }]
 }, {
+  "id": 995435,
+  "name": "ヴァリアント・ウルフ",
+  "ruby": "-",
+  "unmodifiedDetail": "自身に無敵貫通状態を付与＆〔神性〕特攻状態を35%付与",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00312.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9409500,
+    "num": 1,
+    "priority": 1,
+    "strengthStatus": 1
+  }],
+  "functions": [{
+    "funcId": 510,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1
+    }]
+  }, {
+    "funcId": 520,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 350
+    }]
+  }]
+}, {
+  "id": 995436,
+  "name": "ヴァリアント・ウルフ",
+  "ruby": "-",
+  "unmodifiedDetail": "自身に無敵貫通状態を付与＆〔神性〕特攻状態を40%付与[最大解放]",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00312.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9409500,
+    "num": 1,
+    "priority": 2,
+    "strengthStatus": 99,
+    "condLimitCount": 4
+  }],
+  "functions": [{
+    "funcId": 510,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1
+    }]
+  }, {
+    "funcId": 520,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 400
+    }]
+  }]
+}, {
+  "id": 995437,
+  "name": "三日月パイのドロップ獲得数アップ",
+  "ruby": "-",
+  "unmodifiedDetail": "三日月パイのドロップ獲得数を1個増やす【『くたばれ！ パンプキンファーム・スローター』イベント期間限定】",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00200.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9409500,
+    "num": 2,
+    "priority": 1,
+    "strengthStatus": 1,
+    "eventId": 80627
+  }],
+  "functions": [{
+    "funcId": 23590,
+    "svals": [{
+      "Individuality": 11012,
+      "EventId": 80627,
+      "AddCount": 1
+    }]
+  }]
+}, {
+  "id": 995438,
+  "name": "三日月パイのドロップ獲得数アップ",
+  "ruby": "-",
+  "unmodifiedDetail": "三日月パイのドロップ獲得数を2個増やす[最大解放]【『くたばれ！ パンプキンファーム・スローター』イベント期間限定】",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00200.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9409500,
+    "num": 2,
+    "priority": 2,
+    "strengthStatus": 99,
+    "condLimitCount": 4,
+    "eventId": 80627
+  }],
+  "functions": [{
+    "funcId": 23590,
+    "svals": [{
+      "Individuality": 11012,
+      "EventId": 80627,
+      "AddCount": 2
+    }]
+  }]
+}, {
+  "id": 995439,
+  "name": "フォーチュン・テラー",
+  "ruby": "-",
+  "unmodifiedDetail": "自身に弱体無効状態(1回)を付与＆毎ターンNP3%獲得状態を付与",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00411.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9409510,
+    "num": 1,
+    "priority": 1,
+    "strengthStatus": 1
+  }],
+  "functions": [{
+    "funcId": 627,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": 1
+    }]
+  }, {
+    "funcId": 324,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 300
+    }]
+  }]
+}, {
+  "id": 995440,
+  "name": "フォーチュン・テラー",
+  "ruby": "-",
+  "unmodifiedDetail": "自身に弱体無効状態(1回)を付与＆毎ターンNP4%獲得状態を付与[最大解放]",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00411.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9409510,
+    "num": 1,
+    "priority": 2,
+    "strengthStatus": 99,
+    "condLimitCount": 4
+  }],
+  "functions": [{
+    "funcId": 627,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": 1
+    }]
+  }, {
+    "funcId": 324,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 400
+    }]
+  }]
+}, {
+  "id": 995441,
+  "name": "首輪ドーナッツのドロップ獲得数アップ",
+  "ruby": "-",
+  "unmodifiedDetail": "首輪ドーナッツのドロップ獲得数を1個増やす【『くたばれ！ パンプキンファーム・スローター』イベント期間限定】",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00200.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9409510,
+    "num": 2,
+    "priority": 1,
+    "strengthStatus": 1,
+    "eventId": 80627
+  }],
+  "functions": [{
+    "funcId": 23591,
+    "svals": [{
+      "Individuality": 11011,
+      "EventId": 80627,
+      "AddCount": 1
+    }]
+  }]
+}, {
+  "id": 995442,
+  "name": "首輪ドーナッツのドロップ獲得数アップ",
+  "ruby": "-",
+  "unmodifiedDetail": "首輪ドーナッツのドロップ獲得数を2個増やす[最大解放]【『くたばれ！ パンプキンファーム・スローター』イベント期間限定】",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00200.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9409510,
+    "num": 2,
+    "priority": 2,
+    "strengthStatus": 99,
+    "condLimitCount": 4,
+    "eventId": 80627
+  }],
+  "functions": [{
+    "funcId": 23591,
+    "svals": [{
+      "Individuality": 11011,
+      "EventId": 80627,
+      "AddCount": 2
+    }]
+  }]
+}, {
+  "id": 995443,
+  "name": "トーメンテッド・ガーディアン",
+  "ruby": "-",
+  "unmodifiedDetail": "自身に〔猛獣〕特攻状態を15%付与",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00301.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9409520,
+    "num": 1,
+    "priority": 1,
+    "strengthStatus": 1
+  }],
+  "functions": [{
+    "funcId": 233,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 150
+    }]
+  }]
+}, {
+  "id": 995444,
+  "name": "トーメンテッド・ガーディアン",
+  "ruby": "-",
+  "unmodifiedDetail": "自身に〔猛獣〕特攻状態を20%付与[最大解放]",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00301.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9409520,
+    "num": 1,
+    "priority": 2,
+    "strengthStatus": 99,
+    "condLimitCount": 4
+  }],
+  "functions": [{
+    "funcId": 233,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 200
+    }]
+  }]
+}, {
+  "id": 995445,
+  "name": "けもみみクッキーのドロップ獲得数アップ",
+  "ruby": "-",
+  "unmodifiedDetail": "けもみみクッキーのドロップ獲得数を1個増やす【『くたばれ！ パンプキンファーム・スローター』イベント期間限定】",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00200.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9409520,
+    "num": 2,
+    "priority": 1,
+    "strengthStatus": 1,
+    "eventId": 80627
+  }],
+  "functions": [{
+    "funcId": 23592,
+    "svals": [{
+      "Individuality": 11010,
+      "EventId": 80627,
+      "AddCount": 1
+    }]
+  }]
+}, {
+  "id": 995446,
+  "name": "けもみみクッキーのドロップ獲得数アップ",
+  "ruby": "-",
+  "unmodifiedDetail": "けもみみクッキーのドロップ獲得数を2個増やす[最大解放]【『くたばれ！ パンプキンファーム・スローター』イベント期間限定】",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00200.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9409520,
+    "num": 2,
+    "priority": 2,
+    "strengthStatus": 99,
+    "condLimitCount": 4,
+    "eventId": 80627
+  }],
+  "functions": [{
+    "funcId": 23592,
+    "svals": [{
+      "Individuality": 11010,
+      "EventId": 80627,
+      "AddCount": 2
+    }]
+  }]
+}, {
+  "id": 995447,
+  "name": "ピース・オブ・メモリー",
+  "ruby": "-",
+  "unmodifiedDetail": "自身のQuickカード性能を8%アップ＆Busterカード性能を8%アップ＆クリティカル威力を3%アップ＆宝具威力を3%アップ＆NPを30%チャージした状態でバトルを開始する",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00316.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9409530,
+    "num": 1,
+    "priority": 1,
+    "strengthStatus": 1
+  }],
+  "functions": [{
+    "funcId": 100,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 80
+    }]
+  }, {
+    "funcId": 118,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 80
+    }]
+  }, {
+    "funcId": 199,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 30
+    }]
+  }, {
+    "funcId": 247,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 30
+    }]
+  }, {
+    "funcId": 460,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 3000
+    }]
+  }]
+}, {
+  "id": 995448,
+  "name": "ピース・オブ・メモリー",
+  "ruby": "-",
+  "unmodifiedDetail": "自身のQuickカード性能を10%アップ＆Busterカード性能を10%アップ＆クリティカル威力を5%アップ＆宝具威力を5%アップ＆NPを50%チャージした状態でバトルを開始する[最大解放]",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00316.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9409530,
+    "num": 1,
+    "priority": 2,
+    "strengthStatus": 99,
+    "condLimitCount": 4
+  }],
+  "functions": [{
+    "funcId": 100,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 100
+    }]
+  }, {
+    "funcId": 118,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 100
+    }]
+  }, {
+    "funcId": 199,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 50
+    }]
+  }, {
+    "funcId": 247,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 50
+    }]
+  }, {
+    "funcId": 460,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 5000
+    }]
+  }]
+}, {
+  "id": 995449,
+  "name": "パンプキン収穫ポイント獲得量アップ",
+  "ruby": "-",
+  "unmodifiedDetail": "パンプキン収穫ポイントのドロップ獲得量を30%増やす【『くたばれ！ パンプキンファーム・スローター』イベント期間限定】",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00200.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9409530,
+    "num": 2,
+    "priority": 1,
+    "strengthStatus": 1,
+    "eventId": 80627
+  }],
+  "functions": [{
+    "funcId": 23593,
+    "svals": [{
+      "Individuality": 11013,
+      "EventId": 80627,
+      "RateCount": 300
+    }]
+  }]
+}, {
+  "id": 995450,
+  "name": "パンプキン収穫ポイント獲得量アップ",
+  "ruby": "-",
+  "unmodifiedDetail": "パンプキン収穫ポイントのドロップ獲得量を60%増やす[最大解放]【『くたばれ！ パンプキンファーム・スローター』イベント期間限定】",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00200.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9409530,
+    "num": 2,
+    "priority": 2,
+    "strengthStatus": 99,
+    "condLimitCount": 4,
+    "eventId": 80627
+  }],
+  "functions": [{
+    "funcId": 23593,
+    "svals": [{
+      "Individuality": 11013,
+      "EventId": 80627,
+      "RateCount": 600
+    }]
+  }]
+}, {
+  "id": 995451,
+  "name": "ミッシングウィング",
+  "ruby": "-",
+  "unmodifiedDetail": "[servantName 705400](バーサーカー)装備時のみ、自身がフィールドにいる間、味方全体のArtsカード性能を8%アップ＆Busterカード性能を8%アップ＆宝具威力を10%アップ",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00315.png",
+  "coolDown": [0],
+  "actIndividuality": [{
+    "id": 705400
+  }],
+  "skillSvts": [{
+    "svtId": 9312570,
+    "num": 1,
+    "priority": 1
+  }],
+  "functions": [{
+    "funcId": 836,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 80,
+      "OnField": 1
+    }]
+  }, {
+    "funcId": 826,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 80,
+      "OnField": 1
+    }]
+  }, {
+    "funcId": 872,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 100,
+      "OnField": 1
+    }]
+  }]
+}, {
+  "id": 995452,
+  "name": "パンプキンヘッズ",
+  "ruby": "ぱんぷきんへっず",
+  "unmodifiedDetail": "刻印されたカードによる攻撃時に、敵単体に呪い状態(300ダメージ・3ターン)を付与 ＋ 刻印されたカードのNP獲得量を3%アップ",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00527.png",
+  "coolDown": [0],
+  "functions": [{
+    "funcId": 3600,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 995471,
+      "Value2": 1,
+      "ShowState": -1
+    }]
+  }, {
+    "funcId": 5623,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 30
+    }]
+  }]
+}, {
+  "id": 995453,
+  "name": "青銅の巨人",
+  "ruby": "せいどうのきょじん",
+  "unmodifiedDetail": "刻印されたカードに防御無視効果を付与 ＋ 刻印されたカードによる攻撃時に、敵単体にやけど状態(500ダメージ・3ターン)を付与",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00334.png",
+  "coolDown": [0],
+  "functions": [{
+    "funcId": 1588,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1
+    }]
+  }, {
+    "funcId": 3600,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 995472,
+      "Value2": 1,
+      "ShowState": -1
+    }]
+  }]
+}, {
+  "id": 995454,
+  "name": "韜晦の幼君",
+  "ruby": "とうかいのようくん",
+  "unmodifiedDetail": "刻印されたカードによる攻撃時に、敵単体に呪い状態(500ダメージ・3ターン)を付与 ＋ 刻印されたカードに〔呪い〕特攻効果を10%付与＆NP獲得量を5%アップ",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00527.png",
+  "coolDown": [0],
+  "functions": [{
+    "funcId": 3600,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 995473,
+      "Value2": 1,
+      "ShowState": -1
+    }]
+  }, {
+    "funcId": 5494,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 100,
+      "ShowState": 1
+    }]
+  }, {
+    "funcId": 5623,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 50
+    }]
+  }]
+}, {
+  "id": 995471,
+  "name": "",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_999999.png",
+  "coolDown": [0],
+  "functions": [{
+    "funcId": 320,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 300
+    }]
+  }]
+}, {
+  "id": 995472,
+  "name": "",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_999999.png",
+  "coolDown": [0],
+  "functions": [{
+    "funcId": 318,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 500
+    }]
+  }]
+}, {
+  "id": 995473,
+  "name": "",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_999999.png",
+  "coolDown": [0],
+  "functions": [{
+    "funcId": 320,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 500
+    }]
+  }]
+}, {
   "id": 2000550,
   "name": "維新の龍 A",
   "ruby": "いしんのりゅう",
@@ -263539,6 +264366,18 @@
     "condQuestPhase": 3,
     "condLimitCount": 3,
     "flag": 16
+  }, {
+    "svtId": 9948180,
+    "num": 3,
+    "priority": 2,
+    "strengthStatus": 99,
+    "condLimitCount": 3
+  }, {
+    "svtId": 9948190,
+    "num": 3,
+    "priority": 2,
+    "strengthStatus": 99,
+    "condLimitCount": 3
   }],
   "functions": [{
     "funcId": 199,
@@ -315615,7 +316454,8 @@
       "Count": -1,
       "Value": 10042,
       "HideMiss": 1,
-      "HideNoEffect": 1
+      "HideNoEffect": 1,
+      "NotRemoveOnShift": 1
     }]
   }, {
     "funcId": 23461,
@@ -315630,7 +316470,8 @@
       "ShowState": -1,
       "ForceAddState": 1,
       "UnSubState": 1,
-      "SelfTurnProgressGroup": 705300
+      "SelfTurnProgressGroup": 705300,
+      "NotRemoveOnShift": 1
     }]
   }, {
     "funcId": 23551,
@@ -315645,7 +316486,8 @@
       "ShowState": -1,
       "ForceAddState": 1,
       "UnSubState": 1,
-      "SelfTurnProgressGroup": 705300
+      "SelfTurnProgressGroup": 705300,
+      "NotRemoveOnShift": 1
     }]
   }, {
     "funcId": 23535,
@@ -318766,6 +319608,11 @@
     "strengthStatus": 99,
     "condQuestId": 94158906,
     "condQuestPhase": 3
+  }, {
+    "svtId": 9948180,
+    "num": 1,
+    "priority": 2,
+    "strengthStatus": 99
   }],
   "functions": [{
     "funcId": 145,
@@ -318877,6 +319724,11 @@
     "condQuestId": 94158906,
     "condQuestPhase": 3,
     "flag": 16
+  }, {
+    "svtId": 9948190,
+    "num": 1,
+    "priority": 2,
+    "strengthStatus": 99
   }],
   "functions": [{
     "funcId": 145,
@@ -319351,6 +320203,402 @@
       "Turn": 3,
       "Count": -1,
       "Value": 200
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }]
+}, {
+  "id": 2699449,
+  "name": "狂化（改造） B-",
+  "ruby": "きょうか（かいぞう）",
+  "unmodifiedDetail": "自身のBusterカード性能をアップ＆毎ターンスター2個獲得状態を付与",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00106.png",
+  "coolDown": [0],
+  "functions": [{
+    "funcId": 118,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 100
+    }]
+  }, {
+    "funcId": 333,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 2
+    }]
+  }]
+}, {
+  "id": 2700650,
+  "name": "道具作成（物理） EX",
+  "ruby": "どうぐさくせい（ぶつり）",
+  "unmodifiedDetail": "自身がフィールドにいる間、味方全体の被強化成功率をアップ",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00103.png",
+  "coolDown": [0],
+  "functions": [{
+    "funcId": 7043,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 100,
+      "OnField": 1,
+      "ShowState": -1
+    }]
+  }]
+}, {
+  "id": 2701650,
+  "name": "陣地作成（物理） EX",
+  "ruby": "じんちさくせい（ぶつり）",
+  "unmodifiedDetail": "自身のArtsカード性能をアップ ＋ 自身がフィールドにいる間、味方全体に被ダメージカット状態を付与",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00104.png",
+  "coolDown": [0],
+  "functions": [{
+    "funcId": 109,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 100
+    }]
+  }, {
+    "funcId": 3342,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 200,
+      "OnField": 1
+    }]
+  }]
+}, {
+  "id": 2702550,
+  "name": "高速設計 A",
+  "ruby": "こうそくせっけい",
+  "unmodifiedDetail": "味方単体のスキルチャージを1進める＆NPを増やす[{0}]＆Artsカード性能をアップ[{0}](3ターン)＆Busterカード性能をアップ[{0}](3ターン)",
+  "type": "active",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00609.png",
+  "coolDown": [9, 9, 9, 9, 9, 8, 8, 8, 8, 7],
+  "skillSvts": [{
+    "svtId": 705400,
+    "num": 1,
+    "priority": 1
+  }],
+  "functions": [{
+    "funcId": 501,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 1
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 463,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 2000
+    }, {
+      "Value": 2100
+    }, {
+      "Value": 2200
+    }, {
+      "Value": 2300
+    }, {
+      "Value": 2400
+    }, {
+      "Value": 2500
+    }, {
+      "Value": 2600
+    }, {
+      "Value": 2700
+    }, {
+      "Value": 2800
+    }, {
+      "Value": 3000
+    }]
+  }, {
+    "funcId": 471,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 1
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 113,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 200
+    }, {
+      "Value": 210
+    }, {
+      "Value": 220
+    }, {
+      "Value": 230
+    }, {
+      "Value": 240
+    }, {
+      "Value": 250
+    }, {
+      "Value": 260
+    }, {
+      "Value": 270
+    }, {
+      "Value": 280
+    }, {
+      "Value": 300
+    }]
+  }, {
+    "funcId": 122,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 200
+    }, {
+      "Value": 210
+    }, {
+      "Value": 220
+    }, {
+      "Value": 230
+    }, {
+      "Value": 240
+    }, {
+      "Value": 250
+    }, {
+      "Value": 260
+    }, {
+      "Value": 270
+    }, {
+      "Value": 280
+    }, {
+      "Value": 300
+    }]
+  }]
+}, {
+  "id": 2703450,
+  "name": "文化英雄 B",
+  "ruby": "ぶんかえいゆう",
+  "unmodifiedDetail": "味方全体に宝具使用時のチャージ段階を1段階引き上げる状態を付与(1回・3ターン)＆宝具威力をアップ[{0}](3ターン) ＋ 自身に無敵状態を付与(2回・3ターン)＆「Quick攻撃時に味方全体に宝具使用時のチャージ段階を1段階引き上げる状態を付与(1回・5ターン)する状態」を付与(5回・5ターン)＆「Arts攻撃時に味方全体の攻撃力をアップ[{0}](3ターン)する状態」を付与(5回・5ターン)＆「Buster攻撃時に味方全体のクリティカル威力をアップ[{0}](3ターン)する状態」を付与(5回・5ターン)",
+  "type": "active",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00313.png",
+  "coolDown": [9, 9, 9, 9, 9, 8, 8, 8, 8, 7],
+  "skillSvts": [{
+    "svtId": 705400,
+    "num": 2,
+    "priority": 1,
+    "condLimitCount": 1
+  }],
+  "functions": [{
+    "funcId": 759,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": 1,
+      "Value": 1
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 254,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 100
+    }, {
+      "Value": 110
+    }, {
+      "Value": 120
+    }, {
+      "Value": 130
+    }, {
+      "Value": 140
+    }, {
+      "Value": 150
+    }, {
+      "Value": 160
+    }, {
+      "Value": 170
+    }, {
+      "Value": 180
+    }, {
+      "Value": 200
+    }]
+  }, {
+    "funcId": 289,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": 2
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 23620,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 5,
+      "Count": 5,
+      "Value": 970953,
+      "Value2": 1
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 23621,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 5,
+      "Count": 5,
+      "Value": 970954,
+      "Value2": 1
+    }, {
+      "Value2": 2
+    }, {
+      "Value2": 3
+    }, {
+      "Value2": 4
+    }, {
+      "Value2": 5
+    }, {
+      "Value2": 6
+    }, {
+      "Value2": 7
+    }, {
+      "Value2": 8
+    }, {
+      "Value2": 9
+    }, {
+      "Value2": 10
+    }]
+  }, {
+    "funcId": 23622,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 5,
+      "Count": 5,
+      "Value": 970955,
+      "Value2": 1
+    }, {
+      "Value2": 2
+    }, {
+      "Value2": 3
+    }, {
+      "Value2": 4
+    }, {
+      "Value2": 5
+    }, {
+      "Value2": 6
+    }, {
+      "Value2": 7
+    }, {
+      "Value2": 8
+    }, {
+      "Value2": 9
+    }, {
+      "Value2": 10
+    }]
+  }]
+}, {
+  "id": 2704350,
+  "name": "鍛冶神のるつぼ C",
+  "ruby": "クルーシブル・オブ・サイクロプス",
+  "unmodifiedDetail": "自身のNPを増やす[{0}]＆毎ターンNP獲得状態を付与[{0}](5ターン)＆毎ターンスター獲得状態を付与[{0}](5ターン)",
+  "type": "active",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00601.png",
+  "coolDown": [9, 9, 9, 9, 9, 8, 8, 8, 8, 7],
+  "skillSvts": [{
+    "svtId": 705400,
+    "num": 3,
+    "priority": 1,
+    "condLimitCount": 3
+  }],
+  "functions": [{
+    "funcId": 460,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 3000
+    }, {
+      "Value": 3200
+    }, {
+      "Value": 3400
+    }, {
+      "Value": 3600
+    }, {
+      "Value": 3800
+    }, {
+      "Value": 4000
+    }, {
+      "Value": 4200
+    }, {
+      "Value": 4400
+    }, {
+      "Value": 4600
+    }, {
+      "Value": 5000
+    }]
+  }, {
+    "funcId": 325,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 5,
+      "Count": -1,
+      "Value": 500
+    }, {
+      "Value": 550
+    }, {
+      "Value": 600
+    }, {
+      "Value": 650
+    }, {
+      "Value": 700
+    }, {
+      "Value": 750
+    }, {
+      "Value": 800
+    }, {
+      "Value": 850
+    }, {
+      "Value": 900
+    }, {
+      "Value": 1000
+    }]
+  }, {
+    "funcId": 470,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 1
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 334,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 5,
+      "Count": -1,
+      "Value": 5
+    }, {
+      "Value": 6
+    }, {
+      "Value": 7
+    }, {
+      "Value": 8
+    }, {
+      "Value": 9
+    }, {
+      "Value": 10
+    }, {
+      "Value": 11
+    }, {
+      "Value": 12
+    }, {
+      "Value": 13
+    }, {
+      "Value": 15
+    }]
+  }, {
+    "funcId": 215,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 5,
+      "Count": -1,
+      "Value": 100
     }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
   }]
 }, {
