@@ -122244,8 +122244,74 @@
       "openedAt": 1789556400,
       "closedAt": 1791345599
     }, {
-      "id": 94161000,
-      "name": "",
+      "id": 94160902,
+      "name": "スローター２",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "70",
+      "spotId": 841201,
+      "warId": 8412,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "groups": [{
+        "type": "eventQuest",
+        "groupId": 80627
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94161000
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "commonRelease",
+        "targetId": 94160902,
+        "closedMessage": "「ナウクラテー１」クリア\n＆「インターミッション１」クリア\n＆パンプキン収穫ポイント25,000以上獲得で次の進行度開放"
+      }, {
+        "type": "commonRelease",
+        "targetId": 94160903,
+        "closedMessage": "THINKING TIME...\n9月17日 22時00分に次の進行度開放"
+      }, {
+        "type": "commonRelease",
+        "targetId": 94160909,
+        "closedMessage": "パンプキン収穫ポイント25,000以上獲得で次の進行度開放"
+      }],
+      "phases": [1, 2, 3, 4, 5],
+      "phasesWithEnemies": [1],
+      "phasesNoBattle": [2, 3],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9416090210",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9416/9416090210.txt"
+        }, {
+          "scriptId": "9416090211",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9416/9416090211.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9416090220",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9416/9416090220.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9416090230",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9416/9416090230.txt"
+        }]
+      }],
+      "priority": 94160997,
+      "noticeAt": 1789635600,
+      "openedAt": 1789635600,
+      "closedAt": 1791345599
+    }, {
+      "id": 94160903,
+      "name": "ナウクラテー１",
       "type": "main",
       "flags": ["noBattle"],
       "consume": 0,
@@ -122253,20 +122319,110 @@
       "recommendLv": "1",
       "spotId": 841201,
       "warId": 8412,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "groups": [{
+        "type": "eventQuest",
+        "groupId": 80627
+      }],
       "releaseConditions": [{
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "questClearPhase",
+        "targetId": 94160902,
+        "value": 2
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9416090310",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9416/9416090310.txt"
+        }]
+      }],
+      "priority": 94160996,
+      "noticeAt": 1789635600,
+      "openedAt": 1789635600,
+      "closedAt": 1791345599
+    }, {
+      "id": 94160904,
+      "name": "インターミッション１",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 841201,
+      "warId": 8412,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "groups": [{
+        "type": "eventQuest",
+        "groupId": 80627
+      }],
+      "releaseConditions": [{
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "questClearPhase",
+        "targetId": 94160902,
+        "value": 2
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9416090410",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9416/9416090410.txt"
+        }]
+      }],
+      "priority": 94160995,
+      "noticeAt": 1789635600,
+      "openedAt": 1789635600,
+      "closedAt": 1791345599
+    }, {
+      "id": 94161000,
+      "name": "ログ／源頼光",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 841201,
+      "warId": 8412,
+      "groups": [{
+        "type": "eventQuest",
+        "groupId": 80627
+      }],
+      "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 94160901
       }, {
         "type": "date",
         "targetId": 0,
         "closedMessage": "9月17日18時00分に開放\n※次の神託を得るためにはパンプキン収穫ポイント25,000以上が必要"
-      }, {
-        "type": "forceFalse",
-        "targetId": 0,
-        "closedMessage": "データ更新後に開放"
       }],
       "phases": [1],
       "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9416100010",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9416/9416100010.txt"
+        }]
+      }],
       "priority": 94160998,
       "noticeAt": 1789556400,
       "openedAt": 1789635600,
@@ -122369,7 +122525,7 @@
       "closedAt": 1791345599
     }, {
       "id": 94161103,
-      "name": "",
+      "name": "パンプキン収穫 ここ掘れファーム",
       "type": "event",
       "consume": 40,
       "afterClear": "repeatLast",
@@ -122381,6 +122537,10 @@
         "objectId": 100,
         "num": 1
       }],
+      "groups": [{
+        "type": "eventQuest",
+        "groupId": 80627
+      }],
       "releaseConditions": [{
         "type": "date",
         "targetId": 0,
@@ -122390,14 +122550,47 @@
         "targetId": 94160901,
         "value": 3
       }, {
-        "type": "forceFalse",
-        "targetId": 0,
+        "type": "questClearPhase",
+        "targetId": 94160902,
+        "value": 2,
         "closedMessage": "シナリオを進行することで開放"
       }],
       "phases": [1],
       "priority": 94160957,
       "noticeAt": 1789556400,
       "openedAt": 1789635600,
+      "closedAt": 1791345599
+    }, {
+      "id": 94161104,
+      "name": "",
+      "type": "event",
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "80",
+      "spotId": 841201,
+      "warId": 8412,
+      "gifts": [{
+        "id": 12000,
+        "objectId": 100,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "9月18日18時00分以降\n＆シナリオを進行することで開放"
+      }, {
+        "type": "questClearPhase",
+        "targetId": 94160902,
+        "value": 2
+      }, {
+        "type": "forceFalse",
+        "targetId": 0,
+        "closedMessage": "シナリオを進行することで開放"
+      }],
+      "phases": [1],
+      "priority": 94160956,
+      "noticeAt": 1789635600,
+      "openedAt": 1789722000,
       "closedAt": 1791345599
     }]
   }]
