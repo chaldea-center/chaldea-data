@@ -122605,6 +122605,12 @@
           "scriptId": "9416090820",
           "script": "https://static.atlasacademy.io/JP/Script/94/9416/9416090820.txt"
         }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9416090830",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9416/9416090830.txt"
+        }]
       }],
       "priority": 94160988,
       "noticeAt": 1789808400,
@@ -122679,6 +122685,7 @@
         "value": 2
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "phaseScripts": [{
         "phase": 1,
         "scripts": [{
@@ -122837,6 +122844,34 @@
       "priority": 94160989,
       "noticeAt": 1789736400,
       "openedAt": 1789808400,
+      "closedAt": 1791345599
+    }, {
+      "id": 94161004,
+      "name": "",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 841201,
+      "warId": 8412,
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94160908
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "9月20日18時00分に開放\n※次の神託を得るためにはパンプキン収穫ポイント180,000以上が必要"
+      }, {
+        "type": "forceFalse",
+        "targetId": 0,
+        "closedMessage": "データ更新後に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94160985,
+      "noticeAt": 1789822800,
+      "openedAt": 1789894800,
       "closedAt": 1791345599
     }, {
       "id": 94161100,
@@ -123042,6 +123077,7 @@
         "value": 1
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94160955,
       "noticeAt": 1789722000,
       "openedAt": 1789808400,
