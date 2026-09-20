@@ -122129,6 +122129,16 @@
     "value": 2,
     "startedAt": 1789556400,
     "endedAt": 1791345599
+  }, {
+    "warId": 8412,
+    "type": "bgImage",
+    "priority": 2,
+    "overwriteId": 301110,
+    "condType": "questClearPhase",
+    "targetId": 94160914,
+    "value": 1,
+    "startedAt": 1789894800,
+    "endedAt": 1791345599
   }],
   "maps": [{
     "id": 8412,
@@ -122698,6 +122708,195 @@
       "openedAt": 1789808400,
       "closedAt": 1791345599
     }, {
+      "id": 94160911,
+      "name": "スローター５",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "80",
+      "spotId": 841201,
+      "warId": 8412,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "groups": [{
+        "type": "eventQuest",
+        "groupId": 80627
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94161004
+      }, {
+        "type": "questClear",
+        "targetId": 94161005
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "commonRelease",
+        "targetId": 94160908,
+        "closedMessage": "「ナウクラテー４」クリア\n＆パンプキン収穫ポイント180,000以上獲得で次の進行度開放"
+      }, {
+        "type": "commonRelease",
+        "targetId": 94160913,
+        "closedMessage": "パンプキン収穫ポイント180,000以上獲得で次の進行度開放"
+      }],
+      "phases": [1, 2, 3],
+      "phasesNoBattle": [1, 2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9416091110",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9416/9416091110.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9416091120",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9416/9416091120.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9416091130",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9416/9416091130.txt"
+        }, {
+          "scriptId": "9416091131",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9416/9416091131.txt"
+        }]
+      }],
+      "priority": 94160983,
+      "noticeAt": 1789894800,
+      "openedAt": 1789894800,
+      "closedAt": 1791345599
+    }, {
+      "id": 94160912,
+      "name": "ナウクラテー４",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 841201,
+      "warId": 8412,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "groups": [{
+        "type": "eventQuest",
+        "groupId": 80627
+      }],
+      "releaseConditions": [{
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "questClearPhase",
+        "targetId": 94160911,
+        "value": 1
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9416091210",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9416/9416091210.txt"
+        }]
+      }],
+      "priority": 94160982,
+      "noticeAt": 1789894800,
+      "openedAt": 1789894800,
+      "closedAt": 1791345599
+    }, {
+      "id": 94160913,
+      "name": "スローター６",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "85",
+      "spotId": 841201,
+      "warId": 8412,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "groups": [{
+        "type": "eventQuest",
+        "groupId": 80627
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94160911
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1, 2],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9416091310",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9416/9416091310.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9416091320",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9416/9416091320.txt"
+        }, {
+          "scriptId": "9416091321",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9416/9416091321.txt"
+        }]
+      }],
+      "priority": 94160981,
+      "noticeAt": 1789894800,
+      "openedAt": 1789894800,
+      "closedAt": 1791345599
+    }, {
+      "id": 94160914,
+      "name": "",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "75",
+      "spotId": 841201,
+      "warId": 8412,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94160913
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "eventTotalPoint",
+        "targetId": 80627,
+        "value": 350000,
+        "closedMessage": "パンプキン収穫ポイント350,000以上獲得\n＆9月21日18時00分以降に開放"
+      }, {
+        "type": "forceFalse",
+        "targetId": 0,
+        "closedMessage": "データ更新後に開放"
+      }],
+      "phases": [1, 2, 3, 4, 5],
+      "phasesNoBattle": [1, 2, 3, 4, 5],
+      "priority": 94160980,
+      "noticeAt": 1789894800,
+      "openedAt": 1789981200,
+      "closedAt": 1791345599
+    }, {
       "id": 94161000,
       "name": "ログ／源頼光",
       "type": "main",
@@ -122847,7 +123046,7 @@
       "closedAt": 1791345599
     }, {
       "id": 94161004,
-      "name": "",
+      "name": "ログ／モードレッド",
       "type": "main",
       "flags": ["noBattle"],
       "consume": 0,
@@ -122855,22 +123054,66 @@
       "recommendLv": "1",
       "spotId": 841201,
       "warId": 8412,
+      "groups": [{
+        "type": "eventQuest",
+        "groupId": 80627
+      }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 94160908
       }, {
         "type": "date",
         "targetId": 0,
         "closedMessage": "9月20日18時00分に開放\n※次の神託を得るためにはパンプキン収穫ポイント180,000以上が必要"
-      }, {
-        "type": "forceFalse",
-        "targetId": 0,
-        "closedMessage": "データ更新後に開放"
       }],
       "phases": [1],
       "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9416100410",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9416/9416100410.txt"
+        }]
+      }],
       "priority": 94160985,
       "noticeAt": 1789822800,
+      "openedAt": 1789894800,
+      "closedAt": 1791345599
+    }, {
+      "id": 94161005,
+      "name": "ログ／オジマンディアス",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 841201,
+      "warId": 8412,
+      "groups": [{
+        "type": "eventQuest",
+        "groupId": 80627
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94160908
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9416100510",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9416/9416100510.txt"
+        }]
+      }],
+      "priority": 94160984,
+      "noticeAt": 1789894800,
       "openedAt": 1789894800,
       "closedAt": 1791345599
     }, {
@@ -123084,7 +123327,7 @@
       "closedAt": 1791345599
     }, {
       "id": 94161106,
-      "name": "",
+      "name": "パンプキン収穫 未明のファーム",
       "type": "event",
       "consume": 40,
       "afterClear": "repeatLast",
@@ -123096,6 +123339,10 @@
         "objectId": 100,
         "num": 1
       }],
+      "groups": [{
+        "type": "eventQuest",
+        "groupId": 80627
+      }],
       "releaseConditions": [{
         "type": "questClear",
         "targetId": 94160909
@@ -123104,14 +123351,79 @@
         "targetId": 0,
         "closedMessage": "9月20日18時00分以降\n＆シナリオを進行することで開放"
       }, {
-        "type": "forceFalse",
-        "targetId": 0,
+        "type": "questClearPhase",
+        "targetId": 94160911,
+        "value": 1,
         "closedMessage": "シナリオを進行することで開放"
       }],
       "phases": [1],
       "priority": 94160954,
       "noticeAt": 1789808400,
       "openedAt": 1789894800,
+      "closedAt": 1791345599
+    }, {
+      "id": 94161107,
+      "name": "",
+      "type": "event",
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90+",
+      "spotId": 841201,
+      "warId": 8412,
+      "gifts": [{
+        "id": 327,
+        "objectId": 3,
+        "num": 100
+      }],
+      "releaseConditions": [{
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "9月21日18時00分以降\n＆シナリオを進行することで開放"
+      }, {
+        "type": "questClearPhase",
+        "targetId": 94160911,
+        "value": 1
+      }, {
+        "type": "forceFalse",
+        "targetId": 0,
+        "closedMessage": "シナリオを進行することで開放"
+      }],
+      "phases": [1],
+      "priority": 94160953,
+      "noticeAt": 1789894800,
+      "openedAt": 1789981200,
+      "closedAt": 1791345599
+    }, {
+      "id": 94161108,
+      "name": "",
+      "type": "event",
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90++",
+      "spotId": 841201,
+      "warId": 8412,
+      "gifts": [{
+        "id": 337,
+        "objectId": 3,
+        "num": 200
+      }],
+      "releaseConditions": [{
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "9月21日18時00分以降\n＆シナリオを進行することで開放"
+      }, {
+        "type": "questClearPhase",
+        "targetId": 94160911,
+        "value": 1
+      }, {
+        "type": "forceFalse",
+        "targetId": 0,
+        "closedMessage": "シナリオを進行することで開放"
+      }],
+      "phases": [1],
+      "priority": 94160952,
+      "noticeAt": 1789894800,
+      "openedAt": 1789981200,
       "closedAt": 1791345599
     }]
   }]
