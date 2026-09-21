@@ -122139,6 +122139,15 @@
     "value": 1,
     "startedAt": 1789894800,
     "endedAt": 1791345599
+  }, {
+    "warId": 8412,
+    "type": "bgImage",
+    "priority": 3,
+    "overwriteId": 301001,
+    "condType": "questClear",
+    "targetId": 94160916,
+    "startedAt": 1789981200,
+    "endedAt": 1791345599
   }],
   "maps": [{
     "id": 8412,
@@ -122862,9 +122871,8 @@
       "closedAt": 1791345599
     }, {
       "id": 94160914,
-      "name": "",
+      "name": "R.I.P.",
       "type": "main",
-      "flags": ["noBattle"],
       "consume": 5,
       "afterClear": "close",
       "recommendLv": "75",
@@ -122875,7 +122883,14 @@
         "objectId": 2,
         "num": 1
       }],
+      "groups": [{
+        "type": "eventQuest",
+        "groupId": 80627
+      }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 94160913
       }, {
@@ -122887,15 +122902,147 @@
         "targetId": 80627,
         "value": 350000,
         "closedMessage": "パンプキン収穫ポイント350,000以上獲得\n＆9月21日18時00分以降に開放"
-      }, {
-        "type": "forceFalse",
-        "targetId": 0,
-        "closedMessage": "データ更新後に開放"
       }],
       "phases": [1, 2, 3, 4, 5],
-      "phasesNoBattle": [1, 2, 3, 4, 5],
+      "phasesWithEnemies": [2],
+      "phasesNoBattle": [1, 3, 5],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9416091410",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9416/9416091410.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9416091420",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9416/9416091420.txt"
+        }, {
+          "scriptId": "9416091421",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9416/9416091421.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9416091430",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9416/9416091430.txt"
+        }]
+      }, {
+        "phase": 4,
+        "scripts": [{
+          "scriptId": "9416091440",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9416/9416091440.txt"
+        }, {
+          "scriptId": "9416091441",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9416/9416091441.txt"
+        }]
+      }, {
+        "phase": 5,
+        "scripts": [{
+          "scriptId": "9416091450",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9416/9416091450.txt"
+        }]
+      }],
       "priority": 94160980,
       "noticeAt": 1789894800,
+      "openedAt": 1789981200,
+      "closedAt": 1791345599
+    }, {
+      "id": 94160915,
+      "name": "ファイナル・スローター",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "75",
+      "spotId": 841201,
+      "warId": 8412,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "groups": [{
+        "type": "eventQuest",
+        "groupId": 80627
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94160914
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1, 2, 3],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9416091510",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9416/9416091510.txt"
+        }, {
+          "scriptId": "9416091511",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9416/9416091511.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9416091520",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9416/9416091520.txt"
+        }, {
+          "scriptId": "9416091521",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9416/9416091521.txt"
+        }]
+      }, {
+        "phase": 3,
+        "scripts": [{
+          "scriptId": "9416091530",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9416/9416091530.txt"
+        }, {
+          "scriptId": "9416091531",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9416/9416091531.txt"
+        }]
+      }],
+      "priority": 94160979,
+      "noticeAt": 1789981200,
+      "openedAt": 1789981200,
+      "closedAt": 1791345599
+    }, {
+      "id": 94160916,
+      "name": "エピローグ",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 841201,
+      "warId": 8412,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/3.png",
+      "gifts": [{
+        "id": 20058,
+        "objectId": 7999,
+        "num": 1
+      }],
+      "groups": [{
+        "type": "eventQuest",
+        "groupId": 80627
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94160915
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9416091610",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9416/9416091610.txt"
+        }]
+      }],
+      "priority": 94160978,
+      "noticeAt": 1789981200,
       "openedAt": 1789981200,
       "closedAt": 1791345599
     }, {
@@ -123366,7 +123513,7 @@
       "closedAt": 1791345599
     }, {
       "id": 94161107,
-      "name": "",
+      "name": "パンプキン収穫 父と子のファーム",
       "type": "event",
       "consume": 40,
       "afterClear": "repeatLast",
@@ -123378,7 +123525,15 @@
         "objectId": 3,
         "num": 100
       }],
+      "groups": [{
+        "type": "eventQuest",
+        "groupId": 80627
+      }],
       "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94160916,
+        "closedMessage": "シナリオを進行することで開放"
+      }, {
         "type": "date",
         "targetId": 0,
         "closedMessage": "9月21日18時00分以降\n＆シナリオを進行することで開放"
@@ -123386,10 +123541,6 @@
         "type": "questClearPhase",
         "targetId": 94160911,
         "value": 1
-      }, {
-        "type": "forceFalse",
-        "targetId": 0,
-        "closedMessage": "シナリオを進行することで開放"
       }],
       "phases": [1],
       "priority": 94160953,
@@ -123398,7 +123549,7 @@
       "closedAt": 1791345599
     }, {
       "id": 94161108,
-      "name": "",
+      "name": "パンプキン収穫 誓いのファーム",
       "type": "event",
       "consume": 40,
       "afterClear": "repeatLast",
@@ -123410,7 +123561,15 @@
         "objectId": 3,
         "num": 200
       }],
+      "groups": [{
+        "type": "eventQuest",
+        "groupId": 80627
+      }],
       "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94160916,
+        "closedMessage": "シナリオを進行することで開放"
+      }, {
         "type": "date",
         "targetId": 0,
         "closedMessage": "9月21日18時00分以降\n＆シナリオを進行することで開放"
@@ -123418,15 +123577,43 @@
         "type": "questClearPhase",
         "targetId": 94160911,
         "value": 1
-      }, {
-        "type": "forceFalse",
-        "targetId": 0,
-        "closedMessage": "シナリオを進行することで開放"
       }],
       "phases": [1],
       "priority": 94160952,
       "noticeAt": 1789894800,
       "openedAt": 1789981200,
+      "closedAt": 1791345599
+    }, {
+      "id": 94161200,
+      "name": "",
+      "type": "event",
+      "flags": ["dropFirstTimeOnly", "userEventDeck", "notRetrievable", "notDisplayResultGetPoint"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "100★",
+      "spotId": 841201,
+      "warId": 8412,
+      "gifts": [{
+        "id": 25494,
+        "objectId": 1000,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94160916
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "forceFalse",
+        "targetId": 0,
+        "closedMessage": "データ更新後に開放"
+      }],
+      "phases": [1],
+      "priority": 94161001,
+      "noticeAt": 1789981200,
+      "openedAt": 1790067600,
       "closedAt": 1791345599
     }]
   }]
