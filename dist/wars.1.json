@@ -117923,6 +117923,47 @@
       "openedAt": 1786179600,
       "closedAt": 1893423600
     }, {
+      "id": 94161300,
+      "name": "強化クエスト 果心居士",
+      "type": "event",
+      "flags": ["noDisplayRemain"],
+      "consume": 23,
+      "afterClear": "close",
+      "recommendLv": "90",
+      "spotId": 99001,
+      "warId": 1001,
+      "gifts": [{
+        "id": 94012504,
+        "objectId": 2,
+        "num": 2
+      }, {
+        "id": 94012504,
+        "type": "questRewardIcon",
+        "objectId": 9,
+        "num": 0
+      }],
+      "groups": [{
+        "type": "eventQuest",
+        "groupId": 0
+      }],
+      "releaseConditions": [{
+        "type": "svtLimit",
+        "targetId": 604900,
+        "value": 4,
+        "closedMessage": "霊基再臨{0}段階目で開放"
+      }, {
+        "type": "svtGet",
+        "targetId": 604900
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1, 2, 3],
+      "priority": 94161501,
+      "noticeAt": 1790067600,
+      "openedAt": 1790067600,
+      "closedAt": 1893423600
+    }, {
       "id": 94161500,
       "name": "強化クエスト 酒呑童子",
       "type": "event",
