@@ -289131,40 +289131,38 @@
   "rewardScenes": [{
     "type": 3,
     "guides": [{
-      "imageId": 705400,
-      "limitCount": 1,
-      "image": "https://static.atlasacademy.io/JP/CharaFigure/7054001/7054001_merged.png",
-      "faceId": 2
+      "imageId": 109837340,
+      "image": "https://static.atlasacademy.io/JP/CharaFigure/1098373400/1098373400_merged.png",
+      "faceId": 6
     }],
     "tabOnImage": "https://static.atlasacademy.io/JP/EventReward/btn_txt_on_80627_0.png",
     "tabOffImage": "https://static.atlasacademy.io/JP/EventReward/btn_txt_off_80627_0.png",
-    "bg": "https://static.atlasacademy.io/JP/Back/back300901.png",
+    "bg": "https://static.atlasacademy.io/JP/Back/back301001.png",
     "bgm": {
       "id": 1089
     },
     "afterBgm": {
       "id": 1089
     },
-    "flags": []
+    "flags": ["npcGuide"]
   }, {
     "slot": 1,
     "type": 1,
     "guides": [{
-      "imageId": 705400,
-      "limitCount": 1,
-      "image": "https://static.atlasacademy.io/JP/CharaFigure/7054001/7054001_merged.png",
-      "faceId": 2
+      "imageId": 109837340,
+      "image": "https://static.atlasacademy.io/JP/CharaFigure/1098373400/1098373400_merged.png",
+      "faceId": 6
     }],
     "tabOnImage": "https://static.atlasacademy.io/JP/EventReward/btn_txt_on_80627_1.png",
     "tabOffImage": "https://static.atlasacademy.io/JP/EventReward/btn_txt_off_80627_1.png",
-    "bg": "https://static.atlasacademy.io/JP/Back/back300901.png",
+    "bg": "https://static.atlasacademy.io/JP/Back/back301001.png",
     "bgm": {
       "id": 1089
     },
     "afterBgm": {
       "id": 1089
     },
-    "flags": []
+    "flags": ["npcGuide"]
   }],
   "voices": [{
     "svtId": 705400,
@@ -289276,6 +289274,142 @@
         "value": 80627
       }, {
         "condType": "eventPeriod",
+        "value": 80627
+      }]
+    }, {
+      "name": "ショップついて 6",
+      "condType": "eventEnd",
+      "priority": 6440,
+      "svtVoiceType": "eventShop",
+      "overwriteName": "くたばれ！ パンプキンファーム・スローター 6",
+      "id": ["0_I060", "0_I061", "0_I062", "0_I063"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_705400/0_I060.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_705400/0_I061.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_705400/0_I062.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_705400/0_I063.mp3"],
+      "delay": [0.0, 0.1, 0.1, 0.1],
+      "face": [0, 1, 12, 6],
+      "conds": [{
+        "condType": "eventEnd",
+        "value": 80627
+      }]
+    }, {
+      "name": "ショップついて 7",
+      "condType": "eventEnd",
+      "priority": 6430,
+      "svtVoiceType": "eventShop",
+      "overwriteName": "くたばれ！ パンプキンファーム・スローター 7",
+      "id": ["0_I070", "0_I071", "0_I072"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_705400/0_I070.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_705400/0_I071.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_705400/0_I072.mp3"],
+      "delay": [0.0, 0.1, 0.1],
+      "face": [4, 10, 13],
+      "conds": [{
+        "condType": "eventEnd",
+        "value": 80627
+      }]
+    }]
+  }, {
+    "svtId": 109837340,
+    "type": "eventReward",
+    "voiceLines": [{
+      "name": "イベントについて 6",
+      "condType": "eventEnd",
+      "priority": 6940,
+      "svtVoiceType": "eventReward",
+      "id": ["0_N060", "0_N061", "0_N062", "0_N063"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_109837340/0_N060.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109837340/0_N061.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109837340/0_N062.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109837340/0_N063.mp3"],
+      "delay": [0.0, 0.1, 0.1, 0.1],
+      "face": [0, 1, 12, 6],
+      "conds": [{
+        "condType": "eventEnd",
+        "value": 80627
+      }]
+    }, {
+      "name": "イベントについて 7",
+      "condType": "eventEnd",
+      "priority": 6930,
+      "svtVoiceType": "eventReward",
+      "id": ["0_N070", "0_N071", "0_N072"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_109837340/0_N070.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109837340/0_N071.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109837340/0_N072.mp3"],
+      "delay": [0.0, 0.1, 0.1],
+      "face": [4, 10, 13],
+      "conds": [{
+        "condType": "eventEnd",
+        "value": 80627
+      }]
+    }]
+  }, {
+    "svtId": 109837340,
+    "type": "eventShop",
+    "voiceLines": [{
+      "name": "ショップついて 3",
+      "condType": "eventEnd",
+      "priority": 6470,
+      "svtVoiceType": "eventShop",
+      "id": ["0_I030", "0_I031", "0_I032"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_109837340/0_I030.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109837340/0_I031.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109837340/0_I032.mp3"],
+      "delay": [0.0, 0.1, 0.1],
+      "face": [0, 11, 10],
+      "conds": [{
+        "condType": "eventShopPurchase",
+        "value": 80627
+      }, {
+        "condType": "eventPeriod",
+        "value": 80627
+      }]
+    }, {
+      "name": "ショップついて 4",
+      "condType": "eventEnd",
+      "priority": 6460,
+      "svtVoiceType": "eventShop",
+      "id": ["0_I040", "0_I041"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_109837340/0_I040.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109837340/0_I041.mp3"],
+      "delay": [0.0, 0.1],
+      "face": [4, 1],
+      "conds": [{
+        "condType": "eventShopPurchase",
+        "value": 80627
+      }, {
+        "condType": "eventPeriod",
+        "value": 80627
+      }]
+    }, {
+      "name": "ショップついて 5",
+      "condType": "eventEnd",
+      "priority": 6450,
+      "svtVoiceType": "eventShop",
+      "id": ["0_I050", "0_I051", "0_I052"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_109837340/0_I050.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109837340/0_I051.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109837340/0_I052.mp3"],
+      "delay": [0.0, 0.1, 0.1],
+      "face": [5, 3, 8],
+      "conds": [{
+        "condType": "eventShopPurchase",
+        "value": 80627
+      }, {
+        "condType": "eventPeriod",
+        "value": 80627
+      }]
+    }, {
+      "name": "ショップついて 6",
+      "condType": "eventEnd",
+      "priority": 6440,
+      "svtVoiceType": "eventShop",
+      "id": ["0_I060", "0_I061", "0_I062", "0_I063"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_109837340/0_I060.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109837340/0_I061.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109837340/0_I062.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109837340/0_I063.mp3"],
+      "delay": [0.0, 0.1, 0.1, 0.1],
+      "face": [0, 1, 12, 6],
+      "conds": [{
+        "condType": "eventEnd",
+        "value": 80627
+      }]
+    }, {
+      "name": "ショップついて 7",
+      "condType": "eventEnd",
+      "priority": 6430,
+      "svtVoiceType": "eventShop",
+      "id": ["0_I070", "0_I071", "0_I072"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_109837340/0_I070.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109837340/0_I071.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109837340/0_I072.mp3"],
+      "delay": [0.0, 0.1, 0.1],
+      "face": [4, 10, 13],
+      "conds": [{
+        "condType": "eventEnd",
         "value": 80627
       }]
     }]
