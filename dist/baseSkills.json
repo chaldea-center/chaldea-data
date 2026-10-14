@@ -95847,6 +95847,78 @@
     }]
   }]
 }, {
+  "id": 940474,
+  "name": "月陰の縁 EX",
+  "unmodifiedDetail": "自身の『復刻版:盈月剣風帖』における攻撃の威力を100%アップ＆クエストクリア時に得られる絆を50%増やす【『復刻版:盈月剣風帖』イベント期間限定】",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00301.png",
+  "coolDown": [0],
+  "functions": [{
+    "funcId": 23614,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 1000
+    }]
+  }, {
+    "funcId": 23615,
+    "svals": [{
+      "Target": 1,
+      "Individuality": 0,
+      "EventId": 80632,
+      "RateCount": 500
+    }]
+  }]
+}, {
+  "id": 940475,
+  "name": "月陰の縁 A",
+  "unmodifiedDetail": "自身の『復刻版:盈月剣風帖』における攻撃の威力を50%アップ＆クエストクリア時に得られる絆を20%増やす【『復刻版:盈月剣風帖』イベント期間限定】",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00301.png",
+  "coolDown": [0],
+  "functions": [{
+    "funcId": 23614,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 500
+    }]
+  }, {
+    "funcId": 23615,
+    "svals": [{
+      "Target": 1,
+      "Individuality": 0,
+      "EventId": 80632,
+      "RateCount": 200
+    }]
+  }]
+}, {
+  "id": 940476,
+  "name": "月陰の縁 B",
+  "unmodifiedDetail": "自身の『復刻版:盈月剣風帖』における攻撃の威力を30%アップ＆クエストクリア時に得られる絆を20%増やす【『復刻版:盈月剣風帖』イベント期間限定】",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00301.png",
+  "coolDown": [0],
+  "functions": [{
+    "funcId": 23613,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 300
+    }]
+  }, {
+    "funcId": 23615,
+    "svals": [{
+      "Target": 1,
+      "Individuality": 0,
+      "EventId": 80632,
+      "RateCount": 200
+    }]
+  }]
+}, {
   "id": 941650,
   "name": "黄昏に輝く EX",
   "ruby": "たそがれにかがやく",
@@ -219805,7 +219877,7 @@
     "svtId": 9407560,
     "num": 2,
     "priority": 1,
-    "strengthStatus": 1,
+    "strengthStatus": 3,
     "eventId": 80457
   }],
   "functions": [{
@@ -219828,7 +219900,7 @@
     "svtId": 9407560,
     "num": 2,
     "priority": 2,
-    "strengthStatus": 99,
+    "strengthStatus": 2,
     "condLimitCount": 4,
     "eventId": 80457
   }],
@@ -219930,7 +220002,7 @@
     "svtId": 9407570,
     "num": 2,
     "priority": 1,
-    "strengthStatus": 1,
+    "strengthStatus": 3,
     "eventId": 80457
   }],
   "functions": [{
@@ -219952,7 +220024,7 @@
     "svtId": 9407570,
     "num": 2,
     "priority": 2,
-    "strengthStatus": 99,
+    "strengthStatus": 2,
     "condLimitCount": 4,
     "eventId": 80457
   }],
@@ -220052,7 +220124,7 @@
     "svtId": 9407580,
     "num": 2,
     "priority": 1,
-    "strengthStatus": 1,
+    "strengthStatus": 3,
     "eventId": 80457
   }],
   "functions": [{
@@ -220074,7 +220146,7 @@
     "svtId": 9407580,
     "num": 2,
     "priority": 2,
-    "strengthStatus": 99,
+    "strengthStatus": 2,
     "condLimitCount": 4,
     "eventId": 80457
   }],
@@ -220171,7 +220243,7 @@
     "svtId": 9407590,
     "num": 2,
     "priority": 1,
-    "strengthStatus": 1,
+    "strengthStatus": 3,
     "eventId": 80457
   }],
   "functions": [{
@@ -220195,7 +220267,7 @@
     "svtId": 9407590,
     "num": 2,
     "priority": 2,
-    "strengthStatus": 99,
+    "strengthStatus": 2,
     "condLimitCount": 4,
     "eventId": 80457
   }],
@@ -256424,6 +256496,196 @@
       "Turn": -1,
       "Count": -1,
       "Value": 50
+    }]
+  }]
+}, {
+  "id": 995463,
+  "name": "武蔵うどんのドロップ獲得数アップ",
+  "ruby": "-",
+  "unmodifiedDetail": "武蔵うどんのドロップ獲得数を1個増やす【『復刻版:盈月剣風帖』イベント期間限定】",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00200.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9407560,
+    "num": 2,
+    "priority": 3,
+    "strengthStatus": 1,
+    "eventId": 80632
+  }],
+  "functions": [{
+    "funcId": 23616,
+    "svals": [{
+      "Individuality": 11016,
+      "EventId": 80632,
+      "AddCount": 1
+    }]
+  }]
+}, {
+  "id": 995464,
+  "name": "武蔵うどんのドロップ獲得数アップ",
+  "ruby": "-",
+  "unmodifiedDetail": "武蔵うどんのドロップ獲得数を2個増やす[最大解放]【『復刻版:盈月剣風帖』イベント期間限定】",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00200.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9407560,
+    "num": 2,
+    "priority": 4,
+    "strengthStatus": 99,
+    "condLimitCount": 4,
+    "eventId": 80632
+  }],
+  "functions": [{
+    "funcId": 23616,
+    "svals": [{
+      "Individuality": 11016,
+      "EventId": 80632,
+      "AddCount": 2
+    }]
+  }]
+}, {
+  "id": 995465,
+  "name": "江戸むすびのドロップ獲得数アップ",
+  "ruby": "-",
+  "unmodifiedDetail": "江戸むすびのドロップ獲得数を1個増やす【『復刻版:盈月剣風帖』イベント期間限定】",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00200.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9407570,
+    "num": 2,
+    "priority": 3,
+    "strengthStatus": 1,
+    "eventId": 80632
+  }],
+  "functions": [{
+    "funcId": 23617,
+    "svals": [{
+      "Individuality": 11015,
+      "EventId": 80632,
+      "AddCount": 1
+    }]
+  }]
+}, {
+  "id": 995466,
+  "name": "江戸むすびのドロップ獲得数アップ",
+  "ruby": "-",
+  "unmodifiedDetail": "江戸むすびのドロップ獲得数を2個増やす[最大解放]【『復刻版:盈月剣風帖』イベント期間限定】",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00200.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9407570,
+    "num": 2,
+    "priority": 4,
+    "strengthStatus": 99,
+    "condLimitCount": 4,
+    "eventId": 80632
+  }],
+  "functions": [{
+    "funcId": 23617,
+    "svals": [{
+      "Individuality": 11015,
+      "EventId": 80632,
+      "AddCount": 2
+    }]
+  }]
+}, {
+  "id": 995467,
+  "name": "東干し柿のドロップ獲得数アップ",
+  "ruby": "-",
+  "unmodifiedDetail": "東干し柿のドロップ獲得数を1個増やす【『復刻版:盈月剣風帖』イベント期間限定】",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00200.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9407580,
+    "num": 2,
+    "priority": 3,
+    "strengthStatus": 1,
+    "eventId": 80632
+  }],
+  "functions": [{
+    "funcId": 23618,
+    "svals": [{
+      "Individuality": 11014,
+      "EventId": 80632,
+      "AddCount": 1
+    }]
+  }]
+}, {
+  "id": 995468,
+  "name": "東干し柿のドロップ獲得数アップ",
+  "ruby": "-",
+  "unmodifiedDetail": "東干し柿のドロップ獲得数を2個増やす[最大解放]【『復刻版:盈月剣風帖』イベント期間限定】",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00200.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9407580,
+    "num": 2,
+    "priority": 4,
+    "strengthStatus": 99,
+    "condLimitCount": 4,
+    "eventId": 80632
+  }],
+  "functions": [{
+    "funcId": 23618,
+    "svals": [{
+      "Individuality": 11014,
+      "EventId": 80632,
+      "AddCount": 2
+    }]
+  }]
+}, {
+  "id": 995469,
+  "name": "攻撃の威力アップ",
+  "ruby": "-",
+  "unmodifiedDetail": "『復刻版:盈月剣風帖』において、自身の攻撃の威力を100%アップ【『復刻版:盈月剣風帖』イベント期間限定】",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00301.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9407590,
+    "num": 2,
+    "priority": 3,
+    "strengthStatus": 1,
+    "eventId": 80632
+  }],
+  "functions": [{
+    "funcId": 23619,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 1000
+    }]
+  }]
+}, {
+  "id": 995470,
+  "name": "攻撃の威力アップ",
+  "ruby": "-",
+  "unmodifiedDetail": "『復刻版:盈月剣風帖』において、自身の攻撃の威力を200%アップ[最大解放]【『復刻版:盈月剣風帖』イベント期間限定】",
+  "type": "passive",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00301.png",
+  "coolDown": [0],
+  "skillSvts": [{
+    "svtId": 9407590,
+    "num": 2,
+    "priority": 4,
+    "strengthStatus": 99,
+    "condLimitCount": 4,
+    "eventId": 80632
+  }],
+  "functions": [{
+    "funcId": 23619,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": -1,
+      "Count": -1,
+      "Value": 2000
     }]
   }]
 }, {
