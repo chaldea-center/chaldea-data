@@ -212828,6 +212828,46 @@
       "openedAt": 1792486800,
       "closedAt": 1793764799
     }, {
+      "id": 94162318,
+      "name": "終幕 その手を離し 去りゆく君へ",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 920600,
+      "warId": 9206,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/3.png",
+      "gifts": [{
+        "id": 94162301,
+        "objectId": 7999,
+        "num": 1
+      }],
+      "groups": [{
+        "type": "eventQuest",
+        "groupId": 80632
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94162317
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9409151710",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409151710.txt"
+        }]
+      }],
+      "priority": 94091977,
+      "noticeAt": 1792573200,
+      "openedAt": 1792573200,
+      "closedAt": 1793764799
+    }, {
       "id": 94162400,
       "name": "異傳 幻想に咲く 一条の剣",
       "type": "main",
@@ -212907,6 +212947,52 @@
       "priority": 94091993,
       "noticeAt": 1792141200,
       "openedAt": 1792141200,
+      "closedAt": 1793764799
+    }, {
+      "id": 94162406,
+      "name": "異傳 剣客残影 返歌篇",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "70",
+      "spotId": 920600,
+      "warId": 9206,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/3.png",
+      "gifts": [{
+        "id": 94091603,
+        "objectId": 2,
+        "num": 1
+      }, {
+        "id": 94091603,
+        "type": "eventSvtGet",
+        "objectId": 106000,
+        "num": 1
+      }],
+      "groups": [{
+        "type": "eventQuest",
+        "groupId": 80632
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94162318
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9409153610",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409153610.txt"
+        }, {
+          "scriptId": "9409153611",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409153611.txt"
+        }]
+      }],
+      "priority": 94091976,
+      "noticeAt": 1792573200,
+      "openedAt": 1792573200,
       "closedAt": 1793764799
     }, {
       "id": 94162506,
@@ -213088,6 +213174,46 @@
       "priority": 94091598,
       "noticeAt": 1791968400,
       "openedAt": 1791968400,
+      "closedAt": 1793764799
+    }, {
+      "id": 94162900,
+      "name": "【高難易度】残夜幻想",
+      "type": "event",
+      "flags": ["dropFirstTimeOnly"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "90+",
+      "spotId": 920600,
+      "warId": 9206,
+      "gifts": [{
+        "id": 21701,
+        "objectId": 6999,
+        "num": 1
+      }],
+      "groups": [{
+        "type": "eventQuest",
+        "groupId": 80632
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 1000822,
+        "closedMessage": "終局特異点クリアで開放"
+      }, {
+        "type": "questClear",
+        "targetId": 94162406
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "eventMissionAchieve",
+        "targetId": 80632100,
+        "closedMessage": "終局特異点クリア\n＆全ミッション達成で開放"
+      }],
+      "phases": [1],
+      "priority": 94092100,
+      "noticeAt": 1792573200,
+      "openedAt": 1792573200,
       "closedAt": 1793764799
     }]
   }, {
@@ -214087,6 +214213,38 @@
       "noticeAt": 1792227600,
       "openedAt": 1792227600,
       "closedAt": 1793764799
+    }, {
+      "id": 94162810,
+      "name": "怪異退治 神奈川湊 異邦からの来訪者",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90+",
+      "spotId": 920610,
+      "warId": 9206,
+      "gifts": [{
+        "id": 327,
+        "objectId": 3,
+        "num": 100
+      }],
+      "groups": [{
+        "type": "eventQuest",
+        "groupId": 80632
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94162406
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "priority": 94091590,
+      "noticeAt": 1792573200,
+      "openedAt": 1792573200,
+      "closedAt": 1793764799
     }]
   }, {
     "id": 920611,
@@ -214607,7 +214765,40 @@
     "x": 1149.0,
     "y": 943.0,
     "questOfsX": 41,
-    "questOfsY": -71
+    "questOfsY": -71,
+    "quests": [{
+      "id": 94162811,
+      "name": "怪異退治 江戸城 襲来せし邪竜",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90++",
+      "spotId": 920618,
+      "warId": 9206,
+      "gifts": [{
+        "id": 337,
+        "objectId": 3,
+        "num": 200
+      }],
+      "groups": [{
+        "type": "eventQuest",
+        "groupId": 80632
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94162406
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }],
+      "phases": [1],
+      "priority": 94091589,
+      "noticeAt": 1792573200,
+      "openedAt": 1792573200,
+      "closedAt": 1793764799
+    }]
   }, {
     "id": 920619,
     "mapId": 9207,
@@ -214791,7 +214982,52 @@
     "x": 1149.0,
     "y": 943.0,
     "questOfsX": 41,
-    "questOfsY": -71
+    "questOfsY": -71,
+    "quests": [{
+      "id": 94162317,
+      "name": "第十六幕 天国からいちばん遠い月",
+      "type": "main",
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "70",
+      "spotId": 920623,
+      "warId": 9206,
+      "gifts": [{
+        "id": 200,
+        "objectId": 2,
+        "num": 1
+      }],
+      "groups": [{
+        "type": "eventQuest",
+        "groupId": 80632
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94162316
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1, 2],
+      "phasesNoBattle": [2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9409151610",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409151610.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9409151620",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9409/9409151620.txt"
+        }]
+      }],
+      "priority": 94091978,
+      "noticeAt": 1792573200,
+      "openedAt": 1792573200,
+      "closedAt": 1793764799
+    }]
   }, {
     "id": 920624,
     "mapId": 9207,
@@ -214964,6 +215200,7 @@
         "closedMessage": "全ての盈月攻城戦をクリア\n＆10月21日18時00分以降に開放"
       }],
       "phases": [1, 2, 3],
+      "phasesWithEnemies": [1, 2],
       "phaseScripts": [{
         "phase": 1,
         "scripts": [{
