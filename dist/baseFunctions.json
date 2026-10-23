@@ -18126,6 +18126,34 @@
     "maxRate": 10000
   }]
 }, {
+  "funcId": 3502,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "威力アップ・魅了",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+  "buffs": [{
+    "id": 1557,
+    "name": "威力アップ〔魅了〕",
+    "detail": "〔魅了〕状態の敵に与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamageIndividualityActiveonly",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3028
+    }],
+    "tvals": [{
+      "id": 3012
+    }],
+    "ckOpIndv": [{
+      "id": 3012
+    }],
+    "maxRate": 10000
+  }]
+}, {
   "funcId": 3504,
   "funcType": "addStateShort",
   "funcTargetType": "self",
@@ -32248,6 +32276,34 @@
     }],
     "ckOpIndv": [{
       "id": 3025
+    }],
+    "maxRate": 10000
+  }]
+}, {
+  "funcId": 7612,
+  "funcType": "addStateShort",
+  "funcTargetType": "ptFull",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "威力アップ・対魅了",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+  "buffs": [{
+    "id": 1557,
+    "name": "威力アップ〔魅了〕",
+    "detail": "〔魅了〕状態の敵に与えるダメージをアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_302.png",
+    "type": "upDamageIndividualityActiveonly",
+    "vals": [{
+      "id": 3004
+    }, {
+      "id": 3006
+    }, {
+      "id": 3028
+    }],
+    "tvals": [{
+      "id": 3012
+    }],
+    "ckOpIndv": [{
+      "id": 3012
     }],
     "maxRate": 10000
   }]
@@ -67873,6 +67929,81 @@
   "funcPopupText": "NP増加",
   "traitVals": [{
     "id": 3087
+  }]
+}, {
+  "funcId": 23635,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "攻撃時追加効果",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_333.png",
+  "buffs": [{
+    "id": 6136,
+    "name": "攻撃時追加効果",
+    "detail": "攻撃時、スターを獲得する",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_333.png",
+    "type": "attackAfterFunction",
+    "vals": [{
+      "id": 3004
+    }],
+    "tvals": [{
+      "id": 5000
+    }]
+  }]
+}, {
+  "funcId": 23636,
+  "funcType": "addStateShort",
+  "funcTargetType": "self",
+  "funcTargetTeam": "enemy",
+  "funcPopupText": "攻撃時追加効果",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_333.png",
+  "buffs": [{
+    "id": 6137,
+    "name": "攻撃時追加効果",
+    "detail": "攻撃時、自身のクリティカル発生率をアップ",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_333.png",
+    "type": "attackAfterFunction",
+    "vals": [{
+      "id": 3004
+    }],
+    "tvals": [{
+      "id": 5000
+    }]
+  }]
+}, {
+  "funcId": 23638,
+  "funcType": "gainNp",
+  "funcTargetType": "self",
+  "funcTargetTeam": "player",
+  "funcPopupText": "NP増加：都市",
+  "funcquestTvals": [{
+    "id": 2392
+  }]
+}, {
+  "funcId": 23640,
+  "funcType": "addState",
+  "funcTargetType": "enemyAll",
+  "funcTargetTeam": "playerAndEnemy",
+  "funcPopupText": "反抗禁止",
+  "funcPopupIcon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_549.png",
+  "functvals": [{
+    "id": 2113,
+    "negative": true
+  }],
+  "buffs": [{
+    "id": 6138,
+    "name": "反抗禁止",
+    "detail": "攻撃時、ダメージを受ける<精神異常扱い>",
+    "icon": "https://static.atlasacademy.io/JP/BuffIcons/bufficon_549.png",
+    "type": "attackAfterFunctionMainOnly",
+    "vals": [{
+      "id": 3005
+    }, {
+      "id": 3010
+    }],
+    "tvals": [{
+      "id": 5000
+    }]
   }]
 }, {
   "funcId": 30003,

@@ -1,0 +1,46 @@
+[{
+  "id": 841301,
+  "coordinates": [
+    [],
+    []
+  ],
+  "age": "-",
+  "name": "冠位名代戦\nエクストラ",
+  "longName": "冠位名代戦\nエクストラ",
+  "flags": ["changeDispClosedMessage", "areaBoardShortcut"],
+  "banner": "https://static.atlasacademy.io/JP/Banner/chaldea_category_80614.png",
+  "priority": 10170,
+  "bgm": {
+    "id": 0
+  },
+  "script": "https://static.atlasacademy.io/JP/Script/Common/NONE.txt",
+  "targetId": 8413,
+  "releaseConditions": [{
+    "priority": 1,
+    "condType": "questNotClear",
+    "condId": 5000000,
+    "warDisplayType": "close",
+    "closedDialogMessage": "期間限定イベント \n『冠位名代戦』は \n10月30日 12:59 まで開催します。 \n\n期間限定イベントを始めるには、\n 『アフタータイムのはじまり』および\n『冠位戴冠戦：Extra』の冠位解放戦\n をクリアしている必要があります。"
+  }, {
+    "priority": 1,
+    "condType": "questNotClear",
+    "condId": 94148900,
+    "warDisplayType": "close",
+    "closedDialogMessage": "期間限定イベント \n『冠位名代戦』は \n10月30日 12:59 まで開催します。 \n\n期間限定イベントを始めるには、\n 『アフタータイムのはじまり』および\n『冠位戴冠戦：Extra』の冠位解放戦\n をクリアしている必要があります。"
+  }, {
+    "priority": 2,
+    "condType": "beforeSpecifiedDate",
+    "condNum": 1792746000,
+    "warDisplayType": "hide"
+  }],
+  "warAdds": [{
+    "warId": 841301,
+    "type": "warForceDisp",
+    "priority": 1,
+    "overwriteId": 0,
+    "condType": "eventStartToEnd",
+    "targetId": 80637,
+    "startedAt": 1792746000,
+    "endedAt": 1793332799
+  }]
+}]
