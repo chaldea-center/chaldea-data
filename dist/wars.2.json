@@ -123717,6 +123717,16 @@
     "warDisplayType": "close",
     "closedDialogMessage": "『アフタータイムのはじまり』を\nクリア＆『冠位戴冠戦：Extra』の\n冠位解放戦クエストをクリアで開放"
   }],
+  "warAdds": [{
+    "warId": 8413,
+    "type": "clearMark",
+    "priority": 100,
+    "overwriteId": 0,
+    "condType": "questClear",
+    "targetId": 94163710,
+    "startedAt": 1793332800,
+    "endedAt": 1893423600
+  }],
   "maps": [{
     "id": 8413,
     "mapImage": "https://static.atlasacademy.io/JP/Terminal/MapImgs/img_questmap_008413/img_questmap_008413.png",
@@ -123776,7 +123786,7 @@
       "closedAt": 1893423600
     }, {
       "id": 94163702,
-      "name": "",
+      "name": "冠位名代 迎撃戦 Ⅰ",
       "type": "event",
       "flags": ["raid", "raidConnection", "noDisplayRaidRemain"],
       "consume": 40,
@@ -123784,6 +123794,13 @@
       "recommendLv": "100",
       "spotId": 841301,
       "warId": 8413,
+      "groups": [{
+        "type": "eventQuest",
+        "groupId": 80637
+      }, {
+        "type": "shareQuestInfo",
+        "groupId": 94163702
+      }],
       "releaseConditions": [{
         "type": "questClear",
         "targetId": 94163701
@@ -123791,15 +123808,20 @@
         "type": "date",
         "targetId": 0,
         "closedMessage": "10月23日19時00分に開放"
+      }, {
+        "type": "raidAlive",
+        "targetId": 80637,
+        "value": 1
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94164999,
       "noticeAt": 1792746000,
       "openedAt": 1792749600,
       "closedAt": 1793332799
     }, {
       "id": 94163703,
-      "name": "",
+      "name": "冠位名代 迎撃戦 Ⅱ",
       "type": "event",
       "flags": ["raid", "raidConnection", "noDisplayRaidRemain"],
       "consume": 40,
@@ -123807,22 +123829,38 @@
       "recommendLv": "100+",
       "spotId": 841301,
       "warId": 8413,
+      "groups": [{
+        "type": "eventQuest",
+        "groupId": 80637
+      }, {
+        "type": "shareQuestInfo",
+        "groupId": 94163703
+      }],
       "releaseConditions": [{
         "type": "questClear",
         "targetId": 94163701
       }, {
+        "type": "questClear",
+        "targetId": 94163702,
+        "closedMessage": "「冠位名代 迎撃戦 Ⅰ」クリアで開放"
+      }, {
         "type": "date",
         "targetId": 0,
         "closedMessage": "「10月23日19時00分」以降、\n「冠位名代 迎撃戦 Ⅰ」クリアで開放"
+      }, {
+        "type": "raidAlive",
+        "targetId": 80637,
+        "value": 1
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94164998,
       "noticeAt": 1792746000,
       "openedAt": 1792749600,
       "closedAt": 1793332799
     }, {
       "id": 94163704,
-      "name": "",
+      "name": "冠位名代 迎撃戦 Ⅲ",
       "type": "event",
       "flags": ["raid", "raidConnection", "noDisplayRaidRemain"],
       "consume": 40,
@@ -123830,22 +123868,38 @@
       "recommendLv": "100++",
       "spotId": 841301,
       "warId": 8413,
+      "groups": [{
+        "type": "eventQuest",
+        "groupId": 80637
+      }, {
+        "type": "shareQuestInfo",
+        "groupId": 94163704
+      }],
       "releaseConditions": [{
         "type": "questClear",
         "targetId": 94163701
       }, {
+        "type": "questClear",
+        "targetId": 94163703,
+        "closedMessage": "「冠位名代 迎撃戦 Ⅱ」クリアで開放"
+      }, {
         "type": "date",
         "targetId": 0,
         "closedMessage": "「10月23日19時00分」以降、\n「冠位名代 迎撃戦 Ⅱ」クリアで開放"
+      }, {
+        "type": "raidAlive",
+        "targetId": 80637,
+        "value": 1
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94164997,
       "noticeAt": 1792746000,
       "openedAt": 1792749600,
       "closedAt": 1793332799
     }, {
       "id": 94163705,
-      "name": "",
+      "name": "冠位名代 迎撃戦 Ⅳ",
       "type": "event",
       "flags": ["raid", "raidConnection", "noDisplayRaidRemain"],
       "consume": 40,
@@ -123853,13 +123907,28 @@
       "recommendLv": "100+++",
       "spotId": 841301,
       "warId": 8413,
+      "groups": [{
+        "type": "eventQuest",
+        "groupId": 80637
+      }, {
+        "type": "shareQuestInfo",
+        "groupId": 94163705
+      }],
       "releaseConditions": [{
         "type": "questClear",
         "targetId": 94163701
       }, {
+        "type": "questClear",
+        "targetId": 94163704,
+        "closedMessage": "「冠位名代 迎撃戦 Ⅲ」クリアで開放"
+      }, {
         "type": "date",
         "targetId": 0,
         "closedMessage": "「10月23日19時00分」以降、\n「冠位名代 迎撃戦 Ⅲ」クリアで開放"
+      }, {
+        "type": "raidAlive",
+        "targetId": 80637,
+        "value": 1
       }],
       "phases": [1],
       "priority": 94164996,
@@ -123868,7 +123937,7 @@
       "closedAt": 1793332799
     }, {
       "id": 94163706,
-      "name": "",
+      "name": "冠位名代 迎撃戦 Ⅴ",
       "type": "event",
       "flags": ["raid", "raidConnection", "noDisplayRaidRemain"],
       "consume": 40,
@@ -123876,13 +123945,28 @@
       "recommendLv": "100★",
       "spotId": 841301,
       "warId": 8413,
+      "groups": [{
+        "type": "eventQuest",
+        "groupId": 80637
+      }, {
+        "type": "shareQuestInfo",
+        "groupId": 94163706
+      }],
       "releaseConditions": [{
         "type": "questClear",
         "targetId": 94163701
       }, {
+        "type": "questClear",
+        "targetId": 94163705,
+        "closedMessage": "「冠位名代 迎撃戦 Ⅳ」クリアで開放"
+      }, {
         "type": "date",
         "targetId": 0,
         "closedMessage": "「10月23日19時00分」以降、\n「冠位名代 迎撃戦 Ⅳ」クリアで開放"
+      }, {
+        "type": "raidAlive",
+        "targetId": 80637,
+        "value": 1
       }],
       "phases": [1],
       "priority": 94164995,
@@ -123891,7 +123975,7 @@
       "closedAt": 1793332799
     }, {
       "id": 94163707,
-      "name": "",
+      "name": "冠位名代 迎撃戦 Ⅵ",
       "type": "event",
       "flags": ["raid", "raidConnection", "noDisplayRaidRemain"],
       "consume": 40,
@@ -123899,13 +123983,28 @@
       "recommendLv": "100★★",
       "spotId": 841301,
       "warId": 8413,
+      "groups": [{
+        "type": "eventQuest",
+        "groupId": 80637
+      }, {
+        "type": "shareQuestInfo",
+        "groupId": 94163707
+      }],
       "releaseConditions": [{
         "type": "questClear",
         "targetId": 94163701
       }, {
+        "type": "questClear",
+        "targetId": 94163706,
+        "closedMessage": "「冠位名代 迎撃戦 Ⅴ」クリアで開放"
+      }, {
         "type": "date",
         "targetId": 0,
         "closedMessage": "「10月23日19時00分」以降、\n「冠位名代 迎撃戦 Ⅴ」クリアで開放"
+      }, {
+        "type": "raidAlive",
+        "targetId": 80637,
+        "value": 1
       }],
       "phases": [1],
       "priority": 94164994,
@@ -123914,7 +124013,7 @@
       "closedAt": 1793332799
     }, {
       "id": 94163708,
-      "name": "",
+      "name": "冠位名代 迎撃戦 Ⅶ",
       "type": "event",
       "flags": ["raid", "raidConnection", "noDisplayRaidRemain"],
       "consume": 40,
@@ -123922,17 +124021,73 @@
       "recommendLv": "100★★★",
       "spotId": 841301,
       "warId": 8413,
+      "groups": [{
+        "type": "eventQuest",
+        "groupId": 80637
+      }, {
+        "type": "shareQuestInfo",
+        "groupId": 94163708
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94163701
+      }, {
+        "type": "questClear",
+        "targetId": 94163707,
+        "closedMessage": "「冠位名代 迎撃戦 Ⅵ」クリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "「10月23日19時00分」以降、\n「冠位名代 迎撃戦 Ⅵ」クリアで開放"
+      }, {
+        "type": "raidAlive",
+        "targetId": 80637,
+        "value": 1
+      }],
+      "phases": [1],
+      "priority": 94164993,
+      "noticeAt": 1792746000,
+      "openedAt": 1792749600,
+      "closedAt": 1793332799
+    }, {
+      "id": 94163710,
+      "name": "冠位名代 爛舞戦",
+      "type": "event",
+      "flags": ["dropFirstTimeOnly", "notRetrievable"],
+      "consume": 5,
+      "afterClear": "repeatLast",
+      "recommendLv": "100★",
+      "spotId": 841301,
+      "warId": 8413,
+      "gifts": [{
+        "id": 94163709,
+        "type": "servant",
+        "objectId": 9570600,
+        "num": 1
+      }, {
+        "id": 94163709,
+        "type": "servant",
+        "objectId": 9670600,
+        "num": 1
+      }],
+      "groups": [{
+        "type": "eventQuest",
+        "groupId": 80637
+      }],
       "releaseConditions": [{
         "type": "questClear",
         "targetId": 94163701
       }, {
         "type": "date",
-        "targetId": 0,
-        "closedMessage": "「10月23日19時00分」以降、\n「冠位名代 迎撃戦 Ⅵ」クリアで開放"
+        "targetId": 0
+      }, {
+        "type": "raidDead",
+        "targetId": 80637,
+        "value": 1
       }],
       "phases": [1],
-      "priority": 94164993,
-      "noticeAt": 1792746000,
+      "priority": 94164991,
+      "noticeAt": 1792749600,
       "openedAt": 1792749600,
       "closedAt": 1793332799
     }]
