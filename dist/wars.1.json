@@ -119665,7 +119665,7 @@
       "closedAt": 1893423600
     }, {
       "id": 94061636,
-      "name": "宝物庫の扉を開け 初級",
+      "name": "【全世界1億DL】宝物庫の扉を開け 初級",
       "type": "event",
       "flags": ["noDisplayRemain"],
       "consume": 10,
@@ -119689,7 +119689,7 @@
       "closedAt": 1893423600
     }, {
       "id": 94061637,
-      "name": "宝物庫の扉を開け 中級",
+      "name": "【全世界1億DL】宝物庫の扉を開け 中級",
       "type": "event",
       "flags": ["noDisplayRemain"],
       "consume": 20,
@@ -119713,7 +119713,7 @@
       "closedAt": 1893423600
     }, {
       "id": 94061638,
-      "name": "宝物庫の扉を開け 上級",
+      "name": "【全世界1億DL】宝物庫の扉を開け 上級",
       "type": "event",
       "flags": ["noDisplayRemain"],
       "consume": 30,
@@ -119737,7 +119737,7 @@
       "closedAt": 1893423600
     }, {
       "id": 94061639,
-      "name": "宝物庫の扉を開け 超級",
+      "name": "【全世界1億DL】宝物庫の扉を開け 超級",
       "type": "event",
       "flags": ["noDisplayRemain"],
       "consume": 40,
@@ -119761,7 +119761,7 @@
       "closedAt": 1893423600
     }, {
       "id": 94061640,
-      "name": "宝物庫の扉を開け 極級",
+      "name": "【全世界1億DL】宝物庫の扉を開け 極級",
       "type": "event",
       "flags": ["noDisplayRemain"],
       "consume": 40,
@@ -143603,6 +143603,14 @@
     "overwriteBanner": "https://static.atlasacademy.io/JP/Banner/chaldea_category_80615.png",
     "startedAt": 1791363600,
     "endedAt": 1792727999
+  }, {
+    "warId": 9999,
+    "type": "banner",
+    "priority": 80620,
+    "overwriteId": 80611,
+    "overwriteBanner": "https://static.atlasacademy.io/JP/Banner/chaldea_category_80611.png",
+    "startedAt": 1794052800,
+    "endedAt": 1795233599
   }, {
     "warId": 9999,
     "type": "banner",
@@ -171014,6 +171022,38 @@
       "noticeAt": 1785661200,
       "openedAt": 1785661200,
       "closedAt": 1787457599
+    }, {
+      "id": 94163500,
+      "name": "【24時間限定】全世界1億DL突破記念クエスト",
+      "type": "event",
+      "consume": 30,
+      "afterClear": "repeatLast",
+      "recommendLv": "90",
+      "spotId": 999999,
+      "warId": 9999,
+      "gifts": [{
+        "id": 209,
+        "objectId": 2,
+        "num": 10
+      }],
+      "groups": [{
+        "type": "eventQuest",
+        "groupId": 80635
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 1000011,
+        "closedMessage": "特異点Fクリアで開放"
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phasesWithEnemies": [1],
+      "priority": 94163500,
+      "noticeAt": 1794052800,
+      "openedAt": 1794052800,
+      "closedAt": 1794139199
     }]
   }]
 }, {
