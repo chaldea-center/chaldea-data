@@ -306232,6 +306232,2951 @@
     "closedAt": 1794509999
   }]
 }, {
+  "id": 80639,
+  "type": "eventQuest",
+  "name": "真冬の水着スペシャル ぐだぐだぷにぷにウォーズ！\n～史上最低の爆弾娘～",
+  "shortName": "ぐだぐだぷにぷにウォーズ！",
+  "detail": "真冬の水着スペシャル ぐだぐだぷにぷにウォーズ！\n～史上最低の爆弾娘～",
+  "noticeBanner": "https://static.atlasacademy.io/JP/Banner/event_war_80617.png",
+  "banner": "https://static.atlasacademy.io/JP/Banner/event_war_80618.png",
+  "bannerPriority": 940490,
+  "noticeAt": 1794394800,
+  "startedAt": 1794394800,
+  "endedAt": 1796183999,
+  "finishedAt": 1796788799,
+  "warIds": [9208],
+  "eventDetail": {
+    "flags": ["typeExchangeShop", "typeBonusSkill", "typeRaid", "typeEventShop", "raidDefeatCount", "eventPoint", "eventVoicePlay", "useEventSupportDeck"],
+    "pointImageId": 94164003,
+    "condQuestId": 94164002,
+    "shopCondQuestId": 94164002
+  },
+  "svts": [{
+    "svtId": 705500,
+    "type": "join",
+    "joinMessage": "松永久秀は\n『ぐだぐだぷにぷにウォーズ！』の\nイベント期間限定で加入します。\n\nイベントで特定のクエストをクリアすることで\n正式加入となります。",
+    "getMessage": "松永久秀が\n正式加入となりました。\nこれによりイベント終了後も\nサーヴァントとして残り続けます。\n\nなおイベントを通じて獲得した\nアイテムと交換したり\n特定のクエストをクリアすることで\n再臨段階を上げる霊基再臨素材や\n宝具Lv.を上げる宝具強化専用霊基が手に入ります。",
+    "leaveMessage": "～仮加入状態サーヴァントの離脱について～\n\nイベント期間終了に伴い\n正式加入条件を満たせなかった\n松永久秀は\n離脱しました。\n\n松永久秀が\n装備していた概念礼装は\n自動的にはずれます。",
+    "startedAt": 1794394800,
+    "endedAt": 1796183999
+  }, {
+    "svtId": 705501,
+    "script": {
+      "isProtectedDuringEvent": true
+    },
+    "originalScript": {
+      "isProtectedDuringEvent": 1
+    },
+    "getMessage": "松永久秀の\n宝具強化専用霊基を手に入れました。\n\n宝具強化専用霊基を使うと\n仮加入状態であっても宝具Lv.を上げることができます。\nサーヴァント宝具強化で、サーヴァントの宝具Lv.を上げましょう！\n\n宝具強化専用霊基は\n強化対象とすることやクエストに同行させることはできません。",
+    "startedAt": 1794394800,
+    "endedAt": 1796183999
+  }],
+  "shop": [{
+    "id": 80639001,
+    "eventId": 80639,
+    "slot": 1,
+    "priority": 1,
+    "name": "霊衣「夏の奇兵隊」開放権",
+    "infoMessage": "霊衣「夏の奇兵隊」開放権を\n獲得できます。",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94164002,
+      "amount": 150
+    },
+    "purchaseType": "costumeRelease",
+    "targetIds": [20470011],
+    "limitNum": 1,
+    "openedAt": 1794394800,
+    "closedAt": 1796788799
+  }, {
+    "id": 80639002,
+    "eventId": 80639,
+    "slot": 1,
+    "priority": 10,
+    "name": "いざ、尋常に川中島！？",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94164002,
+      "amount": 150
+    },
+    "purchaseType": "servant",
+    "targetIds": [9409690],
+    "limitNum": 2,
+    "defaultLv": 1,
+    "openedAt": 1794394800,
+    "closedAt": 1796788799
+  }, {
+    "id": 80639003,
+    "eventId": 80639,
+    "slot": 1,
+    "priority": 20,
+    "name": "いざ、尋常に川中島！？",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94164001,
+      "amount": 150
+    },
+    "purchaseType": "servant",
+    "targetIds": [9409690],
+    "limitNum": 1,
+    "defaultLv": 1,
+    "openedAt": 1794394800,
+    "closedAt": 1796788799
+  }, {
+    "id": 80639004,
+    "eventId": 80639,
+    "slot": 1,
+    "priority": 30,
+    "name": "いざ、尋常に川中島！？",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94164000,
+      "amount": 150
+    },
+    "purchaseType": "servant",
+    "targetIds": [9409690],
+    "limitNum": 1,
+    "defaultLv": 1,
+    "openedAt": 1794394800,
+    "closedAt": 1796788799
+  }, {
+    "id": 80639005,
+    "releaseConditions": [{
+      "condValues": [705500],
+      "shopId": 80639005,
+      "condType": "svtGet",
+      "condNum": 1,
+      "priority": 100
+    }],
+    "eventId": 80639,
+    "slot": 1,
+    "priority": 70,
+    "name": "サーヴァントコイン（松永久秀）",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94164002,
+      "amount": 10
+    },
+    "purchaseType": "item",
+    "targetIds": [70550001],
+    "setNum": 10,
+    "limitNum": 14,
+    "openedAt": 1794394800,
+    "closedAt": 1796788799
+  }, {
+    "id": 80639006,
+    "releaseConditions": [{
+      "condValues": [705500],
+      "shopId": 80639006,
+      "condType": "svtGet",
+      "condNum": 1,
+      "priority": 100
+    }],
+    "eventId": 80639,
+    "slot": 1,
+    "priority": 80,
+    "name": "サーヴァントコイン（松永久秀）",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94164001,
+      "amount": 10
+    },
+    "purchaseType": "item",
+    "targetIds": [70550001],
+    "setNum": 10,
+    "limitNum": 12,
+    "openedAt": 1794394800,
+    "closedAt": 1796788799
+  }, {
+    "id": 80639007,
+    "releaseConditions": [{
+      "condValues": [705500],
+      "shopId": 80639007,
+      "condType": "svtGet",
+      "condNum": 1,
+      "priority": 100
+    }],
+    "eventId": 80639,
+    "slot": 1,
+    "priority": 90,
+    "name": "サーヴァントコイン（松永久秀）",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94164000,
+      "amount": 10
+    },
+    "purchaseType": "item",
+    "targetIds": [70550001],
+    "setNum": 10,
+    "limitNum": 12,
+    "openedAt": 1794394800,
+    "closedAt": 1796788799
+  }, {
+    "id": 80639008,
+    "releaseConditions": [{
+      "condValues": [94164012],
+      "shopId": 80639008,
+      "condType": "questClear",
+      "condNum": 1,
+      "priority": 100
+    }],
+    "eventId": 80639,
+    "slot": 1,
+    "priority": 100,
+    "name": "伝承結晶",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94164002,
+      "amount": 300
+    },
+    "purchaseType": "item",
+    "targetIds": [6999],
+    "limitNum": 2,
+    "openedAt": 1794394800,
+    "closedAt": 1796788799
+  }, {
+    "id": 80639009,
+    "releaseConditions": [{
+      "condValues": [94164012],
+      "shopId": 80639009,
+      "condType": "questClear",
+      "condNum": 1,
+      "priority": 100
+    }],
+    "eventId": 80639,
+    "slot": 1,
+    "priority": 110,
+    "name": "伝承結晶",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94164001,
+      "amount": 300
+    },
+    "purchaseType": "item",
+    "targetIds": [6999],
+    "limitNum": 2,
+    "openedAt": 1794394800,
+    "closedAt": 1796788799
+  }, {
+    "id": 80639010,
+    "releaseConditions": [{
+      "condValues": [94164012],
+      "shopId": 80639010,
+      "condType": "questClear",
+      "condNum": 1,
+      "priority": 100
+    }],
+    "eventId": 80639,
+    "slot": 1,
+    "priority": 120,
+    "name": "伝承結晶",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94164000,
+      "amount": 300
+    },
+    "purchaseType": "item",
+    "targetIds": [6999],
+    "limitNum": 1,
+    "openedAt": 1794394800,
+    "closedAt": 1796788799
+  }, {
+    "id": 80639011,
+    "releaseConditions": [{
+      "condValues": [94164012],
+      "shopId": 80639011,
+      "condType": "questClear",
+      "condNum": 1,
+      "priority": 100
+    }],
+    "eventId": 80639,
+    "slot": 1,
+    "priority": 130,
+    "name": "英霊結晶・流星のフォウくん",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94164002,
+      "amount": 150
+    },
+    "purchaseType": "servant",
+    "targetIds": [9570400],
+    "limitNum": 1,
+    "defaultLv": 1,
+    "openedAt": 1794394800,
+    "closedAt": 1796788799
+  }, {
+    "id": 80639012,
+    "releaseConditions": [{
+      "condValues": [94164012],
+      "shopId": 80639012,
+      "condType": "questClear",
+      "condNum": 1,
+      "priority": 100
+    }],
+    "eventId": 80639,
+    "slot": 1,
+    "priority": 140,
+    "name": "英霊結晶・流星のフォウくん",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94164000,
+      "amount": 150
+    },
+    "purchaseType": "servant",
+    "targetIds": [9570400],
+    "limitNum": 1,
+    "defaultLv": 1,
+    "openedAt": 1794394800,
+    "closedAt": 1796788799
+  }, {
+    "id": 80639013,
+    "releaseConditions": [{
+      "condValues": [94164012],
+      "shopId": 80639013,
+      "condType": "questClear",
+      "condNum": 1,
+      "priority": 100
+    }],
+    "eventId": 80639,
+    "slot": 1,
+    "priority": 150,
+    "name": "英霊結晶・日輪のフォウくん",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94164002,
+      "amount": 150
+    },
+    "purchaseType": "servant",
+    "targetIds": [9670400],
+    "limitNum": 1,
+    "defaultLv": 1,
+    "openedAt": 1794394800,
+    "closedAt": 1796788799
+  }, {
+    "id": 80639014,
+    "releaseConditions": [{
+      "condValues": [94164012],
+      "shopId": 80639014,
+      "condType": "questClear",
+      "condNum": 1,
+      "priority": 100
+    }],
+    "eventId": 80639,
+    "slot": 1,
+    "priority": 160,
+    "name": "英霊結晶・日輪のフォウくん",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94164001,
+      "amount": 150
+    },
+    "purchaseType": "servant",
+    "targetIds": [9670400],
+    "limitNum": 1,
+    "defaultLv": 1,
+    "openedAt": 1794394800,
+    "closedAt": 1796788799
+  }, {
+    "id": 80639015,
+    "eventId": 80639,
+    "slot": 1,
+    "priority": 170,
+    "name": "巡霊の葉",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94164002,
+      "amount": 10
+    },
+    "purchaseType": "item",
+    "targetIds": [48],
+    "setNum": 10,
+    "limitNum": 40,
+    "openedAt": 1794394800,
+    "closedAt": 1796788799
+  }, {
+    "id": 80639016,
+    "eventId": 80639,
+    "slot": 1,
+    "priority": 180,
+    "name": "巡霊の葉",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94164001,
+      "amount": 10
+    },
+    "purchaseType": "item",
+    "targetIds": [48],
+    "setNum": 10,
+    "limitNum": 30,
+    "openedAt": 1794394800,
+    "closedAt": 1796788799
+  }, {
+    "id": 80639017,
+    "eventId": 80639,
+    "slot": 1,
+    "priority": 190,
+    "name": "巡霊の葉",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94164000,
+      "amount": 10
+    },
+    "purchaseType": "item",
+    "targetIds": [48],
+    "setNum": 10,
+    "limitNum": 30,
+    "openedAt": 1794394800,
+    "closedAt": 1796788799
+  }, {
+    "id": 80639018,
+    "eventId": 80639,
+    "slot": 1,
+    "priority": 200,
+    "name": "コード・リムーバー",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94164002,
+      "amount": 20
+    },
+    "purchaseType": "item",
+    "targetIds": [5003],
+    "limitNum": 1,
+    "openedAt": 1794394800,
+    "closedAt": 1796788799
+  }, {
+    "id": 80639019,
+    "eventId": 80639,
+    "slot": 1,
+    "priority": 210,
+    "name": "コード・リムーバー",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94164001,
+      "amount": 20
+    },
+    "purchaseType": "item",
+    "targetIds": [5003],
+    "limitNum": 1,
+    "openedAt": 1794394800,
+    "closedAt": 1796788799
+  }, {
+    "id": 80639020,
+    "eventId": 80639,
+    "slot": 1,
+    "priority": 220,
+    "name": "コード・リムーバー",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94164000,
+      "amount": 20
+    },
+    "purchaseType": "item",
+    "targetIds": [5003],
+    "limitNum": 1,
+    "openedAt": 1794394800,
+    "closedAt": 1796788799
+  }, {
+    "id": 80639021,
+    "eventId": 80639,
+    "slot": 1,
+    "priority": 230,
+    "name": "英霊結晶・星のフォウくん",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94164000,
+      "amount": 10
+    },
+    "purchaseType": "servant",
+    "targetIds": [9570300],
+    "limitNum": 40,
+    "defaultLv": 1,
+    "openedAt": 1794394800,
+    "closedAt": 1796788799
+  }, {
+    "id": 80639022,
+    "eventId": 80639,
+    "slot": 1,
+    "priority": 240,
+    "name": "英霊結晶・太陽のフォウくん",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94164000,
+      "amount": 10
+    },
+    "purchaseType": "servant",
+    "targetIds": [9670300],
+    "limitNum": 40,
+    "defaultLv": 1,
+    "openedAt": 1794394800,
+    "closedAt": 1796788799
+  }, {
+    "id": 80639023,
+    "eventId": 80639,
+    "slot": 1,
+    "priority": 250,
+    "name": "叡智の業火",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94164000,
+      "amount": 5
+    },
+    "purchaseType": "servant",
+    "targetIds": [9770500],
+    "limitNum": 100,
+    "defaultLv": 1,
+    "openedAt": 1794394800,
+    "closedAt": 1796788799
+  }, {
+    "id": 80639024,
+    "eventId": 80639,
+    "slot": 1,
+    "priority": 260,
+    "name": "叡智の猛火",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94164000,
+      "amount": 3
+    },
+    "purchaseType": "servant",
+    "targetIds": [9770400],
+    "limitNum": 200,
+    "defaultLv": 1,
+    "openedAt": 1794394800,
+    "closedAt": 1796788799
+  }, {
+    "id": 80639025,
+    "eventId": 80639,
+    "slot": 1,
+    "priority": 270,
+    "name": "叡智の大火",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94164000,
+      "amount": 1
+    },
+    "purchaseType": "servant",
+    "targetIds": [9770300],
+    "limitNum": 200,
+    "defaultLv": 1,
+    "openedAt": 1794394800,
+    "closedAt": 1796788799
+  }, {
+    "id": 80639026,
+    "eventId": 80639,
+    "slot": 1,
+    "priority": 280,
+    "name": "天命の聖水",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94164002,
+      "amount": 20
+    },
+    "purchaseType": "item",
+    "targetIds": [6562],
+    "limitNum": 20,
+    "openedAt": 1794394800,
+    "closedAt": 1796788799
+  }, {
+    "id": 80639027,
+    "eventId": 80639,
+    "slot": 1,
+    "priority": 290,
+    "name": "混沌の爪",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94164002,
+      "amount": 15
+    },
+    "purchaseType": "item",
+    "targetIds": [6507],
+    "limitNum": 40,
+    "openedAt": 1794394800,
+    "closedAt": 1796788799
+  }, {
+    "id": 80639028,
+    "eventId": 80639,
+    "slot": 1,
+    "priority": 300,
+    "name": "太陽皮",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94164002,
+      "amount": 10
+    },
+    "purchaseType": "item",
+    "targetIds": [6553],
+    "limitNum": 40,
+    "openedAt": 1794394800,
+    "closedAt": 1796788799
+  }, {
+    "id": 80639029,
+    "eventId": 80639,
+    "slot": 1,
+    "priority": 310,
+    "name": "励振火薬",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94164002,
+      "amount": 5
+    },
+    "purchaseType": "item",
+    "targetIds": [6534],
+    "limitNum": 60,
+    "openedAt": 1794394800,
+    "closedAt": 1796788799
+  }, {
+    "id": 80639030,
+    "eventId": 80639,
+    "slot": 1,
+    "priority": 320,
+    "name": "九十九鏡",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94164001,
+      "amount": 20
+    },
+    "purchaseType": "item",
+    "targetIds": [6540],
+    "limitNum": 20,
+    "openedAt": 1794394800,
+    "closedAt": 1796788799
+  }, {
+    "id": 80639031,
+    "eventId": 80639,
+    "slot": 1,
+    "priority": 330,
+    "name": "終の花",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94164001,
+      "amount": 10
+    },
+    "purchaseType": "item",
+    "targetIds": [6557],
+    "limitNum": 40,
+    "openedAt": 1794394800,
+    "closedAt": 1796788799
+  }, {
+    "id": 80639032,
+    "eventId": 80639,
+    "slot": 1,
+    "priority": 340,
+    "name": "枯淡勾玉",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94164001,
+      "amount": 10
+    },
+    "purchaseType": "item",
+    "targetIds": [6532],
+    "limitNum": 40,
+    "openedAt": 1794394800,
+    "closedAt": 1796788799
+  }, {
+    "id": 80639033,
+    "eventId": 80639,
+    "slot": 1,
+    "priority": 350,
+    "name": "忘れじの灰",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94164001,
+      "amount": 5
+    },
+    "purchaseType": "item",
+    "targetIds": [6552],
+    "limitNum": 60,
+    "openedAt": 1794394800,
+    "closedAt": 1796788799
+  }, {
+    "id": 80639034,
+    "eventId": 80639,
+    "slot": 1,
+    "priority": 360,
+    "name": "精霊根",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94164000,
+      "amount": 20
+    },
+    "purchaseType": "item",
+    "targetIds": [6518],
+    "limitNum": 20,
+    "openedAt": 1794394800,
+    "closedAt": 1796788799
+  }, {
+    "id": 80639035,
+    "eventId": 80639,
+    "slot": 1,
+    "priority": 370,
+    "name": "無間の歯車",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94164000,
+      "amount": 10
+    },
+    "purchaseType": "item",
+    "targetIds": [6510],
+    "limitNum": 40,
+    "openedAt": 1794394800,
+    "closedAt": 1796788799
+  }, {
+    "id": 80639036,
+    "eventId": 80639,
+    "slot": 1,
+    "priority": 380,
+    "name": "赦免の小鐘",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94164000,
+      "amount": 5
+    },
+    "purchaseType": "item",
+    "targetIds": [6549],
+    "limitNum": 60,
+    "openedAt": 1794394800,
+    "closedAt": 1796788799
+  }, {
+    "id": 80639037,
+    "eventId": 80639,
+    "slot": 1,
+    "priority": 390,
+    "name": "狂気の残滓",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94164000,
+      "amount": 5
+    },
+    "purchaseType": "item",
+    "targetIds": [6555],
+    "limitNum": 60,
+    "openedAt": 1794394800,
+    "closedAt": 1796788799
+  }, {
+    "id": 80639038,
+    "eventId": 80639,
+    "slot": 1,
+    "priority": 400,
+    "name": "弓の秘石",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94164002,
+      "amount": 20
+    },
+    "purchaseType": "item",
+    "targetIds": [6202],
+    "limitNum": 20,
+    "openedAt": 1794394800,
+    "closedAt": 1796788799
+  }, {
+    "id": 80639039,
+    "eventId": 80639,
+    "slot": 1,
+    "priority": 410,
+    "name": "騎の秘石",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94164002,
+      "amount": 20
+    },
+    "purchaseType": "item",
+    "targetIds": [6204],
+    "limitNum": 20,
+    "openedAt": 1794394800,
+    "closedAt": 1796788799
+  }, {
+    "id": 80639040,
+    "eventId": 80639,
+    "slot": 1,
+    "priority": 420,
+    "name": "狂の秘石",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94164002,
+      "amount": 20
+    },
+    "purchaseType": "item",
+    "targetIds": [6207],
+    "limitNum": 20,
+    "openedAt": 1794394800,
+    "closedAt": 1796788799
+  }, {
+    "id": 80639041,
+    "eventId": 80639,
+    "slot": 1,
+    "priority": 430,
+    "name": "弓の魔石",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94164001,
+      "amount": 15
+    },
+    "purchaseType": "item",
+    "targetIds": [6102],
+    "limitNum": 30,
+    "openedAt": 1794394800,
+    "closedAt": 1796788799
+  }, {
+    "id": 80639042,
+    "eventId": 80639,
+    "slot": 1,
+    "priority": 440,
+    "name": "騎の魔石",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94164001,
+      "amount": 15
+    },
+    "purchaseType": "item",
+    "targetIds": [6104],
+    "limitNum": 30,
+    "openedAt": 1794394800,
+    "closedAt": 1796788799
+  }, {
+    "id": 80639043,
+    "eventId": 80639,
+    "slot": 1,
+    "priority": 450,
+    "name": "狂の魔石",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94164001,
+      "amount": 15
+    },
+    "purchaseType": "item",
+    "targetIds": [6107],
+    "limitNum": 30,
+    "openedAt": 1794394800,
+    "closedAt": 1796788799
+  }, {
+    "id": 80639044,
+    "eventId": 80639,
+    "slot": 1,
+    "priority": 460,
+    "name": "弓の輝石",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94164000,
+      "amount": 10
+    },
+    "purchaseType": "item",
+    "targetIds": [6002],
+    "limitNum": 40,
+    "openedAt": 1794394800,
+    "closedAt": 1796788799
+  }, {
+    "id": 80639045,
+    "eventId": 80639,
+    "slot": 1,
+    "priority": 470,
+    "name": "騎の輝石",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94164000,
+      "amount": 10
+    },
+    "purchaseType": "item",
+    "targetIds": [6004],
+    "limitNum": 40,
+    "openedAt": 1794394800,
+    "closedAt": 1796788799
+  }, {
+    "id": 80639046,
+    "eventId": 80639,
+    "slot": 1,
+    "priority": 480,
+    "name": "狂の輝石",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94164000,
+      "amount": 10
+    },
+    "purchaseType": "item",
+    "targetIds": [6007],
+    "limitNum": 40,
+    "openedAt": 1794394800,
+    "closedAt": 1796788799
+  }, {
+    "id": 80639047,
+    "eventId": 80639,
+    "slot": 1,
+    "priority": 490,
+    "name": "アーチャーモニュメント",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94164002,
+      "amount": 15
+    },
+    "purchaseType": "item",
+    "targetIds": [7102],
+    "limitNum": 40,
+    "openedAt": 1794394800,
+    "closedAt": 1796788799
+  }, {
+    "id": 80639048,
+    "eventId": 80639,
+    "slot": 1,
+    "priority": 500,
+    "name": "ライダーモニュメント",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94164002,
+      "amount": 15
+    },
+    "purchaseType": "item",
+    "targetIds": [7104],
+    "limitNum": 40,
+    "openedAt": 1794394800,
+    "closedAt": 1796788799
+  }, {
+    "id": 80639049,
+    "eventId": 80639,
+    "slot": 1,
+    "priority": 510,
+    "name": "バーサーカーモニュメント",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94164002,
+      "amount": 15
+    },
+    "purchaseType": "item",
+    "targetIds": [7107],
+    "limitNum": 40,
+    "openedAt": 1794394800,
+    "closedAt": 1796788799
+  }, {
+    "id": 80639050,
+    "eventId": 80639,
+    "slot": 1,
+    "priority": 520,
+    "name": "アーチャーピース",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94164001,
+      "amount": 10
+    },
+    "purchaseType": "item",
+    "targetIds": [7002],
+    "limitNum": 40,
+    "openedAt": 1794394800,
+    "closedAt": 1796788799
+  }, {
+    "id": 80639051,
+    "eventId": 80639,
+    "slot": 1,
+    "priority": 530,
+    "name": "ライダーピース",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94164001,
+      "amount": 10
+    },
+    "purchaseType": "item",
+    "targetIds": [7004],
+    "limitNum": 40,
+    "openedAt": 1794394800,
+    "closedAt": 1796788799
+  }, {
+    "id": 80639052,
+    "eventId": 80639,
+    "slot": 1,
+    "priority": 540,
+    "name": "バーサーカーピース",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94164001,
+      "amount": 10
+    },
+    "purchaseType": "item",
+    "targetIds": [7007],
+    "limitNum": 40,
+    "openedAt": 1794394800,
+    "closedAt": 1796788799
+  }, {
+    "id": 80639053,
+    "eventId": 80639,
+    "slot": 1,
+    "priority": 550,
+    "name": "YAKIまんじゅう",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94164001,
+      "amount": 10
+    },
+    "purchaseType": "item",
+    "targetIds": [94164002],
+    "limitNum": 0,
+    "openedAt": 1794394800,
+    "closedAt": 1796788799
+  }, {
+    "id": 80639054,
+    "eventId": 80639,
+    "slot": 1,
+    "priority": 560,
+    "name": "SHIMONITAネギ",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94164000,
+      "amount": 10
+    },
+    "purchaseType": "item",
+    "targetIds": [94164001],
+    "limitNum": 0,
+    "openedAt": 1794394800,
+    "closedAt": 1796788799
+  }, {
+    "id": 80639055,
+    "eventId": 80639,
+    "slot": 1,
+    "priority": 570,
+    "name": "10,000 QP",
+    "payType": "eventItem",
+    "cost": {
+      "itemId": 94164002,
+      "amount": 2
+    },
+    "purchaseType": "item",
+    "targetIds": [1],
+    "setNum": 10000,
+    "limitNum": 0,
+    "openedAt": 1794394800,
+    "closedAt": 1796788799
+  }],
+  "rewards": [{
+    "groupId": 0,
+    "point": 1000,
+    "gifts": [{
+      "id": 14000,
+      "objectId": 102,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 3000,
+    "gifts": [{
+      "id": 42961,
+      "type": "servant",
+      "objectId": 9809910,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 5000,
+    "gifts": [{
+      "id": 20401,
+      "objectId": 6505,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 7000,
+    "gifts": [{
+      "id": 10064,
+      "objectId": 1,
+      "num": 500000
+    }]
+  }, {
+    "groupId": 0,
+    "point": 10000,
+    "gifts": [{
+      "id": 94164007,
+      "objectId": 94164004,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 12000,
+    "gifts": [{
+      "id": 309,
+      "objectId": 3,
+      "num": 10
+    }]
+  }, {
+    "groupId": 0,
+    "point": 14000,
+    "gifts": [{
+      "id": 25655,
+      "objectId": 6554,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 16000,
+    "gifts": [{
+      "id": 14000,
+      "objectId": 102,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 18000,
+    "gifts": [{
+      "id": 25473,
+      "objectId": 6538,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 20000,
+    "gifts": [{
+      "id": 10064,
+      "objectId": 1,
+      "num": 500000
+    }]
+  }, {
+    "groupId": 0,
+    "point": 22000,
+    "gifts": [{
+      "id": 42961,
+      "type": "servant",
+      "objectId": 9809910,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 25000,
+    "gifts": [{
+      "id": 94164007,
+      "objectId": 94164004,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 27000,
+    "gifts": [{
+      "id": 13000,
+      "objectId": 101,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 29000,
+    "gifts": [{
+      "id": 20401,
+      "objectId": 6505,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 31000,
+    "gifts": [{
+      "id": 10074,
+      "objectId": 1,
+      "num": 1000000
+    }]
+  }, {
+    "groupId": 0,
+    "point": 33000,
+    "gifts": [{
+      "id": 319,
+      "objectId": 3,
+      "num": 20
+    }]
+  }, {
+    "groupId": 0,
+    "point": 35000,
+    "gifts": [{
+      "id": 25655,
+      "objectId": 6554,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 37000,
+    "gifts": [{
+      "id": 14000,
+      "objectId": 102,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 40000,
+    "gifts": [{
+      "id": 94164007,
+      "objectId": 94164004,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 42000,
+    "gifts": [{
+      "id": 10064,
+      "objectId": 1,
+      "num": 500000
+    }]
+  }, {
+    "groupId": 0,
+    "point": 45000,
+    "gifts": [{
+      "id": 25732,
+      "objectId": 6561,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 47000,
+    "gifts": [{
+      "id": 14000,
+      "objectId": 102,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 50000,
+    "gifts": [{
+      "id": 94164006,
+      "type": "servant",
+      "objectId": 9809910,
+      "num": 2
+    }]
+  }, {
+    "groupId": 0,
+    "point": 52000,
+    "gifts": [{
+      "id": 20401,
+      "objectId": 6505,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 55000,
+    "gifts": [{
+      "id": 25428,
+      "objectId": 5000,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 58000,
+    "gifts": [{
+      "id": 10064,
+      "objectId": 1,
+      "num": 500000
+    }]
+  }, {
+    "groupId": 0,
+    "point": 61000,
+    "gifts": [{
+      "id": 309,
+      "objectId": 3,
+      "num": 10
+    }]
+  }, {
+    "groupId": 0,
+    "point": 64000,
+    "gifts": [{
+      "id": 25655,
+      "objectId": 6554,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 67000,
+    "gifts": [{
+      "id": 42961,
+      "type": "servant",
+      "objectId": 9809910,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 71000,
+    "gifts": [{
+      "id": 12000,
+      "objectId": 100,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 75000,
+    "gifts": [{
+      "id": 94164007,
+      "objectId": 94164004,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 78000,
+    "gifts": [{
+      "id": 10078,
+      "objectId": 1,
+      "num": 2000000
+    }]
+  }, {
+    "groupId": 0,
+    "point": 82000,
+    "gifts": [{
+      "id": 25249,
+      "objectId": 6521,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 85000,
+    "gifts": [{
+      "id": 14000,
+      "objectId": 102,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 88000,
+    "gifts": [{
+      "id": 20401,
+      "objectId": 6505,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 91000,
+    "gifts": [{
+      "id": 319,
+      "objectId": 3,
+      "num": 20
+    }]
+  }, {
+    "groupId": 0,
+    "point": 95000,
+    "gifts": [{
+      "id": 94164006,
+      "type": "servant",
+      "objectId": 9809910,
+      "num": 2
+    }]
+  }, {
+    "groupId": 0,
+    "point": 100000,
+    "gifts": [{
+      "id": 15000,
+      "objectId": 4001,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 105000,
+    "gifts": [{
+      "id": 13000,
+      "objectId": 101,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 110000,
+    "gifts": [{
+      "id": 25655,
+      "objectId": 6554,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 115000,
+    "gifts": [{
+      "id": 10064,
+      "objectId": 1,
+      "num": 500000
+    }]
+  }, {
+    "groupId": 0,
+    "point": 120000,
+    "gifts": [{
+      "id": 25473,
+      "objectId": 6538,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 125000,
+    "gifts": [{
+      "id": 14000,
+      "objectId": 102,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 130000,
+    "gifts": [{
+      "id": 20401,
+      "objectId": 6505,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 135000,
+    "gifts": [{
+      "id": 42961,
+      "type": "servant",
+      "objectId": 9809910,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 140000,
+    "gifts": [{
+      "id": 309,
+      "objectId": 3,
+      "num": 10
+    }]
+  }, {
+    "groupId": 0,
+    "point": 145000,
+    "gifts": [{
+      "id": 25655,
+      "objectId": 6554,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 150000,
+    "gifts": [{
+      "id": 25439,
+      "objectId": 5001,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 155000,
+    "gifts": [{
+      "id": 10064,
+      "objectId": 1,
+      "num": 500000
+    }]
+  }, {
+    "groupId": 0,
+    "point": 160000,
+    "gifts": [{
+      "id": 25732,
+      "objectId": 6561,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 165000,
+    "gifts": [{
+      "id": 12000,
+      "objectId": 100,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 170000,
+    "gifts": [{
+      "id": 20401,
+      "objectId": 6505,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 175000,
+    "gifts": [{
+      "id": 10078,
+      "objectId": 1,
+      "num": 2000000
+    }]
+  }, {
+    "groupId": 0,
+    "point": 180000,
+    "gifts": [{
+      "id": 322,
+      "objectId": 3,
+      "num": 50
+    }]
+  }, {
+    "groupId": 0,
+    "point": 185000,
+    "gifts": [{
+      "id": 25655,
+      "objectId": 6554,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 190000,
+    "gifts": [{
+      "id": 14000,
+      "objectId": 102,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 195000,
+    "gifts": [{
+      "id": 25795,
+      "objectId": 6565,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 200000,
+    "gifts": [{
+      "id": 42966,
+      "type": "commandCode",
+      "objectId": 8402370,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 206000,
+    "gifts": [{
+      "id": 94164006,
+      "type": "servant",
+      "objectId": 9809910,
+      "num": 2
+    }]
+  }, {
+    "groupId": 0,
+    "point": 211000,
+    "gifts": [{
+      "id": 10064,
+      "objectId": 1,
+      "num": 500000
+    }]
+  }, {
+    "groupId": 0,
+    "point": 216000,
+    "gifts": [{
+      "id": 20401,
+      "objectId": 6505,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 222000,
+    "gifts": [{
+      "id": 13000,
+      "objectId": 101,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 228000,
+    "gifts": [{
+      "id": 25473,
+      "objectId": 6538,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 233000,
+    "gifts": [{
+      "id": 10074,
+      "objectId": 1,
+      "num": 1000000
+    }]
+  }, {
+    "groupId": 0,
+    "point": 238000,
+    "gifts": [{
+      "id": 25655,
+      "objectId": 6554,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 244000,
+    "gifts": [{
+      "id": 94164006,
+      "type": "servant",
+      "objectId": 9809910,
+      "num": 2
+    }]
+  }, {
+    "groupId": 0,
+    "point": 250000,
+    "gifts": [{
+      "id": 15000,
+      "objectId": 4001,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 256000,
+    "gifts": [{
+      "id": 25732,
+      "objectId": 6561,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 262000,
+    "gifts": [{
+      "id": 14000,
+      "objectId": 102,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 268000,
+    "gifts": [{
+      "id": 20401,
+      "objectId": 6505,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 274000,
+    "gifts": [{
+      "id": 319,
+      "objectId": 3,
+      "num": 20
+    }]
+  }, {
+    "groupId": 0,
+    "point": 280000,
+    "gifts": [{
+      "id": 25249,
+      "objectId": 6521,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 286000,
+    "gifts": [{
+      "id": 12000,
+      "objectId": 100,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 292000,
+    "gifts": [{
+      "id": 25655,
+      "objectId": 6554,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 300000,
+    "gifts": [{
+      "id": 25450,
+      "objectId": 5002,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 307000,
+    "gifts": [{
+      "id": 10078,
+      "objectId": 1,
+      "num": 2000000
+    }]
+  }, {
+    "groupId": 0,
+    "point": 314000,
+    "gifts": [{
+      "id": 319,
+      "objectId": 3,
+      "num": 20
+    }]
+  }, {
+    "groupId": 0,
+    "point": 321000,
+    "gifts": [{
+      "id": 25473,
+      "objectId": 6538,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 328000,
+    "gifts": [{
+      "id": 14000,
+      "objectId": 102,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 335000,
+    "gifts": [{
+      "id": 20401,
+      "objectId": 6505,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 342000,
+    "gifts": [{
+      "id": 10074,
+      "objectId": 1,
+      "num": 1000000
+    }]
+  }, {
+    "groupId": 0,
+    "point": 350000,
+    "gifts": [{
+      "id": 13000,
+      "objectId": 101,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 358000,
+    "gifts": [{
+      "id": 25732,
+      "objectId": 6561,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 365000,
+    "gifts": [{
+      "id": 25655,
+      "objectId": 6554,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 373000,
+    "gifts": [{
+      "id": 13000,
+      "objectId": 101,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 381000,
+    "gifts": [{
+      "id": 10078,
+      "objectId": 1,
+      "num": 2000000
+    }]
+  }, {
+    "groupId": 0,
+    "point": 390000,
+    "gifts": [{
+      "id": 42961,
+      "type": "servant",
+      "objectId": 9809910,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 400000,
+    "gifts": [{
+      "id": 15000,
+      "objectId": 4001,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 408000,
+    "gifts": [{
+      "id": 25795,
+      "objectId": 6565,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 416000,
+    "gifts": [{
+      "id": 12000,
+      "objectId": 100,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 424000,
+    "gifts": [{
+      "id": 20402,
+      "objectId": 6505,
+      "num": 2
+    }]
+  }, {
+    "groupId": 0,
+    "point": 432000,
+    "gifts": [{
+      "id": 10078,
+      "objectId": 1,
+      "num": 2000000
+    }]
+  }, {
+    "groupId": 0,
+    "point": 440000,
+    "gifts": [{
+      "id": 13000,
+      "objectId": 101,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 448000,
+    "gifts": [{
+      "id": 25473,
+      "objectId": 6538,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 456000,
+    "gifts": [{
+      "id": 322,
+      "objectId": 3,
+      "num": 50
+    }]
+  }, {
+    "groupId": 0,
+    "point": 464000,
+    "gifts": [{
+      "id": 25656,
+      "objectId": 6554,
+      "num": 2
+    }]
+  }, {
+    "groupId": 0,
+    "point": 473000,
+    "gifts": [{
+      "id": 12000,
+      "objectId": 100,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 481000,
+    "gifts": [{
+      "id": 10074,
+      "objectId": 1,
+      "num": 1000000
+    }]
+  }, {
+    "groupId": 0,
+    "point": 490000,
+    "gifts": [{
+      "id": 25249,
+      "objectId": 6521,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 500000,
+    "gifts": [{
+      "id": 42967,
+      "type": "commandCode",
+      "objectId": 8402380,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 510000,
+    "gifts": [{
+      "id": 42960,
+      "type": "servant",
+      "objectId": 9809900,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 520000,
+    "gifts": [{
+      "id": 13000,
+      "objectId": 101,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 530000,
+    "gifts": [{
+      "id": 20402,
+      "objectId": 6505,
+      "num": 2
+    }]
+  }, {
+    "groupId": 0,
+    "point": 540000,
+    "gifts": [{
+      "id": 319,
+      "objectId": 3,
+      "num": 20
+    }]
+  }, {
+    "groupId": 0,
+    "point": 550000,
+    "gifts": [{
+      "id": 25732,
+      "objectId": 6561,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 560000,
+    "gifts": [{
+      "id": 12000,
+      "objectId": 100,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 570000,
+    "gifts": [{
+      "id": 10074,
+      "objectId": 1,
+      "num": 1000000
+    }]
+  }, {
+    "groupId": 0,
+    "point": 580000,
+    "gifts": [{
+      "id": 25656,
+      "objectId": 6554,
+      "num": 2
+    }]
+  }, {
+    "groupId": 0,
+    "point": 590000,
+    "gifts": [{
+      "id": 13000,
+      "objectId": 101,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 600000,
+    "gifts": [{
+      "id": 15000,
+      "objectId": 4001,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 615000,
+    "gifts": [{
+      "id": 94164006,
+      "type": "servant",
+      "objectId": 9809910,
+      "num": 2
+    }]
+  }, {
+    "groupId": 0,
+    "point": 635000,
+    "gifts": [{
+      "id": 25795,
+      "objectId": 6565,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 650000,
+    "gifts": [{
+      "id": 322,
+      "objectId": 3,
+      "num": 50
+    }]
+  }, {
+    "groupId": 0,
+    "point": 670000,
+    "gifts": [{
+      "id": 12000,
+      "objectId": 100,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 685000,
+    "gifts": [{
+      "id": 25473,
+      "objectId": 6538,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 700000,
+    "gifts": [{
+      "id": 10080,
+      "objectId": 1,
+      "num": 3000000
+    }]
+  }, {
+    "groupId": 0,
+    "point": 715000,
+    "gifts": [{
+      "id": 20402,
+      "objectId": 6505,
+      "num": 2
+    }]
+  }, {
+    "groupId": 0,
+    "point": 730000,
+    "gifts": [{
+      "id": 13000,
+      "objectId": 101,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 745000,
+    "gifts": [{
+      "id": 25732,
+      "objectId": 6561,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 765000,
+    "gifts": [{
+      "id": 319,
+      "objectId": 3,
+      "num": 20
+    }]
+  }, {
+    "groupId": 0,
+    "point": 780000,
+    "gifts": [{
+      "id": 10074,
+      "objectId": 1,
+      "num": 1000000
+    }]
+  }, {
+    "groupId": 0,
+    "point": 800000,
+    "gifts": [{
+      "id": 15000,
+      "objectId": 4001,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 820000,
+    "gifts": [{
+      "id": 42960,
+      "type": "servant",
+      "objectId": 9809900,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 840000,
+    "gifts": [{
+      "id": 25249,
+      "objectId": 6521,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 860000,
+    "gifts": [{
+      "id": 12000,
+      "objectId": 100,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 880000,
+    "gifts": [{
+      "id": 25473,
+      "objectId": 6538,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 900000,
+    "gifts": [{
+      "id": 10080,
+      "objectId": 1,
+      "num": 3000000
+    }]
+  }, {
+    "groupId": 0,
+    "point": 920000,
+    "gifts": [{
+      "id": 327,
+      "objectId": 3,
+      "num": 100
+    }]
+  }, {
+    "groupId": 0,
+    "point": 940000,
+    "gifts": [{
+      "id": 25656,
+      "objectId": 6554,
+      "num": 2
+    }]
+  }, {
+    "groupId": 0,
+    "point": 960000,
+    "gifts": [{
+      "id": 13000,
+      "objectId": 101,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 980000,
+    "gifts": [{
+      "id": 25795,
+      "objectId": 6565,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 1000000,
+    "gifts": [{
+      "id": 20041,
+      "objectId": 6999,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 1020000,
+    "gifts": [{
+      "id": 25732,
+      "objectId": 6561,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 1050000,
+    "gifts": [{
+      "id": 12000,
+      "objectId": 100,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 1070000,
+    "gifts": [{
+      "id": 10078,
+      "objectId": 1,
+      "num": 2000000
+    }]
+  }, {
+    "groupId": 0,
+    "point": 1090000,
+    "gifts": [{
+      "id": 25473,
+      "objectId": 6538,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 1110000,
+    "gifts": [{
+      "id": 322,
+      "objectId": 3,
+      "num": 50
+    }]
+  }, {
+    "groupId": 0,
+    "point": 1140000,
+    "gifts": [{
+      "id": 25249,
+      "objectId": 6521,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 1170000,
+    "gifts": [{
+      "id": 13000,
+      "objectId": 101,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 1200000,
+    "gifts": [{
+      "id": 42968,
+      "type": "commandCode",
+      "objectId": 8402390,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 1220000,
+    "gifts": [{
+      "id": 42960,
+      "type": "servant",
+      "objectId": 9809900,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 1240000,
+    "gifts": [{
+      "id": 25732,
+      "objectId": 6561,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 1260000,
+    "gifts": [{
+      "id": 10080,
+      "objectId": 1,
+      "num": 3000000
+    }]
+  }, {
+    "groupId": 0,
+    "point": 1280000,
+    "gifts": [{
+      "id": 12000,
+      "objectId": 100,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 1300000,
+    "gifts": [{
+      "id": 25473,
+      "objectId": 6538,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 1320000,
+    "gifts": [{
+      "id": 327,
+      "objectId": 3,
+      "num": 100
+    }]
+  }, {
+    "groupId": 0,
+    "point": 1340000,
+    "gifts": [{
+      "id": 10080,
+      "objectId": 1,
+      "num": 3000000
+    }]
+  }, {
+    "groupId": 0,
+    "point": 1370000,
+    "gifts": [{
+      "id": 25795,
+      "objectId": 6565,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 1400000,
+    "gifts": [{
+      "id": 42959,
+      "type": "servant",
+      "objectId": 9409690,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 1420000,
+    "gifts": [{
+      "id": 94164005,
+      "type": "servant",
+      "objectId": 9809900,
+      "num": 2
+    }]
+  }, {
+    "groupId": 0,
+    "point": 1440000,
+    "gifts": [{
+      "id": 25732,
+      "objectId": 6561,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 1470000,
+    "gifts": [{
+      "id": 12000,
+      "objectId": 100,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 1500000,
+    "gifts": [{
+      "id": 10084,
+      "objectId": 1,
+      "num": 5000000
+    }]
+  }, {
+    "groupId": 0,
+    "point": 1530000,
+    "gifts": [{
+      "id": 25249,
+      "objectId": 6521,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 1550000,
+    "gifts": [{
+      "id": 322,
+      "objectId": 3,
+      "num": 50
+    }]
+  }, {
+    "groupId": 0,
+    "point": 1570000,
+    "gifts": [{
+      "id": 13000,
+      "objectId": 101,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 1600000,
+    "gifts": [{
+      "id": 31043,
+      "type": "servant",
+      "objectId": 9570400,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 1620000,
+    "gifts": [{
+      "id": 42960,
+      "type": "servant",
+      "objectId": 9809900,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 1640000,
+    "gifts": [{
+      "id": 25474,
+      "objectId": 6538,
+      "num": 2
+    }]
+  }, {
+    "groupId": 0,
+    "point": 1660000,
+    "gifts": [{
+      "id": 10080,
+      "objectId": 1,
+      "num": 3000000
+    }]
+  }, {
+    "groupId": 0,
+    "point": 1690000,
+    "gifts": [{
+      "id": 25795,
+      "objectId": 6565,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 1720000,
+    "gifts": [{
+      "id": 12000,
+      "objectId": 100,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 1740000,
+    "gifts": [{
+      "id": 25733,
+      "objectId": 6561,
+      "num": 2
+    }]
+  }, {
+    "groupId": 0,
+    "point": 1770000,
+    "gifts": [{
+      "id": 327,
+      "objectId": 3,
+      "num": 100
+    }]
+  }, {
+    "groupId": 0,
+    "point": 1800000,
+    "gifts": [{
+      "id": 32043,
+      "type": "servant",
+      "objectId": 9670400,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 1830000,
+    "gifts": [{
+      "id": 94164005,
+      "type": "servant",
+      "objectId": 9809900,
+      "num": 2
+    }]
+  }, {
+    "groupId": 0,
+    "point": 1860000,
+    "gifts": [{
+      "id": 25249,
+      "objectId": 6521,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 1880000,
+    "gifts": [{
+      "id": 10080,
+      "objectId": 1,
+      "num": 3000000
+    }]
+  }, {
+    "groupId": 0,
+    "point": 1900000,
+    "gifts": [{
+      "id": 25474,
+      "objectId": 6538,
+      "num": 2
+    }]
+  }, {
+    "groupId": 0,
+    "point": 1930000,
+    "gifts": [{
+      "id": 12000,
+      "objectId": 100,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 1960000,
+    "gifts": [{
+      "id": 25795,
+      "objectId": 6565,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 2000000,
+    "gifts": [{
+      "id": 20041,
+      "objectId": 6999,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 2030000,
+    "gifts": [{
+      "id": 42960,
+      "type": "servant",
+      "objectId": 9809900,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 2060000,
+    "gifts": [{
+      "id": 25733,
+      "objectId": 6561,
+      "num": 2
+    }]
+  }, {
+    "groupId": 0,
+    "point": 2100000,
+    "gifts": [{
+      "id": 327,
+      "objectId": 3,
+      "num": 100
+    }]
+  }, {
+    "groupId": 0,
+    "point": 2140000,
+    "gifts": [{
+      "id": 10084,
+      "objectId": 1,
+      "num": 5000000
+    }]
+  }, {
+    "groupId": 0,
+    "point": 2170000,
+    "gifts": [{
+      "id": 13000,
+      "objectId": 101,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 2210000,
+    "gifts": [{
+      "id": 25249,
+      "objectId": 6521,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 2250000,
+    "gifts": [{
+      "id": 31044,
+      "type": "servant",
+      "objectId": 9570500,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 2280000,
+    "gifts": [{
+      "id": 94164005,
+      "type": "servant",
+      "objectId": 9809900,
+      "num": 2
+    }]
+  }, {
+    "groupId": 0,
+    "point": 2320000,
+    "gifts": [{
+      "id": 25795,
+      "objectId": 6565,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 2360000,
+    "gifts": [{
+      "id": 12000,
+      "objectId": 100,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 2390000,
+    "gifts": [{
+      "id": 10080,
+      "objectId": 1,
+      "num": 3000000
+    }]
+  }, {
+    "groupId": 0,
+    "point": 2420000,
+    "gifts": [{
+      "id": 25474,
+      "objectId": 6538,
+      "num": 2
+    }]
+  }, {
+    "groupId": 0,
+    "point": 2460000,
+    "gifts": [{
+      "id": 327,
+      "objectId": 3,
+      "num": 100
+    }]
+  }, {
+    "groupId": 0,
+    "point": 2500000,
+    "gifts": [{
+      "id": 20041,
+      "objectId": 6999,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 2530000,
+    "gifts": [{
+      "id": 94164005,
+      "type": "servant",
+      "objectId": 9809900,
+      "num": 2
+    }]
+  }, {
+    "groupId": 0,
+    "point": 2560000,
+    "gifts": [{
+      "id": 25249,
+      "objectId": 6521,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 2600000,
+    "gifts": [{
+      "id": 12000,
+      "objectId": 100,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 2640000,
+    "gifts": [{
+      "id": 25795,
+      "objectId": 6565,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 2680000,
+    "gifts": [{
+      "id": 10084,
+      "objectId": 1,
+      "num": 5000000
+    }]
+  }, {
+    "groupId": 0,
+    "point": 2710000,
+    "gifts": [{
+      "id": 25733,
+      "objectId": 6561,
+      "num": 2
+    }]
+  }, {
+    "groupId": 0,
+    "point": 2750000,
+    "gifts": [{
+      "id": 32044,
+      "type": "servant",
+      "objectId": 9670500,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 2780000,
+    "gifts": [{
+      "id": 94164005,
+      "type": "servant",
+      "objectId": 9809900,
+      "num": 2
+    }]
+  }, {
+    "groupId": 0,
+    "point": 2810000,
+    "gifts": [{
+      "id": 327,
+      "objectId": 3,
+      "num": 100
+    }]
+  }, {
+    "groupId": 0,
+    "point": 2840000,
+    "gifts": [{
+      "id": 25249,
+      "objectId": 6521,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 2880000,
+    "gifts": [{
+      "id": 12000,
+      "objectId": 100,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 2920000,
+    "gifts": [{
+      "id": 10084,
+      "objectId": 1,
+      "num": 5000000
+    }]
+  }, {
+    "groupId": 0,
+    "point": 2960000,
+    "gifts": [{
+      "id": 25795,
+      "objectId": 6565,
+      "num": 1
+    }]
+  }, {
+    "groupId": 0,
+    "point": 3000000,
+    "gifts": [{
+      "id": 25494,
+      "objectId": 1000,
+      "num": 1
+    }]
+  }],
+  "rewardScenes": [{
+    "type": 3,
+    "guides": [{
+      "imageId": 2801400,
+      "image": "https://static.atlasacademy.io/JP/CharaFigure/28014000/28014000_merged.png",
+      "faceId": 8
+    }, {
+      "imageId": 109837430,
+      "image": "https://static.atlasacademy.io/JP/CharaFigure/1098374300/1098374300_merged.png"
+    }],
+    "tabOnImage": "https://static.atlasacademy.io/JP/EventReward/btn_txt_on_80639_0.png",
+    "tabOffImage": "https://static.atlasacademy.io/JP/EventReward/btn_txt_off_80639_0.png",
+    "bg": "https://static.atlasacademy.io/JP/Back/back304800.png",
+    "bgm": {
+      "id": 1098
+    },
+    "afterBgm": {
+      "id": 1098
+    },
+    "flags": ["npcGuide"]
+  }, {
+    "slot": 1,
+    "type": 1,
+    "guides": [{
+      "imageId": 2801400,
+      "image": "https://static.atlasacademy.io/JP/CharaFigure/28014000/28014000_merged.png",
+      "faceId": 8
+    }, {
+      "imageId": 109837430,
+      "image": "https://static.atlasacademy.io/JP/CharaFigure/1098374300/1098374300_merged.png"
+    }],
+    "tabOnImage": "https://static.atlasacademy.io/JP/EventReward/btn_txt_on_80639_1.png",
+    "tabOffImage": "https://static.atlasacademy.io/JP/EventReward/btn_txt_off_80639_1.png",
+    "bg": "https://static.atlasacademy.io/JP/Back/back304800.png",
+    "bgm": {
+      "id": 1098
+    },
+    "afterBgm": {
+      "id": 1098
+    },
+    "flags": ["npcGuide"]
+  }],
+  "voices": [{
+    "svtId": 2801400,
+    "type": "eventReward",
+    "voiceLines": [{
+      "name": "イベントについて 1",
+      "condType": "eventEnd",
+      "priority": 6990,
+      "svtVoiceType": "eventReward",
+      "overwriteName": "真冬の水着スペシャル ぐだぐだぷにぷにウォーズ！ \n～史上最低の爆弾娘～ 8",
+      "id": ["0_N010", "0_N011", "0_N012"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_2801400/0_N010.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_2801400/0_N011.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_2801400/0_N012.mp3"],
+      "delay": [0.0, 0.1, 0.1],
+      "face": [0, 0, 0],
+      "conds": [{
+        "condType": "eventNoend",
+        "value": 80639
+      }]
+    }, {
+      "name": "イベントについて 2",
+      "condType": "eventEnd",
+      "priority": 6980,
+      "svtVoiceType": "eventReward",
+      "overwriteName": "真冬の水着スペシャル ぐだぐだぷにぷにウォーズ！ \n～史上最低の爆弾娘～ 9",
+      "id": ["0_N020", "0_N021"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_2801400/0_N020.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_2801400/0_N021.mp3"],
+      "delay": [0.0, 0.1],
+      "face": [0, 0],
+      "conds": [{
+        "condType": "eventNoend",
+        "value": 80639
+      }]
+    }]
+  }, {
+    "svtId": 2801400,
+    "type": "eventShop",
+    "voiceLines": [{
+      "name": "ショップついて 1",
+      "condType": "eventEnd",
+      "priority": 6490,
+      "svtVoiceType": "eventShop",
+      "overwriteName": "真冬の水着スペシャル ぐだぐだぷにぷにウォーズ！ \n～史上最低の爆弾娘～ 1",
+      "id": ["0_I010", "0_I011", "0_I012"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_2801400/0_I010.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_2801400/0_I011.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_2801400/0_I012.mp3"],
+      "delay": [0.0, 0.1, 0.1],
+      "face": [0, 0, 0],
+      "conds": [{
+        "condType": "eventNoend",
+        "value": 80639
+      }]
+    }, {
+      "name": "ショップついて 2",
+      "condType": "eventEnd",
+      "priority": 6480,
+      "svtVoiceType": "eventShop",
+      "overwriteName": "真冬の水着スペシャル ぐだぐだぷにぷにウォーズ！ \n～史上最低の爆弾娘～ 2",
+      "id": ["0_I020", "0_I021"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_2801400/0_I020.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_2801400/0_I021.mp3"],
+      "delay": [0.0, 0.1],
+      "face": [0, 0],
+      "conds": [{
+        "condType": "eventNoend",
+        "value": 80639
+      }]
+    }, {
+      "name": "ショップついて 3",
+      "condType": "eventEnd",
+      "priority": 6470,
+      "svtVoiceType": "eventShop",
+      "overwriteName": "真冬の水着スペシャル ぐだぐだぷにぷにウォーズ！ \n～史上最低の爆弾娘～ 3 男性主人公選択時",
+      "id": ["0_I030", "0_I031", "0_I032"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_2801400/0_I030.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_2801400/0_I031.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_2801400/0_I032.mp3"],
+      "delay": [0.0, 0.1, 0.1],
+      "face": [0, 0, 0],
+      "conds": [{
+        "condType": "eventShopPurchase",
+        "value": 80639
+      }, {
+        "condType": "eventPeriod",
+        "value": 80639
+      }],
+      "playConds": [{
+        "condGroup": 1,
+        "condType": "playerGenderType",
+        "targetId": 1,
+        "condValue": 0,
+        "condValues": [0]
+      }]
+    }, {
+      "name": "ショップついて 3",
+      "condType": "eventEnd",
+      "priority": 6469,
+      "svtVoiceType": "eventShop",
+      "overwriteName": "真冬の水着スペシャル ぐだぐだぷにぷにウォーズ！ \n～史上最低の爆弾娘～ 3 女性主人公選択時",
+      "id": ["0_I5030", "0_I5031", "0_I5032"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_2801400/0_I5030.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_2801400/0_I5031.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_2801400/0_I5032.mp3"],
+      "delay": [0.0, 0.1, 0.1],
+      "face": [0, 0, 0],
+      "conds": [{
+        "condType": "eventShopPurchase",
+        "value": 80639
+      }, {
+        "condType": "eventPeriod",
+        "value": 80639
+      }],
+      "playConds": [{
+        "condGroup": 1,
+        "condType": "playerGenderType",
+        "targetId": 2,
+        "condValue": 0,
+        "condValues": [0]
+      }]
+    }, {
+      "name": "ショップついて 4",
+      "condType": "eventEnd",
+      "priority": 6460,
+      "svtVoiceType": "eventShop",
+      "overwriteName": "真冬の水着スペシャル ぐだぐだぷにぷにウォーズ！ \n～史上最低の爆弾娘～ 4",
+      "id": ["0_I040", "0_I041", "0_I042"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_2801400/0_I040.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_2801400/0_I041.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_2801400/0_I042.mp3"],
+      "delay": [0.0, 0.1, 0.1],
+      "face": [0, 0, 0],
+      "conds": [{
+        "condType": "eventShopPurchase",
+        "value": 80639
+      }, {
+        "condType": "eventPeriod",
+        "value": 80639
+      }]
+    }, {
+      "name": "ショップついて 5",
+      "condType": "eventEnd",
+      "priority": 6450,
+      "svtVoiceType": "eventShop",
+      "overwriteName": "真冬の水着スペシャル ぐだぐだぷにぷにウォーズ！ \n～史上最低の爆弾娘～ 5",
+      "id": ["0_I050", "0_I051", "0_I052"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_2801400/0_I050.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_2801400/0_I051.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_2801400/0_I052.mp3"],
+      "delay": [0.0, 0.1, 0.1],
+      "face": [0, 0, 0],
+      "conds": [{
+        "condType": "eventShopPurchase",
+        "value": 80639
+      }, {
+        "condType": "eventPeriod",
+        "value": 80639
+      }]
+    }]
+  }, {
+    "svtId": 109837430,
+    "type": "eventReward",
+    "voiceLines": [{
+      "name": "イベントについて 1",
+      "condType": "eventEnd",
+      "priority": 6990,
+      "svtVoiceType": "eventReward",
+      "overwriteName": "真冬の水着スペシャル ぐだぐだぷにぷにウォーズ！ \n～史上最低の爆弾娘～ 8",
+      "id": ["0_N010", "0_N011"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_109837430/0_N010.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109837430/0_N011.mp3"],
+      "delay": [0.0, 0.1],
+      "face": [2, 11],
+      "conds": [{
+        "condType": "eventNoend",
+        "value": 80639
+      }]
+    }, {
+      "name": "イベントについて 2",
+      "condType": "eventEnd",
+      "priority": 6980,
+      "svtVoiceType": "eventReward",
+      "overwriteName": "真冬の水着スペシャル ぐだぐだぷにぷにウォーズ！ \n～史上最低の爆弾娘～ 9",
+      "id": ["0_N020", "0_N021", "0_N022"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_109837430/0_N020.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109837430/0_N021.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109837430/0_N022.mp3"],
+      "delay": [0.0, 0.1, 0.0],
+      "face": [2, 16, 15],
+      "form": [0, 0, 1],
+      "conds": [{
+        "condType": "eventNoend",
+        "value": 80639
+      }]
+    }]
+  }, {
+    "svtId": 109837430,
+    "type": "eventShop",
+    "voiceLines": [{
+      "name": "ショップついて 1",
+      "condType": "eventEnd",
+      "priority": 6490,
+      "svtVoiceType": "eventShop",
+      "overwriteName": "真冬の水着スペシャル ぐだぐだぷにぷにウォーズ！ \n～史上最低の爆弾娘～ 1",
+      "id": ["0_I010", "0_I011"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_109837430/0_I010.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109837430/0_I011.mp3"],
+      "delay": [0.0, 0.1],
+      "face": [2, 11],
+      "conds": [{
+        "condType": "eventNoend",
+        "value": 80639
+      }]
+    }, {
+      "name": "ショップついて 2",
+      "condType": "eventEnd",
+      "priority": 6480,
+      "svtVoiceType": "eventShop",
+      "overwriteName": "真冬の水着スペシャル ぐだぐだぷにぷにウォーズ！ \n～史上最低の爆弾娘～ 2",
+      "id": ["0_I020", "0_I021", "0_I022"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_109837430/0_I020.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109837430/0_I021.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109837430/0_I022.mp3"],
+      "delay": [0.0, 0.1, 0.1],
+      "face": [2, 16, 15],
+      "conds": [{
+        "condType": "eventNoend",
+        "value": 80639
+      }]
+    }, {
+      "name": "ショップついて 3",
+      "condType": "eventEnd",
+      "priority": 6470,
+      "svtVoiceType": "eventShop",
+      "overwriteName": "真冬の水着スペシャル ぐだぐだぷにぷにウォーズ！ \n～史上最低の爆弾娘～ 3",
+      "id": ["0_I030", "0_I031", "0_I032", "0_I033"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_109837430/0_I030.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109837430/0_I031.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109837430/0_I032.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109837430/0_I033.mp3"],
+      "delay": [0.0, 0.1, 0.3, 0.1],
+      "face": [7, 14, 18, 19],
+      "conds": [{
+        "condType": "eventShopPurchase",
+        "value": 80639
+      }, {
+        "condType": "eventPeriod",
+        "value": 80639
+      }]
+    }, {
+      "name": "ショップついて 4",
+      "condType": "eventEnd",
+      "priority": 6460,
+      "svtVoiceType": "eventShop",
+      "overwriteName": "真冬の水着スペシャル ぐだぐだぷにぷにウォーズ！ \n～史上最低の爆弾娘～ 4",
+      "id": ["0_I040", "0_I041", "0_I042"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_109837430/0_I040.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109837430/0_I041.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109837430/0_I042.mp3"],
+      "delay": [0.0, 0.1, 0.1],
+      "face": [16, 3, 6],
+      "conds": [{
+        "condType": "eventShopPurchase",
+        "value": 80639
+      }, {
+        "condType": "eventPeriod",
+        "value": 80639
+      }]
+    }, {
+      "name": "ショップついて 5",
+      "condType": "eventEnd",
+      "priority": 6450,
+      "svtVoiceType": "eventShop",
+      "overwriteName": "真冬の水着スペシャル ぐだぐだぷにぷにウォーズ！ \n～史上最低の爆弾娘～ 5",
+      "id": ["0_I050", "0_I051"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_109837430/0_I050.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109837430/0_I051.mp3"],
+      "delay": [0.0, 0.1],
+      "face": [13, 6],
+      "conds": [{
+        "condType": "eventShopPurchase",
+        "value": 80639
+      }, {
+        "condType": "eventPeriod",
+        "value": 80639
+      }]
+    }]
+  }]
+}, {
   "id": 80647,
   "type": "eventQuest",
   "name": "冠位名代戦",
