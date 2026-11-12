@@ -216168,7 +216168,7 @@
       "closedAt": 1796183999
     }, {
       "id": 94164003,
-      "name": "",
+      "name": "第３話 ぬるぬる地獄スイミング",
       "type": "main",
       "flags": ["notDisplayResultGetPoint"],
       "consume": 5,
@@ -216186,7 +216186,14 @@
         "objectId": 2,
         "num": 1
       }],
+      "groups": [{
+        "type": "eventQuest",
+        "groupId": 80639
+      }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 94164002
       }, {
@@ -216198,14 +216205,67 @@
         "targetId": 80639,
         "value": 25000,
         "closedMessage": "GUNMA温泉ポイント25,000以上獲得\n＆11月12日18時00分以降に開放"
-      }, {
-        "type": "forceFalse",
-        "targetId": 0,
-        "closedMessage": "データ更新後に開放"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9416400310",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9416/9416400310.txt"
+        }, {
+          "scriptId": "9416400311",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9416/9416400311.txt"
+        }]
+      }],
       "priority": 94164097,
       "noticeAt": 1794394800,
+      "openedAt": 1794474000,
+      "closedAt": 1796183999
+    }, {
+      "id": 94164004,
+      "name": "第４話 裏切り三者面談",
+      "type": "main",
+      "flags": ["notDisplayResultGetPoint"],
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "75",
+      "spotId": 920700,
+      "warId": 9208,
+      "gifts": [{
+        "id": 94164016,
+        "type": "servant",
+        "objectId": 9809910,
+        "num": 1
+      }, {
+        "id": 94164016,
+        "objectId": 2,
+        "num": 1
+      }],
+      "groups": [{
+        "type": "eventQuest",
+        "groupId": 80639
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94164003
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9416400410",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9416/9416400410.txt"
+        }, {
+          "scriptId": "9416400411",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9416/9416400411.txt"
+        }]
+      }],
+      "priority": 94164096,
+      "noticeAt": 1794474000,
       "openedAt": 1794474000,
       "closedAt": 1796183999
     }, {
@@ -216240,6 +216300,37 @@
       "noticeAt": 1794394800,
       "openedAt": 1794394800,
       "closedAt": 1796183999
+    }, {
+      "id": 94164103,
+      "name": "【GUNMA巡り】癒やしの温泉女神様",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "75",
+      "spotId": 920700,
+      "warId": 9208,
+      "gifts": [{
+        "id": 12000,
+        "objectId": 100,
+        "num": 1
+      }],
+      "groups": [{
+        "type": "eventQuest",
+        "groupId": 80639
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94164003
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "priority": 94164026,
+      "noticeAt": 1794474000,
+      "openedAt": 1794474000,
+      "closedAt": 1796183999
     }]
   }, {
     "id": 920701,
@@ -216252,6 +216343,57 @@
     "questOfsX": 38,
     "questOfsY": -87,
     "quests": [{
+      "id": 94164005,
+      "name": "第５話 ハチャメチャ天下人クライシス",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 920701,
+      "warId": 9208,
+      "gifts": [{
+        "id": 94164017,
+        "type": "servant",
+        "objectId": 705501,
+        "num": 1
+      }, {
+        "id": 94164017,
+        "type": "servant",
+        "objectId": 9809910,
+        "num": 1
+      }],
+      "groups": [{
+        "type": "eventQuest",
+        "groupId": 80639
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94164004
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1, 2],
+      "phasesNoBattle": [1, 2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9416400510",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9416/9416400510.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9416400520",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9416/9416400520.txt"
+        }]
+      }],
+      "priority": 94164095,
+      "noticeAt": 1794474000,
+      "openedAt": 1794474000,
+      "closedAt": 1796183999
+    }, {
       "id": 94164101,
       "name": "【GUNMA巡り】こんにゃくとネギ",
       "type": "event",
@@ -216315,6 +216457,37 @@
       "noticeAt": 1794394800,
       "openedAt": 1794394800,
       "closedAt": 1796183999
+    }, {
+      "id": 94164104,
+      "name": "【GUNMA巡り】青城の白いドラゴン",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "80",
+      "spotId": 920701,
+      "warId": 9208,
+      "gifts": [{
+        "id": 12000,
+        "objectId": 100,
+        "num": 1
+      }],
+      "groups": [{
+        "type": "eventQuest",
+        "groupId": 80639
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94164005
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "priority": 94164025,
+      "noticeAt": 1794474000,
+      "openedAt": 1794474000,
+      "closedAt": 1796183999
     }]
   }, {
     "id": 920702,
@@ -216325,7 +216498,51 @@
     "y": 644.0,
     "nameOfsY": -25,
     "questOfsX": 50,
-    "questOfsY": -76
+    "questOfsY": -76,
+    "quests": [{
+      "id": 94164006,
+      "name": "",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 920702,
+      "warId": 9208,
+      "gifts": [{
+        "id": 94164016,
+        "type": "servant",
+        "objectId": 9809910,
+        "num": 1
+      }, {
+        "id": 94164016,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94164005
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "eventTotalPoint",
+        "targetId": 80639,
+        "value": 75000,
+        "closedMessage": "GUNMA温泉ポイント75,000以上獲得\n＆11月13日18時00分以降に開放"
+      }, {
+        "type": "forceFalse",
+        "targetId": 0,
+        "closedMessage": "データ更新後に開放"
+      }],
+      "phases": [1, 2],
+      "phasesNoBattle": [1, 2],
+      "priority": 94164094,
+      "noticeAt": 1794474000,
+      "openedAt": 1794560400,
+      "closedAt": 1796183999
+    }]
   }, {
     "id": 920799,
     "mapId": 9208,
@@ -216391,6 +216608,16 @@
     "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9208/QMap_Cap9208_Atlas/img_road9208_00.png",
     "srcSpotId": 920700,
     "dstSpotId": 920701,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "questClear"
+  }, {
+    "id": 920701,
+    "warId": 9208,
+    "mapId": 9208,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9208/QMap_Cap9208_Atlas/img_road9208_00.png",
+    "srcSpotId": 920701,
+    "dstSpotId": 920702,
     "dispCondType": "useItemTime",
     "dispCondType2": "useItemTime",
     "activeCondType": "questClear"

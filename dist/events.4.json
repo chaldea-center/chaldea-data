@@ -308880,6 +308880,9 @@
     }, {
       "imageId": 109837430,
       "image": "https://static.atlasacademy.io/JP/CharaFigure/1098374300/1098374300_merged.png"
+    }, {
+      "imageId": 109837230,
+      "image": "https://static.atlasacademy.io/JP/CharaFigure/1098372300/1098372300_merged.png"
     }],
     "tabOnImage": "https://static.atlasacademy.io/JP/EventReward/btn_txt_on_80639_0.png",
     "tabOffImage": "https://static.atlasacademy.io/JP/EventReward/btn_txt_off_80639_0.png",
@@ -308901,6 +308904,9 @@
     }, {
       "imageId": 109837430,
       "image": "https://static.atlasacademy.io/JP/CharaFigure/1098374300/1098374300_merged.png"
+    }, {
+      "imageId": 109837230,
+      "image": "https://static.atlasacademy.io/JP/CharaFigure/1098372300/1098372300_merged.png"
     }],
     "tabOnImage": "https://static.atlasacademy.io/JP/EventReward/btn_txt_on_80639_1.png",
     "tabOffImage": "https://static.atlasacademy.io/JP/EventReward/btn_txt_off_80639_1.png",
@@ -309051,6 +309057,101 @@
       "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_2801400/0_I050.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_2801400/0_I051.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_2801400/0_I052.mp3"],
       "delay": [0.0, 0.1, 0.1],
       "face": [0, 0, 0],
+      "conds": [{
+        "condType": "eventShopPurchase",
+        "value": 80639
+      }, {
+        "condType": "eventPeriod",
+        "value": 80639
+      }]
+    }]
+  }, {
+    "svtId": 109837230,
+    "type": "eventReward",
+    "voiceLines": [{
+      "name": "イベントについて 1",
+      "condType": "eventEnd",
+      "priority": 6990,
+      "svtVoiceType": "eventReward",
+      "id": ["0_N010", "0_N011", "0_N012"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_109837230/0_N010.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109837230/0_N011.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109837230/0_N012.mp3"],
+      "delay": [0.0, 0.1, 0.1],
+      "face": [4, 3, 4],
+      "conds": [{
+        "condType": "eventNoend",
+        "value": 80639
+      }]
+    }]
+  }, {
+    "svtId": 109837230,
+    "type": "eventShop",
+    "voiceLines": [{
+      "name": "ショップついて 1",
+      "condType": "eventEnd",
+      "priority": 6490,
+      "svtVoiceType": "eventShop",
+      "id": ["0_I010", "0_I011", "0_I012"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_109837230/0_I010.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109837230/0_I011.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109837230/0_I012.mp3"],
+      "delay": [0.0, 0.1, 0.1],
+      "face": [4, 3, 4],
+      "conds": [{
+        "condType": "eventNoend",
+        "value": 80639
+      }]
+    }, {
+      "name": "ショップついて 2",
+      "condType": "eventEnd",
+      "priority": 6480,
+      "svtVoiceType": "eventShop",
+      "id": ["0_I020", "0_I021"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_109837230/0_I020.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109837230/0_I021.mp3"],
+      "delay": [0.0, 0.1],
+      "face": [4, 3],
+      "conds": [{
+        "condType": "eventNoend",
+        "value": 80639
+      }]
+    }, {
+      "name": "ショップついて 3",
+      "condType": "eventEnd",
+      "priority": 6470,
+      "svtVoiceType": "eventShop",
+      "id": ["0_I030", "0_I031"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_109837230/0_I030.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109837230/0_I031.mp3"],
+      "delay": [0.0, 0.1],
+      "face": [3, 4],
+      "conds": [{
+        "condType": "eventShopPurchase",
+        "value": 80639
+      }, {
+        "condType": "eventPeriod",
+        "value": 80639
+      }]
+    }, {
+      "name": "ショップついて 4",
+      "condType": "eventEnd",
+      "priority": 6460,
+      "svtVoiceType": "eventShop",
+      "id": ["0_I040", "0_I041", "0_I042"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_109837230/0_I040.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109837230/0_I041.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109837230/0_I042.mp3"],
+      "delay": [0.0, 0.1, 0.1],
+      "face": [3, 1, 3],
+      "conds": [{
+        "condType": "eventShopPurchase",
+        "value": 80639
+      }, {
+        "condType": "eventPeriod",
+        "value": 80639
+      }]
+    }, {
+      "name": "ショップついて 5",
+      "condType": "eventEnd",
+      "priority": 6450,
+      "svtVoiceType": "eventShop",
+      "id": ["0_I050", "0_I051"],
+      "audioAssets": ["https://static.atlasacademy.io/JP/Audio/ChrVoice_109837230/0_I050.mp3", "https://static.atlasacademy.io/JP/Audio/ChrVoice_109837230/0_I051.mp3"],
+      "delay": [0.0, 0.1],
+      "face": [4, 3],
       "conds": [{
         "condType": "eventShopPurchase",
         "value": 80639
