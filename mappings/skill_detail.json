@@ -45,7 +45,7 @@
     "JP": null,
     "CN": "<仅在暴击星为10个以上时可使用>减少10个暴击星【负面效果】＋己方全体的Quick指令卡性能提升[{0}](3回合)或Arts指令卡性能提升[{0}](3回合)或Buster指令卡性能提升[{0}](3回合)【选择效果】＋己方全体的NP获得量提升[{0}](3回合)",
     "TW": "<僅在爆擊星為10個以上時可使用>減少10個爆擊星【負面效果】＋我方全體的Quick指令卡性能提升[{0}](3回合)或Arts指令卡性能提升[{0}](3回合)或Buster指令卡性能提升[{0}](3回合)【選擇效果】＋我方全體的NP獲得量提升[{0}](3回合)",
-    "NA": null,
+    "NA": "<Usable only when there are 10 C. Stars or more> Decrease C. Stars by 10 [Demerit] + Increase Quick Card effectiveness [{0}] (3 turns) or Arts Card effectiveness [{0}] (3 turns) or Buster Card effectiveness [{0}] (3 turns) [Select an effect] for all allies + Increase NP Gain [{0}] (3 turns) for all allies",
     "KR": "<스타가 10개 이상 있을 경우 사용 가능> 스타 10개 감소【단점】 + 아군 전체의 퀵 카드 성능 UP[{0}](3턴) 또는 아츠 카드 성능 UP[{0}](3턴) 또는 버스터 카드 성능 UP[{0}](3턴)【효과를 선택】 + 아군 전체의 NP 획득량 UP[{0}](3턴)"
   },
   "<スターが10個以上ある場合のみ使用可能>自身のNPを増やす[{0}]＆宝具威力をアップ(3ターン)＋スターを10個減らす【デメリット】": {
@@ -1592,7 +1592,7 @@
     "JP": null,
     "CN": "[servantName 205300](Archer)装备时,付与自身毅力状态(1次·回复10%的生命值·可与其他毅力状态叠加)＆毅力发动时,付与己方全体增加10%NP的状态＆自身死亡时,付与己方全体增加10%NP的状态",
     "TW": "[servantName 205300](Archer)裝備時，賦予自身毅力狀態(1次．恢復10%HP．可與其他毅力狀態重複)＆毅力發動時，賦予我方全體增加10%NP的狀態＆自身死亡時，賦予我方全體增加10%NP的狀態",
-    "NA": "When equipped on Tutankhamun:\n Grants self Guts status for 1 time. (Reveives with 10% HP, Stackable with other Guts.)\n Grants self {{On-Guts-Activate}} buff for 3 turns.\n( Charges party's NP gauge by 10% when Guts status is activated.)\n Grants self {{On-Death-Activate}} buff for 3 turns.\n( Charges party's NP gauge by 10% when defeated.)",
+    "NA": "Apply Guts (1 time, restore 10% HP, stackable with other Guts) for yourself & increase NP Gauge by 10% for all allies when Guts is activated & NP Gauge by 10% for all allies upon defeat only when [servantName 205300] (Archer) is equipped with this Craft Essence",
     "KR": "[servantName 205300](아처) 장착 시, 자신에게 근성 상태 부여(1회・HP 10% 회복・다른 근성 상태와 중복 가능)&근성 발동 시 아군 전체의 NP 10% 증가 상태 부여&자신이 사망 시 아군 전체의 NP 10% 증가 상태 부여"
   },
   "[servantName 205400](アーチャー)装備時のみ、自身がフィールドにいる間、味方全体のQuickカード性能を8%アップ＆Artsカード性能を8%アップ＆毎ターンNP3%獲得状態を付与": {
@@ -2082,7 +2082,7 @@
     "JP": null,
     "CN": "[servantName 305600](Lancer)装备时,付与自身每回合获得8个暴击星的状态＋自身在场时,付与己方全体对〔秩序〕10%的特攻状态",
     "TW": "[servantName 305600](Lancer)裝備時，賦予自身每回合獲得8個爆擊星的狀態＋自身在場時，賦予我方全體對〔秩序〕10%的特攻狀態",
-    "NA": "When equipped on Van Gogh (Miner):\n Gains 8 critical stars every turn.\n Increases party's damage against enemies with Lawful Alignment by 10% while self is on the field.",
+    "NA": "Gain 8 C. Stars each turn for yourself only if [servantName 305600] (Lancer) is equipped with this Craft Essence + Apply 10% Special Attack [Lawful] for all allies when you are on the field",
     "KR": "[servantName 305600](랜서) 장착 시, 자신에게 매 턴 스타 8개 획득 상태 부여 + 자신이 필드에 있는 동안, 아군 전체에게 [질서] 특공 상태 10% 부여"
   },
   "[servantName 305700](ランサー)装備時のみ、自身の宝具威力を30%アップ＆「クリティカル攻撃時のダメージ前に毒状態(500ダメージ・5ターン)を付与する状態」を付与": {
@@ -3223,14 +3223,14 @@
     "JP": null,
     "CN": "在『通通砸碎！ 神秘屋的工匠们』中,自身的攻击威力提升100%【『通通砸碎！ 神秘屋的工匠们』活动限定】",
     "TW": "在『通通砸碎！ 神秘屋的工匠們』中，自身的攻擊威力提升100%【『通通砸碎！ 神秘屋的工匠們』活動限定】",
-    "NA": null,
+    "NA": "Increase ATK Strength by 100% in \"Smash! Mystery House Crafters\" for yourself [Event Only]",
     "KR": "“때려 부숴라! 미스터리 하우스 크래프터즈”에서, 자신의 공격 위력 100% UP[“때려 부숴라! 미스터리 하우스 크래프터즈” 이벤트 기간 한정]"
   },
   "『ぶち壊せ！ ミステリーハウス・クラフターズ』において、自身の攻撃の威力を200%アップ[最大解放]【『ぶち壊せ！ ミステリーハウス・クラフターズ』イベント期間限定】": {
     "JP": null,
     "CN": "在『通通砸碎！ 神秘屋的工匠们』中,自身的攻击威力提升200%[最大解放]【『通通砸碎！ 神秘屋的工匠们』活动限定】",
     "TW": "在『通通砸碎！ 神秘屋的工匠們』中，自身的攻擊威力提升200%[最大解放]【『通通砸碎！ 神秘屋的工匠們』活動限定】",
-    "NA": null,
+    "NA": "Increase ATK Strength by 200% in \"Smash! Mystery House Crafters\" for yourself [MAX] [Event Only]",
     "KR": "“때려 부숴라! 미스터리 하우스 크래프터즈”에서, 자신의 공격 위력 200% UP[최대해방][“때려 부숴라! 미스터리 하우스 크래프터즈” 이벤트 기간 한정]"
   },
   "『アキハバラ・エクスプロージョン！』において、★3(R)以下のサーヴァントまたはマシュに装備時のみ、自身の攻撃の威力を30%アップ【『アキハバラ・エクスプロージョン！』イベント期間限定】": {
@@ -7143,14 +7143,14 @@
     "JP": null,
     "CN": "引导绳索的掉落获得数增加1个【『通通砸碎！ 神秘屋的工匠们』活动限定】",
     "TW": "引導繩索的掉落獲得數增加1個【『通通砸碎！ 神秘屋的工匠們』活動限定】",
-    "NA": null,
+    "NA": "Increase Guide Rope amount per drop by 1 [Event Only]",
     "KR": "가이드 로프의 획득 개수 1개 증가[“때려 부숴라! 미스터리 하우스 크래프터즈” 이벤트 기간 한정]"
   },
   "ガイドロープのドロップ獲得数を2個増やす[最大解放]【『ぶち壊せ！ ミステリーハウス・クラフターズ』イベント期間限定】": {
     "JP": null,
     "CN": "引导绳索的掉落获得数增加2个[最大解放]【『通通砸碎！ 神秘屋的工匠们』活动限定】",
     "TW": "引導繩索的掉落獲得數增加2個[最大解放]【『通通砸碎！ 神秘屋的工匠們』活動限定】",
-    "NA": null,
+    "NA": "Increase Guide Rope amount per drop by 2 [MAX] [Event Only]",
     "KR": "가이드 로프의 획득 개수 2개 증가[최대해방][“때려 부숴라! 미스터리 하우스 크래프터즈” 이벤트 기간 한정]"
   },
   "ガウェイン(セイバー)装備時のみ、自身がフィールドにいる間、味方全体のBusterカード性能を15%アップ": {
@@ -7801,14 +7801,14 @@
     "JP": null,
     "CN": "建造用木材、建造用石材、建造用金属的掉落获得数增加1个【『通通砸碎！ 神秘屋的工匠们』活动限定】",
     "TW": "建造用木材、建造用石材、建造用金屬的掉落獲得數增加1個【『通通砸碎！ 神秘屋的工匠們』活動限定】",
-    "NA": null,
+    "NA": "Increase Craft Wood, Craft Stone, and Craft Metal amount per drop by 1 [Event Only]",
     "KR": "크래프트 우드, 크래프트 스톤, 크래프트 메탈 드롭 획득 개수를 1개 증가[“때려 부숴라! 미스터리 하우스 크래프터즈” 이벤트 기간 한정]"
   },
   "クラフトウッド、クラフトストーン、クラフトメタルのドロップ獲得数を2個増やす[最大解放]【『ぶち壊せ！ ミステリーハウス・クラフターズ』イベント期間限定】": {
     "JP": null,
     "CN": "建造用木材、建造用石材、建造用金属的掉落获得数增加2个[最大解放]【『通通砸碎！ 神秘屋的工匠们』活动限定】",
     "TW": "建造用木材、建造用石材、建造用金屬的掉落獲得數增加2個[最大解放]【『通通砸碎！ 神秘屋的工匠們』活動限定】",
-    "NA": null,
+    "NA": "Increase Craft Wood, Craft Stone, and Craft Metal amount per drop by 2 [MAX] [Event Only]",
     "KR": "크래프트 우드, 크래프트 스톤, 크래프트 메탈 드롭 획득 개수를 2개 증가[최대해방][“때려 부숴라! 미스터리 하우스 크래프터즈” 이벤트 기간 한정]"
   },
   "クリスマスハッピーチケットのドロップ獲得数を1個増やす【『雪原のメリー・クリスマス2023』イベント期間限定】": {
@@ -9180,28 +9180,28 @@
     "JP": null,
     "CN": "彩绘油漆的掉落获得数增加1个【『通通砸碎！ 神秘屋的工匠们』活动限定】",
     "TW": "彩繪油漆的掉落獲得數增加1個【『通通砸碎！ 神秘屋的工匠們』活動限定】",
-    "NA": null,
+    "NA": "Increase Decorative Paint amount per drop by 1 [Event Only]",
     "KR": "데코 페인트의 획득 개수 1개 증가[“때려 부숴라! 미스터리 하우스 크래프터즈” 이벤트 기간 한정]"
   },
   "デコペンキのドロップ獲得数を2個増やす[最大解放]【『ぶち壊せ！ ミステリーハウス・クラフターズ』イベント期間限定】": {
     "JP": null,
     "CN": "彩绘油漆的掉落获得数增加2个[最大解放]【『通通砸碎！ 神秘屋的工匠们』活动限定】",
     "TW": "彩繪油漆的掉落獲得數增加2個[最大解放]【『通通砸碎！ 神秘屋的工匠們』活動限定】",
-    "NA": null,
+    "NA": "Increase Decorative Paint amount per drop by 2 [MAX] [Event Only]",
     "KR": "데코 페인트의 획득 개수 2개 증가[최대해방][“때려 부숴라! 미스터리 하우스 크래프터즈” 이벤트 기간 한정]"
   },
   "デザインノートのドロップ獲得数を1個増やす【『ぶち壊せ！ ミステリーハウス・クラフターズ』イベント期間限定】": {
     "JP": null,
     "CN": "设计笔记的掉落获得数增加1个【『通通砸碎！ 神秘屋的工匠们』活动限定】",
     "TW": "設計筆記的掉落獲得數增加1個【『通通砸碎！ 神秘屋的工匠們』活動限定】",
-    "NA": null,
+    "NA": "Increase Design Notebook amount per drop by 1 [Event Only]",
     "KR": "디자인 노트의 획득 개수 1개 증가[“때려 부숴라! 미스터리 하우스 크래프터즈” 이벤트 기간 한정]"
   },
   "デザインノートのドロップ獲得数を2個増やす[最大解放]【『ぶち壊せ！ ミステリーハウス・クラフターズ』イベント期間限定】": {
     "JP": null,
     "CN": "设计笔记的掉落获得数增加2个[最大解放]【『通通砸碎！ 神秘屋的工匠们』活动限定】",
     "TW": "設計筆記的掉落獲得數增加2個[最大解放]【『通通砸碎！ 神秘屋的工匠們』活動限定】",
-    "NA": null,
+    "NA": "Increase Design Notebook amount per drop by 2 [MAX] [Event Only]",
     "KR": "디자인 노트의 획득 개수 2개 증가[최대해방][“때려 부숴라! 미스터리 하우스 크래프터즈” 이벤트 기간 한정]"
   },
   "デジマスイーツポイントのドロップ獲得量を30%増やす【『踊るドラゴン・キャッスル！』イベント期間限定】": {
@@ -12050,7 +12050,7 @@
     "JP": null,
     "CN": "当使用被刻印的指令卡进行攻击时,付与自身防御力降低无效状态(1次·2回合)",
     "TW": "當使用被刻印的指令卡進行攻擊時，賦予自身防禦力降低無效狀態(1次．2回合)",
-    "NA": "Grants self  Defense Down Debuff Immunity for 1 time, 2 turns when attacking using the engraved card.",
+    "NA": "Apply DEF Down Immune (1 time, 2 turns) to yourself when attacking with the engraved Card",
     "KR": "각인된 카드로 공격 시 자신에게 방어력 DOWN 무효 상태(1회・2턴) 부여"
   },
   "刻印されたカードによる攻撃時に、自身のHPを1000回復(1度使用すると再使用に3ターン必要)": {
@@ -12085,7 +12085,7 @@
     "JP": null,
     "CN": "当使用被刻印的指令卡进行攻击时,自身的生命值回复量提升30%(1次·2回合)＋被刻印的指令卡NP获得量提升5%",
     "TW": "當使用被刻印的指令卡進行攻擊時，自身的HP恢復量提升30%(1次．2回合)＋被刻印的指令卡NP獲得量提升5%",
-    "NA": "Increases healing received by 30% for 1 time, 2 turns when attacking using the engraved card.\n Increases NP generation rate by 5% of the engraved card.",
+    "NA": "Increase HP Recovery amount by 30% (1 time, 2 turns) for yourself when attacking with the engraved Card + Increase NP Gain by 5% for the engraved Card",
     "KR": "각인된 카드로 공격 시 자신의 HP 회복량 30% UP(1회・2턴) + 각인된 카드의 NP 획득량 5% UP"
   },
   "刻印されたカードによる攻撃時に、自身のHP回復量を50%アップ(1回・2ターン)": {
@@ -12792,7 +12792,7 @@
     "JP": null,
     "CN": "被刻印的指令卡暴击星集中度提升50%＋当使用被刻印的指令卡进行攻击时,解除1个敌方单体的防御力提升状态",
     "TW": "被刻印的指令卡爆擊星集中提升50%＋當使用被刻印的指令卡進行攻擊時，解除1個敵方單體的防禦力提升狀態",
-    "NA": "Increases critical star absorption by 50% of the engraved card.\n Removes one latest  Defense Up buff from enemy when attacking using the engraved card.",
+    "NA": "Increase C. Star Gather Rate by 50% for the engraved Card + Remove 1 DEF Up on a single enemy when attacking with the engraved Card",
     "KR": "각인된 카드의 스타 집중도 50% UP + 각인된 카드로 공격 시 적 하나의 방어력 UP 상태 1개 해제"
   },
   "刻印されたカードのスター集中度を50%アップ ＋ 刻印されたカードによる攻撃時に、自身の宝具威力を5%アップ(1ターン)": {
@@ -13604,7 +13604,7 @@
     "JP": null,
     "CN": "己方全体的NP增加[{0}]＆宝具威力提升[{0}](3回合)＋付与自身「毅力发动时获得大量暴击星的状态」(3回合)＆「自身死亡时获得大量暴击星的状态」(3回合)",
     "TW": "我方全體的NP增加[{0}]＆寶具威力提升[{0}](3回合)＋賦予自身「毅力發動時獲得大量爆擊星的狀態」(3回合)＆「自身死亡時獲得大量爆擊星的狀態」(3回合)",
-    "NA": null,
+    "NA": "Increase NP Gauge [{0}] & NP Strength [{0}] (3 turns) for all allies + Apply a state that \"gains a large amount of C. Stars when Guts is activated\" (3 turns) & a state that \"gains a large amount of C. Stars upon defeat\" (3 turns) for yourself",
     "KR": "아군 전체의 NP 증가[{0}]&보구 위력 UP[{0}](3턴) + 자신에게 ‘근성 발동 시 스타를 대량 획득하는 상태’ 부여(3턴)&‘자신의 사망 시 스타를 대량 획득하는 상태’ 부여(3턴)"
   },
   "味方全体のNPを増やす[{0}]＆宝具威力をアップ[{0}](3ターン)＆宝具使用時のチャージ段階を1段階引き上げる状態を付与(1回・3ターン)": {
@@ -16131,7 +16131,7 @@
     "JP": null,
     "CN": "己方单体的攻击力提升[{0}](3回合)＆暴击星集中度提升[{0}](3回合)＋付与自身「Quick攻击时,解除1个诅咒状态＆解除成功时,付与自身攻击力小幅提升(3回合)的状态」(3回合)＋吸收除自身以外敌我双方全体的诅咒状态【负面效果】",
     "TW": "我方單體的攻擊力提升[{0}](3回合)＆爆擊星集中提升[{0}](3回合)＋賦予自身「Quick攻擊時，解除1個詛咒狀態＆解除成功時，賦予自身攻擊力小幅提升(3回合)的狀態」(3回合)＋吸收除自身以外敵我雙方全體的詛咒狀態【負面效果】",
-    "NA": "Increase ATK [{0}] (3 turns) & increase C. Star Gather Rate [{0}] (3 turns) for a single ally + Apply a state that \"removes 1 Curse when attacking with Quick Card & slightly increases ATK (3 turns) for yourself when removal is successful\" (3 turns) for yourself + Absorb Curse from all enemies and allies excluding yourself [Demerit]",
+    "NA": "Increase ATK [{0}] (3 turns) & increase C. Star Gather Rate [{0}] (3 turns) for a single ally + Apply a state that \"removes 1 Curse when attacking with a Quick Card & slightly increases ATK (3 turns) for yourself when removal is successful\" (3 turns) for yourself + Absorb Curse from all enemies and allies excluding yourself [Demerit]",
     "KR": "아군 한 명의 공격력 UP[{0}](3턴)&스타 집중도 UP[{0}](3턴) + 자신에게 ‘퀵 공격 시 자신의 저주 상태 1개 해제&해제에 성공한 경우, 자신의 공격력을 조금 UP(3턴)하는 상태’ 부여(3턴) + 자신을 제외한 적과 아군 전체로부터 저주 상태 흡수【단점】"
   },
   "味方単体の攻撃力をアップ[{0}](3ターン)＆スター集中度をアップ[{0}](3ターン) ＋ 自身に「Quick攻撃時に自身の呪い状態を1つ解除＆解除に成功した場合、自身の攻撃力を少しアップ(3ターン)＆NPを増やす[{0}]▲状態」を付与(3ターン) ＋ 自身を除く敵味方全体から呪い状態を吸収する【デメリット】": {
@@ -20737,7 +20737,7 @@
     "JP": null,
     "CN": "付与自身毅力状态[{0}](1次·3回合)＆弱化无效状态(3回合)＆NP增加[{0}]",
     "TW": "賦予自身毅力狀態[{0}](1次．3回合)＆弱化無效狀態(3回合)＆NP增加[{0}]",
-    "NA": null,
+    "NA": "Apply Guts [{0}] (1 time, 3 turns) & Debuff Immune (3 turns) & increase NP Gauge [{0}] for yourself",
     "KR": "자신에게 근성 상태 부여[{0}](1회・3턴)&약화 무효 상태 부여(3턴)&NP 증가[{0}]"
   },
   "自身にガッツ状態を付与[{0}](1回・3ターン)＆弱体無効状態を付与(3ターン)＆毎ターンNP獲得状態を付与(3ターン)": {
@@ -22053,7 +22053,7 @@
     "JP": null,
     "CN": "付与自身回避状态(2次·3回合)＆被暴击发生耐性提升[{0}](3回合)",
     "TW": "賦予自身迴避狀態(2次．3回合)＆被爆擊發生耐性提升[{0}](3回合)",
-    "NA": null,
+    "NA": "Apply Evade (2 times, 3 turns) & increase Critical Resistance [{0}] (3 turns) for yourself",
     "KR": "자신에게 회피 상태 부여(2회・3턴)&받는 크리티컬 발생 내성 UP[{0}](3턴)"
   },
   "自身に回避状態を付与(2回・3ターン)＆被クリティカル発生耐性をアップ[{0}](3ターン)＆スターが10個以上ある場合、クリティカル威力をアップ[{0}](3ターン)▲＆スターが20個以上ある場合、クリティカル威力をアップ[{0}](3ターン)▲＆スターが30個以上ある場合、クリティカル威力をアップ[{0}](3ターン)▲＆スターが40個以上ある場合、クリティカル威力をアップ[{0}](3ターン)▲＆スターが50個以上ある場合、クリティカル威力をアップ[{0}](3ターン)▲": {
@@ -22844,7 +22844,7 @@
     "JP": null,
     "CN": "付与自身最大生命值提升的状态[{0}](3回合)＆NP增加[{0}]＋获得暴击星[{0}]＋仅在〔都市〕场地上时,获得暴击星",
     "TW": "賦予自身最大HP提升的狀態[{0}](3回合)＆NP增加[{0}]＋獲得爆擊星[{0}]＋僅在〔都市〕場地上時，獲得爆擊星",
-    "NA": null,
+    "NA": "Increase Max HP [{0}] (3 turns) & NP Gauge [{0}] for yourself + Gain C. Stars [{0}] + Gain C. Stars when on a [City] field",
     "KR": "자신에게 최대 HP가 UP하는 상태 부여[{0}](3턴)&NP 증가[{0}] + 스타 획득[{0}] + [도시]인 필드에서 스타 획득"
   },
   "自身に最大HPがアップする状態を付与[{0}](3ターン)＆NPを増やす[{0}]＆攻撃力をアップ[{0}](3ターン)＆〔悪〕特攻状態を付与[{0}](3ターン)＆〔善〕特攻状態を付与[{0}](3ターン)": {
@@ -23558,7 +23558,7 @@
     "JP": null,
     "CN": "付与自身每回合获得NP4%的状态＆Arts指令卡性能提升8%＆宝具威力提升15%",
     "TW": "賦予自身每回合獲得NP4%的狀態＆Arts指令卡性能提升8%＆寶具威力提升15%",
-    "NA": "Charges own NP gauge every turn by 4%.\n Increases Arts performance by 8%.\n Increases NP damage by 15%.",
+    "NA": "Increase NP Gauge by 4% each turn & Arts Card effectiveness by 8% & NP Strength by 15% for yourself",
     "KR": "자신에게 매 턴 NP 4% 획득 상태 부여&아츠 카드 성능 8% UP&보구 위력 15% UP"
   },
   "自身に毎ターンNP4%獲得状態を付与＆Busterカードの性能を10%アップ": {
@@ -23817,7 +23817,7 @@
     "JP": null,
     "CN": "付与自身每回合获得NP5%的状态＆Arts指令卡性能提升10%＆宝具威力提升20%[最大解放]",
     "TW": "賦予自身每回合獲得NP5%的狀態＆Arts指令卡性能提升10%＆寶具威力提升20%[最大解放]",
-    "NA": "Charges own NP gauge every turn by 5%.\n Increases Arts performance by 10%.\n Increases NP damage by 20%.",
+    "NA": "Increase NP Gauge by 5% each turn & Arts Card effectiveness by 10% & NP Strength by 20% for yourself [MAX]",
     "KR": "자신에게 매 턴 NP 5% 획득 상태 부여&아츠 카드 성능 10% UP&보구 위력 20% UP[최대해방]"
   },
   "自身に毎ターンNP5%獲得状態を付与＆Artsカード性能を5%アップ＆Busterカード性能を5%アップ＆NP獲得量を5%アップ[最大解放]": {
@@ -25378,6 +25378,13 @@
     "JP": null,
     "CN": "付与自身无敌状态(2次·3回合)＆NP获得量提升[{0}](3回合)＆暴击星掉落率提升[{0}](3回合)＋付与除自身以外的敌我全体〔伊莉雅〕特性(3回合)",
     "TW": "賦予自身無敵狀態(2次．3回合)＆NP獲得量提升[{0}](3回合)＆爆擊星掉落率提升[{0}](3回合) + 除自身外的敵我全體賦予〔伊莉雅〕特性(3回合)",
+    "NA": null,
+    "KR": null
+  },
+  "自身に無敵状態を付与(2回・3ターン)＆NP獲得量をアップ[{0}](3ターン)＆弱体無効状態を付与(3回・3ターン)▲ ＋ 味方全体に〔天の力を持つ敵〕特攻状態を付与[{0}](3ターン)▲": {
+    "JP": null,
+    "CN": null,
+    "TW": null,
     "NA": null,
     "KR": null
   },
@@ -28388,7 +28395,7 @@
     "JP": null,
     "CN": "自身的Arts指令卡性能提升[{0}](3回合)＆付与「攻击时付与敌方单体诅咒状态(5回合)」的状态(3回合)＆NP增加[{0}]",
     "TW": "自身的Arts指令卡性能提升[{0}](3回合)＆賦予「攻擊時賦予敵方單體詛咒狀態(5回合)」的狀態(3回合)＆NP增加[{0}]",
-    "NA": null,
+    "NA": "Increase Arts Card effectiveness [{0}] (3 turns) & apply a state that \"inflicts Curse (5 turns) to a single enemy during attacks\" (3 turns) & increase NP Gauge [{0}] for yourself",
     "KR": "자신의 아츠 카드 성능 UP[{0}](3턴)&‘공격 시에 적 하나에게 저주 상태(5턴) 부여하는 상태’ 부여(3턴)&NP 증가[{0}]"
   },
   "自身のArtsカード性能をアップ[{0}](3ターン)＆〔神性〕特攻状態を付与[{0}](3ターン) ＋ 敵全体に呪い状態を付与(5ターン)": {
@@ -28843,7 +28850,7 @@
     "JP": null,
     "CN": "自身的Buster指令卡性能小幅提升＆Buster指令卡的暴击星掉落率提升",
     "TW": "自身的Buster指令卡性能小幅提升＆Buster指令卡的爆擊星掉落率提升",
-    "NA": null,
+    "NA": "Slightly increase Buster Card effectiveness & increase Buster Card C. Star Drop Rate for yourself",
     "KR": "자신의 버스터 카드 성능 조금 UP&버스터 카드의 스타 발생률 UP"
   },
   "自身のBusterカードの性能を少しアップ＆被ダメージカット状態を付与": {
@@ -29361,7 +29368,7 @@
     "JP": null,
     "CN": "自身的Buster指令卡性能提升3%＆Buster指令卡的暴击威力提升15%",
     "TW": "自身的Buster指令卡性能提升3%＆Buster指令卡的爆擊威力提升15%",
-    "NA": "Increases Buster performance by 3%.\n Increases critical damage of  Buster Cards by 15%.",
+    "NA": "Increase Buster Card effectiveness by 3% & Buster Card Critical Strength by 15% for yourself",
     "KR": "자신의 버스터 카드 성능 3% UP&버스터 카드의 크리티컬 위력 15% UP"
   },
   "自身のBusterカード性能を3%アップ＆HP回復量を5%アップ": {
@@ -29424,7 +29431,7 @@
     "JP": null,
     "CN": "自身的Buster指令卡性能提升5%＆Buster指令卡的暴击威力提升20%[最大解放]",
     "TW": "自身的Buster指令卡性能提升5%＆Buster指令卡的爆擊威力提升20%[最大解放]",
-    "NA": "Increases Buster performance by 5%.\n Increases critical damage of  Buster Cards by 20%.",
+    "NA": "Increase Buster Card effectiveness by 5% & Buster Card Critical Strength by 20% for yourself [MAX]",
     "KR": "자신의 버스터 카드 성능 5% UP&버스터 카드의 크리티컬 위력 20% UP[최대해방]"
   },
   "自身のBusterカード性能を5%アップ＆HP回復量を10%アップ[最大解放]": {
@@ -31692,7 +31699,7 @@
     "JP": null,
     "CN": "自身的NP获得量提升15%＆自身的暴击威力提升5%＆自身以NP已达30%的状态开始战斗",
     "TW": "自身的NP獲得量提升15%＆自身的爆擊威力提升5%＆自身以NP已達30%的狀態開始戰鬥",
-    "NA": "Increases NP generation rate by 15%.\n Increases critical damage rate by 5%.\n Starts battle with 30% NP gauge charged.",
+    "NA": "Increase NP Gain by 15% & Critical Strength by 5% & begin battle with NP charged at 30% for yourself",
     "KR": "자신의 NP 획득량 15% UP&크리티컬 위력 5% UP&NP를 30% 차지한 상태로 배틀을 개시"
   },
   "自身のNP獲得量を15%アップ＆スター発生率を15%アップ＆毎ターンHP300回復状態を付与[最大解放]": {
@@ -31818,7 +31825,7 @@
     "JP": null,
     "CN": "自身的NP获得量提升20%＆自身的暴击威力提升10%＆自身以NP已达50%的状态开始战斗[最大解放]",
     "TW": "自身的NP獲得量提升20%＆自身的爆擊威力提升10%＆自身以NP已達50%的狀態開始戰鬥[最大解放]",
-    "NA": "Increases NP generation rate by 20%.\n Increases critical damage rate by 10%.\n Starts battle with 50% NP gauge charged.",
+    "NA": "Increase NP Gain by 20% & Critical Strength by 10% & begin battle with NP charged at 50% for yourself [MAX]",
     "KR": "자신의 NP 획득량 20% UP&크리티컬 위력 10% UP&NP를 50% 차지한 상태로 배틀을 개시[최대해방]"
   },
   "自身のNP獲得量を20%アップ＆クリティカル威力を20%アップ ＋ 登場時にスターを20個獲得(1回)[最大解放]": {
@@ -33169,7 +33176,7 @@
     "JP": null,
     "CN": "自身的Quick指令卡性能提升3%＆Arts指令卡性能提升3%＆自身的暴击威力提升5%＆付与每回合获得2个暴击星的状态",
     "TW": "自身的Quick指令卡性能提升3%＆Arts指令卡性能提升3%＆自身的爆擊威力提升5%＆賦予每回合獲得2個爆擊星的狀態",
-    "NA": "Increases Quick performance by 3%.\n Increases Arts performance by 3%.\n Increases critical damage by 5%.\n Gains 2 critical stars every turn.",
+    "NA": "Increase Quick Card effectiveness by 3% & Arts Card effectiveness by 3% & Critical Strength by 5% & gain 2 C. Stars each turn for yourself",
     "KR": "자신의 퀵 카드 성능 3% UP&아츠 카드 성능 3% UP&크리티컬 위력 5% UP&매 턴 스타 2개 획득 상태 부여"
   },
   "自身のQuickカード性能を3%アップ＆Artsカード性能を3%アップ＆弱体付与成功率を2%アップ": {
@@ -33309,7 +33316,7 @@
     "JP": null,
     "CN": "自身的Quick指令卡性能提升5%＆Arts指令卡性能提升5%＆自身的暴击威力提升10%＆付与每回合获得3个暴击星的状态[最大解放]",
     "TW": "自身的Quick指令卡性能提升5%＆Arts指令卡性能提升5%＆自身的爆擊威力提升10%＆賦予每回合獲得3個爆擊星的狀態[最大解放]",
-    "NA": "Increases Quick performance by 5%.\n Increases Arts performance by 5%.\n Increases critical damage by 10%.\n Gains 3 critical stars every turn.",
+    "NA": "Increase Quick Card effectiveness by 5% & Arts Card effectiveness by 5% & Critical Strength by 10% & gain 3 C. Stars each turn for yourself [MAX]",
     "KR": "자신의 퀵 카드 성능 5% UP&아츠 카드 성능 5% UP&크리티컬 위력 10% UP&매 턴 스타 3개 획득 상태 부여[최대해방]"
   },
   "自身のQuickカード性能を5%アップ＆Artsカード性能を5%アップ＆弱体付与成功率を3%アップ[最大解放]": {
@@ -34940,21 +34947,21 @@
     "JP": null,
     "CN": "自身在『通通砸碎！ 神秘屋的工匠们』中的攻击威力提升100%＆关卡通关时获得的牵绊点数增加50%【『通通砸碎！ 神秘屋的工匠们』活动限定】",
     "TW": "自身在『通通砸碎！ 神秘屋的工匠們』中的攻擊威力提升100%＆任務通關時獲得的羈絆點數提升50%【『通通砸碎！ 神秘屋的工匠們』活動限定】",
-    "NA": null,
+    "NA": "Increase ATK Strength by 100% in \"Smash! Mystery House Crafters\" & Bond gained when completing quests by 50% for yourself [Event Only]",
     "KR": "“때려 부숴라! 미스터리 하우스 크래프터즈”에서 자신의 공격 위력 100% UP&퀘스트 클리어 시 얻는 인연 포인트 50% 증가[“때려 부숴라! 미스터리 하우스 크래프터즈” 이벤트 기간 한정]"
   },
   "自身の『ぶち壊せ！ ミステリーハウス・クラフターズ』における攻撃の威力を30%アップ＆クエストクリア時に得られる絆を20%増やす【『ぶち壊せ！ ミステリーハウス・クラフターズ』イベント期間限定】": {
     "JP": null,
     "CN": "自身在『通通砸碎！ 神秘屋的工匠们』中的攻击威力提升30%＆关卡通关时获得的牵绊点数增加20%【『通通砸碎！ 神秘屋的工匠们』活动限定】",
     "TW": "自身在『通通砸碎！ 神秘屋的工匠們』中的攻擊威力提升30%＆任務通關時獲得的羈絆點數提升20%【『通通砸碎！ 神秘屋的工匠們』活動限定】",
-    "NA": null,
+    "NA": "Increase ATK Strength by 30% in \"Smash! Mystery House Crafters\" & Bond gained when completing quests by 20% for yourself [Event Only]",
     "KR": "“때려 부숴라! 미스터리 하우스 크래프터즈”에서의 자신의 공격 위력 30% UP&퀘스트 클리어 시 얻는 인연 포인트 20% 증가[“때려 부숴라! 미스터리 하우스 크래프터즈” 이벤트 기간 한정]"
   },
   "自身の『ぶち壊せ！ ミステリーハウス・クラフターズ』における攻撃の威力を50%アップ＆クエストクリア時に得られる絆を20%増やす【『ぶち壊せ！ ミステリーハウス・クラフターズ』イベント期間限定】": {
     "JP": null,
     "CN": "自身在『通通砸碎！ 神秘屋的工匠们』中的攻击威力提升50%＆关卡通关时获得的牵绊点数增加20%【『通通砸碎！ 神秘屋的工匠们』活动限定】",
     "TW": "自身在『通通砸碎！ 神秘屋的工匠們』中的攻擊威力提升50%＆任務通關時獲得的羈絆點數提升20%【『通通砸碎！ 神秘屋的工匠們』活動限定】",
-    "NA": null,
+    "NA": "Increase ATK Strength by 50% in \"Smash! Mystery House Crafters\" & Bond gained when completing quests by 20% for yourself [Event Only]",
     "KR": "“때려 부숴라! 미스터리 하우스 크래프터즈”에서의 자신의 공격 위력 50% UP&퀘스트 클리어 시 얻는 인연 포인트 20% 증가[“때려 부숴라! 미스터리 하우스 크래프터즈” 이벤트 기간 한정]"
   },
   "自身の『アイアイエーの春風　～魔女と愉快な仲間と新しい冒険～』における攻撃の威力を100%アップ【『アイアイエーの春風　～魔女と愉快な仲間と新しい冒険～』イベント期間限定】": {
@@ -38783,7 +38790,7 @@
     "JP": null,
     "CN": "自身的诅咒付与成功率提升",
     "TW": "自身的詛咒賦予成功率提升",
-    "NA": null,
+    "NA": "Increase Curse Success Rate for yourself",
     "KR": "자신의 저주 부여 성공률 UP"
   },
   "自身の宝具の威力を15%アップ＆NPを30%チャージした状態でバトルを開始する": {

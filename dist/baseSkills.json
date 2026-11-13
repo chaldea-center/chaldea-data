@@ -86394,6 +86394,7 @@
     "svtId": 105100,
     "num": 3,
     "priority": 1,
+    "strengthStatus": 1,
     "condLimitCount": 3
   }],
   "functions": [{
@@ -86435,6 +86436,96 @@
       "Rate": 1000,
       "Value": 1
     }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }]
+}, {
+  "id": 923551,
+  "name": "日月 A+",
+  "ruby": "じつげつ",
+  "unmodifiedDetail": "自身に無敵状態を付与(2回・3ターン)＆NP獲得量をアップ[{0}](3ターン)＆弱体無効状態を付与(3回・3ターン)[g][o]▲[/o][/g] ＋ 味方全体に〔天の力を持つ敵〕特攻状態を付与[{0}](3ターン)[g][o]▲[/o][/g]",
+  "type": "active",
+  "icon": "https://static.atlasacademy.io/JP/SkillIcons/skill_00403.png",
+  "coolDown": [8, 8, 8, 8, 8, 7, 7, 7, 7, 6],
+  "skillSvts": [{
+    "svtId": 105100,
+    "num": 3,
+    "priority": 2,
+    "strengthStatus": 99,
+    "condQuestId": 94164500,
+    "condQuestPhase": 3,
+    "condLimitCount": 3
+  }],
+  "functions": [{
+    "funcId": 289,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": 2
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 337,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 200
+    }, {
+      "Value": 210
+    }, {
+      "Value": 220
+    }, {
+      "Value": 230
+    }, {
+      "Value": 240
+    }, {
+      "Value": 250
+    }, {
+      "Value": 260
+    }, {
+      "Value": 270
+    }, {
+      "Value": 280
+    }, {
+      "Value": 300
+    }]
+  }, {
+    "funcId": 470,
+    "svals": [{
+      "Rate": 1000,
+      "Value": 1
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 627,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": 3
+    }, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+  }, {
+    "funcId": 23520,
+    "svals": [{
+      "Rate": 1000,
+      "Turn": 3,
+      "Count": -1,
+      "Value": 200
+    }, {
+      "Value": 210
+    }, {
+      "Value": 220
+    }, {
+      "Value": 230
+    }, {
+      "Value": 240
+    }, {
+      "Value": 250
+    }, {
+      "Value": 260
+    }, {
+      "Value": 270
+    }, {
+      "Value": 280
+    }, {
+      "Value": 300
+    }]
   }]
 }, {
   "id": 924550,
