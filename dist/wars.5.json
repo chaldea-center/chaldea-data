@@ -217338,8 +217338,48 @@
         "value": 1
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94164060,
       "noticeAt": 1794646800,
+      "openedAt": 1794650400,
+      "closedAt": 1796183999
+    }, {
+      "id": 94164600,
+      "name": "スラノッブの群れ ぷに滅戦",
+      "type": "main",
+      "flags": ["notDisplayResultGetPoint"],
+      "consume": 40,
+      "afterClear": "close",
+      "recommendLv": "80",
+      "spotId": 920710,
+      "warId": 9208,
+      "gifts": [{
+        "id": 94164018,
+        "type": "servant",
+        "objectId": 9809900,
+        "num": 1
+      }],
+      "groups": [{
+        "type": "eventQuest",
+        "groupId": 80639
+      }, {
+        "type": "questRelease",
+        "groupId": 94163900
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94164009
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "raidDead",
+        "targetId": 80639,
+        "value": 1
+      }],
+      "phases": [1],
+      "priority": 94164087,
+      "noticeAt": 1794650400,
       "openedAt": 1794650400,
       "closedAt": 1796183999
     }]
@@ -217504,8 +217544,48 @@
         "value": 2
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94164055,
       "noticeAt": 1794646800,
+      "openedAt": 1794650400,
+      "closedAt": 1796183999
+    }, {
+      "id": 94164601,
+      "name": "アカスラノッブの群れ ぷに滅戦",
+      "type": "main",
+      "flags": ["notDisplayResultGetPoint"],
+      "consume": 40,
+      "afterClear": "close",
+      "recommendLv": "80",
+      "spotId": 920711,
+      "warId": 9208,
+      "gifts": [{
+        "id": 94164018,
+        "type": "servant",
+        "objectId": 9809900,
+        "num": 1
+      }],
+      "groups": [{
+        "type": "eventQuest",
+        "groupId": 80639
+      }, {
+        "type": "questRelease",
+        "groupId": 94163900
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94164009
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "raidDead",
+        "targetId": 80639,
+        "value": 2
+      }],
+      "phases": [1],
+      "priority": 94164086,
+      "noticeAt": 1794650400,
       "openedAt": 1794650400,
       "closedAt": 1796183999
     }]
@@ -217674,6 +217754,45 @@
       "noticeAt": 1794646800,
       "openedAt": 1794650400,
       "closedAt": 1796183999
+    }, {
+      "id": 94164602,
+      "name": "ミドスラノッブの群れ ぷに滅戦",
+      "type": "main",
+      "flags": ["notDisplayResultGetPoint"],
+      "consume": 40,
+      "afterClear": "close",
+      "recommendLv": "80",
+      "spotId": 920712,
+      "warId": 9208,
+      "gifts": [{
+        "id": 94164018,
+        "type": "servant",
+        "objectId": 9809900,
+        "num": 1
+      }],
+      "groups": [{
+        "type": "eventQuest",
+        "groupId": 80639
+      }, {
+        "type": "questRelease",
+        "groupId": 94163900
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94164009
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "raidDead",
+        "targetId": 80639,
+        "value": 3
+      }],
+      "phases": [1],
+      "priority": 94164085,
+      "noticeAt": 1794650400,
+      "openedAt": 1794650400,
+      "closedAt": 1796183999
     }]
   }, {
     "id": 920713,
@@ -217684,7 +217803,217 @@
     "y": 1263.0,
     "nameOfsY": -13,
     "questOfsX": 37,
-    "questOfsY": -91
+    "questOfsY": -91,
+    "quests": [{
+      "id": 94164230,
+      "name": "キンメガスラノッブ ぷにぷに戦〔さらさら級〕",
+      "type": "event",
+      "flags": ["raid", "raidConnection", "noDisplayRaidRemain"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "70",
+      "spotId": 920713,
+      "warId": 9208,
+      "groups": [{
+        "type": "eventQuest",
+        "groupId": 80639
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94164009
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "raidAlive",
+        "targetId": 80639,
+        "value": 7
+      }, {
+        "type": "questGroupClear",
+        "targetId": 94163900,
+        "value": 3
+      }],
+      "phases": [1],
+      "priority": 94164034,
+      "noticeAt": 1794650400,
+      "openedAt": 1794650400,
+      "closedAt": 1796183999
+    }, {
+      "id": 94164231,
+      "name": "キンメガスラノッブ ぷにぷに戦〔とろとろ級〕",
+      "type": "event",
+      "flags": ["raid", "raidConnection", "noDisplayRaidRemain"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90",
+      "spotId": 920713,
+      "warId": 9208,
+      "groups": [{
+        "type": "eventQuest",
+        "groupId": 80639
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94164009
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "raidAlive",
+        "targetId": 80639,
+        "value": 7
+      }, {
+        "type": "questGroupClear",
+        "targetId": 94163900,
+        "value": 3
+      }],
+      "phases": [1],
+      "priority": 94164033,
+      "noticeAt": 1794650400,
+      "openedAt": 1794650400,
+      "closedAt": 1796183999
+    }, {
+      "id": 94164232,
+      "name": "キンメガスラノッブ ぷにぷに戦〔ぬるぬる級〕",
+      "type": "event",
+      "flags": ["raid", "raidConnection", "noDisplayRaidRemain"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90+",
+      "spotId": 920713,
+      "warId": 9208,
+      "groups": [{
+        "type": "eventQuest",
+        "groupId": 80639
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94164009
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "raidAlive",
+        "targetId": 80639,
+        "value": 7
+      }, {
+        "type": "questGroupClear",
+        "targetId": 94163900,
+        "value": 3
+      }],
+      "phases": [1],
+      "priority": 94164032,
+      "noticeAt": 1794650400,
+      "openedAt": 1794650400,
+      "closedAt": 1796183999
+    }, {
+      "id": 94164233,
+      "name": "キンメガスラノッブ ぷにぷに戦〔ぺたぺた級〕",
+      "type": "event",
+      "flags": ["raid", "raidConnection", "noDisplayRaidRemain"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90++",
+      "spotId": 920713,
+      "warId": 9208,
+      "groups": [{
+        "type": "eventQuest",
+        "groupId": 80639
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94164009
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "raidAlive",
+        "targetId": 80639,
+        "value": 7
+      }, {
+        "type": "questGroupClear",
+        "targetId": 94163900,
+        "value": 3
+      }],
+      "phases": [1],
+      "priority": 94164031,
+      "noticeAt": 1794650400,
+      "openedAt": 1794650400,
+      "closedAt": 1796183999
+    }, {
+      "id": 94164234,
+      "name": "キンメガスラノッブ ぷにぷに戦〔ねばねば級〕",
+      "type": "event",
+      "flags": ["raid", "raidConnection", "noDisplayRaidRemain"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90+++",
+      "spotId": 920713,
+      "warId": 9208,
+      "groups": [{
+        "type": "eventQuest",
+        "groupId": 80639
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94164009
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "raidAlive",
+        "targetId": 80639,
+        "value": 7
+      }, {
+        "type": "questGroupClear",
+        "targetId": 94163900,
+        "value": 3
+      }],
+      "phases": [1],
+      "priority": 94164030,
+      "noticeAt": 1794650400,
+      "openedAt": 1794650400,
+      "closedAt": 1796183999
+    }, {
+      "id": 94164606,
+      "name": "キンメガスラノッブ ぷに滅戦",
+      "type": "main",
+      "flags": ["notDisplayResultGetPoint"],
+      "consume": 40,
+      "afterClear": "close",
+      "recommendLv": "85",
+      "spotId": 920713,
+      "warId": 9208,
+      "gifts": [{
+        "id": 94164018,
+        "type": "servant",
+        "objectId": 9809900,
+        "num": 1
+      }],
+      "groups": [{
+        "type": "eventQuest",
+        "groupId": 80639
+      }, {
+        "type": "questRelease",
+        "groupId": 94163900
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94164009
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "raidDead",
+        "targetId": 80639,
+        "value": 7
+      }],
+      "phases": [1],
+      "priority": 94164081,
+      "noticeAt": 1794650400,
+      "openedAt": 1794650400,
+      "closedAt": 1796183999
+    }]
   }, {
     "id": 920714,
     "mapId": 9209,
@@ -217846,8 +218175,48 @@
         "value": 4
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94164045,
       "noticeAt": 1794646800,
+      "openedAt": 1794650400,
+      "closedAt": 1796183999
+    }, {
+      "id": 94164603,
+      "name": "クローン長慶 ぷに滅戦",
+      "type": "main",
+      "flags": ["notDisplayResultGetPoint"],
+      "consume": 40,
+      "afterClear": "close",
+      "recommendLv": "85",
+      "spotId": 920714,
+      "warId": 9208,
+      "gifts": [{
+        "id": 94164018,
+        "type": "servant",
+        "objectId": 9809900,
+        "num": 1
+      }],
+      "groups": [{
+        "type": "eventQuest",
+        "groupId": 80639
+      }, {
+        "type": "questRelease",
+        "groupId": 94163900
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94164009
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "raidDead",
+        "targetId": 80639,
+        "value": 4
+      }],
+      "phases": [1],
+      "priority": 94164084,
+      "noticeAt": 1794650400,
       "openedAt": 1794650400,
       "closedAt": 1796183999
     }]
@@ -218016,6 +218385,45 @@
       "noticeAt": 1794646800,
       "openedAt": 1794650400,
       "closedAt": 1796183999
+    }, {
+      "id": 94164604,
+      "name": "青水キメラの群れ ぷに滅戦",
+      "type": "main",
+      "flags": ["notDisplayResultGetPoint"],
+      "consume": 40,
+      "afterClear": "close",
+      "recommendLv": "80",
+      "spotId": 920715,
+      "warId": 9208,
+      "gifts": [{
+        "id": 94164018,
+        "type": "servant",
+        "objectId": 9809900,
+        "num": 1
+      }],
+      "groups": [{
+        "type": "eventQuest",
+        "groupId": 80639
+      }, {
+        "type": "questRelease",
+        "groupId": 94163900
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94164009
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "raidDead",
+        "targetId": 80639,
+        "value": 5
+      }],
+      "phases": [1],
+      "priority": 94164083,
+      "noticeAt": 1794650400,
+      "openedAt": 1794650400,
+      "closedAt": 1796183999
     }]
   }, {
     "id": 920716,
@@ -218178,8 +218586,48 @@
         "value": 6
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94164035,
       "noticeAt": 1794646800,
+      "openedAt": 1794650400,
+      "closedAt": 1796183999
+    }, {
+      "id": 94164605,
+      "name": "青水イノシシの群れ ぷに滅戦",
+      "type": "main",
+      "flags": ["notDisplayResultGetPoint"],
+      "consume": 40,
+      "afterClear": "close",
+      "recommendLv": "80",
+      "spotId": 920716,
+      "warId": 9208,
+      "gifts": [{
+        "id": 94164018,
+        "type": "servant",
+        "objectId": 9809900,
+        "num": 1
+      }],
+      "groups": [{
+        "type": "eventQuest",
+        "groupId": 80639
+      }, {
+        "type": "questRelease",
+        "groupId": 94163900
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94164009
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "raidDead",
+        "targetId": 80639,
+        "value": 6
+      }],
+      "phases": [1],
+      "priority": 94164082,
+      "noticeAt": 1794650400,
       "openedAt": 1794650400,
       "closedAt": 1796183999
     }]
@@ -218222,7 +218670,48 @@
     "y": 1231.0,
     "nameOfsY": -23,
     "questOfsX": 34,
-    "questOfsY": -81
+    "questOfsY": -81,
+    "quests": [{
+      "id": 94164010,
+      "name": "",
+      "type": "main",
+      "flags": ["notDisplayResultGetPoint"],
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "90",
+      "spotId": 920720,
+      "warId": 9208,
+      "gifts": [{
+        "id": 94164019,
+        "type": "servant",
+        "objectId": 9809900,
+        "num": 1
+      }, {
+        "id": 94164019,
+        "objectId": 2,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94164009
+      }, {
+        "type": "date",
+        "targetId": 0
+      }, {
+        "type": "questGroupClear",
+        "targetId": 94163900,
+        "value": 7
+      }, {
+        "type": "forceFalse",
+        "targetId": 0,
+        "closedMessage": "クエスト開放までしばらくお待ちください"
+      }],
+      "phases": [1],
+      "priority": 94164090,
+      "noticeAt": 1794650400,
+      "openedAt": 1794650400,
+      "closedAt": 1796183999
+    }]
   }, {
     "id": 920721,
     "mapId": 9209,
