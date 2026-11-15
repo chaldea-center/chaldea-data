@@ -216187,6 +216187,19 @@
       "dispTargetValue": 2,
       "dispCondType2": "questClear"
     }, {
+      "id": 920813,
+      "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9208/QMap_Cap9208_Atlas/gimmick_920813.png",
+      "x": 1024,
+      "y": 1024,
+      "depthOffset": -430,
+      "scale": 1000,
+      "dispCondType": "itemGet",
+      "dispTargetId": 94164010,
+      "dispTargetValue": 1,
+      "dispCondType2": "useItemEternity",
+      "dispTargetId2": 94164011,
+      "dispTargetValue2": 1
+    }, {
       "id": 920815,
       "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9208/QMap_Cap9208_Atlas/gimmick_920815.png",
       "x": 1024,
@@ -217178,6 +217191,102 @@
       "closedAt": 1796183999
     }]
   }, {
+    "id": 920706,
+    "mapId": 9209,
+    "name": "青城山山頂",
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9208/QMap_Cap9208_Atlas/spot_920706.png",
+    "x": 1476.0,
+    "y": 1076.0,
+    "nameOfsY": -11,
+    "questOfsX": 42,
+    "questOfsY": -66,
+    "quests": [{
+      "id": 94164011,
+      "name": "第１１話 爆発オチなんてサイテーだから",
+      "type": "main",
+      "flags": ["notDisplayResultGetPoint"],
+      "consume": 5,
+      "afterClear": "close",
+      "recommendLv": "90",
+      "spotId": 920706,
+      "warId": 9208,
+      "gifts": [{
+        "id": 94164019,
+        "type": "servant",
+        "objectId": 9809900,
+        "num": 1
+      }, {
+        "id": 94164019,
+        "objectId": 2,
+        "num": 1
+      }],
+      "groups": [{
+        "type": "eventQuest",
+        "groupId": 80639
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94164010
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1, 2],
+      "phasesWithEnemies": [1],
+      "phasesNoBattle": [2],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9416401110",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9416/9416401110.txt"
+        }, {
+          "scriptId": "9416401111",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9416/9416401111.txt"
+        }]
+      }, {
+        "phase": 2,
+        "scripts": [{
+          "scriptId": "9416401120",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9416/9416401120.txt"
+        }]
+      }],
+      "priority": 94164089,
+      "noticeAt": 1794650400,
+      "openedAt": 1794650400,
+      "closedAt": 1796183999
+    }, {
+      "id": 94164108,
+      "name": "【GUNMA巡り】山頂にて響けこだま",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90++",
+      "spotId": 920706,
+      "warId": 9208,
+      "gifts": [{
+        "id": 337,
+        "objectId": 3,
+        "num": 200
+      }],
+      "groups": [{
+        "type": "eventQuest",
+        "groupId": 80639
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94164012
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "priority": 94164021,
+      "noticeAt": 1794650400,
+      "openedAt": 1794650400,
+      "closedAt": 1796183999
+    }]
+  }, {
     "id": 920710,
     "mapId": 9209,
     "name": "スラノッブの群れ",
@@ -217214,6 +217323,7 @@
         "value": 1
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94164064,
       "noticeAt": 1794646800,
       "openedAt": 1794650400,
@@ -217245,6 +217355,7 @@
         "value": 1
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94164063,
       "noticeAt": 1794646800,
       "openedAt": 1794650400,
@@ -217276,6 +217387,7 @@
         "value": 1
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94164062,
       "noticeAt": 1794646800,
       "openedAt": 1794650400,
@@ -217307,6 +217419,7 @@
         "value": 1
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94164061,
       "noticeAt": 1794646800,
       "openedAt": 1794650400,
@@ -217378,6 +217491,7 @@
         "value": 1
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94164087,
       "noticeAt": 1794650400,
       "openedAt": 1794650400,
@@ -217584,6 +217698,7 @@
         "value": 2
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94164086,
       "noticeAt": 1794650400,
       "openedAt": 1794650400,
@@ -217837,6 +217952,7 @@
         "value": 3
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94164034,
       "noticeAt": 1794650400,
       "openedAt": 1794650400,
@@ -217871,6 +217987,7 @@
         "value": 3
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94164033,
       "noticeAt": 1794650400,
       "openedAt": 1794650400,
@@ -217905,6 +218022,7 @@
         "value": 3
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94164032,
       "noticeAt": 1794650400,
       "openedAt": 1794650400,
@@ -217939,6 +218057,7 @@
         "value": 3
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94164031,
       "noticeAt": 1794650400,
       "openedAt": 1794650400,
@@ -217973,6 +218092,7 @@
         "value": 3
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94164030,
       "noticeAt": 1794650400,
       "openedAt": 1794650400,
@@ -218012,6 +218132,7 @@
         "value": 7
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94164081,
       "noticeAt": 1794650400,
       "openedAt": 1794650400,
@@ -218218,6 +218339,7 @@
         "value": 4
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94164084,
       "noticeAt": 1794650400,
       "openedAt": 1794650400,
@@ -218260,6 +218382,7 @@
         "value": 5
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94164044,
       "noticeAt": 1794646800,
       "openedAt": 1794650400,
@@ -218291,6 +218414,7 @@
         "value": 5
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94164043,
       "noticeAt": 1794646800,
       "openedAt": 1794650400,
@@ -218322,6 +218446,7 @@
         "value": 5
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94164042,
       "noticeAt": 1794646800,
       "openedAt": 1794650400,
@@ -218353,6 +218478,7 @@
         "value": 5
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94164041,
       "noticeAt": 1794646800,
       "openedAt": 1794650400,
@@ -218424,6 +218550,7 @@
         "value": 5
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94164083,
       "noticeAt": 1794650400,
       "openedAt": 1794650400,
@@ -218631,6 +218758,7 @@
         "value": 6
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
       "priority": 94164082,
       "noticeAt": 1794650400,
       "openedAt": 1794650400,
@@ -218645,7 +218773,53 @@
     "y": 1490.0,
     "nameOfsY": -28,
     "questOfsX": 51,
-    "questOfsY": -98
+    "questOfsY": -98,
+    "quests": [{
+      "id": 94164012,
+      "name": "エピローグ 史上最高の爆弾娘",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 920717,
+      "warId": 9208,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/3.png",
+      "gifts": [{
+        "id": 94164020,
+        "objectId": 7999,
+        "num": 1
+      }, {
+        "id": 94164020,
+        "type": "eventSvtGet",
+        "objectId": 705500,
+        "num": 1
+      }],
+      "groups": [{
+        "type": "eventQuest",
+        "groupId": 80639
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94164011
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9416401210",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9416/9416401210.txt"
+        }]
+      }],
+      "priority": 94164088,
+      "noticeAt": 1794650400,
+      "openedAt": 1794650400,
+      "closedAt": 1796183999
+    }]
   }, {
     "id": 920718,
     "mapId": 9209,
@@ -218655,7 +218829,43 @@
     "y": 1502.0,
     "nameOfsY": -28,
     "questOfsX": 38,
-    "questOfsY": -87
+    "questOfsY": -87,
+    "quests": [{
+      "id": 94164300,
+      "name": "",
+      "type": "main",
+      "flags": ["noBattle"],
+      "consume": 0,
+      "afterClear": "close",
+      "recommendLv": "1",
+      "spotId": 920718,
+      "warId": 9208,
+      "giftIcon": "https://static.atlasacademy.io/JP/Items/3.png",
+      "gifts": [{
+        "id": 94164018,
+        "type": "servant",
+        "objectId": 9809900,
+        "num": 1
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94164012
+      }, {
+        "type": "date",
+        "targetId": 0,
+        "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分に開放"
+      }, {
+        "type": "forceFalse",
+        "targetId": 0,
+        "closedMessage": "データ更新後に開放"
+      }],
+      "phases": [1],
+      "phasesNoBattle": [1],
+      "priority": 94164080,
+      "noticeAt": 1794650400,
+      "openedAt": 1794819600,
+      "closedAt": 1796183999
+    }]
   }, {
     "id": 920719,
     "mapId": 9209,
@@ -218678,7 +218888,7 @@
     "questOfsY": -81,
     "quests": [{
       "id": 94164010,
-      "name": "",
+      "name": "第１０話 青い瞳のノッブ",
       "type": "main",
       "flags": ["notDisplayResultGetPoint"],
       "consume": 5,
@@ -218696,7 +218906,14 @@
         "objectId": 2,
         "num": 1
       }],
+      "groups": [{
+        "type": "eventQuest",
+        "groupId": 80639
+      }],
       "releaseConditions": [{
+        "type": "none",
+        "targetId": 0
+      }, {
         "type": "questClear",
         "targetId": 94164009
       }, {
@@ -218706,13 +218923,51 @@
         "type": "questGroupClear",
         "targetId": 94163900,
         "value": 7
-      }, {
-        "type": "forceFalse",
-        "targetId": 0,
-        "closedMessage": "クエスト開放までしばらくお待ちください"
       }],
       "phases": [1],
+      "phasesWithEnemies": [1],
+      "phaseScripts": [{
+        "phase": 1,
+        "scripts": [{
+          "scriptId": "9416401010",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9416/9416401010.txt"
+        }, {
+          "scriptId": "9416401011",
+          "script": "https://static.atlasacademy.io/JP/Script/94/9416/9416401011.txt"
+        }]
+      }],
       "priority": 94164090,
+      "noticeAt": 1794650400,
+      "openedAt": 1794650400,
+      "closedAt": 1796183999
+    }, {
+      "id": 94164107,
+      "name": "【GUNMA巡り】青き洞窟うどん",
+      "type": "event",
+      "flags": ["displayLoopmark"],
+      "consume": 40,
+      "afterClear": "repeatLast",
+      "recommendLv": "90+",
+      "spotId": 920720,
+      "warId": 9208,
+      "gifts": [{
+        "id": 327,
+        "objectId": 3,
+        "num": 100
+      }],
+      "groups": [{
+        "type": "eventQuest",
+        "groupId": 80639
+      }],
+      "releaseConditions": [{
+        "type": "questClear",
+        "targetId": 94164012
+      }, {
+        "type": "date",
+        "targetId": 0
+      }],
+      "phases": [1],
+      "priority": 94164022,
       "noticeAt": 1794650400,
       "openedAt": 1794650400,
       "closedAt": 1796183999
@@ -218928,6 +219183,16 @@
     "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9208/QMap_Cap9208_Atlas/img_road9208_00.png",
     "srcSpotId": 920704,
     "dstSpotId": 920705,
+    "dispCondType": "useItemTime",
+    "dispCondType2": "useItemTime",
+    "activeCondType": "questClear"
+  }, {
+    "id": 920705,
+    "warId": 9208,
+    "mapId": 9209,
+    "image": "https://static.atlasacademy.io/JP/Terminal/QuestMap/Capter9208/QMap_Cap9208_Atlas/img_road9208_00.png",
+    "srcSpotId": 920720,
+    "dstSpotId": 920706,
     "dispCondType": "useItemTime",
     "dispCondType2": "useItemTime",
     "activeCondType": "questClear"
