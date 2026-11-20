@@ -1165,7 +1165,7 @@
     "JP": null,
     "CN": "[servantName 105400](Saber)装备,自身在场且场地为〔阳光照射〕特性时,己方全体的Buster指令卡性能提升10%＆暴击威力提升20%",
     "TW": "[servantName 105400](Saber)裝備，自身在場且場地為〔陽光照射〕特性時，我方全體的Buster指令卡性能提升10%＆爆擊威力提升20%",
-    "NA": "Increase Buster Card effectiveness by 10% & Critical Strength by 20% for all allies only if [servantName 105400] is equipped with this Craft Essence when she is on the field or if she has the [Sunlight] trait",
+    "NA": "Increase Buster Card effectiveness by 10% & Critical Strength by 20% for all allies only if [servantName 105400] is equipped with this Craft Essence when she is on the field, and only if it is a [Sunlight] field",
     "KR": "[servantName 105400](세이버) 장착 시 자신이 필드에 있고 필드가 [햇빛] 특성일 때 아군 전체의 버스터 카드 성능 10% UP&크리티컬 위력 20% UP"
   },
   "[servantName 105500](セイバー)装備時のみ、自身がフィールドにいる間、味方全体のNP獲得量を10%アップ＆〔新選組のサーヴァント〕のクリティカル威力を15%アップ": {
@@ -7465,14 +7465,14 @@
     "JP": null,
     "CN": "关卡通关时获得的〔Rider〕职阶的牵绊点数增加20%[最大解放]",
     "TW": "任務通關時獲得的〔Rider〕職階的羈絆點數提升20%[最大解放]",
-    "NA": "Increases the Bond Points gained of {{Rider}} Rider allies by 20%.",
+    "NA": "Increase Class Bond gained by 20% when completing a quest for [Rider] Servants [MAX]",
     "KR": "퀘스트 클리어 시 얻는 [라이더] 클래스의 인연 포인트 20% 증가[최대해방]"
   },
   "クエストクリア時に得られる〔ライダー〕クラスの絆を4%増やす": {
     "JP": null,
     "CN": "关卡通关时获得的〔Rider〕职阶的牵绊点数增加4%",
     "TW": "任務通關時獲得的〔Rider〕職階的羈絆點數提升4%",
-    "NA": "Increases the Bond Points gained of {{Rider}} Rider allies by 4%.",
+    "NA": "Increase Class Bond gained by 4% when completing a quest for [Rider] Servants",
     "KR": "퀘스트 클리어 시 얻는 [라이더] 클래스의 인연 포인트 4% 증가"
   },
   "クエストクリア時に得られる〔中立〕特性の絆を20%増やす[最大解放]": {
@@ -15606,7 +15606,7 @@
     "JP": null,
     "CN": "己方单体的NP增加[{0}]＆暴击星掉落率提升(3回合)",
     "TW": "增加我方單體的NP[{0}]＆爆擊星掉落率提升(3回合)",
-    "NA": "Increase NP Gauge [{0}] & C. Star Drop Rate (3 turns) for one ally",
+    "NA": "Increase NP Gauge [{0}] & C. Star Drop Rate (3 turns) for a single ally",
     "KR": "아군 한 명의 NP 증가[{0}]&스타 발생률 UP(3턴)"
   },
   "味方単体のNPを増やす[{0}]＆スター発生率をアップ[{0}](3ターン)": {
@@ -16061,7 +16061,7 @@
     "JP": null,
     "CN": "己方单体的宝具威力提升[{0}](1回合)＆暴击威力提升[{0}](1回合)",
     "TW": "我方單體的寶具威力提升[{0}](1回合)＆爆擊威力提升[{0}](1回合)",
-    "NA": "Increase NP Strength [{0}] (1 turn) & Critical Strength [{0}] (1 turn) for one ally",
+    "NA": "Increase NP Strength [{0}] (1 turn) & Critical Strength [{0}] (1 turn) for a single ally",
     "KR": "아군 한 명의 보구 위력 UP[{0}](1턴)&크리티컬 위력 UP[{0}](1턴)"
   },
   "味方単体の宝具威力をアップ[{0}](1ターン)＆攻撃弱体状態を解除": {
@@ -19939,7 +19939,7 @@
     "JP": null,
     "CN": "付与自身〔活火焰〕状态「受击时降低敌方单体防御力(3回合)＆付与灼伤状态[{0}](3回合)」(3次·3回合)＆防御力提升[{0}](3回合)",
     "TW": "賦予自身〔活火焰〕狀態「受擊時降低敵方單體防禦力(3回合)＆賦予灼傷狀態[{0}](3回合)」(3次．3回合)＆防禦力提升[{0}](3回合)",
-    "NA": "Apply [Living Flame] state where [Decrease DEF (3 turns) and inflict Burn [{0}] (3 turns) to a single enemy when damaged (3 times, 3 turns)] & increase DEF [{0}] (3 turns) for yourself",
+    "NA": "Apply a [Living Flame] state that \"decreases DEF (3 turns) and inflicts Burn [{0}] (3 turns) to a single enemy when damaged\" (3 times, 3 turns) & increase DEF [{0}] (3 turns) for yourself",
     "KR": "자신에게 [살아있는 불꽃] 상태 ‘대미지를 받을 때 적 하나의 방어력 DOWN(3턴)&화상 상태 부여[{0}](3턴)하는 상태’ 부여(3회・3턴)&방어력 UP[{0}](3턴)"
   },
   "自身に〔男性〕特攻状態を15%付与＆NP獲得量を15%アップ＆宝具使用時にチャージ段階を2段階分上げる(1回)": {
@@ -20194,12 +20194,26 @@
     "NA": null,
     "KR": null
   },
+  "自身に〔魔弾〕状態を10個付与▲<〔魔弾〕状態は最大20個まで付与可能、Quick、Arts、Buster通常攻撃時に〔魔弾〕状態を1つ消費して攻撃力をアップ(1回)＆Extra攻撃時に〔魔弾〕状態をすべて消費して個数分攻撃力をアップ(1回)>＆無敵状態を付与(1ターン)＆Artsカード性能をアップ[{0}](3ターン)＆NPを増やす[{0}]▲": {
+    "JP": null,
+    "CN": null,
+    "TW": null,
+    "NA": null,
+    "KR": null
+  },
   "自身に〔魔弾〕状態を3つ付与<〔魔弾〕状態は最大20個まで付与可能、Quick、Arts、Buster通常攻撃時に〔魔弾〕状態を1つ消費して攻撃力をアップ(1回)＆Extra攻撃時に〔魔弾〕状態をすべて消費して個数分攻撃力をアップ(1回)> ＋ スターを獲得[{0}]": {
     "JP": null,
     "CN": "付与自身3个〔魔弹〕状态<〔魔弹〕状态最多可付与20个,Quick、Arts、Buster普通攻击时消耗1个〔魔弹〕状态提升攻击力(1次)＆Extra攻击时消耗所有〔魔弹〕状态,并根据消耗个数相应提升攻击力(1次)>＋获得暴击星[{0}]",
     "TW": "賦予自身3個〔魔彈〕狀態<〔魔彈〕狀態最多可賦予20個，Quick、Arts、Buster普通攻擊時消耗1個〔魔彈〕狀態提升攻擊力(1次)＆Extra Attack時消耗所有〔魔彈〕狀態，並根據消耗個數提升攻擊力(1次)>＋獲得爆擊星[{0}]",
     "NA": "Apply 3 [Magic Bullets] <Up to 20 [Magic Bullets] can be applied. 1 [Magic Bullet] is expended during every normal Quick, Arts, or Buster attack to increase ATK (1 time). All [Magic Bullets] are expended during Extra attacks to increase ATK based on the number expended (1 time)> for yourself + Gain C. Stars [{0}]",
     "KR": "자신에게 [마탄] 상태를 3개 부여<[마탄] 상태는 최대 20개까지 부여 가능, 퀵, 아츠, 버스터 통상 공격 시 [마탄] 상태를 1개 소비해서 공격력 UP(1회)&엑스트라 공격 시 [마탄] 상태를 모두 소비해서 소비 개수만큼 공격력 UP(1회)> + 스타 획득[{0}]"
+  },
+  "自身に〔魔弾〕状態を5個付与▲<〔魔弾〕状態は最大20個まで付与可能、Quick、Arts、Buster通常攻撃時に〔魔弾〕状態を1つ消費して攻撃力をアップ(1回)＆Extra攻撃時に〔魔弾〕状態をすべて消費して個数分攻撃力をアップ(1回)>＆NPを増やす[{0}]▲ ＋ スターを獲得[{0}]": {
+    "JP": null,
+    "CN": null,
+    "TW": null,
+    "NA": null,
+    "KR": null
   },
   "自身に〔魔弾〕状態を6つ付与<〔魔弾〕状態は最大20個まで付与可能、Quick、Arts、Buster通常攻撃時に〔魔弾〕状態を1つ消費して攻撃力をアップ(1回)＆Extra攻撃時に〔魔弾〕状態をすべて消費して個数分攻撃力をアップ(1回)>＆無敵状態を付与(1ターン)＆Artsカード性能をアップ[{0}](3ターン)": {
     "JP": null,
@@ -20709,7 +20723,7 @@
     "JP": null,
     "CN": "付与自身毅力状态[{0}](1次·3回合)＆付与「毅力发动时,己方全体的NP增加[{0}]的状态」(1次·3回合)▲＆暴击星集中度提升[{0}](1回合)＋获得暴击星[{0}]",
     "TW": "賦予自身毅力狀態[{0}](1次．3回合)＆賦予「毅力發動時，我方全體的NP增加[{0}]的狀態」(1次．3回合)▲＆爆擊星集中提升[{0}](1回合)＋獲得爆擊星[{0}]",
-    "NA": null,
+    "NA": "Apply Guts [{0}] (1 time, 3 turns) & a state that \"increases NP Gauge [{0}] for all allies when Guts is activated\" (1 time, 3 turns) ▲ & increase C. Star Gather Rate [{0}] (1 turn) for yourself + Gain C. Stars [{0}]",
     "KR": "자신에게 근성 상태 부여[{0}](1회・3턴)&‘근성 발동 시 아군 전체의 NP 증가[{0}] 상태’ 부여(1회・3턴)▲&스타 집중도 UP[{0}](1턴) + 스타 획득[{0}]"
   },
   "自身にガッツ状態を付与[{0}](1回・3ターン)＆「ガッツ発動時に自身の宝具威力をアップ[{0}](1回・3ターン)＆弱体状態を解除する状態」を付与(3ターン)＆NPを増やす[{0}]": {
@@ -30922,7 +30936,7 @@
     "JP": null,
     "CN": "自身的NP增加[{0}]＋己方全体的NP获得量提升[{0}](3回合)＆被暴击发生耐性提升[{0}](3回合)＆强化解除耐性提升[{0}](1次·3回合)▲＆付与使用宝具时充能阶段上升1级的状态(1次·3回合)▲",
     "TW": "自身的NP增加[{0}]＋我方全體的NP獲得量提升[{0}](3回合)＆被爆擊發生耐性提升[{0}](3回合)＆強化解除耐性提升[{0}](1次．3回合)▲＆賦予使用寶具時Charge階段上升1級的狀態(1次．3回合)▲",
-    "NA": null,
+    "NA": "Increase NP Gauge [{0}] for yourself + Increase NP Gain [{0}] (3 turns) & Critical Resistance [{0}] (3 turns) & Buff Removal Resistance [{0}] (1 time, 3 turns) ▲ & NP Charge by 1 level when using NP (1 time, 3 turns) ▲ for all allies",
     "KR": "자신의 NP 증가[{0}] + 아군 전체의 NP 획득량 UP[{0}](3턴)&받는 크리티컬 발생 내성 UP[{0}](3턴)&강화 해제 내성 UP[{0}](1회・3턴)▲&보구 사용 시 차지 단계가 1단계 증가하는 상태 부여(1회・3턴)▲"
   },
   "自身のNPを増やす[{0}] ＋ 味方全体のクリティカル威力をアップ[{0}](3ターン)＆〔竜〕特攻状態を付与[{0}](3ターン)": {
@@ -38658,56 +38672,56 @@
     "CN": "自身提供的生命值回复量提升10%[最大解放]",
     "TW": "自身提供的HP恢復量提升10%[最大解放]",
     "NA": "Increase Healing effectiveness by 10% for yourself [MAX]",
-    "KR": "자신의 주는 HP 회복량을 10% UP[최대해방]"
+    "KR": "자신이 주는 HP 회복량 10% UP[최대해방]"
   },
   "自身の与HP回復量を10%アップ＆NP獲得量を5%アップ": {
     "JP": null,
     "CN": "自身提供的生命值回复量提升10%＆NP获得量提升5%",
     "TW": "自身提供的HP恢復量提升10%＆NP獲得量提升5%",
     "NA": "Increase HP Recovery amount by 10% & NP Gain by 5% for yourself",
-    "KR": "자신의 주는 HP 회복량 10% UP&NP 획득량 5% UP"
+    "KR": "자신이 주는 HP 회복량 10% UP&NP 획득량 5% UP"
   },
   "自身の与HP回復量を15%アップ": {
     "JP": null,
     "CN": "自身提供的生命值回复量提升15%",
     "TW": "自身提供的HP恢復量提升15%",
     "NA": "Increase your Healing effectiveness by 15%",
-    "KR": "자신의 주는 HP 회복량 15% UP"
+    "KR": "자신이 주는 HP 회복량 15% UP"
   },
   "自身の与HP回復量を15%アップ＆NP獲得量を10%アップ[最大解放]": {
     "JP": null,
     "CN": "自身提供的生命值回复量提升15%＆NP获得量提升10%[最大解放]",
     "TW": "自身提供的HP恢復量提升15%＆NP獲得量提升10%[最大解放]",
     "NA": "Increase HP Recovery amount by 15% & NP Gain by 10% for yourself [MAX]",
-    "KR": "자신의 주는 HP 회복량 15% UP&NP 획득량 10% UP[최대해방]"
+    "KR": "자신이 주는 HP 회복량 15% UP&NP 획득량 10% UP[최대해방]"
   },
   "自身の与HP回復量を20%アップ[最大解放]": {
     "JP": null,
     "CN": "自身提供的生命值回复量提升20%[最大解放]",
     "TW": "自身提供的HP恢復量提升20%[最大解放]",
     "NA": "Increase your Healing effectiveness by 20% [MAX]",
-    "KR": "자신의 주는 HP 회복량 20% UP[최대해방]"
+    "KR": "자신이 주는 HP 회복량 20% UP[최대해방]"
   },
   "自身の与HP回復量を5%アップ": {
     "JP": null,
     "CN": "自身提供的生命值回复量提升5%",
     "TW": "自身提供的HP恢復量提升5%",
     "NA": "Increase Healing effectiveness by 5% for yourself",
-    "KR": "자신의 주는 HP 회복량을 5% UP"
+    "KR": "자신이 주는 HP 회복량 5% UP"
   },
   "自身の与回復量をアップ[{0}](1ターン)": {
     "JP": null,
     "CN": "自身提供的生命值回复量提升[{0}](1回合)",
     "TW": "自身提供的HP恢復量提升[{0}](1回合)",
     "NA": "Increase your Healing effectiveness [{0}] (1 turn)",
-    "KR": "자신의 주는 회복량 UP[{0}](1턴)"
+    "KR": "자신이 주는 회복량 UP[{0}](1턴)"
   },
   "自身の与回復量をアップ[{0}](3ターン)▲＆NPを増やす[{0}]▲ ＋ 自身を除く味方全体の宝具威力をアップ[{0}](3ターン)▲": {
     "JP": null,
     "CN": "自身提供的生命值回复量提升[{0}](3回合)▲＆NP增加[{0}]▲＋除自身以外的己方全体宝具威力提升[{0}](3回合)▲",
     "TW": "自身提供的HP恢復量提升[{0}](3回合)▲＆NP增加[{0}]▲＋除自身以外的我方全體寶具威力提升[{0}](3回合)▲",
     "NA": "Increase Healing effectiveness [{0}] (3 turns) ▲ & increase NP Gauge [{0}] ▲ for yourself + Increase NP Strength for all allies excluding yourself [{0}] (3 turns) ▲",
-    "KR": "자신의 주는 회복량 UP[{0}](3턴)▲&NP 증가[{0}]▲ + 자신을 제외한 아군 전체의 보구 위력 UP[{0}](3턴)▲"
+    "KR": "자신이 주는 회복량 UP[{0}](3턴)▲&NP 증가[{0}]▲ + 자신을 제외한 아군 전체의 보구 위력 UP[{0}](3턴)▲"
   },
   "自身の即死付与成功率を10%アップ[最大解放]": {
     "JP": null,
@@ -39588,7 +39602,7 @@
     "JP": null,
     "CN": "解除自身的弱化状态＆弱化耐性大幅提升[{0}](3回合)",
     "TW": "解除自身的弱化狀態＆弱化狀態耐性大幅提升[{0}](3回合)",
-    "NA": "Remove Debuffs & increase Debuff Resist for yourself [{0}] (3 turns)",
+    "NA": "Remove Debuffs & greatly increase Debuff Resist for yourself [{0}] (3 turns)",
     "KR": "자신의 약화 상태 해제&약화 내성 크게 UP[{0}](3턴)"
   },
   "自身の弱体状態を解除＆弱体耐性を大アップ[{0}](3ターン) ＋ 味方全体のArtsカード性能をアップ[{0}](3ターン)▲＆強化解除耐性をアップ[{0}](3ターン)▲": {
@@ -39925,7 +39939,7 @@
     "CN": "自身的攻击威力提升50%【巡灵的祝祭 第12弹限定】",
     "TW": "自身的攻擊威力提升50%【巡靈的祝祭 第12彈限定】",
     "NA": null,
-    "KR": null
+    "KR": "자신의 공격 위력 50% UP[순령의 축제 제12탄 기간 한정]"
   },
   "自身の攻撃の威力を50%アップ【巡霊の祝祭 第13弾期間限定】": {
     "JP": null,
